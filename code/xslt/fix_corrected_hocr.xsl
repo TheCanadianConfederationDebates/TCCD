@@ -7,13 +7,23 @@
   xpath-default-namespace="http://www.w3.org/1999/xhtml"
   xmlns:hcmc="http://hcmc.uvic.ca/ns"
   version="2.0">
+<!-- NOTE: MOST OF WHAT'S PROMISED BELOW IS NOT YET THERE! -->
+  
   <xd:doc scope="stylesheet">
     <xd:desc>
       <xd:p><xd:b>Created on:</xd:b> Nov 27, 2015</xd:p>
       <xd:p><xd:b>Author:</xd:b> mholmes</xd:p>
-      <xd:p>This identity transform simply strips all the line-level markup out of 
-      an HOCR (=XHTML) file, leaving para- and word-level encoding. This allows 
-      the hocr2pdf tool to read the files successfully and create a text-over-image 
+      <xd:p>This identity transform takes the enhanced HOCR files we have previously
+        created which were used for correction, and removes all the enhanced features
+        to return the file to a basic HOCR format. It also does a number of other cunning
+        manipulations, including: 
+          - stripping all the line-level markup, leaving para- and word-level encoding, which allows 
+            the hocr2pdf tool to read the files successfully and create a text-over-image 
+          - Identifies situations in which word elements have been emptied by the correctors,
+            and removes them.
+          - Where lines have been rewritten completely, removing the word elements, 
+            attempts to reconstruct them by calculating plausible box sizes and positions
+            for them.
       PDF.</xd:p>
     </xd:desc>
   </xd:doc>
