@@ -13,7 +13,7 @@
       <xd:p>This stylesheet processes HOCR files produced by 
       Tesseract in order to add some features helpful for 
       people doing proofing/correction work on them in 
-      a browser interface.</xd:p>
+      an editing interface.</xd:p>
     </xd:desc>
   </xd:doc>
   
