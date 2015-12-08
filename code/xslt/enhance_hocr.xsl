@@ -42,13 +42,13 @@
         display: block;
         }
         span[class="ocrx_word"][title*="x_wconf 6"], span[class="ocrx_word"][title*="x_wconf 5"], span[class="ocrx_word"][title*="x_wconf 4"], span[class="ocrx_word"][title*="x_wconf 3"], span[class="ocrx_word"][title*="x_wconf 2"], span[class="ocrx_word"][title*="x_wconf 1"], span[class="ocrx_word"][title*="x_wconf 0"]{
-        background-color: #ffdddd;
+        background-color: #ffff00;
         }
-        div.ocr_page{
+        /* div.ocr_page{
           overflow: scroll;
           max-width: 49%;
           max-height: 100%; 
-        }
+        } */
         p.editorial{
           border: solid 1px black;
           background-color: #c0ffc0;
@@ -77,21 +77,21 @@
   <xsl:template match="body">
     <xsl:copy>
       <p contenteditable="true" class="editorial">THIS IS AN UNCORRECTED OCR FILE. Once you have corrected it, please change this message to say "Corrected by [your name] on [the date, as yyyy-mm-dd]."<br/>Like this message, each individual word is editable in a web browser. You can then use File / Save to save the resulting corrected file, and then commit it back to the GitHub repository.</p>
-      <div class="pageImage">
+      <!--<div class="pageImage">
       <img src="../images/{$fName}" title="Original page image for checking." alt="Original page-image for checking."/>
-      </div>
+      </div>-->
       
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="span[@class='ocrx_word']">
+  <!--<xsl:template match="span[@class='ocrx_word']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="contenteditable">true</xsl:attribute>
       <xsl:apply-templates/>
     </xsl:copy>
-  </xsl:template>
+  </xsl:template>-->
   
   <!-- Copy everything else as-is. -->
   <xsl:template match="@*|node()" priority="-1">
