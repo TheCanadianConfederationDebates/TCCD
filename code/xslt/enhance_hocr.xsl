@@ -85,13 +85,13 @@
     </xsl:copy>
   </xsl:template>
   
-  <!--<xsl:template match="span[@class='ocrx_word']">
+  <xsl:template match="span[@class='ocrx_word']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="contenteditable">true</xsl:attribute>
       <xsl:apply-templates/>
     </xsl:copy>
-  </xsl:template>-->
+  </xsl:template>
   
   <!-- Copy everything else as-is. -->
   <xsl:template match="@*|node()" priority="-1">
