@@ -13,21 +13,17 @@
       <xd:p>This stylesheet processes HOCR files produced by 
       Tesseract in order to add some features helpful for 
       people doing proofing/correction work on them in 
-      a browser interface.</xd:p>
+      an editing interface.</xd:p>
     </xd:desc>
   </xd:doc>
   
-  <xsl:output method="xhtml" encoding="UTF-8" normalization-form="NFC" omit-xml-declaration="yes" exclude-result-prefixes="#all" />
+  
+  <!-- We'll use XHTML 1 strict, because that's what Kompozer and hocr2pdf like. -->
+  <xsl:output method="xhtml" encoding="UTF-8" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"  normalization-form="NFC" omit-xml-declaration="yes" exclude-result-prefixes="#all" byte-order-mark="no" />
   
   <xsl:variable name="fName" select="substring-before(tokenize(document-uri(/), '[\\/]')[last()], '.hocr')"/>
   
-  <xsl:template match="/">
-<!--  We'll use an HTML5 doctype. We can flip back to XHTML later for the 
-    purposes of e.g. hocr2pdf. -->
-    <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html>
-</xsl:text>
-    <xsl:apply-templates/>
-  </xsl:template>
+  <xsl:template match="/"><xsl:apply-templates/></xsl:template>
   
   <xsl:template match="head">
     <xsl:copy>
@@ -76,7 +72,7 @@
   
   <xsl:template match="body">
     <xsl:copy>
-      <p contenteditable="true" class="editorial">THIS IS AN UNCORRECTED OCR FILE. Once you have corrected it, please change this message to say "Corrected by [your name] on [the date, as yyyy-mm-dd]."<br/>Like this message, each individual word is editable in a web browser. You can then use File / Save to save the resulting corrected file, and then commit it back to the GitHub repository.</p>
+      <p class="editorial">THIS IS AN UNCORRECTED OCR FILE. Once you have corrected it, please change this message to say "Corrected by [your name] on [the date, as yyyy-mm-dd]."<br/>Save the corrected file, and then commit it back to yoru fork of the GitHub repository, and issue a pull request.</p>
       <!--<div class="pageImage">
       <img src="../images/{$fName}" title="Original page image for checking." alt="Original page-image for checking."/>
       </div>-->
@@ -90,8 +86,8 @@
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="contenteditable">true</xsl:attribute>
       <xsl:apply-templates/>
-    </xsl:copy>
-  </xsl:template>-->
+    </xsl:copy>-->
+  <!--</xsl:template>-->
   
   <!-- Copy everything else as-is. -->
   <xsl:template match="@*|node()" priority="-1">
