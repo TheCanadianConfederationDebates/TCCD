@@ -31,9 +31,14 @@
       <meta name="status" content="uncorrected"/>
       <style type="text/css">
         body, div, p{
-        display: block;
-        margin: 0.5em;
+          display: block;
+          margin: 0.5em;
         }
+        p{
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        
         span[class="ocr_line"]{
         display: block;
         }
