@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="all" name="sgml-to-tei" xmlns:if="ant:if"
+  xmlns:unless="ant:unless">
+<!--  
+    This script is designed to run various processed and generate 
+    OCR output in a variety of formats from a folder full of page-scans.
+    The folder containing page-scan folder is supplied as the property 
+    rootFolder; images are expected to be found inside ${rootFolder}/images.
+  -->
+  <property name="rootFolder" value=""/>
+  <property name="imageFolder" value="${rootFolder}/images"/>
+  
+  <property name="echo.separator" value="***********************************************************"/>
+  
+  <property name="hocrFolder" value="${rootFolder}/hocr_orig"/>
+  <property name="pdfFolder" value="${rootFolder}/pdf"/>
+  <property name="pdfFileName" value="${rootFolder}/pdf/${rootFolder}.pdf"/>
+  
+  <fileset id="imageFiles" dir="${imageFolder}">
+    <include name="*.jpg"/>
+  </fileset>
+  
+  <target name="cleanAndCheck">
+    <echo message="${echo.separator}"/>
+    <echo message="Looking for page image files..."/>
+    <resourcecount property="imageFileCount" refId="imageFiles">
+    </resourcecount>
+    <echo message="${echo.separator}"/>
+    <echo message="Found ${imageFileCount} image files..."/>
+    <echo message="Cleaning up and creating folders..."/>
+    <delete dir="${hocrFolder}"/>
+    <mkdir dir="${hocrFolder}"/>
+    <delete dir="${pdfFolder}"/>
+    <mkdir dir="${pdfFolder}"/>
+  </target>
+  
+  <target name="createHocrFiles">
+    <echo message="${echo.separator}"/>
+    <echo message="Creating HOCR files with Tesseract..."/>
+    <apply executable="tesseract">
+      <srcfile/>
+      <targetfile/>
+      <arg line="-l eng+fra"/>
+      <arg value="hocr"/>
+      <fileset refid="imageFiles"/>
+      <mapper type="glob" from="*.jpg" to="${hocrFolder}/*"/>
+    </apply>
+  </target>
+  
+  <target name="createPdfFiles">
+    <echo message="${echo.separator}"/>
+    <echo message="Creating PDF files with Tesseract..."/>
+    <apply executable="tesseract">
+      <srcfile/>
+      <targetfile/>
+      <arg line="-l eng+fra+isl+nor+swe+dan"/>
+      <arg value="pdf"/>
+      <fileset refid="imageFiles"/>
+      <mapper type="glob" from="*.jpg" to="${pdfFolder}/*"/>
+    </apply>
+  </target>
+  
+  <target name="createSinglePdf">
+    <echo message="${echo.separator}"/>
+    <echo message="Combining page PDFs to create a single file..."/>
+    <echo message="PDF file name will be: ${pdfFileName}"/>
+    <fileset id="pdfFiles" dir="${pdfFolder}">
+      <include name="*.pdf"/>
+    </fileset>
+    <pathconvert dirsep="/" refid="pdfFiles" property="pdfFileList" pathsep=" ">
+      <mapper type="regexp" from="(.*)" to="\1" />
+    </pathconvert>
+    <echo message="PDF files: ${pdfFileList}"/>
+    <exec executable="gs">
+      <arg value="-dBatch"/>
+      <arg value="-dnoPause"/>
+      <arg value="-q"/>
+      <arg value="-sDEVICE=pdfwrite"/>
+      <arg value="-dPDFSETTINGS=/prepress"/>
+      <arg value="-sOutputFile=${pdfFileName}"/>
+      <arg line="${pdfFileList}"/>
+    </exec>
+  </target>
+
+  <target name="all">
+    <antcall target="cleanAndCheck"/>
+    <antcall target="createHocrFiles"/>
+    <antcall target="createPdfFiles"/>
+    <antcall target="createSinglePdf"/>
+  </target>
+
+</project>
