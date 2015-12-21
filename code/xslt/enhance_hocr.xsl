@@ -72,7 +72,7 @@
   
   <xsl:template match="body">
     <xsl:copy>
-      <p class="editorial">THIS IS AN UNCORRECTED OCR FILE. Once you have corrected it, please change this message to say "Corrected by [your name] on [the date, as yyyy-mm-dd]."<br/>Save the corrected file, and then commit it back to yoru fork of the GitHub repository, and issue a pull request.</p>
+      <p class="editorial">THIS IS AN UNCORRECTED OCR FILE. Once you have corrected it, please change this message to say "Corrected by [your name] on [the date, as yyyy-mm-dd]."<br/>Save the corrected file, and then commit it back to your fork of the GitHub repository, and issue a pull request.</p>
       <!--<div class="pageImage">
       <img src="../images/{$fName}" title="Original page image for checking." alt="Original page-image for checking."/>
       </div>-->
