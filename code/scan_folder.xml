@@ -13,6 +13,7 @@
   <property name="echo.separator" value="***********************************************************"/>
   
   <property name="hocrFolder" value="${rootFolder}/hocr_orig"/>
+  <property name="enhancedHocrFolder" value="${rootFolder}/hocr"/>
   <property name="pdfFolder" value="${rootFolder}/pdf"/>
   <property name="pdfFileName" value="${rootFolder}/pdf/${rootFolder}.pdf"/>
   
@@ -81,12 +82,24 @@
       <arg line="${pdfFileList}"/>
     </exec>
   </target>
+  
+  <target name="createEnhancedHocrFiles">
+    <echo message="${echo.separator}"/>
+    <echo message="Processing HOCR files to create XHTML 1.0 Strict files for proofing..."/>
+    <xslt basedir="${hocrFolder}" destdir="enhancedHocrFolder"
+      includes="*.hocr"
+      force="true" extension=".html" style="xslt/enhance_hocr.xsl">
+      <classpath location="utilities/saxon9he.jar"/>
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+  </target>
 
   <target name="all">
     <antcall target="cleanAndCheck"/>
     <antcall target="createHocrFiles"/>
     <antcall target="createPdfFiles"/>
     <antcall target="createSinglePdf"/>
+    <antcall target="createEnhancedHocrFiles"/>
   </target>
 
 </project>
