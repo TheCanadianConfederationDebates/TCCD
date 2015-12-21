@@ -31,6 +31,8 @@
     <echo message="Cleaning up and creating folders..."/>
     <delete dir="${hocrFolder}"/>
     <mkdir dir="${hocrFolder}"/>
+    <delete dir="${enhancedHocrFolder}"/>
+    <mkdir dir="${enhancedHocrFolder}"/>
     <delete dir="${pdfFolder}"/>
     <mkdir dir="${pdfFolder}"/>
   </target>
