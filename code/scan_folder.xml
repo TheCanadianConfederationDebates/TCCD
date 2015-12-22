@@ -63,6 +63,9 @@
     </apply>
   </target>
   
+<!-- Note that this failed in its first run, and in any case is not 
+     practical for collections of pages on the scale we're working 
+     with. -->
   <target name="createSinglePdf">
     <echo message="${echo.separator}"/>
     <echo message="Combining page PDFs to create a single file..."/>
@@ -85,6 +88,10 @@
     </exec>
   </target>
   
+<!--  Note: this incarnation takes forever, since it seems to spin up a
+      separate Saxon VM for every operation. Need a better approach: a 
+      single operation in which the XSLT pulls in the collection of files
+      based on a folder param. -->
   <target name="createEnhancedHocrFiles">
     <echo message="${echo.separator}"/>
     <echo message="Processing HOCR files to create XHTML 1.0 Strict files for proofing..."/>
@@ -100,7 +107,7 @@
     <antcall target="cleanAndCheck"/>
     <antcall target="createHocrFiles"/>
     <antcall target="createPdfFiles"/>
-    <antcall target="createSinglePdf"/>
+    <!--<antcall target="createSinglePdf"/>-->
     <antcall target="createEnhancedHocrFiles"/>
   </target>
 
