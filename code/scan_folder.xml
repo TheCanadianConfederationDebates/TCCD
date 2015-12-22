@@ -88,9 +88,9 @@
   <target name="createEnhancedHocrFiles">
     <echo message="${echo.separator}"/>
     <echo message="Processing HOCR files to create XHTML 1.0 Strict files for proofing..."/>
-    <xslt basedir="${hocrFolder}" destdir="enhancedHocrFolder"
+    <xslt basedir="${hocrFolder}" destdir="${enhancedHocrFolder}"
       includes="*.hocr"
-      force="true" extension=".html" style="xslt/enhance_hocr.xsl">
+      force="true" extension=".hocr.html" style="xslt/enhance_hocr.xsl">
       <classpath location="utilities/saxon9he.jar"/>
       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
     </xslt>
