@@ -100,14 +100,14 @@
       <xsl:variable name="possPageNum" as="xs:string*">
         <xsl:choose>
           <xsl:when test="string-length($firstMeaningfulDiv) gt 0 and matches($firstMeaningfulDiv, '\d')">
-            <xsl:analyze-string select="$firstMeaningfulDiv" regex="[\divxc]+">
+            <xsl:analyze-string select="$firstMeaningfulDiv" regex="((^[ivxc\d]+(\s|$))|((^|\s)[ivxc\d]+$))">
               <xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring>
               <xsl:non-matching-substring/>
             </xsl:analyze-string>
           </xsl:when>
           <xsl:when test="string-length($lastMeaningfulDiv) gt 0 and matches($lastMeaningfulDiv, '\d')">
-            <xsl:analyze-string select="$lastMeaningfulDiv" regex="[\divxc]+">
-              <xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring>
+            <xsl:analyze-string select="$lastMeaningfulDiv" regex="((^[ivxc\d]+(\s|$))|((^|\s)[ivxc\d]+$))">
+              <xsl:matching-substring><xsl:value-of select="normalize-space(.)"/></xsl:matching-substring>
               <xsl:non-matching-substring/>
             </xsl:analyze-string>
           </xsl:when>
