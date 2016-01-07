@@ -14,6 +14,9 @@
       Tesseract in order to add some features helpful for 
       people doing proofing/correction work on them in 
       an editing interface.</xd:p>
+      <xd:p>This file is for a single document transformation.
+      A bulk transformer is much more efficient, so another 
+      module provides that, for use in e.g. Ant processes.</xd:p>
     </xd:desc>
   </xd:doc>
   
@@ -86,13 +89,18 @@
     </xsl:copy>
   </xsl:template>
   
-  <!--<xsl:template match="span[@class='ocrx_word']">
+<!--  We want to convert styles in tags to actual style attributes, for ease of editing in -->
+  <xsl:template match="span[@class='ocrx_word'][descendant::strong or descendant::em or descendant::i]">
+    <xsl:variable name="styleAttBits" as="xs:string*" select="(if (descendant::strong) then 'font-weight: bold;' else (), if (descendant::em or descendant::i) then 'font-style: italic;' else (), if (@style) then @style else ())"/>
+    <xsl:variable name="styleAtt" select="string-join(distinct-values($styleAttBits), ' ')"/>
     <xsl:copy>
-      <xsl:copy-of select="@*"/>
-      <xsl:attribute name="contenteditable">true</xsl:attribute>
+      <xsl:copy-of select="@*[not(local-name() = 'style')]"/>
+      <xsl:attribute name="style" select="$styleAtt"/>
       <xsl:apply-templates/>
-    </xsl:copy>-->
-  <!--</xsl:template>-->
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="strong[ancestor::span[@class='ocrx_word']] | em[ancestor::span[@class='ocrx_word']]"><xsl:apply-templates/></xsl:template>
   
   <!-- Copy everything else as-is. -->
   <xsl:template match="@*|node()" priority="-1">

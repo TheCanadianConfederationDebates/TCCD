@@ -13,7 +13,9 @@
   <property name="echo.separator" value="***********************************************************"/>
   
   <property name="hocrFolder" value="${rootFolder}/hocr_orig"/>
+  <property name="absHocrFolder" location="${hocrFolder}"/>
   <property name="enhancedHocrFolder" value="${rootFolder}/hocr"/>
+  <property name="absEnhancedHocrFolder" location="${enhancedHocrFolder}"/>
   <property name="pdfFolder" value="${rootFolder}/pdf"/>
   <property name="pdfFileName" value="${rootFolder}/pdf/${rootFolder}.pdf"/>
   
@@ -92,7 +94,7 @@
       separate Saxon VM for every operation. Need a better approach: a 
       single operation in which the XSLT pulls in the collection of files
       based on a folder param. -->
-  <target name="createEnhancedHocrFiles">
+<!--  <target name="createEnhancedHocrFiles">
     <echo message="${echo.separator}"/>
     <echo message="Processing HOCR files to create XHTML 1.0 Strict files for proofing..."/>
     <xslt basedir="${hocrFolder}" destdir="${enhancedHocrFolder}"
@@ -101,6 +103,18 @@
       <classpath location="utilities/saxon9he.jar"/>
       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
     </xslt>
+  </target>-->
+  <target name="createEnhancedHocrFiles">
+    <echo message="${echo.separator}"/>
+    <echo message="Processing HOCR files to create XHTML 1.0 Strict files for proofing..."/>
+    <echo message="Processing documents in ${hocrFolder} to produce output in ${enhancedHocrFolder}"/>
+    <java classname="net.sf.saxon.Transform" classpath="utilities/saxon9he.jar">
+      <arg value="-s:xslt/enhance_hocr_bulk.xsl"/>
+      <arg value="-xsl:xslt/enhance_hocr_bulk.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg value="inputFolder=${absHocrFolder}"/>
+      <arg value="outputFolder=${absEnhancedHocrFolder}"/>
+    </java>
   </target>
 
   <target name="all">
