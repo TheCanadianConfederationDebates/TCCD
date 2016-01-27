@@ -59,10 +59,84 @@
           
           <p>The body of each document consists of a set of nested <gi>div</gi> (division) elements,
           whose function is described using the <att>type</att> attribute. Inside these divisions, 
-          the most common elements will be <gi>head</gi> (heading), <gi>p</gi> (paragraph) and 
-            <gi>sp</gi> (speech).</p>
+          the most common elements will be <gi>head</gi> (heading), <gi>dateline</gi> <gi>p</gi> (paragraph) and 
+            <gi>sp</gi> (speech), as well as other <gi>div</gi> elements.</p>
           
+          <p>Parliamentary record structure is handled using the following hierarchy:
+          
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <div type="parliament">
+              <!-- The top level division. Typically this 
+will be the container for body of a 
+complete document. -->
+              <div type="session">
+                <!-- Each session has its own div. -->
+                <div type="day">
+                  <!-- Each session is divided into days. -->
+                  <div type="debate">
+                    <!-- Debates typically take place on a 
+single day. -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </egXML>
+            Note, however, that a debate may actually start on one 
+            day and be adjourned, then continued on a subsequent day.
+            In this case, two <tag>div type="debate"</tag> elements
+            will be created, as children of their respective 
+            <tag>div type="day"</tag>s, and then they will be assigned
+            <att>xml:id</att> attributes, and linked using <att>next</att>
+            and <att>prev</att>, like this:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <div type="parliament">
+                <div type="session">
+                  <div type="day">
+                    <dateline>[...]</dateline>
+                    <div type="debate" xml:id="aDebatePt1" next="aDebatePt2">
+                      <!-- [speeches etc.] -->
+                    </div>
+                  </div>
+                  <div type="day">
+                    <dateline>[...]</dateline>
+                    <div type="debate" xml:id="aDebatePt2" prev="aDebatePt1">
+                      <!-- [speeches etc.] -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </egXML>
+            
+          </p>
         </div>
+      
+      <div>
+        <head>Milestones (volumes, pages, columns)</head>
+        
+        <p>The XML hierarchy is built on the conceptual structure of the information, but 
+        there is also a bibliographic hierarchy inherent in these documents. This consists
+        of volumes (of Hansard etc.), pages and columns. These are encoded as <emph>milestone</emph>
+        elements. Wherever a transition between volumes, pages or columns occurs in the 
+        text, an appropriate empty element is added, with an attribute recording its number:
+        
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          
+          <!-- Moving from one volume to another. -->
+          <!-- This signals that Volume 3 begins here,
+so Volume 2 by implication has finished. -->
+          <milestone type="volume" n="3"/>
+          
+          <!-- Page 27 begins here. -->
+          <pb n="27"/>
+          
+          <!-- Column 3 starts here. -->
+          <cb n="3"/>
+        </egXML>
+        
+        </p>
+      </div>
       
     </body>
     <back>
@@ -256,26 +330,80 @@
           </elementSpec>
           
           
-          <!--       TODO: Values for textual divisions. -->
+          <!--  Values for textual divisions. These should be reinforced
+                with Schematron to constrain their hierarchy. -->
           
           
-          <!--<elementSpec ident="div" mode="change">
+          <elementSpec ident="div" mode="change">
+            <constraintSpec ident="divnesting1" scheme="isoschematron">
+              <constraint>
+                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='session']">
+                  <assert test="parent::tei:div[@type='parliament']">
+                    Error: a div with @type="session" must be a child of a div with @type="parliament".
+                  </assert>
+                </rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="divnesting2" scheme="isoschematron">
+              <constraint>
+                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='day']">
+                  <assert test="parent::tei:div[@type='session']">
+                    Error: a div with @type="day" must be a child of a div with @type="session".
+                  </assert>
+                </rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="divnesting3" scheme="isoschematron">
+              <constraint>
+                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='debate']">
+                  <assert test="parent::tei:div[@type='day']">
+                    Error: a div with @type="debate" must be a child of a div with @type="day". If the 
+                    same debate continues over more than one day, create separate divs in each day, and
+                    give them unique @xml:id attributes, then use @next and @prev to link them together.
+                  </assert>
+                </rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="divnesting4" scheme="isoschematron">
+              <constraint>
+                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='article']">
+                  <assert test="parent::tei:div[@type='debate']">
+                    Error: a div with @type="document" must be a child of a div with @type="debate" (in 
+                    other words, when a document is read into the record, this must be done in the 
+                    context of a debate.
+                  </assert>
+                </rule>
+              </constraint>
+            </constraintSpec>
           <attList>
-            <attDef ident="type" mode="change">
+            <attDef ident="type" mode="change" usage="req">
               <valList mode="replace">
-                <valItem ident="chapter">
-                  <gloss>A chapter of a larger work.</gloss>
+                <valItem ident="article">
+                  <gloss>A division containing a single newspaper article or report.</gloss>
                 </valItem>
-                <valItem ident="dedication">
-                  <gloss>A dedicatory section at the beginning of a work.</gloss>
+                <valItem ident="parliament">
+                  <gloss>A division containing material all belonging to a single parliament.</gloss>
                 </valItem>
-                <valItem ident="preface">
-                  <gloss>A preface to a larger work.</gloss>
+                <valItem ident="session">
+                  <gloss>A division containing material all taking place within a single parliamentary session.</gloss>
+                </valItem>
+                <valItem ident="day">
+                  <gloss>A division containing the events of a single day in a parliamentary session.</gloss>
+                </valItem>
+                <valItem ident="debate">
+                  <gloss>A division containing the events of one debate in a parliamentary session. Note that 
+                  a debate may span multiple days; if so, separate <tag>div type="debate"</tag> elements
+                  will need to be created, linked using <att>next</att> and <att>prev</att>.</gloss>
+                </valItem>
+                <valItem ident="document">
+                  <gloss>A division containing a document (letter, printed speech, etc.) which 
+                    is read into the parliamentary record.</gloss>
                 </valItem>
               </valList>
             </attDef>
           </attList>
-        </elementSpec>-->
+            
+        </elementSpec>
           
           
         </schemaSpec>

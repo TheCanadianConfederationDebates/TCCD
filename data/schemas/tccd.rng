@@ -3,7 +3,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-01-26T16:41:05Z. 2016.
+Schema generated from ODD source 2016-01-27T11:12:16Z. 2016.
 TEI Edition: Version 2.9.1. Last updated on
 	15th October 2015, revision 46ac023
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.9.1/
@@ -3447,6 +3447,58 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-div-divnesting1-constraint-6">
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:xi="http://www.w3.org/2001/XInclude"
+                  xmlns:svg="http://www.w3.org/2000/svg"
+                  xmlns:math="http://www.w3.org/1998/Math/MathML"
+                  context="tei:div[@type='session']">
+                  <assert test="parent::tei:div[@type='parliament']">
+                    Error: a div with @type="session" must be a child of a div with @type="parliament".
+                  </assert>
+                </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-div-divnesting2-constraint-7">
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:xi="http://www.w3.org/2001/XInclude"
+                  xmlns:svg="http://www.w3.org/2000/svg"
+                  xmlns:math="http://www.w3.org/1998/Math/MathML"
+                  context="tei:div[@type='day']">
+                  <assert test="parent::tei:div[@type='session']">
+                    Error: a div with @type="day" must be a child of a div with @type="session".
+                  </assert>
+                </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-div-divnesting3-constraint-8">
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:xi="http://www.w3.org/2001/XInclude"
+                  xmlns:svg="http://www.w3.org/2000/svg"
+                  xmlns:math="http://www.w3.org/1998/Math/MathML"
+                  context="tei:div[@type='debate']">
+                  <assert test="parent::tei:div[@type='day']">
+                    Error: a div with @type="debate" must be a child of a div with @type="day". If the 
+                    same debate continues over more than one day, create separate divs in each day, and
+                    give them unique @xml:id attributes, then use @next and @prev to link them together.
+                  </assert>
+                </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-div-divnesting4-constraint-9">
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:xi="http://www.w3.org/2001/XInclude"
+                  xmlns:svg="http://www.w3.org/2000/svg"
+                  xmlns:math="http://www.w3.org/1998/Math/MathML"
+                  context="tei:div[@type='article']">
+                  <assert test="parent::tei:div[@type='debate']">
+                    Error: a div with @type="document" must be a child of a div with @type="debate" (in 
+                    other words, when a document is read into the record, this must be done in the 
+                    context of a debate.
+                  </assert>
+                </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-div-abstractModel-structure-l-constraint-6">
             <rule context="tei:div">
                <report xmlns:tei="http://www.tei-c.org/ns/1.0"
@@ -3474,7 +3526,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.divLike.attributes"/>
-         <ref name="att.typed.attributes"/>
+         <ref name="att.typed.attribute.subtype"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+            <ref name="data.enumerated"/>
+         </attribute>
          <empty/>
       </element>
    </define>
