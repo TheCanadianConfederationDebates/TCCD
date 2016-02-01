@@ -57,30 +57,22 @@
         <div>
           <head>Major textual divisions</head>
           
-          <p>The body of each document consists of a set of nested <gi>div</gi> (division) elements,
-          whose function is described using the <att>type</att> attribute. Inside these divisions, 
+          <p>The body of each document normally consists of a single <gi>div</gi> (division) element,
+          whose function is described using the <att>type</att> attribute. For regular parliamentary
+          records, the document is constructed around a debate (<tag>div type="debate"</tag>). Inside these divisions, 
           the most common elements will be <gi>head</gi> (heading), <gi>dateline</gi> <gi>p</gi> (paragraph) and 
-            <gi>sp</gi> (speech), as well as other <gi>div</gi> elements.</p>
-          
-          <p>Parliamentary record structure is handled using the following hierarchy:
-          
+            <gi>sp</gi> (speech), as well as a range of different types of <gi>milestone</gi> elements (described
+          below). 
+
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <div type="parliament">
+            <div type="debate">
               <!-- The top level division. Typically this 
 will be the container for body of a 
 complete document. -->
-              <div type="session">
-                <!-- Each session has its own div. -->
-                <div type="day">
-                  <!-- Each session is divided into days. -->
-                  <div type="debate">
-                    <!-- Debates typically take place on a 
-single day. -->
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </egXML>
+            
             Note, however, that a debate may actually start on one 
             day and be adjourned, then continued on a subsequent day.
             In this case, two <tag>div type="debate"</tag> elements
@@ -116,10 +108,10 @@ single day. -->
         <head>Milestones (volumes, pages, columns)</head>
         
         <p>The XML hierarchy is built on the conceptual structure of the information, but 
-        there is also a bibliographic hierarchy inherent in these documents. This consists
-        of volumes (of Hansard etc.), pages and columns. These are encoded as <emph>milestone</emph>
-        elements. Wherever a transition between volumes, pages or columns occurs in the 
-        text, an appropriate empty element is added, with an attribute recording its number:
+        there are also bureaucratic and bibliographic hierarchies inherent in these documents. The former consists
+        of parliaments, sessions and days; the latter of volumes (of Hansard etc.), pages and columns. These are 
+        encoded as <emph>milestone</emph> elements. Wherever a transition between volumes, pages or columns occurs in the 
+        text, an appropriate empty element is added, with attributes recording additional information about it:
         
         <egXML xmlns="http://www.tei-c.org/ns/Examples">
           
@@ -330,47 +322,39 @@ so Volume 2 by implication has finished. -->
           </elementSpec>
           
           
+<!--        Milestones are of various types, and this set may change as we 
+          test our schema with actual documents. -->
+          <elementSpec ident="milestone" module="core" mode="change">
+            <attList>
+              <attDef ident="type" mode="replace">
+                <valList type="closed">
+                  <valItem ident="parliament">
+                    <gloss>A transition between one parliament and the next.</gloss>
+                  </valItem>
+                  <valItem ident="session">
+                    <gloss>A transition between one parliamentary session and the next.</gloss>
+                  </valItem>
+                  <valItem ident="day">
+                    <gloss>A transition between one day and the next in a parliamentary session.</gloss>
+                  </valItem>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <!--  Values for textual divisions. These should be reinforced
-                with Schematron to constrain their hierarchy. -->
+                with Schematron to constrain their hierarchy. This is 
+                a very simple hierarchy; most transitions are milestones. -->
           
           
           <elementSpec ident="div" mode="change">
             <constraintSpec ident="divnesting1" scheme="isoschematron">
               <constraint>
-                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='session']">
-                  <assert test="parent::tei:div[@type='parliament']">
-                    Error: a div with @type="session" must be a child of a div with @type="parliament".
-                  </assert>
-                </rule>
-              </constraint>
-            </constraintSpec>
-            <constraintSpec ident="divnesting2" scheme="isoschematron">
-              <constraint>
-                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='day']">
-                  <assert test="parent::tei:div[@type='session']">
-                    Error: a div with @type="day" must be a child of a div with @type="session".
-                  </assert>
-                </rule>
-              </constraint>
-            </constraintSpec>
-            <constraintSpec ident="divnesting3" scheme="isoschematron">
-              <constraint>
-                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='debate']">
-                  <assert test="parent::tei:div[@type='day']">
-                    Error: a div with @type="debate" must be a child of a div with @type="day". If the 
-                    same debate continues over more than one day, create separate divs in each day, and
-                    give them unique @xml:id attributes, then use @next and @prev to link them together.
-                  </assert>
-                </rule>
-              </constraint>
-            </constraintSpec>
-            <constraintSpec ident="divnesting4" scheme="isoschematron">
-              <constraint>
-                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='article']">
+                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='document']">
                   <assert test="parent::tei:div[@type='debate']">
                     Error: a div with @type="document" must be a child of a div with @type="debate" (in 
                     other words, when a document is read into the record, this must be done in the 
-                    context of a debate.
+                    context of a debate).
                   </assert>
                 </rule>
               </constraint>
@@ -380,15 +364,6 @@ so Volume 2 by implication has finished. -->
               <valList mode="replace">
                 <valItem ident="article">
                   <gloss>A division containing a single newspaper article or report.</gloss>
-                </valItem>
-                <valItem ident="parliament">
-                  <gloss>A division containing material all belonging to a single parliament.</gloss>
-                </valItem>
-                <valItem ident="session">
-                  <gloss>A division containing material all taking place within a single parliamentary session.</gloss>
-                </valItem>
-                <valItem ident="day">
-                  <gloss>A division containing the events of a single day in a parliamentary session.</gloss>
                 </valItem>
                 <valItem ident="debate">
                   <gloss>A division containing the events of one debate in a parliamentary session. Note that 
