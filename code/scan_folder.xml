@@ -9,6 +9,7 @@
   -->
   <property name="rootFolder" value=""/>
   <property name="imageFolder" value="${rootFolder}/images"/>
+  <property name="dictionary" value="eng"/>
   
   <property name="echo.separator" value="***********************************************************"/>
   
@@ -45,7 +46,7 @@
     <apply executable="tesseract">
       <srcfile/>
       <targetfile/>
-      <arg line="-l eng+fra"/>
+      <arg line="-l ${dictionary}"/>
       <arg value="hocr"/>
       <fileset refid="imageFiles"/>
       <mapper type="glob" from="*.jpg" to="${hocrFolder}/*"/>
@@ -58,7 +59,7 @@
     <apply executable="tesseract">
       <srcfile/>
       <targetfile/>
-      <arg line="-l eng+fra+isl+nor+swe+dan"/>
+      <arg line="-l ${dictionary}"/>
       <arg value="pdf"/>
       <fileset refid="imageFiles"/>
       <mapper type="glob" from="*.jpg" to="${pdfFolder}/*"/>
