@@ -115,9 +115,7 @@
       </xsl:variable>
       
       
-      <p class="editorial">THIS IS AN UNCORRECTED OCR FILE. Once you have corrected it, please change this message to say 
-        "Corrected by [your name] on [the date, as yyyy-mm-dd]."<br/>Save the corrected file, and then commit it back to 
-        your fork of the GitHub repository, and issue a pull request.<br/>
+      <p class="editorial">Corrected by [your name] on [the date, as yyyy-mm-dd].<br/>
         The OCR process believes the page/column numbers on this page to be:<br/>
         [<xsl:value-of select="string-join($possPageNum, '-')"/>]<br/>
         Please correct these if they are wrong.
@@ -128,8 +126,7 @@
 
       <xsl:apply-templates/>
       
-      <p class="editorial">Don't forget to complete the green box at the top of the file! Then you can delete this 
-      box.</p>
+      <p class="editorial">Don't forget to complete the green box at the top of the file!</p>
     </xsl:copy>
   </xsl:template>
   
