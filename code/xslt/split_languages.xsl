@@ -18,7 +18,9 @@
       page into two separate files, one for each language. The 
       split is based on the presence of an XHTML hr (horizontal
       rule) tag, which is placed by the proofer/editor to 
-      delimit the two columns.
+      delimit the two columns. We assume that the English column
+      precedes the French column on each page (which has been 
+      the case with our initial test data).
       </xd:p>
       
       <xd:p>
@@ -35,8 +37,45 @@
   
   <xsl:variable name="fName" select="substring-before(tokenize(document-uri(/), '[\\/]')[last()], '.hocr')"/>
   
+  <xsl:variable name="outputDir" select="concat(replace(document-uri(/), tokenize(document-uri(.), '/')[last()], ''), '/by_language/')"/>
+  <xsl:variable name="frenchOutputFile" select="concat($outputDir, 'fr/', $fName, '.hocr.html')"/>
+  <xsl:variable name="englishOutputFile" select="concat($outputDir, 'en/', $fName, '.hocr.html')"/>
+  
   <xsl:template match="/">
-    
+<!--  We only bother doing this if there's an hr element 
+      which delimits the two language columns. Otherwise 
+      there's nothing useful we can do. -->
+    <xsl:if test="//hr">
+<!--   Create the French document.   -->
+      <xsl:result-document href="{$frenchOutputFile}">
+        <xsl:apply-templates mode="french"/>
+      </xsl:result-document>
+      
+<!--   Create the English document. -->
+      <xsl:result-document href="{$englishOutputFile}">
+        <xsl:apply-templates mode="english"/>
+      </xsl:result-document>
+    </xsl:if>
+  </xsl:template>
+ 
+<!--In English mode, suppress divs following the hr. -->
+  <xsl:template match="div[ancestor::body][preceding::hr]" mode="english"/>
+  
+<!--In French mode, suppress divs preceding the hr.  -->
+  <xsl:template match="div[ancestor::body][following::hr]" mode="french"/>
+  
+<!--  
+    We have a default template which simply copies 
+    to the output (i.e. an identity transform). 
+    We apply templates rather than doing a straight 
+    copy so that if anything else needs to be tweaked 
+    or fixed we can do it here.
+  -->
+  
+  <xsl:template match="@*|node()" priority="-1" mode="#all">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()" mode="#current"/>
+    </xsl:copy>
   </xsl:template>
   
 </xsl:stylesheet>
