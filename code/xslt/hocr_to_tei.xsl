@@ -66,6 +66,10 @@
             </sourceDesc>
           </fileDesc>
         </teiHeader>
+        <facsimile>
+<!-- TODO: We deduce information about the original page-images from the OCR data.         -->
+          
+        </facsimile>
         <text>
           <body>
             <xsl:for-each select="$inDocs">
