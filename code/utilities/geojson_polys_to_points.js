@@ -9,6 +9,11 @@
       cases represent not much more than a point or line.
    */
    
+/* This file requires the NPM package geojson-polygon-center  
+   available here:
+   https://www.npmjs.com/package/geojson-polygon-center
+   */
+   
 var fs = require('fs');
 
 //NPM package which does the gnarly work.
