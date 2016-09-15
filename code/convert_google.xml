@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="all" name="sgml-to-tei" xmlns:if="ant:if"
+  xmlns:unless="ant:unless">
+<!--  
+    This script is designed to process a folder containing a nested structure
+    with HOCR pages created/contributed by Google, and transform them into 
+    pages which match the much simpler structure we have been creating using 
+    Tesseract to OCR page-images ourselves.
+  -->
+  <property name="rootFolder" value=""/>
+  
+  <property name="echo.separator" value="***********************************************************"/>
+  
+  <fileset id="googFiles" dir="${rootFolder}">
+    <include name="**/*.hocr.xml"/>
+  </fileset>
+  
+  <fileset id="outputFiles" dir="${rootFolder}">
+    <include name="**/*.hocr.html"/>
+  </fileset>
+  
+  <target name="cleanAndCheck">
+    <echo message="${echo.separator}"/>
+    <echo message="removing previous generated files..."/>
+    <resourcecount property="prevFileCount" refid="outputFiles">
+    </resourcecount>
+    <echo message="${echo.separator}"/>
+    <echo message="Found ${prevFileCount} previous files..."/>
+    <echo message="Cleaning them up..."/>
+    <delete>
+      <fileset refid="outputFiles"/>
+    </delete>
+  </target>
+  
+<!--  Note: this incarnation takes forever, since it seems to spin up a
+      separate Saxon VM for every operation. Need a better approach: a 
+      single operation in which the XSLT pulls in the collection of files
+      based on a folder param. -->
+<!--  <target name="transformHocrFiles">
+    <echo message="${echo.separator}"/>
+    <echo message="Processing HOCR files to create XHTML 1.0 Strict files for proofing..."/>
+    <xslt basedir="${rootFolder}" style="xslt/goog_ocr_to_tesseract.xsl" destdir="${rootFolder}">
+      <classpath location="utilities/saxon9he.jar"/>
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      <fileset refid="googFiles"/>
+      <mapper type="glob" from="*.hocr.xml" to="*.hocr.html"/>
+    </xslt>
+  </target>-->
+  
+  <target name="transformHocrFiles">
+    <echo message="${echo.separator}"/>
+    <echo message="Processing Google HOCR files to create XHTML 1.0 Strict files for proofing..."/>
+    <echo message="Processing documents in ${rootFolder}."/>
+    <java classname="net.sf.saxon.Transform" classpath="utilities/saxon9he.jar">
+      <arg value="-s:xslt/goog_ocr_to_tesseract.xsl"/>
+      <arg value="-xsl:xslt/goog_ocr_to_tesseract.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg value="inputFolder=${rootFolder}"/>
+    </java>
+  </target>
+
+  <target name="all">
+    <antcall target="cleanAndCheck"/>
+    <antcall target="transformHocrFiles"/>
+  </target>
+
+</project>
