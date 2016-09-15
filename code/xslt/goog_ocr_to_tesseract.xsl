@@ -29,11 +29,11 @@
   <xsl:output method="xhtml" encoding="UTF-8" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"  normalization-form="NFC" omit-xml-declaration="yes" exclude-result-prefixes="#all" byte-order-mark="no" />
   
   <xsl:param name="inputFolder"/>
-  <xsl:variable name="googFiles" select="collection(concat($inputFolder, '/?select=*.hocr.xml;recurse=yes'))"/>
+  <xsl:variable name="googFiles" select="collection(concat($inputFolder, '/?select=*.hocr;recurse=yes'))"/>
   
   <xsl:template match="/">
     <xsl:for-each select="$googFiles">
-      <xsl:variable name="outFile" select="replace(document-uri(.), '\.xml$', '.html')"/>
+      <xsl:variable name="outFile" select="replace(document-uri(.), '\.hocr', '.hocr.html')"/>
       <xsl:result-document href="{$outFile}">
         <xsl:message>Processing <xsl:value-of select="document-uri(.)"/> to create new file <xsl:value-of select="$outFile"/>.</xsl:message>
         <xsl:apply-templates mode="#default"/>
