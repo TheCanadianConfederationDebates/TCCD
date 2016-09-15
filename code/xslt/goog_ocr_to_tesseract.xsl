@@ -25,8 +25,20 @@
     </xd:desc>
   </xd:doc>
   
+  <!-- We'll use XHTML 1 strict, because that's what Kompozer and hocr2pdf like. -->
+  <xsl:output method="xhtml" encoding="UTF-8" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"    doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"  normalization-form="NFC" omit-xml-declaration="yes" exclude-result-prefixes="#all" byte-order-mark="no" />
+  
+  <xsl:param name="inputFolder"/>
+  <xsl:variable name="googFiles" select="collection(concat($inputFolder, '/?select=*.hocr.xml;recurse=yes'))"/>
+  
   <xsl:template match="/">
-    <xsl:apply-templates mode="#default"/>
+    <xsl:for-each select="$googFiles">
+      <xsl:variable name="outFile" select="replace(document-uri(.), '\.xml$', '.html')"/>
+      <xsl:result-document href="{$outFile}">
+        <xsl:message>Processing <xsl:value-of select="document-uri(.)"/> to create new file <xsl:value-of select="$outFile"/>.</xsl:message>
+        <xsl:apply-templates mode="#default"/>
+      </xsl:result-document>
+    </xsl:for-each>
   </xsl:template>
   
   <xd:doc scope="component">
@@ -34,8 +46,34 @@
       <xd:p>The Google ocr system identifier is insanely long and complicated. Junk it.</xd:p>
     </xd:desc>
   </xd:doc>
-  <xsl:template match="meta[@name='ocr-system']">
+  <xsl:template match="meta[@name='ocr-system']" mode="#all">
     <meta name="ocr-system" content="google"/>
+  </xsl:template>
+  
+  <xd:doc scope="component">
+    <xd:desc>
+      <xd:p>We change the capabilities header
+        to reflect our changes.</xd:p>
+    </xd:desc>
+  </xd:doc>
+  <xsl:template match="meta[@name='ocr-capabilities']" mode="#all">
+    <meta name="ocr-capabilities" content="ocr_page ocr_carea ocr_par ocr_line ocrx_word" />
+  </xsl:template>
+  
+  <xd:doc scope="component">
+    <xd:desc>
+      <xd:p>We add a tiny stylesheet to make manual correction a bit easier.</xd:p>
+    </xd:desc>
+  </xd:doc>
+  <xsl:template match="head" mode="#all">
+    <head>
+      <xsl:apply-templates mode="#current"/>
+      <style type="text/css">
+        span.ocr_line{
+          display: block;
+        }
+      </style>
+    </head>
   </xsl:template>
   
   <xd:doc scope="component">
@@ -66,7 +104,7 @@
       </xd:p>
     </xd:desc>
   </xd:doc>
-  <xsl:template match="@class">
+  <xsl:template match="@class" mode="#all">
     <xsl:choose>
       <xsl:when test=".='ocrx_block'">
         <xsl:attribute name="class" select="'ocr_carea'"/>
@@ -85,7 +123,7 @@
       </xd:p>
     </xd:desc>
   </xd:doc>
-  <xsl:template match="@style"/>
+  <xsl:template match="@style" mode="#all"/>
 <!--  Old version which normalized. -->
   <!--<xsl:template match="span[@style]">
     <xsl:copy>
@@ -114,8 +152,8 @@
       </xd:p>
     </xd:desc>
   </xd:doc>
-  <xsl:template match="div[@class='ocrx_block'][normalize-space(.) = ''][preceding-sibling::*[1][self::div[@class='ocrx_block'][normalize-space(.) = '']]]"/>
-  <xsl:template match="text()[normalize-space(.) = ''][preceding-sibling::*[1][self::div[@class='ocrx_block'][normalize-space(.) = ''][preceding-sibling::*[self::div[@class='ocrx_block'][normalize-space(.) = '']]]]]"/>
+  <xsl:template match="div[@class='ocrx_block'][normalize-space(.) = ''][preceding-sibling::*[1][self::div[@class='ocrx_block'][normalize-space(.) = '']]]" mode="#all"/>
+  <xsl:template match="text()[normalize-space(.) = ''][preceding-sibling::*[1][self::div[@class='ocrx_block'][normalize-space(.) = ''][preceding-sibling::*[self::div[@class='ocrx_block'][normalize-space(.) = '']]]]]" mode="#all"/>
   
 <!-- Default identity transform. -->
   <xsl:template match="@*|node()" priority="-1" mode="#all">
