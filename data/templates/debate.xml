@@ -2,12 +2,23 @@
 <?xml-model href="https://raw.githubusercontent.com/TheCanadianConfederationDebates/TCCD/master/data/schemas/tccd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/TheCanadianConfederationDebates/TCCD/master/data/schemas/tccd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="tccd" xml:id="">
+<!-- Add an @xml:id attribute to the root element. It should match the filename
+     but without the trailing .xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="tccd">
   <teiHeader>
     <fileDesc>
       <titleStmt>
+<!--    Provide a human-readable descriptive but concise title, 
+        conforming with our current norms. -->
         <title>[Legislature, date(-range), debate title/description]</title>
+        
+        <respStmt>
+          <resp>Selection</resp>
+          <name><!-- Your name here. --></name>
+        </respStmt>
+        
       </titleStmt>
+      
       <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
       <sourceDesc>
         <bibl>
@@ -15,8 +26,12 @@
             <!-- Title of the actual source print document from which 
                       this data was taken. -->
           </title>
-          <biblScope unit="page"></biblScope>
+<!-- Complete the page-range using page numbers from the original print source. -->
+          <biblScope unit="page"/>
+        
+<!-- This idno will be constrained to a set of predefined values. -->
           <idno type="legislature"></idno>
+          
 <!-- Complete the date element using @when or @from + @to.         -->
           <date/>
           
@@ -29,6 +44,9 @@
         </sourceDesc>
     </fileDesc>
   </teiHeader>
+  
+<!-- Processing will add a <facsimile> element here. -->
+  
   <text>
     <body>
       <p>This content will be replaced by data from the source documents during processing.</p>
