@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/TheCanadianConfederationDebates/TCCD/master/data/schemas/tccd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/TheCanadianConfederationDebates/TCCD/master/data/schemas/tccd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="tccd" xml:id="">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Legislature, date(-range), debate title/description]</title>
+      </titleStmt>
+      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+            <!-- Title of the actual source print document from which 
+                      this data was taken. -->
+          </title>
+          <biblScope unit="page"></biblScope>
+          <idno type="legislature"></idno>
+<!-- Complete the date element using @when or @from + @to.         -->
+          <date/>
+          
+        </bibl>
+<!--  HOCR documents from which this file was/will be created: -->
+        <list>
+          <item><ptr target="PEI_H_of_C_1869_Page_01.hocr.html"/></item>
+          <item><ptr target="PEI_H_of_C_1869_Page_02.hocr.html"/></item>
+        </list>
+        </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>This content will be replaced by data from the source documents during processing.</p>
+    </body>
+  </text>
+</TEI>

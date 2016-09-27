@@ -154,8 +154,7 @@ so Volume 2 by implication has finished. -->
             <attList>
               <attDef ident="key" mode="delete"/>
             </attList>
-          </classSpec> 
-          <classSpec type="atts" ident="att.citing" module="tei" mode="delete"/>   
+          </classSpec>  
           <classSpec type="atts" ident="att.combinable" module="tei" mode="delete"/>   
           <classSpec type="atts" ident="att.coordinated" module="tei" mode="delete"/>    
           <classSpec type="atts" ident="att.cReferencing" module="tei" mode="delete"/>      
