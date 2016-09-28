@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
      but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1869-06-03">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1872-05-14">
   <teiHeader>
     <fileDesc>
       <titleStmt>
 <!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
         conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-03">3 June 1869</date>, Canadian Confederation with Prince Edward Island</title>
+        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1872-05-14">14 May 1872</date>, Canadian Confederation with Prince Edward Island</title>
         
         <respStmt>
           <resp>Selection of input documents and completion of metadata</resp>
           <persName>Gordon Lyall</persName>
         </respStmt>
-      
+        
       </titleStmt>
       
       <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
@@ -37,7 +35,7 @@
           <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
           
 <!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
-          <biblScope unit="page" from="597" to="597"/>.
+          <biblScope unit="page" from="232" to="235"/>.
         
 <!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
           <idno type="legislature"></idno>.
@@ -46,7 +44,10 @@
 <!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
         examples. File path should be relative to THIS XML FILE. -->
         <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18690603_Page_597.hocr.html"/></item>
+          <item><ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_232.hocr.html"/></item>
+          <item><ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_233.hocr.html"/></item>
+<item><ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_234.hocr.html"/></item>
+<item><ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_235.hocr.html"/></item>
         </list>
         </sourceDesc>
     </fileDesc>
