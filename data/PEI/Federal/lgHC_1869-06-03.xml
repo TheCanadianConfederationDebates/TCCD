@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
+     but without the trailing .xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1869-06-03">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
+        conforming with our current norms. -->
+        <title>House of Commons, <date when="1869-06-03">3 June 1869</date>, Canadian Confederation with Prince Edward Island</title>
+        
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <name>Gordon Lyall</name>
+        </respStmt>
+      
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
+                      this data was taken.-->
+        <bibl>
+          
+<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
+          <editor>P.B. Waite</editor>.
+          
+<!-- TEMPLATE: Title of the publication -->         
+          <title>House of Commons Debates, First Parliament, Second Session</title>.
+                    
+<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+          <date when="1975"/>.  
+          
+<!-- TEMPLATE: Complete the publisher and publication place -->
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          
+<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+          <biblScope unit="page" from="597" to="597"/>.
+        
+<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
+          <idno type="legislature"></idno>.
+        </bibl>
+        
+<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
+        examples. File path should be relative to THIS XML FILE. -->
+        <list>
+          <item><ptr target="final/hocr/en/PEI_H_of_C_18690603_Page_597.hocr.html"/></item>
+        </list>
+        </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
+        date in the @when attribute. -->
+      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+    </revisionDesc>
+  </teiHeader>
+  
+<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
+  
+  <text>
+    <body>
+      <p>This content will be replaced by data from the source documents during processing.</p>
+    </body>
+  </text>
+</TEI>
