@@ -21,21 +21,29 @@
       
       <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
       <sourceDesc>
+<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
+                      this data was taken.-->
         <bibl>
-          <title>
-<!-- TEMPLATE: Title of the actual source print document from which 
-                      this data was taken. -->
-          </title>
+          
+<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
+          <editor></editor>.
+          
+<!-- TEMPLATE: Title of the publication -->         
+          <title></title>.
+                    
+<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+          <date/>.  
+          
+<!-- TEMPLATE: Complete the publisher and publication place -->
+          <pubPlace></pubPlace>: <publisher></publisher>.
+          
 <!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
-          <biblScope unit="page"/>
+          <biblScope unit="page"/>.
         
 <!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>
-          
-<!-- TEMPLATE: Complete the date element using @when or @from + @to.         -->
-          <date/>
-          
+          <idno type="legislature"></idno>.
         </bibl>
+        
 <!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
         examples. File path should be relative to THIS XML FILE. -->
         <list>
