@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-09-28T20:00:03Z. 2016.
+Schema generated from ODD source 2016-09-28T22:28:26Z. 2016.
 TEI Edition: Version 3.0.0. Last updated on
 	26th April 2016, revision 5f412b2
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -220,36 +220,36 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tccd-att.datable.w3c-att-datable-w3c-when-constraint-1">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@when]">
         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tccd-att.datable.w3c-att-datable-w3c-from-constraint-2">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@from]">
         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tccd-att.datable.w3c-att-datable-w3c-to-constraint-3">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@to]">
         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
       </sch:rule>
@@ -270,12 +270,12 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tccd-att.datable-calendar-calendar-constraint-4">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@calendar]">
             <sch:assert test="string-length(.) gt 0">
 @calendar indicates the system or calendar to which the date represented by the content of this element
@@ -397,15 +397,17 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tccd-att.global.rendition-renditionpointer-constraint-5">
-      <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
-            xmlns:svg="http://www.w3.org/2000/svg"
-            xmlns:math="http://www.w3.org/1998/Math/MathML"
-            context="tei:*[@rendition]">
-                  <let name="results"
-              value="for $val in tokenize(normalize-space(@rendition),'\s+') return starts-with($val,'simple:')"/>
-                  <assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<value-of select="@rendition"/>" must point to a token in the Simple scheme (<value-of select="$results"/>)</assert>
-                </rule>
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns:svg="http://www.w3.org/2000/svg"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                context="tei:*[@rendition]">
+                           <sch:let name="results"
+                  value="for $val in tokenize(normalize-space(@rendition),'\s+') return starts-with($val,'simple:')"/>
+                           <sch:assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<sch:value-of select="@rendition"/>" must point to a token in the Simple scheme (<sch:value-of select="$results"/>)</sch:assert>
+                        </sch:rule>
    </pattern>
    <define name="att.global.attributes">
       <ref name="att.global.rendition.attributes"/>
@@ -545,12 +547,12 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tccd-att.typed-subtypeTyped-constraint-6">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@subtype]">
         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
@@ -599,12 +601,12 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tccd-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-7">
-      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@schemeVersion]">
             <sch:assert test="@scheme and not(@scheme = 'free')">
               @schemeVersion can only be used if @scheme is specified.
@@ -1980,6 +1982,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="(ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure)">
         Abstract model violation: Paragraphs may not contain other paragraphs or ab elements.
       </report>
@@ -1992,6 +1995,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.
       </report>
@@ -2262,10 +2266,59 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <element name="name">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name, proper noun) contains a proper noun or noun phrase. [3.5.1. Referring Strings]</a:documentation>
          <ref name="macro.phraseSeq"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-name-alignRefAndType-constraint-8">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:name">
+                           <sch:assert test="(@type='legislature' and starts-with(@ref, 'lg:lg'))">
+                      If this is a legislature name, it should have @type='legislature' and 
+                      a suitable value for @ref, starting with 'lg:lg'.
+                    </sch:assert>
+                        </sch:rule>
+         </pattern>
          <ref name="att.global.attributes"/>
-         <ref name="att.personal.attributes"/>
          <ref name="att.datable.attributes"/>
-         <ref name="att.typed.attributes"/>
+         <ref name="att.typed.attribute.subtype"/>
+         <attribute name="ref">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(links the name element to an entry in a taxonomy) </a:documentation>
+            <choice>
+               <value>unspecified</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Use this value when you have not yet determined 
+                    the correct value. This value should be temporary.) </a:documentation>
+               <value>lg:lgHC</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(The House of Commons) The Canadian Federal House of Commons.</a:documentation>
+               <value>lg:lgPCLAssem</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Province of Canada Legislative Assembly) The Legislative Assembly of the Province of Canada (Ontario and Québec constituting a single colony).</a:documentation>
+               <value>lg:lgPCLCoun</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Province of Canada Legislative Council) The Legislative Council of the Province of Canada (Ontario and Québec constituting a single colony).</a:documentation>
+               <value>lg:lgBCLCoun</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Council of British Columbia) An advisory body created in 1867 to advise the governor of the new BC colony.</a:documentation>
+               <value>lg:lgConv40</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(The Convention of 40 / La Grande Convention) [Awaiting description]</a:documentation>
+               <value>lg:lgAssinLAssem</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Assiniboia / l’Assemblée législative d’Assiniboia) </a:documentation>
+               <value>lg:lgNBLAssem</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of New Brunswick) Assembly created initially in 1786 for the new colony, now the Provincial assembly.</a:documentation>
+               <value>lg:lgNSLAssem</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Nova Scotia) The oldest assembly in Canada, the NS House of Assembly first sat in 1858.</a:documentation>
+               <value>lg:lgPEILAssem</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Prince Edward Island) The PEI legislature originated with a bicameral structure in 1773.</a:documentation>
+               <value>lg:lgNFLAssem</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Newfoundland) The NF legislature was set up in 1832.</a:documentation>
+            </choice>
+         </attribute>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(The type of name being linked.) </a:documentation>
+            <choice>
+               <value>legislature</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(the name of a legislative assembly) </a:documentation>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -2377,6 +2430,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="@target and @cRef">Only one of the
 attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
@@ -2398,6 +2452,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="@target and @cRef">Only one of the
 	attributes @target' and @cRef' may be supplied on <name/>
                </report>
@@ -2477,13 +2532,13 @@ attributes @target and @cRef may be supplied on <name/>.</report>
       
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-list-gloss-list-must-have-labels-constraint-8">
-            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  id="tccd-list-gloss-list-must-have-labels-constraint-9">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:list[@type='gloss']">
 	              <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
             </sch:rule>
@@ -3310,6 +3365,7 @@ Sample values include: 1] text; 2] corpus</a:documentation>
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="not(@marks) and not (tei:p)">
 On <name/>, either the @marks attribute should be used, or a paragraph of description provided</report>
             </rule>
@@ -3576,6 +3632,23 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <ref name="model.resourceLike"/>
             </oneOrMore>
          </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-TEI-rootIdEqualsFileName-constraint-10">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:TEI">
+                           <sch:let name="reqId"
+                        value="substring-before(tokenize(document-uri(/), '/')[last()], '.xml')"/>
+                           <sch:assert test="@xml:id = $reqId"> 
+                    The @xml:id attribute on the TEI element (<sch:value-of select="@xml:id"/>) should match the 
+                    document filename without extension (<sch:value-of select="$reqId"/>).
+                  </sch:assert>
+                        </sch:rule>
+         </pattern>
          <ns xmlns="http://purl.oclc.org/dsdl/schematron"
              prefix="tei"
              uri="http://www.tei-c.org/ns/1.0"/>
@@ -3866,18 +3939,20 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-div-divnesting1-constraint-9">
-            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  xmlns:xi="http://www.w3.org/2001/XInclude"
-                  xmlns:svg="http://www.w3.org/2000/svg"
-                  xmlns:math="http://www.w3.org/1998/Math/MathML"
-                  context="tei:div[@type='document']">
-                  <assert test="parent::tei:div[@type='debate']">
+                  id="tccd-div-divnesting1-constraint-11">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:div[@type='document']">
+                           <sch:assert test="parent::tei:div[@type='debate']">
                     Error: a div with @type="document" must be a child of a div with @type="debate" (in 
                     other words, when a document is read into the record, this must be done in the 
                     context of a debate).
-                  </assert>
-                </rule>
+                  </sch:assert>
+                        </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-div-abstractModel-structure-l-constraint-9">
@@ -3886,6 +3961,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="ancestor::tei:l">
         Abstract model violation: Lines may not contain higher-level structural elements such as div.
       </report>
@@ -3898,6 +3974,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
         Abstract model violation: p and ab may not contain higher-level structural elements such as div.
       </report>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This version of build_schema.xml has been written so that it's independent
+    of its own and the project's location, so that it can be run from different 
+    locations on different hosts. -->
+
+<project basedir="." default="all" name="Build ODD file and schema">
+
+  <property name="echo.separator" value="************************************************"/>
+  <!-- note: following properties are passed as parameters via Oxygen:
+      -${cfd}:             current input file directory
+      -${cfn}:             current input file name (without extension)
+      -${cfne}:            current input file name (with extension)
+      -${pd}:              current project directory (i.e. where the tccd.xpr file lives)
+      -${defaultSource}    latest P5 subset in TEI plugin
+      -${teiPlugin}:       location of the TEI plugin framework
+      -${oxygenlib}        location of the Oxygen libraries
+  -->
+  
+  <import file="${teiPlugin}/xml/tei/stylesheet/common/teianttasks.xml"/>
+  <property name="odd2oddxsl" value="${teiPlugin}/xml/tei/stylesheet/odds/odd2odd.xsl"/>
+  
+  <target name="all" depends="taxonomiesToODD, ODDToSchema">
+    
+  </target>
+  
+
+  <target name="taxonomiesToODD">
+    <echo>${echo.separator}</echo>
+    <echo>*Incorporate taxonomies in ODD file.*</echo>
+    <echo>${echo.separator}</echo>
+    
+    <xslt force="true" style="${pd}/code/xslt/taxonomies_to_odd_fragments.xsl" destdir="${pd}" in="${pd}/data/schemas/tccd.odd" out="${pd}/data/schemas/tccd.odd_temp" extension=".odd">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      <classpath location="${oxygenlib}/saxon9ee.jar"/>
+    </xslt>
+    
+    <move file="${pd}/data/schemas/tccd.odd_temp" tofile="${pd}/data/schemas/tccd.odd" overwrite="true"/>
+    
+  </target> 
+
+  <target name="ODDToSchema">
+    <echo>${echo.separator}</echo>
+    <echo>*Create schema from expanded ODD file.*</echo>
+    <echo>${echo.separator}</echo>
+    
+    <xslt force="yes" style="${teiPlugin}/xml/tei/stylesheet/odds/odd2odd.xsl" in="${pd}/data/schemas/tccd.odd" out="${pd}/data/schemas/tccd.odd.processedodd">
+      <factory name="net.sf.saxon.TransformerFactoryImpl">
+        <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
+      </factory>
+      <param name="lang" expression="${lang}" if="lang"/>
+        <param name="defaultSource" expression="${defaultSource}" if="defaultSource"/>
+        <param name="selectedSchema" expression="${selectedSchema}" if="selectedSchema"/>
+        <param name="verbose" expression="${verbose}" if="verbose"/>
+    </xslt>
+    <buildgeneric type="relaxng" xsl="${teiPlugin}/xml/tei/stylesheet/profiles/tei/relaxng/to.xsl" in="${pd}/data/schemas/tccd.odd.processedodd" out="${pd}/data/schemas/tccd.rng"/>
+  </target> 
+  
+
+</project>

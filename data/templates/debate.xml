@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
      but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="debate">
   <teiHeader>
     <fileDesc>
       <titleStmt>
 <!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title>[Legislature, date(-range), debate title/description]</title>
+        conforming with our current norms. Tag the date with a <date> element
+        which includes @when or @from/@to attributes so we can process it 
+        mechanically. -->
+        <title>[<name type="legislature" ref="lg:lgHC">Legislature</name>, date(-range), debate title/description]</title>
         
         <respStmt>
           <resp>Selection of input documents and completion of metadata</resp>
-          <name><!-- TEMPLATE: Your name here. --></name>
+          <persName><!-- TEMPLATE: Your name here. --></persName>
         </respStmt>
         
       </titleStmt>
@@ -34,11 +36,9 @@
 <!-- TEMPLATE: Complete the publisher and publication place -->
           <pubPlace></pubPlace>: <publisher></publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
+               If it's a single page, put the same page number in @from and @to.-->
           <biblScope unit="page"/>.
-        
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
         </bibl>
         
 <!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).

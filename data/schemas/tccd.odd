@@ -1,77 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>The Canadian Confederation Debates (TCCD) TEI Customization</title>
-        <author><name>Martin Holmes</name>, <name type="org">University of Victoria</name></author>
-      </titleStmt>
-      <publicationStmt>
-        <p>Free for anyone, for any purpose.</p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Born digital.</p>
-      </sourceDesc>
-    </fileDesc>
+      <fileDesc>
+         <titleStmt>
+            <title>The Canadian Confederation Debates (TCCD) TEI Customization</title>
+            <author>
+               <name>Martin Holmes</name>, <name type="org">University of Victoria</name>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Free for anyone, for any purpose.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart type="main">The Canadian Confederation Debates</titlePart>
-          <titlePart type="sub">Schema and guidelines for encoding primary source texts</titlePart>
-        </docTitle>
-        <docAuthor>Martin Holmes</docAuthor>
-        <docDate>2016</docDate>
-      </titlePage>
-      <divGen type="toc"/>
-    </front>
-    <body>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">The Canadian Confederation Debates</titlePart>
+               <titlePart type="sub">Schema and guidelines for encoding primary source texts</titlePart>
+            </docTitle>
+            <docAuthor>Martin Holmes</docAuthor>
+            <docDate>2016</docDate>
+         </titlePage>
+         <divGen type="toc"/>
+      </front>
+      <body>
       
         <head>Encoding instructions for The Canadian Confederation Debates</head>
         
         <div>
-          <head>Introduction</head>
+            <head>Introduction</head>
           
-          <p>This customization is designed for the semi-automated transcription/encoding of the 
+            <p>This customization is designed for the semi-automated transcription/encoding of the 
           Canadian Confederation Debates, a collection of documents from a variety of sources which 
           relate to the process of confederation in Canada. These include parliamentary and legislature
           records and newspaper articles, as well as other documents read into the record.</p>
           
-          <p>A very simple encoding strategy is preferred for this project; the content, rather 
+            <p>A very simple encoding strategy is preferred for this project; the content, rather 
           than the source documents, is the focus of the project, and physical features of the 
           source documents are rarely of interest. Individuals are tagged and linked to a personography,
           although the personography acts primarily as a link to external authority records such as 
           the Canadian Dictionary of National Biography. </p>
           
-          <p>Complete documents are rarely encoded; instead, only the pages covering debates 
+            <p>Complete documents are rarely encoded; instead, only the pages covering debates 
           relating to the confederation question are encoded. For each individual source document,
           details of the sections transcribed and omitted are provided in the <gi>samplingDecl</gi>
           element in the header. </p>
           
-          <p>Typographical features are described using a subset of the descriptors provided by the 
+            <p>Typographical features are described using a subset of the descriptors provided by the 
           TEI Simple project, mainly for convenience and interoperability.</p>
         </div>
         
         <div>
-          <head>Major textual divisions</head>
+            <head>Major textual divisions</head>
           
-          <p>The body of each document normally consists of a single <gi>div</gi> (division) element,
+            <p>The body of each document normally consists of a single <gi>div</gi> (division) element,
           whose function is described using the <att>type</att> attribute. For regular parliamentary
           records, the document is constructed around a debate (<tag>div type="debate"</tag>). Inside these divisions, 
-          the most common elements will be <gi>head</gi> (heading), <gi>dateline</gi> <gi>p</gi> (paragraph) and 
+          the most common elements will be <gi>head</gi> (heading), <gi>dateline</gi> 
+               <gi>p</gi> (paragraph) and 
             <gi>sp</gi> (speech), as well as a range of different types of <gi>milestone</gi> elements (described
           below). 
 
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <div type="debate">
+                  <div type="debate">
               <!-- The top level division. Typically this 
 will be the container for body of a 
 complete document. -->
               
             </div>
-          </egXML>
+               </egXML>
             
             Note, however, that a debate may actually start on one 
             day and be adjourned, then continued on a subsequent day.
@@ -82,32 +88,32 @@ complete document. -->
             and <att>prev</att>, like this:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
-              <div type="parliament">
-                <div type="session">
-                  <div type="day">
-                    <dateline>[...]</dateline>
-                    <div type="debate" xml:id="aDebatePt1" next="aDebatePt2">
+                  <div type="parliament">
+                     <div type="session">
+                        <div type="day">
+                           <dateline>[...]</dateline>
+                           <div type="debate" xml:id="aDebatePt1" next="aDebatePt2">
                       <!-- [speeches etc.] -->
                     </div>
-                  </div>
-                  <div type="day">
-                    <dateline>[...]</dateline>
-                    <div type="debate" xml:id="aDebatePt2" prev="aDebatePt1">
+                        </div>
+                        <div type="day">
+                           <dateline>[...]</dateline>
+                           <div type="debate" xml:id="aDebatePt2" prev="aDebatePt1">
                       <!-- [speeches etc.] -->
                     </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
               
-            </egXML>
+               </egXML>
             
-          </p>
+            </p>
         </div>
       
-      <div>
-        <head>Milestones (volumes, pages, columns)</head>
+         <div>
+            <head>Milestones (volumes, pages, columns)</head>
         
-        <p>The XML hierarchy is built on the conceptual structure of the information, but 
+            <p>The XML hierarchy is built on the conceptual structure of the information, but 
         there are also bureaucratic and bibliographic hierarchies inherent in these documents. The former consists
         of parliaments, sessions and days; the latter of volumes (of Hansard etc.), pages and columns. These are 
         encoded as <emph>milestone</emph> elements. Wherever a transition between volumes, pages or columns occurs in the 
@@ -118,272 +124,384 @@ complete document. -->
           <!-- Moving from one volume to another. -->
           <!-- This signals that Volume 3 begins here,
 so Volume 2 by implication has finished. -->
-          <milestone type="volume" n="3"/>
+                  <milestone type="volume" n="3"/>
           
-          <!-- Page 27 begins here. -->
-          <pb n="27"/>
+                  <!-- Page 27 begins here. -->
+                  <pb n="27"/>
           
-          <!-- Column 3 starts here. -->
-          <cb n="3"/>
-        </egXML>
+                  <!-- Column 3 starts here. -->
+                  <cb n="3"/>
+               </egXML>
         
-        </p>
-      </div>
+            </p>
+         </div>
       
-    </body>
-    <back>
-      <div>
-        <schemaSpec ident="tccd" start="TEI teiCorpus">
-          <moduleRef key="header" include="abstract authority availability category change classDecl creation distributor edition editionStmt 
-            editorialDecl encodingDesc fileDesc funder idno langUsage language licence listPrefixDef normalization 
-            prefixDef principal profileDesc projectDesc publicationStmt quotation rendition revisionDesc samplingDecl
-            seriesStmt sourceDesc sponsor taxonomy teiHeader titleStmt xenoData"/>
-          <moduleRef key="core" include="abbr add addrLine address author bibl biblScope cb choice corr date del desc
-            editor email emph expan foreign gap gloss graphic head hi item label lb list listBibl mentioned milestone
-            name note orig p pb ptr pubPlace publisher q ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
-          <moduleRef key="tei"/>
-          <moduleRef key="textstructure" include="TEI back body byline closer dateline div front opener salute signed text"/>
-          <moduleRef key="namesdates" include="addName affiliation birth death forename listOrg listPerson listPlace 
-            location org orgName persName person place placeName roleName surname"/>
-          <moduleRef key="corpus" include="particDesc settingDesc textDesc"/>
-          <moduleRef key="figures" include="cell figDesc figure row table"/>
-          <moduleRef key="transcr" include="facsimile"/>
+      </body>
+      <back>
+         <div>
+            <schemaSpec ident="tccd" start="TEI teiCorpus">
+               <moduleRef key="header"
+                          include="abstract authority availability category change classDecl creation distributor edition editionStmt              editorialDecl encodingDesc fileDesc funder idno langUsage language licence listPrefixDef normalization              prefixDef principal profileDesc projectDesc publicationStmt quotation rendition revisionDesc samplingDecl             seriesStmt sourceDesc sponsor taxonomy teiHeader titleStmt xenoData"/>
+               <moduleRef key="core"
+                          include="abbr add addrLine address author bibl biblScope cb choice corr date del desc             editor email emph expan foreign gap gloss graphic head hi item label lb list listBibl mentioned milestone             name note orig p pb ptr pubPlace publisher q ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
+               <moduleRef key="tei"/>
+               <moduleRef key="textstructure"
+                          include="TEI back body byline closer dateline div front opener salute signed text"/>
+               <moduleRef key="namesdates"
+                          include="addName affiliation birth death forename listOrg listPerson listPlace              location org orgName persName person place placeName roleName surname"/>
+               <moduleRef key="corpus" include="particDesc settingDesc textDesc"/>
+               <moduleRef key="figures" include="cell figDesc figure row table"/>
+               <moduleRef key="transcr" include="facsimile"/>
           
-          <!--  Trim the available attributes as much as possible. -->
-          <classSpec type="atts" ident="att.breaking" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
-            <attList>
-              <attDef ident="key" mode="delete"/>
-            </attList>
-          </classSpec>  
-          <classSpec type="atts" ident="att.combinable" module="tei" mode="delete"/>   
-          <classSpec type="atts" ident="att.coordinated" module="tei" mode="delete"/>    
-          <classSpec type="atts" ident="att.cReferencing" module="tei" mode="delete"/>      
-          <classSpec type="atts" ident="att.damaged" module="tei" mode="delete"/>      
-          <classSpec type="atts" ident="att.datable.iso" module="tei" mode="delete"/>    
-          <classSpec type="atts" ident="att.datcat" module="tei" mode="delete"/>      
-          <classSpec type="atts" ident="att.declarable" module="tei" mode="delete"/>  
-          <classSpec type="atts" ident="att.declaring" module="tei" mode="delete"/>    
-          <classSpec type="atts" ident="att.deprecated" module="tei" mode="delete"/>  
-          <classSpec type="atts" ident="att.dimensions" module="tei" mode="delete"/>  
-          <classSpec type="atts" ident="att.divLike" module="tei" mode="change">
-            <attList>
-              <attDef ident="org" mode="delete"/>
-              <attDef ident="sample" mode="delete"/>
-            </attList>
-          </classSpec> 
-          <classSpec type="atts" ident="att.duration" module="tei" mode="delete"/>   
-          <classSpec type="atts" ident="att.edition" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.editLike" module="tei" mode="delete"/>   
-          <classSpec type="atts" ident="att.enjamb" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.entryLike" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.fragmentable" module="tei" mode="delete"/>   
-          <classSpec type="atts" ident="att.global.analytic" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.global.change" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.global.facs" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.global.linking" module="tei" mode="change">
-            <attList>
-              <attDef ident="synch" mode="delete"/>
-              <attDef ident="sameAs" mode="delete"/>
-              <attDef ident="copyOf" mode="delete"/>
-              <attDef ident="exclude" mode="delete"/>
-              <attDef ident="select" mode="delete"/>
-            </attList>
-          </classSpec>
-          <!--  This is taken directly from the TEI Simple ODD and modified to make it even simpler. -->
-          <classSpec type="atts" ident="att.global.rendition" mode="change">
-            <constraintSpec ident="renditionpointer" scheme="isoschematron">
-              <constraint>
-                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:*[@rendition]">
-                  <let name="results"
-                    value="for $val in tokenize(normalize-space(@rendition),'\s+') return starts-with($val,'simple:')"/>
-                  <assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<value-of
-                    select="@rendition"/>" must point to a token in the Simple scheme (<value-of select="$results"/>)</assert>
-                </rule>
-              </constraint>
-            </constraintSpec>
-            <attList>
-              <attDef ident="rend" mode="delete"/>
-              <attDef ident="style" mode="delete"/>
-              <attDef ident="rendition" mode="change">
-                <valList mode="add" type="closed">
-                  <valItem ident="simple:bold">
-                    <desc>bold typeface</desc>
-                  </valItem>
-                  <valItem ident="simple:centre">
-                    <desc>centred</desc>
-                  </valItem>
-                  <valItem ident="simple:dropcap">
-                    <desc>initial letter larger or decorated</desc>
-                  </valItem>
-                  <valItem ident="simple:hyphen">
-                    <desc>with a hyphen here (eg in line break)</desc>
-                  </valItem>
-                  <valItem ident="simple:justify">
-                    <desc>justified text</desc>
-                  </valItem>
-                  <valItem ident="simple:italic">
-                    <desc>italic typeface</desc>
-                  </valItem>
-                  <valItem ident="simple:larger">
-                    <desc>larger type</desc>
-                  </valItem>
-                  <valItem ident="simple:left">
-                    <desc>aligned to the left or left-justified</desc>
-                  </valItem>
-                  <valItem ident="simple:normalstyle">
-                    <desc>upright shape and default weight of typeface</desc>
-                  </valItem>
-                  <valItem ident="simple:normalweight">
-                    <desc>normal typeface weight</desc>
-                  </valItem>
-                  <valItem ident="simple:right">
-                    <desc>aligned to the right or right-justified</desc>
-                  </valItem>
-                  <valItem ident="simple:smallcaps">
-                    <desc>small caps</desc>
-                  </valItem>
-                  <valItem ident="simple:smaller">
-                    <desc>smaller type</desc>
-                  </valItem>
-                  <valItem ident="simple:strikethrough">
-                    <desc>strike through</desc>
-                  </valItem>
-                  <valItem ident="simple:subscript">
-                    <desc>subscript</desc>
-                  </valItem>
-                  <valItem ident="simple:superscript">
-                    <desc>superscript</desc>
-                  </valItem>
-                  <valItem ident="simple:underline">
-                    <desc>underlined with single line</desc>
-                  </valItem>
-                </valList>
-              </attDef>
-            </attList>
-          </classSpec>
-          <classSpec type="atts" ident="att.handFeatures" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.identified" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.internetMedia" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.interpLike" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.lexicographic" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.measurement" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.media" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.metrical" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.milestoneUnit" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.msExcerpt" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.namespaceable" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.naming" module="tei" mode="change">
-            <attList>
-              <attDef ident="role" mode="delete"/>
-              <attDef ident="nymRef" mode="delete"/>
-            </attList>
-          </classSpec>
-          <classSpec type="atts" ident="att.patternReplacement" module="tei" mode="delete"/> 
-          <classSpec type="atts" ident="att.personal" module="tei" mode="change">
-            <attList>
-              <attDef ident="full" mode="delete"/>
-              <attDef ident="sort" mode="delete"/>
-            </attList>
-          </classSpec> 
-          <classSpec type="atts" ident="att.pointing" module="tei" mode="change">
-            <attList>
-              <attDef ident="targetLang" mode="delete"/>
-              <attDef ident="evaluate" mode="delete"/>
-            </attList>
-          </classSpec>
-          <classSpec type="atts" ident="att.pointing.group" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.ranging" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.rdgPart" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.readFrom" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.repeatable" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.scoping" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.segLike" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.sortable" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.spanning" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.tableDecoration" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.textCritical" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.timed" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.transcriptional" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.translatable" module="tei" mode="delete"/>
-          <classSpec type="atts" ident="att.witnessed" module="tei" mode="delete"/>
+               <!--  Trim the available attributes as much as possible. -->
+               <classSpec type="atts" ident="att.breaking" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
+                  <attList>
+                     <attDef ident="key" mode="delete"/>
+                  </attList>
+               </classSpec>  
+               <classSpec type="atts" ident="att.combinable" module="tei" mode="delete"/>   
+               <classSpec type="atts" ident="att.coordinated" module="tei" mode="delete"/>    
+               <classSpec type="atts" ident="att.cReferencing" module="tei" mode="delete"/>      
+               <classSpec type="atts" ident="att.damaged" module="tei" mode="delete"/>      
+               <classSpec type="atts" ident="att.datable.iso" module="tei" mode="delete"/>    
+               <classSpec type="atts" ident="att.datcat" module="tei" mode="delete"/>      
+               <classSpec type="atts" ident="att.declarable" module="tei" mode="delete"/>  
+               <classSpec type="atts" ident="att.declaring" module="tei" mode="delete"/>    
+               <classSpec type="atts" ident="att.deprecated" module="tei" mode="delete"/>  
+               <classSpec type="atts" ident="att.dimensions" module="tei" mode="delete"/>  
+               <classSpec type="atts" ident="att.divLike" module="tei" mode="change">
+                  <attList>
+                     <attDef ident="org" mode="delete"/>
+                     <attDef ident="sample" mode="delete"/>
+                  </attList>
+               </classSpec> 
+               <classSpec type="atts" ident="att.duration" module="tei" mode="delete"/>   
+               <classSpec type="atts" ident="att.edition" module="tei" mode="delete"/> 
+               <classSpec type="atts" ident="att.editLike" module="tei" mode="delete"/>   
+               <classSpec type="atts" ident="att.enjamb" module="tei" mode="delete"/> 
+               <classSpec type="atts" ident="att.entryLike" module="tei" mode="delete"/> 
+               <classSpec type="atts" ident="att.fragmentable" module="tei" mode="delete"/>   
+               <classSpec type="atts"
+                          ident="att.global.analytic"
+                          module="tei"
+                          mode="delete"/> 
+               <classSpec type="atts"
+                          ident="att.global.change"
+                          module="tei"
+                          mode="delete"/> 
+               <classSpec type="atts" ident="att.global.facs" module="tei" mode="delete"/> 
+               <classSpec type="atts"
+                          ident="att.global.linking"
+                          module="tei"
+                          mode="change">
+                  <attList>
+                     <attDef ident="synch" mode="delete"/>
+                     <attDef ident="sameAs" mode="delete"/>
+                     <attDef ident="copyOf" mode="delete"/>
+                     <attDef ident="exclude" mode="delete"/>
+                     <attDef ident="select" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--  This is taken directly from the TEI Simple ODD and modified to make it even simpler. -->
+               <classSpec type="atts" ident="att.global.rendition" mode="change">
+                  <constraintSpec ident="renditionpointer" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:*[@rendition]">
+                           <sch:let name="results"
+                                    value="for $val in tokenize(normalize-space(@rendition),'\s+') return starts-with($val,'simple:')"/>
+                           <sch:assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<sch:value-of select="@rendition"/>" must point to a token in the Simple scheme (<sch:value-of select="$results"/>)</sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <attList>
+                     <attDef ident="rend" mode="delete"/>
+                     <attDef ident="style" mode="delete"/>
+                     <attDef ident="rendition" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="simple:bold">
+                              <desc>bold typeface</desc>
+                           </valItem>
+                           <valItem ident="simple:centre">
+                              <desc>centred</desc>
+                           </valItem>
+                           <valItem ident="simple:dropcap">
+                              <desc>initial letter larger or decorated</desc>
+                           </valItem>
+                           <valItem ident="simple:hyphen">
+                              <desc>with a hyphen here (eg in line break)</desc>
+                           </valItem>
+                           <valItem ident="simple:justify">
+                              <desc>justified text</desc>
+                           </valItem>
+                           <valItem ident="simple:italic">
+                              <desc>italic typeface</desc>
+                           </valItem>
+                           <valItem ident="simple:larger">
+                              <desc>larger type</desc>
+                           </valItem>
+                           <valItem ident="simple:left">
+                              <desc>aligned to the left or left-justified</desc>
+                           </valItem>
+                           <valItem ident="simple:normalstyle">
+                              <desc>upright shape and default weight of typeface</desc>
+                           </valItem>
+                           <valItem ident="simple:normalweight">
+                              <desc>normal typeface weight</desc>
+                           </valItem>
+                           <valItem ident="simple:right">
+                              <desc>aligned to the right or right-justified</desc>
+                           </valItem>
+                           <valItem ident="simple:smallcaps">
+                              <desc>small caps</desc>
+                           </valItem>
+                           <valItem ident="simple:smaller">
+                              <desc>smaller type</desc>
+                           </valItem>
+                           <valItem ident="simple:strikethrough">
+                              <desc>strike through</desc>
+                           </valItem>
+                           <valItem ident="simple:subscript">
+                              <desc>subscript</desc>
+                           </valItem>
+                           <valItem ident="simple:superscript">
+                              <desc>superscript</desc>
+                           </valItem>
+                           <valItem ident="simple:underline">
+                              <desc>underlined with single line</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </classSpec>
+               <classSpec type="atts" ident="att.handFeatures" module="tei" mode="delete"/> 
+               <classSpec type="atts" ident="att.identified" module="tei" mode="delete"/> 
+               <classSpec type="atts"
+                          ident="att.internetMedia"
+                          module="tei"
+                          mode="delete"/> 
+               <classSpec type="atts" ident="att.interpLike" module="tei" mode="delete"/> 
+               <classSpec type="atts"
+                          ident="att.lexicographic"
+                          module="tei"
+                          mode="delete"/> 
+               <classSpec type="atts" ident="att.measurement" module="tei" mode="delete"/> 
+               <classSpec type="atts" ident="att.media" module="tei" mode="delete"/> 
+               <classSpec type="atts" ident="att.metrical" module="tei" mode="delete"/> 
+               <classSpec type="atts"
+                          ident="att.milestoneUnit"
+                          module="tei"
+                          mode="delete"/> 
+               <classSpec type="atts" ident="att.msExcerpt" module="tei" mode="delete"/> 
+               <classSpec type="atts"
+                          ident="att.namespaceable"
+                          module="tei"
+                          mode="delete"/> 
+               <classSpec type="atts" ident="att.naming" module="tei" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="nymRef" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec type="atts"
+                          ident="att.patternReplacement"
+                          module="tei"
+                          mode="delete"/> 
+               <classSpec type="atts" ident="att.personal" module="tei" mode="change">
+                  <attList>
+                     <attDef ident="full" mode="delete"/>
+                     <attDef ident="sort" mode="delete"/>
+                  </attList>
+               </classSpec> 
+               <classSpec type="atts" ident="att.pointing" module="tei" mode="change">
+                  <attList>
+                     <attDef ident="targetLang" mode="delete"/>
+                     <attDef ident="evaluate" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec type="atts"
+                          ident="att.pointing.group"
+                          module="tei"
+                          mode="delete"/>
+               <classSpec type="atts" ident="att.ranging" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.rdgPart" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.readFrom" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.repeatable" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.scoping" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.segLike" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.sortable" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.spanning" module="tei" mode="delete"/>
+               <classSpec type="atts"
+                          ident="att.tableDecoration"
+                          module="tei"
+                          mode="delete"/>
+               <classSpec type="atts" ident="att.textCritical" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.timed" module="tei" mode="delete"/>
+               <classSpec type="atts"
+                          ident="att.transcriptional"
+                          module="tei"
+                          mode="delete"/>
+               <classSpec type="atts" ident="att.translatable" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.witnessed" module="tei" mode="delete"/>
           
-<!--          
-          <elementSpec ident="TEI" module="textstructure" mode="change">
-            <attList>
-              <attDef ident="rend" mode="add" usage="req">
-                <valList type="closed">
-                  <valItem ident="tccd">
-                    <gloss>Mandatory attribute for root element
-                      to be used by Oxygen project machinery. </gloss>
-                  </valItem>
-                </valList>
-              </attDef>
-            </attList>
-          </elementSpec>
--->          
           
-<!--        Milestones are of various types, and this set may change as we 
+               <elementSpec ident="TEI" module="textstructure" mode="change">
+                  <constraintSpec ident="rootIdEqualsFileName" scheme="isoschematron">
+                     <desc>The root TEI element must have an @xml:id attribute which 
+              matches its filename.</desc>
+                     <constraint>
+                        <sch:rule context="tei:TEI">
+                           <sch:let name="reqId"
+                                    value="substring-before(tokenize(document-uri(/), '/')[last()], '.xml')"/>
+                           <sch:assert test="@xml:id = $reqId"> 
+                    The @xml:id attribute on the TEI element (<sch:value-of select="@xml:id"/>) should match the 
+                    document filename without extension (<sch:value-of select="$reqId"/>).
+                  </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+               </elementSpec>
+          
+               <elementSpec ident="name" module="core" mode="change">
+                  <constraintSpec ident="alignRefAndType" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:name">
+                           <sch:assert test="(@type='legislature' and starts-with(@ref, 'lg:lg'))">
+                      If this is a legislature name, it should have @type='legislature' and 
+                      a suitable value for @ref, starting with 'lg:lg'.
+                    </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <attList>
+                     <attDef ident="ref" mode="replace" usage="req">
+                        <gloss>links the name element to an entry in a taxonomy</gloss>
+                        <valList type="closed">
+                           <valItem ident="unspecified">
+                              <gloss>Use this value when you have not yet determined 
+                    the correct value. This value should be temporary.</gloss>
+                           </valItem>
+                           <valItem ident="lg:lgHC">
+                              <gloss>The House of Commons</gloss>
+                              <desc>The Canadian Federal House of Commons.</desc>
+                           </valItem>
+                           <valItem ident="lg:lgPCLAssem">
+                              <gloss>Province of Canada Legislative Assembly</gloss>
+                              <desc>The Legislative Assembly of the Province of Canada (Ontario and Québec
+                  constituting a single colony).</desc>
+                           </valItem>
+                           <valItem ident="lg:lgPCLCoun">
+                              <gloss>Province of Canada Legislative Council</gloss>
+                              <desc>The Legislative Council of the Province of Canada (Ontario and Québec
+              constituting a single colony).</desc>
+                           </valItem>
+                           <valItem ident="lg:lgBCLCoun">
+                              <gloss>Legislative Council of British Columbia</gloss>
+                              <desc>An advisory body created in 1867 to advise the governor of the 
+            new BC colony.</desc>
+                           </valItem>
+                           <valItem ident="lg:lgConv40">
+                              <gloss>The Convention of 40 / La Grande Convention</gloss>
+                              <desc>[Awaiting description]</desc>
+                           </valItem>
+                           <valItem ident="lg:lgAssinLAssem">
+                              <gloss>Legislative Assembly of Assiniboia / l’Assemblée législative d’Assiniboia</gloss>
+                              <desc/>
+                           </valItem>
+                           <valItem ident="lg:lgNBLAssem">
+                              <gloss>Legislative Assembly of New Brunswick</gloss>
+                              <desc>Assembly created initially in 1786 for the new colony, now 
+            the Provincial assembly.</desc>
+                           </valItem>
+                           <valItem ident="lg:lgNSLAssem">
+                              <gloss>Legislative Assembly of Nova Scotia</gloss>
+                              <desc>The oldest assembly in Canada, the NS House of Assembly
+            first sat in 1858.</desc>
+                           </valItem>
+                           <valItem ident="lg:lgPEILAssem">
+                              <gloss>Legislative Assembly of Prince Edward Island</gloss>
+                              <desc>The PEI legislature originated with a bicameral structure
+            in 1773.</desc>
+                           </valItem>
+                           <valItem ident="lg:lgNFLAssem">
+                              <gloss>Legislative Assembly of Newfoundland</gloss>
+                              <desc>The NF legislature was set up in 1832.</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="replace" usage="req">
+                        <gloss>The type of name being linked.</gloss>
+                        <valList type="closed">
+                           <valItem ident="legislature">
+                              <gloss>the name of a legislative assembly</gloss>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+          
+          
+               <!--        Milestones are of various types, and this set may change as we 
           test our schema with actual documents. -->
-          <elementSpec ident="milestone" module="core" mode="change">
-            <attList>
-              <attDef ident="type" mode="replace">
-                <valList type="closed">
-                  <valItem ident="parliament">
-                    <gloss>A transition between one parliament and the next.</gloss>
-                  </valItem>
-                  <valItem ident="session">
-                    <gloss>A transition between one parliamentary session and the next.</gloss>
-                  </valItem>
-                  <valItem ident="day">
-                    <gloss>A transition between one day and the next in a parliamentary session.</gloss>
-                  </valItem>
-                </valList>
-              </attDef>
-            </attList>
-          </elementSpec>
+               <elementSpec ident="milestone" module="core" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="replace">
+                        <valList type="closed">
+                           <valItem ident="parliament">
+                              <gloss>A transition between one parliament and the next.</gloss>
+                           </valItem>
+                           <valItem ident="session">
+                              <gloss>A transition between one parliamentary session and the next.</gloss>
+                           </valItem>
+                           <valItem ident="day">
+                              <gloss>A transition between one day and the next in a parliamentary session.</gloss>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
           
-          <!--  Values for textual divisions. These should be reinforced
+               <!--  Values for textual divisions. These should be reinforced
                 with Schematron to constrain their hierarchy. This is 
                 a very simple hierarchy; most transitions are milestones. -->
           
           
-          <elementSpec ident="div" mode="change">
-            <constraintSpec ident="divnesting1" scheme="isoschematron">
-              <constraint>
-                <rule xmlns="http://purl.oclc.org/dsdl/schematron" context="tei:div[@type='document']">
-                  <assert test="parent::tei:div[@type='debate']">
+               <elementSpec ident="div" mode="change">
+                  <constraintSpec ident="divnesting1" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:div[@type='document']">
+                           <sch:assert test="parent::tei:div[@type='debate']">
                     Error: a div with @type="document" must be a child of a div with @type="debate" (in 
                     other words, when a document is read into the record, this must be done in the 
                     context of a debate).
-                  </assert>
-                </rule>
-              </constraint>
-            </constraintSpec>
-          <attList>
-            <attDef ident="type" mode="change" usage="req">
-              <valList mode="replace">
-                <valItem ident="article">
-                  <gloss>A division containing a single newspaper article or report.</gloss>
-                </valItem>
-                <valItem ident="debate">
-                  <gloss>A division containing the events of one debate in a parliamentary session. Note that 
+                  </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <attList>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="replace">
+                           <valItem ident="article">
+                              <gloss>A division containing a single newspaper article or report.</gloss>
+                           </valItem>
+                           <valItem ident="debate">
+                              <gloss>A division containing the events of one debate in a parliamentary session. Note that 
                   a debate may span multiple days; if so, separate <tag>div type="debate"</tag> elements
                   will need to be created, linked using <att>next</att> and <att>prev</att>.</gloss>
-                </valItem>
-                <valItem ident="document">
-                  <gloss>A division containing a document (letter, printed speech, etc.) which 
+                           </valItem>
+                           <valItem ident="document">
+                              <gloss>A division containing a document (letter, printed speech, etc.) which 
                     is read into the parliamentary record.</gloss>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
             
-        </elementSpec>
+               </elementSpec>
           
           
-        </schemaSpec>
-      </div>
-    </back>
+            </schemaSpec>
+         </div>
+      </back>
   </text>
 </TEI>
