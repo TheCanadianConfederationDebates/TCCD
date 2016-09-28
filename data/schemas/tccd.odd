@@ -362,6 +362,9 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                </elementSpec>
           
+               <!--         We use the generic <name> element for precise purposes and 
+               constrain its attributes. For other usages, <persName> and 
+               <placeName> are available without these constraints. -->
                <elementSpec ident="name" module="core" mode="change">
                   <constraintSpec ident="alignRefAndType" scheme="isoschematron">
                      <constraint>
@@ -438,6 +441,22 @@ so Volume 2 by implication has finished. -->
                         </valList>
                      </attDef>
                   </attList>
+               </elementSpec>
+               
+               <!--             The <title> attribute is severely constrained when 
+               it occurs in <titleStmt> to ensure that we have core 
+               info there that we can process. -->
+               <elementSpec ident="title" module="core" mode="change">
+                  <constraintSpec ident="titleInTitleStmt" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:titleStmt/tei:title">
+                           <sch:assert test="child::tei:name[@ref] and child::tei:date[@when or (@from and @to)]">
+                              The title element in a titleStmt must contain both a name element and 
+                              a date element with appropriate attributes.
+                           </sch:assert>
+                        </sch:rule>
+                        </constraint>
+                  </constraintSpec>
                </elementSpec>
           
           

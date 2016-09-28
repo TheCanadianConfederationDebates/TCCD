@@ -9,7 +9,7 @@
         conforming with our current norms. Tag the date with a <date> element
         which includes @when or @from/@to attributes so we can process it 
         mechanically. -->
-        <title>[<name type="legislature" ref="lg:lgHC">Legislature</name>, date(-range), debate title/description]</title>
+        <title>[<name type="legislature" ref="lg:lgHC">Legislature</name>, <date when="1856-01-01">date(-range)</date>, debate title/description]</title>
         
         <respStmt>
           <resp>Selection of input documents and completion of metadata</resp>
