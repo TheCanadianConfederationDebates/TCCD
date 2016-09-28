@@ -9,16 +9,23 @@
   version="2.0">
   <xd:doc scope="stylesheet">
     <xd:desc>
-      <xd:p><xd:b>Created on:</xd:b> Jan 13, 2015</xd:p>
+      <xd:p><xd:b>Rewritten on:</xd:b> September 28, 2016</xd:p>
       <xd:p><xd:b>Author:</xd:b> mholmes</xd:p>
-      <xd:p>This stylesheet processes modified HOCR files 
-        originally produced by Tesseract but then enhanced
-        for editors to proof, after they have been proofed 
-        and corrected, to create TEI output.</xd:p>
-      <xd:p>This is a bulk transformer which processes an 
-        entire folder. It would normally be called on the 
-        command line or from an ant build script, and be 
-        passed the input and output folders as parameters.</xd:p>
+      <xd:p>This stylesheet processes a TEI template file created by 
+        an editor which specifies the metadata and the list of HOCR 
+        files which need to be incorporated, to create the single 
+        TEI file containing a single debate at a single legislature.
+        </xd:p>
+      <xd:p>The process works like this:
+      <xd:ul>
+        <xd:li>Check metadata is complete and referenced files exist.</xd:li>
+        <xd:li>Retrieve HOCR files.</xd:li>
+        <xd:li>Build facsimile element linking to original images, parsed out from
+               HOCR links. Warn if images or image links not found.</xd:li>
+        <xd:li>Process HOCR content to create TEI hierarchy of pages.</xd:li>
+        <xd:li>Transform page hierarchy into structural hierarchy.</xd:li>
+      </xd:ul>
+      </xd:p>
     </xd:desc>
   </xd:doc>
     

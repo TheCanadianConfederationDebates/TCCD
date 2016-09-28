@@ -134,7 +134,7 @@ so Volume 2 by implication has finished. -->
     <back>
       <div>
         <schemaSpec ident="tccd" start="TEI teiCorpus">
-          <moduleRef key="header" include="abstract authority availability creation distributor edition editionStmt 
+          <moduleRef key="header" include="abstract authority availability change creation distributor edition editionStmt 
             editorialDecl encodingDesc fileDesc funder idno langUsage language licence listPrefixDef normalization 
             prefixDef principal profileDesc projectDesc publicationStmt quotation rendition revisionDesc samplingDecl
             seriesStmt sourceDesc sponsor teiHeader titleStmt xenoData"/>

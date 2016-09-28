@@ -2,19 +2,19 @@
 <?xml-model href="https://raw.githubusercontent.com/TheCanadianConfederationDebates/TCCD/master/data/schemas/tccd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/TheCanadianConfederationDebates/TCCD/master/data/schemas/tccd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<!-- Add an @xml:id attribute to the root element. It should match the filename
+<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
      but without the trailing .xml. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rend="tccd">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-<!--    Provide a human-readable descriptive but concise title, 
+<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
         conforming with our current norms. -->
         <title>[Legislature, date(-range), debate title/description]</title>
         
         <respStmt>
-          <resp>Selection</resp>
-          <name><!-- Your name here. --></name>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <name><!-- TEMPLATE: Your name here. --></name>
         </respStmt>
         
       </titleStmt>
@@ -23,26 +23,31 @@
       <sourceDesc>
         <bibl>
           <title>
-            <!-- Title of the actual source print document from which 
+<!-- TEMPLATE: Title of the actual source print document from which 
                       this data was taken. -->
           </title>
-<!-- Complete the page-range using page numbers from the original print source. -->
+<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
           <biblScope unit="page"/>
         
-<!-- This idno will be constrained to a set of predefined values. -->
+<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
           <idno type="legislature"></idno>
           
-<!-- Complete the date element using @when or @from + @to.         -->
+<!-- TEMPLATE: Complete the date element using @when or @from + @to.         -->
           <date/>
           
         </bibl>
-<!--  HOCR documents from which this file was/will be created: -->
+<!--  TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
+        examples. File path should be relative to THIS XML FILE. -->
         <list>
-          <item><ptr target="PEI_H_of_C_1869_Page_01.hocr.html"/></item>
-          <item><ptr target="PEI_H_of_C_1869_Page_02.hocr.html"/></item>
+          <item><ptr target="hocr_edited/by_language/en/PEI_H_of_C_1869_Page_01.hocr.html"/></item>
+          <item><ptr target="hocr_edited/by_language/en/PEI_H_of_C_1869_Page_02.hocr.html"/></item>
         </list>
         </sourceDesc>
     </fileDesc>
+    <revisionDesc>
+<!-- TEMPLATE: Complete this change element with your identifier. -->
+      <change when="">Created this document</change>
+    </revisionDesc>
   </teiHeader>
   
 <!-- Processing will add a <facsimile> element here. -->
