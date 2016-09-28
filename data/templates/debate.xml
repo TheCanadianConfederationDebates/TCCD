@@ -36,7 +36,7 @@
           <date/>
           
         </bibl>
-<!--  TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
+<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
         examples. File path should be relative to THIS XML FILE. -->
         <list>
           <item><ptr target="hocr_edited/by_language/en/PEI_H_of_C_1869_Page_01.hocr.html"/></item>
@@ -45,12 +45,13 @@
         </sourceDesc>
     </fileDesc>
     <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier. -->
-      <change when="">Created this document</change>
+<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
+        date in the @when attribute. -->
+      <change>Created this document, completed metadata, </change>
     </revisionDesc>
   </teiHeader>
   
-<!-- Processing will add a <facsimile> element here. -->
+<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
   
   <text>
     <body>

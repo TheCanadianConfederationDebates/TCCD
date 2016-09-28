@@ -4,7 +4,9 @@
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   exclude-result-prefixes="#all"
   xpath-default-namespace="http://www.w3.org/1999/xhtml"
+  xmlns:xh=""
   xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:hcmc="http://hcmc.uvic.ca/ns"
   version="2.0">
   <xd:doc scope="stylesheet">
@@ -19,6 +21,7 @@
       <xd:p>The process works like this:
       <xd:ul>
         <xd:li>Check metadata is complete and referenced files exist.</xd:li>
+        <xd:li>Calculate path to local copy of schema.</xd:li>
         <xd:li>Retrieve HOCR files.</xd:li>
         <xd:li>Build facsimile element linking to original images, parsed out from
                HOCR links. Warn if images or image links not found.</xd:li>
@@ -29,22 +32,37 @@
     </xd:desc>
   </xd:doc>
     
-  <xsl:param name="inputFolder"/>
-  <xsl:param name="outputFolder"/>
+  <!--<xsl:param name="inputFolder"/>
+  <xsl:param name="outputFolder"/>-->
   
   <!-- TEI output in UTF-8 NFC. -->
   <xsl:output method="xml" encoding="UTF-8"  normalization-form="NFC" omit-xml-declaration="no" exclude-result-prefixes="#all" byte-order-mark="no" />
 
+  <xsl:variable name="rootEl" select="//tei:TEI[1]"/>  
   
-  <xsl:variable name="inDocs" select="collection(concat($inputFolder, '/?select=*.html;recurse=yes'))"/>
+  <!-- It's useful to know the base URI of the TCCD repo itself. -->
+  <xsl:param name="baseDir" select="replace(document-uri(/), '/data/.*$', '')"/>
+  
+  <xsl:variable name="sourceDir" select="replace(document-uri($rootEl), '/[^/]+$', '')"/>
+  <xsl:variable name="docFileName" select="tokenize(document-uri($rootEl), '/')[last()]"/>
+  
+  <!--<xsl:variable name="inDocs" select="collection(concat($inputFolder, '/?select=*.html;recurse=yes'))"/>
   
   
   <xsl:variable name="outputFileName" select="substring-before(tokenize(document-uri($inDocs[1]), '/')[last()], '_Page')"/>
-  <xsl:variable name="outputPath" select="concat($outputFolder, '/', $outputFileName, '.xml')"/>
+  <xsl:variable name="outputPath" select="concat($outputFolder, '/', $outputFileName, '.xml')"/>-->
   
   <!--<xsl:variable name="fName" select="substring-before(tokenize(document-uri(/), '[\\/]')[last()], '.hocr')"/>-->
   
   <xsl:template match="/">
+    <xsl:message>Processing this document:</xsl:message>
+    <xsl:message>  <xsl:value-of select="$docFileName"/></xsl:message>
+    <xsl:message>in this folder:</xsl:message>
+    <xsl:message>  <xsl:value-of select="$sourceDir"/></xsl:message>
+    <xsl:if test="$rootEl/@xml:id != substring-before($docFileName, '.xml')">
+      <xsl:message>WARNING: Document file name does not match @xml:id on root TEI element.</xsl:message>
+    </xsl:if>
+    
     <xsl:message>Found <xsl:value-of select="count($inDocs)"/> input documents in <xsl:value-of select="$inputFolder"/>.</xsl:message>
     <xsl:message>Creating TEI output in <xsl:value-of select="$outputPath"/>.</xsl:message>
     
@@ -93,6 +111,22 @@
         </text>
       </TEI>
     </xsl:result-document>
+  </xsl:template>
+  
+  <xsl:template match="tei:revisionDesc" exclude-result-prefixes="#all" mode="#all">
+    <xsl:message>Recording what we did.</xsl:message>
+    <xsl:variable name="w3today" select="format-date(current-date(),'[Y0001]-[M01]-[D01]')"/>    
+    <tei:revisionDesc status="{@status}">
+      <tei:change who="mholmes" when="{$w3today}">Transformed initial template file to incorporate corrected OCR content.</tei:change>
+      <xsl:apply-templates/>
+    </tei:revisionDesc>
+  </xsl:template>
+  
+<!--  Default identity transformation for TEI elements and attributes. -->
+  <xsl:template match="tei:*|tei:*/node()|tei:*/@*" mode="#all" priority="-1">
+    <xsl:copy>
+      <xsl:apply-templates mode="#current" select="tei:*|tei:*/node()|tei:*/@*"/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="body">
@@ -158,6 +192,9 @@
       </xsl:choose>
     </fw>
   </xsl:template>
+  
+<!-- Remove all comments which provide instructions for completing the template.  -->
+  <xsl:template match="comment()[matches(., 'TEMPLATE:')]"/>
   
   <xsl:template match="p[not(@class='editorial')]">
     <p>
