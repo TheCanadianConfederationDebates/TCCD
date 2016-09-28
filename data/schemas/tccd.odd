@@ -134,10 +134,10 @@ so Volume 2 by implication has finished. -->
     <back>
       <div>
         <schemaSpec ident="tccd" start="TEI teiCorpus">
-          <moduleRef key="header" include="abstract authority availability change creation distributor edition editionStmt 
+          <moduleRef key="header" include="abstract authority availability category change classDecl creation distributor edition editionStmt 
             editorialDecl encodingDesc fileDesc funder idno langUsage language licence listPrefixDef normalization 
             prefixDef principal profileDesc projectDesc publicationStmt quotation rendition revisionDesc samplingDecl
-            seriesStmt sourceDesc sponsor teiHeader titleStmt xenoData"/>
+            seriesStmt sourceDesc sponsor taxonomy teiHeader titleStmt xenoData"/>
           <moduleRef key="core" include="abbr add addrLine address author bibl biblScope cb choice corr date del desc
             editor email emph expan foreign gap gloss graphic head hi item label lb list listBibl mentioned milestone
             name note orig p pb ptr pubPlace publisher q ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
@@ -308,6 +308,7 @@ so Volume 2 by implication has finished. -->
           <classSpec type="atts" ident="att.translatable" module="tei" mode="delete"/>
           <classSpec type="atts" ident="att.witnessed" module="tei" mode="delete"/>
           
+<!--          
           <elementSpec ident="TEI" module="textstructure" mode="change">
             <attList>
               <attDef ident="rend" mode="add" usage="req">
@@ -320,7 +321,7 @@ so Volume 2 by implication has finished. -->
               </attDef>
             </attList>
           </elementSpec>
-          
+-->          
           
 <!--        Milestones are of various types, and this set may change as we 
           test our schema with actual documents. -->
