@@ -118,7 +118,7 @@
     <xsl:variable name="w3today" select="format-date(current-date(),'[Y0001]-[M01]-[D01]')"/>    
     <tei:revisionDesc status="{@status}">
       <tei:change who="mholmes" when="{$w3today}">Transformed initial template file to incorporate corrected OCR content.</tei:change>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="#current"/>
     </tei:revisionDesc>
   </xsl:template>
   
