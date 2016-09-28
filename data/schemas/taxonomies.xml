@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tccd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tccd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="taxonomies">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Canadian Confederation Debates: Taxonomies</title>
+      </titleStmt>
+      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
+      
+      <sourceDesc>
+        <p>This is a born-digital file based on original research.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="legislatures" n="Taxonomy of legislatures and assemblies whose proceedings form part of our dataset.">
+          <category xml:id="lgHC">
+            <gloss>The House of Commons</gloss>
+            <desc>The Canadian Federal House of Commons.</desc>
+          </category>
+          <category xml:id="lgPCLAssem">
+            <gloss>Province of Canada Legislative Assembly</gloss>
+            <desc>The Legislative Assembly of the Province of Canada (Ontario and Québec
+                  constituting a single colony).</desc>
+          </category>
+          <category xml:id="lgPCLCoun">
+            <gloss>Province of Canada Legislative Council</gloss>
+            <desc>The Legislative Council of the Province of Canada (Ontario and Québec
+              constituting a single colony).</desc>
+          </category>
+          <category xml:id="lgBCLCoun">
+            <gloss>Legislative Council of British Columbia</gloss>
+            <desc>An advisory body created in 1867 to advise the governor of the 
+            new BC colony.</desc>
+          </category>
+          <category xml:id="lgConv40">
+            <gloss>The Convention of 40 / La Grande Convention</gloss>
+            <desc>[Awaiting description]</desc>
+          </category>
+          <category xml:id="lgAssinLAssem">
+            <gloss>Legislative Assembly of Assiniboia / l’Assemblée législative d’Assiniboia</gloss>
+            <desc></desc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body><p>This is primarily a metadata file with key data in the teiHeader. </p></body>
+  </text>
+</TEI>
