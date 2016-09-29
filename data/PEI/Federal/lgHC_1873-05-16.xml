@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
      but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1870-02-17">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1873-05-16">
   <teiHeader>
     <fileDesc>
       <titleStmt>
 <!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1870-02-17">17 February 1870</date>, Canadian Confederation with Prince Edward Island</title>
+        conforming with our current norms. Tag the date with a <date> element
+        which includes @when or @from/@to attributes so we can process it 
+        mechanically. -->
+        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1873-05-16">16 May 1873</date>, Canadian Confederation with Prince Edward Island</title>
         
-       <respStmt>
+        <respStmt>
           <resp>Selection of input documents and completion of metadata</resp>
           <persName>Gordon Lyall</persName>
         </respStmt>
@@ -23,35 +25,33 @@
         <bibl>
           
 <!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>P.B. Waite</editor>.
+          <editor>David Farr</editor>.
           
 <!-- TEMPLATE: Title of the publication -->         
-          <title>House of Commons Debates, First Parliament, Third Session</title>.
+          <title>House of Commons Debates, Second Parliament, First Session</title>.
                     
 <!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
-          <date when="1979"/>.  
+          <date when="2013"/>.  
           
 <!-- TEMPLATE: Complete the publisher and publication place -->
-          <pubPlace>Ottawa</pubPlace>: <publisher>Minister of Supply and Services Canada</publisher>.
+          <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
-          <biblScope unit="page" from="32" to="32"/>.
-        
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
+<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
+               If it's a single page, put the same page number in @from and @to.-->
+          <biblScope unit="page" from="587" to="587"/>.
         </bibl>
         
 <!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
         examples. File path should be relative to THIS XML FILE. -->
         <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18700217_Page_032.hocr.html"/></item>
+          <item><ptr target="final/hocr/en/PEI_H_of_C_18730516_Page_587.hocr.html"/></item>
         </list>
         </sourceDesc>
     </fileDesc>
     <revisionDesc>
 <!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
         date in the @when attribute. -->
-      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+      <change who="lyallg" when="2016-09-29">Created this document, completed metadata, </change>
     </revisionDesc>
   </teiHeader>
   
