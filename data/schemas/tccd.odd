@@ -151,7 +151,7 @@ so Volume 2 by implication has finished. -->
                           include="addName affiliation birth death forename listOrg listPerson listPlace              location org orgName persName person place placeName roleName surname"/>
                <moduleRef key="corpus" include="particDesc settingDesc textDesc"/>
                <moduleRef key="figures" include="cell figDesc figure row table"/>
-               <moduleRef key="transcr" include="facsimile"/>
+               <moduleRef key="transcr" include="facsimile surface zone"/>
           
                <!--  Trim the available attributes as much as possible. -->
                <classSpec type="atts" ident="att.breaking" module="tei" mode="delete"/>

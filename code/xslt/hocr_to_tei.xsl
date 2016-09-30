@@ -4,7 +4,7 @@
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   exclude-result-prefixes="#all"
   xpath-default-namespace="http://www.w3.org/1999/xhtml"
-  xmlns:xh=""
+  xmlns:xh="http://www.w3.org/1999/xhtml"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:hcmc="http://hcmc.uvic.ca/ns"
@@ -31,30 +31,31 @@
       </xd:p>
     </xd:desc>
   </xd:doc>
-    
-  <!--<xsl:param name="inputFolder"/>
-  <xsl:param name="outputFolder"/>-->
   
   <!-- TEI output in UTF-8 NFC. -->
-  <xsl:output method="xml" encoding="UTF-8"  normalization-form="NFC" omit-xml-declaration="no" exclude-result-prefixes="#all" byte-order-mark="no" />
+  <xsl:output method="xml" encoding="UTF-8"  normalization-form="NFC" omit-xml-declaration="no" exclude-result-prefixes="#all" byte-order-mark="no" indent="yes" />
 
-  <xsl:variable name="rootEl" select="//tei:TEI[1]"/>  
-  
-  <!-- It's useful to know the base URI of the TCCD repo itself. -->
-  <xsl:param name="baseDir" select="replace(document-uri(/), '/data/.*$', '')"/>
-  
-  <xsl:variable name="sourceDir" select="replace(document-uri($rootEl), '/[^/]+$', '')"/>
-  <xsl:variable name="docFileName" select="tokenize(document-uri($rootEl), '/')[last()]"/>
-  
-  <!--<xsl:variable name="inDocs" select="collection(concat($inputFolder, '/?select=*.html;recurse=yes'))"/>
-  
-  
-  <xsl:variable name="outputFileName" select="substring-before(tokenize(document-uri($inDocs[1]), '/')[last()], '_Page')"/>
-  <xsl:variable name="outputPath" select="concat($outputFolder, '/', $outputFileName, '.xml')"/>-->
-  
-  <!--<xsl:variable name="fName" select="substring-before(tokenize(document-uri(/), '[\\/]')[last()], '.hocr')"/>-->
+  <xsl:variable name="quot">"</xsl:variable>
+
   
   <xsl:template match="/">
+    
+    <xsl:variable name="rootEl" as="node()" select="//tei:TEI[1]"/> 
+    
+    <xsl:variable name="docUri" as="xs:anyURI" select="document-uri(/)"/> 
+    
+    
+    <xsl:message>Input document URI is <xsl:value-of select="$docUri"/></xsl:message>
+    
+    <!-- It's useful to know the base URI of the TCCD repo itself. -->
+    <xsl:variable name="baseDir" select="replace($docUri, '/data/.*$', '')"/>
+    
+    
+    <xsl:message>Input document URI: <xsl:value-of select="$docUri"/></xsl:message>
+    
+    <xsl:variable name="sourceDir" select="replace($docUri, '/[^/]+$', '')"/>
+    <xsl:variable name="docFileName" select="tokenize($docUri, '/')[last()]"/>
+    
     <xsl:message>Processing this document:</xsl:message>
     <xsl:message>  <xsl:value-of select="$docFileName"/></xsl:message>
     <xsl:message>in this folder:</xsl:message>
@@ -63,12 +64,55 @@
       <xsl:message>WARNING: Document file name does not match @xml:id on root TEI element.</xsl:message>
     </xsl:if>
     
-    <xsl:message>Found <xsl:value-of select="count($inDocs)"/> input documents in <xsl:value-of select="$inputFolder"/>.</xsl:message>
-    <xsl:message>Creating TEI output in <xsl:value-of select="$outputPath"/>.</xsl:message>
+  <!--Find the source document paths and check the docs are actually there.-->  
+    
+    <xsl:variable name="hocrDocUris" select="//tei:sourceDesc/tei:list/tei:item/tei:ptr/@target"/>
+    <xsl:variable name="hocrDocs">
+      <xsl:for-each select="$hocrDocUris">
+        <xsl:variable name="fullPath" select="resolve-uri(., $docUri)"/>
+        <xsl:if test="not(doc-available($fullPath))">
+          <xsl:message terminate="yes">Document <xsl:value-of select="$fullPath"/> is not available. 
+            Please check the ptr element in the teiHeader. 
+            Terminating.</xsl:message>
+        </xsl:if>
+        <xsl:sequence select="doc($fullPath)"/>
+      </xsl:for-each>
+    </xsl:variable>
+    
+    <xsl:message>Found <xsl:value-of select="count($hocrDocs)"/> with OCR content.</xsl:message>
+    
+<!--  Now we do a bunch of checks to make sure we aren't overwriting data which is already 
+      imported or processed. -->
+    <xsl:if test="$rootEl/descendant::tei:facsimile or $rootEl/tei:text/tei:body/tei:div or not(//comment()[matches(., 'TEMPLATE:')])">
+      <xsl:message terminate="yes">WARNING: This document appears to have already been processed.
+                   Aborting this process to avoid overwriting good data. Please 
+                   check whether this document already has imported OCR content.</xsl:message>
+    </xsl:if>
     
     <xsl:variable name="currDate" select="current-date()"/>
     <xsl:variable name="currDateW3C" select="format-date($currDate, '[Y0001]-[M01]-[D01]')"/>
     <xsl:variable name="currDateText" select="format-date($currDate, '[D] [MNn] [Y0001]')"/>
+    
+<!--  If we've got this far, we're going to create the output document.  -->
+    <TEI>
+      <xsl:copy-of select="$rootEl/@*"/>
+      <xsl:apply-templates select="$rootEl/tei:teiHeader" mode="tei"/>
+      <facsimile>
+        <xsl:for-each select="$hocrDocs">
+          <xsl:variable name="pageImageUri" select="hcmc:getImageUri(//div[@class='ocr_page'][1]/@title)"/>
+          <xsl:variable name="pgId" select="substring-before(tokenize($pageImageUri, '/')[last()], '.')"/>
+          <surface xml:id="{$pgId}">
+            <graphic url="{$pageImageUri}"/>
+          </surface>
+        </xsl:for-each>
+      </facsimile>
+      <xsl:apply-templates select="$rootEl/tei:text" mode="tei"/>
+    </TEI>
+    <!--
+      
+    <xsl:message>Creating TEI output in <xsl:value-of select="$outputPath"/>.</xsl:message>
+    
+
     
     <xsl:result-document href="{$outputPath}" encoding="UTF-8"  normalization-form="NFC" omit-xml-declaration="no" exclude-result-prefixes="#all" byte-order-mark="no" indent="yes"><xsl:text>&#x0a;</xsl:text>
       <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_bare.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction><xsl:text>&#x0a;</xsl:text>
@@ -92,7 +136,7 @@
           </fileDesc>
         </teiHeader>
         <facsimile>
-<!-- TODO: We deduce information about the original page-images from the OCR data.         -->
+<!-\- TODO: We deduce information about the original page-images from the OCR data.         -\->
           
         </facsimile>
         <text>
@@ -110,24 +154,27 @@
           </body>
         </text>
       </TEI>
-    </xsl:result-document>
+    </xsl:result-document>-->
   </xsl:template>
   
-  <xsl:template match="tei:revisionDesc" exclude-result-prefixes="#all" mode="#all">
+  <xsl:template match="tei:revisionDesc" exclude-result-prefixes="#all" mode="tei">
     <xsl:message>Recording what we did.</xsl:message>
     <xsl:variable name="w3today" select="format-date(current-date(),'[Y0001]-[M01]-[D01]')"/>    
-    <tei:revisionDesc status="{@status}">
-      <tei:change who="mholmes" when="{$w3today}">Transformed initial template file to incorporate corrected OCR content.</tei:change>
+    <xsl:copy>
+      <change who="mholmes" when="{$w3today}">Transformed initial template file to incorporate corrected OCR content.</change>
       <xsl:apply-templates mode="#current"/>
-    </tei:revisionDesc>
+    </xsl:copy>
   </xsl:template>
   
 <!--  Default identity transformation for TEI elements and attributes. -->
-  <xsl:template match="tei:*|tei:*/node()|tei:*/@*" mode="#all" priority="-1">
+  <xsl:template match="@*|node()" mode="tei" priority="-1">
     <xsl:copy>
-      <xsl:apply-templates mode="#current" select="tei:*|tei:*/node()|tei:*/@*"/>
+      <xsl:apply-templates mode="#current" select="@*|node()"/>
     </xsl:copy>
   </xsl:template>
+  
+<!-- Remove all the template comments. -->
+  <xsl:template match="comment()[matches(., 'TEMPLATE:')]" mode="tei"/>
   
   <xsl:template match="body">
     <xsl:apply-templates/>
@@ -193,14 +240,17 @@
     </fw>
   </xsl:template>
   
-<!-- Remove all comments which provide instructions for completing the template.  -->
-  <xsl:template match="comment()[matches(., 'TEMPLATE:')]"/>
   
   <xsl:template match="p[not(@class='editorial')]">
     <p>
       <xsl:apply-templates/>
     </p>
   </xsl:template>
+  
+  <xsl:function name="hcmc:getImageUri" as="xs:string">
+    <xsl:param name="titleAtt" as="xs:string"/>
+    <xsl:value-of select="substring-before(substring-after($titleAtt, $quot), $quot)"/>
+  </xsl:function>
   
   <xsl:function name="hcmc:getTruePageColNumbers" as="xs:string*">
     <xsl:param name="page"/>
