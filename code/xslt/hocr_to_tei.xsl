@@ -168,9 +168,12 @@
 <!-- Now the following p that we want to suppress because we've handled it above. -->
   <xsl:template mode="secondPass" match="tei:p[preceding-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '^\s*[^A-Z]')][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]]"><xsl:comment>Para merged into previous para.</xsl:comment></xsl:template>
   
+<!-- TODO: THIS IS NOT WORKING. FIGURE OUT WHY NOT.  -->
 <!-- Now the formeworks/milestones that we want to suppress because they're handled above. -->
-  <xsl:template mode="secondPass" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>
+  <xsl:template mode="secondPass" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>
   
+  
+<!-- XHTML to TEI templates.  -->
 <!--  If we find a horizontal line, we should assume it is a column break. -->
   <xsl:template match="hr">
     <xsl:variable name="nums" select="hcmc:getTruePageColNumbers(ancestor::body)"/>
@@ -257,12 +260,13 @@
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
   
-  
   <xsl:template match="p[not(@class='editorial')]">
     <p>
       <xsl:apply-templates/>
     </p>
   </xsl:template>
+  
+  <xsl:template match="span"><xsl:apply-templates/></xsl:template>
   
   <xsl:function name="hcmc:getImageUri" as="xs:string">
     <xsl:param name="titleAtt" as="xs:string"/>
