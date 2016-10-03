@@ -1193,7 +1193,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/PEI/Federal/lgHC_1869-06-03.xml</String>
+                                    <String>data/PEI/Federal/lgHC_1869-06-04.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -1218,6 +1218,21 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/PEI/Federal/lgHC_1869-06-03.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>test_debate_completion</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
