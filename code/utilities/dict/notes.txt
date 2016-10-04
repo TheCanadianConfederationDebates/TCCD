@@ -1,0 +1,11 @@
+In this folder are open-source Hunspell dictionary files downloaded from the Hunspell project on SourceForge:
+
+en_CA-large.aff
+en_CA-large.dict
+README_en_CA-large.txt
+
+The dictionary has been expanded to add all inflected and derived forms using the following command:
+
+unmunch en_CA-large.dic en_CA-large.aff > en_CA-large-expanded.dic
+
+The en_CA-large-expanded.dic file will be used for various functions during processing of typographical features such as line-end hyphenation.
