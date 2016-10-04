@@ -154,7 +154,6 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="transcr" include="facsimile fw surface zone"/>
           
                <!--  Trim the available attributes as much as possible. -->
-               <classSpec type="atts" ident="att.breaking" module="tei" mode="delete"/>
                <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
                   <attList>
                      <attDef ident="key" mode="delete"/>

@@ -34,6 +34,9 @@
   
   <!-- TEI output in UTF-8 NFC. -->
   <xsl:output method="xml" encoding="UTF-8"  normalization-form="NFC" omit-xml-declaration="no" exclude-result-prefixes="#all" byte-order-mark="no" indent="yes" />
+  
+<!-- Dictionary module allows us to process linebreaks properly. -->
+  <xsl:include href="dictionary_module.xsl"/>
 
   <xsl:variable name="quot">"</xsl:variable>
 
@@ -113,7 +116,7 @@
 
       <text>
         <body>
-          <xsl:variable name="firstPass"> 
+          <xsl:variable name="firstPassOutput"> 
             <xsl:for-each select="$hocrDocs">
               <xsl:variable name="pageNum" select="hcmc:getPageNumber(.)"/>
               <pb n="{$pageNum}"/>
@@ -121,7 +124,15 @@
             </xsl:for-each>
           </xsl:variable>
           
-          <xsl:apply-templates mode="secondPass" select="$firstPass"/>
+          <xsl:variable name="secondPassOutput">
+            <xsl:apply-templates mode="secondPass" select="$firstPassOutput"/>
+          </xsl:variable>
+          
+          <xsl:variable name="thirdPassOutput">
+            <xsl:apply-templates mode="lbpass1" select="$secondPassOutput"/>
+          </xsl:variable>
+          
+          <xsl:apply-templates mode="lbpass2" select="$thirdPassOutput"/>
           
         </body>
         
@@ -296,6 +307,9 @@
     <xsl:choose>
       <xsl:when test="$hocrFile/descendant::p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')]">
         <xsl:value-of select="replace(normalize-space($hocrFile/descendant::p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')][1]), '.*\[([ivxlcIVXLC0123456789]+)\].*', '$1')"/>
+      </xsl:when>
+      <xsl:when test="matches(document-uri($hocrFile), '_\d+\.hocr\.html$')">
+        <xsl:value-of select="replace(tokenize(document-uri($hocrFile), '_')[last()], '\.hocr\.html$', '')"/>
       </xsl:when>
       <xsl:otherwise><xsl:value-of select="'nk'"/></xsl:otherwise>
     </xsl:choose>
