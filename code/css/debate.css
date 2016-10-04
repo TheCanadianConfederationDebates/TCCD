@@ -19,6 +19,10 @@ TEI teiHeader fileDesc titleStmt title{
   margin: 1em 5% 1em 5%;
 }
 
+TEI teiHeader fileDesc titleStmt title *{
+  display: inline;
+}
+
 /* Header elements to be suppressed. */
 respStmt, publicationStmt, sourceDesc, revisionDesc, facsimile{
   display: none;
@@ -27,7 +31,8 @@ respStmt, publicationStmt, sourceDesc, revisionDesc, facsimile{
 /* Basic page layout. */
 text{
   display: block;
-  width: 60em;
+  width: 80%;
+  max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   white-space: normal;
@@ -43,7 +48,6 @@ text, body, div, p{
 /* Forme works and milestones. */
 fw{
   display: block;
-  width: 100%;
   background-color: #ffffdd;
   margin: 1em 0;
 }
@@ -63,5 +67,21 @@ pb, cb{
 
 /* Stuff to suppress in the normal course of things. */
 lb{
+  display: none;
+}
+
+/* Problem cases need to be highlighted though. */
+lb[break="maybe"]{
+  display: inline-block;
+  width: 1em;
+  background-color: red;
+}
+
+fw lb{
+  display: block;
+  content: "";
+}
+
+fw lb:last-child{
   display: none;
 }

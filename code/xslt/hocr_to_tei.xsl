@@ -26,6 +26,8 @@
                HOCR links. Warn if images or image links not found.</xd:li>
         <xd:li>Process HOCR content to create TEI hierarchy of pages.</xd:li>
         <xd:li>Transform page hierarchy into structural hierarchy.</xd:li>
+        <xd:li>Make further passes through the text to refine the handling
+               of hyphenated linebreaks, based on dictionary evidence.</xd:li>
       </xd:ul>
       </xd:p>
     </xd:desc>
@@ -38,6 +40,8 @@
   <xsl:include href="dictionary_module.xsl"/>
 
   <xsl:variable name="quot">"</xsl:variable>
+  <xsl:variable name="reMonths" as="xs:string" select="'((jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec)|(fév)|(avr)|(mai)|(jui)|(aoû)|(déc))'"/>
+  <xsl:variable name="reYear" as="xs:string" select="'\d\d\d\d'"/>
 
   
   <xsl:template match="/">
@@ -219,10 +223,12 @@
     <xsl:message><xsl:value-of select="hcmc:isMostLikelyFormeWorks(string($thisArea))"/></xsl:message>
     <xsl:choose>
       <xsl:when test="hcmc:isMostLikelyFormeWorks(string($thisArea)) and (((not(preceding::xh:div[@class='ocr_carea'])) or (hcmc:isMostLikelyFormeWorks(string(preceding::xh:div[@class='ocr_carea'][1])))) or ((not(following::xh:div[@class='ocr_carea'])) or (hcmc:isMostLikelyFormeWorks(string(following::xh:div[@class='ocr_carea'][1])))))">
-        <fw>
           <!-- Now we attempt to figure out what we have in here. Possibly colnum + running header + colnum.-->
           <xsl:variable name="components" select="tokenize(normalize-space(.), '\s+')"/>
           <xsl:choose>
+            <xsl:when test="hcmc:isLikelyDate(.)">
+              <fw type="dateline"><xsl:apply-templates select="node()" mode="fw"/></fw>
+            </xsl:when>
             <xsl:when test="matches($components[1], '[ivxlcIVXLC0123456789]+') and matches($components[last()], 'ivxlcIVXLC0123456789+')">
               <fw type="num"><xsl:value-of select="$components[1]"/></fw>
               <xsl:if test="count($components) gt 2">
@@ -251,7 +257,7 @@
               <fw type="running"><xsl:apply-templates select="." mode="fw"/></fw>
             </xsl:otherwise>
           </xsl:choose>
-        </fw>
+        
       </xsl:when>
 <!-- Otherwise we just process its contents. -->
       <xsl:otherwise>
@@ -265,7 +271,9 @@
   </xsl:template>
   
   <xsl:template match="xh:br" mode="fw">
-    <lb/>
+    <xsl:if test="following-sibling::node()[string-length(normalize-space(.)) gt 0]">
+      <lb/>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="text()" mode="fw">
@@ -345,6 +353,11 @@
         <xsl:sequence select="$possPageNum"/>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:function>
+  
+  <xsl:function name="hcmc:isLikelyDate" as="xs:boolean">
+    <xsl:param name="inStr" as="xs:string"/>
+    <xsl:value-of select="matches($inStr, $reMonths, 'mi') and matches($inStr, $reYear, 'm')"/>
   </xsl:function>
   
 </xsl:stylesheet>

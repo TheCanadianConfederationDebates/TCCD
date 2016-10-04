@@ -86,7 +86,7 @@
     <xsl:param name="inLine" as="xs:string"/>
     <xsl:value-of select="replace(
                             hcmc:prepText(
-                              tokenize(normalize-space($inLine), '\s+')[last()]
+                            tokenize(normalize-space($inLine), '[\s—]+')[last()]
                               ), '[\-–—]+\s*$', '')"/>
   </xsl:function>
   
@@ -94,7 +94,7 @@
      run in a form which can be used in other functions. -->
   <xsl:function name="hcmc:getFirstBit" as="xs:string">
     <xsl:param name="inLine" as="xs:string"/>
-    <xsl:value-of select="hcmc:prepText(tokenize(normalize-space($inLine), '\s+')[1])"/>
+    <xsl:value-of select="hcmc:prepText(tokenize(normalize-space($inLine), '[\s—]+')[1])"/>
   </xsl:function>
   
 <!-- The following templates, all in the lbpass1 and lbpass2 modes, 
