@@ -352,10 +352,16 @@ so Volume 2 by implication has finished. -->
                         <sch:rule context="tei:TEI">
                            <sch:let name="reqId"
                                     value="substring-before(tokenize(document-uri(/), '/')[last()], '.xml')"/>
-                           <sch:assert test="@xml:id = $reqId"> 
+                           <sch:let name="unexpandedId" value="substring-before($reqId, '_expanded')"/>
+                           <sch:assert test="@xml:id = ($reqId, $unexpandedId)"> 
                     The @xml:id attribute on the TEI element (<sch:value-of select="@xml:id"/>) should match the 
                     document filename without extension (<sch:value-of select="$reqId"/>).
                   </sch:assert>
+                           <sch:report role="warning" test="$reqId = concat($unexpandedId, '_expanded')">
+                              Check this file to make sure it has been expanded correctly.
+                              If it has, re-save it over the original template file, and delete
+                              the file with "_expanded" in its filename.
+                           </sch:report>
                         </sch:rule>
                      </constraint>
                   </constraintSpec>

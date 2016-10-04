@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-10-04T12:58:34Z. 2016.
+Schema generated from ODD source 2016-10-04T14:16:11Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	27th September 2016, revision d4c51b0
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -3698,10 +3698,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       context="tei:TEI">
                            <sch:let name="reqId"
                         value="substring-before(tokenize(document-uri(/), '/')[last()], '.xml')"/>
-                           <sch:assert test="@xml:id = $reqId"> 
+                           <sch:let name="unexpandedId" value="substring-before($reqId, '_expanded')"/>
+                           <sch:assert test="@xml:id = ($reqId, $unexpandedId)"> 
                     The @xml:id attribute on the TEI element (<sch:value-of select="@xml:id"/>) should match the 
                     document filename without extension (<sch:value-of select="$reqId"/>).
                   </sch:assert>
+                           <sch:report role="warning" test="$reqId = concat($unexpandedId, '_expanded')">
+                              Check this file to make sure it has been expanded correctly.
+                              If it has, re-save it over the original template file, and delete
+                              the file with "_expanded" in its filename.
+                           </sch:report>
                         </sch:rule>
          </pattern>
          <ns xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -4010,7 +4016,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-div-abstractModel-structure-l-constraint-9">
+                  id="tccd-div-abstractModel-structure-l-constraint-10">
             <rule context="tei:div">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -4023,7 +4029,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-div-abstractModel-structure-p-constraint-10">
+                  id="tccd-div-abstractModel-structure-p-constraint-11">
             <rule context="tei:div">
                <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:xi="http://www.w3.org/2001/XInclude"

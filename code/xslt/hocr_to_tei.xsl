@@ -3,7 +3,6 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   exclude-result-prefixes="#all"
-  xpath-default-namespace="http://www.w3.org/1999/xhtml"
   xmlns:xh="http://www.w3.org/1999/xhtml"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
@@ -101,12 +100,13 @@
     <xsl:variable name="currDateText" select="format-date($currDate, '[D] [MNn] [Y0001]')"/>
     
 <!--  If we've got this far, we're going to create the output document.  -->
-    <TEI>
-      <xsl:copy-of select="$rootEl/@*"/>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <xsl:copy-of select="$rootEl/@*[not(local-name(.) = 'type')]"/>
+      <xsl:attribute name="type" select="'full'"/>
       <xsl:apply-templates select="$rootEl/tei:teiHeader" mode="tei"/>
       <facsimile>
         <xsl:for-each select="$hocrDocs">
-          <xsl:variable name="pageImageUri" select="hcmc:getImageUri(//div[@class='ocr_page'][1]/@title)"/>
+          <xsl:variable name="pageImageUri" select="hcmc:getImageUri(//xh:div[@class='ocr_page'][1]/@title)"/>
           <xsl:variable name="pgId" select="substring-before(tokenize($pageImageUri, '/')[last()], '.')"/>
           <surface xml:id="{$pgId}">
             <graphic url="{$pageImageUri}"/>
@@ -120,7 +120,7 @@
             <xsl:for-each select="$hocrDocs">
               <xsl:variable name="pageNum" select="hcmc:getPageNumber(.)"/>
               <pb n="{$pageNum}"/>
-              <xsl:apply-templates select="//div[@class='ocr_page']/*"/>
+              <xsl:apply-templates select="//xh:div[@class='ocr_page']/*"/>
             </xsl:for-each>
           </xsl:variable>
           
@@ -155,7 +155,7 @@
   </xsl:template>
   
 <!--  Default identity transformation for TEI elements and attributes. -->
-  <xsl:template match="@*|node()" mode="#all" priority="-1">
+  <xsl:template mode="#all" match="@*|tei:*|tei:*/node()" priority="-2">
     <xsl:copy>
       <xsl:apply-templates mode="#current" select="@*|node()"/>
     </xsl:copy>
@@ -179,7 +179,6 @@
 <!-- Now the following p that we want to suppress because we've handled it above. -->
   <xsl:template mode="secondPass" match="tei:p[preceding-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '^\s*[^A-Z]')][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]]"><xsl:comment>Para merged into previous para.</xsl:comment></xsl:template>
   
-<!-- TODO: THIS IS NOT WORKING. FIGURE OUT WHY NOT.  -->
 <!-- Now the formeworks/milestones that we want to suppress because they're handled above. -->
   <xsl:template mode="secondPass" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>
   
@@ -188,7 +187,7 @@
   
 <!-- XHTML to TEI templates.  -->
 <!--  If we find a horizontal line, we should assume it is a column break. -->
-  <xsl:template match="hr">
+  <xsl:template match="xh:hr">
     <xsl:variable name="nums" select="hcmc:getTruePageColNumbers(ancestor::body)"/>
     <xsl:choose>
       <xsl:when test="not(following-sibling::*)"></xsl:when>
@@ -201,7 +200,7 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="br"><lb/></xsl:template>
+  <xsl:template match="xh:br"><lb/></xsl:template>
   
 <!-- We dump our editorial injections. -->
   <xsl:template match="p[@class='editorial']"/>
@@ -215,16 +214,16 @@
 <!-- We attempt to distinguish forme works from other components. We 
      do this on the assumption that an area which appears first or 
      last, and which contains short text strings, is a forme work. -->
-  <xsl:template match="div[@class='ocr_carea']">
+  <xsl:template match="xh:div[@class='ocr_carea']">
     <xsl:variable name="thisArea" select="."/>
     <xsl:message><xsl:value-of select="hcmc:isMostLikelyFormeWorks(string($thisArea))"/></xsl:message>
     <xsl:choose>
-      <xsl:when test="hcmc:isMostLikelyFormeWorks(string($thisArea)) and (((not(preceding::div[@class='ocr_carea'])) or (hcmc:isMostLikelyFormeWorks(string(preceding::div[@class='ocr_carea'][1])))) or ((not(following::div[@class='ocr_carea'])) or (hcmc:isMostLikelyFormeWorks(string(following::div[@class='ocr_carea'][1])))))">
+      <xsl:when test="hcmc:isMostLikelyFormeWorks(string($thisArea)) and (((not(preceding::xh:div[@class='ocr_carea'])) or (hcmc:isMostLikelyFormeWorks(string(preceding::xh:div[@class='ocr_carea'][1])))) or ((not(following::xh:div[@class='ocr_carea'])) or (hcmc:isMostLikelyFormeWorks(string(following::xh:div[@class='ocr_carea'][1])))))">
         <fw>
           <!-- Now we attempt to figure out what we have in here. Possibly colnum + running header + colnum.-->
           <xsl:variable name="components" select="tokenize(normalize-space(.), '\s+')"/>
           <xsl:choose>
-            <xsl:when test="matches($components[1], '[ivxlcIVXLC0123456789]+') and matches(components[last()], 'ivxlcIVXLC0123456789+')">
+            <xsl:when test="matches($components[1], '[ivxlcIVXLC0123456789]+') and matches($components[last()], 'ivxlcIVXLC0123456789+')">
               <fw type="num"><xsl:value-of select="$components[1]"/></fw>
               <xsl:if test="count($components) gt 2">
                 <fw type="running"><xsl:value-of select="string-join((for $c in $components[position() gt 1 and position() lt last()] return $c), ' ')"/></fw>
@@ -261,11 +260,11 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="p" mode="fw">
+  <xsl:template match="xh:p" mode="fw">
     <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="br" mode="fw">
+  <xsl:template match="xh:br" mode="fw">
     <lb/>
   </xsl:template>
   
@@ -273,13 +272,13 @@
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
   
-  <xsl:template match="p[not(@class='editorial')]">
+  <xsl:template match="xh:p[not(@class='editorial')]">
     <p>
       <xsl:apply-templates/>
     </p>
   </xsl:template>
   
-  <xsl:template match="span"><xsl:apply-templates/></xsl:template>
+  <xsl:template match="xh:span"><xsl:apply-templates/></xsl:template>
   
   <xsl:function name="hcmc:getImageUri" as="xs:string">
     <xsl:param name="titleAtt" as="xs:string"/>
@@ -305,8 +304,8 @@
   <xsl:function name="hcmc:getPageNumber" as="xs:string">
     <xsl:param name="hocrFile" as="node()"/>
     <xsl:choose>
-      <xsl:when test="$hocrFile/descendant::p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')]">
-        <xsl:value-of select="replace(normalize-space($hocrFile/descendant::p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')][1]), '.*\[([ivxlcIVXLC0123456789]+)\].*', '$1')"/>
+      <xsl:when test="$hocrFile/descendant::xh:p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')]">
+        <xsl:value-of select="replace(normalize-space($hocrFile/descendant::xh:p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')][1]), '.*\[([ivxlcIVXLC0123456789]+)\].*', '$1')"/>
       </xsl:when>
       <xsl:when test="matches(document-uri($hocrFile), '_\d+\.hocr\.html$')">
         <xsl:value-of select="replace(tokenize(document-uri($hocrFile), '_')[last()], '\.hocr\.html$', '')"/>
@@ -317,7 +316,7 @@
   
   <xsl:function name="hcmc:getTruePageColNumbers" as="xs:string*">
     <xsl:param name="page"/>
-    <xsl:variable name="editorialHeader" select="if ($page//div[@class='editorial']) then $page//div[@class='editorial'][1] else ()"/>
+    <xsl:variable name="editorialHeader" select="if ($page//xh:div[@class='editorial']) then $page//xh:div[@class='editorial'][1] else ()"/>
     <xsl:variable name="numsFromEditorialHeader" select="replace($editorialHeader, '^.+(\[[ivxlcIVXLC0123456789\-\s]+\]).+$', '$1')"/>
     <xsl:choose>
       <xsl:when test="string-length($numsFromEditorialHeader) gt 0">
@@ -325,8 +324,8 @@
       </xsl:when>
       <xsl:otherwise>
 <!--        Go back to the original source and try to find the page numbers. -->
-        <xsl:variable name="firstMeaningfulDiv" select="if ($page//div[@class='ocr_carea'][string-length(normalize-space(.)) gt 0]) then normalize-space($page//div[@class='ocr_carea'][string-length(normalize-space(.)) gt 0][1]) else ''"/>
-        <xsl:variable name="lastMeaningfulDiv" select="if ($page//div[@class='ocr_carea'][string-length(normalize-space(.)) gt 0]) then normalize-space($page//div[@class='ocr_carea'][string-length(normalize-space(.)) gt 0][last()]) else ''"/>
+        <xsl:variable name="firstMeaningfulDiv" select="if ($page//xh:div[@class='ocr_carea'][string-length(normalize-space(.)) gt 0]) then normalize-space($page//xh:div[@class='ocr_carea'][string-length(normalize-space(.)) gt 0][1]) else ''"/>
+        <xsl:variable name="lastMeaningfulDiv" select="if ($page//xh:div[@class='ocr_carea'][string-length(normalize-space(.)) gt 0]) then normalize-space($page//xh:div[@class='ocr_carea'][string-length(normalize-space(.)) gt 0][last()]) else ''"/>
         <xsl:variable name="possPageNum" as="xs:string*">
           <xsl:choose>
             <xsl:when test="string-length($firstMeaningfulDiv) gt 0 and matches($firstMeaningfulDiv, '\d')">

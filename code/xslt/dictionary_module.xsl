@@ -4,9 +4,7 @@
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   exclude-result-prefixes="#all"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xpath-default-namespace="http://www.tei-c.org/ns/1.0"
   xmlns:xh="http://www.w3.org/1999/xhtml"
-  xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:hcmc="http://hcmc.uvic.ca/ns"
   version="2.0">
   <xd:doc scope="stylesheet">
@@ -109,7 +107,7 @@
 <!-- We do this in two passes because it's way easier that way. -->
   
 <!--  Default template, which should apply to virtually everything. -->
-  <xsl:template mode="lbpass1 lbpass2" match="@* | node()" priority="-1">
+  <xsl:template mode="lbpass1 lbpass2" match="@* | node()" priority="-1" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
     <xsl:copy>
       <xsl:apply-templates mode="#current" select="@* | node()"/>
     </xsl:copy>
@@ -117,10 +115,10 @@
   
 <!-- This is the trigger template which finds a line ending with a hyphen
      and makes the decision, encoding the result in the lb tag.  -->
-  <xsl:template mode="lbpass1" match="lb[matches(preceding::text()[1], '[\-–—]+\s*$')]">
+  <xsl:template mode="lbpass1" match="tei:lb[matches(preceding::text()[1], '[\-–—]+\s*$')]">
     <xsl:variable name="firstBit" select="hcmc:getLastBit(preceding::text()[1])"/>
     <xsl:variable name="secondBit" select="hcmc:getFirstBit(following::text()[1])"/>
-    <lb break="{hcmc:isRealBreak($firstBit, $secondBit)}"/>
+    <lb xmlns="http://www.tei-c.org/ns/1.0" break="{hcmc:isRealBreak($firstBit, $secondBit)}"/>
   </xsl:template>
   
 <!-- This is the second-pass template which handles text nodes which 
@@ -129,13 +127,13 @@
     <xsl:choose>
 <!--   If it both follows a non-break 
       and precedes one, it gets both operations.-->
-      <xsl:when test="preceding::*[1][self::lb[@break='no']] and following::*[1][self::lb[@break='no']]">
+      <xsl:when test="preceding::*[1][self::tei:lb[@break='no']] and following::*[1][self::tei:lb[@break='no']]">
         <xsl:value-of select="replace(replace(., '[\-–—]+\s*$', ''), '^\s+', '')"/>
       </xsl:when>
-      <xsl:when test="preceding::*[1][self::lb[@break='no']]">
+      <xsl:when test="preceding::*[1][self::tei:lb[@break='no']]">
         <xsl:value-of select="replace(., '^\s+', '')"/>
       </xsl:when>
-      <xsl:when test="following::*[1][self::lb[@break='no']]">
+      <xsl:when test="following::*[1][self::tei:lb[@break='no']]">
         <xsl:value-of select="replace(., '[\-–—]+\s*$', '')"/>
       </xsl:when>
       <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
