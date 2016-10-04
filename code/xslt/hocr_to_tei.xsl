@@ -173,6 +173,8 @@
   <xsl:template mode="secondPass" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>
   
   
+<!-- These are the third-pass templates which handle hyphenated linebreaks. -->
+  
 <!-- XHTML to TEI templates.  -->
 <!--  If we find a horizontal line, we should assume it is a column break. -->
   <xsl:template match="hr">
