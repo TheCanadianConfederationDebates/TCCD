@@ -189,7 +189,6 @@ so Volume 2 by implication has finished. -->
                           ident="att.global.change"
                           module="tei"
                           mode="delete"/> 
-               <classSpec type="atts" ident="att.global.facs" module="tei" mode="delete"/> 
                <classSpec type="atts"
                           ident="att.global.linking"
                           module="tei"
@@ -483,6 +482,33 @@ so Volume 2 by implication has finished. -->
                         </valList>
                      </attDef>
                   </attList>
+               </elementSpec>
+               
+               <!--               lb elements with the @break='maybe' value need to be flagged for attention. -->
+               <elementSpec ident="lb" module="core" mode="change">
+                  <constraintSpec ident="lbbreakmaybewarning" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:lb">
+                           <sch:report test="@break='maybe'" role="warning">
+                              Please examine this linebreak and decide whether it should be
+                              @break="yes" (there are two separate words) or @break="no"
+                              (this is a single word which is hyphenated only because there
+                              is a linebreak).
+                           </sch:report>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <constraintSpec ident="nowhitespacearoundintrawordbreak" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:lb[@break='no']">
+                           <sch:assert test="not(matches(preceding::text()[1], '((\s+$)|([\-–—]+\s*$))')) and (not(matches(following::text()[1], '^\s+')) or following::*[1][self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone])">
+                              If a linebreak is non-breaking (@break="no", meaning that it occurs in the middle
+                              of a word), then the hyphen and all whitespace around the linebreak should be 
+                              removed.
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
                </elementSpec>
           
                <!--  Values for textual divisions. These should be reinforced

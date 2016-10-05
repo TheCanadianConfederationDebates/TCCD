@@ -1102,7 +1102,29 @@
                                                 <Boolean>true</Boolean>
                                             </field>
                                             <field name="xsltParams">
-                                                <list/>
+                                                <list>
+                                                    <transformationParameter>
+                                                        <field name="paramDescription">
+                                                            <paramDescriptor>
+                                                                <field name="localName">
+                                                                    <String>--suppressXsltNamespaceCheck:on</String>
+                                                                </field>
+                                                                <field name="prefix">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="namespace">
+                                                                    <null/>
+                                                                </field>
+                                                            </paramDescriptor>
+                                                        </field>
+                                                        <field name="value">
+                                                            <String></String>
+                                                        </field>
+                                                        <field name="hasXPathValue">
+                                                            <Boolean>false</Boolean>
+                                                        </field>
+                                                    </transformationParameter>
+                                                </list>
                                             </field>
                                             <field name="cascadingStylesheets">
                                                 <String-array/>
@@ -1528,6 +1550,10 @@
                                 </field>
                             </documentTypeEntry>
                         </documentTypeEntry-array>
+                    </entry>
+                    <entry>
+                        <String>key.author.editor.option.pane</String>
+                        <Boolean>true</Boolean>
                     </entry>
                     <entry>
                         <String>key.editor.document.type.association.option.pane</String>
@@ -2274,6 +2300,10 @@
                                 </field>
                             </scenario>
                         </scenario-array>
+                    </entry>
+                    <entry>
+                        <String>tagless.editor.tags.display.mode</String>
+                        <Integer>1</Integer>
                     </entry>
                 </serializableOrderedMap>
             </serialized>

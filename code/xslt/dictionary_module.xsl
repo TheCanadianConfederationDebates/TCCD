@@ -127,15 +127,18 @@
     <xsl:choose>
 <!--   If it both follows a non-break 
       and precedes one, it gets both operations.-->
-      <xsl:when test="preceding::*[1][self::tei:lb[@break='no']] and following::*[1][self::tei:lb[@break='no']]">
+      <xsl:when test="preceding::*[1][not(self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw)][self::tei:lb[@break='no']] and following::*[not(self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw)][1][self::tei:lb[@break='no']]">
         <xsl:value-of select="replace(replace(., '[\-–—]+\s*$', ''), '^\s+', '')"/>
       </xsl:when>
-      <xsl:when test="preceding::*[1][self::tei:lb[@break='no']]">
+      <xsl:when test="preceding::*[not(self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw)][1][self::tei:lb[@break='no']]">
         <xsl:value-of select="replace(., '^\s+', '')"/>
       </xsl:when>
-      <xsl:when test="following::*[1][self::tei:lb[@break='no']]">
+      <xsl:when test="following::*[not(self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw)][1][self::tei:lb[@break='no']]">
         <xsl:value-of select="replace(., '[\-–—]+\s*$', '')"/>
       </xsl:when>
+      <!--<xsl:when test="preceding::node()[1][self::tei:lb[@break='no']] and following::node()[1][self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw]">
+        <xsl:value-of select="replace(., '^\s+', '')"/>
+      </xsl:when>-->
       <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>

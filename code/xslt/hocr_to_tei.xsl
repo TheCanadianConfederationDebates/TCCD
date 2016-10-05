@@ -108,22 +108,31 @@
       <xsl:copy-of select="$rootEl/@*[not(local-name(.) = 'type')]"/>
       <xsl:attribute name="type" select="'full'"/>
       <xsl:apply-templates select="$rootEl/tei:teiHeader" mode="tei"/>
-      <facsimile>
-        <xsl:for-each select="$hocrDocs">
-          <xsl:variable name="pageImageUri" select="hcmc:getImageUri(//xh:div[@class='ocr_page'][1]/@title)"/>
-          <xsl:variable name="pgId" select="substring-before(tokenize($pageImageUri, '/')[last()], '.')"/>
-          <surface xml:id="{$pgId}">
-            <graphic url="{$pageImageUri}"/>
-          </surface>
-        </xsl:for-each>
-      </facsimile>
+      
+<!--  We stash this in a variable because we need to be able to read the 
+      image URLs later. -->
+      <xsl:variable name="facsimile">
+        <facsimile>
+          <xsl:for-each select="$hocrDocs">
+            <xsl:variable name="pageImageUri" select="hcmc:getImageUri(//xh:div[@class='ocr_page'][1]/@title)"/>
+            <xsl:variable name="pgId" select="substring-before(tokenize($pageImageUri, '/')[last()], '.')"/>
+            <surface xml:id="{$pgId}">
+              <graphic url="{$pageImageUri}"/>
+            </surface>
+          </xsl:for-each>
+        </facsimile>
+      </xsl:variable>
+      
+<!--     Write it out to the document. -->
+      <xsl:sequence select="$facsimile"/>
 
       <text>
         <body>
           <xsl:variable name="firstPassOutput"> 
             <xsl:for-each select="$hocrDocs">
+              <xsl:variable name="pos" select="position()"/>
               <xsl:variable name="pageNum" select="hcmc:getPageNumber(.)"/>
-              <pb n="{$pageNum}"/>
+              <pb n="{$pageNum}" facs="{$facsimile/descendant::tei:surface[$pos]/tei:graphic/@url}"/>
               <xsl:apply-templates select="//xh:div[@class='ocr_page']/*"/>
             </xsl:for-each>
           </xsl:variable>
