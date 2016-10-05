@@ -53,7 +53,9 @@
   </target>
 
 
-<!--Convert personography spreadsheet into a fods file and then clean up. -->
+<!--Convert personography spreadsheet into a fods file and then clean up.
+    NOTE: This is taken directly from MoEML as an example, and will be 
+    reworked. -->
   <target name="convertSpreadsheet">
     <echo message="${echo.separator}"/>
     <echo message="Converting the personography spreadsheet to ods flat file for easier processing."/>
