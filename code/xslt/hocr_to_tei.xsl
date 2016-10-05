@@ -38,17 +38,21 @@
   
 <!-- Dictionary module allows us to process linebreaks properly. -->
   <xsl:include href="dictionary_module.xsl"/>
+  
+<!-- Utilities for various purposes including relative path calculation. -->
+  <xsl:include href="utilities_module.xsl"/>
 
   <xsl:variable name="quot">"</xsl:variable>
   <xsl:variable name="reMonths" as="xs:string" select="'((jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec)|(fév)|(avr)|(mai)|(jui)|(aoû)|(déc))'"/>
   <xsl:variable name="reYear" as="xs:string" select="'\d\d\d\d'"/>
 
   
-  <xsl:template match="/">
-    
     <xsl:variable name="rootEl" as="node()" select="//tei:TEI[1]"/> 
     
     <xsl:variable name="docUri" as="xs:anyURI" select="document-uri(/)"/> 
+  
+  <xsl:template match="/">
+    
     
     
     <xsl:message>Input document URI is <xsl:value-of select="$docUri"/></xsl:message>
@@ -298,8 +302,11 @@
   <xsl:template match="xh:span"><xsl:apply-templates/></xsl:template>
   
   <xsl:function name="hcmc:getImageUri" as="xs:string">
-    <xsl:param name="titleAtt" as="xs:string"/>
-    <xsl:value-of select="substring-before(substring-after($titleAtt, $quot), $quot)"/>
+    <xsl:param name="titleAtt" as="node()"/>
+    <xsl:variable name="srcDocUri" select="document-uri($titleAtt/ancestor::node()[last()])"/>
+    <xsl:variable name="relUri" select="substring-before(substring-after($titleAtt, $quot), $quot)"/>
+    <xsl:variable name="fullPath" select="resolve-uri($relUri, $srcDocUri)"/>
+    <xsl:value-of select="hcmc:createRelativeUri($fullPath, $docUri)"/>
   </xsl:function>
   
 <!-- This function applies a number of crude tests in an attempt to 
@@ -368,5 +375,6 @@
     <xsl:param name="inStr" as="xs:string"/>
     <xsl:value-of select="matches($inStr, $reMonths, 'mi') and matches($inStr, $reYear, 'm')"/>
   </xsl:function>
+  
   
 </xsl:stylesheet>

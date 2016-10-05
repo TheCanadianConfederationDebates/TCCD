@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project basedir="." default="all" name="downloadPersonography">
+  
+  <!--  
+        Created by MDH starting 2016-10-05.
+        
+        This file retrieves a spreadsheet from Google Docs, where 
+        it is created and maintained, processes it first into a 
+        FODS file, then cleans up the FODS, and then finally builds
+        a TEI personography from it. The personography is validated,
+        and then some diagnostics are run to ensure that any changes
+        to the personography have not invalidated links already created
+        in TEI transcription documents.
+        
+        This may be done periodically while work on the personography
+        proceeds in Google Docs. Ultimately, the Google Doc will be 
+        abandoned and the TEI file will become the canonical source.
+        
+        This library assumes that ant-contrib is installed.
+    
+-->
+  
+  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask"
+    classpath="utilities/jing.jar"/>
+  <taskdef name="schematron" classname="com.schematron.ant.SchematronTask"
+    classpath="../utilities/ant-schematron-2010-04-14.jar"/>
+  
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+  
+  
+  <property name="echo.separator" value="***********************************************************"/>
+  
+<!-- Shareable link to file is here:
+     https://docs.google.com/spreadsheets/d/1sXbo4NnFIgzzFLpjA7056RGtRD94XkLTrKt-rZEo_Ok/edit?usp=sharing
+     File id seems to be:
+     1sXbo4NnFIgzzFLpjA7056RGtRD94XkLTrKt-rZEo_Ok
+  -->
+  <property name="spreadsheetFileId" value=""/>
+
+<!-- Clean up artifacts from previous runs. -->
+  <target name="clean">
+    <echo message="${echo.separator}"/>
+    <echo message="Cleaning up an artifacts from previous runs of this process..."/>
+    <rmdir dir="personographyTemp"/>
+    <mkdir dir="personographyTemp"/>
+  </target>
+
+<!-- Retrieve the Google Doc as ods and save it locally. -->
+  <target name="retrieveSpreadsheet">
+    <echo message="${echo.separator}"/>
+    <echo message="Retrieving and saving the Google Doc..."/>
+    
+  </target>
+
+
+<!--Convert personography spreadsheet into a fods file and then clean up. -->
+  <target name="convertSpreadsheet">
+    <echo message="${echo.separator}"/>
+    <echo message="Converting the personography spreadsheet to ods flat file for easier processing."/>
+    <exec executable="/bin/bash">
+      <arg value="-c"/>
+      <arg value='soffice --convert-to fods "db/data/working_files/regnal_dates.ods" --outdir "db/data/working_files/" --headless'/>
+    </exec>
+    <echo message="${echo.separator}"/>
+    <echo message="Expanding and cleaning up the FODS file a bit."/>
+    <java classname="net.sf.saxon.Transform" classpath="utilities/saxon9he.jar">
+      <arg value="-s:db/data/working_files/regnal_dates.fods"/>
+      <arg value="-xsl:db/data/utilities/expand_fods.xsl"/> 
+      <arg value="-o:db/data/working_files/regnal_dates.fods"/>
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+    </java>
+  </target>
+  
+  <target name="all">
+    <antcall target="clean"/>
+    <antcall target="retrieveSpreadsheet"/>
+  </target>
+  
+</project>

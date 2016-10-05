@@ -65,6 +65,11 @@ pb, cb{
   margin: 1em 0;
 }
 
+pb[facs]:after{
+  link:attr(facs);
+  content: "📄";
+}
+
 /* Stuff to suppress in the normal course of things. */
 lb{
   display: none;
