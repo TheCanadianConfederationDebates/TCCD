@@ -90,3 +90,20 @@ fw lb{
 fw lb:last-child{
   display: none;
 }
+
+/* Inline styles. */
+hi[rendition="simple:italic"], foreign, emph{
+  font-style: italic;
+}
+
+hi[rendition="simple:underline"]{
+  text-decoration: underline;
+}
+
+hi[rendition="simple:bold"]{
+  font-weight: bold;
+}
+
+head{
+  font-size: 130%;
+}
