@@ -1,67 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1869-06-03"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
 
-
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1869-06-03">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-03">3 June 1869</date>, Canadian Confederation with Prince Edward Island</title>
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-03">3 June 1869</date>, Canadian Confederation with Prince Edward Island</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
       
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>P.B. Waite</editor>.
+
+               <editor>P.B. Waite</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Second Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="1975"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+
           <biblScope unit="page" from="597" to="597"/>.
         
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
+
+          <idno type="legislature"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18690603_Page_597.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18690603_Page_597.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-06">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_H_of_C_18690603_Page_597">
+         <graphic url="final/images/PEI_H_of_C_18690603_Page_597.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb n="597" facs="final/images/PEI_H_of_C_18690603_Page_597.jpg"/>
+         <fw type="dateline"> 3 juin 1869<lb/>
+               
+            </fw>
+         <fw type="dateline"> HOUSE OF COMMONS<lb/>
+               Thursday. June 3. 1869<lb/>
+               
+            </fw>
+            
+            <p> The Speaker took the
+               chair at a quarter to<lb/>
+               four o’clock.<lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. Morris. on behalf
+               of Hon. Mr. Abbott,<lb/>
+               introduced a Bill to incorporate the Canada<lb/>
+               Marine Insurance Company.<lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Rose said there had been unu<lb break="no"
+          />sual delay in commencing business that day,<lb/> and to show that it was caused by no indif<lb
+          break="no"/>ference to the public interests, and that Min<lb break="no"
+          />isters had not been idle, he would give the<lb/> following notice of motion—He gave notice<lb/> that to-morrow he would move that this<lb/> House will, on a future day, resolve itself<lb/> into Committee of the Whole, to consider<lb/> certain resolutions on the subject of New<lb break="no"/>foundland. (Cheers.) He also gave notice<lb/> that he would move that the House would,<lb/> on a future day, resolve itself into Committee<lb/> of the Whole to consider certain resolutions<lb/> on the subject of Prince Edward Island.<lb/> (Cheers.) He also gave notice that he would<lb/> on a future day move that the House resolve <lb/> itself into Committee of the Whole on certain <lb/> resolutions on the subject of Nova Scotia. <lb/>
+      </p>
+            
+         
+            
+            <p> Sir John A. Macdonald
+               then moved the <lb/>
+               second order in the notice paper, that the <lb/>
+               House go into Committee of Supply. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Holton said
+               that last night the <lb/>
+               distinct understanding with the Minister of <lb/>
+               Militia was that the Orders of the Day would <lb/>
+               be proceeded with in order. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Sir John A. Macdonald
+               said they passed <lb/>
+               the lst order. They were not ready with it. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Holton said
+               that was a mere <lb/>
+               evasion. 
+            </p>
+            
+         
+         
+            
+            <p> Ultimately Sir John
+               A. Macdonald moved <lb/>
+               the postponement of the Orders, which was <lb/>
+               as follows:—Further consideration of resolu<lb break="no"/>tions 18, 19 and 39; Dominion ofﬁce; Nova <lb/>
+               Scotia; Dominion affairs; New Brunswick; <lb/>
+               Commission for making provision for the <lb/>
+               Uniformity of the Laws of the Provinces, <lb/>
+               reported from the Committee of Supply. Car<lb break="no"/>ried. <lb/>
+               
+            </p>
+            
+         </body>
+   </text>
 </TEI>
