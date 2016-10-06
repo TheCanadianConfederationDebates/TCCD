@@ -1,66 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1870-03-18" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1870-03-18">18 March 1870</date>, Canadian Confederation with Prince Edward Island</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1870-03-18"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1870-03-18">18 March 1870</date>, Canadian Confederation with Prince Edward Island</title>
         
-         <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>P.B. Waite</editor>.
+
+               <editor>P.B. Waite</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Third Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="1979"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Minister of Supply and Services Canada</publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+
           <biblScope unit="page" from="513" to="514"/>.
         
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
+
+          <idno type="legislature"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18700318_Page_513.hocr.html"/></item>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18700318_Page_514.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18700318_Page_513.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18700318_Page_514.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-06">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_H_of_C_18700318_Page_513">
+         <graphic url="final/images/PEI_H_of_C_18700318_Page_513.jpg"/>
+      </surface>
+      <surface xml:id="PEI_H_of_C_18700318_Page_514">
+         <graphic url="final/images/PEI_H_of_C_18700318_Page_514.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="513" facs="final/images/PEI_H_of_C_18700318_Page_513.jpg"/>
+            <fw type="dateline"> 18 mars 1870 <lb/>
+               
+            </fw>
+            
+            <p> cious and unfriendly
+               to say beforehand, what <lb/>
+               the electoral franchise shall be in the Prov<lb break="no"/>inces, not yet in the Union; to tell them, in fact, <lb/>
+               that their influence here shall not be felt. He <lb/>
+               called the attention of the House to the irrele<lb break="no"/>vancy of the franchise proposed. He thought <lb/>
+               that the Minister of Justice could, with pro<lb break="no"/>priety, adopt the franchise of the local Houses. <lb/>
+               His opinion was that the time was not far off, <lb/>
+               when every man in the country would have a <lb/>
+               vote, when the political sentiment of the coun<lb break="no"/>try would not be demoralised by the registra<lb break="no"/>tion system. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr.
+               Wood—The hon. gentleman says <lb/>
+               that it is desirable that the elections should not <lb/>
+               be simultaneous and on one day, because it <lb/>
+               would deprive persons having votes in differ<lb break="no"/>ent constituencies from exercising the fran<lb break="no"/>chise in more than one constituency. Should he <lb/>
+               not then, to be logical, provide for the elections <lb/>
+               to take place in each constituency on succes<lb break="no"/>sive days, so as to give full opportunity for all <lb/>
+               having the franchise in different constituen<lb break="no"/>cies, (hear, hear). <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Col.
+               Gray—Why this would be impos<lb break="no"/>sible; it is the <hi rendition="simple:italic">reductio ad absurdum</hi>. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr.
+               Wood—It is_ reducing your <lb/>
+               argument <hi rendition="simple:italic">ad absurdum</hi>, (hear, hear and laugh<lb break="no"/>ter). <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Col. Gray
+               thought that the House was <lb/>
+               indebted to the hon. member for Bothwell for <lb/>
+               awakening an interest in another subject of <lb/>
+               discussion than the one they had for the last <lb/>
+               seven or eight days, (hear). If every man were <lb/>
+               an educated man, and if there were no moral <lb/>
+               wrong, then the theories of the hon. gentleman <lb/>
+               would be right. But they must take men as <lb/>
+               they were, and look at the interest a man had <lb/>
+               in the country in which he resided. The posses<lb break="no"/>sion of property was an evidence of capacity of <lb/>
+               an interest in the country to be affected by <lb/>
+               legislation, and should serve as a criterion on <lb/>
+               which the franchise should be based, (hear, <lb/>
+               hear). As to the argument that the proposed <lb/>
+               franchise was different from that of New<lb break="no"/>foundland and Prince Edward Island, with <lb/>
+               whom we were negotiating to enter the Domin<lb break="no"/>ion, he (Col. Gray) would say that it would be <lb/>
+               absurd to frame a measure not based upon the <lb/>
+               wishes, the wants, or the interests of the 4,000,<lb break="no"/>000 of the Dominion, but on the local practice <lb/>
+               of a population not larger than two of our <lb/>
+               counties in Ontario, and of Provinces which <lb/>
+               refused to join us, (hear, hear). If the Govern<lb break="no"/>
+               <pb n="514" facs="final/images/PEI_H_of_C_18700318_Page_514.jpg"/>
+               <fw type="num">514</fw>ment had brought down
+               a measure of that <lb/>
+               character, it would be absurd. One might as <lb/>
+               well ask the people of the United States to <lb/>
+               frame their laws on the customs of the inhabi<lb break="no"/>tants of the Fiji Islands. If there were any <lb/>
+               attempts to deprive the people of the Maritime <lb/>
+               Provinces of their rights, as the member for <lb/>
+               Bothwell seemed pleased to intimate, there <lb/>
+               were men from those Provinces, their own rep<lb break="no"/>resentatives, who were perfectly able to look <lb/>
+               after their interests. The people of New Bruns<lb break="no"/>wick were content with the franchise as they <lb/>
+               had it, and the franchise there was based on <lb/>
+               the £100 qualification, mixed of real and per<lb break="no"/>sonal estate or income—and in case of land of <lb/>
+               $100. In Ontario the franchise had always been <lb/>
+               connected in some way or other with the land. <lb/>
+               In the Maritime Provinces the franchise went <lb/>
+               further, and was based on salary and income. <lb/>
+               The principle of the Bill was to extend to <lb/>
+               Ontario the same advantages which were pos<lb break="no"/>sessed by the Maritime Provinces, (hear, hear). <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->
+            
+            <!--Para merged into previous para.-->
+            
+         
+            
+            <p> Mr.
+               Mackenzie—The franchise for the coun<lb break="no"/>ties remains the same as it is now in Ontario— <lb break="yes"/>
+               $100. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Col. Gray said
+               that the provisions of <lb/>
+               the Bill were more liberal to Ontario than <lb/>
+               those of the Act passed by their own Legisla<lb break="no"/>ture last winter. In this respect this Bill repre<lb break="no"/>sented the interests of Ontario better than <lb/>
+               their own Legislature represented them. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr.
+               Mackenzie—Hear, hear. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Col
+               Gray—Another principle of the Bill <lb/>
+               was to prevent the floating population of the <lb/>
+               country from controlling the affairs of the <lb/>
+               country, by making residence a qualification of <lb/>
+               voting. Registration as well as residence and <lb/>
+               property was required. If the representatives <lb/>
+               of Ontario were prepared to adopt the principle <lb/>
+               of universal suffrage, then he would say that <lb/>
+               the people of the Maritime Provinces would <lb/>
+               not have it, (hear, hear). Those people were <lb/>
+               determined that practical and not theoretical <lb/>
+               qualifications should be the result of voting. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr.
+               Mills—But you would employ these men <lb/>
+               who have no property to defend the country? <lb/>
+               (Hear, hear.) <lb/>
+               
+            </p>
+            
+         
+            
+            <p>
+               Hon. Col. Gray said he would trust every<lb/>man brought up in the country to defend it <lb/>
+               even if he had not a shilling, (hear, hear). <lb/>
+               
+            </p>
+            
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,65 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1870-02-22" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1870-02-22">22 February 1870</date>, Canadian Confederation with Prince Edward Island</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1870-02-22"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1870-02-22">22 February 1870</date>, Canadian Confederation with Prince Edward Island</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>P.B. Waite</editor>.
+
+               <editor>P.B. Waite</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Third Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="1979"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Minister of Supply and Services Canada</publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+
           <biblScope unit="page" from="138" to="138"/>.
         
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
+
+          <idno type="legislature"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18700222_Page_138.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18700222_Page_138.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-06">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_H_of_C_18700222_Page_138">
+         <graphic url="final/images/PEI_H_of_C_18700222_Page_138.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="138" facs="final/images/PEI_H_of_C_18700222_Page_138.jpg"/>
+            <fw type="num">138</fw>
+            
+            <p> (Sir F. Hincks) had
+               not entered into the <lb/>
+               charges against himself that had been pub<lb break="no"/>lished in the newspapers. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Sir Francis
+               Hincks—Of course, in The <lb/>
+               Globe, I suppose? <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. Young said that
+               he should only be too <lb/>
+               happy to hear those charges denied, but they <lb/>
+               had not been successfully cleared up; and yet it <lb/>
+               was to such a man that Sir John A. Macdonald <lb/>
+               had entrusted the most important part of the <lb/>
+               public service. He could not but apply to him in <lb/>
+               that office the quotation of Mr. Baldwin, that <lb/>
+               “Confidence was a plant of slow growth; when <lb/>
+               once it was broken, it was difficult to restore <lb/>
+               it.” Then, with regard to the policy of the <lb/>
+               Government, they had violated the Constitu<lb break="no"/>tion in their grant to Nova Scotia; and the <lb/>
+               Ontario Legislature had passed resolutions <lb/>
+               asking that Imperial legislation might be taken <lb/>
+               which would prevent such acts in the future, <lb/>
+               and there was no doubt that the example <lb/>
+               would be attempted to be followed by the other <lb/>
+               Provinces at present in the Confederation. This <lb/>
+               would account in some measure for the dis<lb break="no"/>turbances at Red River. The conduct of the <lb/>
+               hon. member for Cumberland, in regard to the <lb/>
+               grant to Nova Scotia, was answered, and he <lb/>
+               thought that if a different course had been <lb/>
+               pursued in regard to this matter, the difficul<lb break="no"/>ties that had been experienced in Newfound<lb break="no"/>land and Prince Edward IsIand would have <lb/>
+               been overcome. He was astonished to find that <lb/>
+               the Government had taken credit for economi<lb break="no"/>cal management of the Dominion; and he was <lb/>
+               astonished even more to hear the hon. mover of <lb/>
+               the Address refer to it. He would like to know <lb/>
+               where the economy of the Government was to <lb/>
+               be found. Was it in the creation of new Cabinet <lb/>
+               officials, and in the way the Intercolonial Rail<lb break="no"/>way was being managed? He was afraid that <lb/>
+               instead of economy the very opposite course <lb/>
+               had been pursued. The public debt of the <lb/>
+               Dominion, after payment of the expenses con<lb break="no"/>templated, would amount to $120,000,000, and <lb/>
+               would entail a heavy taxation of the country. If <lb/>
+               they put the same duties upon articles entering <lb/>
+               the Dominion as the Americans did, they <lb/>
+               would be in fact cutting off their noses because <lb/>
+               the Americans did theirs. (Laughter.) He <lb/>
+               would go for any national policy which would <lb/>
+               benefit Canada; but he did not approve of a <lb/>
+               tariff which would place them in the same <lb/>
+               position as America. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Dr. Tupper said
+               that his equal tariff <lb/>
+               referred to articles which now went free, but <lb/>
+               which should then be placed on an equal foot<lb break="no"/>ing with the American tariff. <lb/>
+               
+            </p>
+            
+         </div>
+      </body>
+   </text>
 </TEI>
