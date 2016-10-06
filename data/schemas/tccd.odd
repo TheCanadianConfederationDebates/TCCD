@@ -366,6 +366,20 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                </elementSpec>
           
+               <!--          We have a very limited structure for text body elements: divs and 
+              milestones are allowed. -->
+               <elementSpec ident="body" module="textstructure" mode="change">
+                  <content>
+                     <alternate minOccurs="1" maxOccurs="unbounded">
+                        <elementRef key="fw"/>
+                        <elementRef key="pb"/>
+                        <elementRef key="cb"/>
+                        <elementRef key="milestone"/>
+                        <elementRef key="div"/>
+                     </alternate>
+                  </content>
+               </elementSpec>
+          
                <!--         We use the generic <name> element for precise purposes and 
                constrain its attributes. For other usages, <persName> and 
                <placeName> are available without these constraints. -->
