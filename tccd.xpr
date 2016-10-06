@@ -1560,6 +1560,14 @@
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>key.schematron.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>key.xslt.proc.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.xslt.saxon8.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -2300,6 +2308,10 @@
                                 </field>
                             </scenario>
                         </scenario-array>
+                    </entry>
+                    <entry>
+                        <String>schematron.1.5.xpath.version</String>
+                        <Integer>2</Integer>
                     </entry>
                     <entry>
                         <String>tagless.editor.tags.display.mode</String>
