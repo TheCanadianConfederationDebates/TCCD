@@ -60,16 +60,13 @@
     <!-- It's useful to know the base URI of the TCCD repo itself. -->
     <xsl:variable name="baseDir" select="replace($docUri, '/data/.*$', '')"/>
     
-    
-    <xsl:message>Input document URI: <xsl:value-of select="$docUri"/></xsl:message>
-    
     <xsl:variable name="sourceDir" select="replace($docUri, '/[^/]+$', '')"/>
     <xsl:variable name="docFileName" select="tokenize($docUri, '/')[last()]"/>
     
-    <xsl:message>Processing this document:</xsl:message>
+    <!--<xsl:message>Processing this document:</xsl:message>
     <xsl:message>  <xsl:value-of select="$docFileName"/></xsl:message>
     <xsl:message>in this folder:</xsl:message>
-    <xsl:message>  <xsl:value-of select="$sourceDir"/></xsl:message>
+    <xsl:message>  <xsl:value-of select="$sourceDir"/></xsl:message>-->
     <xsl:if test="$rootEl/@xml:id != substring-before($docFileName, '.xml')">
       <xsl:message>WARNING: Document file name does not match @xml:id on root TEI element.</xsl:message>
     </xsl:if>
@@ -88,7 +85,7 @@
             Please check the ptr element in the teiHeader. 
             Terminating.</xsl:message>
         </xsl:if>
-        <xsl:message>URI: <xsl:value-of select="$fullPath"/>.</xsl:message>
+        <!--<xsl:message>URI: <xsl:value-of select="$fullPath"/>.</xsl:message>-->
         <xsl:sequence select="doc($fullPath)"/>
       </xsl:for-each>
     </xsl:variable>
@@ -137,6 +134,7 @@
               <xsl:for-each select="$hocrDocs">
                 <xsl:variable name="pos" select="position()"/>
                 <xsl:variable name="pageNum" select="hcmc:getPageNumber(.)"/>
+                <xsl:message>Processing page <xsl:value-of select="$pageNum"/></xsl:message>
                 <pb n="{$pageNum}" facs="{$facsimile/descendant::tei:surface[$pos]/tei:graphic/@url}"/>
                 <xsl:apply-templates select="//xh:div[@class='ocr_page']/*"/>
               </xsl:for-each>
@@ -190,12 +188,15 @@
     <p>
       <xsl:apply-templates select="node()" mode="#current"/>
       <xsl:copy-of select="(following-sibling::tei:fw | following-sibling::tei:pb | following-sibling::tei:cb | following-sibling::tei:milestone)[preceding-sibling::tei:p[1][generate-id(.) = $thisParaId]]"/>
-      <xsl:copy-of select="following-sibling::tei:p[1]/node()"/>
+<!-- NOTE: BUG HERE. The code only incorporates the first paragraph in a sequence, 
+     but paras can be very long and multiple items must be incorporated. This has 
+     to be carefully recoded. -->
+      <xsl:copy-of select="following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]/node()"/>
     </p>
   </xsl:template>
   
 <!-- Now the following p that we want to suppress because we've handled it above. -->
-  <xsl:template mode="secondPass" match="tei:p[preceding-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '^\s*[^A-Z]')][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]]"><xsl:comment>Para merged into previous para.</xsl:comment></xsl:template>
+  <xsl:template mode="secondPass" match="tei:p[preceding-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '^\s*[^A-Z]')][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]]"><xsl:comment>Para "<xsl:value-of select="substring(., 1, 80)"/>..." merged into previous para.</xsl:comment></xsl:template>
   
 <!-- Now the formeworks/milestones that we want to suppress because they're handled above. -->
   <xsl:template mode="secondPass" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>
@@ -234,7 +235,6 @@
      last, and which contains short text strings, is a forme work. -->
   <xsl:template match="xh:div[@class='ocr_carea']">
     <xsl:variable name="thisArea" select="."/>
-    <xsl:message><xsl:value-of select="hcmc:isMostLikelyFormeWorks(string($thisArea))"/></xsl:message>
     <xsl:choose>
       <xsl:when test="hcmc:isMostLikelyFormeWorks(string($thisArea)) and (((not(preceding::xh:div[@class='ocr_carea'])) or (hcmc:isMostLikelyFormeWorks(string(preceding::xh:div[@class='ocr_carea'][1])))) or ((not(following::xh:div[@class='ocr_carea'])) or (hcmc:isMostLikelyFormeWorks(string(following::xh:div[@class='ocr_carea'][1])))))">
           <!-- Now we attempt to figure out what we have in here. Possibly colnum + running header + colnum.-->
