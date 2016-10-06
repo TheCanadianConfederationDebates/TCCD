@@ -1,68 +1,462 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1869-06-04" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-04">4 June 1869</date>, Canadian Confederation with Prince Edward Island</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1869-06-04"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-04">4 June 1869</date>, Canadian Confederation with Prince Edward Island</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>P.B. Waite</editor>.
+
+               <editor>P.B. Waite</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Second Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="1975"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+
           <biblScope unit="page" from="613" to="616"/>.
         
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
+
+          <idno type="legislature"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18690604_Page_613.hocr.html"/></item>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18690604_Page_614.hocr.html"/></item>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18690604_Page_615.hocr.html"/></item>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18690604_Page_616.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18690604_Page_613.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18690604_Page_614.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18690604_Page_615.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18690604_Page_616.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-06">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_H_of_C_18690604_Page_613">
+         <graphic url="final/images/PEI_H_of_C_18690604_Page_613.jpg"/>
+      </surface>
+      <surface xml:id="PEI_H_of_C_18690604_Page_614">
+         <graphic url="final/images/PEI_H_of_C_18690604_Page_614.jpg"/>
+      </surface>
+      <surface xml:id="PEI_H_of_C_18690604_Page_615">
+         <graphic url="final/images/PEI_H_of_C_18690604_Page_615.jpg"/>
+      </surface>
+      <surface xml:id="PEI_H_of_C_18690604_Page_616">
+         <graphic url="final/images/PEI_H_of_C_18690604_Page_616.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="613" facs="final/images/PEI_H_of_C_18690604_Page_613.jpg"/>
+            <div type="section"><fw type="dateline"> 4 juin 1869 <lb/>
+               
+            </fw>
+            
+            <p> might elapse between
+               the issuing of the proc<lb break="no"/>lamation and the convening of Parliament. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. Blake asked if
+               this was the only Bill <lb/>
+               which was to be introduced on the subject. <lb/>
+               Did the Government think there would be <lb/>
+               sufficient
+               time to consider a measure of such <lb/>
+               magnitude? The President of the Council, who <lb/>
+               was so much opposed to this measure at one <lb/>
+               period, was now among those who were press<lb break="no"/>ing it on, when members were almost leav<lb break="no"/>ing for home. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Howe said
+               that the business could <lb/>
+               be got through well enough if hon. gentlemen <lb/>
+               on the other side would not waste so much <lb/>
+               time in wrangling. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. Mackenzie thought
+               the President of the <lb/>
+               Council ought to be the last man to complain <lb/>
+               of taking up the time of the Dominion; for if <lb/>
+               any person took up the time of the House, not <lb/>
+               perhaps talking nonsense, but something <lb/>
+               which had no bearing on the subject, it was <lb/>
+               that hon. gentleman. (Hear and cheers.) The <lb/>
+               President of the Council was not to be the <lb/>
+               judge of what was important and what was <lb/>
+               unimportant. (Hear). The House was told the <lb/>
+               other night that the measure just introduced <lb/>
+               was a great one on which to expend our <lb/>
+               thoughts. For his part, he thought the discus<lb break="no"/>sion of such a measure only a waste of time <lb/>
+               and would not enter on it. <lb/>
+               
+            </p>
+            
+            <p> The second reading of
+               the Bill was ordered <lb/>
+               for Tuesday. <lb/>
+               
+            </p>
+            </div>    
+            <div type="section">
+            <head> NEWFOUNDLAND AND
+               PRINCE EDWARD <lb/>
+               ISLAND <lb/>
+               
+            </head>
+            
+         
+            
+            <p> A message was brought
+               down from His Ex<lb break="no"/>cellency enclosing copies of minutes of the <lb/>
+               Privy Council of Canada and delegates from <lb/>
+               Newfoundland, on the subject of the union of <lb/>
+               that colony with the Dominion, and copies of <lb/>
+               the resolutions adopted as the basis of such <lb/>
+               union. <lb/>
+               
+            </p>
+            
+            <p> Another message was
+               sent from His Excel<lb break="no"/>lency transmitting copies of minutes of a meet<lb break="no"/>ing of the Privy Council of Canada on the <lb/>
+               subject of the admission of Prince Edward Is<lb break="no"/>land into the Dominion of Canada, which His <lb/>
+               Excellency recommended to the consideration <lb/>
+               of the House. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Rose moved
+               for a committee on <lb/>
+               Tuesday next, to consider the resolutions on <lb/>
+               Newfoundland. He explained the resolutions <lb/>
+               seriatim. It was proposed that Newfoundland <lb/>
+               should receive ﬁve per cent interest on the <lb/>
+               difference between its actual debt and the <lb/>
+               
+               <pb n="614" facs="final/images/PEI_H_of_C_18690604_Page_614.jpg"/>
+               <fw type="num">614</fw> amount with which it
+               would be entitled to <lb/>
+               come into the Union according to population <lb/>
+               as compared with Nova Scotia and New <lb/>
+               Brunswick. It was also proposed to allow <lb/>
+               the colony an annual subsidy of $35,000, and <lb/>
+               an allowance of eighty cents per head until <lb/>
+               the population should increase to 400,000; the <lb/>
+               same arrangement as that made with the other <lb/>
+               Maritime Provinces. In consideration of the <lb/>
+               surrender of its mineral and wild lands to the <lb/>
+               General Goverment, there was a further pay<lb break="no"/>ment to be made of $150,000 per annum. The <lb/>
+               8th resolution referred to a local matter—a <lb/>
+               water company in St. John’s—for $400,000 of <lb/>
+               the bonds of which the Government of the <lb/>
+               Province was responsible, and it was provided <lb/>
+               that the Local Government should retain the <lb/>
+               power of imposing a water rate on the inhab— <lb break="maybe"/>
+               itants, and tonnage and coal dues in the <lb/>
+               harbour of St. John’s on vessels supplied by <lb/>
+               this Company with water. It was provided in <lb/>
+               the resolutions that the Government of Can<lb break="no"/>ada should assume all the charges in the Prov— <lb break="maybe"/>
+               ince of Newfoundland which are borne by <lb/>
+               it in the other Provinces. The union of New— <lb break="maybe"/>
+               foundland with Canada would take place on <lb/>
+               a day named by proclamation, which procla— <lb break="maybe"/>
+               mation should also contain the names of the <lb/>
+               four Senators to represent the Province in <lb/>
+               the Senate of Canada. The Militia Law of the <lb/>
+               Dominion was to be modiﬁed on its operation <lb/>
+               in Newfoundland to meet the peculiar circum<lb break="no"/>stances of the population, and the Dominion <lb/>
+               Government would be pledged to use its in— <lb break="maybe"/>
+               ﬂuence with the Imperial Government to <lb/>
+               maintain a garrison at St. John’s. <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->
+            
+            <!--Para merged into previous para.-->
+            
+         
+            
+            <p> Hon. Mr. Holton said
+               that in the new <lb/>
+               Constitution,
+               under which we hoped to live, <lb/>
+               a Railway formed a very conspicuous feature, <lb/>
+               rather a novel one to him; but the hon. the <lb/>
+               Minister of Justice is fertile in expedients, <lb/>
+               and we have in that Act, as the foundation <lb/>
+               of his policy, a railway. In the revised edition <lb/>
+               of the Constitution, now proposed, a steamboat <lb/>
+               line forms a prominent feature (Hear, hear, <lb/>
+               and laughter.) His hon. friend had earned an <lb/>
+               additional claim to immortality by this feat. <lb/>
+               (Laughter) <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Sir John A.
+               Macdonald—Perhaps the hon. <lb/>
+               gentleman is not aware that the motto of the <lb/>
+               Macdonalds’ is—“By Sea and
+               Land.” (Laugh<lb break="no"/>ter.) <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The motion carried. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Rose moved
+               that on Tuesday next <lb/>
+               thel House resolve itself into Committee of <lb/>
+                <lb/>
+               
+               <pb n="615" facs="final/images/PEI_H_of_C_18690604_Page_615.jpg"/>
+               <fw type="dateline"> 4 juin 1869 <lb/>
+               
+               </fw> the Whole on the
+               resolutions respecting Prince <lb/>
+               Edward Island. Those resolutions, of course, <lb/>
+               did not embody any conclusive arrangement, <lb/>
+               but were rather an authority for opening <lb/>
+               negotiation with Prince Edward Island on <lb/>
+               terms which the Government were not with<lb break="no"/>out hope would result in completing the Union <lb/>
+               of the British North American Provinces on <lb/>
+               the seaboard at least. The Island was owned <lb/>
+               by some 62 individuals, to whom it was origi— <lb break="maybe"/>
+               nally granted by the Crown at a merely nom<lb break="no"/>inal rent, and as their titles obstructed the <lb/>
+               Union it was thought they ought to be extin<lb break="no"/>guished. <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->
+            
+            <!--Para merged into previous para.-->
+            
+         
+            
+            <p> Mr. Mackenzie thought
+               the hon. Finance <lb/>
+               Minister ought to have informed the House <lb/>
+               what correspondence there had been with the <lb/>
+               Prince Edward Island Government or any one <lb/>
+               else respecting so extraordinary a proposition. <lb/>
+               By whom was the correspondence originated? <lb/>
+               It was very desirable indeed that Prince Ed<lb break="no"/>ward Island should join the Confederation, <lb/>
+               and any reasonable proposition leading to <lb/>
+               that end would receive his cordial assent; but <lb/>
+               it was quite possible that the annexation of <lb/>
+               this Island might be purchased too dearly. In <lb/>
+               its present shape the proposition was just <lb/>
+               another Seignorial Tenure business, and One <lb/>
+               he would have nothing to do with. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Sir John A. Macdonald
+               said there had been <lb/>
+               no correspondence with the Government, or <lb/>
+               any one in Prince Edward Island, on the mat<lb break="no"/>ter. The subject of the admission of Prince <lb/>
+               Edward Island into the Union had been fre<lb break="no"/>quently debated. The terms proposed on both <lb/>
+               sides were pretty well canvassed, and will be <lb/>
+               canvassed again when we go down. It was <lb/>
+               clearly worth while for the Government of <lb/>
+               the Dominion to make an effort to induce <lb/>
+               Prince Edward Island, the last fraction of <lb/>
+               British North America, to enter the Union. <lb/>
+               (Hear). He hoped the Government would be <lb/>
+               accorded a hearty support by honourable gen<lb break="no"/>tlemen. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. D. A. Macdonald
+               wondered where the <lb/>
+               present movements for the acquisition of ter<lb break="no"/>ritory and their organization were going to <lb/>
+               end. Were the Government to go on purchas<lb break="no"/>ing up Colonies in this way? It was absurd, <lb/>
+               had been opposed by him from ﬁrst to last, <lb/>
+               and would continue to get his opposition. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Galt did not
+               agree with the hon— <lb break="maybe"/>
+               ourable gentlemen who had just spoken. He <lb/>
+               (Mr. Galt) believed it would be a great mis<lb break="no"/>fortune if Prince Edward Island did not join in <lb/>
+               
+               <pb n="616" facs="final/images/PEI_H_of_C_18690604_Page_616.jpg"/>
+               <fw type="num">616</fw> Confederation. He
+               objected, also, to the hon<lb break="no"/>ourable member for Glengarry speaking of <lb/>
+               the people of the Maritime Provinces as hav<lb break="no"/>ing been purchased. By the next session of <lb/>
+               Parliament, he hoped to see all the Provinces <lb/>
+               spoken of in the Union. (Cheers). <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->
+            
+            <!--Para merged into previous para.-->
+            
+         
+            
+            <p> Mr. Young questioned
+               the advisability of <lb/>
+               the Dominion Government taking the initia<lb break="no"/>tive, and making the ﬁrst advance in secur<lb break="no"/>ing the admission into the Union of Prince <lb/>
+               Edward Island. The Government delegation <lb/>
+               to that Island would do much more harm <lb/>
+               than good. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. Blake asked if it
+               was understood that <lb/>
+               public faith would be in no way pledged to <lb/>
+               these resolutions before Parliament meets? <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Sir John A.
+               Macdonald—Certainly. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Holion
+               instanced these resolutions <lb/>
+               as another proof of the extreme fertility of <lb/>
+               resources possessed by the Minister of Justice. <lb/>
+               His (Mr. Holton’s) admiration for that hon. <lb/>
+               gentleman was unbounded. First, their Con<lb break="no"/>stitution was burdened with a railway, then <lb/>
+               it was amended by two or three steamboat <lb/>
+               lines, now it was to be amended by a provision <lb/>
+               binding us to re-purchase the rights of certain <lb/>
+               land-holders in Prince Edward’s Island. <lb/>
+               (Laughter) He had never heard of such a <lb/>
+               Constitution. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Sir John A. Macdonald
+               could not compli<lb break="no"/>ment the hon. gentleman on his study of <lb/>
+               Constitutional history. Agreements similar to <lb/>
+               those alluded to by the hon. member formed <lb/>
+               a portion of the Constitution of Great Britain <lb/>
+               and Ireland. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. John
+               Sandﬁeld Macdonald could only <lb/>
+               account for the Government delegation going <lb/>
+               to Prince Edward Island by remembering that <lb/>
+               Gen. Butler had lately been there, and was <lb/>
+               pretty well known, (laughter), and that the <lb/>
+               Premier was determined to head off
+               that oﬁî— <lb break="maybe"/>
+               cial. He approved the resolutions but derided <lb/>
+               what the Prince Edward Islanders would call <lb/>
+               reasonable terms. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The motion was
+               carried. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> SUBSIDY TO NOVA
+               SCOTIA <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Rose then
+               moved that on Tuesday <lb/>
+               next the House resolve itself into Committee <lb/>
+               of the Whole on the subject of an additional <lb/>
+               subsidy to Nova Scotia. <lb/>
+               
+            </p>
+            
+            <p> In answer to Mr.
+               Blake. <lb/>
+               
+            </p>
+            
+         
+            </div> 
+         </div>
+      </body>
+   </text>
 </TEI>
