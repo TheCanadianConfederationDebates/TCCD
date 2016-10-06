@@ -1,66 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1869-06-16" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-16">16 June 1869</date>, Canadian Confederation with Prince Edward Island</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1869-06-16"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-16">16 June 1869</date>, Canadian Confederation with Prince Edward Island</title>
         
-      <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>P.B. Waite</editor>.
+
+               <editor>P.B. Waite</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Second Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="1975"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+
           <biblScope unit="page" from="829" to="830"/>.
         
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
+
+          <idno type="legislature"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18690616_Page_829.hocr.html"/></item>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18690616_Page_830.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18690616_Page_829.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18690616_Page_830.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-06">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_H_of_C_18690616_Page_829">
+         <graphic url="final/images/PEI_H_of_C_18690616_Page_829.jpg"/>
+      </surface>
+      <surface xml:id="PEI_H_of_C_18690616_Page_830">
+         <graphic url="final/images/PEI_H_of_C_18690616_Page_830.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="829" facs="final/images/PEI_H_of_C_18690616_Page_829.jpg"/>
+            <fw type="num">16</fw>
+            <fw type="running">iuin 1869</fw>
+            
+            <p> third time, but be
+               read a third time this day <lb/>
+               six months. <lb/>
+               
+            </p>
+            
+            <p> The latter amendment
+               was ruled out of <lb/>
+               order. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr.
+               Killam’s amendment was then put and <lb/>
+               lost. Yeas, 8; nays, 124. The Bill was then read <lb/>
+               a third time and passed. <lb/>
+               
+            </p>
+            
+         
+            <div type="section">
+            <head> PRINCE EDWARD ISLAND <lb/>
+               
+            </head>
+            
+         
+            
+            <p> Hon. Mr. Rose moved
+               the consideration of <lb/>
+               the resolutions reported from committee of <lb/>
+               the Whole on the subject of arrangements <lb/>
+               having in view the admission of the Colony <lb/>
+               of Prince Edward Island into the Dominion <lb/>
+               of Canada. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. Mackenzie
+               strongly objected to this <lb/>
+               contemplated purchase of proprietary rights. <lb/>
+               It was a want of wisdom in this Parliament <lb/>
+               to assume the duties properly belonging <lb/>
+               to the Local Legislatures. Whatever course <lb/>
+               might be adopted in bringing Prince Edward <lb/>
+               Island into the Union, he was sure of one <lb/>
+               thing, and that was that the Government of <lb/>
+               the Island should be dealt with. By this <lb/>
+               proposition the Government of the Dominion <lb/>
+               was really asked to quiet the titles of two- <lb break="yes"/>
+               thirds of the entire Island. He had no objec<lb break="no"/>tion to the opening of negotiations for the <lb/>
+               acquisition of this Island, but it was not <lb/>
+               desirable that the Dominion should enter upon <lb/>
+               duties belonging really to the Local Gov<lb break="no"/>ernment, and seek to acquire proprietary <lb/>
+               rights, because no arrangements should be <lb/>
+               concluded without the sanction of Parliament. <lb/>
+               He, therefore, moved in amendment,——“1.
+               That <lb/>
+               all the words after the word ‘Dominion’ in the <lb/>
+               ﬁrst resolution be omitted, and the following <lb/>
+               substituted in lieu thereof: ‘But no negotia<lb break="no"/>tions shall be had which may involve the <lb/>
+               Government or Parliament of Canada in any <lb/>
+               attempt to acquire the disputed proprietary <lb/>
+               rights of the original grantees of the Crown <lb/>
+               of the Lands of the Island, or with a view <lb/>
+               to give to the Parliament of Canada juris<lb break="no"/>diction or control in relation to any subject <lb/>
+               matter that by the provisions of the British <lb/>
+               North America Act of 1867 is vested in the <lb/>
+               Legislature of each Province respectively.’ <lb/>
+               2. That the second and third resolutions be <lb/>
+               expunged and the following substituted:— <lb break="yes"/>
+               ‘That all such arrangements shall be sub<lb break="no"/>mitted to Parliament for its approval before <lb/>
+               any action is taken to give them effect, or <lb/>
+               to pledge the public faith to their fulfilment.’ ” <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Holion said
+               he was most anxious <lb/>
+               to have Prince Edward Island admitted into <lb/>
+               
+               <pb n="830" facs="final/images/PEI_H_of_C_18690616_Page_830.jpg"/>
+               <fw type="num">830</fw> the Union, but he saw
+               a very grave objec<lb break="no"/>tion to the terms of these resolutions, and <lb/>
+               maintained that the Government had no right <lb/>
+               to pledge the House in the manner done by <lb/>
+               the second resolution. <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->
+            
+            <!--Para merged into previous para.-->
+            
+         
+            
+            <p> Hon. Mr. Rose
+               believed the House to be <lb/>
+               desirous of strengthening the hands of the <lb/>
+               Government in this matter; and, in order to <lb/>
+               meet the views of the member for Lambton, <lb/>
+               the Government were willing to amend the <lb/>
+               lst resolution by making it provide merely <lb/>
+               that it was expedient the negotiations should <lb/>
+               be entered into, leaving out the latter part <lb/>
+               of the resolution was struck out, and made <lb/>
+               to read, in accordance with the suggestion of <lb/>
+               the member for Lambton, “That all such <lb/>
+               arrangements should be submitted to Par<lb break="no"/>liament for its approval before any action is <lb/>
+               taken to give them effect or to pledge the <lb/>
+               public faith to their fulﬁlment.” <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. Mackenzie said he
+               would accept the <lb/>
+               changes on the understanding that the inten<lb break="no"/>tion of the Government to interfere with pro<lb break="no"/>prietary rights was abandoned. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Sir John A. Macdonald
+               said it was. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The resolutions were
+               then amended in Com<lb break="no"/>mittee and reported. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> QUEEN’S
+               PRINTER <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The House then went
+               into Committee on <lb/>
+               Sir John A. Macdonald’s Bill for the appoint<lb break="no"/>ment of a Queen’s Printer. Mr. Bodwell in <lb/>
+               the chair. <lb/>
+               
+            </p>
+            
+            <p> The Bill was
+               reported; third reading to<lb break="no"/>morrow. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> TELEGRAPH COMPANIES,
+               ETC. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. Langevin's
+               Bill, respecting Tele<lb break="no"/>graph Companies, was read a second time, <lb/>
+               considered in Committee, reported with an <lb/>
+               amendment, which was concurred in, and <lb/>
+               read a third time and passed. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Sir John A. Macdonald gave
+               notice that he <lb/>
+               would to-morrow move the reference to Com<lb break="no"/>mittee of the Whole of certain resolution res<lb break="no"/>pecting Law Stamps in Ontario. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. Le Vesconte moved
+               an address for co<lb break="no"/>pies of all correspondence with the Imperial <lb/>
+               Government on the subject of the resolutions <lb/>
+               of the Nova Scotia Legislature. Carried. <lb/>
+               
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>
