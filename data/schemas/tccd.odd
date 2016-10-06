@@ -519,18 +519,29 @@ so Volume 2 by implication has finished. -->
                <elementSpec ident="div" mode="change">
                   <constraintSpec ident="divnesting1" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:div[@type='document']">
+                        <sch:rule context="tei:div[@type=('document', 'section')]">
                            <sch:assert test="parent::tei:div[@type='debate']">
-                    Error: a div with @type="document" must be a child of a div with @type="debate" (in 
-                    other words, when a document is read into the record, this must be done in the 
-                    context of a debate).
+                    Error: a div with @type="document" or "section" must be a child of a div with 
+                    @type="debate" (in other words, when a document is read into the record, this 
+                    must be done in the context of a debate; and debate subsections must obviously 
+                    be children of debate divs).
                   </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <constraintSpec ident="divnesting2" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:div[parent::tei:body]">
+                           <sch:assert test="@type=('debate', 'article')">
+                              Error: a document body must contain a debate or an article reporting
+                              a debate (div/@type="debate" or "article").
+                           </sch:assert>
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
                   <attList>
                      <attDef ident="type" mode="change" usage="req">
-                        <valList mode="replace">
+                        <valList mode="replace" type="closed">
                            <valItem ident="article">
                               <gloss>A division containing a single newspaper article or report.</gloss>
                            </valItem>
@@ -542,6 +553,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="document">
                               <gloss>A division containing a document (letter, printed speech, etc.) which 
                     is read into the parliamentary record.</gloss>
+                           </valItem>
+                           <valItem ident="section">
+                              <gloss>A subsection of a debate which has its own subheading in the record.</gloss>
                            </valItem>
                         </valList>
                      </attDef>

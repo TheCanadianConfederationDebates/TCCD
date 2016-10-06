@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-10-05T10:44:53Z. 2016.
+Schema generated from ODD source 2016-10-06T14:03:35Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	27th September 2016, revision d4c51b0
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -4041,12 +4041,28 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      context="tei:div[@type='document']">
+                      context="tei:div[@type=('document', 'section')]">
                            <sch:assert test="parent::tei:div[@type='debate']">
-                    Error: a div with @type="document" must be a child of a div with @type="debate" (in 
-                    other words, when a document is read into the record, this must be done in the 
-                    context of a debate).
+                    Error: a div with @type="document" or "section" must be a child of a div with 
+                    @type="debate" (in other words, when a document is read into the record, this 
+                    must be done in the context of a debate; and debate subsections must obviously 
+                    be children of debate divs).
                   </sch:assert>
+                        </sch:rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-div-divnesting2-constraint-15">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:div[parent::tei:body]">
+                           <sch:assert test="@type=('debate', 'article')">
+                              Error: a document body must contain a debate or an article reporting
+                              a debate (div/@type="debate" or "article").
+                           </sch:assert>
                         </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -4081,9 +4097,19 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="att.written.attributes"/>
          <attribute name="type">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
-            <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-            </data>
+            <choice>
+               <value>article</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(A division containing a single newspaper article or report.) </a:documentation>
+               <value>debate</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(A division containing the events of one debate in a parliamentary session. Note that 
+                  a debate may span multiple days; if so, separate div type="debate" elements
+                  will need to be created, linked using next and prev.) </a:documentation>
+               <value>document</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(A division containing a document (letter, printed speech, etc.) which 
+                    is read into the parliamentary record.) </a:documentation>
+               <value>section</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(A subsection of a debate which has its own subheading in the record.) </a:documentation>
+            </choice>
          </attribute>
          <empty/>
       </element>

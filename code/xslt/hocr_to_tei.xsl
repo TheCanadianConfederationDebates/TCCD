@@ -132,25 +132,26 @@
 
       <text>
         <body>
-          <xsl:variable name="firstPassOutput"> 
-            <xsl:for-each select="$hocrDocs">
-              <xsl:variable name="pos" select="position()"/>
-              <xsl:variable name="pageNum" select="hcmc:getPageNumber(.)"/>
-              <pb n="{$pageNum}" facs="{$facsimile/descendant::tei:surface[$pos]/tei:graphic/@url}"/>
-              <xsl:apply-templates select="//xh:div[@class='ocr_page']/*"/>
-            </xsl:for-each>
-          </xsl:variable>
-          
-          <xsl:variable name="secondPassOutput">
-            <xsl:apply-templates mode="secondPass" select="$firstPassOutput"/>
-          </xsl:variable>
-          
-          <xsl:variable name="thirdPassOutput">
-            <xsl:apply-templates mode="lbpass1" select="$secondPassOutput"/>
-          </xsl:variable>
-          
-          <xsl:apply-templates mode="lbpass2" select="$thirdPassOutput"/>
-          
+          <div type="debate">
+            <xsl:variable name="firstPassOutput"> 
+              <xsl:for-each select="$hocrDocs">
+                <xsl:variable name="pos" select="position()"/>
+                <xsl:variable name="pageNum" select="hcmc:getPageNumber(.)"/>
+                <pb n="{$pageNum}" facs="{$facsimile/descendant::tei:surface[$pos]/tei:graphic/@url}"/>
+                <xsl:apply-templates select="//xh:div[@class='ocr_page']/*"/>
+              </xsl:for-each>
+            </xsl:variable>
+            
+            <xsl:variable name="secondPassOutput">
+              <xsl:apply-templates mode="secondPass" select="$firstPassOutput"/>
+            </xsl:variable>
+            
+            <xsl:variable name="thirdPassOutput">
+              <xsl:apply-templates mode="lbpass1" select="$secondPassOutput"/>
+            </xsl:variable>
+            
+            <xsl:apply-templates mode="lbpass2" select="$thirdPassOutput"/>
+          </div>
         </body>
         
       </text>
