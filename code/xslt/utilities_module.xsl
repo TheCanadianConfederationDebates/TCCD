@@ -70,10 +70,16 @@
   <xsl:function name="hcmc:createRelativeUri" as="xs:string?">
     <xsl:param name="from" as="xs:string"/>
     <xsl:param name="to" as="xs:string"/>
-    <!-- First we remove the longest common path components from the beginning of each path. -->
+    
+<!-- First we remove the longest common path components from the beginning of each path. -->
     <xsl:variable name="truncPaths" select="hcmc:stripCommonPrefix($from, $to)"/>
+    
+<!-- Now calculate how many ../ bits we need, if any, by figuring out the 
+     number of components in each path.   -->
     <xsl:variable name="numClimbsRequired" select="count(tokenize($truncPaths[2], '/')) - count(tokenize($truncPaths[1], '/'))"/>
     <xsl:variable name="climbs" select="if ($numClimbsRequired gt 0) then string-join((for $n in 1 to $numClimbsRequired return '../'), '') else ''"/>
+    
+<!-- Return concatenation of ../ bits and remaining target path.   -->
     <xsl:value-of select="concat($climbs, $truncPaths[1])"/>
   </xsl:function>
   
