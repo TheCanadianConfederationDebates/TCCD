@@ -17,6 +17,24 @@
     </xd:desc>
   </xd:doc>
   
+  <xd:doc scope="component">
+    <xd:desc>
+      <xd:p>This function takes two paths/URIs as input, and strips
+    all the leading path components which are common to both. It 
+    returns both the truncated paths as a sequence of two strings.
+    The function is recursive.</xd:p>
+      <xd:p>Example input:
+      <xd:ul>
+        <xd:li>one/two/three/four/somefile.txt</xd:li>
+        <xd:li>one/two/trois/quatre/otherfile.txt</xd:li>
+      </xd:ul>
+        Return:
+        <xd:ul>
+          <xd:li>('three/four/somefile.txt', 'trois/quatre/otherfile.txt')</xd:li>
+        </xd:ul>
+      </xd:p>
+    </xd:desc>
+  </xd:doc>
   <xsl:function name="hcmc:stripCommonPrefix" as="xs:string+">
     <xsl:param name="path1" as="xs:string"/>
     <xsl:param name="path2" as="xs:string"/>
@@ -33,6 +51,22 @@
     </xsl:choose>
   </xsl:function>
   
+  <xd:doc scope="component">
+    <xd:desc>
+      <xd:p>This function accepts two parameters which are paths or URIs.
+            It returns the relative path from the first to the second.</xd:p>
+      <xd:p>Example input:
+        <xd:ul>
+          <xd:li>one/two/three/four/somefile.txt</xd:li>
+          <xd:li>one/two/trois/quatre/otherfile.txt</xd:li>
+        </xd:ul>
+        Return:
+        <xd:ul>
+          <xd:li>../../trois/quatre/otherfile.txt</xd:li>
+        </xd:ul>
+      </xd:p>
+    </xd:desc>
+  </xd:doc>
   <xsl:function name="hcmc:createRelativeUri" as="xs:string?">
     <xsl:param name="from" as="xs:string"/>
     <xsl:param name="to" as="xs:string"/>
