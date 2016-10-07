@@ -1,65 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1873-03-19" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1873-03-19">19 March 1873</date>, Canadian Confederation with Prince Edward Island</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1873-03-19"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1873-03-19">19 March 1873</date>, Canadian Confederation with Prince Edward Island</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>David Farr</editor>.
+
+               <editor>David Farr</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, Second Parliament, First Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="2013"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+
           <biblScope unit="page" from="80" to="80"/>.
         
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
+
+          <idno type="legislature"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18730319_Page_080.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18730319_Page_080.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-07">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_H_of_C_18730319_Page_080">
+         <graphic url="final/images/PEI_H_of_C_18730319_Page_080.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="80" facs="final/images/PEI_H_of_C_18730319_Page_080.jpg"/>
+            <fw type="num">COMMONS</fw>
+            <fw type="running">DEBATES</fw>
+            <fw type="num">80</fw>
+            
+            <p> magniﬁcent
+               and complete confederation of all the British<lb/>
+               possessions. (<hi rendition="simple:italic">Hear, hear.</hi>) <lb/>
+               
+            </p>
+            
+         
+            
+            <p> For these reasons any
+               route which placed us within the smallest <lb/>
+               possible distance from Great Britain should receive the serious <lb/>
+               consideration of the House; and he moved that a Select Committee <lb/>
+               be appointed for the purpose of enquiring into the matter, to consist <lb/>
+               of Messrs. Campbell, Anglin, Fortin, Young (Montreal West), <lb/>
+               Young (Waterloo South), MacKay, and the mover. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. ANGLlN said
+               the importance ofthis subject could not <lb/>
+               well be over-estimated, but it could not have been dealt with <lb/>
+               sooner. He wished to point out a few of the facts, as laid down in <lb/>
+               Fleming’s report, which had not been noticed by the mover of
+               the <lb/>
+               resolution. The proposed route was not only the shortest to Europe <lb/>
+               from this country, but it was also the shortest from New York to <lb/>
+               Europe, and, therefore, in the summer season a very large passenger <lb/>
+               trafﬁc might reasonably be expected over this route, which
+               would <lb/>
+               diminish the risks and inconvenience and sufferings of a sea <lb/>
+               voyage. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> From his own personal
+               knowledge he could say that the <lb/>
+               expenditure on the continent would be a mere triﬂe. A branch
+               <lb/>
+               railway from the lntercolonial Railway, down to Shippegan would, <lb/>
+               according to Mr. Fleming, be about 22 miles in length. He knew the <lb/>
+               country, and knew that except on the prairies there was no country <lb/>
+               where a railway could be more cheaply constructed. There would <lb/>
+               be no bridges nor cuttings required of any importance. With regard <lb/>
+               to the harbour, it was one of the ﬁnest in America. There
+               was <lb/>
+               magniﬁcent entrance to the Bay of Chaleur. The entrance to <lb/>
+               Miramichi Bay would need some improvement, but some <lb/>
+               expenditure would be required anyway. He considered the time had <lb/>
+               now come when this subject should receive the serious <lb/>
+               consideration of the Government and Parliament. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> There was an
+               impression that the interior of Newfoundland was <lb/>
+               waste and uninhabited; but explorations had of late been made <lb/>
+               which showed that the country was well watered and timbered, and <lb/>
+               a railway could be built through it without any great expense. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> It might be said that
+               Newfoundland was not within the <lb/>
+               Dominion, and therefore the Dominion could not be expected to <lb/>
+               seriously entertain any project which would involve an expenditure <lb/>
+               of public money to a very large extent upon the island. That was, no <lb/>
+               doubt, true, but he believed the Government hoped at no distant day <lb/>
+               to induce Newfoundland to join the Union. It was scarcely probable <lb/>
+               that Prince Edward Island and Newfoundland would remain outside <lb/>
+               of the Union for any very great length of time, and one of the means <lb/>
+               of inducing Newfoundland to come into the Union probably would <lb/>
+               be to hold out the expectation that, in addition to other advantages, <lb/>
+               the Island would be opened up by a railway running across it, <lb/>
+               bringing a stream oftravel to and from Europe, which would be of <lb/>
+               great advantage to the country. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The importance of the
+               subject having been so fully stated by the <lb/>
+               mover of the resolution, it was not necessary for him to dwell upon <lb/>
+               
+               <milestone type="day"/> March 19, 1873 <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->
+            
+            <!--Para " March 19, 1873 
+               
+            ..." merged into previous para.-->
+            
+         
+            
+            <p> it. He might say that
+               the harbour of Shippegan was very <lb/>
+               conveniently situated on a point of land which ran down from the <lb/>
+               mainland, having the Bay of Chaleur on one side and Miramichi on <lb/>
+               the other, and it was stated by Mr. Fleming that this port was the <lb/>
+               nearest point, on the mainland to Europe, excepting a point on <lb/>
+               Gaspe, which was out of the question as a shipping point. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Sir JOHN A.
+               MACDONALD regretted that Hon. Mr. <lb/>
+               Tupper was not present, as he had always taken a special interest in <lb/>
+               the subject. He agreed that this matter was one of very great <lb/>
+               importance, and the House was very much indebted to the mover of <lb/>
+               the resolution for having brought the matter before them so ably. <lb/>
+               The Committee, he had no doubt, would be able to report some <lb/>
+               valuable suggestions, and after that, perhaps, the question
+               might be <lb/>
+               again discussed by the House this session. The motion was agreed <lb/>
+               to. <lb/>
+               
+            </p>
+            
+<p> *** <lb/></p>
+
+         
+            <div type="section">
+            <head> COLLECTING DEBTS FROM
+               VESSELS <lb/>
+               
+            </head>
+            
+         
+            
+            <p> Mr. KIRKPATRICK moved
+               that the House go into Committee <lb/>
+               on the following resolution,-"That
+               it is expedient to make further <lb/>
+               provision for the collection of demands against vessels navigating <lb/>
+               certain lakes and inland waters of Canada for seamen’s wages
+               and <lb/>
+               debts contracted, for necessary provisions supplied, repairs made <lb/>
+               and for towage and other services rendered to such vessels, and for <lb/>
+               damages arising out of collisions by vessels, by making the same a <lb/>
+               preferential lien on them.” <lb/>
+               
+            </p>
+            
+         
+            
+            <p> He proceeded to say
+               that the principle of this resolution had long <lb/>
+               been acted upon in other countries, and the Act of the Ontario <lb/>
+               Legislature giving a lien to mechanics was an additional reason for <lb/>
+               the passage ofthe proposed measure. He referred to cases of loss of <lb/>
+               wages and damages, for which there was at present no remedy. If <lb/>
+               this measure was passed, it would improve the whole shipping <lb/>
+               interest, because it would have a tendency to reduce the rate of <lb/>
+               wages, as employees, having a security against loss, could afford to <lb/>
+               accept lower wages. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> He argued that as a
+               matter relating to trade and commerce, and <lb/>
+               shipping, it came within the jurisdiction of this House, the question <lb/>
+               of civil rights being merely incidental to it. No local Government <lb/>
+               could deal with it, as they could not seize a foreign vessel-at any <lb/>
+               rate trouble would be very apt to arise if they did do so. His <lb/>
+               measure was conﬁned to the inland waters, as he believed
+               that <lb/>
+               Admiralty Court of the Maritime Provinces had jurisdiction to deal <lb/>
+               with the questions involved. Since he had introduced the measure <lb/>
+               last session, he had received many assurances from gentlemen <lb/>
+               interested in shipping that it was a much needed motion. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> It was agreed to, and
+               the House went into Committee, <lb/>
+               Mr. DOMVILLE in the chair. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. KIRKPATRICK moved
+               the adoption of the resolution. <lb/>
+               
+            </p>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>

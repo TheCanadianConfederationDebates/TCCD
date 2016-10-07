@@ -1,68 +1,770 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1872-05-14" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1872-05-14">14 May 1872</date>, Canadian Confederation with Prince Edward Island</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1872-05-14"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1872-05-14">14 May 1872</date>, Canadian Confederation with Prince Edward Island</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>David Farr</editor>.
+
+               <editor>David Farr</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Fifth Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="2007"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>.
           
-<!-- TEMPLATE: Complete the page-range using page numbers from the original print source. -->
+
           <biblScope unit="page" from="232" to="235"/>.
         
-<!-- TEMPLATE: This idno will be constrained to a set of predefined values. -->
-          <idno type="legislature"></idno>.
+
+          <idno type="legislature"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_232.hocr.html"/></item>
-          <item><ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_233.hocr.html"/></item>
-<item><ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_234.hocr.html"/></item>
-<item><ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_235.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_232.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_233.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_234.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/en/PEI_H_of_C_18720514_Page_235.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-07">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-09-28">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_H_of_C_18720514_Page_232">
+         <graphic url="final/images/PEI_H_of_C_18720514_Page_232.jpg"/>
+      </surface>
+      <surface xml:id="PEI_H_of_C_18720514_Page_233">
+         <graphic url="final/images/PEI_H_of_C_18720514_Page_233.jpg"/>
+      </surface>
+      <surface xml:id="PEI_H_of_C_18720514_Page_234">
+         <graphic url="final/images/PEI_H_of_C_18720514_Page_234.jpg"/>
+      </surface>
+      <surface xml:id="PEI_H_of_C_18720514_Page_235">
+         <graphic url="final/images/PEI_H_of_C_18720514_Page_235.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="232" facs="final/images/PEI_H_of_C_18720514_Page_232.jpg"/>
+            <fw type="num">COMMONS</fw>
+            <fw type="running">DEBATES</fw>
+            <fw type="num">232</fw>
+            
+            <p> from this the member
+               for Durham would see that the exclusion <lb/>
+               of the Americans was not quite as efﬁcient as we imagined. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. MACKENZIE
+               asked whether they were within the <lb/>
+               headlands. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. TUPPER said
+               he could not speak as to that; but the <lb/>
+               question was altogether a captious one, for it was well known <lb/>
+               that the headland limit had not been enforced for years. He <lb/>
+               maintained that the member for Durham West gave us the whole <lb/>
+               argument when he spoke of bounties being necessary to enable <lb/>
+               the Americans to compete with the Canadian ﬁshermen. If <lb/>
+               however, the hon. member would read the proceedings of <lb/>
+               Congress, he would ﬁnd that the question of bounties had
+               been <lb/>
+               scouted from the very ﬁrst, and that it was admitted on all
+               hands <lb/>
+               that a system of bounties was utterly impossible; but further, the <lb/>
+               highest system of bounty would be $400 to a vessel, while the <lb/>
+               relief would amount to $1,200; and therefore the bounty could <lb/>
+               not, under any circumstances, do away with the advantages on <lb/>
+               the side of Canadian ﬁshermen. He again referred to what he <lb/>
+               termed the unpatriotic action of members last year. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. HOLTON
+               thought the hon. gentleman was out of <lb/>
+               order in reﬂecting on the action ofthe House. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Sir JOHN A.
+               MACDONALD said it was not out of <lb/>
+               order, for the action ofthe House was always open to appeal. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. TUPPER said
+               he was quite satisﬁed to ﬁnd the <lb/>
+               hon. gentleman acknowledge that a reference to his former <lb/>
+               action was a reﬂection. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. HOLTON said,
+               however that might be, the hon. <lb/>
+               gentleman assumed the responsibility of that action. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. TUPPER said
+               that was under compulsion. If hon. <lb/>
+               gentleman would read a statement recently made by the <lb/>
+               chairman of the Committee of Ways and Means of the United <lb/>
+               States they would see that it would be impracticable for the <lb/>
+               United States to adopt a policy that would counteract the <lb/>
+               advantages derived by Canadian ﬁshermen. He would now ask <lb/>
+               hon. gentlemen to turn their attention to the effect of the <lb/>
+               Treaty on the shipping interest of the country. The member for <lb/>
+               Halifax (Mr. Power) had told them that he went to visit a <lb/>
+               ﬁshery in which he was concerned, when the Treaty of 1884 <lb/>
+               was in force, and found that, out of the forty or fifty vessels, <lb/>
+               scarcely one was American; but that on another occasion, after <lb/>
+               the abrogation of that treaty, among an equal number of <lb/>
+               vessels, scarcely one was Canadian. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> It must be remembered
+               that our marine amounted to a <lb/>
+               million tons, and the House would see that, whether in <lb/>
+               connection with the ﬁshery or the ship-building interest,
+               the <lb/>
+               value of the Treaty could not be over-rated. He would now <lb/>
+               refer to the state of public opinion in Nova Scotia. When the <lb/>
+               Treaty ﬁrst became known the Nova Scotia Government put a <lb/>
+               very strong resolution in their journals. Since then the Treaty <lb/>
+               
+               <milestone type="day"/> May 14, 1872 <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->
+            
+            <!--Para " May 14, 1872 
+               
+            ..." merged into previous para.-->
+            
+         
+            
+            <p> had been promulgated
+               to the world, and had been read by <lb/>
+               every ﬁsherman in the Province, and now the same House had <lb/>
+               been in session for over two months, and there had not been <lb/>
+               one word of disapproval of the Treaty. He believed that the <lb/>
+               feeling in Nova Scotia was that Parliament could not inﬂict <lb/>
+               greater wrong on them, and could not paralyze their industries <lb/>
+               more than by refusing to ratify the Treaty, which promoted <lb/>
+               and protected the great national industries without injuring a <lb/>
+               single interest, or being counterbalanced by a single drawback; <lb/>
+               and that a refusal would also tend to prevent the obtaining of <lb/>
+               reciprocity in the future. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> He was not so well
+               prepared to speak as to New Brunswick; <lb/>
+               but the same thing took place there. The New Brunswick <lb/>
+               Legislature at ﬁrst strongly opposed the Treaty, but though <lb/>
+               they had now been six or eight weeks in session, there was not <lb/>
+               a single hostile resolution on their records. As to Prince <lb/>
+               Edward Island, the Treaty was as good as accepted. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. MACKENZIE
+               asked whether they had repealed <lb/>
+               the former resolutions. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. TUPPER said
+               he would not detain the House <lb/>
+               further, and regretted that he had trespassed so long at so late <lb/>
+               a stage of the discussion; but the question was one in which <lb/>
+               not only the interests of Nova Scotia and New Brunswick and <lb/>
+               the whole Dominion were concerned, but also the interests of <lb/>
+               the Empire, and he would not have done justice to himself if <lb/>
+               he had not given utterance to his views. The hon. gentleman <lb/>
+               took his seat amid loud cheers. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. JONES (Halifax)
+               said he was obliged to ask the <lb/>
+               indulgence of the House at this late hour, while he referred to <lb/>
+               the arguments of the hon. gentleman who had just sat down <lb/>
+               (Hon. Mr. Tupper). He would say, in the ﬁrst place, that he <lb/>
+               desired to approach the consideration of this subject in a <lb/>
+               manner worthy of its importance. He would further say that he <lb/>
+               came to the House in full expectation of being able to sustain <lb/>
+               the Government in the course they had taken in the earlier part <lb/>
+               of these negotiations, when it was made known through <lb/>
+               ofﬁcial and semi-ofﬁcial sources what was the
+               course the <lb/>
+               Government were taking. He shared the views they then <lb/>
+               expressed, and up to the present time he had seen no reason to <lb/>
+               change his opinion. The hon. gentleman who had preceded <lb/>
+               him, as well as others on that side of the House, had sought to <lb/>
+               convey the impression that the adoption of this Treaty was in <lb/>
+               the interests of permanently peaceful relations between the <lb/>
+               United States and the Empire. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> He might refer by way
+               of illustration to the celebrated <lb/>
+               Tichborne trial. The claimant brought witnesses to prove his <lb/>
+               pretensions; but when he was put in the witness box himself,
+               <lb/>
+               his case broke down. So it was in the case of the Ministers. <lb/>
+               When their own statements were placed in evidence against <lb/>
+               their present arguments, it might be held their case had broken <lb/>
+               down. The argument that the Treaty was in the interest of <lb/>
+               
+               <pb n="233" facs="final/images/PEI_H_of_C_18720514_Page_233.jpg"/>
+               <fw type="num">COMMONS</fw>
+               <fw type="running">DEBATES</fw>
+               <fw type="dateline"> May 14, 1872 <lb/>
+               
+               </fw> peace was
+               contradicted most emphatically by the despatches of <lb/>
+               the Government. (<hi rendition="simple:italic">Hear, hear.</hi>) In their minutes of Council of <lb/>
+               the 28th of July last-and
+               when they penned that they knew <lb/>
+               the provisions of the treaty just as well as they do now-they <lb/>
+               knew then as well as now whether it was in the interests of <lb/>
+               peace, whether it was for the interests of the Dominion, that it <lb/>
+               should be accepted-yet
+               in that minute they state as a reason <lb/>
+               why they could not accept the treaty that the principal cause of <lb/>
+               difference between Canada and the United States had not been <lb/>
+               removed by the treaty but remained a subject for future <lb/>
+               anxiety. He answered the hon. gentleman out of their own <lb/>
+               mouths. The last speaker had referred to the remarks of his <lb/>
+               colleague from Halifax (Mr. Power) respecting the advantage <lb/>
+               the treaty would have conferred upon the ﬁshing trade of
+               Nova <lb/>
+               Scotia had it been in operation last year. He stated that in that <lb/>
+               case Nova Scotia would have saved between $500,000 and <lb/>
+               $600,000 on the duties on herrings and mackerel which had <lb/>
+               been sent to the United States. <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->
+            
+            <!--Para " peace was
+               contradicted most emphatically by the despatches of 
+ ..." merged into previous para.-->
+            
+         
+            
+            <p> He (Mr. Jones) held
+               in his hand the trade and navigation returns <lb/>
+               for the past year, which he presumed were tolerably accurate. He <lb/>
+               found from this document that the total amount of pickled ﬁsh-<lb break="yes"/>
+               herring and mackerel and alewives-sent
+               into the United <lb/>
+               States last year was 47,000 barrels, which, at $2 a barrel, <lb/>
+               would be $94,000, instead of $600,000 as claimed by the hon. <lb/>
+               gentleman opposite. (<hi rendition="simple:italic">Hear, hear.</hi>) <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The hon. President of
+               Council (Hon. Mr. Tupper) also stated <lb/>
+               that the treaty of 1854 was a great boon. Well, no one denied <lb/>
+               that; but contrast that treaty with the present treaty. Under the <lb/>
+               former one, agricultural products, our coal and lumber, were <lb/>
+               admitted free of duty into the United States. How different <lb/>
+               was this from the present treaty! The same hon. gentleman <lb/>
+               stated as one reason why this Treaty must be a good one for us <lb/>
+               that the American ﬁshermen were opposed to it. The hon. <lb/>
+               member for Durham West (Hon. Mr. Blake), the other night, <lb/>
+               speaking on this point had hit the nail on the head. He stated <lb/>
+               that the reason why American ﬁshermen opposed the Treaty <lb/>
+               was that Gen. Butler had gone down to Gloucester and <lb/>
+               harangued them, telling them that now was their time to wrest <lb/>
+               from Congress what they had long wanted, namely, a system <lb/>
+               of bounties and the bonding of their supplies. That was the <lb/>
+               sole course of their outcry against the Treaty, and the Minister <lb/>
+               of Justice (Hon. Sir John A. Macdonald) knew it very well, <lb/>
+               and he (Mr. Jones) had grave apprehensions that such a policy <lb/>
+               would be adopted by Congress. Of course they would not do <lb/>
+               so while the Treaty was pending but when this Parliament <lb/>
+               accepted the Treaty then would be their time to grant bounties <lb/>
+               to their ﬁshermen, and to allow the bonding of their
+               supplies. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The President of the
+               Privy Council (Hon. Mr. Tupper) had <lb/>
+               contended that the admission of American ﬁshermen into our <lb/>
+               waters would not destroy the value of our ﬁsheries, but the <lb/>
+               reports of the Minister of Marine and Fisheries (Hon. Senator <lb/>
+               Mitchell) had told a different story. He gave the value of the <lb/>
+               ﬁsheries before and during the Reciprocity Treaty, and
+               showed <lb/>
+               
+               <milestone type="day"/> 233 <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->
+            
+            <!--Para " 233 
+               
+            ..." merged into previous para.-->
+            
+         
+            
+            <p> conclusively that if
+               we had adopted an exclusive policy after <lb/>
+               the abrogation of the treaty, we would now have had control of <lb/>
+               the American markets. The House was told that the arbitrators <lb/>
+               appointed to decide upon the relative value of our ﬁsheries <lb/>
+               and the American fisheries would pay us what we lost in <lb/>
+               giving up our ﬁsheries; but the very
+               ﬁrst question that would <lb/>
+               have to be decided before they could estimate the relative <lb/>
+               value was where were they to draw the boundary line of our <lb/>
+               ﬁsheries, whether from headland to headland, or along the <lb/>
+               coast? lfthe former, of course our ﬁsheries would be greatly
+               <lb/>
+               increased in value; but how were the arbitrators to decide? It <lb/>
+               was, therefore, of the very greatest importance that the High <lb/>
+               Joint Commissioners should have settled deﬁnitely the <lb/>
+               question of headlands, so that the arbitrators would have had a <lb/>
+               basis on which to make their valuation. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The hon. gentlemen
+               opposite, particularly the Premier, had <lb/>
+               stated that the American markets were the only markets we <lb/>
+               had for our ﬁsh. He had not had the pleasure of listening to
+               the <lb/>
+               speech of his colleague from Halifax (Mr. Power); but he <lb/>
+               understood that gentleman had given some ﬁgures to show <lb/>
+               that a large portion of our ﬁsh was sent to the United
+               States. <lb/>
+               He was not aware from what source that gentleman drew his <lb/>
+               information, but he felt it his duty to be as correct as possible <lb/>
+               and he had taken the trouble to consult the public documents <lb/>
+               for 1862, 63, 64 under the Reciprocity Treaty, and also after <lb/>
+               that Treaty in 1869, 70, 71, when the United States imposed <lb/>
+               duty on our ﬁsh. He found that under the Reciprocity Treaty <lb/>
+               only about 7 per cent more of our ﬁsh went to the United <lb/>
+               States than when the duty was imposed. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The American
+               ﬁshermen stood in a very different position <lb/>
+               from our ﬁshermen in many respects. 1n the ﬁrst
+               place they <lb/>
+               had larger and better vessels, larger outfits, larger capital, and <lb/>
+               they had in operation a system of mutual insurances. They had <lb/>
+               the additional advantage of being able to fish all the year <lb/>
+               round. Our fishermen ﬁshed in the early part of the year
+               only; <lb/>
+               but, after the mackerel ﬁshing was over in the fall, the <lb/>
+               American ﬁshermen went off to the banks, and caught halibut <lb/>
+               and other fish, which our fishermen could not do. He would <lb/>
+               tell the hon. gentleman why. lf he were to send his vessel there <lb/>
+               he would have to sell his cargo wholesale, and would not be <lb/>
+               able to pay the expense of taking it to market. But those <lb/>
+               people had a market at their own doors. The American <lb/>
+               ﬁshermen thus had the advantage over ours. They were able to
+               <lb/>
+               earn during the winter season what would pay their expenses <lb/>
+               all the year round, and that was a very important <lb/>
+               consideration. The hon. gentleman had referred to the position <lb/>
+               of the American markets during that time. Within the last two <lb/>
+               years so great had been the increase of American ﬁshermen, <lb/>
+               since the war, since they had gone back and engaged in old <lb/>
+               pursuits, that ﬁsh had been cheaper in Boston than Halifax, <lb/>
+               and there had been large imports from Boston, and the West <lb/>
+               Indies markets had been trading from Boston instead of <lb/>
+               Halifax. 1f the hon. gentleman understood the matter as he did <lb/>
+               he would see those people would come with better appliances <lb/>
+               
+               <pb n="234" facs="final/images/PEI_H_of_C_18720514_Page_234.jpg"/>
+               <fw type="num">COMMONS</fw>
+               <fw type="running">DEBATES</fw>
+               <fw type="num">234</fw> and they would
+               compete with us as they had during the last <lb/>
+               two years in the markets of the West Indies. <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->
+            
+            <!--Para " and they would
+               compete with us as they had during the last 
+    ..." merged into previous para.-->
+            
+         
+            
+            <p> If under his views we
+               would gain a triﬂe in the American <lb/>
+               market-even
+               supposing such things were correct, which he <lb/>
+               contended were not-we
+               would more than lose the advantage <lb/>
+               in our trade with other countries. We had exported last year <lb/>
+               163,000 barrels of pickled ﬁsh, only 45,000 of which went to
+               <lb/>
+               the United States; and if American ﬁshermen competed with <lb/>
+               us they would send their ﬁsh to the West Indies and decrease
+               <lb/>
+               the price more in proportion than what the hon. gentleman <lb/>
+               claimed we would gain by having their markets. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> It was said our
+               fishermen were in favour of the Treaty. He <lb/>
+               denied it. (<hi rendition="simple:italic">Hear, hear.</hi>) Many of them were, but he utterly <lb/>
+               denied that the majority of the people ofNova Scotia favoured <lb/>
+               it. He did not mean to say that every man who was in favour of <lb/>
+               it was an annexationist, but he did assert that every man in <lb/>
+               Nova Scotia who was an annexationist and looked forward to <lb/>
+               early political connection with the States was in favour of it. <lb/>
+               (<hi rendition="simple:italic">Hear, hear</hi>). And they were right enough from their point of <lb/>
+               view, because they argued, if you give those people the water <lb/>
+               they will soon own the land. If our ﬁshermen were not so <lb/>
+               much opposed to the Treaty as he thought they ought to be it <lb/>
+               was because of the argument of hon. gentlemen opposite, to <lb/>
+               the effect “in the interest of the empire;” and
+               “England would <lb/>
+               not protect us;” and “we had better take a loaf
+               than no bread;” <lb/>
+               and that if they did not accept this emasculated arrangement, <lb/>
+               which just condemns themselves, the Americans would get the <lb/>
+               whole-those
+               were the circumstances under which these men <lb/>
+               were not all satisﬁed. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> But ﬁsh
+               was not all Nova Scotia produced. She had great <lb/>
+               mineral wealth, and her coal interest was of even greater <lb/>
+               importance than her fisheries, yet this had been entirely <lb/>
+               overlooked. Those interested in the case said and with very <lb/>
+               great force, that if the Government had been earnestly desirous <lb/>
+               of reducing the duty on coal, they would have avoided the <lb/>
+               seizures which they made during last year. From the moment <lb/>
+               the schooner Horton was recaptured by the Americans and <lb/>
+               towed into Gloucester, whatever chance existed for the <lb/>
+               reduction of the duty on coal and lumber was lost. The hon. <lb/>
+               gentlemen opposite and the Minister of Justice especially had <lb/>
+               asked hon. members not to put troublesome questions, not to <lb/>
+               suggest doubts with reference to the Treaty; yet the hon. <lb/>
+               member for Peel (Hon. Mr. Cameron) in his brilliant address <lb/>
+               had left an impression on the House that Americans almost <lb/>
+               had a right to the Fisheries, because they had enjoyed them for <lb/>
+               17 years longer than they had been excluded from them. He <lb/>
+               (Mr. Jones) took a directly opposite view of the question. His <lb/>
+               colleague referred last night to one argument in favour of the <lb/>
+               Treaty, that trade to Cuba would be injured by its annexation <lb/>
+               to the United States. The hon. gentleman should know that we <lb/>
+               are obliged to pay a duty on goods exported to that island, <lb/>
+               double that on the same goods exported to the United States: <lb/>
+               
+               <milestone type="day"/> May 14, 1872 <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->
+            
+            <!--Para " May 14, 1872 
+               
+            ..." merged into previous para.-->
+            
+         
+            
+            <p> therefore trade would
+               hardly be injured by the annexation of <lb/>
+               the island. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The hon. member for
+               Lanark North (Hon. Mr. McDougall) <lb/>
+               had referred to the fact that Prince Edward Island and <lb/>
+               Newfoundland had accepted the Treaty; and New Brunswick <lb/>
+               and Nova Scotia had not apparently been very warmly <lb/>
+               opposed to it. The hon. gentleman had also sought to create <lb/>
+               the impression that the Government of New Brunswick were <lb/>
+               acting in concert with the Clear Grit party when they took the <lb/>
+               step they did in communicating with the Government of Nova <lb/>
+               Scotia on the subject. The resolution of the New Brunswick <lb/>
+               Legislature was passed on the 18th February, while the High <lb/>
+               Commission was sitting, and when it was thought that the <lb/>
+               opinion of the Legislature would strengthen the hands of those <lb/>
+               who had charge of our interests; they accordingly telegraphed <lb/>
+               to Newfoundland, and as the latter had no interest but the <lb/>
+               ﬁshing interest to consider, they replied that they were
+               well <lb/>
+               satisﬁed to leave the matter to England, for the reason that
+               she <lb/>
+               had left them to exercise their own discretion and free will on <lb/>
+               the subject of entering the Confederation or not. That was a <lb/>
+               very good reason for Newfoundland, because she had been <lb/>
+               accorded a privilege which had been denied Nova Scotia. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> He might here remark,
+               as an instance of the singular <lb/>
+               inaccuracies and want of information which characterized the <lb/>
+               whole negotiation, that the important interest of seal
+               ﬁshing <lb/>
+               had been entirely unprovided for in the Treaty. The Governor <lb/>
+               of Newfoundland made a communication to Earl Kimberley, <lb/>
+               enclosing a copy of a minute of the Council of the Local <lb/>
+               Government on the subject. That minute of the Council was <lb/>
+               not among the papers submitted to the House. The reply of the <lb/>
+               Government of Prince Edward Island was worthy of attention, <lb/>
+               because they occupied a position precisely similar to that of <lb/>
+               Nova Scotia. The people of Prince Edward Island had valuable <lb/>
+               ﬁsheries, but they said they were in the hands of the <lb/>
+               Americans already; and the agricultural product of that Island <lb/>
+               far exceeded the value of the ﬁsheries. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The people of Prince
+               Edward Island had precisely the same <lb/>
+               interest in the ﬁsheries as we had, but they were willing
+               for <lb/>
+               Imperial interests alone to agree to what was asked of them by <lb/>
+               the Government of England. The people of Prince Edward <lb/>
+               Island did not adopt the policy of the Canadian Government <lb/>
+               and say, “Give us so much money for our rights and we will <lb/>
+               ratify the Treaty.” (<hi rendition="simple:italic">Applause.</hi>) No; they took a
+               higher and <lb/>
+               more manly and national view of the case; and pursued a <lb/>
+               course which contrasted most favourably with that pursued by <lb/>
+               the Canadian Government. (<hi rendition="simple:italic">Applause.</hi>) The people of Prince <lb/>
+               Edward Island were not willing to put their loyalty into the <lb/>
+               English market and have it quoted at any ﬁgure. (<hi rendition="simple:italic">Hear,
+               hear.</hi>) <lb/>
+               On the contrary, they were willing to make a sacriﬁce for
+               the <lb/>
+               Empire, though the Treaty did not give their agricultural <lb/>
+               interests the market in the United States which they had under <lb/>
+               the Reciprocity Treaty. A minute of Council, dated July 25, <lb/>
+               1871, from the Lieut. Governor of Prince Edward Island to <lb/>
+               
+               <pb n="235" facs="final/images/PEI_H_of_C_18720514_Page_235.jpg"/>
+               <fw type="num">COMMONS</fw>
+               <fw type="running">DEBATES</fw>
+               <fw type="dateline"> May 14, 1872 <lb/>
+               
+               </fw> Lord Kimberley, would
+               show the position in which that Island <lb/>
+               stood, as follows:-“It
+               is stated in the minute that the different <lb/>
+               Governments and Legislatures of this Colony have always <lb/>
+               hoped that these ﬁsheries (the fisheries of Prince Edward <lb/>
+               Island) would have done much to secure the advantages of <lb/>
+               another Reciprocity Treaty, or of some tariff concessions <lb/>
+               authorize the free admission into the United States of the <lb/>
+               products of our agriculturists, who form the majority of our <lb/>
+               population, and which would have resulted in promoting the <lb/>
+               prosperity of the Colony; and that, in the opinion of this <lb/>
+               Council, the inhabitants of Prince Edward Island are now <lb/>
+               asked to surrender to the citizens of the United States these <lb/>
+               invaluable fisheries without receiving in return any just or fair <lb/>
+               equivalent, such as was hoped to be obtained.” <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->   <!--Milestone merged into previous para.-->
+            
+            <!--Para " Lord Kimberley, would
+               show the position in which that Island 
+  ..." merged into previous para.-->
+            
+         
+            
+            <p> The people of New
+               Brunswick from the ﬁrst had been <lb/>
+               entirely opposed to the Treaty, and the Legislature of that <lb/>
+               Province, as well as the Lieut. Governor, had spoken of it in <lb/>
+               the strongest terms of denunciation. (<hi rendition="simple:italic">Hear, hear.</hi>) The people <lb/>
+               of New Brunswick, Prince Edward Island, and Newfoundland <lb/>
+               did not accept the Treaty in the spirit in which this House was <lb/>
+               asked to accept it. (<hi rendition="simple:italic">Hear, hear.</hi>) <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Under those
+               circumstances he felt as a representative of <lb/>
+               Nova Scotia, that, however anxious he might be for the <lb/>
+               establishment of reciprocal trade relations with the States on <lb/>
+               fair terms, he was not willing to give the United States <lb/>
+               everything that we had to offer as an inducement for <lb/>
+               reciprocity. If we gave them permission to ﬁsh in our waters
+               <lb/>
+               
+               <milestone type="day"/> 235 <lb/>
+               
+            </p>
+            
+            <!--Milestone merged into previous para.-->
+            
+            <!--Para " 235 
+               
+            ..." merged into previous para.-->
+            
+         
+            
+            <p> we put them in
+               competition with our own ﬁshermen, and <lb/>
+               reduced the value of the ﬁsh. He stood here not to represent
+               <lb/>
+               one country or one province, but the whole interests of the <lb/>
+               Dominion, (<hi rendition="simple:italic">Hear, hear</hi>) and in that capacity he would feel it <lb/>
+               his duty to vote against the ratiﬁcation of the treaty. <lb/>
+               (<hi rendition="simple:italic">Applause.</hi>) He denied that this treaty was calculated to settle <lb/>
+               all disputes between Great Britain and the United States, and he <lb/>
+               said that, if trouble arose at the present time between England and <lb/>
+               America, the latter would not ratify the treaty, and if we pressed it <lb/>
+               we would receive a snubbing for our pains. In the interest of the <lb/>
+               Dominion, and in the interest of all its products, he considered it <lb/>
+               would not be for our advantage to ratify the treaty at the present <lb/>
+               time. (<hi rendition="simple:italic">Applause.</hi>) <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Mr. KILLAM would vote
+               for the ﬁshery clauses of the Treaty; <lb/>
+               and thought that a majority of the representatives of Nova Scotia <lb/>
+               would favour its ratiﬁcation as the best means of securing
+               peace <lb/>
+               between the two countries. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Mr. HOLTON moved
+               the adjournment of the debate. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> Hon. Sir JOHN A.
+               MACDONALD would not oppose the <lb/>
+               motion, coming as it did from so distinguished a member of the <lb/>
+               House as the hon. member for Châteauguay; but he hoped that the <lb/>
+               debate, which had now lasted some days, would terminate to<lb break="no"/>morrow, and wished that it should stand ﬁrst on the orders
+               of the <lb/>
+               day. <lb/>
+               
+            </p>
+            
+         
+            
+            <p> The House adjourned
+               at 11.50. <lb/>
+               
+            </p>
+            
+         </div>
+      </body>
+   </text>
 </TEI>
