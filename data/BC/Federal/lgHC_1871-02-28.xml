@@ -1,74 +1,563 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1871-02-28" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-02-28">28 February 1871</date>, Canadian Confederation with British Columbia</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1871-02-28"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-02-28">28 February 1871</date>, Canadian Confederation with British Columbia</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>Norman Ward and Pamela Hardisty</editor>.
+
+               <editor>Norman Ward and Pamela Hardisty</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Fourth Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="2007"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="67" to="68"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/BC_H_of_C_18710228_Page_067.hocr.html"/></item>
-          <item><ptr target="final/hocr/BC_H_of_C_18710228_Page_068.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710228_Page_067.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710228_Page_068.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
+   <facsimile>
+      <surface xml:id="BC_H_of_C_18710228_Page_067">
+         <graphic url="final/images/BC_H_of_C_18710228_Page_067.jpg"/>
+      </surface>
+      <surface xml:id="BC_H_of_C_18710228_Page_068">
+         <graphic url="final/images/BC_H_of_C_18710228_Page_068.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="067" facs="final/images/BC_H_of_C_18710228_Page_067.jpg"/>
+            <fw type="num">COMMONS DEBATES</fw>
+            <fw type="dateline">February 28, 1871 </fw>
+            
+            <fw type="running">HOUSE OF COMMONS</fw>
+            <fw type="dateline">Tuesday, February 28, 1871</fw>
+            
+<p>
+     The SPEAKER took the chair at 3.00 pm. 
+     
+    </p>
+   
+            <p>
+     <hi rendition="simple:italic">Prayers</hi> 
+     
+    </p>
+   
+            <p>
+     Several petitions were presented. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+   
+<div type="section">
+            <head>
+     CORRECTION 
+     
+    </head>
+   
+            <p>
+     Hon. Mr. CONNELL (whose remarks were very indistinctly 
+     
+     heard in the reporter’s gallery) referred to a mistake which had been 
+     
+     made in the report of his speech yesterday with regard to the 
+     
+     settlement of accounts between New Brunswick and the Dominion. 
+     
+     He had been represented as saying that “it would be necessary to 
+     
+     get an alteration of the Union Act.” He would not like to have it go 
+     
+     abroad to his constituents that he had made such an absurd 
+     
+     statement. He had no wish to have the Union Act disturbed for a 
+     
+     settlement of the accounts between New Brunswick and the 
+     
+     Dominion. He had no doubt that a just and equitable arrangement 
+     
+     would be made. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+   </div>
+
+<div type="section">
+            <head>
+     LIBRARY OFFICIALS 
+     
+    </head>
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER moved that the Library 
+     
+     Committee be instructed to inquire into the remuneration, 
+     
+     classiﬁcation, etc., of the ofﬁcers of the library. 
+     
+    </p>
+   
+            <p>
+     Carried. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+   </div>
+
+<div type="section">
+            <head>
+     NEW MEMBER 
+     
+    </head>
+   
+            <p>
+     Mr. PEARSON the member elected by the constituency of 
+     
+     Colchester to ﬁll the place rendered vacant by the appointment of 
+     
+     Hon. Mr. Archibald to the Lieutenant-Governorship of the North 
+     
+     West, was introduced by Messrs. Carmichael and Killam, and took 
+     
+     his seat. 
+     
+    </p>
+   
+            <p>
+     * * * <lb/>
+            </p>
+
+</div>
+     
+<div type="section">
+    <head> THE ELECTION LAW </head>
+     
+   
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER introduced a bill to make 
+     
+     temporary provision for the election of members for the House of 
+     
+    <fw type="num">67</fw>
+     Commons. (<hi rendition="simple:italic">Hear, hear from the Opposition</hi>.) He expected that his 
+     
+     hon. friends opposite would say “hear, hear” at the very mention 
+     
+     of the measure. He would explain that since we were about to have 
+     
+     another province comprised in this Dominion, it was obvious that 
+     
+     the government could not yet enact a law to affect all the provinces 
+     
+     of the Dominion, as far as the representation of this House was 
+     
+     concerned. The circumstances of Manitoba having been recently 
+     
+     admitted into the Union and British Columbia being on the eve of 
+     
+     joining the Confederation, had led the Government to the 
+     
+     conclusion that it would be better to carry on the next election for 
+     
+     the Dominion under the laws as they now prevail in the several 
+     
+     provinces. (<hi rendition="simple:italic">Hear, hear from the Opposition</hi>.) He might state that the 
+     
+     bill too, contained a provision with regard to the number of days on 
+     
+     which elections were to take place. This Bill provided that the 
+     
+     elections should take place on one day. (<hi rendition="simple:italic">Hear, hear</hi>.) 
+     
+    </p>
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     Commons. (Hear, hear from the Opposition.) He expected that his 
+     
+   ..." merged into previous para.-->
+   
+            <p>
+     Mr. BLAKE said that aﬁer two permanent Electoral Bills had 
+     
+     been passed, the House was now asked to enact a temporary one. 
+     
+     Last session one had been passed, the session before the House had 
+     
+     passed one, and now they were asked to deal with another one. The 
+     
+     hon. gentleman had explained that the reason why he now 
+     
+     submitted this temporary measure, was because of the introduction 
+     
+     of the new Provinces into Confederation. At what period since the 
+     
+     lst July, 1867, was not the House favoured with the news that new 
+     
+     Provinces were to be added? Every day they were told they were 
+     
+     coming in, though they didn’t come. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir FRANCIS HlNCKS: Yes! yes! 
+     
+    </p>
+   
+            <p>
+     Mr. BLAKE: And yet the Hon. Minister of Militia had asserted 
+     
+     that it was in view of these additions to the Dominion that this 
+     
+     temporary Act was provided. Last session the Opposition had 
+     
+     pointed out the effect that the new measure then submitted would 
+     
+     have in the East and in the West. They had shown that it would be 
+     
+     impossible to work it in Manitoba, and that difﬁculties would arise 
+     
+     in other Provinces too. But they were told that their arguments were 
+     
+     fallacious, and that the Union would overcome all the difﬁculties 
+     
+     which were then deprecated. He was glad to hear that, taught by 
+     
+     experience, they had admitted the truth of the arguments then 
+     
+     advanced by the Opposition, that it was necessary to respect the 
+     
+     views of the different Provinces on the subject and by degrees as 
+     
+     they became more acquainted with the franchise laws of other 
+     
+     countries, the Government had made some approach towards 
+     
+     providing for a common franchise for the Dominion. He was not 
+     
+     surprised that it was merely a temporary Act. It would be coming 
+     
+     down too far to propose as a permanent Act what they opposed so 
+     
+     consistently before, but, he had no doubt that it would contain for 
+     
+     some years to come the principle at the base of our Parliamentary 
+     
+     representation, founded on the motion of the hon. member for 
+     
+    <pb n="068" facs="final/images/BC_H_of_C_18710228_Page_068.jpg"/>
+               <fw type="running">COMMONS DEBATES</fw>
+               <fw type="num">68</fw>
+     Hochelaga, that the franchise should be for the Dominion the same 
+     
+     as by law established for each of the Provinces. (<hi rendition="simple:italic">Hear, hear</hi>.) 
+     
+    </p>
+            <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->
+            <!--Para "
+     Hochelaga, that the franchise should be for the Dominion the same 
+     
+ ..." merged into previous para.-->
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER said he did not intend to 
+     
+     discuss the measure at this moment, but he felt it to be his duty to 
+     
+     answer some of the observations made by the hon. gentleman 
+     
+     opposite. The Manitoba measure was submitted to the House as the 
+     
+     result of the negotiations carried on between the Dominion of 
+     
+     Canada and the gentlemen sent as delegates from Manitoba. No one 
+     
+     knew at the close of last session that Manitoba would certainly be a 
+     
+     member of the Confederation. There was no necessity or intention 
+     
+     at the outset that Manitoba should form a province and be 
+     
+     comprised in the Confederation. It was intended that it should be a 
+     
+     Crown colony, and that very reason induced the Government at the 
+     
+     time to withdraw the Bill. 
+     
+    </p>
+   
+            <p>
+     Mr. BLAKE: Hear, hear! 
+     
+    </p>
+   
+            <p>
+     Hon. Sir GEORGE-E. CARTIER: Then with regard to the 
+     
+     remarks of the hon. member for Lambton, he would say that the Bill 
+     
+     was proposed last year as there was no hope that we should have 
+     
+     British Columbia so soon. Every one expected of course, that 
+     
+     sooner or later that colony would be comprised as one of the sister 
+     
+     colonies in the Dominion. It would be useless at the close of this 
+     
+     Parliament, with one Province just admitted and another shortly to 
+     
+     be admitted into the Confederation, to endeavour to assimilate the 
+     
+     laws. They could not make a law now which would apply to British 
+     
+     Columbia. He hoped his hon. friend would take with a better feeling 
+     
+     the good intention of the Government in adopting this course. 
+     
+    </p>
+   
+            <p>
+     The Bill was read a ﬁrst time. 
+     
+     
+     
+    </p>
+            <p>* * * <lb/></p>
+
+</div>
+<div type="section">
+     <head>PAPERS ON BRITISH COLUMBIA </head>
   
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+            <p>
+     A message from His Excellency, accompanying papers relative 
+     
+     to the proposed union of British Columbia with Canada, was read. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+   </div>
+
+<div type="section">
+            <head>
+     HIS EXCELLENCY’S PEERAGE 
+     
+    </head>
+   
+            <p>
+     The SPEAKER read the following reply of His Excellency the 
+     
+     Governor General to the recent congratulatory address of the House 
+     
+     of Commons: 
+     
+    </p>
+   
+            <p>
+     <hi rendition="simple:italic">Mr. Speaker and Gentlemen of the House of Commons</hi>. 
+     
+    </p>
+   
+            <p>
+     I beg you to accept my sincere thanks for the address of 
+     
+     congratulation with which you have honoured me on the occasion 
+     
+     of my elevation to the Peerage. 
+     
+    </p>
+   
+            <p>
+     The expression of your acquiescence in the favourable view 
+     
+     which our Sovereign has graciously deigned to take of my services 
+     
+     is highly to be valued, as conveying the good opinion of the freely 
+     
+    <fw type="dateline">
+     February 28, 1871 </fw>
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     February 28, 1871 
+     
+    ..." merged into previous para.-->
+   
+          
+     chosen representatives of a people possessing the precious 
+     
+     endowments of energetic industry, self-reliance, and firm and 
+     
+     orderly attachment to the freedom and institutions of their country. 
+     
+    </p>
+   
+            <p>
+     The North West Territories already added to the Confederation 
+     
+     and the willing accession of British Columbia, which, it is to be 
+     
+     hoped, will shortly take effect, as they extend your bounds, so they 
+     
+     proportionately augment the cares and responsibilities of those who 
+     
+     are in the high places of the land', but the legislature and people of 
+     
+     the Dominion will, I feel persuaded, prove equal to the lofty task, 
+     
+     the vast and varied interests throughout the wide domain will be 
+     
+     safe in their charge and gradually cemented into one compact and 
+     
+     contented whole, by the same wise legislation, and the same equal 
+     
+     administration of affairs as have done so much in the past to 
+     
+     establish the well being and satisfy the just expectations of the 
+     
+     people. In conclusion, I return your good wishes with all sincerity, 
+     
+     and assure you I shall retain and cherish to the close of my life a 
+     
+     warm interest in all that regards the position and prospects of this 
+     
+     great and growing country. </p>
+  </div>   
+
+<div type="section">
+    <head>LISGAR</head>
+               <p>GOVERNMENT HOUSE,</p>
+               <p>
+     FEBRUARY 27, 1871</p>
+<p>* * *<lb/></p>
+</div>
+
+<div type="section">
+                <head>BRITISH COLUMBIA PAPERS</head>
+
+    <p> Hon. Sir GEORGE-E. CARTIER moved that the papers just 
+     
+     submitted to the House be printed without delay. He explained that 
+     
+     the Hon. Mr. Trutch, the delegate from British Columbia, was now 
+     
+     in Chicago, on his way to Ottawa, and would reach here, he 
+     
+     expected, on Saturday. It was necessary, therefore, that the House 
+     
+     should be in possession of the correspondence relative to the 
+     
+     admission of the sister colony into the union. 
+     
+    </p>
+            <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->
+            <!--Para "
+     Hon. Sir GEORGE-E. CARTIER moved that the papers just 
+     
+     submitte..." merged into previous para.-->
+   
+            <p>
+     Mr. MASSON (Terrebonne) complained of delays in printing 
+     
+     public documents in the French language. He knew that it took 
+     
+     some time to translate papers, but then, if there were not translators 
+     
+     enough to do the work, more should be employed. 
+     
+    </p>
+   
+            <p>
+     After a short discussion on the subject the motion was carried. </p>
+     
+    <p> * * * <lb/>
+     
+    </p>
+   </div>
+
+<div type="section">
+            <head>
+     EXPENSE OF FENIAN INVASION 
+     
+    </head>
+   
+            <p>
+     Hon. Sir FRANCIS HINCKS moved that the House should on 
+     
+     Friday next go into Committee of the Whole to consider resolutions 
+     
+     affirming the expediency of indemnifying the Government for 
+     
+     having authorized the issue of a special warrant for $200,000, to 
+     
+     provide for the defence of the Dominion in repelling the Fenian 
+     
+     invasion in the month of May last. 
+     
+    </p>
+       </div>  </div>
+      </body>
+   </text>
 </TEI>

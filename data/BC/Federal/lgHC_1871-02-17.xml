@@ -1,73 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1871-02-17" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-02-17">17 February 1871</date>, Canadian Confederation with British Columbia</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1871-02-17"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-02-17">17 February 1871</date>, Canadian Confederation with British Columbia</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>Norman Ward and Pamela Hardisty</editor>.
+
+               <editor>Norman Ward and Pamela Hardisty</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Fourth Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="2007"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="13" to="13"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/BC_H_of_C_18710217_Page_013.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710217_Page_013.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
+   <facsimile>
+      <surface xml:id="BC_H_of_C_18710217_Page_013">
+         <graphic url="final/images/BC_H_of_C_18710217_Page_013.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="013" facs="final/images/BC_H_of_C_18710217_Page_013.jpg"/>
+            <fw type="running">COMMONS DEBATES</fw>
+            <fw type="dateline">February 17, 1871</fw>
+            
+            <fw type="running">HOUSE OF COMMONS</fw>
+            <fw type="dateline">Friday, February 17, 1871</fw>
+            
+<p>
+     The SPEAKER took the chair at three o’clock. 
+     
+    </p>
+   
+            <p>
+     <hi rendition="simple:italic">Prayers</hi> 
+     
+    </p>
+   
+            <p>
+     Several petitions and motions were presented. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+   
+<div type="section">
+            <head>
+     LACHINE CANAL BRIDGE 
+     
+    </head>
+   
+            <p>
+     Hon. Mr. HOLTON asked if the Grand Trunk Railway had 
+     
+     asked permission to erect an additional bridge on or near the 
+     
+     Lachine Canal, at the Wellington Bridge, Montreal, and if so, when 
+     
+     the permission was applied for and when granted. 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. LANGEVIN said the Railway company was allowed 
+     
+     to cross the canal with a swing bridge at Wellington Street, to be 
+     
+     built at the place and in the stead of the existing bridge, and subject 
+     
+     to the conditions he would lay before the House. 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. HOLTON: When was the permission applied for, and 
+     
+     when granted? 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. LANGEVIN: Applied for on 17th January, 1871, and 
+     
+     granted 28th January. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+</div>
+
+<div type="section">
+            <head>
+     GRAND TRUNK RETURNS 
+     
+    </head>
+   
+            <p>
+     Mr. MACKENZIE moved for returns of statements, showing 
+     
+     the gross earnings of the Grand Trunk Railway during certain 
+     
+     years. — Carried. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+   </div>
+   
+<div type="section">         
+<head>
+     NORTH WEST INSTRUCTIONS 
+     
+    </head>
+   
+            <p>
+     Mr. MACKENZIE moved an address for copies of all 
+     
+     instructions to Lieutenant-Govemor Archibald, also copies of all 
+     
+     reports and ofﬁcial correspondence between the Lieutenant- 
+     
+     Governor and the Dominion Government from the date of his 
+     
+     appointment. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir JOHN A. MACDONALD said that while no objection 
+     
+     would be urged to furnishing the returns asked for, it would be as 
+     
+     well to mention exactly the papers which were wanted. There was a 
+     
+     very large amount of correspondence continually passing between 
+     
+    <fw type="num">13</fw>
+     the Local Government and the Dominion Government, only a 
+     
+     portion of which could be of any service to the hon. member. 
+     
+    </p>
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     the Local Government and the Dominion Government, only a 
+     
+     porti..." merged into previous para.-->
+   
+            <p>
+     Mr. MACKENZIE said he only wished to obtain that portion 
+     
+     relative to the new system of Government, the division of the 
+     
+     Province into electoral districts, and everything, in fact, connected 
+     
+     with the new order of things. He did not want the formal 
+     
+     correspondence. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER called the attention of the 
+     
+     hon. member to the fact that Lieutenant-Governor Archibald was 
+     
+     the Governor of the North West Territory as well as of Manitoba, 
+     
+     and correspondence relevant to both capacities should be included. 
+     
+    </p>
+   
+            <p>
+     The motion was amended in accordance with the suggestion, and 
+     
+     carried. 
+     
+    </p>
+
+   
+            <p>
+     * * * <lb/>
+     
+     
+    </p>
+</div>  
+
+<div type="section">
+          <head>PUBLIC ACCOUNTS 
+     </head>
+           
+   
+            <p>
+     Hon. Sir FRANCIS HINCKS submitted the public accounts for the year.
+     
+    </p>
+            <p>(<hi rendition="simple:italic">Applause</hi>) </p>
+    
+<p> Mr. MACKENZIE: It will save us a great deal of trouble. 
+     </p>
+   
+            <p>
+     Hon. Sir FRANCIS HlNCKS also laid on the table details of 
+     
+     expenditure for the defence of the country. 
+     
+    </p>
+   
+            <p>
+     Mr. MACKENZIE: Perhaps the hon. member will give us 
+     
+     details of all the expenditure from the fund for unforeseen expenses. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir FRANCIS HINCKS said they would be submitted in a 
+     
+     few days. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+   </div>
   
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+<div type="section">
+          <head>
+     BRITISH COLUMBIA CORRESPONDENCE 
+     
+     MOTIONS 
+     
+    </head>
+   
+            <p>
+     Mr. MACKENZIE moved for an address for copies of all 
+     
+     correspondence between the Government and British Columbia, its 
+     
+     delegates, or the Imperial Government relative to the admission of 
+     
+     such colony into the Dominion', also copies of all orders in council 
+     
+     or other documents relating to such negotiation.—Carried. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir JOHN A. MACDONALD said all correspondence 
+     
+     would be brought down by message, and the motion was 
+     
+     unnecessary. 
+     
+    </p>
+       </div>
+</div>  
+
+      </body>
+   </text>
 </TEI>

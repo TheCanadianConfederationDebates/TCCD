@@ -1,73 +1,326 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1871-03-14" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-03-14">14 March 1871</date>, Canadian Confederation with British Columbia</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1871-03-14"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-03-14">14 March 1871</date>, Canadian Confederation with British Columbia</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>Norman Ward and Pamela Hardisty</editor>.
+
+               <editor>Norman Ward and Pamela Hardisty</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Fourth Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="2007"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="182" to="182"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/BC_H_of_C_18710314_Page_182.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710314_Page_182.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="BC_H_of_C_18710314_Page_182">
+         <graphic url="final/images/BC_H_of_C_18710314_Page_182.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="182" facs="final/images/BC_H_of_C_18710314_Page_182.jpg"/>
+            <fw type="running">COMMONS DEBATES</fw>
+            <fw type="num">182</fw>
+
+            <p>
+     Hon. Mr. DORION said the hon. gentleman did not seem to 
+     
+     propose any amendment of the Act of last session except to allow 
+     
+     the Banks to come under this general law. One part of the 
+     
+     resolutions had given rise to some difficulty. What was meant by 
+     
+     the words “cash reserves?” In Montreal there had been a good deal 
+     
+     of discussion as to the exact meaning or requirement of the “cash 
+     
+     reserves” on which was to be based the amount of Dominion notes 
+     
+     or funds to be kept by the bank. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir FRANCIS HlNCKS said he did not see any difﬁculty 
+     
+     of the kind mentioned; nor had he heard of any, though he had had 
+     
+     a great deal of conversation with bankers since the Act of last 
+     
+     session was passed. The course he proposed was the reference of 
+     
+     the Bill to the Standing Committee on Banking and Commerce, 
+     
+     where all those matters could be fully considered. He was sure the 
+     
+     Bill would come from that Committee in a satisfactory shape. He 
+     
+     then moved the adoption of the first resolution, which was carried 
+     
+     as were all the others. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir FRANCIS HlNCKS then introduced a Bill relating to 
+     
+     Banks and banking. 
+     
+    </p>
+   
+            <p>
+     *** <lb/>
+     
+    </p>
+   
+<div type="section">
+            <head>
+     BRITISH COLUMBIA 
+     
+    </head>
+   
+            <p>
+     Hon. Sir GEORGE-E. CARTIER moved that the House go 
+     
+     into committee on Friday next to consider the resolutions respecting 
+     
+     the admission of British Columbia. He explained that as this was a 
+     
+     most important measure it would not be discussed till Friday next. 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. DORION suggested that the debate be deferred till a 
+     
+     week from Friday next. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir GEORGE-E. CARTIER said it was not likely that the 
+     
+     subject would be exhausted in one day. On next Tuesday, Mr. 
+     
+     Trutch, who was at present in Washington, would be here, and as 
+     
+     that gentleman wished to go to England as soon as possible, the 
+     
+     debate would commence on Tuesday. 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. DORION said it was a very large measure, and it 
+     
+     would be well to have the Ontario Opposition and the members of 
+     
+     the Ontario Cabinet who were absent, in the House while it was 
+     
+     under discussion. The debate would be protracted rather than 
+     
+     advanced by the course which the Government proposed. 
+     
+    </p>
+   
+            <p>
+     Mr. HARRISON said it was pleasant to observe that the hon. 
+     
+     gentlemen opposite were alive to the fact that several Ontario 
+     
+     members were absent from the House. Yesterday, when the 
+     
+     arbitration question was brought up, they seemed to be quite 
+     
+     oblivious to the fact. (Hear, hear.) 
+     
+    </p>
+   
+            <p>
+     Mr. MILLS thought the House should be put in possession of a 
+     
+     statement of the imports of British Columbia before the question 
+     
+     should be brought before the House. 
+     
+    <fw type="dateline">
+     March 14, 1871 </fw>
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     March 14, 1871 
+     
+    ..." merged into previous para.-->
+   
+          
+     After some further discussion the motion was carried. 
+     
+    </p>
+  <p> *** <lb/></p> 
+
+</div>
+
+<div type="section">
+            <head>
+     WEIGHTS AND MEASURES 
+     
+    </head>
+   
+            <p>
+     Hon. Mr. MORRIS moved that the House go into Committee at 
+     
+     some future day to consider certain resolutions for the establishing 
+     
+     of a uniform system of weights and measures for all Canada. The 
+     
+     resolutions also permitted the use of the metric system where two 
+     
+     parties to a contract were agreeable. -Carried. 
+     
+    </p>
+
+<p> *** <lb/></p>
+</div>
+
+<div type="section">
+   
+            <head>
+     INSPECTION LAWS 
+     
+    </head>
+   
+            <p>
+     Hon. Sir FRANCIS HINCKS moved that the House go into 
+     
+     Committee of the Whole at a future day to consider a resolution 
+     
+     declaring it expedient to amend and consolidate, and to extend to 
+     
+     the whole Dominion of Canada, the laws respecting the inspection 
+     
+     of certain staple articles of Canadian produceiCarried. 
+     
+    </p>
+  <p> *** <lb/></p>
+
+ </div>
+
+<div type="section">
+            <head>
+     FENIAN RAIDS 
+     
+    </head>
+   
+            <p>
+     Hon. Sir FRANCIS HINCKS moved the reception ofthe report 
+     
+     of the Committee of the Whole on certain resolutions afﬁrming the 
+     
+     expediency of indemnifying the Government for having authorized 
+     
+     the issue of a special warrant for $200,000, to provide for the 
+     
+     defence of the Dominion, in repelling the Fenian invasion in the 
+     
+     month of May last. 
+     
+    </p>
+   
+            <p>
+     The resolutions having been read a second time, 
+     
+    </p>
+   
+            <p>
+     Hon. Sir FRANCIS HINCKS introduced a Bill founded on 
+     
+     them. 
+     
+    </p>
+   <p> *** <lb/></p>
+ </div>           
+
+<div type="section">
+<head>
+     INTERIM ELECTIONS BILL 
+     
+    </head>
+   
+            <p>
+     The House went into Committee of the Whole on Bill No. 16, to 
+     
+     make temporary provision for the election of members to serve in 
+     
+     the House of Commons of Canada. 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. IRVINE in the chair. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir GEORGE-E. CARTIER said he understood the hon. 
+     
+     member opposite intended to make certain amendments to the Bill 
+     
+     now before the Committee. He suggested that the amendments 
+     
+     should be proposed aﬁer the Committee should rise. 
+     
+    </p>
+       </div>  
+</div>
+      </body>
+   </text>
 </TEI>

@@ -1,75 +1,472 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1871-02-16" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-02-16">16 February 1871</date>, Canadian Confederation with British Columbia</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1871-02-16"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-02-16">16 February 1871</date>, Canadian Confederation with British Columbia</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>Norman Ward and Pamela Hardisty</editor>.
+
+               <editor>Norman Ward and Pamela Hardisty</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Fourth Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="2007"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="7" to="7"/>.
 <biblScope unit="page" from="11" to="11"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/BC_H_of_C_18710216_Page_007.hocr.html"/></item>
-          <item><ptr target="final/hocr/BC_H_of_C_18710216_Page_011.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710216_Page_007.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710216_Page_011.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="BC_H_of_C_18710216_Page_007">
+         <graphic url="final/images/BC_H_of_C_18710216_Page_007.jpg"/>
+      </surface>
+      <surface xml:id="BC_H_of_C_18710216_Page_011">
+         <graphic url="final/images/BC_H_of_C_18710216_Page_011.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="007" facs="final/images/BC_H_of_C_18710216_Page_007.jpg"/>
+            <fw type="running">COMMONS DEBATES</fw>
+            <fw type="dateline">February 16, 1871 </fw>
+
+
+            <p>
+     obtainrnent of the opinion of this House in reference to the 
+     
+     important matters to be dealt with by the approaching International 
+     
+     Commission. The Hon. Premier was soon to leave for Washington. 
+     
+     No discussion of the ﬁshery or other questions, to come before the 
+     
+     Commission, would be of the slightest advantage if it were to 
+     
+     follow the departure of the leader of the Government. He thought it 
+     
+     was their bounden duty to strengthen the hands of their 
+     
+     representative on that Commission by every means in their power. 
+     
+     He proposed to do so by a resolution. If the Government promised 
+     
+     him an early opportunity of doing so—say Monday or Tuesday, he 
+     
+     would not stand in the way of the immediate passage of the address. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir JOHN A. MACDONALD promised the early 
+     
+     opportunity solicited. He quite recognised the importance of these 
+     
+     subjects, and the propriety of the discussion before he left for 
+     
+     Washington. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir A.T. GALT said he was satisfied with that statement, 
+     
+     as he believed fair play would be given him. 
+     
+    </p>
+   
+            <p>
+     The matter then dropped. 
+     
+    </p>
+   
+            <p>
+     * * * <lb/></p>
+
+     <div type="section">
+    <head> THE DEBATE ON THE ADDRESS </head>
+     
+ 
+   
+            <p>
+     Mr. LACERTE rose to propose the address in reply to His 
+     
+     Excellency’s Speech from the Throne. Taking up the various 
+     
+     paragraphs, he spoke briefly on each, as usual, expressing 
+     
+     concurrence in the different views therein set forth, and 
+     
+     complimenting the Government on its administrative policy. He 
+     
+     referred particularly to the Fenian enterprise of last spring, and the 
+     
+     wise and vigorous efforts put forth for its overthrow. He hoped the 
+     
+     House would fully sustain the Administration in this matter by 
+     
+     voting the additional expenditure it was compelled to incur. He was 
+     
+     glad at the prospect of the settlement of the fishery dispute, and 
+     
+     believed everything would be done to protect Canada’s interests. 
+     
+     Fortunately the Red River trouble was ended, thanks to the 
+     
+     judicious and conciliatory action of the Government, and to the 
+     
+     exertions and bravery of the Volunteers. The Dominion was in a 
+     
+     prosperous condition, largely owing to the wisdom of Ministers, 
+     
+     who deserved the confidence of Parliament and the people. He had 
+     
+     much pleasure in moving the Address. 
+     
+    </p>
+   
+            <p>
+     Mr. KIRKPATRICK rose to second the motion. The topics of 
+     
+     the speech well deserved the compliments paid them. Scarcely had 
+     
+     the Parliament been prorogued last summer when hordes of 
+     
+     miscreants from the United States suddenly assembled on our 
+     
+     frontier to pillage and ravage our land. To add to the infamy and 
+     
+     offensiveness of this outrage, those marauders chose for the time of 
+     
+     their unwarranted operations, the day above all, dear to loyal British 
+     
+     subjects, the Queen’s birthday. The hostile movement was, thanks 
+     
+     to the bravery and loyalty of our volunteers and the troops of the 
+     
+     Queen, hurled back in disgrace from our border. He hoped and 
+     
+     doubted not the House would cheerfully vote the extra expenses 
+     
+     entailed by this attempted Fenian invasion. 
+     
+    </p>
+   
+            <p>
+     The next subject of the Speech was the Fisheries, and it was but 
+     
+     truth to say that the action of the Canadian Government in regard to 
+     
+    <fw type="num">7</fw>
+            <!--Milestone merged into previous para.-->
+            <!--Para "7..." merged into previous para.-->       
+     them had met with the approbation of the whole country. The 
+     
+     reference of General Grant to the action of Canada exhibited both 
+     
+     ignorance and prejudice. The Dominion had but acted within its 
+     
+     right, and it was certain The next subject in the speech was that of 
+     
+     Manitoba. No better Governor could have been chosen than him 
+     
+     who is now <hi rendition="simple:italic">de facto</hi>, if not <hi rendition="simple:italic">de jure</hi> in power. The improvements 
+     
+     already witnessed in Manitoba prove the judiciousness of the efforts 
+     
+     made to suppress disorder and rebellion, and set up the authority of 
+     
+     Canada. The brave Volunteers who had been instrumental in 
+     
+     securing those happy results, deserved the thanks of the country. 
+     
+     When disbanded he believed they were entitled to grants of land in 
+     
+     Manitoba. No better settlers could be chosen, and in justice to them, 
+     
+     and in the interests of the Province, everything should be done to 
+     
+     retain them in the North West. 
+     
+    </p>
+   
+            <p>
+     The proposed admission of British Columbia and Vancouver 
+     
+     Island was a subject of satisfaction to us all. The great scheme of 
+     
+     Confederation was being rapidly consummated. Those great 
+     
+     territories, so rich in natural resources, would be a great acquisition 
+     
+     to Canada, and everything possible should be done to unite them to 
+     
+     her by a Pacific Railway, grants of land, and, if possible, pecuniary 
+     
+     contributions, should be made in aid of such enterprises. 
+     
+    </p>
+   
+            <p>
+     There is little doubt that in this way they could be achieved. 
+     
+     Immigrants were necessary to development of the great resources of 
+     
+     the Pacific colonies, and good, rapid communications were 
+     
+     indispensable to the attraction of immigration. The next subject of 
+     
+     the Speech was the Fisheries, and it was but truth to say that the 
+     
+     action of the Canadian Government in regard to them had met with 
+     
+     the approbation of the whole country. The reference of General 
+     
+     Grant to the action of Canada exhibited both ignorance and 
+     
+     prejudice. The Dominion had but acted within its right, and it was 
+     
+     certain that action was justiﬁed by the approval of the Government 
+     
+     of England also. However, a Joint Commission had been appointed 
+     
+     to consider the Fishery question and that relating to events 
+     
+     connected with the last war, and from it he thought Canada had 
+     
+     nothing to fear. He hoped, however, that the injury done to Canada 
+     
+     by repeated Fenian raids would form one of the subjects discussed, 
+     
+     and that indemnity for our losses thereby would be as rigorously 
+     
+     required as was indemnity for the losses from the <hi rendition="simple:italic">Alabama</hi>. 
+     
+    </p>
+   
+            <p>
+     The improvement of our coinage system and other proposals of 
+     
+     the speech would be cordially received. The interests of the country 
+     
+     demanded such ameliorations. The general administration of the 
+     
+     affairs of the Dominion had been beneficial, as its progress and 
+     
+     prosperity amply testified. He could but concur in the closing 
+     
+     aspiration of the Speech from the Throne, upon which the future 
+     
+     happiness and advancement of Canada would largely depend. 
+     
+    </p>
+   
+            <p>
+     Mr. MACKENZIE said that it was important in opening the 
+     
+     grant inquest of the nation, that they should review the 
+     
+     administration of affairs and foreign events, while abstaining from 
+     
+     unusual criticism. Tremendous events had taken place since the last 
+     
+     session, including those of a gigantic and disastrous war. It was but 
+     
+     right he should express his sympathy with the sacrifices and 
+     
+     sufferings of that great nation, being the friend and ally of England. 
+     
+     He did hope that France would not suffer much either in feeling or 
+            </p>
+     
+    <pb n="011" facs="final/images/BC_H_of_C_18710216_Page_011.jpg"/>
+               <fw type="running">COMMONS DEBATES</fw>
+               <fw type="dateline">
+     February 16, 1871 </fw>
+<p>
+     fight in our own quarrels. In our present position the feeling in 
+     
+     favour of independence was spreading. 
+     
+    </p>
+            <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->
+            <!--Para "
+     fight in our own quarrels. In our present position the feeling in 
+     
+ ..." merged into previous para.-->
+   
+            <p>
+     Hon. Sir FRANCIS HINCKS [excitedly]: No, no. 
+     
+    </p>
+   
+            <p>
+     Mr. MASSON (Terrebonne): Yes, yes. The feeling was 
+     
+     spreading. He appealed to the Government if they wished to 
+     
+     continue the connection with England, as he did to enlighten the 
+     
+     House on the intention of the Imperial Government, for Mr. 
+     
+     Cardwell, a member of that Government; had recently delivered a 
+     
+     speech the argument of which was that the colonies should in future 
+     
+     act for the defence of England, or be feeders and not suckers. 
+     
+    </p>
+   
+            <p>
+     Mr. MILLS said the Federal system made it necessary that each 
+     
+     Province should have an independent governmental existence. Such 
+     
+     could not be given to any Province by this Parliament. He had 
+     
+     called attention to this fact last year, and was glad the Minister of 
+     
+     Justice had changed his views in this respect. (<hi rendition="simple:italic">Hear, hear</hi>.) As to 
+     
+     the murder of Scott it was still competent for the Government of 
+     
+     Canada to authorize the trial and punishment of Riel. The Minister 
+     
+     of Justice had said that this Government had no power to cause the 
+     
+     arrest of the murderers of Scott. This was not so. The Hudson’s Bay 
+     
+     Company were bound by the Imperial Government to transfer to 
+     
+     Canada, for trial and punishment, persons guilty of higher crimes 
+     
+     than rnisdemeanour. It was still competent for the Government of 
+     
+     Canada to authorize the trial and punishment of Riel, and it was 
+     
+    <fw type="num">11</fw>
+      
+     
+   
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     11 
+     
+    ..." merged into previous para.-->
+   
+           
+     also competent for the Lieutenant-Governor of Manitoba to ask for 
+     
+     extradition. </p>
+     
+    
+   
+            <p>
+     The second paragraph of the address was agreed to. 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. DORION on the proposal of the adoption of the 
+     
+     paragraph relating to the admission of British Columbia, protested 
+     
+     that he knew nothing of the merits of the terms of this admission, 
+     
+     and declared his unwillingness to express blindfold any concurrence 
+     
+     in the Govemment’s Paciﬁc Railway scheme. If it was to be one of 
+     
+     the character of the Intercolonial Railway, he would give it his 
+     
+     strenuous opposition. He could not approve of the wording of the 
+     
+     paragraph. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir JOHN A. MACDONALD consented to a verbal 
+     
+     alteration to meet the objection of the last speaker. The change was 
+     
+     of a non-committal character, and thus modiﬁed, the clause was 
+     
+     adopted. 
+     
+    </p>
+   
+            <p>
+     The remaining paragraphs were read and concurred in without 
+     
+     debate, and the address, being read a second time, was agreed to. 
+     
+    </p>
+   
+            <p>
+     After the usual formal resolutions in regard to the address and its 
+     
+     presentation, Hon. Sir JOHN A. MACDONALD gave notice of an 
+     
+     address of congratulation to Lord Lisgar on the distinguished 
+     
+     honour recently conferred upon him by Her Majesty. 
+     
+    </p>
+   
+            <p>
+     The House adjourned at a quarter past nine. 
+     
+    </p>
+       </div>
+         </div>
+      </body>
+   </text>
 </TEI>
