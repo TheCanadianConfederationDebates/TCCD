@@ -1,76 +1,1021 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_1871-03-31" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-03-31">31 March 1871</date>, Canadian Confederation with British Columbia</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_1871-03-31"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-03-31">31 March 1871</date>, Canadian Confederation with British Columbia</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName>Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName>Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Canadian Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Canadian Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor>Norman Ward and Pamela Hardisty</editor>.
+
+               <editor>Norman Ward and Pamela Hardisty</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
+         
           <title>House of Commons Debates, First Parliament, Fourth Session</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="2007"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="310" to="313"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/BC_H_of_C_18710331_Page_310.hocr.html"/></item>
-          <item><ptr target="final/hocr/BC_H_of_C_18710331_Page_311.hocr.html"/></item>
-<item><ptr target="final/hocr/BC_H_of_C_18710331_Page_312.hocr.html"/></item>
-<item><ptr target="final/hocr/BC_H_of_C_18710331_Page_313.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710331_Page_310.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710331_Page_311.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710331_Page_312.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_H_of_C_18710331_Page_313.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-10-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-10-06">Created this document, completed metadata, </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <p>This content will be replaced by data from the source documents during processing.</p>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="BC_H_of_C_18710331_Page_310">
+         <graphic url="final/images/BC_H_of_C_18710331_Page_310.jpg"/>
+      </surface>
+      <surface xml:id="BC_H_of_C_18710331_Page_311">
+         <graphic url="final/images/BC_H_of_C_18710331_Page_311.jpg"/>
+      </surface>
+      <surface xml:id="BC_H_of_C_18710331_Page_312">
+         <graphic url="final/images/BC_H_of_C_18710331_Page_312.jpg"/>
+      </surface>
+      <surface xml:id="BC_H_of_C_18710331_Page_313">
+         <graphic url="final/images/BC_H_of_C_18710331_Page_313.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="310" facs="final/images/BC_H_of_C_18710331_Page_310.jpg"/>
+            <fw type="num">COMMONS DEBATES</fw>
+            <fw type="num">310</fw>
+            
+<div type="section">
+<head>AFTER RECESS</head>
+</div>
+
+<div type="section">
+
+            <head>BRITISH COLUMBIA</head>
+
+            <p>
+     Hon. Sir GEORGE-É. CARTIER moved the reception of the 
+     
+     report of the Committee of the Whole on certain resolutions 
+     
+     respecting the admission of British Columbia into Union with 
+     
+     Canada. 
+     
+    </p>
+   
+            <p>
+     Mr. MACKENZIE said that in the speech of the Hon. Minister 
+     
+     of Militia, the statement had been made that one-third of the land in 
+     
+     British Columbia was fit for agriculture. But it was admitted that 
+     
+     this statement embraced the Island of Vancouver. Now, in dealing 
+     
+     with this question, the Island must not be taken into consideration at 
+     
+     all. From all the evidence he could obtain respecting the main land, 
+     
+     not one-fifth of it was available for settlement by farmers, and the 
+     
+     remaining four-fifths through which the road was likely to run, had 
+     
+     yet to be proved good for mining purposes. It was simply absurd to 
+     
+     put the price of that land at $1 dollar per acre. The Hon. Minister of 
+     
+     Customs, in his speech the other evening, had advocated entering 
+     
+     into an obligation which he could not say the country would be able 
+     
+     to perform. It had been said the other evening over and over again 
+     
+     during the debate, that he (Mr. Mackenzie) had stated that he 
+     
+     regarded the construction of the Pacific Railway as a pressing 
+     
+     political necessity. He denied having made any such a statement. 
+     
+     He would admit, however, that he would be willing to subject the 
+     
+     country to some inconvenience in order to obtain communication 
+     
+     with the Pacific through Canadian territory. He was in favour of 
+     
+     opening up communication immediately through the country lying 
+     
+     between the head of Lake Superior and Red River. From that point 
+     
+     to the Rocky Mountains the way was comparatively easy and quite 
+     
+     clear enough for the use of emigrants passing into the North West 
+     
+     country. On the Pacific slope, there was no doubt that it would be 
+     
+     necessary to expend large sums of money from time to time as the 
+     
+     Financial condition of the Dominion permitted in opening up a 
+     
+     good route to this side of the Rocky Mountains. 
+     
+    </p>
+   
+            <p>
+     But this country should not be bound to construct, within so short 
+     
+     a time, such a gigantic work. The Grand Trunk had never yet paid 
+     
+     one per cent on the capital expended on it, though passing through a 
+     
+     well peopled country and having no scarcity of traffic, yet the hon. 
+     
+     gentlemen opposite wished to lead the House to believe that this 
+     
+     Pacific Railway which was to run for 2,500 miles through an 
+     
+     uninhabited wilderness, would be a paying enterprise. We had 
+     
+     unfortunately 200 mile lying between the head of Lake Superior 
+     
+     and Winnipeg, which was an uninhabitable desert. Now, he would 
+     
+     recommend a cheap narrow gauge railway with steamers on the 
+     
+     smaller lakes, as the proper means of communication with the open 
+     
+     prairie extending west of Fort Garry and through which it would be 
+     
+     unnecessary to construct a road for years to come. He considered 
+     
+     this attempt as one of the most foolish things that could be 
+     
+     imagined—and what was it for? In order to get some 10,000 people 
+     
+     into the Union, they were actually agreeing to pay $10,000 a head 
+     
+     on their account. 
+     
+    </p>
+   
+            <fw type="dateline">March 31, 1871</fw>
+
+<p>
+     Such terms argued either insane recklessness on the part of the 
+     
+     Government and their supporters, or a painful want of patriotism, 
+     
+     which would damage the country and the character of the hon. 
+     
+     Minister of Militia. For thirty years to come it would be 
+     
+     unnecessary to construct the greater portion of this line. The only 
+     
+     part of the road which would need to be constructed immediately 
+     
+     was in British Columbia itself. He would be prepared to consider 
+     
+     that as soon as estimates of the cost, &amp;c., should be submitted to 
+     
+     this House. Holding these views, he moved that all the words after 
+     
+     “that” be omitted, and the following inserted: “having regard to 
+     
+     the vast importance of the questions involved in the said 
+     
+     Resolutions, (including the obligation to construct within ten years 
+     
+     the Pacific Railway, the cost of which is estimated to exceed one 
+     
+     hundred millions of dollars), time should be afforded to the people 
+     
+     and their representatives for consultation before coming to a final 
+     
+     decision; and that the consideration of the said Resolutions should, 
+     
+     therefore, be postponed to the next Session.” 
+     
+    </p>
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     Such terms argued either insane recklessness on the part of the 
+     
+   ..." merged into previous para.-->
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER said that he had hoped after 
+     
+     the discussion of the last three days all the arguments against this 
+     
+     measure would have been exhausted, and that he would not be 
+     
+     called upon to speak again. But after the remarks just made by the 
+     
+     hon. member for Lambton, he felt called upon to make some reply. 
+     
+     He was willing to give credit to the hon. members who opposed this 
+     
+     measure, for sincerity. He (Hon. Sir George-E. Cartier) was much 
+     
+     surprised, at the line of argument which they had followed. He was 
+     
+     surprised that the member for Larnbton should try to meet such a 
+     
+     great question on the mere ground of cost. He admitted that the 
+     
+     Union was a necessity and that the railway also was a necessity, but 
+     
+     the honorable gentleman objected to be tied down to a specified 
+     
+     time. He objected to being bound to build a line of 2,500 miles in 
+     
+     ten years—but in past years even when the country was new and 
+     
+     with comparatively few resources she had built 2,000 miles in eight 
+     
+     years. Had Canada been ruined by those works, had her agricultural 
+     
+     interests suffered on this account. And in addition to this, Canada 
+     
+     had built the Victoria Bridge at Montreal, itself equal to 500 miles 
+     
+     of railway, and other large bridges in different parts of the country. 
+     
+     Had she suffered from building those works? No. 
+     
+    </p>
+   
+            <p>
+     It was true that the G.T.R. proprietors were not receiving so good 
+     
+     a return as he would like. If the railway was practicable at all, every 
+     
+     one would admit that it could well be built in ten years. If there had 
+     
+     been any complaint it should have been that the time allowed was 
+     
+     too long. When it had been proposed to extend the Customs Laws 
+     
+     of Canada to Manitoba, it had been objected to as unfair, and that 
+     
+     the people of that country were beyond the circle of Canada, and 
+     
+     therefore a delay of three years had been allowed until the countries 
+     
+     could be more effectively joined and connected. Let the member for 
+     
+     Lambton and his friends read their speeches on the North West 
+     
+     question. Then no expense was too great, no haste too much, no 
+     
+     trouble too great, if only the North West could be acquired, but now 
+     
+     they said don’t go so fast. He wanted to get hold of the Red River 
+     
+     country at any cost, and now from the very same mouth that had 
+     
+     spoken of the fertility of the North West, they heard the very 
+     
+     opposite. He had then been willing to send any number of men to 
+     
+     obtain possession of the country. </p>
+     
+    <pb n="311" facs="final/images/BC_H_of_C_18710331_Page_311.jpg"/>
+               <fw type="running">COMMONS DEBATES</fw>
+               <fw type="dateline">March 31, 1871</fw>
+
+<p>
+     Mr. MACKENZIE had stated his willingness to send any 
+     
+     number of men not to acquire the country, but to establish the 
+     
+     supremacy of law over insurrection. 
+     
+    </p>
+            <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->
+            <!--Para "
+     Mr. MACKENZIE had stated his willingness to send any 
+     
+     number of..." merged into previous para.-->
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER resumed the comparison of 
+     
+     the expressions of the member for Lambton last year, and this, then 
+     
+     he had stated distinctly that the acquisition of the North West would 
+     
+     be the only way to obtain British Columbia, but now he did not 
+     
+     want the Union. 
+     
+    </p>
+   
+            <p>
+     Mr. MACKENZIE denied this; he was as much in favour of 
+     
+     Union as ever. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER said the member for 
+     
+     Lambton had stated distinctly that in swallowing the Quebec 
+     
+     scheme he had made a mistake, and now the great Reformer of 
+     
+     Upper Canada, the representative of everything good, the 
+     
+     representative of the great Party of Progress, said no, we must pull 
+     
+     up, we must stop. The Government were really the Party of 
+     
+     Progress and action, and the member for Lambton, and those who 
+     
+     had followed him would at the next election be taken to task by 
+     
+     their constituents for having in order to make a case against the 
+     
+     Government made the humiliating confession that they had made a 
+     
+     mistake in accepting the scheme of Confederation. The member for 
+     
+     Lambton in his argument had said that between Thunder Bay and 
+     
+     Fort Garry there was no soil and the railway could not be built but 
+     
+     that question could be settled by Parliament hereafter, when the 
+     
+     railway scheme should be submitted. 
+     
+    </p>
+   
+            <p>
+     Mr. MACKENZIE: What about the obligations? 
+     
+    </p>
+   
+            <p>
+     Hon. Sir GEORGE-E. CARTIER said, suppose the hon. 
+     
+     gentleman undertook an obligation, could he be obliged to fulfil it, 
+     
+     if he should be prevented by unforeseen circumstances. No one 
+     
+     could be compelled to perform an impossibility. The time was too 
+     
+     long, and the objection could only come from an economical 
+     
+     Scotchman, and he would predict that in a very few years the hon. 
+     
+     gentleman would be one of the most ardent supporters of the 
+     
+     railway. He had not been sorry to lose his motion yesterday, and he 
+     
+     was not sincere in his present proposal. That proposal was to entail 
+     
+     a delay of seven months; what object could there be in so doing? 
+     
+     The matter had already been discussed sufficiently, and the time 
+     
+     was now come for settlement, and he would say that without the 
+     
+     prospect of British Columbia, they would never have persuaded a 
+     
+     majority of the House to consent to acquire one inch of the North 
+     
+     West. For the sake of the member for Lambton himself he trusted 
+     
+     his speech would not be well reported, and especially that part in 
+     
+     which he had spoken of the character of the land in most 
+     
+     disadvantageous terms, and yet he said he was in favour of building 
+     
+     a railway as soon as possible. If the land was as described by the 
+     
+     hon. member, why should a railway be built at all? He reiterated 10 
+     
+     years was too long, and as to the mode of building the railway that 
+     
+     would all be submitted to Parliament, and within the next few days 
+     
+     the Government would ask for an appropriation for the preliminary 
+     
+     survey. He maintained that Canada was better able to-day to 
+     
+     undertake the Pacific railway than she had been years ago to 
+     
+    <fw type="num">311</fw>
+
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     311 
+     
+    ..." merged into previous para.-->
+   
+     advance fifteen millions to the Grand Trunk. The whole affair of the 
+     
+     hundred millions was a bugbear. There was no such thing as 
+     
+     incurring that debt in a few years—it was an absurdity to make such 
+     
+     a statement. 
+     
+    </p>
+   
+            <p>
+     The policy was purposely to retain the lands of the country in 
+     
+     order to build railways and open ways of communication. Canada 
+     
+     would not have to bear the expenditure alone. British Columbia 
+     
+     would be represented in the House, and would be equally interested 
+     
+     in the work. Speaking of the cost of the railway, he maintained the 
+     
+     gentlemen on the other side had played the parts of old nurses, but 
+     
+     the children on his side of the House were not so easily frightened. 
+     
+     He spoke of the North Pacific, quoting from a statement showing 
+     
+     the whole length to be 2,000 miles, and the entire estimated cost 
+     
+     seventy-six million dollars in greenbacks. lt had been objected that 
+     
+     the estimate for the Canadian Pacific might not be correct. He 
+     
+     admitted that, but the argument worked both ways. The cost might 
+     
+     prove very much below the estimate, and an immense amount of 
+     
+     land was reserved to cover it. He quoted a statement showing the 
+     
+     average cost of railway communication in the United States, 
+     
+     showing 2,600 miles of line in operation, the average cost being, in 
+     
+     the different States, from $25,000 to $33,000 per mile. It was 
+     
+     admitted that there was a large extent of prairie land to be crossed, 
+     
+     and the smaller expenditure necessary there would leave means to 
+     
+     overcome difficulties in other portions. The hon. members opposite 
+     
+     had been sufficiently unpatriotic to represent the country as that it 
+     
+     would never attract immigration, and he quoted from the 
+     
+     proceedings of the House of Representatives of the State of 
+     
+     Minnesota speaking of the Canadian line as practicable, and the 
+     
+     territories of the North West and British Columbia, as fertile, and 
+     
+     the most valuable of the Continent, and yet men in this country, the 
+     
+     leaders of their party, did their utmost to decry their country. 
+     
+    </p>
+   
+            <p>
+     Mr. MACKENZIE denied that he had done anything to decry 
+     
+     the country. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER was glad he had given the 
+     
+     hon. member an opportunity to correct himself. He quoted from an 
+     
+     article from an American paper, copied into the <hi rendition="simple:italic">Globe</hi> 
+     
+     characterising the Saskatchewan country as most valuable in soil 
+     
+     and minerals, and British Columbia as possessing rich mineral 
+     
+     resources, magnificent climate and ﬁne soil. It was fortunate that 
+     
+     the truth could be ascertained even if it came from opponents. The 
+     
+     Government had stated again and again that they themselves would 
+     
+     not build the railway, but that it would be constructed by 
+     
+     Companies assisted by such subsidies as would not oppress the 
+     
+     people. It was absurd to speak of building a line to the Rocky 
+     
+     Mountains only, a vote could not be obtained for such a purpose, 
+     
+     but when it was proposed to extend the line to the ocean, the 
+     
+     question assumed a very different aspect. Many great works had 
+     
+     been accomplished in England, but what were any compared with 
+     
+     the scheme now proposed, and he could say that already there 
+     
+     was a motion in England to assist the measure, and there would 
+     
+     doubtless be capitalists to take the matter in hand, and 
+     
+     everything was in favor of the successful construction of the 
+     
+     road. The Minister of Justice had telegraphed him to present his 
+     
+     congratulations to his friends on the vote of yesterday. </p>
+     
+    <pb n="312" facs="final/images/BC_H_of_C_18710331_Page_312.jpg"/>
+               <fw type="running">COMMONS DEBATES</fw>
+               <fw type="num">312</fw>
+    
+
+<p>Mr. BLAKE said the member for Lambton (Mr. Mackenzie) 
+     
+     in his amendment had pointed out the importance of the matter 
+     
+     the grave nature of the burden proposed to be incurred, and 
+     
+     therefore suggested the postponement of the consideration of 
+     
+     the matter, and it was impossible to answer those statements. 
+     
+     Much had been heard that the railway would not cost the 
+     
+     Dominion in cash $100,000,000, but no one attempted to deny 
+     
+     that the railway would cost that amount and where could the 
+     
+     money come from but from the resources of the country. It 
+     
+     might be in lands and it might be in money, but the result was 
+     
+     the same, and the only argument the Minister of Militia had 
+     
+     used was to speak of the American lines and contrast 
+     
+     greenbacks with gold. He complained of the system of alternate 
+     
+     sections not being followed in land grants. The argument 
+     
+     seemed to be that they would not be compelled to perform 
+     
+     impossibilities, but an honest man would fulfil an obligation, 
+     
+     though the result might be bankruptcy. 1f rashly the national 
+     
+     credit and faith were pledged to build that road in ten years, he 
+     
+     said that any one who voted for that obligation with the mental 
+     
+     reservation that they would not be compelled to fulfil the 
+     
+     obligation unless such should be desirable was a base man. The 
+     
+     spirit and the letter of the bond were alike binding, and the 
+     
+     question was most serious. 
+     
+    </p>
+            <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->
+            <!--Para "
+     Mr. BLAKE said the member for Lambton (Mr. Mackenzie) 
+     
+     in his a..." merged into previous para.-->
+   
+            <p>
+     The Bill was not one that could be repealed but was an 
+     
+     irrevocable determination to build the road in ten years 
+     
+     whatever the hazard, whatever the results, and should they not 
+     
+     seek to communicate with their people before arriving at this 
+     
+     irrevocable determination. It had been urged in order to secure 
+     
+     votes that there was a reserve power of repudiation, but if the 
+     
+     obligation was undertaken, the people would hold themselves 
+     
+     bound by it, and could gentlemen be prepared to meet an 
+     
+     indignant people if they incurred this responsibility without 
+     
+     consulting those they represented, and if the gentlemen did so 
+     
+     act, though they might go back to their people, they would not 
+     
+     come back to that House. The question was whether the debt of 
+     
+     the country should, at a stroke, be doubled, or whether they 
+     
+     should have an opportunity of consulting their people before 
+     
+     taking such a step. They had been urged to haste, but he 
+     
+     maintained that there had been too much haste in bringing 
+     
+     about Confederation already, and he was not anxious to ruin 
+     
+     entirely that portion of the scheme which had been too hastily 
+     
+     consummated. He had not heard what harm could result from 
+     
+     postponement and as to the argument that British Columbia was 
+     
+     hanging in the balance, he would say that while England was 
+     
+     true to herself, the result did not lie with British Columbia, and 
+     
+     therefore time for consideration should not be refused. 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. TILLEY said it was a great advantage to be able to 
+     
+     hear both sides of a question, but he could see no very great 
+     
+     difference in the proposition of the Government and the 
+     
+     amendment proposed. The hon. member for Lambton after his 
+     
+     defeat last night was obliged to adopt the more successful stand 
+     
+     which had been taken by the hon. member for Dundas. There 
+     
+     was no talk about the necessity of this delay from the hon. 
+     
+     gentleman opposite before this evening. It was all very well to 
+     
+    <fw type="dateline">
+     March 31, 1871</fw>
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     March 31, 1871 
+     
+    ..." merged into previous para.-->
+   
+          
+     ask for this delay now, but the scheme had been before the 
+     
+     people and had been discussed in the papers for months. The 
+     
+     terms were published in Toronto papers three months ago, and, 
+     
+     in fact, the Union had been talked of ever since the 
+     
+     commencement of the Confederation. In reply to the arguments 
+     
+     of the hon. members opposite, he said that a grant of $10,000 
+     
+     per mile in addition to the land grant would place the 
+     
+     construction of the railway beyond the possibility of a doubt. 
+     
+     There could be no difficulty in disposing of the lands at a fair 
+     
+     price. The fertile belt was spoken of by the American writers 
+     
+     who had visited it, as being of immense extent and of great 
+     
+     fertility. The Northern Pacific railway looked to it for a portion 
+     
+     of their future trade. It was, therefore, in the interest of this 
+     
+     Dominion to construct a road through our own territory to the 
+     
+     Pacific. 
+     
+    </p>
+   
+            <p>
+     Hon. Mr. McDOUGALL (Lanark North) said the House 
+     
+     should not be led away by claptrap speeches from the hon. 
+     
+     gentleman opposite. Let them look at the facts. Here was a 
+     
+     statement of Mr. Hind, an officer appointed by this Government, 
+     
+     who explored the North West, and submitted his report thereon. 
+     
+     This gentleman stated that in the whole of the fertile belt there 
+     
+     were not 40,000,000 acres of available land. Taking a fertile belt 
+     
+     in the Rocky Mountains which was not mentioned in that report, 
+     
+     to contain 10,000,000 acres more, there were but 50,000,000 
+     
+     acres of any commercial or exchangeable value, in the North 
+     
+     West. Where then were the Government lands to come from 
+     
+     after granting large sections to the railway? The experience of 
+     
+     the United States had shown that it was not in the interest of a 
+     
+     country to grant its unsettled lands in large blocks to private 
+     
+     companies. The proposition before the House was to give all the 
+     
+     valuable lands of the North West to a company which was not 
+     
+     yet formed. After the experience of English capitalists on 
+     
+     Canadian railways, it was not likely that capital could be got to 
+     
+     construct this railway. The money must be had in some way 
+     
+     even at the risk of involving the Dominion in ruin. In reply to 
+     
+     the statement of the Hon. Minister of Customs that this question 
+     
+     had been before the public for some time, he would refer the 
+     
+     hon. gentleman to the files of papers in the reading room. If he 
+     
+     would look at them he would see that the country was startled at 
+     
+     the gigantic proportions of this scheme. On the 27th of that 
+     
+     month, the <hi rendition="simple:italic">ipsissima verba</hi> of the scheme were presented to this 
+     
+     House, and that was the first time the public had an opportunity 
+     
+     of passing judgment on it. It was only after it was taken up and 
+     
+     discussed in this House the other day, that it might be said to 
+     
+     have been placed before the people. Could the hon. gentleman 
+     
+     then deny that delay should be granted before passing this 
+     
+     measure. It had not been presented to the House in the 
+     
+     constitutional manner and it was only right to give the people an 
+     
+     opportunity to express their approval or disapproval of it. 
+     
+    </p>
+   
+            <p>
+     The amendment was put and lost on the following division: Yeas, 
+     
+     7; nays, 135. 
+     
+    </p>
+   
+            <p>
+     Mr. BODWELL moved in amendment to leave out all the words 
+     
+     after “that” and insert the following: “That the proposed terms of 
+     
+    <pb n="313" facs="final/images/BC_H_of_C_18710331_Page_313.jpg"/>
+               <fw type="running">COMMONS DEBATES</fw>
+               <fw type="dateline">March 31, 1871</fw>
+
+     Union with <hi rendition="simple:italic">British Columbia</hi> provide for its representation in the 
+     
+     Senate by three Members, and in the House of Commons by six 
+     
+     Members, while its population is about 10,000, and such 
+     
+     representation in the House of Commons is enormously in excess of 
+     
+     the proper number according to population, and is in violation of 
+     
+     the fundamental principle of the fact between the Provinces, a 
+     
+     principle which ought not to be disturbed without the assent of the 
+     
+     Provinces, and that the said Resolutions be referred back to a 
+     
+     Committee of the Whole for the purpose of reducing the number of 
+     
+     representatives of <hi rendition="simple:italic">British Columbia</hi> in the House of Commons.” 
+     
+    </p>
+            <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->         <!--Milestone merged into previous para.-->
+            <!--Para "
+     Union with British Columbia provide for its representation in the 
+     
+ ..." merged into previous para.-->
+   
+            <p>
+     Mr. JONES (Leeds North and Grenville North) said though 
+     
+     both sides deprecated the party considerations, he had never heard a 
+     
+     question made so completely one of party. He did not think the 
+     
+     country was in a position to undertake the expenditure proposed. He 
+     
+     considered the Imperial Government ought to share in the expense 
+     
+     of any scheme for opening up the North West. He maintained that 
+     
+     the country was not suitable for settlement, or the present 
+     
+     population would have been much larger. He objected to the 
+     
+     Indians being taken into account, as they had done but little good to 
+     
+     Canada. He was in favor of the consideration of the matter being 
+     
+     postponed and should vote for the amendment. 
+     
+    </p>
+   
+            <p>
+     Mr. BOLTON in explaining the reference made to him by the 
+     
+     Minister of Customs, said he had not charged him with making 
+     
+     reckless statements, but that while giving him and the Government 
+     
+     every credit for being in earnest in desiring to construct the road, he 
+     
+     thought it very doubtful whether a company would be found to 
+     
+     undertake it. 
+     
+    </p>
+   
+            <p>
+     Mr. MACKENZIE’S amendment was then put, and the 
+     
+     following vote taken: Yeas, 68; nays, 85. 
+     
+    </p>
+   
+            <p>
+     Mr. CARTWRIGHT believe that the Government had been led 
+     
+     into the inconceivable blunder of naming a period for the 
+     
+     construction of the road and the amendment he was about to 
+     
+     propose differed from others in these respects, it did not interfere 
+     
+     with the pledge to commence the railway, and only pledged that 
+     
+     they would use their utmost exertions to go on with the work as fast 
+     
+     as practicable, and it need involve but a very short delay. He moved 
+     
+    <fw type="num">13</fw>
+            <!--Milestone merged into previous para.-->
+            <!--Para "
+     313 
+     
+    ..." merged into previous para.-->
+   
+       
+     that the eleventh paragraph should be amended by inserting the 
+     
+     words “use their utmost exertions” after the word “further.” 
+     
+    </p>
+   
+            <p>
+     Mr. KILLAM then moved in amendment to the amendment, 
+     
+     that the words “while its population is about 10,000” be struck out. 
+     
+    </p>
+   
+            <p>
+     Mr. KILLAM’S amendment was rejected on the following 
+     
+     division: Yeas, 43; nays 100. 
+     
+    </p>
+   
+            <p>
+     Mr. BODWELL’S amendment was then put, and the vote 
+     
+     resulted as follows: Yeas, 58; nays, 87. 
+     
+    </p>
+   
+            <p>
+     Mr. BLAKE moved in amendment to leave out all the words 
+     
+     after “that” and insert the following: “The proposed terms of 
+     
+     Union with <hi rendition="simple:italic">British Columbia</hi> provide for the payment by the 
+     
+     Dominion to <hi rendition="simple:italic">British Columbia</hi> of a yearly sum of $100,000 in 
+     
+     perpetuity (equal to a capital sum of $2,000,000) for the cession of 
+     
+     a tract of waste land on the route of the proposed Pacific Railway to 
+     
+     aid in its construction, while any such land required for that purpose 
+     
+     should be ceded without charge in like manner as the lands of the 
+     
+     Dominion are to be so ceded, and that the said Resolutions be re- 
+     
+     committed for the purpose of amending the same in accordance 
+     
+     with this Revolution.” 
+     
+    </p>
+   
+            <p>
+     The amendment was put and the vote was as follows:—Yeas, 59; 
+     
+     nays, 84. 
+     
+    </p>
+   
+            <p>
+     The ﬁrst, second, and third resolutions were carried. 
+     
+    </p>
+   
+            <p>
+     Hon. Sir GEORGE-É. CARTIER moved that an address, 
+     
+     embodying the said resolutions be presented to Her Majesty and 
+     
+     that a Select Committee, composed of Messrs. Tilley, Morris, 
+     
+     Tupper, Chauveau, Ferguson, Savary, and the mover be appointed 
+     
+     to draft such address—Carried. 
+     
+    </p>
+   
+            <p>
+     The Committee presented the draft address, which was received 
+     
+     and read a first time, to be read a second time, at the next Session of 
+     
+     the House. 
+     
+    </p>
+   
+            <p>
+     The House adjourned at 1.45 am. 
+     
+    </p>
+        </div> </div>
+      </body>
+   </text>
 </TEI>
