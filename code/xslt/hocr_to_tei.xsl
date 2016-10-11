@@ -46,6 +46,12 @@
   <xsl:variable name="reMonths" as="xs:string" select="'((jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec)|(fév)|(avr)|(mai)|(jui)|(aoû)|(déc))'"/>
   <xsl:variable name="reYear" as="xs:string" select="'\d\d\d\d'"/>
 
+
+<!-- Regular expressions used to determine the status of split paragraphs. -->
+  <xsl:variable name="reOpenBeginning">^[\s"'\(\[]*[^A-Z]</xsl:variable>
+  <xsl:variable name="reOpenEnd">[^\.\\!\?][\)\[\s]*$</xsl:variable>
+  <xsl:variable name="reNewBeginning">^[\s"'\(\[]*[A-Z]</xsl:variable>
+  <xsl:variable name="reClosedEnd">[\.\\!\?][\)\[\s]*$</xsl:variable>
   
     <xsl:variable name="rootEl" as="node()" select="//tei:TEI[1]"/> 
     
@@ -140,15 +146,34 @@
               </xsl:for-each>
             </xsl:variable>
             
+<!--        This pass attempts to label paragraphs and formeworks in a manner that 
+            makes it easier (on the next pass) to combine split paras and incorporate 
+            formeworks inside them where appropriate. -->
             <xsl:variable name="secondPassOutput">
               <xsl:apply-templates mode="secondPass" select="$firstPassOutput"/>
             </xsl:variable>
             
-            <xsl:variable name="thirdPassOutput">
-              <xsl:apply-templates mode="lbpass1" select="$secondPassOutput"/>
+<!--        Next we do a special pass to confirm that the values we assigned in the 
+            previous pass were actually sane. If this fails, the transformation exits
+            with a detailed error message. -->
+            <xsl:variable name="dummy">
+              <xsl:apply-templates mode="checkParaSeq" select="$secondPassOutput"/>
             </xsl:variable>
             
-            <xsl:apply-templates mode="lbpass2" select="$thirdPassOutput"/>
+            
+<!--        Now we do another pass to act on the information we've previously calculated 
+            and stored. -->
+            <xsl:variable name="thirdPassOutput">
+              <xsl:apply-templates mode="thirdPass" select="$secondPassOutput"/>
+            </xsl:variable>
+            
+<!--       Now we move to a couple more passes which handle the linebreak issues, using 
+           an external module. -->
+            <xsl:variable name="fourthPassOutput">
+              <xsl:apply-templates mode="lbpass1" select="$thirdPassOutput"/>
+            </xsl:variable>
+            
+            <xsl:apply-templates mode="lbpass2" select="$fourthPassOutput"/>
           </div>
         </body>
         
@@ -180,29 +205,234 @@
 <!-- Remove all the template comments. -->
   <xsl:template match="comment()[matches(., 'TEMPLATE:')]" mode="tei"/>
   
-<!-- TEI templates intended for second-pass processing, for rejoining 
-     split paragraphs and so on. -->
+<!-- TEI templates intended for second-pass processing, which set up attributes 
+     that we're going to use in the next pass for rejoining split paragraphs and so on. 
+     There are several types of thing, and we store these values in a phony temporary 
+     @x attribute:
+     
+      - A STANDALONE paragraph, which opens and closes itself. Normally this is a para which 
+        begins with a capital letter and ends with a closing punctuation mark, but it also 
+        may include the initial paragraph which has text, which is always treated as an opener,
+        even though it may itself be a continuation of a preceding para which we 
+        have not captured. A standalone paragraph obviously brings to an end any preceding
+        sequence of paras. If its preceding para is CONTINUING, an error should be raised.
+        
+      - An OPENING paragraph, which either begins with a capital or is the first paragraph
+        in the text, and ends in the middle of a sentence (no closing punctuation). This 
+        constitutes the beginning of a sequence, and subsequent paras and forme works will
+        be gathered into it at the next pass. If its following paragraph (should one exist)
+        is not CONTINUING or CLOSING, an error should be raised.
+        
+      - A CONTINUING paragraph, which does not start with a capital (and therefore is a 
+        continuation of the preceding para) and does not end with closing punctuation. This
+        will be gathered into a preceding paragraph during the next round of processing. If 
+        its following paragraph (should one exist) is not CONTINUING or CLOSING, an error 
+        should be raised.
+        
+      - A CLOSING paragraph, which does not start with a capital (i.e. it continues a 
+        preceding para) but which does end with closing punctuation. This type of paragraph
+        will be gathered into a preceding paragraph during processing, but it will be the 
+        last component to be so gathered, closing the sequence. If its following paragraph
+        is not STANDALONE or OPENING, then an error should be raised.
+        
+      - A GATHERABLE formeworks or milestone tag which whose preceding paragraph tag (if there is one) 
+        is OPENING or CONTINUING. We would expect to gather this fw tag into its preceding
+        paragraph in the next pass. If the subsequent paragraph is not CONTINUING or CLOSING,
+        an error should be raised, but this will be accomplished by the processing of the 
+        paragraph tag preceding the formeworks tag.
+        
+      - A SEPARATE formeworks or milestone tag, which either precedes any paragraph in the document 
+        sequence, or whose preceding paragraph is STANDALONE or CLOSING. This fw tag will
+        be output between paragraphs in the next pass.
+  -->
+  
+<!--  This function tries to calculate the correct setting for a paragraph. -->
+  <xsl:function name="hcmc:paraSeqType" as="xs:string">
+    <xsl:param name="thisPara" as="element(tei:p)"/>
+    <xsl:param name="precedingPara" as="element(tei:p)*"/>
+    <xsl:param name="followingPara" as="element(tei:p)*"/>
+    <xsl:variable name="thisParaType" as="xs:string">
+      <xsl:choose>
+<!-- It's the first para in the set and it's cleanly closed.       -->
+        <xsl:when test="matches($thisPara, $reClosedEnd) and not($precedingPara)">STANDALONE</xsl:when>
+<!-- It's the first para in the set and it's open at the end.       -->
+        <xsl:when test="matches($thisPara, $reOpenEnd) and not($precedingPara)">OPENING</xsl:when>
+<!-- It's a fresh opening and a fresh closing. -->
+        <xsl:when test="matches($thisPara, $reNewBeginning) and matches($thisPara, $reClosedEnd)">STANDALONE</xsl:when>
+<!-- It's a fresh opening which is not closed. -->
+        <xsl:when test="matches($thisPara, $reNewBeginning) and matches($thisPara, $reOpenEnd)">OPENING</xsl:when>
+<!-- It's open at both ends. -->
+        <xsl:when test="matches($thisPara, $reOpenBeginning) and matches($thisPara, $reOpenEnd)">CONTINUING</xsl:when>
+<!-- It's open at the beginning and closed at the end. -->
+        <xsl:when test="matches($thisPara, $reOpenBeginning) and matches($thisPara, $reClosedEnd)">CLOSING</xsl:when>
+<!-- Otherwise we presumably have some sort of error and we need to modify this code a bit. -->
+        <xsl:otherwise><xsl:message terminate="yes">ERROR: The paragraph beginning 
+        "<xsl:value-of select="substring($thisPara, 1, 30)"/>"
+        and ending
+        "<xsl:value-of select="substring($thisPara, string-length($thisPara) - 30, 30)"/>"
+        cannot be assigned a sequence type by the current algorithm.</xsl:message></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    
+    <xsl:value-of select="$thisParaType"/>
+  </xsl:function>
+  
+<!-- This function tries to calculate the correct setting for a formeworks
+     or milestone tag. -->
+  <xsl:function name="hcmc:milestoneSeqType" as="xs:string">
+    <xsl:param name="thisTag" as="element()"/>
+    <xsl:param name="precedingPara" as="element(tei:p)*"/>
+    <xsl:variable name="thisTagType" as="xs:string">
+      <xsl:choose>
+<!-- If there's no preceding para, it must be separate.       -->
+        <xsl:when test="not($precedingPara)">SEPARATE</xsl:when>
+<!-- If the preceding para is closed, it must be separate. -->
+        <xsl:when test="matches($precedingPara, $reClosedEnd)">SEPARATE</xsl:when>
+<!-- If the preceding para is open then this must be gatherable. -->
+        <xsl:when test="matches($precedingPara, $reOpenEnd)">GATHERABLE</xsl:when>
+        <xsl:otherwise><xsl:message terminate="yes">ERROR: The fw  
+          "<xsl:value-of select="$thisTag"/>"
+          <xsl:if test="$precedingPara">
+          which follows the paragraph ending:
+          "<xsl:value-of select="substring($precedingPara, string-length($precedingPara) - 30, 30)"/>"
+          </xsl:if>
+          cannot be assigned a sequence type by the current algorithm.</xsl:message></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:value-of select="$thisTagType"/>
+  </xsl:function>
+  
+<!-- Second-pass templates that assign values to paras and formeworks. -->
+  <xsl:template match="tei:p" mode="secondPass">
+    <xsl:copy>
+      <xsl:attribute name="x" select="hcmc:paraSeqType(., if (preceding::tei:p) then preceding::tei:p[1] else (), if (following::tei:p) then following::tei:p[1] else ())"/>
+      <xsl:apply-templates select="@* | node()" mode="#current"/>
+    </xsl:copy>
+  </xsl:template>
+  
+<!-- Where fws might be nested, we only care about the top-level one.  -->
+  <xsl:template match="tei:fw[not(ancestor::tei:fw)] | tei:pb | tei:cb | tei:milestone" mode="secondPass">
+    <xsl:copy>
+      <xsl:attribute name="x" select="hcmc:milestoneSeqType(., if (preceding::tei:p) then preceding::tei:p[1] else ())"/>
+      <xsl:apply-templates select="@* | node()" mode="#current"/>
+    </xsl:copy>
+  </xsl:template>
+  
+<!-- Sequence diagnostic checker templates which should raise errors for illogical sequences. -->
+  <xsl:template mode="checkParaSeq" match="tei:p">
+    <xsl:variable name="result">       
+      <xsl:choose>
+<!-- If this one is open-ended and the next is a starter, something is wrong. -->
+        <xsl:when test="@x = ('OPENING', 'CONTINUING') and following::tei:p[1][@x=('STANDALONE', 'OPENING')]"><xsl:value-of select="false()"/></xsl:when>
+<!-- If this one is closed-ended and the next is continuing, something is wrong. -->    
+        <xsl:when test="@x = ('STANDALONE', 'CLOSING') and following::tei:p[1][@x=('CONTINUING')]"><xsl:value-of select="false()"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="true()"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:if test="$result = false()">
+      <xsl:message terminate="yes">ERROR: The paragraph beginning 
+        "<xsl:value-of select="substring(., 1, 30)"/>"
+        and ending
+        "<xsl:value-of select="substring(., string-length(.) - 30, 30)"/>"
+        seems to have been assigned a sequence value that does not make 
+        sense. <xsl:choose><xsl:when test="preceding::tei:p">
+          The preceding paragraph was assigned a value of 
+          <xsl:value-of select="preceding::tei:p[1]/@x"/>;
+        </xsl:when><xsl:otherwise>It is the first para in the sequence;</xsl:otherwise></xsl:choose>
+        This para has the value <xsl:value-of select="@x"/>.
+        <xsl:choose><xsl:when test="following::tei:p">
+          The following paragraph was assigned a value of 
+          <xsl:value-of select="following::tei:p[1]/@x"/>.
+        </xsl:when><xsl:otherwise>There is no following para.</xsl:otherwise></xsl:choose>
+      </xsl:message>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template mode="checkParaSeq" match="tei:fw | tei:pb | tei:cb | tei:milestone">
+    <xsl:variable name="result">       
+      <xsl:choose>
+        <!-- If this one is gatherable and the preceding para is closed-ended, something is wrong. -->
+        <xsl:when test="@x = ('GATHERABLE') and preceding::tei:p[1][@x=('STANDALONE', 'CLOSING')]"><xsl:value-of select="false()"/></xsl:when>
+        <!-- If this one is separate and the preceding para is open-ended, something is wrong. -->    
+        <xsl:when test="@x = ('SEPARATE') and following::tei:p[1][@x=('OPENING', 'CONTINUING')]"><xsl:value-of select="false()"/></xsl:when>
+        <!-- If this one is separate and the following para is open, something is wrong. -->    
+        <xsl:when test="@x = ('SEPARATE') and following::tei:p[1][@x=('CONTINUING', 'CLOSING')]"><xsl:value-of select="false()"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="true()"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:if test="$result = false()">
+      <xsl:message terminate="yes">ERROR: The fw or milestone
+        <xsl:value-of select="local-name(.)"/> ("<xsl:value-of select="."/>")
+        seems to have been assigned a sequence value that does not make 
+        sense. <xsl:choose><xsl:when test="preceding::tei:p">
+          The preceding paragraph was assigned a value of 
+          <xsl:value-of select="preceding::tei:p[1]/@x"/>;
+        </xsl:when><xsl:otherwise>There is no preceding para;</xsl:otherwise></xsl:choose>
+        This fw has the value <xsl:value-of select="@x"/>.
+        <xsl:choose><xsl:when test="following::tei:p">
+          The following paragraph was assigned a value of 
+          <xsl:value-of select="following::tei:p[1]/@x"/>.
+        </xsl:when><xsl:otherwise>There is no following para.</xsl:otherwise></xsl:choose>
+      </xsl:message>
+    </xsl:if>
+  </xsl:template>
+  
+<!-- Third pass templates which actually combine broken paras and intervening fws. 
+     In the process, we remove unwanted @n attributes. -->
+  <!--<xsl:template match="tei:p[@x=('STANDALONE')]" mode="thirdPass">
+    <p>
+      <xsl:copy-of select="@*[not(local-name() = 'x')]"/>
+      <xsl:copy-of select="node()"/>
+    </p>
+  </xsl:template>-->
+  <xsl:template match="tei:*/@x" mode="thirdPass"/>
+  
+  <xsl:template match="tei:p[@x=('OPENING')]" mode="thirdPass">
+    <xsl:variable name="thisId" select="generate-id(.)"/>
+    <xsl:copy>
+      <xsl:copy-of select="@*[not(local-name() = 'x')]"/>
+      <xsl:copy-of select="node()"/>
+      <xsl:for-each select="following::tei:p[@x=('CONTINUING', 'CLOSING')][preceding::tei:p[@x='OPENING'][1][generate-id(.) = $thisId]] | following::tei:*[@x='GATHERABLE'][not(ancestor::tei:fw)][preceding::tei:p[@x='OPENING'][1][generate-id(.) = $thisId]]">
+        <xsl:choose>
+          <xsl:when test="self::tei:p">
+            <xsl:copy-of select="node()"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:copy>
+              <xsl:copy-of select="@*[not(local-name() = 'x')]"/>
+              <xsl:copy-of select="node()"/>
+            </xsl:copy>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </xsl:copy>
+  </xsl:template>
+  
+<!-- Things we gathered in above need to be suppressed when we come to them. -->
+  <xsl:template match="tei:*[@x='GATHERABLE'] | tei:p[@x=('CONTINUING', 'CLOSING')]" mode="thirdPass"/>
+  
+  
+<!-- OLD STUFF THAT WAS FRAGILE AND BUGGY.  -->
 <!-- First the initial para before the interrupting formeworks. -->
+  <!--
   <xsl:template mode="secondPass" match="tei:p[following-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '[^\.\\!\?]\s*$')][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]">
     <xsl:variable name="thisParaId" select="generate-id(.)"/>
     <p>
       <xsl:apply-templates select="node()" mode="#current"/>
       <xsl:copy-of select="(following-sibling::tei:fw | following-sibling::tei:pb | following-sibling::tei:cb | following-sibling::tei:milestone)[preceding-sibling::tei:p[1][generate-id(.) = $thisParaId]]"/>
-<!-- NOTE: BUG HERE. The code only incorporates the first paragraph in a sequence, 
+<!-\- NOTE: BUG HERE. The code only incorporates the first paragraph in a sequence, 
      but paras can be very long and multiple items must be incorporated. This has 
-     to be carefully recoded. -->
+     to be carefully recoded. -\->
       <xsl:copy-of select="following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]/node()"/>
     </p>
   </xsl:template>
   
-<!-- Now the following p that we want to suppress because we've handled it above. -->
+<!-\- Now the following p that we want to suppress because we've handled it above. -\->
   <xsl:template mode="secondPass" match="tei:p[preceding-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '^\s*[^A-Z]')][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]]"><xsl:comment>Para "<xsl:value-of select="substring(., 1, 80)"/>..." merged into previous para.</xsl:comment></xsl:template>
   
-<!-- Now the formeworks/milestones that we want to suppress because they're handled above. -->
-  <xsl:template mode="secondPass" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>
+<!-\- Now the formeworks/milestones that we want to suppress because they're handled above. -\->
+  <xsl:template mode="secondPass" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>-->
   
-  
-<!-- These are the third-pass templates which handle hyphenated linebreaks. -->
   
 <!-- XHTML to TEI templates.  -->
 <!--  If we find a horizontal line, we should assume it is a column break. -->
