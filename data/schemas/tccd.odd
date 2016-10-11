@@ -461,6 +461,24 @@ so Volume 2 by implication has finished. -->
                   </attList>
                </elementSpec>
                
+               <elementSpec ident="fw" module="transcr" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="replace">
+                        <valList type="closed">
+                           <valItem ident="dateline">
+                              <gloss>a header or footer consisting of a date or dateline.</gloss>
+                           </valItem>
+                           <valItem ident="num">
+                              <gloss>a header or footer consisting of a number of some kind.</gloss>
+                           </valItem>
+                           <valItem ident="running">
+                              <gloss>a running header or footer.</gloss>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               
                <!--             The <title> attribute is severely constrained when 
                it occurs in <titleStmt> to ensure that we have core 
                info there that we can process. -->
