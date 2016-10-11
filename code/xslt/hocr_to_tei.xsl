@@ -69,10 +69,6 @@
     <xsl:variable name="sourceDir" select="replace($docUri, '/[^/]+$', '')"/>
     <xsl:variable name="docFileName" select="tokenize($docUri, '/')[last()]"/>
     
-    <!--<xsl:message>Processing this document:</xsl:message>
-    <xsl:message>  <xsl:value-of select="$docFileName"/></xsl:message>
-    <xsl:message>in this folder:</xsl:message>
-    <xsl:message>  <xsl:value-of select="$sourceDir"/></xsl:message>-->
     <xsl:if test="$rootEl/@xml:id != substring-before($docFileName, '.xml')">
       <xsl:message>WARNING: Document file name does not match @xml:id on root TEI element.</xsl:message>
     </xsl:if>
@@ -91,12 +87,11 @@
             Please check the ptr element in the teiHeader. 
             Terminating.</xsl:message>
         </xsl:if>
-        <!--<xsl:message>URI: <xsl:value-of select="$fullPath"/>.</xsl:message>-->
         <xsl:sequence select="doc($fullPath)"/>
       </xsl:for-each>
     </xsl:variable>
     
-    <xsl:message>Found <xsl:value-of select="count($hocrDocs)"/> document with OCR content.</xsl:message>
+    <xsl:message>Found <xsl:value-of select="count($hocrDocs)"/> documents with OCR content.</xsl:message>
     
 <!--  Now we do a bunch of checks to make sure we aren't overwriting data which is already 
       imported or processed. -->
@@ -146,34 +141,38 @@
               </xsl:for-each>
             </xsl:variable>
             
+<!--        NOTE: WE ARE NOT USING THIS SEQUENCE-JOINING CODE; IT'S NOT WORKABLE 
+            GIVEN THE SAD STATE OF OUR INCOMING DATA. -->
+            
 <!--        This pass attempts to label paragraphs and formeworks in a manner that 
             makes it easier (on the next pass) to combine split paras and incorporate 
             formeworks inside them where appropriate. -->
-            <xsl:variable name="secondPassOutput">
-              <xsl:apply-templates mode="secondPass" select="$firstPassOutput"/>
+            <xsl:variable name="sequenceTypesDetected">
+              <xsl:apply-templates mode="assignSequenceTypes" select="$firstPassOutput"/>
             </xsl:variable>
             
 <!--        Next we do a special pass to confirm that the values we assigned in the 
             previous pass were actually sane. If this fails, the transformation exits
             with a detailed error message. -->
             <xsl:variable name="dummy">
-              <xsl:apply-templates mode="checkParaSeq" select="$secondPassOutput"/>
+              <xsl:apply-templates mode="checkParaSeq" select="$sequenceTypesDetected/*"/>
             </xsl:variable>
-            
+
+            <!--<xsl:message>Ran the dummy test on <xsl:value-of select="count($dummy/*)"/> elements.</xsl:message>-->
             
 <!--        Now we do another pass to act on the information we've previously calculated 
             and stored. -->
-            <xsl:variable name="thirdPassOutput">
-              <xsl:apply-templates mode="thirdPass" select="$secondPassOutput"/>
+            <xsl:variable name="sequencesJoined">
+              <xsl:apply-templates mode="joinSequences" select="$sequenceTypesDetected"/>
             </xsl:variable>
             
 <!--       Now we move to a couple more passes which handle the linebreak issues, using 
            an external module. -->
-            <xsl:variable name="fourthPassOutput">
-              <xsl:apply-templates mode="lbpass1" select="$thirdPassOutput"/>
+            <xsl:variable name="lbpass1Output">
+              <xsl:apply-templates mode="lbpass1" select="$firstPassOutput"/>
             </xsl:variable>
             
-            <xsl:apply-templates mode="lbpass2" select="$fourthPassOutput"/>
+            <xsl:apply-templates mode="lbpass2" select="$lbpass1Output"/>
           </div>
         </body>
         
@@ -187,7 +186,6 @@
 <!-- General TEI templates, mainly for header, in first pass. -->
   
   <xsl:template match="tei:revisionDesc" exclude-result-prefixes="#all" mode="tei">
-    <xsl:message>Recording what we did.</xsl:message>
     <xsl:variable name="w3today" select="format-date(current-date(),'[Y0001]-[M01]-[D01]')"/>    
     <xsl:copy>
       <change who="mholmes" when="{$w3today}">Transformed initial template file to incorporate corrected OCR content.</change>
@@ -205,7 +203,13 @@
 <!-- Remove all the template comments. -->
   <xsl:template match="comment()[matches(., 'TEMPLATE:')]" mode="tei"/>
   
-<!-- TEI templates intended for second-pass processing, which set up attributes 
+  
+  
+<!--NOTE: THIS IS UNWORKABLE GIVEN THE REALLY SCRAPPY DATA WE HAVE. THERE ARE 
+    TOO MANY VAGUE DIVIDERS, HEADINGS AND OTHER THINGS WHICH LOOK LIKE UNCLOSED
+    PARAS BUT AREN'T. THE CODE IS HERE, BUT IS NOT BEING CALLED RIGHT NOW.
+    
+    TEI templates intended for second-pass processing, which set up attributes 
      that we're going to use in the next pass for rejoining split paragraphs and so on. 
      There are several types of thing, and we store these values in a phony temporary 
      @x attribute:
@@ -303,7 +307,7 @@
   </xsl:function>
   
 <!-- Second-pass templates that assign values to paras and formeworks. -->
-  <xsl:template match="tei:p" mode="secondPass">
+  <xsl:template match="tei:p" mode="assignSequenceTypes">
     <xsl:copy>
       <xsl:attribute name="x" select="hcmc:paraSeqType(., if (preceding::tei:p) then preceding::tei:p[1] else (), if (following::tei:p) then following::tei:p[1] else ())"/>
       <xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -311,7 +315,7 @@
   </xsl:template>
   
 <!-- Where fws might be nested, we only care about the top-level one.  -->
-  <xsl:template match="tei:fw[not(ancestor::tei:fw)] | tei:pb | tei:cb | tei:milestone" mode="secondPass">
+  <xsl:template match="tei:fw[not(ancestor::tei:fw)] | tei:pb | tei:cb | tei:milestone" mode="assignSequenceTypes">
     <xsl:copy>
       <xsl:attribute name="x" select="hcmc:milestoneSeqType(., if (preceding::tei:p) then preceding::tei:p[1] else ())"/>
       <xsl:apply-templates select="@* | node()" mode="#current"/>
@@ -320,13 +324,14 @@
   
 <!-- Sequence diagnostic checker templates which should raise errors for illogical sequences. -->
   <xsl:template mode="checkParaSeq" match="tei:p">
-    <xsl:variable name="result">       
+    <xsl:message>CHECKING A PARAGRAPH.</xsl:message>
+    <xsl:variable name="result" as="xs:boolean">       
       <xsl:choose>
 <!-- If this one is open-ended and the next is a starter, something is wrong. -->
-        <xsl:when test="@x = ('OPENING', 'CONTINUING') and following::tei:p[1][@x=('STANDALONE', 'OPENING')]"><xsl:value-of select="false()"/></xsl:when>
+        <xsl:when test="@x = ('OPENING', 'CONTINUING') and following::tei:p[1][@x=('STANDALONE', 'OPENING')]"><xsl:sequence select="false()"/></xsl:when>
 <!-- If this one is closed-ended and the next is continuing, something is wrong. -->    
-        <xsl:when test="@x = ('STANDALONE', 'CLOSING') and following::tei:p[1][@x=('CONTINUING')]"><xsl:value-of select="false()"/></xsl:when>
-        <xsl:otherwise><xsl:value-of select="true()"/></xsl:otherwise>
+        <xsl:when test="@x = ('STANDALONE', 'CLOSING') and following::tei:p[1][@x='CONTINUING']"><xsl:sequence select="false()"/></xsl:when>
+        <xsl:otherwise><xsl:sequence select="true()"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <xsl:if test="$result = false()">
@@ -349,15 +354,16 @@
   </xsl:template>
   
   <xsl:template mode="checkParaSeq" match="tei:fw | tei:pb | tei:cb | tei:milestone">
-    <xsl:variable name="result">       
+    <xsl:message>CHECKING A MILESTONE.</xsl:message>
+    <xsl:variable name="result" as="xs:boolean">       
       <xsl:choose>
         <!-- If this one is gatherable and the preceding para is closed-ended, something is wrong. -->
-        <xsl:when test="@x = ('GATHERABLE') and preceding::tei:p[1][@x=('STANDALONE', 'CLOSING')]"><xsl:value-of select="false()"/></xsl:when>
+        <xsl:when test="@x = 'GATHERABLE' and preceding::tei:p[1][@x=('STANDALONE', 'CLOSING')]"><xsl:sequence select="false()"/></xsl:when>
         <!-- If this one is separate and the preceding para is open-ended, something is wrong. -->    
-        <xsl:when test="@x = ('SEPARATE') and following::tei:p[1][@x=('OPENING', 'CONTINUING')]"><xsl:value-of select="false()"/></xsl:when>
+        <xsl:when test="@x = 'SEPARATE' and following::tei:p[1][@x=('OPENING', 'CONTINUING')]"><xsl:sequence select="false()"/></xsl:when>
         <!-- If this one is separate and the following para is open, something is wrong. -->    
-        <xsl:when test="@x = ('SEPARATE') and following::tei:p[1][@x=('CONTINUING', 'CLOSING')]"><xsl:value-of select="false()"/></xsl:when>
-        <xsl:otherwise><xsl:value-of select="true()"/></xsl:otherwise>
+        <xsl:when test="@x = 'SEPARATE' and following::tei:p[1][@x=('CONTINUING', 'CLOSING')]"><xsl:sequence select="false()"/></xsl:when>
+        <xsl:otherwise><xsl:sequence select="true()"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <xsl:if test="$result = false()">
@@ -379,15 +385,15 @@
   
 <!-- Third pass templates which actually combine broken paras and intervening fws. 
      In the process, we remove unwanted @n attributes. -->
-  <!--<xsl:template match="tei:p[@x=('STANDALONE')]" mode="thirdPass">
+  <!--<xsl:template match="tei:p[@x=('STANDALONE')]" mode="joinSequences">
     <p>
       <xsl:copy-of select="@*[not(local-name() = 'x')]"/>
       <xsl:copy-of select="node()"/>
     </p>
   </xsl:template>-->
-  <xsl:template match="tei:*/@x" mode="thirdPass"/>
+  <xsl:template match="tei:*/@x" mode="joinSequences"/>
   
-  <xsl:template match="tei:p[@x=('OPENING')]" mode="thirdPass">
+  <xsl:template match="tei:p[@x=('OPENING')]" mode="joinSequences">
     <xsl:variable name="thisId" select="generate-id(.)"/>
     <xsl:copy>
       <xsl:copy-of select="@*[not(local-name() = 'x')]"/>
@@ -409,13 +415,13 @@
   </xsl:template>
   
 <!-- Things we gathered in above need to be suppressed when we come to them. -->
-  <xsl:template match="tei:*[@x='GATHERABLE'] | tei:p[@x=('CONTINUING', 'CLOSING')]" mode="thirdPass"/>
+  <xsl:template match="tei:*[@x='GATHERABLE'] | tei:p[@x=('CONTINUING', 'CLOSING')]" mode="joinSequences"/>
   
   
 <!-- OLD STUFF THAT WAS FRAGILE AND BUGGY.  -->
 <!-- First the initial para before the interrupting formeworks. -->
   <!--
-  <xsl:template mode="secondPass" match="tei:p[following-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '[^\.\\!\?]\s*$')][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]">
+  <xsl:template mode="assignSequenceTypes" match="tei:p[following-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '[^\.\\!\?]\s*$')][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]">
     <xsl:variable name="thisParaId" select="generate-id(.)"/>
     <p>
       <xsl:apply-templates select="node()" mode="#current"/>
@@ -428,10 +434,10 @@
   </xsl:template>
   
 <!-\- Now the following p that we want to suppress because we've handled it above. -\->
-  <xsl:template mode="secondPass" match="tei:p[preceding-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '^\s*[^A-Z]')][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]]"><xsl:comment>Para "<xsl:value-of select="substring(., 1, 80)"/>..." merged into previous para.</xsl:comment></xsl:template>
+  <xsl:template mode="assignSequenceTypes" match="tei:p[preceding-sibling::tei:*[1][self::tei:fw or self::tei:pb or self::tei:cb or self::tei:milestone]][matches(., '^\s*[^A-Z]')][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]]"><xsl:comment>Para "<xsl:value-of select="substring(., 1, 80)"/>..." merged into previous para.</xsl:comment></xsl:template>
   
 <!-\- Now the formeworks/milestones that we want to suppress because they're handled above. -\->
-  <xsl:template mode="secondPass" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>-->
+  <xsl:template mode="assignSequenceTypes" match="tei:*[self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone][preceding-sibling::tei:p[1][matches(., '[^\.\\!\?]\s*$')]][following-sibling::tei:p[1][matches(., '^\s*[^A-Z]')]]"><xsl:comment>Milestone merged into previous para.</xsl:comment></xsl:template>-->
   
   
 <!-- XHTML to TEI templates.  -->
@@ -450,6 +456,10 @@
   </xsl:template>
   
   <xsl:template match="xh:br"><lb/></xsl:template>
+  
+  <xsl:template match="xh:span[@class='ocr_line']">
+    <xsl:apply-templates mode="#current"/><lb/>
+  </xsl:template>
   
 <!-- We dump our editorial injections. -->
   <xsl:template match="p[@class='editorial']"/>
@@ -546,7 +556,6 @@
   <xsl:function name="hcmc:isMostLikelyFormeWorks" as="xs:boolean">
     <xsl:param name="inStr" as="xs:string"/>
     <xsl:variable name="normInStr" select="normalize-space($inStr)"/>
-    <xsl:message><xsl:value-of select="$normInStr"/></xsl:message>
     <xsl:variable name="len" select="string-length($normInStr)"/>
     <xsl:variable name="muchUpperCase" select="matches($normInStr, '[A-Z]{5,}')"/>
     <xsl:variable name="hasDate" select="matches($normInStr, '1[89]\d\d')"/>
