@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-10-06T14:21:33Z. 2016.
+Schema generated from ODD source 2016-10-11T08:37:17Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	27th September 2016, revision d4c51b0
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -5020,11 +5020,15 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
          <ref name="att.written.attributes"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the material encoded according to some useful typology.
-Sample values include: 1] header; 2] footer; 3] pageNum(page number) ; 4] lineNum(line number) ; 5] sig(signature) ; 6] catch(catchword) </a:documentation>
-               <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-               </data>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>dateline</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(a header or footer consisting of a date or dateline.) </a:documentation>
+                  <value>num</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(a header or footer consisting of a number of some kind.) </a:documentation>
+                  <value>running</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(a running header or footer.) </a:documentation>
+               </choice>
             </attribute>
          </optional>
          <empty/>
