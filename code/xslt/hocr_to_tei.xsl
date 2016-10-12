@@ -147,24 +147,24 @@
 <!--        This pass attempts to label paragraphs and formeworks in a manner that 
             makes it easier (on the next pass) to combine split paras and incorporate 
             formeworks inside them where appropriate. -->
-            <xsl:variable name="sequenceTypesDetected">
+            <!--<xsl:variable name="sequenceTypesDetected">
               <xsl:apply-templates mode="assignSequenceTypes" select="$firstPassOutput"/>
-            </xsl:variable>
+            </xsl:variable>-->
             
 <!--        Next we do a special pass to confirm that the values we assigned in the 
             previous pass were actually sane. If this fails, the transformation exits
             with a detailed error message. -->
-            <xsl:variable name="dummy">
+            <!--<xsl:variable name="dummy">
               <xsl:apply-templates mode="checkParaSeq" select="$sequenceTypesDetected/*"/>
-            </xsl:variable>
+            </xsl:variable>-->
 
             <!--<xsl:message>Ran the dummy test on <xsl:value-of select="count($dummy/*)"/> elements.</xsl:message>-->
             
 <!--        Now we do another pass to act on the information we've previously calculated 
             and stored. -->
-            <xsl:variable name="sequencesJoined">
+            <!--<xsl:variable name="sequencesJoined">
               <xsl:apply-templates mode="joinSequences" select="$sequenceTypesDetected"/>
-            </xsl:variable>
+            </xsl:variable>-->
             
 <!--       Now we move to a couple more passes which handle the linebreak issues, using 
            an external module. -->
