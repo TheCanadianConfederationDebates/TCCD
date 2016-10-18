@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="personography">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TCCD Personography</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Public, free for any use</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <particDesc>
+           <listPerson xml:id="projectTeam">
+              <head>TCCD Project Team</head>
+              <person xml:id="LYAL1">
+                 <persName><forename>Gord</forename> <surname>Lyall</surname></persName>
+              </person>
+           </listPerson>
+        </particDesc>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>No content: core data is in the header.</p>
+      </body>
+  </text>
+</TEI>
