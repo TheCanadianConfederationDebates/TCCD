@@ -461,6 +461,19 @@ so Volume 2 by implication has finished. -->
                   </attList>
                </elementSpec>
                
+               <elementSpec ident="persName" module="namesdates" mode="change">
+                  <constraintSpec ident="constraintpersnameref" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:persName">
+                           <sch:assert test="matches(@ref, 'pers:[A-Z]{4}\d+')">
+                              The @ref attribute value should start with 'pers:' and have the form
+                              'pers:AAAA1' (four letters followed by a number).
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+               </elementSpec>
+               
                <elementSpec ident="fw" module="transcr" mode="change">
                   <attList>
                      <attDef ident="type" mode="replace">

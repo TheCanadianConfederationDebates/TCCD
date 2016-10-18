@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-10-11T08:37:17Z. 2016.
+Schema generated from ODD source 2016-10-18T08:11:31Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	27th September 2016, revision d4c51b0
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -4362,6 +4362,21 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="persName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-persName-constraintpersnameref-constraint-16">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:persName">
+                           <sch:assert test="matches(@ref, 'pers:[A-Z]{4}\d+')">
+                              The @ref attribute value should start with 'pers:' and have the form
+                              'pers:AAAA1' (four letters followed by a number).
+                           </sch:assert>
+                        </sch:rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.personal.attributes"/>
