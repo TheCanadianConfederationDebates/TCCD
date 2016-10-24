@@ -95,7 +95,7 @@
     
 <!--  Now we do a bunch of checks to make sure we aren't overwriting data which is already 
       imported or processed. -->
-    <xsl:if test="$rootEl/descendant::tei:facsimile or $rootEl/tei:text/tei:body/tei:div or not(//comment()[matches(., 'TEMPLATE:')])">
+    <xsl:if test="$rootEl/descendant::tei:facsimile or count($rootEl/tei:text/tei:body/tei:div/tei:p) gt 1 or not(//comment()[matches(., 'TEMPLATE:')])">
       <xsl:message terminate="yes">WARNING: This document appears to have already been processed.
                    Aborting this process to avoid overwriting good data. Please 
                    check whether this document already has imported OCR content.</xsl:message>
