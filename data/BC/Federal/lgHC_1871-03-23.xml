@@ -6,11 +6,11 @@
       <fileDesc>
          <titleStmt>
 
-            <title>[<name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-03-23">23 March 1871</date>, Canadian Confederation with British Columbia]</title>
+            <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1871-03-23">23 March 1871</date>, Canadian Confederation with British Columbia</title>
         
             <respStmt>
                <resp>Selection of input documents and completion of metadata</resp>
-               <persName>Gordon Lyall</persName>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
             </respStmt>
         
          </titleStmt>
@@ -195,6 +195,8 @@
      <lb/>the debates on the British Columbia measure. 
      <lb/>
             </p>
+   
+   <cb/>
            <fw type="num">247 <lb/></fw>
             <p>
      Hon. Sir A.T. GALT said he was sorry that the Government had 
@@ -433,6 +435,7 @@
      conducive to public interests to bring down any portion of the 
      <lb/>
             
+            <cb/>
             <fw type="dateline">
      March 23, 1871 
      <lb/></fw>
