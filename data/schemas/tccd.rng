@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-10-18T08:11:31Z. 2016.
+Schema generated from ODD source 2016-10-31T13:37:54Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	27th September 2016, revision d4c51b0
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -402,6 +402,8 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">superscript</a:documentation>
                      <value>simple:underline</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">underlined with single line</a:documentation>
+                     <value>tccd:blockquote</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a quotation appearing as a block</a:documentation>
                   </choice>
                </oneOrMore>
             </list>
