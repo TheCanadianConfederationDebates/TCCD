@@ -143,7 +143,7 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="header"
                           include="abstract authority availability category change classDecl creation distributor edition editionStmt              editorialDecl encodingDesc fileDesc funder idno langUsage language licence listPrefixDef normalization              prefixDef principal profileDesc projectDesc publicationStmt quotation rendition revisionDesc samplingDecl             seriesStmt sourceDesc sponsor taxonomy teiHeader titleStmt xenoData"/>
                <moduleRef key="core"
-                          include="abbr add addrLine address author bibl biblScope cb choice corr date del desc             editor email emph expan foreign gap gloss graphic head hi item label lb list listBibl mentioned milestone             name note orig p pb ptr pubPlace publisher q ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
+                          include="abbr add addrLine address author bibl biblScope cb choice corr date del desc             editor email emph expan foreign gap gloss graphic head hi item label lb list listBibl mentioned milestone             name note orig p pb ptr pubPlace publisher q quote ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
                <moduleRef key="tei"/>
                <moduleRef key="textstructure"
                           include="TEI back body byline closer dateline div front opener salute signed text"/>
