@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-10-31T13:40:52Z. 2016.
+Schema generated from ODD source 2016-10-31T13:43:27Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	27th September 2016, revision d4c51b0
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -420,8 +420,8 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@rendition]">
                            <sch:let name="results"
-                  value="for $val in tokenize(normalize-space(@rendition),'\s+') return starts-with($val,'simple:')"/>
-                           <sch:assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<sch:value-of select="@rendition"/>" must point to a token in the Simple scheme (<sch:value-of select="$results"/>)</sch:assert>
+                  value="for $val in tokenize(normalize-space(@rendition),'\s+') return matches($val,'^((simple)|(tccd)):')"/>
+                           <sch:assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<sch:value-of select="@rendition"/>" must point to a token in the Simple scheme (simple:*) or a tccd-prefixed value (tccd:*) (<sch:value-of select="$results"/>)</sch:assert>
                         </sch:rule>
    </pattern>
    <define name="att.global.attributes">

@@ -207,8 +207,8 @@ so Volume 2 by implication has finished. -->
                      <constraint>
                         <sch:rule context="tei:*[@rendition]">
                            <sch:let name="results"
-                                    value="for $val in tokenize(normalize-space(@rendition),'\s+') return starts-with($val,'simple:')"/>
-                           <sch:assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<sch:value-of select="@rendition"/>" must point to a token in the Simple scheme (<sch:value-of select="$results"/>)</sch:assert>
+                                    value="for $val in tokenize(normalize-space(@rendition),'\s+') return matches($val,'^((simple)|(tccd)):')"/>
+                           <sch:assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<sch:value-of select="@rendition"/>" must point to a token in the Simple scheme (simple:*) or a tccd-prefixed value (tccd:*) (<sch:value-of select="$results"/>)</sch:assert>
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
