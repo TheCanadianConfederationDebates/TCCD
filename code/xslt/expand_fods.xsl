@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+  
+  xmlns:hcmc="http://hcmc.uvic.ca/ns"
+  
   xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
   xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
   xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
@@ -53,9 +57,39 @@
      cells and we discard them. Set this variable based on the scale of your spreadsheet.-->
   <xsl:param name="maxEmptyColumns" as="xs:integer" select="100"/>
   
+<!-- Column headers are usually in the first row, but 
+     may not be. -->
+  <xsl:param name="colHeaderRow" as="xs:integer" select="1"/>
+  
+<!-- It's possible that a header row will have no content 
+     in its trailing columns even though following rows do.
+     If so, set this to override the result of counting 
+     columns in the header row.-->
+  <xsl:param name="minColCount" as="xs:integer" select="0"/>
+  
   <xsl:template match="/">
-    <xsl:apply-templates mode="expand"/>
+    
+<!--  First expand all the cells in our set to make them 
+      easier to process. -->
+    <xsl:variable name="expanded">
+      <xsl:apply-templates mode="expand"/>
+    </xsl:variable>
+    
+<!--  Figure out how many columns are likely to have meaningful
+      data in them. -->
+    <xsl:variable name="headerColCount" select="hcmc:findColCount($expanded//table:table-row[$colHeaderRow], 1)"/>
+    
+    <xsl:message>Determined that there are <xsl:value-of select="$headerColCount"/> meaningful columns in this 
+    spreadsheet.</xsl:message>
+    
+<!--  Now contract the rows to discard unwanted columns beyond 
+      the end of the meaningful data. -->
+    <xsl:apply-templates select="$expanded" mode="contract">
+      <xsl:with-param name="colCount" select="$headerColCount" tunnel="yes"></xsl:with-param>
+    </xsl:apply-templates>
   </xsl:template>
+
+<!-- TEMPLATES IN expand MODE. -->
 
 <!-- We want turn a single cell with a repeat value into the correct number of copies of itself. -->
   <xsl:template match="table:table-cell[@table:number-columns-repeated]" exclude-result-prefixes="#all" mode="expand">
@@ -65,7 +99,7 @@
          <xsl:for-each select="1 to @table:number-columns-repeated">
           <table:table-cell>
             <xsl:copy-of select="$thisCell/@*[not(local-name() = 'number-columns-repeated')]"/>
-            <xsl:apply-templates mode="expand" select="$thisCell/*"/>
+            <xsl:apply-templates mode="#current" select="$thisCell/node()"/>
           </table:table-cell>
         </xsl:for-each>
       </xsl:when>
@@ -80,12 +114,54 @@
   <xsl:template match="text:p" exclude-result-prefixes="#all">
     <xsl:copy copy-namespaces="no" exclude-result-prefixes="#all"><xsl:copy-of select="@*"/><xsl:value-of select="normalize-space(.)"/></xsl:copy>
   </xsl:template>
+  
+<!-- END OF TEMPLATES IN expand MODE. -->
+  
+<!-- TEMPLATES IN contract MODE. -->
+  
+<!--  We copy out only the cells in a row which fall within 
+      the range of meaningful cells we've determined by 
+      examining the header row. -->
+  <xsl:template match="table:table-row" mode="contract">
+    <xsl:param name="colCount" as="xs:integer" tunnel="yes"/>
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:for-each select="table:table-cell[position() le $colCount]">
+        <xsl:apply-templates mode="#current" select="."/>
+      </xsl:for-each>
+    </xsl:copy>
+  </xsl:template>
+  
+<!-- END OF TEMPLATES IN contract MODE. -->
 
+<!-- IDENTITY TRANSFORM. -->
   <!-- Copy everything else as-is. -->
   <xsl:template match="@*|node()" priority="-1" exclude-result-prefixes="#all" mode="#all">
     <xsl:copy copy-namespaces="no" exclude-result-prefixes="#all">
-      <xsl:apply-templates select="node()|@*" exclude-result-prefixes="#all"/>
+      <xsl:apply-templates select="node()|@*" exclude-result-prefixes="#all" mode="#current"/>
     </xsl:copy>
   </xsl:template>
+  
+<!-- FUNCTIONS.  -->
+  
+<!-- Find the number of columns in the header row which 
+     have meaningful content. We will discard all cells 
+     beyond this range, since we can assume they're empty.
+     But see caveat above in comment on $minColCount param. -->
+  <xsl:function name="hcmc:findColCount" as="xs:integer">
+    <xsl:param name="headerRow" as="element(table:table-row)"/>
+    <xsl:param name="startFrom" as="xs:integer"/>
+    <xsl:choose>
+      <xsl:when test="$startFrom gt count($headerRow/table:table-cell)">
+        <xsl:value-of select="max((($startFrom - 1), $minColCount))"/>
+      </xsl:when>
+      <xsl:when test="$headerRow/table:table-cell[$startFrom]/following-sibling::table:table-cell[string-length(normalize-space(.)) gt 0]">
+        <xsl:value-of select="hcmc:findColCount($headerRow, $startFrom+1)"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="max(($startFrom, $minColCount))"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function> 
 
 </xsl:stylesheet>
