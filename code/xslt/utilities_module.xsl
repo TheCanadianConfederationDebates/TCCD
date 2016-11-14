@@ -17,6 +17,15 @@
     </xd:desc>
   </xd:doc>
   
+<!--  Some global variables. -->
+  <xd:doc scope="component">
+    <xd:desc>
+      <xd:p>This is a normal "straight" apostrophe. Escaping makes this 
+      hard to handle in many contexts, so we stick it in a variable.</xd:p>
+    </xd:desc>
+  </xd:doc>
+  <xsl:variable name="apos">'</xsl:variable>
+  
   <xd:doc scope="component">
     <xd:desc>
       <xd:p>This function takes two paths/URIs as input, and strips
@@ -81,6 +90,53 @@
     
 <!-- Return concatenation of ../ bits and remaining target path.   -->
     <xsl:value-of select="concat($climbs, $truncPaths[1])"/>
+  </xsl:function>
+  
+<!--  This function takes an upper-case form of a name and returns something which is (we hope) 
+      a normal-case version (first letter upper, generally). -->
+  <xd:doc scope="component">
+    <xd:desc>
+      <xd:p>This function takes a name of some kind as input, and 
+      returns a version of the name which is normalized for case.</xd:p>
+      <xd:p>Example input:
+        <xd:ul>
+          <xd:li>FRED O'REILLY</xd:li>
+        </xd:ul>
+        Return:
+        <xd:ul>
+          <xd:li>Fred O’Reilly</xd:li>
+        </xd:ul>
+      </xd:p>
+    </xd:desc>
+  </xd:doc>
+  <xsl:function name="hcmc:normalCaseName" as="xs:string">
+    <xsl:param name="inStr" as="xs:string"/>
+    <xsl:variable name="normInStr" select="replace(replace(normalize-space($inStr), '\s*-\s*', '-'), $apos, '’')"/>
+    <xsl:choose>
+      <xsl:when test="contains($normInStr, ' ')">
+        <xsl:variable name="nameBits" select="tokenize($normInStr, '\s+')"/>
+        <xsl:variable name="fixedNameBits" select="for $n in $nameBits return hcmc:normalCaseName($n)"/>
+        <xsl:value-of select="string-join($fixedNameBits, ' ')"/>
+      </xsl:when>
+      <xsl:when test="contains($normInStr, '-')">
+        <xsl:variable name="nameBits" select="tokenize($normInStr, '-')"/>
+        <xsl:variable name="fixedNameBits" select="for $n in $nameBits return hcmc:normalCaseName($n)"/>
+        <xsl:value-of select="string-join($fixedNameBits, '-')"/>
+      </xsl:when>
+      <xsl:when test="matches($normInStr, '^[Oo]’[A-Za-z]')">
+        <xsl:value-of select="concat('O’', upper-case(substring($normInStr, 3, 1)), lower-case(substring($normInStr, 4)))"/>
+      </xsl:when>
+      <xsl:when test="matches($normInStr, '^[Mm][Cc][A-Z]')">
+        <xsl:value-of select="concat('Mc', upper-case(substring($normInStr, 3, 1)), lower-case(substring($normInStr, 4)))"/>
+      </xsl:when>
+      <xsl:when test="matches($normInStr, '^[Mm][Aa][Cc][A-Z]')">
+        <xsl:value-of select="concat('Mac', upper-case(substring($normInStr, 4, 1)), lower-case(substring($normInStr, 5)))"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat(upper-case(substring($normInStr, 1, 1)), lower-case(substring($normInStr, 2)))"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    
   </xsl:function>
   
 </xsl:stylesheet>
