@@ -33,6 +33,11 @@
   
   <xsl:variable name="relPathPair3" select="('/one/two/three/file1.txt', '/one/two/three/file2.txt')"/>
   
+  <xsl:variable name="testName1">RED ADAIR</xsl:variable>
+  <xsl:variable name="testName2">PATRICK O'NEILL</xsl:variable>
+  <xsl:variable name="testName3">JOHN A. MACDONALD</xsl:variable>
+  <xsl:variable name="testName4">JULIAN HAWTREY-SMYTHE</xsl:variable>
+  
   <xsl:template match="/">
     <xsl:call-template name="runTests"/>
   </xsl:template>
@@ -41,6 +46,7 @@
     <xsl:call-template name="relPathPairTest1"/>
     <xsl:call-template name="relPathPairTest2"/>
     <xsl:call-template name="relPathPairTest3"/>
+    <xsl:call-template name="nameTests"/>
   </xsl:template>
   
   <xsl:template name="relPathPairTest1">
@@ -68,6 +74,18 @@
     <xsl:value-of select="$relPathPair3[2]"/>
     <xsl:text>&#x0a;Result:&#x0a;</xsl:text>
     <xsl:value-of select="hcmc:createRelativeUri($relPathPair3[1], $relPathPair3[2])"/>
+  </xsl:template>
+  
+  <xsl:template name="nameTests">
+    <xsl:text>&#x0a;&#x0a;Name tests:&#x0a;</xsl:text>
+    <xsl:text>&#x0a;</xsl:text>
+    <xsl:value-of select="hcmc:normalCaseName($testName1)"/>
+    <xsl:text>&#x0a;</xsl:text>
+    <xsl:value-of select="hcmc:normalCaseName($testName2)"/>
+    <xsl:text>&#x0a;</xsl:text>
+    <xsl:value-of select="hcmc:normalCaseName($testName3)"/>
+    <xsl:text>&#x0a;</xsl:text>
+    <xsl:value-of select="hcmc:normalCaseName($testName4)"/>
   </xsl:template>
   
   
