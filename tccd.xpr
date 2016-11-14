@@ -1524,6 +1524,51 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/schemas/tccd.odd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tccd_build_schema</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>code/xslt/enhance_hocr.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>TCCD_enhance_HOCR</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/personography/historicalPersonography_expanded.fods</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>personography_expanded_to_tei</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>../../../../../../mnt/BigDisk/WorkData/history/confederation_debates/TCCD/data/personography/personography_expanded.fods</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -1569,41 +1614,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/schemas/tccd.odd</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>tccd_build_schema</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>data/temp/The_Leader/1897-12-09/page-4.hocr.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>goog_ocr_to_tesseract</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>code/xslt/enhance_hocr.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>TCCD_enhance_HOCR</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -1949,10 +1964,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/data/personography/personography_test.xml</File>
+                                    <File>${pd}/data/personography/personography.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/data/personography/personography_test.xml</String>
+                                    <String>${pd}/data/personography/personography.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

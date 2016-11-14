@@ -136,7 +136,7 @@
         <xsl:value-of select="concat(upper-case(substring($normInStr, 1, 1)), lower-case(substring($normInStr, 2)))"/>
       </xsl:otherwise>
     </xsl:choose>
-    
   </xsl:function>
+
   
 </xsl:stylesheet>
