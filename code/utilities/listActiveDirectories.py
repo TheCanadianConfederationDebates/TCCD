@@ -55,7 +55,7 @@ for dirpath, subdirs, files in os.walk(dirData):
         if re.match(reTeiFile, f):
             teiFiles.append(os.path.join(dirpath, f))
             
-writeCollection(teiFiles, 'teifiles.xml')
+writeCollection(teiFiles, 'teiFiles.xml')
 
 print("Done.")
 print("=====================================================================")
