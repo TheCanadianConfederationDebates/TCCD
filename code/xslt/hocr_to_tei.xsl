@@ -577,7 +577,7 @@
         <xsl:value-of select="replace(normalize-space($hocrFile/descendant::xh:p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')][1]), '.*\[([ivxlcIVXLC0123456789]+)\].*', '$1')"/>
       </xsl:when>
       <xsl:when test="$hocrFile/descendant::xh:div[@class='ocr_page']/@title[matches(., '\.jpg')]">
-        <xsl:value-of select="$hocrFile/descendant::xh:div[@class='ocr_page'][1]/@title/substring-before(substring-after(., 'Page_'), '.jpg')"/>
+        <xsl:value-of select="$hocrFile/descendant::xh:div[@class='ocr_page'][1]/@title/replace(substring-before(substring-after(., 'Page_'), '.jpg'), '^0+', '')"/>
       </xsl:when>
       <xsl:when test="matches(document-uri($hocrFile), '_\d+\.hocr\.html$')">
         <xsl:value-of select="replace(tokenize(document-uri($hocrFile), '_')[last()], '\.hocr\.html$', '')"/>
