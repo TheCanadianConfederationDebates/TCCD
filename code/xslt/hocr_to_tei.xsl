@@ -568,12 +568,16 @@
   </xsl:function>
   
 <!-- This function tries to find the page number in the editorial header at the top. If that page number 
-     is missing, it will attempt to get it from the linked page-image content.-->
+     is missing, it will attempt to get it from the linked page-image content. Finally, failing that, 
+     it will default to using the filename. -->
   <xsl:function name="hcmc:getPageNumber" as="xs:string">
     <xsl:param name="hocrFile" as="node()"/>
     <xsl:choose>
       <xsl:when test="$hocrFile/descendant::xh:p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')]">
         <xsl:value-of select="replace(normalize-space($hocrFile/descendant::xh:p[@class='editorial'][matches(., '\[[ivxlcIVXLC0123456789]+\]')][1]), '.*\[([ivxlcIVXLC0123456789]+)\].*', '$1')"/>
+      </xsl:when>
+      <xsl:when test="$hocrFile/descendant::xh:div[@class='ocr_page']/@title[matches(., '\.jpg')]">
+        <xsl:value-of select="$hocrFile/descendant::xh:div[@class='ocr_page'][1]/@title/substring-before(substring-after(., 'Page_'), '.jpg')"/>
       </xsl:when>
       <xsl:when test="matches(document-uri($hocrFile), '_\d+\.hocr\.html$')">
         <xsl:value-of select="replace(tokenize(document-uri($hocrFile), '_')[last()], '\.hocr\.html$', '')"/>
