@@ -461,6 +461,10 @@
     <xsl:apply-templates mode="#current"/><lb/>
   </xsl:template>
   
+  <xsl:template match="xh:span[@class='unclear']">
+    <unclear n="{@title}"><xsl:apply-templates mode="#current"/></unclear>
+  </xsl:template>
+  
 <!-- We dump our editorial injections. -->
   <xsl:template match="p[@class='editorial']"/>
   
