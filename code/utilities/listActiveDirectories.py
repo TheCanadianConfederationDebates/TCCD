@@ -30,7 +30,7 @@ reTeiFile = re.compile("^lg.+\d\d\d\d-\d\d-\d\d.xml$")
 reOrigHocr = re.compile("hocr_orig$")
 
 #regex for edited HOCR files
-reEditedHocr = re.compile("\.html$")
+reEditedHocr = re.compile("/hocr_edited")
 
 print("Data directory is at " + dirData)
 
@@ -82,17 +82,10 @@ print("Listing all the edited HOCR files...")
 
 editedHocrFiles = []
 for fldr in provinceFolders:
-  if (os.path.exists(dirData + '/' + fldr + '/final')):
-    for dirpath, subdirs, files in os.walk(dirData + '/' + fldr + '/final'):
-        for f in files:
-            if re.search(reEditedHocr, dirpath):
-                editedHocrFiles.append(os.path.join(dirpath, f))
-  else:
-    if (os.path.exists(dirData + '/' + fldr + '/hocr_edited')):
-      for dirpath, subdirs, files in os.walk(dirData + '/' + fldr + '/hocr_edited'):
-        for f in files:
-            if re.search(reEditedHocr, f):
-                editedHocrFiles.append(os.path.join(dirpath, f))
+  for dirpath, subdirs, files in os.walk(dirData + '/' + fldr):
+    for f in files:
+      if re.search(reEditedHocr, dirpath):
+        editedHocrFiles.append(os.path.join(dirpath, f))
       
             
 writeCollection(editedHocrFiles, 'editedHocrFiles.xml')
