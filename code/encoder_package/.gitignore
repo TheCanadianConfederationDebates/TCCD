@@ -1,0 +1,5 @@
+# ignore various folders which are deleted and recreated during build,
+# as well as folders that contain temporary copies of files.
+dist
+zip/*
+xml/*
