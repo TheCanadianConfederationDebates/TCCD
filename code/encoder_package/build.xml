@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     This build process creates a customized package for a specific encoder to work 
+     on a specified set of files, tagging names. 
+
+     The XML files to be worked on are copied into the xml subfolder by the administrator.
+     The schemas and other files are taken from elsewhere in the repo; the package name
+     is supplied interactively by the administrator.
+
+-->
+
+<project basedir="." default="all" name="Create a package for an encoder">
+  
+  <!-- note: following properties are passed as parameters via Oxygen:
+      -${encoderName}:           a QName-compatible form of the name of the
+                                 encoder for whom this package is intended.
+                                 The zip file will be named based on this.
+                                 
+                                 
+  -->
+  
+  <property name="echo.separator" value="************************************************"/>
+  
+  
+<!-- Some key filesets we need to copy or move around. -->
+  <fileset id="xmlFiles" dir="xml">
+    <include name="*.xml"/>
+  </fileset>
+  
+  <target name="setup">
+    <echo>${echo.separator}</echo>
+    <echo>Creating required directories...</echo>
+    <rmdir dir="dist"/>
+    <mkdir dir="dist"/>
+    <mkdir dir="dist/schema"/>
+  </target>
+  
+  <target name="copyFiles">
+    <echo>${echo.separator}</echo>
+    <echo>Copying required files...</echo>
+
+  </target>
+  
+  
+  <target name="all">
+    <antcall target="setup"/>
+  </target>
+  
+</project>
