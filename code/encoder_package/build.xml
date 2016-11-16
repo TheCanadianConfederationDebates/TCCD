@@ -30,6 +30,10 @@
     <include name="tccd.rng"/>
   </fileset>
   
+  <fileset id="projectFiles" dir="project">
+    <include name="*.*"/>
+  </fileset>
+  
 <!-- This checks that the supplied encoder name which will be used for 
      the zip file is in the correct form. -->
   <target name="checkEncoderName">
@@ -54,26 +58,36 @@
     <echo>Creating required directories...</echo>
     <delete dir="dist"/>
     <mkdir dir="dist"/>
-    <mkdir dir="dist/schema"/>
-    <mkdir dir="dist/xml"/>
+    <mkdir dir="dist/${encoderName}"/>
+    <mkdir dir="dist/${encoderName}/schema"/>
+    <mkdir dir="dist/${encoderName}/xml"/>
   </target>
   
   <target name="copyFiles">
     <echo>${echo.separator}</echo>
     <echo>Copying required files...</echo>
-    <copy todir="dist/xml">
+    <copy todir="dist/${encoderName}/xml">
       <fileset refid="xmlFiles"/>
     </copy>
-    <copy todir="dist/schema">
+    <copy todir="dist/${encoderName}/schema">
       <fileset refid="schemaFiles"/>
+    </copy>
+    <copy todir="dist/${encoderName}">
+      <fileset refid="projectFiles"/>
     </copy>
   </target>
   
+  <target name="createZip">
+    <echo>${echo.separator}</echo>
+    <echo>Creating zip file...</echo>
+    <zip destfile="zip/${encoderName}.zip" basedir="dist"/>
+  </target>
   
   <target name="all">
     <antcall target="checkEncoderName"/>
     <antcall target="setup"/>
     <antcall target="copyFiles"/>
+    <antcall target="createZip"/>
   </target>
   
 </project>
