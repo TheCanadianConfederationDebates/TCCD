@@ -107,6 +107,11 @@
           <xd:li>Fred O’Reilly</xd:li>
         </xd:ul>
       </xd:p>
+      <xd:p>
+        A special case is the form of first-nations names, which if they are in 
+        upper-case are retained as such. These are identified by their consisting
+        of multiple hyphenated components.
+      </xd:p>
     </xd:desc>
   </xd:doc>
   <xsl:function name="hcmc:normalCaseName" as="xs:string">
@@ -117,6 +122,10 @@
         <xsl:variable name="nameBits" select="tokenize($normInStr, '\s+')"/>
         <xsl:variable name="fixedNameBits" select="for $n in $nameBits return hcmc:normalCaseName($n)"/>
         <xsl:value-of select="string-join($fixedNameBits, ' ')"/>
+      </xsl:when>
+      <xsl:when test="matches($normInStr, '.+-.+-.+-.+')">
+<!--       This is a first-nations name. Just upper-case and that's it. -->
+        <xsl:value-of select="upper-case($normInStr)"/>
       </xsl:when>
       <xsl:when test="contains($normInStr, '-')">
         <xsl:variable name="nameBits" select="tokenize($normInStr, '-')"/>
