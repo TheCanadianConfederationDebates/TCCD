@@ -1,0 +1,14 @@
+/* Supplementary rulesets for making instructions 
+   documents more readable for admins etc. */
+   
+head{
+  display: none;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+li{
+  margin-top: 1em;
+}

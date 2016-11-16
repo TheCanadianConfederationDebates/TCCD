@@ -19,31 +19,61 @@
                                  
   -->
   
-  <property name="echo.separator" value="************************************************"/>
-  
+  <property name="echo.separator" value="************************************************"/> 
   
 <!-- Some key filesets we need to copy or move around. -->
   <fileset id="xmlFiles" dir="xml">
     <include name="*.xml"/>
   </fileset>
   
+  <fileset id="schemaFiles" dir="../../data/schemas">
+    <include name="tccd.rng"/>
+  </fileset>
+  
+<!-- This checks that the supplied encoder name which will be used for 
+     the zip file is in the correct form. -->
+  <target name="checkEncoderName">
+    <fail message="Encoder's name was not supplied.">
+      <condition>
+        <not>
+          <isset property="encoderName"/>
+        </not>
+      </condition>
+    </fail>
+    <fail message="Encoder's name should be all lower-case, with no spaces or punctuation.">
+      <condition>
+        <not>
+          <matches pattern="^[a-z][a-z_]+$" string="${encoderName}"/>
+        </not>
+      </condition>
+    </fail>
+  </target>
+  
   <target name="setup">
     <echo>${echo.separator}</echo>
     <echo>Creating required directories...</echo>
-    <rmdir dir="dist"/>
+    <delete dir="dist"/>
     <mkdir dir="dist"/>
     <mkdir dir="dist/schema"/>
+    <mkdir dir="dist/xml"/>
   </target>
   
   <target name="copyFiles">
     <echo>${echo.separator}</echo>
     <echo>Copying required files...</echo>
-
+    <copy todir="dist/xml">
+      <fileset refid="xmlFiles"/>
+    </copy>
+    <copy todir="dist/schema">
+      <fileset refid="schemaFiles"/>
+    </copy>
   </target>
   
   
   <target name="all">
+    <antcall target="checkEncoderName"/>
     <antcall target="setup"/>
+    <antcall target="copyFiles"/>
   </target>
   
 </project>
