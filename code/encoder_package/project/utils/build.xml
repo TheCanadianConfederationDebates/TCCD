@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     This build process creates a customized package for a specific encoder to work 
+     on a specified set of files, tagging names. 
+     
+     The XML files to be worked on are copied into the xml subfolder by the administrator.
+     The schemas and other files are taken from elsewhere in the repo; the package name
+     is supplied interactively by the administrator.
+     
+-->
+
+<project basedir="../" default="go" name="Create zip packages to return to administrator">
+  
+  <!-- Note: the following properties are passed as parameters via Oxygen:
+    
+      -${xmlOnly} = "yes|no" (requested from the user interactively).
+                                
+  -->
+  
+  <property name="echo.separator" value="************************************************"/> 
+  <property name="xmlOnly" value="yes"/>
+  <basename property="encoderName" file="${basedir}"/>
+  <property name="xmlOnlyFileName" value="${encoderName}_XML.zip"/>
+  <property name="xmlOnlyFullPath" location="${xmlOnlyFileName}"/>
+  <property name="wholeProjectFileName" value="${encoderName}_PROJECT.zip"/>
+  <property name="wholeProjectFullPath" location="${wholeProjectFileName}"/>
+  
+  <condition property="doAll">
+    <equals arg1="no" arg2="${xmlOnly}"/>
+  </condition>
+  
+  <condition property="doXml">
+    <equals arg1="yes" arg2="${xmlOnly}"/>
+  </condition>
+  
+  <property name="tmpdir" value="${java.io.tmpdir}"/>
+  
+  <fileset id="projectFiles" dir="." excludes="*.zip"/>
+  
+<!--  Create a zip file of the XML content only.
+      This can be done directly in the root. -->
+  
+  <target name="xml" if="${doXml}">
+    <echo message="${echo.separator}"/>
+    <echo message="Creating a zip file of all your XML files, to be sent back to the project administrator."/>
+    <zip destfile="${xmlOnlyFileName}" basedir="xml" includes="*.xml"/>
+    <echo message="${echo.separator}"/>
+    <echo message="Created this file: ${xmlOnlyFullPath}"/>
+  </target>
+  
+<!-- Create a zip of the entire project folder and store it in the folder root itself.
+     Exclude (obviously) any existing zip files. -->
+  <target name="all" if="${doAll}">
+    <echo message="${echo.separator}"/>
+    <echo message="Creating a zip file of your entire project, so that you can move it to another machine."/>
+    <delete dir="${tmpdir}/${encoderName}"/>
+    <mkdir dir="${tmpdir}/${encoderName}/${encoderName}"/>
+    <copy todir="${tmpdir}/${encoderName}/${encoderName}">
+      <fileset refid="projectFiles"/>
+    </copy>
+    <zip destfile="${wholeProjectFileName}" basedir="${tmpdir}/${encoderName}"/>
+    <delete dir="${tmpdir}/${encoderName}"/>
+    <echo message="${echo.separator}"/>
+    <echo message="Created this file: ${wholeProjectFullPath}"/>
+  </target>
+  
+  <target name="go" depends="xml, all">
+    <echo message="${echo.separator}"/>
+  </target>
+  
+</project>

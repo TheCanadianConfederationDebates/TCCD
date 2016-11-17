@@ -20,6 +20,11 @@
   -->
   
   <property name="echo.separator" value="************************************************"/> 
+  <property name="listFileName" value="imageList.txt"/>
+  <property name="regexFileName" value="imageRegex.txt"/>
+  
+<!-- Default value provided in case this is run at the command line. -->
+  <property name="encoderName" value="test_name"/>
   
 <!-- Some key filesets we need to copy or move around. -->
   <fileset id="xmlFiles" dir="xml">
@@ -35,7 +40,7 @@
   </fileset>
   
   <fileset id="projectFiles" dir="project">
-    <include name="*.*"/>
+    <include name="**/*"/>
   </fileset>
   
 <!-- This checks that the supplied encoder name which will be used for 
@@ -78,8 +83,8 @@
       <arg value="-xsl:../xslt/create_image_list.xsl"/> 
       <arg value="--suppressXsltNamespaceCheck:on"/>
       <arg value="collectionPath=../encoder_package/xml"/>
-      <arg value="listFileName=imageList.txt"/>
-      <arg value="regexFileName=imageRegex.txt"/>
+      <arg value="listFileName=${listFileName}"/>
+      <arg value="regexFileName=${regexFileName}"/>
     </java>
   </target>
   
@@ -99,16 +104,17 @@
       <fileset refid="projectFiles"/>
     </copy>
     
+<!--  Load the pre-generated regular expression for finding
+      the linked image files from the file where it was 
+      saved by the XSLT process. -->
     <loadfile property="imageRegex" srcfile="xml/imageRegex.txt"/>
     
     <fileset id="imageFiles" dir="../../data" includes="**/*">
       <filename regex="${imageRegex}"/>
     </fileset>
-    
     <copy todir="dist/${encoderName}/xml/images" flatten="true">
       <fileset refid="imageFiles"/>
     </copy>
-    
   </target>
   
   <target name="createZip">
@@ -117,12 +123,21 @@
     <zip destfile="zip/${encoderName}.zip" basedir="dist"/>
   </target>
   
+  <target name="cleanup">
+    <echo>${echo.separator}</echo>
+    <echo>Cleaning up temporary files...</echo>
+    <delete dir="xml" includes="*.txt"/>
+  </target>
+  
+  
   <target name="all">
     <antcall target="checkEncoderName"/>
     <antcall target="setup"/>
     <antcall target="listImages"/>
     <antcall target="copyFiles"/>
     <antcall target="createZip"/>
+    <antcall target="cleanup"/>
+    <echo message="Done! You'll find a zip file called ${encoderName}.zip in the zip folder."/>
   </target>
   
 </project>

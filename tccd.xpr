@@ -615,10 +615,10 @@
                                             <cssFile-array>
                                                 <cssFile>
                                                     <field name="href">
-                                                        <String>${frameworks}/xhtml/css/xhtml.css</String>
+                                                        <String>${pdu}/code/css/instructions.css</String>
                                                     </field>
                                                     <field name="title">
-                                                        <String>Standard XHTML CSS file from Oxygen.</String>
+                                                        <String>CSS for instructions documents.</String>
                                                     </field>
                                                     <field name="alternate">
                                                         <Boolean>false</Boolean>

@@ -1,14 +1,60 @@
 /* Supplementary rulesets for making instructions 
    documents more readable for admins etc. */
    
+/* We want the whole document to be uneditable in Author Mode. */
+
+html{
+  -oxy-editable: false;
+}
+
 head{
   display: none;
 }
 
+body, div, h1, h2, h3, h4, p, ol, ul{
+  display: block;
+  margin: 0.5rem 1rem;
+}
+
+p, li{
+  line-height: 2rem;
+}
+
 body{
   font-family: sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+h4{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+ol{
+  list-style-type: decimal;
 }
 
 li{
+  display: list-item;
   margin-top: 1em;
+}
+img {
+    display: inline;
+    content: attr(src,url);
+    width:attr(width, length);
+    height:attr(height, length);
 }
