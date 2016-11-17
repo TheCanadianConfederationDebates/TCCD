@@ -4,7 +4,7 @@
         <filters directoryPatterns="" filePatterns="confederationDebates.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized version="18.0" xml:space="preserve">
-                <map>
+                <serializableOrderedMap>
                     <entry>
                         <String>document.types</String>
                         <documentTypeDescriptor-array>
@@ -27,7 +27,19 @@
                                 <field name="authorExtensionDescriptor">
                                     <authorExtension>
                                         <field name="cssDescriptors">
-                                            <cssFile-array/>
+                                            <cssFile-array>
+                                                <cssFile>
+                                                    <field name="href">
+                                                        <String>${pdu}/css/debate.css</String>
+                                                    </field>
+                                                    <field name="title">
+                                                        <String>CSS for Author Mode when editing TEI Debate file.</String>
+                                                    </field>
+                                                    <field name="alternate">
+                                                        <Boolean>false</Boolean>
+                                                    </field>
+                                                </cssFile>
+                                            </cssFile-array>
                                         </field>
                                         <field name="mergeCSSsFromDocument">
                                             <Boolean>false</Boolean>
@@ -1406,7 +1418,7 @@
                         <String>key.editor.document.type.association.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
-                </map>
+                </serializableOrderedMap>
             </serialized>
         </options>
     </meta>

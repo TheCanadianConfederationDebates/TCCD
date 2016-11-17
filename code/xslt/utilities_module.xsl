@@ -147,5 +147,38 @@
     </xsl:choose>
   </xsl:function>
 
+<!-- This function analyzes a collection of XML files and creates a text file listing 
+     the file names of the images in those files linked from the facsimile element.-->
+  <xd:doc scope="component">
+    <xd:desc>
+      <xd:p>This function is supplied with the results of a collection() function call
+        and then interrogates the TEI documents in that collection to make a list 
+        of all the images which are linked from those documents, which it saves to a
+        file. A subsequent process will search for those images and build them into 
+        a package intended for an encoder. The assumption is that image file names
+        are unique in the data folder structure, so actual paths can be determined 
+        just by searching. Since the XML files which are being processed are outside
+        their normal context, having been copied into the encoder_package/xml folder
+        for the purposes of building the package, the relative paths will not work.
+      </xd:p>
+    </xd:desc>
+  </xd:doc>
+  <xsl:template name="hcmc:createImageList">
+    <xsl:param name="coll" as="node()*"/>
+    <xsl:param name="fileToSave" as="xs:string"/>
+    <xsl:variable name="images" select="$coll//tei:facsimile/tei:surface/tei:graphic/@url"/>
+    <xsl:choose>
+      <xsl:when test="count($images) lt 1">
+        <xsl:message terminate="yes">ERROR: No facsimile images found in this XML collection.</xsl:message>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:result-document href="{$fileToSave}" encoding="UTF-8" method="text" indent="no">
+          <xsl:for-each select="$images">
+            <xsl:value-of select="tokenize(., '/')[last()]"/><xsl:if test="position() lt last()"><xsl:text>&#x0a;</xsl:text></xsl:if>
+          </xsl:for-each>
+        </xsl:result-document>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   
 </xsl:stylesheet>

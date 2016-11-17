@@ -47,6 +47,7 @@
     <xsl:call-template name="relPathPairTest2"/>
     <xsl:call-template name="relPathPairTest3"/>
     <xsl:call-template name="nameTests"/>
+    <xsl:call-template name="imageListTest"/>
   </xsl:template>
   
   <xsl:template name="relPathPairTest1">
@@ -88,5 +89,11 @@
     <xsl:value-of select="hcmc:normalCaseName($testName4)"/>
   </xsl:template>
   
+  <xsl:template name="imageListTest">
+    <xsl:call-template name="hcmc:createImageList">
+      <xsl:with-param name="coll" select="collection('../../data/BC/Federal/?*.xml')"/>
+    <xsl:with-param name="fileToSave" select="'testImages.txt'"/>
+    </xsl:call-template>
+  </xsl:template>
   
 </xsl:stylesheet>

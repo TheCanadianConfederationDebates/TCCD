@@ -30,6 +30,10 @@
     <include name="tccd.rng"/>
   </fileset>
   
+  <fileset id="cssFiles" dir="../css">
+    <include name="*.css"/>
+  </fileset>
+  
   <fileset id="projectFiles" dir="project">
     <include name="*.*"/>
   </fileset>
@@ -61,6 +65,17 @@
     <mkdir dir="dist/${encoderName}"/>
     <mkdir dir="dist/${encoderName}/schema"/>
     <mkdir dir="dist/${encoderName}/xml"/>
+    <mkdir dir="dist/${encoderName}/xml/images"/>
+    <mkdir dir="dist/${encoderName}/css"/>
+  </target>
+  
+  <target name="listImages">
+    <java classname="net.sf.saxon.Transform" classpath="../utilities/saxon9he.jar">
+      <arg value="-s:../xslt/create_image_list.xsl"/>
+      <arg value="-xsl:../xslt/create_image_list.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg value="collectionPath=../encoder_package/xml"/>
+    </java>
   </target>
   
   <target name="copyFiles">
@@ -71,6 +86,9 @@
     </copy>
     <copy todir="dist/${encoderName}/schema">
       <fileset refid="schemaFiles"/>
+    </copy>
+    <copy todir="dist/${encoderName}/css">
+      <fileset refid="cssFiles"/>
     </copy>
     <copy todir="dist/${encoderName}">
       <fileset refid="projectFiles"/>
