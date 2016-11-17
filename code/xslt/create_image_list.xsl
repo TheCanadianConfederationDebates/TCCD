@@ -21,16 +21,19 @@
   <xsl:include href="utilities_module.xsl"/>
   
   <xsl:param name="collectionPath" as="xs:string"/>
-  <xsl:variable name="coll" select="collection(concat($collectionPath, '?*.xml'))"/>
+  <xsl:param name="listFileName" as="xs:string"/>
+  <xsl:param name="regexFileName" as="xs:string"/>
   
   <xsl:template match="/">
-    <xsl:message>Creating list of images from files in <xsl:value-of select="$collectionPath"/>...</xsl:message>
-    <xsl:variable name="fixedCollectionPath" select="concat(collectionPath, if (ends-with($collectionPath, '/')) then '' else '/')"/>
-    <xsl:variable name="fileToSave" select="concat($fixedCollectionPath, 'imageList.txt')"/>
-    <xsl:variable name="coll" select="collection(concat($fixedCollectionPath, '?*.xml'))"/>
+    <xsl:variable name="fixedCollectionPath" select="concat($collectionPath, if (ends-with($collectionPath, '/')) then '' else '/')"/>
+    <xsl:message>Creating list of images from files in <xsl:value-of select="$fixedCollectionPath"/>...</xsl:message>
+    <xsl:variable name="listFileToSave" select="concat($fixedCollectionPath, $listFileName)"/>
+    <xsl:variable name="regexFileToSave" select="concat($fixedCollectionPath, $regexFileName)"/>
+    <xsl:variable name="coll" select="collection(concat($fixedCollectionPath, '?select=*.xml'))"/>
     <xsl:call-template name="hcmc:createImageList">
       <xsl:with-param name="coll" select="$coll"/>
-    <xsl:with-param name="fileToSave" select="$fileToSave"/>
+      <xsl:with-param name="listFileToSave" select="$listFileToSave"/>
+      <xsl:with-param name="regexFileToSave" select="$regexFileToSave"/>
     </xsl:call-template>
   </xsl:template>
   

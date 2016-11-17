@@ -69,12 +69,17 @@
     <mkdir dir="dist/${encoderName}/css"/>
   </target>
   
+  
   <target name="listImages">
+    <echo>${echo.separator}</echo>
+    <echo>Listing images required for these XML files...</echo>
     <java classname="net.sf.saxon.Transform" classpath="../utilities/saxon9he.jar">
       <arg value="-s:../xslt/create_image_list.xsl"/>
       <arg value="-xsl:../xslt/create_image_list.xsl"/> 
       <arg value="--suppressXsltNamespaceCheck:on"/>
       <arg value="collectionPath=../encoder_package/xml"/>
+      <arg value="listFileName=imageList.txt"/>
+      <arg value="regexFileName=imageRegex.txt"/>
     </java>
   </target>
   
@@ -93,6 +98,17 @@
     <copy todir="dist/${encoderName}">
       <fileset refid="projectFiles"/>
     </copy>
+    
+    <loadfile property="imageRegex" srcfile="xml/imageRegex.txt"/>
+    
+    <fileset id="imageFiles" dir="../../data" includes="**/*">
+      <filename regex="${imageRegex}"/>
+    </fileset>
+    
+    <copy todir="dist/${encoderName}/xml/images" flatten="true">
+      <fileset refid="imageFiles"/>
+    </copy>
+    
   </target>
   
   <target name="createZip">
@@ -104,6 +120,7 @@
   <target name="all">
     <antcall target="checkEncoderName"/>
     <antcall target="setup"/>
+    <antcall target="listImages"/>
     <antcall target="copyFiles"/>
     <antcall target="createZip"/>
   </target>

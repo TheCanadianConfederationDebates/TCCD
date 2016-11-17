@@ -165,17 +165,22 @@
   </xd:doc>
   <xsl:template name="hcmc:createImageList">
     <xsl:param name="coll" as="node()*"/>
-    <xsl:param name="fileToSave" as="xs:string"/>
-    <xsl:variable name="images" select="$coll//tei:facsimile/tei:surface/tei:graphic/@url"/>
+    <xsl:param name="listFileToSave" as="xs:string"/>
+    <xsl:param name="regexFileToSave" as="xs:string"/>
+    <xsl:variable name="images" as="xs:string*" select="$coll//tei:facsimile/tei:surface/tei:graphic/@url/tokenize(., '/')[last()]"/>
     <xsl:choose>
       <xsl:when test="count($images) lt 1">
         <xsl:message terminate="yes">ERROR: No facsimile images found in this XML collection.</xsl:message>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:result-document href="{$fileToSave}" encoding="UTF-8" method="text" indent="no">
+        <xsl:result-document href="{$listFileToSave}" encoding="UTF-8" method="text" indent="no">
           <xsl:for-each select="$images">
-            <xsl:value-of select="tokenize(., '/')[last()]"/><xsl:if test="position() lt last()"><xsl:text>&#x0a;</xsl:text></xsl:if>
+            <xsl:value-of select="."/><xsl:if test="position() lt last()"><xsl:text>&#x0a;</xsl:text></xsl:if>
           </xsl:for-each>
+        </xsl:result-document>
+        <xsl:result-document href="{$regexFileToSave}" encoding="UTF-8" method="text" indent="no">
+          <xsl:variable name="parenthImages" select="for $i in $images return concat('(', $i, ')')"/>
+          <xsl:value-of select="concat('(', string-join($parenthImages, '|'), ')')"/>
         </xsl:result-document>
       </xsl:otherwise>
     </xsl:choose>

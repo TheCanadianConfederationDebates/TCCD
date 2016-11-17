@@ -1,0 +1,109 @@
+/* CSS Stylesheet for Oxygen Author Mode. 
+   Intended for TEI XML debate files. */
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+   
+/* Specialist stuff such as comments. */
+oxy|comment:before {
+  content: "<!-- ";
+}
+oxy|comment:after {
+  content: " -->";
+}
+
+/* Actual document content. */
+TEI teiHeader fileDesc titleStmt title{
+  display: block;
+  font-size: 200%;
+  text-align: center;
+  text-decoration: underline;
+  margin: 1em 5% 1em 5%;
+}
+
+TEI teiHeader fileDesc titleStmt title *{
+  display: inline;
+}
+
+/* Header elements to be suppressed. */
+respStmt, publicationStmt, sourceDesc, revisionDesc, facsimile{
+  display: none;
+}
+
+/* Basic page layout. */
+text{
+  display: block;
+  width: 80%;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: normal;
+}
+
+/* Basic text body blocks. */
+text, body, div, p{
+  display: block;
+  margin: 1em 0;
+  line-height: 120%;
+}
+
+/* Forme works and milestones. */
+fw{
+  display: block;
+  background-color: #ffffdd;
+  margin: 1em 0;
+}
+
+fw fw{
+  display: inline;
+  margin: 0;
+}
+
+pb, cb{
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: solid 1pt black;
+  margin: 1em 0;
+}
+
+pb[facs]:after{
+  link: oxy_concat('images', oxy_substring(attr(facs), oxy_lastindexof(attr(facs), '/')));
+  content: "📄";
+}
+
+/* Stuff to suppress in the normal course of things. */
+lb{
+  display: none;
+}
+
+/* Problem cases need to be highlighted though. */
+lb[break="maybe"]{
+  display: inline-block;
+  width: 1em;
+  background-color: red;
+}
+
+fw lb{
+  display: block;
+  content: "";
+}
+
+fw lb:last-child{
+  display: none;
+}
+
+/* Inline styles. */
+hi[rendition="simple:italic"], foreign, emph{
+  font-style: italic;
+}
+
+hi[rendition="simple:underline"]{
+  text-decoration: underline;
+}
+
+hi[rendition="simple:bold"]{
+  font-weight: bold;
+}
+
+head{
+  font-size: 130%;
+}
