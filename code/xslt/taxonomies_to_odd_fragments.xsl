@@ -26,15 +26,15 @@
   <xsl:param name="taxonomyFile" select="doc($taxonomyFilePath)"/>
   <xsl:param name="personographyFile" select="doc($personographyFilePath)"/>
   
-  <xsl:template match="/">
+  <xsl:template match="/" exclude-result-prefixes="#all">
     <xsl:message>Processing taxonomies comprising <xsl:value-of select="count($taxonomyFile/descendant::category)"/> categories.</xsl:message>
     <xsl:apply-templates/>
   </xsl:template>
   
 <!-- Template for name/@ref. -->
-  <xsl:template match="elementSpec[@ident='name']/attList/attDef[@ident='ref']/valList">
+  <xsl:template match="elementSpec[@ident='name']/attList/attDef[@ident='ref']/valList" exclude-result-prefixes="#all">
     <valList type="closed">
-      <xsl:copy-of select="valItem[@ident='unspecified']"/>
+      <xsl:copy-of select="valItem[@ident='_unspecified']"/>
       <xsl:for-each select="$taxonomyFile/descendant::taxonomy[@xml:id = 'tccdLegislatures']/descendant::category">
         <!--<xsl:sort select="@xml:id"/>-->
           <valItem ident="lg:{@xml:id}">
@@ -46,13 +46,13 @@
   </xsl:template>
   
 <!-- Template for persName/@ref. -->
-  <xsl:template match="elementSpec[@ident='persName']/attList/attDef[@ident='ref']/valList">
+  <xsl:template match="elementSpec[@ident='persName']/attList/attDef[@ident='ref']/valList" exclude-result-prefixes="#all">
     <xsl:sequence select="hcmc:listPersonToValList($personographyFile//listPerson, true())"/>
   </xsl:template>
   
   
 <!-- Standard identity transformation. -->
-  <xsl:template match="@* | node()" priority="-1">
+  <xsl:template match="@* | node()" priority="-1" exclude-result-prefixes="#all">
     <xsl:copy>
       <xsl:apply-templates select="@* | node()"/>
     </xsl:copy>
@@ -60,12 +60,12 @@
   
 <!-- Functions. -->
   
-  <xsl:function name="hcmc:listPersonToValList" as="element(valList)">
+  <xsl:function name="hcmc:listPersonToValList" as="element(valList)" exclude-result-prefixes="#all">
     <xsl:param name="listPerson" as="element(listPerson)+"/>
     <xsl:param name="allowUnspecified" as="xs:boolean"/>
     <valList type="closed">
       <xsl:if test="$allowUnspecified">
-        <valItem ident="pers:UNSPECIFIED">
+        <valItem ident="pers:_UNSPECIFIED">
           <gloss>Use this value when you have not yet determined 
             the correct value. This value should be temporary.</gloss>
         </valItem>

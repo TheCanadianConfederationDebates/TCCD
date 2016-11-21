@@ -401,10 +401,6 @@ so Volume 2 by implication has finished. -->
                      <attDef ident="ref" mode="replace" usage="req">
                         <gloss>links the name element to an entry in a taxonomy</gloss>
                         <valList type="closed">
-                           <valItem xmlns:hcmc="http://hcmc.uvic.ca/ns" ident="unspecified">
-                              <gloss>Use this value when you have not yet determined 
-                    the correct value. This value should be temporary.</gloss>
-                           </valItem>
                            <valItem ident="lg:lgHC">
                               <gloss>The House of Commons</gloss>
                               <desc>The Canadian Federal House of Commons.</desc>
@@ -478,7 +474,7 @@ so Volume 2 by implication has finished. -->
                   <attList>
                      <attDef ident="ref" mode="replace">
                         <valList type="closed">
-                           <valItem ident="pers:UNSPECIFIED">
+                           <valItem ident="pers:_UNSPECIFIED">
                               <gloss>Use this value when you have not yet determined 
             the correct value. This value should be temporary.</gloss>
                            </valItem>
