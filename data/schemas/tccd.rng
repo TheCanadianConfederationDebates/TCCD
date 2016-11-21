@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-11-21T22:10:15Z. 2016.
+Schema generated from ODD source 2016-11-21T22:38:35Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	21st November 2016, revision ee5c6b8
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -2335,7 +2335,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:name">
-                           <sch:assert test="(@type='legislature' and starts-with(@ref, 'lg:lg'))">
+                           <sch:assert test="matches(@ref, '^((lg:lg)|(UNSPECIFIED))') or not(@type='legislature')">
                       If this is a legislature name, it should have @type='legislature' and 
                       a suitable value for @ref, starting with 'lg:lg'.
                     </sch:assert>
@@ -2347,6 +2347,9 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <attribute name="ref">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(links the name element to an entry in a taxonomy) </a:documentation>
             <choice>
+               <value>UNSPECIFIED</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Use this value when you have not yet determined 
+                                 the correct value. This value should be temporary.) </a:documentation>
                <value>lg:lgHC</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(The House of Commons) The Canadian Federal House of Commons.</a:documentation>
                <value>lg:lgPCLAssem</value>
@@ -4393,7 +4396,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName[not(parent::tei:person)]">
-                           <sch:assert test="matches(@ref, 'pers:[A-Z]{4}\d+')">
+                           <sch:assert test="matches(@ref, '^((pers:[A-Z]{4}\d+)|(UNSPECIFIED))')">
                               The @ref attribute value should start with 'pers:' and have the form
                               'pers:AAAA1' (four letters followed by a number).
                            </sch:assert>
@@ -4406,7 +4409,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
-                  <value>pers:_UNSPECIFIED</value>
+                  <value>UNSPECIFIED</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Use this value when you have not yet determined 
             the correct value. This value should be temporary.) </a:documentation>
                   <value>pers:AKKA1</value>

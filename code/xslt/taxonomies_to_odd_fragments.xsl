@@ -34,7 +34,7 @@
 <!-- Template for name/@ref. -->
   <xsl:template match="elementSpec[@ident='name']/attList/attDef[@ident='ref']/valList" exclude-result-prefixes="#all">
     <valList type="closed">
-      <xsl:copy-of select="valItem[@ident='_unspecified']"/>
+      <xsl:copy-of select="valItem[@ident='UNSPECIFIED']"/>
       <xsl:for-each select="$taxonomyFile/descendant::taxonomy[@xml:id = 'tccdLegislatures']/descendant::category">
         <!--<xsl:sort select="@xml:id"/>-->
           <valItem ident="lg:{@xml:id}">
@@ -47,7 +47,7 @@
   
 <!-- Template for persName/@ref. -->
   <xsl:template match="elementSpec[@ident='persName']/attList/attDef[@ident='ref']/valList" exclude-result-prefixes="#all">
-    <xsl:sequence select="hcmc:listPersonToValList($personographyFile//listPerson, true())"/>
+    <xsl:sequence select="hcmc:listPersonToValList($personographyFile//listPerson, .)"/>
   </xsl:template>
   
   
@@ -62,14 +62,9 @@
   
   <xsl:function name="hcmc:listPersonToValList" as="element(valList)" exclude-result-prefixes="#all">
     <xsl:param name="listPerson" as="element(listPerson)+"/>
-    <xsl:param name="allowUnspecified" as="xs:boolean"/>
+    <xsl:param name="valList" as="element(valList)"/>    
     <valList type="closed">
-      <xsl:if test="$allowUnspecified">
-        <valItem ident="pers:_UNSPECIFIED">
-          <gloss>Use this value when you have not yet determined 
-            the correct value. This value should be temporary.</gloss>
-        </valItem>
-      </xsl:if>
+        <xsl:copy-of select="$valList/valItem[@ident='UNSPECIFIED']"/>
       <xsl:for-each select="$listPerson//person">
         <xsl:sort select="normalize-space(.)"/>
         <valItem ident="pers:{@xml:id}">
