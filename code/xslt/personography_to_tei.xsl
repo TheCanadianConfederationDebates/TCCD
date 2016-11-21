@@ -82,7 +82,8 @@
               
 <!--  Find a variety of column offsets we're going to need.            -->
               <xsl:variable name="idCol" select="hcmc:getColOffsetFromCaption('xml:id')"/>
-              <xsl:variable name="addNameCol" select="hcmc:getColOffsetFromCaption('Title')"/>
+              <xsl:variable name="titleCol" select="hcmc:getColOffsetFromCaption('Title')"/>
+              <xsl:variable name="addNameCol" select="hcmc:getColOffsetFromCaption('Additional Names')"/>
               <xsl:variable name="surnameCol" select="hcmc:getColOffsetFromCaption('Last Name')"/>
               <xsl:variable name="firstNameCol" select="hcmc:getColOffsetFromCaption('First Name')"/>
               <xsl:variable name="middleNameCol" select="hcmc:getColOffsetFromCaption('Middle Name')"/>
@@ -113,6 +114,7 @@
                             <forename><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$firstNameCol])"/></forename></xsl:if>
                             <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$middleNameCol])) gt 0"><forename><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$middleNameCol])"/></forename></xsl:if>
                             <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$addNameCol])) gt 0"><xsl:text> </xsl:text>(<addName><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$addNameCol])"/></addName>)</xsl:if>
+                            <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$titleCol])) gt 0"><xsl:text> </xsl:text>(<roleName><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$titleCol])"/></roleName>)</xsl:if>
                           </persName>
                           
 <!--        We get their "affiliation" (usually riding) for this row.                  -->

@@ -65,7 +65,7 @@
     <xsl:param name="allowUnspecified" as="xs:boolean"/>
     <valList type="closed">
       <xsl:if test="$allowUnspecified">
-        <valItem ident="unspecified">
+        <valItem ident="pers:UNSPECIFIED">
           <gloss>Use this value when you have not yet determined 
             the correct value. This value should be temporary.</gloss>
         </valItem>
