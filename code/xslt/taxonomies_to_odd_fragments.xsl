@@ -47,7 +47,7 @@
   
 <!-- Template for persName/@ref. -->
   <xsl:template match="elementSpec[@ident='persName']/attList/attDef[@ident='ref']/valList">
-    <xsl:sequence select="hcmc:listPersonToValList($personographyFile//listPerson, false())"/>
+    <xsl:sequence select="hcmc:listPersonToValList($personographyFile//listPerson, true())"/>
   </xsl:template>
   
   

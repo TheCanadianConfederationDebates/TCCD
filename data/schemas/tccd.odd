@@ -478,6 +478,10 @@ so Volume 2 by implication has finished. -->
                   <attList>
                      <attDef ident="ref" mode="replace">
                         <valList type="closed">
+                           <valItem ident="pers:UNSPECIFIED">
+                              <gloss>Use this value when you have not yet determined 
+            the correct value. This value should be temporary.</gloss>
+                           </valItem>
                            <valItem ident="pers:AKKA1">
                               <desc>AK-KA-QUIN-IASH; Akka-Kitcipimiw-Otas (Many Spotted Horses).  (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875); North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>

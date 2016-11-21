@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-11-21T22:00:32Z. 2016.
+Schema generated from ODD source 2016-11-21T22:06:35Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	21st November 2016, revision ee5c6b8
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -4409,6 +4409,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
+                  <value>pers:UNSPECIFIED</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Use this value when you have not yet determined 
+            the correct value. This value should be temporary.) </a:documentation>
                   <value>pers:AKKA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">AK-KA-QUIN-IASH; Akka-Kitcipimiw-Otas (Many Spotted Horses). (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875); North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:ANAW1</value>
