@@ -390,7 +390,7 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="alignRefAndType" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:name">
-                           <sch:assert test="(@type='legislature' and starts-with(@ref, 'lg:lg'))">
+                           <sch:assert test="matches(@ref, '^((lg:lg)|(UNSPECIFIED))') or not(@type='legislature')">
                       If this is a legislature name, it should have @type='legislature' and 
                       a suitable value for @ref, starting with 'lg:lg'.
                     </sch:assert>
@@ -401,6 +401,10 @@ so Volume 2 by implication has finished. -->
                      <attDef ident="ref" mode="replace" usage="req">
                         <gloss>links the name element to an entry in a taxonomy</gloss>
                         <valList type="closed">
+                           <valItem ident="UNSPECIFIED">
+                              <gloss>Use this value when you have not yet determined 
+                                 the correct value. This value should be temporary.</gloss>
+                           </valItem>
                            <valItem ident="lg:lgHC">
                               <gloss>The House of Commons</gloss>
                               <desc>The Canadian Federal House of Commons.</desc>
@@ -464,7 +468,7 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="constraintpersnameref" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:persName[not(parent::tei:person)]">
-                           <sch:assert test="matches(@ref, 'pers:[A-Z]{4}\d+')">
+                           <sch:assert test="matches(@ref, '^((pers:[A-Z]{4}\d+)|(UNSPECIFIED))')">
                               The @ref attribute value should start with 'pers:' and have the form
                               'pers:AAAA1' (four letters followed by a number).
                            </sch:assert>
@@ -474,7 +478,7 @@ so Volume 2 by implication has finished. -->
                   <attList>
                      <attDef ident="ref" mode="replace">
                         <valList type="closed">
-                           <valItem ident="pers:_UNSPECIFIED">
+                           <valItem ident="UNSPECIFIED">
                               <gloss>Use this value when you have not yet determined 
             the correct value. This value should be temporary.</gloss>
                            </valItem>
