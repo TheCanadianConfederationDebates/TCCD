@@ -5,9 +5,9 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-11-16T22:23:48Z. 2016.
+Schema generated from ODD source 2016-11-21T22:38:35Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
-	15th November 2016, revision 928e3df
+	21st November 2016, revision ee5c6b8
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
   
 --><!---->
@@ -64,34 +64,12 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
          </choice>
       </zeroOrMore>
    </define>
-   <define name="anyElement-macro.anyXML">
-      <element>
-         <anyName>
-            <except>
-               <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
-               <nsName ns="http://www.tei-c.org/ns/1.0"/>
-            </except>
-         </anyName>
-         <zeroOrMore>
-            <attribute>
-               <anyName/>
-            </attribute>
-         </zeroOrMore>
-         <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="anyElement-macro.anyXML"/>
-            </choice>
-         </zeroOrMore>
-      </element>
-   </define>
    <define name="anyElement-xenoData">
       <element>
          <anyName>
             <except>
                <nsName ns="http://www.tei-c.org/ns/1.0"/>
                <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
-               <nsName ns="http://www.tei-c.org/ns/Examples"/>
             </except>
          </anyName>
          <zeroOrMore>
@@ -1142,10 +1120,11 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    </define>
    <define name="model.linePart">
       <choice>
-         <ref name="model.segLike"/>
          <ref name="model.hiLike"/>
-         <ref name="model.pPart.transcriptional"/>
          <ref name="choice"/>
+         <ref name="add"/>
+         <ref name="del"/>
+         <ref name="unclear"/>
          <ref name="zone"/>
       </choice>
    </define>
@@ -2356,7 +2335,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:name">
-                           <sch:assert test="(@type='legislature' and starts-with(@ref, 'lg:lg'))">
+                           <sch:assert test="matches(@ref, '^((lg:lg)|(UNSPECIFIED))') or not(@type='legislature')">
                       If this is a legislature name, it should have @type='legislature' and 
                       a suitable value for @ref, starting with 'lg:lg'.
                     </sch:assert>
@@ -2368,9 +2347,9 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <attribute name="ref">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(links the name element to an entry in a taxonomy) </a:documentation>
             <choice>
-               <value>unspecified</value>
+               <value>UNSPECIFIED</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Use this value when you have not yet determined 
-                    the correct value. This value should be temporary.) </a:documentation>
+                                 the correct value. This value should be temporary.) </a:documentation>
                <value>lg:lgHC</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(The House of Commons) The Canadian Federal House of Commons.</a:documentation>
                <value>lg:lgPCLAssem</value>
@@ -3124,17 +3103,6 @@ Sample values include: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] sho
       
          </group>
          <ref name="att.global.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="type"
-                       a:defaultValue="text">
-               <a:documentation>specifies the kind of document to which the header is attached, for example whether it is a corpus or individual text.
-Sample values include: 1] text; 2] corpus</a:documentation>
-               <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
-               </data>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -4428,7 +4396,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName[not(parent::tei:person)]">
-                           <sch:assert test="matches(@ref, 'pers:[A-Z]{4}\d+')">
+                           <sch:assert test="matches(@ref, '^((pers:[A-Z]{4}\d+)|(UNSPECIFIED))')">
                               The @ref attribute value should start with 'pers:' and have the form
                               'pers:AAAA1' (four letters followed by a number).
                            </sch:assert>
@@ -4441,8 +4409,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
+                  <value>UNSPECIFIED</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Use this value when you have not yet determined 
+            the correct value. This value should be temporary.) </a:documentation>
                   <value>pers:AKKA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">AK-KA-QUIN-IASH. (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">AK-KA-QUIN-IASH; Akka-Kitcipimiw-Otas (Many Spotted Horses). (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875); North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:ANAW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ANA-WAY-WEE-TIN. (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
                   <value>pers:ASSH1</value>
@@ -4467,6 +4438,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aikins, James Cox. Home (1865).</a:documentation>
                   <value>pers:AITK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aitken, John. (1873); witness Treaty # 3. Location: signed where?. (1873).</a:documentation>
+                  <value>pers:AKAK1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Akak-Otos (Many Horses). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:AKKA2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Akka-Makkoye (Many Swans). North Piegan ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:ALCO1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Alcorn, George Oscar. Prince Edward (1905).</a:documentation>
                   <value>pers:ALEX1</value>
@@ -4495,6 +4470,14 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Annable, George Malcolm. Moose Jaw (1902).</a:documentation>
                   <value>pers:ANNA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Annand, William. Halifax County Eastern Division (1865); Halifax County Eastern Division (1866).</a:documentation>
+                  <value>pers:APAW3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Apaw-Onistaw (Weasel Calf). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:APAW2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Apaw-Stamix (Weasel Bull). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:APAW1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Apawawakosow (White Antelope). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:APEN1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Apenako-Sapop (Morning Plume). North Piegan ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:ARCH3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Archambault, Joseph Éloi. Berthier (1905).</a:documentation>
                   <value>pers:ARCH1</value>
@@ -4529,10 +4512,18 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ashton, Ashton. (1910); Witness Treaty # 5. Location: Fort Churchill. (1910).</a:documentation>
                   <value>pers:ATKI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Atkinson, Joseph. (1875); Councillor Treaty # 5. Location: the Grand Rapids. (1875).</a:documentation>
+                  <value>pers:ATTI2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Attista-Haes (Rabbit Carrier). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:ATTI1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Attistah-MacAn (Running Rabbit). North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:AULT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ault, Samuel. Stormont (1867); Stormont (1872).</a:documentation>
+                  <value>pers:AUTR1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Autrobus, W. D. (1877); witness; Sub Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:AVER1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Avery, Melzar. Frontenac (1905).</a:documentation>
+                  <value>pers:AYES1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aye-Stipis-Simat (Heavily Whipped). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:AYLE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aylesworth, Allen Bristol (Sir). York North (1905).</a:documentation>
                   <value>pers:AYLE2</value>
@@ -4573,6 +4564,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Barnes, William M. Bonavista Bay (1869).</a:documentation>
                   <value>pers:BARR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Barr, John. Dufferin (1905).</a:documentation>
+                  <value>pers:BARR4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Barrett, E. A. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:BARR2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Barrett, Theobald Butler. Norfolk (1949).</a:documentation>
                   <value>pers:BARR3</value>
@@ -4583,6 +4576,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Baylis, R. L. (1910); Witness Treaty # 5. Location: York Factory. (1910).</a:documentation>
                   <value>pers:BEAR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Beardy, Peter. (1875); Chief Treaty # 5. Location: the Grand Rapids. (1875).</a:documentation>
+                  <value>pers:BEAR2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Beardy, Robert. (1910); Councillor Treaty # 5. Location: York Factory. (1910).</a:documentation>
+                  <value>pers:BEAR3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Beardy, Sandy. (1910); Councillor? Treaty # 5. Location: York Factory. (1910).</a:documentation>
                   <value>pers:BEAT3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Beaton, Donald. 1st Kings (1863).</a:documentation>
                   <value>pers:BEAT2</value>
@@ -4672,7 +4669,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BIRD1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bird, Curtis James (Dr.). St. Paul’s (1870); St. Paul’s (1870).</a:documentation>
                   <value>pers:BIRD2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bird, James. (1876); chief? Treaty # 5. Location: Winnipeg. (1876).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bird, James. (1876); chief? Treaty # 5. Location: Winnipeg. (1876); (1877); Interpreter Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:BIRS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Birston, Magnus. Baie St. Paul (1870).</a:documentation>
                   <value>pers:BLAC1</value>
@@ -4711,6 +4708,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bland, Leonard Thomas. Bruce North (1905).</a:documentation>
                   <value>pers:BODW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bodwell, Ebenezer Vining. Oxford South (1867); Oxford South (1872).</a:documentation>
+                  <value>pers:BOGG1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bogg, Thos J. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:BOIV1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boivin, Marcel. Shefford (1949).</a:documentation>
                   <value>pers:BOLE1</value>
@@ -4858,7 +4857,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:CAND1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CANDA-COM-IGO-WE-NINIE. North-West Angle (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:CAUA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CAU-AH-HA-CHA-PEW, Making Ready The Bow. South side of the South Branch of the Saskatchewan (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CAU-AH-HA-CHA-PEW (Making Ready The Bow). South side of the South Branch of the Saskatchewan (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:CAIE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Caie, William Shand. Kent (1865).</a:documentation>
                   <value>pers:CALD2</value>
@@ -4957,6 +4956,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chatelaine, Nicholas. (1873); witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873); (1874); witness Treaty # 3. Location: Lac Seul. (1874); RAINY RIVER AND LAKE {on behalf of Half-breeds} (1875); interpreter Treaty # 3. Location: Fort Francis. (1875).</a:documentation>
                   <value>pers:CHAU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chauveau, Pierre-Joseph-Olivier. Quebec County (1867); Quebec County (1872).</a:documentation>
+                  <value>pers:CHEN1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Che-Ne-Ka, John. Stony (1877); Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:CHEE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chee. (1875); Chief Treaty # 4. Location: Qu'Appelle Lakes. (1875).</a:documentation>
                   <value>pers:CHEV1</value>
@@ -4995,6 +4996,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cimon, Simon-Xavier. Charlevoix (1867); Charlevoix (1872).</a:documentation>
                   <value>pers:CLAR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Clare, George Adam. Waterloo South (1905).</a:documentation>
+                  <value>pers:CLAR5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Clark, E. Dalrymple. (1877); witness; Lieut &amp; Adjutant N.W.M.P. Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877); (1877); witness; Lieutenant and Adjutant N.W.M.P. Treaty # 7. Location: Fort MacLeod. (1877).</a:documentation>
                   <value>pers:CLAR2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Clark, Stuart Murray. Essex South (1949).</a:documentation>
                   <value>pers:CLAR3</value>
@@ -5043,6 +5046,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Connell, Charles. Carleton (1865); Carleton (1867); Carleton (1872).</a:documentation>
                   <value>pers:CONN2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Connell, John Wesley. Souris (1898); Souris (1902).</a:documentation>
+                  <value>pers:CONR2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Conrad, Charles E. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877); (1877); witness Treaty # 7. Location: Fort MacLeod. (1877).</a:documentation>
                   <value>pers:CONR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Conroy, Nicholas. 1st Prince (1863).</a:documentation>
                   <value>pers:CONS2</value>
@@ -5089,6 +5094,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crawford, John. Portage la Prairie (1905).</a:documentation>
                   <value>pers:CRAW2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crawford, John Willoughby. Leeds South (1867); Leeds South (1872).</a:documentation>
+                  <value>pers:CRAW4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crawlor, George. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:CRAZ1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crazy, Thomas. (1910); Councillor Treaty # 5. Location: Fort Churchill. (1910).</a:documentation>
                   <value>pers:CREA1</value>
@@ -5109,6 +5116,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cross, Alfred Ernest. East Calgary (1898).</a:documentation>
                   <value>pers:CROW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crowe, Chas. S. (1875); witness Treaty # 3. Location: Fort Francis. (1875).</a:documentation>
+                  <value>pers:CROZ1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crozier, L. N. F. (1877); witness; Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:CRUI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cruickshank, George Alexander. Fraser Valley (1949).</a:documentation>
                   <value>pers:CRUM1</value>
@@ -5187,6 +5196,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Demers, Léopold. Laval—Two Mountains (1949).</a:documentation>
                   <value>pers:DEME4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Demers, Marie Joseph. St. Johns—Iberville (1906).</a:documentation>
+                  <value>pers:DENI3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dening, C. E. (1877); witness; Sub Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:DENI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Denis, Azellus. St. Denis (1949).</a:documentation>
                   <value>pers:DENI2</value>
@@ -5227,6 +5238,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dill, James Peers. Wolseley (1894).</a:documentation>
                   <value>pers:DION1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dionne, Ludger. Beauce (1949).</a:documentation>
+                  <value>pers:DIXO1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dixon, James. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:DOBB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dobbie, Thomas William. Elgin East (1867); Elgin East (1872).</a:documentation>
                   <value>pers:DORI1</value>
@@ -5269,12 +5282,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dyment, Albert Edward. Algoma East (1905).</a:documentation>
                   <value>pers:EAKI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Eakin, William. Saltcoats (1894); Saltcoats (1898).</a:documentation>
+                  <value>pers:EKAS1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ekas-Kine (Low Horn). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:ELLI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Elliott, William. Wolseley (1898); Wolseley (1902).</a:documentation>
                   <value>pers:ELSO1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Elson, Peter. Middlesex East (1905).</a:documentation>
                   <value>pers:EMER1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Emerson, Prescott. Burgeo-La Poile (1869).</a:documentation>
+                  <value>pers:EMIT1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Emitah-Apiskinne (White Striped Dog). Stony (1877); Chief? councillor? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:EMME1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Emmerson, Henry Robert; Emmerson, Henry Read. Westmoreland (1905); Westmorland (1949).</a:documentation>
                   <value>pers:EUDE1</value>
@@ -5366,7 +5383,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:FOX1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fox, Charles George. (1908); witness; Missionary-Anglican Treaty # 5. Location: Nelson House. (1908).</a:documentation>
                   <value>pers:FRAN1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">François, Broken Fingers. Waterhen River and Crane River and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">François (Broken Fingers). Waterhen River and Crane River and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</a:documentation>
                   <value>pers:FRAS2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fraser, Donald. Pictou County West Division (1866).</a:documentation>
                   <value>pers:FRAS3</value>
@@ -5401,6 +5418,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gariépy, Wilfrid. Three Rivers (1949).</a:documentation>
                   <value>pers:GARR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Garrioch, William. St. Mary’s Laprairie (1870).</a:documentation>
+                  <value>pers:GARR3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Garriock, George. Norway House region - Band of Wood (1875); Councillor Treaty # 5. Location: Norway House. (1875).</a:documentation>
                   <value>pers:GARR2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Garriogh, Flora. (1874); witness Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:GARS1</value>
@@ -5537,6 +5556,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanrahan, Edmund. Carbonear (1861).</a:documentation>
                   <value>pers:HANS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hansell, Ernest George. Macleod (1949).</a:documentation>
+                  <value>pers:HARD1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hardisty, E. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:HARK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Harkness, Douglas Scott. Calgary East (1949).</a:documentation>
                   <value>pers:HARR6</value>
@@ -5556,7 +5577,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:HART2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Harty, William. Kingston (1905).</a:documentation>
                   <value>pers:HART3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Harwood, Antoine Chartier De Lotbinière. Vaudreuil (1865).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Harwood, Antoine Chartier De Lotbinière; Hart, Murdoch. Vaudreuil (1865); (1908); Councillor Treaty # 5. Location: Nelson House. (1908).</a:documentation>
                   <value>pers:HASL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Haslam, William. 1st Queens (1863).</a:documentation>
                   <value>pers:HASS1</value>
@@ -5696,11 +5717,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:INSI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Insinger, Fredrick Robert. Yorkton (1894).</a:documentation>
                   <value>pers:IRVI3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Irvine, A. G. (1871); witness, major Treaty # 1. Location: Lower Fort Garry. (1871).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Irvine, A. G. (1871); witness, major Treaty # 1. Location: Lower Fort Garry. (1871); (1877); witness; Ass't. Com., N.W.M.P. Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877); (1877); witness; Assistant Commissioner Treaty # 7. Location: Fort MacLeod. (1877).</a:documentation>
                   <value>pers:IRVI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Irvine, George. Mégantic (1867); Mégantic (1872).</a:documentation>
                   <value>pers:IRVI2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Irvine, William. Cariboo (1949).</a:documentation>
+                  <value>pers:ISAP1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Isapo-Muxika (Crowfoot Or Pied De Corbeau). South Blackfeet (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:ISBE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Isbester, Charles B. (1909); witness Treaty # 5. Location: Island Lake. (1909).</a:documentation>
                   <value>pers:ISBE1</value>
@@ -5760,33 +5783,35 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:KACH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-CHA-CHUCK-OOS. "Moose Lake" Band (1876); Councillor Treaty # 5. Location: the Pas on the Saskatchewan River. (1876).</a:documentation>
                   <value>pers:KAKE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KE-KA-PENAIS, Bird For Ever / William Pennefather. (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KE-KA-PENAIS (Bird For Ever, William Pennefather). (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</a:documentation>
+                  <value>pers:KAKE2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KE-KA-PENAIS (Bird For Ever, William Pennefather). (1875); chief Treaty # 1. Location: signed near Fort Alexander, on the Indian Reserve. (1875).</a:documentation>
                   <value>pers:KAKE3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KEE-NA-WUP, One That Sits Like An Eagle. Upper Qu'Appelle Lakes (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KEE-NA-WUP (One That Sits Like An Eagle). Upper Qu'Appelle Lakes (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:KAKI1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KI-SHI-WAY, Loud Voice. Qu'Appelle River (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KI-SHI-WAY (Loud Voice). Qu'Appelle River (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:KAKI2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KU-WIS-TA-HAW, Him That Flies Around. towards the Cypress Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-KU-WIS-TA-HAW (Him That Flies Around). towards the Cypress Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:KAMO1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-MO-TI-ASH. White Fish Lake (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:KANE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-NE-ON-US-KA-TEW, One That Walks On Four Claws. Little Touchwood Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-NE-ON-US-KA-TEW (One That Walks On Four Claws). Little Touchwood Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:KATA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-TAH-KAK-WA-NA-YAAS. representing Water Hen Band (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
                   <value>pers:KATU1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-TUK-E-PIN-AIS, Hardisty. Big Island (1876); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-TUK-E-PIN-AIS (Hardisty). Big Island (1876); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</a:documentation>
                   <value>pers:KAWA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-WA-CA-TOOSE, The Poor Man. Touchwood Hills and Qu'Appelle Lakes (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KA-WA-CA-TOOSE (The Poor Man). Touchwood Hills and Qu'Appelle Lakes (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:KAHK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-KEE-Y-ASH. Flower Lake (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:KAHN2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-NAH-WAH-KEE-WEE-NIN, Antoine Gouin. Beren's River region (1875); Councillor Treaty # 5. Location: Beren's River. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-NAH-WAH-KEE-WEE-NIN (Antoine Gouin). Beren's River region (1875); Councillor Treaty # 5. Location: Beren's River. (1875).</a:documentation>
                   <value>pers:KAHN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-NEE-QUA-NASH. representing Ebb and Flow Lake {formerly Crane River} (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
                   <value>pers:KAHT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-TAY-TAY-PA-E-CUTCH. Lake of the Woods (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:KEWE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KE-WE-TAY-ASH, Flying Round; KE-WE-SAY-ASH, Flying Round. (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); (1875); Chief Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KE-WE-TAY-ASH (Flying Round). (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); (1875); Chief Treaty # 1. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
                   <value>pers:KEEJ1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KEE-JEE-GO-KAY. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:KEES2</value>
@@ -5796,17 +5821,15 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:KEKT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KEE-TA-KAY-PI-NAIS. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:KIIS1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KII-SI-CAW-AH-CHUCK, Day-Star. South side of the South Branch of the Saskatchewan (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KII-SI-CAW-AH-CHUCK (Day-Star). South side of the South Branch of the Saskatchewan (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:KITC3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KITCHI-KAH-ME-WIN. (1875); chief Treaty # 4. Location: Qu'Appelle Lakes. (1875).</a:documentation>
                   <value>pers:KITC2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KITCHI-NE-KA-LE-HAN. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:KUSK1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KUS-KEE-TEW-MUS-COO-MUS-QUA, Little Black Bear. Cypress Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KUS-KEE-TEW-MUS-COO-MUS-QUA (Little Black Bear). Cypress Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:KAWE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ka-Wey-Ance, The Little Boy. Leech Lake (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
-                  <value>pers:KAKE2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kakekepenais, William Pennefather. (1875); chief Treaty # 1. Location: signed near Fort Alexander, on the Indian Reserve. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ka-Wey-Ance (The Little Boy). Leech Lake (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:KAUL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kaulback, Henry Adolphus Newman. Lunenburg County (1866).</a:documentation>
                   <value>pers:KAVA1</value>
@@ -5815,8 +5838,18 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kay-Payahsinisk. (1875); ? Treaty # 1 &amp;/or 2. Location: Broken Head River. (1875).</a:documentation>
                   <value>pers:KAYE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kaye, David. 4th Kings (1863).</a:documentation>
+                  <value>pers:KAYE2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kaye-Tapo (Going To Bear). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:KAYO1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kayo-Okosis (Bear Shield). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:KEAR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kearney, Michael Condon. Ferryland (1865).</a:documentation>
+                  <value>pers:KECH1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Keche-Kesik, Wm. (Wm. Keche-Kesik). (1908); Chief? Treaty # 5. Location: Split Lake. (1908).</a:documentation>
+                  <value>pers:KECH2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kechepwot, Abraham. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:KECH3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kechepwot, Patrick. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:KEEL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Keeler, Joseph. Northumberland East (1867); Northumberland East (1872).</a:documentation>
                   <value>pers:KELL1</value>
@@ -5845,6 +5878,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Keough, William Joseph. St. George's (1946).</a:documentation>
                   <value>pers:KERR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kerr, George. Northumberland (1865).</a:documentation>
+                  <value>pers:KICH1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ki-Chi-Pwot, Jacob. Stony (1877); Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:KICK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kickham, Edward. 2nd Kings (1867).</a:documentation>
                   <value>pers:KIDD1</value>
@@ -5871,6 +5906,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kirkpatrick, George Airey (Sir). Frontenac (1870); Frontenac (1872).</a:documentation>
                   <value>pers:KIRK3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kirkpatrick, Thomas. Frontenac (1867).</a:documentation>
+                  <value>pers:KISS1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kissoum (Day Light). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:KITC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kitchi-Gay-Kake. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:KITT1</value>
@@ -5908,7 +5945,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:LAIR2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Laird, David. 4th Queens (1872); 4th Queens (1873).</a:documentation>
                   <value>pers:LAIR4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Laird, David. (1874); Indian Commissioner, Esquire Treaty # 4. Location: Qu'Appelle. (1874); (1874); Indian Commissioner, Esquire Treaty # 4. Location: Fort Ellice. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Laird, David. (1874); Indian Commissioner, Esquire Treaty # 4. Location: Qu'Appelle. (1874); (1874); Indian Commissioner, Esquire Treaty # 4. Location: Fort Ellice. (1874); (1877); Lieutenant-Governor of North-West Territories, and Special Indian Commissioner Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:LAIR3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Laird, George. 4th Queens (1872).</a:documentation>
                   <value>pers:LAKE1</value>
@@ -6051,6 +6088,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Léonard, Joseph-Édouard-Émile. Laval (1905).</a:documentation>
                   <value>pers:LEPI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lépine, Ambroise-Dydime. St. Boniface (1870); St. Vital (1870).</a:documentation>
+                  <value>pers:LHEU1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">L’heureux, Jean. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:MAIK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MA-IK-WUH-E-HA-POW. "Moose Lake" Band (1876); Councillor Treaty # 5. Location: the Pas on the Saskatchewan River. (1876).</a:documentation>
                   <value>pers:MAKO1</value>
@@ -6058,17 +6097,21 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MAMA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MA-MAH-TAK-CUM-E-CUP. (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
                   <value>pers:MANA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MA-NA-WA-NANAN, Centre Of Bird’s Tail. (1875); Chief Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MA-NA-WA-NANAN (Centre Of Bird’s Tail). (1875); Chief Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
                   <value>pers:MASA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MA-SAH-KEE-YASH, He Who Flies To The Bottom; MA-SAH-KEE-YASH. Fairford and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871); representing Fairford Prairie (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MA-SAH-KEE-YASH (He Who Flies To The Bottom); MA-SAH-KEE-YASH. Fairford and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871); representing Fairford Prairie (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
                   <value>pers:MATW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MA-TWA-KA-KEE-TOOT. representing St. Peter's Band (1875); Councillor ? Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
+                  <value>pers:MASG1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MAS-GWA-AH-SID (Bear’s Paw). Stony (1877); Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:MAWE1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MAWE-DO-PE-NAIS. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:MAYN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MAY-NO-WAH-TAW-WAYS-KUNG. North-West Angle (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:META1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ME-TAS-SO-QUE-NE-SKANK. (1873); Chief Treaty # 3. Location: signed where?. (1873).</a:documentation>
                   <value>pers:MISK1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MIS-KOO-KEE-NEW, Red Eagle Henry Prince; MIS-KOO-KEE-NEW, Red Eagle. (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); representing St. Peter's Band (1875); chief Treaty # 1. Location: signed where?. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MIS-KOO-KEE-NEW (Red Eagle, Henry Prince). (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); representing St. Peter's Band (1875); chief Treaty # 1. Location: signed where?. (1875).</a:documentation>
                   <value>pers:MUKA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MUKA-DAY-WAH-SIN. Kettle Falls (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:MACA1</value>
@@ -6093,6 +6136,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacLean, James R. 1st Kings (1869); 1st Kings (1871); 1st Kings (1872); 1st Kings (1873).</a:documentation>
                   <value>pers:MACL3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacLean, Matthew. Cape Breton North—Victoria (1949).</a:documentation>
+                  <value>pers:MACL7</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacLeod, James F.; MacLeod, James Farquharson. (1877); Lieut.-Colonel, Com. N.W.M.P., and Special Indian Commissioner Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877); (1877); Special Indian Commissioner; Lieut. Col. C.M.G., Commissioner of the Mounted Police Treaty # 7. Location: Fort MacLeod. (1877).</a:documentation>
+                  <value>pers:MACL6</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacLeod, Mary J. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:MACN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacNaught, John Watson. Prince (1949).</a:documentation>
                   <value>pers:MACN2</value>
@@ -6141,6 +6188,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Maineetainequire. Lac Seul, Seul, Trout and Sturgeon Lakes (1874); Councillor Treaty # 3. Location: Lac Seul. (1874).</a:documentation>
                   <value>pers:MAJO1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Major, Charles Beautron. Labelle (1907).</a:documentation>
+                  <value>pers:MAKO2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Makoye-Kin (Wolf Collar). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:MALO3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Maloney, Daniel. St. Albert (1894); St. Albert (1902).</a:documentation>
                   <value>pers:MALO1</value>
@@ -6187,6 +6236,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Masson, Louis-Rodrigue. Terrebonne (1867); Terrebonne (1872).</a:documentation>
                   <value>pers:MASS3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Masson, Luc-Hyacinthe. Soulanges (1867); Soulanges (1872).</a:documentation>
+                  <value>pers:MAST1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Maste-Pitah (Crow Eagle). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:MATA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Matapi-Komotziw (Captive Or Stolen Person). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:MATH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Matheson, Alex. (1875); witness Treaty # 5. Location: the Grand Rapids. (1875).</a:documentation>
                   <value>pers:MATT1</value>
@@ -6279,6 +6332,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDonald, Wilfred (bucko) Kennedy. Parry Sound (1949).</a:documentation>
                   <value>pers:MCDO6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDonnell, Samuel. Inverness County (1866).</a:documentation>
+                  <value>pers:MCDO18</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDougall, A. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:MCDO19</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDougall, J. (1877); witness; Missionary Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:MCDO7</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDougall, John Lorn. Renfrew South (1869); Renfrew South (1872).</a:documentation>
                   <value>pers:MCDO8</value>
@@ -6411,12 +6468,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Me-Pie-Sies. Rainy Lake, Fort Frances (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:MEAH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Meahan, John. Gloucester (1865).</a:documentation>
+                  <value>pers:MEAN1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Meanxkistomach (Three Bulls). Blackfoot (1877); Chief Treaty # 7. Location: Fort MacLeod. (1877).</a:documentation>
                   <value>pers:MEEM1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mee-May, The Pigeon (gabriel Coté). Fort Pelly (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mee-May (The Pigeon (gabriel Coté)). Fort Pelly (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:MEIG1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Meigs, Daniel Bishop. Missisquoi (1905).</a:documentation>
+                  <value>pers:MEKA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mekasto (Mékaisto (red Crow, Also Known As Captured The Gun Inside, Lately Gone, Sitting White Buffalo, And John Mikahestow)). South Blood (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:MEKI1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mekis, The Eagle, Or Giroux. Riding Mountains and Dauphin Lake and the remainder of the territory hereby ceded (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mekis (The Eagle, Or Giroux). Riding Mountains and Dauphin Lake and the remainder of the territory hereby ceded (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</a:documentation>
                   <value>pers:MELV1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Melville, James. (1910); Witness; MACOUN Treaty # 5. Location: Fort Churchill. (1910).</a:documentation>
                   <value>pers:MENA1</value>
@@ -6471,6 +6532,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moore, Philip Henry. Lower Canada (1865).</a:documentation>
                   <value>pers:MOOR2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moore, Ronald Stewart. Churchill (1949).</a:documentation>
+                  <value>pers:MOOS1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moose, Peter. (1908); Chief Treaty # 5. Location: Nelson House. (1908).</a:documentation>
                   <value>pers:MORI2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Morin, Jean-Baptiste. Dorchester (1905).</a:documentation>
                   <value>pers:MORI1</value>
@@ -6479,6 +6542,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Morris, Alex.; Morris, Alexander; Morris, Alex. (1873); Lieutenant-Governor of the Province of Manitoba and the North-west Territories Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873); (1873); Lieutenant Governor Treaty # 3. Location: signed where?. (1873); (1874); Lt.-Gov. North-West Territories Treaty # 4. Location: Qu'Appelle. (1874); (1874); Lt.-Gov. North-West Territories Treaty # 4. Location: Fort Ellice. (1874); (1875); Lieutenant-Governor of the Province of Manitoba and the North-west Territories Treaty # 5. Location: Beren's River. (1875); (1875); Lieutenant-Governor of the Province of Manitoba and the North-west Territories Treaty # 5. Location: Norway House. (1875); (1875); L.G. Treaty # 5. Location: the Grand Rapids. (1875).</a:documentation>
                   <value>pers:MORR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Morris, Alexander; Morris, Alex. Lanark South (1865); Lanark South (1867); Lanark South (1872); (1875); witness, L.G. Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
+                  <value>pers:MORR6</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Morris, Charles. (1908); Councillor? Treaty # 5. Location: Split Lake. (1908).</a:documentation>
                   <value>pers:MORR3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Morris, Christine V. K.; Morris, Christine; Morris, Christine V. K. (1873); witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873); (1875); witness Treaty # 5. Location: Beren's River. (1875); (1875); witness Treaty # 5. Location: Norway House. (1875); (1875); witness Treaty # 5. Location: the Grand Rapids. (1875).</a:documentation>
                   <value>pers:MORR5</value>
@@ -6487,6 +6552,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Morrison, Angus. Niagara (1867); Niagara (1872).</a:documentation>
                   <value>pers:MOWA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mowat, Daniel. South Regina (1894).</a:documentation>
+                  <value>pers:MOYA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moy-Any-Men, George. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:MUCK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Muckle, A. M. (1876); witness; J.P. Treaty # 5. Location: the Pas on the Saskatchewan River. (1876); (1876); witness, J.P. Treaty # 5. Location: the Beren's River. (1876); (1876); witness; J.P. Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</a:documentation>
                   <value>pers:MUIR2</value>
@@ -6510,19 +6577,19 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MUTC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mutch, Leslie Alexander. Winnipeg South (1949).</a:documentation>
                   <value>pers:NAHA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NA-HA-WA-NANAN, Centre Of Bird’s Tail. (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NA-HA-WA-NANAN (Centre Of Bird’s Tail). (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</a:documentation>
                   <value>pers:NAKA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NA-KA-NA-WA-TANG. representing East-Manitoba or Elm Point (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
                   <value>pers:NASH1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NA-SHA-KE-PENNAIS, Flying Down Bird; Nashakepenais. (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); (1875); chief Treaty # 1. Location: Broken Head River. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NA-SHA-KE-PENNAIS (Flying Down Bird); Nashakepenais. (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); (1875); chief Treaty # 1. Location: Broken Head River. (1875).</a:documentation>
                   <value>pers:NAHK2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NAH-KEE-QUAN-NAY-YASH. Beren's River region (1875); Councillor Treaty # 5. Location: Beren's River. (1875).</a:documentation>
                   <value>pers:NAHW1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NAH-WEE-KEE-SICK-QUAH-YASH, Jacob Berens. Beren's River region (1875); Chief Treaty # 5. Location: Beren's River. (1875); (1876); Chief Treaty # 5. Location: the Beren's River. (1876).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NAH-WEE-KEE-SICK-QUAH-YASH (Jacob Berens). Beren's River region (1875); Chief Treaty # 5. Location: Beren's River. (1875); (1876); Chief Treaty # 5. Location: the Beren's River. (1876).</a:documentation>
                   <value>pers:NATT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NAT-TEE-KEE-GET. (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
-                  <value>pers:NAWE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NAWE-DO-PE-NESS. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
+                  <value>pers:NETA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NETAH-KITEI-PI-MEW (Only Spot). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:NOTE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NO-TE-NA-QUA-HUNG. North-West Angle (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:NUNA1</value>
@@ -6535,6 +6602,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Natawayo, James. (1909); Councillor, H.S.S. Treaty # 5. Location: Oxford House. (1909).</a:documentation>
                   <value>pers:NATH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nathan, Henry. Victoria (1871); Victoria (1872).</a:documentation>
+                  <value>pers:NATO1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Natos-Api (Old Sun Or Sun Old Man, Also Known As White Shell Old Man). North Blackfeet (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:NATO2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Natose-Onista (Medicine Calf Or Button Chief). South Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:NAYW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Naywaheheekeegik. (1875); ? Treaty # 1 &amp;/or 2. Location: Broken Head River. (1875).</a:documentation>
                   <value>pers:NEPI1</value>
@@ -6565,6 +6636,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nolin, Joseph. (1873); witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:NOON1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Noonan, James L. Bonavista Bay (1869).</a:documentation>
+                  <value>pers:NORM1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Norman, Frank. (1877); witness; Staff Constable Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:NORQ1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Norquay, John. St. Margaret’s (1870).</a:documentation>
                   <value>pers:NORT2</value>
@@ -6586,13 +6659,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:OOZA2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OO-ZA-WASK-OO-QUIN-APE, Yellow Quill. (1876); chief? Treaty # 4. Location: Fort Pelly. (1876).</a:documentation>
                   <value>pers:OOZA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OO-ZA-WE-KWUN, Yellow Quill. (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OO-ZA-WE-KWUN (Yellow Quill). (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</a:documentation>
                   <value>pers:OOSC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OOS-CON-NA-GEITH. Rainy Lake (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
                   <value>pers:OSAH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OSAH-WEE-KA-KAY. (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
                   <value>pers:OTAM1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OTA-MA-KOO-EWIN, The Man Who Stands On The Earth. (1874); Headman Treaty # 4. Location: Fort Ellice. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OTA-MA-KOO-EWIN (The Man Who Stands On The Earth). (1874); Headman Treaty # 4. Location: Fort Ellice. (1874).</a:documentation>
                   <value>pers:OWTA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OW-TAH-PEE-KA-KAW. (1875); chief Treaty # 4. Location: Swan Lake. (1875).</a:documentation>
                   <value>pers:OAKL1</value>
@@ -6609,6 +6682,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Olivier, Louis Auguste. Lanaudière (1865).</a:documentation>
                   <value>pers:OLON1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Olone, Hugh F. Winnipeg (1870).</a:documentation>
+                  <value>pers:OMAK1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Omaksi Sapop (Big Plume). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:ONIS2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Onistah (Calf Robe). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:ONIS1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Onistah-Pokah (White Calf). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:OSAY1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Osays-Koo-Koon. (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
                   <value>pers:OSLE1</value>
@@ -6644,7 +6723,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:PAGE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pagé, François-Xavier. St. François-Xavier (1870); St. François-Xavier (1870).</a:documentation>
                   <value>pers:PAPA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Papa-Sko-Gin; PA-PA-WE-GUN-WA-TAK. Rainy River (1873); Chief ? Treaty # 3. (1873); representing East-Manitoba or Elm Point (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Papa-Sko-Gin; PA-PA-WE-GUN-WA-TAK. Rainy River (1873); Chief ? Treaty # 3. Location: signed ?. (1873); representing East-Manitoba or Elm Point (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
                   <value>pers:PAQU2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Paquet, Eugène. L'Islet (1905).</a:documentation>
                   <value>pers:PARD1</value>
@@ -6696,7 +6775,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:PERR3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Perry, Stanislaus Francis. 1st Prince (1871); 1st Prince (1872); 1st Prince (1873).</a:documentation>
                   <value>pers:PETA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Petanaquage, Henry Vane. (1875); Councillor ? Treaty # 1 &amp;/or 2. Location: signed near Fort Alexander, on the Indian Reserve. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Petanaquage (Henry Vane). (1875); Councillor ? Treaty # 1 &amp;/or 2. Location: signed near Fort Alexander, on the Indian Reserve. (1875).</a:documentation>
                   <value>pers:PICH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Piché, Camille. St. Mary (1905).</a:documentation>
                   <value>pers:PICK1</value>
@@ -6708,9 +6787,23 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:PINS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pinsonneault, Alfred. Laprairie (1867); Laprairie (1872).</a:documentation>
                   <value>pers:PISQ1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pis-Qua, The Plain. Leech Lake (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pis-Qua (The Plain). Leech Lake (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:PISE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pisequinip, Charles. Norway House region (1875); Councillor Treaty # 5. Location: Norway House. (1875).</a:documentation>
+                  <value>pers:PITA6</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pitah (Eagle). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:PITA3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pitah-Annes (Eagle Robe). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:PITA7</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pitah-Onistah (Eagle White Calf). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:PITA4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pitah-Otiskin (Eagle Shoe). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:PITA2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pitah-Otocan (Eagle Head). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:PITA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pitah-Pekis (Eagle Rib). North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:PITA5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pitah-Siksinum (White Eagle). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:PITH2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pither, R. J. N. (1874); Indian Agent Treaty # 3. Location: Lac Seul. (1874).</a:documentation>
                   <value>pers:PITH1</value>
@@ -6719,6 +6812,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Poitras, Pierre. St. François-Xavier (1870); Baie St. Paul and Prairie du Cheval Blanc (1870); (1874); witness Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:POIT2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Poitron, Jos. (1874); witness Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <value>pers:POKA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pokapiw-Otoian (Bad Head). South Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:PONO1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ponokah-Stamix (Bull Elk). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:POPE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pope, James Colledge. 4th Prince (1863); 4th Prince (1871); Charlottetown (1872); Charlottetown (1873).</a:documentation>
                   <value>pers:POPE1</value>
@@ -6727,6 +6824,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pope, William Henry. 4th Queens (1863).</a:documentation>
                   <value>pers:PORT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Porter, Edward Guss. Hastings West (1905).</a:documentation>
+                  <value>pers:POTT1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Potts, Jerry (Also Known As Ky-Yo-Kosi, Meaning Bear Child). (1877); interpreter Treaty # 7. Location: Fort MacLeod. (1877).</a:documentation>
                   <value>pers:POUL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pouliot, Barthélemy. L'Islet (1867); L'Islet (1872).</a:documentation>
                   <value>pers:POUL2</value>
@@ -6898,11 +6997,15 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SAKA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SA-KA-CHE-WAYAS. Blood Vein River (1876); Chief Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</a:documentation>
                   <value>pers:SANG1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SANG-GWA-WA-KA-POW, James Sinclair. Jack Head (1876); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SANG-GWA-WA-KA-POW (James Sinclair). Jack Head (1876); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</a:documentation>
                   <value>pers:SHAW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHAW-WIN-NA-BI-NAIS. Shoal Lake (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
+                  <value>pers:STAM3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">STAMIXO-TA-KA-PIW (Bull Turn Round). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:SAHK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sah-Katch-Eway. Lake Seul (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
+                  <value>pers:SAKO1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sakoye-Aotan (Heavy Shield). Middle Blackfeet (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:SANB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sanborn, John Sewell. Wellington (1865).</a:documentation>
                   <value>pers:SAND1</value>
@@ -6931,6 +7034,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Schultz, John Christian (Sir). Lisgar (1871); Lisgar (1872).</a:documentation>
                   <value>pers:SCOB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Scoble, John. West Elgin (1865).</a:documentation>
+                  <value>pers:SCOL1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Scollen, Constantine. (1877); witness; Priest Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:SCOT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Scott, Alfred Henry. Winnipeg (1870); Winnipeg (1870).</a:documentation>
                   <value>pers:SCOT2</value>
@@ -6969,12 +7074,18 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shea, Edward Dalton (Sir). Ferryland (1861).</a:documentation>
                   <value>pers:SHER1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shera, John William. Victoria (1898); Victoria (1902).</a:documentation>
+                  <value>pers:SHUR1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shurtliff, A. (1877); witness; Sub Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:SHUR2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shurtliff, Julia. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:SIFT2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sifton, Arthur Lewis Watkins. Banff (1902).</a:documentation>
                   <value>pers:SIFT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sifton, Clifford (Sir). Brandon (1905).</a:documentation>
                   <value>pers:SIMA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Simard, Georges-Honoré. Quebec Centre (1867); Quebec Centre (1872).</a:documentation>
+                  <value>pers:SIMO1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Simon, Big. (1909); Councillor Treaty # 5. Location: God's Lake. (1909).</a:documentation>
                   <value>pers:SIMP1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Simpson, John; Simpson, John A. Queen’s (1865); Red Deer (1894); Red Deer (1898); Innisfail (1902).</a:documentation>
                   <value>pers:SIMP2</value>
@@ -7021,10 +7132,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Snider, George. Grey North (1867); Grey North (1872).</a:documentation>
                   <value>pers:SONS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Son-Sonse. representing East-Manitoba or Elm Point (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
+                  <value>pers:SOTE1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sotenah (Rainy Chief). North Blood (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:SOUS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sou-Sonce. Swan Creek and Lake Manitoba (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</a:documentation>
+                  <value>pers:SPEN6</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spence, Albert. (1908); Councillor? Treaty # 5. Location: Split Lake. (1908).</a:documentation>
                   <value>pers:SPEN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spence, David. St. Anne's (1870).</a:documentation>
+                  <value>pers:SPEN5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spence, James. (1908); Councillor Treaty # 5. Location: Nelson House. (1908).</a:documentation>
                   <value>pers:SPEN2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spence, Thomas. St. Peter’s (1870).</a:documentation>
                   <value>pers:SPEN3</value>
@@ -7037,6 +7154,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sproule, Thomas Simpson (Dr.). Grey East (1905).</a:documentation>
                   <value>pers:STJO1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">St. John, Molyneux. (1871); witness Treaty # 2. Location: Manitoba Post. (1871); (1873); witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</a:documentation>
+                  <value>pers:STAM1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Stamiscotocar (Bull Head). Sarcee (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:STAM2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Stamix-Osok (Bull Backfat). Stony (1877); Chief? councillor? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:STAN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Stanfield, John. Colchester (1907).</a:documentation>
                   <value>pers:STAP1</value>
@@ -7059,6 +7180,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Stirton, David. Wellington South (1865); Wellington South (1867); Wellington South (1872).</a:documentation>
                   <value>pers:STOC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Stockton, Alfred Augustus. City and County of St. John (1905).</a:documentation>
+                  <value>pers:STOK1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Stokimatis (The Drum). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:STON1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Stonixosak. (1877); witness? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:STRE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Street, Geo. W. (1874); witness, Ens. Provl. Battn. Infantry Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:STRE1</value>
@@ -7084,7 +7209,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SENE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sénécal, Louis-Adélard. Drummond—Arthabaska (1867); Drummond—Arthabaska (1872).</a:documentation>
                   <value>pers:TAPA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TA-PAS-TA-NUM, Donald William Sinclair Ross. Norway House region - Band of Wood Indians (1875); Chief Treaty # 5. Location: Norway House. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TA-PAS-TA-NUM (Donald William Sinclair Ross). Norway House region - Band of Wood Indians (1875); Chief Treaty # 5. Location: Norway House. (1875).</a:documentation>
                   <value>pers:TIBI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TIBIS-QUO-GE-SICK. (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
                   <value>pers:TACH1</value>
@@ -7095,6 +7220,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tait, Robert. St. James (1870).</a:documentation>
                   <value>pers:TAIT2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tait, William Auld. Headingley (1870).</a:documentation>
+                  <value>pers:TAKO1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Takoye-Stamix (Fiend Bull). North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:TALB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Talbot, Onésiphore Ernest. Bellechasse (1905).</a:documentation>
                   <value>pers:TALB2</value>
@@ -7204,13 +7331,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:WAWA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WA-WAH-KOW-WEK-AH-POW. representing Water Hen Band (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
                   <value>pers:WAHP1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WAH-PII-MOOSE-TOO-SIIS, The White Calf. Qu'Appelle River (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WAH-PII-MOOSE-TOO-SIIS (The White Calf). Qu'Appelle River (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</a:documentation>
                   <value>pers:WAYW1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WAY-WA-SE-CA-POW, Man Proud Of Standing Upright. (1874); Chief Treaty # 4. Location: Fort Ellice. (1874).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WAY-WA-SE-CA-POW (Man Proud Of Standing Upright). (1874); Chief Treaty # 4. Location: Fort Ellice. (1874).</a:documentation>
                   <value>pers:WICH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WICH-A-WOS-TAKA. (1877); chief? headman? Treaty # 4. Location: Fort Walsh. (1877).</a:documentation>
                   <value>pers:WAKO1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wa-Ko-Wush, Whip-Poor-Will; Wa-Koo-Wush, Whippoorwill. (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); (1875); Chief Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wa-Ko-Wush (Whip-Poor-Will). (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); (1875); Chief Treaty # 1. Location: signed on reserve at Rosseau River. (1875).</a:documentation>
                   <value>pers:WAGN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wagner, William. (1875); witness Treaty # 4. Location: Qu'Appelle Lakes. (1875).</a:documentation>
                   <value>pers:WAHP2</value>
@@ -7255,8 +7382,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Warren, John Henry. Bonavista Bay (1861).</a:documentation>
                   <value>pers:WARR2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Warren, John Henry. Bonavista Bay (1865).</a:documentation>
+                  <value>pers:WAST1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wastasekoot, Charles. (1910); Chief Treaty # 5. Location: York Factory. (1910).</a:documentation>
                   <value>pers:WATS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Watson, Robert James. Parry Sound (1905).</a:documentation>
+                  <value>pers:WATT2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Watt, Peter. (1909); Chief Treaty # 5. Location: God's Lake. (1909).</a:documentation>
                   <value>pers:WATT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Watton, Alfred Jr. Fogo (1946).</a:documentation>
                   <value>pers:WEBB1</value>
@@ -7293,6 +7424,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilson, Norman Frank. Russell (1905).</a:documentation>
                   <value>pers:WILS2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilson, Uriah. Lennox and Addington (1905).</a:documentation>
+                  <value>pers:WIND2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Winder, Julia. (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
+                  <value>pers:WIND1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Winder, W. (1877); witness; Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877); (1877); witness; Inspector Treaty # 7. Location: Fort MacLeod. (1877).</a:documentation>
                   <value>pers:WINT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Winter, John. Trinity Bay (1861).</a:documentation>
                   <value>pers:WINT2</value>
@@ -7304,7 +7439,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:WOOD2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wood, Thomas Lett. ? (1870).</a:documentation>
                   <value>pers:WOOD5</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Woodhouse, Richard KE-WEE-TAH-QUUN-NA-YASH Or "he Who Flies Round The Feathers"; Woodhouse, Richard. Fairford and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871); representing Fairford Prairie (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Woodhouse, Richard (KE-WEE-TAH-QUUN-NA-YASH Or "he Who Flies Round The Feathers"); Woodhouse, Richard. Fairford and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871); representing Fairford Prairie (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</a:documentation>
                   <value>pers:WOOD3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Woods, James Bryan. Port de Grave (1869).</a:documentation>
                   <value>pers:WOOL1</value>
@@ -7343,6 +7478,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Young, Robert. Gloucester (1865).</a:documentation>
                   <value>pers:ZIMM1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Zimmerman, Adam. Hamilton West (1905).</a:documentation>
+                  <value>pers:ZOAT1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Zoatze-Tapitapiw (Setting On An Eagle Tail). North Piegan (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</a:documentation>
                   <value>pers:ETHI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Éthier, Joseph Arthur Calixte. Two Mountains (1905).</a:documentation>
                   <value>pers:EVAN1</value>

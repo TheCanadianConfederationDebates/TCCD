@@ -390,7 +390,7 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="alignRefAndType" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:name">
-                           <sch:assert test="(@type='legislature' and starts-with(@ref, 'lg:lg'))">
+                           <sch:assert test="matches(@ref, '^((lg:lg)|(UNSPECIFIED))') or not(@type='legislature')">
                       If this is a legislature name, it should have @type='legislature' and 
                       a suitable value for @ref, starting with 'lg:lg'.
                     </sch:assert>
@@ -401,9 +401,9 @@ so Volume 2 by implication has finished. -->
                      <attDef ident="ref" mode="replace" usage="req">
                         <gloss>links the name element to an entry in a taxonomy</gloss>
                         <valList type="closed">
-                           <valItem xmlns:hcmc="http://hcmc.uvic.ca/ns" ident="unspecified">
+                           <valItem ident="UNSPECIFIED">
                               <gloss>Use this value when you have not yet determined 
-                    the correct value. This value should be temporary.</gloss>
+                                 the correct value. This value should be temporary.</gloss>
                            </valItem>
                            <valItem ident="lg:lgHC">
                               <gloss>The House of Commons</gloss>
@@ -468,7 +468,7 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="constraintpersnameref" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:persName[not(parent::tei:person)]">
-                           <sch:assert test="matches(@ref, 'pers:[A-Z]{4}\d+')">
+                           <sch:assert test="matches(@ref, '^((pers:[A-Z]{4}\d+)|(UNSPECIFIED))')">
                               The @ref attribute value should start with 'pers:' and have the form
                               'pers:AAAA1' (four letters followed by a number).
                            </sch:assert>
@@ -478,8 +478,12 @@ so Volume 2 by implication has finished. -->
                   <attList>
                      <attDef ident="ref" mode="replace">
                         <valList type="closed">
+                           <valItem ident="UNSPECIFIED">
+                              <gloss>Use this value when you have not yet determined 
+            the correct value. This value should be temporary.</gloss>
+                           </valItem>
                            <valItem ident="pers:AKKA1">
-                              <desc>AK-KA-QUIN-IASH.  (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
+                              <desc>AK-KA-QUIN-IASH; Akka-Kitcipimiw-Otas (Many Spotted Horses).  (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875); North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:ANAW1">
                               <desc>ANA-WAY-WEE-TIN.  (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
@@ -516,6 +520,12 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:AITK1">
                               <desc>Aitken, John.  (1873); witness Treaty # 3. Location: signed where?. (1873).</desc>
+                           </valItem>
+                           <valItem ident="pers:AKAK1">
+                              <desc>Akak-Otos (Many Horses). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:AKKA2">
+                              <desc>Akka-Makkoye (Many Swans). North Piegan ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:ALCO1">
                               <desc>Alcorn, George Oscar. Prince Edward (1905).</desc>
@@ -558,6 +568,18 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:ANNA1">
                               <desc>Annand, William. Halifax County Eastern Division (1865); Halifax County Eastern Division (1866).</desc>
+                           </valItem>
+                           <valItem ident="pers:APAW3">
+                              <desc>Apaw-Onistaw (Weasel Calf). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:APAW2">
+                              <desc>Apaw-Stamix (Weasel Bull). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:APAW1">
+                              <desc>Apawawakosow (White Antelope). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:APEN1">
+                              <desc>Apenako-Sapop (Morning Plume). North Piegan ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:ARCH3">
                               <desc>Archambault, Joseph Éloi. Berthier (1905).</desc>
@@ -610,11 +632,23 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:ATKI1">
                               <desc>Atkinson, Joseph.  (1875); Councillor Treaty # 5. Location: the Grand Rapids. (1875).</desc>
                            </valItem>
+                           <valItem ident="pers:ATTI2">
+                              <desc>Attista-Haes (Rabbit Carrier). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:ATTI1">
+                              <desc>Attistah-MacAn (Running Rabbit). North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:AULT1">
                               <desc>Ault, Samuel. Stormont (1867); Stormont (1872).</desc>
                            </valItem>
+                           <valItem ident="pers:AUTR1">
+                              <desc>Autrobus, W. D.  (1877); witness; Sub Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:AVER1">
                               <desc>Avery, Melzar. Frontenac (1905).</desc>
+                           </valItem>
+                           <valItem ident="pers:AYES1">
+                              <desc>Aye-Stipis-Simat (Heavily Whipped). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:AYLE1">
                               <desc>Aylesworth, Allen Bristol (Sir). York North (1905).</desc>
@@ -676,6 +710,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:BARR1">
                               <desc>Barr, John. Dufferin (1905).</desc>
                            </valItem>
+                           <valItem ident="pers:BARR4">
+                              <desc>Barrett, E. A.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:BARR2">
                               <desc>Barrett, Theobald Butler. Norfolk (1949).</desc>
                            </valItem>
@@ -690,6 +727,12 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:BEAR1">
                               <desc>Beardy, Peter.  (1875); Chief Treaty # 5. Location: the Grand Rapids. (1875).</desc>
+                           </valItem>
+                           <valItem ident="pers:BEAR2">
+                              <desc>Beardy, Robert.  (1910); Councillor Treaty # 5. Location: York Factory. (1910).</desc>
+                           </valItem>
+                           <valItem ident="pers:BEAR3">
+                              <desc>Beardy, Sandy.  (1910); Councillor? Treaty # 5. Location: York Factory. (1910).</desc>
                            </valItem>
                            <valItem ident="pers:BEAT3">
                               <desc>Beaton, Donald. 1st Kings (1863).</desc>
@@ -824,7 +867,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Bird, Curtis James (Dr.). St. Paul’s (1870); St. Paul’s (1870).</desc>
                            </valItem>
                            <valItem ident="pers:BIRD2">
-                              <desc>Bird, James.  (1876); chief? Treaty # 5. Location: Winnipeg. (1876).</desc>
+                              <desc>Bird, James.  (1876); chief? Treaty # 5. Location: Winnipeg. (1876);  (1877); Interpreter Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:BIRS1">
                               <desc>Birston, Magnus. Baie St. Paul (1870).</desc>
@@ -882,6 +925,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:BODW1">
                               <desc>Bodwell, Ebenezer Vining. Oxford South (1867); Oxford South (1872).</desc>
+                           </valItem>
+                           <valItem ident="pers:BOGG1">
+                              <desc>Bogg, Thos J.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:BOIV1">
                               <desc>Boivin, Marcel. Shefford (1949).</desc>
@@ -1103,7 +1149,7 @@ so Volume 2 by implication has finished. -->
                               <desc>CANDA-COM-IGO-WE-NINIE. North-West Angle (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
                            </valItem>
                            <valItem ident="pers:CAUA1">
-                              <desc>CAU-AH-HA-CHA-PEW, Making Ready The Bow. South side of the South Branch of the Saskatchewan (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>CAU-AH-HA-CHA-PEW (Making Ready The Bow). South side of the South Branch of the Saskatchewan (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:CAIE1">
                               <desc>Caie, William Shand. Kent (1865).</desc>
@@ -1252,6 +1298,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:CHAU1">
                               <desc>Chauveau, Pierre-Joseph-Olivier. Quebec County (1867); Quebec County (1872).</desc>
                            </valItem>
+                           <valItem ident="pers:CHEN1">
+                              <desc>Che-Ne-Ka, John. Stony (1877); Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:CHEE1">
                               <desc>Chee.  (1875); Chief Treaty # 4. Location: Qu'Appelle Lakes. (1875).</desc>
                            </valItem>
@@ -1308,6 +1357,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:CLAR1">
                               <desc>Clare, George Adam. Waterloo South (1905).</desc>
+                           </valItem>
+                           <valItem ident="pers:CLAR5">
+                              <desc>Clark, E. Dalrymple.  (1877); witness; Lieut &amp; Adjutant N.W.M.P. Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877);  (1877); witness; Lieutenant and Adjutant N.W.M.P. Treaty # 7. Location: Fort MacLeod. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:CLAR2">
                               <desc>Clark, Stuart Murray. Essex South (1949).</desc>
@@ -1381,6 +1433,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:CONN2">
                               <desc>Connell, John Wesley. Souris (1898); Souris (1902).</desc>
                            </valItem>
+                           <valItem ident="pers:CONR2">
+                              <desc>Conrad, Charles E.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877);  (1877); witness Treaty # 7. Location: Fort MacLeod. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:CONR1">
                               <desc>Conroy, Nicholas. 1st Prince (1863).</desc>
                            </valItem>
@@ -1450,6 +1505,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:CRAW2">
                               <desc>Crawford, John Willoughby. Leeds South (1867); Leeds South (1872).</desc>
                            </valItem>
+                           <valItem ident="pers:CRAW4">
+                              <desc>Crawlor, George. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:CRAZ1">
                               <desc>Crazy, Thomas.  (1910); Councillor Treaty # 5. Location: Fort Churchill. (1910).</desc>
                            </valItem>
@@ -1479,6 +1537,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:CROW1">
                               <desc>Crowe, Chas. S.  (1875); witness Treaty # 3. Location: Fort Francis. (1875).</desc>
+                           </valItem>
+                           <valItem ident="pers:CROZ1">
+                              <desc>Crozier, L. N. F.  (1877); witness; Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:CRUI1">
                               <desc>Cruickshank, George Alexander. Fraser Valley (1949).</desc>
@@ -1597,6 +1658,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:DEME4">
                               <desc>Demers, Marie Joseph. St. Johns—Iberville (1906).</desc>
                            </valItem>
+                           <valItem ident="pers:DENI3">
+                              <desc>Dening, C. E.  (1877); witness; Sub Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:DENI1">
                               <desc>Denis, Azellus. St. Denis (1949).</desc>
                            </valItem>
@@ -1656,6 +1720,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:DION1">
                               <desc>Dionne, Ludger. Beauce (1949).</desc>
+                           </valItem>
+                           <valItem ident="pers:DIXO1">
+                              <desc>Dixon, James. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:DOBB1">
                               <desc>Dobbie, Thomas William. Elgin East (1867); Elgin East (1872).</desc>
@@ -1720,6 +1787,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:EAKI1">
                               <desc>Eakin, William. Saltcoats (1894); Saltcoats (1898).</desc>
                            </valItem>
+                           <valItem ident="pers:EKAS1">
+                              <desc>Ekas-Kine (Low Horn). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:ELLI1">
                               <desc>Elliott, William. Wolseley (1898); Wolseley (1902).</desc>
                            </valItem>
@@ -1728,6 +1798,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:EMER1">
                               <desc>Emerson, Prescott. Burgeo-La Poile (1869).</desc>
+                           </valItem>
+                           <valItem ident="pers:EMIT1">
+                              <desc>Emitah-Apiskinne (White Striped Dog). Stony (1877); Chief? councillor? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:EMME1">
                               <desc>Emmerson, Henry Robert; Emmerson, Henry Read. Westmoreland (1905); Westmorland (1949).</desc>
@@ -1865,7 +1938,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Fox, Charles George.  (1908); witness; Missionary-Anglican Treaty # 5. Location: Nelson House. (1908).</desc>
                            </valItem>
                            <valItem ident="pers:FRAN1">
-                              <desc>François, Broken Fingers. Waterhen River and Crane River and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</desc>
+                              <desc>François (Broken Fingers). Waterhen River and Crane River and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</desc>
                            </valItem>
                            <valItem ident="pers:FRAS2">
                               <desc>Fraser, Donald. Pictou County West Division (1866).</desc>
@@ -1917,6 +1990,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:GARR1">
                               <desc>Garrioch, William. St. Mary’s Laprairie (1870).</desc>
+                           </valItem>
+                           <valItem ident="pers:GARR3">
+                              <desc>Garriock, George. Norway House region - Band of Wood (1875); Councillor Treaty # 5. Location: Norway House. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:GARR2">
                               <desc>Garriogh, Flora.  (1874); witness Treaty # 4. Location: Qu'Appelle. (1874).</desc>
@@ -2122,6 +2198,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:HANS1">
                               <desc>Hansell, Ernest George. Macleod (1949).</desc>
                            </valItem>
+                           <valItem ident="pers:HARD1">
+                              <desc>Hardisty, E.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:HARK1">
                               <desc>Harkness, Douglas Scott. Calgary East (1949).</desc>
                            </valItem>
@@ -2150,7 +2229,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Harty, William. Kingston (1905).</desc>
                            </valItem>
                            <valItem ident="pers:HART3">
-                              <desc>Harwood, Antoine Chartier De Lotbinière. Vaudreuil (1865).</desc>
+                              <desc>Harwood, Antoine Chartier De Lotbinière; Hart, Murdoch. Vaudreuil (1865);  (1908); Councillor Treaty # 5. Location: Nelson House. (1908).</desc>
                            </valItem>
                            <valItem ident="pers:HASL1">
                               <desc>Haslam, William. 1st Queens (1863).</desc>
@@ -2360,13 +2439,16 @@ so Volume 2 by implication has finished. -->
                               <desc>Insinger, Fredrick Robert. Yorkton (1894).</desc>
                            </valItem>
                            <valItem ident="pers:IRVI3">
-                              <desc>Irvine, A. G.  (1871); witness, major Treaty # 1. Location: Lower Fort Garry. (1871).</desc>
+                              <desc>Irvine, A. G.  (1871); witness, major Treaty # 1. Location: Lower Fort Garry. (1871);  (1877); witness; Ass't. Com., N.W.M.P. Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877);  (1877); witness; Assistant Commissioner Treaty # 7. Location: Fort MacLeod. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:IRVI1">
                               <desc>Irvine, George. Mégantic (1867); Mégantic (1872).</desc>
                            </valItem>
                            <valItem ident="pers:IRVI2">
                               <desc>Irvine, William. Cariboo (1949).</desc>
+                           </valItem>
+                           <valItem ident="pers:ISAP1">
+                              <desc>Isapo-Muxika (Crowfoot Or Pied De Corbeau). South Blackfeet (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:ISBE2">
                               <desc>Isbester, Charles B.  (1909); witness Treaty # 5. Location: Island Lake. (1909).</desc>
@@ -2456,37 +2538,40 @@ so Volume 2 by implication has finished. -->
                               <desc>KA-CHA-CHUCK-OOS. "Moose Lake" Band (1876); Councillor Treaty # 5. Location: the Pas on the Saskatchewan River. (1876).</desc>
                            </valItem>
                            <valItem ident="pers:KAKE1">
-                              <desc>KA-KE-KA-PENAIS, Bird For Ever / William Pennefather.  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</desc>
+                              <desc>KA-KE-KA-PENAIS (Bird For Ever, William Pennefather).  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</desc>
+                           </valItem>
+                           <valItem ident="pers:KAKE2">
+                              <desc>KA-KE-KA-PENAIS (Bird For Ever, William Pennefather).  (1875); chief Treaty # 1. Location: signed near Fort Alexander, on the Indian Reserve. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:KAKE3">
-                              <desc>KA-KEE-NA-WUP, One That Sits Like An Eagle. Upper Qu'Appelle Lakes (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>KA-KEE-NA-WUP (One That Sits Like An Eagle). Upper Qu'Appelle Lakes (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:KAKI1">
-                              <desc>KA-KI-SHI-WAY, Loud Voice. Qu'Appelle River (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>KA-KI-SHI-WAY (Loud Voice). Qu'Appelle River (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:KAKI2">
-                              <desc>KA-KU-WIS-TA-HAW, Him That Flies Around. towards the Cypress Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>KA-KU-WIS-TA-HAW (Him That Flies Around). towards the Cypress Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:KAMO1">
                               <desc>KA-MO-TI-ASH. White Fish Lake (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
                            </valItem>
                            <valItem ident="pers:KANE1">
-                              <desc>KA-NE-ON-US-KA-TEW, One That Walks On Four Claws. Little Touchwood Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>KA-NE-ON-US-KA-TEW (One That Walks On Four Claws). Little Touchwood Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:KATA1">
                               <desc>KA-TAH-KAK-WA-NA-YAAS. representing Water Hen Band (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:KATU1">
-                              <desc>KA-TUK-E-PIN-AIS, Hardisty. Big Island (1876); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</desc>
+                              <desc>KA-TUK-E-PIN-AIS (Hardisty). Big Island (1876); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</desc>
                            </valItem>
                            <valItem ident="pers:KAWA1">
-                              <desc>KA-WA-CA-TOOSE, The Poor Man. Touchwood Hills and Qu'Appelle Lakes (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>KA-WA-CA-TOOSE (The Poor Man). Touchwood Hills and Qu'Appelle Lakes (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:KAHK1">
                               <desc>KAH-KEE-Y-ASH. Flower Lake (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
                            </valItem>
                            <valItem ident="pers:KAHN2">
-                              <desc>KAH-NAH-WAH-KEE-WEE-NIN, Antoine Gouin. Beren's River region (1875); Councillor Treaty # 5. Location: Beren's River. (1875).</desc>
+                              <desc>KAH-NAH-WAH-KEE-WEE-NIN (Antoine Gouin). Beren's River region (1875); Councillor Treaty # 5. Location: Beren's River. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:KAHN1">
                               <desc>KAH-NEE-QUA-NASH. representing Ebb and Flow Lake {formerly Crane River} (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
@@ -2495,7 +2580,7 @@ so Volume 2 by implication has finished. -->
                               <desc>KAH-TAY-TAY-PA-E-CUTCH. Lake of the Woods (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
                            </valItem>
                            <valItem ident="pers:KEWE1">
-                              <desc>KE-WE-TAY-ASH, Flying Round; KE-WE-SAY-ASH, Flying Round.  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871);  (1875); Chief Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
+                              <desc>KE-WE-TAY-ASH (Flying Round).  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871);  (1875); Chief Treaty # 1. Location: signed on reserve at Rosseau River. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:KEEJ1">
                               <desc>KEE-JEE-GO-KAY. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
@@ -2510,7 +2595,7 @@ so Volume 2 by implication has finished. -->
                               <desc>KEE-TA-KAY-PI-NAIS. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
                            </valItem>
                            <valItem ident="pers:KIIS1">
-                              <desc>KII-SI-CAW-AH-CHUCK, Day-Star. South side of the South Branch of the Saskatchewan (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>KII-SI-CAW-AH-CHUCK (Day-Star). South side of the South Branch of the Saskatchewan (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:KITC3">
                               <desc>KITCHI-KAH-ME-WIN.  (1875); chief Treaty # 4. Location: Qu'Appelle Lakes. (1875).</desc>
@@ -2519,13 +2604,10 @@ so Volume 2 by implication has finished. -->
                               <desc>KITCHI-NE-KA-LE-HAN. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
                            </valItem>
                            <valItem ident="pers:KUSK1">
-                              <desc>KUS-KEE-TEW-MUS-COO-MUS-QUA, Little Black Bear. Cypress Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>KUS-KEE-TEW-MUS-COO-MUS-QUA (Little Black Bear). Cypress Hills (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:KAWE1">
-                              <desc>Ka-Wey-Ance, The Little Boy. Leech Lake (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
-                           </valItem>
-                           <valItem ident="pers:KAKE2">
-                              <desc>Kakekepenais, William Pennefather.  (1875); chief Treaty # 1. Location: signed near Fort Alexander, on the Indian Reserve. (1875).</desc>
+                              <desc>Ka-Wey-Ance (The Little Boy). Leech Lake (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:KAUL1">
                               <desc>Kaulback, Henry Adolphus Newman. Lunenburg County (1866).</desc>
@@ -2539,8 +2621,23 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:KAYE1">
                               <desc>Kaye, David. 4th Kings (1863).</desc>
                            </valItem>
+                           <valItem ident="pers:KAYE2">
+                              <desc>Kaye-Tapo (Going To Bear). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:KAYO1">
+                              <desc>Kayo-Okosis (Bear Shield). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:KEAR1">
                               <desc>Kearney, Michael Condon. Ferryland (1865).</desc>
+                           </valItem>
+                           <valItem ident="pers:KECH1">
+                              <desc>Keche-Kesik, Wm. (Wm. Keche-Kesik).  (1908); Chief? Treaty # 5. Location: Split Lake. (1908).</desc>
+                           </valItem>
+                           <valItem ident="pers:KECH2">
+                              <desc>Kechepwot, Abraham. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:KECH3">
+                              <desc>Kechepwot, Patrick. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:KEEL1">
                               <desc>Keeler, Joseph. Northumberland East (1867); Northumberland East (1872).</desc>
@@ -2584,6 +2681,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:KERR1">
                               <desc>Kerr, George. Northumberland (1865).</desc>
                            </valItem>
+                           <valItem ident="pers:KICH1">
+                              <desc>Ki-Chi-Pwot, Jacob. Stony (1877); Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:KICK1">
                               <desc>Kickham, Edward. 2nd Kings (1867).</desc>
                            </valItem>
@@ -2622,6 +2722,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:KIRK3">
                               <desc>Kirkpatrick, Thomas. Frontenac (1867).</desc>
+                           </valItem>
+                           <valItem ident="pers:KISS1">
+                              <desc>Kissoum (Day Light). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:KITC1">
                               <desc>Kitchi-Gay-Kake. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
@@ -2678,7 +2781,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Laird, David. 4th Queens (1872); 4th Queens (1873).</desc>
                            </valItem>
                            <valItem ident="pers:LAIR4">
-                              <desc>Laird, David.  (1874); Indian Commissioner, Esquire Treaty # 4. Location: Qu'Appelle. (1874);  (1874); Indian Commissioner, Esquire Treaty # 4. Location: Fort Ellice. (1874).</desc>
+                              <desc>Laird, David.  (1874); Indian Commissioner, Esquire Treaty # 4. Location: Qu'Appelle. (1874);  (1874); Indian Commissioner, Esquire Treaty # 4. Location: Fort Ellice. (1874);  (1877); Lieutenant-Governor of North-West Territories, and Special Indian Commissioner Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:LAIR3">
                               <desc>Laird, George. 4th Queens (1872).</desc>
@@ -2893,6 +2996,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:LEPI1">
                               <desc>Lépine, Ambroise-Dydime. St. Boniface (1870); St. Vital (1870).</desc>
                            </valItem>
+                           <valItem ident="pers:LHEU1">
+                              <desc>L’heureux, Jean.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:MAIK1">
                               <desc>MA-IK-WUH-E-HA-POW. "Moose Lake" Band (1876); Councillor Treaty # 5. Location: the Pas on the Saskatchewan River. (1876).</desc>
                            </valItem>
@@ -2903,13 +3009,19 @@ so Volume 2 by implication has finished. -->
                               <desc>MA-MAH-TAK-CUM-E-CUP.  (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:MANA1">
-                              <desc>MA-NA-WA-NANAN, Centre Of Bird’s Tail.  (1875); Chief Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
+                              <desc>MA-NA-WA-NANAN (Centre Of Bird’s Tail).  (1875); Chief Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:MASA1">
-                              <desc>MA-SAH-KEE-YASH, He Who Flies To The Bottom; MA-SAH-KEE-YASH. Fairford and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871); representing Fairford Prairie (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
+                              <desc>MA-SAH-KEE-YASH (He Who Flies To The Bottom); MA-SAH-KEE-YASH. Fairford and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871); representing Fairford Prairie (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:MATW1">
                               <desc>MA-TWA-KA-KEE-TOOT. representing St. Peter's Band (1875); Councillor ? Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
+                           </valItem>
+                           <valItem ident="pers:MASG1">
+                              <desc>MAS-GWA-AH-SID (Bear’s Paw). Stony (1877); Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:MAWE1">
+                              <desc>MAWE-DO-PE-NAIS. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
                            </valItem>
                            <valItem ident="pers:MAYN1">
                               <desc>MAY-NO-WAH-TAW-WAYS-KUNG. North-West Angle (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
@@ -2918,7 +3030,7 @@ so Volume 2 by implication has finished. -->
                               <desc>ME-TAS-SO-QUE-NE-SKANK.  (1873); Chief Treaty # 3. Location: signed where?. (1873).</desc>
                            </valItem>
                            <valItem ident="pers:MISK1">
-                              <desc>MIS-KOO-KEE-NEW, Red Eagle Henry Prince; MIS-KOO-KEE-NEW, Red Eagle.  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); representing St. Peter's Band (1875); chief Treaty # 1. Location: signed where?. (1875).</desc>
+                              <desc>MIS-KOO-KEE-NEW (Red Eagle, Henry Prince).  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871); representing St. Peter's Band (1875); chief Treaty # 1. Location: signed where?. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:MUKA1">
                               <desc>MUKA-DAY-WAH-SIN. Kettle Falls (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
@@ -2955,6 +3067,12 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:MACL3">
                               <desc>MacLean, Matthew. Cape Breton North—Victoria (1949).</desc>
+                           </valItem>
+                           <valItem ident="pers:MACL7">
+                              <desc>MacLeod, James F.; MacLeod, James Farquharson.  (1877); Lieut.-Colonel, Com. N.W.M.P., and Special Indian Commissioner Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877);  (1877); Special Indian Commissioner; Lieut. Col. C.M.G., Commissioner of the Mounted Police Treaty # 7. Location: Fort MacLeod. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:MACL6">
+                              <desc>MacLeod, Mary J.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:MACN1">
                               <desc>MacNaught, John Watson. Prince (1949).</desc>
@@ -3028,6 +3146,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:MAJO1">
                               <desc>Major, Charles Beautron. Labelle (1907).</desc>
                            </valItem>
+                           <valItem ident="pers:MAKO2">
+                              <desc>Makoye-Kin (Wolf Collar). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:MALO3">
                               <desc>Maloney, Daniel. St. Albert (1894); St. Albert (1902).</desc>
                            </valItem>
@@ -3096,6 +3217,12 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:MASS3">
                               <desc>Masson, Luc-Hyacinthe. Soulanges (1867); Soulanges (1872).</desc>
+                           </valItem>
+                           <valItem ident="pers:MAST1">
+                              <desc>Maste-Pitah (Crow Eagle). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:MATA1">
+                              <desc>Matapi-Komotziw (Captive Or Stolen Person). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:MATH1">
                               <desc>Matheson, Alex.  (1875); witness Treaty # 5. Location: the Grand Rapids. (1875).</desc>
@@ -3234,6 +3361,12 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:MCDO6">
                               <desc>McDonnell, Samuel. Inverness County (1866).</desc>
+                           </valItem>
+                           <valItem ident="pers:MCDO18">
+                              <desc>McDougall, A.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:MCDO19">
+                              <desc>McDougall, J.  (1877); witness; Missionary Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:MCDO7">
                               <desc>McDougall, John Lorn. Renfrew South (1869); Renfrew South (1872).</desc>
@@ -3433,14 +3566,20 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:MEAH1">
                               <desc>Meahan, John. Gloucester (1865).</desc>
                            </valItem>
+                           <valItem ident="pers:MEAN1">
+                              <desc>Meanxkistomach (Three Bulls). Blackfoot (1877); Chief Treaty # 7. Location: Fort MacLeod. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:MEEM1">
-                              <desc>Mee-May, The Pigeon (gabriel Coté). Fort Pelly (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>Mee-May (The Pigeon (gabriel Coté)). Fort Pelly (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:MEIG1">
                               <desc>Meigs, Daniel Bishop. Missisquoi (1905).</desc>
                            </valItem>
+                           <valItem ident="pers:MEKA1">
+                              <desc>Mekasto (Mékaisto (red Crow, Also Known As Captured The Gun Inside, Lately Gone, Sitting White Buffalo, And John Mikahestow)). South Blood (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:MEKI1">
-                              <desc>Mekis, The Eagle, Or Giroux. Riding Mountains and Dauphin Lake and the remainder of the territory hereby ceded (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</desc>
+                              <desc>Mekis (The Eagle, Or Giroux). Riding Mountains and Dauphin Lake and the remainder of the territory hereby ceded (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</desc>
                            </valItem>
                            <valItem ident="pers:MELV1">
                               <desc>Melville, James.  (1910); Witness; MACOUN Treaty # 5. Location: Fort Churchill. (1910).</desc>
@@ -3523,6 +3662,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:MOOR2">
                               <desc>Moore, Ronald Stewart. Churchill (1949).</desc>
                            </valItem>
+                           <valItem ident="pers:MOOS1">
+                              <desc>Moose, Peter.  (1908); Chief Treaty # 5. Location: Nelson House. (1908).</desc>
+                           </valItem>
                            <valItem ident="pers:MORI2">
                               <desc>Morin, Jean-Baptiste. Dorchester (1905).</desc>
                            </valItem>
@@ -3535,6 +3677,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:MORR1">
                               <desc>Morris, Alexander; Morris, Alex. Lanark South (1865); Lanark South (1867); Lanark South (1872);  (1875); witness, L.G. Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
                            </valItem>
+                           <valItem ident="pers:MORR6">
+                              <desc>Morris, Charles.  (1908); Councillor? Treaty # 5. Location: Split Lake. (1908).</desc>
+                           </valItem>
                            <valItem ident="pers:MORR3">
                               <desc>Morris, Christine V. K.; Morris, Christine; Morris, Christine V. K.  (1873); witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873);  (1875); witness Treaty # 5. Location: Beren's River. (1875);  (1875); witness Treaty # 5. Location: Norway House. (1875);  (1875); witness Treaty # 5. Location: the Grand Rapids. (1875).</desc>
                            </valItem>
@@ -3546,6 +3691,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:MOWA1">
                               <desc>Mowat, Daniel. South Regina (1894).</desc>
+                           </valItem>
+                           <valItem ident="pers:MOYA1">
+                              <desc>Moy-Any-Men, George. Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:MUCK1">
                               <desc>Muckle, A. M.  (1876); witness; J.P. Treaty # 5. Location: the Pas on the Saskatchewan River. (1876);  (1876); witness, J.P. Treaty # 5. Location: the Beren's River. (1876);  (1876); witness; J.P. Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</desc>
@@ -3581,25 +3729,25 @@ so Volume 2 by implication has finished. -->
                               <desc>Mutch, Leslie Alexander. Winnipeg South (1949).</desc>
                            </valItem>
                            <valItem ident="pers:NAHA1">
-                              <desc>NA-HA-WA-NANAN, Centre Of Bird’s Tail.  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</desc>
+                              <desc>NA-HA-WA-NANAN (Centre Of Bird’s Tail).  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</desc>
                            </valItem>
                            <valItem ident="pers:NAKA1">
                               <desc>NA-KA-NA-WA-TANG. representing East-Manitoba or Elm Point (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:NASH1">
-                              <desc>NA-SHA-KE-PENNAIS, Flying Down Bird; Nashakepenais.  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871);  (1875); chief Treaty # 1. Location: Broken Head River. (1875).</desc>
+                              <desc>NA-SHA-KE-PENNAIS (Flying Down Bird); Nashakepenais.  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871);  (1875); chief Treaty # 1. Location: Broken Head River. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:NAHK2">
                               <desc>NAH-KEE-QUAN-NAY-YASH. Beren's River region (1875); Councillor Treaty # 5. Location: Beren's River. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:NAHW1">
-                              <desc>NAH-WEE-KEE-SICK-QUAH-YASH, Jacob Berens. Beren's River region (1875); Chief Treaty # 5. Location: Beren's River. (1875);  (1876); Chief Treaty # 5. Location: the Beren's River. (1876).</desc>
+                              <desc>NAH-WEE-KEE-SICK-QUAH-YASH (Jacob Berens). Beren's River region (1875); Chief Treaty # 5. Location: Beren's River. (1875);  (1876); Chief Treaty # 5. Location: the Beren's River. (1876).</desc>
                            </valItem>
                            <valItem ident="pers:NATT1">
                               <desc>NAT-TEE-KEE-GET.  (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
                            </valItem>
-                           <valItem ident="pers:NAWE1">
-                              <desc>NAWE-DO-PE-NESS. Rainy River (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
+                           <valItem ident="pers:NETA1">
+                              <desc>NETAH-KITEI-PI-MEW (Only Spot). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:NOTE1">
                               <desc>NO-TE-NA-QUA-HUNG. North-West Angle (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
@@ -3618,6 +3766,12 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:NATH1">
                               <desc>Nathan, Henry. Victoria (1871); Victoria (1872).</desc>
+                           </valItem>
+                           <valItem ident="pers:NATO1">
+                              <desc>Natos-Api (Old Sun Or Sun Old Man, Also Known As White Shell Old Man). North Blackfeet (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:NATO2">
+                              <desc>Natose-Onista (Medicine Calf Or Button Chief). South Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:NAYW1">
                               <desc>Naywaheheekeegik.  (1875); ? Treaty # 1 &amp;/or 2. Location: Broken Head River. (1875).</desc>
@@ -3664,6 +3818,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:NOON1">
                               <desc>Noonan, James L. Bonavista Bay (1869).</desc>
                            </valItem>
+                           <valItem ident="pers:NORM1">
+                              <desc>Norman, Frank.  (1877); witness; Staff Constable Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:NORQ1">
                               <desc>Norquay, John. St. Margaret’s (1870).</desc>
                            </valItem>
@@ -3695,7 +3852,7 @@ so Volume 2 by implication has finished. -->
                               <desc>OO-ZA-WASK-OO-QUIN-APE, Yellow Quill.  (1876); chief? Treaty # 4. Location: Fort Pelly. (1876).</desc>
                            </valItem>
                            <valItem ident="pers:OOZA1">
-                              <desc>OO-ZA-WE-KWUN, Yellow Quill.  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</desc>
+                              <desc>OO-ZA-WE-KWUN (Yellow Quill).  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871).</desc>
                            </valItem>
                            <valItem ident="pers:OOSC1">
                               <desc>OOS-CON-NA-GEITH. Rainy Lake (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
@@ -3704,7 +3861,7 @@ so Volume 2 by implication has finished. -->
                               <desc>OSAH-WEE-KA-KAY.  (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:OTAM1">
-                              <desc>OTA-MA-KOO-EWIN, The Man Who Stands On The Earth.  (1874); Headman Treaty # 4. Location: Fort Ellice. (1874).</desc>
+                              <desc>OTA-MA-KOO-EWIN (The Man Who Stands On The Earth).  (1874); Headman Treaty # 4. Location: Fort Ellice. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:OWTA1">
                               <desc>OW-TAH-PEE-KA-KAW.  (1875); chief Treaty # 4. Location: Swan Lake. (1875).</desc>
@@ -3729,6 +3886,15 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:OLON1">
                               <desc>Olone, Hugh F. Winnipeg (1870).</desc>
+                           </valItem>
+                           <valItem ident="pers:OMAK1">
+                              <desc>Omaksi Sapop (Big Plume). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:ONIS2">
+                              <desc>Onistah (Calf Robe). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:ONIS1">
+                              <desc>Onistah-Pokah (White Calf). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:OSAY1">
                               <desc>Osays-Koo-Koon.  (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
@@ -3782,7 +3948,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Pagé, François-Xavier. St. François-Xavier (1870); St. François-Xavier (1870).</desc>
                            </valItem>
                            <valItem ident="pers:PAPA1">
-                              <desc>Papa-Sko-Gin; PA-PA-WE-GUN-WA-TAK. Rainy River (1873); Chief ? Treaty # 3. (1873); representing East-Manitoba or Elm Point (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
+                              <desc>Papa-Sko-Gin; PA-PA-WE-GUN-WA-TAK. Rainy River (1873); Chief ? Treaty # 3. Location: signed ?. (1873); representing East-Manitoba or Elm Point (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:PAQU2">
                               <desc>Paquet, Eugène. L'Islet (1905).</desc>
@@ -3860,7 +4026,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Perry, Stanislaus Francis. 1st Prince (1871); 1st Prince (1872); 1st Prince (1873).</desc>
                            </valItem>
                            <valItem ident="pers:PETA1">
-                              <desc>Petanaquage, Henry Vane.  (1875); Councillor ? Treaty # 1 &amp;/or 2. Location: signed near Fort Alexander, on the Indian Reserve. (1875).</desc>
+                              <desc>Petanaquage (Henry Vane).  (1875); Councillor ? Treaty # 1 &amp;/or 2. Location: signed near Fort Alexander, on the Indian Reserve. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:PICH1">
                               <desc>Piché, Camille. St. Mary (1905).</desc>
@@ -3878,10 +4044,31 @@ so Volume 2 by implication has finished. -->
                               <desc>Pinsonneault, Alfred. Laprairie (1867); Laprairie (1872).</desc>
                            </valItem>
                            <valItem ident="pers:PISQ1">
-                              <desc>Pis-Qua, The Plain. Leech Lake (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>Pis-Qua (The Plain). Leech Lake (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:PISE1">
                               <desc>Pisequinip, Charles. Norway House region (1875); Councillor Treaty # 5. Location: Norway House. (1875).</desc>
+                           </valItem>
+                           <valItem ident="pers:PITA6">
+                              <desc>Pitah (Eagle). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:PITA3">
+                              <desc>Pitah-Annes (Eagle Robe). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:PITA7">
+                              <desc>Pitah-Onistah (Eagle White Calf). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:PITA4">
+                              <desc>Pitah-Otiskin (Eagle Shoe). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:PITA2">
+                              <desc>Pitah-Otocan (Eagle Head). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:PITA1">
+                              <desc>Pitah-Pekis (Eagle Rib). North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:PITA5">
+                              <desc>Pitah-Siksinum (White Eagle). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:PITH2">
                               <desc>Pither, R. J. N.  (1874); Indian Agent Treaty # 3. Location: Lac Seul. (1874).</desc>
@@ -3895,6 +4082,12 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:POIT2">
                               <desc>Poitron, Jos.  (1874); witness Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
+                           <valItem ident="pers:POKA1">
+                              <desc>Pokapiw-Otoian (Bad Head). South Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:PONO1">
+                              <desc>Ponokah-Stamix (Bull Elk). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:POPE2">
                               <desc>Pope, James Colledge. 4th Prince (1863); 4th Prince (1871); Charlottetown (1872); Charlottetown (1873).</desc>
                            </valItem>
@@ -3906,6 +4099,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:PORT1">
                               <desc>Porter, Edward Guss. Hastings West (1905).</desc>
+                           </valItem>
+                           <valItem ident="pers:POTT1">
+                              <desc>Potts, Jerry (Also Known As Ky-Yo-Kosi, Meaning Bear Child).  (1877); interpreter Treaty # 7. Location: Fort MacLeod. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:POUL1">
                               <desc>Pouliot, Barthélemy. L'Islet (1867); L'Islet (1872).</desc>
@@ -4163,13 +4359,19 @@ so Volume 2 by implication has finished. -->
                               <desc>SA-KA-CHE-WAYAS. Blood Vein River (1876); Chief Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</desc>
                            </valItem>
                            <valItem ident="pers:SANG1">
-                              <desc>SANG-GWA-WA-KA-POW, James Sinclair. Jack Head (1876); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</desc>
+                              <desc>SANG-GWA-WA-KA-POW (James Sinclair). Jack Head (1876); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876).</desc>
                            </valItem>
                            <valItem ident="pers:SHAW1">
                               <desc>SHAW-WIN-NA-BI-NAIS. Shoal Lake (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
                            </valItem>
+                           <valItem ident="pers:STAM3">
+                              <desc>STAMIXO-TA-KA-PIW (Bull Turn Round). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:SAHK1">
                               <desc>Sah-Katch-Eway. Lake Seul (1873); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
+                           </valItem>
+                           <valItem ident="pers:SAKO1">
+                              <desc>Sakoye-Aotan (Heavy Shield). Middle Blackfeet (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:SANB1">
                               <desc>Sanborn, John Sewell. Wellington (1865).</desc>
@@ -4212,6 +4414,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:SCOB1">
                               <desc>Scoble, John. West Elgin (1865).</desc>
+                           </valItem>
+                           <valItem ident="pers:SCOL1">
+                              <desc>Scollen, Constantine.  (1877); witness; Priest Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:SCOT1">
                               <desc>Scott, Alfred Henry. Winnipeg (1870); Winnipeg (1870).</desc>
@@ -4270,6 +4475,12 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:SHER1">
                               <desc>Shera, John William. Victoria (1898); Victoria (1902).</desc>
                            </valItem>
+                           <valItem ident="pers:SHUR1">
+                              <desc>Shurtliff, A.  (1877); witness; Sub Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:SHUR2">
+                              <desc>Shurtliff, Julia.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:SIFT2">
                               <desc>Sifton, Arthur Lewis Watkins. Banff (1902).</desc>
                            </valItem>
@@ -4278,6 +4489,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:SIMA1">
                               <desc>Simard, Georges-Honoré. Quebec Centre (1867); Quebec Centre (1872).</desc>
+                           </valItem>
+                           <valItem ident="pers:SIMO1">
+                              <desc>Simon, Big.  (1909); Councillor Treaty # 5. Location: God's Lake. (1909).</desc>
                            </valItem>
                            <valItem ident="pers:SIMP1">
                               <desc>Simpson, John; Simpson, John A. Queen’s (1865); Red Deer (1894); Red Deer (1898); Innisfail (1902).</desc>
@@ -4348,11 +4562,20 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:SONS1">
                               <desc>Son-Sonse. representing East-Manitoba or Elm Point (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
                            </valItem>
+                           <valItem ident="pers:SOTE1">
+                              <desc>Sotenah (Rainy Chief). North Blood (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:SOUS1">
                               <desc>Sou-Sonce. Swan Creek and Lake Manitoba (1871); Chief Treaty # 2. Location: Manitoba Post. (1871).</desc>
                            </valItem>
+                           <valItem ident="pers:SPEN6">
+                              <desc>Spence, Albert.  (1908); Councillor? Treaty # 5. Location: Split Lake. (1908).</desc>
+                           </valItem>
                            <valItem ident="pers:SPEN1">
                               <desc>Spence, David. St. Anne's (1870).</desc>
+                           </valItem>
+                           <valItem ident="pers:SPEN5">
+                              <desc>Spence, James.  (1908); Councillor Treaty # 5. Location: Nelson House. (1908).</desc>
                            </valItem>
                            <valItem ident="pers:SPEN2">
                               <desc>Spence, Thomas. St. Peter’s (1870).</desc>
@@ -4371,6 +4594,12 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:STJO1">
                               <desc>St. John, Molyneux.  (1871); witness Treaty # 2. Location: Manitoba Post. (1871);  (1873); witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873).</desc>
+                           </valItem>
+                           <valItem ident="pers:STAM1">
+                              <desc>Stamiscotocar (Bull Head). Sarcee (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:STAM2">
+                              <desc>Stamix-Osok (Bull Backfat). Stony (1877); Chief? councillor? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:STAN1">
                               <desc>Stanfield, John. Colchester (1907).</desc>
@@ -4404,6 +4633,12 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:STOC1">
                               <desc>Stockton, Alfred Augustus. City and County of St. John (1905).</desc>
+                           </valItem>
+                           <valItem ident="pers:STOK1">
+                              <desc>Stokimatis (The Drum). Stony (1877); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:STON1">
+                              <desc>Stonixosak.  (1877); witness? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:STRE2">
                               <desc>Street, Geo. W.  (1874); witness, Ens. Provl. Battn. Infantry Treaty # 4. Location: Qu'Appelle. (1874).</desc>
@@ -4442,7 +4677,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Sénécal, Louis-Adélard. Drummond—Arthabaska (1867); Drummond—Arthabaska (1872).</desc>
                            </valItem>
                            <valItem ident="pers:TAPA1">
-                              <desc>TA-PAS-TA-NUM, Donald William Sinclair Ross. Norway House region - Band of Wood Indians (1875); Chief Treaty # 5. Location: Norway House. (1875).</desc>
+                              <desc>TA-PAS-TA-NUM (Donald William Sinclair Ross). Norway House region - Band of Wood Indians (1875); Chief Treaty # 5. Location: Norway House. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:TIBI1">
                               <desc>TIBIS-QUO-GE-SICK.  (1875); brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
@@ -4458,6 +4693,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:TAIT2">
                               <desc>Tait, William Auld. Headingley (1870).</desc>
+                           </valItem>
+                           <valItem ident="pers:TAKO1">
+                              <desc>Takoye-Stamix (Fiend Bull). North Blood ? (1877); Minor Chief ? Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:TALB1">
                               <desc>Talbot, Onésiphore Ernest. Bellechasse (1905).</desc>
@@ -4622,16 +4860,16 @@ so Volume 2 by implication has finished. -->
                               <desc>WA-WAH-KOW-WEK-AH-POW. representing Water Hen Band (1875); Councillor Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:WAHP1">
-                              <desc>WAH-PII-MOOSE-TOO-SIIS, The White Calf. Qu'Appelle River (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
+                              <desc>WAH-PII-MOOSE-TOO-SIIS (The White Calf). Qu'Appelle River (1874); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:WAYW1">
-                              <desc>WAY-WA-SE-CA-POW, Man Proud Of Standing Upright.  (1874); Chief Treaty # 4. Location: Fort Ellice. (1874).</desc>
+                              <desc>WAY-WA-SE-CA-POW (Man Proud Of Standing Upright).  (1874); Chief Treaty # 4. Location: Fort Ellice. (1874).</desc>
                            </valItem>
                            <valItem ident="pers:WICH1">
                               <desc>WICH-A-WOS-TAKA.  (1877); chief? headman? Treaty # 4. Location: Fort Walsh. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:WAKO1">
-                              <desc>Wa-Ko-Wush, Whip-Poor-Will; Wa-Koo-Wush, Whippoorwill.  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871);  (1875); Chief Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875).</desc>
+                              <desc>Wa-Ko-Wush (Whip-Poor-Will).  (1871); chief Treaty # 1. Location: Lower Fort Garry. (1871);  (1875); Chief Treaty # 1. Location: signed on reserve at Rosseau River. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:WAGN1">
                               <desc>Wagner, William.  (1875); witness Treaty # 4. Location: Qu'Appelle Lakes. (1875).</desc>
@@ -4699,8 +4937,14 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:WARR2">
                               <desc>Warren, John Henry. Bonavista Bay (1865).</desc>
                            </valItem>
+                           <valItem ident="pers:WAST1">
+                              <desc>Wastasekoot, Charles.  (1910); Chief Treaty # 5. Location: York Factory. (1910).</desc>
+                           </valItem>
                            <valItem ident="pers:WATS1">
                               <desc>Watson, Robert James. Parry Sound (1905).</desc>
+                           </valItem>
+                           <valItem ident="pers:WATT2">
+                              <desc>Watt, Peter.  (1909); Chief Treaty # 5. Location: God's Lake. (1909).</desc>
                            </valItem>
                            <valItem ident="pers:WATT1">
                               <desc>Watton, Alfred Jr. Fogo (1946).</desc>
@@ -4756,6 +5000,12 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:WILS2">
                               <desc>Wilson, Uriah. Lennox and Addington (1905).</desc>
                            </valItem>
+                           <valItem ident="pers:WIND2">
+                              <desc>Winder, Julia.  (1877); witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
+                           </valItem>
+                           <valItem ident="pers:WIND1">
+                              <desc>Winder, W.  (1877); witness; Inspector Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877);  (1877); witness; Inspector Treaty # 7. Location: Fort MacLeod. (1877).</desc>
+                           </valItem>
                            <valItem ident="pers:WINT1">
                               <desc>Winter, John. Trinity Bay (1861).</desc>
                            </valItem>
@@ -4772,7 +5022,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Wood, Thomas Lett. ? (1870).</desc>
                            </valItem>
                            <valItem ident="pers:WOOD5">
-                              <desc>Woodhouse, Richard KE-WEE-TAH-QUUN-NA-YASH Or "he Who Flies Round The Feathers"; Woodhouse, Richard. Fairford and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871); representing Fairford Prairie (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
+                              <desc>Woodhouse, Richard (KE-WEE-TAH-QUUN-NA-YASH Or "he Who Flies Round The Feathers"); Woodhouse, Richard. Fairford and the neighboring localities (1871); Chief Treaty # 2. Location: Manitoba Post. (1871); representing Fairford Prairie (1875); chief Treaty # 1 &amp;/or 2. Location: signed where?. (1875).</desc>
                            </valItem>
                            <valItem ident="pers:WOOD3">
                               <desc>Woods, James Bryan. Port de Grave (1869).</desc>
@@ -4830,6 +5080,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:ZIMM1">
                               <desc>Zimmerman, Adam. Hamilton West (1905).</desc>
+                           </valItem>
+                           <valItem ident="pers:ZOAT1">
+                              <desc>Zoatze-Tapitapiw (Setting On An Eagle Tail). North Piegan (1877); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877).</desc>
                            </valItem>
                            <valItem ident="pers:ETHI1">
                               <desc>Éthier, Joseph Arthur Calixte. Two Mountains (1905).</desc>
