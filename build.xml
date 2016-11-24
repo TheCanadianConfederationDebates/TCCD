@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!-- This build file does three basic tasks:
-  
-      1. Validates all the files of various types it can find, against appropriate schemas.
-      
-      2. Runs diagnostics for today, and adds the resulting file to the git repo if it is not yet in there.
-      
-      3. Runs meta-diagnostics across all the previously-created diagnostics files.
-      
-      It requires libraries that are in code/utilities, so it should be run with:
-      
-        ant -lib code/utilities 
-        
-      It also requires ant-contrib.
--->
-
 <project basedir="." default="all" name="Validation and Diagnostics">
+  
+  <description>
+#####################################################################
+#  Project build file by Martin Holmes (mholmes@uvic.ca), 2016-11.  #
+    
+    This build file does three basic tasks:
+    
+      1. Validates all the files of various types it can find, 
+         against appropriate schemas.
+    
+      2. Runs diagnostics for today, and adds the resulting file to 
+         the git repo if it is not yet in there.
+    
+      3. Runs meta-diagnostics across all the previously-created 
+         diagnostics files.
+    
+    It requires libraries that are in code/utilities, so it should 
+    be run with:
+    
+      ant -lib code/utilities 
+    
+    It also requires ant-contrib.
+#                                                                   #
+#####################################################################
+  </description>
 
   <property name="echo.separator" value="************************************************"/>
   
