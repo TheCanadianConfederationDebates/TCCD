@@ -19,6 +19,12 @@
 
   <property name="echo.separator" value="************************************************"/>
   
+<!-- We'll need access to the date. -->
+  <tstamp>
+    <format property="today" pattern="yyyy-MM-dd" locale="en,CA"/>
+  </tstamp>
+  
+  
 <!-- RelaxNG file which also includes Schematron annotations. -->
   <property name="rngFile" value="data/schemas/tccd.rng"/>
 <!-- Temporary Schematron file (not in repo).  -->
@@ -29,6 +35,12 @@
   
 <!-- Listings file created by Python script, used for validating TEI files. -->
   <property name="teiFileList" value="code/utilities/teiFiles.txt"/>
+  
+<!-- Diagnostics XSL file. -->
+  <property name="diagnosticsXsl" value="code/xslt/diagnostics.xsl"/>
+  
+<!-- Diagnostics output file for today. -->
+  <property name="diagnosticsOutput" value="code/diagnostics/diagnostics_${today}.html"/>
   
 <!--  Some paths, libs and tasks. (May not all be needed.) -->
   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
@@ -103,31 +115,35 @@
       queryLanguageBinding="xslt2">
       <fileset refid="teiFiles"/>
     </schematron>
-    <!--<xslt force="true" style="${pd}/code/xslt/taxonomies_to_odd_fragments.xsl" destdir="${pd}" in="${pd}/data/schemas/tccd.odd" out="${pd}/data/schemas/tccd.odd_temp" extension=".odd">
-      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-      <classpath location="${oxygenlib}/saxon9ee.jar"/>
-    </xslt>
-    
-    <move file="${pd}/data/schemas/tccd.odd_temp" tofile="${pd}/data/schemas/tccd.odd" overwrite="true"/>-->
-    
   </target> 
 
   <target name="diagnostics">
     <antcall target="MESSAGE"><param name="msg" value="Running diagnostics..."/></antcall>
-    <!--<echo>${echo.separator}</echo>
-    <echo>*Create schema from expanded ODD file.*</echo>
-    <echo>${echo.separator}</echo>
-    
-    <xslt force="yes" style="${teiPlugin}/xml/tei/stylesheet/odds/odd2odd.xsl" in="${pd}/data/schemas/tccd.odd" out="${pd}/data/schemas/tccd.odd.processedodd">
-      <factory name="net.sf.saxon.TransformerFactoryImpl">
-        <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
-      </factory>
-      <param name="lang" expression="${lang}" if="lang"/>
-        <param name="defaultSource" expression="${defaultSource}" if="defaultSource"/>
-        <param name="selectedSchema" expression="${selectedSchema}" if="selectedSchema"/>
-        <param name="verbose" expression="${verbose}" if="verbose"/>
+    <!--<echo message="${today}"/>-->
+    <xslt force="yes" style="${diagnosticsXsl}" in="${diagnosticsXsl}" out="${diagnosticsOutput}">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
     </xslt>
-    <buildgeneric type="relaxng" xsl="${teiPlugin}/xml/tei/stylesheet/profiles/tei/relaxng/to.xsl" in="${pd}/data/schemas/tccd.odd.processedodd" out="${pd}/data/schemas/tccd.rng"/>-->
+    
+<!--  We do a git add in case this file is not yet tracked by git. -->
+<!--    git pull first, just in case. -->
+    <exec executable="git">
+      <arg value="pull"/>
+    </exec>
+    <exec executable="git">
+      <arg value="add"/>
+      <arg value="${diagnosticsOutput}"/>
+    </exec>
+<!--  Then commit, then push. -->
+    <exec executable="git">
+      <arg value="commit"/>
+      <arg value="${diagnosticsOutput}"/>
+      <arg value="-m &quot;Adding diagnostics generated ${today}.&quot;"/>
+    </exec>
+    <exec executable="git">
+      <arg value="push"/>
+      <arg value="origin"/>
+      <arg value="master"/>
+    </exec>
   </target> 
   
   <target name="metadiagnostics">

@@ -72,19 +72,19 @@
             <tbody>
               <tr>
                 <td>Original scanned pages:</td>
-                <td><xsl:value-of select="count($origHocrCollection/descendant::*:doc)"/></td>
+                <td id="hocrPagesRaw"><xsl:value-of select="count($origHocrCollection/descendant::*:doc)"/></td>
               </tr>
               <tr>
                 <td>Edited HOCR pages:</td>
-                <td><xsl:value-of select="count($editedHocrCollection/descendant::*:doc)"/></td>
+                <td id="hocrPagesEdited"><xsl:value-of select="count($editedHocrCollection/descendant::*:doc)"/></td>
               </tr>
               <tr>
                 <td>Pages in TEI:</td>
-                <td><xsl:value-of select="count($teiPages)"/></td>
+                <td id="pagesInTei"><xsl:value-of select="count($teiPages)"/></td>
               </tr>
               <tr>
                 <td>Pages in TEI with names tagged:</td>
-                <td><xsl:value-of select="count($teiPagesWithNameTagging)"/></td>
+                <td id="teiPagesNamesTagged"><xsl:value-of select="count($teiPagesWithNameTagging)"/></td>
               </tr>
             </tbody>
           </table>
