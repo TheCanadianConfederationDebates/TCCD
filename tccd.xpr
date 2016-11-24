@@ -1064,7 +1064,7 @@
                                                                     <Integer>6</Integer>
                                                                 </field>
                                                                 <field name="uri">
-                                                                    <String>file:/home/mholmes/WorkData/history/confederation_debates/TCCD/data/schemas/tccd.rng</String>
+                                                                    <String>${pdu}/data/schemas/tccd.rng</String>
                                                                 </field>
                                                             </validationUnitSchema>
                                                         </field>
@@ -1081,7 +1081,9 @@
                                     </validationScenario-array>
                                 </field>
                                 <field name="defaultValidationScenarios">
-                                    <null/>
+                                    <list>
+                                        <String>TCCD - Full TEI Debate Document</String>
+                                    </list>
                                 </field>
                                 <field name="defaultTransformationScenarios">
                                     <null/>

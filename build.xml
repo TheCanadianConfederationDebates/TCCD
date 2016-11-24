@@ -89,10 +89,11 @@
   </target>
   
   <target name="validateWithJing">
+    <basename property="fname" file="${filepath}"/>
+    <echo message="Checking ${fname}..."/>
     <jing compactsyntax="false" rngfile="${rngFile}" failonerror="true">
       <fileset dir="/" file="${filepath}"/>
     </jing>
-    <basename property="fname" file="${filepath}"/>
     <echo message="${fname} is valid."/>
   </target>
 
