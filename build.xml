@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This build file does three basic tasks:
+  
+      1. Validates all the files of various types it can find, against appropriate schemas.
+      
+      2. Runs diagnostics for today, and adds the resulting file to the git repo if it is not yet in there.
+      
+      3. Runs meta-diagnostics across all the previously-created diagnostics files.
+      
+      It requires libraries that are in code/utilities, so it should be run with:
+      
+        ant -lib code/utilities 
+        
+      It also requires ant-contrib.
+-->
+
+<project basedir="." default="all" name="Validation and Diagnostics">
+
+  <property name="echo.separator" value="************************************************"/>
+  
+<!-- RelaxNG file which also includes Schematron annotations. -->
+  <property name="rngFile" value="data/schemas/tccd.rng"/>
+<!-- Temporary Schematron file (not in repo).  -->
+  <property name="schFile" value="data/schemas/tccd.sch"/>
+  
+<!-- Python script used to compile lists of various file types in text files. -->
+  <property name="pythonListScript" value="code/utilities/listActiveDirectories.py"/>
+  
+<!-- Listings file created by Python script, used for validating TEI files. -->
+  <property name="teiFileList" value="code/utilities/teiFiles.txt"/>
+  
+<!--  Some paths, libs and tasks. (May not all be needed.) -->
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+  <classloader classpath="code/utilities/jing.jar"></classloader>
+  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" />
+  <classloader classpath="code/utilities/saxonhe.jar"></classloader>
+  <taskdef name="schematron" classname="com.schematron.ant.SchematronTask"
+    classpath="code/utilities/ant-schematron-2010-04-14.jar"/>
+  
+<!-- Filesets for key files. -->
+<!-- All XML files in the data directory should be TEI files. -->
+<!--  <fileset id="teiFiles" dir="/" includesfile="${teiFileList}">
+  </fileset>-->
+  <fileset id="teiFiles" dir="data" includes="**/*.xml">
+  </fileset>
+
+  <target name="MESSAGE">
+    <echo>&#x0a;${echo.separator}</echo>
+    <echo>   ${msg}   </echo>
+    <echo>${echo.separator}&#x0a;</echo>
+  </target>
+  
+  <target name="all">
+    <antcall target="MESSAGE"><param name="msg" value="Running all the tasks in the build file."/></antcall>
+    <antcall target="listFiles"/>
+    <antcall target="validation"/>
+    <antcall target="diagnostics"/>
+    <antcall target="metadiagnostics"/>
+    <antcall target="MESSAGE"><param name="msg" value="DONE!"/></antcall>
+  </target>
+  
+  <target name="listFiles">
+    <antcall target="MESSAGE"><param name="msg" value="Analysing paths to list key files."/></antcall>
+    <exec executable="python3" failonerror="true">
+      <arg value="${pythonListScript}"/>
+    </exec>
+  </target>
+  
+  <target name="validateWithJing">
+    <jing compactsyntax="false" rngfile="${rngFile}" failonerror="true">
+      <fileset dir="/" file="${filepath}"/>
+    </jing>
+    <basename property="fname" file="${filepath}"/>
+    <echo message="${fname} is valid."/>
+  </target>
+
+  <target name="validation">
+    
+    <antcall target="MESSAGE"><param name="msg" value="Validating XML files with RelaxNG..."/></antcall>
+    
+    <loadfile property="allTeiFiles" srcFile="${teiFileList}"/>
+    <foreach
+      target="validateWithJing"
+      list="${allTeiFiles}"
+      delimiter="${line.separator}"
+      param="filepath"/>
+    
+<!--  This fails because the iteration through folders takes huge amounts of time.
+      Using a dedicated task on each file instead. -->
+    <!--<jing compactsyntax="false" rngfile="${rngFile}" failonerror="true">
+      <fileset refid="teiFiles"/>
+    </jing>-->
+    
+    <antcall target="MESSAGE"><param name="msg" value="Extracting Schematron to do separate validation..."/></antcall>
+    <xslt in="${rngFile}" out="${schFile}"
+      style="code/utilities/schematron/ExtractSchFromRNG-2.xsl">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+    
+    <antcall target="MESSAGE"><param name="msg" value="Validating files with extracted Schematron..."/></antcall>
+    <schematron schema="${schFile}" failOnError="true" format="message"
+      queryLanguageBinding="xslt2">
+      <fileset refid="teiFiles"/>
+    </schematron>
+    <!--<xslt force="true" style="${pd}/code/xslt/taxonomies_to_odd_fragments.xsl" destdir="${pd}" in="${pd}/data/schemas/tccd.odd" out="${pd}/data/schemas/tccd.odd_temp" extension=".odd">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      <classpath location="${oxygenlib}/saxon9ee.jar"/>
+    </xslt>
+    
+    <move file="${pd}/data/schemas/tccd.odd_temp" tofile="${pd}/data/schemas/tccd.odd" overwrite="true"/>-->
+    
+  </target> 
+
+  <target name="diagnostics">
+    <antcall target="MESSAGE"><param name="msg" value="Running diagnostics..."/></antcall>
+    <!--<echo>${echo.separator}</echo>
+    <echo>*Create schema from expanded ODD file.*</echo>
+    <echo>${echo.separator}</echo>
+    
+    <xslt force="yes" style="${teiPlugin}/xml/tei/stylesheet/odds/odd2odd.xsl" in="${pd}/data/schemas/tccd.odd" out="${pd}/data/schemas/tccd.odd.processedodd">
+      <factory name="net.sf.saxon.TransformerFactoryImpl">
+        <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
+      </factory>
+      <param name="lang" expression="${lang}" if="lang"/>
+        <param name="defaultSource" expression="${defaultSource}" if="defaultSource"/>
+        <param name="selectedSchema" expression="${selectedSchema}" if="selectedSchema"/>
+        <param name="verbose" expression="${verbose}" if="verbose"/>
+    </xslt>
+    <buildgeneric type="relaxng" xsl="${teiPlugin}/xml/tei/stylesheet/profiles/tei/relaxng/to.xsl" in="${pd}/data/schemas/tccd.odd.processedodd" out="${pd}/data/schemas/tccd.rng"/>-->
+  </target> 
+  
+  <target name="metadiagnostics">
+    <antcall target="MESSAGE"><param name="msg" value="Running meta-diagnostics..."/></antcall>
+  </target>
+  
+
+</project>

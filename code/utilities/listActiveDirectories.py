@@ -17,11 +17,14 @@ print("Parsing the folder structure to discover the locations of key files.")
 print("=====================================================================")
 print()
 
+def getScriptPath():
+  return os.path.dirname(os.path.realpath(sys.argv[0]))
+
 #root location is the folder containing this file.
-dirRoot = os.getcwd()
+dirRoot = getScriptPath()
 
 #data directory is relative to working dir
-dirData = os.path.abspath('../../data')
+dirData = os.path.abspath(dirRoot + '../../../data')
 
 #regex for TEI file names
 reTeiFile = re.compile("^lg.+\d\d\d\d-\d\d-\d\d.xml$")
@@ -33,18 +36,25 @@ reOrigHocr = re.compile("hocr_orig$")
 reEditedHocr = re.compile("/hocr_edited")
 
 print("Data directory is at " + dirData)
+print("Script directory is at " + dirRoot)
 
 provinceFolders = ["AB_SK", "BC", "Indigenous_Voices", "Man", "Nfld", "NS", "Ont_Que", "PEI"]
 
 #Function for creating an XSLT collection file from a list of files.
 
 def writeCollection(fileList, fileName):
-  f = open(fileName, 'w')
+  f = open(dirRoot + '/' + fileName, 'w')
   f.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
   f.write("<collection>\n")
   for i in fileList:
     f.write("   <doc href=\"" + i + "\"/>\n")
   f.write("</collection>")
+  
+def writeList(fileList, fileName):
+  f = open(dirRoot + '/' + fileName, 'w')
+  for i in fileList:
+    #f.write("**/" + os.path.basename(i).replace(".", "\.") + "\n")
+    f.write(i + "\n")
 
 print("=====================================================================")
 print("Walking the data directory to list all the TEI files...")
@@ -56,6 +66,7 @@ for dirpath, subdirs, files in os.walk(dirData):
             teiFiles.append(os.path.join(dirpath, f))
             
 writeCollection(teiFiles, 'teiFiles.xml')
+writeList(teiFiles, 'teiFiles.txt')
 
 print("Done.")
 print("=====================================================================")

@@ -1021,7 +1021,64 @@
                                     <scenario-array/>
                                 </field>
                                 <field name="validationScenarios">
-                                    <validationScenario-array/>
+                                    <validationScenario-array>
+                                        <validationScenario>
+                                            <field name="pairs">
+                                                <list>
+                                                    <validationUnit>
+                                                        <field name="validationType">
+                                                            <validationUnitType>
+                                                                <field name="validationInputType">
+                                                                    <String>text/xml</String>
+                                                                </field>
+                                                            </validationUnitType>
+                                                        </field>
+                                                        <field name="url">
+                                                            <String>${currentFileURL}</String>
+                                                        </field>
+                                                        <field name="validationEngine">
+                                                            <validationEngine>
+                                                                <field name="engineType">
+                                                                    <String>&lt;Default engine></String>
+                                                                </field>
+                                                                <field name="allowsAutomaticValidation">
+                                                                    <Boolean>true</Boolean>
+                                                                </field>
+                                                            </validationEngine>
+                                                        </field>
+                                                        <field name="allowAutomaticValidation">
+                                                            <Boolean>true</Boolean>
+                                                        </field>
+                                                        <field name="extensions">
+                                                            <null/>
+                                                        </field>
+                                                        <field name="validationSchema">
+                                                            <validationUnitSchema>
+                                                                <field name="dtdSchemaPublicID">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="schematronPhase">
+                                                                    <null/>
+                                                                </field>
+                                                                <field name="type">
+                                                                    <Integer>6</Integer>
+                                                                </field>
+                                                                <field name="uri">
+                                                                    <String>file:/home/mholmes/WorkData/history/confederation_debates/TCCD/data/schemas/tccd.rng</String>
+                                                                </field>
+                                                            </validationUnitSchema>
+                                                        </field>
+                                                    </validationUnit>
+                                                </list>
+                                            </field>
+                                            <field name="type">
+                                                <String>Validation_scenario</String>
+                                            </field>
+                                            <field name="name">
+                                                <String>TCCD - Full TEI Debate Document</String>
+                                            </field>
+                                        </validationScenario>
+                                    </validationScenario-array>
                                 </field>
                                 <field name="defaultValidationScenarios">
                                     <null/>
@@ -1675,14 +1732,6 @@
                             <documentTypeEntry>
                                 <field name="documentTypeID">
                                     <String>6/xproc/xproc.framework/XProc</String>
-                                </field>
-                                <field name="enable">
-                                    <Boolean>false</Boolean>
-                                </field>
-                            </documentTypeEntry>
-                            <documentTypeEntry>
-                                <field name="documentTypeID">
-                                    <String>6/focheck/AHFormatter.framework/XSL 1.1 with Antenna House extensions</String>
                                 </field>
                                 <field name="enable">
                                     <Boolean>false</Boolean>
