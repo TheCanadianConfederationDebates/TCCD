@@ -15,7 +15,7 @@ Page images from legislative records are the main primary source for the project
         * `hocr_edited`
         * `pdf`
     * Federal
-      *\[...\]
+        * \[...\]
       
 When page-images are created, they are added to the `images` folder. Then [Tesseract] (https://github.com/tesseract-ocr) is used to do OCR, controlled by [Apache Ant] (http://ant.apache.org/); the build file is `code/scan_folder.xml`. This generates HOCR files; these are the results of the OCR process, encoded in a particular flavour of XHTML. These files are stored in `hocr_orig`. Following that, a subsequent transformation also invoked by the Ant script transforms and cleans up these files using Saxon and the XSLT file `code/xslt/enhance_hocr_bulk.xsl`. These files are stored in the folder `hocr`. Also, as part of the OCR process, text-over-image PDFs are created for each of the pages. These are used for convenient searching of the uncorrected OCR data; they will eventually be discarded.
 
