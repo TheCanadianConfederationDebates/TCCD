@@ -201,9 +201,7 @@
         </profileDesc>
       </teiHeader>
       <text>
-        <body>
-          <p>No content: core data is in the header.</p>
-        </body>
+        <xsl:copy-of select="//body"/>
       </text>
     </TEI>
     

@@ -36,8 +36,15 @@
   
 <!-- RelaxNG file which also includes Schematron annotations. -->
   <property name="rngFile" value="data/schemas/tccd.rng"/>
+  
+<!-- XSD file we will create. -->
+  <property name="xsdFile" value="data/schemas/tccd.xsd"/>
+  
 <!-- Temporary Schematron file (not in repo).  -->
   <property name="schFile" value="data/schemas/tccd.sch"/>
+  
+<!-- Trang used for conversion of schema. -->
+  <property name="trangJar" value="code/utilities/trang.jar"/>
   
 <!-- Python script used to compile lists of various file types in text files. -->
   <property name="pythonListScript" value="code/utilities/listActiveDirectories.py"/>
@@ -53,18 +60,26 @@
   
 <!--  Some paths, libs and tasks. (May not all be needed.) -->
   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
-  <classloader classpath="code/utilities/jing.jar"></classloader>
-  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" />
+  
+<!-- We end up calling Jing with a dedicated Java task because we need to 
+     pass a jvmarg to increase the default stack size, so this is not really
+     needed. -->
+<!--  <classloader classpath="code/utilities/jing.jar"></classloader>
+  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" >
+    <classpath path="code/utilities/jing.jar"></classpath>
+  </taskdef>-->
+  
+<!-- SaxonHE is in the repo. -->
   <classloader classpath="code/utilities/saxonhe.jar"></classloader>
+  
+<!-- We need this for Schematron validation. -->
   <taskdef name="schematron" classname="com.schematron.ant.SchematronTask"
     classpath="code/utilities/ant-schematron-2010-04-14.jar"/>
   
 <!-- Filesets for key files. -->
 <!-- All XML files in the data directory should be TEI files. -->
-<!--  <fileset id="teiFiles" dir="/" includesfile="${teiFileList}">
-  </fileset>-->
-  <fileset id="teiFiles" dir="data" includes="**/*.xml">
-  </fileset>
+  <fileset id="teiFiles" dir="data" includes="**/*.xml"/>
+  
 
   <target name="MESSAGE">
     <echo>&#x0a;${echo.separator}</echo>
@@ -88,23 +103,33 @@
     </exec>
   </target>
   
+  <target name="createXsd">
+    <antcall target="MESSAGE"><param name="msg" value="Creating XSD file for validation..."/></antcall>
+    <!--  Create an XSD so someone could use SaxonEE or Xerces for validation.  -->
+    <java jar="${trangJar}" fork="true">
+      <arg value="${rngFile}"/>
+      <arg value="${xsdFile}"/>
+    </java>
+  </target>
+  
   <target name="validateWithJing">
     <basename property="fname" file="${filepath}"/>
     <echo message="Checking ${fname}..."/>
     <java jar="code/utilities/jing.jar" fork="true">
       <arg value="${rngFile}"/>
       <arg value="${filepath}"/>
+<!-- Huge thanks to George Bina for suggesting this jvmarg,
+     which prevents unpredictable stack overflow errors. -->
+      <jvmarg value="-Xss2m"/>
     </java>
-    <!--<jing compactsyntax="false" rngfile="${rngFile}" failonerror="true">
-      <fileset dir="/" file="${filepath}"/>
-    </jing>-->
-    <echo message="${fname} is valid."/>
   </target>
-
+  
   <target name="validation">
     
     <antcall target="MESSAGE"><param name="msg" value="Validating XML files with RelaxNG..."/></antcall>
-    
+
+<!--  We use a dedicated task for this because we need to pass 
+      a larger stack value to handle the TEI schema. -->
     <loadfile property="allTeiFiles" srcFile="${teiFileList}"/>
     <foreach
       target="validateWithJing"
