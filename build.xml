@@ -22,6 +22,13 @@
       ant -lib code/utilities 
     
     It also requires ant-contrib.
+    
+    Note that since there are potentially thousands of calls to the
+    target validateWithJing, it is recommended to avoid excessive 
+    output by running like this:
+    
+    ant -logger org.apache.tools.ant.listener.SimpleBigProjectLogger 
+        -lib code/utilities
 #                                                                   #
 #####################################################################
   </description>
@@ -55,8 +62,11 @@
 <!-- Diagnostics XSL file. -->
   <property name="diagnosticsXsl" value="code/xslt/diagnostics.xsl"/>
   
+<!-- Folder for storing diagnostics. -->
+  <property name="diagnosticsFolder" value="code/diagnostics/"/>
+    
 <!-- Diagnostics output file for today. -->
-  <property name="diagnosticsOutput" value="code/diagnostics/diagnostics_${today}.html"/>
+  <property name="diagnosticsOutput" value="${diagnosticsFolder}diagnostics_${today}.html"/>
   
 <!--  Some paths, libs and tasks. (May not all be needed.) -->
   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
@@ -113,9 +123,9 @@
   </target>
   
   <target name="validateWithJing">
-    <basename property="fname" file="${filepath}"/>
-    <echo message="Checking ${fname}..."/>
-    <java jar="code/utilities/jing.jar" fork="true">
+    <!--<basename property="fname" file="${filepath}"/>
+    <echo message="Checking ${fname}..."/>-->
+    <java jar="code/utilities/jing.jar" fork="true" failonerror="true">
       <arg value="${rngFile}"/>
       <arg value="${filepath}"/>
 <!-- Huge thanks to George Bina for suggesting this jvmarg,
@@ -187,6 +197,11 @@
   
   <target name="metadiagnostics">
     <antcall target="MESSAGE"><param name="msg" value="Running meta-diagnostics..."/></antcall>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:metadiagnostics.xsl"/>
+      <arg value="-xsl:metadiagnostics.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+    </java>
   </target>
   
 

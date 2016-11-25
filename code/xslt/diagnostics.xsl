@@ -60,7 +60,7 @@
   <xsl:template match="/">
     <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
             </xsl:text>
-    <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="diagnostics">
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="diagnostics_{$currDateW3C}">
       <head>
         <title>The Confederation Debates: Diagnostics <xsl:value-of select="$currDateTimeHuman"/></title>
       </head>
