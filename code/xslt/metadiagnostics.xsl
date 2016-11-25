@@ -28,14 +28,14 @@
   <xsl:param name="outputFile" as="xs:string" select="concat($fixedDiagnosticsFolder, 'metadiagnostics.json')"/>
   
 <!-- The collection based on the folder. -->
-  <xsl:variable name="inputFiles" select="collection(concat($fixedDiagnosticsFolder, '/?select=*.html'))"/>
+  <xsl:variable name="inputFiles" select="collection(concat($fixedDiagnosticsFolder, '/?select=*.html'))//html[matches(@id, '^diagnostics_')]"/>
   
 <!-- Do the work, which is basically very simple. -->
   <xsl:template match="/">
     
 <!-- Report what's going to happen. -->
     <xsl:message>
-      This process will analyze <xsl:value-of select="count($inputFiles//html)"/> single-day
+      This process will analyze <xsl:value-of select="count($inputFiles)"/> single-day
       diagnostics files to produce a single JSON file (<xsl:value-of select="$outputFile"/>)
       and a single JavaScript file for C3/D3 (<xsl:value-of select="replace($outputFile, '\.json', '.js')"/>.)
     </xsl:message>
@@ -48,7 +48,7 @@
 </xsl:text>
 
 <!-- Process each diagnostics file, ordered by date... -->
-    <xsl:for-each select="$inputFiles//html">
+    <xsl:for-each select="$inputFiles">
       <xsl:sort select="@id"/>
       <xsl:variable name="currFile" select="."/>
       <xsl:variable name="strDate" as="xs:string" select="substring-after(@id, '_')"/>
@@ -81,7 +81,9 @@
       columns: [
       ['x',</xsl:text>
       
-      <xsl:for-each select="$inputFiles//html"><xsl:text>'</xsl:text><xsl:value-of select="substring-after(@id, '_')"/><xsl:text>'</xsl:text><xsl:if test="position() lt last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each> 
+      <xsl:for-each select="$inputFiles">
+        <xsl:variable name="thisFile" select="."/>
+        <xsl:text>'</xsl:text><xsl:value-of select="substring-after(@id, '_')"/><xsl:text>'</xsl:text><xsl:if test="position() lt last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each> 
       <xsl:text>],
       ['Original scanned pages', </xsl:text><xsl:for-each select="$inputFiles//td[@id='hocrPagesRaw']"><xsl:value-of select="normalize-space(.)"/><xsl:if test="position() lt last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:text>],
       ['Edited HOCR pages', </xsl:text><xsl:for-each select="$inputFiles//td[@id='hocrPagesEdited']"><xsl:value-of select="normalize-space(.)"/><xsl:if test="position() lt last()"><xsl:text>, </xsl:text></xsl:if></xsl:for-each><xsl:text>],
