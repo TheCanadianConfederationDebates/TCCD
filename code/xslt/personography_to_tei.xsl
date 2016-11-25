@@ -70,15 +70,38 @@
   <xsl:variable name="headerRow" select="$docRoot//table:table-row[$headerRowPos]"/>
     
   <xsl:template match="/">
+<!--   We start with a number of checks and tests to avoid disaster. -->
+    
+<!--   Figure out what document we're importing. We want to make sure we have usable input. -->
+    <xsl:variable name="inputPersonographyId" select="substring-before(tokenize(document-uri(/), '/'), '_expanded.xml')"/>
+    <xsl:if test="not(matches($inputPersonographyId, '[a-zA-Z0-9_]+'))">
+      <xsl:message terminate="yes">
+        The input personography filename is not in the expected format. It 
+        would result in an @xml:id attribute of <xsl:value-of select="$inputPersonographyId"/>,
+        which does not match the project expectations. This process is expecting an input 
+        file with a name that looks like this:
+        
+        [a-zA-Z0-9_]+.xml
+        
+      </xsl:message>
+    </xsl:if>
+    
+    <xsl:if test="$existingPersonography//listPerson[@xml:id=$inputPersonographyId]">
+      <xsl:message>This process will overwrite the contents of the listPerson
+      element with the @xml:id "<xsl:value-of select="$inputPersonographyId"/>" with 
+      the contents of the expanded FODS file. If this was not your intention, 
+      revert personography.xml file to its state prior to this process.</xsl:message>
+    </xsl:if>
+       
     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="personography">
       <teiHeader>
         <xsl:copy-of select="$existingPersonography//fileDesc"/>
         <profileDesc>
           <particDesc>
             
-            <xsl:copy-of select="$existingPersonography//listPerson[not(@xml:id='historicalPersonography')]"/>
+            <xsl:copy-of select="$existingPersonography//listPerson[not(@xml:id=$inputPersonographyId)]"/>
             
-            <listPerson xml:id="historicalPersonography">
+            <listPerson xml:id="{$inputPersonographyId}">
               
 <!--  Find a variety of column offsets we're going to need.            -->
               <xsl:variable name="idCol" select="hcmc:getColOffsetFromCaption('xml:id')"/>
@@ -100,6 +123,16 @@
                 <xsl:for-each select="distinct-values(//table:table-row[position() ge 2]/table:table-cell[$idCol]/normalize-space(.))">
                   <xsl:variable name="currId" select="."/>
                   <xsl:if test="$currId ne ''">
+                    
+<!--             Let's just check we're not creating an id collision.       -->
+                    <xsl:if test="$existingPersonography//listPerson[not(@xml:id=$inputPersonographyId)]//person[@xml:id=$currId]">
+                      <xsl:message terminate="yes">
+                        ERROR: There is a collision of @xml:id values. The incoming file has a 
+                        person with id "<xsl:value-of select="$currId"/>, and there is an 
+                        existing person in a different listPerson element with the same @xml:id.
+                      </xsl:message>
+                    </xsl:if>
+                    
                     <person xml:id="{$currId}">
     <!--        We need to retrieve and merge instances of names for this person.
                 They may change slightly over time, but if they don't, we may 
