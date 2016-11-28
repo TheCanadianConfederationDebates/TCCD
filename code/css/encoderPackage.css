@@ -70,9 +70,11 @@ pb[facs]:after{
   content: url(../icons/document.png);
 }
 
-/* Stuff to suppress in the normal course of things. */
+/* Used to be hidden; turned into real linebreak per 
+   DH 2016-11-28. */
 lb{
-  display: none;
+  display: block;
+  content: "";
 }
 
 /* Problem cases need to be highlighted though. */
