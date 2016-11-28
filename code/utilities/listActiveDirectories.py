@@ -33,7 +33,7 @@ reTeiFile = re.compile("^((lg.+\d\d\d\d-\d\d-\d\d)|(personography)|(taxonomies))
 reOrigHocr = re.compile("hocr_orig$")
 
 #regex for edited HOCR files
-reEditedHocr = re.compile("/hocr_edited")
+reEditedHocr = re.compile("hocr_edited$")
 
 print("Data directory is at " + dirData)
 print("Script directory is at " + dirRoot)
