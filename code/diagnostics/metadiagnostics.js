@@ -4,11 +4,11 @@
       data: {
       x: 'x',
       columns: [
-      ['x','2016-11-25', '2016-11-28', '2016-11-24', '2016-11-15'],
-      ['Original scanned pages', 7618, 7618, 7618, 6096],
-      ['Edited HOCR pages', 1614, 1631, 1614, 1615],
-      ['Pages in TEI', 437, 437, 429, 335],
-      ['Pages in TEI with names tagged', 20, 20, 20, 15]
+      ['x','2016-11-25', '2016-11-28', '2016-11-24', '2016-11-15', '2016-11-29'],
+      ['Original scanned pages', 7618, 7618, 7618, 6096, 7618],
+      ['Edited HOCR pages', 1614, 1631, 1614, 1615, 1631],
+      ['Pages in TEI', 437, 437, 429, 335, 437],
+      ['Pages in TEI with names tagged', 20, 20, 20, 15, 20]
         ],
       axes: {
         data1: 'y',
