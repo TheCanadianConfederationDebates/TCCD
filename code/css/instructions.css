@@ -58,3 +58,7 @@ img {
     width:attr(width, length);
     height:attr(height, length);
 }
+
+br{
+  content: "";
+}
