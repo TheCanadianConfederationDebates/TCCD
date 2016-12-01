@@ -59,6 +59,17 @@ img {
     height:attr(height, length);
 }
 
+a[href]{
+  link:attr(href);
+}
+a[href]:after{
+  link:attr(href);
+  content: " Go there";
+  text-decoration: underline;
+  color: blue;
+}
+
+
 br{
   content: "";
 }
