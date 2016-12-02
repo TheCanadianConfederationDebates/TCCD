@@ -1,94 +1,3718 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPCLA_1865-02-07" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgPCLAssem">Legislative Assembly</name>, <date when="1865-02-07">7 February 1865</date>, Province of Canada, Confederation Debates</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPCLA_1865-02-07"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPCLAssem">Legislative Assembly</name>, <date when="1865-02-07">7 February 1865</date>, Province of Canada, Confederation Debates</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName ref="pers:LYAL1">Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
+
        
           
-<!-- TEMPLATE: Title of the publication -->         
-          <title>Parliamentary Debates on the Subject of the Confederation of the British North American Provinces, 3rd Session, 8th Provincial Parliament of Canada</title>.
+         
+               <title>Parliamentary Debates on the Subject of the Confederation of the British North American Provinces, 3rd Session, 8th Provincial Parliament of Canada</title>.
                     
 
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
           <date when="1865"/>.
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
           <pubPlace>Quebec</pubPlace>: <publisher>Hunter, Rose &amp; Co., Parliamentary Printers</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="53" to="71"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0053.hocr.html"/></item>
-          <item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0054.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0055.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0056.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0057.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0058.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0059.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0060.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0061.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0062.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0063.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0064.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0065.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0066.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0067.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0068.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0069.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0070.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0071.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0053.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0054.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0055.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0056.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0057.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0058.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0059.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0060.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0061.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0062.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0063.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0064.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0065.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0066.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0067.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0068.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0069.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0070.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_LA_1865-02-07_Page_0071.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2016-11-01">Created this document, completed metadata. </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2016-12-02">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2016-11-01">Created this document, completed metadata. </change>
+      </revisionDesc>
   </teiHeader>
+   <facsimile>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0053">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0053.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0054">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0054.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0055">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0055.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0056">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0056.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0057">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0057.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0058">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0058.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0059">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0059.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0060">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0060.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0061">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0061.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0062">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0062.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0063">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0063.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0064">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0064.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0065">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0065.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0066">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0066.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0067">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0067.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0068">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0068.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0069">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0069.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0070">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0070.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_LA_1865-02-07_Page_0071">
+         <graphic url="final/images/Ont_Que_LA_1865-02-07_Page_0071.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="53" facs="final/images/Ont_Que_LA_1865-02-07_Page_0053.jpg"/>
+            <fw type="num">53</fw>
   
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <div type="debate">
-        <p>This content will be replaced by data from the source documents during processing.</p>
-      </div>
-    </body>
-  </text>
+<!-- GL, 2016-12-02, Commented out below, as it will appear in the preceding debate day --> 
+          
+<!--<p>
+     their future acts. They would also observe 
+     <lb/>
+     that all formerly connected with the Grand 
+     <lb/>
+     Trunk were urging this scheme forward. He 
+     <lb/>
+     then accused the Government of bad faith in 
+     <lb/>
+     bringing down these resolutions, instead of a 
+     <lb/>
+     measure simply for the Canadas; that the 
+     <lb/>
+     reform party only committed themselves to 
+     <lb/>
+     the latter scheme when Mr. BROWN entered 
+     <lb/>
+     the Cabinet, but now it was only secondary. 
+     <lb/>
+     To bear this out he read the following reso<lb break="no"/>lution adopted by that party :<lb break="no"/>
+            </p>
+            <p>Moved by Mr. HOPE McKENZIE, and second<lb break="no"/>ed by Mr. McGIVERIN— That we approve of the 
+     <lb/>
+     course which has been pursued by Mr. BROWN in 
+     <lb/>
+     the negotiations with the Government. and that 
+     <lb/>
+     we approve of the project of a Federal union of 
+     <lb/>
+     the Canadas, with provision for its extension to 
+     <lb/>
+     the Maritime Provinces and the North-Western 
+     <lb/>
+     territory, as one based on which the constitutional 
+     <lb/>
+     difficulties now existing should be settled. 
+     <lb/>
+            </p>
+   
+            <p>
+     He was not personally opposed to Con<lb break="no"/>federation in itself , but this measure was so 
+     <lb/>
+     defective that he could not support it, bearing, 
+     <lb/>
+     as it did, the seeds of decay apparent in its 
+     <lb/>
+     details. He heartily concurred in the views 
+     <lb/>
+     expressed recently at Halifax, by a distinguished 
+     <lb/>
+     Upper Canada Statesman—(MR. BROWN):— 
+     <lb break="maybe"/>
+     “ On a survey of the whole case, I do think 
+     <lb/>
+     that there is no doubt as to the high advan<lb break="no"/>tages that would result from a union of all 
+     <lb/>
+     the colonies, provided that terms of union 
+     <lb/>
+     could be found just to all the contracting 
+     <lb/>
+     parties, and so framed as to secure harmony 
+     <lb/>
+     in the future administration of affairs. But 
+     <lb/>
+     it were wrong to conceal for a moment that 
+     <lb/>
+     the whole merit of the scheme of union may 
+     <lb/>
+     be completely marred by the character of its 
+     <lb/>
+     details." He asked who would not say that 
+     <lb/>
+     the details of this measure did not so mar as 
+     <lb/>
+     to spoil the scheme. If we are to have a Con<lb break="no"/>federation, let it be put upon a proper and 
+     <lb/>
+     permanent foundation, one that will be of ad<lb break="no"/>vantage to this young and vigorous province, 
+     <lb/>
+     and he expressed the hope that only such a 
+     <lb/>
+     scheme would be sanctioned by Parliament. 
+     <lb/>
+     (Hear, hear, and applause.) 
+     <lb/>
+            </p>
+
+            <p>
+     lt being nearly six o’clock, HON. MR. 
+     <lb/>
+     Ross moved to adjourn the debate till the 
+     <lb/>
+     morrow, which was carried. 
+     <lb/>
+            </p>
+   
+            <p>
+     The House then adjourned. 
+     <lb/>
+            </p>
+
+            <milestone type="unknown"/>-->
+
+
+            <fw type="running">LEGISLATIVE ASSEMBLY.</fw>
+            <fw type="dateline">
+     TUESDAY, <hi rendition="simple:italic">February</hi> 7, 1865. 
+     <lb/>
+            </fw>
+
+            <p>
+     ATTY. GEN. CARTIER rose to continue 
+     <lb/>
+     the debate on Confederation. He said that 
+     <lb/>
+     he approached this subject with a certain 
+     <lb/>
+     amount of diffidence, knowing it was not the 
+     <lb/>
+     ﬁrst time he had had the honor of speaking 
+     <lb/>
+     upon it in the Lower Provinces and elsewhere. 
+     <lb/>
+     He felt that this was a momentous occasion, 
+     <lb/>
+     as for anything that he said on this grave 
+     <lb/>
+     question, he was responsible to his constituents 
+     <lb/>
+     and the country. Respecting this grave ques<lb break="no"/>tion, it had been said that the TACHÉ-MAC<lb break="no"/>DONALD Government had taken upon them<lb break="no"/>selves the solution of a problem which was not 
+     <lb/>
+     at the time of its formation before the coun<lb break="no"/>try, and had not even been mooted. Those 
+     <lb/>
+     saying so were ignorant of the parliamentary 
+     <lb/>
+     history of the past few years. He would briefly 
+     <lb/>
+     refer to the history of this great question, as 
+     <lb/>
+     far as it had been brought before the Parlia<lb break="no"/>ment and country. When the CARTIER-MAC<lb break="no"/>DONALD Government was constructed, after 
+     <lb/>
+     the downfall of the BROWN-DORION Adminis<lb break="no"/>tration, a programme of the policy of the 
+     <lb/>
+     former was laid before Parliament. Among 
+     <lb/>
+     the subjects contained in this programme of 
+     <lb/>
+     7th August, 1858, was one referred to in the 
+     <lb/>
+     following terms: “ The late Government felt 
+     <lb/>
+     themselves bound to carry out the law of the 
+     <lb/>
+     land respecting the seat of Government, but, in 
+     <lb/>
+     the face of the recent vote on that subject, the 
+     <lb/>
+     Administration did not consider themselves 
+     <lb/>
+     warranted in incurring an expenditure for 
+     <lb/>
+     the public buildings, until Parliament has had 
+     <lb/>
+     an opportunity of considering the whole ques<lb break="no"/>tion in all its bearings ; and the expediency of 
+     <lb/>
+     a Federal Union of the British North American 
+     <lb/>
+     Provinces will be anxiously considered, and 
+     <lb/>
+     communication with the Home Government 
+     <lb/>
+     and the Lower Provinces entered into forth<lb break="no"/>with on the subject ; and the result of this 
+     <lb/>
+     communication will be submitted to Parlia<lb break="no"/>ment at its next session. The Government 
+     <lb/>
+     will, during the recess, examine into the organ<lb break="no"/>ization and working of the public departments, 
+     <lb/>
+     and carry out such administrative reforms as 
+     <lb/>
+     will be conducive to economy and efficiency." 
+     <lb/>
+     Here was this scheme of a union of the pro<lb break="no"/>vinces mentioned in the programme of the 
+     <lb/>
+     CARTIER-MACDONALD Government, in 1858. 
+     <lb/>
+     He merely quoted this passage to show that 
+     <lb/>
+     neither Parliament nor the country was now 
+     <lb/>
+     taken by surprise with regard to this scheme. 
+     <lb/>
+     (Hear, hear.) We had had general and spe<lb break="no"/>cial elections since 1858, and to pretend that 
+     <lb/>
+        
+            <pb n="54" facs="final/images/Ont_Que_LA_1865-02-07_Page_0054.jpg"/>
+            <fw type="num">54</fw>
+           
+
+     this subject, which had been so often canvassed, 
+     <lb/>
+     was new to the country, was to assert an un<lb break="no"/>truth. At the close of that session, Sir EDMUND 
+     <lb/>
+     HEAD, in his Speech proroguing Parliament, 
+     <lb/>
+     made use of the following language :—“ I 
+     <lb/>
+     propose, in the course of the recess, to 
+     <lb/>
+     communicate with Her Majesty’s Govern<lb break="no"/>ment, and with the Governments of the sister 
+     <lb/>
+     colonies, on another matter of very great im<lb break="no"/>portance. I am desirous of inviting them to 
+     <lb/>
+     discuss with us the principles on which a bond 
+     <lb/>
+     of a federal character, uniting the Provinces of 
+     <lb/>
+     British North America, may perhaps hereafter 
+     <lb/>
+     be practicable.” In accordance  with that an<lb break="no"/>nouncement of policy, a deputation was sent to 
+     <lb/>
+     England, composed of his then colleagues, 
+     <lb/>
+     Hons. Messrs. GALT and Ross and himself. 
+     <lb/>
+     We pressed the matter before the Imperial 
+     <lb/>
+     Government, whom we asked to authorize a 
+     <lb/>
+     meeting of delegates from the British North 
+     <lb/>
+     American Governments, to consider this sub<lb break="no"/>ject and report upon it, said report to be com<lb break="no"/>municated to the Colonial Secretary. Of 
+     <lb/>
+     course we wanted, at that time, to act with the 
+     <lb/>
+     sanction and approval of the Imperial Govern<lb break="no"/>ment. We pressed the matter as strongly as 
+     <lb/>
+     we could before it. Of all the provinces that 
+     <lb/>
+     responded to the call of the Imperial Govern<lb break="no"/>ment, Newfoundland, he thought, was the only 
+     <lb/>
+     one which professed her readiness to appoint 
+     <lb/>
+     delegates  when the opportune moment arrived. 
+     <lb/>
+     (Hear, hear.)  Although the other provinces 
+     <lb/>
+     were not opposed to Confederation, still, as the 
+     <lb/>
+     question had not been brought conspicuously 
+     <lb/>
+     before their people, they did not like then to 
+     <lb/>
+     join in the measure and in the proceedings 
+     <lb/>
+     which the Canadian delegates had urged upon 
+     <lb/>
+     the Imperial Government in 1858. At this 
+     <lb/>
+     time the Canadian Delegates had a duty to 
+     <lb/>
+     perform towards the illustrious Administrator 
+     <lb/>
+     of the Government, Sir E. HEAD, to fulﬁl the 
+     <lb/>
+     promise he had made, on proroguing Parlia<lb break="no"/>ment, by pressing the measure upon the atten<lb break="no"/>tion of the Imperial Administration. The 
+     <lb/>
+     Canadian Government also kept its promise 
+     <lb/>
+     to report to the House the result of the 
+     <lb/>
+     mission to England, at the next session of 
+     <lb/>
+     Parliament. The hon. gentleman here read 
+     <lb/>
+     the despatch dated October, 1858, which was 
+     <lb/>
+     transmitted to the Imperial Government, set<lb break="no"/>ting forth the sectional difficulties which had 
+     <lb/>
+     arisen between Upper and Lower Canada, 
+     <lb/>
+     principally on account of the former’ s demand 
+     <lb/>
+     for increased representation in Parliament, on 
+     <lb/>
+     the ground of its much larger population. 
+     <lb/>
+     Every one who knew anything of his past pub<lb break="no"/>lic course was aware that he was opposed to 
+     <lb/>
+     the principle of representation by population 
+     <lb/>
+           
+            <cb/>
+           
+     while Upper and Lower Canada were under 
+     <lb/>
+     one Government. He did not regret his oppo<lb break="no"/>sition. If such a measure had been passed, 
+     <lb/>
+     what would have been the consequence ? There 
+     <lb/>
+     would have been constant political warfare be<lb break="no"/>tween Upper and Lower Canada. True it was 
+     <lb/>
+     that the members from Upper Canada, being 
+     <lb/>
+     in the majority, it might have been imagined 
+     <lb/>
+     they would have carried everything before 
+     <lb/>
+     them ; but as far as justice to Lower Canada 
+     <lb/>
+     was concerned, such might not have been the 
+     <lb/>
+     case. The consequence of representation by 
+     <lb/>
+     population would have been that one territory 
+     <lb/>
+     would have governed another, and this fact 
+     <lb/>
+     would have presented itself session after ses<lb break="no"/>sion in the House, and day after day in 
+     <lb/>
+     the public prints. (Hear, hear.) The mo<lb break="no"/>ment this principle had been conceded as the 
+     <lb/>
+     governing element, it would have initiated 
+     <lb/>
+     between the two provinces a warfare which 
+     <lb/>
+     would have been unremitting. (Hear, hear.) 
+     <lb/>
+     He wished that Upper Canada should un<lb break="no"/>derstand him in this matter. He was ac<lb break="no"/>cused of being opposed to Upper Canada’s 
+     <lb/>
+     rights, because during fifteen or twenty years 
+     <lb/>
+     he had to oppose his honorable friend the 
+     <lb/>
+     President of the Council (Hon. MR. BROWN) . 
+     <lb/>
+     His honorable colleague took the ground that 
+     <lb/>
+     representation should be arranged according 
+     <lb/>
+     to population in each section of the prov<lb break="no"/>ince. He (Hon. MR. CARTIER) had resisted 
+     <lb/>
+     that position, believing that the moment such 
+     <lb/>
+     a principle was applied, his honorable friend, 
+     <lb/>
+     who, no doubt, wanted to maintain the peace<lb break="no"/>ful government of the country, would have 
+     <lb/>
+     been disappointed in his wish. It would have 
+     <lb/>
+     given rise to one of the bitterest struggles 
+     <lb/>
+     between the two provinces that ever took place 
+     <lb/>
+     between two nations. He did not mean to 
+     <lb/>
+     say that the majority from Upper Canada 
+     <lb/>
+     would have tyrannized over Lower Canada ; 
+     <lb/>
+     but the idea that Upper Canada, as a terri<lb break="no"/>tory, had the preponderence in the Govern<lb break="no"/>ment by a large number of representatives, 
+     <lb/>
+     would have been sufficient to generate that 
+     <lb/>
+     sectional strife to which he had alluded. In 
+     <lb/>
+     1858 he first saw that representation by 
+     <lb/>
+     population, though unsuited for application as a 
+     <lb/>
+     governing principle as between the two pro<lb break="no"/>vinces, would not involve the same objection if 
+     <lb/>
+     other partners were drawn in by a federation. 
+     <lb/>
+     In a struggle between two—one a weak, and 
+     <lb/>
+     the other a strong party—the weaker could not 
+     <lb/>
+     but be overcome ; but if three parties were 
+     <lb/>
+     concerned, the stronger would not have the 
+     <lb/>
+     same advantage ; as when it was seen by the 
+     <lb/>
+     third that there was too much strength on one 
+     <lb/>
+     side, the third would club with the  weaker 
+     <lb/>
+        
+            <pb n="55" facs="final/images/Ont_Que_LA_1865-02-07_Page_0055.jpg"/>
+            <fw type="num">55</fw>
+          
+     combatant to resist the big fighter.  (Cheers 
+     <lb/>
+     and laughter.) He did not oppose the 
+     <lb/>
+     principle of representation by population 
+     <lb/>
+     from an unwillingness  to do justice to 
+     <lb/>
+     Upper Canada. He took this ground, how<lb break="no"/>ever, that when justice was done to Upper 
+     <lb/>
+     Canada, it was his duty to see that no injustice 
+     <lb/>
+     was done to Lower Canada. He did not entertain 
+     <lb/>
+     the slightest apprehension that Lower Canada’s 
+     <lb/>
+     rights were in the least jeopardized by the provi<lb break="no"/>sion that in the General Legislature the French 
+     <lb/>
+     Canadians of Lower Canada would have a 
+     <lb/>
+     smaller number of representatives than all the 
+     <lb/>
+     other origins combined. It would be seen by the 
+     <lb/>
+     resolutions that in the questions which would 
+     <lb/>
+     be submitted to the General Parliament there 
+     <lb/>
+     could be no danger to the rights and privi<lb break="no"/>leges of either French Canadians, Scotchmen, 
+     <lb/>
+     Englishmen or Irishmen. Questions of com<lb break="no"/>merce, of international communication, and 
+     <lb/>
+     all matters of general interest, would be dis<lb break="no"/>cussed and determined in the General Legis<lb break="no"/>lature ; but in the exercise of the functions 
+     <lb/>
+     of the General Government, no one could ap<lb break="no"/>prehend that anything could be enacted which 
+     <lb/>
+     would harm or do injustice to persons of any 
+     <lb/>
+     nationality. He did not intend to go into 
+     <lb/>
+     the details of the question of Confederation, 
+     <lb/>
+     but merely to bring before the House the 
+     <lb/>
+     most conspicuous arguments in order to induce 
+     <lb/>
+     members to accept the resolutions submitted 
+     <lb/>
+     by the Government. Confederation was, as 
+     <lb/>
+     it were, at this moment almost forced upon 
+     <lb/>
+     us. We could not shut our eyes to what was 
+     <lb/>
+     going on beyond the lines, where a great 
+     <lb/>
+     struggle was going on between two Confedera<lb break="no"/>cies, at one time forming but one Confederacy. 
+     <lb/>
+     We saw that a government, established not 
+     <lb/>
+     more than 80 years ago, had not been able to 
+     <lb/>
+     keep together the family of states which had 
+     <lb/>
+     broke up four or ﬁve years since. We could 
+     <lb/>
+     not deny that the struggle now in progress 
+     <lb/>
+     must necessarily influence our political exist<lb break="no"/>ence. We did not know what would be the 
+     <lb/>
+     result of that great war—whether it would 
+     <lb/>
+     end in the establishment of two Confederacies 
+     <lb/>
+     or in one as before. However, we had to do 
+     <lb/>
+     with five colonies, inhabited by men of the 
+     <lb/>
+     same sympathies and interests, and in order 
+     <lb/>
+     to become a great nation they required only 
+     <lb/>
+     to be brought together under one General 
+     <lb/>
+     Government. The matter resolved itself into 
+     <lb/>this, either we must obtain British North 
+     <lb/>American Confederation or be absorbed in an 
+     <lb/>American Confederation. (Hear, hear, and 
+     <lb/>dissent.) Some entertained the opinion that 
+     <lb/>it was unnecessary to have British North 
+     <lb/>American Confederation to prevent absorption 
+     <lb/>
+         
+
+    
+            <cb/>
+          
+     into the vortex of American Confederation. 
+     <lb/>
+     Such parties were mistaken. We knew the 
+     <lb/>
+     policy of England towards us—that she was 
+     <lb/>
+     determined to help and support us in any 
+     <lb/>
+    struggle with our neighbors. The British  
+     <lb/>Provinces, separated as at present, could not 
+     <lb/>defend themselves alone, and the question 
+     <lb/>resolved itself into this : shall the whole 
+     <lb/>strength of the empire be concentrated into 
+     <lb/>Prince Edward Island, or Canada, as the case 
+     <lb/>may be, in case of a war with the United 
+     <lb/>States—or shall the provinces be left to ﬁght 
+     <lb/>single-handed, disunited ? We were not suf<lb break="no"/>ﬁciently united. We had our duties, with 
+     <lb/>regard to England, to perform. In order to 
+     <lb/>secure the exercise of her power in our defence 
+     <lb/>we must help her ourselves. We could not do 
+     <lb/>this satisfactorily or effciently unless we had 
+     <lb/>a Confederation. When all united, the enemy 
+     <lb/>would know that, if he attacked any part of 
+     <lb/>those provinces—Prince Edward Island or 
+     <lb/>Canada—he would have to encounter the com<lb break="no"/>bined strength of the empire. Canada, sepa<lb break="no"/>rate, would be, although comparatively strong 
+     <lb/>in population and wealth, in a dangerous posi<lb break="no"/>tion should a war ensue. When we had 
+     <lb/>organized our good defensive force, and united 
+     <lb/>for mutual protection, England would send 
+     <lb/>freely here both men and treasure for our 
+     <lb/>defence. (Cheers) He had stated before 
+     <lb/>audiences in the Lower Provinces that, as 
+     <lb/>far as territory, population and wealth were 
+     <lb/>concerned, Canada was stronger than any 
+     <lb/>of the other provinces, but at the same 
+     <lb/>time was wanting in one element necessary 
+     <lb/>to national greatness—the maritime one ; 
+     <lb/>and that, owing to the large trade and com<lb break="no"/>merce of Canada, extensive communication 
+     <lb/>with Great Britain at all seasons was abso<lb break="no"/>lutely necessary. Twenty years ago our com<lb break="no"/>merce for the year could be managed by com<lb break="no"/>munication with Great Britain in the summer 
+     <lb/>months only. At present, however, this system 
+     <lb/>was insuffcient, and for winter communication 
+     <lb/>with the sea-board we were left to the caprice 
+     <lb/>of our American neighbors, through whose 
+     <lb/>territory we must pass. He had also alluded 
+     <lb/>to the bonding system, which if the Americans 
+     <lb/>were to withdraw, Canada would be left in 
+     <lb/>winter without any winter harbors. Canada, 
+     <lb/>having two or three elements of national 
+     <lb/>greatness—territory and population—wanted 
+     <lb/>the maritime element ; and as he had said,<lb break="no"/>the Lower Provinces had this element and a 
+     <lb/>sea-board, but not not a back country or large 
+     <lb/>population, which Canada possessed,—and for 
+     <lb/>the mutual benefit and prosperity of all the 
+     <lb/>provinces, all these elements ought to be united 
+     <lb/>
+           
+            <pb n="56" facs="final/images/Ont_Que_LA_1865-02-07_Page_0056.jpg"/>
+            <fw type="num">56</fw>
+         
+     together. Those who pretended that the British 
+     <lb/>
+     North American Provinces would be in as safe 
+     <lb/>
+     a position, remaining separate, while they 
+     <lb/>
+     belonged to the British Crown, as under 
+     <lb/>
+     Confederation, were under great misappre<lb break="no"/>hension. Now was the time for us to form a 
+     <lb/>
+     great nation of the several provinces. Now 
+     <lb/>
+     was the time to look the matter in the face 
+     <lb/>
+     and adopt the only safe and prudent course 
+     <lb/>
+     open to us in the shape of Confederation. 
+     <lb/>
+     He maintained it was necessary for our own 
+     <lb/>
+     commercial interests, prosperity and efficient 
+     <lb/>
+     defence. That was what we had now to dis<lb break="no"/>cuss, and not the manner in which Confedera<lb break="no"/>tion was to be brought about, which would be 
+     <lb/>
+     discussed when the details of the scheme came 
+     <lb/>
+     up for consideration. At present the question 
+     <lb/>
+     was : Was Confederation of the British North 
+     <lb/>
+     American Provinces necessary in order to in<lb break="no"/>crease our strength and power and secure to us 
+     <lb/>
+     the continuance of the benefits of British 
+     <lb/>
+     connection ? He had no doubt that the measure 
+     <lb/>
+     was necessary for those objects. It would be 
+     <lb/>
+     observed that the English speaking opponents 
+     <lb/>
+     of the scheme, in Lower Canada, pretended 
+     <lb/>
+     a fear of this element being absorbed by the 
+     <lb/>
+     French Canadian ; while the opponents, com<lb break="no"/>posed of the latter origin—of men who might 
+     <lb/>
+     be called the old Papineau Tail—whose sole 
+     <lb/>
+     idea was annexation to the United States—said 
+     <lb/>
+     they were afraid of the extinction of French 
+     <lb/>
+     Canadian nationality in the great Confedera<lb break="no"/>tion. The annexation party in Montreal, 
+     <lb/>
+     including the followers of Mr. JOHN DOUGALL, 
+     <lb/>
+     the proprietor of the <hi rendition="simple:italic">Witness</hi>, opposed the 
+     <lb/>
+     scheme on the ground of supposed danger to 
+     <lb/>
+     the British of Lower Canada. The annexa<lb break="no"/>tion party could not, however, be supposed 
+     <lb/>
+     to be sincere in their opposition to the scheme<lb break="no"/>except in so far as they desired to carry 
+     <lb/>
+     Canada into the American Union. The 
+     <lb/>
+     absorption of this province into the United 
+     <lb/>
+     States had long been contemplated, as would 
+     <lb/>
+     be seen from the 7th  article in the original 
+     <lb/>
+     draft of the American Constitution, which he 
+     <lb/>
+     would read. It was as follows: “ Art. 7. 
+     <lb/>
+     Canada, according to this Confederation and 
+     <lb/>
+     joining in the measures of the United States, 
+     <lb/>
+     shall be admitted into, and entitled to all the 
+     <lb/>
+     advantages of this union ; and shall be equally 
+     <lb/>
+     with any other of the United States, solemnly 
+     <lb/>
+     bound to a strict observance of, and obedience 
+     <lb/>
+     to, these articles ; as shall be also any other 
+     <lb/>
+     colony which shall be admitted into this Con<lb break="no"/>federacy. The eleven votes in Congress shall 
+     <lb/>
+     be increased in proportion as the Confederacy 
+     <lb/>
+     is extended. But, except Canada, no other 
+     <lb/>
+     colony shall be admitted into the Confederacy 
+     <lb/>
+            
+        <cb/>
+
+     without the assent of eleven or more votes, as 
+     <lb/>
+     the case may require, by the Confederation 
+     <lb/>
+     being extended.” By that article, no new 
+     <lb/>
+     state could go into the union except by the 
+     <lb/>
+     vote of the number of states required to admit 
+     <lb/>
+     a new partner. But, as regarded  Canada, no 
+     <lb/>
+     such assent was required ; on knocking at the 
+     <lb/>
+     door of the union, she would, as a matter of 
+     <lb/>
+     course, be admitted. (Hear, hear.) The 
+     <lb/>
+     honorable gentleman went on to say that the 
+     <lb/>
+     papers lately  contained a report of a meeting 
+     <lb/>
+     at the <hi rendition="simple:italic">Institut Canadien</hi> of Montreal, where 
+     <lb/>
+     it was resolved that it was for the interests of 
+     <lb/>
+     Lower Canada—in the interests of the French 
+     <lb/>
+     Canadians, were the province to become a 
+     <lb/>
+     part of the American Union. 
+     <lb/>
+            </p>
+
+            <p>
+     HON. MR. DORION said that was not the 
+     <lb/>
+     case. The honorable gentleman had misquoted 
+     <lb/>
+     what had passed there. 
+     <lb/>
+            </p>
+
+            <p>
+     HON. MR. CARTIER said he was right. 
+     <lb/>
+     If resolutions were not passed, sentiments were 
+     <lb/>
+     expressed to that effect. Then the organ of 
+     <lb/>
+     the Institute—<hi rendition="simple:italic">L’Ordre</hi>, he thought—had set 
+     <lb/>
+     forth that the interests of Lower Canada 
+     <lb/>
+     would be better secured by annexation to the 
+     <lb/>
+     United States than entering into a Confedera<lb break="no"/>tion with the British American Provinces. 
+     <lb/>
+     It was no wonder, then, that the French 
+     <lb/>
+     Canadian annexationists betrayed their pur<lb break="no"/>pose in opposition  to British North American 
+     <lb/>
+     Confederation, and that their English-speaking 
+     <lb/>
+     colleagues pretended a fear of the rights of 
+     <lb/>
+     their class being jeopardized under Confedera<lb break="no"/>tion. We knew their object in this—that 
+     <lb/>
+     they were aware that as soon as this project 
+     <lb/>
+     was adopted, there would be no avail in any 
+     <lb/>
+     cry of separation to form a part of the Ameri<lb break="no"/>can Union. (Hear, hear,) There had been 
+     <lb/>
+     a good deal of fault-finding and complaint as 
+     <lb/>
+     to the proceedings of the delegates having 
+     <lb/>
+     been conducted with closed doors. Such a 
+     <lb/>
+     course was an absolute necessity. Every one 
+     <lb/>
+     could understand that if all the difficulties 
+     <lb/>
+     arising among the representatives of the ﬁve 
+     <lb/>
+     colonies, during the Conference, had gone 
+     <lb/>
+     every morning to the public, it would have 
+     <lb/>
+     been impossible  for the delegates to continue 
+     <lb/>
+     to meet, or compromise any of the difficulties 
+     <lb/>
+     that might be expected to spring up. Be<lb break="no"/>sides, the proceedings of the American Con<lb break="no"/>gress of 1782 was held with closed doors, and 
+     <lb/>
+     their proceedings were not published while 
+     <lb/>
+     matters were progressing. With regard to 
+     <lb/>
+     this, he would quote from a letter of Col. 
+     <lb/>
+     MASON, a member of the Convention :— “ All 
+     <lb/>
+     communications of the proceedings are for<lb break="no"/>bidden during the sitting of this Convention ; 
+     <lb/>
+     this, I think, was a necessary precaution to 
+     <lb/>
+          
+            <pb n="57" facs="final/images/Ont_Que_LA_1865-02-07_Page_0057.jpg"/>
+            <fw type="num">57</fw>
+          
+     prevent misrepresentations or mistakes ; there 
+     <lb/>
+     being a material difference between the appear<lb break="no"/>ance of a subject in its first crude and indigested 
+     <lb/>
+     shape and after it shall have been properly 
+     <lb/>
+     matured and arranged.” On the same princi<lb break="no"/>ple the Conference at Quebec very properly 
+     <lb/>
+     sat with closed doors. (Hear, hear.) We 
+     <lb/>
+     wished, however, that the British Canadian 
+     <lb/>
+     public should know the result of our labors 
+     <lb/>
+     when concluded, and that result the Parliament 
+     <lb/>
+     and people of Canada had before their con<lb break="no"/>sideration, and it was for them to discuss its 
+     <lb/>
+     merits. We, on this side of the House<lb break="no"/>the members of the Government and their 
+     <lb/>
+     supporters—had come to the conclusion that 
+     <lb/>
+     Federation was desirable and necessary ; and 
+     <lb/>
+     we were ready to hear the honorable gentle<lb break="no"/>men on the other side who necessarily, from 
+     <lb/>
+     their standing, were supposed to have devoted 
+     <lb/>
+     their attention to it and appreciated their 
+     <lb/>
+     position, stating what in their opinion would 
+     <lb/>
+     be sufficient in order to maintain ourselves as 
+     <lb/>
+     a British colony on this side of the Atlantic, 
+     <lb/>
+     and to increase in wealth and power. He was 
+     <lb/>
+     aware that some members of the House, and a 
+     <lb/>
+     number of people in Upper Canada, in Lower 
+     <lb/>
+     Canada and in the Lower Provinces, were of 
+     <lb/>
+     opinion that a Legislative Union ought  to 
+     <lb/>
+     have taken place instead of a Federal Union. 
+     <lb/>
+     He would say, however, at the outset, that it 
+     <lb/>
+     was impossible to have one Government to 
+     <lb/>
+     deal with all the private and local interests 
+     <lb/>
+     of the several sections of the several provinces 
+     <lb/>
+     forming the combined whole. (Hear, hear.) 
+     <lb/>
+     The next question to be considered, therefore, 
+     <lb/>
+     by those who had set to work to discover a 
+     <lb/>
+     solution of the difficulties under which we had 
+     <lb/>
+     labored, was—what was the best and most 
+     <lb/>
+     practicable mode of bringing the provinces 
+     <lb/>
+     together, so that particular rights and interests 
+     <lb/>
+     should be properly guarded and protected ? 
+     <lb/>
+     No other scheme presented itself but the 
+     <lb/>
+     Federation system, and that was the project 
+     <lb/>
+     which now recommended itself to the Par<lb break="no"/>liament of Canada. Some parties—through 
+     <lb/>
+     the press and by other modes— pretended that 
+     <lb/>
+      it was impossible to carry out Federation, on 
+     <lb/>
+     account of the differences of races and religions. 
+     <lb/>
+     Those who took this view of the question 
+     <lb/>
+     were in error. It was just the reverse. It 
+     <lb/>
+     was precisely on account of the variety of 
+     <lb/>
+     races, local interests, &amp;c., that the Federation 
+     <lb/>
+     system ought to be resorted to, and would be 
+     <lb/>
+     found to work well. (Hear, hear.) We 
+     <lb/>
+     were in the habit of seeing in some public 
+     <lb/>
+     journals, and hearing from some public men, 
+     <lb/>
+     that it was a great misfortune indeed there 
+     <lb/>
+     should be a difference of races in this colony 
+     <lb/>
+            
+            <cb/>
+          
+     —that there should be the distinction of 
+     <lb/>
+     French Canadian from British Canadian. Now, 
+     <lb/>
+     he (Hon. Mr. CARTIER) desired on this point to 
+     <lb/>
+     vindicate the rights, the merits, the usefulness, 
+     <lb/>
+     so to speak, of those belonging to the French 
+     <lb/>
+     Canadian race. (Hear, hear.) In order to 
+     <lb/>
+     bring these merits and this usefulness more 
+     <lb/>
+     prominently before his hearers, it would be 
+     <lb/>
+     only necessary to allude to the efforts made 
+     <lb/>
+     by them to sustain British power on this con<lb break="no"/>tinent, and to point out their adherence to 
+     <lb/>
+     British supremacy in trying times. We were 
+     <lb/>
+     all conversant with the history of the circum<lb break="no"/>stances which had brought about  the difficul<lb break="no"/>ties between England and her former Ameri<lb break="no"/>can colonies in 1775. Lower Canada,—or 
+     <lb/>
+     rather he should say, the Province of Quebec, 
+     <lb/>
+     for the colony was not then known by the 
+     <lb/>
+     name of Canada, but was called the Province 
+     <lb/>
+     of Quebec,—contained the most dense popula<lb break="no"/>tion of any British colony in North America at 
+     <lb/>
+     that time. The accession of Lower Canada was 
+     <lb/>
+     of course an object of envy to the other Amer<lb break="no"/>ican colonies, and strenuous efforts were made 
+     <lb/>
+     by those who had resolved to overthrow British 
+     <lb/>
+     power on this continent to induce Canada 
+     <lb/>
+     to ally herself to their cause. As early as 
+     <lb/>
+     1775   the French Canadians were solemnly 
+     <lb/>
+     addressed in a proclamation by General WASH<lb break="no"/>INGTON, who called upon them to abandon the 
+     <lb/>
+     flag of their new masters, inasmuch as they 
+     <lb/>
+     could not expect anything from those who dif<lb break="no"/>fered from them in language, in religion, in 
+     <lb/>
+     race, and in sympathies. But what was the 
+     <lb/>
+     conduct of the French Canadian people under 
+     <lb/>
+     these circumstances—what was the attitude of 
+     <lb/>
+     the clergy and the seigniors ? It was right in 
+     <lb/>
+     treating this chapter of our history, to render 
+     <lb/>
+     justice to whom justice was due, and it was 
+     <lb/>
+     truth to say that the seigniors, forming , as they 
+     <lb/>
+     did, the  educated class of our  population at 
+     <lb/>
+     that early epoch, had fully  understood that 
+     <lb/>
+     the object and aim of those who appealed to 
+     <lb/>
+     them was the downfall of the monarchical sys<lb break="no"/>tem in America. (Hear, hear.) A few years 
+     <lb/>
+     only had elapsed at that time since the trans<lb break="no"/>fer of the country and its population from the 
+     <lb/>
+     Crown of France to the Crown of Great Bri<lb break="no"/>tain ; but even within that brief interval of 
+     <lb/>
+     time, they were enabled to appreciate the ad<lb break="no"/>vantages of their new position, notwithstanding 
+     <lb/>
+     the fact that they were still struggling and 
+     <lb/>
+     complaining. The people, as well as the clergy 
+     <lb/>
+     and aristocracy, had understood that it was 
+     <lb/>
+     better for them to remain under the English 
+     <lb/>
+     and Protestant Crown of England, rather than 
+     <lb/>
+     to become republicans. (Hear, hear.) They 
+     <lb/>
+     were proof against the insidious offers of 
+     <lb/>
+         
+            <pb n="58" facs="final/images/Ont_Que_LA_1865-02-07_Page_0058.jpg"/>
+            <fw type="num">58</fw>
+            
+     GEORGE WASHINGTON ; and not only so, but 
+     <lb/>
+     when the Americans came as invaders, they 
+     <lb/>
+     fought against the armed forces of ARNOLD, 
+     <lb/>
+     MONTGOMERY and others. (Cheers) At<lb break="no"/>tempts were made to excite hostility to Feder<lb break="no"/>ation on the ground that, under the regime of a 
+     <lb/>
+     local legislature, the English Protestant minor<lb break="no"/>ity would not be fairly dealt with. He thought 
+     <lb/>
+     the way in which the French Canadians had 
+     <lb/>
+     stood by British connection, when there were 
+     <lb/>
+     but few British in the province, was a proof 
+     <lb/>
+     that they would not attempt to deal unjustly 
+     <lb/>
+     now by the British minority, when their num<lb break="no"/>bers were so much greater. On this point, 
+     <lb/>
+     appealing to the evidence of history, he would 
+     <lb/>
+     quote from the work which he had already 
+     <lb/>
+     quoted. At a time when there were, perhaps, 
+     <lb/>
+     hardly a few hundred English Protestant resi<lb break="no"/>dents in Lower Canada, the address in the 
+     <lb/>
+     name of WASHINGTON, to which he had already 
+     <lb/>
+     briefly referred, was circulated throughout 
+     <lb/>
+     the country by ARNOLD’S invading army. 
+     <lb/>
+     The hon. gentleman here read a number of ex<lb break="no"/>tracts from General WASHINGTON’S proclama<lb break="no"/>tion, addressed to the inhabitants of Canada. 
+     <lb/>
+     It made the most earnest appeals to the Lower 
+     <lb/>
+     Canadians to join the other colonies. “We 
+     <lb/>
+     rejoice,” said General WASHINGTON, “ that 
+     <lb/>
+     our enemies have been deceived with regard to 
+     <lb/>
+     you ; they have persuaded themselves—they 
+     <lb/>
+    have even dared to say—that the Canadians 
+     <lb/>were not capable of distinguishing between the 
+     <lb/>blessings of liberty and the wretchedness of 
+     <lb/>slavery ; that gratifying the vanity of a little 
+     <lb/>circle of nobility would blind the people of 
+     <lb/>Canada. By such artifices they hoped to bend 
+     <lb/>you to their views, but they have been de<lb break="no"/>ceived. * * * Come then, my brethern, 
+     <lb/>unite with us in an indissoluble union ; let us 
+     <lb/>run together to the same goal. * * * 
+     <lb/>Incited by these motives, and encouraged by 
+     <lb/>the advice of many friends of liberty among 
+     <lb/>you, the grand American Congress have sent 
+     <lb/>an army into your province, under the com<lb break="no"/>mand of General SCHUYLER—not to plunder but 
+     <lb/>to protect you—to animate and bring forth into 
+     <lb/>action those sentiments of freedom you have 
+     <lb/>disclosed, and which the tools of despotism 
+     <lb/>would extinguish through the whole creation. 
+     <lb/>To co-operate with this design, and to frustrate 
+     <lb/>those cruel and perfidious schemes, which 
+     <lb/>would deluge our frontiers with the blood of 
+     <lb/>women and children, I have despatched Colonel 
+     <lb/>ARNOLD into your country, with a part of the 
+     <lb/>army under my command. I have enjoined 
+     <lb/>upon him, and I am certain that he will con<lb break="no"/>sider himself, and act as in the country of his 
+     <lb/>patrons and best friends. Necessaries and 
+     <lb/>
+           
+            <cb/>
+          
+     accommodations of every kind which you may 
+     <lb/>
+     furnish he will thankfully receive and render 
+     <lb/>
+     the full value. I invite you, therefore, as 
+     <lb/>
+     friends and brethren, to provide him with 
+     <lb/>
+     such supplies as your country affords ; and I 
+     <lb/>
+     pledge myself not only for your safety and se<lb break="no"/>curity, but for an ample compensation. Let 
+     <lb/>
+     no man desert his habitation—let no one flee 
+     <lb/>
+     as before an enemy. The cause of America 
+     <lb/>
+     and of liberty is the cause of every virtuous 
+     <lb/>
+     American citizen, whatever may be his religion 
+     <lb/>
+     or descent. The united colonies know no dis<lb break="no"/>tinction but such as slavery, corruption and 
+     <lb/>
+     arbitrary dominion may create. Come then, 
+     <lb/>
+     ye generous citizens, range yourselves under 
+     <lb/>
+     the standard of general liberty—against which 
+     <lb/>
+     all the force of artifice and tyranny will never 
+     <lb/>
+     be able to prevail.” It appeared by this ad<lb break="no"/>dress that the most tempting offers and promi<lb break="no"/>ses had been made by the republican general ; 
+     <lb/>
+     but they had failed, nevertheless, to accom<lb break="no"/>plish the desired effect. This, however, was 
+     <lb/>
+     not the only trait of this nature in the history 
+     <lb/>
+     of the French Canadian people. There was 
+     <lb/>
+     another despatch, or rather proclamation, issued 
+     <lb/>
+     in 1778   by Baron D’ESTAING, commander of 
+     <lb/>
+     the French fleet, which was acting in aid of 
+     <lb/>
+     the American revolutionary party. The 
+     <lb/>
+     honorable gentleman read some extracts from 
+     <lb/>
+     this proclamation, as follows :—“ I shall not 
+     <lb/>
+     ask the military companions of the Marquis Of 
+     <lb/>
+     LÉVIS, those who shared his glory, who ad<lb break="no"/>mired his talents and genius for war, who loved 
+     <lb/>
+     his cordiality and frankness, the principal 
+     <lb/>
+     characteristics of our nobility, whether there 
+     <lb/>
+     be other names in other nations among which 
+     <lb/>
+     they would be better pleased to place their own. 
+     <lb/>
+     Can the Canadians, who saw the brave MONT<lb break="no"/>CALM fall in their defence—can they become 
+     <lb/>
+     the enemies of his nephews ? Can  they fight 
+     <lb/>
+     against their former leaders, and arm them<lb break="no"/>selves against their kinsmen ? At the bare men<lb break="no"/>tion of their names, the weapons would fall out 
+     <lb/>
+     of their hands. I shall not observe to the min<lb break="no"/>isters of the altars, that their evangelic efforts 
+     <lb/>
+     will require the special protection of Providence, 
+     <lb/>
+     to prevent faith being diminished by example, 
+     <lb/>
+     by worldly interest, and by sovereigns whom 
+     <lb/>
+     force has imposed upon them, and whose poli<lb break="no"/>tical indulgence will be lessened proportionably 
+     <lb/>
+     as those sovereigns shall have less to fear. I 
+     <lb/>
+     shall not observe that it is necessary for reli<lb break="no"/>gion that those who preach it should form a 
+     <lb/>
+     body in the state ; and that in Canada no 
+     <lb/>
+     other body would be more considered, or have 
+     <lb/>
+     more power to do good than that of the 
+     <lb/>
+     priests, taking a part in the Government, 
+     <lb/>
+     since their respectable conduct has merited the 
+     <lb/>
+        
+            <pb n="59" facs="final/images/Ont_Que_LA_1865-02-07_Page_0059.jpg"/>
+            <fw type="num">59</fw>
+          
+     confidence of the people. I shall not repre<lb break="no"/>sent to that people, nor to all my countrymen 
+     <lb/>
+     in general, that a vast monarchy, having the 
+     <lb/>
+     same religion, the same manners, the same 
+     <lb/>
+     language, where they find kinsmen, old friends 
+     <lb/>
+     and brethren, must be an inexhaustible source 
+     <lb/>
+     of commerce and wealth, more easily acquired 
+     <lb/>
+     and better secured by their union with power<lb break="no"/>ful neighbors, than with strangers of another 
+     <lb/>
+     hemisphere, among whom everything is dif<lb break="no"/>ferent, and who, jealous and despotic sover<lb break="no"/>eigns would, sooner or later, treat them as a 
+     <lb/>
+     conquered people, and doubtless much worse 
+     <lb/>
+     than their late countrymen, the Americans, 
+     <lb/>
+     who made them victorious. I shall not urge 
+     <lb/>
+     to a whole people that to join with the United 
+     <lb/>
+     States is to secure their own happiness, since 
+     <lb/>
+     a whole people, when they acquire the right 
+     <lb/>
+     of thinking and acting for themselves, must 
+     <lb/>
+     know their own interest. But I will declare, 
+     <lb/>
+     and I now formally declare in the name of 
+     <lb/>
+     His Majesty, who has authorized and com<lb break="no"/>manded me to do it, that all his former sub<lb break="no"/>jects in North America, who shall no more 
+     <lb/>
+     acknowledge the supremacy of Great Britain, 
+     <lb/>
+     may depend upon his protection and support." 
+     <lb/>
+     D’ESTAING had appealed to their ancestry and 
+     <lb/>
+     their prejudices ; he had invoked the names of 
+     <lb/>
+     LEVIS and MONTCALM, and endeavored to in<lb break="no"/>fluence their clergy ; but the French Canadians 
+     <lb/>
+     understood their position too well. If they had 
+     <lb/>
+     their institutions, their language and their 
+     <lb/>
+     religion intact to-day, it was precisely because 
+     <lb/>
+     of their adherence to the British Crown. Had 
+     <lb/>
+     they yielded to the appeals of WASHINGTON 
+     <lb/>
+     and Baron D’ESTAING, it is probable that there 
+     <lb/>
+     would not have been now a vestige of British 
+     <lb/>
+     power on this continent. But, with the dis<lb break="no"/>appearance of British power, they too would 
+     <lb/>
+     have  disappeared as French Canadians. (Hear, 
+     <lb/>
+     hear.) These historical facts taught that 
+     <lb/>
+     there should be a mutual feeling of gratitude 
+     <lb/>
+     from the French Canadians towards the 
+     <lb/>
+     British, and from the British towards the 
+     <lb/>
+      French Canadians, for our present position, 
+     <lb/>
+     that Canada is still a British colony. (Hear, 
+     <lb/>
+     hear.) He had had occasion, a moment ago, 
+     <lb/>
+     to refer to the French Canadian clergy in con<lb break="no"/>nection with D’ESTAING’S address, and he 
+     <lb/>
+     would say this, to their honor and credit, that, 
+     <lb/>
+     if to-day Canada was a portion of the British 
+     <lb/>
+     Empire, it was due to the conservatism of the 
+     <lb/>
+     French Canadian clergy. (Cheers) It was 
+     <lb/>
+     a pleasure to him thus to be able to quote from 
+     <lb/>
+     these old documents proofs of the honor, 
+     <lb/>
+     loyalty, and liberality of the French Canadian 
+     <lb/>
+     people. He (Hon. Mr. CARTIER) was as devoid 
+     <lb/>
+     of prejudice as any honorable gentleman in this 
+     <lb/>
+          
+            <cb/>
+     
+     House ; but when he heard or read the state<lb break="no"/>ments occasionally made, that there was some 
+     <lb/>
+     danger that, under the Federation system, the 
+     <lb/>
+     French Canadians would have too much power, 
+     <lb/>
+     and that the power thus obtained would be 
+     <lb/>
+     used to the prejudice of the British and Pro<lb break="no"/>testant minority—the history of the past, in 
+     <lb/>
+     many instances, was the best reply to such 
+     <lb/>
+     attacks. (Hear, hear.) Baron D’ESTAING 
+     <lb/>
+     issued his tempting proclamation in 1778, and 
+     <lb/>
+     it was sent into Canada frequently afterwards, 
+     <lb/>
+     and circulated at the instigation of ROCHAM<lb break="no"/>BEAU and LAFAYETTE; but our clergy and 
+     <lb/>
+     our aristocracy, the leaders of our people in 
+     <lb/>
+     these days, saw that it was not their interest 
+     <lb/>
+     to cast their lot with the democratic element<lb break="no"/>they knew the hollowness of democracy. (Hear, 
+     <lb/>
+     hear.) We found ourselves at the present 
+     <lb/>
+     day discussing the question of the Federation 
+     <lb/>
+     of the British North American Provinces, 
+     <lb/>
+     while the great Federation of the United States 
+     <lb/>
+     of America was broken up and divided against 
+     <lb/>
+     itself. There was, however, this important 
+     <lb/>
+     difference to be observed in considering the 
+     <lb/>
+     action of the two peoples. They had founded 
+     <lb/>
+     Federation for the purpose of carrying out and 
+     <lb/>
+     perpetuating democracy on this continent ; 
+     <lb/>
+     but we, who had the beneﬁt of being able to 
+     <lb/>
+     contemplate republicanism in action during a 
+     <lb/>
+     period of  eighty years, saw its defects, and felt 
+     <lb/>
+     convinced  that purely democratic institutions 
+     <lb/>
+     could not be conducive to the peace and pros<lb break="no"/>perity of nations. We were not now discussing 
+     <lb/>
+     the great problem presented to our considera<lb break="no"/>tion, in order to propagate democratic princi<lb break="no"/>ples. Our attempt was for the purpose of form<lb break="no"/>ing a Federation with a view of perpetuating the 
+     <lb/>
+     monarchical element. The distinction, there<lb break="no"/>fore, between ourselves and our neighbors was 
+     <lb/>
+     just this :—In our Federation the monarchical 
+     <lb/>
+     principle would form the leading feature, while 
+     <lb/>
+     on the other side of the lines, judging by the 
+     <lb/>
+     past history and present condition of the 
+     <lb/>
+     country, the ruling power was the will of the 
+     <lb/>
+     mob, the rule of the populace. Every per<lb break="no"/>son who had conversed with the most intelli<lb break="no"/>gent American statesmen and writers must 
+     <lb/>
+     have learned that they all admitted that the 
+     <lb/>
+     governmental powers had become too extend<lb break="no"/>ed, owing to the introduction of universal 
+     <lb/>
+     suffrage, and mob rule had consequently sup<lb break="no"/>planted legitimate authority ; and we now saw 
+     <lb/>
+     the sad spectacle of a country torn by civil 
+     <lb/>
+     war, and brethren fighting against brethren. 
+     <lb/>
+     The question for us to ask ourselves was this: 
+     <lb/>
+     Shall we be content to remain separate—shall 
+     <lb/>
+     we be content to maintain a mere provin<lb break="no"/>cial existence, when, by combining together, 
+     <lb/>
+        
+            <pb n="60" facs="final/images/Ont_Que_LA_1865-02-07_Page_0060.jpg"/>
+            <fw type="num">60</fw>
+        
+     we could become a great nation? It had 
+     <lb/>
+     never yet been the good fortune of any group 
+     <lb/>
+     of communities to secure national greatness 
+     <lb/>
+     with such facility. In past ages, warriors had 
+     <lb/>
+     struggled for years for the addition to their 
+     <lb/>
+     country of a single province. We had too, 
+     <lb/>
+     for instance, in our own days, the case of 
+     <lb/>
+     NAPOLEON III, who, after great expenditure 
+     <lb/>
+     of blood and treasure in the Italian difficulty, 
+     <lb/>
+     had acquired Savoy and Nice, by which he 
+     <lb/>
+     had obtained an addition of nearly one mil<lb break="no"/>lion inhabitants to France—only one million 
+     <lb/>
+     souls, and if any person were for a moment 
+     <lb/>
+     to make a calculation of the value of the 
+     <lb/>
+     provinces acquired on one side, and the great 
+     <lb/>
+     cost on the other, he would at once see the 
+     <lb/>
+     great disproportion between the one and the 
+     <lb/>
+     other, and so ascertain the fact that the ter<lb break="no"/>ritory  acquired did not compensate the outlay. 
+     <lb/>
+     Here, in British North America, we had five 
+     <lb/>
+     different communities inhabiting five separate 
+     <lb/>
+     colonies. We had the same sympathies, and 
+     <lb/>
+     we all desired to live under the British Crown. 
+     <lb/>
+     We had our commercial interests besides. It 
+     <lb/>
+     was of no use whatever that New Brunswick, 
+     <lb/>
+     Nova Scotia and Newfoundland should have 
+     <lb/>
+     their several custom houses against our trade, 
+     <lb/>
+    or that we should have custom houses against 
+     <lb/>the trade of those provinces. In ancient times, 
+     <lb/>the manner in which a nation grew up was 
+     <lb/>different from that of the present day. Then 
+     <lb/>the first weak settlement increased into a vil<lb break="no"/>lage, which, by turns, became a town and a 
+     <lb/>city, and the nucleus of a nation. It was 
+     <lb/>not so in modern times. Nations were now 
+     <lb/>formed by the agglomeration of communities 
+     <lb/>having kindred interests and sympathies. 
+     <lb/>Such was our case at the present moment. 
+     <lb/>Objection had been taken to the scheme now 
+     <lb/>under consideration, because of the words 
+     <lb/>“ new nationality.” Now, when we were 
+     <lb/>united together, if union were attained, we 
+     <lb/>would form a political nationality with which 
+     <lb/>neither the national origin, nor the religion of 
+     <lb/>any individual, would interfere. It was la<lb break="no"/>mented by some that we had this diversity of 
+     <lb/>races, and hopes were expressed that this dis<lb break="no"/>tinctive feature would cease. The idea of unity 
+     <lb/>of races was utopian—it was impossible. Dis<lb break="no"/>tinctions of this kind would always exist. Dis<lb break="no"/>similarity, in fact, appeared to be the order of 
+     <lb/>the physical world and of the moral world, as 
+     <lb/>well as in the political world. But with regard 
+     <lb/>to the objection based on this fact, to the 
+     <lb/>effect that a great nation could not be formed 
+     <lb/>because Lower Canada was in great part 
+     <lb/>French and Catholic, and Upper Canada was 
+     <lb/>British and Protestant,and the Lower Provinces 
+     <lb/>
+            <cb/>
+            
+     were mixed, it was futile and worthless in the 
+     <lb/>
+     extreme. Look, for instance, at the United 
+     <lb/>
+     Kingdom, inhabited as it was by three great 
+     <lb/>
+     races. (Hear, hear.) Had the diversity of 
+     <lb/>
+     race impeded the glory,  the progress, the wealth 
+     <lb/>
+     of England ? Had  they not rather each con<lb break="no"/>tributed their share to the greatness of the 
+     <lb/>
+     Empire ? Of the glories of the senate, the 
+     <lb/>
+     field, and the ocean, of the successes of trade 
+     <lb/>
+     and commerce, how much was contributed by 
+     <lb/>
+     the combined talents, energy and courage of 
+     <lb/>
+     the three races together ? (Cheers.) In our 
+     <lb/>
+     own Federation we should have Catholic and 
+     <lb/>
+     Protestant, English, French, Irish and Scotch, 
+     <lb/>
+     and each by his efforts and his success would 
+     <lb/>
+     increase the prosperity and glory of the new 
+     <lb/>
+     Confederacy.  (Hear, hear.) He viewed the 
+     <lb/>
+     diversity of races in British North America in 
+     <lb/>
+     this way : we were of different races, not for 
+     <lb/>
+     the purpose of warring against each other, but 
+     <lb/>
+     in order to compete and emulate for the gen<lb break="no"/>eral welfare. (Cheers.) We could not do 
+     <lb/>
+     away with the distinctions of race. We could 
+     <lb/>
+     not legislate for the disappearance of the French 
+     <lb/>
+     Canadians from American soil, but British 
+     <lb/>
+     and French Canadians alike could appreciate 
+     <lb/>
+     and understand their position relative to each 
+     <lb/>
+     other. They were placed like great families 
+     <lb/>
+     beside each other, and their contact produced 
+     <lb/>
+     a healthy spirit of emulation. It was a benefit 
+     <lb/>
+     rather than otherwise that we had a diversity 
+     <lb/>
+     of races. Of course, the difficulty, it would be 
+     <lb/>
+     said, would be to deal fairly by the minority. 
+     <lb/>
+     In Upper Canada the Catholics  would find 
+     <lb/>
+     themselves in a minority ; in Lower Canada 
+     <lb/>
+     the Protestants would be in a minority, while 
+     <lb/>
+     the Lower Provinces were divided. Under 
+     <lb/>
+     such circumstances, would any one pretend 
+     <lb/>
+     that either the local or general governments 
+     <lb/>
+     would sanction any injustice. What would be 
+     <lb/>
+     the consequence, even supposing any such thing 
+     <lb/>
+     were attempted by any one of the local govern<lb break="no"/>ments ? It would be censured everywhere. 
+     <lb/>
+     Whether it came from Upper Canada or from 
+     <lb/>
+     Lower Canada, any attempt to deprive the 
+     <lb/>
+     minority of their rights would be at once 
+     <lb/>
+     thwarted. Under the Federation system, grant<lb break="no"/>ing to the control of the General Government 
+     <lb/>
+     these large questions of general interest in 
+     <lb/>
+     which the differences of race or religion had 
+     <lb/>
+     no place, it could not be pretended that the 
+     <lb/>
+     rights of either race or religion could be 
+     <lb/>
+     invaded at all. We were to have a Gen<lb break="no"/>eral Parliament to deal with the matters 
+     <lb/>
+     of defence, tariff, excise, public works, and 
+     <lb/>
+     these matters absorbed all individual interest. 
+     <lb/>
+     Now, he would ask those self-styled national<lb break="no"/>ists who accused him of bartering fifty-eight 
+     <lb/>
+           
+            <pb n="61" facs="final/images/Ont_Que_LA_1865-02-07_Page_0061.jpg"/>
+            <fw type="num">61</fw>
+           
+     counties in Lower Canada to John Bull, and 
+     <lb/>
+     his honorable colleague beside him (Hon. Mr. 
+     <lb/>
+     BROWN)—he would ask them, under what 
+     <lb/>
+     supposition could they think it possible for 
+     <lb/>
+     any injustice to be done to the French Cana<lb break="no"/>dians by the General Government ? (Hear, 
+     <lb/>
+     hear.) He came now to the subject of Local 
+     <lb/>
+     Governments. We could easily understand 
+     <lb/>
+     how a feeling against the Federation project 
+     <lb/>
+     was raised in the minds of a few of the British 
+     <lb/>
+     residents of Lower Canada by fears of such 
+     <lb/>
+     difficulties as those which occurred in the days 
+     <lb/>
+     of Mr. PAPINEAU, relative to the passing of 
+     <lb/>
+     laws relating to commercial matters. (Hear, 
+     <lb/>
+     hear.) These difficulties had been of a 
+     <lb/>
+     very inconvenient nature, Mr. PAPINEAU not 
+     <lb/>
+     being a commercial man, and not understand<lb break="no"/>ing the importance of these measures. He 
+     <lb/>
+     considered Mr. PAPINEAU was right in the 
+     <lb/>
+     struggle he maintained against the oligarchy 
+     <lb/>
+     at that time in power ; but he had never ap<lb break="no"/>proved of the course he took with reference to 
+     <lb/>
+     commercial matters, and in opposition to mea<lb break="no"/>sures for the improvement of the country. 
+     <lb/>
+     But this precedent could not be urged as an 
+     <lb/>
+     objection to Federation, inasmuch as it 
+     <lb/>
+     would be for the General Government to deal 
+     <lb/>
+     with our commercial matters. There could 
+     <lb/>
+     be no reason for well-grounded fear that the 
+     <lb/>
+     minority could be made to suffer by means of 
+     <lb/>
+     any laws affecting the rights of property. If 
+     <lb/>
+     any such enactments were passed, they would 
+     <lb/>
+     fall upon the whole community. But even 
+     <lb/>
+     supposing such a thing did occur, there was a 
+     <lb/>
+     remedy provided under the proposed Constitu<lb break="no"/>tion. The magnitude of the scheme now sub<lb break="no"/>mitted was, perhaps, the reason why those who 
+     <lb/>
+     had not made themselves conversant with the 
+     <lb/>
+     question felt some apprehension in contem<lb break="no"/>plating it ; but, when we came to discuss it 
+     <lb/>
+     clause by clause, he would be ready to state 
+     <lb/>
+     that no interest would be harmed in any way 
+     <lb/>
+     if Federation took place. It was true that op<lb break="no"/>position was being offered in Montreal, by Mr. 
+     <lb/>
+     JOHN DOUGALL, of the <hi rendition="simple:italic">Witness</hi>. (Hear, 
+     <lb/>
+     hear.) And, while referring to the opponents 
+     <lb/>
+     of Federation, he could not help adverting to 
+     <lb/>
+    the strange manner in which extremes met 
+     <lb/>and worked in unison to oppose Federation. 
+     <lb/>(Laughter.) For instance, we had the party 
+     <lb/>who formerly composed what might be styled 
+     <lb/>Mr. PAPINEAU’S Tail—the extreme democratic 
+     <lb/>party—joined with Mr. DOUGALL’S Tail. 
+     <lb/>(Hear, hear, cheers, and laughter.) 
+     <lb/>
+            </p>
+            <p>MR. PERRAULT—And members of the 
+     <lb/>clergy oppose it. (Hear, hear.) 
+     <lb/>
+            </p>
+
+   
+            <p>
+     HON. MR. CARTIER said the honorable 
+     <lb/>
+     gentleman was mistaken. The clergy were 
+     <lb/>
+          
+            <cb/>
+          
+     for it. But the honorable gentleman would 
+     <lb/>
+     have an opportunity of speaking afterwards. 
+     <lb/>
+     This scheme, he repeated, met with the ap<lb break="no"/>proval of all moderate men. The extreme 
+     <lb/>
+     men, the socialists, democrats and annexation<lb break="no"/>ists were opposed to it. The French Cana<lb break="no"/>dian opponents of the project were, it ap<lb break="no"/>peared, afraid that their religious rights would 
+     <lb/>
+     suffer under the new arrangement. Fancy 
+     <lb/>
+     the celebrated <hi rendition="simple:italic">Institut Canadien</hi>, of Mont<lb break="no"/>real, under the lead of citizen BLANCHET, 
+     <lb/>
+     taking religion under their protection! 
+     <lb/>
+     (Laughter.) Mr. DOUGALL loudly pro<lb break="no"/>claimed that the British Protestant minority 
+     <lb/>
+     would be entirely placed at the mercy of 
+     <lb/>
+     the French Canadians. He (Hon. Mr. CAR<lb break="no"/>TIER) thought the arguments of the young 
+     <lb/>
+     French gentlemen belonging to the national 
+     <lb/>
+     democratic party who cried out that their re<lb break="no"/>ligion and nationality would be destroyed, 
+     <lb/>
+     ought in all reason to be sufficient to satisfy 
+     <lb/>
+     the scruples and calm the fears of Mr. DOU<lb break="no"/>GALL. The <hi rendition="simple:italic">True Witness</hi>, which was also one 
+     <lb/>
+     of the enemies of the scheme, said that if it 
+     <lb/>
+     were adopted the French Canadians were 
+     <lb/>
+     doomed ; while his brother in violence, the 
+     <lb/>
+     <hi rendition="simple:italic">Witness</hi>, said that the Protestants were doomed. 
+     <lb/>
+     (Hear, hear, and laughter.) At a meeting re<lb break="no"/>cently held in Montreal on the subject, he (Hon. 
+     <lb/>
+     Mr. CARTIER.) observed that Mr. CHERRIER 
+     <lb/>
+     had enrolled himself among the enemies of the 
+     <lb/>
+     project. Well, this fine, quiet, old gentleman 
+     <lb/>
+     announced that he had come out of his politi<lb break="no"/>cal retirement for the purpose of opposing Fe<lb break="no"/>deration. All he (Hon. Mr. CARTIER) could say 
+     <lb/>
+     was that he never knew Mr. CHERRIER was a 
+     <lb/>
+     strong politician. However, it appeared that 
+     <lb/>
+     he had come out once more on the political 
+     <lb/>
+     stage for the purpose of opposing this villain<lb break="no"/>ous scheme, which was intended to destroy the 
+     <lb/>
+     nationality and religion of the French Cana<lb break="no"/>dians—all brought about by that confounded 
+     <lb/>
+     CARTIER ! (Laughter and cheers.) Allusion 
+     <lb/>
+     had been made to the opinion of the clergy. 
+     <lb/>
+     Well, he would say that the opinion of the 
+     <lb/>
+     clergy was for Confederation. (Hear, hear.) 
+     <lb/>
+     Those who were high in authority, as well as 
+     <lb/>
+     those who occupied more humble positions, 
+     <lb/>
+     were in favor of Federation, not only because 
+     <lb/>
+     they saw in it so much security for all they 
+     <lb/>
+     held dear, but because it was just to their 
+     <lb/>
+     Protestant fellow-subjects as well, because they 
+     <lb/>
+     were opposed to political bickering and strife. 
+     <lb/>
+     This opposition to a state of political dissen<lb break="no"/>sion and trouble was the general feeling of the 
+     <lb/>
+     clergy, and because they saw in Confederation 
+     <lb/>
+     a solution of those difficulties which had exist<lb break="no"/>ed for some time, due regard being had to just 
+     <lb/>
+           
+            <pb n="62" facs="final/images/Ont_Que_LA_1865-02-07_Page_0062.jpg"/>
+            <fw type="num">62</fw>
+        
+     rights, they were favorable to the project.<lb break="no"/>The fact, however, was that when we saw such 
+     <lb/>
+     extreme opponents as Mr. CLERK, of the <hi rendition="simple:italic">True 
+     <lb/>
+     Witness</hi>, Mr. DOUGALL, of the <hi rendition="simple:italic">Witness</hi>, and 
+     <lb/>
+     the young gentlemen of the <hi rendition="simple:italic">Institut Canadien</hi> 
+     <lb/>
+     combined to resist Confederation, because each 
+     <lb/>
+     party argued it would produce the most widely 
+     <lb/>
+     different results—we might look upon this 
+     <lb/>
+     fact, he repeated, as one of the strongest argu<lb break="no"/>ments in favor of Confederation. (Hear.) 
+     <lb/>
+     We had, on the other hand, all the moderate 
+     <lb/>
+     men, all that was respectable and intelligent, 
+     <lb/>
+     including the clergy, favorable to Federation. 
+     <lb/>
+     (Hear, hear, and oh, oh.) He did not, of 
+     <lb/>
+     course, mean to say that there were not re<lb break="no"/>spectable opponents to the project—what he 
+     <lb/>
+     did mean, however, was that it met general 
+     <lb/>
+     approval from the classes referred to. He 
+     <lb/>
+     was opposed, he might as well state most 
+     <lb/>
+     distinctly, to the democratic system which 
+     <lb/>
+     obtained in the United States. In this coun<lb break="no"/>try of British North America we should have 
+     <lb/>
+     a distinct form of government, the character<lb break="no"/>istic of which would be to possess the monar<lb break="no"/>chical element. When we had Confederation 
+     <lb/>
+     secured, there was not the least doubt but 
+     <lb/>
+     that our Government would be more respect<lb break="no"/>able—that it would have more prestige, and 
+     <lb/>
+     command more respect from our neighbours. 
+     <lb/>
+     (Hear, hear.) The great want under the 
+     <lb/>
+     American form—the point which they all 
+     <lb/>
+     admitted formed the great defect—was the 
+     <lb/>
+     absence of some respectable executive element. 
+     <lb/>
+     How was the head of the United States Gov<lb break="no"/>ernment chosen ? Candidates came forward, 
+     <lb/>
+     and of course each one was abused and villified 
+     <lb/>
+     as corrupt, ignorant, incapable and unworthy 
+     <lb/>
+     by the opposite party. One of them attained 
+     <lb/>
+     the presidential chair ; but even while in that 
+     <lb/>
+    position he was not respected by those who  
+     <lb/>had opposed his election, and who tried to 
+     <lb/>make him appear the most corrupt and con<lb break="no"/>temptible being in creation. Such a system 
+     <lb/>could not produce an executive head who would 
+     <lb/>command respect. Under the British system, 
+     <lb/>ministers might be abused and assailed ; but 
+     <lb/>that abuse never reached the Sovereign. 
+     <lb/>Whether we were made a kingdom or a vice<lb break="no"/>royalty—whatever name or grade was assigned 
+     <lb/>to us—we would undoubtedly have additional 
+     <lb/>prestige. He would now conclude his remarks  
+     <lb/>by asking honorable gentlemen to consider 
+     <lb/>well this scheme. It was his hope, his cher<lb break="no"/>ished hope, that it would be adopted by the 
+     <lb/>House. The time was opportune, as his hon<lb break="no"/>orable colleague (Atty. Gen. MACDONALD)had 
+     <lb/>so ably stated last evening ; the  opportunity 
+     <lb/>might never offer itself again in such a facile 
+     <lb/>
+            
+            <cb/>
+            
+     and propitious manner. We knew we had, in 
+     <lb/>
+     all our proceedings, the approbation of the 
+     <lb/>
+     Imperial Government. So if these resolutions 
+     <lb/>
+     were adopted by Canada, as he had no doubt 
+     <lb/>
+     they would, and by the other Colonial Legis<lb break="no"/>latures, the Imperial Government would be 
+     <lb/>
+     called upon to pass a measure which would 
+     <lb/>
+     have for its effect to give a strong central or 
+     <lb/>
+     general government and local governments, 
+     <lb/>
+     which would at once secure and guard the 
+     <lb/>
+     persons, the properties and the civil and reli<lb break="no"/>gious rights belonging to the population of 
+     <lb/>
+     each section. (Loud cheers.) 
+     <lb/>
+            </p>
+
+            <p>
+     HON. MR. GALT said,—Mr. SPEAKER, I 
+     <lb/>
+     trust the House will, on this occasion, extend 
+     <lb/>
+     to me the indulgence with which I have often 
+     <lb/>
+     previously been favored when I have ad<lb break="no"/>dressed it on subjects relating to the commer<lb break="no"/>cial and financial interests of this province ; 
+     <lb/>
+     for I am now required to follow the very able 
+     <lb/>
+     and eloquent speeches of the two Attorneys 
+     <lb/>
+     General, East and West, who have discussed, 
+     <lb/>
+     as none were more able than those gentlemen 
+     <lb/>
+     to discuss, the most important political and 
+     <lb/>
+     philosophical questions which are involved in 
+     <lb/>
+     the Confederation of the British North Amer<lb break="no"/>ican colonies ; and the material interests of 
+     <lb/>
+     the country upon which it is my province this 
+     <lb/>
+     night to dwell, though unquestionably those 
+     <lb/>
+     which are intended to be served through the 
+     <lb/>
+     political alterations we have to consider, are, 
+     <lb/>
+     nevertheless, likely to prove tedious to the 
+     <lb/>
+     House. Explanations respecting them are, 
+     <lb/>
+     however, imperatively called for when we are 
+     <lb/>
+     considering the question now at issue. (Hear.) 
+     <lb/>
+     There is one advantage which I feel that I 
+     <lb/>
+     enjoy on this occasion, and it is that this 
+     <lb/>
+     House is not called upon, in dealing with the 
+     <lb/>
+     commercial and financial interests involved in 
+     <lb/>
+     the proposed changes, to consider the form 
+     <lb/>
+     or mode of government by which such inter<lb break="no"/>ests are to be promoted. It makes little differ<lb break="no"/>ence to the consideration of this branch of 
+     <lb/>
+     the subject whether the Constitution of the 
+     <lb/>
+     new Government be that of a Legislative or 
+     <lb/>
+     Federal Union—the points with which I am 
+     <lb/>
+     about to deal, are those which concern the 
+     <lb/>
+     public at large, and bear no reference to what 
+     <lb/>
+     may be the creed, nationality or language of 
+     <lb/>
+     portions of the peeple. The subjects on 
+     <lb/>
+     which I propose to address the House are 
+     <lb/>
+     those connected with the trade, resources 
+     <lb/>
+     and financial condition of the several prov<lb break="no"/>inces of British North America, and certain 
+     <lb/>
+     questions present themselves for decision, 
+     <lb/>
+     upon a satisfactory answer to which the 
+     <lb/>
+     determination of the House upon the whole 
+     <lb/>
+     plan that is submitted should depend, I 
+     <lb/>
+           
+            <pb n="63" facs="final/images/Ont_Que_LA_1865-02-07_Page_0063.jpg"/>
+            <fw type="num">63</fw>
+           
+     will divide my remarks into five distinct 
+     <lb/>
+     heads :-<lb/>
+            </p>
+            <p><hi rendition="simple:italic">First</hi>.—Do the commercial and material 
+     <lb/>
+     interests of the several provinces point to 
+     <lb/>
+     their union as an advantageous measure ? 
+     <lb/>
+            </p>
+
+            <p>
+     <hi rendition="simple:italic">Secondly</hi>.—Is their financial condition such 
+     <lb/>
+     as to permit of this union being carried into 
+     <lb/>
+     practical effect at this moment, with justice 
+     <lb/>
+     to them all ? 
+     <lb/>
+            </p>
+
+            <p>
+     <hi rendition="simple:italic">Thirdly</hi>.—Are the measures proposed in 
+     <lb/>
+     the resolutions before the House fair to each 
+     <lb/>
+     and to all ? 
+     <lb/>
+            </p>
+
+            <p>
+     <hi rendition="simple:italic">Fourthly</hi>.—Is there a reasonable prospect 
+     <lb/>
+     that the machinery through which these in<lb break="no"/>terests are proposed to be governed, will work 
+     <lb/>
+     smoothly and harmoniously ? 
+     <lb/>
+            </p>
+
+            <p>
+     <hi rendition="simple:italic">Lastly</hi>.—Does the proposed system for the 
+     <lb/>
+     Government of the United Provinces appear 
+     <lb/>
+     likely to prove so expensive as to render it im<lb break="no"/>possible for the people of Canada to consent 
+     <lb/>
+     to it ? 
+     <lb/>
+            </p>
+
+            <p>
+     In dealing with the first question, whether 
+     <lb/>
+     the material interests of the provinces will be 
+     <lb/>
+     promoted by their union, it may be well for 
+     <lb/>
+     me to offer to the House some few remarks 
+     <lb/>
+     as to the resources of British North America. 
+     <lb/>
+     Possessing as we do, in the far western part of 
+     <lb/>
+     Canada, perhaps the most fertile wheat-growing 
+     <lb/>
+     tracts on this continent,—in central and eastern 
+     <lb/>
+     Canada facilities for manufacturing such as 
+     <lb/>
+     cannot anywhere be surpassed,— and in the 
+     <lb/>
+     eastern or Maritime Provinces an abundance 
+     <lb/>
+     of that most useful of all minerals, coal, as 
+     <lb/>
+     well as the most magnificent and valuable 
+     <lb/>
+     fisheries in the world ; extending as this coun<lb break="no"/>try does for two thousand miles, traversed by 
+     <lb/>
+     the finest navigable river in the world, we 
+     <lb/>
+     may well look forward to our future with 
+     <lb/>
+     hopeful anticipation of seeing the realization, 
+     <lb/>
+     not merely of what we have hitherto thought 
+     <lb/>
+     would be the commerce of Canada, great as 
+     <lb/>
+     that might become, but to the possession of 
+     <lb/>
+     Atlantic ports, which we shall help to build to 
+     <lb/>
+     a position equal to that of the chief cities of 
+     <lb/>
+     the American Union. (Hear.) But it is not 
+     <lb/>
+     so much by the extent of a country that its 
+     <lb/>
+     power and real greatness are to be estimated, 
+     <lb/>
+     as by its containing within itself the elements 
+     <lb/>
+     of different interests, for it is in the diversity 
+     <lb/>
+     of employment that security is found against 
+     <lb/>
+     those sad reverses to which every country, de<lb break="no"/>pending mainly on one branch of industry, 
+     <lb/>
+     must always be liable. (Hear) A most re<lb break="no"/>markable illustration of this has recently oc<lb break="no"/>curred in our own Mother Country. No one 
+     <lb/>
+     would have ventured to say, a few years ago, 
+     <lb/>
+     that England could have lost its immense 
+     <lb/>
+     cotton supply without having its system of 
+     <lb/>
+       
+            <cb/>
+         
+     commercial industry almost entirely over<lb break="no"/>thrown, and having its people sunk into the 
+     <lb/>
+     deepest misery. Yet we have seen, within the 
+     <lb/>
+     last few years, the cotton supply cut off. We 
+     <lb/>
+     have seen, it is true, a considerable portion of the 
+     <lb/>
+     people reduced to great want, but, at the same 
+     <lb/>
+     time, the wonderful diversity of employment 
+     <lb/>
+     which exists in the country opened new chan<lb break="no"/>nels for the employment of the distressed oper<lb break="no"/>atives, and though there was great pressure 
+     <lb/>
+     for a time, it was only temporary in its opera<lb break="no"/>tions ; and at this moment, after a short pause, 
+     <lb/>
+     we see the industry of England greater than 
+     <lb/>
+     it was at the beginning of the American war. 
+     <lb/>
+     (Hear.) We may therefore rejoice that, in 
+     <lb/>
+     the proposed Union of the British North 
+     <lb/>
+     American Provinces, we shall obtain some se<lb break="no"/>curity against those providential reverses to 
+     <lb/>
+     which, as long as we are dependent on one 
+     <lb/>
+     branch of industry as a purely agricultural 
+     <lb/>
+     country, we must always remain exposed. 
+     <lb/>
+     (Hear, hear.) The resources of these great 
+     <lb/>
+     colonies, and the extent to which the industry 
+     <lb/>
+     and intelligence of their inhabitants have de<lb break="no"/>veloped them, are most significantly shewn in 
+     <lb/>
+     the Trade and Navigation Tables, which are 
+     <lb/>
+     in the possession of the public. I am afraid 
+     <lb/>
+     to weary the House by going at any length 
+     <lb/>
+     into statements relating to them, but I feel 
+     <lb/>
+     that in order to place the question of union 
+     <lb/>
+     fairly before the House and the country, I am 
+     <lb/>
+     called upon to glance, however briefly, at the 
+     <lb/>
+     position in which the trade and tonnage of 
+     <lb/>
+     each of the British North American Provinces 
+     <lb/>
+     at the present moment stands. The returns 
+     <lb/>
+     of the trade of Canada in 1863, taking exports 
+     <lb/>
+     and imports conjointly, shew an aggregate of 
+     <lb/>
+     $87,795,000. Taking the census of 1861, 
+     <lb/>
+     this trade represents thirty-five dollars per 
+     <lb/>
+     head of the population. The value of the 
+     <lb/>
+     import and export trade of New Brunswick, 
+     <lb/>
+     for the same year, reaches $16,729,680, 
+     <lb/>
+     amounting to sixty-six dollars per head of its 
+     <lb/>
+     population. The aggregate trade of Nova 
+     <lb/>
+     Scotia for the same period, amounted to $18<lb break="no"/>622,359, or fifty-six dollars per head of its 
+     <lb/>
+     ple. And in the case of Prince Edward 
+     <lb/>
+     Island, the import and export trade amounted 
+     <lb/>
+     to $3,055,568, representing thirty-seven dol<lb break="no"/>lars per head of the population of that colony. 
+     <lb/>
+     The value of the total trade of Newfoundland 
+     <lb/>
+     was $11,245,032, or eighty-six dollars per 
+     <lb/>
+     head. The whole of these figures represent 
+     <lb/>
+     an  aggregate trade of all the provinces amount<lb break="no"/>ing to $137,447,567. Notwithstanding the 
+     <lb/>
+     large population and the very large amount 
+     <lb/>
+     represented by the trade of Canada, when it 
+     <lb/>
+     is divided per head it falls considerably short 
+     <lb/>
+         
+            <pb n="64" facs="final/images/Ont_Que_LA_1865-02-07_Page_0064.jpg"/>
+            <fw type="num">64</fw>
+          
+     of the trade of New Brunswick and Nova Sco<lb break="no"/>tia, being a little more than half per head of 
+     <lb/>
+     the former, and not more than two-thirds of 
+     <lb/>
+     that of Nova Scotia. All the statistics to which 
+     <lb/>
+     I have had access show that the commercial 
+     <lb/>
+     and financial position of our sister colonies is 
+     <lb/>
+     such as to enable them creditably to seek an 
+     <lb/>
+     alliance with any country on earth ; and it 
+     <lb/>
+     cannot be said that, in seeking or consenting 
+     <lb/>
+     to an alliance with Canada, they have any 
+     <lb/>
+     local, or sectional, or selfish object in view. 
+     <lb/>
+     (Hear, hear.) Passing from trade, I will 
+     <lb/>
+     turn to another subject — the ship building 
+     <lb/>
+     and tonnage of those colonies— and will take 
+     <lb/>
+     the returns of 1863. In that year, the num<lb break="no"/>be of ships built in all those colonies was no 
+     <lb/>
+     less than 645, with a tonnage amounting to 
+     <lb/>
+     219,763 tons. This statement of the enor<lb break="no"/>mous amount of tonnage built in one year is 
+     <lb/>
+     as good evidence as can be offered of the fa<lb break="no"/>cilities we possess for becoming an important 
+     <lb/>
+     maritime power. The industry represented 
+     <lb/>
+      by those figures shows an export value of 
+     <lb/>
+     nearly nine million dollars ! The sea-going 
+     <lb/>
+     tonnage of Canada, including that of the in<lb break="no"/>land lakes, amounts to about nine million tons, 
+     <lb/>
+     a great portion of which, however, represents 
+     <lb/>
+     the tonnage of vessels performing coasting 
+     <lb/>
+     service, many of which frequently clear and 
+     <lb/>
+     arrive in the course of one day. It is gratifying 
+     <lb/>
+     to know that the trade between Canada and 
+     <lb/>
+     the States on the other side of the lakes is 
+     <lb/>
+     of a nature to give employment to a large 
+     <lb/>
+     portion of this lake tonnage — amounting 
+     <lb/>
+     to 6,907,000 tons — but it cannot be classed 
+     <lb/>
+     in the same category as the tonnage arriving 
+     <lb/>
+     at Quebec and Montreal, which in most cases 
+     <lb/>
+     can make only two or three trips per an<lb break="no"/>num. The sea-going tonnage of Canada 
+     <lb/>
+     amounted to 2,133,000 tons ; of New Bruns<lb break="no"/>wick, 1,386,000 ; of Nova Scotia, 1,432,000 
+     <lb/>
+     tons. Consequently the amount of sea-going 
+     <lb/>
+     tonnage, subject only to a small deduction, 
+     <lb/>
+     was actually about five million tons, of which 
+     <lb/>
+     about 2,133,000 was that of vessels trading 
+     <lb/>
+     between the St. Lawrence and foreign ports. 
+     <lb/>
+     In making this statement it is due to the 
+     <lb/>
+     House that it should be made aware that 
+     <lb/>
+     some portion of this trade will not be repre<lb break="no"/>sented after the contemplated union has taken 
+     <lb/>
+     place. At present, the internal commerce 
+     <lb/>
+     between these colonies appears in the returns 
+     <lb/>
+     of each as imports and exports, but I should 
+     <lb/>
+     be glad if I were able to make on this account 
+     <lb/>
+     a large deduction from the ﬁgures I have 
+     <lb/>
+     given. It is matter for regret on the part of 
+     <lb/>
+     all of us that the trade between these colo<lb break="no"/>nies—subject all to the same Sovereign, con<lb break="no"/><cb/>nected with the same empire—has been so 
+     <lb/>
+     small. Intercolonial trade has been, indeed, 
+     <lb/>
+     of the most insignificant character ; we have 
+     <lb/>
+     looked far more to our commercial relations 
+     <lb/>
+     with the neighbouring—though a foreign 
+     <lb/>
+     country,—than to the interchange of our own 
+     <lb/>
+     products, which would have retained the bene<lb break="no"/>fits of our trade within ourselves ; hostile 
+     <lb/>
+     tariffs have interfered with the free interchange 
+     <lb/>
+     of the products of the labor of all the colonies, 
+     <lb/>
+     and one of the greatest and most immediate 
+     <lb/>
+     benefits to be derived from their union, will 
+     <lb/>
+     spring from the breaking down of these bar<lb break="no"/>riers and the opening up of the markets of all 
+     <lb/>
+     the provinces to the different industries of 
+     <lb/>
+     each. (Hear, hear.) In this manner we may 
+     <lb/>
+     hope to supply Newfoundland and the great 
+     <lb/>
+     fishing districts of the Gulf, with the agricul<lb break="no"/>tural productions of Western Canada ; we 
+     <lb/>
+     may hope to obtain from Nova Scotia our 
+     <lb/>
+     supply of coal ; and the manufacturing indus<lb break="no"/>try of Lower Canada may hope to find more 
+     <lb/>
+     extensive outlets in supplying many of those 
+     <lb/>
+     articles which are now purchased in foreign 
+     <lb/>
+     markets. For instance Newfoundland produces 
+     <lb/>
+     scarcely anything by agriculture, manufactures 
+     <lb/>
+     hardly an article of clothing, and a considerable 
+     <lb/>
+     trade may thus be expected to arise ; while, 
+     <lb/>
+     instead of  having payments made, as they 
+     <lb/>
+     are now, through Lombard street, they will 
+     <lb/>
+     be made through our own bankers in Montreal 
+     <lb/>
+     and elsewhere.  If we require to find an ex<lb break="no"/>ample of the benefits of free commercial in<lb break="no"/>tercourse, we need not look beyond the effects 
+     <lb/>
+     that have followed from the working of the 
+     <lb/>
+     Reciprocity Treaty with the United States. In 
+     <lb/>
+     one short year from the time when that treaty  
+     <lb/>
+     came into operation, our trade in the natural 
+     <lb/>
+     productions of the two countries swelled from 
+     <lb/>
+     less than $2,000,000 to upwards of $20,000,000 
+     <lb/>
+     per annum, and now, when we are threatened 
+     <lb/>
+     with an interruption of that trade—when we 
+     <lb/>
+     have reason to fear that the action of the 
+     <lb/>
+     United States will prove hostile to the con<lb break="no"/>tinuance of free commercial relations  with 
+     <lb/>
+     this country—when we know that the con<lb break="no"/>sideration of this question is not grounded on 
+     <lb/>
+     just views of the material advantages result<lb break="no"/>ing to each country—but that the irritation 
+     <lb/>
+     connected with political events exercises a 
+     <lb/>
+     predominant influence over the minds of 
+     <lb/>
+     American statesmen, it is the duty of the 
+     <lb/>
+     House to provide, if possible, other outlets for 
+     <lb/>
+     our productions. If we have reason to  fear 
+     <lb/>
+     that one door is about to be closed to our 
+     <lb/>
+     trade, it is the duty of the House to endeavor 
+     <lb/>
+     to open another ; to provide against a coming  
+     <lb/>
+    evil of the kind feared by timely expansion in 
+     <lb/>
+            
+
+    
+            <pb n="65" facs="final/images/Ont_Que_LA_1865-02-07_Page_0065.jpg"/>
+            <fw type="num">65</fw>
+          
+     another direction ; to seek by free trade with 
+     <lb/>
+     our own fellow-colonists for a continued and 
+     <lb/>
+     uninterrupted commerce which will not be 
+     <lb/>
+     liable to be disturbed at the capricious will of 
+     <lb/>
+     any foreign country. (Hear, hear.) On 
+     <lb/>
+     this ground, therefore, we may well come to 
+     <lb/>
+     the conclusion that the union between these 
+     <lb/>
+     colonies is demanded alike on account of their 
+     <lb/>
+     extensive resources, and because of the 
+     <lb/>
+     peculiar position in which they stand relatively 
+     <lb/>
+     to each other, to Great Britain, and to the 
+     <lb/>
+     United States. All these are questions which 
+     <lb/>
+     fall within the province of the General Gov<lb break="no"/>ernment, as proposed in the resolutions before 
+     <lb/>
+     the House, and whatever may be the doubts 
+     <lb/>
+     and fears of any one with respect to the de<lb break="no"/>tails of the organization by which it is pro<lb break="no"/>posed to work the new system of Confedera<lb break="no"/>ation, no one can doubt that the great inter<lb break="no"/>ests of trade and commerce will be best pro<lb break="no"/>moted and developed by being entrusted to 
+     <lb/>
+     one central power, which will wield them in 
+     <lb/>
+     the common interest. (Hear, hear.) 
+     <lb/>
+            </p>
+
+            <p>
+     I now come, Mr. SPEAKER, to the consid<lb break="no"/>eration of the second, and perhaps I may say 
+     <lb/>
+     the third division of my subject also—wheth<lb break="no"/>er the material condition of these provinces 
+     <lb/>
+     is such as to make the union practicable, and 
+     <lb/>
+     whether the details of the measures proposed 
+     <lb/>
+     are equitable to each and to all. In consid<lb break="no"/>ering this point, it is necessary for us ﬁrst to 
+     <lb/>
+     review the liabilities of each province, the 
+     <lb/>
+     reasons why they were incurred, the objects 
+     <lb/>
+     which have been sought. In doing so, the 
+     <lb/>
+     House will not fail to remark that the same 
+     <lb/>
+     policy has animated the legislatures of all the 
+     <lb/>
+     provinces, or perhaps I should speak more 
+     <lb/>
+     exactly in sayng those of Canada, New Bruns<lb break="no"/>wick and Nova Scotia. The public debt of 
+     <lb/>
+     all these provinces has, with some slight 
+     <lb/>
+     exceptions, been incurred for public improve<lb break="no"/>ments, intended to develope the resources of 
+     <lb/>
+     the country, to attract immigration and wealth 
+     <lb/>
+     to their respective shores, to cheapen the 
+     <lb/>
+     means whereby the products of their farms 
+     <lb/>
+     were to be taken to market, and to reduce the 
+     <lb/>
+     cost of freight of articles which enter largely 
+     <lb/>
+     into the consumption of their inhabitants. 
+     <lb/>
+     Nor will any one fail to observe the intimate 
+     <lb/>
+     connection which all these public works have 
+     <lb/>
+     with each other—a connection which singu<lb break="no"/>larly illustrates the natural union which exists 
+     <lb/>
+     between these several provinces. If we con<lb break="no"/>sider the public improvements of Canada, her 
+     <lb/>
+     great canals intended to bring the trade of the 
+     <lb/>
+     vast countries bordering on the lakes down to 
+     <lb/>
+     the Gulf of St. Lawrence ; if we look at the 
+     <lb/>
+     railway system forced upon us in our compe<lb break="no"/><cb/>tition with American channels of trade, stretch<lb break="no"/>ing from the extreme west to the extreme east 
+     <lb/>
+     of the province ; and if we then look at the 
+     <lb/>
+     public works that have been undertaken in 
+     <lb/>
+     Nova Scotia and New Brunswick, we find that, 
+     <lb/>
+     practically, they form parts of one great whole. 
+     <lb/>
+     It is through the St. Lawrence that the people 
+     <lb/>
+     of the Lower Provinces will send their fish , oils 
+     <lb/>
+     and other exports to the west, and it is through 
+     <lb/>
+     our canals and river that they will import 
+     <lb/>
+     the necessaries they require from the west. 
+     <lb/>
+     Through these canals and the river St. Law<lb break="no"/>rence, and along the railway systems of all the 
+     <lb/>
+     provinces, when hereafter connected, a great 
+     <lb/>
+     trade will flow in one uninterrupted stream, 
+     <lb/>
+     enriching in its course not only the cities of 
+     <lb/>
+     Canada, but also swelling the tide of a new 
+     <lb/>
+     commerce we may hope to see called into 
+     <lb/>
+     being in the open Atlantic ports of St. John 
+     <lb/>
+     and Halifax. (Hear, hear.) I will now pro<lb break="no"/>ceed, sir, briefly to lay before the House a 
+     <lb/>
+     statement of the present engagements of the 
+     <lb/>
+     several provinces, beginning with Canada. I 
+     <lb/>
+     find that our whole debt, exclusive of the 
+     <lb/>
+     Common School Fund, which does not form a 
+     <lb/>
+     portion of our engagements relatively to the 
+     <lb/>
+     Lower Provinces, amounts to $67,263,995. 
+     <lb/>
+     The debt of Nova Scotia is $4,858,547, and 
+     <lb/>
+     that of New Brunswick $5,702,991 ; and I 
+     <lb/>
+     may notice, with reference to the debts of 
+     <lb/>
+     Nova Scotia and New Brunswick, that in the 
+     <lb/>
+     case of Nova Scotia a portion of their liabili<lb break="no"/>ties, to the amount of nearly half a million of 
+     <lb/>
+     dollars, consists of treasury notes, while the 
+     <lb/>
+     policy has been pursued both in that province 
+     <lb/>
+     and in New Brunswick of retaining in the 
+     <lb/>
+     hands of the Government the Savings Bank 
+     <lb/>
+     deposits of the people, which form, therefore, 
+     <lb/>
+     a part of the liabilities I have named to the 
+     <lb/>
+     extent of $1,167,000. It must, therefore, be 
+     <lb/>
+     observed that the rate of interest on the debts 
+     <lb/>
+     of these two colonies is not, on the whole 
+     <lb/>
+     amount, higher than that which the bulk of 
+     <lb/>
+     the Canadian debt now bears. Newfoundland 
+     <lb/>
+     has only incurred liabilities to the extent of 
+     <lb/>
+     $946,000, bearing interest at five per cent., 
+     <lb/>
+     while Prince Edward Island owes $240,673. 
+     <lb/>
+     The total liabilities of those provinces are, 
+     <lb/>
+     therefore, $11,748,211, against the interest on 
+     <lb/>
+     which may be placed the net revenues of the 
+     <lb/>
+     railways which are the property of those pro<lb break="no"/>vinces, and which produced last year a net 
+     <lb/>
+     amount of about $100,000. In addition to 
+     <lb/>
+    the existing liabilities of Nova Scotia and New 
+     <lb/>Brunswick, there are certain further engage<lb break="no"/>ments they have incurred for the extension of 
+     <lb/>their railway system requiring future provision 
+     <lb/>tothe extent, in the case of Nova Scotia, of 
+     <lb/>
+           
+            <pb n="66" facs="final/images/Ont_Que_LA_1865-02-07_Page_0066.jpg"/>
+            <fw type="num">60</fw>
+        
+     $3,000,000, and in that of New Brunswick of 
+     <lb/>
+     $1,300,000. It must be evident to the House 
+     <lb/>
+     that, in entering into such a partnership as is 
+     <lb/>
+     proposed, some common basis must be arrived 
+     <lb/>
+     at on which each province must enter into the 
+     <lb/>
+     Confederation. Taking all the engagements, 
+     <lb/>
+    present and future, of Nova Scotia and New 
+     <lb/>Brunswick, it was found that, relatively to 
+     <lb/>their populations, they amounted to about $25 
+     <lb/>per head, and this amount, as applied to 
+     <lb/>Canada, would entitle us to enter the union 
+     <lb/>with a debt of $62,500,000. Some difficulty 
+     <lb/>might have occurred in reducing our debt to 
+     <lb/>this amount had it not been apparent, on 
+     <lb/>examination, that a considerable portion of it 
+     <lb/>was connected with local advances, such as the 
+     <lb/>Municipal Loan Fund, which does not properly 
+     <lb/>belong to the same category as debt contracted 
+     <lb/>in connection with our system of public im<lb break="no"/>provements, and the management of which is 
+     <lb/>intended to be confided to the General Gov<lb break="no"/>ernment, but rather partakes of a local charac<lb break="no"/>ter, and should more properly be left in the 
+     <lb/>hands of the local legislatures. It will 
+     <lb/>therefore be found provided in the resolutions, 
+     <lb/>that in assuming for itself, apart from the 
+     <lb/>General Government, the surplus of debt of 
+     <lb/>about five millions ($5,000,000), the Province 
+     <lb/>of Canada became entitled to withdraw from 
+     <lb/>the general assets all those items which were 
+     <lb/>of a local character, and for which a portion 
+     <lb/>of its debt had been incurred. Had not this 
+     <lb/>means been adopted, it would have been neces<lb break="no"/>sary to permit all the Lower Provinces to 
+     <lb/>increase their obligations beyond those for 
+     <lb/>which their legislatures have hitherto had to 
+     <lb/>provide, and bring in larger debts to the Con<lb break="no"/>federation than they will now do, and a most 
+     <lb/>unnecessary and prodigal expenditure of public 
+     <lb/>money would have been the consequence. It 
+     <lb/>was wise, then, to confine the liabilities of the 
+     <lb/>General Government simply to those debts 
+     <lb/>which had been incurred for purposes of 
+     <lb/>general improvement, and to provide locally, 
+     <lb/>in this country, for the assumption of the sur<lb break="no"/>plus, together with the assets which had been 
+     <lb/>created by it. 
+     <lb/>
+            </p>
+
+
+            <p>
+     HON. MR. DORION—Do the $67,263,995, 
+     <lb/>
+     stated as the debt of Canada, include the ori<lb break="no"/>ginal seigniorial indemnity given to Upper and 
+     <lb/>
+    Lower Canada, under the Act of 1854? 
+     <lb/>
+            </p>
+
+
+            <p>
+     HON. MR. GALT—Yes ; that amount does 
+     <lb/>
+     include the indemnity, and among the arrange<lb break="no"/>ments contemplated by the Government, as<lb break="no"/>suming that Confederation does take place, 
+     <lb/>
+     they will submit, for the consideration of this 
+     <lb/>
+     House, a project for the assumption by Lower 
+     <lb/>
+     Canada of the seigniorial indemnity provided 
+     <lb/>
+           
+            <cb/>
+        
+     by the Act of 1859, whereby it will be ren<lb break="no"/>dered unnecessary to give an equivalent indem<lb break="no"/>nity to Upper Canada, thus saving upwards of 
+     <lb/>
+     three millions of dollars. (Hear, hear.) I 
+     <lb/>
+     would desire again, Mr. SPEAKER, to refer to 
+     <lb/>
+     the position of the Lower Provinces, and to 
+     <lb/>
+     call the attention of the House to the fact 
+     <lb/>
+     that both in the case of Newfoundland and in 
+     <lb/>
+     that of Prince Edward Island, their liabilities 
+     <lb/>
+     are very much less in proportion to the popu<lb break="no"/>lation than those of the three larger provinces ; 
+     <lb/>
+     and in order to permit of their entering into 
+     <lb/>
+     the union upon fair terms, it was necessary to 
+     <lb/>
+     provide that they should be allowed to receive 
+     <lb/>
+     from the general exchequer a sum equal to the 
+     <lb/>
+     interest upon the amount of debt which they 
+     <lb/>
+     had not been obliged to contract. By this means 
+     <lb/>
+     provision was in fact made for the mainten<lb break="no"/>ance of their local governments, while at the 
+     <lb/>
+     same time a cause of future complaint was re<lb break="no"/>moved. (Hear, hear.) It now becomes my 
+     <lb/>
+     duty to submit to the House a statement of 
+     <lb/>
+     the resources which the several provinces pro<lb break="no"/>pose to bring into the common stock, and I 
+     <lb/>may add that for the purpose of this statement 
+     <lb/>being more readily verified, the financial re<lb break="no"/>turns of 1863 have been taken as the standard. 
+     <lb/>From these returns it would appear that the 
+     <lb/>income and expenditure of the several pro<lb break="no"/>vinces stood in that year as follows : Nova 
+     <lb/>Scotia, with a population of 338,857, had an 
+     <lb/>income of $1,185,629, her outlay being $1,<lb break="no"/>072,274 ; New Brunswick, with a population 
+     <lb/>of 252,047, had an income of $894,836, and 
+     <lb/>an outlay of $884,613 ; Newfoundland, with a 
+     <lb/>population of 130,000, had an income of 
+     <lb/>$480,000, the outlay being $479,420 ; Prince 
+     <lb/>Edward Island, with a population of 80,000, 
+     <lb/>had an income of $197,384, the outlay being 
+     <lb/>$171,718. The total revenue of all these 
+     <lb/>colonies amounted to $2,763,004, and the 
+     <lb/>total expenditure to $2,608,025—the united 
+     <lb/>surplus over expenditure for 1863 being 
+     <lb/>$154,979. It will be observed that as regards 
+     <lb/>these provinces their income and expenditure 
+     <lb/>are such that they will enter the Confeder<lb break="no"/>ation with a financial position in no respect 
+     <lb/>inferior to that of Canada. If an objection 
+     <lb/>were made with respect to any province in 
+     <lb/>regard to its financial position, it would be 
+     <lb/>against Canada. The Lower Provinces have 
+     <lb/>been and are now in a position to meet, from 
+     <lb/>their taxation, all their expenses, and cannot 
+     <lb/>be regarded as bringing any burthen to the 
+     <lb/>people of Canada. It is not necessary for me 
+     <lb/>to say anything in reference to the financial 
+     <lb/>position of Canada in 1863, but it must be 
+     <lb/>gratifying to the House to know that the de<lb break="no"/><pb n="67" facs="final/images/Ont_Que_LA_1865-02-07_Page_0067.jpg"/><fw type="num">67</fw>ficiency which unfortunately existed during 
+     <lb/>
+    that year was removed in 1864, and that, 
+     <lb/>therefore, we are not obliged now to propose 
+     <lb/>to enter the Confederation in an inferior po<lb break="no"/>sition, in this respect, to that of our sister 
+     <lb/>colonies. (Hear, hear.) The revenues of each 
+     <lb/>of these provinces are, as the House is well 
+     <lb/>aware, collected under different systems of tax<lb break="no"/>ation, suited to the local industry and the 
+     <lb/>wants of their several populations. It is, there<lb break="no"/>fore, manifest that one of the first duties of 
+     <lb/>the General Legislature will be to consider the 
+     <lb/>modes by which the burden of taxation can be 
+     <lb/>most easily borne by the industry of the whole 
+     <lb/>country, and to assilmilate the several sources 
+     <lb/>of revenue which are now in existence in such 
+     <lb/>manner as will least interfere with the profit<lb break="no"/>able exercise of the industry of the people. It 
+     <lb/>would be entirely out of place for me, sir, to 
+     <lb/>attempt on this occasion to indicate what the 
+     <lb/>policy of the General Government may be, but 
+     <lb/>one thing must be evident to all, and that is, 
+     <lb/>that where the taxation is about equal per 
+     <lb/>head, the adjustment of it cannot be attended 
+     <lb/>with any injustice to the people of any of the 
+     <lb/>several provinces. Reductions may be made in 
+     <lb/>our customs, on the one hand ; and, perhaps, 
+     <lb/>on the other, some portions of our commerce 
+     <lb/>may be relieved from the exactions to which 
+     <lb/>they are now subjected. Apart from the advan<lb break="no"/>tages which will manifestly flow from the free 
+     <lb/>trade which will hereafter exist between us, 
+     <lb/>it must be clear to every member of the House 
+     <lb/>that the credit of each and all the provinces 
+     <lb/>will be greatly advanced by a union of their 
+     <lb/>resources. A larger fund will be available 
+     <lb/>as security to the public creditor, larger in<lb break="no"/>dustries will be subjected to the action of the 
+     <lb/>Legislature for the maintenance of public 
+     <lb/>credit, and we will also see removed some of 
+     <lb/>those apprehensions which have latterly affected 
+     <lb/>the public credit of this country (Hear, 
+     <lb/>hear.) It must be evident, for it is proved 
+     <lb/>by the fluctuating quotations of the secu<lb break="no"/>rities of these provinces in London that 
+     <lb/>the apprehension of war with the United 
+     <lb/>States—which has, unfortunately, affected the 
+     <lb/>prices of Canadian bonds—has not to the same 
+     <lb/>extent effected those of New Brunswick and 
+     <lb/>Nova Scotia, which are less exposed to hostile 
+     <lb/>attack ; and we may therefore hope that 
+     <lb/>the union, while it affords us greater re<lb break="no"/>sources, will, at the same time, carry with it a 
+     <lb/>greater sense of security. (Hear, hear.) I 
+     <lb/>must now enquire whether the proposed 
+     <lb/>system of general and local governments, 
+     <lb/>as regards the interests to which I have 
+     <lb/>already alluded, is likely to work beneficially ; 
+     <lb/>
+           
+            <cb/>
+       
+     and this brings me to the consideration of the 
+     <lb/>
+     question of the means that will be at the dis<lb break="no"/>posal of the general and local governments. 
+     <lb/>
+     It must be admitted that having the power of 
+     <lb/>
+     taxation in their own hands, it will be the 
+     <lb/>
+     fault of the General Legislature if any em<lb break="no"/>barrassment is felt in meeting the expendi<lb break="no"/>ture of the General Government. Before, 
+     <lb/>
+     however, passing to the consideration of the 
+     <lb/>
+     means at the disposal of the local govern<lb break="no"/>ments, I would take this opportunity of reply<lb break="no"/>ing to the honorable member for Hochelaga, in 
+     <lb/>
+     reference to the export duty on timber in New 
+     <lb/>
+     Brunswick, and the royalty in Nova Scotia 
+     <lb/>
+     on the produce of the mines. This has arisen 
+     <lb/>
+     from the circumstance that in the former pro<lb break="no"/>vince it was found both expensive and incon<lb break="no"/>venient to attempt to levy their timber dues 
+     <lb/>
+     in the forest, and they therefore adoptedthe 
+     <lb/>
+     plan of causing them to be paid in the form 
+     <lb/>
+     of an export duty upon the clearances of 
+     <lb/>
+     vessels at the custom house. If, therefore, 
+     <lb/>
+     provision had not been made for securing to 
+     <lb/>
+     New Brunswick the payment of these dues, 
+     <lb/>
+     that province would have been deprived of the 
+     <lb/>
+     large amount which its territorial timber con<lb break="no"/>tributes to the revenue, and the General 
+     <lb/>
+     Legislature would have been required to in<lb break="no"/>crease the proposed grant to that province by 
+     <lb/>
+     an amount equal to those dues—somewhere 
+     <lb/>
+     about $90,000 per annum. In the case of 
+     <lb/>
+     Nova Scotia—not possessing any public lands 
+     <lb/>
+     or timber to any extent—her territorial reve<lb break="no"/>nue is almost wholly derived from her mines, 
+     <lb/>
+     and collected in the form of royalty. Her 
+     <lb/>
+     representatives at the Conference pointed out 
+     <lb/>
+     that if the policy of the General Government 
+     <lb/>
+     should be to impose an export duty on her 
+     <lb/>
+     coal, it would virtually oblige her either to re<lb break="no"/>linquish the royalty, which new forms a large 
+     <lb/>
+    source of her revenue, or submit to be placed in 
+     <lb/>a most disadvantageous position in competing 
+     <lb/>in the American markets with the coal of that 
+     <lb/>country. For these reasons an exception was 
+     <lb/>made in the case of both of these provinces, 
+     <lb/>such as has been alluded to by the honorable 
+     <lb/>member. (Hear, hear.) In the case of New<lb break="no"/>foundland, an arrangement has been made 
+     <lb/>whereby the whole of the territorial rights of 
+     <lb/>that colony have been ceded to the General 
+     <lb/>Government, and I will take the opportunity, 
+     <lb/>when adverting to the means of supporting 
+     <lb/>the Local Government of that colony, to ex<lb break="no"/>plain the manner and the consideration for 
+     <lb/>which these rights were so ceded. (Hear.) I 
+     <lb/>now propose, sir, to refer to the means which 
+     <lb/>will be at the disposal of the several local 
+     <lb/>governments to enable them to administer 
+     <lb/>
+           
+            <pb n="68" facs="final/images/Ont_Que_LA_1865-02-07_Page_0068.jpg"/>
+            <fw type="num">68</fw>
+        
+     the various matters of public policy which 
+     <lb/>
+     it is proposed to entrust to them, and it is evi<lb break="no"/>dent that unless ample provision is made in the 
+     <lb/>
+     arrangements, great danger will arise that the 
+     <lb/>
+     machinery whereby the local wants of the people 
+     <lb/>
+     are intended to be met will speedily become 
+     <lb/>
+     impaired, causing complaint on the part of 
+     <lb/>
+     the inhabitants of the respective localities, 
+     <lb/>
+     and involving considerable danger to the whole 
+     <lb/>
+     machinery of government. (Hear, hear.) In 
+     <lb/>
+     the case of Canada it will be remembered 
+     <lb/>
+     that the sum of nearly five millions of the 
+     <lb/>
+     public debt has to be borne by Upper and 
+     <lb/>
+     Lower Canada. It will hereafter be for the 
+     <lb/>
+     House to decide how this sum shall be appor<lb break="no"/>tioned, but the probability is that the Govern<lb break="no"/>ment will recommend that it shall be divided 
+     <lb/>
+     on the basis of population. (Hear, hear.) It 
+     <lb/>
+     must be remembered that Canada will have 
+     <lb/>
+     at its disposal a large amount of the local 
+     <lb/>
+     assets, including especially the sums due to 
+     <lb/>
+     the municipal loan fund, which will produce 
+     <lb/>
+     an income for the support of their local in<lb break="no"/>stitutions. As a matter of account between 
+     <lb/>
+     Upper and Lower Canada and the General 
+     <lb/>
+     Government, they will be charged with the 
+     <lb/>
+     interest on their respective proportions of the 
+     <lb/>
+     five millions against the subsidy which it is 
+     <lb/>
+     proposed shall be given to them, while they 
+     <lb/>
+     themselves will collect from the municipalities 
+     <lb/>
+     and other local sources all the revenue and 
+     <lb/>
+     amounts which now enter into the general 
+     <lb/>
+     revenue of the Province of Canada. The 
+     <lb/>
+     question of the sub-division of the local assets 
+     <lb/>
+     of Canada is not, however, before the House. 
+     <lb/>
+     What we have now to consider is whether the 
+     <lb/>
+     bargain as between Canada as a whole and 
+     <lb/>
+     the Lower Provinces ought to be assented to. 
+     <lb/>
+     If it be assented to the question will arise, 
+     <lb/>
+     how shall we deal with the local matters be<lb break="no"/>tween Upper and Lower Canada ? and a pro<lb break="no"/>position will be brought down which I hope 
+     <lb/>
+     and believe will satisfy both sections, and do 
+     <lb/>
+     them substantial justice. 
+     <lb/>
+            </p>
+
+            <p>
+     HON. MR. DORION—Will Lower Canada 
+     <lb/>
+     be charged with the municipal loan fund, the 
+     <lb/>
+     seigniorial indemnity, and the educational in<lb break="no"/>demnity ?  
+     <lb/>
+            </p>
+
+            <p>
+     HON. MR. GALT—I must repeat that, no 
+     <lb/>
+     matter what views the Government may have 
+     <lb/>
+     on the distribution of the liabilities as be<lb break="no"/>tween Upper and Lower Canada, they will be 
+     <lb/>
+     susceptible of alteration in any way the House 
+     <lb/>
+     may see fit, this being a matter solely of local 
+     <lb/>
+     arrangement, and in no respect involving the 
+     <lb/>
+     agreement entered into with the other prov<lb break="no"/>inces; but I must point out that, as regards 
+     <lb/>the original seigniorial indemnity and the mu<lb break="no"/><cb/>nicipal loan, they are both included in the 
+     <lb/>
+     sixty-seven millions already stated as the lia<lb break="no"/>bilities of Canada, and cannot, therefore, 
+     <lb/>
+     form any additional charge against Lower 
+     <lb/>
+     Canada. (Hear, hear.) Indeed,  as regards 
+     <lb/>
+     the Municipal Loan Fund, instead of being 
+     <lb/>
+     stated as a liability, it appears that the sums 
+     <lb/>
+     due under it are, in connection with the ques<lb break="no"/>tion as I now view it, to be regarded in the 
+     <lb/>
+     light of assets, because we are considering now 
+     <lb/>
+     the sums received as assets by Lower Canada. 
+     <lb/>
+     The Municipal Loan Fund being one of them, 
+     <lb/>
+     the sums due to it under the existing provin<lb break="no"/>cial arrangements will become payable as an 
+     <lb/>
+     asset to that section of the province. (Hear.) 
+     <lb/>
+     It will be observed that in the plan proposed 
+     <lb/>
+     there are certain sources of local revenue re<lb break="no"/>served to the Local Governments, arising from 
+     <lb/>
+     territorial domain, lands, mines, &amp;c. In the 
+     <lb/>
+     case of Canada, a large sum will be received 
+     <lb/>
+     from these resources, but it may be that some 
+     <lb/>
+     of them, such as the Municipal Loan Fund, 
+     <lb/>
+     will become exhausted in course of time. We 
+     <lb/>
+     may, however, place just confidence in the 
+     <lb/>
+     development of our resources, and repose in 
+     <lb/>
+     the belief that we shall findin our ter<lb break="no"/>ritorial domain, our valuable mines and our 
+     <lb/>
+     fertile lands, additional sources of revenue 
+     <lb/>
+     far beyond the requirements of the public 
+     <lb/>
+     service. If, nevertheless, the local revenues 
+     <lb/>
+     become inadequate, it will be necessary for 
+     <lb/>
+     the local governments to have resort to di<lb break="no"/>rect taxation ; and I do not hesitate to say that 
+     <lb/>
+     one of the wisest provisions in the proposed 
+     <lb/>
+     Constitution, and that which affords the surest 
+     <lb/>
+     guarantee that the people will take a healthy 
+     <lb/>
+     interest in their own affairs and see that no 
+     <lb/>
+     extravagance is committed by those placed in 
+     <lb/>
+     power over them, is to be found in the fact 
+     <lb/>
+     that those who are called upon to administer 
+     <lb/>
+     public affairs will feel, when they resort to 
+     <lb/>
+     direct taxation, that a solemn responsibility 
+     <lb/>
+     rests upon them, and that that responsibility 
+     <lb/>
+     will be exacted by the people in the most per<lb break="no"/>emptory manner. (Hear, hear.) If the men 
+     <lb/>
+     in power find that they are required, by means 
+     <lb/>
+     of direct taxation, to procure the funds neces<lb break="no"/>sary to administer the local affairs, for which 
+     <lb/>
+     abundant provision is made in the scheme, 
+     <lb/>
+     they will pause before they enter upon any 
+     <lb/>
+     career of extravagance. Indeed, I do not 
+     <lb/>
+     hesitate to say, that if the public men of these 
+     <lb/>
+     provinces were sufficiently educated to under<lb break="no"/>stand their own interests in the true light of 
+     <lb/>
+     the principles of political economy, it would 
+     <lb/>
+     be found better now to substitute direct tax<lb break="no"/>ation for some of the indirect modes by which 
+     <lb/>taxation has been imposed upon the industry<lb/>
+          
+            <pb n="69" facs="final/images/Ont_Que_LA_1865-02-07_Page_0069.jpg"/>
+            <fw type="num">69</fw>
+       
+     of the people. (Hear, hear.) I do not, how<lb break="no"/>ever, believe that at this moment it is possible, 
+     <lb/>
+     nor do I think the people of this country 
+     <lb/>
+     would support any government in adopting 
+     <lb/>
+     this measure unless it were forced upon them 
+     <lb/>
+     by the pressure of an overwhelming necessity 
+     <lb/>
+     —the necessity of providing, by extraordinary 
+     <lb/>
+     means, against dangers by which the peace, 
+     <lb/>
+     happiness and prosperity of the country may 
+     <lb/>
+     be threatened, in fact, by some of those great 
+     <lb/>
+     disturbing causes which are frequently the 
+     <lb/>
+     beginning of the most important financial 
+     <lb/>
+     changes. (Hear, hear.) The local revenue 
+     <lb/>
+     of Upper Canada during the last four years 
+     <lb/>
+     has averaged the sum of $739,000, and that 
+     <lb/>
+     of Lower Canada, $557,239 ; together they 
+     <lb/>
+     amount to nearly $1,300,000, independent of 
+     <lb/>
+     the eighty cents per head which it is proposed 
+     <lb/>
+     to allow the local governments out of the 
+     <lb/>
+     general exchequer, for the purpose of meet<lb break="no"/>ing their local expenditures. These local 
+     <lb/>
+     expenditures include such items as the ad<lb break="no"/>ministration of justice, the support of educa<lb break="no"/>tion, grants to literary and scientific societies, 
+     <lb/>
+     hospitals and charities, and such other mat<lb break="no"/>ters as cannot be regarded as devolving upon 
+     <lb/>
+    the General Government. The whole charge, 
+     <lb/>exclusive of the expenses of local government 
+     <lb/>and legislation, on an average of the last four 
+     <lb/>years, has in Lower Canada amounted to 
+     <lb/>$997,000, and in Upper Canada to $1,024,<lb break="no"/>622 per annum. In addition to these 
+     <lb/>sums, will have now to be added such 
+     <lb/>amounts as may be required to meet the cost 
+     <lb/>of the Civil Government of the country and 
+     <lb/>of the Legislation for local purposes. It 
+     <lb/>may be difficult to form any reliable esti<lb break="no"/>mate of the sums required for this purpose, 
+     <lb/>but when the House considers that, according 
+     <lb/>to the statements given of the expenditure 
+     <lb/>during the last four years, there will be avail<lb break="no"/>able in the whole Province of Canada the sum 
+     <lb/>of no less than $1,043,015, it must, I think, 
+     <lb/>be admitted that if those charged with the 
+     <lb/>administration of local affairs in Upper and 
+     <lb/>Lower Canada exceed this amount they will 
+     <lb/>be guilty of a degree of profligacy and extra<lb break="no"/>vagance for which a speedy remedy will be 
+     <lb/>found by the people. (Hear, hear.) With 
+     <lb/>reference to the Lower Provinces, the delegates 
+     <lb/>from them to the Conference were asked what 
+     <lb/>reductions they could make in the existing 
+     <lb/>cost of the government of their several colonies, 
+     <lb/>and the figures I am about to give will be 
+     <lb/>found most satisfactory, as showing their dis<lb break="no"/>position to reduce their requirements to the 
+     <lb/>lowest possible sum. In the case of Nova 
+     <lb/>Scotia, the estimate of outlay in 1864 for 
+     <lb/>
+           
+            <cb/>
+         
+     objects of a local character required an expen<lb break="no"/>diture of no less than $667,000. Some por<lb break="no"/>tion of this expenditure was for services that 
+     <lb/>
+     did not require again to be performed, but it 
+     <lb/>
+     is gratifying to observe that they have under<lb break="no"/>taken to perform the whole service in future 
+     <lb/>
+     for $371,000. (Hear, hear.) In the case of 
+     <lb/>
+     New Brunswick, in 1864 the estimated expen<lb break="no"/>diture was $404,000, which they have under<lb break="no"/>taken to reduce to $353,000, and at the same 
+     <lb/>
+     time they have further undertaken within ten  
+     <lb/>
+     years to make an additional reduction of 
+     <lb/>
+     $63,000, thus reducing the whole expenditure 
+     <lb/>
+     in the future to $290,000. (Hear, hear.) 
+     <lb/>
+     Prince Edward Island, with an expenditure of 
+     <lb/>
+     $124,000, proposes to perform the same local 
+     <lb/>
+     duties that formerly required $170,000 ; and 
+     <lb/>
+     in Newfoundland an outlay of $479,000 has 
+     <lb/>
+     been similarly reduced to $350,000. Cheers.) 
+     <lb/>
+     The House must now, sir, consider the  means 
+     <lb/>
+     whereby these local expenditures have to be 
+     <lb/>
+     met. I have already explained that, in the 
+     <lb/>
+     case of Canada, and also in that of the Lower 
+     <lb/>
+     Provinces, certain sources of revenue are set 
+     <lb/>
+     aside as being of a purely local character and 
+     <lb/>
+     available to meet the local expenditure ; but 
+     <lb/>
+     I have been obliged in my explanations with 
+     <lb/>
+     regard to Canada to advert to the fact that it 
+     <lb/>
+     is contemplated to give a subsidy of 80 cents 
+     <lb/>
+     per head to each of the Provinces. In trans<lb break="no"/>ferring to the General Government all the 
+     <lb/>
+     large sources of revenue, and in placing in 
+     <lb/>
+    their hand with a single exception, that of 
+     <lb/>direct taxation, all the means whereby the 
+     <lb/>industry of the people may be made to contri<lb break="no"/>bute to the wants of the state, it must be evi<lb break="no"/>dent to every one that some portion of the 
+     <lb/>resources thus placed at the disposal of the 
+     <lb/>General Government must in some form or 
+     <lb/>other be available to supply the hiatus that 
+     <lb/>would otherwise take place between the sources 
+     <lb/>of local revenue and the demands of local 
+     <lb/>expenditure. The members of the Conference 
+     <lb/>considered this question with the most earnest 
+     <lb/>desire to reduce to the lowest possible limits 
+     <lb/>the sum that was thus required, and I think 
+     <lb/>the figures that I have already given to the 
+     <lb/>House afford the best possible evidence that 
+     <lb/>no disposition existed, at any rate on the part 
+     <lb/>of our friends from the Lower Provinces, to 
+     <lb/>take from the public exchequer one shilling 
+     <lb/>more than the necessities of their respective 
+     <lb/>communities absolutely demanded. (Hear, 
+     <lb/>hear.) In the case of Canada, perhaps it will 
+     <lb/>be said that a smaller sum would have met 
+     <lb/>our immediate wants, but it was felt that it 
+     <lb/>would be impossible to justify any distinction 
+     <lb/>being drawn between subjects of the same 
+     <lb/>
+            
+            <pb n="70" facs="final/images/Ont_Que_LA_1865-02-07_Page_0070.jpg"/>
+            <fw type="num">70</fw>
+         
+     country. And if in Canada we receive per<lb break="no"/>haps a somewhat larger amount than we ab<lb break="no"/>solutely require, it ought rather to be a subject 
+     <lb/>
+     of gratification to this House that it will pos<lb break="no"/>sess the means of giving greater encourage 
+     <lb/>
+     ment to our educational system, and greater 
+     <lb/>
+     development to those interests which are 
+     <lb/>
+     peculiarly entrusted to the charge of the local 
+     <lb/>
+     governments, and this, too, without making 
+     <lb/>
+     any greater demand than is at this time 
+     <lb/>
+      made upon the resources of the people. 
+     <lb/>
+     (Hear, hear.) A subsidy of 80 cents per 
+     <lb/>
+     head was provided, based upon the popu<lb break="no"/>lation according to the census of 1861. The 
+     <lb/>
+     amount, if taken upon the basis of the present 
+     <lb/>
+     population, would undoubtedly be considerably 
+     <lb/>
+     less ; and it must be observed that the agree<lb break="no"/>ment does not contemplate any future exten<lb break="no"/>sion of this amount. It is hoped that being 
+     <lb/>
+     in itself fixed and permanent in its character, 
+     <lb/>
+     the local governments will see the importance 
+     <lb/>
+     —I may say the necessity—of their exercising 
+     <lb/>
+     a rigid and proper control over the expendi<lb break="no"/>ture of their several provinces. We thus 
+     <lb/>
+     obtain one of the greatest securities that can 
+     <lb/>
+     be offered to us that those influences which, 
+     <lb/>
+     in such a Legislature as we now possess in 
+     <lb/>
+     Canada, are brought to hear for the purpose 
+     <lb/>
+     of swelling the public expenditure, will not 
+     <lb/>
+     exist in the local legislatures, but will meet with 
+     <lb/>
+     such a resistance, from the mere fact of the 
+     <lb/>
+     inability of the local governments to obey 
+     <lb/>
+     them, as to produce a very considerable 
+     <lb/>
+     saving in the general expense of the whole 
+     <lb/>
+     country. (Hear, hear.) I have now, Mr. 
+     <lb/>
+     SPEAKER, only to advert to the last question 
+     <lb/>
+     which I have stated is necessary to be decided 
+     <lb/>
+     on the present occasion ; and that is, whether 
+     <lb/>
+     under the proposed Confederation such addi<lb break="no"/>tional expenses will be incurred as to render 
+     <lb/>
+     it undesirable. In considering this point, I 
+     <lb/>
+     must state that in my opinion the question of 
+     <lb/>
+     expense alone is by no means a fair criterion 
+     <lb/>
+     by which to judge of the advantages of a mea<lb break="no"/>sure such as that now before the House. If 
+     <lb/>
+     it be looked at in its most restricted sense, the 
+     <lb/>
+     only point in which additional expense can be 
+     <lb/>
+     incurred, must be that of the simple cost of 
+     <lb/>
+     governing the country. In no other way that 
+     <lb/>
+     I am able to see, can there be additional ex<lb break="no"/>pense charged upon the people ; and looking 
+     <lb/>
+     at it in this point of view, we may well doubt 
+     <lb/>
+     whether the aggregate charge will be greater 
+     <lb/>
+     for the General Government, caring for the 
+     <lb/>
+     general interests of the whole, and for the 
+     <lb/>
+     local governments, attending merely to the 
+     <lb/>
+     local business of each section,—we may well 
+     <lb/>
+    doubt, I  say, whether that expense will be 
+     <lb/>
+           
+            <cb/>
+         
+     greater, in any considerable degree, than that 
+     <lb/>
+     which is required for our Government under 
+     <lb/>
+     the present system. (Hear, hear.) On the 
+     <lb/>
+     one hand we shall be free from the empty 
+     <lb/>
+     parade of small Courts entailed by our present 
+     <lb/>
+     system on each of these provinces, keeping up 
+     <lb/>
+     a pretence of regal show when the reality is 
+     <lb/>
+     wanting ; we shall have the legislation of the 
+     <lb/>
+     General Government restricted to those great 
+     <lb/>
+     questions which may properly occupy the 
+     <lb/>
+     attention of the first men in the country ; we 
+     <lb/>
+     shall not have our time frittered away in 
+     <lb/>
+     considering the merits of petty local bills, 
+     <lb/>
+     and therefore we may reasonably hope that 
+     <lb/>
+     the expenses of  the General Legislature will 
+     <lb/>
+     be considerably less than even those of the 
+     <lb/>
+     Legislature of Canada at the present moment, 
+     <lb/>
+     —while, on the other hand, the local legis<lb break="no"/>latures having to deal rather with municipal 
+     <lb/>
+     than great general questions, will be able to 
+     <lb/>
+     dispose of them in a manner more satisfactory 
+     <lb/>
+     to the people, and at infinitely less expense 
+     <lb/>
+     than now. I believe, therefore, the simple 
+     <lb/>
+     cost of the Government of the country will 
+     <lb/>
+     not be in reality any greater under the new 
+     <lb/>
+     than under the old system ; but there are 
+     <lb/>
+     other items of expenditure for great public 
+     <lb/>
+     objects, the absence of which from the esti<lb break="no"/>mates of any country is an indication rather 
+     <lb/>
+     of weakness and of dependence than a sub<lb break="no"/>ject that ought to form a source of satisfac<lb break="no"/>tion. If such items are not now found in the 
+     <lb/>
+     public expenditure, either of Canada or the 
+     <lb/>
+     Lower Provinces, it is the best proof  that 
+     <lb/>
+     could be given that our position is one of in<lb break="no"/>feriority, and that we do not possess either 
+     <lb/>
+     the power or the means to undertake such 
+     <lb/>
+     works as make such items necessary. Let me 
+     <lb/>
+     give one or two points as examples of my 
+     <lb/>
+     meaning ; and first I will instance the great 
+     <lb/>
+     question of defence—(hear, hear) —the absence 
+     <lb/>
+     of items of expenditure for which can only be 
+     <lb/>
+     an indication that we are lacking in one of the 
+     <lb/>
+     chief elements of national greatness, that we 
+     <lb/>
+     do not properly value the institutions under 
+     <lb/>
+     which we live, and that we are not willing to 
+     <lb/>
+     make the sacrifices that every free people must 
+     <lb/>
+     make if they are desirous of preserving them. 
+     <lb/>
+     The same argument applies to public works, 
+     <lb/>
+     in connection with which it might be said 
+     <lb/>
+     that great advantage would arise from large 
+     <lb/>
+     expenditure ; but with limited resources and 
+     <lb/>
+     an undeveloped territory it might be impos<lb break="no"/>sible for any small country to undertake the 
+     <lb/>
+     necessary outlay. Many works of this kind 
+     <lb/>
+     are not directly productive of revenue, although 
+     <lb/>
+     indirectly of  the utmost advantage, and if 
+     <lb/>
+     the resources of a country generally cannot 
+     <lb/>
+           
+            <pb n="71" facs="final/images/Ont_Que_LA_1865-02-07_Page_0071.jpg"/>
+            <fw type="num">71</fw>
+           
+     be applied to that outlay, the absence of such 
+     <lb/>
+     expenditure ought to be a subject of regret 
+     <lb/>
+     in the community, and not of rejoicing. 
+     <lb/>
+     (Hear, hear.) In this view let us look at 
+     <lb/>
+     the immense extent of territory that stretches 
+     <lb/>
+     away west of Upper Canada. The reason 
+     <lb/>
+     why we have not been able to assume posses<lb break="no"/>sion of that territory and open it up to the 
+     <lb/>
+     industry of the youth of this country who, 
+     <lb/>
+     in consequence of the want of some such 
+     <lb/>
+     field for the employment of their energies, 
+     <lb/>
+     have been obliged to go off to the States in 
+     <lb/>
+     thousands, especially to those states possess<lb break="no"/>ing the boundless resources of the great 
+     <lb/>
+     North-West, is because there sources of Can<lb break="no"/>ada—great as they have been, considering the 
+     <lb/>
+     disadvantages under which she has labored<lb break="no"/>have been inadequate for the development of 
+     <lb/>
+     this district. Now, one of the resolutions 
+     <lb/>
+     of the scheme before the House refers to this 
+     <lb/>
+     same question, and I believe that one of the 
+     <lb/>
+     first acts of the General Government of 
+     <lb/>
+     the United Provinces will be to enter into 
+     <lb/>
+     public obligations for the purpose of opening 
+     <lb/>
+     up and developing that vast region, and of 
+     <lb/>
+     making it a source of strength instead of a 
+     <lb/>
+     burden to us and to the Mother Country also. 
+     <lb/>
+     (Hear, hear.)  Looking, however, to the 
+     <lb/>
+     whole question of expense, I must say that if 
+     <lb/>
+     the benefits of Confederation are to be weighed 
+     <lb/>
+      against the loss of three or four hundred 
+     <lb/>
+     thousand dollars, the House had better care<lb break="no"/>fully consider whether the people of this 
+     <lb/>
+     country will not accept the former at such 
+     <lb/>
+     comparatively trifling cost—whether they will 
+     <lb/>
+     not feel that a union with a million of their 
+     <lb/>
+     fellow colonists is worth much more to them 
+     <lb/>
+     than any mall pecuniary question of this 
+     <lb/>
+     kind that may arise. (Hear, hear.) I trust 
+     <lb/>
+      the House will not permit the question to be 
+     <lb/>
+     judged of in a small, contracted manner. I 
+     <lb/>
+     trust it will keep in view the desire the country 
+     <lb/>
+     manifests for the utmost possible development 
+     <lb/>
+     of its resources. Let us endeavor by this 
+     <lb/>
+     measure to afford a better opening than we 
+     <lb/>
+     now possess for the industry and intelligence 
+     <lb/>
+     of the people. Let us seek by this scheme 
+     <lb/>
+     to give them higher and worthier objects of 
+     <lb/>
+     ambition. Let us not reject the scheme with 
+     <lb/>
+     the bright prospect it offers of a nobler future 
+     <lb/>
+     for our youth, and grander objects for the 
+     <lb/>
+     emulation of our public men. Let us not re<lb break="no"/>fuse it on small questions of detail, but judge 
+     <lb/>
+     it on its general merits. Let us not lose sight 
+     <lb/>
+     of the great advantages which union offers 
+     <lb/>
+     because there may be some small matters 
+     <lb/>
+     which, as individuals, we may not like. Let 
+     <lb/>
+      us trust that this machinery, however faulty 
+     <lb/>
+          
+            <cb/>
+        
+     it may be, will yet under Providence open up 
+     <lb/>
+     for this country a happy career ; while at the 
+     <lb/>
+     same time the House must not forget that it 
+     <lb/>
+     will for ever remove the great and crying evils 
+     <lb/>
+     and dissensions which have existed in Canada 
+     <lb/>
+     for the last ten years, and which have threat<lb break="no"/>ened to plunge the country into the most dis<lb break="no"/>asterous and lamentable state of discord and 
+     <lb/>
+     confusion. (Cheers.) Surely this last fact 
+     <lb/>
+     alone will commend the project to the House. 
+     <lb/>
+     It should induce the Legislature and the peo<lb break="no"/>ple to make every allowance for the men who 
+     <lb/>
+    have been engaged in the work, and lead 
+     <lb/>them to approach the result of their labors 
+     <lb/>as now submitted, not in a hypercritical spirit 
+     <lb/>so that the public mind may be led astray on 
+     <lb/>mere matters of detail. Let the House frank<lb break="no"/>ly and kindly look at it as a great measure 
+     <lb/>brought down for the purpose of relieving 
+     <lb/>the country from distress and depression, and 
+     <lb/>give it that consideration which is due, not to 
+     <lb/>the arguments of the Government, feeble as 
+     <lb/>they may be in view of the great interests 
+     <lb/>involved, but to the fact that the country 
+     <lb/>desires and cries for, at the hands of the 
+     <lb/>House, some measure whereby its internal 
+     <lb/>prosperity, peace and happiness may be de<lb break="no"/>veloped and maintained. (Loud cheers.) 
+     <lb/>
+            </p>
+
+    
+
+            <p>
+     On motion of Hon. Mr. BROWN, the de<lb break="no"/>bate was then adjourned. 
+     <lb/>
+            </p>
+
+    <!-- GL, 2016-12-02, Commented out below, as it will appear in the following debate day -->
+
+           <!-- <fw type="num">LEGISLATIVE</fw>
+            <fw type="running">COUNCIL.</fw>
+            <fw type="dateline">
+     Wednesday, February 8, 1865. 
+     <lb/>
+            </fw>
+            <p>
+     HON. MR. ROSS continued the debate as 
+     <lb/>
+     follows :—Honorable gentlemen will remember 
+     <lb/>
+     that I yesterday moved the adjournment with 
+     <lb/>
+     the intention of replying to the remarks of the 
+     <lb/>
+     hon. member from Niagara Division (Hon. 
+     <lb/>
+     MR. CURRIE), who engaged the attention of 
+     <lb/>
+     the House during most of its sitting. From 
+     <lb/>
+     its commencement to its conclusion, the speech 
+     <lb/>
+     of that honorable gentleman was of a most 
+     <lb/>
+     remarkable character. At its very outset he 
+     <lb/>
+    took the opportunity of quoting some parts of 
+     <lb/>the first speech he made in this chamber, two 
+     <lb/>years ago, in which he strongly approved of 
+     <lb/>the principle of a Confederation between 
+     <lb/>Canada and the Lower Provinces, and in some 
+     <lb/>portions of his yesterday’s speech he reiterated 
+     <lb/>in a very decided manner his approval of such 
+     <lb/>a scheme. But other parts of his speech were 
+     <lb/>of such a character that if any of the pro<lb break="no"/>moters of Confederation had been at first in<lb break="no"/>clined to number him among the friends of 
+     <lb/>
+            </p>-->
+         </div>
+      </body>
+   </text>
 </TEI>
