@@ -45,9 +45,24 @@ function projectionObj(stats){
 /* Our target page-count, based on the raw pages in the repo. */
   this.rawPageCount = this.diag[this.diag.length-1].hocr_orig;
   
+/* A quick readout of names tagged so far. */
+  d = document.createElement('div');
+  d.setAttribute('class', 'projections');
+  h2=document.createElement('h2')
+  h2.appendChild(document.createTextNode('Total names tagged so far: ' + this.diag[this.diag.length-1]['names_tagged']));
+  d.appendChild(h2);
+  document.getElementsByTagName('body')[0].appendChild(d);
+  
+  d = document.createElement('div');
+  d.setAttribute('class', 'projections');
+  h2=document.createElement('h2')
+  h2.appendChild(document.createTextNode('Problematic "unspecified" names: ' + this.diag[this.diag.length-1]['unspecified_names_tagged']));
+  d.appendChild(h2);
+  document.getElementsByTagName('body')[0].appendChild(d);
+  
 /* Now we figure out projections for each of the data types
  * we care about. */
-//console.log(this.calcFinishDate('hocr_edited'))
+
   d = document.createElement('div');
   d.setAttribute('class', 'projections');
   h2=document.createElement('h2')

@@ -58,7 +58,9 @@
                   "hocr_orig": </xsl:text><xsl:value-of select="normalize-space($currFile//td[@id='hocrPagesRaw'])"/><xsl:text>,
                   "hocr_edited": </xsl:text><xsl:value-of select="normalize-space($currFile//td[@id='hocrPagesEdited'])"/><xsl:text>,
                   "tei_pages": </xsl:text><xsl:value-of select="normalize-space($currFile//td[@id='pagesInTei'])"/><xsl:text>,
-                  "nametagged_pages": </xsl:text><xsl:value-of select="normalize-space($currFile//td[@id='teiPagesNamesTagged'])"/>
+                  "nametagged_pages": </xsl:text><xsl:value-of select="normalize-space($currFile//td[@id='teiPagesNamesTagged'])"/><xsl:text>,
+                  "names_tagged": </xsl:text><xsl:value-of select="if ($currFile//td[@id='teiNamesTagged']) then normalize-space($currFile//td[@id='teiNamesTagged']) else 0"/><xsl:text>,
+                  "unspecified_names_tagged": </xsl:text><xsl:value-of select="if ($currFile//td[@id='teiUnspecifiedNamesTagged']) then normalize-space($currFile//td[@id='teiUnspecifiedNamesTagged']) else 0"/>
                   <xsl:text>}</xsl:text><xsl:if test="position() ne last()"><xsl:text>,
 </xsl:text></xsl:if>
       

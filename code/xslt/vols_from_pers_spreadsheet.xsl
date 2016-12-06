@@ -84,7 +84,7 @@
   
   <xsl:template match="/">
     
-    <TEI xml:id="tempVolumes" version="5.0">
+    <TEI xml:id="affils_to_volumes" version="5.0">
       <teiHeader>
         <fileDesc>
           <titleStmt>
@@ -92,6 +92,7 @@
             <author>Martin Holmes</author>
           </titleStmt>
           <publicationStmt><p>Temporary file not intended for publication</p></publicationStmt>
+          <sourceDesc><p>Generated file.</p></sourceDesc>
         </fileDesc>
       </teiHeader>
       <text>

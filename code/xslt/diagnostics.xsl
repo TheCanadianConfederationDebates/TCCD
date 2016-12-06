@@ -55,6 +55,8 @@
   <xsl:variable name="teiDebateFiles" select="collection(concat($utilitiesDir, '/teiFiles.xml'))"/>
   <xsl:variable name="teiPages" select="$teiDebateFiles//tei:surface"/>
   <xsl:variable name="teiPagesWithNameTagging" select="$teiDebateFiles[descendant::tei:body/descendant::tei:persName[@ref]]//tei:surface"/>
+  <xsl:variable name="teiNamesTagged" select="$teiDebateFiles/descendant::tei:persName[@ref]"/>
+  <xsl:variable name="teiUnspecifiedNamesTagged" select="$teiDebateFiles/descendant::tei:persName[@ref = 'UNSPECIFIED']"/>
   
 <!-- Root template. -->
   <xsl:template match="/">
@@ -85,6 +87,14 @@
               <tr>
                 <td>Pages in TEI with names tagged:</td>
                 <td id="teiPagesNamesTagged"><xsl:value-of select="count($teiPagesWithNameTagging)"/></td>
+              </tr>
+              <tr>
+                <td>Total names tagged:</td>
+                <td id="teiNamesTagged"><xsl:value-of select="count($teiNamesTagged)"/></td>
+              </tr>
+              <tr>
+                <td>Total "unspecified" names tagged:</td>
+                <td id="teiUnspecifiedNamesTagged"><xsl:value-of select="count($teiUnspecifiedNamesTagged)"/></td>
               </tr>
             </tbody>
           </table>
