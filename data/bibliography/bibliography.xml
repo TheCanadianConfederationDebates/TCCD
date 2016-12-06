@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/tccd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/tccd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bibliography">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Canadian Confederation Debates: Bibliography</title>
+      </titleStmt>
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      
+      <sourceDesc>
+        <p>This is a born-digital file based on original research.</p>
+      </sourceDesc>
+    </fileDesc>
+    
+  </teiHeader>
+  <text>
+    <body><div type="article"><p>This document will contain a complete bibliography for the project.</p></div></body>
+  </text>
+</TEI>

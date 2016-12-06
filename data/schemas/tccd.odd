@@ -3937,7 +3937,7 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="titleInTitleStmt" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:titleStmt/tei:title">
-                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'taxonomies')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
+                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
                               The title element in a titleStmt must contain both a name element and 
                               a date element with appropriate attributes.
                            </sch:assert>
@@ -4002,7 +4002,7 @@ so Volume 2 by implication has finished. -->
                <elementSpec ident="div" mode="change">
                   <constraintSpec ident="divnesting1" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies')])]">
+                        <sch:rule context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="parent::tei:div[@type='debate']">
                     Error: a div with @type="document" or "section" must be a child of a div with 
                     @type="debate" (in other words, when a document is read into the record, this 
@@ -4014,7 +4014,7 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                   <constraintSpec ident="divnesting2" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies')])]">
+                        <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="@type=('debate', 'article')">
                               Error: a document body must contain a debate or an article reporting
                               a debate (div/@type="debate" or "article").

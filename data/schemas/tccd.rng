@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-12-06T19:42:12Z. 2016.
+Schema generated from ODD source 2016-12-06T23:52:27Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	1st December 2016, revision 5630d8e
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -2875,7 +2875,7 @@ Elements]</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:titleStmt/tei:title">
-                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'taxonomies')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
+                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
                               The title element in a titleStmt must contain both a name element and 
                               a date element with appropriate attributes.
                            </sch:assert>
@@ -3936,7 +3936,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies')])]">
+                      context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="parent::tei:div[@type='debate']">
                     Error: a div with @type="document" or "section" must be a child of a div with 
                     @type="debate" (in other words, when a document is read into the record, this 
@@ -3953,7 +3953,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies')])]">
+                      context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="@type=('debate', 'article')">
                               Error: a document body must contain a debate or an article reporting
                               a debate (div/@type="debate" or "article").
