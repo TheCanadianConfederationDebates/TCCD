@@ -54,6 +54,8 @@
          <change who="mholmes" when="2016-10-17">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-09-29">Created this document, completed metadata, </change>
+         
+         <change who="taekema_sarah" when= "2016-11-28">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -78,7 +80,7 @@
                1873 <lb/>
                
             </fw>
-            
+<!-- "ST, again, unsure who Speaker is" -->            
             <p> The SPEAKER took the
                chair at 3 pm. <lb/>
                
@@ -98,7 +100,7 @@
             
          
             
-            <p> Hon. Mr. BLANCHET
+            <p> <persName ref="pers:BLAN1">Hon. Mr. BLANCHET</persName>
                moved the adoption of the report of the <lb/>
                Joint Committee on Printing.-Carried.
                <lb/>
@@ -110,7 +112,7 @@
 <div type="section">
             <head>PRIVATE BILLS</head>
             
-            <p> Hon. Mr. MCDONALD
+            <p> <persName ref="pers:MCDO3">Hon. Mr. MCDONALD</persName>
                (Antigonish) moved the adoption of the <lb/>
                report of the Committee on Private Bills, recommending an <lb/>
                alteration ofthe rules.-Carried.
@@ -159,7 +161,7 @@
             
          
             
-            <p> Hon. Mr. HOLTON
+            <p> <persName ref="pers:HOLT1">Hon. Mr. HOLTON</persName>
                desired to call the attention of the House to <lb/>
                a matter of some importance. The House had ordered a Committee <lb/>
                of investigation into certain matters connected with the
@@ -197,8 +199,8 @@
             
          
             
-            <p> Hon. Sir JOHN A.
-               MACDONALD said he quite agreed with <lb/>
+            <p> <persName ref="pers:MACD1">Hon. Sir JOHN A.
+               MACDONALD</persName> said he quite agreed with <lb/>
                the hon. gentleman, and he suggested that the necessary sums <lb/>
                should be advanced by Mr. Speaker from the Contingencies, on the <lb/>
                demand of the chairman of the Committee. <lb/>
@@ -229,7 +231,7 @@
             
          
             
-            <p> Hon. Mr. TILLEY
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>
                moved, “That
                the House will on Monday <lb/>
                next resolve itself into a Committee of the Whole to consider <lb/>
@@ -280,14 +282,14 @@
             
          
             
-            <p> Hon. Mr. MACKENZIE:
+            <p> <persName ref="pers:MACK1">Hon. Mr. MACKENZIE</persName>:
                The canal policy had been settled. <lb/>
                
             </p>
             
          
             
-            <p> Hon. Mr. TILLEY said
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName> said
                the extent of it had not been settled. The <lb/>
                Commission had been appointed since then, and it was upon that <lb/>
                
@@ -335,7 +337,7 @@
             
          
             
-            <p> Hon. Mr. HOLTON: Does
+            <p> <persName ref="pers:HOLT1">Hon. Mr. HOLTON</persName>: Does
                that increase extinguish the <lb/>
                $800,000 to be paid for the purchase ofthe land? <lb/>
                
@@ -343,7 +345,7 @@
             
          
             
-            <p> Hon. Mr. TILLEY said
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName> said
                no, that still remained. The only other <lb/>
                change from the proposition of 1869 was that, as the Island had <lb/>
                constructed a building used as a post ofﬁce and court house,
@@ -367,7 +369,7 @@
             
          
             
-            <p> Hon. Mr. ANGLlN asked
+            <p> <persName ref="pers:ANGL1">Hon. Mr. ANGLlN</persName> asked
                if the provision for steam <lb/>
                communication was in the original arrangement. <lb/>
                
@@ -375,13 +377,13 @@
             
          
             
-            <p> Hon. Mr. TILLEY: Yes <lb/>
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>: Yes <lb/>
                
             </p>
             
          
             
-            <p> Mr. CARTWRIGHT asked
+            <p> <persName ref="pers:CART3">Mr. CARTWRIGHT</persName> asked
                if the Crown Lands would become <lb/>
                the property of the Dominion. <lb/>
                
@@ -395,7 +397,7 @@
             
          
             
-            <p> Hon. Mr. TILLEY said
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName> said
                they would be the property of the <lb/>
                Island. The Province was in a different position to that of any other <lb/>
                Province in the Dominion. What passed to the other Provinces as <lb/>
@@ -417,14 +419,14 @@
             
          
             
-            <p> Hon. Mr. MACKENZIE:
+            <p> <persName ref="pers:MACK1">Hon. Mr. MACKENZIE</persName>:
                It was about 800,000 in 1869. <lb/>
                
             </p>
             
          
             
-            <p> Hon. Mr. TILLEY said
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY </persName>said
                no, the Island altogether with the small <lb/>
                Islands adjacent to it had only about a million and a quarter, and <lb/>
                there were yet about 400,000 or 500,000 acres which had not been <lb/>
@@ -436,7 +438,7 @@
             
          
             
-            <p> Hon. Mr. MACKENZIE
+            <p> <persName ref="pers:MACK1">Hon. Mr. MACKENZIE</persName>
                asked if the papers contained any <lb/>
                statement of the present revenue and expenditure of the Island. <lb/>
                
@@ -444,7 +446,7 @@
             
          
             
-            <p> Hon. Mr. TILLEY
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>
                thought not. The Government had it before <lb/>
                them, but it did not enter into the correspondence. They could, <lb/>
                however, send it to be printed. <lb/>
@@ -453,7 +455,7 @@
             
          
             
-            <p> Hon. Mr. MACKENZIE
+            <p> <persName ref="pers:MACK1">Hon. Mr. MACKENZIE</persName>
                said it was evident that all these <lb/>
                ﬁnancial statements should go with the other papers. Of
                course they <lb/>
@@ -474,7 +476,7 @@
             
          
             
-            <p> Hon. Mr. TILLEY said
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName> said
                he would have the statement printed at <lb/>
                once. <lb/>
                
