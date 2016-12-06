@@ -152,6 +152,29 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="corpus" include="particDesc settingDesc textDesc"/>
                <moduleRef key="figures" include="cell figDesc figure row table"/>
                <moduleRef key="transcr" include="facsimile fw surface zone"/>
+               
+               
+               <!--              Adapted from jTEI ODD file.  -->
+               <constraintSpec ident="tccd.sch-ns" scheme="isoschematron">
+                  <constraint>
+                     <sch:ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+                     <sch:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                     <sch:ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+                     <sch:ns prefix="xsl" uri="http://www.w3.org/1999/XSL/Transform"/>
+                     <sch:ns prefix="eg" uri="http://www.tei-c.org/ns/Examples"/>
+                  </constraint>
+               </constraintSpec>
+               <constraintSpec ident="tccd.sch-variables" scheme="isoschematron">
+                  <constraint>
+                     <sch:pattern>
+                        <sch:let name="double.quotes" value="'&#34;“”'"/>
+                        <sch:let name="apos.typographic" value="'‘’'"/>
+                        <sch:let name="apos.straight" value="''''"/>
+                        <sch:let name="quotes" value="concat($apos.straight, '&#34;')"/>
+                        <sch:let name="punctuation" value="'\.\?!\(\):;,\[\]…'"/>
+                     </sch:pattern>
+                  </constraint>
+               </constraintSpec>
           
                <!--  Trim the available attributes as much as possible. -->
                <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
@@ -471,6 +494,36 @@ so Volume 2 by implication has finished. -->
                            <sch:assert test="matches(@ref, '^((pers:[A-Z]{3,4}\d+)|(UNSPECIFIED))$')">
                               The @ref attribute value should start with 'pers:' and have the form
                               'pers:AAAA1' (four, or occasionally only three, letters followed by a number).
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <constraintSpec ident="constraintpersnamewhitespace1" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:persName">
+                           <sch:assert test="not(matches(., concat('^[\s', $quotes, $punctuation, ']'))) and not(matches(., concat('[\s', $quotes, $punctuation, ']$')))">
+                              A persName should not begin or end with a space or punctuation within 
+                              the tag; these should be outside the tag.
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <constraintSpec ident="constraintpersnamewhitespace2" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:persName">
+                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, ']$'))">
+                              Before a persName element, we would expect to see a space or
+                              (occasionally, perhaps) an opening quotation mark.
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <constraintSpec ident="constraintpersnamewhitespace3" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:persName">
+                           <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, ']'))">
+                              After a persName element, we would expect to see a space or
+                              some following punctuation.
                            </sch:assert>
                         </sch:rule>
                      </constraint>
