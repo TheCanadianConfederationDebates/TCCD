@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="affils_to_volumes" version="5.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="affils_to_volumes"
+     version="5.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +11,9 @@
          <publicationStmt>
             <p>Temporary file not intended for publication</p>
          </publicationStmt>
-         <sourceDesc><p>Generated file.</p></sourceDesc>
+         <sourceDesc>
+            <p>Generated file.</p>
+         </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
@@ -65,10 +69,10 @@
                   <ref target="pers:BAIL1" n="1">nbLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:ANNA1" n="1"/>
+                  <ref target="pers:ANNA1" n="1">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:ANNA1" n="2"/>
+                  <ref target="pers:ANNA1" n="2">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:ARCH3" n="1">abskHofCCol</ref>
@@ -83,10 +87,10 @@
                   <ref target="pers:ARCH1" n="3">bcHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:ARCH2" n="1"/>
+                  <ref target="pers:ARCH2" n="1">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:ARCH2" n="2"/>
+                  <ref target="pers:ARCH2" n="2">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:ARCH2" n="3">bcHofCCol</ref>
@@ -314,7 +318,7 @@
                   <ref target="pers:BLAC6" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:BLAC7" n="1"/>
+                  <ref target="pers:BLAC7" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:BLAI1" n="1">abskHofCCol</ref>
@@ -335,7 +339,7 @@
                   <ref target="pers:BLAK2" n="1">ontqueLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:BLAN2" n="1"/>
+                  <ref target="pers:BLAN2" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:BLAN1" n="1">ontqueLegCol</ref>
@@ -416,7 +420,7 @@
                   <ref target="pers:BOUR4" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:BOUR5" n="1"/>
+                  <ref target="pers:BOUR5" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:BOWE1" n="1">bcHofCCol</ref>
@@ -491,7 +495,7 @@
                   <ref target="pers:BROW2" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:BROW3" n="1"/>
+                  <ref target="pers:BROW3" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:BROW4" n="1">ontqueLegCol</ref>
@@ -554,7 +558,7 @@
                   <ref target="pers:BUSH1" n="1">bcLeg</ref>
                </item>
                <item>
-                  <ref target="pers:COSTI1" n="1">nbLegCol</ref>
+                  <ref target="pers:COST1" n="1">nbLegCol</ref>
                </item>
                <item>
                   <ref target="pers:CALD2" n="1">abskHofCCol</ref>
@@ -599,10 +603,10 @@
                   <ref target="pers:CAMP3" n="1">abskHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:CAMP4" n="1"/>
+                  <ref target="pers:CAMP4" n="1">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:CAMP1" n="1"/>
+                  <ref target="pers:CAMP1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:CAMP1" n="2">bcHofCCol</ref>
@@ -767,7 +771,7 @@
                   <ref target="pers:CHUR1" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:CHUR2" n="1"/>
+                  <ref target="pers:CHUR2" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:CIMO1" n="1">peiHofCCol</ref>
@@ -821,7 +825,7 @@
                   <ref target="pers:COCK3" n="1">abskHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:COFF1" n="1"/>
+                  <ref target="pers:COFF1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:COFF1" n="2">bcHofCCol</ref>
@@ -860,13 +864,13 @@
                   <ref target="pers:CORN1" n="1">ontqueLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:COST1" n="1">bcHofCCol</ref>
+                  <ref target="pers:COST1" n="2">bcHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:COST1" n="2">peiHofCCol</ref>
+                  <ref target="pers:COST1" n="3">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:COST1" n="3">abskHofCCol</ref>
+                  <ref target="pers:COST1" n="4">abskHofCCol</ref>
                </item>
                <item>
                   <ref target="pers:FISH1" n="1">nbLegCol</ref>
@@ -1256,13 +1260,13 @@
                   <ref target="pers:FOWL1" n="1">abskHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:FRAS2" n="1"/>
+                  <ref target="pers:FRAS2" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:FRAS3" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:FRAS4" n="1"/>
+                  <ref target="pers:FRAS4" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:FRAS1" n="2">manProvGovCol</ref>
@@ -1499,7 +1503,7 @@
                   <ref target="pers:HAME1" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:HAMI1" n="1"/>
+                  <ref target="pers:HAMI1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:HAMI2" n="1">ontqueLegCol</ref>
@@ -1547,7 +1551,7 @@
                   <ref target="pers:HATF1" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:HATF2" n="1"/>
+                  <ref target="pers:HATF2" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:MEAH1" n="1">nbLegCol</ref>
@@ -1748,7 +1752,7 @@
                   <ref target="pers:JOHN3" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:JOHN4" n="1"/>
+                  <ref target="pers:JOHN4" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:JOHN5" n="1">abskHofCCol</ref>
@@ -1784,7 +1788,7 @@
                   <ref target="pers:JUTR1" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:KAUL1" n="1"/>
+                  <ref target="pers:KAUL1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:KEEL1" n="1">bcHofCCol</ref>
@@ -1823,10 +1827,10 @@
                   <ref target="pers:KILL1" n="2">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:KILL2" n="1"/>
+                  <ref target="pers:KILL2" n="1">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:KILL2" n="2"/>
+                  <ref target="pers:KILL2" n="2">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:KILL2" n="3">bcHofCCol</ref>
@@ -1979,7 +1983,7 @@
                   <ref target="pers:LAW1" n="1">abskHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:LAWR1" n="1"/>
+                  <ref target="pers:LAWR1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:LAWS1" n="1">bcHofCCol</ref>
@@ -2033,7 +2037,7 @@
                   <ref target="pers:LEVE1" n="2">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:LEVE1" n="3"/>
+                  <ref target="pers:LEVE1" n="3">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:LEWI2" n="1">abskHofCCol</ref>
@@ -2054,10 +2058,10 @@
                   <ref target="pers:LITT2" n="2">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:LOCK1" n="1"/>
+                  <ref target="pers:LOCK1" n="1">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:LOCK1" n="2"/>
+                  <ref target="pers:LOCK1" n="2">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:LOCK2" n="1">nfHofCCol</ref>
@@ -2069,7 +2073,7 @@
                   <ref target="pers:LOGG1" n="1">abskHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:LONG1" n="1"/>
+                  <ref target="pers:LONG1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:LONS1" n="1">manProvGovCol</ref>
@@ -2339,13 +2343,13 @@
                   <ref target="pers:MCDO3" n="2">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:MCDO4" n="1"/>
+                  <ref target="pers:MCDO4" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:MCDO5" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:MCDO6" n="1"/>
+                  <ref target="pers:MCDO6" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:MCDO7" n="1">bcHofCCol</ref>
@@ -2369,10 +2373,10 @@
                   <ref target="pers:MCDO9" n="2">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:MCFA1" n="1"/>
+                  <ref target="pers:MCFA1" n="1">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:MCFA1" n="2"/>
+                  <ref target="pers:MCFA1" n="2">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:MCGA1" n="1">nfHofCCol</ref>
@@ -2414,7 +2418,7 @@
                   <ref target="pers:MCIV1" n="1">nfHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:MCKA1" n="1"/>
+                  <ref target="pers:MCKA1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:MCKA2" n="1">bcHofCCol</ref>
@@ -2462,10 +2466,10 @@
                   <ref target="pers:MCLE3" n="1">abskHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:MCLE4" n="1"/>
+                  <ref target="pers:MCLE4" n="1">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:MCLE4" n="2"/>
+                  <ref target="pers:MCLE4" n="2">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:MCLE4" n="3">bcHofCCol</ref>
@@ -2540,7 +2544,7 @@
                   <ref target="pers:MILL2" n="1">abskHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:MILL3" n="1"/>
+                  <ref target="pers:MILL3" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:MILL4" n="1">bcHofCCol</ref>
@@ -2720,7 +2724,7 @@
                   <ref target="pers:PARE2" n="2">manProvGovCol</ref>
                </item>
                <item>
-                  <ref target="pers:PARK1" n="1"/>
+                  <ref target="pers:PARK1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:PARK2" n="1">ontqueLegCol</ref>
@@ -2972,7 +2976,7 @@
                   <ref target="pers:ROSS9" n="2">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:ROSS10" n="1"/>
+                  <ref target="pers:ROSS10" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:ROSS10" n="2">bcHofCCol</ref>
@@ -3098,10 +3102,10 @@
                   <ref target="pers:SHAN1" n="3">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:SHAN2" n="1"/>
+                  <ref target="pers:SHAN2" n="1">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:SHAN2" n="2"/>
+                  <ref target="pers:SHAN2" n="2">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:SIFT1" n="1">abskHofCCol</ref>
@@ -3317,7 +3321,7 @@
                   <ref target="pers:TOBI1" n="1">abskHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:TOBI2" n="1"/>
+                  <ref target="pers:TOBI2" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:TOLM1" n="1">abskHofCCol</ref>
@@ -3335,7 +3339,7 @@
                   <ref target="pers:TOUR2" n="2">manProvGovCol</ref>
                </item>
                <item>
-                  <ref target="pers:TOWN1" n="1"/>
+                  <ref target="pers:TOWN1" n="1">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:TREM1" n="1">bcHofCCol</ref>
@@ -3356,10 +3360,10 @@
                   <ref target="pers:TUPP1" n="2">peiHofCCol</ref>
                </item>
                <item>
-                  <ref target="pers:TUPP1" n="3"/>
+                  <ref target="pers:TUPP1" n="3">nsLegCol</ref>
                </item>
                <item>
-                  <ref target="pers:TUPP1" n="4"/>
+                  <ref target="pers:TUPP1" n="4">nsLegCol</ref>
                </item>
                <item>
                   <ref target="pers:TURC1" n="1">abskHofCCol</ref>

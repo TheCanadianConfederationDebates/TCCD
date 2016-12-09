@@ -75,7 +75,7 @@
     <xsl:variable name="manHofCCol" select="hcmc:getColOffsetFromCaption('Manitoba H of C', $headerRow)"/>
     <xsl:variable name="ontqueLegCol" select="hcmc:getColOffsetFromCaption('Ont/Que', $headerRow)"/>
     <xsl:variable name="nbLegCol" select="hcmc:getColOffsetFromCaption('NB - ', $headerRow)"/>
-    <xsl:variable name="nsLegCol" select="hcmc:getColOffsetFromCaption('NS - ', $headerRow)"/>
+  <xsl:variable name="nsLegCol" select="hcmc:getColOffsetFromCaption('NS ', $headerRow)"/>
     <xsl:variable name="peiLegCol" select="hcmc:getColOffsetFromCaption('PEI ', $headerRow)"/>
     <xsl:variable name="peiHofCCol" select="hcmc:getColOffsetFromCaption('PEI H of C ', $headerRow)"/>
     <xsl:variable name="nfLegCol" select="hcmc:getColOffsetFromCaption('Nfld Legislative', $headerRow)"/>
@@ -121,6 +121,7 @@
       <xsl:when test="normalize-space($row/table:table-cell[$abskHofCCol]) != ''">abskHofCCol</xsl:when>
       <xsl:when test="normalize-space($row/table:table-cell[$manProvGovCol]) != ''">manProvGovCol</xsl:when>
       <xsl:when test="normalize-space($row/table:table-cell[$manHofCCol]) != ''">manHofCCol</xsl:when>
+      <xsl:when test="normalize-space($row/table:table-cell[$nsLegCol]) != ''">nsLegCol</xsl:when>
       <xsl:when test="normalize-space($row/table:table-cell[$ontqueLegCol]) != ''">ontqueLegCol</xsl:when>
       <xsl:when test="normalize-space($row/table:table-cell[$nbLegCol]) != ''">nbLegCol</xsl:when>
       <xsl:when test="normalize-space($row/table:table-cell[$peiLegCol]) != ''">peiLegCol</xsl:when>
