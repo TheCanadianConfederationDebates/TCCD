@@ -11,10 +11,21 @@
     <xd:desc>
       <xd:p><xd:b>Created on:</xd:b> Dec 12, 2016</xd:p>
       <xd:p><xd:b>Author:</xd:b> mholmes</xd:p>
-      <xd:p>This is a one-time-use transformation to merge information
-      about the legislature a particular individual was in when representing
-      a specific riding in a specific year into the already-created personography
-      file.</xd:p>
+      <xd:p>
+        This is a one-time-use transformation to merge information
+        about the legislature a particular individual was in when representing
+        a specific riding in a specific year into the already-created personography
+        file.
+      </xd:p>
+      <xd:p>
+        When stable, add entries for:
+        
+          Speaker
+          Governor (= either Lieutenant Gov or Gov Gen)
+          Anonymous contributor
+          
+        See issue https://github.com/TheCanadianConfederationDebates/TCCD/issues/39
+      </xd:p>
     </xd:desc>
   </xd:doc>
   
@@ -31,8 +42,8 @@
     <affiliation>
       <xsl:apply-templates select="@*"/>
       <xsl:variable name="persRef" select="concat('pers:', ancestor::person/@xml:id)"/>
-      <xsl:variable name="pos" select="count(preceding-sibling::affiliation) + 1"/>
-      <xsl:variable name="legId" select="$affilData//ref[@target=$persRef][@n=$pos]"/>
+      <xsl:variable name="year" select="@when"/>
+      <xsl:variable name="legId" select="$affilData//ref[@target=$persRef][@n=$year]"/>
       <xsl:if test="$legId">
         <xsl:attribute name="n" select="hcmc:getExplanation($legId)"/>
       </xsl:if>
@@ -40,6 +51,7 @@
     </affiliation>
   </xsl:template>
   
+  <xsl:template match="affiliation/@n"/>
   
 <!-- Identity transform. -->
   <xsl:template match="@*|node()" priority="-1">

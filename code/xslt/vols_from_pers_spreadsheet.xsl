@@ -55,6 +55,14 @@
         of the personography spreadsheet to throw away this particular information
         on the grounds that it would not be necessary. It turns out it is. :-)
       </xd:p>
+      
+      <xd:p>The case of Manitoba in 1870:
+        Most reps will have two entries for that year: 
+        
+        1. Convention of 40: 1870-01-25
+        2. Manitoba Provisional Government: 1870-03-09
+        
+      </xd:p>
     </xd:desc>
   </xd:doc>
   
@@ -67,21 +75,25 @@
   <xsl:variable name="headerRow" select="//table:table-row[1]"/>
   
 <!--    First we figure out some stuff. -->
-    <xsl:variable name="bcLegCol" select="hcmc:getColOffsetFromCaption('BC Leg', $headerRow)"/>
-    <xsl:variable name="bcHofCCol" select="hcmc:getColOffsetFromCaption('BC H of C', $headerRow)"/>
-    <xsl:variable name="abskLegCol" select="hcmc:getColOffsetFromCaption('Alb/Sask Legislative Assembly', $headerRow)"/>
-    <xsl:variable name="abskHofCCol" select="hcmc:getColOffsetFromCaption('Alb/Sask H of C', $headerRow)"/>
-    <xsl:variable name="manConvCol" select="hcmc:getColOffsetFromCaption('Manitoba Convention', $headerRow)"/>
-    <xsl:variable name="manProvGovCol" select="hcmc:getColOffsetFromCaption('Manitoba Provisional', $headerRow)"/>
-    <xsl:variable name="manHofCCol" select="hcmc:getColOffsetFromCaption('Manitoba H of C', $headerRow)"/>
-    <xsl:variable name="ontqueLegCol" select="hcmc:getColOffsetFromCaption('Ont/Que', $headerRow)"/>
-    <xsl:variable name="nbLegCol" select="hcmc:getColOffsetFromCaption('NB - ', $headerRow)"/>
+  <xsl:variable name="bcLegCol" select="hcmc:getColOffsetFromCaption('BC Leg', $headerRow)"/>
+  <xsl:variable name="bcHofCCol" select="hcmc:getColOffsetFromCaption('BC H of C', $headerRow)"/>
+  <xsl:variable name="abskLegCol" select="hcmc:getColOffsetFromCaption('Alb/Sask Legislative Assembly', $headerRow)"/>
+  <xsl:variable name="abskHofCCol" select="hcmc:getColOffsetFromCaption('Alb/Sask H of C', $headerRow)"/>
+  <xsl:variable name="manConvCol" select="hcmc:getColOffsetFromCaption('Manitoba Convention', $headerRow)"/>
+  <xsl:variable name="manProvGovCol" select="hcmc:getColOffsetFromCaption('Manitoba Provisional', $headerRow)"/>
+  <xsl:variable name="manHofCCol" select="hcmc:getColOffsetFromCaption('Manitoba H of C', $headerRow)"/>
+  <xsl:variable name="ontqueLegCol" select="hcmc:getColOffsetFromCaption('Ont/Que', $headerRow)"/>
+  <xsl:variable name="nbLegCol" select="hcmc:getColOffsetFromCaption('NB - ', $headerRow)"/>
   <xsl:variable name="nsLegCol" select="hcmc:getColOffsetFromCaption('NS ', $headerRow)"/>
-    <xsl:variable name="peiLegCol" select="hcmc:getColOffsetFromCaption('PEI ', $headerRow)"/>
-    <xsl:variable name="peiHofCCol" select="hcmc:getColOffsetFromCaption('PEI H of C ', $headerRow)"/>
-    <xsl:variable name="nfLegCol" select="hcmc:getColOffsetFromCaption('Nfld Legislative', $headerRow)"/>
-    <xsl:variable name="nfHofCCol" select="hcmc:getColOffsetFromCaption('Nfld H of C ', $headerRow)"/>
-    <xsl:variable name="nfNatConvCol" select="hcmc:getColOffsetFromCaption('NFLD National Convention', $headerRow)"/>
+  <xsl:variable name="peiLegCol" select="hcmc:getColOffsetFromCaption('PEI ', $headerRow)"/>
+  <xsl:variable name="peiHofCCol" select="hcmc:getColOffsetFromCaption('PEI H of C ', $headerRow)"/>
+  <xsl:variable name="nfLegCol" select="hcmc:getColOffsetFromCaption('Nfld Legislative', $headerRow)"/>
+  <xsl:variable name="nfHofCCol" select="hcmc:getColOffsetFromCaption('Nfld H of C ', $headerRow)"/>
+  <xsl:variable name="nfNatConvCol" select="hcmc:getColOffsetFromCaption('NFLD National Convention', $headerRow)"/>
+
+  <xsl:variable name="dateRow" select="hcmc:getColOffsetFromCaption('Debate / Negotiation Year', $headerRow)"/>
+  
+  
   
   <xsl:template match="/">
     
@@ -103,7 +115,8 @@
               <xsl:for-each select="//table:table-row[position() gt 1]">
                 <item>
                   <xsl:variable name="thisId" select="normalize-space(table:table-cell[1])"/>
-                  <ref target="pers:{$thisId}" n="{count(preceding::table:table-cell[normalize-space(.) = $thisId]) + 1}"><xsl:value-of select="hcmc:getBiblRef(.)"/></ref>
+                  <xsl:variable name="thisYear" select="normalize-space(table:table-cell[$dateRow])"/>
+                  <ref target="pers:{$thisId}" n="{$thisYear}"><xsl:value-of select="hcmc:getBiblRef(.)"/></ref>
                 </item>
               </xsl:for-each>
             </list>
