@@ -511,7 +511,7 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="constraintpersnamewhitespace2" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:persName">
-                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—]$'))">
+                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—]$')) or not(preceding-sibling::node())">
                               Before a persName element, we would expect to see a space or
                               (occasionally, perhaps) an opening quotation mark.
                            </sch:assert>
@@ -521,7 +521,7 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="constraintpersnamewhitespace3" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:persName">
-                           <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, '\-—]'))">
+                           <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
                               After a persName element, we would expect to see a space or
                               some following punctuation.
                            </sch:assert>
