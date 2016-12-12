@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-12-09T18:28:48Z. 2016.
+Schema generated from ODD source 2016-12-12T16:17:12Z. 2016.
 TEI Edition: Version 3.0.1a. Last updated on
 	7th December 2016, revision a69053c
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.1a./
@@ -4432,7 +4432,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName">
-                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—]$'))">
+                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—]$')) or not(preceding-sibling::node())">
                               Before a persName element, we would expect to see a space or
                               (occasionally, perhaps) an opening quotation mark.
                            </sch:assert>
@@ -4447,7 +4447,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName">
-                           <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, '\-—]'))">
+                           <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
                               After a persName element, we would expect to see a space or
                               some following punctuation.
                            </sch:assert>
