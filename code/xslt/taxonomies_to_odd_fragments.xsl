@@ -70,7 +70,7 @@
         <valItem ident="pers:{@xml:id}">
           <!--<gloss><xsl:value-of select="normalize-space(persName[1])"/></gloss>-->
           <xsl:variable name="names" select="string-join((for $p in persName return normalize-space($p)), '; ')"/>
-          <desc><xsl:value-of select="$names"/><xsl:if test="not(matches($names, '\.\s*$'))">.</xsl:if><xsl:text> </xsl:text><xsl:if test="affiliation or state"><xsl:value-of select="string-join((for $a in (affiliation | state) return concat(normalize-space($a), ' (', $a/@when, ')')), '; ')"/></xsl:if>.</desc>
+          <desc><xsl:value-of select="$names"/><xsl:if test="not(matches($names, '\.\s*$'))">.</xsl:if><xsl:text> </xsl:text><xsl:if test="affiliation or state"><xsl:value-of select="string-join((for $a in (affiliation | state) return concat(normalize-space($a), ' (', $a/@when, ': ', $a/@n, ')')), '; ')"/></xsl:if>.</desc>
         </valItem>
       </xsl:for-each>
     </valList>
