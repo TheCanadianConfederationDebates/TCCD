@@ -490,7 +490,7 @@ so Volume 2 by implication has finished. -->
                <elementSpec ident="persName" module="namesdates" mode="change">
                   <constraintSpec ident="constraintpersnameref" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:persName[not(parent::tei:person)]">
+                        <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
                            <sch:assert test="matches(@ref, '^((pers:[A-Z]{3,4}\d+)|(UNSPECIFIED))$')">
                               The @ref attribute value should start with 'pers:' and have the form
                               'pers:AAAA1' (four, or occasionally only three, letters followed by a number).
@@ -500,7 +500,7 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                   <constraintSpec ident="constraintpersnamewhitespace1" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:persName">
+                        <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
                            <sch:assert test="not(matches(., concat('^[\s', $quotes, $punctuation, ']'))) and not(matches(., concat('[\s', $quotes, $punctuation, ']$')))">
                               A persName should not begin or end with a space or punctuation within 
                               the tag; these should be outside the tag.
@@ -510,7 +510,7 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                   <constraintSpec ident="constraintpersnamewhitespace2" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:persName">
+                        <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
                            <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—]$')) or not(preceding-sibling::node())">
                               Before a persName element, we would expect to see a space or
                               (occasionally, perhaps) an opening quotation mark.
@@ -520,7 +520,7 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                   <constraintSpec ident="constraintpersnamewhitespace3" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:persName">
+                        <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
                            <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
                               After a persName element, we would expect to see a space or
                               some following punctuation.
