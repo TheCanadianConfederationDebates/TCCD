@@ -40,18 +40,17 @@
 <!-- Match the affiliation and add the extra info in @n attribute. -->
   <xsl:template match="affiliation">
     <affiliation>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="@*[not(local-name() = 'n')]"/>
       <xsl:variable name="persRef" select="concat('pers:', ancestor::person/@xml:id)"/>
       <xsl:variable name="year" select="@when"/>
-      <xsl:variable name="legId" select="$affilData//ref[@target=$persRef][@n=$year]"/>
-      <xsl:if test="$legId">
-        <xsl:attribute name="n" select="hcmc:getExplanation($legId)"/>
+      <xsl:variable name="riding" select="normalize-space(.)"/>
+      <xsl:variable name="legIds" select="$affilData//ptr[@target=$persRef][starts-with(@n, $year)][@subtype=$riding]/@type"/>
+      <xsl:if test="$legIds">
+        <xsl:attribute name="n" select="hcmc:getExplanations($legIds)"/>
       </xsl:if>
       <xsl:apply-templates select="node()"/>
     </affiliation>
   </xsl:template>
-  
-  <xsl:template match="affiliation/@n"/>
   
 <!-- Identity transform. -->
   <xsl:template match="@*|node()" priority="-1">
@@ -59,6 +58,12 @@
       <xsl:apply-templates select="@*|node()"/>
     </xsl:copy>
   </xsl:template>
+  
+  <xsl:function name="hcmc:getExplanations" as="xs:string">
+    <xsl:param name="legIds" as="xs:string+"/>
+    <xsl:variable name="exps" select="for $l in $legIds return hcmc:getExplanation($l)"/>
+    <xsl:value-of select="string-join($exps, ', ')"/>
+  </xsl:function>
   
   <xsl:function name="hcmc:getExplanation" as="xs:string">
     <xsl:param name="legId" as="xs:string"/>

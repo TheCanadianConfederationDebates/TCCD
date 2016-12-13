@@ -93,6 +93,8 @@
 
   <xsl:variable name="dateRow" select="hcmc:getColOffsetFromCaption('Debate / Negotiation Year', $headerRow)"/>
   
+  <xsl:variable name="ridingRow" select="hcmc:getColOffsetFromCaption('Riding', $headerRow)"/>
+  
   
   
   <xsl:template match="/">
@@ -116,7 +118,12 @@
                 <item>
                   <xsl:variable name="thisId" select="normalize-space(table:table-cell[1])"/>
                   <xsl:variable name="thisYear" select="normalize-space(table:table-cell[$dateRow])"/>
-                  <ref target="pers:{$thisId}" n="{$thisYear}"><xsl:value-of select="hcmc:getBiblRef(.)"/></ref>
+                  <xsl:variable name="thisRiding" select="normalize-space(table:table-cell[$ridingRow])"/>
+                  <xsl:variable name="biblRefs" select="hcmc:getBiblRefs(.)"/>
+                  <xsl:variable name="dateToUse" select="if (($thisYear = '1870') and ('manConv' = $biblRefs)) then '1870-01-25' else if (($thisYear = '1870') and ('manProvGov' = $biblRefs)) then '1870-03-09' else $thisYear"/>
+                  <xsl:for-each select="$biblRefs">
+                    <ptr target="pers:{$thisId}" type="{.}" subtype="{$thisRiding}" n="{$dateToUse}"/>
+                  </xsl:for-each>
                 </item>
               </xsl:for-each>
             </list>
@@ -126,26 +133,28 @@
     </TEI>
   </xsl:template>
   
-  <xsl:function name="hcmc:getBiblRef" as="xs:string?">
+  <xsl:function name="hcmc:getBiblRefs" as="xs:string*">
     <xsl:param name="row" as="element(table:table-row)"/>
-    <xsl:choose>
-      <xsl:when test="normalize-space($row/table:table-cell[$bcLegCol]) != ''">bcLeg</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$bcHofCCol]) != ''">bcHofC</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$abskLegCol]) != ''">abskLeg</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$abskHofCCol]) != ''">abskHofC</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$manConvCol]) != ''">manConv</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$manProvGovCol]) != ''">manProvGov</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$manHofCCol]) != ''">manHofC</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$nsLegCol]) != ''">nsLeg</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$ontqueLegCol]) != ''">ontqueLeg</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$nbLegCol]) != ''">nbLeg</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$peiLegCol]) != ''">peiLeg</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$peiHofCCol]) != ''">peiHofC</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$nfLegCol]) != ''">nfLeg</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$nfHofCCol]) != ''">nfHofC</xsl:when>
-      <xsl:when test="normalize-space($row/table:table-cell[$nfNatConvCol]) != ''">nfNatConv</xsl:when>
-      <xsl:otherwise></xsl:otherwise>
-    </xsl:choose>
+    <xsl:variable name="result" as="xs:string*">
+      <xsl:if test="normalize-space($row/table:table-cell[$bcLegCol]) != ''">bcLeg</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$bcHofCCol]) != ''">bcHofC</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$abskLegCol]) != ''">abskLeg</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$abskHofCCol]) != ''">abskHofC</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$manConvCol]) != ''">manConv</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$manProvGovCol]) != ''">manProvGov</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$manHofCCol]) != ''">manHofC</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$nsLegCol]) != ''">nsLeg</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$ontqueLegCol]) != ''">ontqueLeg</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$nbLegCol]) != ''">nbLeg</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$peiLegCol]) != ''">peiLeg</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$peiHofCCol]) != ''">peiHofC</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$nfLegCol]) != ''">nfLeg</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$nfHofCCol]) != ''">nfHofC</xsl:if>
+      <xsl:if test="normalize-space($row/table:table-cell[$nfNatConvCol]) != ''">nfNatConv</xsl:if>
+    </xsl:variable>
+    
+    <xsl:sequence select="$result"/>
+    
   </xsl:function>
   
 </xsl:stylesheet>
