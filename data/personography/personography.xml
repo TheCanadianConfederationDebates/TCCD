@@ -59,6 +59,32 @@
               </person>
            </listPerson>
             <listPerson xml:id="historicalPersonography">
+               
+<!--            Some special generic people.   -->
+               <person xml:id="ANON1">
+                  <persName>
+                     <surname>Contributor</surname>
+                     <forename>Anonymous</forename>
+                  </persName>
+                  <affiliation n="Any unidentified or unidentifiable person">Any context or legislature</affiliation>
+               </person>
+               <person xml:id="SPEA1">
+                  <persName>
+                     <surname>Speaker of the House</surname>
+                     <forename>in role as Speaker</forename>
+                  </persName>
+                  <affiliation n="The Speaker of the House">Any context or legislature</affiliation>
+               </person>
+               <person xml:id="GOVE1">
+                  <persName>
+                     <surname>Governor</surname>
+                     <forename>General or Lieutenant</forename>
+                  </persName>
+                  <affiliation n="Gov. Gen. or Lieut. Gov. as representative of the Queen">Any context or legislature</affiliation>
+               </person>
+               
+<!--            Real people follow.   -->
+               
                <person xml:id="ABBO2">
                   <persName when="1949">
                      <surname>Abbott</surname>,
