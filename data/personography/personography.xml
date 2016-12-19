@@ -5667,10 +5667,7 @@
                   <affiliation when="1865" n="Ont/Que Leg">Kingston</affiliation>
                   <affiliation when="1867"
                                n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons">Kingston</affiliation>
-                  <affiliation when="1871" n="PEI Leg">3rd Prince</affiliation>
                   <affiliation when="1872" n="PEI House of Commons">Kingston</affiliation>
-                  <affiliation when="1872" n="PEI Leg">3rd Prince</affiliation>
-                  <affiliation when="1873" n="PEI Leg">3rd Prince</affiliation>
                   <affiliation when="1888" n="NF House of Commons">Carleton</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
@@ -5681,6 +5678,21 @@
                      </bibl>
                   </listBibl>
                </person>
+               <person xml:id="MACD13">
+                  <persName when="1871">
+                     <surname>MacDonald</surname>,
+                     <forename>John</forename>
+                     <forename>Alexander</forename></persName>
+                  <affiliation when="1871" n="PEI Leg">3rd Prince</affiliation>
+                  <affiliation when="1872" n="PEI Leg">3rd Prince</affiliation>
+                  <affiliation when="1873" n="PEI Leg">3rd Prince</affiliation>
+                  <listBibl>
+                     <bibl xml:lang="en">
+                        <ptr target="http://www.gov.pe.ca/photos/original/leg_mthbiosM.pdf"/>
+                     </bibl>
+                  </listBibl>
+               </person>
+               
                <person xml:id="MACD2">
                   <persName when="1865">
                      <surname>Macdonald</surname>,
