@@ -57,7 +57,9 @@
       <revisionDesc>
          <change who="mholmes" when="2016-11-15">Transformed initial template file to incorporate corrected OCR content.</change>
 
-         <change who="lyallg" when="2016-11-15">Created this document, completed metadata, </change>
+         <change who="lyallg" when="2016-11-15">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-18">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -95,7 +97,7 @@
          
             
             <p>
-               Dr. Brown presented a petition from cer<lb break="no"/>tain inhabitants of Assiniboine, which was 
+               <persName ref="pers:BROW1">Dr. Brown</persName> presented a petition from cer<lb break="no"/>tain inhabitants of Assiniboine, which was 
                <lb/>
                read in full by the Clerk. It sets forth that 
                <lb/>
@@ -115,7 +117,7 @@
          
             
             <p>
-               Mr. Morrison (Niagara) presented several 
+               <persName ref="pers:MORR2">Mr. Morrison</persName> (Niagara) presented several 
                <lb/>
                petitions from Chicago and Milwaukee, pray<lb break="no"/>ing a Charter for the Erie and Ontario Ship 
                <lb/>
@@ -127,7 +129,7 @@
          
             
             <p>
-               Hon. Mr. Langevin brought down a Sup<lb break="no"/>plementary Return of the accounts relating 
+               <persName ref="pers:LANG1">Hon. Mr. Langevin</persName> brought down a Sup<lb break="no"/>plementary Return of the accounts relating 
                <lb/>
                to the Intercolonial Railway. 
                <lb/>
@@ -149,9 +151,9 @@
          
             
             <p>
-               On motion of Mr. Currier, seconded by Sir 
+               On motion of <persName ref="pers:CURR1">Mr. Currier</persName>, seconded by <persName ref="pers:MACD1">Sir 
                <lb/>
-               John A. Macdonald, it was resolved that 
+               John A. Macdonald</persName>, it was resolved that 
                <lb/>
                when the House adjourned to-day, it stand 
                <lb/>
@@ -165,7 +167,7 @@
          
             
             <p>
-               Sir John A. Macdonald said that from the 
+               <persName ref="pers:MACD1">Sir John A. Macdonald</persName> said that from the 
                <lb/>
                high esteem in which the Mayor of the city, 
                <lb/>
@@ -196,7 +198,7 @@
          
             
             <p>
-               On motion of Sir John A. Macdonald it was 
+               On motion of <persName ref="pers:MACD1">Sir John A. Macdonald</persName> it was 
                <lb/>
                resolved that until otherwise ordered Gov<lb break="no"/>ernment business and orders shall have pre<lb break="no"/>cedence on Thursdays, and that on Gov<lb break="no"/>ernment days after the business and orders 
                <lb/>
