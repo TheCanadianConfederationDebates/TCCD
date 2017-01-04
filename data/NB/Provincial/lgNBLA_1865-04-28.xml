@@ -64,6 +64,8 @@
          <change who="mholmes" when="2016-11-07">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-07">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -81,6 +83,8 @@
       <body>
          <div type="debate">
             <pb n="2" facs="final/images/NB_LA_1865-04-28_Page_002.jpg"/>
+
+<fw type="num">2</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw>
             
 <!-- GL, 2016-11-01, Commented out below, as it will appear in the preceding debate day -->
 
@@ -298,11 +302,11 @@ until to-morrow at. 10 o'clock. <lb/>
             </p>-->
 
 
-            <fw type="dateline">FRIDAY, April 28th. <lb/>
-            </fw>
+            <p>FRIDAY, April 28th. <lb/>
+            </p>
 
 
-            <p>On motion of Mr. GILBERT leave was <lb/>
+            <p>On motion of <persName ref="pers:GILB1">Mr. GILBERT</persName> leave was <lb/>
 granted to introduce a Bill to provide for <lb/>
 the fencing in of certain
 intervale lands, <lb/>
@@ -310,13 +314,13 @@ and maintaining roads through the same <lb/>
 in the County of Westmorland. <lb/>
             </p>
 
-            <p>On motion of Mr. GILBERT leave was
+            <p>On motion of <persName ref="pers:GILB1">Mr. GILBERT</persName> leave was
 <lb/>
 granted to lay before the House the peti<lb break="no"/>tion of Rev. P. Callahan and others, of <lb/>
 Shediac, to provide for the fencing in of <lb/>
 certain intervale lands, and maintaining <lb/>
 roads through the same. </p>
-            <p>Mr. WILLISTON moved for leave to<lb/>
+            <p> <persName ref="pers:WILL1">Mr. WILLISTON</persName> moved for leave to<lb/>
 bring in a Bill for the protection of Moose.<lb/>
 This Bill on motion was read a first and<lb/>
 second time and referred to a select com<lb break="no"/>mittee to report thereon.<lb/>
@@ -324,20 +328,20 @@ second time and referred to a select com<lb break="no"/>mittee to report thereon
             
 <cb/>
 
-            <p>Mr. SCOVIL suggested the desirability<lb/>
+            <p> <persName ref="pers:SCOV1">Mr. SCOVIL</persName> suggested the desirability<lb/>
 of
 having a law on the Statute Book
 pro<lb break="no"/>viding for the preservation of partridges. <lb/>
 (A member.—“ And another to preserve <lb/>
 rabbits.")<lb/>
             </p>
-            <p>Mr. WILLISTON brought in a Bill re<lb break="no"/>lating to French property at Alma, in
+            <p> <persName ref="pers:WILL1">Mr. WILLISTON</persName> brought in a Bill re<lb break="no"/>lating to French property at Alma, in
 the<lb/>
 County of Northumberland.<lb/>
             </p>
 
 
-            <p> Mr.WILLISTON
+            <p> <persName ref="pers:WILL1">Mr.WILLISTON</persName>
 on motion presented a <lb/>
 petition from George Letson
 and others<lb/>
@@ -347,14 +351,14 @@ their own paupers in that
 district without <lb/>
 drawing from the poor law fund. <lb/>
             </p>
-            <p> Hon. Mr. SMITH laid before the House <lb/>
+            <p> <persName ref="pers:SMIT1">Hon. Mr. SMITH</persName> laid before the House <lb/>
 the report of the Committee appointed by <lb/>
 last House to attend to the reporting
 and <lb/>
 printing of the Debates. 
 Report adopted. <lb/>
             </p>
-            <p>Hon. Mr. HATHEWAY stated that he had<lb/>
+            <p> <persName ref="pers:HATH1">Hon. Mr. HATHEWAY</persName> stated that he had<lb/>
 been requested to inform the members
 <lb/>
 that they could, if they wished,
@@ -366,13 +370,13 @@ Publisher's office on
 the payment of four <lb/>
 dollars for the Session. <lb/>
             </p>
-            <p> Mr. CONNELL
+            <p> <persName ref="pers:CONN1">Mr. CONNELL</persName>
 said the copies for the <lb/>
 members ought to be done up and sent to <lb/>
 the House, to be distributed by a person <lb/>
 apppointed for the purpose. <lb/>
             </p>
-            <p> Mr. L. P. W. DESBRISAY presumed it <lb/>
+            <p> <persName ref="pers:DESB2">Mr. L. P. W. DESBRISAY</persName> presumed it <lb/>
 was optional with members to do
 as they <lb/>
 pleased in the matter. He thought the <lb/>
@@ -382,7 +386,7 @@ the plan adopted her? of
 having <lb/>
 them sent out from the House.<lb/>
             </p>
-            <p>Mr. BOYD moved that the number of <lb/>
+            <p> <persName ref="pers:BOYD1">Mr. BOYD</persName> moved that the number of <lb/>
 Debates printed be 6000, instead of 4,500 <lb/>
 mentioned in the report.<lb/>
             </p>
@@ -390,18 +394,18 @@ mentioned in the report.<lb/>
    <div type="section">         <head> APPORTIONMENT OF DEBATES. <lb/>
             </head>
 
-            <p> Mr. CONNELL
+            <p> <persName ref="pers:CONN1">Mr. CONNELL</persName>
 moved that the distribu<lb break="no"/>tion of the Debates should be apportioned
 <lb/>
 according to population of 1861.
 <lb/>
             </p>
-            <p> Mr. MCMILLAN moved an amendment <lb/>
+            <p> <persName ref="pers:MCMI1">Mr. MCMILLAN</persName> moved an amendment <lb/>
 that the distribution be as formerly— a 
 <lb/>
 definite number to each member. <lb/>
             </p>
-            <p> Mr. BOYD said that in past years the <lb/>
+            <p> <persName ref="pers:BOYD1">Mr. BOYD</persName> said that in past years the <lb/>
 distribution of the Debates by giving a <lb/>
 certain number to each member had been <lb/>
 very unequal and unfair. The small <lb/>
@@ -413,10 +417,10 @@ a bet<lb break="no"/>ter order of things in this respect would <lb/>
 be introduced, and much more general <lb/>
 satisfaction given. <lb/>
             </p>
-            <p>Hon. Mr. SMITH asked if the resolution <lb/>
+            <p> <persName ref="pers:SMIT1">Hon. Mr. SMITH</persName> asked if the resolution <lb/>
 contemplated representation by popula<lb break="no"/>tion.  <lb/>
             </p>
-            <p>Mr. LINDSAY said of course the Hon. <lb/>
+            <p> <persName ref="pers:LIND1">Mr. LINDSAY</persName> said of course the Hon. <lb/>
 ex-Surveyor General would go for the <lb/>
 amendment, as‘he represented a county <lb/>
 with a population of some 4 or
@@ -426,18 +430,18 @@ Carleton with its 17 or 18 000.
 <lb/>
             </p>
 
-            <p>Mr. MCMILLAN did not know where <lb/>
+            <p> <persName ref="pers:MCMI1">Mr. MCMILLAN</persName> did not know where <lb/>
 the hon. member got his information as to<lb/>
 the population of the county he repre<lb break="no"/>sented, but he certainly had been
 mis<lb break="no"/>informed. <lb/>
             </p>
-            <p> Mr. CAIE asked
+            <p> <persName ref="pers:CAIE1">Mr. CAIE</persName> asked
 if two counties, each <lb/>
 with about the same population, the one <lb/>having four members in the House and <lb/>
 the other but two, would receive the same <lb/>
 number of copies, or would one get double <lb/>as many as the other. <lb/>
             </p>
-            <p> Mr. HUTCHISON thought St. John should <lb/>
+            <p> <persName ref="pers:HUTC1">Mr. HUTCHISON</persName> thought St. John should <lb/>
 not have as many copies according to <lb/>
 population as the rural districts,
 as they <lb/>
@@ -451,7 +455,7 @@ House. With this exception he was fav<lb break="no"/>orable to a distribution ap
 
 
 
-            <p> Mr. WILLISTON.— In Northumberland<lb/>
+            <p> <persName ref="pers:WILL1">Mr. WILLISTON</persName>.— In Northumberland<lb/>
 and Gloucester the people are
 engaged in <lb/>
 various employments, and require a larger<lb/>
@@ -459,6 +463,8 @@ diffusion of information than in counties<lb/>
          
 
             <pb n="3" facs="final/images/NB_LA_1865-04-28_Page_003.jpg"/>
+
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw> <fw type="num">3</fw>
         
  where
 the people were generally engaged<lb/>
@@ -479,14 +485,14 @@ to gain any information of what is going<lb/>
 on during the sittings of the Legislature.<lb/>
 I hope the House will fully consider the<lb/>
 question.</p>
-            <p>Mr BOYD.—Charlotte has a population<lb/>
+            <p> <persName ref="pers:BOYD1">Mr BOYD</persName>.—Charlotte has a population<lb/>
 of twenty five or thirty thousand, with<lb/>
 very little newspaper influence. The only<lb/>
 way of diffusing information of the pro<lb break="no"/>ceedings of the House is by making a di<lb break="no"/>vision of the Debates according to the<lb/>
 population.<lb/>
             </p>
 
-            <p> Mr. GILBERT.—
+            <p> <persName ref="pers:GILB1">Mr. GILBERT</persName>.—
 I rise to adopt the<lb/>
 principle of the resolution. If the divi<lb break="no"/>sion is made in any other manner than by<lb/>
 population, then Northumberland will<lb/>
@@ -495,7 +501,7 @@ Carleton county, with a larger popula<lb break="no"/>tion, would get but about o
 The principle of the resolution is equit<lb break="no"/>able and just, and shall have my support.<lb/>
             </p>
 
-            <p> Mr. MCMILLAN wished to explain. The<lb/>
+            <p> <persName ref="pers:MCMI1">Mr. MCMILLAN</persName> wished to explain. The<lb/>
 only way to justify the expenditure of<lb/>
 public money for this work was by using<lb/>
 it for the benefit of those that required<lb/>
@@ -509,37 +515,37 @@ not newspaper advantages, will receive<lb/>
 but very few. The resolution was adopt<lb break="no"/>ed.<lb/>
             </p>
 
-            <p> Mr.
-BOYD moved for leave to bring in<lb/>
+            <p> <persName ref="pers:BOYD1">Mr.
+BOYD</persName> moved for leave to bring in<lb/>
 a Bill authorizing the Trustees of Church<lb/>
 in St. Andrews, to provide for the
 sale of<lb/>
 certain lands towards payment of the debt<lb/>
 due on the church.</p>
-            <p>Mr. SCOVIL moved that 2000 copies of<lb/>
+            <p> <persName ref="pers:SCOV1">Mr. SCOVIL</persName> moved that 2000 copies of<lb/>
 the Journals of the House be printed for<lb/>
 the use of the Members.</p>
-            <p>Mr. MCCLELLAN asked if the distribu<lb break="no"/>tion of the Journals was to be on the same<lb/>
+            <p> <persName ref="pers:MCCL1">Mr. MCCLELLAN</persName> asked if the distribu<lb break="no"/>tion of the Journals was to be on the same<lb/>
 principle as the Debates.</p>
-            <p>The SPEAKER replied : The resolution<lb/>
+            <p> <persName ref="pers:SPEA1">The SPEAKER</persName> replied : The resolution<lb/>
 with regard to the Debates has no rela<lb break="no"/>tion to the Journals.</p>
-            <p>The SPEAKER informed the House<lb/>
+            <p> <persName ref="pers:SPEA1">The SPEAKER</persName> informed the House<lb/>
 that His Honor the Chief Justice was pre<lb break="no"/>sent to swear in a member. Whereupon<lb/>
 His Honor administered the oath to John<lb/>
 Glazier, Esq., who took his seat as one of<lb/>
 the representatives of Sunbury.</p>
-            <p>On motion of Mr. MCCLELLAN the re<lb break="no"/>solution on the distribution of the copies<lb/>
+            <p>On motion of <persName ref="pers:MCCL1">Mr. MCCLELLAN</persName> the re<lb break="no"/>solution on the distribution of the copies<lb/>
 of Debates, according to population, came<lb/>
 up for re-consideration.<lb/>
             </p>
 
-            <p> Mr.
-BOYD gave notice that he should<lb/>
+            <p> <persName ref="pers:BOYD1">Mr.
+BOYD</persName> gave notice that he should<lb/>
 move reconsideration of the question<lb/>
 again to-morrow, if now rescinded.</p>
-            <p>Mr. CORAM
+            <p> <persName ref="pers:CORA1">Mr. CORAM</persName>
 moved that the House ad<lb break="no"/>journ till 2 o'clock.</p>
-            <p>Hon. Mr. BOTSFORD was surprised to<lb/>
+            <p> <persName ref="pers:BOTS1">Hon. Mr. BOTSFORD</persName> was surprised to<lb/>
 hear the motion for adjournment, and<lb/>
 thought the moving of a resolution for re<lb break="no"/>consideration, after the motion had been<lb/>
 adopted and the House had become thin<lb/>
@@ -549,8 +555,8 @@ deserved.<lb/>
             </p>
             <cb/>
 
-            <p> Mr. CORA withdrew his motion of ad<lb break="no"/>journment.</p>
-            <p>Mr. MCCELLAN
+            <p> <persName ref="pers:CORA1">Mr. CORAM</persName> withdrew his motion of ad<lb break="no"/>journment.</p>
+            <p> <persName ref="pers:MCCL1">Mr. MCCELLAN</persName>
 in reply to the re<lb break="no"/>marks of the Hon. Surveyor General said<lb/>
 he was not in the House when the ques<lb break="no"/>tion of the distribution of the Debates by<lb/>
 population came up, and on learning the<lb/>
@@ -560,8 +566,8 @@ the members, inasmuch as he waited<lb/>
 whilst a call for the House was made.<lb/>
             </p>
 
-            <p> Hon. Mr.
-BOTSFORD thought when he<lb/>
+            <p> <persName ref="pers:BOTS1">Hon. Mr.
+BOTSFORD</persName> thought when he<lb/>
 spoke that the amendment to have the<lb/>
 Debates distributed as heretofore, by each<lb/>
 member receiving a certain number, had<lb/>
@@ -570,8 +576,8 @@ a want of courtesy to those members who<lb/>
 had voted for the original resolution, but<lb/>
 had been called away. He hoped this<lb/>
 explanation would be satisfactory.</p>
-            <p>Hon. Mr.
-Hatheway said these reso<lb break="no"/>lutions and the lengthy talk upon them<lb/>
+            <p> <persName ref="pers:HATH1">Hon. Mr.
+Hatheway</persName> said these reso<lb break="no"/>lutions and the lengthy talk upon them<lb/>
 with regard to the Debates was the annu<lb break="no"/>al offering of the House. He thought<lb/>
 when the resolution passed to make the<lb/>
 apportionment by population, as unjust to<lb/>
@@ -580,7 +586,7 @@ not possess the advantages of newspaper<lb/>
 reports. Carleton should not be placed<lb/>
 in a better position than Restigouche or<lb/>
 Gloucester. The people in those Coun<lb break="no"/>ties possessed little information and there<lb break="no"/>fore the distribution should be as here<lb break="no"/>tofore.</p>
-            <p>Mr. CAIE
+            <p> <persName ref="pers:CAIE1">Mr. CAIE</persName>
 said there were always two<lb/>
 ways of looking at the same thing. The<lb/>
 County he had the honor to represent had<lb/>
@@ -592,27 +598,27 @@ been done in times past, they would get<lb/>
 just double the number of copies. He<lb/>
 was therefore in favor of distribution by<lb/>
 population.</p>
-            <p>Mr. SUTTON
+            <p> <persName ref="pers:SUTT1">Mr. SUTTON</persName>
 said that although he re<lb break="no"/>marks of the hon. member for Kent were<lb/>
 correct, yet as the people he represented<lb/>
 were mostly French, they would no re<lb break="no"/>quire as large a number as Northumber<lb break="no"/>land.</p>
-            <p>Mr. LANDRY
+            <p> <persName ref="pers:LAND1">Mr. LANDRY</persName>
 said that the French were<lb/>
 desirous to know what was being done<lb/>
 and though they could not all read the<lb/>
 debates yet some could, and these would<lb/>
 read and explain them to others.</p>
-            <p>Mr.
-MCCLELLAN moved that the dis<lb break="no"/>tribution of debates be made by allowing<lb/>
+            <p> <persName ref="pers:MCCL1">Mr.
+MCCLELLAN</persName> moved that the dis<lb break="no"/>tribution of debates be made by allowing<lb/>
 an equal number to each member. This<lb/>
 motion was not sustaine by the House.</p>
-            <p>Mr.
-MCMILLAN moved that St. John be<lb/>
+            <p> <persName ref="pers:MCMI1">Mr.
+MCMILLAN</persName> moved that St. John be<lb/>
 exempt in making up the estimate on the<lb/>
 population of 1861.<lb/>
             </p>
 
-            <p> Hon. Mr. Hatheway begged the<lb/>
+            <p> <persName ref="pers:HATH1">Hon. Mr. Hatheway</persName> begged the<lb/>
 House to remember the position of the<lb/>
 North. St. John boasted of a population<lb/>
 of over 40,000, and she would get about<lb/>
@@ -622,15 +628,15 @@ number in the rural districts rather than<lb/>
 increase them, and if it were pressed, he<lb/>
 should vote for Mr. McMillan's motion<lb/>
             </p>
-            <p> Mr.
-WETMORE said the people of Saint<lb/>
+            <p> <persName ref="pers:WETM1">Mr.
+WETMORE</persName> said the people of Saint<lb/>
 John, if better informed, paid for the in<lb break="no"/>formation they got through the news<lb break="no"/>papers, and the people in the country<lb/>
 could obtain it in the same way if they<lb/>
 saw fit to do so. He should certainly op<lb break="no"/>pose the motion to exempt Saint John<lb/>
 from participating in the receipt of the<lb/>
 debates.<lb/>
             </p>
-            <p> Mr. NEEDHAM moved a reconsideration<lb/>
+            <p> <persName ref="pers:NEED1">Mr. NEEDHAM</persName> moved a reconsideration<lb/>
 of the question. On being requested by<lb/>
 the Speaker to put his resolution in writ<lb break="no"/>ing he stated that as the House had not<lb/>
         
@@ -639,10 +645,10 @@ the Speaker to put his resolution in writ<lb break="no"/>ing he stated that as t
 
  yet supplied him with stationary, he<lb/>
 couldn't do it.</p>
-            <p>Mr. WETMORE thought the motion un<lb break="no"/>parliamentary.</p>
-            <p>Mr. CORAM again moved that the House<lb/>
+            <p> <persName ref="pers:WETM1">Mr. WETMORE</persName> thought the motion un<lb break="no"/>parliamentary.</p>
+            <p> <persName ref="pers:CORA1">Mr. CORAM</persName> again moved that the House<lb/>
 adjourn till 2 o'clock.</p>
-            <p>Mr ALLEN said he had never heard of<lb/>
+            <p> <persName ref="pers:ALLE2">Mr ALLEN</persName> said he had never heard of<lb/>
 a motion of adjournment at that time of<lb/>
 day ; if they wished to separate, the<lb/>
 Speaker usually left the chair, and that<lb/>
@@ -658,7 +664,7 @@ and the House separated at 12 o'clock.<lb/>
 SESSION—2 P. M.<lb/>
             </head>
 
-            <p>Mr. WILLISTON moved the adoption<lb/>
+            <p> <persName ref="pers:WILL1">Mr. WILLISTON</persName> moved the adoption<lb/>
 of the Report of Contingent Com<lb break="no"/>mittee, which provides six dollars to each<lb/>
 member for stationery, this being consid<lb break="no"/>ered, on account of the presumed short<lb break="no"/>ness of the Session, as sufficient. The<lb/>
 Clerk of the House is also allowed to ob<lb break="no"/>tain all the stationery he requires from<lb/>
@@ -668,33 +674,33 @@ cannot be sanctioned. They also beg<lb/>
 leave to bring in a further report.<lb/>
             </p>
 
-            <p> Hon. Mr. HATHEWAY moved for leave<lb/>
+            <p> <persName ref="pers:HATH1">Hon. Mr. HATHEWAY</persName> moved for leave<lb/>
 to
 bring in a Bill relating to the Great<lb/>
 Roads and Bridges.<lb/>
             </p>
-            <p>Mr. CAIE moved for leave to bring in<lb/>
+            <p> <persName ref="pers:CAIE1">Mr. CAIE</persName> moved for leave to bring in<lb/>
 a Bill to encourage the destruction of<lb/>
 Bears in this Province.<lb/>
             </p>
 
-            <p> Mr. WETMORE moved for leave to pre<lb break="no"/>sent a Petition from the Bishop of Fred<lb break="no"/>ericton and others respecting certificates<lb/>
+            <p> <persName ref="pers:WETM1">Mr. WETMORE</persName> moved for leave to pre<lb break="no"/>sent a Petition from the Bishop of Fred<lb break="no"/>ericton and others respecting certificates<lb/>
 of marriage.<lb/>
             </p>
 
-            <p> Mr. TROOP presented a Petition from<lb/>
+            <p> <persName ref="pers:TROO1">Mr. TROOP</persName> presented a Petition from<lb/>
 the President, Directors and Company of<lb/>
 the Commercial Bank for leave to amend<lb/>
 their charter. He also moved for leave<lb/>
 to bring in a Bill to amend their charter.</p>
 
-            <p> Mr. SCOVIL presented a petition from<lb/>
+            <p> <persName ref="pers:SCOV1">Mr. SCOVIL</persName> presented a petition from<lb/>
 S. Foster and others praying that the Act<lb/>
 to remove the Shire Town of King's<lb/>
 County be repealed.<lb/>
             </p>
 
-            <p> Mr. WILLISTON presented a Petition<lb/>
+            <p> <persName ref="pers:WILL1">Mr. WILLISTON</persName> presented a Petition<lb/>
 from the Rev. E. Hickson and others of<lb/>
 Northumberland County praying of cer<lb break="no"/>tain alterations in the publication of<lb/>
 Marriage Banns, the reduction of Mar<lb break="no"/>riage Fees, and the Registration of Births,<lb/>
@@ -702,20 +708,20 @@ Marriages and Deaths within this Prov<lb break="no"/>ince. Ordered to be read an
 the table.<lb/>
             </p>
 
-            <p> Hon.
-Mr. ALLAN moved for leave to<lb/>
+            <p> <persName ref="pers:ALLA1">Hon.
+Mr. ALLAN</persName> moved for leave to<lb/>
 bring in a Bill to amend the Act relating<lb/>
 to the Naturalization of Aliens?<lb/>
             </p>
 
-            <p> Mr. L. P. W. DESBRISAY moved for<lb/>
+            <p> <persName ref="pers:DESB2">Mr. L. P. W. DESBRISAY</persName> moved for<lb/>
 leave to bring in a Bill to establish an<lb/>
 additional Circuit Court in the County of<lb/>
 Kent.<lb/>
             </p>
 
 
-            <p> The SPEAKER called the attention of<lb/>
+            <p> <persName ref="pers:SPEA1">The SPEAKER</persName> called the attention of<lb/>
 the members to the motion before the<lb/>
 House for the reconsideration of the Re<lb break="no"/>solution providing for the distribution of<lb/>
 the Debates according to the population<lb/>
@@ -724,7 +730,7 @@ original Resolution was sustained.<lb/>
             </p>
 
 
-            <p> Mr. CONNELL presented a Petition<lb/>
+            <p> <persName ref="pers:CONN1">Mr. CONNELL</persName> presented a Petition<lb/>
 from George Milligan and others of<lb/>
 Carleton County, praying that the publi<lb break="no"/>cation of Marriage Banns be reduced to<lb/>
 two Sundays, and that License Fees be<lb/>
@@ -739,7 +745,7 @@ shall be referred.<lb/>
             </p>
 
 
-            <p> Mr. OTTY presented a Petition from<lb/>
+            <p> <persName ref="pers:OTTY1">Mr. OTTY</persName> presented a Petition from<lb/>
  W. H. Perkins and others, praying that<lb/>
 the Act authorizing the taxing of the in<lb break="no"/>habitants of King's for the removal of<lb/>
 the Shire Town of Sussex be repealed.<lb/>
@@ -751,50 +757,52 @@ the Shire Town of Sussex be repealed.<lb/>
             <head> HIRE OF COACHES<lb/>
             </head>
 
-            <p> Mr. SUTTON asked the Speaker for in<lb break="no"/>formation as to the number of coaches<lb/>
+            <p> <persName ref="pers:SUTT1">Mr. SUTTON</persName> asked the Speaker for in<lb break="no"/>formation as to the number of coaches<lb/>
             </p>
 
             <pb n="6" facs="final/images/NB_LA_1865-04-28_Page_006.jpg"/>
+
+<fw type="num">6</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw>
            
  <p>might be so arranged now. The use of<lb/>
 one coach was enough<lb/>
             </p>
 
-            <p> Mr. A. C. DESBRISAY moved an amend<lb break="no"/>ment to the Resolution, that the Contin<lb break="no"/>gent Committee be authorised to employ<lb/>
+            <p> <persName ref="pers:DESB2">Mr. A. C. DESBRISAY</persName> moved an amend<lb break="no"/>ment to the Resolution, that the Contin<lb break="no"/>gent Committee be authorised to employ<lb/>
 one coach for the use of the House.<lb break="no"/>Adopted.<lb/>
             </p>
 
-            <p>Mr. NEEDHAM moved that every mem<lb break="no"/>ber of the House fold and address his own<lb/>
+            <p> <persName ref="pers:NEED1">Mr. NEEDHAM</persName> moved that every mem<lb break="no"/>ber of the House fold and address his own<lb/>
 Debates and Journals, and post them<lb/>
 without the employment of a messenger.<lb/>
             </p>
 
-            <p> Hon. Mr. ALLEN hoped his honorable<lb/>
+            <p> <persName ref="pers:ALLE2">Hon. Mr. ALLEN</persName> hoped his honorable<lb/>
 colleague would withdraw his motion.<lb/>
 He thought he would do it if he gave the <lb/>
 matter a few moments' consideration.<lb/>
             </p>
-            <p>Hon. Mr.
-HUTCHINSON was surprised at<lb/>
+            <p> <persName ref="pers:HUTC1">Hon. Mr.
+HUTCHINSON</persName> was surprised at<lb/>
 such a resolution being laid before the <lb/>
 House. It looked like a burlesque.<lb/>
             </p>
-            <p>Mr. LINDSAY said that for years mem<lb break="no"/>bers had folded and addressed their own<lb/>
+            <p> <persName ref="pers:LIND1">Mr. LINDSAY</persName> said that for years mem<lb break="no"/>bers had folded and addressed their own<lb/>
 Journals, and he thought they could do it  <lb/>
 again.<lb/>
             </p>
-            <p> Mr. SUTTON said the resolution was<lb/>
+            <p> <persName ref="pers:SUTT1">Mr. SUTTON</persName> said the resolution was<lb/>
 
 foolish and uncalled for, inasmuch as, if<lb/>
 adopted,
 it would be compulsory on mem<lb break="no"/>bers to fold and address their own Jour<lb break="no"/>nals. <lb/>
             </p>
-            <p> Hon. Mr. ALLEN again hoped the hon.<lb/>
+            <p> <persName ref="pers:ALLE2">Hon. Mr. ALLEN</persName> again hoped the hon.<lb/>
 member would withdraw his motion. He<lb/>
 thought that he would not like to see it<lb/>
 inserted in the Journals of the House.<lb/>
             </p>
-            <p> Mr. NEEDHAM
+            <p> <persName ref="pers:NEED1">Mr. NEEDHAM</persName>
 would not withdraw his<lb/>
 motion, unless the House consented to the<lb/>
 adoption of another. It was this, that<lb/>
@@ -802,7 +810,7 @@ the offices of Sergeant at Arms, Messen<lb break="no"/>ger, and Door-keeper be a
 the House would carry that, he would<lb/>
 withdraw his first resolution.<lb/>
             </p>
-            <p> Hon. Mr. ALLEN.—Conditions could<lb/>
+            <p> <persName ref="pers:ALLE2">Hon. Mr. ALLEN</persName>.—Conditions could<lb/>
 not be imposed on the House to influence <lb/>
 the hon. member to withdraw his motion </p>
             <p>On motion of Mr. BOYD, the House here<lb/>

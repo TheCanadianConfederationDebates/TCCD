@@ -147,6 +147,8 @@
          <change who="mholmes" when="2016-11-15">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-15">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -248,6 +250,8 @@
       <body>
          <div type="debate">
             <pb n="316" facs="final/images/Ont_Que_LC_1865-02-20_Page_0316.jpg"/>
+
+<fw type="num">316</fw>
             
 <!-- GL, 2016-11-15, Commented out below, as it will appear in the preceding debate day -->
 
@@ -397,12 +401,12 @@
             </p>-->
 
 
-            <fw type="dateline">MONDAY, <hi rendition="simple:italic">February</hi> 20, 1865. 
+            <p>MONDAY, <hi rendition="simple:italic">February</hi> 20, 1865. 
      <lb/>
-            </fw>
+            </p>
    
             <p>
-     HON. MR. AIKINS said — Hon. gentle<lb break="no"/>men, when I last had the honor of address<lb break="no"/>ing the House, it will be remembered by 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName> said — Hon. gentle<lb break="no"/>men, when I last had the honor of address<lb break="no"/>ing the House, it will be remembered by 
      <lb/>
      those hon. gentlemen who were present that I 
      <lb/>
@@ -486,10 +490,10 @@ the Confederation resolutions, will vote for <lb/>
 that which may deprive them of their seats. </p>
 
 
-            <p> HON. Mr. CAMPBELL—Hear, hear. <lb/>
+            <p> <persName ref="pers:CAMP2">HON. Mr. CAMPBELL</persName>—Hear, hear. <lb/>
             </p>
-            <p> HON.
-MB. AIKINS—The hon. Commis<lb break="no"/>sioner of Crown Lands cries “ Hear, hear !” <lb/>
+            <p> <persName ref="pers:AIKI1">HON.
+MB. AIKINS</persName>—The hon. Commis<lb break="no"/>sioner of Crown Lands cries “ Hear, hear !” <lb/>
 But, after the life members of the <lb/>
 House have afﬁrmed by their votes that <lb/>
 they do not desire that the elective principle <lb/>
@@ -570,12 +574,12 @@ preperty only. Hence there is in reality <lb/>
 very little symmetry about the scheme. <lb/>
 (Hear hear.) <lb/>
             </p>
-            <p> HON. Sir. N. F. BELLEAU raised the <lb/>
+            <p> <persName ref="pers:BELL2">HON. Sir. N. F. BELLEAU</persName> raised the <lb/>
 point of order that the amendment had in <lb/>
 substance been already disposed of by the vote <lb/>
 on the amendment of Hon. Mr. SANBORN. <lb/>
             </p>
-            <p> The Hon. The SPEAKER—The ques<lb break="no"/>tion of order raised by the hon. gentleman is <lb/>
+            <p> The <persName ref="pers:SPEA1">Hon. The SPEAKER</persName>—The ques<lb break="no"/>tion of order raised by the hon. gentleman is <lb/>
 whether the amendment now proposed is not <lb/>
 substantially the same as the one voted on by <lb/>
 the House and brought forward by the Hon. <lb/>
@@ -586,7 +590,7 @@ explain the difference between his motion <lb/>
 and that already decided by the House, if <lb/>
 he thinks proper to do so. <lb/>
             </p>
-            <p> HON. MR. AIKINS—I contend that it is <lb/>
+            <p> <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—I contend that it is <lb/>
 not the same, in effect, as the motion brought <lb/>
 forward by the hon. member for Welling<lb break="no"/>ton. It is true that the elective principle is <lb/>
 aﬂirmed in both; but then the motion of <lb/>
@@ -600,7 +604,7 @@ members to this Chamber from these pro<lb break="no"/>vinces. My motion simply a
 and between the two I think there is a <lb/>
 material difference. <lb/>
             </p>
-            <p> HON. MR. ROSS—There is no doubt that <lb/>
+            <p> <persName ref="pers:ROSS8">HON. MR. ROSS</persName>—There is no doubt that <lb/>
 the motion of the honorable member for <lb/>
             
             <pb n="318" facs="final/images/Ont_Que_LC_1865-02-20_Page_0318.jpg"/>
@@ -614,8 +618,8 @@ there was embraced what this motion con<lb break="no"/>tains, the present motion
 containing as it does a principle which has <lb/>
 already been pronounced upon by this House. <lb/>
             </p>
-            <p> THE HON.
-THE SPEAKER—There may <lb/>
+            <p> <persName ref="pers:SPEA1">THE HON.
+THE SPEAKER</persName>—There may <lb/>
 be some difficulty in deciding on a matter of <lb/>
 this kind, because the two motions, although <lb/>
 not exactly identical, are very nearly so in one <lb/>
@@ -662,13 +666,13 @@ I am bound to say that in my opinion the <lb/>
 resolution is substantially contained in the <lb/>
 resolution already decided upon, and that <lb/>
 therefore it is out of order. (Hear, hear.) </p>
-            <p> HON. MR. AIKINS—I must confess that <lb/>
+            <p> <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—I must confess that <lb/>
 1 would like to have had the opinion of the <lb/>
 House on the motion; but I am quite willing <lb/>
 to abide by the decision of the Speaker. <lb/>
 (Hear, hear.) </p>
-            <p> THE Hon.
-THE SPEAKER—That the de<lb break="no"/>cision I have given may be well understood- <lb break="yes"/>
+            <p> <persName ref="pers:SPEA1">THE Hon.
+THE SPEAKER</persName>—That the de<lb break="no"/>cision I have given may be well understood- <lb break="yes"/>
 to remove all apprehension on the score of a <lb/>
           
             <cb/> 
@@ -679,7 +683,7 @@ be ﬁnally disposed of, I may say that we ﬁnd <lb/>
 this in the rules of the Imperial Parliament: <lb/>
 “ A question once carried or negatived can<lb break="no"/>not be brought forward again.” <lb/>
             </p>
-            <p> HON. MR. FLINT said—Honorable gen<lb break="no"/>tlemen, I deeply regret that the amendment <lb/>
+            <p> <persName ref="pers:FLIN1">HON. MR. FLINT</persName> said—Honorable gen<lb break="no"/>tlemen, I deeply regret that the amendment <lb/>
 of my honorable friend could not have been <lb/>
 placed before the House, in order to a more <lb/>
 direct vote being elicited on the principle <lb/>
@@ -1056,10 +1060,10 @@ necessity, to break up the Intercolonial Rail<lb break="no"/>way in every direct
 transportation of troops and munitions of <lb/>
 war during the winter. <lb/>
             </p>
-            <p> AN HON. MEMBER—They would be <lb/>
+            <p> <persName ref="UNSPECIFIED">AN HON. MEMBER</persName>—They would be <lb/>
 unable to reach it so as to cut it. <lb/>
             </p>
-            <p> HON. MR. FLINT—That
+            <p> <persName ref="pers:FLIN1">HON. MR. FLINT</persName>—That
 is a very curious <lb/>
 idea: “ They cannot reach it.” I look
 upon <lb/>
@@ -1182,7 +1186,7 @@ and I <lb/>
 shall be most happy to conform to their <lb/>
 wishes. (Hear, hear.) <lb/>
             </p>
-            <p> HON. MR. DE BEAUJEU said—Honor<lb break="no"/>able gentlemen, I think it an act of patriotism <lb/>
+            <p> <persName ref="pers:DEBE1">HON. MR. DE BEAUJEU</persName> said—Honor<lb break="no"/>able gentlemen, I think it an act of patriotism <lb/>
 to support the resolutions submitted to us, <lb/>
 having for their object the Confederation of <lb/>
 several provinces, so as to bring them into a <lb/>
@@ -1458,7 +1462,7 @@ neighbors. Having said so much, I will con<lb break="no"/>clude by stating that 
 vote for those reso<lb break="no"/>lutions as they are laid before us.
 (Cheers) <lb/>
             </p>
-            <p> HON. MR. HAMILTON (Inkerman)<lb break="no"/>Honorable gentlemen, so much as been said <lb/>
+            <p> <persName ref="pers:HAMI2">HON. MR. HAMILTON</persName> (Inkerman)<lb break="no"/>Honorable gentlemen, so much as been said <lb/>
 during the course of the present debate with <lb/>
 reference to the elected members of this House,
 <lb/>
@@ -1569,7 +1573,7 @@ maintenance of British connection, and to <lb/>
 preserve that, I for one am prepared to make <lb/>
 man sacrifices. (Hear, hear.) <lb/>
             </p>
-            <p>HON. MR. BLAKE—I feel it to be my <lb/>
+            <p><persName ref="pers:BLAK2">HON. MR. BLAKE</persName>—I feel it to be my <lb/>
 duty, honorable gentlemen, to make a few <lb/>
 remarks upon the general question of Federa<lb break="no"/>tion before the vote is taken. A great deal <lb/>
 has been said about the manner in which the <lb/>
@@ -1680,7 +1684,7 @@ without the shedding of blood. (Hear, hear <lb/>
 and laughter.) I am prepared to give my <lb/>
 vote for the scheme. (Cheers) <lb/>
             </p>
-            <p> HON. MB. READ next addressed the <lb/>
+            <p> <persName ref="pers:READ1">HON. MR READ</persName> next addressed the <lb/>
 House. He said—Honorable gentlemen, I <lb/>
 have voted for delay in the passage of these <lb/>
 resolutions, believing that to be my duty; and <lb/>
@@ -1775,10 +1779,10 @@ number, and it is very doubtful to me if we <lb/>
 can afford it. (Hear, hear.) Where is the <lb/>
 money to come from ? <lb/>
             </p>
-            <p> HON. Mr. CURRIE—Yes—where is the <lb/>
+            <p> <persName ref="pers:CURR2">HON. Mr. CURRIE</persName>—Yes—where is the <lb/>
 money to come from? <lb/>
             </p>
-            <p> HON. Mr. READ—We are now very <lb/>
+            <p> <persName ref="pers:READ1">HON. Mr. READ</persName>—We are now very <lb/>
 heavily taxed, and have a heavy bill to pay <lb/>
 for interest on our large debt. I would like <lb/>
 to see the Government adopt some method by <lb/>
@@ -1806,7 +1810,7 @@ altogether, and <lb/>
 shall press my opposition no
 further. (Hear, <lb/>
 ear. <lb/>
-HON. Mr. REESOR—Honorable gentle<lb break="no"/>men, I rise to move-<lb/>
+<persName ref="pers:REES1">HON. Mr. REESOR</persName>—Honorable gentle<lb break="no"/>men, I rise to move-<lb/>
             </p>
            <quote rendition="tccd:blockquote">That the following words be added to the
 main <lb/>
@@ -1819,7 +1823,7 @@ in the various municipalities throughout Upper <lb/>
 and Lower Canada.” <lb/>
            </quote>
 
-            <p> HON. Mr. DICKSON—I am desirous of <lb/>
+            <p> <persName ref="pers:DICK2">HON. Mr. DICKSON</persName>—I am desirous of <lb/>
 calling to the notice of the House the fact <lb/>
 that this amendment appears on the face of
 it <lb/>
@@ -1835,14 +1839,14 @@ the Speaker's decision upon the
 point. <lb/>
             </p>
 
-            <p> HON. Mr. ROSS—The objection of the <lb/>
+            <p> <persName ref="pers:ROSS8">HON. Mr. ROSS</persName>—The objection of the <lb/>
 honorable member is, I think, conclusive with <lb/>
 regard to the amendment. It appears to be <lb/>
 the same in principle as that moved by the <lb/>
 honorable member for Niagara, and seems to <lb/>
 me to be out of order. <lb/>
             </p>
-            <p> HON. Mr. BUREAU—I think the motion <lb/>
+            <p> <persName ref="pers:BURE2">HON. Mr. BUREAU</persName>—I think the motion <lb/>
 is in order. It declares that before the scheme <lb/>
 is ﬁnally adopted, it shall be referred to the <lb/>
 people, for them to vote yes or nay upon it. <lb/>
@@ -1855,7 +1859,7 @@ people, for them to vote yes or nay upon it. <lb/>
 <lb/>
 in this House. <lb/>
             </p>
-            <p> THE HON. THE SPEAKER—The motion <lb/>
+            <p> <persName ref="pers:SPEA1">THE HON. THE SPEAKER</persName>—The motion <lb/>
 proposed in amendment to the main motion <lb/>
 by Hon. Mr. CURRIE was in the following <lb/>
 words :—“That in a matter of such great im<lb break="no"/>portance as the proposed Confederation of this <lb/>
@@ -1888,7 +1892,7 @@ this kind it is my opinion that a liberal in<lb break="no"/>terpretation of the 
 House should be made, I cannot declare that <lb/>
 the amendment is included in the motion de<lb break="no"/>cided by the House yesterday. (Hear, hear.) <lb/>
             </p>
-            <p> HON. MR. REESOR—It will have been <lb/>
+            <p> <persName ref="pers:REES1">HON. MR. REESOR</persName>—It will have been <lb/>
 observed, that the course of this
 debate has <lb/>
 taken a most extraordinary turn. At ﬁrst, <lb/>
@@ -2048,7 +2052,7 @@ provided for by the General Government. <lb/>
 <lb/>
 into the union, one would think, was quite <lb/>
 enough to satisfy the little province; but on. <lb/>
-Mr. TILLEY adds:-<cb/>
+Mr. TILLEY adds:-<lb/>
             </p>
            <quote rendition="tccd:blockquote">Over and above all these advantages, we
 get <lb/>
@@ -2236,12 +2240,12 @@ principle of all free governments, that govern<lb break="no"/>ments should be ca
 governed; and the principle of responsible <lb/>
 government, according to which government <lb/>
 must be carried on according to the well-un<lb break="no"/>derstood wishes of the people.</p>
-            <p> HON. MR. MCCREA—As expressed by <lb/>
+            <p> <persName ref="pers:MCCR2">HON. MR. MCCREA</persName>—As expressed by <lb/>
 their representatives. <lb/>
             </p>
 
-            <p> HON.
-MR. BEESOR—As expressed, my <lb/>
+            <p> <persName ref="pers:REES1">HON.
+MR. REESOR</persName>—As expressed, my <lb/>
 honorable friend says, by their representa<lb break="no"/>tives. Very well; we must remember that <lb/>
 those who constitute the Government of this <lb/>
 country have brought down here a very curi<lb break="no"/>ous scheme, and have held out to you the in<lb break="no"/>ducement that if you support it you have a <lb/>
@@ -2477,7 +2481,7 @@ Shaw, Skead, Sir E. P. Taché, Wilson.—36. <lb/>
 
             <p> So the amendment was negatived. <lb/>
             </p>
-            <p> HON. SIR E. P. TACHÉ said—I am anx<lb break="no"/>ious that honorable gentlemen should have a <lb/>
+            <p> <persName ref="pers:TACH1">HON. SIR E. P. TACHÉ</persName> said—I am anx<lb break="no"/>ious that honorable gentlemen should have a <lb/>
 full opportunity of expressing themselves upon <lb/>
 the measure which is now before the House, <lb/>
 and as I am the mover of the resolutions, I <lb/>
@@ -2494,12 +2498,12 @@ play which has always been given under cir<lb break="no"/>cumstances similar to 
 gentleman desiring to address the House—to <lb/>
 close the debate this evening. <lb/>
             </p>
-            <p> HON. MR. CURRIE—I would ask if it is <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—I would ask if it is <lb/>
 the intention of the Government to explain <lb/>
 the resolutions more fully than has been done? <lb/>
             </p>
-            <p> HON.
-MR. CAMPBELL—The members <lb/>
+            <p> <persName ref="pers:CAMP2">HON.
+MR. CAMPBELL</persName>—The members <lb/>
 of the Government will be happy to
 afford any <lb/>
 information the honorable member may desire. <lb/>
@@ -2509,8 +2513,8 @@ o’clock <lb/>
 in the evening, and on
 reassembling, <lb/>
             </p>
-            <p>  HON. MR.
-RYAN said—The importance <lb/>
+            <p>  <persName ref="pers:RYAN3">HON. MR.
+RYAN</persName> said—The importance <lb/>
 of the vote we are about to give on these reso<lb break="no"/>lutions is very great, as the future of the <lb/>
 country is so largely dependent upon it, and <lb/>
 representing as l do the division of Victoria,<lb/>
@@ -2856,10 +2860,10 @@ freight apply to large quantities only. <lb/>
 Montreal to St. John, by railway, is at a <lb/>
 rough estimate about 600 miles. <lb/>
             </p>
-            <p>HON. MR. CURRIE
+            <p><persName ref="pers:CURR2">HON. MR. CURRIE</persName>
 —Not so much<lb break="no"/>about 500 only. <lb/>
             </p>
-            <p> HON. MR. RYAN—So much the better <lb/>
+            <p> <persName ref="pers:RYAN3">HON. MR. RYAN</persName>—So much the better <lb/>
 for my argument, but I will give my hon. <lb/>
 friend the benefit of the 600 miles. Now, <lb/>
 the further a barrel of ﬂour is carried the <lb/>
@@ -2915,10 +2919,10 @@ country; but we come next to the article of <lb/>
 229,793 barrels, we exported 1,095,691 <lb/>
 barrels.<lb/>
             </p>
-            <p> HON. MR. CURRIE—We imported wheat <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—We imported wheat <lb/>
 to grind it into ﬂour. <lb/>
             </p>
-            <p> HON. MR. RYAN—Exactly so. The <lb/>
+            <p> <persName ref="pers:RYAN3">HON. MR. RYAN</persName>—Exactly so. The <lb/>
 excess of ﬂour exported was 865,898 barrels, <lb/>
 which, taken at 4 1/2 bushels to
 the barrel, <lb/>
@@ -2954,9 +2958,9 @@ and other produce; but I do not wish <lb/>
 to trespass longer upon the time of the <lb/>
 House. <lb/>
             </p>
-            <p> VOICES—“ Go on." <lb/>
+            <p> <persName ref="UNSPECIFIED">VOICES</persName>—“ Go on." <lb/>
             </p>
-            <p> HON. Mn. RYAN—I will just read from <lb/>
+            <p> <persName ref="pers:RYAN3">HON. Mn. RYAN</persName>—I will just read from <lb/>
 the New Brunswick return. It says :-<lb/>
             </p>
 
@@ -3158,11 +3162,11 @@ time in summer, it may be merely to legis<lb break="no"/>late on local matters, 
 project may thus be indeﬁnitely
 delayed. <lb/>
             </p>
-            <p> HON. MR. CURRIE—So
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—So
 much the <lb/>
 better. <lb/>
             </p>
-            <p> HON. MB. RYAN—I think any man with <lb/>
+            <p> <persName ref="pers:RYAN3">HON. MB. RYAN</persName>—I think any man with <lb/>
 his eyes open will see that events are march<lb break="no"/>ing on upon this continent with great strides. <lb/>
 Event follows event in such rapid succession <lb/>
 that we can hardly tell whither the tide will <lb/>
@@ -3205,7 +3209,7 @@ means of preserving and
 perpetuating them. <lb/>
 (Cheers.) <lb/>
             </p>
-            <p> HON. MR. PRICE—Honorable gentlemen, <lb/>
+            <p> <persName ref="pers:PRIC1">HON. MR. PRICE</persName>—Honorable gentlemen, <lb/>
 being one of the newly elected members of <lb/>
 this House, I would like to say a few words, <lb/>
 by way of defining my position, before the <lb/>
@@ -3326,7 +3330,7 @@ then have ample opportunity of considering <lb/>
 and amending them if we think it necessary. <lb/>
 (Hear, hear.) <lb/>
             </p>
-            <p> HON. MR. REESOR—I do not wish to <lb/>
+            <p> <persName ref="pers:REES1">HON. MR. REESOR</persName>—I do not wish to <lb/>
 make any lengthened remarks; but there are <lb/>
 one or two points to which I wish to call the <lb/>
 attention of the House before the vote
@@ -3334,10 +3338,10 @@ is <lb/>
 taken. (Cries of “Question,” “question!") If <lb/>
 I am out of order, I will take my seat. <lb/>
             </p>
-            <p> THE HON. THE SPEAKER—The hon<lb break="no"/>orable gentleman is perfectly
+            <p> <persName ref="pers:SPEA1">THE HON. THE SPEAKER</persName>—The hon<lb break="no"/>orable gentleman is perfectly
 in order. <lb/>
             </p>
-            <p> HON. MR. REESOR— I wish to call the <lb/>
+            <p> <persName ref="pers:REES1">HON. MR. REESOR</persName>— I wish to call the <lb/>
 attention of the House to the opinion of the <lb/>
 celebrated author quoted by my honorable <lb/>
 friend from Victoria Division (Hon. Mr. <lb/>
@@ -3396,12 +3400,12 @@ manufactures from us. And then he told us <lb/>
 that they had coal in Nova Scotia, and that <lb/>
 where there is coal, manufactures will
 spring up. <lb/>
-HON. MR. RYAN—Coal is not used in
+<persName ref="pers:RYAN3">HON. MR. RYAN</persName>—Coal is not used in
 the <lb/>
 manufacture of boots and shoes. <lb/>
             </p>
-            <p> HON. MR.
-REESOR—But coal makes a <lb/>
+            <p> <persName ref="pers:REES1">HON. MR.
+REESOR</persName>—But coal makes a <lb/>
 manufacturing country, and there is no reason <lb/>
 why Nova Scotia, as a manufacturing country, <lb/>
 should not manufacture boots and shoes as <lb/>
@@ -3420,7 +3424,7 @@ many others, <lb/>
 even cheaper than they can be supplied from <lb/>
 Canada. <lb/>
             </p>
-            <p> HON. MR. RYAN—As regards Mr. MILLS’ <lb/>
+            <p> <persName ref="pers:RYAN3">HON. MR. RYAN</persName>—As regards Mr. MILLS’ <lb/>
 opinions, the extract I read was this :-<lb/>
             </p>
            
@@ -3450,7 +3454,7 @@ and prescribes a plan of his own; but his <lb/>
 statement on this point is too long to enter <lb/>
 upon now. <lb/>
             </p>
-            <p> HON. MR. CURRIE—I wish to ask the <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—I wish to ask the <lb/>
 Hon. Commissioner of Crown Lands a ques<lb break="no"/>tion with reference to the meaning of the 5th <lb/>
 sub-section of the 29th clause, which com<lb break="no"/>mits to the General Parliament “ the raising <lb/>
 of money by all or any other modes or sys<lb break="no"/>tems of taxation.” Am I to understand that <lb/>
@@ -3458,17 +3462,17 @@ the General Government are to have the pow<lb break="no"/><cb/>er-of imposing lo
 lands <lb/>
 of the provinces? <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—The general <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—The general <lb/>
 national power of taxation is to be in the <lb/>
 General Government. <lb/>
             </p>
-            <p> HON. MR. CURRIE—The 34th sub-sec<lb break="no"/>tion of the same clause commits to the Gen<lb break="no"/>eral Government “the establishment of a <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—The 34th sub-sec<lb break="no"/>tion of the same clause commits to the Gen<lb break="no"/>eral Government “the establishment of a <lb/>
 general Court of Appeal for the Federated pro<lb break="no"/>vinces.” Is that to be in lieu of the Courts <lb/>
 of Appeal we now have? Is it intended to <lb/>
 do away with the present Court of Appeal <lb/>
 and to establish a new one? <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—I do not think <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—I do not think <lb/>
 my honorable friend has caught the meaning <lb/>
 of what is intended. It does not say the <lb/>
 general Court of Appeal shall be established, <lb/>
@@ -3476,16 +3480,16 @@ but that the power to establish it shall be in <lb/>
 the General Government. <lb/>
 
             </p>
-            <p>HON. MR. CURRIE—New Courts of Ap<lb break="no"/>peal?
+            <p><persName ref="pers:CURR2">HON. MR. CURRIE</persName>—New Courts of Ap<lb break="no"/>peal?
 <lb/>
-HON. MR. CAMPBELL—If a statute of <lb/>
+<persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—If a statute of <lb/>
 the Parliament of the United Provinces shall <lb/>
 be passed creating a Court of Appeal, it will <lb/>
 state whether it is in lieu of, or in addition <lb/>
 to, the present Courts of Appeal. I should <lb/>
 suppose it would be in addition. <lb/>
             </p>
-            <p> HON. MR. CURRIE—I think that point <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—I think that point <lb/>
 is one which we ought to understand before <lb/>
 giving a ﬁnal vote; and I do not think the <lb/>
 Hon. Commissioner of Crown
@@ -3498,7 +3502,7 @@ gives the Nova Scotia Legislature power to <lb/>
 make laws respecting export duties on coal. <lb/>
 What is the meaning of that ? <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—I thought I <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—I thought I <lb/>
 had explained that the export duty there <lb/>
 was almost synonymous with our royalty. It <lb/>
 is levied in lieu of a royalty at the mine; <lb/>
@@ -3507,7 +3511,7 @@ Government to exact it on coal coming to <lb/>
 this country. <lb/>
             </p>
             <lb/>
-            <p> HON. MR. CURRIE—The honorable gen<lb break="no"/>tleman must see it cannot be a royalty, be<lb break="no"/>cause the royalty must apply to all coal con<lb break="no"/>sumed in the Province of Nova
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—The honorable gen<lb break="no"/>tleman must see it cannot be a royalty, be<lb break="no"/>cause the royalty must apply to all coal con<lb break="no"/>sumed in the Province of Nova
 Scotia, while <lb/>
 the export duty only applies to coal exported <lb/>
 from that province. The 9th sub-section
@@ -3529,11 +3533,11 @@ construction and maintenance of a new Peni<lb break="no"/>tentiary, leaving to U
 the Peni<lb break="no"/>tentiary now in existence in that province? <lb/>
             </p>
 
-            <p> HON. MR. CAMPBELL—No
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—No
 doubt; but <lb/>
 Lower Canada may arrange with Upper Ca<lb break="no"/>nada for the temporary use of the Peniten<lb break="no"/>tiary, so long as she requires it, or for its per<lb break="no"/>manent use, if that is thought better. <lb/>
             </p>
-            <p> HON. MR. CURRIE—By the 6th sub<lb break="no"/>section the local legislatures have the control <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—By the 6th sub<lb break="no"/>section the local legislatures have the control <lb/>
 of “ Education; saving the rights and privil<lb break="no"/>eges which the Protestant or Catholic minor<lb break="no"/>ity in both Canadas may possess as to their <lb/>
 denominational schools at the time when <lb/>
 the union into operation.” I do not <lb/>
@@ -3546,7 +3550,7 @@ more schools than they have at the passing of <lb/>
 the act? Will the Commissioner of Crown <lb/>
 Lands please explain ? <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—By this section <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—By this section <lb/>
 it is affirmed that the principle of action with <lb/>
 reference to those schools which may be in <lb/>
 existence at the time the Confederation takes <lb/>
@@ -3560,30 +3564,30 @@ and Lower <lb/>
 Canada will be respectively protected, and <lb/>
 those principles will continue in operation. <lb/>
             </p>
-            <p> HON. MR. CURRIE—But suppose no <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—But suppose no <lb/>
 alteration is made in the Common School Law <lb/>
 of Upper Canada—and, as I understand, none <lb/>
 is promised—would the Roman Catholics be <lb/>
 entitled to establish more separate schools ? <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—The present <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—The present <lb/>
 Act would continue to operate, and the honor<lb break="no"/>able gentleman knows what are the rights of <lb/>
 Roman Catholic schools under that Act. <lb/>
             </p>
-            <p> HON.
-MR. CURRIE—That is the way in <lb/>
+            <p> <persName ref="pers:CURR2">HON.
+MR. CURRIE</persName>—That is the way in <lb/>
 which I understand it. With reference to <lb/>
 the 61st clause, I would-ask is it proposed, at <lb/>
 this session of the Legislature, to arrange the <lb/>
 balance of the debt—not taken into the Con<lb break="no"/>federation—between Upper and Lower Can<lb break="no"/>ada? <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—It is proposed, <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—It is proposed, <lb/>
 before any Federation scheme goes into oper<lb break="no"/>ation, that the debt shall be
 arranged between <lb/>
 Up and Lower Canada. <lb/>
             </p>
-            <p> HON. 
-MR. CURRIE—In the 64th section <lb/>
+            <p> <persName ref="pers:CURR2">HON. 
+MR. CURRIE</persName>—In the 64th section <lb/>
 it is provided that, “in
 consideration of the <lb/>
 tranfer to the General Parliament of the <lb/>
@@ -3619,7 +3623,7 @@ be taken at 130,000, when all the other pro<lb break="no"/>vinces—most of them
             </p>
             <p> in population much more rapidly than New<lb break="no"/>foundland—go in with the population ascer<lb break="no"/>tained by the census of 1861. <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—The reason is <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—The reason is <lb/>
 just this, that there happened to be no census <lb/>
 taken in Newfoundland in 1861. The last <lb/>
 census there was some years before—I think <lb/>
@@ -3631,7 +3635,7 @@ population, at the time of the union, would be <lb/>
 close upon 130,000. We therefore put it at <lb/>
 that ﬁ re. <lb/>
             </p>
-            <p> HON. MR. CURRIE—The honorable gen<lb break="no"/>tleman is right in saying that the last census <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—The honorable gen<lb break="no"/>tleman is right in saying that the last census <lb/>
 of Newfoundland was taken in 1857; but the <lb/>
 increase should have been reckoned only for a <lb/>
 period of four years, and I can scarcely be<lb break="no"/>lieve that Newfoundland could be entitled to <lb/>
@@ -3640,8 +3644,8 @@ years, giving to that colony the benefit of <lb/>
 four years’ increase more than Canada. Our <lb/>
 census was taken in 1861. <lb/>
             </p>
-            <p> HON.
-MR. CAMPBELL—Not at all; we <lb/>
+            <p> <persName ref="pers:CAMP2">HON.
+MR. CAMPBELL</persName>—Not at all; we <lb/>
 all go in with the amounts of our respective <lb/>
 populations estimated at the same time; 130,<lb break="no"/>000 was the estimated population
 of New<lb break="no"/><pb n="342" facs="final/images/Ont_Que_LC_1865-02-20_Page_0342.jpg"/><fw type="num">342</fw>foundland at that date. We had no desire
@@ -3651,7 +3655,7 @@ to <lb/>
 popu<lb break="no"/>lation was estimated at 130,000 at the time <lb/>
 at which the populations of the other provin<lb break="no"/>ces were taken.<lb/>
             </p>
-            <p> HON. MR. CURRIE—Perhaps the Hon. <lb/>
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—Perhaps the Hon. <lb/>
 Commissioner of Crown Lands will inform us <lb/>
 whether, in stating the revenues of the various <lb/>
 provinces, the customs revenue raised on <lb/>
@@ -3666,11 +3670,11 @@ about 70 cents per head in duties on goods <lb/>
 brought in from countries outside the proposed <lb/>
 Confederation. <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—What do you <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—What do you <lb/>
 make the total customs revenue of Prince d- <lb break="yes"/>
 ward Island for that year? <lb/>
             </p>
-            <p> HON. MR. CURRIE—Seventeen
+            <p> <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—Seventeen
 thousand <lb/>
 seven hundred and sixty-nine pounds sterling. <lb/>
 Great Britain furnished the largest proportion <lb/>
@@ -3682,7 +3686,7 @@ coming from other countries than the British <lb/>
 Provinces, were £11,096, or about two-thirds <lb/>
 of the entire customs revenue. <lb/>
             </p>
-            <p> HON. MR. CAMPBELL—I suppose the <lb/>
+            <p> <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—I suppose the <lb/>
 person who was probably the best informed <lb/>
 about the state of the revenue in Prince <lb/>
 Edward Island, was the Secretary of the <lb/>
@@ -3705,14 +3709,14 @@ $197,000, all of which is from
 customs and <lb/>
 excise, save about $32,000. <lb/>
             </p>
-            <p> HON. MR. ALEXANDER—My hon. <lb/>
+            <p> <persName ref="pers:ALEX1">HON. MR. ALEXANDER</persName>—My hon. <lb/>
 friend from Niagara (Hon. Mr. CURRIE) in <lb/>
 his own speech stated the revenue of Prince <lb/>
 Edward Island at $153,000. <lb/>
           
             <cb/>
      
- HON. SIR E. P. TACHÉ then rose to wind <lb/>
+ <persName ref="pers:TACH1">HON. SIR E. P. TACHÉ</persName> then rose to wind <lb/>
 up the debate, with a general reply. He <lb/>
 said:—Hon. gentlemen, I was very anxious <lb/>
 that ample opportunity should be given to the <lb/>
@@ -3754,10 +3758,10 @@ allowed the privilege which is conceded to per<lb break="no"/>sons belonging to 
 For instance, they say that an Englishman is <lb/>
 allowed to speak once, an Irishman twice-<lb/>
             </p>
-            <p>AN HON. MEMBER—Three times. <lb/>
+            <p><persName ref="UNSPECIFIED">AN HON. MEMBER</persName>—Three times. <lb/>
 (Laughter.) <lb/>
             </p>
-            <p> HON. SIR E. P. TACHÊ—Well, three <lb/>
+            <p> <persName ref="pers:TACH1">HON. SIR E. P. TACHÊ</persName>—Well, three <lb/>
 times be it; that is still better. And a <lb/>
 Dutchman as long as he ﬁnds it necessary, <lb/>
 until he can make himself understood. Well, <lb/>
@@ -4022,7 +4026,7 @@ gentleman is himself a seignior or not, but <lb/>
 he seems to take a great interest in the seig<lb break="no"/>niors—the hon. member need not be uneasy <lb/>
 at all. <lb/>
             </p>
-            <p> HON. MR. BUREAU—What I stated was, <lb/>
+            <p> <persName ref="pers:BURE2">HON. MR. BUREAU</persName>—What I stated was, <lb/>
 that under the authority of a public act, <lb/>
 special appropriations have been made for the <lb/>
 redemption of the debt due to the seigniors, <lb/>
@@ -4040,8 +4044,8 @@ wish to push the argument further; and I <lb/>
 may state that it was only for the sake of <lb/>
 argument that I advanced the proposition. <lb/>
             </p>
-            <p> HON.
-SIR E. P. TACHÉ— No law has <lb/>
+            <p> <persName ref="pers:TACH1">HON.
+SIR E. P. TACHÉ</persName>— No law has <lb/>
 been repealed—no repudiation taken place. <lb/>
 The seignors, as it appears to me—I may not <lb/>
 have understood the law, for I am no lawyer <lb/>
@@ -4100,9 +4104,9 @@ perfectly un<lb break="no"/>der him; but then he died here, and
 honora<lb break="no"/>ble gentlemen must understand that Lord <lb/>
 METCALF was opposed to responsible gov<lb break="no"/>ernment. <lb/>
             </p>
-            <p> HON. MR. BUREAU—Still we had re<lb break="no"/>sponsible government. <lb/>
+            <p> <persName ref="pers:BURE2">HON. MR. BUREAU</persName>—Still we had re<lb break="no"/>sponsible government. <lb/>
             </p>
-            <p> HON. SIR E. P. TACHÉ—You had it in <lb/>
+            <p> <persName ref="pers:TACH1">HON. SIR E. P. TACHÉ</persName>—You had it in <lb/>
 name only, but not in practice; otherwise Hon. <lb/>
 Mr. BALDWIN and on. Mr. LAFONTAINE <lb/>
 would never have left the Cabinet. They re<lb break="no"/>signed their seats in Council because they held <lb/>
@@ -4121,18 +4125,18 @@ was wrong, is no case at all. It is not appli<lb break="no"/>cable in any respec
 because, I repeat it again. we had not respon<lb break="no"/>sible government at that time. <lb/>
             </p>
 
-            <p> Hon. MR. BUREAU—We have not<lb/>
+            <p> <persName ref="pers:BURE2">Hon. MR. BUREAU</persName>—We have not<lb/>
 responsible government yet,
 then. <lb/>
             </p>
-            <p> Hon. SIR E. P. TACHÉ—How does the <lb/>
+            <p> <persName ref="pers:TACH1">Hon. SIR E. P. TACHÉ</persName>—How does the <lb/>
 honorable gentleman make that out? <lb/>
             </p>
-            <p> HON. MR. BUREAU—The honorable gen<lb break="no"/>tleman has stated that since the death of <lb/>
+            <p> <persName ref="pers:BURE2">HON. MR. BUREAU</persName>—The honorable gen<lb break="no"/>tleman has stated that since the death of <lb/>
 Lord BAGOT we have not had responsible <lb/>
 government. <lb/>
             </p>
-            <p> HON. SIR E. P. TACHÉ—The honorable <lb/>
+            <p> <persName ref="pers:TACH1">HON. SIR E. P. TACHÉ</persName>—The honorable <lb/>
 gentleman cannot surely have
 understood me. <lb/>
 I think I said that under Lord METCALF <lb/>
@@ -4152,7 +4156,7 @@ that I have destroyed my notes, and I am <lb/>
 ready to await the verdict of this honorable <lb/>
 House. (Applause) <lb/>
             </p>
-            <p> HON. MR. VIDAL said—Honorable gentle<lb break="no"/>men, as I consider it my duty to vote for <lb/>
+            <p> <persName ref="pers:VIDA1">HON. MR. VIDAL</persName> said—Honorable gentle<lb break="no"/>men, as I consider it my duty to vote for <lb/>
 the motion now before the House, I think it <lb/>
 desirable to clear myself from the imputation <lb/>
 of inconsistency in having supported the <lb/>
@@ -4200,8 +4204,8 @@ Olivier, Proulx, Reesor,
 Seymour, and Simpson. <lb/>
             </p></quote>
 
-            <p> HON. SIR E. P. TACHÉ moved, seconded <lb/>
-by Hon. Mr. FERGUSSON BLAIR, that a select <lb/>
+            <p> <persName ref="pers:TACH1">HON. SIR E. P. TACHÉ</persName> moved, seconded <lb/>
+by <persName ref="pers:BLAI2">Hon. Mr. FERGUSSON BLAIR</persName>, that a select <lb/>
 committee be appointed to draft an Address <lb/>
 founded on the said resolution, and that the <lb/>
 committee be composed of Honorable Messrs. <lb/>
@@ -4211,10 +4215,10 @@ CAMPBELL, FERGUSSON BLAIR, ROSS,CHRIS<lb break="no"/>TIE, Sir N. F. BELLEAU, and
 <lb/>
 on resuming, <lb/>
             </p>
-            <p> HON. SIR E. P. TACHÉ reported the Ad<lb break="no"/>dress, and moved, seconded by Hon. Mr. FER<lb break="no"/>GUSSON BLAIR, that it be agreed to.— Carried. <lb/>
+            <p> <persName ref="pers:TACH1">HON. SIR E. P. TACHÉ</persName> reported the Ad<lb break="no"/>dress, and moved, seconded by <persName ref="pers:BLAI2">Hon. Mr. FER<lb break="no"/>GUSSON BLAIR</persName>, that it be agreed to.— Carried. <lb/>
             </p>
             <p> It was then ordered that the Address be <lb/>
-engrossed, signed by the SPEAKER, and pre<lb break="no"/>sented to His Excellency the Governor Gen<lb break="no"/>eral by the whole House. It was also ordered <lb/>
+engrossed, signed by <persName ref="pers:SPEA1">the SPEAKER</persName>, and pre<lb break="no"/>sented to His Excellency the Governor Gen<lb break="no"/>eral by the whole House. It was also ordered <lb/>
 that such members of the Executive Council <lb/>
 as are members of this House, do wait on <lb/>
 His Excellency the Governor General, to <lb/>

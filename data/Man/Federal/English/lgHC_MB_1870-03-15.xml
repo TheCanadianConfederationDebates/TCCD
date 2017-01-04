@@ -58,6 +58,8 @@
          <change who="mholmes" when="2016-12-12">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-12">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -79,8 +81,8 @@
      HOUSE OF COMMONS 
      <lb/></head>
 
-     <fw type="dateline">Tuesday, March 15, 1870 
-     <lb/></fw>
+     <p>Tuesday, March 15, 1870 
+     <lb/></p>
      
 <p>The Speaker took the chair at three o’clock. 
      <lb/>
@@ -94,7 +96,7 @@
             </head>
    
             <p>
-     Hon. Dr. Tupper presented the report of the 
+     <persName ref="pers:TUPP1">Hon. Dr. Tupper</persName> presented the report of the 
      <lb/>
      Joint Committee on the subject of reporting 
      <lb/>
@@ -114,7 +116,7 @@
             </head>
    
             <p>
-     Mr. Fortin presented the first report of the 
+     <persName ref="pers:FORT3">Mr. Fortin</persName> presented the first report of the 
      <lb/>
      Select Committee on Fisheries, Navigation, 
      <lb/>
@@ -136,7 +138,7 @@
             </head>
    
             <p>
-     Hon. Sir George-E. Cartier laid on the table 
+     <persName ref="pers:CART2">Hon. Sir George-E. Cartier</persName> laid on the table 
      <lb/>
      a return of the costs connected with the office 
      <lb/>
@@ -154,7 +156,7 @@
             </head>
    
             <p>
-     Hon. Sir John A. Macdonald laid on the 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> laid on the 
      <lb/>
      table correspondence respecting the depreda<lb break="no"/>tions committed by American fishermen. 
      <lb/>
@@ -168,7 +170,7 @@
             </head>
    
             <p>
-     Hon. Mr. Dorion introduced a Bill intituled: 
+     <persName ref="pers:DORI1">Hon. Mr. Dorion</persName> introduced a Bill intituled: 
      <lb/>
      “An Act to continue in force the provisions of 
      <lb/>
@@ -184,7 +186,7 @@
             </head>
    
             <p>
-     Hon. Mr. Morris presented the report of the 
+     <persName ref="pers:MORR1">Hon. Mr. Morris</persName> presented the report of the 
      <lb/>
      Committee on undue publication of the North- 
      <lb break="yes"/>
@@ -206,7 +208,7 @@
             </head>
    
             <p>
-     Hon. Mr. Langevin introduced a Bill 
+     <persName ref="pers:LANG1">Hon. Mr. Langevin</persName> introduced a Bill 
      <lb/>
      intituled: “An Act to further amend the Acts 
      <lb/>

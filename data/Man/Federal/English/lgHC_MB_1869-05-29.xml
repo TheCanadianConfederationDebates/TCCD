@@ -69,6 +69,8 @@
          <change who="mholmes" when="2016-12-12">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-12">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -94,12 +96,11 @@
             <pb n="511" facs="final/images/Man_H_of_C_1869-05-29_Page_0511.jpg"/>
             
 <div type="section">
-<head>
-               HOUSE OF COMMONS 
+<head>HOUSE OF COMMONS 
                <lb/></head>
 
-              <fw type="dateline">Saturday, May 29, 1869 
-               <lb/></fw>
+              <p>Saturday, May 29, 1869 
+               <lb/></p>
 <p>
                The Speaker took the chair at three o’clock. 
                <lb/>
@@ -115,7 +116,7 @@
 
             
             <p>
-               Mr. Bowman presented a petition from 160 
+               <persName ref="pers:BOWM1">Mr. Bowman</persName> presented a petition from 160 
                <lb/>
                inhabitants of Berlin for the repeal of the 
                <lb/>
@@ -127,7 +128,7 @@
          
             
             <p>
-               Mr. Oliver presented a report from the Se<lb break="no"/>lect Committee appointed to consider the best 
+               <persName ref="pers:OLIV2">Mr. Oliver</persName> presented a report from the Se<lb break="no"/>lect Committee appointed to consider the best 
                <lb/>
                means of relieving the country from the exist<lb break="no"/>ing plethora of American silver. The Commit<lb break="no"/>tee expressed the opinion that, all private ef<lb break="no"/>forts to remove the silver from circulation 
                <lb/>
@@ -155,7 +156,7 @@
          
             
             <p>
-               Sir George E. Cartier moved consurrence in 
+               <persName ref="pers:CART2">Sir George E. Cartier</persName> moved consurrence in 
                <lb/>
                the resoltuions reported from Committee of the 
                <lb/>
@@ -169,7 +170,7 @@
          
             
             <p>
-               Hon. John Sandﬁeld Macdonald said he did 
+               <persName ref="pers:MACD2">Hon. John Sandﬁeld Macdonald</persName> said he did 
                <lb/>
                not take credit for having done anything by 
                <lb/>
@@ -234,7 +235,7 @@
          
             
             <p>
-               Mr. Mackenzie said before these questions 
+               <persName ref="pers:MACK1">Mr. Mackenzie</persName> said before these questions 
                <lb/>
                were answered he would suggest the pro<lb break="no"/>priety of conﬁning the discussion at present 
                <lb/>
@@ -258,7 +259,7 @@
          
             
             <p>
-               Sir George E. Cartier said the member for 
+               <persName ref="pers:CART2">Sir George E. Cartier</persName> said the member for 
                <lb/>
                Lambton had taken the correct view of the 
                <lb/>
@@ -310,7 +311,7 @@
          
             
             <p>
-               Hon. Mr. Smith alluded to the statement 
+               <persName ref="pers:SMIT1">Hon. Mr. Smith</persName> alluded to the statement 
                <lb/>
                of the Quebec Conference, that this territory 
                <lb/>
@@ -360,7 +361,7 @@
          
             
             <p>
-               Hon. Mr. Tilley denied that any advocate of 
+               <persName ref="pers:TILL1">Hon. Mr. Tilley</persName> denied that any advocate of 
                <lb/>
                Confederation in the Maritime Provinces, and 
                <lb/>
@@ -386,7 +387,7 @@
          
             
             <p>
-               Mr. Brown advocated prompt action in the 
+               <persName ref="pers:BROW1">Mr. Brown</persName> advocated prompt action in the 
                <lb/>
                interests of the settlers in the North West, as 
                <lb/>
@@ -475,7 +476,7 @@
          
             
             <p>
-               Mr. Ferguson desired to say a word or two 
+               <persName ref="pers:FERG1">Mr. Ferguson</persName> desired to say a word or two 
                <lb/>
                in reply to the member for Westmoreland. 
                <lb/>
@@ -527,7 +528,7 @@
          
             
             <p>
-               Mr. Thompson. (Ont. N.) strongly advocated 
+               <persName ref="pers:THOM4">Mr. Thompson</persName>. (Ont. N.) strongly advocated 
                <lb/>
                the construction of a railroad to open up 
                <lb/>
@@ -577,9 +578,9 @@
          
             
             <p>
-               On motion of Sir George E. Cartier seconded 
+               On motion of <persName ref="pers:CART2">Sir George E. Cartier</persName> seconded 
                <lb/>
-               by Hon. Mr. McDougall, it was resolved “that 
+               by <persName ref="pers:MCDO7">Hon. Mr. McDougall</persName>, it was resolved “that 
                <lb/>
                an address embodying the resolutions be 
                <lb/>
@@ -617,7 +618,7 @@
          
             
             <p>
-               Sir George E. Cartier moved the second 
+               <persName ref="pers:CART2">Sir George E. Cartier</persName> moved the second 
                <lb/>
                reading of the Bill respecting Patents of In<lb break="no"/>vention, from the Senate. It was, he said, the 
                <lb/>
@@ -673,7 +674,7 @@
          
             
             <p>
-               Mr. Mackenzie desired to ask an explana<lb break="no"/>tion on one point. It was said that patents 
+               <persName ref="pers:MACK1">Mr. Mackenzie</persName> desired to ask an explana<lb break="no"/>tion on one point. It was said that patents 
                <lb/>
                in New Brunswick were to be made to cover 
                <lb/>

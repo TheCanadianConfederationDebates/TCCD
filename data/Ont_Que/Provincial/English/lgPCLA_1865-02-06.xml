@@ -117,6 +117,8 @@
          <change who="mholmes" when="2016-11-01">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-01">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-11-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -294,12 +296,12 @@
             <head>LEGISLATIVE ASSEMBLY.</head></div>
  
  <div type="section">
-            <fw type="dateline">
+            <p>
                MONDAY, <hi rendition="simple:italic">February</hi> 6, 1865. 
      <lb/>
-            </fw>
+            </p>
             <p>
-     ATTORNEY GENERAL MACDONALD 
+     <persName ref="pers:MACD1">ATTORNEY GENERAL MACDONALD</persName> 
      <lb/>
      moved, “ That an humble Address be pre<lb break="no"/>sented to Her Majesty, praying that She 
      <lb/>

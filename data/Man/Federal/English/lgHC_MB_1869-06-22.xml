@@ -61,6 +61,8 @@
          <change who="mholmes" when="2016-12-06">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-06">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -75,6 +77,7 @@
       <body>
          <div type="debate">
             <pb n="932" facs="final/images/Man_H_of_C_1869-06-22_Page_0932.jpg"/>
+<fw type="num">932</fw> <fw type="running">COMMONS DEBATES</fw> <fw type="dateline">June 22, 1869</fw>
             
 <p>
      ment; and also to authorize, if necessary, the 
@@ -267,7 +270,7 @@
             </p>
    
             <p>
-     Hon. Mr. Cauchon then announced that 
+     <persName ref="pers:CAUC1">Hon. Mr. Cauchon</persName> then announced that 
      <lb/>
      His Excellency was pleased to prorogue Par<lb break="no"/>liament to the 3lst of July, and Parliament 
      <lb/>

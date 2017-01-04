@@ -69,6 +69,8 @@
          <change who="mholmes" when="2016-12-08">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-08">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -102,9 +104,9 @@
      HOUSE OF COMMONS 
      <lb/></head>
 
-    <fw type="dateline">Thursday, February 24, 1870 
+    <p>Thursday, February 24, 1870 
      <lb/>
-            </fw>
+            </p>
    
             <p>
      The Speaker took the chair at three o’clock. 
@@ -119,7 +121,7 @@
             </head>
    
             <p>
-     Mr. Ryan (Montreal West) presented a peti<lb break="no"/>tion from the Hon. John Young for an Act of 
+     <persName ref="pers:RYAN2">Mr. Ryan</persName> (Montreal West) presented a peti<lb break="no"/>tion from the Hon. John Young for an Act of 
      <lb/>
      Incorporation of a Company to construct a 
      <lb/>
@@ -137,7 +139,7 @@
             </head>
    
             <p>
-     Mr. Dufresne complained that he had been 
+     <persName ref="pers:DUFR1">Mr. Dufresne</persName> complained that he had been 
      <lb/>
      misreported in a speech he delivered on Tues<lb break="no"/>day evening. The explanations which he gave 
      <lb/>
@@ -153,7 +155,7 @@
             </head>
    
             <p>
-     Hon. Sir John A. Macdonald moved the 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> moved the 
      <lb/>
      appointment of a special committee to examine 
      <lb/>
@@ -170,7 +172,7 @@
             </p>
    
             <p>
-     Hon. Sir George-É. Cartier referred to a 
+     <persName ref="pers:CART2">Hon. Sir George-É. Cartier</persName> referred to a 
      <lb/>
      remark of the hon. member for North Lanark, 
      <lb/>
@@ -193,7 +195,7 @@
             </p>
    
             <p>
-     Hon. Mr. McDougall called attention to the 
+     <persName ref="pers:MCDO7">Hon. Mr. McDougall</persName> called attention to the 
      <lb/>
      great difficulty under which the reporters 
      <lb/>
@@ -416,7 +418,7 @@
             </p>
    
             <p>
-     Hon. Sir John A. Macdonald said that he 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> said that he 
      <lb/>
      was in Opposition at the time of the Manitou<lb break="no"/>lin transaction referred to, and was not 
      <lb/>
@@ -437,7 +439,7 @@
             </p>
    
             <p>
-     Mr. Simpson (Algoma) said that he had 
+     <persName ref="pers:SIMP2">Mr. Simpson</persName> (Algoma) said that he had 
      <lb/>
      some knowledge of the state of matters in 
      <lb/>
@@ -460,7 +462,7 @@
             </p>
    
             <p>
-     Mr. Mackenzie said it was very strange that 
+     <persName ref="pers:MACK1">Mr. Mackenzie</persName> said it was very strange that 
      <lb/>
      these statements should appear in what were 
      <lb/>
@@ -484,7 +486,7 @@
             </p>
    
             <p>
-     Hon. Sir John A. Macdonald said that he 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> said that he 
      <lb/>
      had always been personally opposed to what 
      <lb/>
@@ -517,7 +519,7 @@
             </p>
    
             <p>
-     Hon. Mr. Howe considered it due to himself 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName> considered it due to himself 
      <lb/>
      to make an observation. He hardly knew any<lb break="no"/>body that could influence a newspaper. He had 
      <lb/>
@@ -558,7 +560,7 @@
             </p>
    
             <p>
-     Mr. Mackenzie—How do you know I admire 
+     <persName ref="pers:MACK1">Mr. Mackenzie</persName>—How do you know I admire 
      <lb/>
      it? 
      <lb/>
@@ -576,7 +578,7 @@
             </p>-->
    
             <p>
-     The Speaker then presented a message from 
+     <persName ref="pers:SPEA1">The Speaker</persName> then presented a message from 
      <lb/>
      His Excellency with the papers relative to the 
      <lb/>
@@ -589,7 +591,7 @@
             </p>
    
             <p>
-     Hon. Sir John A. Macdonald moved, that 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> moved, that 
      <lb/>
      when the House adjourns, it stand adjourned 
      <lb/>
@@ -598,7 +600,7 @@
             </p>
    
             <p>
-     Hon. Mr. Holton said the House might fairly 
+     <persName ref="pers:HOLT1">Hon. Mr. Holton</persName> said the House might fairly 
      <lb/>
      enough use an hour or two tomorrow afternoon 
      <lb/>
@@ -623,7 +625,7 @@
             </head>
    
             <p>
-     Hon. Sir John A. Macdonald introduced a 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> introduced a 
      <lb/>
      bill intituled: “An Act respecting elections of 
      <lb/>
@@ -660,7 +662,7 @@
             </head>
    
             <p>
-     Hon. Sir John A. Macdonald said he had 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> said he had 
      <lb/>
      intended to introduce a bill respecting the 
      <lb/>
@@ -677,14 +679,14 @@
             </p>
    
             <p>
-     Mr. Blake asked if the Hon. Minister of Jus<lb break="no"/>tice would bring down the statements of the 
+     <persName ref="pers:BLAK1">Mr. Blake</persName> asked if the Hon. Minister of Jus<lb break="no"/>tice would bring down the statements of the 
      <lb/>
      Judiciary and Bar. 
      <lb/>
             </p>
    
             <p>
-     Hon. Sir John A. Macdonald—Certainly. He 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName>—Certainly. He 
      <lb/>
      would be very glad to do so. 
      <lb/>
@@ -698,7 +700,7 @@
             </head>
    
             <p>
-     Hon. Mr. Langevin introduced a bill 
+     <persName ref="pers:LANG1">Hon. Mr. Langevin</persName> introduced a bill 
      <lb/>
      intituled: “An Act to extend the powers of 
      <lb/>
@@ -709,7 +711,7 @@
             </p>
    
             <p>
-     Hon. Mr. Young inquired the amount of 
+     <persName ref="pers:YOUN2">Hon. Mr. Young</persName> inquired the amount of 
      <lb/>
     salary and allowances to the Dominion Arbi<lb break="no"/>trators. 
      <lb/>

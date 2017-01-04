@@ -79,6 +79,8 @@
          <change who="mholmes" when="2016-12-01">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-01">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-11-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -184,15 +186,15 @@
             </p>
             <milestone type="unknown"/>-->
 
-
-            <fw type="running">LEGISLATIVE ASSEMBLY.</fw>
-            <fw type="dateline">
+<div type="section">
+            <head>LEGISLATIVE ASSEMBLY.</head>
+            <p>
      FRIDAY, <hi rendition="simple:italic">February</hi> 3, 1865. 
      <lb/>
-            </fw>
+            </p>
            
  <p>
-     ATTY. GEN. MACDONALD said the 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said the 
      <lb/>
      Speaker having desired that he should not go 
      <lb/>
@@ -227,7 +229,7 @@
             </p>
 
             <p>
-     HON. J. S. MACDONALD said the Attor<lb break="no"/>ney General’s proposition that discussion 
+     <persName ref="pers:MACD2">HON. J. S. MACDONALD</persName> said the Attor<lb break="no"/>ney General’s proposition that discussion 
      <lb/>
      should continue day after day, was one which, 
      <lb/>
@@ -250,7 +252,7 @@
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said he had 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said he had 
      <lb/>
      not stated this. His idea was that after the 
      <lb/>
@@ -269,7 +271,7 @@
             </p>
 
             <p>
-     HON. J. S. MACDONALD said other 
+     <persName ref="pers:MACD2">HON. J. S. MACDONALD</persName> said other 
      <lb/>
      changes of no less importance than this, with 
      <lb/>
@@ -331,7 +333,7 @@
     
 
             <p>
-     ATTY. GEN. MACDONALD said there 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said there 
      <lb/>
      was nothing irregular in his proposing that 
      <lb/>
@@ -346,7 +348,7 @@
             </p>
 
             <p>
-     HON. J. H. CAMERON approved of the 
+     <persName ref="pers:CAME2">HON. J. H. CAMERON</persName> approved of the 
      <lb/>
      proposition that discussion be conducted with 
      <lb/>
@@ -369,7 +371,7 @@
             </p>
 
             <p>
-     HON. MR. HOLTON said he had not 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> said he had not 
      <lb/>
      regarded the Attorney General’s proposition 
      <lb/>
@@ -392,7 +394,7 @@
             </p>
 
             <p>
-     HON. MR. BROWN said the member for 
+     <persName ref="pers:BROW4">HON. MR. BROWN</persName> said the member for 
      <lb/>
      Chateauguay had rightly apprehended the 
      <lb/>
@@ -450,12 +452,12 @@
    
 
             <p>
-     After some remarks by Hon. Mr. CAU<lb break="no"/>CHON and Mr. DUNKIN, 
+     After some remarks by Hon. <persName ref="pers:CAUC1">Mr. CAU<lb break="no"/>CHON</persName> and <persName ref="pers:DUNK1">Mr. DUNKIN</persName>, 
      <lb/>
             </p>
 
             <p>
-     Mr. POWELL asked whether the House 
+     <persName ref="pers:POWE2">Mr. POWELL</persName> asked whether the House 
      <lb/>
      was expected to adopt the scheme in its 
      <lb/>
@@ -468,31 +470,31 @@
             </p>
 
             <p>
-     HON. MR. HOLTON—That is not a fair 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> —That is not a fair 
      <lb/>
      question. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. BROWN—Perfectly fair. 
+     <persName ref="pers:BROW4">HON. MR. BROWN</persName> —Perfectly fair. 
      <lb/>
             </p>
 
             <p>
-     MR. POWELL thought Mr. Holton's re<lb break="no"/>gard for fair play excessive, when it even im<lb break="no"/>pelled him to interfere on behalf of the Ad<lb break="no"/>ministration. 
+     <persName ref="pers:POWE2">MR. POWELL</persName> thought Mr. Holton's re<lb break="no"/>gard for fair play excessive, when it even im<lb break="no"/>pelled him to interfere on behalf of the Ad<lb break="no"/>ministration. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. HOLTON—I think it would be 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> —I think it would be 
      <lb/>
      unfair to answer such a question. 
      <lb/>
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said he agreed 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said he agreed 
      <lb/>
      that Mr. Cameron’s proposition was a reason<lb break="no"/>able one. The Government would, in the first 
      <lb/>
@@ -624,7 +626,7 @@
             </p>
 
             <p>
-     HON. MR. HOLTON would like to inquire 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> would like to inquire 
      <lb/>
      whether, according to the course of proceed<lb break="no"/>ing proposed by the Attorney General, the 
      <lb/>
@@ -635,7 +637,7 @@
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said “ no." 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said “ no." 
      <lb/>
      The proposition submitted to the House is 
      <lb/>
@@ -654,7 +656,7 @@
             </p>
 
             <p>
-     HON. MR. HOLTON held that the Govern<lb break="no"/>ment ought to ask for an affirmative vote from 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> held that the Govern<lb break="no"/>ment ought to ask for an affirmative vote from 
      <lb/>
      the House on each of these resolutions. They 
      <lb/>
@@ -675,7 +677,7 @@
             </p>
 
             <p>
-     HON. MR. CAUCHON wished information 
+     <persName ref="pers:CAUC1">HON. MR. CAUCHON</persName> wished information 
      <lb/>
      as to whether the scheme was to be discussed 
      <lb/>
@@ -714,7 +716,7 @@
             </p>
 
             <p>
-     HON. A. A. DORION said the member for 
+     <persName ref="pers:DORI1">HON. A. A. DORION</persName> said the member for 
      <lb/>
      Montmorency misapprehended the scope of the 
      <lb/>
@@ -765,7 +767,7 @@
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD could under<lb break="no"/>stand the object of the hon. member for 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> could under<lb break="no"/>stand the object of the hon. member for 
      <lb/>
      Hochelaga. That hon. gentleman was op<lb break="no"/>posed to Confederation, and the course he pro<lb break="no"/>posed was just that which was calculated to 
      <lb/>
@@ -796,14 +798,14 @@
             </p>
 
             <p>
-     HON. MR. HOLTON—Why not bring that 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> —Why not bring that 
      <lb/>
      measure down with this ? 
      <lb/>
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said that they 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said that they 
      <lb/>
      were two different propositions, and they could 
      <lb/>
@@ -832,7 +834,7 @@
             </p>
 
             <p>
-     HON. J. S. MACDONALD comment<lb break="no"/>ed upon the declaration that the resolu<lb break="no"/>tions of the Conference were tantamount to 
+     <persName ref="pers:MACD2">HON. J. S. MACDONALD</persName> comment<lb break="no"/>ed upon the declaration that the resolu<lb break="no"/>tions of the Conference were tantamount to 
      <lb/>
      a treaty, and asked by what authority the 
      <lb/>
@@ -849,14 +851,14 @@
             </p>
 
             <p>
-     MR. THOMAS FERGUSON asked whe<lb break="no"/>ther it was the intention of the Government to 
+     <persName ref="pers:FERG2">MR. THOMAS FERGUSON</persName> asked whe<lb break="no"/>ther it was the intention of the Government to 
      <lb/>
      carry this measure into force without submit<lb break="no"/>ting it to the peopele ? 
      <lb/>
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said he could 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said he could 
      <lb/>
     answer his honorable friend at once. If this 
      <lb/>measure received the support of the House, 
@@ -865,7 +867,7 @@
      <lb/>consider whether there should not be an ap<lb break="no"/>peal to the country. (Hear, hear, and laugh<lb break="no"/>ter. 
      <lb/>
             </p>
-            <p>MR. SCATCHERD asked whether it was 
+            <p> <persName ref="pers:SCAT1">MR. SCATCHERD</persName> asked whether it was 
      <lb/>intended to make any amendments in the 
      <lb/>scheme to meet the suggestions contained. in 
      <lb/>the despatch of the Colonial Secretary. 
@@ -875,7 +877,7 @@
     
 
             <p>
-     ATTY. GEN. MACDONALD, in reply, 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName>, in reply, 
      <lb/>
      said of course he could not answer what the 
      <lb/>
@@ -916,7 +918,7 @@
             </p>
 
             <p>
-     HON. MR. HOLTON said he had given 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> said he had given 
      <lb/>
      notice the other day of three questions he in<lb break="no"/>tended to put to the Government before going 
      <lb/>
@@ -931,10 +933,10 @@
      trusted there would be no objection to his put<lb break="no"/>ting them now. 
      <lb/>
             </p>
-            <p>ATTY. GEN. MACDONALD—No, go on. 
+            <p> <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> —No, go on. 
      <lb/>
             </p>
-            <p>HON. MR. HOLTON said the first question 
+            <p> <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> said the first question 
      <lb/>had a reference to the subject to which the 
      <lb/>Attorney General had alluded in the course of 
      <lb/>his remarks just now. It was, whether it was 
@@ -1036,7 +1038,7 @@
             </p>
 
             <p>
-     HON. MR. HOLTON, continuing his re<lb break="no"/>marks, said it appeared now to be proposed to 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName>, continuing his re<lb break="no"/>marks, said it appeared now to be proposed to 
      <lb/>
      make the construction of a railwa part of the 
      <lb/>
@@ -1083,7 +1085,7 @@
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said the 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said the 
      <lb/>
      Government would cheerfully give an answer 
      <lb/>
@@ -1138,14 +1140,14 @@
             </p>
 
             <p>
-     HON. A. A. DORION—Will it apply to 
+     <persName ref="pers:DORI1">HON. A. A. DORION</persName> —Will it apply to 
      <lb/>
      both Upper and Lower Canada ? 
      <lb/>
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said he be<lb break="no"/>lieved, as regarded Upper Canada, the matter 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said he be<lb break="no"/>lieved, as regarded Upper Canada, the matter 
      <lb/>
      would remain in <hi rendition="simple:italic">statu quo</hi>, as the present law 
      <lb/>
@@ -1182,7 +1184,7 @@
             </p>
 
             <p>
-     MR. WALLBRIDGE asked if he was to 
+     <persName ref="UNSPECIFIED">MR. WALLBRIDGE</persName> asked if he was to 
      <lb/>
      understand that a guarantee was to be given in 
      <lb/>
@@ -1193,7 +1195,7 @@
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD—I only said 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> —I only said 
      <lb/>
      this, that before Confederation is adopted, the 
      <lb/>
@@ -1210,7 +1212,7 @@
             </p>
 
             <p>
-     HON. MR. BROWN said Hon. Mr. HOLTON 
+     <persName ref="pers:BROW4">HON. MR. BROWN</persName> said Hon. Mr. HOLTON 
      <lb/>
      had done no injustice to him in supposing he 
      <lb/>
@@ -1241,14 +1243,14 @@
             <p>
      The discussion was then made regular by 
      <lb/>
-     Atty. Gen. MACDONALD formally proposing 
+     <persName ref="pers:MACD1">Atty. Gen. MACDONALD</persName> formally proposing 
      <lb/>
      that an Address be presented to Her Majesty. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. HOLTON said that the uni<lb break="no"/>versal law of Parliament with respect either 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> said that the uni<lb break="no"/>versal law of Parliament with respect either 
      <lb/>
      to bills or addresses looking to the disposal of 
      <lb/>
@@ -1299,7 +1301,7 @@
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said that 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said that 
      <lb/>
      any measure appropriating  money must origi<lb break="no"/>nate in Committee of the Whole, but it was 
      <lb/>
@@ -1322,7 +1324,7 @@
             </p>
    
             <p>
-     HON. A. A. DORION—There is nothing 
+     <persName ref="pers:DORI1">HON. A. A. DORION</persName> —There is nothing 
      <lb/>
      more plain than that, according to the stand<lb break="no"/>ing order of the House of Commons, any 
      <lb/>
@@ -1345,7 +1347,7 @@
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD—That will 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> —That will 
      <lb/>
      be made by the Confederate Government, not 
      <lb/>
@@ -1356,7 +1358,7 @@
             </p>
 
             <p>
-     HON. A. A. DORION—Nor do you ever 
+     <persName ref="pers:DORI1">HON. A. A. DORION</persName> —Nor do you ever 
      <lb/>
      grant money when you ask the Crown to re<lb break="no"/>commend the grant, since the Crown may re<lb break="no"/>fuse ; surely if a matter involving $5 or $50 
      <lb/>
@@ -1365,7 +1367,7 @@
             </p>
 
             <p>
-     ATTY. GEN. CARTIER spoke of Hon. Mr. 
+     <persName ref="pers:CART2">ATTY. GEN. CARTIER</persName> spoke of Hon. Mr. 
      <lb/>
      DORION’S remarks as absurd, as not a farthing of 
      <lb/>
@@ -1391,7 +1393,7 @@
             </p>
 
             <p>
-     MR. DUNKIN —The Attorney General was 
+     <persName ref="pers:DUNK1">MR. DUNKIN</persName> —The Attorney General was 
      <lb/>
      the very BAYARD of defenders of every little 
      <lb/>
@@ -1421,7 +1423,7 @@
     
 
             <p>
-     HON. MR. GALT said clearly no charge 
+     <persName ref="pers:GALT1">HON. MR. GALT</persName> said clearly no charge 
      <lb/>
      was put on the people by this Address ; not a 
      <lb/>
@@ -1444,7 +1446,7 @@
             </p>
 
             <p>
-     Mr. SPEAKER decided as follows :-<lb/>
+     <persName ref="pers:SPEA1">Mr. SPEAKER</persName> decided as follows :-<lb/>
             </p>
 
             <quote rendition="tccd:blockquote">The honorable member for Chateauguay has 
@@ -1594,7 +1596,7 @@
     
    
             <p>
-     ATTY. GEN. MACDONALD moved 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> moved 
      <lb/>
      that the debate be adjourned and made 
      <lb/>
@@ -1605,7 +1607,7 @@
             </p>
 
             <p>
-     HON. MR. HOLTON raised the objection 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> raised the objection 
      <lb/>
      that this motion could not be put without 
      <lb/>
@@ -1614,7 +1616,7 @@
             </p>
 
             <p>
-     ATTY. GEN. MACDONALD said if this 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> said if this 
      <lb/>
      was the sort of tactics to be pursued, and an 
      <lb/>
@@ -1633,11 +1635,11 @@
             </p>
 
             <p>
-     After some discussion, Hon. Mr. HOLTON 
+     After some discussion, <persName ref="pers:HOLT1">Hon. Mr. HOLTON</persName> 
      <lb/>
-     withdrew his objection, and Atty. Gen. 
+     withdrew his objection, and <persName ref="pers:MACD1">Atty. Gen. 
      <lb/>
-     MACDONALD his notice. 
+     MACDONALD</persName> his notice. 
      <lb/>
             </p>
 
@@ -1701,7 +1703,7 @@
      <lb/>
             </p>-->
 
-         </div>
+    </div>     </div>
       </body>
    </text>
 </TEI>

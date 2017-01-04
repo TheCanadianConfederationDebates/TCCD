@@ -118,6 +118,8 @@
          <change who="mholmes" when="2016-12-08">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-08">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -199,8 +201,8 @@
      HOUSE OF COMMONS 
      <lb/></head>
 
-     <fw type="dateline">Monday, February 21, 1870 
-     <lb/></fw>
+     <p>Monday, February 21, 1870 
+     <lb/></p>
            
    
             <p>
@@ -223,7 +225,7 @@
             </head>
    
             <p>
-     Hon. Mr. Howe resumed the debate on the 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName> resumed the debate on the 
      <lb/>
      Address. After referring to the ceremony at the 
      <lb/>
@@ -552,12 +554,12 @@
      February 21, 1870<lb/>
             </fw>
             <p>
-     Hon. Mr. Bolton—What date? 
+     <persName ref="pers:BOLT1">Hon. Mr. Bolton</persName>—What date? 
      <lb/>
             </p>
    
             <p>
-     Hon. Mr. Howe—About the 1st of October. 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName>—About the 1st of October. 
      <lb/>
      On the way to Fort Garry there was no 
      <lb/>
@@ -971,14 +973,14 @@
             </p>
    
             <p>
-     A Member—It has been in his face ever 
+     <persName ref="UNSPECIFIED">A Member</persName>—It has been in his face ever 
      <lb/>
      since. (A laugh.) 
      <lb/>
             </p>
    
             <p>
-     Hon. Mr. Howe—If hon. gentlemen had been 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName>—If hon. gentlemen had been 
      <lb/>
      on the open prairie that bitter morning, he 
      <lb/>
@@ -1025,7 +1027,7 @@
             </p>
    
             <p>
-     Hon. Mr. McDougall desired to make a few 
+     <persName ref="pers:MCDO7">Hon. Mr. McDougall</persName> desired to make a few 
      <lb/>
      remarks in reply to the honourable Secretary 
      <lb/>
@@ -1433,14 +1435,14 @@
             </p>
    
             <p>
-     Hon. Mr. Howe—I never was at the houses 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName>—I never was at the houses 
      <lb/>
      of either Bannatyne or McKenny. 
      <lb/>
             </p>
    
             <p>
-     Mr. Mackenzie Understood the honourable 
+     <persName ref="pers:MACK1">Mr. Mackenzie</persName> Understood the honourable 
      <lb/>
      gentleman to say that he had been at Mr. 
      <lb/>
@@ -1449,7 +1451,7 @@
             </p>
    
             <p>
-     Hon. Mr. McDougall said that he understood 
+     <persName ref="pers:MCDO7">Hon. Mr. McDougall</persName> said that he understood 
      <lb/>
      that the British flag had been raised over the 
      <lb/>
@@ -1743,7 +1745,7 @@
             </p>
    
             <p>
-     Hon. Mr. Howe said he had heard for the 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName> said he had heard for the 
      <lb/>
      first time the letter which the member for 
      <lb/>
@@ -1891,7 +1893,7 @@
             </p>
    
             <p>
-     Mr. Blake desired to say a few words, not 
+     <persName ref="pers:BLAK1">Mr. Blake</persName> desired to say a few words, not 
      <lb/>
      upon the policy of the Government in regard to 
      <lb/>
@@ -1942,7 +1944,7 @@
             </p>
    
             <p>
-     Hon. Mr. Howe—Not only did I not attempt 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName>—Not only did I not attempt 
      <lb/>
      to instigate armed insurrections or to bar out 
      <lb/>
@@ -1965,7 +1967,7 @@
             </p>
    
             <p>
-     Mr. Blake—To tell disaffected people who 
+     <persName ref="pers:BLAK1">Mr. Blake</persName>—To tell disaffected people who 
      <lb/>
      suspected their Governor, that if he was a 
      <lb/>
@@ -2053,24 +2055,24 @@
             </p>
    
             <p>
-     Hon. Mr. Howe—It was not that flag. 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName>—It was not that flag. 
      <lb/>
             </p>
    
             <p>
-     Mr. Blake—What flag was it? 
+     <persName ref="pers:BLAK1">Mr. Blake</persName>—What flag was it? 
      <lb/>
             </p>
    
             <p>
-     Hon. Mr. Howe—It was not that. It had 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName>—It was not that. It had 
      <lb/>
      Canada upon it. 
      <lb/>
             </p>
    
             <p>
-     Mr. Blake—Then the hon. gentleman makes 
+     <persName ref="pers:BLAK1">Mr. Blake</persName>—Then the hon. gentleman makes 
      <lb/>
      a distinction between the two. (Cheers.) He 
      <lb/>
@@ -2088,7 +2090,7 @@
             </p>
    
             <p>
-     Hon. Mr. Holton said the leader of the Gov<lb break="no"/>ernment had given as a reason the other 
+     <persName ref="pers:HOLT1">Hon. Mr. Holton</persName> said the leader of the Gov<lb break="no"/>ernment had given as a reason the other 
      <lb/>
      evening why there should be an adjournment, 
      <lb/>
@@ -2134,7 +2136,7 @@
             </p>
    
             <p>
-     Mr. Masson (Soulanges)—It is not my 
+     <persName ref="pers:MASS3">Mr. Masson</persName> (Soulanges)—It is not my 
      <lb/>
      intention to detain the House very long; but I 
      <lb/>
@@ -2154,7 +2156,7 @@
             </p>-->
    
             <p>
-     Mr. Mackenzie—I did not bring it up as a 
+     <persName ref="pers:MACK1">Mr. Mackenzie</persName>—I did not bring it up as a 
      <lb/>
      grievance, but as a deception practiced upon 
      <lb/>
@@ -2167,7 +2169,7 @@
             </p>
    
             <p>
-     Hon. Sir George-È. Cartier said the matter 
+     <persName ref="pers:CART2">Hon. Sir George-È. Cartier</persName> said the matter 
      <lb/>
      did not affect or interest the representatives of 
      <lb/>
@@ -2498,7 +2500,7 @@
             <fw type="num">120</fw> <fw type="running">COMMONS DEBATES</fw> <fw type="dateline">February 21, 1870<lb/></fw>
            
             <p>
-     Hon. Mr. Huntington said, the question of 
+     <persName ref="pers:HUNT2">Hon. Mr. Huntington</persName> said, the question of 
      <lb/>
      Confederation was an old one, started by Sir A. 
      <lb/>
@@ -2511,7 +2513,7 @@
             </p>
    
             <p>
-     Hon. Sir George-É. Cartier said the Govern<lb break="no"/>ment had real work to do to incorporate the 
+     <persName ref="pers:CART2">Hon. Sir George-É. Cartier</persName> said the Govern<lb break="no"/>ment had real work to do to incorporate the 
      <lb/>
      different Provinces; but the Hon. Mr. Hunting<lb break="no"/>ton had found it easier work to get up an 
      <lb/>
@@ -2538,7 +2540,7 @@
             </p>
    
             <p>
-     Hon. Mr. Huntington said that the Minister 
+     <persName ref="pers:HUNT2">Hon. Mr. Huntington</persName> said that the Minister 
      <lb/>
      of Militia confounded the theory of Confedera<lb break="no"/>tion with its practical working. The Confedera<lb break="no"/>tion question had been of slow growth. It was 
      <lb/>
@@ -2563,7 +2565,7 @@
             </p>
    
             <p>
-     Hon. Sir George-É. Cartier said the agita<lb break="no"/>tion now at all events was very slow. England 
+     <persName ref="pers:CART2">Hon. Sir George-É. Cartier</persName> said the agita<lb break="no"/>tion now at all events was very slow. England 
      <lb/>
      was the centre of the British system. If there 
      <lb/>
@@ -2587,7 +2589,7 @@
             </p>
    
             <p>
-     Mr. Cartwright moved the adjournment of 
+     <persName ref="pers:CART3">Mr. Cartwright</persName> moved the adjournment of 
      <lb/>
      the House, and after remarks from some of the 
      <lb/>

@@ -75,6 +75,8 @@
          <change who="mholmes" when="2016-11-10">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-10">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -104,6 +106,8 @@
       <body>
          <div type="debate">
             <pb n="115" facs="final/images/NB_LA_1865-06-01_Page_115.jpg"/>
+
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw> <fw type="num">115</fw>
            
 <!-- GL, 2016-11-10, Commented out below, as it will appear in the preceding debate day -->
 
@@ -287,10 +291,10 @@ happiness of this Province.<lb/>
             <p>J. M.</p>-->
 
 
-            <fw type="dateline">THURSDAY, June 1.<lb/>
-            </fw>
+            <p>THURSDAY, June 1.<lb/>
+            </p>
 
-            <p> Mr. COSTIGAN.—It
+            <p> <persName ref="pers:COST1">Mr. COSTIGAN</persName>.—It
 has been stated by <lb/>
 the hon. member from Restigouche
 (Mr.<lb/>
@@ -410,7 +414,7 @@ Confedera<lb break="no"/>tion in that County. <lb/>
 
 
 
-            <p> Hon. Mr. HATHEWAY.—I
+            <p> <persName ref="pers:HATH1">Hon. Mr. HATHEWAY</persName>.—I
 will be very <lb/>
 brief, inasmuch as I am almost
 afraid to <lb/>
@@ -457,6 +461,8 @@ to them. <lb/>
             </p>
 
             <pb n="116" facs="final/images/NB_LA_1865-06-01_Page_116.jpg"/>
+
+<fw type="num">116</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw> 
             
 
 <p>On the evening of the day when I first <lb/>
@@ -690,7 +696,7 @@ keel down Confederation. I shall not<lb/>
 take up any more time, but having made<lb/>
 these few hurried remarks in reference to<lb/>
 it, I shall take my seat.</p>
-            <p>Mr. MCCLELLAN.—I rise to reply only<lb/>
+            <p> <persName ref="pers:MCCL1">Mr. MCCLELLAN</persName>.—I rise to reply only<lb/>
 to that portion of my hon. friend's speech<lb/>
 which has referenc to the County of Al<lb break="no"/>bert. The Chief Commissioner has com<lb break="no"/>plained of the members attacking him in<lb/>
 the House ; we have done so because he<lb/>
@@ -710,6 +716,8 @@ of the Maritime Provinces ; if  he had<lb/>
 
             <pb n="117" facs="final/images/NB_LA_1865-06-01_Page_117.jpg"/>
 
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw> <fw type="num">117</fw>
+
  listened to
 me then, he would
 not have <lb/>
@@ -720,7 +728,7 @@ to refer to outside inﬂuence.
 <lb/>
             </p>
 
-            <p>(Mr. Hatheway.—I alluded to a paper <lb/>
+            <p>( <persName ref="pers:HATH1">Mr. Hatheway</persName>.—I alluded to a paper <lb/>
 published in the County of Albert,
 and <lb/>
 from his card in it I concluded that altho'<lb/>
@@ -788,13 +796,13 @@ conceive how Confederation was defeated<lb/>
 in York.<lb/>
             </p>
         
-            <p> Mr.
-NEEDHAM.—What authority do you<lb/>
+            <p> <persName ref="pers:NEED1">Mr.
+NEEDHAM</persName>.—What authority do you<lb/>
 refer to?<lb/>
             </p>
 
-            <p>  Mr.
-MCCLELLAN.—Speech of Attorney<lb/>
+            <p>  <persName ref="pers:MCCL1">Mr.
+MCCLELLAN</persName>.—Speech of Attorney<lb/>
 General delivered in this House in 1857, <lb/>
 in reply to Mr. Hatheway, then opposed to<lb/>
 him. I referred to this the other day,<lb/>
@@ -813,7 +821,7 @@ Come to this House and you find it little<lb/>
 better.<lb/>
             </p>
    
-            <p> Mr. LEWIS.—I
+            <p> <persName ref="pers:LEWI1">Mr. LEWIS</persName>.—I
 do not think there was <lb/>
          
 
@@ -832,8 +840,8 @@ did say so, it was not the case ; his pre<lb break="no"/>sence in the County had
 the election.<lb/>
 
             </p>
-            <p> Mr.
-CUDLIP.—In reference to the
+            <p> <persName ref="pers:CUDL1">Mr.
+CUDLIP</persName>.—In reference to the
 re<lb break="no"/>marks made by the hon. member from <lb/>
 the County of Albert. I feel bound to say<lb/>
 that extraordinary efforts were put forth<lb/>
@@ -854,8 +862,8 @@ the country can be the rabble.<lb/>
             </p>
  
 
-            <p> Dr.
-THOMSON.—I
+            <p> <persName ref="pers:THOM1">Dr.
+THOMSON</persName>.—I
 thought it was my <lb/>
 duty as a British subject, with British <lb/>
 feelings, to strive to retain our privileges<lb/>
@@ -945,7 +953,7 @@ man above twenty-one years of age <lb/>
 should have a fair vote, let it
 be for An<lb break="no"/>nexation or whatever it may be. <lb/>
             </p>
-            <p>Hon. Mr. SMITH.—As I feel an anxious <lb/>
+            <p> <persName ref="pers:SMIT1">Hon. Mr. SMITH</persName>.—As I feel an anxious <lb/>
 desire to close the Session as speedily as <lb/>
 possible. I shall make
 a very short speech. <lb/>
@@ -994,7 +1002,7 @@ concocted in Canada. I will call Mr. Galt<lb/>
 to show how it originated. Did it origi<lb break="no"/>nate in Canada for the benefit of the<lb/>
 Maritime Provinces ? Did it not ori<lb break="no"/>ginate from their own political neces<lb break="no"/>sities? I can prove it out of the mouth of<lb/>
 Mr. Galt himself. He says : "The circum<lb break="no"/>stances under which the Government<lb/>
-found itself the last Session of Parlia<lb break="no"/><pb n="118" facs="final/images/NB_LA_1865-06-01_Page_118.jpg"/>ment were
+found itself the last Session of Parlia<lb break="no"/><pb n="118" facs="final/images/NB_LA_1865-06-01_Page_118.jpg"/><fw type="num">118</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw>ment were
 these : One Government had<lb/>
  resigned from inability to
 obtain Parlia<lb break="no"/>mentary support enough to govern the<lb/>
@@ -1267,6 +1275,8 @@ Constitution with certain rights given and<lb/>
 accorded to the local Legislatures, and<lb/>
         
             <pb n="119" facs="final/images/NB_LA_1865-06-01_Page_119.jpg"/>
+
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw> <fw type="num">119</fw>
  
  certain
 rights are given to the General
@@ -1518,6 +1528,8 @@ ofCanada, of the 8th September instant,
 <lb/>
 on the subject of Intercolonial Recipro<lb break="no"/>city, agree—
             <pb n="120" facs="final/images/NB_LA_1865-06-01_Page_120.jpg"/>
+
+<fw type="num">120</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw> 
            
 1. That the free interchange of goods,<lb/>
 the growth, produce, and manufacture of<lb/>
@@ -1605,7 +1617,7 @@ for them to go forth and enlighten<lb/>
 the people.<lb/>
             </p>
 
-            <p> Mr. CONNELL —I rise to address you at<lb/>
+            <p> <persName ref="pers:CONN1">Mr. CONNELL</persName> —I rise to address you at<lb/>
 a great disadvantage after the eloquent<lb/>
 oration which you have heard from the<lb/>
 President of the Council. I know that<lb/>
@@ -1757,6 +1769,8 @@ courtesy and kindness manifested on<lb/>
 every occasion by the Government and<lb/>
          
             <pb n="121" facs="final/images/NB_LA_1865-06-01_Page_121.jpg"/>
+
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw> <fw type="num">121</fw>
        
  people of
 Canada to the delegates from <lb/>

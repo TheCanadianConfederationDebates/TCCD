@@ -93,6 +93,8 @@
          <change who="mholmes" when="2016-12-05">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-14">Created this document, completed metadata.</change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -142,15 +144,16 @@
             <pb n="149" facs="final/images/Ont_Que_LC_1865-02-10_Page_0149.jpg"/>
             <fw type="num">149</fw>
    
-       
-            <fw type="running">LEGISLATIVE COUNCIL.</fw>
-            <fw type="dateline">
+       <div type="section">
+
+            <head>LEGISLATIVE COUNCIL.</head>
+            <p>
      FRIDAY, <hi rendition="simple:italic">February</hi> 10, 1865. 
      <lb/>
-            </fw>
+            </p>
             
 <p>
-     Hon. MR. MACPHERSON, continued 
+     <persName ref="pers:MACP1">Hon. MR. MACPHERSON</persName>, continued 
      <lb/>
      his speech commenced yesterday, as fol<lb break="no"/>lows :—In the remarks I offered to this 
      <lb/>
@@ -337,6 +340,8 @@
      <lb/>
         
             <pb n="150" facs="final/images/Ont_Que_LC_1865-02-10_Page_0150.jpg"/>
+
+<fw type="num">150</fw>
           
      Mr. CURRIE) said our expenditure would 
      <lb/>
@@ -519,6 +524,8 @@
      <lb/>
            
             <pb n="151" facs="final/images/Ont_Que_LC_1865-02-10_Page_0151.jpg"/>
+
+<fw type="num">151</fw>
            
 
      defences of the country can be properly 
@@ -580,7 +587,7 @@
    
 
             <p>
-     Hr. HARTLEY said the whole scheme was now 
+     Mr. HARTLEY said the whole scheme was now 
      <lb/>
      before the country, and the people who were in<lb break="no"/>terested in the matter were aware of its provisions. 
      <lb/>
@@ -739,7 +746,7 @@
             </p>
 
             <p>
-     HON. MR. BOULTON said he rejoiced to 
+     <persName ref="pers:BOUL1">HON. MR. BOULTON</persName> said he rejoiced to 
      <lb/>
      find, in the accession to the House of the hon<lb break="no"/>orable member who had just spoken, a gentle<lb break="no"/>man so well calculated to sustain its credit, 
      <lb/>
@@ -1255,7 +1262,7 @@
             </p>
 
             <p>
-     HON. MR. AIKINS said :—I do not believe, 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName> said :—I do not believe, 
      <lb/>
      honorable gentlemen, that what occurred in 
      <lb/>
@@ -1283,14 +1290,14 @@
      <lb/>
      different light-<lb/>
             </p>
-            <p>HON. MR. MACPHERSON—I read the 
+            <p><persName ref="pers:MACP1">HON. MR. MACPHERSON</persName>—I read the 
      <lb/>
      whole of the report. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. AIKINS—Well, I shall read 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—Well, I shall read 
      <lb/>
      it for myself and draw my own conclusions. 
      <lb/>
@@ -1508,8 +1515,11 @@
      <lb/>
             </p>
             <pb n="156" facs="final/images/Ont_Que_LC_1865-02-10_Page_0156.jpg"/>
+
+<fw type="num">156</fw>
+
             <p>
-     HON. MR. CAMPBELL—There is no 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—There is no 
      <lb/>
      disposition on the part of the Government to 
      <lb/>
@@ -1548,7 +1558,7 @@
             </p>
 
             <p>
-     HON. MR. AIKINS—I am very much 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—I am very much 
      <lb/>
      pleased, indeed, to hear the statement of the 
      <lb/>
@@ -1563,7 +1573,7 @@
     
 
             <p>
-     HON. MR. CAMPBELL—The opportunity 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—The opportunity 
      <lb/>
      will be afforded when these five millions of 
      <lb/>
@@ -1582,7 +1592,7 @@
     
 
             <p>
-     HON. MR. AIKINS—I am quite willing 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—I am quite willing 
      <lb/>
      to give the Government credit for sincerity on 
      <lb/>
@@ -1607,7 +1617,7 @@
             </p>
 
             <p>
-     HON. MR. CAMPBELL—As to the In<lb break="no"/>tercolonial Railway, the honorable gentleman 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—As to the In<lb break="no"/>tercolonial Railway, the honorable gentleman 
      <lb/>
      will see that it is a matter for the Government 
      <lb/>
@@ -1628,7 +1638,7 @@
             </p>
 
             <p>
-     HON. MR. AIKINS—I am quite well 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—I am quite well 
      <lb/>
      aware that the Intercolonial Railway is to be 
      <lb/>
@@ -1681,7 +1691,7 @@
     
 
             <p>
-     HON. Ma. BOULTON—I did not allude 
+     <persName ref="pers:BOUL1">HON. Ma. BOULTON</persName>—I did not allude 
      <lb/>
      to the town of Cobourg at all, but to other 
      <lb/>
@@ -1698,7 +1708,7 @@
             </p>
    
             <p>
-     HON. MR. AIKINS—Well, I do not see 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—Well, I do not see 
      <lb/>
      why a good thing should be put past the hon<lb break="no"/>orable gentleman himself ; and when he in<lb break="no"/>dulges in an attack upon the elective system, 
      <lb/>
@@ -1717,11 +1727,11 @@
             </p>
 
             <p>
-     HON. MR. MACPHERSON—The honor<lb break="no"/>able gentleman is mistaken. What I said was 
+     <persName ref="pers:MACP1">HON. MR. MACPHERSON</persName>—The honor<lb break="no"/>able gentleman is mistaken. What I said was 
      <lb/>
      that, inasmuch as the appointments are to be 
      <lb/>
-     made in the way that has been described-<lb/>that is, on the nomination of gentleman re<lb break="no"/><pb n="157" facs="final/images/Ont_Que_LC_1865-02-10_Page_0157.jpg"/>presenting the people in the other House—the 
+     made in the way that has been described-<lb/>that is, on the nomination of gentleman re<lb break="no"/><pb n="157" facs="final/images/Ont_Que_LC_1865-02-10_Page_0157.jpg"/><fw type="num">157</fw>presenting the people in the other House—the 
      <lb/>
      change does not amount to a disfranchisement. 
      <lb/>
@@ -1730,7 +1740,7 @@
             </p>
 
             <p>
-     HON. MR. AIKINS—If the honorable gen<lb break="no"/>tleman had not been quite so sensitive, I would 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—If the honorable gen<lb break="no"/>tleman had not been quite so sensitive, I would 
      <lb/>
      have saved him the trouble of making his 
      <lb/>
@@ -1739,14 +1749,14 @@
             </p>
 
             <p>
-     HON. MR. MACPHERSON—I did not 
+     <persName ref="pers:MACP1">HON. MR. MACPHERSON</persName>—I did not 
      <lb/>
      wish to be misrepresented. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. AIKINS—It certainly is not 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—It certainly is not 
      <lb/>
      my desire to misrepresent the honorable gen<lb break="no"/>tleman in any manner. I think the conclu<lb break="no"/>sion one would arrive at, after hearing his 
      <lb/>
@@ -1759,14 +1769,14 @@
             </p>
 
             <p>
-     HON. MR. MACPHERSON —No, but 
+     <persName ref="pers:MACP1">HON. MR. MACPHERSON</persName> —No, but 
      <lb/>
      through their representatives. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. AIKINS—The honorable gen<lb break="no"/>tleman says they will have the power, through 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—The honorable gen<lb break="no"/>tleman says they will have the power, through 
      <lb/>
      their representatives, to make their appoint<lb break="no"/>ments. Well, after reading the fourteenth 
      <lb/>
@@ -1790,14 +1800,14 @@
     
 
             <p>
-     Hon. MR. MACPHERSON—With the 
+     <persName ref="pers:MACP1">Hon. MR. MACPHERSON</persName>—With the 
      <lb/>
      advice of the representatives of the people. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. AIKINS—Yes, undoubtedly ; 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—Yes, undoubtedly ; 
      <lb/>
      but the people, nevertheless, will have nothing 
      <lb/>
@@ -1903,7 +1913,7 @@
     
 
             <p>
-     HON. MR. ROSS—How would you act if 
+     <persName ref="pers:ROSS8">HON. MR. ROSS</persName>—How would you act if 
      <lb/>
      you were satisﬁed that the whole public opinion 
      <lb/>
@@ -1912,7 +1922,7 @@
             </p>
 
             <p>
-     HON. MR. AIKINS—I can very easily 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—I can very easily 
      <lb/>
      answer the honorable gentleman. If did not 
      <lb/>
@@ -1950,6 +1960,8 @@
      <lb/>
            
             <pb n="158" facs="final/images/Ont_Que_LC_1865-02-10_Page_0158.jpg"/>
+
+<fw type="num">158</fw>
          
      of Confederation, but I think it depends 
      <lb/>
@@ -2095,12 +2107,12 @@
             </p>
 
             <p>
-     HON. MR. CAMPBELL—They only ex<lb break="no"/>press public opinion. 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—They only ex<lb break="no"/>press public opinion. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. AIKINS—Public opinion, the 
+     <persName ref="pers:AIKI1">HON. MR. AIKINS</persName>—Public opinion, the 
      <lb/>
      honorable gentleman says. I say that public 
      <lb/>
@@ -2135,7 +2147,7 @@
             </p>
 
             <p>
-     HON. MR. REESOR—As no one has taken 
+     <persName ref="pers:REES1">HON. MR. REESOR</persName>—As no one has taken 
      <lb/>
      the floor to continue the debate, I beg to 
      <lb/>
@@ -2163,6 +2175,8 @@
      <lb/>
         
             <pb n="159" facs="final/images/Ont_Que_LC_1865-02-10_Page_0159.jpg"/>
+
+<fw type="num">159</fw>
         
      coal and other minerals.” That, it appears 
      <lb/>
@@ -2207,7 +2221,7 @@
     
 
             <p>
-     HON. MR. CAMPBELL—It will be some<lb break="no"/>what inconvenient for a member of the Gov<lb break="no"/>ernment to answer at once the questions put 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—It will be some<lb break="no"/>what inconvenient for a member of the Gov<lb break="no"/>ernment to answer at once the questions put 
      <lb/>
      by the honorable member, but I have no ob<lb break="no"/>jection to answer those which he has now 
      <lb/>
@@ -2310,6 +2324,8 @@
            
             <pb n="160" facs="final/images/Ont_Que_LC_1865-02-10_Page_0160.jpg"/>
             
+<fw type="num">160</fw>
+
      liabilities. And I may say that these rail<lb break="no"/>ways, which are among the public works 
      <lb/>
     ceded to the General Government, are not 
@@ -2320,14 +2336,14 @@
             </p>
 
             <p>
-     HON. MR. CURRIE—That is exactly 
+     <persName ref="pers:CURR2">HON. MR. CURRIE</persName>—That is exactly 
      <lb/>
      three-eighths of one per cent. of their cost. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. CAMPBELL—Well, I said 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—Well, I said 
      <lb/>
      they yielded a revenue—I did not say what 
      <lb/>
@@ -2361,7 +2377,7 @@
     
 
             <p>
-     HON. MR. SIMPSON—I would like to ask 
+     <persName ref="pers:SIMP1">HON. MR. SIMPSON</persName>—I would like to ask 
      <lb/>
      the Commissioner of Crown Lands whether, 
      <lb/>
@@ -2376,7 +2392,7 @@
             </p>
 
             <p>
-     HON. MR. CAMPBELL—I am not aware 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—I am not aware 
      <lb/>
      that there would be, but upon this point I 
      <lb/>
@@ -2394,7 +2410,7 @@
     
 
             <p>
-     HON. MR. SIMPSON—I have no desire to 
+     <persName ref="pers:SIMP1">HON. MR. SIMPSON</persName>—I have no desire to 
      <lb/>
      ask questions in order to create embarrass<lb break="no"/>ment, but this is a question forced upon me 
      <lb/>
@@ -2424,7 +2440,7 @@
             </p>
 
             <p>
-     HON. MR. ROSS—Because the income of 
+     <persName ref="pers:ROSS8">HON. MR. ROSS</persName>—Because the income of 
      <lb/>
      these railways in New Brunswick accrues to 
      <lb/>
@@ -2433,10 +2449,10 @@
             </p>
 
             <p>
-     HON. MR. SIMPSON—But they pay 
+     <persName ref="pers:SIMP1">HON. MR. SIMPSON</persName>—But they pay 
      <lb/>
     nothing. 
-     <lb/>HON. MR. ROSS—They do pay something 
+     <lb/> <persName ref="pers:ROSS8">HON. MR. ROSS</persName>—They do pay something 
      <lb/>now, and in future they will pay more. I, 
      <lb/>however, speak only from my own individual 
      <lb/>point of view, and not from any knowledge 
@@ -2447,7 +2463,7 @@
     
 
             <p>
-     HON. MR. SIMPSON—And I speak from 
+     <persName ref="pers:SIMP1">HON. MR. SIMPSON</persName>—And I speak from 
      <lb/>
      the same, and think the objection I have made 
      <lb/>
@@ -2458,7 +2474,7 @@
     
 
             <p>
-     HON. MR. ROSS—As to the export duty 
+     <persName ref="pers:ROSS8">HON. MR. ROSS</persName>—As to the export duty 
      <lb/>
      on coal from Nova Scotia, it appears from the 
      <lb/>
@@ -2471,14 +2487,14 @@
             </p>
 
             <p>
-     HON. MR. SIMPSON—Well, what about 
+     <persName ref="pers:SIMP1">HON. MR. SIMPSON</persName>—Well, what about 
      <lb/>
      the fishery dues given to the Lower Provinces ? 
      <lb/>
             </p>
 
             <p>
-     HON. MR. ROSS—We will have that by 
+     <persName ref="pers:ROSS8">HON. MR. ROSS</persName>—We will have that by 
      <lb/>
      and by. I am only answering one question 
      <lb/>
@@ -2495,7 +2511,7 @@
             </p>
 
             <p>
-     HON. MR. SIMPSON—It is not on the 
+     <persName ref="pers:SIMP1">HON. MR. SIMPSON</persName>—It is not on the 
      <lb/>
      stump that we levy dues, but as the hewn 
      <lb/>
@@ -2504,7 +2520,7 @@
             </p>
 
             <p>
-     HON. MR. ROSS—Well, it is not an ex<lb break="no"/>port duty at any rate ; but in New Brunswick 
+     <persName ref="pers:ROSS8">HON. MR. ROSS</persName>—Well, it is not an ex<lb break="no"/>port duty at any rate ; but in New Brunswick 
      <lb/>
      it pays a duty when exported, either as saw- 
      <lb break="yes"/>
@@ -2519,7 +2535,7 @@
             </p>
 
             <p>
-     HON. MR. MOORE—If the coal were ex<lb break="no"/>ported to a foreign country, then I could un<lb break="no"/>derstand why a duty should be imposed, but 
+     <persName ref="pers:MOOR1">HON. MR. MOORE</persName>—If the coal were ex<lb break="no"/>ported to a foreign country, then I could un<lb break="no"/>derstand why a duty should be imposed, but 
      <lb/>
      when a ship is laden in one port of the Con<lb break="no"/>federation, with coal, for another port in the 
      <lb/>
@@ -2539,6 +2555,8 @@
      <lb/>
            
             <pb n="161" facs="final/images/Ont_Que_LC_1865-02-10_Page_0161.jpg"/>
+
+<fw type="num">161</fw>
           
      not in name alone. I should like to be fully 
      <lb/>
@@ -2553,7 +2571,7 @@
             </p>
 
             <p>
-     HON. MR. CAMPBELL—The royalty col<lb break="no"/>lected on coal in Nova Scotia is similar to the 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—The royalty col<lb break="no"/>lected on coal in Nova Scotia is similar to the 
      <lb/>
      stumpage duty on timber in Canada, which is 
      <lb/>
@@ -2570,7 +2588,7 @@
             </p>
 
             <p>
-     HON. MR. REESOR—There are several 
+     <persName ref="pers:REES1">HON. MR. REESOR</persName>—There are several 
      <lb/>
      other provisions in the proposed Constitution 
      <lb/>
@@ -2613,7 +2631,7 @@
             </p>
 
             <p>
-     HON. MR. MACPHERSON—The cost of 
+     <persName ref="pers:MACP1">HON. MR. MACPHERSON</persName>—The cost of 
      <lb/>
      these works forms part of the public debt of 
      <lb/>
@@ -2624,7 +2642,7 @@
             </p>
 
             <p>
-     HON. MR. CAMPBELL—The honorable 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—The honorable 
      <lb/>
      gentleman will see that there are some works 
      <lb/>
@@ -2654,7 +2672,7 @@
     
 
             <p>
-     HON. MR. REESOR—I do not object to 
+     <persName ref="pers:REES1">HON. MR. REESOR</persName>—I do not object to 
      <lb/>
      the General Government having the control 
      <lb/>
@@ -2694,14 +2712,14 @@
             </p>
 
             <p>
-     HON. MR. ROSS—No, they will not go to 
+     <persName ref="pers:ROSS8">HON. MR. ROSS</persName>—No, they will not go to 
      <lb/>
      the General Government. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. REESOR—Well, there is no<lb break="no"/>thing to the contrary in the resolutions, and 
+     <persName ref="pers:REES1">HON. MR. REESOR</persName>—Well, there is no<lb break="no"/>thing to the contrary in the resolutions, and 
      <lb/>
      you may depend upon it that whatever reve<lb break="no"/>nues the General Government may claim, 
      <lb/>
@@ -2712,7 +2730,7 @@
             </p>
 
             <p>
-     HON. MR. CAMPBELL—My honorable 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName>—My honorable 
      <lb/>
      friend, referring a moment ago to the Welland 
      <lb/>
@@ -2727,7 +2745,7 @@
             </p>
 
             <p>
-     HON. MR. REESOR—I do not say that 
+     <persName ref="pers:REES1">HON. MR. REESOR</persName>—I do not say that 
      <lb/>
      they should not go to the General Govern<lb break="no"/>ment, but what I do say is that they are a 
      <lb/>
@@ -2774,6 +2792,6 @@
      <lb/>
             </p>-->
          </div>
-      </body>
+   </div>   </body>
    </text>
 </TEI>

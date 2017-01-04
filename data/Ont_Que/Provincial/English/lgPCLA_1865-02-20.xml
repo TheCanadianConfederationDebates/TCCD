@@ -105,6 +105,8 @@
          <change who="mholmes" when="2016-10-31">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-10-31">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-11-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -283,11 +285,14 @@ appoint to be attended with the said Address. <lb/>
 
             <p> —o—
 </p>-->
-            <fw type="running">LEGISLATIVE ASSEMBLY.</fw>
-            <fw type="dateline"> MONDAY, <hi rendition="simple:italic">February</hi>
+
+<div type="section">
+
+            <head>LEGISLATIVE ASSEMBLY.</head>
+            <p> MONDAY, <hi rendition="simple:italic">February</hi>
 20, 1865. <lb/>
-            </fw>
-            <p> MR. JOLY said—Mr. SPEAKER, when it <lb/>
+            </p>
+            <p> <persName ref="pers:JOLY1">MR. JOLY</persName> said—Mr. SPEAKER, when it <lb/>
 is proposed to change the Constitution of <lb/>
 the country, it becomes our duty to study <lb/>
 with the greatest care, and from every dis<lb break="no"/>tinct point of view, the new Constitution <lb/>
@@ -646,12 +651,12 @@ that time. It was sure to come on ; it was <lb/>
 only delayed for a while. These were all <lb/>
 trials of the Confederate system. <lb/>
             </p>
-            <p> MR. CORNELLIER—All the confeder<lb break="no"/>ations which you have mentioned were or <lb/>
+            <p> <persName ref="pers:CORN1">MR. CORNELLIER</persName>—All the confeder<lb break="no"/>ations which you have mentioned were or <lb/>
 are republican, and had the common fate of <lb/>
 republican institutions. You have not said <lb/>
 a word about monarchical confederations. <lb/>
             </p>
-            <p> MR. JOLY —I have made no mention of <lb/>
+            <p> <persName ref="pers:JOLY1">MR. JOLY</persName> —I have made no mention of <lb/>
 monarchical confederations, because none <lb/>
 have ever existed, and none can exist. The <lb/>
 principle of a monarchy is that the war <lb/>
@@ -861,13 +866,13 @@ be against us ; I see in this the prospect of <lb/>
 a position which may prove to be a most <lb/>
 dangerous one for us; if the strife should <lb/>
 commence, no one can tell when it will end. <lb/>
-DR. BEAUBIEN—I have conﬁdence in <lb/>
+<persName ref="pers:BEAU1">DR. BEAUBIEN</persName>—I have conﬁdence in <lb/>
 the conscience of the Federal Parliament. <lb/>
 We ought not to attribute evil intentions to <lb/>
 men, but rather suppose that they will treat <lb/>
 us as they desire to be treated themselves, <lb/>
 with justice, and in a conscientious manner. <lb/>
- MR. JOLY—Despite the honorable mem<lb break="no"/>ber's sermon—I beg his pardon, I mean <lb/>
+ <persName ref="pers:JOLY1">MR. JOLY</persName>—Despite the honorable mem<lb break="no"/>ber's sermon—I beg his pardon, I mean <lb/>
 despite the honorable member’s observation<lb break="no"/>I am of opinion that we ought not to leave <lb/>
 interests so precious as those which are con<lb break="no"/>fided to us to the mercy of men with whom <lb/>
  we are not always certain of
@@ -1639,15 +1644,15 @@ prolong the ephemeral existence of his admin<lb break="no"/>istration for a few 
 precious trust, which the unbounded con<lb break="no"/>fidence of his fellow-countrymen had conﬁded <lb/>
 to his keeping. <lb/>
             </p>
-            <p> HON. MR. CARTIER—And what have I <lb/>
+            <p> <persName ref="pers:CART2">HON. MR. CARTIER</persName>—And what have I <lb/>
 received in payment for that ? <lb/>
             </p>
-            <p> MR. JOLY—A salary of ﬁve thousand dol<lb break="no"/>lars annum, and the honor of the position. <lb/>
+            <p> <persName ref="pers:JOLY1">MR. JOLY</persName>—A salary of ﬁve thousand dol<lb break="no"/>lars annum, and the honor of the position. <lb/>
             </p>
-            <p> HON. MR. CARTIER—That is not enough <lb/>
+            <p> <persName ref="pers:CART2">HON. MR. CARTIER</persName>—That is not enough <lb/>
 for me. <lb/>
             </p>
-            <p> MR. JOLY—I am well aware of it ; that<lb/>
+            <p> <persName ref="pers:JOLY1">MR. JOLY</persName>—I am well aware of it ; that<lb/>
             <cb/>
                
                is why the honorable member is desirous
@@ -2178,6 +2183,6 @@ discussion, <lb/>
 result from <lb/>
             </p>-->
          </div>
-      </body>
+    </div>  </body>
    </text>
 </TEI>

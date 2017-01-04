@@ -82,6 +82,8 @@
          <change who="mholmes" when="2016-12-08">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-08">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -125,9 +127,9 @@
      HOUSE OF COMMONS 
      <lb/></head>
 
-     <fw type="dateline">Thursday, Feb. 17. 1870 
+     <p>Thursday, Feb. 17. 1870 
      <lb/>
-            </fw>
+            </p>
    
             <p>
      The Speaker took the chair at three o’clock. 
@@ -135,7 +137,7 @@
             </p>
    
             <p>
-     Mr. Savary rose to move the Address in reply 
+     <persName ref="pers:SAVA1">Mr. Savary</persName> rose to move the Address in reply 
      <lb/>
      to the speech from the Throne. With reference 
      <lb/>
@@ -222,7 +224,7 @@
           
             <pb n="14" facs="final/images/Man_H_of_C_1870-02-17_Page_0014.jpg"/>
             <fw type="num">14</fw>
-            <fw type="running">COMMONS DEBATES</fw>
+            <fw type="running">COMMONS DEBATES</fw> <fw type="dateline">February 17, 1870</fw>
             
      was inconsistent with the very spirit of our 
      <lb/>
@@ -279,12 +281,12 @@
             </p>
    
             <p>
-     Hon. Sir John A. Macdonald—Hear, hear. 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName>—Hear, hear. 
      <lb/>
             </p>
 
             <p>
-     Mr. Savary—It was very easy to be wise 
+     <persName ref="pers:SAVA1">Mr. Savary</persName>—It was very easy to be wise 
      <lb/>
      after the event, but if errors had been commit<lb break="no"/>ted, though he would not say there had been 
      <lb/>
@@ -333,7 +335,7 @@
             </p>
             <pb n="18" facs="final/images/Man_H_of_C_1870-02-17_Page_0018.jpg"/>
             <fw type="num">18</fw>
-            <fw type="running">COMMONS DEBATES</fw>
+            <fw type="running">COMMONS DEBATES</fw>  <fw type="dateline">February 17, 1870</fw>
             <p>
      wield the sceptre of our great Empire, and long 
      <lb/>
@@ -346,7 +348,7 @@
             </p>
    
             <p>
-     Mr. Scriver in rising to second the Address, 
+     <persName ref="pers:SCRI1">Mr. Scriver</persName> in rising to second the Address, 
      <lb/>
      said he would claim the indulgence of the 
      <lb/>
@@ -420,7 +422,7 @@
             <pb n="32" facs="final/images/Man_H_of_C_1870-02-17_Page_0032.jpg"/>
             <fw type="num">32</fw>
             <fw type="running">COMMONS DEBATES</fw> <fw type="dateline">
-     February 17. 1870<lb/>
+     February 17, 1870<lb/>
             </fw>
             <p>
      Brunswick. He could not congratulate the 
@@ -602,7 +604,7 @@
             </p>
    
             <p>
-     Mr. Jones (Leeds and Grenville) saw little 
+     <persName ref="pers:JONE3">Mr. Jones</persName> (Leeds and Grenville) saw little 
      <lb/>
      good in Coalitions, and said when the Reform 
      <lb/>
@@ -744,7 +746,7 @@
             </p>
    
             <p>
-     Mr. Bowell said the introduction of the 
+     <persName ref="pers:BOWE1">Mr. Bowell</persName> said the introduction of the 
      <lb/>
      Finance Minister would prove the destruction 
      <lb/>
@@ -768,7 +770,7 @@
             <pb n="52" facs="final/images/Man_H_of_C_1870-02-17_Page_0052.jpg"/>
             <fw type="num">52</fw>
             <fw type="running">COMMONS DEBATES</fw> <fw type="dateline">
-     February 17. 1870 
+     February 17, 1870 
      <lb/>
             </fw>
           
@@ -821,9 +823,9 @@
             </p>
    
             <p>
-     Hon. Mr. Howe was about to speak when Mr. 
+     Hon. Mr. Howe was about to speak when <persName ref="pers:MACK1">Mr. 
      <lb/>
-     Mackenzie said the ministerial explanations 
+     Mackenzie</persName> said the ministerial explanations 
      <lb/>
      should be separated from the real debate on the 
      <lb/>
@@ -832,7 +834,7 @@
             </p>
    
             <p>
-     Hon. Mr. Howe said he would be judged by 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName> said he would be judged by 
      <lb/>
      his acts, and not by the slanders of the last few 
      <lb/>
@@ -852,7 +854,7 @@
             </p>
    
             <p>
-     Mr. Masson (Terrebonne) expressed his dis<lb break="no"/>satisfaction at the position taken by the Gov<lb break="no"/>ernment, in reference to the North-West, and 
+     <persName ref="pers:MASS2">Mr. Masson</persName> (Terrebonne) expressed his dis<lb break="no"/>satisfaction at the position taken by the Gov<lb break="no"/>ernment, in reference to the North-West, and 
      <lb/>
      stated that on the introduction of the resolu<lb break="no"/>tions for an address to Her Majesty for the 
      <lb/>
@@ -960,7 +962,7 @@
             </p>
    
             <p>
-     Hon. Mr. Howe wished the remarks of the 
+     <persName ref="pers:HOWE2">Hon. Mr. Howe</persName> wished the remarks of the 
      <lb/>
      hon. member for Terrebonne had been made 
      <lb/>
@@ -971,9 +973,9 @@
             </p>
    
             <p>
-     Mr. Mackenzie moved, seconded by Hon. 
+     <persName ref="pers:MACK1">Mr. Mackenzie</persName> moved, seconded by <persName ref="pers:HOLT1">Hon. 
      <lb/>
-     Mr. Holton, the adjournment of the debate. 
+     Mr. Holton</persName>, the adjournment of the debate. 
      <lb/>
             </p>
    

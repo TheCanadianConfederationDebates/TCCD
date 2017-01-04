@@ -60,6 +60,8 @@
          <change who="mholmes" when="2016-12-12">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-12">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -84,9 +86,9 @@
      HOUSE OF COMMONS 
      <lb/>
 </head>
-            <fw type="dateline">Monday, March 7. 1870 
+            <p>Monday, March 7. 1870 
      <lb/>
-            </fw>
+            </p>
 
             <p>The Speaker took the chair at three o’clock. 
      <lb/>
@@ -132,7 +134,7 @@
             </head>
    
             <p>
-     Hon. Mr. Dunkin presented the first report 
+     <persName ref="pers:DUNK1">Hon. Mr. Dunkin</persName> presented the first report 
      <lb/>
      of the Committee on Immigration and Coloni<lb break="no"/>zation, recommending the reduction of the 
      <lb/>
@@ -150,7 +152,7 @@
             </head>
    
             <p>
-     Mr. MacFarlane presented the second report 
+     <persName ref="pers:MACF1">Mr. MacFarlane</persName> presented the second report 
      <lb/>
      of the Committee on Standing Orders recom<lb break="no"/>mending the extension of the time for receiv<lb break="no"/>ing petitions for one week. 
      <lb/>
@@ -166,7 +168,7 @@
             </head>
    
             <p>
-     Mr. Morrison introduced a Bill intituled: 
+     <persName ref="pers:MORR2">Mr. Morrison</persName> introduced a Bill intituled: 
      <lb/>
      “An Act to provide for the amalgamation of the 
      <lb/>
@@ -186,7 +188,7 @@
             </head>
    
             <p>
-     Hon. Mr. Carling introduced a Bill intituled: 
+     <persName ref="pers:CARL1">Hon. Mr. Carling</persName> introduced a Bill intituled: 
      <lb/>
      “An Act to incorporate the Detroit River 
      <lb/>
@@ -204,7 +206,7 @@
             </head>
    
             <p>
-     Mr. Mackenzie said that before going on 
+     <persName ref="pers:MACK1">Mr. Mackenzie</persName> said that before going on 
      <lb/>
      with the “questions" by members, he wished to 
      <lb/>
@@ -248,7 +250,7 @@
             </p>
    
             <p>
-     Hon. Sir John A. Macdonald said, as he 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> said, as he 
      <lb/>
      understood the matter, these and all other 
      <lb/>
@@ -269,7 +271,7 @@
             </p>
    
             <p>
-     Mr. Mackenzie said the members of the 
+     <persName ref="pers:MACK1">Mr. Mackenzie</persName> said the members of the 
      <lb/>
      press were not to be blamed, because, as a rule, 
      <lb/>
@@ -290,14 +292,14 @@
             </p>
    
             <p>
-     Hon. Sir John A. Macdonald said this was 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> said this was 
      <lb/>
      an exceptional case. 
      <lb/>
             </p>
    
             <p>
-     Hon. Mr. Wood asked if he had understood 
+     <persName ref="pers:WOOD2">Hon. Mr. Wood</persName> asked if he had understood 
      <lb/>
      the leader of the Government to state, that 
      <lb/>
@@ -316,7 +318,7 @@
             </p>
    
             <p>
-     Hon. Sir John A. Macdonald said that these 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> said that these 
      <lb/>
      papers were given to the press as a matter of 
      <lb/>
@@ -334,7 +336,7 @@
             </head>
    
             <p>
-     Mr. Benoit asked whether it was the inten<lb break="no"/>tion of the Government to abolish, during the 
+     <persName ref="pers:BENO1">Mr. Benoit</persName> asked whether it was the inten<lb break="no"/>tion of the Government to abolish, during the 
      <lb/>
      present session, the duties imposed by the 
      <lb/>
@@ -345,7 +347,7 @@
             </p>
    
             <p>
-     Hon. Sir Francis Hincks said he must return 
+     <persName ref="pers:HINC1">Hon. Sir Francis Hincks</persName> said he must return 
      <lb/>
      an answer similar to the one he gave last week 
      <lb/>

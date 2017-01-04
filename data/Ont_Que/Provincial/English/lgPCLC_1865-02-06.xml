@@ -73,6 +73,8 @@
          <change who="mholmes" when="2016-12-01">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-01">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -223,18 +225,17 @@
             </p>
             <milestone type="unknown"/>-->
 
-
-            <fw type="running">
-     LEGISLATIVE COUNCIL. 
+<div type="section">
+            <head>LEGISLATIVE COUNCIL. 
      <lb/>
-            </fw>
+            </head>
    
-            <fw type="dateline">
+            <p>
      MONDAY, <hi rendition="simple:italic">February</hi> 6, 1865. 
      <lb/>
-            </fw>
+            </p>
 
-            <p>HON. MR. CAMPBELL said that, with 
+            <p><persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName> said that, with 
      <lb/>the permission of the honorable member who  
      <lb/>had the floor (Hon. Mr. CURRIE), he would 
      <lb/>offer a few remarks upon one portion of the 
@@ -1042,7 +1043,7 @@
      <lb/>
      benefit of both. ( Hear, hear, and applause.) 
      <lb/>
-     HON. MR. VIDAL here in uired from the 
+     <persName ref="pers:VIDA1">HON. MR. VIDAL</persName> here inquired from the 
      <lb/>
      honorable member why it was that the selection 
      <lb/>
@@ -1064,7 +1065,7 @@
     
 
             <p>
-     HON. MR. CAMPBELL said it was out of 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName> said it was out of 
      <lb/>
      deference to the interests of the British Cana<lb break="no"/>dians of Lower Canada, who had some fear 
      <lb/>
@@ -1075,7 +1076,7 @@
             </p>
 
             <p>
-     HON. MR. RYAN objected to this mode of 
+     <persName ref="pers:RYAN3">HON. MR. RYAN</persName> objected to this mode of 
      <lb/>
      selection, as calculated to perpetuate differences 
      <lb/>
@@ -1090,7 +1091,7 @@
             <p>
      [After this a number of questions were put 
      <lb/>
-     to Hon. Mr. CAMPBELL upon various points 
+     to <persName ref="pers:CAMP2">Hon. Mr. CAMPBELL</persName> upon various points 
      <lb/>
      of detail, and a cross fire was kept up from 
      <lb/>
@@ -1113,14 +1114,14 @@
     
 
             <p>
-     HON. MR. CAMPBELL promised to give 
+     <persName ref="pers:CAMP2">HON. MR. CAMPBELL</persName> promised to give 
      <lb/>
      an explanation at the next sitting of the House. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. SANBORN then addressed the 
+     <persName ref="pers:SANB1">HON. MR. SANBORN</persName> then addressed the 
      <lb/>
      House for a few minutes, it being then nearly 
      <lb/>
@@ -1252,7 +1253,7 @@
      <lb/>
             </p>-->
 
-         </div>
+     </div>    </div>
       </body>
    </text>
 </TEI>

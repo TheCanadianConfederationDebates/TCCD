@@ -78,6 +78,8 @@
          <change who="mholmes" when="2016-11-17">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-17">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -104,6 +106,8 @@
       <body>
          <div type="debate">
             <pb n="14" facs="final/images/NB_LA_1866-03-14_Page_014.jpg"/>
+
+<fw type="num">14</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw>
 
 <!-- GL, 2016-11-16, Commented out below, as it will appear in the preceding debate day -->
 
@@ -323,12 +327,12 @@ to-morrow at ten o'clock.  <lb/>
             <p> A. A. <lb/>
             </p>-->
 
-            <fw type="dateline"> WEDNESDAY,
+            <p> WEDNESDAY,
 MARCH 14th <lb/>
-            </fw>
+            </p>
 
-            <p> HON. MR.
-SMITH brought in a Bill <lb/>
+            <p> <persName ref="pers:SMIT1">HON. MR.
+SMITH</persName> brought in a Bill <lb/>
            
             <cb/>
            
@@ -343,7 +347,7 @@ for <lb/>
 collecting this duty.<lb/>
             </p>
             <p>
-MR. MCMILLAN said, although it
+<persName ref="pers:MCMI1">MR. MCMILLAN</persName> said, although it
 was <lb/>
 a matter of importance which should be <lb/>
 attended to at once, yet they should
@@ -351,11 +355,11 @@ not <lb/>
 go into Committee upon it in the absence <lb/>
 of so many of the legal gentlemen. <lb/>
             </p>
-            <p>HON. MR. SMITH would be glad to <lb/>
+            <p> <persName ref="pers:SMIT1">HON. MR. SMITH</persName> would be glad to <lb/>
 see every member in his place.<lb/>
             </p>
             <p>
-MR. WILMOT had very little
+<persName ref="pers:WILM1">MR. WILMOT</persName> had very little
 doubt <lb/>
 about the power of the Legislature, and <lb/>
 he thought that it was absolutely
@@ -367,7 +371,7 @@ it should be brought forward and
 reme<lb break="no"/>died immediately. <lb/>
             </p>
             <p>
-Mr. MCCLELAN said this oversight <lb/>
+<persName ref="pers:MCCL1">Mr. MCCLELLAN</persName> said this oversight <lb/>
 had been brought to their knowledge <lb/>
 yesterday by the hon. member for York. <lb/>
 (Mr. Fisher) and as there were
@@ -379,7 +383,7 @@ postponed until <lb/>
 to-morrow morning, which would be <lb/>
 rushing the Bill through very speedily.
 <lb/>
-HON. MR. SMITH said he hoped all <lb/>
+<persName ref="pers:SMIT1">HON. MR. SMITH</persName> said he hoped all <lb/>
 political feelings would be thrown aside <lb/>
 in discussing this subject,
 for it was de<lb break="no"/>sirable to pass this law as soon
@@ -419,7 +423,7 @@ move that the Bill be committed.
             </p>
 
 
-            <p> MR FISHER said, passing a law for <lb/>
+            <p> <persName ref="pers:FISH1">MR FISHER</persName> said, passing a law for <lb/>
 the future is one thing, and passing a <lb/>
 law to cover all the past is
 another. It <lb/>
@@ -440,7 +444,7 @@ time <lb/>
 they state they first discovered
 it ? They <lb/>
 should have called the Legislature
-to<lb break="no"/><pb n="15" facs="final/images/NB_LA_1866-03-14_Page_015.jpg"/>gether earlier, and not postponed it un<lb break="no"/>til this late period, when they
+to<lb break="no"/><pb n="15" facs="final/images/NB_LA_1866-03-14_Page_015.jpg"/>  <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw><fw type="num">15</fw>gether earlier, and not postponed it un<lb break="no"/>til this late period, when they
 knew at <lb/>
 that time that a vast amount of revenue <lb/>
 was jeopardous. It was only a few <lb/>
@@ -461,7 +465,7 @@ launch a principle that violates every <lb/>
 principle of right and wrong, and may <lb/>
 alter all the contracts in the country. <lb/>
             </p>
-            <p>MR. GILBERT
+            <p> <persName ref="pers:GILB1">MR. GILBERT</persName>
 was prepared to assist <lb/>
 the Government in regard to passing
 a<lb/>
@@ -485,7 +489,7 @@ whether this retrospective legislation
 would not take away the rights of par<lb break="no"/>ties and lead to it great deal of com<lb break="no"/>plaint. <lb/>
             </p>
   
-            <p> MR NEEDHAM
+            <p> <persName ref="pers:NEED1">MR NEEDHAM</persName>
 said it did not in<lb break="no"/>volve a great principle, and the
 sooner <lb/>
 they passed this Bill the
@@ -524,7 +528,7 @@ duty, it is <lb/>
 their duty to do it at once. <lb/>
             </p>
  
-            <p> HON. MR CUDLIP—If the Govern<lb break="no"/>ment have committed an error in regard
+            <p> <persName ref="pers:CUDL1">HON. MR CUDLIP</persName> —If the Govern<lb break="no"/>ment have committed an error in regard
 <lb/>
 to this matter, they are responsible to the <lb/>
 people for it. This act does not condone <lb/>
@@ -544,7 +548,7 @@ this <hi rendition="simple:italic">ex post facto</hi> law passed in
 order to <lb/>
 retain the money in the public chest. <lb/>
             </p>
-            <p> MR. ANGLIN
+            <p> <persName ref="pers:ANGL1">MR. ANGLIN</persName>
 said his hon. colleague <lb/>
 had stated nearly all of what he had in<lb break="no"/>tended to say. He was happy to see that <lb/>
 some of the members of the opposition <lb/>
@@ -588,7 +592,7 @@ any other member, to look into
 the mat<lb break="no"/>ter. <lb/>
             </p>
 
-            <p> MR. LINDSAY
+            <p> <persName ref="pers:LIND1">MR. LINDSAY</persName>
 said it was admitted by <lb/>
 a member of the Government that they <lb/>
 knew of it in September. Why, then, <lb/>
@@ -609,7 +613,7 @@ for he thought no time should be
 lost in <lb/>
 passing this Bill. <lb/>
             </p>
-            <p> MR. KERR
+            <p> <persName ref="pers:KERR1">MR. KERR</persName>
 said it was very evident that <lb/>
 every Deputy Treasurer was
 liable to have <lb/>
@@ -629,7 +633,7 @@ law to <lb/>
 continue another law will do injustice to <lb/>
 none. <lb/>
             </p>
-            <p> MR. L. P. W. DESBRISAY said he <lb/>
+            <p> <persName ref="pers:DESB2">MR. L. P. W. DESBRISAY</persName> said he <lb/>
 took a. different view in regard to this <lb/>
 from any he had heard expressed. He <lb/>
 was against any export duty whatever, <lb/>
@@ -682,7 +686,7 @@ un<lb break="no"/>til dark, and they should be protected
 in <lb/>
 their employment. <lb/>
             </p>
-            <p>MR. CONNELL said that it was very <lb/>
+            <p> <persName ref="pers:CONN1">MR. CONNELL</persName> said that it was very <lb/>
 evident that a different law ought
 to ex<lb break="no"/>ist, which would not only be a benefit to<lb/>
 the revenue but to the country ; but it <lb/>
@@ -716,7 +720,7 @@ should induce us to do it. <lb/>
             </p>
 
 
-            <p> MR. CAIE
+            <p> <persName ref="pers:CAIE1">MR. CAIE</persName>
 said the important question <lb/>
 was, whether the money which they had <lb/>
 paid into the Treasury last year should
@@ -733,7 +737,7 @@ consider it Provincial money,
 and should <lb/>
 appropriate it to that purpose. <lb/>
             </p>
-            <p> MR. FRASER said he differed from <lb/>
+            <p> <persName ref="pers:FRAS1">MR. FRASER</persName> said he differed from <lb/>
 the hon. member from the County of <lb/>
 York (Mr. Fisher) in regard to
 the law, <lb/>
@@ -743,12 +747,12 @@ what time he became aware the law for <lb/>
 collecting an export duty on lumber had <lb/>
 expired. <lb/>
             </p>
-            <p> MR. L. P. W. DESBRISAY said he <lb/>
+            <p> <persName ref="pers:DESB2">MR. L. P. W. DESBRISAY</persName> said he <lb/>
 was not aware of it until yesterday
 even<lb break="no"/>ing, when it was brought forward by Mr. <lb/>
 Fisher. <lb/>
             </p>
-            <p> MR. FRASER—Then at the time the <lb/>
+            <p> <persName ref="pers:FRAS1">MR. FRASER</persName> —Then at the time the <lb/>
 hon. member was making his
 calculations <lb/>
 regarding the men he supplied, and the <lb/>
@@ -758,7 +762,7 @@ and if they paid him the money back, it <lb/>
 would not be his money, and if
 he does <lb/>
 get it back, it ought to go on the Roads <lb/>
-(Mr. Desbrisay.—Let it go so then.) <lb/>
+( <persName ref="UNSPECIFIED">Mr. Desbrisay</persName>.—Let it go so then.) <lb/>
             </p>
             <p> He would now show that although the <lb/>
 principle of retrospective
@@ -788,6 +792,8 @@ the second act passed, but only shipped <lb/>
            
 
             <pb n="16" facs="final/images/NB_LA_1866-03-14_Page_016.jpg"/>
+
+<fw type="num">16</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw>
           
  on board before the ﬁrst passed, were
 held <lb/>
@@ -827,8 +833,8 @@ the same shall receive the Royal
 Assent.</hi>" <lb/>
             </p>
 
-            <p> MR.
-MCCLELAN said as this was an <lb/>
+            <p> <persName ref="pers:MCCL1">MR.
+MCCLELAN</persName> said as this was an <lb/>
 important matter, they should not hurry <lb/>
 it on, for the passage of this <hi rendition="simple:italic">expost facto</hi> <lb/>
 act might lead to litigation instead
@@ -842,20 +848,20 @@ impute improper motives to them, but
 thought it a matter of neglect, for which <lb/>
 they were responsible. <lb/>
             </p>
-            <p> MR. GILBERT said that connecting <lb/>
+            <p> <persName ref="pers:GILB1">MR. GILBERT</persName> said that connecting <lb/>
 the two bills together might have the ef<lb break="no"/>fect of preventing
 their receiving the Roy<lb break="no"/>al Assent. <lb/>
             </p>
-            <p>HON.
-MR SMITH said it was a matter <lb/>
+            <p> <persName ref="pers:SMIT1">HON.
+MR SMITH</persName> said it was a matter <lb/>
 of internal concern in our own jurisdic<lb break="no"/>tion. <lb/>
             </p>
-            <p> MR. MCCLELAN asked if any protests <lb/>
+            <p> <persName ref="pers:MCCL1">MR. MCCLELAN</persName> asked if any protests <lb/>
 had been entered against the payment of <lb/>
 these debts. <lb/>
             </p>
-            <p>HON MR.
-SMITH was not aware of<lb/>
+            <p> <persName ref="pers:SMIT1">HON MR.
+SMITH</persName> was not aware of<lb/>
 any such case. <lb/>
             </p>
             <p> The resolution was then carried. <lb/>
@@ -865,7 +871,7 @@ any such case. <lb/>
 IN COMMITTEE ON THE BILL. <lb/>
             </head>
 
-            <p> MR. WILMOT said he had had some <lb/>
+            <p> <persName ref="pers:WILM1">MR. WILMOT</persName> said he had had some <lb/>
 experience in the Crown Land Office, ha<lb break="no"/>ving been in the office for a
 number of <lb/>
 years, and he had no difficulty in collect<lb break="no"/>ing stumpage ; he had given collectors a <lb/>
@@ -875,7 +881,7 @@ brought no <lb/>
 bills, and the revenue
 increased. <lb/>
             </p>
-            <p> MR. FISHER said he had no faith in <lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> said he had no faith in <lb/>
 the whole timber system. It had the ef<lb break="no"/>fect to encourage inordinate
 lumbering. <lb/>
 Every square mile they kept for lumber<lb break="no"/>ing on, brought them in four or live dol<lb break="no"/>lars a year for stumpage ; but
@@ -986,8 +992,8 @@ time to consider the retrospective
 act. <lb/>
             </p>
 
-            <p>HON.
-MR. SMITH said, that, in
+            <p> <persName ref="pers:SMIT1">HON.
+MR. SMITH</persName> said, that, in
 consi<lb break="no"/>dering a measure of so much importance
 <lb/>
 to the country, they should have risen <lb/>
@@ -1011,7 +1017,7 @@ trying to make use of it politically. He <lb/>
 was surprised to hear that hon. gentleman <lb/>
 state to them three or four times, that he <lb/>
 had not made up his mind upon this ques<lb break="no"/>tion, when he knew of it last January.<lb/>
-(Mr. Fisher—I did not say it—I said, a<lb/>
+( <persName ref="pers:FISH1">Mr. Fisher</persName> —I did not say it—I said, a<lb/>
 few weeks ago.) Well, a few weeks ago.<lb/>
 Can you suppose that a man of his expe<lb break="no"/><cb/>rience—when he sees that a great mis<lb break="no"/>take has been made, involving the revenue <lb/>
 to the extent of $60,000, and has not <lb/>
@@ -1054,7 +1060,7 @@ public interest, should pass speedily, and <lb/>
 he trusted the House would support
 it. <lb/>
             </p>
-            <p>MR. FISHER said, that, although he <lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> said, that, although he <lb/>
 had discovered it some weeks ago, he <lb/>
 could not make up his mind ; and it was <lb/>
 only on Friday last he had looked over <lb/>
@@ -1062,7 +1068,7 @@ the acts to see if it was really so. There<lb break="no"/>fore, in all fairness,
 should have <lb/>
 more time to consider it.<lb/>
             </p>
-            <p>MR MCMILLAN said the proposition <lb/>
+            <p> <persName ref="pers:MCMI1">MR MCMILLAN</persName> said the proposition <lb/>
 now before them had two points :
 one was<lb/>
 to continue the export duty, the
@@ -1094,7 +1100,7 @@ the Crown Lands would be cut upon pri<lb break="no"/>vate property, causing the 
 
 
 
-            <p> MR. L. P. W. DESBRISAY remarked <lb/>
+            <p> <persName ref="pers:DESB1">MR. L. P. W. DESBRISAY</persName> remarked <lb/>
 that he did not intend to make
 any fur<lb break="no"/>ther opposition to the bill, as it seemed <lb/>
 necessary for the interests of
@@ -1105,7 +1111,7 @@ think the rights and interests of the peo<lb break="no"/>ple ought to be provide
 seemed to be a majority in the House wil<lb break="no"/>ing to ignore those rights to a certain ex<lb break="no"/>tent in imposing this duty upon lumber <lb/>
 cut upon private property. <lb/>
             </p>
-            <p> MR. GILBERT did not rise for the  <lb/>
+            <p> <persName ref="pers:GILB1">MR. GILBERT</persName> did not rise for the  <lb/>
 purpose of opposing the bill, but
 he rose <lb/>
 for the purpose of expressing
@@ -1132,6 +1138,8 @@ represent, as the lands in that  <lb/>
            
 
             <pb n="17" facs="final/images/NB_LA_1866-03-14_Page_017.jpg"/>
+
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">17</fw>
           
  County were owned by private indivi<lb break="no"/>duals, with the exception of about
 three <lb/>
@@ -1162,8 +1170,8 @@ two parts, <lb/>
 but the Government, having thought pro<lb break="no"/>per to unite them, he should
 vote for it. <lb/>
             </p>
-            <p>MR.
-HILL would not take up the time <lb/>
+            <p> <persName ref="pers:HILL1">MR.
+HILL</persName> would not take up the time <lb/>
 of the House, if it were not
 that he should <lb/>
 vote for this Bill,
@@ -1211,7 +1219,7 @@ FISHER'S AMENDMENT TO THE FOURTH<lb/>
 PARAGRAPH.<lb/>
             </head>
 
-            <p> HON. MR. SMITH
+            <p> <persName ref="pers:SMIT1">HON. MR. SMITH</persName>
 resumed—The <lb/>
 House listened to me yesterday about an <lb/>
 hour on this “Bill of Indictment." I <lb/>
@@ -1480,6 +1488,8 @@ House and show his account of what he <lb/>
 
             <pb n="18" facs="final/images/NB_LA_1866-03-14_Page_018.jpg"/>
     
+<fw type="num">18</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw>
+
 has done. A majority of the Press, for<lb/>
 
 some reasons, are against us, and abu<lb break="no"/>sing us. We have men of character
@@ -1765,6 +1775,8 @@ called together too late, and there was a
 <lb/>
        
             <pb n="19" facs="final/images/NB_LA_1866-03-14_Page_019.jpg"/>
+
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">19</fw>
           
 great sympathy expressed for the mem<lb break="no"/>bers of the rural
 districts. I have not <lb/>
@@ -2015,8 +2027,8 @@ Whether such a scheme is attainable, is<lb/>a question for deliberation. 
 
 
 
-            <p> “MR.
-NEEDHAM moved that the de<lb break="no"/>bate be adjourned
+            <p> “ <persName ref="pers:NEED1">MR.
+NEEDHAM</persName> moved that the de<lb break="no"/>bate be adjourned
 until 2 P. M. <lb/>
             </p>
             <p>Home adjourned until 10 A. M. <lb/>

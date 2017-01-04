@@ -264,6 +264,8 @@
          <change who="mholmes" when="2016-10-31">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-10-31">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-11-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -552,7 +554,7 @@
      <lb/>
      Confederation, being called-<lb/>
             </p>
-            <p>HON. MR. HOLTON rose to a point of 
+            <p><persName ref="pers:HOLT1">HON. MR. HOLTON</persName> rose to a point of 
      <lb/>
      order, objecting that the “previous question” 
      <lb/>
@@ -570,7 +572,7 @@
             </p>
 
             <p>
-     MR. SPEAKER decided as follows:—<lb/>
+     <persName ref="pers:SPEA1">MR. SPEAKER</persName> decided as follows:—<lb/>
      “ The original motion, made by the Hon. 
      <lb/>
      Attorney General for Upper Canada, is that 
@@ -624,7 +626,7 @@
             </p>
 
             <p>
-     Mr. TASCHEREAU said—It is not 
+     <persName ref="pers:TASC1">Mr. TASCHEREAU</persName> said—It is not 
      <lb/>
      without hesitation, Mr. SPEAKER, that I 
      <lb/>
@@ -958,10 +960,7 @@
      <lb/>
             </quote>
         <cb/>
-            <fw type="num">
-     895 
-     <lb/>
-            </fw>
+            
    
             <p>
      While the hon. member for Montmorency 
@@ -1430,7 +1429,7 @@
     
 
             <p>
-     Ms. A. M. SMITH—Mr. SPEAKER, I 
+     <persName ref="pers:SMIT2">Ms. A. M. SMITH</persName>—Mr. SPEAKER, I 
      <lb/>
           
             <pb n="898" facs="final/images/Ont_Que_LA_1865-03-10_Page_0898.jpg"/>
@@ -1751,7 +1750,7 @@
             </p>
 
             <p>
-     MR. SHANLY said—In rising to address 
+     <persName ref="pers:SHAN1">MR. SHANLY</persName> said—In rising to address 
      <lb/>
      the House on the great question under 
      <lb/>
@@ -2466,7 +2465,7 @@
             </p>
 
             <p>
-     MR. SHANLY, resuming his remarks, 
+     <persName ref="pers:SHAN1">MR. SHANLY</persName>, resuming his remarks, 
      <lb/>
      said—Before the House rose, I had expres<lb break="no"/>sed my belief that the people of this country 
      <lb/>
@@ -2892,7 +2891,7 @@
             </p>
 
             <p>
-     MB. SCOBLE—If I were to consult my own 
+     <persName ref="pers:SCOB1">MB. SCOBLE</persName>—If I were to consult my own 
      <lb/>
      feelings or my convenience, Mr. SPEAKER, 
      <lb/>
@@ -4261,7 +4260,7 @@
             </p>
 
             <p>
-     COL. RANKIN—Mr. SPEAKER, never 
+     <persName ref="pers:RANK1">COL. RANKIN</persName>—Mr. SPEAKER, never 
      <lb/>
      has there been an occasion, since I have had 
      <lb/>
@@ -4623,7 +4622,7 @@
      <lb/>
      the motion, which is as follows:-<lb/>
             </p>
-            <quote rendition="tccd:blockquote">Mr. RANKIN—On Wednesday next (30th of 
+            <quote rendition="tccd:blockquote"><persName ref="pers:RANK1">Mr. RANKIN</persName>—On Wednesday next (30th of 
      <lb/>
      April, 1856)—Committee of the Whole on the 
      <lb/>
@@ -4652,7 +4651,7 @@
             </p>
 
             <p>
-     HON. J. S. MACDONALD—It was 
+     <persName ref="pers:MACD2">HON. J. S. MACDONALD</persName>—It was 
      <lb/>
      advocated long ago by Bishop STRACHAN 
      <lb/>
@@ -4661,7 +4660,7 @@
             </p>
 
             <p>
-     MR. RANKIN—Far be it from me to 
+     <persName ref="pers:RANK1">MR. RANKIN</persName>—Far be it from me to 
      <lb/>
      deny that these gentlemen are entitled to the 
      <lb/>
@@ -4785,7 +4784,7 @@
             </p>
 
             <p>
-     HON. MR. BROWN—With provision for 
+     <persName ref="pers:BROW4">HON. MR. BROWN</persName>—With provision for 
      <lb/>
      its extension, so as to embrace the other 
      <lb/>
@@ -4796,7 +4795,7 @@
             </p>
 
             <p>
-     COL. RANKIN—Certainly ; but though 
+     <persName ref="pers:RANK1">COL. RANKIN</persName>—Certainly ; but though 
      <lb/>
      I did not approve of a Federation of Canada 
      <lb/>
@@ -4897,14 +4896,14 @@
             </p>
 
             <p>
-     HON. J. S. MACDONALD—You have 
+     <persName ref="pers:MACD2">HON. J. S. MACDONALD</persName>—You have 
      <lb/>
      great faith. 
      <lb/>
             </p>
 
             <p>
-     MR. RANKIN—We ought all to profit 
+     <persName ref="pers:RANK1">MR. RANKIN</persName>—We ought all to profit 
      <lb/>
      by the lessons of experience. In the course 
      <lb/>
@@ -5977,7 +5976,7 @@
      maintain the closest alliance. (Cheers) 
      <lb/> </p>
             
-            <p>MR. DUFRESNE (Montcalm)—Mr. 
+            <p><persName ref="pers:DUFR1">MR. DUFRESNE</persName> (Montcalm)—Mr. 
      <lb/>SPEAKER, in rising at this moment to express 
      <lb/>my humble opinion on the merits of the reso<lb break="no"/>lutions now under discussion by this House, 
      <lb/>I do not intend to follow the formula or pre<lb break="no"/>amble hitherto invariably adopted, by saying 
@@ -6152,14 +6151,14 @@
             </p>
 
             <p>
-     MR. PERRAULT—Yes, but they might 
+     <persName ref="pers:PERR2">MR. PERRAULT</persName>—Yes, but they might 
      <lb/>
      have done better still. 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE—The honorable mem<lb break="no"/>ber says that they might have done better 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—The honorable mem<lb break="no"/>ber says that they might have done better 
      <lb/>
      still ; but that was not what he said in his 
      <lb/>
@@ -6386,13 +6385,13 @@
      <lb/>matter at all. 
      <lb/>
             </p>
-            <p>MR. PERRAULT—It was the MACDON<lb break="no"/>ALD-DORION Government that passed the 
+            <p><persName ref="pers:PERR2">MR. PERRAULT</persName>—It was the MACDON<lb break="no"/>ALD-DORION Government that passed the 
      <lb/>measure. 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE—No. It was not the 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—No. It was not the 
      <lb/>
      Government that introduced the measure, and 
      <lb/>
@@ -6658,12 +6657,12 @@
             </p>
 
             <p>
-     MR. PERRAULT—Hear, hear. 
+     <persName ref="pers:PERR2">MR. PERRAULT</persName>—Hear, hear. 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE—The hon. member dis<lb break="no"/>tinctly sees the mote in his neighbor’s eye, 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—The hon. member dis<lb break="no"/>tinctly sees the mote in his neighbor’s eye, 
      <lb/>
      but he cannot in any way discover the beam 
      <lb/>
@@ -6732,12 +6731,12 @@
             </p>
 
             <p>
-     MR. PERRAULT—I did not say that. 
+     <persName ref="pers:PERR2">MR. PERRAULT</persName>—I did not say that. 
      <lb/>
             </p>
             <cb/>
             <p>
-     MR. DUFRESNE—I made a note of it at 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—I made a note of it at 
      <lb/>
      the time, as I did of his remark, that “even 
      <lb/>
@@ -6752,12 +6751,12 @@
             </p>
 
             <p>
-     MR. PERRAULT—No, no. 
+     <persName ref="pers:PERR2">MR. PERRAULT</persName>—No, no. 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE—Let the honorable 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—Let the honorable 
      <lb/>
      member retract his words, and I shall be quite 
      <lb/>
@@ -6766,14 +6765,14 @@
             </p>
 
             <p>
-     Mr. PERRAULT—You have completely 
+     <persName ref="pers:PERR2">Mr. PERRAULT</persName>—You have completely 
      <lb/>
      distorted the meaning of what I said. 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE —The honorable mem<lb break="no"/>ber stated that the clergy were wrong in 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName> —The honorable mem<lb break="no"/>ber stated that the clergy were wrong in 
      <lb/>
      1837 ; that‘ they are wrong now ; and 
      <lb/>
@@ -6784,14 +6783,14 @@
             </p>
 
             <p>
-     MR. PERRAULT—Will the honorable 
+     <persName ref="pers:PERR2">MR. PERRAULT</persName>—Will the honorable 
      <lb/>
      gentleman allow me to say a word in explana<lb break="no"/>tion, and in order to set him right ? 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE—With pleasure. I do 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—With pleasure. I do 
      <lb/>
      not wish to take advantage of the honorable 
      <lb/>
@@ -6802,7 +6801,7 @@
             </p>
 
             <p>
-     MR. PERRAULT—I have often heard 
+     <persName ref="pers:PERR2">MR. PERRAULT</persName>—I have often heard 
      <lb/>
      words spoken in this House misquoted, but I 
      <lb/>
@@ -6895,7 +6894,7 @@
             </p>
 
             <p>
-     MR. DUFRESNE—I have allowed the 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—I have allowed the 
      <lb/>
      honorable member for Richelieu to explain 
      <lb/>
@@ -7179,14 +7178,14 @@
             </p>
 
             <p>
-     MB. J. B. E. DORION—You will awaken 
+     <persName ref="pers:DORI3">MB. J. B. E. DORION</persName>—You will awaken 
      <lb/>
      the House ! 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE—I trust I may be par<lb break="no"/>doned if I have spoken too strongly , but I feel 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—I trust I may be par<lb break="no"/>doned if I have spoken too strongly , but I feel 
      <lb/>
      so strongly on these matters that I must reply 
      <lb/>
@@ -7200,7 +7199,7 @@
      <lb/>
      exclusively in the interest of the people:-<lb/>
             </p>
-            <quote rendition="tccd:blockquote">SEIGNIORIAL TENURE.—PAY, WRETCHED PEO<lb break="no"/>PLE ! PAY ! The people will learn properly to ap<lb break="no"/>preciate the tendency of our political institutions 
+            <quote rendition="tccd:blockquote"><persName ref="UNSPECIFIED">SEIGNIORIAL TENURE</persName>.—PAY, WRETCHED PEO<lb break="no"/>PLE ! PAY ! The people will learn properly to ap<lb break="no"/>preciate the tendency of our political institutions 
      <lb/>
      only by the evil effects that must result from 
      <lb/>
@@ -7223,12 +7222,12 @@
             </p>
 
             <p>
-     MR. J. B. E. DORION—Go on. 
+     <persName ref="pers:DORI3">MR. J. B. E. DORION</persName>—Go on. 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE—Of course, I do not 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—Of course, I do not 
      <lb/>
      expect to see the honorable member exhibit 
      <lb/>
@@ -7317,7 +7316,7 @@
             </p>
             </quote>
             <p>
-     MR. J. B. E. DORION—That is as true 
+     <persName ref="pers:DORI3">MR. J. B. E. DORION</persName>—That is as true 
      <lb/>
      now as it was ten years ago. (Hear, hear, 
      <lb/>
@@ -7326,7 +7325,7 @@
             </p>
 
             <p>
-     MR. DUFRESNE—I shall not read the 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—I shall not read the 
      <lb/>
      whole of it, for it is too long ; but I will read 
      <lb/>
@@ -7406,7 +7405,7 @@
             </p>
             <cb/>
             <p>
-     MR. J. B. E. DORION—Will the honor<lb break="no"/>able member for Montcalm allow me to say a 
+     <persName ref="pers:DORI3">MR. J. B. E. DORION</persName>—Will the honor<lb break="no"/>able member for Montcalm allow me to say a 
      <lb/>
      few words ? I merely desire to state that I 
      <lb/>
@@ -7421,7 +7420,7 @@
             </p>
 
             <p>
-     MR. DUFRESNE—It is true, neverthe<lb break="no"/>less, that the first law took the burthen of 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—It is true, neverthe<lb break="no"/>less, that the first law took the burthen of 
      <lb/>
      the Seigniorial Tenure off the shoulders of the 
      <lb/>
@@ -7676,12 +7675,12 @@
             </p>
 
             <p>
-     MR. J. B. E. DORION—Oh ! 
+     <persName ref="pers:DORI3">MR. J. B. E. DORION</persName>—Oh ! 
      <lb/>
             </p>
 
             <p>
-     MR. DUFRESNE—As I now see the hon<lb break="no"/>orable member for Bagot in his place, I de<lb break="no"/>sire to make a few remarks in English, with 
+     <persName ref="pers:DUFR1">MR. DUFRESNE</persName>—As I now see the hon<lb break="no"/>orable member for Bagot in his place, I de<lb break="no"/>sire to make a few remarks in English, with 
      <lb/>
      reference to his speech.  [Mr. DUFRESNE 
      <lb/>
@@ -7735,14 +7734,14 @@
             </p>
 
             <p>
-     MR. J. B. E. DORION—He never used 
+     <persName ref="pers:DORI3">MR. J. B. E. DORION</persName>—He never used 
      <lb/>
      such language. 
      <lb/>
             </p>
 
             <p>
-     MR. WEBB said—Mr. SPEAKER, in the 
+     <persName ref="pers:WEBB1">MR. WEBB</persName> said—Mr. SPEAKER, in the 
      <lb/>
      consideration of the scheme presented by the 
      <lb/>
@@ -7946,7 +7945,7 @@
             </p>
             
             <p>
-     HON. ATTY. GEN. CARTIER—I have list<lb break="no"/>ened, Mr. SPEAKER, with great interest to the 
+     <persName ref="pers:CART2">HON. ATTY. GEN. CARTIER</persName>—I have list<lb break="no"/>ened, Mr. SPEAKER, with great interest to the 
      <lb/>
      observations of the honorable member for 
      <lb/>
@@ -7980,7 +7979,7 @@
             <cb/>
             
             <p>
-     Mr. RYMAL said—Mr. SPEAKER, relying 
+     <persName ref="pers:RYMA1">Mr. RYMAL</persName> said—Mr. SPEAKER, relying 
      <lb/>
      upon the pledge given by the Hon. Attorney 
      <lb/>
@@ -8212,14 +8211,14 @@
             </p>
    
             <p>
-     AN HON. MEMBER—What is the name 
+     <persName ref="UNSPECIFIED">AN HON. MEMBER</persName>—What is the name 
      <lb/>
      of the paper ? 
      <lb/>
             </p>
 
             <p>
-               MR. RYMAL—It is the <hi rendition="simple:italic">Norfolk Reform<lb break="no"/>er</hi>, a paper the several issues of which, for 
+               <persName ref="pers:RYMA1">MR. RYMAL</persName>—It is the <hi rendition="simple:italic">Norfolk Reform<lb break="no"/>er</hi>, a paper the several issues of which, for 
      <lb/>
      the months of November and December last, 
      <lb/>
@@ -8461,11 +8460,11 @@
      the 24th December last. (Hear, hear.) 
      <lb/></p>
             
-            <p>MR. A. MACKENZIE—But did all these 
+            <p><persName ref="pers:MACK1">MR. A. MACKENZIE</persName>—But did all these 
      <lb/>become bankrupts during the year?  
      <lb/>
             </p>
-            <p>MR. RYMAL—I cannot say. They at all 
+            <p><persName ref="pers:RYMA1">MR. RYMAL</persName>—I cannot say. They at all 
      <lb/>events gave the notice during the year. And 
      <lb/>I believe the misfortunes which have befal<lb break="no"/>len these men will, in each case, affect at least 
      <lb/>half a dozen, making an aggregate of 5,000. 
@@ -8675,7 +8674,7 @@
             </p>
 
             <p>
-     DR. PARKER—Mr. SPEAKER, before 
+     <persName ref="pers:PARK2">DR. PARKER</persName>—Mr. SPEAKER, before 
      <lb/>
      the debate closes, I desire to make a few 
      <lb/>
@@ -8868,7 +8867,7 @@
             </p>
 
             <p>
-     Hon. MR. HOLTON said—MR. SPEAK<lb break="no"/>ER, I endeavored to catch your eye in the 
+     <persName ref="pers:HOLT1">Hon. MR. HOLTON</persName> said—MR. SPEAK<lb break="no"/>ER, I endeavored to catch your eye in the 
      <lb/>
      early part of the evening, with the view of 
      <lb/>
@@ -9038,12 +9037,12 @@
     
 
             <p>
-     MR. SHANLY—The treaty was con<lb break="no"/>structed in Conference, and therefore no cor<lb break="no"/>respondence was necessary. 
+     <persName ref="pers:SHAN1">MR. SHANLY</persName>—The treaty was con<lb break="no"/>structed in Conference, and therefore no cor<lb break="no"/>respondence was necessary. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. HOLTON—Well, we know 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName>—Well, we know 
      <lb/>
      that there was correspondence between the 
      <lb/>
@@ -9206,7 +9205,7 @@
     
 
             <p>
-     DR. PARKER—What I said was this-<lb/>that I reserved to myself the right of voting 
+     <persName ref="pers:PARK2">DR. PARKER</persName>—What I said was this-<lb/>that I reserved to myself the right of voting 
      <lb/>
      as I pleased on every resolution which might 
      <lb/>
@@ -9217,7 +9216,7 @@
             </p>
 
             <p>
-     HON. MR. HOLTON—I understood my 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName>—I understood my 
      <lb/>
      honorable friend perfectly ; but notwithstand<lb break="no"/>ing any declaration that he may make in 
      <lb/>
@@ -9318,12 +9317,12 @@
             </p>
 
             <p>
-     HON. ATTY. GEN. MACDONALD - <lb/>Thirty thousand pounds. 
+     <persName ref="pers:MACD1">HON. ATTY. GEN. MACDONALD</persName> - <lb/>Thirty thousand pounds. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. HOLTON—£30,000, or £50,<lb break="no"/>000—it was variously stated—but £200,000. 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName>—£30,000, or £50,<lb break="no"/>000—it was variously stated—but £200,000. 
      <lb/>
      Well, sir, we have the extended report at 
      <lb/>
@@ -9486,7 +9485,7 @@
      scheme now before the House. ( Hear, hear.) 
      <lb/></p>
             
-            <p>MR. FORTIER—In rising to speak at 
+            <p><persName ref="pers:FORT2">MR. FORTIER</persName>—In rising to speak at 
      <lb/>such an advanced stage of the debate, it is 
      <lb/>not my intention to occupy the attention of 
      <lb/>the House for any lengthened period, espe<lb break="no"/>cially as the topic of Confederation which 
@@ -9980,7 +9979,7 @@
     
 
             <p>
-     HON. MR. EVANTUREL said—Mr. 
+     <persName ref="pers:EVAN1">HON. MR. EVANTUREL</persName> said—Mr. 
      <lb/>
      SPEAKER, in return for the indulgence 
      <lb/>
@@ -10093,7 +10092,7 @@
      be precisely the same as it is in this Legis<lb break="no"/>lature. (Hear, hear.) 
      <lb/>
             </p>
-            <p>HON. MR. DORION-I do not rise to<lb/>
+            <p><persName ref="pers:DORI1">HON. MR. DORION</persName>-I do not rise to<lb/>
             <cb/>
                
      offer any lengthened remarks, but to draw 
@@ -10171,7 +10170,7 @@
             </p>
 
             <p>
-     HON. Ar'rr. GEN. MACDONALD—I 
+     <persName ref="pers:MACD1">HON. ATTY. GEN. MACDONALD</persName>—I 
      <lb/>
      desire to say that I agree with my hon. 
      <lb/>
@@ -10201,7 +10200,7 @@
             <fw type="num">945</fw>
             
             <p>
-     HON. ATTY. GEN. CARTIER—I will 
+     <persName ref="pers:CART2">HON. ATTY. GEN. CARTIER</persName>—I will 
      <lb/>
      add to what has been stated by the Hon. 
      <lb/>
@@ -10244,7 +10243,7 @@
             </p>
 
             <p>
-     HON. MR. DORION—I am very glad to 
+     <persName ref="pers:DORI1">HON. MR. DORION</persName>—I am very glad to 
      <lb/>
      hear this statement ; but I fail to see any<lb break="no"/>thing in the resolutions themselves which 
      <lb/>
@@ -10482,12 +10481,12 @@
             </p>
 
             <p>
-     HON. ATTY. GEN. MACDONALD—Yes. 
+     <persName ref="pers:MACD1">HON. ATTY. GEN. MACDONALD</persName>—Yes. 
      <lb/>
             </p>
 
             <p>
-     Hon. MR. DORION—But I find that 
+     <persName ref="pers:DORI1">Hon. MR. DORION</persName>—But I find that 
      <lb/>
      besides Mr. PALMER, who asserted publicly 
      <lb/>
@@ -10648,7 +10647,7 @@
             </p>
 
             <p>
-     HON. MR. GALT.—As to the first point, I 
+     <persName ref="pers:GALT1">HON. MR. GALT</persName>.—As to the first point, I 
      <lb/>
      can only say that full explanations have al<lb break="no"/>ready been given on several occasions ; with 
      <lb/>
@@ -10667,7 +10666,7 @@
             </p>
 
             <p>
-     HON. MR. DORION—I will remind the 
+     <persName ref="pers:DORI1">HON. MR. DORION</persName>—I will remind the 
      <lb/>
      honorable gentleman that there is another 
      <lb/>
@@ -10708,14 +10707,14 @@
             </p>
 
             <p>
-     HON. MR. BROWN—The right copy is 
+     <persName ref="pers:BROW4">HON. MR. BROWN</persName>—The right copy is 
      <lb/>
      that in the Speaker’s hands, of course. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. DORION—But there are two 
+     <persName ref="pers:DORI1">HON. MR. DORION</persName>—But there are two 
      <lb/>
      versions of it—the one in English differing 
      <lb/>
@@ -10724,7 +10723,7 @@
             </p>
 
             <p>
-     HON. ATTY. GEN. MACDONALD — I 
+     <persName ref="pers:MACD1">HON. ATTY. GEN. MACDONALD</persName> — I 
      <lb/>
      moved the resolutions in English, and if there 
      <lb/>
@@ -10735,7 +10734,7 @@
             </p>
 
             <p>
-     HON. MR. DORION—Well, if the English 
+     <persName ref="pers:DORI1">HON. MR. DORION</persName>—Well, if the English 
      <lb/>
      copy is the right one, the General Government 
      <lb/>
@@ -10750,14 +10749,14 @@
             </p>
 
             <p>
-     SEVERAL MEMBERS—That is the right 
+     <persName ref="UNSPECIFIED">SEVERAL MEMBERS</persName>—That is the right 
      <lb/>
      one. 
      <lb/>
             </p>
 
             <p>
-     MR. DE NIVERVILLE—Mr. SPEAKER, 
+     <persName ref="pers:BOUC1">MR. DE NIVERVILLE</persName>—Mr. SPEAKER, 
      <lb/>
      as the junior member of this honorable House, 
      <lb/>
@@ -11118,12 +11117,12 @@
             </p>
 
             <p>
-     MR. DENIS—That is very true. 
+     <persName ref="pers:DENI2">MR. DENIS</persName>—That is very true. 
      <lb/>
             </p>
 
             <p>
-     MB. DE NIVERVILLE—One word to 
+     <persName ref="pers:BOUC1">MB. DE NIVERVILLE</persName>—One word to 
      <lb/>
      comfort those French-Canadians who are 
      <lb/>
@@ -11745,7 +11744,7 @@
             </p>
 
             <p>
-     MR. GAGNON — Mr. SPEAKER, the 
+     <persName ref="pers:GAGN1">MR. GAGNON</persName> — Mr. SPEAKER, the 
      <lb/>
      scheme of a Confederation of the provinces 
      <lb/>
@@ -11783,7 +11782,7 @@
      <lb/>
           
             <pb n="953" facs="final/images/Ont_Que_LA_1865-03-10_Page_0953.jpg"/>
-            <fw type="num">958</fw>
+            <fw type="num">953</fw>
    
      not only do we ruin, by this new union, the 
      <lb/>
@@ -11837,7 +11836,7 @@
      <lb/>obliged to postpone them, as hon. members 
      <lb/>must be worn out with their long sittings, 
      <lb/>and the lateness of the hour. (Cheers.) 
-     <lb/>HON. MR. HUNTINGTON said—I do 
+     <lb/> <persName ref="pers:HUNT2">HON. MR. HUNTINGTON</persName> said—I do 
      <lb/>not intend, Mr. SPEAKER, to occupy the 
      <lb/>time of the House in any lengthened re<lb break="no"/>marks ; and yet as a member representing a 
      <lb/>constituency of this country, I do not feel 
@@ -12330,12 +12329,12 @@
             </p>
 
             <p>
-     MR. RYMAL—Except me. 
+     <persName ref="pers:RYMA1">MR. RYMAL</persName>—Except me. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. HUNTINGTON—My hon. 
+     <persName ref="pers:HUNT2">HON. MR. HUNTINGTON</persName>—My hon. 
      <lb/>
      friend, in the able speech he made upon this 
      <lb/>
@@ -12425,12 +12424,12 @@
      <lb/>
      which I represent-<lb/>
             </p>
-            <p>MR. POPE—Hear, hear. 
+            <p><persName ref="UNSPECIFIED">MR. POPE</persName>—Hear, hear. 
      <lb/>
             </p>
 
             <p>
-     HON. MR. HUNTINGTON—The hon. 
+     <persName ref="pers:HUNT2">HON. MR. HUNTINGTON</persName>—The hon. 
      <lb/>
      member says “ Hear, hear,” but lthink I 
      <lb/>
@@ -12519,7 +12518,7 @@
             </p>
 
             <p>
-     MR. WEBB—The resolutions have not 
+     <persName ref="pers:WEBB1">MR. WEBB</persName>—The resolutions have not 
      <lb/>
      been adopted, nor yet concurred in by the 
      <lb/>
@@ -12528,7 +12527,7 @@
             </p>
 
             <p>
-     HON. MR. HUNTINGTON—Well, I am 
+     <persName ref="pers:HUNT2">HON. MR. HUNTINGTON</persName>—Well, I am 
      <lb/>
      speaking of them as if they had been adopt<lb break="no"/>ed. It makes no difference whether they are 
      <lb/>
@@ -12715,7 +12714,7 @@
     
 
             <p>
-     MR. COWAN—Mr. SPEAKER, the honor<lb break="no"/>able member for Shefford says that he and his 
+     <persName ref="pers:COWA1">MR. COWAN</persName>—Mr. SPEAKER, the honor<lb break="no"/>able member for Shefford says that he and his 
      <lb/>
      friends  sympathised with the Reform party of 
      <lb/>
@@ -12752,7 +12751,7 @@
             </p>
 
             <p>
-     MR. T. R. FERGUSON said—Feeling 
+     <persName ref="pers:FERG2">MR. T. R. FERGUSON</persName> said—Feeling 
      <lb/>
      and knowing as I do, Mr. SPEAKER, the great 
      <lb/>
@@ -13002,14 +13001,14 @@
             </p>
 
             <p>
-     HON. J. S. MACDONALD—No ; they 
+     <persName ref="pers:MACD2">HON. J. S. MACDONALD</persName>—No ; they 
      <lb/>
      were to vote as they liked. 
      <lb/>
             </p>
 
             <p>
-     MR. FERGUSON—Well, whatever may 
+     <persName ref="pers:FERG2">MR. FERGUSON</persName>—Well, whatever may 
      <lb/>
      have been their privileges, we all know that 
      <lb/>
@@ -13337,8 +13336,8 @@
      <lb/>this country. Though 52,000 Roman Ca<lb break="no"/>tholic children in Upper Canada attended 
      <lb/>school in 1863, no more than 15,000 of them 
      <lb/>ever availed themselves of the separate schools. 
-     <lb/>A VOICE—You are wrong. 
-     <lb/>MR. FERGUSON—No, I beg the honor<lb break="no"/><cb/>able gentleman’s pardon, I am not wrong. 
+     <lb/> <persName ref="UNSPECIFIED">A VOICE</persName>—You are wrong. 
+     <lb/> <persName ref="pers:FERG2">MR. FERGUSON</persName>—No, I beg the honor<lb break="no"/><cb/>able gentleman’s pardon, I am not wrong. 
      <lb/>
      I take the figures of the Superintendent of 
      <lb/>
@@ -13488,7 +13487,7 @@
             <p>
      The question being put on the main motion 
      <lb/>
-     (of Hon. Mr. Attorney General MACDONALD), 
+     (of <persName ref="pers:MACD1">Hon. Mr. Attorney General MACDONALD</persName>), 
      <lb/>
      it was agreed to on the following division:-<lb/>
             </p>
@@ -13562,8 +13561,8 @@
             <p>
      The House then adjourned. 
      <lb/>
-     ___o__ 
-     <lb/>
+ <!--    ___o__ 
+     <lb/>-->
             </p>
             
    <!-- GL, 2016-10-31, Commented out below as it it will appear in debate day following -->

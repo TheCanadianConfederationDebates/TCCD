@@ -66,6 +66,8 @@
          <change who="mholmes" when="2016-12-06">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-06">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -115,7 +117,7 @@
             </head>
    
             <p>
-     Mr. Speaker informed the House that during 
+     <persName ref="pers:SPEA1">Mr. Speaker</persName> informed the House that during 
      <lb/>
      the recess he had received communications; he 
      <lb/>
@@ -185,7 +187,7 @@
             </p>
    
             <p>
-     Mr. Speaker reported, that when the House 
+     <persName ref="pers:SPEA1">Mr. Speaker</persName> reported, that when the House 
      <lb/>
      did attend His Excellency the Governor Gener<lb break="no"/>al this day in the Senate Chamber, His Excel<lb break="no"/>lency was pleased to make a Speech to both 
      <lb/>
@@ -428,7 +430,7 @@
            
             <pb n="4" facs="final/images/Man_H_of_C_1870-02-15_Page_0004.jpg"/>
             <fw type="num">4</fw>
-            <fw type="running">COMMONS DEBATES</fw>
+            <fw type="running">COMMONS DEBATES</fw> <fw type="dateline">February 15, 1870</fw>
            
      the supplies which it will be the duty of my 
      <lb/>
@@ -540,7 +542,7 @@
             </p>
    
             <p>
-     On motion of the Hon. Sir John A. Mac<lb break="no"/>donald, His Excellency’s speech was ordered to 
+     On motion of the <persName ref="pers:MACD1">Hon. Sir John A. Mac<lb break="no"/>donald</persName>, His Excellency’s speech was ordered to 
      <lb/>
      be taken into consideration tomorrow. 
      <lb/>

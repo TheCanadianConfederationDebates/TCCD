@@ -84,6 +84,8 @@
          <change who="mholmes" when="2016-11-14">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-14">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -122,6 +124,9 @@
       <body>
          <div type="debate">
             <pb n="180" facs="final/images/Ont_Que_LC_1865-02-14_Page_0180.jpg"/>
+
+
+<fw type="num">180</fw>
 
 <!-- GL, 2016-11-14, Commented out below, as it will appear in the preceding debate day -->
 
@@ -271,11 +276,11 @@
             </p>-->
    
 
-            <fw>
+            <p>
      TUESDAY, <hi rendition="simple:italic">February</hi> 14, 1865. 
-     <lb/></fw>
+     <lb/></p>
 
-    <p> HON. Sir N. F. BELLEAU said—Hon. 
+    <p> <persName ref="pers:BELL2">HON. Sir N. F. BELLEAU</persName> said—Hon. 
      <lb/>
     gentlemen, the discussion on the scheme of 
      <lb/>Confederation has already been protracted, 
@@ -526,7 +531,7 @@ under his feet. I do not think he would <lb/>
 care to make the trial, as the result might <lb/>
 be very far from gratifying. <lb/>
             </p>
-            <p> HON. MR. LETELLIER DE ST. JUST <lb/>
+            <p> <persName ref="pers:LETE1">HON. MR. LETELLIER DE ST. JUST</persName> <lb/>
 —I am ready to resign to-morrow, if you <lb/>
       
             <cb/>
@@ -534,7 +539,7 @@ be very far from gratifying. <lb/>
 will come and contest the division with <lb/>
 me. <lb/>
             </p>
-            <p> HON. SIR N. F. BELLEAU—I will not <lb/>
+            <p> <persName ref="pers:BELL2">HON. SIR N. F. BELLEAU</persName>—I will not <lb/>
 go myself, but others will, and I venture to <lb/>
 predict that you will be left at home. I <lb/>
 trust, then, that we shall hear no more about <lb/>
@@ -620,8 +625,8 @@ step back in civilization, if he voted against <lb/>
 the election of members of this House, I <lb/>
 consider that it was idle of him to say that <lb/>
 he had not declared himself opposed to Con<lb break="no"/>federation. <lb/>
-HON. MR. OLIVIER—The details. <lb/>
-HON. SIR N. F. BELLEAU—Details <lb/>
+<persName ref="pers:OLIV3">HON. MR. OLIVIER</persName>—The details. <lb/>
+<persName ref="pers:BELL2">HON. SIR N. F. BELLEAU</persName>—Details <lb/>
 and principle. I say then that at the elec<lb break="no"/>tions which have taken place, the members <lb/>
 elected, unless they did not choose
 to do <lb/>
@@ -761,13 +766,13 @@ that he has no conﬁdence in the exercise of <lb/>
 the powers of the Federal Government, <lb/>
 because it would be surrounded by a clique. <lb/>
             </p>
-            <p> HON. MR. OLIVIER—I did not say that <lb/>
+            <p> <persName ref="pers:OLIV3">HON. MR. OLIVIER</persName>—I did not say that <lb/>
 would be the case, but that, theoretically, it <lb/>
 might occur, and that if it were surrounded <lb/>
 by a clique, the rights of Lower Canada <lb/>
 would be in danger. <lb/>
             </p>
-            <p> HON. SIR. N. F. BELLEAU—That <lb/>
+            <p> <persName ref="pers:BELL2">HON. SIR. N. F. BELLEAU</persName>—That <lb/>
 makes no difference ; for he stated that he <lb/>
 feared the Government would be surrounded <lb/>
 by a clique. But is it not the national <lb/>
@@ -901,10 +906,10 @@ Shore Railway, and that the Government <lb/>
 who do not this are inefﬁcient and renegades <lb/>
 to their country. <lb/>
             </p>
-            <p> HON. MR. OLIVIER—I never made use <lb/>
+            <p> <persName ref="pers:OLIV3">HON. MR. OLIVIER</persName>—I never made use <lb/>
 of that expression. <lb/>
             </p>
-            <p> HON. SIR N. F. BELLEAU—True, you <lb/>
+            <p> <persName ref="pers:BELL2">HON. SIR N. F. BELLEAU</persName>—True, you <lb/>
 did not make use of the expression, but what <lb/>
 you said amounted to that in meaning. <lb/>
 According to the hon. member, the North <lb/>
@@ -960,7 +965,7 @@ such considerations, is a proof of pusillani<lb break="no"/>mity, and I almost f
 expression of them from the lips of a French <lb/>
 Canadian. (Cheers.) <lb/>
             </p>
-            <p> HON. MR. LETELLIER DE ST. JUST <lb/>
+            <p> <persName ref="pers:LETE1">HON. MR. LETELLIER DE ST. JUST</persName> <lb/>
 —Honorable Gentlemen, after the speech <lb/>
 which we have just heard, I hope a few <lb/>
 words will be allowed to me, for I have <lb/>
@@ -1145,10 +1150,10 @@ that we may come to a sound decision as to <lb/>
 the measure. These are details which we <lb/>
 ought to have. <lb/>
             </p>
-            <p> HON. SIR E. P. TACHÉ—You will soon <lb/>
+            <p> <persName ref="pers:TACH1">HON. SIR E. P. TACHÉ</persName>—You will soon <lb/>
 have them. <lb/>
             </p>
-            <p> HON. MR. LETELLIER DE ST. JUST <lb/>
+            <p> <persName ref="pers:LETE1">HON. MR. LETELLIER DE ST. JUST</persName> <lb/>
 —It is stated that the federal union pro<lb break="no"/><pb n="188" facs="final/images/Ont_Que_LC_1865-02-14_Page_0188.jpg"/><fw type="num">188</fw>vides a means of forming a great people,
 and <lb/>
 of raising us to a position in which we may <lb/>
@@ -1319,14 +1324,14 @@ Intercolonial <lb/>
 Railway.” <lb/>
             </quote>
 
-            <p> HON. MR. OLIVIER —Before proceed<lb break="no"/>ing to a vote, I will ask the hon. member <lb/>
+            <p> <persName ref="pers:OLIV3">HON. MR. OLIVIER</persName> —Before proceed<lb break="no"/>ing to a vote, I will ask the hon. member <lb/>
 (Hon. Sir N. F. BELLEAU) who proposed <lb/>
 to my honorable friend (Hon. Mr. LETEL<lb break="no"/>LIER) and myself to resign our
 seats if we <lb/>
 did not now choose to vote for Confedera<lb break="no"/>tion, and submit the question to our elec<lb break="no"/>tors, whether the debate will be postponed <lb/>
 until our elections are over ? <lb/>
             </p>
-            <p> HON. SIR. N. F. BELLEAU—As I am <lb/>
+            <p> <persName ref="pers:BELL2">HON. SIR. N. F. BELLEAU</persName>—As I am <lb/>
 not a member of the Government, it will be <lb/>
 understood that I cannot reply to that ques<lb break="no"/>tion. I did not propose to them to resign<lb/>
            
@@ -1338,7 +1343,7 @@ serious in their objections they might resign <lb/>
 and submit the question to their constituents <lb/>
 by presenting themselves for reelection. <lb/>
             </p>
-            <p> HON. MR. OLIVIER—I understand the <lb/>
+            <p> <persName ref="pers:OLIV3">HON. MR. OLIVIER</persName>—I understand the <lb/>
 object of the hon. member in giving that <lb/>
 advice. He would wish to see us retire <lb/>
 from the House during the contest ; but that <lb/>
@@ -1353,8 +1358,8 @@ nearly everything that I said. I conceive <lb/>
 that a blush must have mantled his forehead <lb/>
 as he concluded his speech. <lb/>
             </p>
-            <p> Hon. Mr. LETELLIER
-DE ST. JUST'S <lb/>
+            <p> <persName ref="pers:LETE1">Hon. Mr. LETELLIER
+DE ST. JUST'S</persName> <lb/>
 amendment was then put to the vote, and <lb/>
 lost on the following division :-<lb/>
             </p>

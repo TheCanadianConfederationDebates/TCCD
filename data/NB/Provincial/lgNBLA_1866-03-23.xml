@@ -71,6 +71,8 @@
          <change who="mholmes" when="2016-11-18">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-18">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -94,6 +96,9 @@
       <body>
          <div type="debate">
             <pb n="47" facs="final/images/NB_LA_1866-03-23_Page_047.jpg"/>
+
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">47</fw>
+
             <!--<p> DEBATES
 OF THE HOUSE OF ASSEMBLY FOR 1866<lb/>
             </p>
@@ -138,10 +143,10 @@ to-morrow at nine.</p>
             <lb/>-->
 
 
-            <fw type="dateline">FRIDAY, March 23.</fw>
+            <p>FRIDAY, March 23.</p>
             <lb/>
 
-            <p>Hon. MR. SMITH called the attention<lb/>
+            <p> <persName ref="pers:SMIT1">Hon. MR. SMITH</persName> called the attention<lb/>
 of the House to a communication in the<lb/>
 <hi rendition="simple:italic">Morning Telegraph</hi>, which professed to<lb/>
 give a statement of what took place be<lb break="no"/>tween Mr. Tilley and himself. This letter<lb/>
@@ -155,7 +160,7 @@ utterly untrue, which could be proved by<lb/>
 twenty witnesses, and he would be much<lb/>
 obliged if that paper would publish this<lb/>
 denial of their truth.</p>
-            <p>MR. GILBERT called the attention of<lb/>
+            <p> <persName ref="pers:GILB1">MR. GILBERT</persName> called the attention of<lb/>
 the Chief Commissioner of the Board of<lb/>
 Works to the unsafe condition of the<lb/>
 bridge over the Memramcosk River, in<lb/>
@@ -164,7 +169,7 @@ received a letter stating that the bridge<lb/>
 was likely to be carried away by the ice<lb/>
 in the spring. If this took place it would<lb/>
 cause a great deal of inconvenience.</p>
-            <p>HON. MR. HATHEWAY said if his<lb/>
+            <p> <persName ref="pers:HATH1">HON. MR. HATHEWAY</persName> said if his<lb/>
 hon. friend would place the letter in his<lb/>
 hand, he would refer it to the Supervisors,<lb/>
 and if they reported the bridge to be in<lb/>
@@ -177,7 +182,7 @@ and support of the poor in this Province"</p>
             <head>A BILL TO INCORPORATE THE ABERDEEN<lb/>
 IRON COMPANY.</head>
 
-            <p>MR. CONNELL in explaining the ob<lb break="no"/>jects of the Bill, said it was <unclear reason="illegible">[?]</unclear> 
+            <p> <persName ref="pers:CONN1">MR. CONNELL</persName> in explaining the ob<lb break="no"/>jects of the Bill, said it was <unclear reason="illegible">[?]</unclear> 
                <lb/>
 the purpose of getting<unclear reason="illegible">[?]</unclear>
                <lb/>
@@ -194,7 +199,7 @@ doubt about holding lands, and it was<lb/>
 necessary in operations of this kind that<lb/>
 the company should hold a great deal of<lb/>
 land.</p>
-            <p>MR. KERR said that there was no<lb/>
+            <p> <persName ref="pers:KERR1">MR. KERR</persName> said that there was no<lb/>
 doubt whatever under the General Act<lb/>
 but what they had power to hold lands.<lb/>
 There were several companies of this<lb/>
@@ -204,7 +209,7 @@ gave each of these corporations all the<lb/>
 power they needed for the purchase<lb/>
 of lands. Unless some special provisions<lb/>
 were required, he did not see the neces<lb break="no"/>sity of this Bill.</p>
-            <p>HON. MR. SMITH said the company<lb/>
+            <p> <persName ref="pers:SMIT1">HON. MR. SMITH</persName> said the company<lb/>
 would have to go abroad to obtain capi<lb break="no"/>tal, and if the parties could show a special<lb/>
 Act of incorporation it would, no doubt,<lb/>
 facilitate their operations very much.<lb/>
@@ -212,7 +217,7 @@ Therefore, if this Bill simply contains the<lb/>
 provisions of the General Act, it would<lb/>
 be unwise in this Legislature to refuse<lb/>
 to pass it.</p>
-            <p>Mr. ANGLIN stated that under an<lb/>
+            <p> <persName ref="pers:ANGL1">Mr. ANGLIN</persName> stated that under an<lb/>
 Act of this kind, stock could be secured<lb/>
 more readily; for at the stock exchange <lb/>
 it would be proof that the company had a<lb/>
@@ -235,7 +240,7 @@ after which progress was reported.</p>
             <head>ADJOURNED DEBATE ON MR. FISHER'S<lb/>
 AMENDMENT</head>
 
-            <p>HON. MR. GILLMOR resumed—I re<lb break="no"/>gret I had not finished my remarks last<lb/>
+            <p> <persName ref="pers:GILL1">HON. MR. GILLMOR</persName> resumed—I re<lb break="no"/>gret I had not finished my remarks last<lb/>
 evening, which I would have done had<lb/>
 the House remained in session a few<lb/>
 minutes longer.</p>
@@ -283,7 +288,7 @@ for it. It has given me a great deal of<lb/>
 anxiety. I am personally responsible, as<lb/>
 well as all my colleagues, but notwith<lb break="no"/>standing the omission, the evil has been<lb/>
 entirely remedied, and not one cent<lb/>
-has been lost to the people of the Pro<lb break="no"/>vince. (A member,—You need not
+has been lost to the people of the Pro<lb break="no"/>vince. ( <persName ref="UNSPECIFIED">A member</persName>,—You need not
 thank<lb/>
 the Government for that.) Such is the<lb/>
 result. Who should we thank? The<lb/>
@@ -327,15 +332,15 @@ great question decided at the last General<lb/>
 Election precluded them from taking in<lb break="no"/>to the Executive Council those who<lb/>
 entertained different opinions upon that<lb/>
 question, although it would have been<lb/>
-very gratifying to my colleagues and my<lb break="no"/>self if it could have been done. (Hon.<lb/>
-Mr Hatheway—My hon. friend on my<lb/>
+very gratifying to my colleagues and my<lb break="no"/>self if it could have been done. ( <persName ref="pers:HATH1">Hon.<lb/>
+Mr Hatheway</persName>—My hon. friend on my<lb/>
 left says there were two members from<lb/>
 the County of Gloucester who were anti-<lb break="yes"/>
 Confederates. Does he not know that<lb/>
 there was a scrutiny going on, and while<lb/>
 that was pending they could not become<lb/>
 members of the Government.)</p>
-            <p>Mr. WETMORE—<unclear reason="illegible">[?]</unclear> no! a<lb/>
+            <p> <persName ref="pers:WETM1">Mr. WETMORE</persName> —<unclear reason="illegible">[?]</unclear> no! a<lb/>
 
             <unclear reason="illegible">[?]</unclear><lb/>
 <unclear reason="illegible">[?]</unclear><lb/>
@@ -349,12 +354,8 @@ members of the Government.)</p>
          my hon. friend thinks me sincere in this;<lb/>
            
             <pb n="48" facs="final/images/NB_LA_1866-03-23_Page_048.jpg"/>
-            <!--<p> DEBATES
-OF THE HOUSE OF ASSEMBLY FOR 1866.<lb/>
-            </p>
-
-            <p> 48 <lb/>
-            </p>-->
+           
+<fw type="num">48</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
 
      did I not
 think so I am sure I would not<lb/>
@@ -439,26 +440,26 @@ Toronto:</p>
             year of our money, while half a contin<lb break="no"/>ent is to get a few words addressed to<lb/>
             the Colonial Minister."</p>
             <lb/>
-            <p>MR. FISHER—When was that writ<lb break="no"/>ten?</p>
-            <p>MR. GILLMOR—In 1862.</p>
-            <p>MR. FISHER—Mr. Brown has chang<lb break="no"/>ed his mind since that time.</p>
-            <p>MR. GILLMOR—Those men broke<lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> —When was that writ<lb break="no"/>ten?</p>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName> —In 1862.</p>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> —Mr. Brown has chang<lb break="no"/>ed his mind since that time.</p>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName> —Those men broke<lb/>
 faith once in reference to the Inter<lb break="no"/>colonial Railroad, and could do it again.<lb/>
 Mr. Brown changed his views on this<lb/>
 question because he wanted to get re<lb break="no"/>presentation by population, and when<lb/>
 in Confederation, the Inter-colonial Rail<lb break="no"/>road depends upon a majority of the<lb/>
 Federal Parliament. It is not a part of<lb/>
 the Constitution of the Confederated Pro<lb break="no"/>vinces.</p>
-            <p>MR. FISHER—It would be perfectly<lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> —It would be perfectly<lb/>
 constitutional if we make that in the<lb/>
 agreement.</p>
-            <p>MR. WILMOT—The British Govern<lb break="no"/>ment agree to guarantee the amount<lb/>
+            <p> <persName ref="pers:WILM1">MR. WILMOT</persName> —The British Govern<lb break="no"/>ment agree to guarantee the amount<lb/>
 necessary to build the Road.</p>
-            <p>MR. NEEDHAM—They guaranteed<lb/>
+            <p> <persName ref="pers:NEED1">MR. NEEDHAM</persName> —They guaranteed<lb/>
 that before, but I promise you they will<lb/>
 not send the money until they get<lb/>
 security.</p>
-            <p>HON. MR GILLMOR—I will now<lb/>
+            <p> <persName ref="pers:GILL1">HON. MR GILLMOR</persName> —I will now<lb/>
 read an extract from a speech made in<lb/>
 Canada, to show why Mr. Brown was wil<lb break="no"/>ling to go to such an expenditure for a<lb/>
 non-paying railroad. It was in order to<lb/>
@@ -483,11 +484,11 @@ Lower Canadians into an arrangement<lb/>
 contrary to their wishes, and consequent<lb break="no"/>ly they will not work harmoniously in<lb/>
 the new order of things, and the num<lb break="no"/>ber can make some trouble.</p>
             <lb/>
-            <p>MR. FISHER—What authority is<lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> —What authority is<lb/>
 that?</p>
-            <p>MR. NEEDHAM—I will endorse it.</p>
+            <p> <persName ref="pers:NEED1">MR. NEEDHAM</persName> —I will endorse it.</p>
 <cb/>
-            <p>MR. GILLMOR—My hon. friend, Mr.<lb/>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName> —My hon. friend, Mr.<lb/>
 Wilmot, occupies a singular position ; he<lb/>
 has heard the charges brought against the<lb/>
 Government, and all the charges which<lb/>
@@ -508,11 +509,11 @@ any man or body of men. He knows<lb/>
 me too well to imagine any such thing,<lb/>
 and if he wishes to convey any such<lb/>
 impression, he does me great injustice.</p>
-            <p>MR. WILMOT—I did not charge you<lb/>
+            <p> <persName ref="pers:WILM1">MR. WILMOT</persName> —I did not charge you<lb/>
 with any improper conduct. I differed<lb/>
 with the leader of the Government, and<lb/>
 my hon. friend agreed with him.</p>
-            <p>MR. GILLMOR—I have differed from<lb/>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName> —I have differed from<lb/>
 the Attorney General, and I have agreed<lb/>
 with him as matters appeared to my<lb/>
 mind, but are we to come before the<lb/>
@@ -537,17 +538,17 @@ pet, and wrote out what he called his<lb/>
 resignation, but I was told he tore it up,<lb/>
 and was back again in fifteen minutes as<lb/>
 pleasant as ever.</p>
-            <p>MR. WILMOT—Did you know<lb/>
+            <p> <persName ref="pers:WILM1">MR. WILMOT</persName> —Did you know<lb/>
 I made an arrangement to leave the<lb/>
 Government at the close of the Session?</p>
-            <p>MR. GILLMOR—Why do you ask me<lb/>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName> —Why do you ask me<lb/>
 about an arrangement made before I came<lb/>
 in? If I had the making of an arrange<lb break="no"/>ment, I would not buy any man to come<lb/>
 into the Government by the promise of<lb/>
 an office.</p>
-            <p>MR. WILMOT—Do you charge me<lb/>
+            <p> <persName ref="pers:WILM1">MR. WILMOT</persName> —Do you charge me<lb/>
 with being bought?</p>
-            <p>MR. GILLMOR—You say you would<lb/>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName> —You say you would<lb/>
 not go into the Government and take<lb/>
 the office of Provincial Secretary, but<lb/>
 you did go into the Government on a<lb/>
@@ -562,17 +563,13 @@ Government of the country.<lb/>
             </p>
 
             <pb n="49" facs="final/images/NB_LA_1866-03-23_Page_049.jpg"/>
-            <!--<p> DEBATES OF THE HOUSE OF ASSEMBLY FOR
-1886. <lb/>
-            </p>
+       
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">49</fw>
 
-            <p> 49 <lb/>
-            </p>-->
-
-            <p>MR. WILMOT.—I was anxious not to<lb/>
+            <p> <persName ref="pers:WILM1">MR. WILMOT</persName>.—I was anxious not to<lb/>
 join. I was not willing to go in without<lb/>
 some voice in the formation of it.</p>
-            <p> MR. GILLMOR.—My hon. friend had <lb/>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName>.—My hon. friend had <lb/>
 a voice in the formation of the Govern<lb break="no"/>ment. There might have been a
 differ<lb break="no"/>ence of opinion, for it is difficult to get <lb/>
 men who can run their elections and dis<lb break="no"/>charge the duties of the Departments. <lb/>
@@ -586,7 +583,7 @@ of opinion <lb/>
 existed.]<lb/>
             </p>
 
-            <p> MR. GiLLMOR.—One difference in <lb/>
+            <p> <persName ref="pers:GILL1">MR. GiLLMOR</persName>.—One difference in <lb/>
 the Government was in reference to the <lb/>
 appointment of a Mr. Travis, and as <lb/>
 there was no, vacancy there could be no <lb/>
@@ -610,7 +607,7 @@ never made any complaint, but has ta<lb break="no"/>ken part in all the Governme
 and is responsible for all. <lb/>
             </p>
 
-            <p>MR. WILMOT.—The cause of dissatis<lb break="no"/>faction on my part was on account of the<lb/>
+            <p> <persName ref="pers:WILM1">MR. WILMOT</persName>.—The cause of dissatis<lb break="no"/>faction on my part was on account of the<lb/>
 President of the Council saying that the<lb/>
 Government wished the House to fix the<lb/>
 salary, when, by order of the House, the <lb/>
@@ -621,11 +618,11 @@ the Audit Ofﬁce on account of the reduc<lb break="no"/>tion of salary.<lb/>
             </p>
 
             <p> [Here another discussion arose between <lb/>
-Mr. Hatheway and Mr. Wilmot.] <lb/>
+<persName ref="pers:HATH1">Mr. Hatheway</persName> and <persName ref="pers:WILM1">Mr. Wilmot</persName>.] <lb/>
             </p>
 
-            <p> MR.
-GlLLMOR—My hon. friend and <lb/>
+            <p> <persName ref="pers:GILL1">MR.
+GlLLMOR</persName> —My hon. friend and <lb/>
 late colleague says he never was
 opposed <lb/>
 to the abstract question of Union of the <lb/>
@@ -643,7 +640,7 @@ the all- <lb break="yes"/>
 important part of it. <lb/>
             </p>
 
-            <p> MR. FISHER.—I
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName>.—I
 would ask my hon. <lb/>
 friend what he means, then, by the para<lb break="no"/>graph in the Address in answer
 to the <lb/>
@@ -653,8 +650,8 @@ answer to a question put by Mr. Wilmot, <lb/>
 did you hear me say that I was not op<lb break="no"/>posed to union in the abstract ?
 <lb/>
             </p>
-            <p> MR.
-GlLLMOR.—I remember to have <lb/>
+            <p> <persName ref="pers:GILL1">MR.
+GlLLMOR</persName>.—I remember to have <lb/>
 heard His Excellency say that there were <lb/>
 some members in the Executive who were <lb/>
 not opposed to union, and he pointed to <lb/>
@@ -663,7 +660,7 @@ have heard Mr. Wilmot say he preferred <lb/>
 a Legislative Union to a Federal
 Union. <lb/>
             </p>
-            <p> MR. SMITH—You
+            <p> <persName ref="pers:SMIT1">MR. SMITH</persName> —You
 (Mr. Wilmot) <lb/>
 never said before the Council that you <lb/>
 was not opposed to the abstract
@@ -671,11 +668,11 @@ principle <lb/>
 of union of British North
 America. <lb/>
             </p>
-            <p>MR. WILMOT.—I
+            <p> <persName ref="pers:WILM1">MR. WILMOT</persName>.—I
 did and am author<lb break="no"/>ized
 by Judge Allen to say so. <lb/>
             </p>
-            <p>MR. FISHER—My
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> —My
 hon. friend says <lb/>
           the mere
 question
@@ -688,12 +685,12 @@ of union in itself<lb/>
            in the Address? <lb/>
             </p>
 
-            <p> Mr.
-GlLLMOR.—The time has not <lb/>
+            <p> <persName ref="pers:GILL1">Mr.
+GlLLMOR</persName>.—The time has not <lb/>
 come to explain that. It explains itself. <lb/>
 We are now considering a vote of
 want of <lb/>
-conﬁdence. (A member,—You as it is <lb/>
+conﬁdence. ( <persName ref="UNSPECIFIED">A member</persName>,—You as it is <lb/>
 a mere dodge.) I say the question of <lb/>
 abstract union is a mere dodge to catch <lb/>
 somebody—for it means anything, or <lb/>
@@ -717,7 +714,7 @@ have made a great many offers of ofﬁce to <lb/>
 hold a majority on this vote.
 Dame ru<lb break="no"/>mor now says the Opposition have pro<lb break="no"/>mised all the ofﬁces, should they succeed, <lb/>
 and are now offering six hundred pounds <lb/>
-for a vote. (Mr. Fisher,—Did my
+for a vote. ( <persName ref="pers:FISH1">Mr. Fisher</persName>,—Did my
 hon. <lb/>
 friend say I have offered
 anybody an <lb/>
@@ -761,8 +758,8 @@ rather a serious operation to go<lb/>
 through.<lb/>
             </p>
 
-            <p> MR.
-KERR. After this very exciting<lb/>
+            <p> <persName ref="pers:KERR1">MR.
+KERR</persName>. After this very exciting<lb/>
 discussion, which has taken us by sur<lb break="no"/>prise. I may say it is a wonder how <lb/>
 the Government have so long held
 to<lb break="no"/>gether, when we know the difference of <lb/>
@@ -885,14 +882,10 @@ that gentleman attending to his
 business <lb/>
 
             <pb n="50" facs="final/images/NB_LA_1866-03-23_Page_050.jpg"/>
-           <!-- <p> DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866
-<lb/>
-            </p>
+           
+<fw type="num">50</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
 
-            <p>50<lb/>
-            </p>-->
-
-       in England, so that we have not a sin<lb break="no"/>gle member in the Government at pre<lb break="no"/>sent. (Mr. Smith —No injustice will <lb/>
+       in England, so that we have not a sin<lb break="no"/>gle member in the Government at pre<lb break="no"/>sent. ( <persName ref="pers:SMIT1">Mr. Smith</persName> —No injustice will <lb/>
 be done to the North.) I am glad to <lb/>
 hear it, but I am very sceptical about it. <lb/>
 I have been for many years in opposi<lb break="no"/>tion to the Government, but I have al<lb break="no"/>ways been ready to give them a <lb/>
@@ -937,14 +930,14 @@ be required which will have to be paid<lb/>
 in new debentures, and those new de<lb break="no"/>bentures should be sold in this country<lb/>
 so as to save so much interest to the<lb/>
 country.</p>
-            <p>MR. GILLMOR—Is my hon. friend<lb/>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName> —Is my hon. friend<lb/>
 not aware that there are £16,000 in de<lb break="no"/>bentures in the treasury at St. John<lb/>
 which have been there four weeks.</p>
-            <p>MR. KERR.—I am aware of that<lb/>
+            <p> <persName ref="pers:KERR1">MR. KERR</persName>.—I am aware of that<lb/>
 fact. I took down money to purchase<lb/>
 some of those debentures, and was told<lb/>
 no person was authorized to sell them.</p>
-            <p>MR. GILLMOR.—Those debentures are<lb/>
+            <p> <persName ref="pers:GILL1">MR. GILLMOR</persName>.—Those debentures are<lb/>
 kept in the treasury for the purpose of<lb/>
 exchanging them for those that fall due<lb/>
 in May. We had no occasion to raise<lb/>
@@ -957,7 +950,7 @@ Canada being in<lb/>
 debt, are we not £6,000,000 in debt, and<lb/>
 only <unclear reason="illegible">[?]</unclear> piece
 of railroad to show<lb/>
-for it. (Mr. Needham—who built it?)<lb/>
+for it. ( <persName ref="pers:NEED1">Mr. Needham</persName>—who built it?)<lb/>
 A larger amount of money was ex<lb break="no"/>pended in building it than it was worth<lb/>
 and it <unclear reason="illegible">[?]</unclear>
 upon the Province<lb/>
@@ -992,10 +985,10 @@ to effect a union of the Maritime Pro<lb break="no"/>vinces. I do not know wheth
 done to keep up some sort of appear<lb break="no"/>ance, or whether there was any inten<lb break="no"/>tion to effect such a nation. I have never<lb/>
 heard of anything being done.<lb/>
             </p>
-            <p>HON. MR. SMITH—It was distinctly<lb/>
+            <p> <persName ref="pers:SMIT1">HON. MR. SMITH</persName> —It was distinctly<lb/>
 understood that we were requested to do<lb/>
 it by Nova Scotia.</p>
-            <p>MR. KERR—That may be the case,<lb/>
+            <p> <persName ref="pers:KERR1">MR. KERR</persName> —That may be the case,<lb/>
 but it stands recorded upon the Journals<lb/>
 of our House. We have no assurance<lb/>
 that they intend to bring down any scheme<lb/>
@@ -1005,7 +998,7 @@ give my assistance to any improvement<lb/>
 upon the Quebec Scheme; but at the<lb/>
 same time I believe the Quebec Scheme<lb/>
 as it is, is better for us than to be alone.</p>
-            <p>MR. CORAM—I am here to-day an<lb/>
+            <p> <persName ref="pers:CORA1">MR. CORAM</persName> —I am here to-day an<lb/>
 independent representative of the City and<lb/>
 County of St. John. I have no other ob<lb break="no"/>jects in supporting any Government than<lb/>
 the best interests of my country. What<lb/>
@@ -1105,7 +1098,7 @@ without a fair trial.<lb/>
             </p>
 
 
-            <p> MR. SCOVIL—As we are progressing
+            <p> <persName ref="pers:SCOV1">MR. SCOVIL</persName> —As we are progressing
 <lb/>
 so slow
 in this debate, I will occupy but <lb/>
@@ -1161,11 +1154,8 @@ though<lb/>
 
 
             <pb n="51" facs="final/images/NB_LA_1866-03-23_Page_051.jpg"/>
-           <!-- <p>DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.<lb/>
-            </p>
-
-            <p> 51<lb/>
-            </p>-->
+         
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">51</fw>
 
        elected to oppose
 the scheme. Among <lb/>
@@ -1215,8 +1205,8 @@ of the amendment harangue the House in <lb/>
 former times, complaining of the
 Govern<lb break="no"/>ment being led by Downing Street dic<lb break="no"/>tation. My hon. friend has told us that<lb/>
 if we were loyal subjects of Great Britain, <lb/>
-we would submit to any thing. (Mr. <lb/>
-Lindsay,—I said loyalty
+we would submit to any thing. ( <persName ref="pers:LIND1">Mr. <lb/>
+Lindsay</persName>,—I said loyalty
 consisted in <lb/>
 obedience.) When I speak of the Queen <lb/>
 I speak with respect; but those men in <lb/>
@@ -1243,16 +1233,16 @@ stuffing as any other hon. member in <lb/>
 this House, and I think my hon. friend <lb/>
 from Westmorland is getting stuffed <lb/>
 too. </p>
-            <p>MR. WETMORE.—My
+            <p> <persName ref="pers:WETM1">MR. WETMORE</persName>.—My
 hon. friend re<lb break="no"/>fers to stuffing. I shall be haupy to hear <lb/>
 him go on and tell how the Government </p>
             <p>are stuffing him.<lb/>
             </p>
  
-            <p> MR. SCOVlL.—l will tell him that no <lb/>
+            <p> <persName ref="pers:SCOV1">MR. SCOVlL</persName>.—l will tell him that no <lb/>
 Government is stuffing me. I did not <lb/>
 come into this House to seek for office.<lb/>
-(Mr. Wetmore—They stuff you, and you <lb/>
+( <persName ref="pers:WETM1">Mr. Wetmore</persName>—They stuff you, and you <lb/>
 don’t know it.) I have common sense, <lb/>
 and I do not allow the Attorney General <lb/>
 or the forty-second member to stuff me. <lb/>
@@ -1281,67 +1271,44 @@ said the country ought to be proud that <lb/>
 they had seven men, such men in the Go<lb break="no"/>vernment, who would honestly express <lb/>
 their opinions.<lb/>
             </p>
-            <p>I was always in favor of union, and <lb/>
-when the Quebec Scheme came up, I<lb/>
-tried, if possible, to agree with it. I<lb/>
-sifted it, and came to the conclusion that <lb/>
-New Brunswick would be nowhere under <lb/>
-that scheme; for under it, I do not be<lb break="no"/>lieve the rights and interests of the people <lb/>
-are protected. (Mr. Lindsay,—How,<lb/>
-then, can you eulogize the men who said <lb/>
-they were opposed to a union of
-the <lb/>
-Provinces?) I gave them credit for <lb/>
-using those strong terms. We do not <lb/>
-want any closer union with Canada, un<lb break="no"/>less we see the rights of the people pro<lb break="no"/>tected. (Mr. Wetmore,—Did you
-say, <lb/>
-during the election, that you were in favor <lb/>
-of union?) We had the Quebec Scheme, <lb/>
-and we had to allow the whole
-of it or <lb/>
-reject it. I told the people that
-l looked <lb/>
-upon a union of the colonies as advan<lb break="no"/>tageous, but I did all I could to satisfy <lb/>
-the people that the Quebec Scheme
-was <lb/>
-not the scheme for New Brunswick; and <lb/>
-I should be recreant to my trust if I <lb/>
-went against those men who
-formed this <lb/>
-Government on those principles, for if <lb/>
-they were ousted, I have no doubt but it <lb/>
-would be an advantage to the scheme. I <lb/>
-believe people are apt to change their mind.<lb/>
-I have changed my mind in some
-things. <lb/>
-I was a young politician when I came <lb/>
-here, and in the course of my political life <lb/>
-in this House, I always condemned <lb/>
-a Government for dismissing
-good public <lb/>
-servants to put others in their
-place, but <lb/>
-I have got to be almost a smasher on <lb/>
-that point. I used to think the
-Govern<lb break="no"/>ment would live down such
-opposition, <lb/>
-but I believe now that when a public offi<lb break="no"/>cer goes out to canvass, and uses his <lb/>
-ofﬁce for a canvassing shop, he should be <lb/>
-turned out of his office at once. (Mr. L. <lb/>
-P. W. DesBrissy.—I would ask
-him how <lb/>
-he supports a Government that is unable <lb/>
-to turn out even the meanest man holding <lb/>
-an office in this Province?) <lb/>
-            </p>
+            <p>I was always in favor of union, and <lb/> when the Quebec Scheme came up, I<lb/>
+                  tried, if possible, to agree with it. I<lb/> sifted it, and came to the conclusion
+                  that <lb/> New Brunswick would be nowhere under <lb/> that scheme; for under it, I
+                  do not be<lb break="no"/>lieve the rights and interests of the people <lb/> are
+                  protected. ( <persName ref="pers:LIND1">Mr. Lindsay</persName>,—How,<lb/> then,
+                  can you eulogize the men who said <lb/> they were opposed to a union of the <lb/>
+                  Provinces?) I gave them credit for <lb/> using those strong terms. We do not <lb/>
+                  want any closer union with Canada, un<lb break="no"/>less we see the rights of the
+                  people pro<lb break="no"/>tected. ( <persName ref="pers:WETM1">Mr.
+                     Wetmore</persName>,—Did you say, <lb/> during the election, that you were in
+                  favor <lb/> of union?) We had the Quebec Scheme, <lb/> and we had to allow the
+                  whole of it or <lb/> reject it. I told the people that l looked <lb/> upon a union
+                  of the colonies as advan<lb break="no"/>tageous, but I did all I could to satisfy
+                  <lb/> the people that the Quebec Scheme was <lb/> not the scheme for New
+                  Brunswick; and <lb/> I should be recreant to my trust if I <lb/> went against
+                  those men who formed this <lb/> Government on those principles, for if <lb/> they
+                  were ousted, I have no doubt but it <lb/> would be an advantage to the scheme. I
+                  <lb/> believe people are apt to change their mind.<lb/> I have changed my mind in
+                  some things. <lb/> I was a young politician when I came <lb/> here, and in the
+                  course of my political life <lb/> in this House, I always condemned <lb/> a
+                  Government for dismissing good public <lb/> servants to put others in their place,
+                  but <lb/> I have got to be almost a smasher on <lb/> that point. I used to think
+                  the Govern<lb break="no"/>ment would live down such opposition, <lb/> but I
+                  believe now that when a public offi<lb break="no"/>cer goes out to canvass, and
+                  uses his <lb/> ofﬁce for a canvassing shop, he should be <lb/> turned out of his
+                  office at once. ( <persName ref="pers:DESB2">Mr. L. <lb/> P. W.
+                     DesBrisay</persName>.—I would ask him how <lb/> he supports a Government that
+                  is unable <lb/> to turn out even the meanest man holding <lb/> an office in this
+                  Province?) <lb/>
+               </p>
 
             <p> There was then some conversation he- <lb break="yes"/>
-tween Mr. Wetmore and Mr. Scovil re<lb break="no"/>garding the appointment in ofﬁces, and <lb/>
+tween <persName ref="pers:WETM1">Mr. Wetmore</persName> and <persName ref="pers:SCOV1">Mr. Scovil</persName> re<lb break="no"/>garding the appointment in ofﬁces, and <lb/>
 bribery, after which the debate was then <lb/>
 adjurned until 12 o‘clock to-morrow. <lb/>
             </p>
-            <p> MR.
-SCOVlL. by leave, brought in a <lb/>
+            <p> <persName ref="pers:SCOV1">MR.
+SCOVlL</persName>. by leave, brought in a <lb/>
 Bill to change the Constitution of the <lb/>
 Legislative Council, after which the <lb/>
 House was adjourned until 10 A. M. to<lb break="no"/>morrow <lb/>

@@ -127,6 +127,8 @@
          <change who="mholmes" when="2016-12-02">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-10-24">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-11-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -265,14 +267,15 @@
      ——o——  
      <lb break="maybe"/>-->
 
+<div type="section">
 
-     <fw type="running">LEGISLATIVE ASSEMBLY. 
+     <head>LEGISLATIVE ASSEMBLY. 
      <lb/>
        
-           </fw>
-            <fw type="dateline">THURSDAY, <hi rendition="simple:italic">February</hi> 9, 1865. 
+           </head>
+            <p>THURSDAY, <hi rendition="simple:italic">February</hi> 9, 1865. 
      <lb/>
-            </fw>
+            </p>
    
             <p>
      The order of the day for resuming the 
@@ -286,7 +289,7 @@
             </p>
 
             <p>
-     The Honorable MR. McGEE said—Mr. 
+     The Honorable <persName ref="pers:MCGE1">MR. McGEE</persName> said—Mr. 
      <lb/>
      SPEAKER, I rise to endeavor to fulfil the 
      <lb/>
@@ -2781,14 +2784,14 @@ circumstances, merely waste per. (Hear,
             </p>
 
             <p>
-     MR. D. A. MACDONALD—They are 
+     <persName ref="pers:MACD6">MR. D. A. MACDONALD</persName>—They are 
      <lb/>
      all over the world. (Laughter.) 
      <lb/>
             </p>
 
             <p>
-     HON. MR. McGEE—So much the better 
+     <persName ref="pers:MCGE1">HON. MR. McGEE</persName>—So much the better 
      <lb/>
      for the world. (Cheers.) And I will tell 
      <lb/>
@@ -3128,6 +3131,8 @@ circumstances, merely waste per. (Hear,
      beg to read to the House :-<lb/>
             </p>
             <pb n="140" facs="final/images/Ont_Que_LA_1865-02-09_Page_0140.jpg"/>
+
+<fw type="num">140</fw>
             
 <table>
 <row><cell></cell><cell></cell><cell>TERRITORY</cell><cell></cell><cell></cell><cell></cell><cell>POPULATION</cell><cell></cell><cell></cell><cell>REPRESENTATION</cell><cell></cell><cell></cell></row>
@@ -3158,6 +3163,8 @@ circumstances, merely waste per. (Hear,
 
     
             <pb n="141" facs="final/images/Ont_Que_LA_1865-02-09_Page_0141.jpg"/>
+
+<fw type="num">141</fw>
     <table>
 <row><cell></cell><cell>IMPORTS.</cell><cell></cell><cell></cell><cell></cell><cell>EXPORTS.</cell><cell></cell><cell>-</cell><cell></cell></row>
 <row><cell>PROVINCE</cell><cell>1863.<lb/> Amount</cell><cell>Compara<lb break="no"/>tive.</cell><cell>Amount per<lb/> Head.</cell><cell>1863.<lb/> Amount.</cell><cell>Compara<lb break="no"/>tive.</cell><cell>Amount per<lb/> Head.</cell><cell>1863.<lb/> Tonnage-<lb/> In and Out.</cell><cell>Average<lb/> Tarriffs</cell></row>
@@ -3643,6 +3650,8 @@ circumstances, merely waste per. (Hear,
      <lb/>
             
             <pb n="144" facs="final/images/Ont_Que_LA_1865-02-09_Page_0144.jpg"/>
+
+<fw type="num">144</fw>
          
      Free Church, of Montreal. The passage is 
      <lb/>
@@ -4062,6 +4071,8 @@ circumstances, merely waste per. (Hear,
      <lb/>
           
             <pb n="146" facs="final/images/Ont_Que_LA_1865-02-09_Page_0146.jpg"/>
+
+<fw type="num">146</fw>
            
      the measure agreed upon here in the last 
      <lb/>
@@ -4258,8 +4269,10 @@ circumstances, merely waste per. (Hear,
      <lb/>
            
             <pb n="147" facs="final/images/Ont_Que_LA_1865-02-09_Page_0147.jpg"/>
+
+<fw type="num">147</fw>
          
-     ATTY. GEN. MACDONALD moved that 
+     <persName ref="pers:MACD1">ATTY. GEN. MACDONALD</persName> moved that 
      <lb/>
      the debate be adjourned till Thursday, 13th 
      <lb/>
@@ -4270,7 +4283,7 @@ circumstances, merely waste per. (Hear,
             </p>
 
             <p>
-     HON. MR. HOLTON said :—MR. SPEAK<lb break="no"/>ER, we on this side had some doubt lest the 
+     <persName ref="pers:HOLT1">HON. MR. HOLTON</persName> said :—MR. SPEAK<lb break="no"/>ER, we on this side had some doubt lest the 
      <lb/>
      Opposition might be placed at a disadvan<lb break="no"/>tage, by allowing the speeches of the Gov<lb break="no"/>ernment to go to the country, without any 
      <lb/>
@@ -4428,6 +4441,7 @@ circumstances, merely waste per. (Hear,
      <lb/>
             
             <pb n="148" facs="final/images/Ont_Que_LA_1865-02-09_Page_0148.jpg"/>
+<fw type="num">148</fw>
          
      of necessity. These hon. gentlemen were, 
      <lb/>
@@ -4439,7 +4453,7 @@ circumstances, merely waste per. (Hear,
      <lb/>
      the disregard of parliamentary law and of 
      <lb/>
-     parliamentary usage by which they are at<lb break="no"/>tempting to extort from this House an as<lb break="no"/>sent, not merely to the principle of union-<cb/>which would be perfectly proper—but to all 
+     parliamentary usage by which they are at<lb break="no"/>tempting to extort from this House an as<lb break="no"/>sent, not merely to the principle of union-<lb/>which would be perfectly proper—but to all 
      <lb/>
      the clumsy contrivances adopted by that self- 
      <lb break="yes"/>
@@ -4489,7 +4503,7 @@ circumstances, merely waste per. (Hear,
      <lb/>
      We might also have expected that some in<lb break="no"/>formation would have been vouchsafed to us 
      <lb/>
-     in respect  to the Intercolonial Railway-<cb/>which we are in fact voting for, without having 
+     in respect  to the Intercolonial Railway-<lb/> which we are in fact voting for, without having 
      <lb/>
      gone into Committee of the Whole. Without 
      <lb/>
@@ -4605,6 +4619,6 @@ circumstances, merely waste per. (Hear,
      <lb/>
             </p>
          </div>
-      </body>
+   </div>   </body>
    </text>
 </TEI>

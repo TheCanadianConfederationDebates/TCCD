@@ -58,6 +58,8 @@
          <change who="mholmes" when="2016-12-12">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-12">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -79,9 +81,9 @@
      HOUSE OF COMMONS 
      <lb/></head>
      
-    <fw type="dateline">Friday, March 4, 1870 
+    <p>Friday, March 4, 1870 
      <lb/>
-            </fw>
+            </p>
             
 <p>
      The Speaker took the chair at three o‘clock. 
@@ -106,7 +108,7 @@
             </head>
    
             <p>
-     Hon. Sir John A. Macdonald presented a 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> presented a 
      <lb/>
      reply to the address for documents referring to 
      <lb/>
@@ -128,7 +130,7 @@
             </head>
    
             <p>
-     Mr. MacFarlane presented the first report of 
+     <persName ref="pers:MACF1">Mr. MacFarlane</persName> presented the first report of 
      <lb/>
      the Committee on Standing Orders, and asked 
      <lb/>
@@ -146,7 +148,7 @@
             </head>
    
             <p>
-     Mr. Mackenzie moved that the Committee 
+     <persName ref="pers:MACK1">Mr. Mackenzie</persName> moved that the Committee 
      <lb/>
      on Printing be instructed to inquire into the 
      <lb/>
@@ -159,7 +161,7 @@
             </p>
    
             <p>
-     Hon. Mr. Holton seconded the motion. 
+     <persName ref="pers:HOLT1">Hon. Mr. Holton</persName> seconded the motion. 
      <lb/>
      Carried. 
      <lb/>
@@ -175,7 +177,7 @@
             </head>
    
             <p>
-     Hon. Sir John A. Macdonald laid upon the 
+     <persName ref="pers:MACD1">Hon. Sir John A. Macdonald</persName> laid upon the 
      <lb/>
      table correspondence with reference to the 
      <lb/>
@@ -215,7 +217,7 @@
             </head>
    
             <p>
-     Hon. Sir Francis Hincks laid upon the table 
+     <persName ref="pers:HINC1">Hon. Sir Francis Hincks</persName> laid upon the table 
      <lb/>
      the accounts for unforeseen expenses, to which 
      <lb/>

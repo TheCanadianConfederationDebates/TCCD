@@ -58,6 +58,8 @@
          <change who="mholmes" when="2016-12-12">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-12">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-12-22">Marked-up people </change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -75,9 +77,8 @@
 
 <head>HOUSE OF COMMONS</head>
             
-            <fw type="dateline">
-               Wednesday, June 9, 1869 
-               <lb/></fw>
+            <p>Wednesday, June 9, 1869 
+               <lb/></p>
                
 <p>The Speaker took the chair at 3 o’clock. 
                <lb/>
@@ -87,15 +88,14 @@
 </div>   
       
 <div type="section">     
-            <head>
-               L’ISLET ELECTION 
+            <head>L’ISLET ELECTION 
                <lb/>
                
             </head>
             
             
             <p>
-               Mr. M. C. Cameron presented the ﬁnal re<lb break="no"/>port of the L’Islet Election Committee, de<lb break="no"/>claiming that the election was null and void, 
+               <persName ref="pers:CAME3">Mr. M. C. Cameron</persName> presented the ﬁnal re<lb break="no"/>port of the L’Islet Election Committee, de<lb break="no"/>claiming that the election was null and void, 
                <lb/>
                but that the defence of the sitting member, 
                <lb/>
@@ -117,11 +117,10 @@
 </div>      
       
 <div type="section">      
-            <head>
-               YORK ROADS 
+            <head>YORK ROADS 
                <lb/></head>
 <p>
-               Hon. Mr. Langevin brought down a return 
+               <persName ref="pers:LANG1">Hon. Mr. Langevin</persName> brought down a return 
                <lb/>
                to the address for all correspondence etc., 
                <lb/>
@@ -137,15 +136,14 @@
          
       
 <div type="section">    
-            <head>
-               THE NORTH WEST  
+            <head>THE NORTH WEST  
                <lb/>
                
             </head>
             
             
             <p>
-               Hon. Mr. Rose gave notice of resolutions 
+               <persName ref="pers:ROSE1">Hon. Mr. Rose</persName> gave notice of resolutions 
                <lb/>
                to authorize the Government to raise a loan 
                <lb/>
@@ -159,11 +157,10 @@
 </div>       
       
 <div type="section">      
-            <head>
-               INSOLVENCY LAWS 
+            <head>INSOLVENCY LAWS 
                <lb/></head>
 <p>
-               Sir John A. Macdonald moved the House 
+               <persName ref="pers:MACD1">Sir John A. Macdonald</persName> moved the House 
                <lb/>
                into Committee of the Whole on the Act re<lb break="no"/>specting Insolvency. Mr. Harrison in the 
                <lb/>
@@ -175,7 +172,7 @@
          
             
             <p>
-               Hon. Mr. Abbott moved the ﬁrst clause of 
+               <persName ref="pers:ABBO1">Hon. Mr. Abbott</persName> moved the ﬁrst clause of 
                <lb/>
                the Bill, which provided that the Act should 
                <lb/>
@@ -193,7 +190,7 @@
          
             
             <p>
-               Mr. Mackenzie said he still retained the 
+               <persName ref="pers:MACK1">Mr. Mackenzie</persName> said he still retained the 
                <lb/>
                convictions respecting this measure which he 
                <lb/>

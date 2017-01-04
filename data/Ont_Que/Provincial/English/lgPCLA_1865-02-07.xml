@@ -112,6 +112,8 @@
          <change who="mholmes" when="2016-12-02">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-01">Created this document, completed metadata. </change>
+         
+         <change who="Yuqian Fan" when="2016-11-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -283,15 +285,15 @@
 
             <milestone type="unknown"/>-->
 
-
-            <fw type="running">LEGISLATIVE ASSEMBLY.</fw>
-            <fw type="dateline">
+<div type="section">
+            <head>LEGISLATIVE ASSEMBLY.</head>
+            <p>
      TUESDAY, <hi rendition="simple:italic">February</hi> 7, 1865. 
      <lb/>
-            </fw>
+            </p>
 
             <p>
-     ATTY. GEN. CARTIER rose to continue 
+     <persName ref="pers:CART2">ATTY. GEN. CARTIER</persName> rose to continue 
      <lb/>
      the debate on Confederation. He said that 
      <lb/>
@@ -862,7 +864,7 @@
             </p>
 
             <p>
-     HON. MR. DORION said that was not the 
+     <persName ref="pers:DORI1">HON. MR. DORION</persName> said that was not the 
      <lb/>
      case. The honorable gentleman had misquoted 
      <lb/>
@@ -871,7 +873,7 @@
             </p>
 
             <p>
-     HON. MR. CARTIER said he was right. 
+     <persName ref="pers:CART2">HON. MR. CARTIER</persName> said he was right. 
      <lb/>
      If resolutions were not passed, sentiments were 
      <lb/>
@@ -1780,14 +1782,14 @@
      <lb/>(Hear, hear, cheers, and laughter.) 
      <lb/>
             </p>
-            <p>MR. PERRAULT—And members of the 
+            <p> <persName ref="pers:PERR2">MR. PERRAULT</persName> —And members of the 
      <lb/>clergy oppose it. (Hear, hear.) 
      <lb/>
             </p>
 
    
             <p>
-     HON. MR. CARTIER said the honorable 
+     <persName ref="pers:CART2">HON. MR. CARTIER</persName> said the honorable 
      <lb/>
      gentleman was mistaken. The clergy were 
      <lb/>
@@ -1808,7 +1810,7 @@
      <lb/>
      taking religion under their protection! 
      <lb/>
-     (Laughter.) Mr. DOUGALL loudly pro<lb break="no"/>claimed that the British Protestant minority 
+     (Laughter.) <persName ref="UNSPECIFIED">Mr. DOUGALL</persName> loudly pro<lb break="no"/>claimed that the British Protestant minority 
      <lb/>
      would be entirely placed at the mercy of 
      <lb/>
@@ -1988,7 +1990,7 @@
             </p>
 
             <p>
-     HON. MR. GALT said,—Mr. SPEAKER, I 
+     <persName ref="pers:GALT1">HON. MR. GALT</persName> said,—Mr. SPEAKER, I 
      <lb/>
      trust the House will, on this occasion, extend 
      <lb/>
@@ -2688,7 +2690,7 @@
      <lb/>
            
             <pb n="66" facs="final/images/Ont_Que_LA_1865-02-07_Page_0066.jpg"/>
-            <fw type="num">60</fw>
+            <fw type="num">66</fw>
         
      $3,000,000, and in that of New Brunswick of 
      <lb/>
@@ -2742,7 +2744,7 @@
 
 
             <p>
-     HON. MR. DORION—Do the $67,263,995, 
+     <persName ref="pers:DORI1">HON. MR. DORION</persName> —Do the $67,263,995, 
      <lb/>
      stated as the debt of Canada, include the ori<lb break="no"/>ginal seigniorial indemnity given to Upper and 
      <lb/>
@@ -2752,7 +2754,7 @@
 
 
             <p>
-     HON. MR. GALT—Yes ; that amount does 
+     <persName ref="pers:GALT1">HON. MR. GALT</persName> —Yes ; that amount does 
      <lb/>
      include the indemnity, and among the arrange<lb break="no"/>ments contemplated by the Government, as<lb break="no"/>suming that Confederation does take place, 
      <lb/>
@@ -3042,7 +3044,7 @@
             </p>
 
             <p>
-     HON. MR. DORION—Will Lower Canada 
+     <persName ref="pers:DORI1">HON. MR. DORION</persName> —Will Lower Canada 
      <lb/>
      be charged with the municipal loan fund, the 
      <lb/>
@@ -3051,7 +3053,7 @@
             </p>
 
             <p>
-     HON. MR. GALT—I must repeat that, no 
+     <persName ref="pers:GALT1">HON. MR. GALT</persName> —I must repeat that, no 
      <lb/>
      matter what views the Government may have 
      <lb/>
@@ -3668,7 +3670,7 @@
     
 
             <p>
-     On motion of Hon. Mr. BROWN, the de<lb break="no"/>bate was then adjourned. 
+     On motion of <persName ref="pers:BROW4">Hon. Mr. BROWN</persName>, the de<lb break="no"/>bate was then adjourned. 
      <lb/>
             </p>
 
@@ -3712,7 +3714,7 @@
      <lb/>of such a character that if any of the pro<lb break="no"/>moters of Confederation had been at first in<lb break="no"/>clined to number him among the friends of 
      <lb/>
             </p>-->
-         </div>
+     </div>    </div>
       </body>
    </text>
 </TEI>

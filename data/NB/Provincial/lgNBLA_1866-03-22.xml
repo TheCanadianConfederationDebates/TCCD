@@ -73,6 +73,8 @@
          <change who="mholmes" when="2016-11-18">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-18">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -99,6 +101,8 @@
       <body>
          <div type="debate">
             <pb n="42" facs="final/images/NB_LA_1866-03-22_Page_042.jpg"/>
+
+<fw type="num">42</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
 
 <!-- GL, 2016-11-18, Commented out below, as it will appear in the preceding debate day --> 
 
@@ -273,11 +277,11 @@ row.</p>
     T. P. D.</p>-->
 
 
-            <fw type="dateline">THURSDAY, MARCH 22.</fw>
+            <p>THURSDAY, MARCH 22.</p>
 
 
-            <p>The House, moved by Mr. Anglin, went<lb/>
-into Committee of the Whole (Mr. Scovil<lb/>
+            <p>The House, moved by <persName ref="pers:ANGL1">Mr. Anglin</persName>, went<lb/>
+into Committee of the Whole ( <persName ref="pers:SCOV1">Mr. Scovil</persName> <lb/>
 in the Chair) on a Bill for the purpose of<lb/>
 winding up the affaird of the Caledonia<lb/>
 Mining and Manufacturing Company.<lb/>
@@ -289,7 +293,7 @@ address, was taken up.</p>
 
 
 
-            <p>MR. FRASER resumed his speech<lb/>
+            <p> <persName ref="pers:FRAS1">MR. FRASER</persName> resumed his speech<lb/>
 from yesterday afternoon. He said that <lb/>
 there was the charged of which the House<lb/>
 was <unclear reason="illegible">[?]</unclear> Government<lb/>
@@ -344,7 +348,7 @@ he was bound to preserve a dignified<lb/>
 silence.</p>
 
 
-            <p>Mr. Fraser then proceeded to speak on<lb/>
+            <p> <persName ref="pers:FRAS1">Mr. Fraser</persName> then proceeded to speak on<lb/>
 the charge against the Government for<lb/>
 not fillinf up the office of Auditor Gene<lb break="no"/>ral, and referred to the late Auditor Gen<lb break="no"/>eral, a gentleman who was well known to<lb/>
 be a great financier, but equally well<lb/>
@@ -381,12 +385,8 @@ appointment, particularly if the pay of<lb/>
 the gentlemen employed did not exceed<lb/>
            
             <pb n="43" facs="final/images/NB_LA_1866-03-22_Page_043.jpg"/>
-            <!--<p> DEBATES
-OF THE HOUSE OF  ASSEMBLY FOR 1866.<lb/>
-            </p>
-
-            <p> 43 <lb/>
-            </p>-->
+  
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">43</fw>
 
           the salary of the Solicitor General. Mr. <lb/>
 Fraser then went on to show that the <lb/>
@@ -398,7 +398,7 @@ Gener<lb break="no"/>al employed gentlemen to conduct the bus<lb break="no"/>ine
 Fisher had been paid $187 for attending <lb/>
 to the criminal business in Carleton.<lb/>
             </p>
-            <p> Mr. Fraser then referred at length to <lb/>
+            <p> <persName ref="pers:FRAS1">Mr. Fraser</persName> then referred at length to <lb/>
 the course Mr. Fisher had taken
 during <lb/>
 the election of York, and
@@ -410,8 +410,8 @@ and who had been returned by large ma<lb break="no"/>jorities over himself, and 
 for the express purpose of raising himself <lb/>
 at their expense.<lb/>
             </p>
-            <p> Mr.
-Fraser then proceeded to say the <lb/>
+            <p> <persName ref="pers:FRAS1">Mr.
+Fraser</persName> then proceeded to say the <lb/>
 mover of the amendment, Mr. Fisher, had <lb/>
 made a grave charge a against the Govern<lb break="no"/>ment in reference to Minute of
 Council. <lb/>
@@ -500,8 +500,8 @@ consent to any scheme unless it was first<lb/>
 submitted to the people.<lb/>
             </p>
 
-            <p> Mr.
-Fraser quoted from the Canadian<lb/>
+            <p> <persName ref="pers:FRAS1">Mr.
+Fraser</persName> quoted from the Canadian<lb/>
 <hi rendition="simple:italic">News</hi>, to the effect that it was said the<lb/>
 British Government were going to ap<lb break="no"/>point Hon. Mr. Tiller Governor of British <lb/>
 Columbia and Vancouver's Island—a re<lb break="no"/>port that the <hi rendition="simple:italic">News</hi> hoped was not
@@ -585,12 +585,12 @@ contract, and it was a singular thing that <lb/>
 memorandum attached to it, in which<lb/>
 Jackson &amp; Co. professed willingness to <lb/>
 build the Railway upon concession of<lb/>
-time, could not be found. (Mr. Fisher<lb/>
+time, could not be found. ( <persName ref="pers:FISH1">Mr. Fisher</persName> <lb/>
 derided this.) The contract was kept<lb/>
 back. He would refer to his hon. friend<lb/>
 Mr. Kerr, if that was not the fact.<lb/>
             </p>
-<p>Mr. KERR did remember that the<lb/>
+<p> <persName ref="pers:KERR1">Mr. KERR</persName> did remember that the<lb/>
 contract was missing at the time, and that<lb/>
 it was never seen till after the debate on<lb/>
 
@@ -600,7 +600,7 @@ it was never seen till after the debate on<lb/>
 General (Mr. Fisher) said that it had <lb/>
 been mislaid in a pigeon-hole of some <lb/>
 desk in the Provincial Secretary's of<lb break="no"/>fice.</p>
-            <p>MR. FISHER—It was a singular thing<lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> —It was a singular thing<lb/>
 that the original contract was never<lb/>
 produced during the debate. But there<lb/>
 was a duplicate of it. It was also a sin<lb break="no"/>gular thing that.,after the debate,
@@ -616,10 +616,10 @@ with the, <lb/>
 memorandum.<lb/>
             </p>
             <p>
-MR. FRASER—If his hon. colleague
+<persName ref="pers:FISH1">MR. FRASER</persName> —If his hon. colleague
 <lb/>
 would show, he would withdraw
-his as<lb break="no"/>sertion. (Here Mr. Fisher
+his as<lb break="no"/>sertion. (Here <persName ref="pers:FISH1">Mr. Fisher</persName>
 produced the <lb/>
 Journals, and showed the copy of the con<lb break="no"/>tract, and pointed out that the memoran<lb break="no"/>dum for extension of time was in the body <lb/>
 of the agreement.) Mr. Fraser,—But it <lb/>
@@ -668,7 +668,7 @@ desertion? lt came with a very
 bad grace <lb/>
 from him (Mr. Fisher) to cast
 this slur <lb/>
-upon Her Majesty's groups. (Mr. Fisher <lb/>
+upon Her Majesty's groups. ( <persName ref="pers:FISH1">Mr. Fisher</persName> <lb/>
 denied that what he had said could bear <lb/>
 the interpretation Mr. Fraser had put upon
 <lb/>
@@ -676,7 +676,7 @@ it.) That slur that had been thrown up<lb break="no"/>on Her Majesty‘s troops 
 back as a slur upon the hon. member. <lb/>
             </p>
             <p>
-MR MCCLEAN referred to his
+<persName ref="pers:MCCL1">MR MCCLELAN</persName> referred to his
 <lb/>
 friendly relations with the members of <lb/>
 the present Government, had a high re<lb break="no"/>gard for each separately, but they had<lb/>
@@ -702,7 +702,7 @@ court. <lb/>They are unwilling witnesses on their<lb/>
 own trial;—refuse the records, and,<lb/>
 therefore, have all the advantages De<lb break="no"/>feated in Legislative Council, but refuse<lb/>to rescind Address for fear of conse<lb break="no"/>quences.<lb/>
             </p>
-            <p>The Press and the platform—the ele<lb break="no"/><pb n="44" facs="final/images/NB_LA_1866-03-22_Page_044.jpg"/>ments of progress—ought not to be de<lb break="no"/>nounced by the Government. If
+            <p>The Press and the platform—the ele<lb break="no"/><pb n="44" facs="final/images/NB_LA_1866-03-22_Page_044.jpg"/> <fw type="num">44</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> ments of progress—ought not to be de<lb break="no"/>nounced by the Government. If
 their<lb/>
 deeds were not evil they should not fear<lb/>
 the light of free discussion.<lb/></p>
@@ -783,13 +783,13 @@ will soon be wrecked, involving the loss<lb/>
       
 of the peoples' best and dearest inter<lb break="no"/>ests, unless placed in charge of another<lb/>
 captain and more reliable men.</p>
-            <p>[Mr. McClelan addressed the House<lb/>
+            <p>[ <persName ref="pers:MCCL1">Mr. McClelan</persName> addressed the House<lb/>
 for about three hours; but owing to our<lb/>
 unfortunate misunderstanding about<lb/>
 reporting, we are unable to furnish more<lb/>
 of this speech than some of the leading<lb/>
 points.]</p>
-            <p>Hon. MR. GILMOUR said he was<lb/>
+            <p> <persName ref="UNSPECIFIED">Hon. MR. GILMOUR</persName> said he was<lb/>
 pleased to hear his hon. friend, Mr.<lb/>
 McClelan say that if the Government<lb/>
 were all right on the question of Confe<lb break="no"/>deration, he would not feel bound to<lb/>
@@ -922,10 +922,9 @@ to please in the most lovely landscape<lb/>
           
 
             <pb n="45" facs="final/images/NB_LA_1866-03-22_Page_045.jpg"/>
-           <!-- <p>DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.<lb/>
-            </p>
-            <p>45<lb/>
-            </p>-->
+
+
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">45</fw>
 
 
            but if
@@ -1007,7 +1006,7 @@ speakers who had preceded him, it was<lb/>
 not necessary that he should dwell long<lb/>
 upon any of them.</p>
 
-            <p>Mr. Fisher charged the Govern<lb break="no"/>ment with having called the House to<lb break="no"/>gether on the 8th of March instead of<lb/>
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName> charged the Govern<lb break="no"/>ment with having called the House to<lb break="no"/>gether on the 8th of March instead of<lb/>
 the 14th of February. This House was<lb/>
 prorogued on the 8th day of June last,<lb/>
 and was called together on the 8th of<lb/>
@@ -1158,13 +1157,8 @@ such frequent reference had been made to<lb/>
 during this Session. At that time he<lb/>
      
             <pb n="46" facs="final/images/NB_LA_1866-03-22_Page_046.jpg"/>
-            <!--<p> DEBATES
-OF THE HOUSE OF ASSEMBLY FOR 1866<lb/>
-            </p>
 
-            <p> 46 <lb/>
-            </p>
--->
+<fw type="num">46</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
            
 wrote a letter to a friend, a copy of which<lb/>
 he read as part of his speech:<unclear n=""/>
@@ -1198,7 +1192,7 @@ both by his opponents and supporters, to<lb/>
 be an honorable man ; and Mr. Pickard<lb/>
 knows, also, that these professional poli<lb break="no"/>ticians are dangerous men, seeking, gen<lb break="no"/>erally, to elevate themselves at the ex<lb break="no"/>pense of the public, and in too many<lb/>
 instances, at the sacrifice of truth and<lb/>
-honor. Mr. Fisher stated that he had<lb/>
+honor. <persName ref="pers:FISH1">Mr. Fisher</persName> stated that he had<lb/>
 been urged by requisitions from all parts<lb/>
 of the country to come forward at this<lb/>
 election—the people stating, in
@@ -1394,17 +1388,13 @@ the paragraphs that contained disloyal<lb/>
 sentiments. I know that the whole do<lb break="no"/>cument is strictly in accordance with<lb/>
 the principles of Responsible Govern<lb break="no"/>ment, and claims only the rights which<lb/>
 are due to us under the Constitution.<lb/>
-I know that <hi rendition="simple:italic">I opposed Downing Street<lb/>
+I know that <hi rendition="simple:italic">I opposed Downing Street</hi><lb/>
         
             <pb n="47" facs="final/images/NB_LA_1866-03-22_Page_047.jpg"/>
-            <!--<p> DEBATES
-OF THE HOUSE OF ASSEMBLY FOR 1866<lb/>
-            </p>
+            
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">47</fw>
 
-            <p> 47<lb/>
-            </p>-->
-
-           dictationM</hi>,
+           <hi rendition="simple:italic">dictation</hi>,
 when it suited my purpose, <hi rendition="simple:italic">and<lb/>
 that I am willing none to be dictated to from<lb/>
 the same quarter</hi> ;—and I know
@@ -1430,7 +1420,7 @@ With every rite complies,<lb/>
 And deeper lengthens down his face,<lb/>
 And higher rolls his eyes."</p>
             <p>The debate was then adjourned until<lb/>
-eleven to-morrow, Hon. Mr. Gillmor to<lb/>
+eleven to-morrow, <persName ref="pers:GILL1">Hon. Mr. Gillmor</persName> to<lb/>
 resume.</p>
             <p>The House was then adjourned until<lb/>
 to-morrow at nine.</p>

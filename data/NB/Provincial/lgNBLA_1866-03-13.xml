@@ -69,6 +69,8 @@
          <change who="mholmes" when="2016-11-17">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-17">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -92,6 +94,8 @@
       <body>
          <div type="debate">
             <pb n="10" facs="final/images/NB_LA_1866-03-13_Page_010.jpg"/>
+
+<fw type="num">10</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
     
 <!-- GL, 2016-11-16, Commented out below, as it will appear in the preceding debate day -->       
 
@@ -306,11 +310,10 @@ again at 10 A.M., to-morrow. <lb/>
             </p>-->
 
 
-            <fw type="dateline"> TUESDAY, MARCH
-13. <lb/>
-            </fw>
+            <p> TUESDAY, MARCH 13. <lb/>
+            </p>
 
-            <p> MR. WETMORE brought in a Bill to <lb/>
+            <p> <persName ref="pers:WETM1">MR. WETMORE</persName> brought in a Bill to <lb/>
 amend the law of evidence ;
 also,
 a Bill <lb/>
@@ -321,16 +324,16 @@ also, Bill <lb/>
 relating to debtors confined in jail, or on <lb/>
 the limits. <lb/>
             </p>
-            <p> MR. FISHER brought in a Bill to <lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> brought in a Bill to <lb/>
 amend the law relating to Parish
 Schools ;  <lb/>
 also, a Bill further to amend the law. <lb/>
             </p>
-            <p> MR. WILLISTON brought in a Bill <lb/>
+            <p> <persName ref="pers:WILL1">MR. WILLISTON</persName> brought in a Bill <lb/>
 relating to the partition of lands.<lb/>
             </p>
-            <p> MR.
-CAIE submitted the following <lb/>
+            <p> <persName ref="pers:CAIE1">MR.
+CAIE</persName> submitted the following <lb/>
 Report :-<lb/>
             </p>
             <p>The Select Committee appointed to <lb/>
@@ -359,6 +362,8 @@ do <lb/>
           
 
             <pb n="11" facs="final/images/NB_LA_1866-03-13_Page_011.jpg"/>
+
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">11</fw>
         
  report, that the said John
 Meahan and <lb/>
@@ -379,16 +384,18 @@ Chairman <lb/>
 13th March. 1866. <lb/>
             </p>
    
-            <p> MR. CAIE
+            <p> <persName ref="pers:CAIE1">MR. CAIE</persName>
 brought in a Bill to increase <lb/>
 the representation of the County
 of Kent. <lb/>
             </p>
-            <p> MR. MEAHAN brought in a Bill to <lb/>
+            <p> <persName ref="pers:MEAH1">MR. MEAHAN</persName> brought in a Bill to <lb/>
 increase the representation of
 Gloucester. <lb/>
             </p>
-            <p> MR. FRASER
+            <p> <persName ref="pers:OTTY1">MR.OTTY</persName> brought in a Bill to in<lb break="no"/>crease the representation of the several<lb/>
+            Counties therein mentioned.</p>
+            <p> <persName ref="pers:FRAS1">MR. FRASER</persName>
 brought in a Bill to<lb/>
 enable the City of Fredericton to send a<lb/>
 member to represent them in the House<lb/>
@@ -396,7 +403,7 @@ of Assembly ; also, a Bill to incorporate<lb/>
 the Provincial Oil Company.<lb/>
             </p>
 
-            <p> MR. COSTIGAN brought in a Bill to <lb/>
+            <p> <persName ref="pers:COST1">MR. COSTIGAN</persName> brought in a Bill to <lb/>
 abolish the property
 qualifications of mem<lb break="no"/>bers of the House of Assembly. <lb/>
             </p>
@@ -409,9 +416,9 @@ qualifications of mem<lb break="no"/>bers of the House of Assembly. <lb/>
 PARAGRAPH OF THE ADDRESS<lb/>
             </p>
 
-            <p> MR. FISHER resumed <lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> resumed <lb/>
             </p>
-            <p> MR. FISHER,
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName>,
 on resuming, said, he <lb/>
 would refer to the principal points put <lb/>
 before the House yesterday, when
@@ -573,7 +580,7 @@ necessary ar<lb break="no"/>rangement for the constitution of an<lb/>
 efficient Officer of Audit." <lb/>
             </p>
 
-            <p> Mr. Fisher
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName>
 then
 went on to show what <lb/>
 were the powers and duties of Auditor <lb/>
@@ -650,7 +657,7 @@ news that such a dispatch had bean writ<lb break="no"/>ten through these sources
 
 
 
-            <p> [Mr. Fisher here quoted part of the said  <lb/>
+            <p> [ <persName ref="pers:FISH1">Mr. Fisher</persName> here quoted part of the said  <lb/>
 dispatch, which expressed the approval <lb/>
 of Her Majesty's Government of the Que<lb break="no"/>bec scheme, on the ground that it was <lb/>
 eminently calculated to promote effectual <lb/>
@@ -677,7 +684,7 @@ Session, there would have been no need <lb/>
 to send a delegation home, which had, it <lb/>
 was said, cost the country £800.
 In pri<lb break="no"/>vate life, suppose a case where one of the <lb/>
-parties to a contract kept back on impor<lb break="no"/>tant paper, what would that be called ? <lb/>(Mr. Wetmore, -I might call it fraud.)<lb/>
+parties to a contract kept back on impor<lb break="no"/>tant paper, what would that be called ? <lb/>( <persName ref="pers:WETM1">Mr. Wetmore</persName>, -I might call it fraud.)<lb/>
 What he (Mr.
 F.) complained of in the<lb/>
 Government was
@@ -715,6 +722,9 @@ Maritime Provinces, unless it <lb/>
 
 
             <pb n="12" facs="final/images/NB_LA_1866-03-13_Page_012.jpg"/>
+
+<fw type="num">12</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw>
+
             <p> He had referred to the insulting minute <lb/>
 of the 12th July, in answer to a
 dispatch <lb/>
@@ -758,7 +768,7 @@ the last election : You must, on
 the hust<lb break="no"/>ings, refer to and denounce that minute <lb/>
 of council. <lb/>
             </p>
-            <p>Mr. Fisher
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName>
 quoted from the Minute of <lb/>
 12th July : <lb/>
             </p>
@@ -800,7 +810,7 @@ courteous communication in the spirit of <lb/>
 that Minute, he would put down as a low <lb/>
 fellow. <lb/>
             </p>
-            <p> Mr. Fisher criticised
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName> criticised
 the Minute at <lb/>
 length, characterising it as the most <lb/>
 jesuitical dispatch ever penned in this <lb/>
@@ -808,7 +818,7 @@ Province—one of the most
 insulting <lb/>
 minutes that ever crossed the water. <lb/>
             </p>
-            <p> [At this point. Mr. Cudlip said.—Mr.<lb/>
+            <p> [At this point. <persName ref="pers:CUDL1">Mr. Cudlip</persName> said.—Mr.<lb/>
 Cardwell had written an insulting and<lb/>
 dictatorial letter to the Government,
 and<lb/>
@@ -816,7 +826,7 @@ that he would return an insulting answer
 <lb/>
 to an insulting communication.] <lb/>
             </p>
-            <p> Mr. Fisher defied
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName> defied
 his hon. friend to <lb/>
 prove that ; he defied him to
 point out <lb/>
@@ -846,7 +856,7 @@ would <lb/>
 not be consistent with the honor and dig<lb break="no"/>nity of the House to do it.  <lb/>
             </p>
  
-            <p> Mr. Fisher quoted from another <lb/>
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName> quoted from another <lb/>
 part of the Minute :-<lb/>
             </p>
             <p>" The Committee cannot suppose the <lb/>
@@ -911,12 +921,12 @@ ef<lb break="no"/>fect, that he believe it.<lb/>
             </p>
 
 
-            <p> (Mr. Anglin.—How
+            <p> ( <persName ref="pers:ANGL1">Mr. Anglin</persName>.—How
 did the Govern<lb break="no"/>ment know that Judge Parker
 would<lb/>
 die ?) <lb/>
             </p>
-            <p> Mr. Fisher.—They
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName>.—They
 could not know <lb/>
 that ; but they knew that Sir
 James Car<lb break="no"/>ter would resign. He (Mr. F.) had made <lb/>
@@ -1052,6 +1062,8 @@ much longer. <lb/>
 
 
             <pb n="13" facs="final/images/NB_LA_1866-03-13_Page_013.jpg"/>
+
+ <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">13</fw>
             
 <p> As for the Quebec Scheme, the most ob<lb break="no"/>jectionable part of it was certainly
 repre<lb/>
@@ -1112,7 +1124,7 @@ gained power on false pretences from their<lb/>
 places.<lb/>
 
             </p>
-            <p> Mr. Fisher went
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName> went
 on to show that the <lb/>
 Government, by their Minutes, had
 ex-<lb break="yes"/>
@@ -1218,7 +1230,7 @@ every representative of the North Shore.) <lb/>
 He had stated what was the fact.
 <lb/>
             </p>
-            <p>Mr. Fisher
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName>
 then proceeded to speak <lb/>
 of the reference made in the speech to <lb/>
 ﬁnancial matters. <lb/>
@@ -1267,13 +1279,13 @@ financial matters, but what I have stated
 <lb/>
 is the truth. <lb/>
             </p>
-            <p>(Hon. Provincial Secretary—The
+            <p>( <persName ref="UNSPECIFIED">Hon. Provincial Secretary</persName> —The
 <lb/>
 statement in the speech is the truth ) <lb/>
             </p>
             <p>Yes, but not the whole truth.<lb/>
             </p>
-            <p> Mr. Fisher
+            <p> <persName ref="pers:FISH1">Mr. Fisher</persName>
 went on to speak of his <lb/>
 election, and the object he had been elect<lb break="no"/>ed for, to oppose the present Government;
 <lb/>
@@ -1339,7 +1351,7 @@ Mr. Fisher concluded by summing
 up <lb/>
 his charges against the Government. <lb/>
             </p>
-            <p>ATTORNEY GENERAL said,—From<lb/>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName> said,—From<lb/>
 the position be occupied as the leader of <lb/>
 the Government, he was called upon to <lb/>
 answer the speech of the mover of the <lb/>
@@ -1383,6 +1395,8 @@ seat of Government would be removed, <lb/>
          
 
             <pb n="14" facs="final/images/NB_LA_1866-03-13_Page_014.jpg"/>
+
+<fw type="num">14</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw>
       
  Fredericton and York would be ruined: <lb/>
 unless Smith was crushed, the seat of <lb/>
@@ -1503,7 +1517,7 @@ to the <lb/>
 emergency and were prepared to do <lb/>
 their duty. <lb/>
             </p>
-            <p> The Attorney General then proceeded <lb/>
+            <p> The <persName ref="UNSPECIFIED">Attorney General</persName> then proceeded <lb/>
 at length, to show that the authorities <lb/>
 had kept a most careful watch over <lb/>
 the safety of the Province ; that the <lb/>
@@ -1537,7 +1551,7 @@ would ask any hon. member to point out <lb/>
 what more the Government could do than <lb/>
 they had already done. <lb/>
             </p>
-            <p> The Attorney General went on to say <lb/>
+            <p> The <persName ref="UNSPECIFIED">Attorney General</persName> went on to say <lb/>
 that he did not intend, that afternoon,
 to <lb/>
 occupy the attention of the House much <lb/>
@@ -1556,13 +1570,13 @@ and
 the <lb/>
 Quebec Scheme. <lb/>
             </p>
-            <p> [Mr. Desbrisay said he would like to <lb/>
+            <p> [ <persName ref="UNSPECIFIED">Mr. Desbrisay</persName> said he would like to <lb/>
 know distinctly whether the
 Government <lb/>
 had or had not a scheme which they in<lb break="no"/>tended to submit to the House
 ?] <lb/>
             </p>
-            <p> Attorney General—If the hon. member <lb/>
+            <p> <persName ref="UNSPECIFIED">Attorney General</persName> —If the hon. member <lb/>
 of Kent had only asked that question <lb/>
 before he had gone over to the other <lb/>
 side, he might have answered him. It <lb/>

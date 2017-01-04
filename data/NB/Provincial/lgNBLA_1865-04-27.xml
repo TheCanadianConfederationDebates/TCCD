@@ -60,6 +60,7 @@
          <change who="mholmes" when="2016-11-01">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-01">Created this document, completed metadata, </change>
+         <change who="Yuqian Fan" when="2016-12-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -74,19 +75,24 @@
       <body>
          <div type="debate">
             <pb n="1" facs="final/images/NB_LA_1865-04-27_Page_001.jpg"/>
-            <fw type="running">Provincial Parliament</fw>
-            <fw type="running">House of Assembly</fw>
-            <fw type="dateline">THURSDAY, April 27th.</fw>
+            
+<div type="section">
+
+<head>Provincial Parliament</head>
+            
+<p>House of Assembly</p>
+           
+ <p>THURSDAY, April 27th.</p>
             
             <p> This day
 at 2 o'clock P.M., His Ex<lb break="no"/>cellency the Lieutenant Governor came<lb/>
 down to the Council Chamber, and hav<lb break="no"/>ing commanded the attendance of the<lb/>
 House of Assembly, directed them to elect<lb/>
 a Speaker. The Members of the Assem<lb break="no"/>bly then returned to the Lower House,<lb/>
-when Dr. Vail was nominated for Speak<lb break="no"/>er by Colonel Boyd, seconded by Mr.<lb/>
-Kern ; and Mr. McClellan was nominated<lb/>
-by Mr. Sutton seconded by Mr. A. C.<lb/>
-DesBrisay ; upon a division being taken<lb/>
+when Dr. Vail was nominated for Speak<lb break="no"/>er by <persName ref="pers:BOYD1">Colonel Boyd</persName>, seconded by <persName ref="pers:KERR1">Mr.<lb/>
+Kerr</persName> ; and Mr. McClellan was nominated<lb/>
+by <persName ref="pers:SUTT1">Mr. Sutton</persName> seconded by <persName ref="pers:DESB1">Mr. A. C.<lb/>
+DesBrisay</persName> ; upon a division being taken<lb/>
 Dr. Vail was declared elected. He then<lb/>
 in an appropriate Speech thanked the<lb/>
 Members of the House and received their<lb/>
@@ -248,13 +254,13 @@ returned to the Lower House, His Honor<lb/>
 the Speaker read the opening Speech.<lb/>
             </p>
 
-            <p> Col. BOYD brought in a Bill to provide<lb/>
+            <p> <persName ref="pers:BOYD1">Col. BOYD</persName> brought in a Bill to provide<lb/>
 for the expenses of the Legislature. Bill<lb/>
 received and ordered to be read ? first<lb/>
 time.<lb/>
             </p>
 
-            <p>Mr. OTTY moved the following Address<lb/>
+            <p> <persName ref="pers:OTTY1">Mr. OTTY</persName> moved the following Address<lb/>
 in answer to His Excellency's speech.<lb/>
             </p>
 
@@ -269,6 +275,7 @@ of the Province of New Brunswick, &amp;c.,<lb/>
 <p>1. We, the faithful Commons of New<lb/>
         
             <pb n="2" facs="final/images/NB_LA_1865-04-27_Page_002.jpg"/>
+<fw type="num">2</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1865.</fw>
       
       Brunswick, thank Your Excellency for<lb/>
 your Speech at the opening of the Session.</p>
@@ -386,37 +393,37 @@ Britain, and will cheerfully meet<lb/>
 the obligations it entails upon us.<lb/>
             </p>
 
-            <p> On motion of Mr. OTTY, Saturday next<lb/>
+            <p> On motion of <persName ref="pers:OTTY1">Mr. OTTY</persName>, Saturday next<lb/>
 at 11 o'clock was the time fixed for the <lb/>
 discussion. of the Reply. <lb/>
             </p>
 
 
             <p> On
-motion of Mr. KERR, a Committee <lb/>
+motion of <persName ref="pers:KERR1">Mr. KERR</persName>, a Committee <lb/>
 was appointed to confer with a
 Committee <lb/>
 of the Legislative Council, with regards to<lb/>
 the Legislative Library.<lb/>
             </p>
 
-            <p> On motion of Mr. WILLISTON,
+            <p> On motion of <persName ref="pers:WILL1">Mr. WILLISTON</persName>,
 a Com<lb break="no"/>mittee was appointed to take into consid<lb break="no"/>eration the contingencies of the
 House. <lb/>
             </p>
-            <p> On motion of Mr. MCCLELLAN, a Com<lb break="no"/>mittee was appointed to whom shall be<lb/>
+            <p> On motion of <persName ref="pers:MCCL1">Mr. MCCLELLAN</persName>, a Com<lb break="no"/>mittee was appointed to whom shall be<lb/>
 referred all matters relating to the Mining<lb/>
 interests of the Province.</p>
 
 
-            <p> On motion of Mr. NEEDHAM, a Standing <lb/>
+            <p> On motion of <persName ref="pers:NEED1">Mr. NEEDHAM</persName>, a Standing <lb/>
 Committee was appointed to whom
 shall <lb/>
 be referred all matters concerning
 the <lb/>
 privileges of the House. <lb/>
             </p>
-            <p> Mr. GILBERT moved a Resolution that <lb/>
+            <p> <persName ref="pers:GILB1">Mr. GILBERT</persName> moved a Resolution that <lb/>
 the Rules in force in the late House be <lb/>
 adopted in the present, until altered, <lb/>
 amended, or repealed.  <lb/>
@@ -424,34 +431,34 @@ amended, or repealed.  <lb/>
             <p> After some discussion this Resolution <lb/>
 was adopted. . <lb/>
             </p>
-            <p> On motion of Mr. BEVERIDGE a Com<lb break="no"/>mittee was appointed to take
+            <p> On motion of <persName ref="pers:BEVE1">Mr. BEVERIDGE</persName> a Com<lb break="no"/>mittee was appointed to take
 into consid<lb break="no"/>eration all matters relating to the Lumber<lb break="no"/>ing interests of the Province. <lb/>
             </p>
             <p> On motion
-of Mr. L. P. W. DESBRISAY, <lb/>
+of <persName ref="pers:DESB2">Mr. L. P. W. DESBRISAY</persName>, <lb/>
 a Committee was appointed to take into <lb/>
 consideration all matters connected with <lb/>
 the Trade of the Province. <lb/>
             </p>
-            <p> Hon.
-ATTORNEY GENERAL brought in <lb/>
+            <p> <persName ref="UNSPECIFIED">Hon.
+ATTORNEY GENERAL</persName> brought in <lb/>
 a Bill entitled, An act to regulate the sale <lb/>
 of Spirituous Liquors. <lb/>
             </p>
-            <p> Mr. GILBERT brought
+            <p> <persName ref="pers:GILB1">Mr. GILBERT</persName> brought
 in a Bill to sim<lb break="no"/>plify the practice of Law in this Province, <lb/>
 and to abolish special bail.</p>
-            <p>Hon. ATTORNEY GENERAL brought in <lb/>
+            <p> <persName ref="UNSPECIFIED">Hon. ATTORNEY GENERAL</persName> brought in <lb/>
 a Bill to alter the division line between the <lb/>
 Parishes Queensbury and Southampton, <lb/>
 in the County of York. <lb/>
             </p>
-            <p> On motion of Mr. WILLISTON, a Com<lb break="no"/>mittee was appointed to whom shall be <lb/>
+            <p> On motion of <persName ref="pers:WILL1">Mr. WILLISTON</persName>, a Com<lb break="no"/>mittee was appointed to whom shall be <lb/>
 referred all matters relating to the Fish<lb break="no"/>eries of this Province. <lb/>
             </p>
-            <p> Hon. COMMISSIONER
+            <p> <persName ref="UNSPECIFIED">Hon. COMMISSIONER
 OF THE BOARD OF<lb/>
-WORKS, called the attention
+WORKS</persName>, called the attention
 of the House <lb/>
 to the fact of the Reportersâ€™ seats
 being so <lb/>
@@ -466,14 +473,14 @@ in the House. This created some discus<lb break="no"/>sion, and the matter was ï
 
 
             <p> On motion
-of Mr. GILBERT, a Committee<lb/>
+of <persName ref="pers:GILB1">Mr. GILBERT</persName>, a Committee<lb/>
 was appointed to whom shall be referred
 <lb/>
 all matters relating to Public accounts, <lb/>
 with power to bring before them persons <lb/>
 and papers.<lb/>
             </p>
-            <p> On motion of Dr. THOMPSON, a Com<lb break="no"/>mittee was appointed to take into consid<lb break="no"/>eration all matters relating to Agriculture.
+            <p> On motion of <persName ref="pers:THOM1">Dr. THOMPSON</persName>, a Com<lb break="no"/>mittee was appointed to take into consid<lb break="no"/>eration all matters relating to Agriculture.
 <lb/>
             </p>
             <p> On motion, the House was adjourned <lb/>
@@ -642,7 +649,7 @@ various employments, and require a larger<lb/>
 diffusion of information than in counties<lb/>
             </p>
 -->
-         </div>
+     </div>    </div>
       </body>
    </text>
 </TEI>

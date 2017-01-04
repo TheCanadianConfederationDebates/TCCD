@@ -70,6 +70,8 @@
          <change who="mholmes" when="2016-11-17">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-11-17">Created this document, completed metadata, </change>
+         
+         <change who="Yuqian Fan" when="2016-12-21">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -93,6 +95,9 @@
       <body>
          <div type="debate">
             <pb n="19" facs="final/images/NB_LA_1866-03-15_Page_019.jpg"/>
+
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">19</fw>
+
             <!--<fw type="running"> DEBATES
 OF THE HOUSE OF ASSEMBLY FOR 1866</fw> <fw type="num">19 <lb/>
             </fw>-->
@@ -304,34 +309,34 @@ NEEDHAM moved that the de<lb break="no"/>bate be adjourned until 2 P.M.<lb/>
             </p>
             <p/>-->
 
-            <fw type="dateline">THURSDAY, MARCH 15.<lb/>
-            </fw>
+            <p>THURSDAY, MARCH 15.<lb/>
+            </p>
 
 
 
             <p>After the usual routine, the House went <lb/>
-into Committee—Mr. Needham in the <lb/>
+into Committee— <persName ref="pers:NEED1">Mr. Needham</persName> in the <lb/>
 C<unclear n="">?</unclear>r—on a Local Bill : a Bill to provide<lb/>
 more effectually for the repairing of the<lb/>Roads, Bridges and Streets of the Parish<lb/>of Newcastle, in the County of Northum<lb break="no"/>berland. Passed. <lb/>
             </p>
-            <p>MR. GILBERT moved that the Bill to<lb/>provide for the better secresy of the Bal<lb break="no"/>lot, be referred to a Committee to report<lb/>
+            <p> <persName ref="pers:GILB1">MR. GILBERT</persName> moved that the Bill to<lb/>provide for the better secresy of the Bal<lb break="no"/>lot, be referred to a Committee to report<lb/>
 thereon.</p>
-            <p>MR. LINDSAY brought in a Bill to<lb/>
+            <p> <persName ref="pers:LIND1">MR. LINDSAY</persName> brought in a Bill to<lb/>
 extend the jurisdiction of Justices of the<lb/>Peace in civil suits. <lb/>
             </p>
 
 
 
 
-            <p>MR. GILBERT moved that his Bill to<lb/>
+            <p> <persName ref="pers:GILB1">MR. GILBERT</persName> moved that his Bill to<lb/>
 simplify the practies of law and abolish<lb/>special hail, be referred to a Committee.<lb/>
             </p>
 
 
-            <p>MR. NEEDHAM brought in a Bill to<lb/>amend the practice of the Supreme Court.<lb/>Mr. N. said he intended to move the Bill<lb/>just brought in inamendement to that of Mr.<lb/>
+            <p> <persName ref="pers:NEED1">MR. NEEDHAM</persName> brought in a Bill to<lb/>amend the practice of the Supreme Court.<lb/>Mr. N. said he intended to move the Bill<lb/>just brought in inamendement to that of Mr.<lb/>
 Gilbert. It was the Bill framed by the<lb/>
 late Attorney General—the present Judge<lb/>Allen.</p>
-            <p>MR. FISHER moved the House into <lb/>Committee—Mr. Young in the Chair—on a<lb/>Bill further to amend the law relating to<lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> moved the House into <lb/>Committee— <persName ref="pers:YOUN1">Mr. Young</persName> in the Chair—on a<lb/>Bill further to amend the law relating to<lb/>
 Parish Schools.<lb/>
             </p>
 
@@ -342,7 +347,7 @@ Schools. The Bill did not design to make<lb/>
 any alteration in th School Law, but <lb/>merely to make plain what was doubtful ;<lb/>to carry out what he considered must have<lb/>been the intention of the framers of the <lb/>law.<lb/>
             </p>
 
-            <p>HON. ATTORNEY GENERAL thought<lb/>
+            <p> <persName ref="UNSPECIFIED">HON. ATTORNEY GENERAL</persName> thought<lb/>
 the Bill would require great consideration.<lb/>
 It involved revenue, and he thought there<lb/>
 would be great difficulty in carrying out<lb/>
@@ -357,7 +362,7 @@ regards Counties<lb/>
 
 
 
-            <p>MR.CONNELL said he had under<lb break="no"/>stood the Attorney General to say that<lb/>
+            <p> <persName ref="pers:CONN1">MR.CONNELL</persName> said he had under<lb break="no"/>stood the Attorney General to say that<lb/>
 ample arrangements had been made with<lb/>
 regard to defence of the Counts of Carl<lb break="no"/>ton. But from the information he had re<lb break="no"/>ceived, he was led to believe that nothing<lb/>
 whatever had been done. There was very<lb/>
@@ -368,12 +373,12 @@ of people were selling out their property.<lb/>
 
             <pb n="20" facs="final/images/NB_LA_1866-03-15_Page_020.jpg"/>
             
-<!--<p> 20 DEBATES OF THE HOUSE OF ASSEMBLY FOR
-1866. <lb/></p>-->
+<fw type="num">20</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
             
  
             <p>He should like to know what the Govern<lb break="no"/>ment had done.   <lb/>
-ATTORNEY GENERAL thought <lb/>
+            </p>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName> thought <lb/>
 that the information he (Mr. Connell) had <lb/>
 received was incorrect ; he had informed <lb/>
 the members of
@@ -399,8 +404,8 @@ Cole, and also in communication with the
 <lb/>
 Volunteer Officers on the border.  <lb/>
             </p>
-            <p>MR.
-CONNELL—He did not rise for  <lb/>
+            <p> <persName ref="pers:CONN1">MR.
+CONNELL</persName> —He did not rise for  <lb/>
 the purpose of giving alarm, but he did <lb/>
 think he should have positive knowledge
 <lb/>
@@ -412,7 +417,12 @@ him that no preparations had been made
 <lb/>
 at all. <lb/>
             </p>
-            <p> MR. FISHER—The Government had  <lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> could not agree with his<lb/>
+               hon. colleague that there was no alarm. <lb/>
+               He had recevied a telegram which inform<lb break="no"/>ed him that all along the line of the Saint<lb/>
+               Andrews Railway there was great alarm. 
+               </p>
+            <p> <persName ref="pers:ANGL1">MR. ANGLIN</persName>.—The Government had  <lb/>
 the best means of knowing. He would <lb/>
 do his tumost to support any measure of 
 <lb/>
@@ -420,16 +430,13 @@ defence they might adopt. He was  <lb/>
 prepared to give them the amplest powers <lb/>
 to raise men and expend money. <lb/>
             </p>
-            <p>MR. HATHEWAY said, two hours be-<lb break="yes"/>
-for Mr. Connell had risen to ask that <lb/>
-question, he had received a telegram from<lb/>
-the
-press of Woodstock, and in it there <lb/>
-was not a single word about alarm or 
-<lb/>
-about Fenianism. <lb/>
+            <p>
+               <persName ref="pers:HATH1">MR. HATHEWAY</persName> said, two hours be-<lb break="yes"
+               /> fore Mr. Connell had risen to ask that <lb/> question, he had received a telegram
+               from<lb/> the press of Woodstock, and in it there <lb/> was not a single word about
+               alarm or <lb/> about Fenianism. <lb/>
             </p>
-            <p>MR. FISHER—There was no doubt  <lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName> —There was no doubt  <lb/>
 that there was great alarm now, and he 
 <lb/>
 entirely agreed with the remark of the
@@ -469,7 +476,7 @@ the Export Duty Bill.</p>
 
             <cb/>
 
-            <p>HON. ATTORNEY GENERAL (on<lb/>
+            <p> <persName ref="UNSPECIFIED">HON. ATTORNEY GENERAL</persName> (on<lb/>
 
 resuming the adjourned debate on the<lb/>
 amendment to the Address,) said that the<lb/>
@@ -551,11 +558,11 @@ to the country had been entered into.<lb/>
             </p>
 
 
-            <p>MR. WETMORE— Who paid the right<lb/>
+            <p> <persName ref="pers:WETM1">MR. WETMORE</persName> — Who paid the right<lb/>
 of way through this Province ?<lb/>
             </p>
 
-            <p>HON. ATTORNEY GENERAL—The<lb/>Company ; but on representations from<lb/>them of the privileges Nova Scotia had<lb/>ceded, we agreed to pay the price of land<lb/>in excess of £50 an acre. Everything<lb/>else connected with regard to the contract<lb/>had been done consistently with law and<lb/>legislation, and yet it had been put so<lb break="no"/>lemnly forth when he was absent in the <lb/>
+            <p> <persName ref="UNSPECIFIED">HON. ATTORNEY GENERAL</persName> —The<lb/>Company ; but on representations from<lb/>them of the privileges Nova Scotia had<lb/>ceded, we agreed to pay the price of land<lb/>in excess of £50 an acre. Everything<lb/>else connected with regard to the contract<lb/>had been done consistently with law and<lb/>legislation, and yet it had been put so<lb break="no"/>lemnly forth when he was absent in the <lb/>
 United States that no contract had been<lb/>
 made at all ; that it was simply a pure fa<lb break="no"/>brication to help me to run my election in<lb/>
 my Country. Would anyone believe that<lb/>
@@ -567,7 +574,7 @@ It had been asked had any gentleman seen<lb/>
 the contract ? And it had gone forth<lb/>
 throughout the country that he had per<lb break="no"/>petrated a base, deliberate fraud.<lb/>
             </p>
-            <p>(Mr. Wetmore.—What paper did the<lb/>
+            <p>( <persName ref="pers:WETM1">Mr. Wetmore</persName>.—What paper did the<lb/>
 Attorney General allude to?)</p>
             <p>It need not signify what was the name<lb/>
 of the paper. The Government had sus<lb break="no"/>tained abuse and vilification not only<lb/>
@@ -602,8 +609,8 @@ the Administration, there was on mem<lb break="no"/>ber not now in the Governmen
 
 
             <pb n="21" facs="final/images/NB_LA_1866-03-15_Page_021.jpg"/>
-          <!--  <p>DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866<lb/>
-            </p>-->
+        
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">21</fw>
         
 was well qualified for the office, and<lb/>
 that they had all felt then that he should<lb/>
@@ -640,7 +647,7 @@ House to condemn the Government?<lb/>
 He thought not.<lb/>
             </p>
  
-            <p> The Attorney Genernl proceeded to <lb/>
+            <p> The <persName ref="UNSPECIFIED">Attorney Genernl</persName> proceeded to <lb/>
 th charge against the Government,<lb/>
 that they had not appointed a Solicitor<lb/>
 General, and challenged the mover of<lb/>
@@ -745,19 +752,19 @@ about the transaction.<lb/>
             </p>
 
 
-            <p>MR. FISHER. He knew nothing<lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName>. He knew nothing<lb/>
 about it.</p>
-            <p>ATTORNEY GENERAL. Then more<lb/>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName>. Then more<lb/>
 shame for him.<lb/>
             </p>
-            <p>MR. FISHER. All he had said in<lb/>
+            <p> <persName ref="pers:FISH1">MR. FISHER</persName>. All he had said in<lb/>
 reference to the transaction the other<lb/>
 day was, that the repeal of a regulation<lb/>
 should be as notorious as the regulation<lb/>
 itself<lb/>
             </p>
-            <p> ATTORNEY
-GENERAL. But the<lb/>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY
+GENERAL</persName>. But the<lb/>
 hon. member must have known,resid<lb break="no"/>ing as he did in Fredericton, and ha<lb break="no"/>ving access to the Crown Land Office,<lb/>
 and he must have known when he <lb/>
 heard the Government charged with <lb/>
@@ -785,22 +792,22 @@ if it had never existed ? Did not every<lb/>
 one know that it had repealed itself and<lb/>fallen dead? The condition that ren<lb break="no"/>dered the regulation necessary had<lb/>ceased to exist. The transaction was<lb/>open and above board. The sale of<lb/>lands was published in the <hi rendition="simple:italic">Gazette</hi>, and<lb/>every man must have known that it<lb/>
 was the intention to sell these lands<lb/>publicly. He would ask the House<lb/>then if it was true that the Government<lb/>had given Gibson lands secretly—if he<lb/>had given him land without compe<lb break="no"/>tition ? <lb/>
             </p>
-            <p>MR. CONNELL. Did not Mr. Gib<lb break="no"/>son hold a three years' license of these<lb/>
+            <p> <persName ref="pers:CONN1">MR. CONNELL</persName>. Did not Mr. Gib<lb break="no"/>son hold a three years' license of these<lb/>
 very lands?</p>
-            <p>ATTORNEY GENERAL. So much<lb/>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName>. So much<lb/>
 the worse for the late Government.<lb/>You that supported the late Government<lb/>would wish to fasten their sins on us.<lb/>
             </p>
-            <p>MR. GILBERT. How many acres<lb/>were sold to Mr. Gibson?<lb/>
+            <p> <persName ref="pers:GILB1">MR. GILBERT</persName>. How many acres<lb/>were sold to Mr. Gibson?<lb/>
             </p>
-            <p>ATTORNEY GENERAL. Fifteen<lb/>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName>. Fifteen<lb/>
 thousand in all. It it was necessary to<lb/>argue this question, he would say while<lb/>he would give every facility to the man<lb/>who desired to settle in the country,<lb/>they ought to look at the other side,<lb/>and consider that Mr. Gibson had<lb/>mills that cut twelve millions annually.<lb/>The whole country was interested in<lb/>that manufacture. Let them not look<lb/>at this question with hasty prejudice,<lb/>but let calm reason work, and let them<lb/>foster and cherish the manufacturing<lb/>interests of the country. He would<lb/>ask if the people of the Nashwaak were<lb/>not greatly interested in Mr. Gibson's<lb/>operations? He had besides been told<lb/>that the land was worthless for settle<lb break="no"/>ment and not much worth for lumber-<lb break="yes"/>in purposes, unless large sums are<lb/>spent to open up streams. Mr. Gibson<lb/>was a man that ought to be encouraged.<lb/>
 He was informed his operations extend<lb break="no"/>ed to Careleton and Victoria. The<lb/>
 inhabitants of Carleton derived great<lb/>
 benefit from those operations.<lb/>
             </p>
 
-            <p>MR. LINDSAY—The people of Carle<lb break="no"/>ton found fault with it.</p>
-            <p>ATTORNEY GENERAL—It might<lb/>be that the great lumberers found fault ;<lb/>but would he (Mr. Lindsay) tell him that<lb/>the farmers and back settlers complained<lb/>who found sale for their oats and their<lb/>hay, and their produce? He then<lb/>proceeded to say that the Government<lb/>were bound to carry out the acts of their<lb/>predecessors, and as regarded this tran<lb break="no"/>saction they were in no way to blame.<lb/>It had been no hole and corner business,<lb/>and he did not think the House would say<lb/>
+            <p> <persName ref="pers:LIND1">MR. LINDSAY</persName> —The people of Carle<lb break="no"/>ton found fault with it.</p>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName> —It might<lb/>be that the great lumberers found fault ;<lb/>but would he (Mr. Lindsay) tell him that<lb/>the farmers and back settlers complained<lb/>who found sale for their oats and their<lb/>hay, and their produce? He then<lb/>proceeded to say that the Government<lb/>were bound to carry out the acts of their<lb/>predecessors, and as regarded this tran<lb break="no"/>saction they were in no way to blame.<lb/>It had been no hole and corner business,<lb/>and he did not think the House would say<lb/>
 that the Government had forfeited the<lb/>confidence of the country. The hon. gen<lb break="no"/>tleman (Mr. Fisher) had said that the Go<lb break="no"/>vernment had changed their mind upon<lb/>
 the question of Confederation, and that<lb/>
 the paragraph in the Address relating to<lb/>
@@ -825,7 +832,8 @@ the Government thrown out, that the  <lb/>
 
 
             <pb n="22" facs="final/images/NB_LA_1866-03-15_Page_022.jpg"/>
-           <!-- <fw type="num">22</fw>-->
+   
+<fw type="num">22</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
         
 Quebec Scheme, in all its original enor<lb break="no"/>mity would be forced upon the country. <lb/>
 He believed, sure as the needle pointed <lb/>
@@ -939,7 +947,7 @@ were the best judges ; and on this ques<lb break="no"/>tion of Confederation the
 differed.<lb/>
             </p>
  
-            <p>The Attorney General then pro<lb break="no"/>ceeded to speak of the stories repeated<lb/>
+            <p>The <persName ref="UNSPECIFIED">Attorney General</persName> then pro<lb break="no"/>ceeded to speak of the stories repeated<lb/>
 by the member of York, (Mr. F.) that the<lb/>
 present Chief Justice Ritchie had <unclear n="">?</unclear>ed<lb/>
 with him ( Atty Gen.) If there was any<lb/>
@@ -981,7 +989,7 @@ the skies those who frame it, he laid<lb/>
 himself open to remark ; he forgot the<lb/>
 duty imposed upon him by his position ;<lb/>
 he dragged the ermine in the mire. He<lb/>
-heard it was said that Judge Wilmot de<lb break="no"/><cb/>livered, from the Bench, a speech on<lb/>Confederation in Sunbury, and the peo<lb break="no"/>ple in the Court applauded him. (Mr.<lb/>Glazier—they did not). He heard it<lb/>so stated, and he must believe it. They<lb/>let Judge Wilmot speak on any<lb/>subject, and he grained the irresistable<lb/>applause of his audience. Now, if the<lb/>people cheered him when he spoke from<lb/>the Bench, must they not come to the<lb/>conclusion, if people have a right to ap<lb break="no"/>plaud him they have an equal right to<lb/>hiss him. They could not deny that.<lb/>Then what became of the respect and<lb/>dignity of the Bench ? He would like<lb/>
+heard it was said that Judge Wilmot de<lb break="no"/><cb/>livered, from the Bench, a speech on<lb/>Confederation in Sunbury, and the peo<lb break="no"/>ple in the Court applauded him. ( <persName ref="UNSPECIFIED">Mr.<lb/>Glazier</persName>—they did not). He heard it<lb/>so stated, and he must believe it. They<lb/>let Judge Wilmot speak on any<lb/>subject, and he grained the irresistable<lb/>applause of his audience. Now, if the<lb/>people cheered him when he spoke from<lb/>the Bench, must they not come to the<lb/>conclusion, if people have a right to ap<lb break="no"/>plaud him they have an equal right to<lb/>hiss him. They could not deny that.<lb/>Then what became of the respect and<lb/>dignity of the Bench ? He would like<lb/>
 to see one of the Judges in England act<lb/>in that manner. He would like to see<lb/>an English Judge throw himself into the<lb/>discussion on the Reform Bill, and even<lb/>
 that would be more excusable than the<lb/>
 ease of Judge Wilmot. He would ask<lb/>
@@ -998,14 +1006,14 @@ Robert Parker that he was the right man<lb/>in the right place ; would not that 
 
 
 
-            <p>The hon. member of York had called<lb/>
+            <p> <persName ref="UNSPECIFIED">The hon. member of York</persName> had called<lb/>
 the Government a Government of hy<lb break="no"/>pocrisy ; he had characterized its mem<lb break="no"/>bers as political thimble-riggers ; but if<lb/>
 there was any man in the Province re<lb break="no"/>markable for his expertness in that art<lb/>
 he sat in the seat of the hon. member.<lb/>
 He had done. He was now willing to<lb/>
 leave the question in the hands of the <lb/>
 House.</p>
-            <p>MR. DESBRISAY said, it might ap<lb break="no"/>pear strange that he should rise to an<lb break="no"/>swer a gentleman of the ability and tal<lb break="no"/>ents of the Attorney General. He<lb/>
+            <p> <persName ref="UNSPECIFIED">MR. DESBRISAY</persName> said, it might ap<lb break="no"/>pear strange that he should rise to an<lb break="no"/>swer a gentleman of the ability and tal<lb break="no"/>ents of the Attorney General. He<lb/>
 would give his reason. He was obliged<lb/>
 to go home, as the Supreme Court, in<lb/>
 Kent, was then sitting, and he had some<lb/>
@@ -1014,9 +1022,8 @@ his only reason for rising to speak now.<lb/>
             </p>
 
             <pb n="23" facs="final/images/NB_LA_1866-03-15_Page_023.jpg"/>
-           <!-- <p> DEBATES
-OF THE HOUSE OF ASSEMBLY FOR 1866 23<lb/>
-            </p>-->
+       
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">23</fw>
  
             <p>In the first place he begged leave to<lb/>
 trouble the House with some remarks<lb/>
@@ -1030,11 +1037,11 @@ side. He would like to ask what side<lb/>
 that is, and he would like to ask on what<lb/>
 side the Attorney General was?<lb/>
             </p>
-            <p> ATTORNEY GENERAL. — Against <lb/>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName>. — Against <lb/>
 the Quebec Scheme. <lb/>
             </p>
 
-            <p>MR. DESBRISAY—He also was op<lb break="no"/>posed to the Quebec Scheme ; but the<lb/>
+            <p> <persName ref="UNSPECIFIED">MR. DESBRISAY</persName> —He also was op<lb break="no"/>posed to the Quebec Scheme ; but the<lb/>
 question of Confederation had no right<lb/>
 to absorb all the other interests of the<lb/>
 Province. He had come out as Conser<lb break="no"/>vative and he had always voted consis<lb break="no"/>tently. When the Quebec Scheme was<lb/>
@@ -1050,13 +1057,13 @@ General's side of politics? He thought<lb/>
 he ought to get an answer.<lb/>
             </p>
 
-            <p>ATTORNEY GENERAL—When he<lb/>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName> —When he<lb/>
 said the hon. member of Kent had gone<lb/>
 over to the other side, it was because he<lb/>
 had seconded the amendment to the<lb/>
 Address.<lb/>
             </p>
-            <p>MR. DESBRISAY then proceeded to<lb/>
+            <p> <persName ref="UNSPECIFIED">MR. DESBRISAY</persName> then proceeded to<lb/>
 say that when he read the Speech, and<lb/>
 the paragraph on union, he felt that he<lb/>
 was absolved from anytie to the Govern<lb break="no"/>ment, and he appealed to the conserva<lb break="no"/>tive members if the course the Govern<lb break="no"/>ment had taken on that question, in not<lb/>
@@ -1115,7 +1122,7 @@ men of common judgment.<lb/>
             </p>
 
 
-            <p>Mr. DesBrisay then proceeded to say<lb/>
+            <p> <persName ref="UNSPECIFIED">Mr. DesBrisay</persName> then proceeded to say<lb/>
 that on account of the vascillating course<lb/>
 the Government had pursued, the conser<lb break="no"/>vative party had had to submit to the<lb/>
 most humiliating and degrading position<lb/>
@@ -1147,7 +1154,7 @@ attempted to do that with him he would<lb/>
 take the course with that man which he<lb/>
 ought to do. But when he saw the Gov<lb break="no"/>ernment vascillating and trimming before<lb/>
 the country, every man who was a Con<lb break="no"/>servative must have felt humiliated.</p>
-            <p>MR. DesBrisay went on to say, he<lb/>
+            <p> <persName ref="UNSPECIFIED">MR. DesBrisay</persName> went on to say, he<lb/>
 had asked the other day if the Govern<lb break="no"/>ment were prepared to submit any scheme<lb/>
 of Confederation to the House, and it<lb/>
 was said by the Attorney General that<lb/>
@@ -1158,18 +1165,18 @@ ask them, were they prepared to go for<lb/>
 any scheme brought in by any of their<lb/>
 supporters?</p>
             <p>
-ATTORNEY GENERAL The Go<lb break="no"/>vernment had never heard of any scheme.<lb/>
+<persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName> The Go<lb break="no"/>vernment had never heard of any scheme.<lb/>
             </p>
-            <p>MR. DESBRISAY. That was evading<lb/>
+            <p> <persName ref="UNSPECIFIED">MR. DESBRISAY</persName>. That was evading<lb/>
 the question. What he wished to know<lb/>
 was—did the Government intend to sup<lb break="no"/>port any scheme brought in by any one<lb/>
 of their supporters?</p>
-            <p>ATTORNEY GENERAL. The Go<lb break="no"/>vernment had never heard of any scheme<lb/>
+            <p> <persName ref="UNSPECIFIED">ATTORNEY GENERAL</persName>. The Go<lb break="no"/>vernment had never heard of any scheme<lb/>
 —the Government were opposed to the<lb/>
 Quebec Scheme, and would not submit<lb/>
 any scheme to the House.<lb/>
             </p>
-            <p>MR. DESBRISAY. He supposed he<lb/>
+            <p> <persName ref="UNSPECIFIED">MR. DESBRISAY</persName>. He supposed he<lb/>
 would be obliged to let that answer go.<lb/>
 It was impossible to draw out a direct<lb/>
 answer to a plain question from a lawyer.<lb/>
@@ -1219,16 +1226,27 @@ the party they did, when they knew he<lb/>
 had made a botch of the lighthouse he<lb/>had contracted to build.<lb/>
             </p>
 
-            <p>MR. DESBRISAY, in concluding, said,<lb/>that when he left, at dinner time, he did<lb/>not expect that he would rise to speak<lb/>that afternoon. He had given his reason<lb/>
-why he had done so. He thought he had<lb/>explained his position satisfactorily, and<lb/>
-he was sure no man of spirit could have<lb/>
-felt in any other way than he had ; and<lb/>his constituence felt as he did. Before<lb/>sitting down, he had a proposition to put<lb/>to the House. He felt that they were in<lb/>
-a time of trouble. The Province was<lb/>threatened with invasion, and he did not<lb/>think it a time when party spirit should<lb/>prevail. He proposed that the House<lb/>should not press the question of want of<lb/>confidence further. Much as he con<lb break="no"/>demned the Government for this vascilla<lb break="no"/>tion—for their want of pluck, for the<lb/>trimming course of policy they had pur<lb break="no"/>sued—he, for one, was perfectly willing<lb/>
-to pass the supplies through the House<lb/>
-at once. Let the House pass an act<lb/>giving them authority to raise men and<lb/>ample service—give any amount of credit<lb/>
-and then let the House be prorogued<lb break="no"/>and let the members go to their homes,<lb/>where, at this time, they were most need<lb break="no"/>ed. He might be wrong, but he thought<lb/>
-that would be the wisest course to pur<lb break="no"/>sue in this emergency ; it would be the<lb/>easiest way to get over the present diffi<lb break="no"/>culty. If the House were prorogued, it<lb/>
-would be best for the interests of the<lb/>country. <lb/>
+            <p>
+               <persName ref="UNSPECIFIED">MR. DESBRISAY</persName>, in concluding, said,<lb/>that
+               when he left, at dinner time, he did<lb/>not expect that he would rise to
+               speak<lb/>that afternoon. He had given his reason<lb/> why he had done so. He thought
+               he had<lb/>explained his position satisfactorily, and<lb/> he was sure no man of
+               spirit could have<lb/> felt in any other way than he had ; and<lb/>his constituence
+               felt as he did. Before<lb/>sitting down, he had a proposition to put<lb/>to the
+               House. He felt that they were in<lb/> a time of trouble. The Province
+               was<lb/>threatened with invasion, and he did not<lb/>think it a time when party
+               spirit should<lb/>prevail. He proposed that the House<lb/>should not press the
+               question of want of<lb/>confidence further. Much as he con<lb break="no"/>demned the
+               Government for this vascilla<lb break="no"/>tion—for their want of pluck, for
+               the<lb/>trimming course of policy they had pur<lb break="no"/>sued—he, for one, was
+               perfectly willing<lb/> to pass the supplies through the House<lb/> at once. Let the
+               House pass an act<lb/>giving them authority to raise men and<lb/>ample service—give
+               any amount of credit<lb/> and then let the House be prorogued<lb break="no"/>and let
+               the members go to their homes,<lb/>where, at this time, they were most need<lb
+                  break="no"/>ed. He might be wrong, but he thought<lb/> that would be the wisest
+               course to pur<lb break="no"/>sue in this emergency ; it would be the<lb/>easiest way
+               to get over the present diffi<lb break="no"/>culty. If the House were prorogued,
+               it<lb/> would be best for the interests of the<lb/>country. <lb/>
             </p>
 
             <p> A. A.<lb/>
