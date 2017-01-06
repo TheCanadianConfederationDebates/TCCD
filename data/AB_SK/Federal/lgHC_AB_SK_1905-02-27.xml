@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
+     but without the trailing .xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_AB_SK_1905-02-27" type="template">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
+        conforming with our current norms. Tag the date with a <date> element
+        which includes @when or @from/@to attributes so we can process it 
+        mechanically. -->
+        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1905-02-27">27 February 1905</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+         <persName ref="pers:LYAL1">Gordon Lyall</persName>
+        </respStmt>
+        
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
+                      this data was taken.-->
+        <bibl>
+          
+<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
+          
+          
+<!-- TEMPLATE: Title of the publication -->         
+          <title>House of Commons Debates, Tenth Parliament, First Session</title>.
+      
+                    
+<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+           <date when="1905"/>.    
+          
+<!-- TEMPLATE: Complete the publisher and publication place -->
+          <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the King's Most Excellent Majesty</publisher>.
+          
+<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
+               If it's a single page, put the same page number in @from and @to.-->
+          <biblScope unit="page" from="1745" to="1770"/>.
+        </bibl>
+        
+<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
+        examples. File path should be relative to THIS XML FILE. -->
+        <list>
+          <item><ptr target="final/hocr/AB_SK_H_of_C_1905-02-27_Page_1745.hocr.html"/></item>
+          <item><ptr target="final/hocr/AB_SK_H_of_C_1905-02-27_Page_1747.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-02-27_Page_1749.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-02-27_Page_1751.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-02-27_Page_1753.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-02-27_Page_1755.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-02-27_Page_1767.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-02-27_Page_1769.hocr.html"/></item>
+        </list>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
+        selected. This is especially important in cases where discontinuous 
+        page-ranges are used.  -->
+        <p></p>
+      </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
+        date in the @when attribute. -->
+     <change who="lyallg" when="2017-01-06">Created this document, completed metadata. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
+  
+  <text>
+    <body>
+      <div type="debate">
+        <p>This content will be replaced by data from the source documents during processing.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
