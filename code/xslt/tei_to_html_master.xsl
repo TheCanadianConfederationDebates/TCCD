@@ -35,6 +35,7 @@
     <xsl:include href="tei_to_html_docs_module.xsl"/>
     <xsl:include href="tei_to_html_templates_module.xsl"/>
     <xsl:include href="tei_to_html_functions_module.xsl"/>
+    <xsl:include href="tei_to_html_captions_module.xsl"/>
     
     <xd:doc scope="component">
         <xd:desc>Project base folder, relative to which other resources will be found.
@@ -52,6 +53,21 @@
     <xsl:param name="outputFolder" select="concat($projectRoot, '/html')"/>
     
     <xd:doc scope="component">
+        <xd:desc>The build date in yyyy-mm-dd format, defaulting to today.</xd:desc>
+    </xd:doc>
+    <xsl:param name="buildDate" as="xs:string" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
+    
+    <xd:doc>
+        <xd:desc>Long form of last git commit is passed in by ant.</xd:desc>
+    </xd:doc>
+    <xsl:param name="gitRevision" as="xs:string" select="''"/>
+    
+    <xd:doc>
+        <xd:desc>Prefix for links to GitHub commits.</xd:desc>
+    </xd:doc>
+    <xsl:param name="gitRevUrl" select="'https://github.com/TheCanadianConfederationDebates/TCCD/commit/'"/>
+    
+    <xd:doc scope="component">
         <xd:desc>Variable containing location of data directories where the XML files
         will be found.</xd:desc>
     </xd:doc>
@@ -61,6 +77,11 @@
         <xd:desc>The complete set of XML documents found in the data folder.</xd:desc>
     </xd:doc>
     <xsl:variable name="xmlDocs" select="collection(concat($projectData, '/?select=*.xml;recurse=yes'))"/>
+    
+    <xd:doc scope="component">
+        <xd:desc>The subset of xmlDocs that we want to actually process (excluding templates etc.).</xd:desc>
+    </xd:doc>
+    <xsl:variable name="teiDocs" select="$xmlDocs[TEI[not(@xml:id='debate')]]"/>
     
     <xd:doc>
         <xd:desc>The root template simply invokes a named template in 

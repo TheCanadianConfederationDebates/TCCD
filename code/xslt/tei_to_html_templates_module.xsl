@@ -26,7 +26,12 @@
     <xsl:template match="teiHeader">
         <head>
             <title><xsl:value-of select="fileDesc/titleStmt/title[1]"/></title>
-<!--    Links to CSS and JS; the files do not yet exist.        -->
+            
+            
+<!--    Links to CSS and JS.      -->
+<!--    Starting with a Google font embed, just because. Design comes later.        -->
+            <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"/> 
+                
             <link rel="stylesheet" type="text/css" href="css/html.css"/>
             <script type="text/ecmascript" src="js/script.js"/> 
             
@@ -46,6 +51,11 @@
     </xsl:template>
     
     <xd:doc>
+        <xd:desc>For now, we suppress the facsimile element. We may use it later.</xd:desc>
+    </xd:doc>
+    <xsl:template match="facsimile"/>
+    
+    <xd:doc>
         <xd:desc>The text element template paradoxically starts by generating 
         a bunch of data from the teiHeader; since these debate-days are extracts
         from larger source documents, there's no meaningful intro/metadata in 
@@ -53,10 +63,13 @@
     </xd:doc>
     <xsl:template match="text">
         <body>
-<!--           Here there will be banner stuff. -->
+            <xsl:call-template name="header"/>
+            <xsl:call-template name="nav"/>
             <h1><xsl:apply-templates select="preceding-sibling::teiHeader[1]/fileDesc/titleStmt/title[1]"/></h1>
             
             <xsl:apply-templates/>
+                
+            <xsl:call-template name="footer"/>
         </body>
     </xsl:template>
     
@@ -77,6 +90,16 @@
     </xsl:template>
     
     <xd:doc scope="component">
+        <xd:desc>The persName element becomes a link to a bio entry we presume 
+                 is part of the file.</xd:desc>
+    </xd:doc>
+    <xsl:template match="persName">
+        <a href="#{substring-after(@ref, 'pers:')}" data-el="persName">
+            <xsl:apply-templates select="@*|node()"/>
+        </a>
+    </xsl:template>
+    
+    <xd:doc scope="component">
         <xd:desc>These templates match TEI attributes and produce equivalent 
         XHTML5 attributes.</xd:desc>
     </xd:doc>
@@ -93,9 +116,41 @@
         <xsl:attribute name="style" select="."/>
     </xsl:template>
     
-    <xd:doc>
+    <xd:doc scope="component">
         <xd:desc>Attribute templates which suppress output.</xd:desc>
     </xd:doc>
-    <xsl:template match="@n | @facs"/>
+    <xsl:template match="@n | @facs | @ref"/>
+    
+<!-- Named templates for page-structure components..   -->
+    <xd:doc scope="component">
+        <xd:desc>The header template creates the document banner for all pages.</xd:desc>
+    </xd:doc>
+    <xsl:template name="header">
+        <header>
+            
+        </header>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The nav template creates the site navigation for all pages.</xd:desc>
+    </xd:doc>
+    <xsl:template name="nav">
+        <nav>
+            
+        </nav>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The footer template creates the document footer for all pages.</xd:desc>
+    </xd:doc>
+    <xsl:template name="footer">
+        <footer>
+            
+            <div class="version">
+                <xsl:sequence select="$buildDateCaption"/> <xsl:value-of select="$buildDate"/><xsl:text>. </xsl:text>
+                <xsl:sequence select="$buildVersionCaption"/> <a href="{concat($gitRevUrl, $gitRevision)}"><xsl:value-of select="substring($gitRevision, 1, 8)"/></a><xsl:text>.</xsl:text>
+            </div>
+        </footer>
+    </xsl:template>
     
 </xsl:stylesheet>

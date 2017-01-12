@@ -35,9 +35,9 @@
     </xd:doc>
     <xsl:template name="allDocs">
         <xsl:sequence select="hcmc:message(concat('Processing documents in ', $projectData))"/>
-        <xsl:sequence select="hcmc:message(concat('Found ', count($xmlDocs[TEI]), ' candidate documents.'))"/>
+        <xsl:sequence select="hcmc:message(concat('Found ', count($teiDocs), ' candidate documents.'))"/>
         
-        <xsl:for-each select="$xmlDocs/TEI">
+        <xsl:for-each select="$teiDocs/TEI">
             <xsl:variable name="currId" select="@xml:id"/>
             <xsl:result-document href="{concat($outputFolder, '/', $currId, '.html')}">
                 <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;

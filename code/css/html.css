@@ -1,0 +1,38 @@
+/* 
+ * This stylesheet provides all the base styles for 
+ * the HTML renderings of debate documents and the 
+ * website surrounding them. It is copied into the 
+ * output location by the ant build task.
+ * 
+ * All dimensions ideally in rem.
+ */
+ 
+/* Merriweather is a Google font embedded thus, in the 
+ * header:
+ * <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+ * */
+body{
+    font-family: 'Merriweather', georgia, serif;
+}
+
+/* By default, temporarily, we hide French captions etc. 
+ * Need to figure out a good approach to internationalization. 
+ * */
+span[lang='fr']{display: none;}
+
+div{
+    margin-top: 1rem;
+}
+
+a[data-el='persName']{
+    text-decoration: none;
+    font-weight: bold;
+    color: #660000;
+}
+
+footer{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: monospace;
+    font-size: 0.75rem;
+}

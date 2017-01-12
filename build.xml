@@ -15,6 +15,8 @@
     
       3. Runs meta-diagnostics across all the previously-created 
          diagnostics files.
+         
+      4. Builds the HTML website.
     
     It requires libraries that are in code/utilities, so it should 
     be run with:
@@ -68,6 +70,9 @@
 <!-- Diagnostics output file for today. -->
   <property name="diagnosticsOutput" value="${diagnosticsFolder}diagnostics_${today}.html"/>
   
+<!-- Folder for HTML website output. -->
+  <property name="webDir" value="${basedir}/html"/>
+  
 <!--  Some paths, libs and tasks. (May not all be needed.) -->
   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
   
@@ -90,11 +95,31 @@
 <!-- All XML files in the data directory should be TEI files. -->
   <fileset id="teiFiles" dir="data" includes="**/*.xml"/>
   
-
+<!-- Utility targets. -->
   <target name="MESSAGE">
     <echo>&#x0a;${echo.separator}</echo>
     <echo>   ${msg}   </echo>
     <echo>${echo.separator}&#x0a;</echo>
+  </target>
+  
+  <!-- Thanks to http://stackoverflow.com/users/491884/jmuc at 
+       http://stackoverflow.com/questions/2974106/how-to-lookup-the-latest-git-commit-hash-from-an-ant-build-script -->
+  <target name="git.revision" description="Store git revision in ${repository.version}">
+    <exec executable="git" outputproperty="git.revision" failifexecutionfails="false" errorproperty="">
+<!--    Short version...  -->
+      <!--<arg value="describe"/>
+      <arg value="-\-tags"/>
+      <arg value="-\-always"/>-->
+<!--    But we want the long version  -->
+      <arg value="rev-parse"/>
+      <arg value="HEAD"/>
+    </exec>
+    <condition property="repository.version" value="${git.revision}" else="unknown">
+      <and>
+        <isset property="git.revision"/>
+        <length string="${git.revision}" trim="yes" length="0" when="greater"/>
+      </and>
+    </condition>
   </target>
   
   <target name="all">
@@ -103,6 +128,7 @@
     <antcall target="validation"/>
     <antcall target="diagnostics"/>
     <antcall target="metadiagnostics"/>
+    <antcall target="website"/>
     <antcall target="MESSAGE"><param name="msg" value="DONE!"/></antcall>
   </target>
   
@@ -204,5 +230,35 @@
     </java>
   </target>
   
+  <target name="website" depends="git.revision">
+    <description>
+      TARGET website
+      This builds the HTML website from the TEI files and other resources.
+    </description>
+    <antcall target="MESSAGE"><param name="msg" value="Building the HTML website..."/></antcall>
+    
+<!--  First remove the target.  -->
+    <antcall target="MESSAGE"><param name="msg" value="Removing original content..."/></antcall>
+    <delete dir="${webDir}"/>
+    <mkdir dir="${webDir}"/>
+    
+<!--  Now copy resources.  -->
+    <antcall target="MESSAGE"><param name="msg" value="Copying resources to output folder..."/></antcall>
+    <mkdir dir="${webDir}/css"/>
+    <copy file="code/css/html.css" todir="${webDir}/css"/>
+    <mkdir dir="${webDir}/js"/>
+    <copy file="code/js/script.js" todir="${webDir}/js"/>
+    
+<!-- Now create the actual HTML stuff. Saxon handles most of this.    -->
+    <antcall target="MESSAGE"><param name="msg" value="Building HTML pages..."/></antcall>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:tei_to_html_master.xsl"/>
+      <arg value="-xsl:tei_to_html_master.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg line="outputFolder=${webDir}"/>
+      <arg line="buildDate=${today}"/>
+      <arg line="gitRevision=${repository.version}"/>
+    </java>
+  </target>
 
 </project>
