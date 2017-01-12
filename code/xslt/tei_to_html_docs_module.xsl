@@ -22,12 +22,33 @@
     </xd:doc>
     
     <xd:doc>
+        <xd:desc>xsl:key to provide quicker, cleaner access to mentions of people. Use for 
+            example like this, to find documents which mention a person:
+            select="$xmlDocs/key('mentionsOfPeople', 'CART2')"
+            </xd:desc>
+    </xd:doc>
+    <xsl:key name="mentionsOfPeople" match="persName[@ref]" use="substring-after(@ref, 'pers:')"/>
+    
+    <xd:doc>
         <xd:desc>The base template, allDocs, finds all the XML files and processes
         them as required to produce output in XHTML5.</xd:desc>
     </xd:doc>
     <xsl:template name="allDocs">
         <xsl:sequence select="hcmc:message(concat('Processing documents in ', $projectData))"/>
         <xsl:sequence select="hcmc:message(concat('Found ', count($xmlDocs[TEI]), ' candidate documents.'))"/>
+        
+        <xsl:for-each select="$xmlDocs/TEI">
+            <xsl:variable name="currId" select="@xml:id"/>
+            <xsl:result-document href="{concat($outputFolder, '/', $currId, '.html')}">
+                <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
+            </xsl:text>
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$currId}">
+                    <xsl:apply-templates>
+                        <xsl:with-param name="currId" select="$currId" tunnel="yes"/>
+                    </xsl:apply-templates>
+                </html>
+            </xsl:result-document>
+        </xsl:for-each>
     </xsl:template>
     
 </xsl:stylesheet>

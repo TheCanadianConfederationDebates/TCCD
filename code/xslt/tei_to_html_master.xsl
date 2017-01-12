@@ -45,6 +45,11 @@
     </xd:doc>
     <xsl:param name="projectRoot" select="concat(replace(document-uri(/), concat(tokenize(document-uri(/), '/')[last()], '$'), ''), '../../')"/>
     
+    <xd:doc scope="component">
+        <xd:desc>The outputFolder param defaults to an HTML folder in the project root, but of course
+        can be overridden as required.</xd:desc>
+    </xd:doc>
+    <xsl:param name="outputFolder" select="concat($projectRoot, '/html')"/>
     
     <xd:doc scope="component">
         <xd:desc>Variable containing location of data directories where the XML files
