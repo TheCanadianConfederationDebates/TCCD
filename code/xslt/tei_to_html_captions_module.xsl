@@ -36,4 +36,21 @@
         <span lang="fr">Commit: </span>
     </xsl:variable>
     
+    <xd:doc scope="component">
+        <xd:desc>Caption introducing the count of appearances of
+        someone's name in the collection.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="nameAppearanceCaption">
+        <span lang="en">Number of times this person appears in the debates: </span>
+        <span lang="fr">Nombre de fois que cette personne apparaît dans les débats: </span>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Caption heading the list of people in the appendix of a document.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="peopleCaption">
+        <span lang="en">Individuals named: </span>
+        <span lang="fr">Personnes nommées: </span>
+    </xsl:variable>
+    
 </xsl:stylesheet>

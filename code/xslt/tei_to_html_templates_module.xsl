@@ -62,15 +62,44 @@
         the document.</xd:desc>
     </xd:doc>
     <xsl:template match="text">
+        <xsl:param name="currId" as="xs:string" tunnel="yes"/>
         <body>
             <xsl:call-template name="header"/>
             <xsl:call-template name="nav"/>
             <h1><xsl:apply-templates select="preceding-sibling::teiHeader[1]/fileDesc/titleStmt/title[1]"/></h1>
             
-            <xsl:apply-templates/>
+            <xsl:choose>
+                <xsl:when test="$currId = 'personography'">
+                    <xsl:apply-templates select="ancestor::TEI//particDesc"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
+                
+            <xsl:call-template name="appendix"/>
                 
             <xsl:call-template name="footer"/>
         </body>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>This template creates an appendix for the document containing
+        lists of all linked resources such as people.</xd:desc>
+    </xd:doc>
+    <xsl:template name="appendix">
+        <div class="appendix">
+            <xsl:if test="//text/descendant::persName[@ref]">
+                <h3><xsl:sequence select="$peopleCaption"/></h3>
+                <ul>
+                    <xsl:variable name="persIds" select="distinct-values(//text/descendant::persName/@ref/substring-after(normalize-space(.), 'pers:'))"/>
+                    <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person[@xml:id = $persIds]">
+                        <xsl:sort select="string-join(persName, ' ')"/>
+                        <xsl:apply-templates select="."/>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+        </div>
     </xsl:template>
     
     <xd:doc scope="component">
@@ -91,13 +120,108 @@
     
     <xd:doc scope="component">
         <xd:desc>The persName element becomes a link to a bio entry we presume 
-                 is part of the file.</xd:desc>
+                 is part of the file. It's processed differently if it's part 
+                 of the personography.</xd:desc>
     </xd:doc>
-    <xsl:template match="persName">
+    <xsl:template match="persName[not(ancestor::person)]">
         <a href="#{substring-after(@ref, 'pers:')}" data-el="persName">
             <xsl:apply-templates select="@*|node()"/>
         </a>
     </xsl:template>
+    <xsl:template match="persName[ancestor::person]">
+        <span data-el="persName">
+            <xsl:apply-templates select="@*|node()"/>
+        </span>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Sometimes commas are included in names, and sometimes not.
+                 Might as well allow for this graciously, although we 
+                 could constrain it with Schematron.</xd:desc>
+    </xd:doc>
+    <xsl:template match="text()[preceding-sibling::*[1][self::surname] and following-sibling::forename]">
+        <xsl:if test="not(contains(., ','))"><xsl:text>,</xsl:text></xsl:if>
+        <xsl:value-of select="."/>
+    </xsl:template>
+   
+    
+    <xd:doc scope="component">
+        <xd:desc>The personography needs special handling.</xd:desc>
+    </xd:doc>
+    <xsl:template match="particDesc">
+        <div data-el="particDesc">
+            <xsl:apply-templates select="@*|node()"/>
+        </div>
+    </xsl:template>
+    <xsl:template match="listPerson">
+        <xsl:apply-templates select="head"/>
+        <ul data-el="listPerson">
+            <xsl:apply-templates select="@*|node()[not(self::head)]"/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="listPerson/head | list/head">
+        <xsl:element name="h{count(ancestor::listPerson|ancestor::div) + 1}">
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="listPerson/person">
+        <li>
+            <xsl:variable name="link" select="concat('pers:', @xml:id)"/>
+            <xsl:apply-templates select="@*|node()"/>
+            
+            <xsl:if test="parent::listPerson/@xml:id = 'historicalPersonography'">
+                
+                <xsl:sequence select="$nameAppearanceCaption"/>
+                <xsl:value-of select="count($teiDocs//persName[@ref=$link])"/>
+                
+                <xsl:if test="$teiDocs/TEI[text/descendant::persName[@ref=$link]]">
+                    <ul class="docsMentioningPerson">
+                        <xsl:for-each select="$teiDocs/TEI[text/descendant::persName[@ref=$link]]">
+                            <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
+                        </xsl:for-each>
+                    </ul>
+                </xsl:if>
+            </xsl:if>
+            
+            
+        </li>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The person/affiliation element is complex; it's going to need 
+            some elaboration and linking once we know how the riding information is
+            going to work.</xd:desc>
+    </xd:doc>
+    <xsl:template match="person/affiliation[not(preceding-sibling::affiliation)]">
+        <ul>
+            <li>
+                <xsl:apply-templates select="node()"/>
+                <xsl:apply-templates select="@*"/>
+            </li>
+            <xsl:apply-templates select="following-sibling::affiliation">
+                <xsl:with-param name="inList" select="true()" tunnel="yes"/>
+            </xsl:apply-templates>
+        </ul>
+    </xsl:template>
+    <xsl:template match="person/affiliation[preceding-sibling::affiliation]">
+        <xsl:param name="inList" select="false()" tunnel="yes"/>
+        <xsl:if test="$inList = true()">
+            <li>
+                <xsl:apply-templates select="node()"/>
+                <xsl:apply-templates select="@*"/>
+            </li>
+        </xsl:if>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>We process the attributes of affiliation elements into actual output.</xd:desc>
+    </xd:doc>
+    <xsl:template match="affiliation/@when">
+        <xsl:text> (</xsl:text><xsl:value-of select="."/>
+        <xsl:if test="parent::affiliation/@n"><xsl:text>: </xsl:text><xsl:value-of select="parent::affiliation/@n"/></xsl:if>
+        <xsl:text>)</xsl:text>
+    </xsl:template>
+    <xsl:template match="affiliation/@n"/>
     
     <xd:doc scope="component">
         <xd:desc>These templates match TEI attributes and produce equivalent 
@@ -114,6 +238,9 @@
     </xsl:template>
     <xsl:template match="@style">
         <xsl:attribute name="style" select="."/>
+    </xsl:template>
+    <xsl:template match="persName/@when">
+        <xsl:attribute name="data-when" select="."/>
     </xsl:template>
     
     <xd:doc scope="component">
