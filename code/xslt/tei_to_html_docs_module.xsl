@@ -23,8 +23,8 @@
     
     <xd:doc>
         <xd:desc>xsl:key to provide quicker, cleaner access to mentions of people. Use for 
-            example like this, to find documents which mention a person:
-            select="$xmlDocs/key('mentionsOfPeople', 'CART2')"
+            example like this, to find mentions of a person:
+            select="$teiDocs/key('mentionsOfPeople', 'CART2')"
             </xd:desc>
     </xd:doc>
     <xsl:key name="mentionsOfPeople" match="persName[@ref]" use="substring-after(@ref, 'pers:')"/>
@@ -38,13 +38,13 @@
         <xsl:sequence select="hcmc:message(concat('Found ', count($teiDocs), ' candidate documents.'))"/>
         
         <xsl:for-each select="$teiDocs/TEI">
-            <xsl:variable name="currId" select="@xml:id"/>
+            <xsl:variable name="currId" select="@xml:id" as="xs:string"/>
             <xsl:result-document href="{concat($outputFolder, '/', $currId, '.html')}">
                 <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
             </xsl:text>
                 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$currId}">
                     <xsl:apply-templates>
-                        <xsl:with-param name="currId" select="$currId" tunnel="yes"/>
+                        <xsl:with-param name="currId" select="$currId" as="xs:string" tunnel="yes"/>
                     </xsl:apply-templates>
                 </html>
             </xsl:result-document>
