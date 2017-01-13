@@ -20,8 +20,49 @@ body{
  * */
 span[lang='fr']{display: none;}
 
+/* Page title. */
+h1{
+    margin: 2rem 10%;
+    text-align: center;
+}
+
+div.body{
+    margin: 1rem 5%;
+    padding: 1em;
+    background-color: #f9f9f9;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40rem;
+    /*-moz-column-width: 20rem;
+    -webkit-column-width: 20rem;
+    column-width: 20rem;
+    -moz-column-gap: 2rem;
+    -webkit-column-gap: 2rem;
+    column-gap: 2rem;*/
+}
+
 div{
     margin-top: 1rem;
+}
+
+div[data-el='p']{
+    text-align: justify;
+}
+
+/* We hide line-breaks and column-breaks by default. */
+div[data-el='cb'], div[data-el='lb']{
+    display: none;
+}
+
+div[data-el='fw'][data-type='running']{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+div[data-el='fw'][data-type='num']{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
 }
 
 *[data-el='persName']{
@@ -32,6 +73,24 @@ div{
 
 li{
     margin-top: 1em;
+}
+
+/* TEI simplePrint values are used for styling. */
+.simple_italic{
+    font-style: italic;
+}
+.simple_bold{
+    font-weight: bold;
+}
+.simple_underline{
+    text-decoration: underline;
+}
+
+/* We have our own values too. */
+.tccd_blockquote{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
 }
 
 footer{

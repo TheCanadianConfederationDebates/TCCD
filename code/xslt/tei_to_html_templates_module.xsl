@@ -68,17 +68,18 @@
             <xsl:call-template name="nav"/>
             <h1><xsl:apply-templates select="preceding-sibling::teiHeader[1]/fileDesc/titleStmt/title[1]"/></h1>
             
-            <xsl:choose>
-                <xsl:when test="$currId = 'personography'">
-                    <xsl:apply-templates select="ancestor::TEI//particDesc"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:apply-templates/>
-                </xsl:otherwise>
-            </xsl:choose>
-                
-            <xsl:call-template name="appendix"/>
-                
+            <div class="body">
+                <xsl:choose>
+                    <xsl:when test="$currId = 'personography'">
+                        <xsl:apply-templates select="ancestor::TEI//particDesc"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates/>
+                    </xsl:otherwise>
+                </xsl:choose>
+                    
+                <xsl:call-template name="appendix"/>
+            </div>
             <xsl:call-template name="footer"/>
         </body>
     </xsl:template>
@@ -106,7 +107,7 @@
         <xd:desc>This template matches a range of different block elements. We convert them
         into HTML5 divs, distinguished by their source element name.</xd:desc>
     </xd:doc>
-    <xsl:template match="div | p | ab | fw | pb | cb">
+    <xsl:template match="div | p | ab | fw | pb | cb | quote[@rendition='tccd:blockquote']">
         <div data-el="{local-name()}">
             <xsl:apply-templates select="@*|node()"/>
         </div>
@@ -224,6 +225,15 @@
     <xsl:template match="affiliation/@n"/>
     
     <xd:doc scope="component">
+        <xd:desc>hi elements are used for typographical features.</xd:desc>
+    </xd:doc>
+    <xsl:template match="hi">
+        <span>
+            <xsl:apply-templates select="@*|node()"/>
+        </span>
+    </xsl:template>
+    
+    <xd:doc scope="component">
         <xd:desc>These templates match TEI attributes and produce equivalent 
         XHTML5 attributes.</xd:desc>
     </xd:doc>
@@ -231,7 +241,7 @@
         <xsl:attribute name="id" select="."/>
     </xsl:template>
     <xsl:template match="@rendition">
-        <xsl:attribute name="class" select="normalize-space(replace(., '#', ''))"/>
+        <xsl:attribute name="class" select="normalize-space(replace(replace(., '#', ''), '((^|\s)[^:]+):', '$1_'))"/>
     </xsl:template>
     <xsl:template match="@type">
         <xsl:attribute name="data-type" select="."/>

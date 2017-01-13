@@ -230,6 +230,14 @@
     </java>
   </target>
   
+  <target name="copyWebResources">
+    <antcall target="MESSAGE"><param name="msg" value="Copying resources to output folder..."/></antcall>
+    <mkdir dir="${webDir}/css"/>
+    <copy file="code/css/html.css" todir="${webDir}/css"/>
+    <mkdir dir="${webDir}/js"/>
+    <copy file="code/js/script.js" todir="${webDir}/js"/>
+  </target>
+  
   <target name="website" depends="git.revision">
     <description>
       TARGET website
@@ -241,13 +249,9 @@
     <antcall target="MESSAGE"><param name="msg" value="Removing original content..."/></antcall>
     <delete dir="${webDir}"/>
     <mkdir dir="${webDir}"/>
-    
-<!--  Now copy resources.  -->
-    <antcall target="MESSAGE"><param name="msg" value="Copying resources to output folder..."/></antcall>
-    <mkdir dir="${webDir}/css"/>
-    <copy file="code/css/html.css" todir="${webDir}/css"/>
-    <mkdir dir="${webDir}/js"/>
-    <copy file="code/js/script.js" todir="${webDir}/js"/>
+
+<!--  Copy web resources. -->
+    <antcall target="copyWebResources"/>
     
 <!-- Now create the actual HTML stuff. Saxon handles most of this.    -->
     <antcall target="MESSAGE"><param name="msg" value="Building HTML pages..."/></antcall>
