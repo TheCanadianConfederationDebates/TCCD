@@ -93,6 +93,43 @@ li{
     font-size: 0.9rem;
 }
 
+/* Popup box for displaying information from the appendix. 
+ * This is only used if scripting is enabled. */
+div#infoPopup {
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    display: none;
+    margin-right: 0;
+    max-height: 50%;
+    overflow: auto;
+    padding: 1.25em;
+    position: fixed;
+    right: 2%;
+    top: 40%;
+    width: 22%;
+    background-color: #ffffff;
+    word-wrap: break-word;
+    opacity: .95;
+}
+
+div.popupCloser {
+    font-size: 1.375em;
+    line-height: 1;
+    position: fixed;
+    right: 3%;
+    top: 42%;
+    color:rgb(0, 66, 118);
+    font-weight: bold;
+    cursor: pointer;
+    padding:.25em .5em;
+}
+
+div#infoContent{
+    padding-right: 2em;
+    line-height: 1.2;
+    text-align: left;
+}
+
 footer{
     margin-top: 2rem;
     text-align: center;

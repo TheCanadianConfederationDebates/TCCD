@@ -104,6 +104,13 @@
                 </ul>
             </xsl:if>
         </div>
+        
+<!--    This is the popup used to display information from the appendix if scripting
+        is active. -->
+        <div id="infoPopup" style="display: none;">
+            <div class="popupCloser" onclick="this.parentNode.style.display = 'none';">x</div>
+            <div id="infoContent"></div>
+        </div>
     </xsl:template>
     
     <xd:doc scope="component">
