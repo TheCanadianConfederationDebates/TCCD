@@ -37,6 +37,14 @@
     </xsl:variable>
     
     <xd:doc scope="component">
+        <xd:desc>The project title.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="projectTitle">
+        <span lang="en">The Confederation Debates 1865–1949</span>
+        <span lang="fr">Les Débats de la Confédération 1865–1949</span>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
         <xd:desc>Caption introducing the count of appearances of
         someone's name in the collection.</xd:desc>
     </xd:doc>
@@ -51,6 +59,14 @@
     <xsl:variable name="peopleCaption">
         <span lang="en">Individuals named: </span>
         <span lang="fr">Personnes nommées: </span>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Title heading the browsable list of all documents.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="docIndexTitle">
+        <span lang="en">Index of documents</span>
+        <span lang="fr">Index des documents</span>
     </xsl:variable>
     
 </xsl:stylesheet>

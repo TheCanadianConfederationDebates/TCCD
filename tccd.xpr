@@ -1782,6 +1782,10 @@
                         </documentTypeEntry-array>
                     </entry>
                     <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.author.editor.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -3218,6 +3222,9 @@
         </options>
     </meta>
     <projectTree name="tccd.xpr">
+        <folder masterFiles="true" name="Master Files">
+            <file name="code/xslt/tei_to_html_master.xsl"/>
+        </folder>
         <folder path="."/>
     </projectTree>
 </project>

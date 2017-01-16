@@ -83,6 +83,12 @@
     </xd:doc>
     <xsl:variable name="teiDocs" select="$xmlDocs[TEI[not(@xml:id='debate')]]"/>
     
+    <xd:doc scope="component">
+        <xd:desc>The project ODD file, from which we harvest information from 
+                 taxonomies.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="projectOdd" select="doc(concat($projectRoot, 'data/schemas/tccd.odd'))"/>
+    
     <xd:doc>
         <xd:desc>The root template simply invokes a named template in 
         the docs module, which figures out what to process.</xd:desc>

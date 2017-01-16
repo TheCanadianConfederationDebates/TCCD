@@ -19,6 +19,14 @@
             </xd:p>
         </xd:desc>
     </xd:doc>
+    
+    <xsl:variable name="linkedResources">
+        <!--    Links to CSS and JS.      -->
+        <!--    Starting with a Google font embed, just because. Design comes later.        -->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"/> 
+        <link rel="stylesheet" type="text/css" href="css/html.css"/>
+        <script type="text/ecmascript" src="js/script.js"/> 
+    </xsl:variable>
    
    <xd:doc>
        <xd:desc>The teiHeader is used as a trigger to create the HTML head element.</xd:desc>
@@ -27,13 +35,8 @@
         <head>
             <title><xsl:value-of select="fileDesc/titleStmt/title[1]"/></title>
             
-            
-<!--    Links to CSS and JS.      -->
-<!--    Starting with a Google font embed, just because. Design comes later.        -->
-            <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"/> 
-                
-            <link rel="stylesheet" type="text/css" href="css/html.css"/>
-            <script type="text/ecmascript" src="js/script.js"/> 
+<!--        Include linked stylesheets and JS.    -->
+            <xsl:sequence select="$linkedResources"/>
             
 <!--        If there are rendition elements, let them appear here.    -->
             <xsl:if test="descendant::rendition">

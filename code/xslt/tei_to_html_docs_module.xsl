@@ -49,6 +49,97 @@
                 </html>
             </xsl:result-document>
         </xsl:for-each>
+        
+        <xsl:call-template name="createDocIndex"/>
+        
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>This template creates a nested set of indexes enabling users to browse the 
+                 document collection.</xd:desc>
+    </xd:doc>
+    <xsl:template name="createDocIndex">
+<!--    First we create an index of the core documents (personography, bibliography and 
+        sub-indexes).
+        -->
+        <xsl:result-document href="{concat($outputFolder, '/index.html')}">
+            <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
+            </xsl:text>
+            <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index">
+                <head>
+                    <title><xsl:value-of select="$projectTitle"/>: <xsl:value-of select="$docIndexTitle"/></title>
+                    
+                    <xsl:sequence select="$linkedResources"/>
+                </head>
+                
+                <body>
+                    <xsl:call-template name="header"/>
+                    <xsl:call-template name="nav"/>
+                    
+                    <div class="body">
+                        
+                        <h2><xsl:sequence select="$docIndexTitle"/></h2>
+                        
+                        <ul>
+                            <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'bibliography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
+                                <xsl:sort select="hcmc:getTaxonomyVal(current-grouping-key())"/>
+                                <li>
+                                    <a href="{substring-after(current-grouping-key(), 'lg:')}.html">
+                                        <xsl:sequence select="hcmc:getTaxonomyVal(current-grouping-key())"/>
+                                    </a>
+                                </li>
+                            
+                            </xsl:for-each-group>          
+                            
+                            <li><a href="bibliography.html"><xsl:value-of select="$teiDocs/TEI[@xml:id='bibliography']//titleStmt/title[1]"/></a></li>
+                            <li><a href="personography.html"><xsl:value-of select="$teiDocs/TEI[@xml:id='personography']//titleStmt/title[1]"/></a></li>
+                        </ul>
+                        
+                    </div>
+                    <xsl:call-template name="footer"/>
+                </body>
+            </html>
+        </xsl:result-document>
+        
+<!--   Next, we create the index pages for each of the individual legislatures.     -->
+        <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'bibliography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
+            <xsl:variable name="leg" select="current-grouping-key()"/>
+            <xsl:variable name="legTitle" select="hcmc:getTaxonomyVal(current-grouping-key())"/>
+            <xsl:result-document href="{concat($outputFolder, '/', substring-after($leg, 'lg:'))}.html">
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index_{$leg}">
+                    <head>
+                        <title><xsl:value-of select="$docIndexTitle"/>: <xsl:value-of select="$legTitle"/></title>
+                        
+                        <xsl:sequence select="$linkedResources"/>
+                    </head>
+                    
+                    <body>
+                        <xsl:call-template name="header"/>
+                        <xsl:call-template name="nav"/>
+                        
+                        <div class="body">
+                            
+                            <h2><xsl:value-of select="$docIndexTitle"/>: <xsl:value-of select="$legTitle"/></h2>
+                            
+                            <ul>
+                                <xsl:for-each select="$teiDocs/TEI[//titleStmt/title/name[@type='legislature']/@ref = $leg]">
+                                    <xsl:sort select="@xml:id"/>
+                                    <li>
+                                        <a href="{@xml:id}.html">
+                                            <xsl:apply-templates select="//titleStmt/title[1]/date[1]"/>
+                                        </a>
+                                    </li>
+                                </xsl:for-each>          
+                            </ul>
+                            
+                        </div>
+                        <xsl:call-template name="footer"/>
+                    </body>
+                </html>
+            </xsl:result-document>
+            
+        </xsl:for-each-group>
+        
     </xsl:template>
     
 </xsl:stylesheet>
