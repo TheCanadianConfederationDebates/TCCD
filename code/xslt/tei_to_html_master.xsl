@@ -81,7 +81,7 @@
     <xd:doc scope="component">
         <xd:desc>The subset of xmlDocs that we want to actually process (excluding templates etc.).</xd:desc>
     </xd:doc>
-    <xsl:variable name="teiDocs" select="$xmlDocs[TEI[not(@xml:id='debate')]]"/>
+    <xsl:variable name="teiDocs" select="$xmlDocs[TEI[text/descendant::persName[@ref] or @xml:id=('personography', 'bibliography')][not(@xml:id='debate')]]"/>
     
     <xd:doc scope="component">
         <xd:desc>The project ODD file, from which we harvest information from 

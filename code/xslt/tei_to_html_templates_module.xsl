@@ -4,6 +4,7 @@
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     exclude-result-prefixes="#all"
     xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xh="http://www.w3.org/1999/xhtml"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:hcmc="http://hcmc.uvic.ca/ns"
@@ -274,7 +275,14 @@
     </xd:doc>
     <xsl:template name="header">
         <header>
-            
+            <div class="langSwitcher">
+                <a href="javascript:switchLang('en')">EN</a>
+                <a href="javascript:switchLang('fr')">FR</a>
+            </div>
+            <a href="index.html">
+                <img lang="en" src="images/eng-logo.svg" alt="{$projectTitle/xh:span[@lang='en']}" class="siteLogo"/>
+                <img lang="fr" src="images/fr-logo.svg" alt="{$projectTitle/xh:span[@lang='fr']}" class="siteLogo"/>
+            </a>
         </header>
     </xsl:template>
     

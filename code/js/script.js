@@ -8,12 +8,43 @@ window.addEventListener('load', setupPage);
  * interactive features that depend on the presence of script 
  * support. */
 function setupPage(){
-  var i, targ;
+  var i, targ, ss;
+/* Check whether you're in the French symlinked folder and 
+ * if so, hide English and show French. */
+ var reFrench = /\/fr\//;
+ if (reFrench.test(document.location)){
+     ss = document.createElement('style');
+     ss.setAttribute('type', 'text/css')
+     ss.appendChild(document.createTextNode('body *[lang="fr"]{display: inherit;}'));
+     ss.appendChild(document.createTextNode('body *[lang="en"]{display: none;}'));
+     document.getElementsByTagName('head')[0].appendChild(ss);
+ }
+  
+/* Find all links to appendix items and turn them into popup
+ * calls. */
   var appendixLinks = document.querySelectorAll('a[href^="#"]');
   for (i=0; i< appendixLinks.length; i++){
       targ = appendixLinks[i].getAttribute('href').substring(1);
       appendixLinks[i].href = 'javascript:showInfo(\'' + targ + '\')';
   }
+}
+
+/* This function switches from no language or any given language 
+ * to the language passed in as a two-letter code (en or fr) by
+ * changing the document location appropriately. */
+function switchLang(toLang){
+    var loc, locBits, pageName, re, newUrl;
+    loc = document.location.toString();
+    locBits = loc.split('/');
+    pageName = locBits[locBits.length-1];
+    re = new RegExp('\/((en)|(fr))\/' + pageName + '$');
+    if (loc.match(re)){
+        newUrl = loc.replace(re, '/' + toLang + '/' + pageName);
+    }
+    else{
+        newUrl = loc.replace('/' + pageName, '/' + toLang + '/' + pageName);
+    }
+    document.location = newUrl;
 }
  
 /* If scripting is active, we display appendix information in 

@@ -18,7 +18,28 @@ body{
 /* By default, temporarily, we hide French captions etc. 
  * Need to figure out a good approach to internationalization. 
  * */
-span[lang='fr']{display: none;}
+*[lang='fr']{display: none;}
+
+/* Site header styles. */
+div.langSwitcher{
+    float: right;
+}
+
+div.langSwitcher a{
+    color: #660000;
+    display: inline-block;
+    padding: 0.25rem;
+    border: solid 1px #660000;
+    margin: 0.25rem;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header img.siteLogo{
+    max-width: 20rem;
+}
 
 /* Page title. */
 h1{

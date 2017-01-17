@@ -73,6 +73,10 @@
 <!-- Folder for HTML website output. -->
   <property name="webDir" value="${basedir}/html"/>
   
+<!-- Settings to scp the resulting website content after building. -->
+  <property name="remoteServerUser" value="hcmc"/>
+  <property name="remoteServerLocation" value="nfs.hcmc.uvic.ca:/home1t/hcmc/www/tccd"/>
+  
 <!--  Some paths, libs and tasks. (May not all be needed.) -->
   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
   
@@ -236,6 +240,46 @@
     <copy file="code/css/html.css" todir="${webDir}/css"/>
     <mkdir dir="${webDir}/js"/>
     <copy file="code/js/script.js" todir="${webDir}/js"/>
+    <mkdir dir="${webDir}/images"/>
+    <copy todir="${webDir}/images">
+      <fileset dir="code/images" includes="*.*"/>
+    </copy>
+  </target>
+  
+  <target name="createLanguageSymlinks">
+    <description>
+      TARGET createLanguage Symlinks
+      This target creates two symlinks in the output html folder pointing
+      back at the folder itself, allowing use of the document location to
+      control the language content which is shown.
+    </description>
+    <antcall target="MESSAGE"><param name="msg" value="Creating symbolic links to support multilingual interface..."/></antcall>
+    <symlink link="${webDir}/en" resource="."/>
+    <symlink link="${webDir}/fr" resource="."/>
+  </target>
+  
+  <target name="rsyncWebsite">
+    <description>
+      TARGET rsyncWebsite
+      This target copies the website up to a remote host for web-based testing. 
+      The remote host info is configured at the top of the file; the password 
+      is requested on the fly.
+    </description>
+    
+    <antcall target="MESSAGE"><param name="msg" value="Copying the new content up to the server..."/></antcall>
+    <!--<input message="Please supply the password for ${remoteServerUser} at ${remoteServerLocation}:  " addproperty="password">
+      <handler classname="org.apache.tools.ant.input.SecureInputHandler" />
+    </input>-->
+    <!--<scp todir="${remoteServerUser}:${password}@${remoteServerLocation}">
+      <fileset dir="${webDir}"/>
+    </scp>-->
+    <exec executable="rsync" dir="." failonerror="true">
+      <arg value="-rval"/>
+      <arg value="--delete"/>
+      <arg value="-e ssh"/>
+      <arg value="${webDir}/"/>
+      <arg value="${remoteServerUser}@${remoteServerLocation}/"/>
+    </exec>
   </target>
   
   <target name="website" depends="git.revision">
@@ -247,6 +291,9 @@
     
 <!--  First remove the target.  -->
     <antcall target="MESSAGE"><param name="msg" value="Removing original content..."/></antcall>
+<!--  First we delete any symlinks.  -->
+    <symlink link="${webDir}/en" action="delete"/>
+    <symlink link="${webDir}/fr" action="delete"/>
     <delete dir="${webDir}"/>
     <mkdir dir="${webDir}"/>
 
@@ -263,6 +310,10 @@
       <arg line="buildDate=${today}"/>
       <arg line="gitRevision=${repository.version}"/>
     </java>
+    
+    <antcall target="createLanguageSymlinks"/>
   </target>
+  
+  
 
 </project>
