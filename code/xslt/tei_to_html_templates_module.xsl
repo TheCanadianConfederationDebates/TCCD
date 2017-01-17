@@ -165,17 +165,42 @@
             <xsl:apply-templates select="@*|node()"/>
         </div>
     </xsl:template>
-    <xsl:template match="listPerson">
+    
+    <xd:doc scope="component">
+        <xd:desc>Lists are all processed in a similar way. More types may be added.</xd:desc>
+    </xd:doc>
+    <xsl:template match="listPerson | listBibl | list">
         <xsl:apply-templates select="head"/>
-        <ul data-el="listPerson">
+        <ul data-el="{local-name()}">
             <xsl:apply-templates select="@*|node()[not(self::head)]"/>
         </ul>
     </xsl:template>
-    <xsl:template match="listPerson/head | list/head">
-        <xsl:element name="h{count(ancestor::listPerson|ancestor::div) + 1}">
+    
+    <xd:doc scope="component">
+        <xd:desc>Lists may contain head elements; these are processed before 
+            the list itself.</xd:desc>
+    </xd:doc>
+    <xsl:template match="listPerson/head | list/head | listBibl/head">
+        <xsl:variable name="locName" select="local-name()"/>
+        <xsl:element name="h{count(ancestor::*[local-name(.) = $locName]|ancestor::div) + 1}">
             <xsl:apply-templates select="@*|node()"/>
         </xsl:element>
     </xsl:template>
+
+    <xd:doc scope="component">
+        <xd:desc>List items, listBibl items and so on are just processed 
+            in the same way (for the moment). The person element has a 
+            separate template.</xd:desc>
+    </xd:doc>
+    <xsl:template match="listBibl/bibl | list/item">
+        <li>
+            <xsl:apply-templates select="@*|node()"/>
+        </li>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The person element needs its own processing.</xd:desc>
+    </xd:doc>
     <xsl:template match="listPerson/person">
         <li>
             <xsl:variable name="link" select="concat('pers:', @xml:id)"/>
@@ -194,8 +219,6 @@
                     </ul>
                 </xsl:if>
             </xsl:if>
-            
-            
         </li>
     </xsl:template>
     
@@ -236,13 +259,21 @@
     <xsl:template match="affiliation/@n"/>
     
     <xd:doc scope="component">
-        <xd:desc>hi elements are used for typographical features.</xd:desc>
+        <xd:desc>This is a set of inline elements which are all processed in 
+            a similar way. hi elements, for instance, are used for typographical 
+            features; title elements for titles. Both are styled using the 
+            combination of their attributes as transferred to the HTML5 output
+            span.</xd:desc>
     </xd:doc>
-    <xsl:template match="hi">
-        <span>
+    <xsl:template match="hi | title">
+        <span data-el="{local-name()}">
             <xsl:apply-templates select="@*|node()"/>
         </span>
     </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc></xd:desc>
+    </xd:doc>
     
     <xd:doc scope="component">
         <xd:desc>These templates match TEI attributes and produce equivalent 
@@ -256,6 +287,9 @@
     </xsl:template>
     <xsl:template match="@type">
         <xsl:attribute name="data-type" select="."/>
+    </xsl:template>
+    <xsl:template match="@level">
+        <xsl:attribute name="data-level" select="."/>
     </xsl:template>
     <xsl:template match="@style">
         <xsl:attribute name="style" select="."/>

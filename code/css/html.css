@@ -92,6 +92,19 @@ div[data-el='fw'][data-type='num']{
     color: #660000;
 }
 
+/* Journal and monograph titles are italicized... */
+span[data-level='m'], span[data-level='j']{
+    font-style: italic;
+}
+
+/* ...unless they're already inside italicized titles. */
+span[data-level='m'] span[data-level='j'], 
+span[data-level='m'] span[data-level='m'], 
+span[data-level='j'] span[data-level='j'], 
+span[data-level='j'] span[data-level='m']{
+    font-style: normal;
+}
+
 li{
     margin-top: 1em;
 }

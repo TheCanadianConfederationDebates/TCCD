@@ -20,18 +20,32 @@
     <listBibl>
       <listBibl>
         <head>Records of legislative proceedings</head>
+        
         <bibl xml:id="lgHC" n="H of C – Fed. 1869-1870"><publisher>Canada</publisher>. <title level="m">House of Commons Debates</title>, <date from="1867" to="1949">1867-1949</date>. Provided by the Library of Parliament, <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.</bibl>
+        
         <bibl xml:id="lgBC_LC" n="BC Leg. Council 1870"><publisher>British Columbia</publisher>. <title level="m">Legislative Council: Debates on the Subject of Confederation with Canada</title>, <date when="1870">1870</date>.
         </bibl>
+        
         <bibl xml:id="lgAS_LA" n="Alb/Sask Leg. Ass. – 1896-1904"><title level="j">Regina Leader</title>, <date from="1896" to="1904">1896-1904</date>.</bibl>
-        <bibl xml:id="lgM_CO" n="Man. Conv of 40, 1870"><publisher>Manitoba</publisher>. <title level="m">Convention of Forty / La Grande Convention Debates</title>, <date when="1870">1870</date>.</bibl>
+        
+        <bibl xml:id="lgM_CO" n="Man. Conv. of 40, 1870"><publisher>Manitoba</publisher>. <title level="m">Convention of Forty / La Grande Convention Debates</title>, <date when="1870">1870</date>.</bibl>
+        
         <bibl xml:id="lgM_PG" n="Man Prov. Gov., 1870"><publisher>Manitoba</publisher>. <title level="m">Legislative Assembly of Assiniboia Debates / Débats de l’Assemblée législative d’Assiniboia</title>, <date when="1870">1870</date>.</bibl>
+        
         <bibl xml:id="lgOQ" n="Ont-Que debates, 1865" >
           <!--(this vol includes LA and LC, so I’m not sure what we should call the ID – perhaps DE – for debate?)-->
         <publisher>Province of Canada</publisher>. <title level="m">Parliamentary Debates on the Subject of the Confederation of the British North American Provinces / Débats parlementaires sur la question de la Confédération des provinces de l'Amérique britannique du nord</title>. <date when="1865">1865</date>.</bibl>
-        <bibl xml:id="lgNB_LA" n="NB- Leg. Ass., 1864-1867"><publisher>New Brunswick</publisher>. <title level="m">Reports of the Debates of the House of Assembly</title>, <date from="1865" to="1867">1865-1867</date>.</bibl>
-        <bibl xml:id="lgNS_LA" n="NS- Leg. Ass., 1864-1867"><publisher>Nova Scotia</publisher>. <title level="m">The Debates and Proceedings of the House of Assembly</title>. <date from="1864" to="1867">1864-1867</date>.</bibl>
+        
+        <bibl xml:id="lgNB_LA" n="NB Leg. Ass., 1864-1867"><publisher>New Brunswick</publisher>. <title level="m">Reports of the Debates of the House of Assembly</title>, <date from="1865" to="1867">1865-1867</date>.</bibl>
+        
+        <bibl xml:id="lgNS_LA" n="NS Leg. Ass., 1864-1867"><publisher>Nova Scotia</publisher>. <title level="m">The Debates and Proceedings of the House of Assembly</title>. <date from="1864" to="1867">1864-1867</date>.</bibl>
+        
         <bibl xml:id="lgPE_LA" n="PEI Leg. Ass., 1864-1873"><!--not sure if we could use an extra char for “PEI”)-->“<title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.” Provided by the Prince Edward Island Public Archives and Records Office. <date from="1864" to="1873">1864-1873</date>. <ref target="http://www.gov.pe.ca/archives/">http://www.gov.pe.ca/archives/</ref>.</bibl>
+        
+        <bibl xml:id="lgNL_LA" n="NFLD Leg. Ass., 1864-1869"><title level="j">The Newfoundlander</title>, <date from="1864" to="1869">1864-1869</date>.</bibl>
+        
+        <bibl xml:id="lgNL_NC" n="NFLD Nat. Conv., 1946-1948">Newfoundland. <title level="m">The Newfoundland National Convention <date from="1946" to="1948">1946-1948</date> Vol 1: Debates</title>. Edited by <editor>J.K. Hiller</editor> and <edition>M.F. Harrington</edition> (<publisher>Memorial University of Newfoundland by McGill-Queen’s University Press</publisher>: <date>1995</date>).</bibl>
+        
         
         
       </listBibl>
