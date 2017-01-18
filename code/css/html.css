@@ -86,6 +86,17 @@ div[data-el='fw'][data-type='num']{
     margin-bottom: 1em;
 }
 
+/* Poetic stanzas and lines. */
+div[data-el='lg']{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+div[data-el='l']{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 *[data-el='persName']{
     text-decoration: none;
     font-weight: bold;

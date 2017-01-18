@@ -118,7 +118,7 @@
         <xd:desc>This template matches a range of different block elements. We convert them
         into HTML5 divs, distinguished by their source element name.</xd:desc>
     </xd:doc>
-    <xsl:template match="div | p | ab | fw | pb | cb | quote[@rendition='tccd:blockquote']">
+    <xsl:template match="div | p | ab | fw | pb | cb | quote[@rendition='tccd:blockquote'] | lg | l">
         <div data-el="{local-name()}">
             <xsl:apply-templates select="@*|node()"/>
         </div>
@@ -272,8 +272,18 @@
     </xsl:template>
     
     <xd:doc scope="component">
-        <xd:desc></xd:desc>
+        <xd:desc>Handler for the ref element used to encode links.</xd:desc>
     </xd:doc>
+    <xsl:template match="ref[@target]">
+        <a><xsl:apply-templates select="@* | node()"/></a>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Handler for the ptr element used to encode links.</xd:desc>
+    </xd:doc>
+    <xsl:template match="ptr[@target]">
+        <a><xsl:apply-templates select="@*"/><xsl:value-of select="substring-before(substring-after(@target, '//'), '/')"/></a>
+    </xsl:template>
     
     <xd:doc scope="component">
         <xd:desc>These templates match TEI attributes and produce equivalent 
@@ -281,6 +291,13 @@
     </xd:doc>
     <xsl:template match="@xml:id">
         <xsl:attribute name="id" select="."/>
+    </xsl:template>
+    <xsl:template match="@xml:lang">
+        <xsl:attribute name="lang" select="."/>
+        <xsl:attribute name="xml:lang" select="."/>
+    </xsl:template>
+    <xsl:template match="@target">
+        <xsl:attribute name="href" select="."/>
     </xsl:template>
     <xsl:template match="@rendition">
         <xsl:attribute name="class" select="normalize-space(replace(replace(., '#', ''), '((^|\s)[^:]+):', '$1_'))"/>

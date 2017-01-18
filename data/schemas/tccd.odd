@@ -143,7 +143,7 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="header"
                           include="abstract authority availability category change classDecl creation distributor edition editionStmt              editorialDecl encodingDesc fileDesc funder idno langUsage language licence listPrefixDef normalization              prefixDef principal profileDesc projectDesc publicationStmt quotation rendition revisionDesc samplingDecl             seriesStmt sourceDesc sponsor taxonomy teiHeader titleStmt xenoData"/>
                <moduleRef key="core"
-                          include="abbr add addrLine address author bibl biblScope cb choice corr date del desc             editor email emph expan foreign gap gloss graphic head hi item label lb list listBibl mentioned milestone             name note orig p pb ptr pubPlace publisher q quote ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
+                          include="abbr add addrLine address author bibl biblScope cb choice corr date del desc             editor email emph expan foreign gap gloss graphic head hi item l label lb lg list listBibl mentioned milestone             name note orig p pb ptr pubPlace publisher q quote ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
                <moduleRef key="tei"/>
                <moduleRef key="textstructure"
                           include="TEI back body byline closer dateline div front opener salute signed text"/>
@@ -695,10 +695,10 @@ so Volume 2 by implication has finished. -->
                               <desc>Beaubien, Joseph-Octave (Dr.). Montmagny (1865: Ont/Que Leg); Montmagny (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Montmagny (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:BEAU2">
-                              <desc>Beauchemin, André. St. Vital (1870: MB Convention of 40, MB Government); St. Vital (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Beauchemin, André. St. Vital (1870: MB Convention of 40); St. Vital (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:BEAU3">
-                              <desc>Beauchemin, Jean-Baptiste. St. Charles (1870: MB Convention of 40, MB Government); St. Charles (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Beauchemin, Jean-Baptiste. St. Charles (1870: MB Convention of 40); St. Charles (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:BEAU4">
                               <desc>Beaudoin, Louis-René. Vaudreuil—Soulanges (1949: NF House of Commons).</desc>
@@ -797,7 +797,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Biggar, James Lyons. East Northumberland (1865: Ont/Que Leg).</desc>
                            </valItem>
                            <valItem ident="pers:BIRD1">
-                              <desc>Bird, Curtis James (Dr.). St. Paul’s (1870: MB Convention of 40, MB Government); St. Paul’s (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Bird, Curtis James (Dr.). St. Paul’s (1870: MB Convention of 40); St. Paul’s (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:BIRS1">
                               <desc>Birston, Magnus. Baie St. Paul (1870: MB Convention of 40).</desc>
@@ -1010,7 +1010,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Bulyea, George Hedley Vicars. South Qu’Appelle (1894: AB/SK Leg); South Qu’Appelle (1898: AB/SK Leg); South Qu’Appelle (1902: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:BUNN1">
-                              <desc>Bunn, Thomas. St. Clement’s (1870: MB Convention of 40, MB Government); St. Clement’s (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Bunn, Thomas. St. Clement’s (1870: MB Convention of 40); St. Clement’s (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:BURE1">
                               <desc>Bureau, Jacques. Three Rivers—St. Maurice (1905: AB/SK House of Commons).</desc>
@@ -1433,7 +1433,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Delorme, Louis. St. Hyacinthe (1870: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); St. Hyacinthe (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:DELO2">
-                              <desc>Delorme, Pierre. Pointe Coupée (1870: MB Convention of 40, MB Government); Pointe Coupée (1870: MB Convention of 40, MB Government); Provencher (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Provencher (1872: PEI House of Commons).</desc>
+                              <desc>Delorme, Pierre. Pointe Coupée (1870: MB Convention of 40); Pointe Coupée (1870: MB Government); Provencher (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Provencher (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:DEME2">
                               <desc>Demers, Louis Julien. Lévis (1905: AB/SK House of Commons).</desc>
@@ -1865,7 +1865,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Gunn, Donald. St. Andrew’s (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:GUNN3">
-                              <desc>Gunn, George. St. Anne's (1870: MB Convention of 40, MB Government); St. Anne's (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Gunn, George. St. Anne's (1870: MB Convention of 40); St. Anne's (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:GUTH1">
                               <desc>Guthrie, Hugh. Wellington South (1905: AB/SK House of Commons).</desc>
@@ -2297,7 +2297,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Kuhl, Walter Frederick. Jasper—Edson (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:LACE2">
-                              <desc>Lacerte, Louis. Pointe Coupée (1870: MB Convention of 40, MB Government); Pointe Coupée (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Lacerte, Louis. Pointe Coupée (1870: MB Convention of 40); Pointe Coupée (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:LACE1">
                               <desc>Lacerte, Élie (Dr.). Saint Maurice (1868: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Saint Maurice (1872: PEI House of Commons).</desc>
@@ -3089,7 +3089,7 @@ so Volume 2 by implication has finished. -->
                               <desc>O’Connor, John. Essex (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Essex (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:ODON1">
-                              <desc>O’Donoghue, William Bernard. St. Boniface (1870: MB Convention of 40, MB Government); St. Boniface (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>O’Donoghue, William Bernard. St. Boniface (1870: MB Convention of 40); St. Boniface (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:OHAL1">
                               <desc>O’Halloran, James. Missisquoi (1865: Ont/Que Leg).</desc>
@@ -3107,7 +3107,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Pagé, Alexandre. Baie St. Paul (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:PAGE2">
-                              <desc>Pagé, François-Xavier. St. François-Xavier (1870: MB Government, MB Convention of 40); St. François-Xavier (1870: MB Government, MB Convention of 40).</desc>
+                              <desc>Pagé, François-Xavier. St. François-Xavier (1870: MB Government); St. François-Xavier (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:PAQU2">
                               <desc>Paquet, Eugène. L'Islet (1905: AB/SK House of Commons).</desc>
@@ -3119,7 +3119,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Parent, George. Montmorency (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:PARE2">
-                              <desc>Parenteau, Pierre. St. Norbert (1870: MB Convention of 40, MB Government); St. Norbert (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Parenteau, Pierre. St. Norbert (1870: MB Convention of 40); St. Norbert (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:PARK1">
                               <desc>Parker, Frances R. Colchester County South Division (1866: NS Leg).</desc>
@@ -3431,7 +3431,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Schell, Malcolm Smith. Oxford South (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:SCHM1">
-                              <desc>Schmidt, Louis. St. Boniface (1870: MB Convention of 40, MB Government); St. Boniface (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Schmidt, Louis. St. Boniface (1870: MB Convention of 40); St. Boniface (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:SCHU1">
                               <desc>Schultz, John Christian (Sir). Lisgar (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Lisgar (1872: PEI House of Commons).</desc>
@@ -3440,7 +3440,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Scoble, John. West Elgin (1865: Ont/Que Leg).</desc>
                            </valItem>
                            <valItem ident="pers:SCOT1">
-                              <desc>Scott, Alfred Henry. Winnipeg (1870: MB Convention of 40, MB Government); Winnipeg (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Scott, Alfred Henry. Winnipeg (1870: MB Convention of 40); Winnipeg (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:SCOT2">
                               <desc>Scott, Thomas Walter. Assiniboia West (1905: AB/SK House of Commons).</desc>
@@ -3704,7 +3704,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Tourangeau (guillet, Dit Tourangeau), Adolphe. Quebec East (1870: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Quebec East (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:TOUR2">
-                              <desc>Tourond, Baptiste. St. Norbert (1870: MB Convention of 40, MB Government); St. Norbert (1870: MB Convention of 40, MB Government).</desc>
+                              <desc>Tourond, Baptiste. St. Norbert (1870: MB Convention of 40); St. Norbert (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:TOWN1">
                               <desc>Townsend, William H. Yarmouth County (1866: NS Leg).</desc>
