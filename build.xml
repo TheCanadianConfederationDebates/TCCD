@@ -191,7 +191,7 @@
     
     <antcall target="MESSAGE"><param name="msg" value="Validating files with extracted Schematron..."/></antcall>
     <schematron schema="${schFile}" failOnError="true" format="message"
-      queryLanguageBinding="xslt2">
+      queryLanguageBinding="xslt2" >
       <fileset refid="teiFiles"/>
     </schematron>
   </target> 

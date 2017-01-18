@@ -27,7 +27,7 @@ dirRoot = getScriptPath()
 dirData = os.path.abspath(dirRoot + '../../../data')
 
 #regex for TEI file names
-reTeiFile = re.compile("^((lg.+\d\d\d\d-\d\d-\d\d)|(personography)|(taxonomies)).xml$")
+reTeiFile = re.compile("^((lg.+\d\d\d\d-\d\d-\d\d)|(personography)|(taxonomies)|(bibliography)).xml$")
 
 #regex for original HOCR folders
 reOrigHocr = re.compile("hocr_orig$")
@@ -39,7 +39,7 @@ print("Data directory is at " + dirData)
 print("Script directory is at " + dirRoot)
 
 #Not actually just province folders; also schemas and personography folders.
-provinceFolders = ["AB_SK", "BC", "Indigenous_Voices", "Man", "Nfld", "NS", "Ont_Que", "PEI", "personography", "schemas"]
+provinceFolders = ["AB_SK", "BC", "Indigenous_Voices", "MB", "Nfld", "NS", "Ont_Que", "PEI", "personography", "schemas"]
 
 #Function for creating an XSLT collection file from a list of files.
 
