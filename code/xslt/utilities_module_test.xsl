@@ -48,6 +48,7 @@
     <xsl:call-template name="relPathPairTest3"/>
     <xsl:call-template name="nameTests"/>
     <xsl:call-template name="imageListTest"/>
+    <xsl:call-template name="expandLigaturesTest"/>
   </xsl:template>
   
   <xsl:template name="relPathPairTest1">
@@ -92,8 +93,14 @@
   <xsl:template name="imageListTest">
     <xsl:call-template name="hcmc:createImageList">
       <xsl:with-param name="coll" select="collection('../../data/BC/Federal/?*.xml')"/>
-    <xsl:with-param name="fileToSave" select="'testImages.txt'"/>
+    <xsl:with-param name="listFileToSave" select="'testImages.txt'"/>
+      <xsl:with-param name="regexFileToSave" select="'testImagesRegex.txt'"/>
     </xsl:call-template>
+  </xsl:template>
+  
+  <xsl:template name="expandLigaturesTest">
+    <xsl:variable name="ligs" select="'Ĳxĳxﬀxﬁxﬂxﬃxﬄxﬅxﬆ'"/>
+    <xsl:value-of select="concat('&#x0a;', hcmc:expandLigatures($ligs))"/>
   </xsl:template>
   
 </xsl:stylesheet>

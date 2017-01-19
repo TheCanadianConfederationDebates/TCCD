@@ -535,7 +535,15 @@
   </xsl:template>
   
   <xsl:template match="text()" mode="fw">
-    <xsl:value-of select="normalize-space(.)"/>
+    <xsl:value-of select="normalize-space(hcmc:expandLigatures(.))"/>
+  </xsl:template>
+  
+  <xd:doc scope="component">
+    <xd:desc>Text nodes are processed to normalize some stupidities
+    such as ligatures introduced by the OCR tools.</xd:desc>
+  </xd:doc>
+  <xsl:template match="text()">
+    <xsl:value-of select="hcmc:expandLigatures(.)"/>
   </xsl:template>
   
   <xsl:template match="xh:p[not(@class='editorial')]">

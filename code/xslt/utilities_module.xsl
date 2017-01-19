@@ -186,4 +186,30 @@
     </xsl:choose>
   </xsl:template>
   
+  <xd:doc scope="component">
+    <xd:desc>This function replaces typographic ligatures with their 
+    expanded equivalents. It is used to process the results of OCR
+    which may include ligatures created by the OCR tool.</xd:desc>
+  </xd:doc>
+  <xsl:function name="hcmc:expandLigatures" as="xs:string">
+    <xsl:param name="inStr" as="xs:string"/>
+    <xsl:value-of select="replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace($inStr, 'Ĳ', 'IJ'), 
+                          'ĳ', 'ij'),
+                          'ﬀ', 'ff'),
+                          'ﬁ', 'fi'),
+                          'ﬂ', 'fl'),
+                          'ﬃ', 'ffi'),
+                          'ﬄ', 'ffl'),
+                          'ﬅ', 'st'),
+                          'ﬆ', 'st')"/>
+  </xsl:function>
+  
 </xsl:stylesheet>
