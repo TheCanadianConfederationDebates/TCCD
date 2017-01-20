@@ -125,17 +125,7 @@
       </and>
     </condition>
   </target>
-  
-  <target name="all">
-    <antcall target="MESSAGE"><param name="msg" value="Running all the tasks in the build file."/></antcall>
-    <antcall target="listFiles"/>
-    <antcall target="validation"/>
-    <antcall target="diagnostics"/>
-    <antcall target="metadiagnostics"/>
-    <antcall target="website"/>
-    <antcall target="MESSAGE"><param name="msg" value="DONE!"/></antcall>
-  </target>
-  
+
   <target name="listFiles">
     <antcall target="MESSAGE"><param name="msg" value="Analysing paths to list key files."/></antcall>
     <exec executable="python3" failonerror="true">
@@ -314,6 +304,21 @@
     <antcall target="createLanguageSymlinks"/>
   </target>
   
+  <target name="all">
+    <description>
+      TARGET all
+      This runs a standard complete build. It does not include the target to rsync
+      the HTML output up to HCMC's server; if required, that can be run manually 
+      on completion.
+    </description>
+    <antcall target="MESSAGE"><param name="msg" value="Running all the tasks in the build file."/></antcall>
+    <antcall target="listFiles"/>
+    <antcall target="validation"/>
+    <antcall target="diagnostics"/>
+    <antcall target="metadiagnostics"/>
+    <antcall target="website"/>
+    <antcall target="MESSAGE"><param name="msg" value="DONE!"/></antcall>
+  </target>
   
 
 </project>

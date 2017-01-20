@@ -20,6 +20,11 @@ body{
  * */
 *[lang='fr']{display: none;}
 
+/* Some things will be hidden and shown on the fly. */
+*.hidden{
+    display: none;
+}
+
 /* Site header styles. */
 div.langSwitcher{
     float: right;
@@ -68,6 +73,10 @@ div{
 
 div[data-el='p']{
     text-align: justify;
+}
+
+div.asterism{
+    text-align: center;
 }
 
 /* We hide line-breaks and column-breaks by default. */

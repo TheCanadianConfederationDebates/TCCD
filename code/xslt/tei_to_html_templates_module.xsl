@@ -95,14 +95,16 @@
     <xsl:template name="appendix">
         <div class="appendix">
             <xsl:if test="//text/descendant::persName[@ref]">
-                <h3><xsl:sequence select="$peopleCaption"/></h3>
-                <ul>
-                    <xsl:variable name="persIds" select="distinct-values(//text/descendant::persName/@ref/substring-after(normalize-space(.), 'pers:'))"/>
-                    <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person[@xml:id = $persIds]">
-                        <xsl:sort select="string-join(persName, ' ')"/>
-                        <xsl:apply-templates select="."/>
-                    </xsl:for-each>
-                </ul>
+                <div id="individualsNamed">
+                    <h3><xsl:sequence select="$peopleCaption"/></h3>
+                    <ul data-el="listPerson">
+                        <xsl:variable name="persIds" select="distinct-values(//text/descendant::persName/@ref/substring-after(normalize-space(.), 'pers:'))"/>
+                        <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person[@xml:id = $persIds]">
+                            <xsl:sort select="string-join(persName, ' ')"/>
+                            <xsl:apply-templates select="."/>
+                        </xsl:for-each>
+                    </ul>
+                </div>
             </xsl:if>
         </div>
         
@@ -120,6 +122,9 @@
     </xd:doc>
     <xsl:template match="div | p | ab | fw | pb | cb | quote[@rendition='tccd:blockquote'] | lg | l">
         <div data-el="{local-name()}">
+            <xsl:if test="self::p and matches(., '^[\s\*]+$')">
+                <xsl:attribute name="class">asterism</xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
         </div>
     </xsl:template>
@@ -135,7 +140,7 @@
                  is part of the file. It's processed differently if it's part 
                  of the personography.</xd:desc>
     </xd:doc>
-    <xsl:template match="persName[not(ancestor::person)]">
+    <xsl:template match="persName[not(ancestor::person) and starts-with(@ref, 'pers:')]">
         <a href="#{substring-after(@ref, 'pers:')}" data-el="persName">
             <xsl:apply-templates select="@*|node()"/>
         </a>
