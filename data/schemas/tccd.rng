@@ -5,9 +5,9 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-01-18T00:26:19Z. 2016.
+Schema generated from ODD source 2017-01-23T17:24:23Z. 2016.
 TEI Edition: Version 3.1.1a. Last updated on
-	15th December 2016, revision f508a99
+	18th January 2017, revision b611d2b
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
   
 --><!---->
@@ -3889,6 +3889,22 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                            </sch:report>
                         </sch:rule>
          </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-TEI-curlyQuotesNotAllowed-constraint-rule-14">
+            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:TEI">
+                           <sch:assert test="not(matches(., '[“”‘’]'))"> 
+                              The file <sch:value-of select="@xml:id"/>.xml appears to use at least one
+                              "curly" quote or apostrophe (“”‘’). Please use the straight versions of 
+                              quotation marks and apostrophes throughout. 
+                           </sch:assert>
+                        </sch:rule>
+         </pattern>
          <ns xmlns="http://purl.oclc.org/dsdl/schematron"
              prefix="tei"
              uri="http://www.tei-c.org/ns/1.0"/>
@@ -4030,7 +4046,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-div-divnesting1-constraint-rule-14">
+                  id="tccd-div-divnesting1-constraint-rule-15">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -4047,7 +4063,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-div-divnesting2-constraint-rule-15">
+                  id="tccd-div-divnesting2-constraint-rule-16">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -4508,7 +4524,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-persName-constraintpersnameref-constraint-rule-16">
+                  id="tccd-persName-constraintpersnameref-constraint-rule-17">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -4523,7 +4539,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-persName-constraintpersnamewhitespace1-constraint-rule-17">
+                  id="tccd-persName-constraintpersnamewhitespace1-constraint-rule-18">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -4538,7 +4554,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-persName-constraintpersnamewhitespace2-constraint-rule-18">
+                  id="tccd-persName-constraintpersnamewhitespace2-constraint-rule-19">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -4553,7 +4569,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="tccd-persName-constraintpersnamewhitespace3-constraint-rule-19">
+                  id="tccd-persName-constraintpersnamewhitespace3-constraint-rule-20">
             <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -4658,7 +4674,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BANF1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Banfield, William J. Fortune Bay (1946: NF National Convention).</a:documentation>
                   <value>pers:BANN1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bannatyne, Andrew Graham Ballenden. St. John’s (1870: MB Government).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bannatyne, Andrew Graham Ballenden. St. John's (1870: MB Government).</a:documentation>
                   <value>pers:BANN2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bannerman, Joseph. East Calgary (1894: AB/SK Leg).</a:documentation>
                   <value>pers:BARK1</value>
@@ -4752,7 +4768,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BIGG1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Biggar, James Lyons. East Northumberland (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:BIRD1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bird, Curtis James (Dr.). St. Paul’s (1870: MB Convention of 40); St. Paul’s (1870: MB Government).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bird, Curtis James (Dr.). St. Paul's (1870: MB Convention of 40); St. Paul's (1870: MB Government).</a:documentation>
                   <value>pers:BIRS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Birston, Magnus. Baie St. Paul (1870: MB Convention of 40).</a:documentation>
                   <value>pers:BLAC1</value>
@@ -4760,7 +4776,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BLAC2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Black, George. Yukon (1949: NF House of Commons).</a:documentation>
                   <value>pers:BLAC3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Black, John. St. Andrew’s (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Black, John. St. Andrew's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:BLAC4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Black, Judson Burpee. Hants (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:BLAC5</value>
@@ -4834,7 +4850,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BOYC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boyce, Arthur Cyril. Algoma West (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:BOYD2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boyd, Alfred. St. Andrew’s (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boyd, Alfred. St. Andrew's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:BOYD1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boyd, James. Charlotte (1865: NB Leg).</a:documentation>
                   <value>pers:BOYE1</value>
@@ -4892,9 +4908,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BRYD1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bryden, Penny. .</a:documentation>
                   <value>pers:BULY1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bulyea, George Hedley Vicars. South Qu’Appelle (1894: AB/SK Leg); South Qu’Appelle (1898: AB/SK Leg); South Qu’Appelle (1902: AB/SK Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bulyea, George Hedley Vicars. South Qu'Appelle (1894: AB/SK Leg); South Qu'Appelle (1898: AB/SK Leg); South Qu'Appelle (1902: AB/SK Leg).</a:documentation>
                   <value>pers:BUNN1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bunn, Thomas. St. Clement’s (1870: MB Convention of 40); St. Clement’s (1870: MB Government).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bunn, Thomas. St. Clement's (1870: MB Convention of 40); St. Clement's (1870: MB Government).</a:documentation>
                   <value>pers:BURE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bureau, Jacques. Three Rivers—St. Maurice (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:BURE2</value>
@@ -5060,7 +5076,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:COCH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cochrane, Edward (Rev.). Northumberland East (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:COCH2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cochrane, Henry (Rev.). St. Peter’s (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cochrane, Henry (Rev.). St. Peter's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:COCK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cockburn, James. Northumberland West (1865: Ont/Que Leg); Northumberland West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Northumberland West (1872: PEI House of Commons).</a:documentation>
                   <value>pers:COCK2</value>
@@ -5132,7 +5148,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:CUMB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cumberland, Frederick William. Algoma (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Algoma (1872: PEI House of Commons).</a:documentation>
                   <value>pers:CUMM1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cummings, William. St. Margaret’s (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cummings, William. St. Margaret's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:CURR2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Currie, James George. Niagara (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:CURR1</value>
@@ -5368,7 +5384,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:GARI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gariépy, Wilfrid. Three Rivers (1949: NF House of Commons).</a:documentation>
                   <value>pers:GARR1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Garrioch, William. St. Mary’s Laprairie (1870: MB Government).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Garrioch, William. St. Mary's Laprairie (1870: MB Government).</a:documentation>
                   <value>pers:GARS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Garson, Stuart Sinclair. Marquette (1949: NF House of Commons).</a:documentation>
                   <value>pers:GAUC1</value>
@@ -5462,7 +5478,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:GUNN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gunn, Benjamin B. Huron South (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:GUNN2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gunn, Donald. St. Andrew’s (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gunn, Donald. St. Andrew's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:GUNN3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gunn, George. St. Anne's (1870: MB Convention of 40); St. Anne's (1870: MB Government).</a:documentation>
                   <value>pers:GUTH1</value>
@@ -5530,7 +5546,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:HAWK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hawkes, James Benjamin. South Regina (1898: AB/SK Leg); South Regina (1902: AB/SK Leg).</a:documentation>
                   <value>pers:HAY1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hay, Edward Henry George Gunson. St. Andrew’s (1870: MB Government).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hay, Edward Henry George Gunson. St. Andrew's (1870: MB Government).</a:documentation>
                   <value>pers:HAYW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hayward, John. Harbour Grace (1861: NF Leg).</a:documentation>
                   <value>pers:HAYW2</value>
@@ -6052,7 +6068,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MCDO1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDonald, Angus Peter. Middlesex West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Middlesex West (1872: PEI House of Commons).</a:documentation>
                   <value>pers:MCDO10</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDonald, Donald Hogarth. North Qu’Appelle (1898: AB/SK Leg); North Qu’Appelle (1902: AB/SK Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDonald, Donald Hogarth. North Qu'Appelle (1898: AB/SK Leg); North Qu'Appelle (1902: AB/SK Leg).</a:documentation>
                   <value>pers:MCDO2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDonald, Edmund Mortimer. Lunenburg (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Lunenburg (1872: PEI House of Commons).</a:documentation>
                   <value>pers:MCDO3</value>
@@ -6074,7 +6090,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MCGA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McGarry, Moses Elijah. Inverness—Richmond (1949: NF House of Commons).</a:documentation>
                   <value>pers:MCGE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McGee, Thomas D’arcy Etienne Hughes. Montreal West (1865: Ont/Que Leg); Montreal West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McGee, Thomas D'arcy Etienne Hughes. Montreal West (1865: Ont/Que Leg); Montreal West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
                   <value>pers:MCGI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McGiverin, William. Lincoln (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:MCGR3</value>
@@ -6114,11 +6130,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MCKE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McKellar, Archibald. Kent (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:MCKE3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McKenzie, Alexander. St. Clement’s (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McKenzie, Alexander. St. Clement's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:MCKE4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McKenzie, Daniel Duncan. Cape Breton North and Victoria (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:MCKE5</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McKenzie, Kenneth. St. Mary’s Laprairie (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McKenzie, Kenneth. St. Mary's Laprairie (1870: MB Convention of 40).</a:documentation>
                   <value>pers:MCKE6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McKenzie, Peter H. Bruce South (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:MCLA1</value>
@@ -6248,7 +6264,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:NOON1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Noonan, James L. Bonavista Bay (1869: NF Leg).</a:documentation>
                   <value>pers:NORQ1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Norquay, John. St. Margaret’s (1870: MB Government).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Norquay, John. St. Margaret's (1870: MB Government).</a:documentation>
                   <value>pers:NORT2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Northcott, Archelaus. Lewisporte (1946: NF National Convention).</a:documentation>
                   <value>pers:NORT1</value>
@@ -6257,6 +6273,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nowlan, George Clyde. Digby—Annapolis—Kings (1949: NF House of Commons).</a:documentation>
                   <value>pers:NOWL2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nowlan, Patrick. Harbour Main (1861: NF Leg).</a:documentation>
+                  <value>pers:OCON1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Connor, John. Essex (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Essex (1872: PEI House of Commons).</a:documentation>
+                  <value>pers:ODON1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Donoghue, William Bernard. St. Boniface (1870: MB Convention of 40); St. Boniface (1870: MB Government).</a:documentation>
+                  <value>pers:OHAL1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Halloran, James. Missisquoi (1865: Ont/Que Leg).</a:documentation>
+                  <value>pers:OREI1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Reilly, Peter. ? Kootenay (1870: BC Leg).</a:documentation>
+                  <value>pers:OREI2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Reilly, Thomas. Placentia-St. Mary's (1865: NF Leg, NF Leg); Placentia-St. Mary's (1865: NF Leg, NF Leg).</a:documentation>
                   <value>pers:OAKL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Oakley, John T. Bonavista Bay (1865: NF Leg).</a:documentation>
                   <value>pers:OLIV1</value>
@@ -6277,16 +6303,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Owen, Charles Lewis. Northumberland East (1907: AB/SK House of Commons).</a:documentation>
                   <value>pers:OWEN2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Owen, Lemuel Cambridge. 3rd Kings (1867: PEI Leg); 3rd Kings (1871: PEI Leg); 3rd Kings (1873: PEI Leg).</a:documentation>
-                  <value>pers:OCON1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O’Connor, John. Essex (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Essex (1872: PEI House of Commons).</a:documentation>
-                  <value>pers:ODON1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O’Donoghue, William Bernard. St. Boniface (1870: MB Convention of 40); St. Boniface (1870: MB Government).</a:documentation>
-                  <value>pers:OHAL1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O’Halloran, James. Missisquoi (1865: Ont/Que Leg).</a:documentation>
-                  <value>pers:OREI1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O’Reilly, Peter. ? Kootenay (1870: BC Leg).</a:documentation>
-                  <value>pers:OREI2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O’Reilly, Thomas. Placentia-St. Mary's (1865: NF Leg, NF Leg); Placentia-St. Mary's (1865: NF Leg, NF Leg).</a:documentation>
                   <value>pers:PAGE3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Page, Samuel Spencer. Cannington (1894: AB/SK Leg).</a:documentation>
                   <value>pers:PAGE1</value>
@@ -6458,7 +6474,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:ROSS11</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, James Hamilton. Moose Jaw (1894: AB/SK Leg); Moose Jaw (1898: AB/SK Leg).</a:documentation>
                   <value>pers:ROSS4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, James. St. John’s (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, James. St. John's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:ROSS3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, James. Wellington Centre (1869: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Wellington Centre (1872: PEI House of Commons).</a:documentation>
                   <value>pers:ROSS5</value>
@@ -6546,7 +6562,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SIMA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Simard, Georges-Honoré. Quebec Centre (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Quebec Centre (1872: PEI House of Commons).</a:documentation>
                   <value>pers:SIMP1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Simpson, John; Simpson, John A. Queen’s (1865: Ont/Que Leg); Red Deer (1894: AB/SK Leg); Red Deer (1898: AB/SK Leg); Innisfail (1902: AB/SK Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Simpson, John; Simpson, John A. Queen's (1865: Ont/Que Leg); Red Deer (1894: AB/SK Leg); Red Deer (1898: AB/SK Leg); Innisfail (1902: AB/SK Leg).</a:documentation>
                   <value>pers:SIMP2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Simpson, Wemyss Mackenzie. Algoma (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
                   <value>pers:SINC6</value>
@@ -6556,9 +6572,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SINC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair, John Howard. Guysborough (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:SINC2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair, John. St. Peter’s (1870: MB Government).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair, John. St. Peter's (1870: MB Government).</a:documentation>
                   <value>pers:SINC3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair, Thomas. St. Andrew’s (1870: MB Government).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair, Thomas. St. Andrew's (1870: MB Government).</a:documentation>
                   <value>pers:SINC4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair, William Henry. Saskatoon (1902: AB/SK Leg).</a:documentation>
                   <value>pers:SKEA1</value>
@@ -6578,7 +6594,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SMIT3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Smith, Donald Alexander. Selkirk (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Selkirk (1872: PEI House of Commons).</a:documentation>
                   <value>pers:SMIT4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Smith, Ernest D’israeli. Wentworth (1905: AB/SK House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Smith, Ernest D'israeli. Wentworth (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:SMIT5</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Smith, George. Oxford North (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:SMIT6</value>
@@ -6590,7 +6606,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SPEN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spence, David. St. Anne's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:SPEN2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spence, Thomas. St. Peter’s (1870: MB Convention of 40).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spence, Thomas. St. Peter's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:SPEN3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spencer, John T. Hermitage (1946: NF National Convention).</a:documentation>
                   <value>pers:SPRO1</value>
@@ -6626,7 +6642,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SUTH3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutherland, Robert Franklin. Essex North (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:SUTH4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutherland, William. North Qu’Appelle (1894: AB/SK Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutherland, William. North Qu'Appelle (1894: AB/SK Leg).</a:documentation>
                   <value>pers:SUTT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutton, Richard. Northumberland (1865: NB Leg).</a:documentation>
                   <value>pers:SYLV1</value>

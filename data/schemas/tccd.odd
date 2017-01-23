@@ -390,6 +390,23 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
+                  
+                  <constraintSpec ident="curlyQuotesNotAllowed" scheme="isoschematron">
+                     <desc>This project has standardized on "straight" quotes, single and 
+                     double. Curly quotes are not allowed.</desc>
+                     <constraint>
+                        <sch:rule context="tei:TEI">
+                           <sch:assert test="not(matches(., '[“”‘’]'))"> 
+                              The file <sch:value-of select="@xml:id"/>.xml appears to use at least one
+                              "curly" quote or apostrophe (“”‘’). Please use the straight versions of 
+                              quotation marks and apostrophes throughout. 
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <!-- We'll enforce the constraint that curly quotes are not allowed using Schematron
+                    at the TEI level. -->
+                  
                </elementSpec>
           
                <!--          We have a very limited structure for text body elements: divs and 
@@ -656,7 +673,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Banfield, William J. Fortune Bay (1946: NF National Convention).</desc>
                            </valItem>
                            <valItem ident="pers:BANN1">
-                              <desc>Bannatyne, Andrew Graham Ballenden. St. John’s (1870: MB Government).</desc>
+                              <desc>Bannatyne, Andrew Graham Ballenden. St. John's (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:BANN2">
                               <desc>Bannerman, Joseph. East Calgary (1894: AB/SK Leg).</desc>
@@ -797,7 +814,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Biggar, James Lyons. East Northumberland (1865: Ont/Que Leg).</desc>
                            </valItem>
                            <valItem ident="pers:BIRD1">
-                              <desc>Bird, Curtis James (Dr.). St. Paul’s (1870: MB Convention of 40); St. Paul’s (1870: MB Government).</desc>
+                              <desc>Bird, Curtis James (Dr.). St. Paul's (1870: MB Convention of 40); St. Paul's (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:BIRS1">
                               <desc>Birston, Magnus. Baie St. Paul (1870: MB Convention of 40).</desc>
@@ -809,7 +826,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Black, George. Yukon (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:BLAC3">
-                              <desc>Black, John. St. Andrew’s (1870: MB Convention of 40).</desc>
+                              <desc>Black, John. St. Andrew's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:BLAC4">
                               <desc>Black, Judson Burpee. Hants (1905: AB/SK House of Commons).</desc>
@@ -920,7 +937,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Boyce, Arthur Cyril. Algoma West (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:BOYD2">
-                              <desc>Boyd, Alfred. St. Andrew’s (1870: MB Convention of 40).</desc>
+                              <desc>Boyd, Alfred. St. Andrew's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:BOYD1">
                               <desc>Boyd, James. Charlotte (1865: NB Leg).</desc>
@@ -1007,10 +1024,10 @@ so Volume 2 by implication has finished. -->
                               <desc>Bryden, Penny. .</desc>
                            </valItem>
                            <valItem ident="pers:BULY1">
-                              <desc>Bulyea, George Hedley Vicars. South Qu’Appelle (1894: AB/SK Leg); South Qu’Appelle (1898: AB/SK Leg); South Qu’Appelle (1902: AB/SK Leg).</desc>
+                              <desc>Bulyea, George Hedley Vicars. South Qu'Appelle (1894: AB/SK Leg); South Qu'Appelle (1898: AB/SK Leg); South Qu'Appelle (1902: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:BUNN1">
-                              <desc>Bunn, Thomas. St. Clement’s (1870: MB Convention of 40); St. Clement’s (1870: MB Government).</desc>
+                              <desc>Bunn, Thomas. St. Clement's (1870: MB Convention of 40); St. Clement's (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:BURE1">
                               <desc>Bureau, Jacques. Three Rivers—St. Maurice (1905: AB/SK House of Commons).</desc>
@@ -1259,7 +1276,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Cochrane, Edward (Rev.). Northumberland East (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:COCH2">
-                              <desc>Cochrane, Henry (Rev.). St. Peter’s (1870: MB Convention of 40).</desc>
+                              <desc>Cochrane, Henry (Rev.). St. Peter's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:COCK1">
                               <desc>Cockburn, James. Northumberland West (1865: Ont/Que Leg); Northumberland West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Northumberland West (1872: PEI House of Commons).</desc>
@@ -1367,7 +1384,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Cumberland, Frederick William. Algoma (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Algoma (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:CUMM1">
-                              <desc>Cummings, William. St. Margaret’s (1870: MB Convention of 40).</desc>
+                              <desc>Cummings, William. St. Margaret's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:CURR2">
                               <desc>Currie, James George. Niagara (1865: Ont/Que Leg).</desc>
@@ -1721,7 +1738,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Gariépy, Wilfrid. Three Rivers (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:GARR1">
-                              <desc>Garrioch, William. St. Mary’s Laprairie (1870: MB Government).</desc>
+                              <desc>Garrioch, William. St. Mary's Laprairie (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:GARS1">
                               <desc>Garson, Stuart Sinclair. Marquette (1949: NF House of Commons).</desc>
@@ -1862,7 +1879,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Gunn, Benjamin B. Huron South (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:GUNN2">
-                              <desc>Gunn, Donald. St. Andrew’s (1870: MB Convention of 40).</desc>
+                              <desc>Gunn, Donald. St. Andrew's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:GUNN3">
                               <desc>Gunn, George. St. Anne's (1870: MB Convention of 40); St. Anne's (1870: MB Government).</desc>
@@ -1964,7 +1981,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Hawkes, James Benjamin. South Regina (1898: AB/SK Leg); South Regina (1902: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:HAY1">
-                              <desc>Hay, Edward Henry George Gunson. St. Andrew’s (1870: MB Government).</desc>
+                              <desc>Hay, Edward Henry George Gunson. St. Andrew's (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:HAYW1">
                               <desc>Hayward, John. Harbour Grace (1861: NF Leg).</desc>
@@ -2747,7 +2764,7 @@ so Volume 2 by implication has finished. -->
                               <desc>McDonald, Angus Peter. Middlesex West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Middlesex West (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MCDO10">
-                              <desc>McDonald, Donald Hogarth. North Qu’Appelle (1898: AB/SK Leg); North Qu’Appelle (1902: AB/SK Leg).</desc>
+                              <desc>McDonald, Donald Hogarth. North Qu'Appelle (1898: AB/SK Leg); North Qu'Appelle (1902: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:MCDO2">
                               <desc>McDonald, Edmund Mortimer. Lunenburg (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Lunenburg (1872: PEI House of Commons).</desc>
@@ -2780,7 +2797,7 @@ so Volume 2 by implication has finished. -->
                               <desc>McGarry, Moses Elijah. Inverness—Richmond (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MCGE1">
-                              <desc>McGee, Thomas D’arcy Etienne Hughes. Montreal West (1865: Ont/Que Leg); Montreal West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</desc>
+                              <desc>McGee, Thomas D'arcy Etienne Hughes. Montreal West (1865: Ont/Que Leg); Montreal West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MCGI1">
                               <desc>McGiverin, William. Lincoln (1865: Ont/Que Leg).</desc>
@@ -2840,13 +2857,13 @@ so Volume 2 by implication has finished. -->
                               <desc>McKellar, Archibald. Kent (1865: Ont/Que Leg).</desc>
                            </valItem>
                            <valItem ident="pers:MCKE3">
-                              <desc>McKenzie, Alexander. St. Clement’s (1870: MB Convention of 40).</desc>
+                              <desc>McKenzie, Alexander. St. Clement's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:MCKE4">
                               <desc>McKenzie, Daniel Duncan. Cape Breton North and Victoria (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MCKE5">
-                              <desc>McKenzie, Kenneth. St. Mary’s Laprairie (1870: MB Convention of 40).</desc>
+                              <desc>McKenzie, Kenneth. St. Mary's Laprairie (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:MCKE6">
                               <desc>McKenzie, Peter H. Bruce South (1905: AB/SK House of Commons).</desc>
@@ -3041,7 +3058,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Noonan, James L. Bonavista Bay (1869: NF Leg).</desc>
                            </valItem>
                            <valItem ident="pers:NORQ1">
-                              <desc>Norquay, John. St. Margaret’s (1870: MB Government).</desc>
+                              <desc>Norquay, John. St. Margaret's (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:NORT2">
                               <desc>Northcott, Archelaus. Lewisporte (1946: NF National Convention).</desc>
@@ -3054,6 +3071,21 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:NOWL2">
                               <desc>Nowlan, Patrick. Harbour Main (1861: NF Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:OCON1">
+                              <desc>O'Connor, John. Essex (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Essex (1872: PEI House of Commons).</desc>
+                           </valItem>
+                           <valItem ident="pers:ODON1">
+                              <desc>O'Donoghue, William Bernard. St. Boniface (1870: MB Convention of 40); St. Boniface (1870: MB Government).</desc>
+                           </valItem>
+                           <valItem ident="pers:OHAL1">
+                              <desc>O'Halloran, James. Missisquoi (1865: Ont/Que Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:OREI1">
+                              <desc>O'Reilly, Peter. ? Kootenay (1870: BC Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:OREI2">
+                              <desc>O'Reilly, Thomas. Placentia-St. Mary's (1865: NF Leg, NF Leg); Placentia-St. Mary's (1865: NF Leg, NF Leg).</desc>
                            </valItem>
                            <valItem ident="pers:OAKL1">
                               <desc>Oakley, John T. Bonavista Bay (1865: NF Leg).</desc>
@@ -3084,21 +3116,6 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:OWEN2">
                               <desc>Owen, Lemuel Cambridge. 3rd Kings (1867: PEI Leg); 3rd Kings (1871: PEI Leg); 3rd Kings (1873: PEI Leg).</desc>
-                           </valItem>
-                           <valItem ident="pers:OCON1">
-                              <desc>O’Connor, John. Essex (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Essex (1872: PEI House of Commons).</desc>
-                           </valItem>
-                           <valItem ident="pers:ODON1">
-                              <desc>O’Donoghue, William Bernard. St. Boniface (1870: MB Convention of 40); St. Boniface (1870: MB Government).</desc>
-                           </valItem>
-                           <valItem ident="pers:OHAL1">
-                              <desc>O’Halloran, James. Missisquoi (1865: Ont/Que Leg).</desc>
-                           </valItem>
-                           <valItem ident="pers:OREI1">
-                              <desc>O’Reilly, Peter. ? Kootenay (1870: BC Leg).</desc>
-                           </valItem>
-                           <valItem ident="pers:OREI2">
-                              <desc>O’Reilly, Thomas. Placentia-St. Mary's (1865: NF Leg, NF Leg); Placentia-St. Mary's (1865: NF Leg, NF Leg).</desc>
                            </valItem>
                            <valItem ident="pers:PAGE3">
                               <desc>Page, Samuel Spencer. Cannington (1894: AB/SK Leg).</desc>
@@ -3356,7 +3373,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Ross, James Hamilton. Moose Jaw (1894: AB/SK Leg); Moose Jaw (1898: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:ROSS4">
-                              <desc>Ross, James. St. John’s (1870: MB Convention of 40).</desc>
+                              <desc>Ross, James. St. John's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:ROSS3">
                               <desc>Ross, James. Wellington Centre (1869: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Wellington Centre (1872: PEI House of Commons).</desc>
@@ -3488,7 +3505,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Simard, Georges-Honoré. Quebec Centre (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Quebec Centre (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:SIMP1">
-                              <desc>Simpson, John; Simpson, John A. Queen’s (1865: Ont/Que Leg); Red Deer (1894: AB/SK Leg); Red Deer (1898: AB/SK Leg); Innisfail (1902: AB/SK Leg).</desc>
+                              <desc>Simpson, John; Simpson, John A. Queen's (1865: Ont/Que Leg); Red Deer (1894: AB/SK Leg); Red Deer (1898: AB/SK Leg); Innisfail (1902: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:SIMP2">
                               <desc>Simpson, Wemyss Mackenzie. Algoma (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</desc>
@@ -3503,10 +3520,10 @@ so Volume 2 by implication has finished. -->
                               <desc>Sinclair, John Howard. Guysborough (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:SINC2">
-                              <desc>Sinclair, John. St. Peter’s (1870: MB Government).</desc>
+                              <desc>Sinclair, John. St. Peter's (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:SINC3">
-                              <desc>Sinclair, Thomas. St. Andrew’s (1870: MB Government).</desc>
+                              <desc>Sinclair, Thomas. St. Andrew's (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:SINC4">
                               <desc>Sinclair, William Henry. Saskatoon (1902: AB/SK Leg).</desc>
@@ -3536,7 +3553,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Smith, Donald Alexander. Selkirk (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Selkirk (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:SMIT4">
-                              <desc>Smith, Ernest D’israeli. Wentworth (1905: AB/SK House of Commons).</desc>
+                              <desc>Smith, Ernest D'israeli. Wentworth (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:SMIT5">
                               <desc>Smith, George. Oxford North (1905: AB/SK House of Commons).</desc>
@@ -3554,7 +3571,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Spence, David. St. Anne's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:SPEN2">
-                              <desc>Spence, Thomas. St. Peter’s (1870: MB Convention of 40).</desc>
+                              <desc>Spence, Thomas. St. Peter's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:SPEN3">
                               <desc>Spencer, John T. Hermitage (1946: NF National Convention).</desc>
@@ -3608,7 +3625,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Sutherland, Robert Franklin. Essex North (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:SUTH4">
-                              <desc>Sutherland, William. North Qu’Appelle (1894: AB/SK Leg).</desc>
+                              <desc>Sutherland, William. North Qu'Appelle (1894: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:SUTT1">
                               <desc>Sutton, Richard. Northumberland (1865: NB Leg).</desc>
