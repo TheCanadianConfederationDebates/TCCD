@@ -172,7 +172,11 @@
     <!--<jing compactsyntax="false" rngfile="${rngFile}" failonerror="true">
       <fileset refid="teiFiles"/>
     </jing>-->
+    <antcall target="schematronValidation"/>
     
+  </target> 
+  
+  <target name="schematronValidation">
     <antcall target="MESSAGE"><param name="msg" value="Extracting Schematron to do separate validation..."/></antcall>
     <xslt in="${rngFile}" out="${schFile}"
       style="code/utilities/schematron/ExtractSchFromRNG-2.xsl">
@@ -184,7 +188,7 @@
       queryLanguageBinding="xslt2" >
       <fileset refid="teiFiles"/>
     </schematron>
-  </target> 
+  </target>
 
   <target name="diagnostics">
     <antcall target="MESSAGE"><param name="msg" value="Running diagnostics..."/></antcall>
