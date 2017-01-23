@@ -42,7 +42,6 @@
 <!-- Utilities for various purposes including relative path calculation. -->
   <xsl:include href="utilities_module.xsl"/>
 
-  <xsl:variable name="quot">"</xsl:variable>
   <xsl:variable name="reMonths" as="xs:string" select="'((jan)|(feb)|(mar)|(apr)|(may)|(jun)|(jul)|(aug)|(sep)|(oct)|(nov)|(dec)|(fév)|(avr)|(mai)|(jui)|(aoû)|(déc))'"/>
   <xsl:variable name="reYear" as="xs:string" select="'\d\d\d\d'"/>
 
@@ -543,7 +542,7 @@
     such as ligatures introduced by the OCR tools.</xd:desc>
   </xd:doc>
   <xsl:template match="text()">
-    <xsl:value-of select="hcmc:expandLigatures(.)"/>
+    <xsl:value-of select="hcmc:straightenQuotes(hcmc:expandLigatures(.))"/>
   </xsl:template>
   
   <xsl:template match="xh:p[not(@class='editorial')]">

@@ -28,6 +28,14 @@
   
   <xd:doc scope="component">
     <xd:desc>
+      <xd:p>This is a normal "straight" double quote. Escaping makes this 
+        hard to handle in many contexts, so we stick it in a variable.</xd:p>
+    </xd:desc>
+  </xd:doc>
+  <xsl:variable name="quot">"</xsl:variable>
+  
+  <xd:doc scope="component">
+    <xd:desc>
       <xd:p>This function takes two paths/URIs as input, and strips
     all the leading path components which are common to both. It 
     returns both the truncated paths as a sequence of two strings.
@@ -210,6 +218,18 @@
                           'ﬄ', 'ffl'),
                           'ﬅ', 'st'),
                           'ﬆ', 'st')"/>
+  </xsl:function>
+  
+  <xd:doc scope="component">
+    <xd:desc>This function replaces curly single and double quotes with 
+    their straight versions. This is to enforce a policy decision designed
+    to standardize the corpus.</xd:desc>
+  </xd:doc> 
+  <xsl:function name="hcmc:straightenQuotes" as="xs:string">
+    <xsl:param name="inStr" as="xs:string"/>
+    <xsl:value-of select="replace(
+                          replace($inStr, '[“”]', $quot),
+                          '[‘’]', $apos)"/>
   </xsl:function>
   
 </xsl:stylesheet>

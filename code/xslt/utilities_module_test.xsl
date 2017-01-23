@@ -49,6 +49,7 @@
     <xsl:call-template name="nameTests"/>
     <xsl:call-template name="imageListTest"/>
     <xsl:call-template name="expandLigaturesTest"/>
+    <xsl:call-template name="straightenQuotesTest"/>
   </xsl:template>
   
   <xsl:template name="relPathPairTest1">
@@ -101,6 +102,11 @@
   <xsl:template name="expandLigaturesTest">
     <xsl:variable name="ligs" select="'Ĳxĳxﬀxﬁxﬂxﬃxﬄxﬅxﬆ'"/>
     <xsl:value-of select="concat('&#x0a;', hcmc:expandLigatures($ligs))"/>
+  </xsl:template>
+  
+  <xsl:template name="straightenQuotesTest">
+    <xsl:variable name="quots" select="'Here are “doubles” and ‘singles’.'"/>
+    <xsl:value-of select="hcmc:straightenQuotes($quots)"/>
   </xsl:template>
   
 </xsl:stylesheet>
