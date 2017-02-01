@@ -6698,7 +6698,6 @@
                      <forename>Duncan</forename>
                   </persName>
                   <affiliation when="1865" n="NB Leg">Saint John County</affiliation>
-                  <affiliation when="1905" n="AB/SK House of Commons">Sunbury—Queen's</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/wilmot_robert_duncan_12E.html"/>
@@ -6707,7 +6706,16 @@
                         <ptr target="http://www.biographi.ca/fr/bio/wilmot_robert_duncan_12F.html"/>
                      </bibl>
                   </listBibl>
-                  <note>wiki: Jr.</note>
+                  <note>Father of of <ref target="pers:WILM2">Robert Duncan Wilmot (Jr.)</ref></note>
+               </person>
+               <person xml:id="WILM2">
+                  <persName when="1865">
+                     <surname>Wilmot</surname>,
+                     <forename>Robert</forename>
+                     <forename>Duncan</forename>
+                  </persName>
+                  <affiliation when="1905" n="AB/SK House of Commons">Sunbury—Queen's</affiliation>
+                  <note>Son of <ref target="pers:WILM1">Robert Duncan Wilmot (Sr.)</ref></note>
                </person>
                <person xml:id="MCMO1">
                   <persName when="1867">
