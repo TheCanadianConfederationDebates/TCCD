@@ -580,6 +580,18 @@
                                n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons">Iberville</affiliation>
                   <affiliation when="1872" n="PEI House of Commons">Iberville</affiliation>
                </person>
+               <person xml:id="BELL1">
+                  <persName when="1892">
+                     <surname>Belley</surname>,
+                     <forename>Louis</forename>
+                     <forename>de Gonzague</forename>
+                  </persName>
+                  <affiliation when="1895" n="NF House of Commons">Chicoutimi—Saguenay</affiliation>
+                  <listBibl>
+                     <bibl xml:lang="en"><ptr target="http://www.lop.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0acd8e5a-af4a-4000-9bb2-85f38333bb6c&amp;Language=E&amp;Section=ALL"/></bibl>
+                     <bibl xml:lang="fr"><ptr target="http://www.lop.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0acd8e5a-af4a-4000-9bb2-85f38333bb6c&amp;Language=F&amp;Section=ALL"/></bibl>
+                  </listBibl>
+               </person>
                <person xml:id="BOYD1">
                   <persName when="1865">
                      <surname>Boyd</surname>,
@@ -3049,6 +3061,23 @@
                      <forename>Edward</forename>
                   </persName>
                   <affiliation when="1905" n="AB/SK House of Commons">Algoma East</affiliation>
+               </person>
+               <person xml:id="EDGA1">
+                  <persName when="1873">
+                     <surname>Edgar</surname>,
+                     <forename>James</forename>
+                     <forename>David</forename>, <addName>Sir</addName>
+                  </persName>
+                  <affiliation when="1873" n="PEI House of Commons">Monck</affiliation>
+                  <affiliation when="1888" n="NF House of Commons">Ontario West</affiliation>
+                  <listBibl>
+                     <bibl xml:lang="en">
+                        <ptr target="http://www.biographi.ca/en/bio/edgar_james_david_12E.html"/>
+                     </bibl>
+                     <bibl xml:lang="fr">
+                        <ptr target="http://www.biographi.ca/en/bio/edgar_james_david_12F.html"/>
+                     </bibl>
+                  </listBibl>
                </person>
                <person xml:id="ELSO1">
                   <persName when="1905">
@@ -11454,6 +11483,7 @@
                             <forename>Louis</forename>
                      <forename>Henry</forename> (<roleName>Sir</roleName>)</persName>
                   <affiliation when="1873" n="PEI Leg">4th Kings</affiliation>
+                  <affiliation when="1888" n="NF House of Commons">Queen's County</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/davies_louis_henry_15E.html"/>
