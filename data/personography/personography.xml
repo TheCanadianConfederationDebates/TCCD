@@ -333,11 +333,12 @@
                   <affiliation when="1949" n="NF House of Commons">Bonaventure</affiliation>
                </person>
                <person xml:id="ASHB1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Ashby</surname>,
                             <forename>Patrick</forename>
                      <forename>Harvey</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Edmonton East</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Edmonton East</affiliation>
                </person>
                <person xml:id="AULT1">
@@ -869,11 +870,12 @@
                   <affiliation when="1949" n="NF House of Commons">Cumberland</affiliation>
                </person>
                <person xml:id="BLAC6">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Blackmore</surname>,
                             <forename>John</forename>
                      <forename>Horne</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Lethbridge</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Lethbridge</affiliation>
                </person>
                <person xml:id="BLAC7">
@@ -3141,10 +3143,11 @@
                   </listBibl>
                </person>
                <person xml:id="FAIR1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Fair</surname>,
                             <forename>Robert</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Battle River</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Battle River</affiliation>
                </person>
                <person xml:id="FAUT1">
@@ -4135,19 +4138,21 @@
                   <affiliation when="1870" n="BC Leg">?</affiliation>
                </person>
                <person xml:id="HANS1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Hansell</surname>,
                             <forename>Ernest</forename>
                      <forename>George</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Macleod</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Macleod</affiliation>
                </person>
                <person xml:id="HARK1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Harkness</surname>,
                             <forename>Douglas</forename>
                      <forename>Scott</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Calgary East</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Calgary East</affiliation>
                </person>
                <person xml:id="HARR1">
@@ -4763,11 +4768,12 @@
                   <affiliation when="1905" n="AB/SK House of Commons">Cape Breton, South</affiliation>
                </person>
                <person xml:id="JOHN3">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Johnston</surname>,
                             <forename>Charles</forename>
                      <forename>Edward</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Bow River</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Bow River</affiliation>
                </person>
                <person xml:id="JOHN4">
@@ -5077,11 +5083,12 @@
                   <affiliation when="1906" n="AB/SK House of Commons">Assiniboia West</affiliation>
                </person>
                <person xml:id="KUHL1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Kuhl</surname>,
                             <forename>Walter</forename>
                      <forename>Frederick</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Jasper—Edson</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Jasper—Edson</affiliation>
                </person>
                <person xml:id="LACE1">
@@ -5989,11 +5996,12 @@
                   <affiliation when="1906" n="AB/SK House of Commons">Elgin East</affiliation>
                </person>
                <person xml:id="MARS2">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Marshall</surname>,
                             <forename>James</forename>
                      <forename>Alexander</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Camrose</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Camrose</affiliation>
                </person>
                <person xml:id="MART1">
@@ -11889,6 +11897,45 @@
                   <affiliation when="1946" n="NF National Convention">Labrador</affiliation>
                   <note>Methodist minister</note>
                </person>
+               
+<!--    Here begin new additions from the omitted 20th parliament.         -->
+               <person>
+                  <persName when="1945">
+                     <surname>Quelch</surname>, <forename>Victor</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Acadia</affiliation>
+               </person>
+               
+               <person>
+                  <persName when="1945">
+                     <surname>Dechene</surname>,
+                     <forename>Joseph</forename> <forename>Miville</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Athabaska</affiliation>
+               </person>
+               
+               <person>
+                  <persName when="1945">
+                     <surname>Smith</surname>, 
+                     <forename>Arthur</forename> <forename>LeRoy</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Calgary West</affiliation>
+               </person>
+
+               <person>
+                  <persName when="1945">
+                     <surname>MacKinnon</surname>, <forename>James Angus</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Edmonton West</affiliation>
+               </person>
+               
+               <person>
+                  <persName when="1945">
+                     <surname>Wylie</surname>, <forename>William Duncan</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Medicine Hat</affiliation>
+               </person>
+
             </listPerson>
          </particDesc>
       </profileDesc>

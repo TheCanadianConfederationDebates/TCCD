@@ -5,9 +5,9 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-01-23T17:24:23Z. 2016.
+Schema generated from ODD source 2017-02-09T18:16:43Z. 2016.
 TEI Edition: Version 3.1.1a. Last updated on
-	18th January 2017, revision b611d2b
+	24th January 2017, revision dbb9151
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
   
 --><!---->
@@ -2369,7 +2369,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <value>lg:lgConv40</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(The Convention of 40 / La Grande Convention) [Awaiting description]</a:documentation>
                <value>lg:lgAssinLAssem</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Assiniboia / l’Assemblée législative d’Assiniboia) </a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Assiniboia / l'Assemblée législative d'Assiniboia) </a:documentation>
                <value>lg:lgNBLAssem</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of New Brunswick) Assembly created initially in 1786 for the new colony, now the Provincial assembly.</a:documentation>
                <value>lg:lgNSLAssem</value>
@@ -2378,6 +2378,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Prince Edward Island) The PEI legislature originated with a bicameral structure in 1773.</a:documentation>
                <value>lg:lgNFLAssem</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Newfoundland) The NF legislature was set up in 1832.</a:documentation>
+               <value>lg:lgNFNC</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(National Convention of Newfoundland) DESCRIPTION NOT YET AVAILABLE.</a:documentation>
             </choice>
          </attribute>
          <attribute name="type">
@@ -4646,7 +4648,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:ASHB2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ashbourne, Thomas Gordon William. Twillingate (1946: NF National Convention).</a:documentation>
                   <value>pers:ASHB1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ashby, Patrick Harvey. Edmonton East (1949: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ashby, Patrick Harvey. Edmonton East (1945: House of Commons); Edmonton East (1949: NF House of Commons).</a:documentation>
                   <value>pers:AULT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ault, Samuel. Stormont (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Stormont (1872: PEI House of Commons).</a:documentation>
                   <value>pers:AVER1</value>
@@ -4723,6 +4725,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belleau, Narcisse-Fortunat (Sir). Lower Canada (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:BELL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bellerose, Joseph-Hyacinthe. Laval (1865: Ont/Que Leg); Laval (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Laval (1872: PEI House of Commons).</a:documentation>
+                  <value>pers:BELL4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belley, Louis de Gonzague. Chicoutimi—Saguenay (1895: NF House of Commons).</a:documentation>
                   <value>pers:BELZ1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belzile, Gleason. Rimouski (1949: NF House of Commons).</a:documentation>
                   <value>pers:BEMI2</value>
@@ -4782,7 +4786,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BLAC5</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Black, Percy Chapman. Cumberland (1949: NF House of Commons).</a:documentation>
                   <value>pers:BLAC6</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Blackmore, John Horne. Lethbridge (1949: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Blackmore, John Horne. Lethbridge (1945: House of Commons); Lethbridge (1949: NF House of Commons).</a:documentation>
                   <value>pers:BLAC7</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Blackwood, William. Colchester County North Division (1866: NS Leg).</a:documentation>
                   <value>pers:BLAI1</value>
@@ -5174,7 +5178,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:DAVI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Davies, Daniel. Charlottetown and Royalty (1863: PEI Leg); Charlottetown (1871: PEI Leg).</a:documentation>
                   <value>pers:DAVI3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Davies, Louis Henry (Sir). 4th Kings (1873: PEI Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Davies, Louis Henry (Sir). 4th Kings (1873: PEI Leg); Queen's County (1888: NF House of Commons).</a:documentation>
                   <value>pers:DAWE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dawe, Wilfred. Bay Roberts (1946: NF National Convention).</a:documentation>
                   <value>pers:DEBE1</value>
@@ -5185,6 +5189,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">De Rosenroll, Anthony Sigwart. Wetaskiwin (1898: AB/SK Leg); Wetaskiwin (1902: AB/SK Leg).</a:documentation>
                   <value>pers:DEVE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">De Veber, Leverett George. Lethbridge (1898: AB/SK Leg); Lethbridge (1902: AB/SK Leg).</a:documentation>
+                  <value>pers:</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dechene, Joseph Miville. Athabaska (1945: House of Commons).</a:documentation>
                   <value>pers:DECH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dechêne, Joseph Miville. Athabaska (1949: NF House of Commons).</a:documentation>
                   <value>pers:DELI1</value>
@@ -5269,6 +5275,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dyment, Albert Edward. Algoma East (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:EAKI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Eakin, William. Saltcoats (1894: AB/SK Leg); Saltcoats (1898: AB/SK Leg).</a:documentation>
+                  <value>pers:EDGA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Edgar, James David, Sir. Monck (1873: PEI House of Commons); Ontario West (1888: NF House of Commons).</a:documentation>
                   <value>pers:ELLI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Elliott, William. Wolseley (1898: AB/SK Leg); Wolseley (1902: AB/SK Leg).</a:documentation>
                   <value>pers:ELSO1</value>
@@ -5282,7 +5290,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:EVAN2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Evans, Edward. Burin (1861: NF Leg); Burin (1865: NF Leg); Burin (1869: NF Leg).</a:documentation>
                   <value>pers:FAIR1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fair, Robert. Battle River (1949: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fair, Robert. Battle River (1945: House of Commons); Battle River (1949: NF House of Commons).</a:documentation>
                   <value>pers:FAUT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fauteux, Gaspard. St. Mary (1949: NF House of Commons).</a:documentation>
                   <value>pers:FEAR1</value>
@@ -5510,9 +5518,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:HANR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hanrahan, Edmund. Carbonear (1861: NF Leg).</a:documentation>
                   <value>pers:HANS1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hansell, Ernest George. Macleod (1949: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hansell, Ernest George. Macleod (1945: House of Commons); Macleod (1949: NF House of Commons).</a:documentation>
                   <value>pers:HARK1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Harkness, Douglas Scott. Calgary East (1949: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Harkness, Douglas Scott. Calgary East (1945: House of Commons); Calgary East (1949: NF House of Commons).</a:documentation>
                   <value>pers:HARR6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Harrington, Michael F. St. John's City West (1946: NF National Convention).</a:documentation>
                   <value>pers:HARR1</value>
@@ -5680,7 +5688,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:JOHN2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Johnston, Alexander. Cape Breton, South (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:JOHN3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Johnston, Charles Edward. Bow River (1949: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Johnston, Charles Edward. Bow River (1945: House of Commons); Bow River (1949: NF House of Commons).</a:documentation>
                   <value>pers:JOHN4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Johnston, James William. Annapolis County (1866: NS Leg).</a:documentation>
                   <value>pers:JOHN5</value>
@@ -5766,7 +5774,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:KNOW3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Knowling, George Henry. Souris (1894: AB/SK Leg).</a:documentation>
                   <value>pers:KUHL1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kuhl, Walter Frederick. Jasper—Edson (1949: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kuhl, Walter Frederick. Jasper—Edson (1945: House of Commons); Jasper—Edson (1949: NF House of Commons).</a:documentation>
                   <value>pers:LACE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lacerte, Louis. Pointe Coupée (1870: MB Convention of 40); Pointe Coupée (1870: MB Government).</a:documentation>
                   <value>pers:LACE1</value>
@@ -5927,6 +5935,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacInnis, Angus. Vancouver East (1949: NF House of Commons).</a:documentation>
                   <value>pers:MACI2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacIsaac, Hilary. 2nd Kings (1873: PEI Leg).</a:documentation>
+                  <value>pers:</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacKinnon, James Angus. Edmonton West (1945: House of Commons).</a:documentation>
                   <value>pers:MACL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MacLaren, Alexander Ferguson. Perth North (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:MACL5</value>
@@ -5998,7 +6008,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MARS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Marshall, David. Elgin East (1906: AB/SK House of Commons).</a:documentation>
                   <value>pers:MARS2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Marshall, James Alexander. Camrose (1949: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Marshall, James Alexander. Camrose (1945: House of Commons); Camrose (1949: NF House of Commons).</a:documentation>
                   <value>pers:MART1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, Alexander; Martin, Alexander Munro. Queen's (1905: AB/SK House of Commons); Wellington North (1907: AB/SK House of Commons).</a:documentation>
                   <value>pers:MART2</value>
@@ -6399,6 +6409,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pugsley, William. City and County of St. John (1907: AB/SK House of Commons).</a:documentation>
                   <value>pers:PAQU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pâquet, Anselme-Homère (Dr.). Berthier (1865: Ont/Que Leg); Berthier (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Berthier (1872: PEI House of Commons).</a:documentation>
+                  <value>pers:</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Quelch, Victor. Acadia (1945: House of Commons).</a:documentation>
                   <value>pers:QUIN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Quinton, James. Saint John County (1866: NB Leg).</a:documentation>
                   <value>pers:RAMS1</value>
@@ -6591,6 +6603,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Smith, Alexander Mortimer. Toronto East (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:SMIT7</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Smith, Alexander Smith. Moosomin (1898: AB/SK Leg); Moosomin (1902: AB/SK Leg).</a:documentation>
+                  <value>pers:</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Smith, Arthur LeRoy. Calgary West (1945: House of Commons).</a:documentation>
                   <value>pers:SMIT3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Smith, Donald Alexander. Selkirk (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Selkirk (1872: PEI House of Commons).</a:documentation>
                   <value>pers:SMIT4</value>
@@ -6802,7 +6816,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:WILL2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Willson, Crowell. Middlesex East (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Middlesex East (1872: PEI House of Commons).</a:documentation>
                   <value>pers:WILM1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilmot, Robert Duncan. Saint John County (1865: NB Leg); Sunbury—Queen's (1905: AB/SK House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilmot, Robert Duncan. Saint John County (1865: NB Leg).</a:documentation>
+                  <value>pers:WILM2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilmot, Robert Duncan. Sunbury—Queen's (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:WILS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilson, Norman Frank. Russell (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:WILS2</value>
@@ -6833,6 +6849,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wright, William. Muskoka (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:WYAT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wyatt, Frederick J. Trinity Bay (1865: NF Leg).</a:documentation>
+                  <value>pers:</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wylie, William Duncan. Medicine Hat (1945: House of Commons).</a:documentation>
                   <value>pers:YEO2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Yeo, James. 2nd Prince (1872: PEI Leg); 2nd Prince (1873: PEI Leg).</a:documentation>
                   <value>pers:YEO1</value>

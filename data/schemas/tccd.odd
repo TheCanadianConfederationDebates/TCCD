@@ -469,7 +469,7 @@ so Volume 2 by implication has finished. -->
                               <desc>[Awaiting description]</desc>
                            </valItem>
                            <valItem ident="lg:lgAssinLAssem">
-                              <gloss>Legislative Assembly of Assiniboia / l’Assemblée législative d’Assiniboia</gloss>
+                              <gloss>Legislative Assembly of Assiniboia / l'Assemblée législative d'Assiniboia</gloss>
                               <desc/>
                            </valItem>
                            <valItem ident="lg:lgNBLAssem">
@@ -490,6 +490,10 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="lg:lgNFLAssem">
                               <gloss>Legislative Assembly of Newfoundland</gloss>
                               <desc>The NF legislature was set up in 1832.</desc>
+                           </valItem>
+                           <valItem ident="lg:lgNFNC">
+                              <gloss>National Convention of Newfoundland</gloss>
+                              <desc><!--Need Desc-->DESCRIPTION NOT YET AVAILABLE.</desc>
                            </valItem>
                         </valList>
                      </attDef>
@@ -631,7 +635,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Ashbourne, Thomas Gordon William. Twillingate (1946: NF National Convention).</desc>
                            </valItem>
                            <valItem ident="pers:ASHB1">
-                              <desc>Ashby, Patrick Harvey. Edmonton East (1949: NF House of Commons).</desc>
+                              <desc>Ashby, Patrick Harvey. Edmonton East (1945: House of Commons); Edmonton East (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:AULT1">
                               <desc>Ault, Samuel. Stormont (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Stormont (1872: PEI House of Commons).</desc>
@@ -747,6 +751,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:BELL1">
                               <desc>Bellerose, Joseph-Hyacinthe. Laval (1865: Ont/Que Leg); Laval (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Laval (1872: PEI House of Commons).</desc>
                            </valItem>
+                           <valItem ident="pers:BELL4">
+                              <desc>Belley, Louis de Gonzague. Chicoutimi—Saguenay (1895: NF House of Commons).</desc>
+                           </valItem>
                            <valItem ident="pers:BELZ1">
                               <desc>Belzile, Gleason. Rimouski (1949: NF House of Commons).</desc>
                            </valItem>
@@ -835,7 +842,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Black, Percy Chapman. Cumberland (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:BLAC6">
-                              <desc>Blackmore, John Horne. Lethbridge (1949: NF House of Commons).</desc>
+                              <desc>Blackmore, John Horne. Lethbridge (1945: House of Commons); Lethbridge (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:BLAC7">
                               <desc>Blackwood, William. Colchester County North Division (1866: NS Leg).</desc>
@@ -1423,7 +1430,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Davies, Daniel. Charlottetown and Royalty (1863: PEI Leg); Charlottetown (1871: PEI Leg).</desc>
                            </valItem>
                            <valItem ident="pers:DAVI3">
-                              <desc>Davies, Louis Henry (Sir). 4th Kings (1873: PEI Leg).</desc>
+                              <desc>Davies, Louis Henry (Sir). 4th Kings (1873: PEI Leg); Queen's County (1888: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:DAWE1">
                               <desc>Dawe, Wilfred. Bay Roberts (1946: NF National Convention).</desc>
@@ -1439,6 +1446,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:DEVE1">
                               <desc>De Veber, Leverett George. Lethbridge (1898: AB/SK Leg); Lethbridge (1902: AB/SK Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:">
+                              <desc>Dechene, Joseph Miville. Athabaska (1945: House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:DECH1">
                               <desc>Dechêne, Joseph Miville. Athabaska (1949: NF House of Commons).</desc>
@@ -1566,6 +1576,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:EAKI1">
                               <desc>Eakin, William. Saltcoats (1894: AB/SK Leg); Saltcoats (1898: AB/SK Leg).</desc>
                            </valItem>
+                           <valItem ident="pers:EDGA1">
+                              <desc>Edgar, James David, Sir. Monck (1873: PEI House of Commons); Ontario West (1888: NF House of Commons).</desc>
+                           </valItem>
                            <valItem ident="pers:ELLI1">
                               <desc>Elliott, William. Wolseley (1898: AB/SK Leg); Wolseley (1902: AB/SK Leg).</desc>
                            </valItem>
@@ -1585,7 +1598,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Evans, Edward. Burin (1861: NF Leg); Burin (1865: NF Leg); Burin (1869: NF Leg).</desc>
                            </valItem>
                            <valItem ident="pers:FAIR1">
-                              <desc>Fair, Robert. Battle River (1949: NF House of Commons).</desc>
+                              <desc>Fair, Robert. Battle River (1945: House of Commons); Battle River (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:FAUT1">
                               <desc>Fauteux, Gaspard. St. Mary (1949: NF House of Commons).</desc>
@@ -1927,10 +1940,10 @@ so Volume 2 by implication has finished. -->
                               <desc>Hanrahan, Edmund. Carbonear (1861: NF Leg).</desc>
                            </valItem>
                            <valItem ident="pers:HANS1">
-                              <desc>Hansell, Ernest George. Macleod (1949: NF House of Commons).</desc>
+                              <desc>Hansell, Ernest George. Macleod (1945: House of Commons); Macleod (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:HARK1">
-                              <desc>Harkness, Douglas Scott. Calgary East (1949: NF House of Commons).</desc>
+                              <desc>Harkness, Douglas Scott. Calgary East (1945: House of Commons); Calgary East (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:HARR6">
                               <desc>Harrington, Michael F. St. John's City West (1946: NF National Convention).</desc>
@@ -2182,7 +2195,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Johnston, Alexander. Cape Breton, South (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:JOHN3">
-                              <desc>Johnston, Charles Edward. Bow River (1949: NF House of Commons).</desc>
+                              <desc>Johnston, Charles Edward. Bow River (1945: House of Commons); Bow River (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:JOHN4">
                               <desc>Johnston, James William. Annapolis County (1866: NS Leg).</desc>
@@ -2311,7 +2324,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Knowling, George Henry. Souris (1894: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:KUHL1">
-                              <desc>Kuhl, Walter Frederick. Jasper—Edson (1949: NF House of Commons).</desc>
+                              <desc>Kuhl, Walter Frederick. Jasper—Edson (1945: House of Commons); Jasper—Edson (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:LACE2">
                               <desc>Lacerte, Louis. Pointe Coupée (1870: MB Convention of 40); Pointe Coupée (1870: MB Government).</desc>
@@ -2553,6 +2566,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:MACI2">
                               <desc>MacIsaac, Hilary. 2nd Kings (1873: PEI Leg).</desc>
                            </valItem>
+                           <valItem ident="pers:">
+                              <desc>MacKinnon, James Angus. Edmonton West (1945: House of Commons).</desc>
+                           </valItem>
                            <valItem ident="pers:MACL1">
                               <desc>MacLaren, Alexander Ferguson. Perth North (1905: AB/SK House of Commons).</desc>
                            </valItem>
@@ -2659,7 +2675,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Marshall, David. Elgin East (1906: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MARS2">
-                              <desc>Marshall, James Alexander. Camrose (1949: NF House of Commons).</desc>
+                              <desc>Marshall, James Alexander. Camrose (1945: House of Commons); Camrose (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MART1">
                               <desc>Martin, Alexander; Martin, Alexander Munro. Queen's (1905: AB/SK House of Commons); Wellington North (1907: AB/SK House of Commons).</desc>
@@ -3261,6 +3277,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:PAQU1">
                               <desc>Pâquet, Anselme-Homère (Dr.). Berthier (1865: Ont/Que Leg); Berthier (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Berthier (1872: PEI House of Commons).</desc>
                            </valItem>
+                           <valItem ident="pers:">
+                              <desc>Quelch, Victor. Acadia (1945: House of Commons).</desc>
+                           </valItem>
                            <valItem ident="pers:QUIN1">
                               <desc>Quinton, James. Saint John County (1866: NB Leg).</desc>
                            </valItem>
@@ -3548,6 +3567,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:SMIT7">
                               <desc>Smith, Alexander Smith. Moosomin (1898: AB/SK Leg); Moosomin (1902: AB/SK Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:">
+                              <desc>Smith, Arthur LeRoy. Calgary West (1945: House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:SMIT3">
                               <desc>Smith, Donald Alexander. Selkirk (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Selkirk (1872: PEI House of Commons).</desc>
@@ -3865,7 +3887,10 @@ so Volume 2 by implication has finished. -->
                               <desc>Willson, Crowell. Middlesex East (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Middlesex East (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:WILM1">
-                              <desc>Wilmot, Robert Duncan. Saint John County (1865: NB Leg); Sunbury—Queen's (1905: AB/SK House of Commons).</desc>
+                              <desc>Wilmot, Robert Duncan. Saint John County (1865: NB Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:WILM2">
+                              <desc>Wilmot, Robert Duncan. Sunbury—Queen's (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:WILS1">
                               <desc>Wilson, Norman Frank. Russell (1905: AB/SK House of Commons).</desc>
@@ -3911,6 +3936,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:WYAT1">
                               <desc>Wyatt, Frederick J. Trinity Bay (1865: NF Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:">
+                              <desc>Wylie, William Duncan. Medicine Hat (1945: House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:YEO2">
                               <desc>Yeo, James. 2nd Prince (1872: PEI Leg); 2nd Prince (1873: PEI Leg).</desc>
