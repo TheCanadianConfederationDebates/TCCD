@@ -1288,10 +1288,11 @@
                   <affiliation when="1905" n="AB/SK House of Commons">Pontiac</affiliation>
                </person>
                <person xml:id="BRAC1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Bracken</surname>,
                             <forename>John</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Neepawa</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Neepawa</affiliation>
                </person>
                <person xml:id="BRAD1">
@@ -1357,11 +1358,12 @@
                   <note>bio: Baptized as Louis-Joseph-Alexandre Brodeur</note>
                </person>
                <person xml:id="BROO1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Brooks</surname>,
                             <forename>Alfred</forename>
                      <forename>Johnson</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Royal</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Royal</affiliation>
                </person>
                <person xml:id="BROU1">
@@ -1460,10 +1462,11 @@
                   <affiliation when="1949" n="NF House of Commons">Champlain</affiliation>
                </person>
                <person xml:id="BRYC1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Bryce</surname>,
                             <forename>William</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Selkirk</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Selkirk</affiliation>
                </person>
                <person xml:id="BUNN1">
@@ -3097,12 +3100,6 @@
                      <forename>Robert</forename>
                   </persName>
                   <affiliation when="1905" n="AB/SK House of Commons">Westmoreland</affiliation>
-                  <persName when="1949">
-                     <surname>Emmerson</surname>,
-                            <forename>Henry</forename>
-                     <forename>Read</forename>
-                  </persName>
-                  <affiliation when="1949" n="NF House of Commons">Westmorland</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/emmerson_henry_robert_14E.html"/>
@@ -3111,6 +3108,17 @@
                         <ptr target="http://www.biographi.ca/fr/bio/emmerson_henry_robert_14F.html"/>
                      </bibl>
                   </listBibl>
+                  <note>Father of <ref target="pers:EMME2">Henry Read Emmerson</ref>.</note>
+               </person>
+               <person xml:id="EMME2">
+                  <persName when="1945">
+                     <surname>Emmerson</surname>,
+                     <forename>Henry</forename>
+                     <forename>Read</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Westmorland</affiliation>
+                  <affiliation when="1949" n="NF House of Commons">Westmorland</affiliation>
+                  <note>Son of <ref target="pers:EMME1">Henry Robert Emmerson</ref>.</note>
                </person>
                <person xml:id="ETHI1">
                   <persName when="1905">
@@ -3618,12 +3626,14 @@
                   <note>"Jr" is in original</note>
                </person>
                <person xml:id="GARS1">
-                  <persName when="1949">
+                  <persName when="1948">
                      <surname>Garson</surname>,
                             <forename>Stuart</forename>
                      <forename>Sinclair</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1948">Marquette</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Marquette</affiliation>
+                  <note>Joined 20th parliament through by-election of December 20, 1948.</note>
                </person>
                <person xml:id="GAUC1">
                   <persName when="1867">
@@ -4240,11 +4250,12 @@
                   <note>wiki: Antoine Chartier de Lotbinière Harwood</note>
                </person>
                <person xml:id="HATF1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Hatfield</surname>,
                             <forename>Heber</forename>
                      <forename>Harold</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Victoria—Carleton</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Victoria—Carleton</affiliation>
                </person>
                <person xml:id="HATF2">
@@ -4287,11 +4298,12 @@
                   <affiliation when="1870" n="MB Government">St. Andrew's</affiliation>
                </person>
                <person xml:id="HAZE1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Hazen</surname>,
                             <forename>Douglas</forename>
                      <forename>King</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">St. John—Albert</affiliation>
                   <affiliation when="1949" n="NF House of Commons">St. John—Albert</affiliation>
                </person>
                <person xml:id="HEAL1">
@@ -4862,18 +4874,21 @@
                   <affiliation when="1872" n="PEI House of Commons">Leeds North and Grenville North</affiliation>
                </person>
                <person xml:id="JONE4">
-                  <persName when="1949">
+                  <persName when="1948">
                      <surname>Jones</surname>,
                             <forename>Owen</forename>
                      <forename>Lewis</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1948">Yale</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Yale</affiliation>
+                  <note>Did not enter 20th parliament until by-election of May 31, 1948.</note>
                </person>
                <person xml:id="JUTR1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Jutras</surname>,
                             <forename>René</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Provencher</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Provencher</affiliation>
                </person>
                <person xml:id="KAUL1">
@@ -5075,11 +5090,12 @@
                   <affiliation when="1949" n="NF House of Commons">Saskatoon City</affiliation>
                </person>
                <person xml:id="KNOW1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Knowles</surname>,
                             <forename>Stanley</forename>
                      <forename>Howard</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Winnipeg North Centre</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Winnipeg North Centre</affiliation>
                </person>
                <person xml:id="KNOW2">
@@ -5421,11 +5437,12 @@
                   <affiliation when="1905" n="AB/SK House of Commons">Prince East</affiliation>
                </person>
                <person xml:id="LEGE1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Léger</surname>,
                             <forename>Aurel</forename>
                      <forename>D.</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Kent</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Kent</affiliation>
                </person>
                <person xml:id="LEMI1">
@@ -5946,11 +5963,12 @@
                   <affiliation when="1907" n="AB/SK House of Commons">Labelle</affiliation>
                </person>
                <person xml:id="MALO1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Maloney</surname>,
                             <forename>John</forename>
                      <forename>William</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Northumberland</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Northumberland</affiliation>
                </person>
                <person xml:id="MALO2">
@@ -6093,11 +6111,12 @@
                   </listBibl>
                </person>
                <person xml:id="MATT1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Matthews</surname>,
                             <forename>James</forename>
                      <forename>Ewen</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Brandon</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Brandon</affiliation>
                </person>
                <person xml:id="MATT2">
@@ -6110,11 +6129,12 @@
                   <affiliation when="1949" n="NF House of Commons">Kootenay East</affiliation>
                </person>
                <person xml:id="MAYB1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Maybank</surname>,
                             <forename>H.</forename> <forename>(ralph)</forename>
                      <forename>Ralph</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Winnipeg South Centre</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Winnipeg South Centre</affiliation>
                </person>
                <person xml:id="MAYH1">
@@ -6865,10 +6885,11 @@
                   <affiliation when="1872" n="PEI House of Commons">York East</affiliation>
                </person>
                <person xml:id="MICH1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Michaud</surname>,
                             <forename>Benoît</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Restigouche—Madawaska</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Restigouche—Madawaska</affiliation>
                </person>
                <person xml:id="MICH2">
@@ -6879,12 +6900,14 @@
                   <affiliation when="1907" n="AB/SK House of Commons">Victoria</affiliation>
                </person>
                <person xml:id="MILL1">
-                  <persName when="1949">
+                  <persName when="1946">
                      <surname>Miller</surname>,
                             <forename>Calvert</forename>
                      <forename>Charlton</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1946">Portage la Prairie</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Portage la Prairie</affiliation>
+                  <note>Joined 20th parliament through by-election of October 21, 1946.</note>
                </person>
                <person xml:id="MILL2">
                   <persName when="1905">
@@ -6983,11 +7006,12 @@
                   </listBibl>
                </person>
                <person xml:id="MOOR2">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Moore</surname>,
                             <forename>Ronald</forename>
                      <forename>Stewart</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Churchill</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Churchill</affiliation>
                </person>
                <person xml:id="MORI2">
@@ -7074,11 +7098,12 @@
                   <affiliation when="1949" n="NF House of Commons">Lambton West</affiliation>
                </person>
                <person xml:id="MUTC1">
-                  <persName when="1949">
+                  <persName when="1945">
                      <surname>Mutch</surname>,
                             <forename>Leslie</forename>
                      <forename>Alexander</forename>
                   </persName>
+                  <affiliation n="House of Commons" when="1945">Winnipeg South</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Winnipeg South</affiliation>
                </person>
                <person xml:id="NATH1">
@@ -11912,14 +11937,14 @@
                </person>
                
 <!--    Here begin new additions from the omitted 20th parliament.         -->
-               <person>
+               <person xml:id="QUEL1">
                   <persName when="1945">
                      <surname>Quelch</surname>, <forename>Victor</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945">Acadia</affiliation>
                </person>
                
-               <person>
+               <person xml:id="DECH2">
                   <persName when="1945">
                      <surname>Dechene</surname>,
                      <forename>Joseph</forename> <forename>Miville</forename>
@@ -11927,7 +11952,7 @@
                   <affiliation n="House of Commons" when="1945">Athabaska</affiliation>
                </person>
                
-               <person>
+               <person xml:id="SMIT8">
                   <persName when="1945">
                      <surname>Smith</surname>, 
                      <forename>Arthur</forename> <forename>LeRoy</forename>
@@ -11935,49 +11960,42 @@
                   <affiliation n="House of Commons" when="1945">Calgary West</affiliation>
                </person>
 
-               <person>
+               <person xml:id="MACK3">
                   <persName when="1945">
                      <surname>MacKinnon</surname>, <forename>James</forename> <forename>Angus</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945">Edmonton West</affiliation>
                </person>
                
-               <person>
+               <person xml:id="WYLI1">
                   <persName when="1945">
                      <surname>Wylie</surname>, <forename>William</forename> <forename>Duncan</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945">Medicine Hat</affiliation>
                </person>
 
-               <person>
+               <person xml:id="SHAW1">
                   <persName when="1945">
                      <surname>Shaw</surname>, <forename>Frederick</forename> <forename>Davis</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945">Red Deer</affiliation>
                </person>
                
-               <person>
+               <person xml:id="PEAR2">
                   <persName when="1945">
                      <surname>Pearkes</surname>, <forename>George</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945">Nanaimo</affiliation>
                </person>
 
-               <person>
+               <person xml:id="REID4">
                   <persName when="1945">
                      <surname>Reid</surname>, <forename>Thomas</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945">New Westminster</affiliation>
                </person>
                
-               <person>
-                  <persName when="1945">
-                     <surname>Reid</surname>, <forename>Thomas</forename>
-                  </persName>
-                  <affiliation n="House of Commons" when="1945">New Westminster</affiliation>
-               </person>
-               
-               <person>
+               <person xml:id="MACK4">
                   <persName when="1945">
                      <surname>Mackenzie</surname>, <forename>Ian</forename> <forename>Alistair</forename>
                   </persName>
@@ -11985,19 +12003,114 @@
                   <note>until January 19, 1948 Senate appointment</note>
                </person>              
                
-               <person>
-                  <persName when="1945">
+               <person xml:id="YOUN4">
+                  <persName when="1948">
                      <surname>Young</surname>, <forename>Rodney</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Vancouver Centre</affiliation>
-                  <note>by-election of June 8, 1948</note>
+                  <affiliation n="House of Commons" when="1948">Vancouver Centre</affiliation>
+                  <note>Joined 20th parliament through by-election of June 8, 1948</note>
                </person>
 
-               <person>
+               <person xml:id="SINC7">
                   <persName when="1945">
                      <surname>Sinclair</surname>, <forename>James</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945">Vancouver North</affiliation>
+               </person>
+               
+               <person xml:id="STIR2">
+                  <persName when="1945">
+                     <surname>Stirling</surname>, <forename>Grote</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Yale</affiliation>
+                  <note>resigned October 21, 1947</note>
+               </person>
+               
+               <person xml:id="ZAPL1">
+                  <persName when="1945">
+                     <surname>Zaplitny</surname>, <forename>Fred</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Dauphin</affiliation>
+               </person>
+               
+               <person>
+                  <persName when="1945">
+                     <surname>Winkler</surname>, <forename>Howard</forename> <forename>Waldemar</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Lisgar</affiliation>
+               </person>
+               
+               <person xml:id="WEIR1">
+                  <persName when="1945">
+                     <surname>Weir</surname>, <forename>William</forename> <forename>Gilbert</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Macdonald</affiliation>
+               </person>
+               
+               <person xml:id="GLEN2">
+                  <persName when="1945">
+                     <surname>Glen</surname>, <forename>James</forename> <forename>Allison</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Marquette</affiliation>
+                  <note>resigned November 4, 1948</note>
+               </person>
+               
+               <person xml:id="LEAD1">
+                  <persName when="1945">
+                     <surname>Leader</surname>, <forename>Harry</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Portage la Prairie</affiliation>
+                  <note>died May 9, 1946</note>
+               </person>
+               
+               <person xml:id="ROSS12">
+                  <persName when="1945">
+                     <surname>Ross</surname>, <forename>J.</forename> <forename>Arthur</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Souris</affiliation>
+               </person>
+               
+               <person xml:id="SINN1">
+                  <persName when="1945">
+                     <surname>Sinnott</surname>, <forename>John</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Springfield</affiliation>
+               </person>
+               
+               <person xml:id="VIAU1">
+                  <persName when="1945">
+                     <surname>Viau</surname>, <forename>Fernand</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">St. Boniface</affiliation>
+               </person>
+               
+               <person xml:id="STEW3">
+                  <persName when="1945">
+                     <surname>Stewart</surname>, <forename>Alistair</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Winnipeg North</affiliation>
+               </person>
+               
+               <person xml:id="STUA1">
+                  <persName when="1945">
+                     <surname>Stuart</surname>, <forename>A.</forename> <forename>Wesley</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Charlotte</affiliation>
+               </person>
+               
+               <person xml:id="RICH2">
+                  <persName when="1945">
+                     <surname>Richard</surname>, <forename>Clovis-Thomas</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">Gloucester</affiliation>
+               </person>
+               
+               <person xml:id="BRID1">
+                  <persName when="1945">
+                     <surname>Bridges</surname>, <forename>Hedley Francis Gregory</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945">York—Sunbury</affiliation>
+                  <note>died in office</note>
                </person>
                
             </listPerson>
