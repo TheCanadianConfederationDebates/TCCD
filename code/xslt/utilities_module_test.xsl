@@ -50,6 +50,7 @@
     <xsl:call-template name="imageListTest"/>
     <xsl:call-template name="expandLigaturesTest"/>
     <xsl:call-template name="straightenQuotesTest"/>
+    <xsl:call-template name="fixOcrErrorsTest"/>
   </xsl:template>
   
   <xsl:template name="relPathPairTest1">
@@ -107,6 +108,11 @@
   <xsl:template name="straightenQuotesTest">
     <xsl:variable name="quots" select="'Here are “doubles” and ‘singles’.'"/>
     <xsl:value-of select="hcmc:straightenQuotes($quots)"/>
+  </xsl:template>
+  
+  <xsl:template name="fixOcrErrorsTest">
+    <xsl:variable name="badOcr" select="'TH1S has 1, this is a number: l 000, l think that should be I. Ho~ho~ho.'"/>
+    <xsl:value-of select="concat('&#x0a;', hcmc:fixOcrErrors($badOcr))"/>
   </xsl:template>
   
 </xsl:stylesheet>
