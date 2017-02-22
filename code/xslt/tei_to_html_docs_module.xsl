@@ -119,7 +119,7 @@
                         
                         <div class="body">
                             
-                            <h2><xsl:value-of select="$docIndexTitle"/>: <xsl:value-of select="$legTitle"/></h2>
+                            <h2><xsl:sequence select="$docIndexTitle"/>: <xsl:value-of select="$legTitle"/></h2>
                             
                             <ul>
                                 <xsl:for-each select="$teiDocs/TEI[//titleStmt/title/name[@type='legislature']/@ref = $leg]">

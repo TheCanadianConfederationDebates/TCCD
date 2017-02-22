@@ -4,6 +4,7 @@
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     exclude-result-prefixes="#all"
     xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xh="http://www.w3.org/1999/xhtml"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:hcmc="http://hcmc.uvic.ca/ns"
@@ -41,6 +42,15 @@
         <xsl:param as="xs:string" name="legCode"/>
         <xsl:variable name="valItem" select="$projectOdd//valItem[@ident=$legCode]"/>
         <span title="{$valItem/desc}"><xsl:value-of select="$valItem/gloss"/></span>
+    </xsl:function>
+    
+    <xd:doc scope="component">
+        <xd:desc>This function is designed to combine two language spans
+        for text-only output contexts such as html/head/title. </xd:desc>
+    </xd:doc>
+    <xsl:function name="hcmc:bilingualText" as="xs:string">
+        <xsl:param name="inText" as="element(xh:span)+"/>
+        <xsl:value-of select="string-join($inText, ' / ')"/>
     </xsl:function>
     
 </xsl:stylesheet>
