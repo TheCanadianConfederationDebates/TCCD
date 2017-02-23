@@ -91,8 +91,8 @@
                             
                             </xsl:for-each-group>          
                             
-                            <li><a href="bibliography.html"><xsl:value-of select="$teiDocs/TEI[@xml:id='bibliography']//titleStmt/title[1]"/></a></li>
-                            <li><a href="personography.html"><xsl:value-of select="$teiDocs/TEI[@xml:id='personography']//titleStmt/title[1]"/></a></li>
+                            <li><a href="bibliography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='bibliography']//titleStmt/title[1]"/></a></li>
+                            <li><a href="personography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='personography']//titleStmt/title[1]"/></a></li>
                         </ul>
                         
                     </div>
@@ -123,10 +123,10 @@
                             
                             <ul>
                                 <xsl:for-each select="$teiDocs/TEI[//titleStmt/title/name[@type='legislature']/@ref = $leg]">
-                                    <xsl:sort select="@xml:id"/>
+                                    <xsl:sort select="tokenize(@xml:id, '_')[last()]"/>
                                     <li>
                                         <a href="{@xml:id}.html">
-                                            <xsl:apply-templates select="//titleStmt/title[1]/date[1]"/>
+                                            <xsl:apply-templates select="//titleStmt/title[1]"/>
                                         </a>
                                     </li>
                                 </xsl:for-each>          
