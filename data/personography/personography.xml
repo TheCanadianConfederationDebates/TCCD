@@ -65,7 +65,24 @@
                      <forename>Sarah</forename> 
                   </persName>
               </person>
+               
+               <person xml:id="FAN1">
+                  <persName>
+                     <surname>Fan</surname>
+                     <forename>Yuqian</forename>
+                     <forename>(Gloria)</forename>
+                  </persName>
+               </person>
+               
+               <person xml:id="NGUY1">
+                  <persName>
+                     <surname>Nguyen</surname>
+                     <forename>Kim</forename>
+                  </persName>
+               </person>
+               
            </listPerson>
+            
             <listPerson xml:id="historicalPersonography">
                
                <head><hi xml:lang="en">Participants In The Confederation Debates</hi> <hi xml:lang="fr">Participants dans les débats de la Confédération</hi></head>
@@ -79,7 +96,7 @@
                </person>
                <person xml:id="SPEA1">
                   <persName>
-                     <surname>Speaker of the House</surname>
+                     <surname>Speaker</surname>
                      <forename>in role as Speaker</forename>
                   </persName>
                   <affiliation n="The Speaker of the House">Any context or legislature</affiliation>
@@ -93,6 +110,16 @@
                </person>
                
 <!--            Real people follow.   -->
+               
+<!--            Ira Wild was a witness, but not a representative, in the NFLD National Convention.   -->
+               <person xml:id="WILD1">
+                  <persName>
+                     <surname>Wild</surname>
+                     <forename>Ira</forename>
+                  </persName>
+                  <note>Commissioner for Finance in the Newfoundland National Convention. Did not 
+                  represent a riding, but spoke in the debate.</note>
+               </person>
                
                <person xml:id="ABBO2">
                   <persName when="1949">

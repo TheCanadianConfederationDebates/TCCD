@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-02-23T18:31:06Z. 2016.
+Schema generated from ODD source 2017-02-23T21:44:28Z. 2016.
 TEI Edition: Version 3.1.1a. Last updated on
 	24th January 2017, revision dbb9151
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -5297,6 +5297,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Evans, Edward. Burin (1861: NF Leg); Burin (1865: NF Leg); Burin (1869: NF Leg).</a:documentation>
                   <value>pers:FAIR1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fair, Robert. Battle River (1945: House of Commons); Battle River (1949: NF House of Commons).</a:documentation>
+                  <value>pers:FAN1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fan Yuqian (Gloria). .</a:documentation>
                   <value>pers:FARQ1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Farquhar, Thomas. Algoma East (1945: House of Commons).</a:documentation>
                   <value>pers:FAUT1</value>
@@ -6285,6 +6287,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nelson, Hugh. New Westminster (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); New Westminster (1872: PEI House of Commons).</a:documentation>
                   <value>pers:NEWE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Newell, Isaac. White Bay (1946: NF National Convention).</a:documentation>
+                  <value>pers:NGUY1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nguyen Kim. .</a:documentation>
                   <value>pers:NICH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nicholson, Alexander (sandy) Malcolm. Mackenzie (1949: NF House of Commons).</a:documentation>
                   <value>pers:NIXO1</value>
@@ -6654,7 +6658,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SNID1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Snider, George. Grey North (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Grey North (1872: PEI House of Commons).</a:documentation>
                   <value>pers:SPEA1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Speaker of the House in role as Speaker. Any context or legislature (The Speaker of the House).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Speaker in role as Speaker. Any context or legislature (The Speaker of the House).</a:documentation>
                   <value>pers:SPEN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Spence, David. St. Anne's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:SPEN2</value>
@@ -6859,6 +6863,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Whiteway, William Vallance (Sir). Twillingate and Fogo (1861: NF Leg); Twillingate and Fogo (1865: NF Leg).</a:documentation>
                   <value>pers:WIGH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wightman, Joseph. 3rd Kings (1867: PEI Leg); 4th Kings (1871: PEI Leg); 4th Kings (1872: PEI Leg).</a:documentation>
+                  <value>pers:WILD1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wild Ira. .</a:documentation>
                   <value>pers:WILK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilkes, Robert. Toronto Centre (1872: PEI House of Commons).</a:documentation>
                   <value>pers:WILL1</value>
