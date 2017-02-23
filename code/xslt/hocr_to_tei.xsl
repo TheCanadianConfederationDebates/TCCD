@@ -534,7 +534,7 @@
   </xsl:template>
   
   <xsl:template match="text()" mode="fw">
-    <xsl:value-of select="normalize-space(hcmc:expandLigatures(.))"/>
+    <xsl:value-of select="normalize-space(hcmc:fixOcrErrors(hcmc:expandLigatures(.)))"/>
   </xsl:template>
   
   <xd:doc scope="component">
@@ -542,7 +542,7 @@
     such as ligatures introduced by the OCR tools.</xd:desc>
   </xd:doc>
   <xsl:template match="text()">
-    <xsl:value-of select="hcmc:straightenQuotes(hcmc:expandLigatures(.))"/>
+    <xsl:value-of select="hcmc:fixOcrErrors(hcmc:straightenQuotes(hcmc:expandLigatures(.)))"/>
   </xsl:template>
   
   <xsl:template match="xh:p[not(@class='editorial')]">
