@@ -147,6 +147,13 @@ li{
     font-size: 0.9rem;
 }
 
+.untaggedTable{
+    display: block;
+    margin: 1em;
+    border: double 5px red;
+    text-align: center;
+}
+
 /* Popup box for displaying information from the appendix. 
  * This is only used if scripting is enabled. */
 div#infoPopup {

@@ -364,4 +364,16 @@
         </footer>
     </xsl:template>
     
+    <xd:doc scope="component">
+        <xd:desc>Some comments identify specific things which need to be flagged in the output.</xd:desc>
+    </xd:doc>
+    <xsl:template match="comment()[matches(., 'untaggedTable')]">
+        <span class="untaggedTable">
+            <span lang="en">A table appears here, but it has not yet been encoded so cannot be 
+            displayed.</span>
+            <span lang="fr">Un tableau apparaît ici, mais il n'a pas encore été encodé et ne 
+                peut donc pas être affiché.</span>
+        </span>
+    </xsl:template>
+    
 </xsl:stylesheet>
