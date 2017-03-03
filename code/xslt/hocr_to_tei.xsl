@@ -58,9 +58,10 @@
   
   <xsl:template match="/">
     
-    
-    
     <xsl:message>Input document URI is <xsl:value-of select="$docUri"/></xsl:message>
+    
+    <xsl:variable name="docLang" select="if ($rootEl/@xml:lang='fr') then 'fr' else 'en'"/>
+    <xsl:message>Input document in <xsl:value-of select="if ($docLang = 'fr') then 'French' else 'English'"/>.</xsl:message>
     
     <!-- It's useful to know the base URI of the TCCD repo itself. -->
     <xsl:variable name="baseDir" select="replace($docUri, '/data/.*$', '')"/>

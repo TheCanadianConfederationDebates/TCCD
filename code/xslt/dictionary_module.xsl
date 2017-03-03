@@ -14,11 +14,15 @@
       <xd:p>This module provides functions used when processing 
       language and typography features, based on the expanded hunspell
       Canadian English dictionary in ../utilities/dict.</xd:p>
+      <xd:p>2017-03 added French hunspell dictionary to enable 
+      processing of documents in French. The library can be told
+      (through the $lang parameter) to use French, or it will use
+      French if it detects @xml:lang="fr" on the root TEI element.</xd:p>
     </xd:desc>
   </xd:doc>
   
   <xsl:param name="lang" select="en"/>
-  <xsl:variable name="dictToUse" select="if(//TEI[@xml:lang='fr'] or $lang='fr') then '../utilities/dict/fr_FR_Combined-expanded.dic' else '../utilities/dict/en_CA-large-expanded.dic'"/>
+  <xsl:variable name="dictToUse" select="if(//tei:TEI[@xml:lang='fr'] or $lang='fr') then '../utilities/dict/fr_FR_Combined-expanded.dic' else '../utilities/dict/en_CA-large-expanded.dic'"/>
   <xsl:variable name="dict" select="tokenize(unparsed-text($dictToUse), '\n')"/>
   
 <!--  For easier use in regexes etc. -->
