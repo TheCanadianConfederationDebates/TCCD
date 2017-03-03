@@ -17,7 +17,9 @@
     </xd:desc>
   </xd:doc>
   
-  <xsl:variable name="dict" select="tokenize(unparsed-text('../utilities/dict/en_CA-large-expanded.dic'), '\n')"/>
+  <xsl:param name="lang" select="en"/>
+  <xsl:variable name="dictToUse" select="if(//TEI[@xml:lang='fr'] or $lang='fr') then '../utilities/dict/fr_FR_Combined-expanded.dic' else '../utilities/dict/en_CA-large-expanded.dic'"/>
+  <xsl:variable name="dict" select="tokenize(unparsed-text($dictToUse), '\n')"/>
   
 <!--  For easier use in regexes etc. -->
   <xsl:variable name="singleQuote">'</xsl:variable>
