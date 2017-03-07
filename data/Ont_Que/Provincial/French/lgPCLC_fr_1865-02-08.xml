@@ -89,6 +89,7 @@
          <change who="mholmes" when="2017-03-01">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-01">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-07">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -246,184 +247,114 @@ débats sont ajournés. <lb/>
 8 <hi rendition="simple:italic">février</hi> 1865. <lb/>
             </p>
 
-            <p> L'Hon.
-M. ROSS reprend le débat: Les <lb/>
-hons. membres se rappellent qu'hier soir j'ai <lb/>
-fait une motion d'ajournement avec l'inten<lb break="no"/>tion de répondre aux observations de l'hon. <lb/>
-membre pour la division de Niagara, [ l'hon. <lb/>
-M. CURRIE], qui a
-eu la parole pendant la <lb/>
-plus grande partie de la séance d'hier. <lb/>
-L'hon. membre a fait un discours
-très- <lb break="yes"/>
-remarquable du commencement à la fin. Il <lb/>
-a commencé par citer quelques passages du <lb/>
-premier discours qu'il fit en cette chambre, <lb/>
-il y a deux ans, et dans lequel il approuvait <lb/>
-fortement le principe de la confédération <lb/>
-entre le Canada et les provinces maritimes; <lb/>
-hier, encore, il a formulé de la façon la plus <lb/>
-énergique son approbation du projet. Mais <lb/>
-certaines parties de son discours auraient <lb/>
-pu faire dire à ceux qui l'ont d'abord <lb/>
-compté parmi les partisans et les amis du <lb/>
-projet: " mon Dieu! délivrez-nous de nos <lb/>
-amis." ( Ecoutez ! écoutez !) Il
-a fait <lb/>
-usage d'un singulier argument que
-je <lb/>
-résume ainsi: —décréditant tour-à-tour les <lb/>
-provinces maritimes et le Canada il a cherché à<lb/>
-nous prouver que nous faisons une très-mau<lb break="no"/>vaise affaire en unissant notre destinée aux <lb/>
-leurs, tandis que les provinces avaient bien tort <lb/>
-de rechercher notre alliance puisque nous <lb/>
-sommes à la veille d'une
-banqueroute. [Rires !] <lb/>
-Pour répondre à l'hon. membre il suffirait <lb/>
-de prendre certaines parties de son discours, <lb/>
-de les mettre en regard et de
-lui faire voir <lb/>
-       
-            <pb n="71" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0071.jpg"/>
-            <fw type="num">71</fw>
-           
-           qu'elles jurent de se trouver accouplées.
-Il <lb/>
-ne s'est pas contenté d'employer l'ironie et <lb/>
-le sarcasme, il a même contesté
-des asser<lb break="no"/>tions faites par des hommes publics du <lb/>
-Canada et des autres provinces. Or, si nous <lb/>
-avons un jour la confédération, nous devons <lb/>
-prendre garde au langage que nous employons <lb/>
-et aux faits que nous affirmons devant le <lb/>
-public; c'est du moins mon opinion. Si <lb/>
-on tolère un langage comme celui que s'est <lb/>
-permis hier l'hon. monsieur, il deviendra <lb/>
-impossible de maintenir l'harmonie et la <lb/>
-bonne entente dans l'union projetée. Mais <lb/>
-je suis convaincu que la chambre condam<lb break="no"/>nera désormais ce langage, non-seulement <lb/>
-chez l'hon. membre pour la
-division de <lb/>
-Niagara, mais chez tout autre. [Ecoutez !] <lb/>
-L'hon. membre a commencé ses attaques <lb/>
-contre les hommes publics des provinces <lb/>
-en citant un discours prononcé dernière<lb break="no"/>ment à Halifax par M. LYNCH, et en <lb/>
-cherchant à nous faire rire aux
-dépens <lb/>
-de ce monsieur. Or, les assertions de M. <lb/>
-LYNCH n'étaient point de futiles inventions <lb/>
-comme l'hon. membre l'a prétendu. M. <lb/>
-LYNCH a basé toutes ses assertions sur les <lb/>
-rapports officiels de nos départements publics, <lb/>
-et si l'hon. membre veut bien
-consulter le <lb/>
-recensement de 1851, il trouvera à la page <lb/>
-32 un tableau comparatif des produits du <lb/>
-Canada et des Etats-Unis, duquel il appert <lb/>
-que pendant la dernière décade nos voisins <lb/>
-ont augmenté de 48 par cent, tandis que <lb/>
-nous avons augmenté de 400 par cent; c'est <lb/>
-précisement ce que M. LYNCH
-a dit et ce <lb/>
-dont l'hon. membre pour la division de
-<lb/>
-Niagara a nié l'exactitude. <lb/>
-            </p>
+            <p>
+                  <persName ref="pers:ROSS8">L'Hon. M. ROSS</persName> reprend le débat: Les <lb/> hons. membres se
+                  rappellent qu'hier soir j'ai <lb/> fait une motion d'ajournement avec l'inten<lb
+                     break="no"/>tion de répondre aux observations de l'hon. <lb/> membre pour la
+                  division de Niagara, [ l'hon. <lb/> M. CURRIE], qui a eu la parole pendant la
+                  <lb/> plus grande partie de la séance d'hier. <lb/> L'hon. membre a fait un
+                  discours très- <lb break="yes"/> remarquable du commencement à la fin. Il <lb/> a
+                  commencé par citer quelques passages du <lb/> premier discours qu'il fit en cette
+                  chambre, <lb/> il y a deux ans, et dans lequel il approuvait <lb/> fortement le
+                  principe de la confédération <lb/> entre le Canada et les provinces maritimes;
+                  <lb/> hier, encore, il a formulé de la façon la plus <lb/> énergique son
+                  approbation du projet. Mais <lb/> certaines parties de son discours auraient <lb/>
+                  pu faire dire à ceux qui l'ont d'abord <lb/> compté parmi les partisans et les
+                  amis du <lb/> projet: " mon Dieu! délivrez-nous de nos <lb/> amis." ( Ecoutez !
+                  écoutez !) Il a fait <lb/> usage d'un singulier argument que je <lb/> résume
+                  ainsi: —décréditant tour-à-tour les <lb/> provinces maritimes et le Canada il a
+                  cherché à<lb/> nous prouver que nous faisons une très-mau<lb break="no"/>vaise
+                  affaire en unissant notre destinée aux <lb/> leurs, tandis que les provinces
+                  avaient bien tort <lb/> de rechercher notre alliance puisque nous <lb/> sommes à
+                  la veille d'une banqueroute. [Rires !] <lb/> Pour répondre à l'hon. membre il
+                  suffirait <lb/> de prendre certaines parties de son discours, <lb/> de les mettre
+                  en regard et de lui faire voir <lb/>
+                  <pb n="71" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0071.jpg"/>
+                  <fw type="num">71</fw> qu'elles jurent de se trouver accouplées. Il <lb/> ne s'est
+                  pas contenté d'employer l'ironie et <lb/> le sarcasme, il a même contesté des
+                     asser<lb break="no"/>tions faites par des hommes publics du <lb/> Canada et des
+                  autres provinces. Or, si nous <lb/> avons un jour la confédération, nous devons
+                  <lb/> prendre garde au langage que nous employons <lb/> et aux faits que nous
+                  affirmons devant le <lb/> public; c'est du moins mon opinion. Si <lb/> on tolère
+                  un langage comme celui que s'est <lb/> permis hier l'hon. monsieur, il deviendra
+                  <lb/> impossible de maintenir l'harmonie et la <lb/> bonne entente dans l'union
+                  projetée. Mais <lb/> je suis convaincu que la chambre condam<lb break="no"/>nera
+                  désormais ce langage, non-seulement <lb/> chez l'hon. membre pour la division de
+                  <lb/> Niagara, mais chez tout autre. [Ecoutez !] <lb/> L'hon. membre a commencé
+                  ses attaques <lb/> contre les hommes publics des provinces <lb/> en citant un
+                  discours prononcé dernière<lb break="no"/>ment à Halifax par M. LYNCH, et en <lb/>
+                  cherchant à nous faire rire aux dépens <lb/> de ce monsieur. Or, les assertions de
+                  M. <lb/> LYNCH n'étaient point de futiles inventions <lb/> comme l'hon. membre l'a
+                  prétendu. M. <lb/> LYNCH a basé toutes ses assertions sur les <lb/> rapports
+                  officiels de nos départements publics, <lb/> et si l'hon. membre veut bien
+                  consulter le <lb/> recensement de 1851, il trouvera à la page <lb/> 32 un tableau
+                  comparatif des produits du <lb/> Canada et des Etats-Unis, duquel il appert <lb/>
+                  que pendant la dernière décade nos voisins <lb/> ont augmenté de 48 par cent,
+                  tandis que <lb/> nous avons augmenté de 400 par cent; c'est <lb/> précisement ce
+                  que M. LYNCH a dit et ce <lb/> dont l'hon. membre pour la division de <lb/>
+                  Niagara a nié l'exactitude. <lb/>
+               </p>
  
-            <p> L' Hon. M. CURRIE.—Cette augmenta<lb break="no"/>tion a eu lieu de 1841 à 1851, mais M. <lb/>
-LYNCH a fait allusion à la décade suivante. <lb/>
-            </p>
-            <p> L'Hon.
-M. ROSS.—Pas du tout, M. <lb/>
-LYNCH a parlé de
-l'augmentation pendant <lb/>
-dix ans, il a cité les documents officiels
-et ne <lb/>
-s'est pas trompé. L'hon. monsieur a proba<lb break="no"/>blement puisé ses renseignements dans quel<lb break="no"/>que journal et l'erreur qu'il a commise devrait <lb/>
-être un avis pour lui d' être, à l'avenir, plus <lb/>
-scrupuleux dans ses attaques contre les <lb/>
-hommes publics. (Ecoutez !) Il s'est ensuite <lb/>
-permis de censurer le premier
-ministre du <lb/>
-Nouveau-Brunswick qui, par sa haute posi<lb break="no"/>tion et sa capacité, est
-parfaitement à l'abri <lb/>
-de pareilles diatribes. Ces faits suffisent <lb/>
-pour établir mon opinion
-qu'il est au moins <lb/>
-de très-mauvais goût d'attaquer
-les hommes <lb/>
-publics des autres pays et principalement <lb/>
-ceux des soeurs colonies,
-comme l'a fait l'hon. <lb/>
-membre. <lb/>
-            </p>
+            <p>
+                  <persName ref="pers:CURR2">L' Hon. M. CURRIE</persName>.—Cette augmenta<lb break="no"/>tion a eu
+                  lieu de 1841 à 1851, mais M. <lb/> LYNCH a fait allusion à la décade suivante.
+                  <lb/>
+               </p>
+            <p>
+                  <persName ref="pers:ROSS8">L'Hon. M. ROSS</persName>.—Pas du tout, M. <lb/> LYNCH a parlé de
+                  l'augmentation pendant <lb/> dix ans, il a cité les documents officiels et ne
+                  <lb/> s'est pas trompé. L'hon. monsieur a proba<lb break="no"/>blement puisé ses
+                  renseignements dans quel<lb break="no"/>que journal et l'erreur qu'il a commise
+                  devrait <lb/> être un avis pour lui d' être, à l'avenir, plus <lb/> scrupuleux
+                  dans ses attaques contre les <lb/> hommes publics. (Ecoutez !) Il s'est ensuite
+                  <lb/> permis de censurer le premier ministre du <lb/> Nouveau-Brunswick qui, par
+                  sa haute posi<lb break="no"/>tion et sa capacité, est parfaitement à l'abri <lb/>
+                  de pareilles diatribes. Ces faits suffisent <lb/> pour établir mon opinion qu'il
+                  est au moins <lb/> de très-mauvais goût d'attaquer les hommes <lb/> publics des
+                  autres pays et principalement <lb/> ceux des soeurs colonies, comme l'a fait
+                  l'hon. <lb/> membre. <lb/>
+               </p>
 <cb/>
 
-            <p> L'Hon. M. CURRIE.—Je
-ne les ai pas <lb/>
-attaqués.<lb/>
-            </p>
-            <p> L'Hon. M. ROSS.—L'hon.
-monsieur a <lb/>
-contesté la véracité des assertions,
-il a même <lb/>
-nié les assertions qu'ils ont faites en qualité
-<lb/>
-d'hommes publics. L'hon. M. TILLEY a cité <lb/>
-les chiffres de notre propre
-ministre des <lb/>
-finances, et l'hon. membre l'a
-représenté <lb/>
-comme faussant la vérité en vue de tromper <lb/>
-ses auditeurs. <lb/>
-            </p>
-            <p> L'Hon. M. CURRIE.—Je voudrais bien <lb/>
-savoir quand le ministre des finances du <lb/>
-Canada a dit que la moyenne des droits <lb/>
-perçus dans la province était de 11 pour <lb/>
-cent ? <lb/>
-            </p>
-            <p> L'Hon. M. ROSS.—L'hon. membre trou<lb break="no"/>vera cela dans le discours du ministre des <lb/>
-finances. Je ne me crois pas obligé de citer <lb/>
-des chiffres et de faire des calculs en ce <lb/>
-moment, mais je maintiens qu'en tenant <lb/>
-compte de toutes les importations, y compris <lb/>
-les articles exempts de droits, l'hon. membre <lb/>
-trouvera que le chiffre indiqué
-est exact.<lb/>
-Les importations de 1863 représentent
-un <lb/>
-montant de$45,964,493 et le chiffre des <lb/>
-droits perçus est de 
-$5,169,172 c'est-à-dire <lb/>
-précisément 11% du montant total. Je le <lb/>
-répète, au lieu d'attaquer les
-hommes publics <lb/>
-les plus éminents comme l'hon. membre l'a <lb/>
-fait, il eut été mieux à lui de
-les défendre. <lb/>
-[Ecoutez ! ] Ayant ainsi répondu
-aux obser<lb break="no"/>vations que l'hon. membre a faites sur la <lb/>
-véracité des assertions de MM. LYNCH et <lb/>
-TILLEY, je passe à ce qu'il a dit pour essayer <lb/>
-d'établir que M. GALT se trompait. Il a fait <lb/>
-allusion aux chiffres concernant
-le tonnage <lb/>
-des navires dans la confédération
-projetée <lb/>
-tels qu'indiqués par M. GALT, et s'est mani<lb break="no"/>festement évertué à mettre les
-rieurs de son <lb/>
-côté. Le ministre des fianances a déclaré <lb/>
-qu'une fois l'union effectuée nous serions, à <lb/>
-son avis, le troisième pays du monde sous le <lb/>
-rapport du tonnage des navires
-qui fréquen<lb break="no"/>teront nos ports, bien qu'il eût probabilité <lb/>
-que la France fut notre égale. L'Angleterre <lb/>
-vient en premier lieu sous ce rapport, ensuite <lb/>
-les Etats-Unis et, en troisième lieu, la France <lb/>
-ou la confédération projetée. Voici son <lb/>
-exposé :-<lb/>
-            </p>
+            <p>
+                  <persName ref="pers:CURR2">L'Hon. M. CURRIE</persName>.—Je ne les ai pas <lb/> attaqués.<lb/>
+               </p>
+            <p>
+                  <persName ref="pers:ROSS8">L'Hon. M. ROSS</persName>.—L'hon. monsieur a <lb/> contesté la véracité
+                  des assertions, il a même <lb/> nié les assertions qu'ils ont faites en qualité
+                  <lb/> d'hommes publics. L'hon. M. TILLEY a cité <lb/> les chiffres de notre propre
+                  ministre des <lb/> finances, et l'hon. membre l'a représenté <lb/> comme faussant
+                  la vérité en vue de tromper <lb/> ses auditeurs. <lb/>
+               </p>
+            <p>
+                  <persName ref="pers:CURR2">L'Hon. M. CURRIE</persName>.—Je voudrais bien <lb/> savoir quand le
+                  ministre des finances du <lb/> Canada a dit que la moyenne des droits <lb/> perçus
+                  dans la province était de 11 pour <lb/> cent ? <lb/>
+               </p>
+            <p>
+                  <persName ref="pers:ROSS8">L'Hon. M. ROSS</persName>.—L'hon. membre trou<lb break="no"/>vera cela
+                  dans le discours du ministre des <lb/> finances. Je ne me crois pas obligé de
+                  citer <lb/> des chiffres et de faire des calculs en ce <lb/> moment, mais je
+                  maintiens qu'en tenant <lb/> compte de toutes les importations, y compris <lb/>
+                  les articles exempts de droits, l'hon. membre <lb/> trouvera que le chiffre
+                  indiqué est exact.<lb/> Les importations de 1863 représentent un <lb/> montant
+                  de$45,964,493 et le chiffre des <lb/> droits perçus est de $5,169,172 c'est-à-dire
+                  <lb/> précisément 11% du montant total. Je le <lb/> répète, au lieu d'attaquer les
+                  hommes publics <lb/> les plus éminents comme l'hon. membre l'a <lb/> fait, il eut
+                  été mieux à lui de les défendre. <lb/> [Ecoutez ! ] Ayant ainsi répondu aux
+                     obser<lb break="no"/>vations que l'hon. membre a faites sur la <lb/> véracité
+                  des assertions de MM. LYNCH et <lb/> TILLEY, je passe à ce qu'il a dit pour
+                  essayer <lb/> d'établir que M. GALT se trompait. Il a fait <lb/> allusion aux
+                  chiffres concernant le tonnage <lb/> des navires dans la confédération projetée
+                  <lb/> tels qu'indiqués par M. GALT, et s'est mani<lb break="no"/>festement évertué
+                  à mettre les rieurs de son <lb/> côté. Le ministre des fianances a déclaré <lb/>
+                  qu'une fois l'union effectuée nous serions, à <lb/> son avis, le troisième pays du
+                  monde sous le <lb/> rapport du tonnage des navires qui fréquen<lb break="no"
+                  />teront nos ports, bien qu'il eût probabilité <lb/> que la France fut notre
+                  égale. L'Angleterre <lb/> vient en premier lieu sous ce rapport, ensuite <lb/> les
+                  Etats-Unis et, en troisième lieu, la France <lb/> ou la confédération projetée.
+                  Voici son <lb/> exposé :-<lb/>
+               </p>
             
 <quote rendition="tccd:blockquote">
 <p>" Le tonnage
@@ -803,196 +734,112 @@ aurait <lb/>
 jamais consenti. <lb/>
             </p>
 
-            <p> L'Hon. Sir E. P. TACHÉ.—Non plus <lb/>
-que les provinces maritimes. <lb/>
-            </p>
-            <p> L'Hon.
-M. ROSS.—Mon hon. ami le <lb/>
-premier ministre nous déclare que les pro<lb break="no"/>vinces maritimes n'auraient pas accepté non <lb/>
-plus l'union législative. Il doit être certain <lb/>
-du fait, car il a présidé aux délibérations
-de <lb/>
-la conférence.  C'est à une date récente,
-à <lb/>
-l'époque des dificultés toujours croissantes <lb/>
-entre le Haut et le Bas-Canada et si bien <lb/>
-décrites par l'hon. premier ministre dans son <lb/>
-discours,—que l'hon. M. GALT
-proposa un <lb/>
-plan de fédération pour résoudre ces diffi<lb break="no"/>cultés, et fit à ce sujet en parlement un <lb/>
-discours si remarquable. Plus
-tard, en 1858, <lb/>
-           
-<cb/>
-
- l'hon. ministre accepta un portefeuille à la <lb/>
-condition expresse qu'on s'occuperait de <lb/>
-cette question. Il est bien connu qu'il <lb/>
-insista tellement sur ce point qu'à
-la fin de <lb/>
-la session de 1858 le gouverneur-général,
-<lb/>
-Sir E. HEAD, y fit allusion et qu'il fut décidé <lb/>
-qu'on s'adresserait au
-gouvernement impérial <lb/>
-pour obtenir l'autorisation de négocier avec <lb/>
-les provinces maritimes. Peu après trois <lb/>
-membres du gouvernement, les hons. MM. <lb/>
-CARTIER, GALT et moi-même,
-partîmes <lb/>
-pour l'Angleterre, et le 25 octobre 1858 nous <lb/>
-mettions notre requête devant le
-secrétaire <lb/>
-d'état pour les colonies, Sir E. B. LYTTON ; <lb/>
-mais des difficultés inattendues et à nous <lb/>
-étrangères intervinrent et causèrent du délai. <lb/>
-Le ministère de lord DERBY fut battu <lb/>
-et la question demeura en suspens. Mais <lb/>
-il est inexact de dire que le projet était <lb/>
-inconnu et a surpris tout-à-coup
-le pays. <lb/>
-A la fin de la dernière session, il était <lb/>
-expressément mentionné dans le discours <lb/>
-du trône, et les hons. MM. BROWN, <lb/>
-McDOUGALL et MOWAT
-acceptèrent des <lb/>
-portefeuilles à la condition expresse qu'on <lb/>
-entrerait en négociations au sujet de la <lb/>
-fédération. Les hons. MM. BROWN et <lb/>
-MOWAT furent
-réélus par acclamation, avec <lb/>
-le nouveau programme; l'hon. M. Mc<lb break="no"/>DOUGALL perdit son élection, mais il a été <lb/>
-élu depuis par acclamation dans un autre <lb/>
-collége. Au lieu d'être décriés et assaillis <lb/>
-pour le rôle qu'ils ont joué, ces messieurs <lb/>
-doivent être honorés pour leur
-patriotisme. <lb/>
-Il n'y a pas eu de surprise, car les résolu<lb break="no"/>tions furent adressées à tous les membres <lb/>
-de la législature quelque temps après
-leur <lb/>
-rédaction définitive, avant que les journaux
-<lb/>
-en eussent communication, et je suis encore <lb/>
-à me demander comment on aurait
-pu les <lb/>
-rendre plus notoires. L'opposition, il est <lb/>
-vrai, n'a pas tenu d'assemblées publiques <lb/>
-pour considérer le projet, mais qui ne sait <lb/>
-qu'elle en agi ainsi que parce que la <lb/>
-majorité s'était déclarée trop fortement en <lb/>
-faveur de la confédération. ( Ecoutez!) <lb/>
-L'erreur ou le manque de bonne foi de <lb/>
-l'honorable préopinant se découvre ensuite <lb/>
-en portant la puissance militaire des pro<lb break="no"/>vinces d'en-bas à 65,000 hommes, c'est-à- <lb break="yes"/>
-dire qu'il limite à ce chiffre
-le nombre <lb/>
-d'hommes qu'elles peuvent fournir en
-état<lb/>
-de porter les armes. </p>
-            <p>     L'Hon
-M. CURRIE.—Non! j'ai dit <lb/>
-128,000, dont 65,000 seulement peuvent <lb/>
-servir, le reste étant engagé
-dans des occu<lb break="no"/>pations maritimes. <lb/>
-            </p>
-            <p> L'Hon. M . ROSS.—Pourquoi alors l'hon. <lb/>
-           
-            <pb n="75" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0075.jpg"/>
-            <fw type="num">75</fw>
-          
-préopinant
-n'a-t-il pas franchement donné le <lb/>
-chiffre de ces populations d'après le recen<lb break="no"/>sement et lequel ne doit pas être
-loin à <lb/>
-l'heure qu'il est d'un million d'âmes ? <lb/>
-            </p>
             <p>
-L'Hon. Sir E. P. TACHÉ .—Avec la <lb/>
-permission de mon hon. ami, M. ROSS, je <lb/>
-ferai connaître ce que m'a
-appris mon ex<lb break="no"/>périence de la question. Ayant
-pendant <lb/>
-quelque temps été attaché au bureau de <lb/>
-l'adjudant général, j'ai pu examiner les <lb/>
-rapports si corrects de la
-milice du Bas- <lb break="yes"/>
-Canada, et j'ai toujours trouvé
-que sur un <lb/>
-chiffre  total d'une population donnée le <lb/>
-cinquième de ce chiffre
-représente le nombre <lb/>
-exact des hommes de 18 à 60 ans en état de <lb/>
-porter les armes. C'est aussi le cas pour <lb/>
-tous les pays du monde, car cette loi est <lb/>
-aussi uniforme et constante que celle qui <lb/>
-détermine la proportion des deux sexes, <lb/>
-laquelle dans les pays chrétiens
-est de 21 <lb/>
-hommes et une fraction contre 21
-femmes, <lb/>
-et donne le contraire pour les pays livrés à la <lb/>
-polygamie, c'est-à-dire 21 femmes et une <lb/>
-  fraction contre 20 hommes. Ayant pris <lb/>
-d'ailleurs la peine de vérifier le fait pour le <lb/>
-Canada, j'ai trouvé que le
-cinquième de <lb/>
-notre population représentait le chiffre <lb/>
-exact de nos milices, et
-l'hon. conseiller <lb/>
-(M. CURRIE pourra s'en
-convaincre lui- <lb break="yes"/>
-même en s'adressant à l'adjudant
-général <lb/>
-            </p>
+                  <persName ref="pers:TACH1">L'Hon. Sir E. P. TACHÉ</persName>.—Non plus <lb/> que les provinces
+                  maritimes. <lb/>
+               </p>
+            <p>
+                  <persName ref="pers:ROSS8">L'Hon. M. ROSS</persName>.—Mon hon. ami le <lb/> premier ministre nous
+                  déclare que les pro<lb break="no"/>vinces maritimes n'auraient pas accepté non
+                  <lb/> plus l'union législative. Il doit être certain <lb/> du fait, car il a
+                  présidé aux délibérations de <lb/> la conférence. C'est à une date récente, à
+                  <lb/> l'époque des dificultés toujours croissantes <lb/> entre le Haut et le
+                  Bas-Canada et si bien <lb/> décrites par l'hon. premier ministre dans son <lb/>
+                  discours,—que l'hon. M. GALT proposa un <lb/> plan de fédération pour résoudre ces
+                     diffi<lb break="no"/>cultés, et fit à ce sujet en parlement un <lb/> discours
+                  si remarquable. Plus tard, en 1858, <lb/>
+                  <cb/> l'hon. ministre accepta un portefeuille à la <lb/> condition expresse qu'on
+                  s'occuperait de <lb/> cette question. Il est bien connu qu'il <lb/> insista
+                  tellement sur ce point qu'à la fin de <lb/> la session de 1858 le
+                  gouverneur-général, <lb/> Sir E. HEAD, y fit allusion et qu'il fut décidé <lb/>
+                  qu'on s'adresserait au gouvernement impérial <lb/> pour obtenir l'autorisation de
+                  négocier avec <lb/> les provinces maritimes. Peu après trois <lb/> membres du
+                  gouvernement, les hons. MM. <lb/> CARTIER, GALT et moi-même, partîmes <lb/> pour
+                  l'Angleterre, et le 25 octobre 1858 nous <lb/> mettions notre requête devant le
+                  secrétaire <lb/> d'état pour les colonies, Sir E. B. LYTTON ; <lb/> mais des
+                  difficultés inattendues et à nous <lb/> étrangères intervinrent et causèrent du
+                  délai. <lb/> Le ministère de lord DERBY fut battu <lb/> et la question demeura en
+                  suspens. Mais <lb/> il est inexact de dire que le projet était <lb/> inconnu et a
+                  surpris tout-à-coup le pays. <lb/> A la fin de la dernière session, il était <lb/>
+                  expressément mentionné dans le discours <lb/> du trône, et les hons. MM. BROWN,
+                  <lb/> McDOUGALL et MOWAT acceptèrent des <lb/> portefeuilles à la condition
+                  expresse qu'on <lb/> entrerait en négociations au sujet de la <lb/> fédération.
+                  Les hons. MM. BROWN et <lb/> MOWAT furent réélus par acclamation, avec <lb/> le
+                  nouveau programme; l'hon. M. Mc<lb break="no"/>DOUGALL perdit son élection, mais
+                  il a été <lb/> élu depuis par acclamation dans un autre <lb/> collége. Au lieu
+                  d'être décriés et assaillis <lb/> pour le rôle qu'ils ont joué, ces messieurs
+                  <lb/> doivent être honorés pour leur patriotisme. <lb/> Il n'y a pas eu de
+                  surprise, car les résolu<lb break="no"/>tions furent adressées à tous les membres
+                  <lb/> de la législature quelque temps après leur <lb/> rédaction définitive, avant
+                  que les journaux <lb/> en eussent communication, et je suis encore <lb/> à me
+                  demander comment on aurait pu les <lb/> rendre plus notoires. L'opposition, il est
+                  <lb/> vrai, n'a pas tenu d'assemblées publiques <lb/> pour considérer le projet,
+                  mais qui ne sait <lb/> qu'elle en agi ainsi que parce que la <lb/> majorité
+                  s'était déclarée trop fortement en <lb/> faveur de la confédération. ( Ecoutez!)
+                  <lb/> L'erreur ou le manque de bonne foi de <lb/> l'honorable préopinant se
+                  découvre ensuite <lb/> en portant la puissance militaire des pro<lb break="no"
+                  />vinces d'en-bas à 65,000 hommes, c'est-à- <lb break="yes"/> dire qu'il limite à
+                  ce chiffre le nombre <lb/> d'hommes qu'elles peuvent fournir en état<lb/> de
+                  porter les armes. </p>
+            <p>
+                  <persName ref="pers:CURR2">L'Hon M. CURRIE</persName>.—Non! j'ai dit <lb/> 128,000, dont 65,000
+                  seulement peuvent <lb/> servir, le reste étant engagé dans des occu<lb break="no"
+                  />pations maritimes. <lb/>
+               </p>
+            <p>
+                  <persName ref="pers:ROSS8">L'Hon. M . ROSS</persName>.—Pourquoi alors l'hon. <lb/>
+                  <pb n="75" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0075.jpg"/>
+                  <fw type="num">75</fw> préopinant n'a-t-il pas franchement donné le <lb/> chiffre
+                  de ces populations d'après le recen<lb break="no"/>sement et lequel ne doit pas
+                  être loin à <lb/> l'heure qu'il est d'un million d'âmes ? <lb/>
+               </p>
+            <p>
+                  <persName ref="pers:TACH1">L'Hon. Sir E. P. TACHÉ</persName> .—Avec la <lb/> permission de mon hon.
+                  ami, M. ROSS, je <lb/> ferai connaître ce que m'a appris mon ex<lb break="no"
+                  />périence de la question. Ayant pendant <lb/> quelque temps été attaché au bureau
+                  de <lb/> l'adjudant général, j'ai pu examiner les <lb/> rapports si corrects de la
+                  milice du Bas- <lb break="yes"/> Canada, et j'ai toujours trouvé que sur un <lb/>
+                  chiffre total d'une population donnée le <lb/> cinquième de ce chiffre représente
+                  le nombre <lb/> exact des hommes de 18 à 60 ans en état de <lb/> porter les armes.
+                  C'est aussi le cas pour <lb/> tous les pays du monde, car cette loi est <lb/>
+                  aussi uniforme et constante que celle qui <lb/> détermine la proportion des deux
+                  sexes, <lb/> laquelle dans les pays chrétiens est de 21 <lb/> hommes et une
+                  fraction contre 21 femmes, <lb/> et donne le contraire pour les pays livrés à la
+                  <lb/> polygamie, c'est-à-dire 21 femmes et une <lb/> fraction contre 20 hommes.
+                  Ayant pris <lb/> d'ailleurs la peine de vérifier le fait pour le <lb/> Canada,
+                  j'ai trouvé que le cinquième de <lb/> notre population représentait le chiffre
+                  <lb/> exact de nos milices, et l'hon. conseiller <lb/> (M. CURRIE pourra s'en
+                  convaincre lui- <lb break="yes"/> même en s'adressant à l'adjudant général <lb/>
+               </p>
 
-            <p> L'Hon. M. CURRIE.—Je n'ai fait en <lb/>
-tout ceci que me servir des chiffres qui <lb/>
-m'ont été fournis par un collègue de l'hon. <lb/>
-premier. </p>
+            <p>
+                  <persName ref="pers:CURR2">L'Hon. M. CURRIE</persName>.—Je n'ai fait en <lb/> tout ceci que me
+                  servir des chiffres qui <lb/> m'ont été fournis par un collègue de l'hon. <lb/>
+                  premier. </p>
 
-            <p> L'Hon.
-Sir. E. P. TACHÉ.—Eh bien! <lb/>
-mon collégue est en
-contradiction avec moi <lb/>
-sur ce sujet. Le chiffre de la
-milice du <lb/>
-Haut-Canada, d'après le dernier recensement,
-<lb/>
-est de 280,000, qui multiplié
-par 5  donne <lb/>
-celui de la population, à une petite différence<lb/>
-près.<lb/>
-            </p>
+            <p>
+                  <persName ref="pers:TACH1">L'Hon. Sir. E. P. TACHÉ</persName>.—Eh bien! <lb/> mon collégue est en
+                  contradiction avec moi <lb/> sur ce sujet. Le chiffre de la milice du <lb/>
+                  Haut-Canada, d'après le dernier recensement, <lb/> est de 280,000, qui multiplié
+                  par 5 donne <lb/> celui de la population, à une petite différence<lb/> près.<lb/>
+               </p>
             <lb/>
-            <p> L'Hon.
-M. ROSS.—Je crois tout à fait <lb/>
-inutile de rien ajouter à la réponse que
-<lb/>
-vient de faire à l'honorable préopinant l'ho<lb break="no"/>norable premier, sinon que d'après
-cette <lb/>
-règle de proportion le million de
-population <lb/>
-des provinces d'en-bas devrait donner <lb/>
-200,000 hommes en état de porter
-les armes <lb/>
-au lieu de 65,000, les pêcheurs ou les ma<lb break="no"/>rins étant sujets au même service
-que le <lb/>
-reste de la population. J'espère que jamais <lb/>
-nous n'aurons besoin d'appeler sous les <lb/>
-drapeaux toute |a milice de la confédération, <lb/>
-mais qui ne sait que le moyen d'éviter
-le <lb/>
-danger est de s'y préparer. (Ecoutez! écou<lb break="no"/>tez!) L'honorable
-préopinant est ensuite <lb/>
-entré dans la discussion du projet du
-chemin  <lb/>
-de fer intercolonial, lequel semble particu<lb break="no"/><cb/>lièrement
-lui inspirer une horreur profonde. <lb/>
-Je lui répondrai en extrayant du rapport <lb/>
-de lord DURHAM le
-passage suivant sur le <lb/>
-même sujet: <lb/>
-            </p>
+            <p>
+                  <persName ref="pers:ROSS8">L'Hon. M. ROSS</persName>.—Je crois tout à fait <lb/> inutile de rien
+                  ajouter à la réponse que <lb/> vient de faire à l'honorable préopinant l'ho<lb
+                     break="no"/>norable premier, sinon que d'après cette <lb/> règle de proportion
+                  le million de population <lb/> des provinces d'en-bas devrait donner <lb/> 200,000
+                  hommes en état de porter les armes <lb/> au lieu de 65,000, les pêcheurs ou les
+                     ma<lb break="no"/>rins étant sujets au même service que le <lb/> reste de la
+                  population. J'espère que jamais <lb/> nous n'aurons besoin d'appeler sous les
+                  <lb/> drapeaux toute |a milice de la confédération, <lb/> mais qui ne sait que le
+                  moyen d'éviter le <lb/> danger est de s'y préparer. (Ecoutez! écou<lb break="no"
+                  />tez!) L'honorable préopinant est ensuite <lb/> entré dans la discussion du
+                  projet du chemin <lb/> de fer intercolonial, lequel semble particu<lb break="no"
+                  /><cb/>lièrement lui inspirer une horreur profonde. <lb/> Je lui répondrai en
+                  extrayant du rapport <lb/> de lord DURHAM le passage suivant sur le <lb/> même
+                  sujet: <lb/>
+               </p>
 
 <quote rendition="tccd:blockquote">
             <p> " La construction d'une bonne route entre
@@ -1396,120 +1243,73 @@ je ne suis pas sûr de
 l'exactitude de ces  <lb/>
 derniers chiffres. <lb/>
             </p>
-            <p> L'HON. M. CURRIE.—Combien rappor<lb break="no"/>tent-ils ? <lb/>
-            </p>
-            <p> L'HON. M. ROSS—Combien
-rapportent <lb/>
-nos canaux ? ils forment pourtant un avoir <lb/>
-considérable ; mais il ne s'agit pas de cela ; <lb/>
-bien qu'ils donnent peu de revenu, ils dimi<lb break="no"/>nuent considérablement le prix de transport. <lb/>
-Je me souviens du temps où le fret
-d'un <lb/>
-baril de farine de Toronto à
-Montréal était <lb/>
-d'une piastre, tandis qu'aujourd'hui il n'est <lb/>
-que de dix deniers ;—un quintal de mar<lb break="no"/>chandises coûtait aussi une
-piastre de <lb/>
-transport, et ne coûte maintenant qu'un <lb/>
-chelin. C'est de cette manière que les grands <lb/>
-travaux publics sont profitables à un pays. <lb/>
-Quant au revenu des voies ferrées
-des pro<lb break="no"/>vinces maritimes, les profits nets—non les <lb/>
-recettes brutes—sont portés, je crois, à <lb/>
-$140,000 ; $70,000 au Nouveau-Brunswick, <lb/>
-et $70,000 à la Nouvelle-Ecosse,—ce qui <lb/>
-peut compter pour quelque chose. Le canal <lb/>
-Welland, dont parle tant l'hon. mon<lb break="no"/>sieur, ne rapporte pas même
-assez pour payer <lb/>
-l'intérêt de son prix de revient, et si, comme <lb/>
-nous l'apprend la presse américaine, le canal <lb/>
-sur le côté américain du Niagara
-se cons<lb break="no"/>truit, la principale source de son revenu lui <lb/>
-sera enlevée, et loin d'être ensuite le plus <lb/>
-productif des canaux, il sera celui qui rap<lb break="no"/>portera le moins de tous ceux qui se relient <lb/>
-           
-            <pb n="78" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0078.jpg"/>
-            <fw type="num">78</fw>
-           
- à la
-navigation du St. Laurent. N'allez <lb/>
-pas croire, cependant, que je veuille dépré<lb break="no"/>cier la valeur du canal Welland; je suis le <lb/>
-premier à reconnaître son utilité, tout en <lb/>
-espérant qu'elle ne fera qu'augmenter. <lb/>
-(Ecoutez! écoutez !) L'hon. membre, qui <lb/>
-habite sur les bords du canal Welland, a <lb/>
-tout naturellement demandé comment al<lb break="no"/>laient être élargis les canaux, eh! bien, <lb/>
-comme ils doivent être la
-propriété du gou<lb break="no"/>vernement général, c'est à ce dernier qu'il <lb/>
-incombera d'affecter un crédit à
-ces travaux <lb/>
-lorsque le commerce l'exigera. (Ecoutez !) <lb/>
-Quant à l'impôt local, toutes les provinces <lb/>
-seront sur un pied d'égalité, et partant, <lb/>
-rien de plus juste. Si le Haut-Canada
-<lb/>
-est beaucou plus riche que les autres <lb/>
-parties de confédération et qu'il lui <lb/>
-faille plus que les 80 centins par tête <lb/>
-alloués à toutes les provinces,
-ce sera <lb/>
-d'autant mieux et une preuve qu'il se ressent <lb/>
-d'autant moins de l'impôt. (Ecoutez!) <lb/>
-L'hon. membre a attaqué la constitution
-<lb/>
-projetée du conseil législatif et
-insisté non <lb/>
-seulement à ce qu'il reste électif, mais encore <lb/>
-à ce que le principe de la représentation <lb/>
-d'après le nombre prévalut. Mais
-qui a <lb/>
-jamais entendu parler que sous une consti<lb break="no"/>tution fédérale la chambre haute put être <lb/>
-formée sur ce principe? Si cela
-pouvait lo<lb break="no"/>giquement s faire, le meilleur
-moyen serait <lb/>
-de n'avoir qu'une chambre, car deux<lb/>
-chambres élues sur le principe de la
-repré<lb break="no"/>sentation d'après le nombre ne feraient que
-<lb/>
-se combattre l'une l'autre, et ainsi placé <lb/>
-entre elles deux, le gouvernement serait dans
-<lb/>
-l'impossibilité de ne rien faire. En pareil <lb/>
-cas, les plus forts feraient la loi aux plus
-<lb/>
-faibles! Ce principe a été complétement <lb/>
-étudié avant l'adoption d'une constitution <lb/>
-pour les Etats-Unis, d'après laquelle il est <lb/>
-bien connu que les plus petits Etats sont <lb/>
-représentés au sénat par le même nombre de <lb/>
-sénateurs que les plus grands, c'est-à-dire <lb/>
-par deux sénateurs. Le même
-principe a <lb/>
-été suivi pour ce projet et pour la<lb/>
-raison: protéger les plus faibles contre <lb/>
-les plus forts. [Ecoutez !] Le sujet <lb/>
-discuté ensuite par l'hon. membre a trait <lb/>
-aux écoles communes et au fonds que <lb/>
-devait créer l'acte de 1849, mais, comme il <lb/>
-en a été informé, une des dispositions de <lb/>
-cette loi—celle concernant ce fonds,—n'a <lb/>
-jamais été mise à effet. Quant aux autres, <lb/>
-mon hon. ami le commissaire des terres <lb/>
-de la couronne, a déjà dit que le million<lb/>
-d'acres de terre avait été réservé, qu'un <lb/>
-fonds se créait d'année en année, et que le <lb/>
-
-               <cb/>
-
-parlement vote chaque année un crédit d'en<lb break="no"/>viron $100, 000 pour le soutien
-des écoles. <lb/>
-Le Haut-Canada n'a donc souffert
-aucune <lb/>
-injustice sous ce rapport. (Ecoutez !) L'hon. <lb/>
-membre a terminé ses observations par une <lb/>
-sombre peinture de la condition du Canada. <lb/>
-A l'entendre, notre pays serait à la veille de la <lb/>
-            </p>
+            <p>
+                  <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Combien rappor<lb break="no"/>tent-ils ?
+                  <lb/>
+               </p>
+            <p>
+                  <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>—Combien rapportent <lb/> nos canaux ? ils
+                  forment pourtant un avoir <lb/> considérable ; mais il ne s'agit pas de cela ;
+                  <lb/> bien qu'ils donnent peu de revenu, ils dimi<lb break="no"/>nuent
+                  considérablement le prix de transport. <lb/> Je me souviens du temps où le fret
+                  d'un <lb/> baril de farine de Toronto à Montréal était <lb/> d'une piastre, tandis
+                  qu'aujourd'hui il n'est <lb/> que de dix deniers ;—un quintal de mar<lb break="no"
+                  />chandises coûtait aussi une piastre de <lb/> transport, et ne coûte maintenant
+                  qu'un <lb/> chelin. C'est de cette manière que les grands <lb/> travaux publics
+                  sont profitables à un pays. <lb/> Quant au revenu des voies ferrées des pro<lb
+                     break="no"/>vinces maritimes, les profits nets—non les <lb/> recettes
+                  brutes—sont portés, je crois, à <lb/> $140,000 ; $70,000 au Nouveau-Brunswick,
+                  <lb/> et $70,000 à la Nouvelle-Ecosse,—ce qui <lb/> peut compter pour quelque
+                  chose. Le canal <lb/> Welland, dont parle tant l'hon. mon<lb break="no"/>sieur, ne
+                  rapporte pas même assez pour payer <lb/> l'intérêt de son prix de revient, et si,
+                  comme <lb/> nous l'apprend la presse américaine, le canal <lb/> sur le côté
+                  américain du Niagara se cons<lb break="no"/>truit, la principale source de son
+                  revenu lui <lb/> sera enlevée, et loin d'être ensuite le plus <lb/> productif des
+                  canaux, il sera celui qui rap<lb break="no"/>portera le moins de tous ceux qui se
+                  relient <lb/>
+                  <pb n="78" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0078.jpg"/>
+                  <fw type="num">78</fw> à la navigation du St. Laurent. N'allez <lb/> pas croire,
+                  cependant, que je veuille dépré<lb break="no"/>cier la valeur du canal Welland; je
+                  suis le <lb/> premier à reconnaître son utilité, tout en <lb/> espérant qu'elle ne
+                  fera qu'augmenter. <lb/> (Ecoutez! écoutez !) L'hon. membre, qui <lb/> habite sur
+                  les bords du canal Welland, a <lb/> tout naturellement demandé comment al<lb
+                     break="no"/>laient être élargis les canaux, eh! bien, <lb/> comme ils doivent
+                  être la propriété du gou<lb break="no"/>vernement général, c'est à ce dernier
+                  qu'il <lb/> incombera d'affecter un crédit à ces travaux <lb/> lorsque le commerce
+                  l'exigera. (Ecoutez !) <lb/> Quant à l'impôt local, toutes les provinces <lb/>
+                  seront sur un pied d'égalité, et partant, <lb/> rien de plus juste. Si le
+                  Haut-Canada <lb/> est beaucou plus riche que les autres <lb/> parties de
+                  confédération et qu'il lui <lb/> faille plus que les 80 centins par tête <lb/>
+                  alloués à toutes les provinces, ce sera <lb/> d'autant mieux et une preuve qu'il
+                  se ressent <lb/> d'autant moins de l'impôt. (Ecoutez!) <lb/> L'hon. membre a
+                  attaqué la constitution <lb/> projetée du conseil législatif et insisté non <lb/>
+                  seulement à ce qu'il reste électif, mais encore <lb/> à ce que le principe de la
+                  représentation <lb/> d'après le nombre prévalut. Mais qui a <lb/> jamais entendu
+                  parler que sous une consti<lb break="no"/>tution fédérale la chambre haute put
+                  être <lb/> formée sur ce principe? Si cela pouvait lo<lb break="no"/>giquement s
+                  faire, le meilleur moyen serait <lb/> de n'avoir qu'une chambre, car deux<lb/>
+                  chambres élues sur le principe de la repré<lb break="no"/>sentation d'après le
+                  nombre ne feraient que <lb/> se combattre l'une l'autre, et ainsi placé <lb/>
+                  entre elles deux, le gouvernement serait dans <lb/> l'impossibilité de ne rien
+                  faire. En pareil <lb/> cas, les plus forts feraient la loi aux plus <lb/> faibles!
+                  Ce principe a été complétement <lb/> étudié avant l'adoption d'une constitution
+                  <lb/> pour les Etats-Unis, d'après laquelle il est <lb/> bien connu que les plus
+                  petits Etats sont <lb/> représentés au sénat par le même nombre de <lb/> sénateurs
+                  que les plus grands, c'est-à-dire <lb/> par deux sénateurs. Le même principe a
+                  <lb/> été suivi pour ce projet et pour la<lb/> raison: protéger les plus faibles
+                  contre <lb/> les plus forts. [Ecoutez !] Le sujet <lb/> discuté ensuite par l'hon.
+                  membre a trait <lb/> aux écoles communes et au fonds que <lb/> devait créer l'acte
+                  de 1849, mais, comme il <lb/> en a été informé, une des dispositions de <lb/>
+                  cette loi—celle concernant ce fonds,—n'a <lb/> jamais été mise à effet. Quant aux
+                  autres, <lb/> mon hon. ami le commissaire des terres <lb/> de la couronne, a déjà
+                  dit que le million<lb/> d'acres de terre avait été réservé, qu'un <lb/> fonds se
+                  créait d'année en année, et que le <lb/>
+                  <cb/> parlement vote chaque année un crédit d'en<lb break="no"/>viron $100, 000
+                  pour le soutien des écoles. <lb/> Le Haut-Canada n'a donc souffert aucune <lb/>
+                  injustice sous ce rapport. (Ecoutez !) L'hon. <lb/> membre a terminé ses
+                  observations par une <lb/> sombre peinture de la condition du Canada. <lb/> A
+                  l'entendre, notre pays serait à la veille de la <lb/>
+               </p>
 
 
      
@@ -1586,448 +1386,270 @@ adoptant ces résolutions. (Ecoutez ! écoutez!) <lb/>
             <pb n="79" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0079.jpg"/>
             <fw type="num">79</fw>
 
-<p> L'HON. M. ALEXANDER. —Je suis sûr<lb/>
-que les membres du gouvernement désirent <lb/>
-que cette grande question soit discutée aussi <lb/>
-librement et complétement que possible; je <lb/>
-suis sûr qu'ils verront avec plaisir aucun <lb/>
-membre de cette chambre signaler franche<lb break="no"/>ment les détails qui lui semblent défectueux; <lb/>
-je suis sûr enfin que les recommandations <lb/>
-faites par les hons. MM. qui représentent <lb/>
-les divisions de Victoria et Wellington <lb/>
-seront dûment pesées par l'administration <lb/>
-actuelle ainsi que toute recommandation <lb/>
-faite à bonne intention.
-Quelques membres <lb/>
-des deux branches de la législature semblent <lb/>
-totalement opposés au projet de confédé<lb break="no"/>ration. Ils prétendent les changements
-<lb/>
-constitutionnels proposés sont imprudents <lb/>
-et remplis des plus grands dangers. L'hon. <lb/>
-membre pour la division de
-Niagara <lb/>
-(l'hon. M. CURRIE) me semble être de <lb/>
-ce nombre, si j'en juge par l'appel éner<lb break="no"/>gique qu'il a fait à  cette
-chambre contre le <lb/>
-projet entier, et je vais essayer de répondre <lb/>
-à quelques uns des arguments par lui pré<lb break="no"/>sentés avec autant d'habileté que de force. <lb/>
-Il récuse dés l'abord la manière dont la con<lb break="no"/>vention a été formée; il n'ajoute
-aucune foi <lb/>
-à ses délibérations. Il soutient
-audacieuse<lb break="no"/>ment que l'union sera désavantageuse et <lb/>
-préjudiciable aux provinces-unies. Il s'ap<lb break="no"/>puie sur des calculs préparés à l'avance pour <lb/>
-montrer que nos charges se trouveront
-aug<lb break="no"/>mentées de $3,000,000 par
-année—augmen<lb break="no"/>tation qui accablera l'industrie de la province <lb/>
-du Canada. Je ne puis m'expliquer où il a <lb/>
-trouvé des chiffres pour arriver à une telle <lb/>
-conclusion. Il est facile de nous faire une <lb/>
-juste idée de ce que sera la position finan<lb break="no"/>cière des gouvernements fédéral et locaux <lb/>
-projetés. En évaluant le revenu total de ces <lb/>
-provinces d'après les rapports de 1863
-<lb/>
-nous trouvons que le gouvernement général <lb/>
-aura à
-sa disposition un revenu net, après <lb/>
-avoir payé une subvention de quatre- <lb break="yes"/>
-vingts centins aux gouvernements locaux, <lb/>
-de $9,648,108 ; de plus, les
-calculs <lb/>
-les plus probables démontrent que les <lb/>
-dépenses du gouvernement général n'excé<lb break="no"/>deront pas $9, 000,000. Il va sans dire que <lb/>
-certains octrois d'argent ne sont
-pas compris <lb/>
-dans les dépenses ordinaires. Nous devrons, <lb/>
-par exemple, construire le chemin
-de fer <lb/>
-intercolonial et élargir et
-creuser les canaux <lb/>
-du St. Laurent. En accordant,
-pour <lb/>
-ces deux items, le montant de $25,000,000, <lb/>
-personne ne prétendra que nous ne pou<lb break="no"/>vons pas trouver cette somme à 4 pour<lb/>
-cent avec la garantie impériale. Le trésor<lb/>
-            
-
- 
-            <cb/>
-
-fédéral se trouvera ainsi grevé d'une somme <lb/>
-annuelle de $1,000,000 qu'il
-pourra, comme <lb/>
-je vais le prouver, payer de la manière
-sui<lb break="no"/>vante : il dépend de nous de savoir si <lb/>
-nous pourrons faire face aux dépenses ordi<lb break="no"/>naires et payer l'intérêt de la
-dette fédérale <lb/>
-avec le montant déjà cité de $9,643,108. <lb/>
-Or, la plupart des négociants avoueront <lb/>
-qu'avec la faculté d'imposer un tarif et des <lb/>
-droits d'accise uniformes dans tout le terri<lb break="no"/>toire des provinces-unies nous prélèverons <lb/>
-une somme suffisante pour payer
-cet item <lb/>
-considérable. Mais, comme je l'ai dit <lb/>
-dans une autre circonstance, à l'aurore <lb/>
-de notre nouvelle nationalité nous devons <lb/>
-agir avec les plus grandes précautions et <lb/>
-la plus stricte prudence. Tout agiotage <lb/>
-public, toutes dépenses extravagantes doivent <lb/>
-être soigneusement évités et, si nous agissons
-<lb/>
-ainsi, je puis garantir à mon hon. ami de <lb/>
-Niagara que ses prévisions ne seront jamais <lb/>
-réalisées. Malgré ses sinistres prédictions au <lb/>
-sujet de l'augmentation de notre
-dette, nous <lb/>
-nous trouverons bientôt dans une
-position <lb/>
-plus avantageuse. Dans son
-habile et éner<lb break="no"/>gique discours, il a voulu tirer parti de tout <lb/>
-et n'a pas même oublié de condamner l'atti<lb break="no"/>tude de l'hon. secrétaire-provincial à
-la <lb/>
-fameuse assemblée de Harrington. Je suis <lb/>
-un de ceux qui ont voté contre le bill des <lb/>
-écoles séparées de M SCOTT.
-D'accord <lb/>
-avec les électeurs sérieux de Harrington <lb/>
-j'apprécie trop hautement notre admirable <lb/>
-système scolaire du Haut-Canada, qui nous <lb/>
-permet de répandre dans toutes les parties <lb/>
-du pays les bienfaits de l'éducation. Mais <lb/>
-ce n'est pas en considération de ce point <lb/>
-qu'on veut rejeter la confédération, bien <lb/>
-qu'un grand nombre de gens aient des idées <lb/>
-fort arrêtées à cet égard. Mon hon. ami a <lb/>
-insisté sur le montant qui devra être affecté
-<lb/>
- à la milice. Il sembe croire qu'une in<lb break="no"/>fluence magique peut nous donner des soldats <lb/>
-en un jour; pour réaliser une faible
-économie <lb/>
-il n'hésiterait pas, il laisserait, sans hésiter, <lb/>
-notre riche territoire et les foyers de ses <lb/>
-habitants à la merci d'un
-aggresseur impi<lb break="no"/>toyable, et ne calcule pas que
-le Canada <lb/>
-aurait par le fait de l'invasion à
-payer sa <lb/>
-part d'une dette de trois mille milions de <lb/>
-piastres, en outre de sa dette actuelle. <lb/>
-Le Haut-Canada a foi dans
-l'avenir d'un pays <lb/>
-jeune comme le notre. (Applaudissements). <lb/>
-On n'y oublie pas qu'après
-plusieurs années <lb/>
-de déficit dans notre revenu et
-malgré d'assez <lb/>
-mauvaises récoltes, nous pouvons constater <lb/>
-en ce moment une augmentation notable de <lb/>
-notre revenu.  En consolidant de
-vastes <lb/>
-
- 
-
-            <pb n="80" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0080.jpg"/>
-            <fw type="num">80</fw>
-           
-intérêts dont dépend notre avenir, nous
-pren<lb break="no"/>drons un rang plus élevé parmi les nations, <lb/>
-notre population augmentera en même temps <lb/>
-que notre commerce et nos revenus, et si les <lb/>
-grandes améliorations que nous devons faire <lb/>
-accroissent momentanément notre dette, <lb/>
-notre nouvelle prospérité nous fera trouver <lb/>
-le fardeau bien léger. Une foule de cir<lb break="no"/>constances se réunissent pour nous faire voir <lb/>
-favorablement ce grand projet—fruit de la <lb/>
-longue expérience et des méditations pro<lb break="no"/>fondes des hommes politiques les plus mar<lb break="no"/>quants de ces provinces. (Applaudisse<lb break="no"/>ments.) Nous pouvons sans crainte l'accep<lb break="no"/>ter et le mettre à l'essai, comme le meilleur <lb/>
-moyen de parer aux difficultés qui ont <lb/>
-entravé notre législation. Il est vrai que, <lb/>
-jusqu'à ce jour, nous avons été
-opposés à la <lb/>
-construction du chemin de fer intercolonial, <lb/>
-parce que nous avions des doutes sérieux sur <lb/>
-la valeur commerciale de cette entreprise et <lb/>
-sur ses chances de prospérité. Mais tout le <lb/>
-monde reconnaître que l'attitude hostile <lb/>
-prise par la république voisine, en ce qui <lb/>
-concerne les relations commerciales des deux <lb/>
-pays, oblige notre prudence à nous assurer, <lb/>
-pendant l'hiver, une grande voie de commu<lb break="no"/>nication avec l'océan—route commune au <lb/>
-commerce du monde entier. (Ecoutez !) <lb/>
-Il y a plus, nous nous trouverions alors dans <lb/>
-une position beaucoup plus forte pour renou<lb break="no"/>veler ou modifier sur des bases équitables le <lb/>
-traité de réciprocité. Cette grande entre<lb break="no"/>prise publique forme partie essentielle du <lb/>
-projet et le gouvernement nous donne l'assu<lb break="no"/>rance qu'on approfondira et élargira les canaux <lb/>
-du St. Laurent, en même temps qu'on cons<lb break="no"/>truira le chemin de fer intercolonial. Il ne <lb/>
-peut que résulter du bien de l'union, si <lb/>
-justice est rendue à toutes les parties con<lb break="no"/>tractantes. Dans la question des finances, la <lb/>
-proposition d'assumer les dettes des diffé<lb break="no"/>rentes provinces sur une certaine base et d'im <lb/>
-poser un tarif uniforme, avec certaines <lb/>
-stipulations raisonnables, est peut-être le <lb/>
-meilleur moyen de ne point léser tant d'in<lb break="no"/>térêts divers. Nos délégués ont demandé, <lb/>
-et nous demandons aujourd'hui que la sub<lb break="no"/>vention payable par le gouvernement général <lb/>
-à chacune des provinces soit de 80 centins <lb/>
-par tête, le montant total devant être déter<lb break="no"/>miné par les chiffres d'un recensement qui <lb/>
-se renouvellera tous les dix ans; cette de<lb break="no"/>mande semble juste et équitable. Mais ce <lb/>
-n'est pas le moment de m'étendre sur ce point <lb/>
-ni d'insister sur les détails qui offusquent <lb/>
-aujourd'hui mes commettants, je me réserve <lb/>
-de le faire lorsque nous discuterons les 
-
-            <cb/>
-           
-résolutions <hi rendition="simple:italic">seriatim</hi>.
-En terminant, je ferai <lb/>
-observer que les hommes les plus éclairés ne <lb/>
-voient que faiblesse et incertitude dans notre <lb/>
-position actuelle où tout est morcelé, tandis <lb/>
-que l'union projetée leur apparaît
-comme la <lb/>
-source de notre importance, de notre sécurité <lb/>
-et de notre force dans l'avenir et un gage que <lb/>
-notre crédit s'augmentera et que la confiance <lb/>
-en nos ressources amènera vers nous une d'être
-<lb/>
-fiers de notre développement prodigieux <lb/>
-pendant les vingt-cinq dernières années, et <lb/>
-nous pouvons entrer avec confiance dans <lb/>
-l'union projetée qui augmentera notre terri<lb break="no"/>toire, notre population et notre puissance. <lb/>
-Nous débutons dans la carrière avec un <lb/>
-trafic qui excède $137,000,000,
-des ressources <lb/>
-que nous avons à développer,—ressources <lb/>
-inépuisables,—et nul obstacle ne s'oppose à <lb/>
-notre avancement matériel. (Ecoutez ! ) <lb/>
-Nous devons comprendre qu'un si vaste <lb/>
-champ ouvert à l'activité
-humaine donnera <lb/>
- à nos populations des aspirations plus élevées <lb/>
-et leur fera chérir ce que certaines personnes <lb/>
-peuvent encore appeler un rêve. L'empire <lb/>
-Russe étend sa puissance de la mer Noire au <lb/>
-pôle nord. L'Amérique Britannique du Nord <lb/>
-peut viser à la domination du
-nord de ce <lb/>
-continent, et ce nouvel empire se distinguera <lb/>
-par la sagesse et la stabilité de ses institu<lb break="no"/>tions en s'efforçant de rivaliser
-avec les grandes <lb/>
-nations dont nous tirons notre origine, dans <lb/>
-la pratique des mâles vertus et
-la diffusion <lb/>
-d'une civilisation supérieure partout où ses <lb/>
-enfants iront planter leur tente. (Applau<lb break="no"/>dissements.) </p>
-            <p> L'HON. M . VIDAL.—Je partage cordia<lb break="no"/>lement l'opinion de l'hon. monsieur qui a <lb/>
-parlé en faveur d'une union des provinces, et <lb/>
-je crois avec l'hon. premier ministre que cette <lb/>
-union sera à l'avantage de toutes les pro<lb break="no"/>vinces qui en formeront partie. L'hon. pre<lb break="no"/>mier ministre a peut-être
-exagéré les choses <lb/>
-en disant que nous étions sur un plan incliné <lb/>
-et que le rejet de la confédération proposée <lb/>
-nous conduirait aux Etats-Unis, mais les ar<lb break="no"/>guments qu'il a fait valoir pour démontrer la <lb/>
-nécessité de quelque changement propre à <lb/>
-nous mettre à l'abri des difficultés à
-venir <lb/>
-sont restés sans réponse et sont même,
-je <lb/>
-crois, irrécusables. Mais ce que je ne saurais <lb/>
-approuver c'est la manière dont le projet
-a <lb/>
-été soumis au parlement, car, en définitive, <lb/>
-on nous interdit de suggérer aucune amélio<lb break="no"/>ration ou aucune modification aux détails. <lb/>
-J 'admets avec tous les hons. membres que la <lb/>
-question est de la plus haute importance, <lb/>
-que nous n'essayons pas seulement aujour<lb break="no"/><pb n="81" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0081.jpg"/>
-            <fw type="num">81</fw>d'hui de mettre fin aux animosités de parti, <lb/>
-mais que nous travaillons pour le bien-être <lb/>
-et à la prospérité de nos descendants; par <lb/>
-suite, je ne saurais convenir avec l'hon. <lb/>
-membre pour la division de Brock (l'hon.
-<lb/>
-M. BLAIR) que nous devons agir immé<lb break="no"/>diatement et que tout délai sera fatal. <lb/>
-On a dit que le pays était suffisamment
-<lb/>
-préparé à ce changement ; telle
-n'est pas<lb/>
-mon opinion. On n'a point consulté les <lb/>
-représentants du peuple sur les détails <lb/>
-quand le peuple même devrait pouvoir <lb/>
-se prononcer. On présuppose que le plan <lb/>
-de confédération est parfait et
-on veut <lb/>
-que la chambre l'adopte sans y apporter <lb/>
-aucune modification; on assure que les neuf<lb break="no"/>dixièmes de la population sont en faveur du <lb/>
-projet ; cela peut-être vrai pour l'ensemble, <lb/>
-mais bien des détails rencontreront de l'oppo<lb break="no"/>sition. Il est regrettable que les " résolu<lb break="no"/>tions" n'aient pas été présentées de
-manière à <lb/>
-permettre à la chambre
-d'exprimer ses vues <lb/>
-sur les détails inacceptables et de suggérer
-<lb/>
-aux autorités impériales, qui dresseront le <lb/>
-projet de loi, les amendements qu'elle aurait <lb/>
-jugés désirables. L'hon. membre pour <lb/>
-Wellington (l'hon. M. SANBORN)
-a fait <lb/>
-erreur en proposent son amendement;— <lb/>
-à proprement parler, les
-résolutions ne <lb/>
-sont autre chose qu'une convention passée <lb/>
-entre des parties étrangères à la chambre, <lb/>
-et dont on nous donne simplement avis ;<lb break="no"/>par suite, nous ne pouvons rien y changer,<lb/>
-rien y modifier. Nous sommes dans <lb/>
-une fausse position; d'une part on nous <lb/>
-invite à  discuter librement
-cette grande <lb/>
-question, on demande notre avis et assistance, <lb/>
-mais en même temps on nous informe qu'au<lb break="no"/>cun changement n'est possible,
-en un mot <lb/>
-on nous demande de voter les yeux fermés. <lb/>
-Parmi les opinions diverses au sujet du bien <lb/>
-ou du mal que pourra produire la
-confédé<lb break="no"/>ration, un fait reste constant c'est que les <lb/>
-dépenses publiques seront de beaucoup aug<lb break="no"/>mentées. Sans trop spécifier, le
-Canada, par <lb/>
-exemple, devra maintenir deux législatures <lb/>
-locales et payer en outre sa
-part au budget <lb/>
-du gouvememsnt fédéral; or, cette
-part ne <lb/>
-sera pas moindre que les dépenses actuelles. <lb/>
-Quant au changement proposé dans la for<lb break="no"/>mation du conseil législatif je pense
-avec <lb/>
-l'hon. membre pour division de Niagara
-<lb/>
-(l'hon. M. CURRIE),
-que c'est une mesure <lb/>
-peu sage, car enfin de quel droit priver <lb/>
-les électeurs de leurs franchises sans même <lb/>
-les consulter? Mes électeurs m'ont
-envoyé <lb/>
-ici pour légiférer en vertu de la
-constitution <lb/>
-          
-            <cb/>   
-           
- actuelle, mais non pas pour changer cette
-<lb/>
-constitution. L'expérience a prouvé que <lb/>
-le système électif était
-avantageux, pourquoi <lb/>
-le changer, pourquoi faire un pas en arrière?<lb break="no"/>Le pays ne demande nullement cela. On a <lb/>
-beaucoup parlé du danger d'un conflit entre <lb/>
-les deux chambres électives: chose remar<lb break="no"/>quable, avec le système actuel, nous n'avons <lb/>
-jamais eu cette difficulté,
-tandis qu'en <lb/>
-Angleterre et en Canada, avant l'introduction <lb/>
-du système électif, la couronne a souvent <lb/>
-été appelée à régler des difficultés de ce <lb/>
-genre en nommant des membres
-additionnels. <lb/>
-Or, quelle sera la position de la chambre <lb/>
-sous la nouvelle constitution? Ce sera le <lb/>
-corps le moins responsable du monde; si un <lb/>
-conflit a lieu elle n'aura aucun moyen d'en <lb/>
-sortir, car les chances de
-décès, de rési<lb break="no"/>gnation ou d'acceptation de charges ne seront <lb/>
-pas, bien qu'on en ait dit, suffisantes pour <lb/>
-mettre le gouvernement à même de
-sur<lb break="no"/>monter ces embarras ; telle est, paraît-il, l'opi<lb break="no"/>nion du secrétaire des colonies et, selon <lb/>
-toutes probabilités, il faudra laisser à la <lb/>
-couronne la liberté absolue d'exercer sa <lb/>
-prérogative de nomination. Je n'entrerai pas
-<lb/>
-dans de plus longs détails
-puisque les " réso<lb break="no"/>lutions" doivent être discutées <hi rendition="simple:italic">seriatim</hi>—Je
-<lb/>
-demanderai toutefois, en terminant, à quoi va <lb/>
-servir cette discussion
-puisqu'il s'agit seule<lb break="no"/>ment d'adopter ou de rejeter, sans avoir le <lb/>
-droit d'y faire aucun changement, le projet <lb/>
-qui nous est soumis. <lb/>
-            </p>
-            <p> L'Hon. Sir E. P. TACHÉ.—Je dois <lb/>
-déclarer que le projet doit être adopté ou <lb/>
-rejeté dans son ensemble pour la raison qu'il <lb/>
-est le fruit des délibérations non seulement <lb/>
-du gouvernement canadien, mais aussi des <lb/>
-autres provinces. Il ne suit pas de là que <lb/>
-les députés qui peuvent différer
-d'opinion sur <lb/>
-certains détails, n'aient pas le droit de faire <lb/>
-inscrire leur dissentiment dans les journaux <lb/>
-de cette chambre. Si les amendements <lb/>
-proposés sont emportés, la motion à l'effet
-<lb/>
-de proposer une adresse devra
-être retirée, <lb/>
-mais, s'ils sont repoussés, alors les députés
-<lb/>
-qui les ont appuyés auront l'avantage de <lb/>
-faire inscrire leurs votes. Autrefois, avant <lb/>
-qu'on eût adopté le système d'enregistrer les <lb/>
-voix pour et contre, il était d'usage pour les <lb/>
-membres qui s'opposaient à une
-mesure <lb/>
-en particulier, d' entrer, conformément à <lb/>
-la pratique de la chambre des lords, un
-<lb/>
-protêt sur les journaux, dans lequel étaient <lb/>
-assignées les raisons du dissentiment, et <lb/>
-à l'heure qu'il est, je ne sache pas qu'il <lb/>
-existe de règle qui empêche d'avoir recours <lb/>
-           
-            <pb n="82" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0082.jpg"/>
-            <fw type="num">82</fw>
-          
-à ce
-mode dans la présente occasion. Je <lb/>
-terminerai en disant que les honorables <lb/>
-députés ont toute liberté de proposer des <lb/>
-amendements, et, par ce moyen, de faire <lb/>
-connaître au pays les opinions
-qu'ils entre<lb break="no"/>tiennent à ce sujet. <lb/>
-            </p>
+<p>
+                  <persName ref="pers:ALEX1">L'HON. M. ALEXANDER</persName>. —Je suis sûr<lb/> que les membres du
+                  gouvernement désirent <lb/> que cette grande question soit discutée aussi <lb/>
+                  librement et complétement que possible; je <lb/> suis sûr qu'ils verront avec
+                  plaisir aucun <lb/> membre de cette chambre signaler franche<lb break="no"/>ment
+                  les détails qui lui semblent défectueux; <lb/> je suis sûr enfin que les
+                  recommandations <lb/> faites par les hons. MM. qui représentent <lb/> les
+                  divisions de Victoria et Wellington <lb/> seront dûment pesées par
+                  l'administration <lb/> actuelle ainsi que toute recommandation <lb/> faite à bonne
+                  intention. Quelques membres <lb/> des deux branches de la législature semblent
+                  <lb/> totalement opposés au projet de confédé<lb break="no"/>ration. Ils
+                  prétendent les changements <lb/> constitutionnels proposés sont imprudents <lb/>
+                  et remplis des plus grands dangers. L'hon. <lb/> membre pour la division de
+                  Niagara <lb/> (l'hon. M. CURRIE) me semble être de <lb/> ce nombre, si j'en juge
+                  par l'appel éner<lb break="no"/>gique qu'il a fait à cette chambre contre le <lb/>
+                  projet entier, et je vais essayer de répondre <lb/> à quelques uns des arguments
+                  par lui pré<lb break="no"/>sentés avec autant d'habileté que de force. <lb/> Il
+                  récuse dés l'abord la manière dont la con<lb break="no"/>vention a été formée; il
+                  n'ajoute aucune foi <lb/> à ses délibérations. Il soutient audacieuse<lb
+                     break="no"/>ment que l'union sera désavantageuse et <lb/> préjudiciable aux
+                  provinces-unies. Il s'ap<lb break="no"/>puie sur des calculs préparés à l'avance
+                  pour <lb/> montrer que nos charges se trouveront aug<lb break="no"/>mentées de
+                  $3,000,000 par année—augmen<lb break="no"/>tation qui accablera l'industrie de la
+                  province <lb/> du Canada. Je ne puis m'expliquer où il a <lb/> trouvé des chiffres
+                  pour arriver à une telle <lb/> conclusion. Il est facile de nous faire une <lb/>
+                  juste idée de ce que sera la position finan<lb break="no"/>cière des gouvernements
+                  fédéral et locaux <lb/> projetés. En évaluant le revenu total de ces <lb/>
+                  provinces d'après les rapports de 1863 <lb/> nous trouvons que le gouvernement
+                  général <lb/> aura à sa disposition un revenu net, après <lb/> avoir payé une
+                  subvention de quatre- <lb break="yes"/> vingts centins aux gouvernements locaux,
+                  <lb/> de $9,648,108 ; de plus, les calculs <lb/> les plus probables démontrent que
+                  les <lb/> dépenses du gouvernement général n'excé<lb break="no"/>deront pas $9,
+                  000,000. Il va sans dire que <lb/> certains octrois d'argent ne sont pas compris
+                  <lb/> dans les dépenses ordinaires. Nous devrons, <lb/> par exemple, construire le
+                  chemin de fer <lb/> intercolonial et élargir et creuser les canaux <lb/> du St.
+                  Laurent. En accordant, pour <lb/> ces deux items, le montant de $25,000,000, <lb/>
+                  personne ne prétendra que nous ne pou<lb break="no"/>vons pas trouver cette somme
+                  à 4 pour<lb/> cent avec la garantie impériale. Le trésor<lb/>
+                  <cb/> fédéral se trouvera ainsi grevé d'une somme <lb/> annuelle de $1,000,000
+                  qu'il pourra, comme <lb/> je vais le prouver, payer de la manière sui<lb
+                     break="no"/>vante : il dépend de nous de savoir si <lb/> nous pourrons faire
+                  face aux dépenses ordi<lb break="no"/>naires et payer l'intérêt de la dette
+                  fédérale <lb/> avec le montant déjà cité de $9,643,108. <lb/> Or, la plupart des
+                  négociants avoueront <lb/> qu'avec la faculté d'imposer un tarif et des <lb/>
+                  droits d'accise uniformes dans tout le terri<lb break="no"/>toire des
+                  provinces-unies nous prélèverons <lb/> une somme suffisante pour payer cet item
+                  <lb/> considérable. Mais, comme je l'ai dit <lb/> dans une autre circonstance, à
+                  l'aurore <lb/> de notre nouvelle nationalité nous devons <lb/> agir avec les plus
+                  grandes précautions et <lb/> la plus stricte prudence. Tout agiotage <lb/> public,
+                  toutes dépenses extravagantes doivent <lb/> être soigneusement évités et, si nous
+                  agissons <lb/> ainsi, je puis garantir à mon hon. ami de <lb/> Niagara que ses
+                  prévisions ne seront jamais <lb/> réalisées. Malgré ses sinistres prédictions au
+                  <lb/> sujet de l'augmentation de notre dette, nous <lb/> nous trouverons bientôt
+                  dans une position <lb/> plus avantageuse. Dans son habile et éner<lb break="no"
+                  />gique discours, il a voulu tirer parti de tout <lb/> et n'a pas même oublié de
+                  condamner l'atti<lb break="no"/>tude de l'hon. secrétaire-provincial à la <lb/>
+                  fameuse assemblée de Harrington. Je suis <lb/> un de ceux qui ont voté contre le
+                  bill des <lb/> écoles séparées de M SCOTT. D'accord <lb/> avec les électeurs
+                  sérieux de Harrington <lb/> j'apprécie trop hautement notre admirable <lb/>
+                  système scolaire du Haut-Canada, qui nous <lb/> permet de répandre dans toutes les
+                  parties <lb/> du pays les bienfaits de l'éducation. Mais <lb/> ce n'est pas en
+                  considération de ce point <lb/> qu'on veut rejeter la confédération, bien <lb/>
+                  qu'un grand nombre de gens aient des idées <lb/> fort arrêtées à cet égard. Mon
+                  hon. ami a <lb/> insisté sur le montant qui devra être affecté <lb/> à la milice.
+                  Il sembe croire qu'une in<lb break="no"/>fluence magique peut nous donner des
+                  soldats <lb/> en un jour; pour réaliser une faible économie <lb/> il n'hésiterait
+                  pas, il laisserait, sans hésiter, <lb/> notre riche territoire et les foyers de
+                  ses <lb/> habitants à la merci d'un aggresseur impi<lb break="no"/>toyable, et ne
+                  calcule pas que le Canada <lb/> aurait par le fait de l'invasion à payer sa <lb/>
+                  part d'une dette de trois mille milions de <lb/> piastres, en outre de sa dette
+                  actuelle. <lb/> Le Haut-Canada a foi dans l'avenir d'un pays <lb/> jeune comme le
+                  notre. (Applaudissements). <lb/> On n'y oublie pas qu'après plusieurs années <lb/>
+                  de déficit dans notre revenu et malgré d'assez <lb/> mauvaises récoltes, nous
+                  pouvons constater <lb/> en ce moment une augmentation notable de <lb/> notre
+                  revenu. En consolidant de vastes <lb/>
+                  <pb n="80" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0080.jpg"/>
+                  <fw type="num">80</fw> intérêts dont dépend notre avenir, nous pren<lb break="no"
+                  />drons un rang plus élevé parmi les nations, <lb/> notre population augmentera en
+                  même temps <lb/> que notre commerce et nos revenus, et si les <lb/> grandes
+                  améliorations que nous devons faire <lb/> accroissent momentanément notre dette,
+                  <lb/> notre nouvelle prospérité nous fera trouver <lb/> le fardeau bien léger. Une
+                  foule de cir<lb break="no"/>constances se réunissent pour nous faire voir <lb/>
+                  favorablement ce grand projet—fruit de la <lb/> longue expérience et des
+                  méditations pro<lb break="no"/>fondes des hommes politiques les plus mar<lb
+                     break="no"/>quants de ces provinces. (Applaudisse<lb break="no"/>ments.) Nous
+                  pouvons sans crainte l'accep<lb break="no"/>ter et le mettre à l'essai, comme le
+                  meilleur <lb/> moyen de parer aux difficultés qui ont <lb/> entravé notre
+                  législation. Il est vrai que, <lb/> jusqu'à ce jour, nous avons été opposés à la
+                  <lb/> construction du chemin de fer intercolonial, <lb/> parce que nous avions des
+                  doutes sérieux sur <lb/> la valeur commerciale de cette entreprise et <lb/> sur
+                  ses chances de prospérité. Mais tout le <lb/> monde reconnaître que l'attitude
+                  hostile <lb/> prise par la république voisine, en ce qui <lb/> concerne les
+                  relations commerciales des deux <lb/> pays, oblige notre prudence à nous assurer,
+                  <lb/> pendant l'hiver, une grande voie de commu<lb break="no"/>nication avec
+                  l'océan—route commune au <lb/> commerce du monde entier. (Ecoutez !) <lb/> Il y a
+                  plus, nous nous trouverions alors dans <lb/> une position beaucoup plus forte pour
+                     renou<lb break="no"/>veler ou modifier sur des bases équitables le <lb/> traité
+                  de réciprocité. Cette grande entre<lb break="no"/>prise publique forme partie
+                  essentielle du <lb/> projet et le gouvernement nous donne l'assu<lb break="no"
+                  />rance qu'on approfondira et élargira les canaux <lb/> du St. Laurent, en même
+                  temps qu'on cons<lb break="no"/>truira le chemin de fer intercolonial. Il ne <lb/>
+                  peut que résulter du bien de l'union, si <lb/> justice est rendue à toutes les
+                  parties con<lb break="no"/>tractantes. Dans la question des finances, la <lb/>
+                  proposition d'assumer les dettes des diffé<lb break="no"/>rentes provinces sur une
+                  certaine base et d'im <lb/> poser un tarif uniforme, avec certaines <lb/>
+                  stipulations raisonnables, est peut-être le <lb/> meilleur moyen de ne point léser
+                  tant d'in<lb break="no"/>térêts divers. Nos délégués ont demandé, <lb/> et nous
+                  demandons aujourd'hui que la sub<lb break="no"/>vention payable par le
+                  gouvernement général <lb/> à chacune des provinces soit de 80 centins <lb/> par
+                  tête, le montant total devant être déter<lb break="no"/>miné par les chiffres d'un
+                  recensement qui <lb/> se renouvellera tous les dix ans; cette de<lb break="no"
+                  />mande semble juste et équitable. Mais ce <lb/> n'est pas le moment de m'étendre
+                  sur ce point <lb/> ni d'insister sur les détails qui offusquent <lb/> aujourd'hui
+                  mes commettants, je me réserve <lb/> de le faire lorsque nous discuterons les
+                  <cb/> résolutions <hi rendition="simple:italic">seriatim</hi>. En terminant, je
+                  ferai <lb/> observer que les hommes les plus éclairés ne <lb/> voient que
+                  faiblesse et incertitude dans notre <lb/> position actuelle où tout est morcelé,
+                  tandis <lb/> que l'union projetée leur apparaît comme la <lb/> source de notre
+                  importance, de notre sécurité <lb/> et de notre force dans l'avenir et un gage que
+                  <lb/> notre crédit s'augmentera et que la confiance <lb/> en nos ressources
+                  amènera vers nous une d'être <lb/> fiers de notre développement prodigieux <lb/>
+                  pendant les vingt-cinq dernières années, et <lb/> nous pouvons entrer avec
+                  confiance dans <lb/> l'union projetée qui augmentera notre terri<lb break="no"
+                  />toire, notre population et notre puissance. <lb/> Nous débutons dans la carrière
+                  avec un <lb/> trafic qui excède $137,000,000, des ressources <lb/> que nous avons
+                  à développer,—ressources <lb/> inépuisables,—et nul obstacle ne s'oppose à <lb/>
+                  notre avancement matériel. (Ecoutez ! ) <lb/> Nous devons comprendre qu'un si
+                  vaste <lb/> champ ouvert à l'activité humaine donnera <lb/> à nos populations des
+                  aspirations plus élevées <lb/> et leur fera chérir ce que certaines personnes
+                  <lb/> peuvent encore appeler un rêve. L'empire <lb/> Russe étend sa puissance de
+                  la mer Noire au <lb/> pôle nord. L'Amérique Britannique du Nord <lb/> peut viser à
+                  la domination du nord de ce <lb/> continent, et ce nouvel empire se distinguera
+                  <lb/> par la sagesse et la stabilité de ses institu<lb break="no"/>tions en
+                  s'efforçant de rivaliser avec les grandes <lb/> nations dont nous tirons notre
+                  origine, dans <lb/> la pratique des mâles vertus et la diffusion <lb/> d'une
+                  civilisation supérieure partout où ses <lb/> enfants iront planter leur tente.
+                     (Applau<lb break="no"/>dissements.) </p>
+            <p>
+                  <persName ref="pers:VIDA1">L'HON. M . VIDAL</persName>.—Je partage cordia<lb break="no"/>lement
+                  l'opinion de l'hon. monsieur qui a <lb/> parlé en faveur d'une union des
+                  provinces, et <lb/> je crois avec l'hon. premier ministre que cette <lb/> union
+                  sera à l'avantage de toutes les pro<lb break="no"/>vinces qui en formeront partie.
+                  L'hon. pre<lb break="no"/>mier ministre a peut-être exagéré les choses <lb/> en
+                  disant que nous étions sur un plan incliné <lb/> et que le rejet de la
+                  confédération proposée <lb/> nous conduirait aux Etats-Unis, mais les ar<lb
+                     break="no"/>guments qu'il a fait valoir pour démontrer la <lb/> nécessité de
+                  quelque changement propre à <lb/> nous mettre à l'abri des difficultés à venir
+                  <lb/> sont restés sans réponse et sont même, je <lb/> crois, irrécusables. Mais ce
+                  que je ne saurais <lb/> approuver c'est la manière dont le projet a <lb/> été
+                  soumis au parlement, car, en définitive, <lb/> on nous interdit de suggérer aucune
+                     amélio<lb break="no"/>ration ou aucune modification aux détails. <lb/> J
+                  'admets avec tous les hons. membres que la <lb/> question est de la plus haute
+                  importance, <lb/> que nous n'essayons pas seulement aujour<lb break="no"/><pb
+                     n="81" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0081.jpg"/>
+                  <fw type="num">81</fw>d'hui de mettre fin aux animosités de parti, <lb/> mais que
+                  nous travaillons pour le bien-être <lb/> et à la prospérité de nos descendants;
+                  par <lb/> suite, je ne saurais convenir avec l'hon. <lb/> membre pour la division
+                  de Brock (l'hon. <lb/> M. BLAIR) que nous devons agir immé<lb break="no"
+                  />diatement et que tout délai sera fatal. <lb/> On a dit que le pays était
+                  suffisamment <lb/> préparé à ce changement ; telle n'est pas<lb/> mon opinion. On
+                  n'a point consulté les <lb/> représentants du peuple sur les détails <lb/> quand
+                  le peuple même devrait pouvoir <lb/> se prononcer. On présuppose que le plan <lb/>
+                  de confédération est parfait et on veut <lb/> que la chambre l'adopte sans y
+                  apporter <lb/> aucune modification; on assure que les neuf<lb break="no"/>dixièmes
+                  de la population sont en faveur du <lb/> projet ; cela peut-être vrai pour
+                  l'ensemble, <lb/> mais bien des détails rencontreront de l'oppo<lb break="no"
+                  />sition. Il est regrettable que les " résolu<lb break="no"/>tions" n'aient pas
+                  été présentées de manière à <lb/> permettre à la chambre d'exprimer ses vues <lb/>
+                  sur les détails inacceptables et de suggérer <lb/> aux autorités impériales, qui
+                  dresseront le <lb/> projet de loi, les amendements qu'elle aurait <lb/> jugés
+                  désirables. L'hon. membre pour <lb/> Wellington (l'hon. M. SANBORN) a fait <lb/>
+                  erreur en proposent son amendement;— <lb/> à proprement parler, les résolutions ne
+                  <lb/> sont autre chose qu'une convention passée <lb/> entre des parties étrangères
+                  à la chambre, <lb/> et dont on nous donne simplement avis ;<lb break="no"/>par
+                  suite, nous ne pouvons rien y changer,<lb/> rien y modifier. Nous sommes dans
+                  <lb/> une fausse position; d'une part on nous <lb/> invite à discuter librement
+                  cette grande <lb/> question, on demande notre avis et assistance, <lb/> mais en
+                  même temps on nous informe qu'au<lb break="no"/>cun changement n'est possible, en
+                  un mot <lb/> on nous demande de voter les yeux fermés. <lb/> Parmi les opinions
+                  diverses au sujet du bien <lb/> ou du mal que pourra produire la confédé<lb
+                     break="no"/>ration, un fait reste constant c'est que les <lb/> dépenses
+                  publiques seront de beaucoup aug<lb break="no"/>mentées. Sans trop spécifier, le
+                  Canada, par <lb/> exemple, devra maintenir deux législatures <lb/> locales et
+                  payer en outre sa part au budget <lb/> du gouvememsnt fédéral; or, cette part ne
+                  <lb/> sera pas moindre que les dépenses actuelles. <lb/> Quant au changement
+                  proposé dans la for<lb break="no"/>mation du conseil législatif je pense avec
+                  <lb/> l'hon. membre pour division de Niagara <lb/> (l'hon. M. CURRIE), que c'est
+                  une mesure <lb/> peu sage, car enfin de quel droit priver <lb/> les électeurs de
+                  leurs franchises sans même <lb/> les consulter? Mes électeurs m'ont envoyé <lb/>
+                  ici pour légiférer en vertu de la constitution <lb/>
+                  <cb/> actuelle, mais non pas pour changer cette <lb/> constitution. L'expérience a
+                  prouvé que <lb/> le système électif était avantageux, pourquoi <lb/> le changer,
+                  pourquoi faire un pas en arrière?<lb break="no"/>Le pays ne demande nullement
+                  cela. On a <lb/> beaucoup parlé du danger d'un conflit entre <lb/> les deux
+                  chambres électives: chose remar<lb break="no"/>quable, avec le système actuel,
+                  nous n'avons <lb/> jamais eu cette difficulté, tandis qu'en <lb/> Angleterre et en
+                  Canada, avant l'introduction <lb/> du système électif, la couronne a souvent <lb/>
+                  été appelée à régler des difficultés de ce <lb/> genre en nommant des membres
+                  additionnels. <lb/> Or, quelle sera la position de la chambre <lb/> sous la
+                  nouvelle constitution? Ce sera le <lb/> corps le moins responsable du monde; si un
+                  <lb/> conflit a lieu elle n'aura aucun moyen d'en <lb/> sortir, car les chances de
+                  décès, de rési<lb break="no"/>gnation ou d'acceptation de charges ne seront <lb/>
+                  pas, bien qu'on en ait dit, suffisantes pour <lb/> mettre le gouvernement à même
+                  de sur<lb break="no"/>monter ces embarras ; telle est, paraît-il, l'opi<lb
+                     break="no"/>nion du secrétaire des colonies et, selon <lb/> toutes
+                  probabilités, il faudra laisser à la <lb/> couronne la liberté absolue d'exercer
+                  sa <lb/> prérogative de nomination. Je n'entrerai pas <lb/> dans de plus longs
+                  détails puisque les " réso<lb break="no"/>lutions" doivent être discutées <hi
+                     rendition="simple:italic">seriatim</hi>—Je <lb/> demanderai toutefois, en
+                  terminant, à quoi va <lb/> servir cette discussion puisqu'il s'agit seule<lb
+                     break="no"/>ment d'adopter ou de rejeter, sans avoir le <lb/> droit d'y faire
+                  aucun changement, le projet <lb/> qui nous est soumis. <lb/>
+               </p>
+            <p>
+                  <persName ref="pers:TACH1">L'Hon. Sir E. P. TACHÉ</persName>.—Je dois <lb/> déclarer que le projet
+                  doit être adopté ou <lb/> rejeté dans son ensemble pour la raison qu'il <lb/> est
+                  le fruit des délibérations non seulement <lb/> du gouvernement canadien, mais
+                  aussi des <lb/> autres provinces. Il ne suit pas de là que <lb/> les députés qui
+                  peuvent différer d'opinion sur <lb/> certains détails, n'aient pas le droit de
+                  faire <lb/> inscrire leur dissentiment dans les journaux <lb/> de cette chambre.
+                  Si les amendements <lb/> proposés sont emportés, la motion à l'effet <lb/> de
+                  proposer une adresse devra être retirée, <lb/> mais, s'ils sont repoussés, alors
+                  les députés <lb/> qui les ont appuyés auront l'avantage de <lb/> faire inscrire
+                  leurs votes. Autrefois, avant <lb/> qu'on eût adopté le système d'enregistrer les
+                  <lb/> voix pour et contre, il était d'usage pour les <lb/> membres qui
+                  s'opposaient à une mesure <lb/> en particulier, d' entrer, conformément à <lb/> la
+                  pratique de la chambre des lords, un <lb/> protêt sur les journaux, dans lequel
+                  étaient <lb/> assignées les raisons du dissentiment, et <lb/> à l'heure qu'il est,
+                  je ne sache pas qu'il <lb/> existe de règle qui empêche d'avoir recours <lb/>
+                  <pb n="82" facs="final/images/Ont_Que_Fr_LC_1865-02-08_Page_0082.jpg"/>
+                  <fw type="num">82</fw> à ce mode dans la présente occasion. Je <lb/> terminerai en
+                  disant que les honorables <lb/> députés ont toute liberté de proposer des <lb/>
+                  amendements, et, par ce moyen, de faire <lb/> connaître au pays les opinions
+                  qu'ils entre<lb break="no"/>tiennent à ce sujet. <lb/>
+               </p>
             <p> Cris de " ajournement !" " ajoumement !" <lb/>
             </p>
 
-            <p> L'Hon.
-M. MOORE.—Comme l'on paraît <lb/>
-se prononcer en faveur d'un ajournement, je <lb/>
-demanderai à la chambre de
-m'accorder <lb/>
-quelques minutes pour répondre à certaines <lb/>
-observations faites par le député (l'hon. <lb/>
-M. VIDAL) qui vient de s'asseoir. Bien <lb/>
-qu'en principe, je partage l'opinion émise <lb/>
-par l'hon. membre, il a, cependant, à mon <lb/>
-avis, tombé dans une erreur, c'est quand <lb/>
-il a dit que la chambre n'avait pas la <lb/>
-faculté d'amender les résolutions, mais <lb/>
-qu'elle devait les adopter ou les
-rejeter <lb/>
-dans leur ensemble. Il est vrai que le <lb/>
-gouvernement avait énoncé ce principe, <lb/>
-mais je crois que la question peut-être modi<lb break="no"/>fiée comme toute autre question soumise à<lb/>
-la chambre. Mon hon. ami a aussi dit que <lb/>
-puisqu'il était impossible de modifier ou <lb/>
-amender le projet, c'était pure perte de temps <lb/>
-que de le discuter. Je me
-permettrai à cet égard <lb/>
-de différer d'opinion avec l'hon. monsieur, <lb/>
-et je maintiens que non seulement il est <lb/>
-utile, mais même qu'il est essentiellement <lb/>
-nécessaire que les détails d'une mesure aussi <lb/>
-grave et aussi importante pour le pays soient <lb/>
-discutés à fond. Un examen calme et appro<lb break="no"/>fondi du sujet est nécessaire, et j'ai l'espoir <lb/>
-que le gouvernement ne hâtera
-pas la passa<lb break="no"/>tion de cette mesure de manière à empêcher
-<lb/>
-les représentants du peuple de se prononcer <lb/>
-franchement et sans entraves. Je crois aussi <lb/>
-qu'il serait important que les députés eussent <lb/>
-le temps d'en conférer avec leurs manda<lb break="no"/>taires. Je veux donc croire que le gouverne<lb break="no"/>ment leur permettra d'exprimer clairement <lb/>
-leurs vues, quand mêmes elles auraient le <lb/>
-résultat de susciter des amendements au <lb/>
-projet. <lb/>
-            </p>
+            <p>
+                  <persName ref="pers:MOOR1">L'Hon. M. MOORE</persName>.—Comme l'on paraît <lb/> se prononcer en
+                  faveur d'un ajournement, je <lb/> demanderai à la chambre de m'accorder <lb/>
+                  quelques minutes pour répondre à certaines <lb/> observations faites par le député
+                  (l'hon. <lb/> M. VIDAL) qui vient de s'asseoir. Bien <lb/> qu'en principe, je
+                  partage l'opinion émise <lb/> par l'hon. membre, il a, cependant, à mon <lb/>
+                  avis, tombé dans une erreur, c'est quand <lb/> il a dit que la chambre n'avait pas
+                  la <lb/> faculté d'amender les résolutions, mais <lb/> qu'elle devait les adopter
+                  ou les rejeter <lb/> dans leur ensemble. Il est vrai que le <lb/> gouvernement
+                  avait énoncé ce principe, <lb/> mais je crois que la question peut-être modi<lb
+                     break="no"/>fiée comme toute autre question soumise à<lb/> la chambre. Mon hon.
+                  ami a aussi dit que <lb/> puisqu'il était impossible de modifier ou <lb/> amender
+                  le projet, c'était pure perte de temps <lb/> que de le discuter. Je me permettrai
+                  à cet égard <lb/> de différer d'opinion avec l'hon. monsieur, <lb/> et je
+                  maintiens que non seulement il est <lb/> utile, mais même qu'il est
+                  essentiellement <lb/> nécessaire que les détails d'une mesure aussi <lb/> grave et
+                  aussi importante pour le pays soient <lb/> discutés à fond. Un examen calme et
+                     appro<lb break="no"/>fondi du sujet est nécessaire, et j'ai l'espoir <lb/> que
+                  le gouvernement ne hâtera pas la passa<lb break="no"/>tion de cette mesure de
+                  manière à empêcher <lb/> les représentants du peuple de se prononcer <lb/>
+                  franchement et sans entraves. Je crois aussi <lb/> qu'il serait important que les
+                  députés eussent <lb/> le temps d'en conférer avec leurs manda<lb break="no"
+                  />taires. Je veux donc croire que le gouverne<lb break="no"/>ment leur permettra
+                  d'exprimer clairement <lb/> leurs vues, quand mêmes elles auraient le <lb/>
+                  résultat de susciter des amendements au <lb/> projet. <lb/>
+               </p>
 
             <p> Les débats sont alors ajournés à demain. <lb/>
             </p>
