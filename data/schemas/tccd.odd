@@ -532,9 +532,9 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="constraintpersnamewhitespace2" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
-                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—]$')) or not(preceding-sibling::node())">
+                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—\[]$')) or not(preceding-sibling::node())">
                               Before a persName element, we would expect to see a space or
-                              (occasionally, perhaps) an opening quotation mark.
+                              (occasionally, perhaps) an opening quotation mark or square bracket.
                            </sch:assert>
                         </sch:rule>
                      </constraint>
