@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPCLC_fr_1865-02-28" type="template" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgPCLCoun">Conseil Législatif</name>, <date when="1865-02-28">28 Février 1865</date>, Provinces de L'Amerique Britannique du Nord, Débats de la Confédération.</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPCLC_fr_1865-02-28"
+     xml:lang="fr"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPCLCoun">Conseil Législatif</name>, <date when="1865-02-28">28 Février 1865</date>, Provinces de L'Amerique Britannique du Nord, Débats de la Confédération.</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName ref="pers:LYAL1">Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
+
         
           
-<!-- TEMPLATE: Title of the publication -->         
-          <title>Débats Parlementaires sur la Question de la Confédération des Provinces de L'Amerique Britannique du Nord</title>.
+         
+               <title>Débats Parlementaires sur la Question de la Confédération des Provinces de L'Amerique Britannique du Nord</title>.
                     
 
           <date when="1865"/>.  
@@ -38,41 +38,496 @@
                     
 
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
-          <biblScope unit="page" from="517" to="517"/>.
+
+          <biblScope unit="page" from="516" to="517"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/Ont_Que_Fr_LC_1865-02-28_Page_0517.hocr.html"/></item>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LC_1865-02-28_Page_0516.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LC_1865-02-28_Page_0517.hocr.html"/>
+               </item>
          
-        </list>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2017-03-01">Created this document, completed metadata. </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2017-03-09">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2017-03-09">Created this document, completed metadata. </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <div type="debate">
-        <p>This content will be replaced by data from the source documents during processing.</p>
-      </div>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="Ont_Que_Fr_LC_1865-02-28_Page_0516">
+         <graphic url="final/images/Ont_Que_Fr_LC_1865-02-28_Page_0516.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LC_1865-02-28_Page_0517">
+         <graphic url="final/images/Ont_Que_Fr_LC_1865-02-28_Page_0517.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="516" facs="final/images/Ont_Que_Fr_LC_1865-02-28_Page_0516.jpg"/>
+            <fw type="num">516</fw>
+
+<!-- GL, 2017-03-09, Commented out below, as it will appear in the preceding debate day --> 
+
+
+           <!-- <p>
+     restreindre le personnel du conseil exécutif ; 
+     <lb/>
+     alors le Bas-Canada, comme cela s'est vu, ne 
+     <lb/>
+     pourra s'y faire représenter que par trois 
+     <lb/>
+     membres ; et si tous trois sont des Franco- 
+     <lb break="maybe"/>
+     Canadiens—comme ils le seront inévitable<lb break="no"/>ment, car la race française ne consentirait pas 
+     <lb/>
+     à. avoir moins de trois représentants sur douze, 
+     <lb/>
+     — je vous le demande, est-ce que les Irlandais 
+     <lb/>
+     catholiques et les Anglais protestants ne se 
+     <lb/>
+     sentiront pas lésés ? Impossible de se le 
+     <lb/>
+     cacher, ils devront s'en montrer très mécon- 
+     <lb break="maybe"/>
+     tents, et avec ce sentiment, pousser à la 
+     <lb/>
+     révolte. Je suppose que l'on dira aux Irlan- 
+     <lb break="maybe"/>
+     dais catholiques : " Ah ! mais vous aurez 
+     <lb/>
+     parmi les membres du gouvernement un 
+     <lb/>
+     Irlandais catholique de Terreneuve." Si tel 
+     <lb/>
+     est le cas, il leur faudra adopter pour règle 
+     <lb/>
+     de conduite les principes partagés par les 
+     <lb/>
+     Irlandais catholiques de Terreneuve, sans 
+     <lb/>
+     songer aux idées plus larges et plus élevées. 
+     <lb/>
+     Aux Anglais protestants, l'on dira à leur 
+     <lb/>
+     tour : " Vous commandez une majorité 
+     <lb/>
+     parlant votre langue et partageant vos 
+     <lb/>
+     croyances religieuses, formée de membres du 
+     <lb/>
+     Haut-Canada et des provinces maritimes ; 
+     <lb/>
+     vous devriez être satisfaits de cela et vous 
+     <lb/>
+     reposer sur le gouvernement de l'adminis- 
+     <lb break="maybe"/>
+     tration de vos afiaires." " Oh ! il le faut ! 
+     <lb/>
+     Fort bien ; alors nous allons régler notre 
+     <lb/>
+     ligne de conduite, non pas d'après celle de 
+     <lb/>
+     l'Amérique Anglaise ou même du Bas- 
+     <lb break="yes"/>
+     Canada, mais bien d'après les préjugés ou 
+     <lb/>
+     les passions qui prévalent dans le Haut- 
+     <lb break="yes"/>
+     Canada et les provinces maritimes !" (Ecou- 
+     <lb break="maybe"/>
+     tez !) Ces éléments de discorde dans le Bas- 
+     <lb break="yes"/>
+     Canada produiront, n'en doutez pas, les plus 
+     <lb/>
+     mauvais résultats, et parmi ceux qui se 
+     <lb/>
+     verront ainsi lancés dans la voie de la révolte, 
+     <lb/>
+     il s'en trouvera un grand nombre dont les 
+     <lb/>
+     tendances seront américaines et qui en 
+     <lb/>
+     appelleront aux influences du dehors pour se 
+     <lb/>
+     protéger. Tel sera l'effet direct de ce 
+     <lb/>
+     système ; et si quelqu'un m'affirme qu'il doit 
+     <lb/>
+     produire l'harmonie dans le gouvernement 
+     <lb/>
+     de ce pays, je lui dis que je ne comprends 
+     <lb/>
+     rien à sa prophétie. Dieu merci ! M. L'ORA- 
+     <lb break="maybe"/>
+     TEUR, je ne crains pas que l'on m'accuse de 
+     <lb/>
+     fanatisme contre les sectes ou les partis. Il 
+     <lb/>
+     fut un temps en Canada où il était presqu'im- 
+     <lb break="maybe"/>
+     possible à ceux qui parlaient ma langue, 
+     <lb/>
+     d'élever la voix pour dire que, tout considéré, 
+     <lb/>
+     les Franco-Canadiens ne méritaient pas 
+     <lb/>
+     qu'on les fit disparaître de la face de la 
+     <lb/>
+     terre. Je puis dire qu'alors j'ai combattu 
+     <lb/>
+     cette doctrine de toute mon énergie. Le 
+     <lb/>
+     souvenir des tristes évènements à cette 
+     <lb/>
+     époque est encore frais à ma mémoire, et je 
+     <lb/>
+            </p>
+            <milestone type="unknown"/>
+            <p>
+     redoute beaucoup de voir revenir ces jours 
+     <lb/>
+     néfastes si nous persistons à adopter ces 
+     <lb/>
+     résolutions. Et je ne crains pas de voir mes 
+     <lb/>
+     sentiments mal interprétés ou faussés, quand 
+     <lb/>
+     je déclare dans cette enceinte ne le pays 
+     <lb/>
+     est en danger et que je sonne l'alarme. Si 
+     <lb/>
+     des troubles de cette nature viennent à sugir, 
+     <lb/>
+     ils ne tarderont pas à faire le tour de toute 
+     <lb/>
+     la confédération. Partout, dans toutes ses 
+     <lb/>
+     parties, dans chaque province, il existe des 
+     <lb/>
+     minorités qui subiront cette influence. Dans 
+     <lb/>
+     les provinces maritimes et a Terreneuve, 
+     <lb/>
+     l'incendie n'attend que la mèche pour s'allu- 
+     <lb break="maybe"/>
+     mer. Et, en face d'une pareille situation, 
+     <lb/>
+     l'on vient vous parler de fonder " une nou<lb break="no"/>velle nationalité," de rallier toute la popula<lb break="no"/>tion autour de son nouveau gouvernement à 
+     <lb/>
+     Outaouais ! M. l'ORATEUR, une pareille 
+     <lb/>
+     chose est-elle possible ? Dans notre société, 
+     <lb/>
+     nous comptons un bon nombre des nôtres 
+     <lb/>
+     dont la pensée nationale et le cœur même 
+     <lb/>
+     sont à Londres ; un grand nombre d'autres 
+     <lb/>
+     encore dont les sympathies se concentrent 
+     <lb/>
+     sur Québec, et qui, entraînés par la force de 
+     <lb/>
+     leurs sentiments, portent leurs regards vers 
+     <lb/>
+     Paris ; d'autres aussi, et ils sont nombreux, 
+     <lb/>
+     dont les yeux se baignent de larmes au seul 
+     <lb/>
+     souvenir de la Verte Erin ; et enfin, il 
+     <lb/>
+     existe une certaine classe de nos compa- 
+     <lb break="maybe"/>
+     triotes qui ont un faible pour Washington ; 
+     <lb/>
+     mais est-il un grand nombre d'entre nous 
+     <lb/>
+     qui soient sincèrement attachés à la cité 
+     <lb/>
+     d'Outaouais, le siége de la nouvelle natio<lb break="no"/>nalité que l'on veut créer ? Dans un temps 
+     <lb/>
+     à venir, quand les populations auront mûre<lb break="no"/>ment réfléchi sur ces questions qui soulèvent 
+     <lb/>
+     les préjugés nationaux, qui enhardissent les 
+     <lb/>
+     passions, l'idée de notre nationalité paraîtra 
+     <lb/>
+     très étrange ! Il se sera alors formé une autre 
+     <lb/>
+     nationalité plus ancienne qui tiendra la 
+     <lb/>
+     première place dans le cœur du peuple. 
+     <lb/>
+     (Ecoutez !) M. l'ORATEUR, il n'est que 
+     <lb/>
+     juste que j'informe la chambre que je n'ai 
+     <lb/>
+     pas encore atteint le point que je m'étais 
+     <lb/>
+     proposé avant que de reprendre mon siége, 
+     <lb/>
+     mais je me sens forcé d'implorer son indul<lb break="no"/>gence, car mes forces ne me permettent pas 
+     <lb/>
+     de réaliser mon désir. (Applaudissements.) 
+     <lb/>
+     Le débat est alors ajourné ,—M. DUNKIN 
+     <lb/>
+     ayant encore la parole pour demain. 
+     <lb/>
+            </p>-->
+
+<div type="section">
+            <head>CONSEIL LÉGISLATIF.</head>
+            
+
+<p>
+     MARDI, 28 <hi rendition="simple:italic">février</hi> 1865. 
+     <lb/>
+            </p>
+
+            <p>
+     L'HON. M. CAMPBELL— Avant l'ajour<lb break="no"/>nement, je désire présenter à cette chambre 
+     <lb/>
+           
+            <pb n="517" facs="final/images/Ont_Que_Fr_LC_1865-02-28_Page_0517.jpg"/>
+            <fw type="num">517</fw>
+           
+     un aperçu indiquant le revenu de l'Ile du 
+     <lb/>
+     Prince-Edouard ; cet état m'a été transmis 
+     <lb/>
+     depuis la clôture du débat sur la confédéra<lb break="no"/>tion du Canada et des provinces maritimes. 
+     <lb/>
+     L'hon. député de Niagara a semblé ne pas 
+     <lb/>
+     ajouter foi à ce que j'affirmais sur ce sujet 
+     <lb/>
+     en particulier, et je suis heureux de me 
+     <lb/>
+     trouver en position de pouvoir convaincre 
+     <lb/>
+     cet hon. monsieur, que l'assertion ne je fis 
+     <lb/>
+     l'autre jour est parfaitement corroborée par 
+     <lb/>
+     le document authentique que je tiens actuel<lb break="no"/>lement en mes mains.—C'est le " Rapport du 
+     <lb/>
+     Contrôleur des Douanes et Statistiques di<lb break="no"/>verses," de cette colonie pour l'année 1863. 
+     <lb/>
+     L'on y trouve que le revenu total de cette île 
+     <lb/>
+     pour cette année-là, fut de £61,668 14s. 4d., 
+     <lb/>
+     monnaie courante de l'île, égale à £41,125 
+     <lb/>
+     16s 3d. sterling, accusant une augmentation 
+     <lb/>
+     de près de 35 pour cent sur l'année précé<lb break="no"/>dente. L'hon. membre a prétendu qu'il était 
+     <lb/>
+     impossible qu'une pareille somme eût été 
+     <lb/>
+     réalisée, et qu'elle devait en grande partie 
+     <lb/>
+     provenir des sources locales. Or, le montant 
+     <lb/>
+     retiré de l'accise et des droits d'importation 
+     <lb/>
+     en 1863, fut de £46,057 6s. 7d., monnaie 
+     <lb/>
+     courante de l'île ; du bureau de poste, £1,590 ; 
+     <lb/>
+     et des honoraires de la douane, £71 9s. 9d. ; 
+     <lb/>
+     en totalité, £47,718 16s. 4d., monnaie cou<lb break="no"/>rente de l'île, ou environ £21,000 sterling, 
+     <lb/>
+     équivalant à $156,000 environ. Il y a encore 
+     <lb/>
+     plusieurs autres sources de revenu, mais 
+     <lb/>
+     j'ai choisi ces trois là, vu qu'elles devront 
+     <lb/>
+     tomber dans le trésor du gouvernement 
+     <lb/>
+     général ; et il peut y en avoir d'autres 
+     <lb/>
+     encore. Mais l'on verra toujours ne ces 
+     <lb/>
+     chiffres s'élèvent à la somme à laquelle j'ai 
+     <lb/>
+     porté le revenu que l'île devra verser dans 
+     <lb/>
+     la caisse publique de la confédération. 
+     <lb/>
+            </p>
+
+            <p>
+     L'HON. M. CURRIE—Je n'ai pas voulu 
+     <lb/>
+     mettre en doute l'exactitude des chiffres 
+     <lb/>
+     donnés par l'hon. commisaire des terres de 
+     <lb/>
+     la couronne ; j'ai seulement manifesté mon 
+     <lb/>
+     étonnement quand je comparai cette somme 
+     <lb/>
+     à celle des années précédentes. L'hon. com<lb break="no"/>missaire des terres de la couronne voudrait-il 
+     <lb/>
+     me dire quelle est la partie de ces importa<lb break="no"/>tions qui provient de l'étranger et celle qui 
+     <lb/>
+    provient des provinces qui doivent entrer 
+     <lb/>dans la confédératien, vu qu'après l'union 
+     <lb/>l'on ne retirera pas de revenus de ces 
+     <lb/>dernières ? 
+     <lb/>
+            </p>
+
+    
+
+    
+
+            <p>
+     L'HON. M. CAMPBELL—Il existe des 
+     <lb/>
+     tableaux qui font voir les importations et les 
+     <lb/>
+     exportations ; or, les importations des pays 
+     <lb/>
+     suivants étaient, en 1863 : 
+     <lb/>
+            </p> <cb/> <!-- This break needs to be moved into table when table is marked-up -->
+
+<!-- GL, 2017-03-07, untaggedTable commented out table to be marked-up at later date.
+
+            <p>
+     Royaume-Uni ........................   £122,880 5 6 1/2 
+     <lb/>
+     Nouvelle-Ecosse.....................  $6,890 11 5 1/2 
+     <lb/>
+            </p>
+            <milestone type="unknown"/>
+            <p>
+     Nouveau-Brunswick .....................      19,975 3 11 
+     <lb/>
+     Terreneuve ......................................... 1,865 15 3 
+     <lb/>
+     Bermudes et Indes Occidentales.. 3,969 5 7 
+     <lb/>
+     Saint-Pierre .......................................... 292 11 3 
+     <lb/>
+     Canada ................................................ 6,152 8 3 
+     <lb/>
+     Iles de la Magdeleine ......................... 302 3 0 
+     <lb/>
+     Etats-Unis ..........................................  71,103 0 8 
+     <lb/>
+            </p>
+   
+            <p>
+     Total, sterling................................       £293,431 4 11 
+     <lb/>
+            </p> -->
+   
+            <p>
+     En déduisant des chiffres qui précèdent, 
+     <lb/>
+     les importations de la Nouvelle-Ecosse, du 
+     <lb/>
+     Nouveau-Brunswick, de Terreneuve et du 
+     <lb/>
+     Canada, se montant à £94,883 l8s. 10d., 
+     <lb/>
+     la balance de £200,000 provient entière<lb break="no"/>ment des importations de l'étranger qui, 
+     <lb/>
+     à ce titre, seraient tenues de payer des droits 
+     <lb/>
+     au gouvernement général. Les exportations 
+     <lb/>
+     ont été de £209,472 9s. 6d., auxquels doit 
+     <lb/>
+     être ajoutée la valeur de 24,991 tonneaux 
+     <lb/>
+     représentant les navires construits dans l'Ile, 
+     <lb/>
+    qui, à £5 sterling le tonneau, est égale à 
+     <lb/>£l24,955—-et porte l'avoir à £334,427 9s. 7d. 
+     <lb/>contre £293,431 4s. 11d. au débit, laissant 
+     <lb/>ainsi une balance  de £40,996 4s. 7d., en 
+     <lb/>faveur de cette colonie en 1863. (Ecoutez !) 
+     <lb/>(L'hon. membre remet ici le rapport a l'hon. 
+     <lb/>M. CURRIE, qui après l'avoir examiné, semble 
+     <lb/>concourir dans la déclaration faite par l'hon. 
+     <lb/>commissaire des terres de la couronne.) 
+     <lb/>
+            </p>
+
+    
+<!-- GL, 2017-03-09, Commented out below, as it will appear in the following debate day -->
+
+    
+            <!--<fw type="num">ASSEMBLÉE</fw>
+            <fw type="running">LÉGISLATIVE.</fw>
+            <fw type="dateline">
+     MARDI, 28 février 1865. 
+     <lb/>
+            </fw>
+            <p>
+     M. DUNKIN , continuant son discours 
+     <lb/>
+     d'hier : —M. l'ORATEUR : lorsqu'hier, grâce 
+     <lb/>
+     à la bienveillance de la chambre, je reprenais 
+     <lb/>
+     mon siège, j'étais à comparer le système con- 
+     <lb break="maybe"/>
+     stitutionnel de la confédération projetée avec 
+     <lb/>
+     la constitution des Etats-Unis en premier 
+     <lb/>
+     lieu, et celle de la Grande-Bretagne en second 
+     <lb/>
+     lieu. J 'avais disposé de plusieurs des prin- 
+     <lb break="maybe"/>
+     cipaux points de comparaison ; et la chambre 
+     <lb/>
+     se rappellera, sans doute, que j'avais établi 
+     <lb/>
+     une comparaison entre la composition de la 
+     <lb/>
+     chambre des communes que l'on propose de 
+     <lb/>
+     nous donner et celle de la chambre des re- 
+     <lb break="maybe"/>
+     présentants des Etats-Unis. J'ai cherché à dé<lb break="no"/>montrer, et je pense avoir réussi à le faire- 
+     <lb break="yes"/>
+     que nous nous éloignions absolument des 
+     <lb/>
+     principes sur lesquels repose la chambre des 
+     <lb/>
+     communes en Angleterre, et que nous nous 
+     <lb/>
+     étions appropriés mal à propos 68 parties les 
+     <lb/>
+     moins utiles de la constitution de la chambre 
+     <lb/>
+            </p>-->
+
+       </div>  </div>
+      </body>
+   </text>
 </TEI>
