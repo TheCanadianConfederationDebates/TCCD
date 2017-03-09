@@ -84,6 +84,7 @@
          <change who="mholmes" when="2017-02-09">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-02-09">Created this document, completed metadata. </change>
+             <change who="kim_nguyen" when="2017-03-08">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -288,17 +289,13 @@
             </head>
    
             <p>
-     Mr. Job Mr. Chairman, I rise with much 
-     <lb/>
-     pleasure to move a vote of thanks to His Excel<lb break="no"/>lency the Governor for his very fine opening 
-     <lb/>
-     address yesterday to the National Convention, a 
-     <lb/>
-     momentous occasion in the history of our 
-     <lb/>
-     beloved country. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:JOB1">Mr. Job</persName> Mr. Chairman, I rise with
+                                          much <lb/> pleasure to move a vote of thanks to His
+                                                 Excel<lb break="no"/>lency the Governor for his
+                                          very fine opening <lb/> address yesterday to the National
+                                          Convention, a <lb/> momentous occasion in the history of
+                                          our <lb/> beloved country. <lb/>
+                                   </p>
 
             <p>
      We are now passing a landmark which I sin<lb break="no"/>cerely hope and believe will be the commence<lb break="no"/>ment of a period in which the people of all classes 
@@ -418,7 +415,7 @@
      <lb/>
      opening paragraph of our National Convention 
      <lb/>
-     Act,<!-- GL 2017-02-09 commented out because it doesn't seem overly useful (same as footnote below: [1]--> which reads as follows: 
+     Act,<ref target="#fn_z1">[1]</ref> which reads as follows: 
      <lb/>
             </p>
 
@@ -427,10 +424,7 @@
      <lb/>
      provision should be made for enabling the 
      <lb/>
-     people of Newfoundland to examine the fu<lb break="no"/><!--<p>
-     [1]Volume 11:1. 
-     <lb/>
-            </p>--><cb/>ture of the Island and express their con<lb break="no"/>sidered views as to suitable forms of govern<lb break="no"/>ment for the Island, having regard to the 
+     people of Newfoundland to examine the fu<lb break="no"/><cb/>ture of the Island and express their con<lb break="no"/>sidered views as to suitable forms of govern<lb break="no"/>ment for the Island, having regard to the 
      <lb/>
      financial and economic conditions prevailing 
      <lb/>
@@ -520,6 +514,8 @@
      should give such advice very careful considera<lb break="no"/>tion, but will have to use our own judgment as to 
      <lb/>
            
+<note xml:id="fn_z1">1 Volume II:1. [Volume II is not in <hi rendition="simple:italic">The Confederation Debates</hi> Collection]</note>
+
             <pb n="6"
                 facs="final/images/NFLD_National_Convention_1946-09-12_Page_0006.jpg"/>
             <fw type="num">6</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">September 1946</fw>
@@ -619,8 +615,8 @@
      to see for himself the surroundings and especially 
      <lb/>
            
-     <note xml:id="fn_01">[1]The Great War Veterans' Association.</note> 
-     <lb/><note xml:id="fn_02">[2]A community service and self help group formed in 1935.</note><lb/>
+     <note xml:id="fn_01">1 The Great War Veterans' Association.</note> 
+     <lb/><note xml:id="fn_02">2 A community service and self help group formed in 1935.</note><lb/>
           
             <cb/>
            
@@ -704,32 +700,23 @@
             </quote>
 
             <p>
-     Mr. Harrington Mr. Chairman and members of 
-     <lb/>
-     the National Convention, it is with no little 
-     <lb/>
-     awareness of the momentous significance of this 
-     <lb/>
-     assembly that I rise to second the motion made 
-     <lb/>
-     by the Hon. Mr. Job, that an address of loyalty be 
-     <lb/>
-     presented. to His Majesty the King, and an ad<lb break="no"/>dress of thanks be presented to His Excellency 
-     <lb/>
-     the Governor in reply to the gracious speech with 
-     <lb/>
-     which he has been pleased to inaugurate the 
-     <lb/>
-     sessions of the National Convention; and that a 
-     <lb/>
-            
-            <pb n="7"
-                facs="final/images/NFLD_National_Convention_1946-09-12_Page_0007.jpg"/>
-            <fw type="dateline">September 1946</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">7</fw>
-          
-     select committee be appointed to draft such ad<lb break="no"/>dress in reply. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:HARR6">Mr. Harrington</persName> Mr. Chairman and
+                                          members of <lb/> the National Convention, it is with no
+                                          little <lb/> awareness of the momentous significance of
+                                          this <lb/> assembly that I rise to second the motion made
+                                          <lb/> by the Hon. Mr. Job, that an address of loyalty be
+                                          <lb/> presented. to His Majesty the King, and an ad<lb
+                                                 break="no"/>dress of thanks be presented to His
+                                          Excellency <lb/> the Governor in reply to the gracious
+                                          speech with <lb/> which he has been pleased to inaugurate
+                                          the <lb/> sessions of the National Convention; and that a <lb/>
+                                          <pb n="7"
+                                                 facs="final/images/NFLD_National_Convention_1946-09-12_Page_0007.jpg"/>
+                                          <fw type="dateline">September 1946</fw>
+                                          <fw type="running">NATIONAL CONVENTION</fw>
+                                          <fw type="num">7</fw> select committee be appointed to
+                                          draft such ad<lb break="no"/>dress in reply. <lb/>
+                                   </p>
 
             <p>
      In supporting the motion I cannot but help 
@@ -1128,13 +1115,10 @@
      <lb/></p>
 
 <p>
-     Mr. Chairman Does any other member wish to 
-     <lb/>
-     speak to the motion? If not, is the Convention 
-     <lb/>
-     ready for the question? 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> Does any other member
+                                          wish to <lb/> speak to the motion? If not, is the
+                                          Convention <lb/> ready for the question? <lb/>
+                                   </p>
 
             <p>
      It has been proposed by Mr. Job and seconded 
@@ -1216,27 +1200,22 @@
      <lb/></p>
 
 <p>
-     Mr. Brown I have much pleasure in moving that 
-     <lb/>
-     the committee be appointed from the Chair. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:BROW7">Mr. Brown</persName> I have much pleasure in
+                                          moving that <lb/> the committee be appointed from the
+                                          Chair. <lb/>
+                                   </p>
 
             <p>
-     Mr. Figary I second that motion. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:FIGA1">Mr. Figary</persName> I second that motion.
+                                          <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman Proposed by Mr. Brown and 
-     <lb/>
-     seconded by Mr. Figary, that the appointment of 
-     <lb/>
-     a committee on rules of procedure be in the hands 
-     <lb/>
-     of the Chairman. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> Proposed by Mr. Brown
+                                          and <lb/> seconded by Mr. Figary, that the appointment of
+                                          <lb/> a committee on rules of procedure be in the hands
+                                          <lb/> of the Chairman. <lb/>
+                                   </p>
 
             <p>
      <hi rendition="simple:italic">[The motion carried unanimously]</hi> 
@@ -1244,9 +1223,9 @@
             </p>
 
             <p>
-     Mr. Chairman The committee will be: 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> The committee will be:
+                                          <lb/>
+                                   </p>
    
             <p>
      Mr. Brown, Mr. Butt, 
@@ -1287,37 +1266,29 @@
             </p>
 
             <p>
-     Mr. Bradley In the interim, and while awaiting 
-     <lb/>
-     the report of the committee, I quite agree with you 
-     <lb/>
-     that we cannot do better than adopt the regula<lb break="no"/>tions and rules of our House of Assembly. You 
-     <lb/>
-     are very familiar with these and they might form 
-     <lb/>
-     a basis for our draft of rules to be submitted to 
-     <lb/>
-     this house. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:BRAD3">Mr. Bradley</persName> In the interim, and while
+                                          awaiting <lb/> the report of the committee, I quite agree
+                                          with you <lb/> that we cannot do better than adopt the
+                                                 regula<lb break="no"/>tions and rules of our House
+                                          of Assembly. You <lb/> are very familiar with these and
+                                          they might form <lb/> a basis for our draft of rules to be
+                                          submitted to <lb/> this house. <lb/>
+                                   </p>
 
             <p>
-     Mr. Brown I second the motion. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:BROW7">Mr. Brown</persName> I second the motion. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman Is the house ready for the ques<lb break="no"/>tion? It is proposed by Mr. Bradley and seconded 
-     <lb/>
-     by Mr. Brown that pending the report of the 
-     <lb/>
-     Committee on Rules and Procedure and the adop<lb break="no"/>tion of that report, that the rules of the House of 
-     <lb/>
-     Assembly <hi rendition="simple:italic">mutatis mutandis</hi> should apply to this 
-     <lb/>
-     Convention. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> Is the house ready for
+                                          the ques<lb break="no"/>tion? It is proposed by Mr.
+                                          Bradley and seconded <lb/> by Mr. Brown that pending the
+                                          report of the <lb/> Committee on Rules and Procedure and
+                                          the adop<lb break="no"/>tion of that report, that the
+                                          rules of the House of <lb/> Assembly <hi
+                                                 rendition="simple:italic">mutatis mutandis</hi>
+                                          should apply to this <lb/> Convention. <lb/>
+                                   </p>
 
             <p>
      <hi rendition="simple:italic">[The motion carried unanimously]</hi> 
@@ -1325,674 +1296,502 @@
             </p>
 
             <p>
-     Mr. Chairman There is no further business-<lb/> at least, on the agenda. But if any member wishes 
-     <lb/>
-     to speak, he may do so. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> There is no further
+                                          business-<lb/> at least, on the agenda. But if any member
+                                          wishes <lb/> to speak, he may do so. <lb/>
+                                   </p>
 
             <p>
-     Mr. Smallwood On the matter of seeking and 
-     <lb/>
-     obtaining information from the government that 
-     <lb/>
-     the Convention may find necessary, would in<lb break="no"/>dividual members have the right to submit ques<lb break="no"/>tions or requests for particular information? And 
-     <lb/>
-     such requests having been made, would they be 
-     <lb/>
-     deemed to be going to the party concerned as 
-     <lb/>
-     from an individual, or would they be vetted by 
-     <lb/>
-     the Convention and then come to the government 
-     <lb/>
-     as a whole? And should they be directed to the 
-     <lb/>
-     government as a whole, or to individual depart<lb break="no"/>ment heads or commissioners? On these ques<lb break="no"/>tions I am very vague in the absence of rules 
-     <lb/>
-     governing them; but I imagine that a great 
-     <lb/>
-     amount of information will be sought from the 
-     <lb/>
-     government. No doubt, the procedure for doing 
-     <lb/>
-     so will be laid down in the rules, which may take 
-     <lb/>
-     two or three weeks and in the meantime many 
-     <lb/>
-     members may have questions on which they 
-     <lb/>
-     desire authentic information. I do not know 
-     <lb/>
-     whether members will submit questions verbally 
-     <lb/>
-     or write them and hand them in. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SMAL1">Mr. Smallwood</persName> On the matter of
+                                          seeking and <lb/> obtaining information from the
+                                          government that <lb/> the Convention may find necessary,
+                                          would in<lb break="no"/>dividual members have the right to
+                                          submit ques<lb break="no"/>tions or requests for
+                                          particular information? And <lb/> such requests having
+                                          been made, would they be <lb/> deemed to be going to the
+                                          party concerned as <lb/> from an individual, or would they
+                                          be vetted by <lb/> the Convention and then come to the
+                                          government <lb/> as a whole? And should they be directed
+                                          to the <lb/> government as a whole, or to individual
+                                                 depart<lb break="no"/>ment heads or commissioners?
+                                          On these ques<lb break="no"/>tions I am very vague in the
+                                          absence of rules <lb/> governing them; but I imagine that
+                                          a great <lb/> amount of information will be sought from
+                                          the <lb/> government. No doubt, the procedure for doing
+                                          <lb/> so will be laid down in the rules, which may take
+                                          <lb/> two or three weeks and in the meantime many <lb/>
+                                          members may have questions on which they <lb/> desire
+                                          authentic information. I do not know <lb/> whether members
+                                          will submit questions verbally <lb/> or write them and
+                                          hand them in. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman I see no objection to following 
-     <lb/>
-     the rules of the House of Assembly. I may say 
-     <lb/>
-     that all questions were submitted in writing. Each 
-     <lb/>
-     member has the right to give notice of a question. 
-     <lb/>
-            
-            <pb n="10"
-                facs="final/images/NFLD_National_Convention_1946-09-12_Page_0010.jpg"/>
-            <fw type="num">10</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">September 1946</fw>
-          
-     For example, Mr. Smallwood asks the Commis<lb break="no"/>sioner for Education to table certain reports. 
-     <lb/>
-     Having given notice the question will be passed 
-     <lb/>
-     to the Secretary. Then as in the old days, it will 
-     <lb/>
-     be required that the Speaker find whether the 
-     <lb/>
-     question is relevant. In the meantime I see no 
-     <lb/>
-     objection to any member saying that on tomor<lb break="no"/>row he will pass to the secretariat a question, and 
-     <lb/>
-     the question in turn will be passed to the depart<lb break="no"/>ment concerned. I do not see how the members 
-     <lb/>
-     can get information in any other way. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> I see no objection to
+                                          following <lb/> the rules of the House of Assembly. I may
+                                          say <lb/> that all questions were submitted in writing.
+                                          Each <lb/> member has the right to give notice of a
+                                          question. <lb/>
+                                          <pb n="10"
+                                                 facs="final/images/NFLD_National_Convention_1946-09-12_Page_0010.jpg"/>
+                                          <fw type="num">10</fw>
+                                          <fw type="running">NATIONAL CONVENTION</fw>
+                                          <fw type="dateline">September 1946</fw> For example, Mr.
+                                          Smallwood asks the Commis<lb break="no"/>sioner for
+                                          Education to table certain reports. <lb/> Having given
+                                          notice the question will be passed <lb/> to the Secretary.
+                                          Then as in the old days, it will <lb/> be required that
+                                          the Speaker find whether the <lb/> question is relevant.
+                                          In the meantime I see no <lb/> objection to any member
+                                          saying that on tomor<lb break="no"/>row he will pass to
+                                          the secretariat a question, and <lb/> the question in turn
+                                          will be passed to the depart<lb break="no"/>ment
+                                          concerned. I do not see how the members <lb/> can get
+                                          information in any other way. <lb/>
+                                   </p>
 
-            <p>Mr. Smallwood You have not made it clear as 
-     <lb/>to whether questions asked by an individual 
-     <lb/>member go to the government automatically, or 
-     <lb/>whether they go from the whole House and must 
-     <lb/>be adopted by the House. 
-     <lb/>
-            </p>
-            <p>Mr. Chairman I thought I made it clear that by 
-     <lb/>passing them to the Secretary they will then be 
-     <lb/>passed to the department concerned. 
-     <lb/></p>
+            <p><persName ref="pers:SMAL1">Mr. Smallwood</persName> You have not made it clear as <lb/>to whether
+                                          questions asked by an individual <lb/>member go to the
+                                          government automatically, or <lb/>whether they go from the
+                                          whole House and must <lb/>be adopted by the House. <lb/>
+                                   </p>
+            <p><persName ref="pers:SPEA1">Mr. Chairman</persName> I thought I made it clear that by <lb/>passing them
+                                          to the Secretary they will then be <lb/>passed to the
+                                          department concerned. <lb/></p>
 
-<p><hi rendition="simple:italic">[Mr. Smallwood then read a series of questions 
+<p><hi rendition="simple:italic">[<persName ref="pers:SMAL1">Mr. Smallwood</persName> then read a series of questions 
      <lb/>concerning Gander airport] </hi>
      <lb/>
             </p>
-            <p>Mr. Hollett It appears to me that if we are going 
-     <lb/>about this inquiry into the state of affairs of our 
-     <lb/>country, and if we are to be delayed by each 
-     <lb/>member's asking any question as might occur to 
-     <lb/>him overnight, we are not tackling the matter in 
-     <lb/>the best systematic manner. We have a factual 
-     <lb/>statement of affairs in the Amulree Report<ref target="#fn_03">[1]</ref> up to 
-     <lb/>1934. Our business is to find out how things stand 
-     <lb/>now; what has happened between 1934 and the 
-     <lb/>present time, and whether or not we are financial<lb break="no"/>ly and economically sound or self-supporting. If 
-     <lb/>we are to tackle it in the proper manner, we ought 
-     <lb/>to take it subjectively: take finance, deal with it 
-     <lb/>and be done with it; take fisheries, deal with each 
-     <lb/>matter under its own heading. I referred to the 
-     <lb/>Amulree Report. I think that report is pretty near 
-     <lb/>correct. We ought to deal with one department of 
-     <lb/>Newfoundland affairs at one time and be done 
-     <lb/>with it. What makes me speak of this is that I saw 
-     <lb/>a communication in the press where one of the 
-     <lb/>delegates had received a letter from the 
-     <lb/>Governor's private secretary relative to the 
-     <lb/>departure of the Commissioner of Finance.<ref target="#fn_04">[2]</ref> It 
-     <lb/>was thought that the commissioner ought not to 
-     <lb/>be leaving at this particular juncture. We had the 
-     <lb/>assurance given us that the Commissioner for 
-     <lb/>Finance would be here for two weeks. Therefore, 
-     <lb/>we ought to tackle the problem of finance first. 
-     <lb/>
-            </p>
+            <p><persName ref="pers:HOLL2">Mr. Hollett</persName> It appears to me that if we are going <lb/>about
+                                          this inquiry into the state of affairs of our
+                                          <lb/>country, and if we are to be delayed by each
+                                          <lb/>member's asking any question as might occur to
+                                          <lb/>him overnight, we are not tackling the matter in
+                                          <lb/>the best systematic manner. We have a factual
+                                          <lb/>statement of affairs in the Amulree Report<ref
+                                                 target="#fn_03">[1]</ref> up to <lb/>1934. Our
+                                          business is to find out how things stand <lb/>now; what
+                                          has happened between 1934 and the <lb/>present time, and
+                                          whether or not we are financial<lb break="no"/>ly and
+                                          economically sound or self-supporting. If <lb/>we are to
+                                          tackle it in the proper manner, we ought <lb/>to take it
+                                          subjectively: take finance, deal with it <lb/>and be done
+                                          with it; take fisheries, deal with each <lb/>matter under
+                                          its own heading. I referred to the <lb/>Amulree Report. I
+                                          think that report is pretty near <lb/>correct. We ought to
+                                          deal with one department of <lb/>Newfoundland affairs at
+                                          one time and be done <lb/>with it. What makes me speak of
+                                          this is that I saw <lb/>a communication in the press where
+                                          one of the <lb/>delegates had received a letter from the
+                                          <lb/>Governor's private secretary relative to the
+                                          <lb/>departure of the Commissioner of Finance.<ref
+                                                 target="#fn_04">[2]</ref> It <lb/>was thought that
+                                          the commissioner ought not to <lb/>be leaving at this
+                                          particular juncture. We had the <lb/>assurance given us
+                                          that the Commissioner for <lb/>Finance would be here for
+                                          two weeks. Therefore, <lb/>we ought to tackle the problem
+                                          of finance first. <lb/>
+                                   </p>
    
          
-     <note xml:id="fn_03">[1] Newfoundland Royal Commission 1933, Report, Cmd. 4480, 1933.</note> 
-     <note xml:id="fn_04">[2] K. Macdonald to P. Cashia in Evening Telegram, 10 September 1946, p. 3.</note>
+     <note xml:id="fn_03">1 Newfoundland Royal Commission 1933, Report, Cmd. 4480, 1933.</note> 
+     <note xml:id="fn_04">2 K. Macdonald to P. Cashia in Evening Telegram, 10 September 1946, p. 3.</note>
            
             <cb/>
             <p>
-     Mr. Hillier The object is to inquire into the fu<lb break="no"/>ture forms of government. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:HILL2">Mr. Hillier</persName> The object is to inquire
+                                          into the fu<lb break="no"/>ture forms of government. <lb/>
+                                   </p>
 
-            <p>Mr. Fogwill After listening to the two previous 
-     <lb/>speakers, I am of the opinion that there has not 
-     <lb/>been enough provision made, and it would now 
-     <lb/>appear that the best thing would be to appoint a 
-     <lb/>special committee to draft a plan of action.... 
-     <lb/>
-            </p>
-            <p>Mr. Chairman I had in mind, subject to the 
-     <lb/>wishes of the Convention, a steering committee, 
-     <lb/>that would have the setting out of the rotation of 
-     <lb/>business and plan of campaign. If my suggestion 
-     <lb/>is agreeable, the committee will meet with all 
-     <lb/>possible dispatch....
-     <lb/>
-            </p>
-            <p>Mr. Bradley It is not, I take it, intended to limit 
-     <lb/>the right to ask a question. 
-     <lb/>
-            </p>
-            <p>Mr. Chairman In the old days we had the order 
-     <lb/>paper, and the order paper was the daily agenda. 
-     <lb/>We will have to have the same method to enable 
-     <lb/>us to know what is going to be discussed and by 
-     <lb/>whom. 
-     <lb/>
-            </p>
-            <p>Mr. Brown As perhaps the oldest member of this 
-     <lb/>House, I might say that I do not see how we can 
-     <lb/>progress without some line of procedure. I move 
-     <lb/>that this house will adjourn until such time as the 
-     <lb/>Committee on Rules and Procedure has drafted a 
-     <lb/>plan and it is adopted, so that the House can be 
-     <lb/>guided by that line of procedure in the right way. 
-     <lb/>
-            </p>
-            <p>Mr. Cashin I am inclined to agree with 
-     <lb/>Mr. Hollett. One of the commissioners is leaving 
-     <lb/>Newfoundland; he holds a most important posi<lb break="no"/>tion in the government in regard to finance. 
-     <lb/>Whilst I agree with Mr. Brown that without cer<lb break="no"/>tain rules we cannot proceed, I feel we should 
-     <lb/>take advantage of the commissioner's presence 
-     <lb/>and direct financial questions to him. I would 
-     <lb/>suggest that these questions be put on the order 
-     <lb/>paper and that Mr. Wild come here and be further 
-     <lb/>able to answer questions that are not quite clear. 
-     <lb/>You will remember, Mr. Chairman, what hap<lb break="no"/>pened in the old days. A member placed ques<lb break="no"/>tions on the paper directed to the finance 
-     <lb/>department and the next day the department 
-     <lb/>tabled the information; and if the inquisitor 
-     <lb/>wanted any further information, the minister was 
-     <lb/>there and he got up and said "I want to know 
-     <lb/>something else." The only way to get information 
-     <lb/>is to have the Commissioner of Finance here and 
-     <lb/>whoever wants to ask a question, the Commis<lb break="no"/>sioner is here to answer it. 
-     <lb/>
-            </p>
+            <p><persName ref="pers:FOGW1">Mr. Fogwill</persName> After listening to the two previous <lb/>speakers, I
+                                          am of the opinion that there has not <lb/>been enough
+                                          provision made, and it would now <lb/>appear that the best
+                                          thing would be to appoint a <lb/>special committee to
+                                          draft a plan of action.... <lb/>
+                                   </p>
+            <p><persName ref="pers:SPEA1">Mr. Chairman</persName> I had in mind, subject to the <lb/>wishes of the
+                                          Convention, a steering committee, <lb/>that would have the
+                                          setting out of the rotation of <lb/>business and plan of
+                                          campaign. If my suggestion <lb/>is agreeable, the
+                                          committee will meet with all <lb/>possible dispatch....
+                                          <lb/>
+                                   </p>
+            <p><persName ref="pers:BRAD3">Mr. Bradley</persName> It is not, I take it, intended to limit <lb/>the
+                                          right to ask a question. <lb/>
+                                   </p>
+            <p><persName ref="pers:SPEA1">Mr. Chairman</persName> In the old days we had the order <lb/>paper, and
+                                          the order paper was the daily agenda. <lb/>We will have to
+                                          have the same method to enable <lb/>us to know what is
+                                          going to be discussed and by <lb/>whom. <lb/>
+                                   </p>
+            <p><persName ref="pers:BROW7">Mr. Brown</persName> As perhaps the oldest member of this <lb/>House, I
+                                          might say that I do not see how we can <lb/>progress
+                                          without some line of procedure. I move <lb/>that this
+                                          house will adjourn until such time as the <lb/>Committee
+                                          on Rules and Procedure has drafted a <lb/>plan and it is
+                                          adopted, so that the House can be <lb/>guided by that line
+                                          of procedure in the right way. <lb/>
+                                   </p>
+            <p><persName ref="pers:CASH2">Mr. Cashin</persName> I am inclined to agree with <lb/>Mr. Hollett. One of
+                                          the commissioners is leaving <lb/>Newfoundland; he holds a
+                                          most important posi<lb break="no"/>tion in the government
+                                          in regard to finance. <lb/>Whilst I agree with Mr. Brown
+                                          that without cer<lb break="no"/>tain rules we cannot
+                                          proceed, I feel we should <lb/>take advantage of the
+                                          commissioner's presence <lb/>and direct financial
+                                          questions to him. I would <lb/>suggest that these
+                                          questions be put on the order <lb/>paper and that Mr. Wild
+                                          come here and be further <lb/>able to answer questions
+                                          that are not quite clear. <lb/>You will remember, Mr.
+                                          Chairman, what hap<lb break="no"/>pened in the old days. A
+                                          member placed ques<lb break="no"/>tions on the paper
+                                          directed to the finance <lb/>department and the next day
+                                          the department <lb/>tabled the information; and if the
+                                          inquisitor <lb/>wanted any further information, the
+                                          minister was <lb/>there and he got up and said "I want to
+                                          know <lb/>something else." The only way to get information
+                                          <lb/>is to have the Commissioner of Finance here and
+                                          <lb/>whoever wants to ask a question, the Commis<lb
+                                                 break="no"/>sioner is here to answer it. <lb/>
+                                   </p>
             <pb n="11"
                 facs="final/images/NFLD_National_Convention_1946-09-12_Page_0011.jpg"/>
             <fw type="dateline">September 1946</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">11</fw>
             <p>
-     Mr. Chairman In the old days the asking of 
-     <lb/>
-     questions was not the time for debate. The 
-     <lb/>
-     answers could not be debated, but any explana<lb break="no"/>tion necessary could be made; then further ques<lb break="no"/>tions asked if the answer was not clear. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> In the old days the
+                                          asking of <lb/> questions was not the time for debate. The
+                                          <lb/> answers could not be debated, but any explana<lb
+                                                 break="no"/>tion necessary could be made; then
+                                          further ques<lb break="no"/>tions asked if the answer was
+                                          not clear. <lb/>
+                                   </p>
 
             <p>
-     Mr. Job I take it the idea of the Chair is that this 
-     <lb/>
-     committee should deal with the question of a 
-     <lb/>
-     programme. In view of the great importance of 
-     <lb/>
-     this finance matter, I suggest that this committee 
-     <lb/>
-     meet tomorrow and that the first item would be 
-     <lb/>
-     the question of finance, and that would enable us 
-     <lb/>
-     to meet and go ahead with that question. The 
-     <lb/>
-     setting up of a programme, as stated by Mr. Fog<lb break="no"/>will, is very important indeed.... 
-     <lb/>
-            </p>
+                                          <persName ref="pers:JOB1">Mr. Job</persName> I take it the idea of the
+                                          Chair is that this <lb/> committee should deal with the
+                                          question of a <lb/> programme. In view of the great
+                                          importance of <lb/> this finance matter, I suggest that
+                                          this committee <lb/> meet tomorrow and that the first item
+                                          would be <lb/> the question of finance, and that would
+                                          enable us <lb/> to meet and go ahead with that question.
+                                          The <lb/> setting up of a programme, as stated by Mr.
+                                                 Fog<lb break="no"/>will, is very important
+                                          indeed.... <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman It is evidently desirable to take 
-     <lb/>
-     these matters up. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> It is evidently
+                                          desirable to take <lb/> these matters up. <lb/>
+                                   </p>
 
             <p>
-     Mr. Smallwood I agree that it is desirable to 
-     <lb/>
-     plan a programme. I agree also with Major 
-     <lb/>
-     Cashin in what he said regarding the presence of 
-     <lb/>
-     the Commissioner for Finance. But why wait for 
-     <lb/>
-     the Committee on Rules and Procedure? Decide 
-     <lb/>
-     now. If we are to get information from the finance 
-     <lb/>
-     department, then that is that. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SMAL1">Mr. Smallwood</persName> I agree that it is
+                                          desirable to <lb/> plan a programme. I agree also with
+                                          Major <lb/> Cashin in what he said regarding the presence
+                                          of <lb/> the Commissioner for Finance. But why wait for
+                                          <lb/> the Committee on Rules and Procedure? Decide <lb/>
+                                          now. If we are to get information from the finance <lb/>
+                                          department, then that is that. <lb/>
+                                   </p>
 
             <p>
-     Mr. Crummey Does it come within the rules to 
-     <lb/>
-     draft the agenda? 
-     <lb/>
-            </p>
+                                          <persName ref="pers:CRUM1">Mr. Crummey</persName> Does it come within the
+                                          rules to <lb/> draft the agenda? <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman We can give the committee spe<lb break="no"/>cial instructions, it does not follow that they have 
-     <lb/>
-     to make the agenda. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> We can give the
+                                          committee spe<lb break="no"/>cial instructions, it does
+                                          not follow that they have <lb/> to make the agenda. <lb/>
+                                   </p>
 
             <p>
-     Mr. Crummey Can the House form the agenda? 
-     <lb/>
-     
-     
-     
-            </p>
-            <p>Mr. Chairman Of course, but it requires some 
-     <lb/>study... I thought the committee might meet this 
-     <lb/>afternoon if they wish to expedite matters. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:CRUM1">Mr. Crummey</persName> Can the House form the
+                                          agenda? <lb/>
+                                   </p>
+            <p><persName ref="pers:SPEA1">Mr. Chairman</persName> Of course, but it requires some <lb/>study... I
+                                          thought the committee might meet this <lb/>afternoon if
+                                          they wish to expedite matters. <lb/>
+                                   </p>
 
             <p>
-     Mr. Crosbie I think the committee should meet 
-     <lb/>
-     this afternoon. It seems to me we are going to lose 
-     <lb/>
-     a great deal of time if we do not invite the dif~ 
-     <lb/>
-     ferent heads of the departments here. If we are 
-     <lb/>
-     going to send questions to the departments they 
-     <lb/>
-     might be consigned to the waste paper basket. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:CROS2">Mr. Crosbie</persName> I think the committee
+                                          should meet <lb/> this afternoon. It seems to me we are
+                                          going to lose <lb/> a great deal of time if we do not
+                                          invite the dif~ <lb/> ferent heads of the departments
+                                          here. If we are <lb/> going to send questions to the
+                                          departments they <lb/> might be consigned to the waste
+                                          paper basket. <lb/>
+                                   </p>
 
-            <p>Mr. Smallwood The questions I have submitted 
-     <lb/>are typical of those that might be submitted and 
-     <lb/>it would be a waste of time to ask a commissioner 
-     <lb/>to come up until he had the question, and had 
-     <lb/>replied in writing. When he has produced the 
-     <lb/>documents then he could be here for supplemen<lb break="no"/>tary questions arising out of his answers. Not that 
-     <lb/>I have any objection to their being here, but there 
-     <lb/>are times when it is much more practical to write 
-     <lb/>your question. 
-     <lb/>
-            </p>
+            <p><persName ref="pers:SMAL1">Mr. Smallwood</persName> The questions I have submitted <lb/>are typical of
+                                          those that might be submitted and <lb/>it would be a waste
+                                          of time to ask a commissioner <lb/>to come up until he had
+                                          the question, and had <lb/>replied in writing. When he has
+                                          produced the <lb/>documents then he could be here for
+                                                 supplemen<lb break="no"/>tary questions arising out
+                                          of his answers. Not that <lb/>I have any objection to
+                                          their being here, but there <lb/>are times when it is much
+                                          more practical to write <lb/>your question. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman All that would come within the 
-     <lb/>
-     purview of the committee. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> All that would come
+                                          within the <lb/> purview of the committee. <lb/>
+                                   </p>
 
             <p>
-     Mr. Hollett Do we know what powers we have 
-     <lb/>
-            
-            <cb/>
-         
-     to summon anyone, whether it be a commissioner 
-     <lb/>
-     or not? We should define our authority. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:HOLL2">Mr. Hollett</persName> Do we know what powers we
+                                          have <lb/>
+                                          <cb/> to summon anyone, whether it be a commissioner <lb/>
+                                          or not? We should define our authority. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman The Convention has no power 
-     <lb/>
-     to compel attendance or to compel him to answer 
-     <lb/>
-     questions. In the old days the statutory rules did 
-     <lb/>
-     not cover this and they were amended in 1890 by 
-     <lb/>
-     laying down what is known as statutory authority 
-     <lb/>
-     to subpoena witnesses and a committee would 
-     <lb/>
-     take evidence on a particular point. This was 
-     <lb/>
-     found not only desirable, but the only practical 
-     <lb/>
-     method. The witness on a particular point would 
-     <lb/>
-     attend before a select committee. They had 
-     <lb/>
-     statutory authority and these witnesses were re<lb break="no"/>quired to answer. I am not giving a judicial 
-     <lb/>
-     opinion, of course. There is no express authority 
-     <lb/>
-     in the Convention Act giving the Convention 
-     <lb/>
-     power to subpoena witnesses. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> The Convention has no
+                                          power <lb/> to compel attendance or to compel him to
+                                          answer <lb/> questions. In the old days the statutory
+                                          rules did <lb/> not cover this and they were amended in
+                                          1890 by <lb/> laying down what is known as statutory
+                                          authority <lb/> to subpoena witnesses and a committee
+                                          would <lb/> take evidence on a particular point. This was
+                                          <lb/> found not only desirable, but the only practical
+                                          <lb/> method. The witness on a particular point would
+                                          <lb/> attend before a select committee. They had <lb/>
+                                          statutory authority and these witnesses were re<lb
+                                                 break="no"/>quired to answer. I am not giving a
+                                          judicial <lb/> opinion, of course. There is no express
+                                          authority <lb/> in the Convention Act giving the
+                                          Convention <lb/> power to subpoena witnesses. <lb/>
+                                   </p>
 
             <p>
-     Mr. MacDonald if we are going to discuss mat<lb break="no"/>ters, we must have evidence. If we have no 
-     <lb/>
-     power, then our attendance seems useless. If you 
-     <lb/>
-     would point out to us where we can get such 
-     <lb/>
-     authority, it would be helpful. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:MACD12">Mr. MacDonald</persName> if we are going to
+                                          discuss mat<lb break="no"/>ters, we must have evidence. If
+                                          we have no <lb/> power, then our attendance seems useless.
+                                          If you <lb/> would point out to us where we can get such
+                                          <lb/> authority, it would be helpful. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman I take it requests might be made 
-     <lb/>
-     by the Convention for all necessary information 
-     <lb/>
-     or for the attendance of witnesses. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> I take it requests might
+                                          be made <lb/> by the Convention for all necessary
+                                          information <lb/> or for the attendance of witnesses.
+                                          <lb/>
+                                   </p>
 
             <p>
-     Mr. Job It seems to me that it will be time for 
-     <lb/>
-     that when we find they will not attend. I think 
-     <lb/>
-     they will give us the information. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:JOB1">Mr. Job</persName> It seems to me that it will
+                                          be time for <lb/> that when we find they will not attend.
+                                          I think <lb/> they will give us the information. <lb/>
+                                   </p>
 
             <p>
-     Mr. Jackman I understood that this Convention 
-     <lb/>
-     would be a fact-finding board; now I hear from 
-     <lb/>
-     you that whilst we are a fact-finding board, we 
-     <lb/>
-     are that in name only. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:JACK5">Mr. Jackman</persName> I understood that this
+                                          Convention <lb/> would be a fact-finding board; now I hear
+                                          from <lb/> you that whilst we are a fact-finding board, we
+                                          <lb/> are that in name only. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman I did not say that. I pointed out 
-     <lb/>
-     to you, that my reading of the act did not disclose 
-     <lb/>
-     the authority to compel attendance. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> I did not say that. I
+                                          pointed out <lb/> to you, that my reading of the act did
+                                          not disclose <lb/> the authority to compel attendance.
+                                          <lb/>
+                                   </p>
 
             <p>
-     Mr. Jackman If we are going to find our facts 
-     <lb/>
-     it is going to be necessary to have outside 
-     <lb/>
-     opinions, and I would like to know if it is possible 
-     <lb/>
-     for this Convention to protest to the government, 
-     <lb/>
-     if necessary, the lack of having that power, and 
-     <lb/>
-     the necessity on behalf of the electorate of New<lb break="no"/>foundland that we should have that power. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:JACK5">Mr. Jackman</persName> If we are going to find
+                                          our facts <lb/> it is going to be necessary to have
+                                          outside <lb/> opinions, and I would like to know if it is
+                                          possible <lb/> for this Convention to protest to the
+                                          government, <lb/> if necessary, the lack of having that
+                                          power, and <lb/> the necessity on behalf of the electorate
+                                          of New<lb break="no"/>foundland that we should have that
+                                          power. <lb/>
+                                   </p>
 
             <p>
-     Mr. Bradley I can quite understand the desire of 
-     <lb/>
-     every member of this Convention to have all 
-     <lb/>
-     available information and I am in accord with that 
-     <lb/>
-     idea, but there is not the slightest evidence that 
-     <lb/>
-     we are going to be refused any information. We 
-     <lb/>
-     cannot enforce it, it is true; but I do not see that 
-     <lb/>
-     there is anything to suggest that any department 
-     <lb/>
-     of the government will not have the slightest 
-     <lb/>
-     desire to refuse any legitimate information. If we 
-     <lb/>
-           
-            <pb n="12"
-                facs="final/images/NFLD_National_Convention_1946-09-12_Page_0012.jpg"/>
-            <fw type="num">12</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">September 1946</fw>
-          
-     should meet it, then we have other methods of 
-     <lb/>
-     getting that information. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:BRAD3">Mr. Bradley</persName> I can quite understand
+                                          the desire of <lb/> every member of this Convention to
+                                          have all <lb/> available information and I am in accord
+                                          with that <lb/> idea, but there is not the slightest
+                                          evidence that <lb/> we are going to be refused any
+                                          information. We <lb/> cannot enforce it, it is true; but I
+                                          do not see that <lb/> there is anything to suggest that
+                                          any department <lb/> of the government will not have the
+                                          slightest <lb/> desire to refuse any legitimate
+                                          information. If we <lb/>
+                                          <pb n="12"
+                                                 facs="final/images/NFLD_National_Convention_1946-09-12_Page_0012.jpg"/>
+                                          <fw type="num">12</fw>
+                                          <fw type="running">NATIONAL CONVENTION</fw>
+                                          <fw type="dateline">September 1946</fw> should meet it,
+                                          then we have other methods of <lb/> getting that
+                                          information. <lb/>
+                                   </p>
 
             <p>
-     Mr. MacDonald If the old House of Assembly 
-     <lb/>
-     found it necessary to have special laws so that 
-     <lb/>
-     they could call evidence, then there must have 
-     <lb/>
-     been some reason for that. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:MACD12">Mr. MacDonald</persName> If the old House of
+                                          Assembly <lb/> found it necessary to have special laws so
+                                          that <lb/> they could call evidence, then there must have
+                                          <lb/> been some reason for that. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman The Convention has no legisla<lb break="no"/>tive power it is true, but perhaps we might cross 
-     <lb/>
-     that bridge when we come to it. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> The Convention has no
+                                                 legisla<lb break="no"/>tive power it is true, but
+                                          perhaps we might cross <lb/> that bridge when we come to
+                                          it. <lb/>
+                                   </p>
 
             <p>
-     Mr. Bradley With your permission, I would 
-     <lb/>
-     suggest that this power of a select committee was 
-     <lb/>
-     in connection with private bills on which they 
-     <lb/>
-     wanted evidence or private rights being inter<lb break="no"/>fered with. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:BRAD3">Mr. Bradley</persName> With your permission, I
+                                          would <lb/> suggest that this power of a select committee
+                                          was <lb/> in connection with private bills on which they
+                                          <lb/> wanted evidence or private rights being inter<lb
+                                                 break="no"/>fered with. <lb/>
+                                   </p>
 
             <p>
-     Mr. Hollett I was not insinuating that any de<lb break="no"/>partment would refuse to disclose facts; I was 
-     <lb/>
-     thinking more of the people outside the depart<lb break="no"/>ments to whom we may have to go for necessary 
-     <lb/>
-     information relative to, say, the fisheries. It 
-     <lb/>
-     would be a terrible insult to our people if this 
-     <lb/>
-     body sent a request to John Jones to give us some 
-     <lb/>
-     information and he said, "I will not attend." I take 
-     <lb/>
-     it we could request the Commission to consider 
-     <lb/>
-     a slight amendment giving the Convention power 
-     <lb/>
-     to subpoena witnesses if we so desire. I would 
-     <lb/>
-     rather have the necessary power to ask a person 
-     <lb/>
-     to come here with the feeling we would not be 
-     <lb/>
-     turned down. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:HOLL2">Mr. Hollett</persName> I was not insinuating
+                                          that any de<lb break="no"/>partment would refuse to
+                                          disclose facts; I was <lb/> thinking more of the people
+                                          outside the depart<lb break="no"/>ments to whom we may
+                                          have to go for necessary <lb/> information relative to,
+                                          say, the fisheries. It <lb/> would be a terrible insult to
+                                          our people if this <lb/> body sent a request to John Jones
+                                          to give us some <lb/> information and he said, "I will not
+                                          attend." I take <lb/> it we could request the Commission
+                                          to consider <lb/> a slight amendment giving the Convention
+                                          power <lb/> to subpoena witnesses if we so desire. I would
+                                          <lb/> rather have the necessary power to ask a person
+                                          <lb/> to come here with the feeling we would not be <lb/>
+                                          turned down. <lb/>
+                                   </p>
 
             <p>
-     Mr. Smallwood I do not want to prolong this 
-     <lb/>
-     discussion, but this happens to be a popularly 
-     <lb/>
-     elected body in Newfoundland, the first elected 
-     <lb/>
-     body since 1932; His Excellency has con<lb break="no"/>spicuously graced it and appealed to the public 
-     <lb/>
-     for support of it; also he has graciously come and 
-     <lb/>
-     opened it and there exists all over the country 
-     <lb/>
-     tremendous approval and sympathy with the 
-     <lb/>
-     Convention, and the last thing on earth the Com<lb break="no"/>mission would dare to do is refuse information 
-     <lb/>
-     that we must have. There is no industrial concern, 
-     <lb/>
-     no commercial society which would not be happy 
-     <lb/>
-     to come here or write us in response to any 
-     <lb/>
-     request we make.... They dare not refuse it. With 
-     <lb/>
-     all due respect, it is anticipating a most unlikely 
-     <lb/>
-     thing to happen and if it does we will know how 
-     <lb/>
-     to deal with it. There is a matter I would like to 
-     <lb/>
-     mention in regard to the attendance of visitors 
-     <lb/>
-     Would this be a matter for the committee - <lb/> could it be arranged through the issuance of tick<lb break="no"/>ets or through delegates, so that anyone who 
-     <lb/>
-     wishes to attend a particular session may do so? 
-     <lb/>
-     A member may have three or four constituents 
-     <lb/>
-      
-            <cb/>
-           
-     who might wish to attend and they should not have 
-     <lb/>
-     to stand outside and take a chance on getting in. 
-     <lb/>
-    
-            </p>
-            <p>Mr. Chairman I think that can be arranged; but 
-     <lb/>the general question is how the proceedings are 
-     <lb/>to be conducted. There may be an occasion when 
-     <lb/>you want to have a private session; that is a matter 
-     <lb/>for yourselves. I think the committee will deal 
-     <lb/>with the various matters. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SMAL1">Mr. Smallwood</persName> I do not want to
+                                          prolong this <lb/> discussion, but this happens to be a
+                                          popularly <lb/> elected body in Newfoundland, the first
+                                          elected <lb/> body since 1932; His Excellency has con<lb
+                                                 break="no"/>spicuously graced it and appealed to
+                                          the public <lb/> for support of it; also he has graciously
+                                          come and <lb/> opened it and there exists all over the
+                                          country <lb/> tremendous approval and sympathy with the
+                                          <lb/> Convention, and the last thing on earth the Com<lb
+                                                 break="no"/>mission would dare to do is refuse
+                                          information <lb/> that we must have. There is no
+                                          industrial concern, <lb/> no commercial society which
+                                          would not be happy <lb/> to come here or write us in
+                                          response to any <lb/> request we make.... They dare not
+                                          refuse it. With <lb/> all due respect, it is anticipating
+                                          a most unlikely <lb/> thing to happen and if it does we
+                                          will know how <lb/> to deal with it. There is a matter I
+                                          would like to <lb/> mention in regard to the attendance of
+                                          visitors <lb/> Would this be a matter for the committee -
+                                          <lb/> could it be arranged through the issuance of tick<lb
+                                                 break="no"/>ets or through delegates, so that
+                                          anyone who <lb/> wishes to attend a particular session may
+                                          do so? <lb/> A member may have three or four constituents <lb/>
+                                          <cb/> who might wish to attend and they should not have
+                                          <lb/> to stand outside and take a chance on getting in.
+                                          <lb/>
+                                   </p>
+            <p><persName ref="pers:SPEA1">Mr. Chairman</persName> I think that can be arranged; but <lb/>the general
+                                          question is how the proceedings are <lb/>to be conducted.
+                                          There may be an occasion when <lb/>you want to have a
+                                          private session; that is a matter <lb/>for yourselves. I
+                                          think the committee will deal <lb/>with the various
+                                          matters. <lb/>
+                                   </p>
 
             <p>
-     Mr. Jackman As a member of this Convention 
-     <lb/>
-     I am not satisfied with the authority we have. In 
-     <lb/>
-     regard to summoning, say, government wit<lb break="no"/>nesses, I do not think they would refuse, but we 
-     <lb/>
-     may have to go to England yet. We may have to 
-     <lb/>
-     go to Canada. If we are a fact finding board, and 
-     <lb/>
-     suppose we want to bring back Sir John Hope 
-     <lb/>
-     Simpson, or Sir Wilfrid Woods, we have no 
-     <lb/>
-     authority whatever to summon them. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:JACK5">Mr. Jackman</persName> As a member of this
+                                          Convention <lb/> I am not satisfied with the authority we
+                                          have. In <lb/> regard to summoning, say, government wit<lb
+                                                 break="no"/>nesses, I do not think they would
+                                          refuse, but we <lb/> may have to go to England yet. We may
+                                          have to <lb/> go to Canada. If we are a fact finding
+                                          board, and <lb/> suppose we want to bring back Sir John
+                                          Hope <lb/> Simpson, or Sir Wilfrid Woods, we have no <lb/>
+                                          authority whatever to summon them. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman Usually a writ of subpoena does 
-     <lb/>
-     not run outside the country. You have the right to 
-     <lb/>
-     summon people only within your jurisdiction. 
-     <lb/>
-     
-     
-            </p>
-            <p>Mr. Brown Some time ago I made a motion. 
-     <lb/>
-            </p>
-            <p>Mr. Crosbie I second that motion. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> Usually a writ of
+                                          subpoena does <lb/> not run outside the country. You have
+                                          the right to <lb/> summon people only within your
+                                          jurisdiction. <lb/>
+                                   </p>
+            <p><persName ref="pers:BROW7">Mr. Brown</persName> Some time ago I made a motion. <lb/>
+                                   </p>
+            <p><persName ref="pers:CROS2">Mr. Crosbie</persName> I second that motion. <lb/>
+                                   </p>
 
             <p>
-     Mr. Chairman Mr. Brown made a motion that 
-     <lb/>
-     the Convention adjourn and that a committee 
-     <lb/>
-     appointed draft rules and report back to the House 
-     <lb/>
-     and that motion, was seconded by Mr. Crosbie. 
-     <lb/>
-     
-     
-     
-            </p>
-            <p>Mr. Job It is indefinite. I wonder if we could 
-     <lb/>adjourn until, say, Monday; the committee might 
-     <lb/>make an interim report. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> Mr. Brown made a motion
+                                          that <lb/> the Convention adjourn and that a committee
+                                          <lb/> appointed draft rules and report back to the House
+                                          <lb/> and that motion, was seconded by Mr. Crosbie. <lb/>
+                                   </p>
+            <p><persName ref="pers:JOB1">Mr. Job</persName> It is indefinite. I wonder if we could <lb/>adjourn
+                                          until, say, Monday; the committee might <lb/>make an
+                                          interim report. <lb/>
+                                   </p>
 
             <p>
-     Mr. Brown I submit that there is no committee 
-     <lb/>
-     going to hang up longer than necessary the work 
-     <lb/>
-     of the Convention. I have no reason or desire to 
-     <lb/>
-     delay the Convention or the work, but the com<lb break="no"/>mittee cannot decide it in 24 hours. It will take 
-     <lb/>
-     time to discuss, deliberate and decide on what 
-     <lb/>
-     line it will take. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:BROW7">Mr. Brown</persName> I submit that there is no
+                                          committee <lb/> going to hang up longer than necessary the
+                                          work <lb/> of the Convention. I have no reason or desire
+                                          to <lb/> delay the Convention or the work, but the com<lb
+                                                 break="no"/>mittee cannot decide it in 24 hours. It
+                                          will take <lb/> time to discuss, deliberate and decide on
+                                          what <lb/> line it will take. <lb/>
+                                   </p>
 
             <p>
-     Mr. Smallwood Have we not adopted the rules 
-     <lb/>
-     of the House of Assembly? We have rules. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:SMAL1">Mr. Smallwood</persName> Have we not adopted the
+                                          rules <lb/> of the House of Assembly? We have rules. <lb/>
+                                   </p>
 
             <p>
-     Mr. Job I do not think they could possibly get 
-     <lb/>
-     through all the business of the committee by 
-     <lb/>
-     Monday, but I thought they would get enough 
-     <lb/>
-     done to enable the House to continue meeting 
-     <lb/>
-     There is a lot of work for the committee to do. It 
-     <lb/>
-     would give us dme to make a report on the progress. 
-     <lb/>
-            </p>
-            <p>Mr. Brown If you will pardon me, I take it for 
-     <lb/>granted that my honourable friend means that this 
-     <lb/>committee will continue in office during the life 
-     <lb/>of the convention, because after all there will be 
-     <lb/>necessity for new miles or lines of procedure to 
-     <lb/>be made every week as long as this Convention 
-     <lb/>remains open. 
-     <lb/>
-            </p>
+                                          <persName ref="pers:JOB1">Mr. Job</persName> I do not think they could
+                                          possibly get <lb/> through all the business of the
+                                          committee by <lb/> Monday, but I thought they would get
+                                          enough <lb/> done to enable the House to continue meeting
+                                          <lb/> There is a lot of work for the committee to do. It
+                                          <lb/> would give us dme to make a report on the progress.
+                                          <lb/>
+                                   </p>
+            <p><persName ref="pers:BROW7">Mr. Brown</persName> If you will pardon me, I take it for <lb/>granted that
+                                          my honourable friend means that this <lb/>committee will
+                                          continue in office during the life <lb/>of the convention,
+                                          because after all there will be <lb/>necessity for new
+                                          miles or lines of procedure to <lb/>be made every week as
+                                          long as this Convention <lb/>remains open. <lb/>
+                                   </p>
             <pb n="13"
                 facs="final/images/NFLD_National_Convention_1946-09-12_Page_0013.jpg"/>
             <fw type="dateline">September 1946</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">13</fw>
             <p>
-     Mr. Chairman There is one difficulty that ap<lb break="no"/>pears to me — difficulty of getting in touch with 
-     <lb/>
-     the members and it would be better to know now 
-     <lb/>
-     the date, then we would know exactly when we 
-     <lb/>
-     were to re-assemble. 
-     <lb/>
-            </p>
-            <p>Mr. Hollett I fail to see how it can adjourn in<lb break="no"/>definitely. It may take some time for the commit<lb break="no"/><cb/>tee to draft the rules but we should meet every<lb/> day; we were not sent here for indefinite adjourn<lb break="no"/>ments. Another thing, I do not think the public<lb/>should be admitted where rules and regulations<lb/>are being made relative to the business. I do agree<lb/>that the committee should be allowed time.<lb/>
-            </p>
+                                          <persName ref="pers:SPEA1">Mr. Chairman</persName> There is one difficulty
+                                          that ap<lb break="no"/>pears to me — difficulty of getting
+                                          in touch with <lb/> the members and it would be better to
+                                          know now <lb/> the date, then we would know exactly when
+                                          we <lb/> were to re-assemble. <lb/>
+                                   </p>
+            <p><persName ref="pers:HOLL2">Mr. Hollett</persName> I fail to see how it can adjourn in<lb break="no"
+                                          />definitely. It may take some time for the commit<lb
+                                                 break="no"/><cb/>tee to draft the rules but we
+                                          should meet every<lb/> day; we were not sent here for
+                                          indefinite adjourn<lb break="no"/>ments. Another thing, I
+                                          do not think the public<lb/>should be admitted where rules
+                                          and regulations<lb/>are being made relative to the
+                                          business. I do agree<lb/>that the committee should be
+                                          allowed time.<lb/>
+                                   </p>
             <p><hi rendition="simple:italic">[The Convention adjourned until September 16]</hi><lb/>
             </p>
 
