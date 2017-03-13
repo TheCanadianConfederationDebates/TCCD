@@ -34,7 +34,13 @@
           
 
           <pubPlace>Québec</pubPlace>: <publisher>Hunter, Rose et Lemieux, Imprimeurs Parlementaires</publisher>.
-        
+                    
+
+          <date/>.  
+          
+
+          <pubPlace/>: <publisher/>.
+          
 
           <biblScope unit="page" from="82" to="116"/>.
         </bibl>
@@ -159,6 +165,8 @@
          <change who="mholmes" when="2017-03-01">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-01">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-10"> Marked Up People.</change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -350,7 +358,7 @@ sur la résolution au sujet d'une union des <lb/>
 colonies de l'Amérique Britannique du <lb/>
 Nord ayant été lu, <lb/>
             </p>
-            <p> L'Hon. GEORGE BROWN se lève et <lb/>
+            <p> <persName ref="pers:BROW4">L'Hon. GEORGE BROWN</persName> se lève et <lb/>
 dit :—M. l'ORATEUR,—C'est avec un senti<lb break="no"/>ment de satisfaction que je me lève pour <lb/>
 adresser la parole à cette
 chambre en <lb/>
@@ -437,11 +445,11 @@ un projet <lb/>
 bien considéré et bien mûri pour la création <lb/>
 d'un nouvel empire,—projet qui a reçu, <lb/>
 chez nous et a l'étranger, l'approbation pres<lb break="no"/>qu'universelle. </p> 
-            <p> L'Hon.
-M. HOLTON.—(Avee ironie: <lb/>
+            <p> <persName ref="pers:HOLT1">L'Hon.
+M. HOLTON</persName>.—(Avee ironie: <lb/>
 Ecoutez ! écoutez ! !) <lb/>
             </p>
-            <p> L'HON. M. BROWN—Mon
+            <p> <persName ref="pers:BROW4">L'HON. M. BROWN</persName>—Mon
 hon. ami <lb/>
 semble différer d'opinion, mais est—il possible <lb/>
 de ne pas céder à l'évidence? Le projet n'a- <lb break="yes"/>
@@ -756,17 +764,17 @@ et ces animosités. (Ecoutez !) Nous cher<lb break="no"/><pb n="84" facs="final/
             </p>
 
             <p>
-     M. T. C. WALLBRIDGE.—Quand ? 
+     <persName ref="pers:WALL5">M. T. C. WALLBRIDGE</persName>.—Quand ? 
      <lb/>
             </p>
 
             <p>
-     L' HON. Proc.-Gén. CARTIER—Bientôt ? 
+     <persName ref="pers:CART2">L' HON. Proc.-Gén. CARTIER</persName>—Bientôt ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN .—L'hon. député de 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—L'hon. député de 
      <lb/>
      Hastings Nord demande quand toutes ces 
      <lb/>
@@ -915,9 +923,9 @@ et ces animosités. (Ecoutez !) Nous cher<lb break="no"/><pb n="84" facs="final/
      <lb/>
      des deux sections ne pourrait l'être." 
      <lb/>
-     ' L'HON. Proc.-Gén. CARTIER.—[Ecou<lb break="no"/>tez ! écoutez ! Là est toute la question !] 
+     ' <persName ref="pers:CART2">L'HON. Proc.-Gén. CARTIER</persName>.—[Ecou<lb break="no"/>tez ! écoutez ! Là est toute la question !] 
      <lb/>
-     L'HON. M. BROWN .—Oui, c'est la toute 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Oui, c'est la toute 
      <lb/>
      la question. Toute constitution parfaite est 
      <lb/>
@@ -1066,14 +1074,14 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     M. T. C. WALLBRIDGE.—(Ecoutez ! 
+     <persName ref="pers:WALL5">M. T. C. WALLBRIDGE</persName>.—(Ecoutez ! 
      <lb/>
      écoutez !) 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN.—L'hon. député de 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—L'hon. député de 
      <lb/>
      Hastings Nord est de cet avis ; mais il est 
      <lb/>
@@ -1785,12 +1793,12 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     L'HON. A. A. DORION. —Ha ! Ha ! 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>. —Ha ! Ha ! 
      <lb/>
             </p>
 
             <p>
-     L' HON. M. BROWN .—L`hilarité de mon 
+     <persName ref="pers:BROW4">L' HON. M. BROWN</persName>.—L`hilarité de mon 
      <lb/>
      hou. ami ne m'empêchers pas de répéter mon 
      <lb/>
@@ -2546,14 +2554,14 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     M. T. C. WALLBRIDGE.—C'est dé<lb break="no"/>truire le pouvoir des législatures locales que 
+     <persName ref="pers:WALL5">M. T. C. WALLBRIDGE</persName>.—C'est dé<lb break="no"/>truire le pouvoir des législatures locales que 
      <lb/>
      de légiférer sur ce sujet. 
      <lb/>
             </p>
 
             <p>
-     L' HON. M. BROWN .—J'aimerais à savoir 
+     <persName ref="pers:BROW4">L' HON. M. BROWN</persName>.—J'aimerais à savoir 
      <lb/>
      où est le pouvoir que l'hon. monsieur a de 
      <lb/>
@@ -3123,14 +3131,14 @@ Ce projet, M. l'ORATEUR, peut être envisagé
     
 
             <p>
-     L'HON. M. HOLTON.—Pourquoi ont- 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—Pourquoi ont- 
      <lb break="yes"/>
      elles baissé depuis ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BOWN.—Je répondrai tout 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Je répondrai tout 
      <lb/>
      à.l'heure à la question de l'hon. membre. 
      <lb/>
@@ -3377,7 +3385,7 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     L'HON. M. HOLTON . — Des navires 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>. — Des navires 
      <lb/>
      construits durant cette année, combien nous 
      <lb/>
@@ -3386,7 +3394,7 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     L'HON. M. BROWN .—De ceux construits 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—De ceux construits 
      <lb/>
      en 1861 par les Américains, combien leur en 
      <lb/>
@@ -3417,14 +3425,14 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             <cb/>
             
 <p>
-       L'HON. M. HOLTON. —Gardez-vous en 
+       <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>. —Gardez-vous en 
      <lb/>
      bien ! 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN.—Ah ! mon hon. 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Ah ! mon hon. 
      <lb/>
      ami n'a pas besoin qu'on l'instruise, eh ! bien, 
      <lb/>
@@ -3435,7 +3443,7 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     L'HON. M. HOLTON.—Je sais que la 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—Je sais que la 
      <lb/>
      plupart des navires dont parle mon hon. ami 
      <lb/>
@@ -3452,7 +3460,7 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     .L'HON. M. BROWN.—Mon hon.  ami 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Mon hon.  ami 
      <lb/>
      sait bien que gâteau mangé ne compte plus 
      <lb/>
@@ -3479,26 +3487,26 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     L'HON. M. HOLTON.—Navires de mer ? 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—Navires de mer ? 
      <lb/>
             </p>
 
             <p>
-     L'HON.    M. BROWN—De mer et de 
+     <persName ref="pers:BROW4">L'HON.    M. BROWN</persName>—De mer et de 
      <lb/>
      rivière. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M   HOLTON.—(ironiquement) 
+     <persName ref="pers:HOLT1">L'HON. M   HOLTON</persName>.—(ironiquement) 
      <lb/>
      —Ecoutez ! écoutez ! 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN.—Pourquoi donc 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Pourquoi donc 
      <lb/>
      mon hon. ami est-il aussi enclin à tout dé<lb break="no"/>précier ? C'est donc un fait bien déplorable 
      <lb/>
@@ -3949,11 +3957,11 @@ Ce projet, M. l'ORATEUR, peut être envisagé
      <lb/>
      certain montant d'améliorations au sol. 
      <lb/>
-     L'HON. M. HOLTON. — Malheureuse<lb break="no"/>ment pour votre argumentation, les terres 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>. — Malheureuse<lb break="no"/>ment pour votre argumentation, les terres 
      <lb/>
      appartiendront aux gouvernements locaux. 
      <lb/>
-     L'HON. M. BROWN .—Tant mieux ; car 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Tant mieux ; car 
      <lb/>
      mon hon. ami aura l'administration de ses 
      <lb/>
@@ -4137,21 +4145,21 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
 
             <p>
-     L'Hon. Proc.-Gén. Cartier.— (Ecou 
+     <persName ref="pers:CART2">L'Hon. Proc.-Gén. Cartier</persName>.— (Ecou 
      <lb/>
      tez ! écoutez ! !) 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. GALT.—(Ecoutez ! écou<lb break="no"/>tez ! ) 
+     <persName ref="pers:GALT1">L'HON. M. GALT</persName>.—(Ecoutez ! écou<lb break="no"/>tez ! ) 
      <lb/>
      
      
      
      
             </p>
-            <p>L'HON. M. BROWN .—Lors de mon 
+            <p><persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Lors de mon 
      <lb/>dernier voyage en Angleterre, je fus chargé 
      <lb/>de négocier avec les autorités impériales 
      <lb/>pour l'ouverture des territoires du Nord- 
@@ -4397,8 +4405,7 @@ français ont encore droit d'être fiers du
      <lb/>auraient pu se procurer au Canada. Je 
      <lb/>n'en donnerai pas lecture pour ne pas 
      <lb/>retenir trop longtemps la chambre, mais les 
-     <lb/>membres qui le désirent peuvent la consul- 
-     <lb break="yes"/>ter. En résumé, les provinces ont acheté pour 
+     <lb/>membres qui le désirent peuvent la consul<lb break="no"/>ter. En résumé, les provinces ont acheté pour 
      <lb/>$4,447,207 de céréales, et pour $669,917 de 
      <lb/>viande fraîche et salée, et le total des produits 
      <lb/>qu'elles auraient pu avoir chez nous à des 
@@ -4720,9 +4727,7 @@ français ont encore droit d'être fiers du
      <lb/>
      de nous assurer, en tout temps, un accès à la 
      <lb/>
-     mer à travers le territoire anglais. (Ecou<lb break="no"/>tez ! écoutez !) J'avoue que comme entre<lb break="no"/>prise commerciale le chemin de fer inter- 
-     <lb break="yes"/>
-     colonial n'ait pas une grande valeur ;—il 
+     mer à travers le territoire anglais. (Ecou<lb break="no"/>tez ! écoutez !) J'avoue que comme entre<lb break="no"/>prise commerciale le chemin de fer inter<lb break="no"/>colonial n'ait pas une grande valeur ;—il 
      <lb/>
      peut avoir plusieurs défenseurs comme 
      <lb/>
@@ -4904,7 +4909,7 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON. M. HOLTON.—La chose n'est 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—La chose n'est 
      <lb/>
      guère croyable puisque au lieu du leur ce 
      <lb/>
@@ -4913,7 +4918,7 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON M. BROWN .—L'hon. monsieur se 
+     <persName ref="pers:BROW4">L'HON M. BROWN</persName> .—L'hon. monsieur se 
      <lb/>
      trompe du tout au tout, et je suis étonné de 
      <lb/>
@@ -5018,14 +5023,14 @@ français ont encore droit d'être fiers du
      
      
             </p>
-            <p>L'Hon. M. HOLTON—C'est vrai ! 
+            <p><persName ref="pers:HOLT1">L'Hon. M. HOLTON</persName>—C'est vrai ! 
      <lb/>
             </p>
-            <p>L'HON. M. CARTIER—Non, c'est le 
+            <p><persName ref="pers:CART2">L'HON. M. CARTIER</persName>—Non, c'est le 
      <lb/>contraire qui est vrai. 
      <lb/>
             </p>
-            <p>L'HON. M. BROWN .—Je suis étonné 
+            <p><persName ref="pers:BROW4">L'HON. M. BROWN</persName> .—Je suis étonné 
      <lb/>
             
             <cb/>
@@ -5047,7 +5052,7 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON. M. HOLTON.—Pour ouvrir des 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—Pour ouvrir des 
      <lb/>
      négociations à cet effet mais non pas pour 
      <lb/>
@@ -5056,7 +5061,7 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON. M. BROWN .—Tout ce que nous 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Tout ce que nous 
      <lb/>
      avone fait est sujet à l'approbation du parle<lb break="no"/>ment. L'hon. membre pour Cornwall devrait 
      <lb/>
@@ -5073,7 +5078,7 @@ français ont encore droit d'être fiers du
     
 
             <p>
-     M. DUNKIN—On m'a dit plus—c'est 
+     <persName ref="pers:DUNK1">M. DUNKIN</persName>—On m'a dit plus—c'est 
      <lb/>
      qu'on ne devait attenter en aucune façon 
      <lb/>
@@ -5082,7 +5087,7 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON.M. BROWN .—Je puis affirmer 
+     <persName ref="pers:BROW4">L'HON.M. BROWN</persName>.—Je puis affirmer 
      <lb/>
      à mon hon. ami que, sous ce rapport, il n'a 
      <lb/>
@@ -5107,14 +5112,14 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON. M.HOLTON.—Nous n'avons 
+     <persName ref="pers:HOLT1">L'HON. M.HOLTON</persName>.—Nous n'avons 
      <lb/>
      pas le pouvoir de conclure des traités. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN —J'ai souvenance 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName> —J'ai souvenance 
      <lb/>
      d'un gouvernement formé de l'autre côté de 
      <lb/>
@@ -5122,9 +5127,7 @@ français ont encore droit d'être fiers du
      <lb/>
      le souvenir, et ce gouvernement lit un traité 
      <lb/>
-     pour la construction du chemin de fer inter- 
-     <lb break="yes"/>
-     colonial. L'hon. membre pour Cornwall 
+     pour la construction du chemin de fer inter<lb break="no"/>colonial. L'hon. membre pour Cornwall 
      <lb/>
             
             <pb n="111" facs="final/images/Ont_Que_Fr_LA_1865-02-08_Page_0111.jpg"/>
@@ -5146,11 +5149,11 @@ français ont encore droit d'être fiers du
      <lb/>
      
             </p>
-            <p>L'HON. M . HOLTON .—Le parlement 
+            <p><persName ref="pers:HOLT1">L'HON. M . HOLTON</persName> .—Le parlement 
      <lb/>anglais vous a-t-il conféré ce pouvoir ? 
      <lb/>
             </p>
-            <p>L'HON. M. BROWN .—Non ; mais l'hon. 
+            <p><persName ref="pers:BROW4">L'HON. M. BROWN</persName> .—Non ; mais l'hon. 
      <lb/>monsieur ne doit par ignorer que le pouvoir 
      <lb/>de conclure des traités est une prérogative 
      <lb/>royale ; or la couronne nous a spécialement 
@@ -5420,19 +5423,19 @@ français ont encore droit d'être fiers du
             </p></quote>
    
             <p>
-     L'HON. M. CARTIER.—Quel est l'au<lb break="no"/>teur de cette proposition ? 
+     <persName ref="pers:CART2">L'HON. M. CARTIER</persName>.—Quel est l'au<lb break="no"/>teur de cette proposition ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN.—Cet avis de motion 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Cet avis de motion 
      <lb/>
      fut donné par mon hon. ami le député d'Ho<lb break="no"/>chelaga (l'hon. M. DORION). (Applaudisse<lb break="no"/>ments.) 
      <lb/>
             </p>
 
             <p>
-     L' HON. A. A. DORION .—C'était un amen<lb break="no"/>dement à l'avis de motion de l'hon. député 
+     <persName ref="pers:DORI1">L' HON. A. A. DORION</persName> .—C'était un amen<lb break="no"/>dement à l'avis de motion de l'hon. député 
      <lb/>
      de Sherbrooke qui ne me plaisait pas tout à fait. 
      <lb/>
@@ -5441,7 +5444,7 @@ français ont encore droit d'être fiers du
     
 
             <p>
-     L'HON. M. HOLTON.—Avis de motion 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—Avis de motion 
      <lb/>
      que cet hon. monsieur n'osa pas proposer de 
      <lb/>
@@ -5452,7 +5455,7 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L' HON. M. BROWN.—Et je me rappelle 
+     <persName ref="pers:BROW4">L' HON. M. BROWN</persName>.—Et je me rappelle 
      <lb/>
      parfaitement que mon hon. ami (l'hon. M. 
      <lb/>
@@ -5468,14 +5471,14 @@ français ont encore droit d'être fiers du
             <cb/>
 
             <p>
-     L'HON. A.A. DORION.-Je fis un discours 
+     <persName ref="pers:DORI1">L'HON. A.A. DORION</persName>.-Je fis un discours 
      <lb/>
      sur la proposition de l'hon. deputé de Haldi<lb break="no"/>mand M. MACKENZIE, et non sur la mienne. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN.—Cette distinction 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.—Cette distinction 
      <lb/>
      ne signifie rien, car je n'ai pas l'intention 
      <lb/>
@@ -5778,14 +5781,14 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     M. POWELL.—Qui a rédigé ce docu<lb break="no"/>ment? 
+     <persName ref="pers:POWE2">M. POWELL</persName>.—Qui a rédigé ce docu<lb break="no"/>ment? 
      <lb/>
             </p>
             <pb n="114" facs="final/images/Ont_Que_Fr_LA_1865-02-08_Page_0114.jpg"/>
             <fw type="num">114</fw>
 
 <p>
-     L'HON. M. BROWN .—Je ne saurais le 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName> .—Je ne saurais le 
      <lb/>
      dire au juste, mais mon honorable ami de 
      <lb/>
@@ -5798,21 +5801,21 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON. M. HOLTON.—Mon hon. ami 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—Mon hon. ami 
      <lb/>
      l'accepterait-il comme amendement au projet ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. GALT.—Non pas ! le projet 
+     <persName ref="pers:GALT1">L'HON. M. GALT</persName>.—Non pas ! le projet 
      <lb/>
      vaut encore mieux. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN—J'en arrive main<lb break="no"/>tenant à la grande assemblée des réformistes 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>—J'en arrive main<lb break="no"/>tenant à la grande assemblée des réformistes 
      <lb/>
      du Haut-Canada, connue sous le nom de 
      <lb/>
@@ -5881,14 +5884,14 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON. M. HOLTON.—Approuviez-vous 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—Approuviez-vous 
      <lb/>
      cette condition ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. BROWN—Non, vraiment ! 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>—Non, vraiment ! 
      <lb/>
      Je me borne à citer un fait pour montrer 
      <lb/>
@@ -5911,7 +5914,7 @@ français ont encore droit d'être fiers du
     
 
             <p>
-     L'HON A. A. DORION.—Nous étions 
+     <persName ref="pers:DORI1">L'HON A. A. DORION</persName>.—Nous étions 
      <lb/>
      soutenus par tous ceux qui étaient en faveur 
      <lb/>
@@ -5920,12 +5923,12 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON. M. BROWN.— Vraiment, non ! 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>.— Vraiment, non ! 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. HOLTON—Mais nous serions 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Mais nous serions 
      <lb/>
      tombés immédiatement si nous l'avions 
      <lb/>
@@ -5934,7 +5937,7 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     L'HON. M. BROWN—Je suis obligé de 
+     <persName ref="pers:BROW4">L'HON. M. BROWN</persName>—Je suis obligé de 
      <lb/>
      nier formellement cette assertion. Si vous 
      <lb/>
@@ -5955,12 +5958,12 @@ français ont encore droit d'être fiers du
             </p>
 
             <p>
-     UNE VOIX—Oh ! oh ! 
+     <persName ref="UNSPECIFIED">UNE VOIX</persName>—Oh ! oh ! 
      <lb/>
             </p>
 
             <p>
-     L'Hon. M. BROWN—Mon honorable 
+     <persName ref="pers:BROW4">L'Hon. M. BROWN</persName>—Mon honorable 
      <lb/>
      ami s'indigne et crie : " oh ! oh ! " cela me 
      <lb/>
@@ -6230,7 +6233,7 @@ français ont encore droit d'être fiers du
      <lb/>digne du parlement canadien. (L'hon. mon<lb break="no"/>sieur reprend son siége en milieu d'applau<lb break="no"/>dissements bruyants et prolongés.) 
      <lb/>
             </p>
-            <p>Sur motion de l'hon. M. MCGEE, les 
+            <p>Sur motion de <persName ref="pers:MCGE1">l'hon. M. MCGEE</persName>, les 
      <lb/>débats sont ajournés à jeudi soir. 
      <lb/>
             </p>
