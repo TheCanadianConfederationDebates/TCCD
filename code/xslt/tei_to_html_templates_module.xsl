@@ -142,8 +142,17 @@
     </xd:doc>
     <xsl:template match="persName[not(ancestor::person) and starts-with(@ref, 'pers:')]">
         <a href="#{substring-after(@ref, 'pers:')}" data-el="persName">
+            <xsl:if test="@ref='UNSPECIFIED'">
+                <xsl:attribute name="class" select="'unidentifiedName'"/>
+                <xsl:attribute name="id" select="generate-id(.)"/>
+            </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
         </a>
+    </xsl:template>
+    <xsl:template match="persName[not(ancestor::person) and matches(@ref, 'UNSPECIFIED')]">
+        <span data-el="persName" class="unidentifiedName" id="{generate-id(.)}">
+            <xsl:apply-templates select="@*|node()"/>
+        </span>
     </xsl:template>
     <xsl:template match="persName[ancestor::person]">
         <span data-el="persName">

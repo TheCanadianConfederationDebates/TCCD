@@ -112,6 +112,10 @@ div[data-el='l']{
     color: #660000;
 }
 
+.unidentifiedName{
+    background-color: #ffcccc;
+}
+
 /* Journal and monograph titles are italicized... */
 span[data-level='m'], span[data-level='j']{
     font-style: italic;
