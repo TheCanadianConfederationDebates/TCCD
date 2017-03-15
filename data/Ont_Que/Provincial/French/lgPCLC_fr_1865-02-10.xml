@@ -99,6 +99,8 @@
          <change who="mholmes" when="2017-03-09">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-09">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-13"> Marked Up people </change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -315,7 +317,7 @@
      <lb/>
             </p>
             <p>
-     L'HON. M. MACPHERSON continue 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName> continue 
      <lb/>
      son discours d'hier, comme suit :—Par les 
      <lb/>
@@ -520,9 +522,7 @@
      <lb/>
      n'étant mentionné que d'une manière géné<lb break="no"/>rale. Si nous avons la confédération, hons. 
      <lb/>
-     messieurs, il faut que le chemin de fer inter- 
-     <lb break="yes"/>
-     colonial se fasse, mais j'ai l'espoir que les 
+     messieurs, il faut que le chemin de fer inter<lb break="no"/>colonial se fasse, mais j'ai l'espoir que les 
      <lb/>
      améliorations de l'ouest se feront en même 
      <lb/>
@@ -658,7 +658,7 @@
      <lb/>
             </p>
             <pb n="153" facs="final/images/Ont_Que_Fr_LC_1865-02-10_Page_0153.jpg"/>
-            <fw type="num">158</fw>
+            <fw type="num">153</fw>
             <p>
      Un hon. conseiller a dit que le peuple n'était 
      <lb/>
@@ -826,7 +826,7 @@
             </p>
 
             <p>
-     L'HON. M. BOULTON.—Je me réjouis 
+     <persName ref="pers:BOUL1">L'HON. M. BOULTON</persName>.—Je me réjouis 
      <lb/>
      de ce que cette chambre ait maintenant 
      <lb/>
@@ -1246,7 +1246,7 @@
     
 
             <p>
-     HON. M. AIKINS.—Je ne pense pas, 
+     <persName ref="pers:AIKI1">HON. M. AIKINS</persName>.—Je ne pense pas, 
      <lb/>
      hons. messieurs, que ce qui s'est passé dans 
      <lb/>
@@ -1273,14 +1273,14 @@
             </p>
 
             <p>
-     L'HON. M. MACPHERSON.—Je l'ai lu 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>.—Je l'ai lu 
      <lb/>
      en entier ce procès-verbal.   
      <lb/>
             </p>
 
             <p>
-     L'HON. M. AIKINS—C'est égal, je vais 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—C'est égal, je vais 
      <lb/>
      le lire à mon tour et en tirer de nouvelles 
      <lb/>
@@ -1463,7 +1463,7 @@
     
 
             <p>
-     L'HON. M. CAMPBELL.—Le gouverne<lb break="no"/>ment ne veut nullement refuser aucune in<lb break="no"/>formation que la chambre peut désirer ; il 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—Le gouverne<lb break="no"/>ment ne veut nullement refuser aucune in<lb break="no"/>formation que la chambre peut désirer ; il 
      <lb/>
      est au contraire désireux de lui donner tous 
      <lb/>
@@ -1486,7 +1486,7 @@
     
 
             <p>
-     L'HON. M. AIKINS.—Ce que vient de 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>.—Ce que vient de 
      <lb/>
      dire l'hon. commissaire des terres de la 
      <lb/>
@@ -1503,7 +1503,7 @@
             </p>
 
             <p>
-     L'HON. M. CAMPBELL—L'occasion 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—L'occasion 
      <lb/>
      vous en sera donnée lorsqu'il s'agira de 
      <lb/>
@@ -1526,7 +1526,7 @@
             </p>
 
             <p>
-     L'HON. M. AIKINS.—J'admets volon<lb break="no"/>tiers la sincérité du gouvernement dans cette 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>.—J'admets volon<lb break="no"/>tiers la sincérité du gouvernement dans cette 
      <lb/>
      question ; mais avant de voter pour la con<lb break="no"/>fédération, j'aimerais à savoir, et la chambre 
      <lb/>
@@ -1547,7 +1547,7 @@
             </p>
 
             <p>
-     L'HON. M. CAMPBELL—L'hon. mon<lb break="no"/>sieur me permettra de lui faire remarquer que 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—L'hon. mon<lb break="no"/>sieur me permettra de lui faire remarquer que 
      <lb/>
      la question du chemin de fer intercolonial sera 
      <lb/>
@@ -1570,7 +1570,7 @@
             </p>
 
             <p>
-     L'HON. M. AIKINS—Je sais parfaite<lb break="no"/>ment que cette voie ferrée doit être construite 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—Je sais parfaite<lb break="no"/>ment que cette voie ferrée doit être construite 
      <lb/>
             
             <cb/>
@@ -1618,7 +1618,7 @@
     
 
             <p>
-     L'HON. M. BOULTON—Je n'ai pas voulu 
+     <persName ref="pers:BOUL1">L'HON. M. BOULTON</persName>—Je n'ai pas voulu 
      <lb/>
      parler de la ville de Cobourg, mais seulement 
      <lb/>
@@ -1635,7 +1635,7 @@
             </p>
 
             <p>
-     L'HON. M. AIKINS—Fort bien ; mais 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—Fort bien ; mais 
      <lb/>
      je ne vois pas pourquoi je me serais abstenu 
      <lb/>
@@ -1660,7 +1660,7 @@
             </p>
 
             <p>
-     L'HON. M. MACPHERSON—L'hon. 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>—L'hon. 
      <lb/>
      préopinant fait erreur : j'ai dit que les nomi<lb break="no"/>nations se feraient sur la recommandation des 
      <lb/>
@@ -1669,21 +1669,21 @@
             </p>
 
             <p>
-     L'HON. M. AIKINS—Si l'hon. monsieur 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—Si l'hon. monsieur 
      <lb/>
      n'était pas aussi susceptible, il se serait épar<lb break="no"/>gné la peine de cette explication. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. MACPHERSON —Je n'aime 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName> —Je n'aime 
      <lb/>
      pas à être mal interprété. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. AIKINS—Il n'était assuré<lb break="no"/>ment pas dans mon intention de mal inter<lb break="no"/><pb n="159" facs="final/images/Ont_Que_Fr_LC_1865-02-10_Page_0159.jpg"/>
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—Il n'était assuré<lb break="no"/>ment pas dans mon intention de mal inter<lb break="no"/><pb n="159" facs="final/images/Ont_Que_Fr_LC_1865-02-10_Page_0159.jpg"/>
             <fw type="num">159</fw>préter l'hon. monsieur en quoi que ce soit ; 
      <lb/>
      après avoir entendu ses remarques sur ce 
@@ -1697,7 +1697,7 @@
             </p>
 
             <p>
-     L'HON. M. MACPHERSON—Non, pas 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>—Non, pas 
      <lb/>
      directement ; mais par l'intermédiaire de ses 
      <lb/>
@@ -1706,7 +1706,7 @@
             </p>
 
             <p>
-     L'HON. M. AIKINS.—L'hon. monsieur 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>.—L'hon. monsieur 
      <lb/>
      dit que par la voie de ses représentants le 
      <lb/>
@@ -1727,14 +1727,14 @@
             </p>
 
             <p>
-     L'HON. M. MACPHERSON.—Sur la 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>.—Sur la 
      <lb/>
      recommandation des représentants du peuple. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. AIKlNS.—Oui, sans doute, 
+     <persName ref="pers:AIKI1">L'HON. M. AIKlNS</persName>.—Oui, sans doute, 
      <lb/>
      à cette différence près que le peuple n'aura 
      <lb/>
@@ -1813,7 +1813,7 @@
             </p>
 
             <p>
-     L'HON. M. ROSS—Que feriez-vous étant 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>—Que feriez-vous étant 
      <lb/>
      convaincu que l'opinion publique est en 
      <lb/>
@@ -1822,7 +1822,7 @@
             </p>
 
             <p>
-     L'HON. M. AIKINS — Ma réponse à 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName> — Ma réponse à 
      <lb/>
      l'hon. monsieur sera très facile. Si je ne 
      <lb/>
@@ -1859,7 +1859,7 @@
 
     
             <pb n="160" facs="final/images/Ont_Que_Fr_LC_1865-02-10_Page_0160.jpg"/>
-            <fw type="num">60</fw>
+            <fw type="num">160</fw>
 
 connaître leur opinion sur différents sujets. 
      <lb/>et je crois que la majeure partie d'entre eux 
@@ -1937,14 +1937,14 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. CAMPBELL—Tous sont 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—Tous sont 
      <lb/>
      l'écho de l'opinion publique. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. AIKINS.—De l'opinion pu<lb break="no"/>blique, vraiment ? Eh ! bien, je répète à 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>.—De l'opinion pu<lb break="no"/>blique, vraiment ? Eh ! bien, je répète à 
      <lb/>
      l'hon. monsieur que le peuple n'a pas pu 
      <lb/>
@@ -1977,7 +1977,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. REESOR.—Personne ne se 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>.—Personne ne se 
      <lb/>
      levant pour continuer les débats, je demande 
      <lb/>
@@ -2060,7 +2060,7 @@ connaître leur opinion sur différents sujets.
      <lb/>
      
             </p>
-            <p>L'HON. M. CAMPBELL. —Il est en 
+            <p><persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>. —Il est en 
      <lb/>quelque sorte difficile à un membre du cabi<lb break="no"/>net de répondre sur le champ aux questions 
      <lb/>que vient de faire l'hon. membre ; mais quant 
      <lb/>à la première, je n'éprouve pas le même 
@@ -2149,14 +2149,14 @@ connaître leur opinion sur différents sujets.
     
 
             <p>
-     L'HON. M. CURRIE — Cela fait juste<lb break="no"/>ment trois huitièmes d'un pour cent de leur 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName> — Cela fait juste<lb break="no"/>ment trois huitièmes d'un pour cent de leur 
      <lb/>
      prix de revient. 
      <lb/>
             </p>
    
             <p>
-     L'HON. M. CAMPBELL Peu importe ; 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName> Peu importe ; 
      <lb/>
            
             <pb n="162" facs="final/images/Ont_Que_Fr_LC_1865-02-10_Page_0162.jpg"/>
@@ -2198,7 +2198,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. SIMPSON—Je désire savoir 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>—Je désire savoir 
      <lb/>
      de l'hon. commissaire si un navire chargé de 
      <lb/>
@@ -2213,7 +2213,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. CAMPBELL—Je ne le crois 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—Je ne le crois 
      <lb/>
      pas. Cependant, si l'hon. monsieur désire 
      <lb/>
@@ -2238,7 +2238,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. SIMPSON — Jamais pareille 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName> — Jamais pareille 
      <lb/>
      idée ne m'est venue, et la question que je 
      <lb/>
@@ -2261,19 +2261,19 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. ROSS — Parce que ces che<lb break="no"/>mins de fer du Nouveau-Brunswick contri<lb break="no"/>bueront au revenu du gouvernement général. 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName> — Parce que ces che<lb break="no"/>mins de fer du Nouveau-Brunswick contri<lb break="no"/>bueront au revenu du gouvernement général. 
      <lb/>
             </p>
             <cb/>
             <p>
-     L'HON. M. SIMPSON— Comment donc, 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>— Comment donc, 
      <lb/>
      puiqu'ils ne rapportent rien ? 
      <lb/>
             </p>
 
             <p>
-     L' HON. M. ROSS — Ils rapportent quel<lb break="no"/>que chose aujourd'hui, et plus tard ils rap<lb break="no"/>porteront davantage. C'est à mon point de 
+     <persName ref="pers:ROSS8">L' HON. M. ROSS</persName> — Ils rapportent quel<lb break="no"/>que chose aujourd'hui, et plus tard ils rap<lb break="no"/>porteront davantage. C'est à mon point de 
      <lb/>
      vue individuel que je parle ainsi, et je n'af<lb break="no"/>firme rien sur d'autres données que celles à 
      <lb/>
@@ -2282,20 +2282,20 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L' HON. M. SIMPSON.—Et moi de même, 
+     <persName ref="pers:SIMP1">L' HON. M. SIMPSON</persName>.—Et moi de même, 
      <lb/>
      bien que je trouve mon objection valable. 
      <lb/>
             </p>
 
             <p>
-     L' HON. M. ROSS. — Quant au droit d'ex<lb break="no"/>portation de la houille de la Nouvelle- 
+     <persName ref="pers:ROSS8">L' HON. M. ROSS</persName>. — Quant au droit d'ex<lb break="no"/>portation de la houille de la Nouvelle- 
      <lb break="yes"/>Ecosse, on voit par les résolutions que 
      <lb/>l'équivalent donné au Haut-Canada pour ce 
      <lb/>revenu est le droit sur les bois de la cou<lb break="no"/>ronne. 
      <lb/>
             </p>
-            <p>' L'HON. M. SIMPSON. -—Et puis, que 
+            <p>' <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>. -—Et puis, que 
      <lb/>dites-vous des droits de pêche donnés aux 
      <lb/>provinces maritimes ? 
      <lb/>
@@ -2306,7 +2306,7 @@ connaître leur opinion sur différents sujets.
     
 
             <p>
-     L' HON. M. ROSS.—On en parlera tout à 
+     <persName ref="pers:ROSS8">L' HON. M. ROSS</persName>.—On en parlera tout à 
      <lb/>
      l'heure. Je ne répond qu'à une question 
      <lb/>
@@ -2322,7 +2322,7 @@ connaître leur opinion sur différents sujets.
      <lb/>
             </p>
 
-            <p>L'HON. M. SIMPSON.—Ce n'est pas 
+            <p><persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>.—Ce n'est pas 
      <lb/>sur la souche que nous prélevons des droits, 
      <lb/>mais à mesure que le bois carré passe par 
      <lb/>les glissoires. 
@@ -2334,7 +2334,7 @@ connaître leur opinion sur différents sujets.
     
 
             <p>
-     L HON. M. ROSS.—Bien ; ce n'est tou<lb break="no"/>jours pas un droit d'exportation ; mais au 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>.—Bien ; ce n'est tou<lb break="no"/>jours pas un droit d'exportation ; mais au 
      <lb/>
      Nouveau-Brunswick, il paie un droit lorsqu'il 
      <lb/>
@@ -2355,7 +2355,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L' HON. M. MOORE.—Si la houille était 
+     <persName ref="pers:MOOR1">L'HON. M. MOORE</persName>.—Si la houille était 
      <lb/>
      exportée à l'étranger, je pourrais comprendre 
      <lb/>
@@ -2389,7 +2389,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—Le droit 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—Le droit 
      <lb/>
      perçu sur les houilles dans la Nouvelle- 
      <lb break="yes"/>
@@ -2405,7 +2405,7 @@ connaître leur opinion sur différents sujets.
     
 
             <p>
-     L'HON. M. REESOR. —Il est plusieurs 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>. —Il est plusieurs 
      <lb/>
      autres dispositions du projet qui paraissent 
      <lb/>
@@ -2450,7 +2450,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. MACPHERSON.—Le prix 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>.—Le prix 
      <lb/>
      de revient de ces travaux forme partie de la 
      <lb/>
@@ -2461,7 +2461,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—L'hon. mem<lb break="no"/>bre verra qu'il est des travaux qui, bien que 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—L'hon. mem<lb break="no"/>bre verra qu'il est des travaux qui, bien que 
      <lb/>
      locaux par leur position géographique, sont 
      <lb/>
@@ -2482,7 +2482,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. REESOR—Je ne m'oppose 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>—Je ne m'oppose 
      <lb/>
         
             <cb/>
@@ -2524,14 +2524,14 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. ROSS—Non ; ils n'iront 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>—Non ; ils n'iront 
      <lb/>
      pas au gouvernement général.   
      <lb/>
             </p>
 
             <p>
-     L'HON. M. REESOR.—Pourtant, il n'y 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>.—Pourtant, il n'y 
      <lb/>
      a rien au contraire dans les résolutions, et 
      <lb/>
@@ -2544,7 +2544,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. CAMPBELL—En parlant 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—En parlant 
      <lb/>
      du canal Welland et d'autres, mon hon. ami 
      <lb/>
@@ -2557,7 +2557,7 @@ connaître leur opinion sur différents sujets.
             </p>
 
             <p>
-     L'HON. M. REESOR. —Je ne dis pas 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>. —Je ne dis pas 
      <lb/>
      qu'ils ne doivent pas devenir propriété du 
      <lb/>

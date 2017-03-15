@@ -85,6 +85,8 @@
          <change who="mholmes" when="2017-03-09">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-09">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-14"> Marked Up people </change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -262,7 +264,7 @@
             </head>
    
             <p>
-     L'HON. SIR N. F. BELLEAU.—La 
+     <persName ref="pers:BELL2">L'HON. SIR N. F. BELLEAU</persName>.—La 
      <lb/>
      discussion sur le plan de confédération est 
      <lb/>
@@ -530,7 +532,7 @@
             </p>
 
             <p>
-     L'HON. LETELLIER DE ST.-JUST. 
+     <persName ref="pers:LETE1">L'HON. LETELLIER DE ST.-JUST</persName>. 
      <lb/>
      —Je suis prêt à résigner demain si vous 
      <lb/>
@@ -539,7 +541,7 @@
             </p>
 
             <p>
-     L'HON. SIR N. F. BELLEAU.—Je 
+     <persName ref="pers:BELL2">L'HON. SIR N. F. BELLEAU</persName>.—Je 
      <lb/>
      n'irai pas moi-même, mais d'autres iront, et 
      <lb/>
@@ -633,12 +635,12 @@
             </p>
 
             <p>
-     L'HON. OLIVIER.—Les détails ! 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>.—Les détails ! 
      <lb/>
             </p>
    
             <p>
-     L'HON. SIR. N. F. BELLEAU.—Les 
+     <persName ref="pers:BELL2">L'HON. SIR. N. F. BELLEAU</persName>.—Les 
      <lb/>
     détails et le principe. Je dis donc que dans 
      <lb/>les élection qui ont eu lieu, à moins que les 
@@ -780,7 +782,7 @@
 
     
             <p>
-     L'HON. M. OLIVIER—Je n'ai pas dit 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>—Je n'ai pas dit 
      <lb/>
      que cela serait, mais que théoriquement cela 
      <lb/>
@@ -791,7 +793,7 @@
             </p>
 
             <p>
-     L'HON. SIR N. F. BELLEAU—Cela ne 
+     <persName ref="pers:BELL2">L'HON. SIR N. F. BELLEAU</persName>—Cela ne 
      <lb/>
             
             <cb/>
@@ -975,14 +977,14 @@
             </p>
 
             <p>
-     L'HON. M. OLIVIER.—Je ne me suis 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>.—Je ne me suis 
      <lb/>
      jamais servi de ce mot là. 
      <lb/>
             </p>
 
             <p>
-     L'HON. SIR N. F. BELLEAU.—Non, 
+     <persName ref="pers:BELL2">L'HON. SIR N. F. BELLEAU</persName>.—Non, 
      <lb/>
      c'est vrai, vous n'avez pas dit le mot, mais 
      <lb/>
@@ -1058,7 +1060,7 @@
      <lb/>
             </p>
 
-            <p>L'HON. M. LETELLIER DE. ST. JUST. 
+            <p><persName ref="pers:LETE1">L'HON. M. LETELLIER DE. ST. JUST</persName>. 
      <lb/>—Hons. messieurs :—Après le discours que 
      <lb/>l'on vient d'entendre, j'espère ne l'on me 
      <lb/>permettra de dire un mot, car j'ai été par<lb break="no"/>faitement étonné de l'entendre prononcer 
@@ -1298,14 +1300,14 @@
     
 
             <p>
-     L'Hon. Sir E. P. TACHÉ—Vous les 
+     <persName ref="pers:TACH1">L'Hon. Sir E. P. TACHÉ</persName>—Vous les 
      <lb/>
      aurez bientôt. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. LETELLIER de ST. JUST. 
+     <persName ref="pers:LETE1">L'HON. M. LETELLIER de ST. JUST</persName>. 
      <lb/>
      —On dit qu'il y a dans l'union fédérale un 
      <lb/>
@@ -1558,7 +1560,7 @@
     
    
             <p>
-     L'Hon. M. OLIVIER—Avant de pro<lb break="no"/>céder ou voter, je demanderait à l'hon. 
+     <persName ref="pers:OLIV3">L'Hon. M. OLIVIER</persName>—Avant de pro<lb break="no"/>céder ou voter, je demanderait à l'hon. 
      <lb/>
     membre (Sir N. F. BELLEAU) qui a pro<lb break="no"/><pb n="192" facs="final/images/Ont_Que_Fr_LC_1865-02-14_Page_0192.jpg"/>
             <fw type="num">192</fw>posé à mon hon. ami (M. LETELLIER) 
@@ -1574,7 +1576,7 @@
             </p>
 
             <p>
-     L'HON. Sir N. F. BELLEAU.—N'étant 
+     <persName ref="pers:BELL2">L'HON. Sir N. F. BELLEAU</persName>.—N'étant 
      <lb/>
      pas membre du gouvernement, l'on comprend 
      <lb/>
@@ -1590,7 +1592,7 @@
     
 
             <p>
-     L'HON. M. OLIVIER. —Je comprends 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>. —Je comprends 
      <lb/>
      le but de l'hon. membre en nous don<lb break="no"/>nant ce conseil, il voudrait nous voir nous 
      <lb/>
@@ -1615,9 +1617,9 @@
 
     
             <p>
-     L'amendement de l'hon. M. LETELLIER 
+     L'amendement de <persName ref="pers:LETE1">l'hon. M. LETELLIER 
      <lb/>
-     DE ST. JUSTE  est alors mis aux voix et perdu 
+     DE ST. JUSTE</persName>  est alors mis aux voix et perdu 
      <lb/>
      sur la division suivante : 
      <lb/>

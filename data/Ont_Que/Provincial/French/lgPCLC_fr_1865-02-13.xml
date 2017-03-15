@@ -119,6 +119,8 @@
          <change who="mholmes" when="2017-03-09">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-09">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-13"> Marked Up people. </change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -419,7 +421,7 @@
             </head>
    
             <p>
-     L'HON. M. REESOR.—La question qui 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>.—La question qui 
      <lb/>
      nous occupe à cette heure ayant pour but de 
      <lb/>
@@ -459,7 +461,7 @@
     
 
             <p>
-     L'HON. M. CAMPBELL.—L'hon. mon<lb break="no"/>sieur veut-il faire une motion à ce sujet, 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—L'hon. mon<lb break="no"/>sieur veut-il faire une motion à ce sujet, 
      <lb/>
      ou les débats vont-ils continuer sans cette 
      <lb/>
@@ -468,14 +470,14 @@
             </p>
 
             <p>
-     L'HON M. REESOR.—J'ai une résolu<lb break="no"/>tion que je me propose de soumettre bientôt 
+     <persName ref="pers:REES1">L'HON M. REESOR</persName>.—J'ai une résolu<lb break="no"/>tion que je me propose de soumettre bientôt 
      <lb/>
      à la chambre. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—Est-ce que 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—Est-ce que 
      <lb/>
      l'hon. membre entend mettre fin à la discus<lb break="no"/>sion maintenant ? Ce serait certainement 
      <lb/>
@@ -484,7 +486,7 @@
             </p>
 
             <p>
-     L'HON. M. REESOR.—L'hon. monsieur 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>.—L'hon. monsieur 
      <lb/>
      sait fort bien que nous ne voulons pas étouffer 
      <lb/>
@@ -517,7 +519,7 @@
             </p>
 
             <p>
-     L'HON. M. MOORE—Je conviens avec 
+     <persName ref="pers:MOOR1">L'HON. M. MOORE</persName>—Je conviens avec 
      <lb/>
      l'hon. monsieur qui a fait cette motion que 
      <lb/>
@@ -634,7 +636,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CAMPBELL. —Je serai très 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>. —Je serai très 
      <lb/>
      heureux de donner à mon hon. ami tous les 
      <lb/>
@@ -643,7 +645,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L' HON. M. MOORE—Il est certaine<lb break="no"/>ment à propos que ces renseignements nous 
+     <persName ref="pers:MOOR1">L' HON. M. MOORE</persName>—Il est certaine<lb break="no"/>ment à propos que ces renseignements nous 
      <lb/>
      soient donnés, soit par l'hon. premier mi<lb break="no"/>nistre ou par l'hon. commissaire des terres 
      <lb/>
@@ -702,7 +704,7 @@ qui y sont autant intéressées que nous-
 
    
             <p>
-     L'HON. M. REESOR — Je vais essayer 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName> — Je vais essayer 
      <lb/>
      d'être très concis dans les remarques que j'ai 
      <lb/>
@@ -857,14 +859,14 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—C'est cela 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—C'est cela 
      <lb/>
      même. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. REESOR.—Oui, c'est cela, 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>.—Oui, c'est cela, 
      <lb/>
      quant à quelques unes de ces résolutions, 
      <lb/>
@@ -895,7 +897,7 @@ qui y sont autant intéressées que nous-
     
 
             <p>
-     L'HON.M.CURRIE.—Pour trois millions 
+     <persName ref="pers:CURR2">L'HON.M.CURRIE</persName>.—Pour trois millions 
      <lb/>
      de louis sterling ou quinze millions de 
      <lb/>
@@ -904,7 +906,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. REESOR—C'est possible ; 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>—C'est possible ; 
      <lb/>
      mais supposons que les estimations aient été 
      <lb/>
@@ -937,13 +939,13 @@ qui y sont autant intéressées que nous-
      
      
             </p>
-            <p>L'HON. M. ROSS. —Il ne préside pas à 
+            <p><persName ref="pers:ROSS8">L'HON. M. ROSS</persName>. —Il ne préside pas à 
      <lb/>l'administration des affaires du pays. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. REESOR. —Nous appelons 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>. —Nous appelons 
      <lb/>
      président celui qui préside, et il préside parce 
      <lb/>
@@ -1128,13 +1130,13 @@ qui y sont autant intéressées que nous-
      
             </p>
 
-            <p>L'HON. M. ROSS.—Les farines sont 
+            <p><persName ref="pers:ROSS8">L'HON. M. ROSS</persName>.—Les farines sont 
      <lb/>amenées par eau en automne et mises dans 
      <lb/>les hangards pour la consommation de 
      <lb/>l'hiver. 
      <lb/>
             </p>
-            <p>L'HON. M. REESOR.—Les provisions 
+            <p><persName ref="pers:REES1">L'HON. M. REESOR</persName>.—Les provisions 
      <lb/>apportées par eau en hiver, à St. Jean ou à 
      <lb/>Halifax, coûteront moins que par le interco<lb break="no"/>lonial. Si l'on veut que ces provinces 
      <lb/>achètent nos produits, il faut qu'elles y 
@@ -1218,14 +1220,14 @@ qui y sont autant intéressées que nous-
     
 
             <p>
-     L'HON. M. CAMPBELL .—Cela se pas<lb break="no"/>sait avant l'institution du gouvernement 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName> .—Cela se pas<lb break="no"/>sait avant l'institution du gouvernement 
      <lb/>
      responsable. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. REESOR—C'est ce que 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>—C'est ce que 
      <lb/>
      j'allais dire, tout en ajoutant que le gou<lb break="no"/>vernement responsable est un remède à 
      <lb/>
@@ -1295,7 +1297,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—L'hon. mon<lb break="no"/>sieur prétent-il insinuer que les conseillers 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—L'hon. mon<lb break="no"/>sieur prétent-il insinuer que les conseillers 
      <lb/>
      ne devront leur nomination qu'aux services 
      <lb/>
@@ -1306,7 +1308,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. REESOR—Non, pas unique<lb break="no"/>ment par rapport à ces services, mais plutôt 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>—Non, pas unique<lb break="no"/>ment par rapport à ces services, mais plutôt 
      <lb/>
      par rapport à ceux qu'ils auront rendus aux 
      <lb/>
@@ -1325,14 +1327,14 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—J'espère que 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—J'espère que 
      <lb/>
      non. ( Ecoutez ! écoutez !) 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. REESOR.—Eh ! bien, vous le 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>.—Eh ! bien, vous le 
      <lb/>
      voyez, l'hon. monsieur avoue par là qu'ils 
      <lb/>
@@ -1524,7 +1526,7 @@ qui y sont autant intéressées que nous-
      <lb/>
             </p>
 
-            <p>L'HON. M McCREA. — Hon. mes<lb break="no"/>sieurs—Il a déjà été dit tant de choses à 
+            <p><persName ref="pers:MCCR2">L'HON. M McCREA</persName>. — Hon. mes<lb break="no"/>sieurs—Il a déjà été dit tant de choses à 
      <lb/>propos de la confédération des provinces de 
      <lb/>l'Amérique Britannique du Nord depuis le 
      <lb/>commencement des débats, qui occupent la 
@@ -1611,14 +1613,14 @@ qui y sont autant intéressées que nous-
     
 
             <p>
-     L'HON. M. CAMPBELL.—( Ecoutez ! 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—( Ecoutez ! 
      <lb/>
      écoutez !) 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. McCREA.—Si les délégués 
+     <persName ref="pers:MCCR2">L'HON. M. McCREA</persName>.—Si les délégués 
      <lb/>
      de l'une ou l'autre des provinces avaient 
      <lb/>
@@ -1757,14 +1759,14 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CURRIE.—Je n'ai pas dit 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Je n'ai pas dit 
      <lb/>
      cela. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. McCREA.—Eh bien ! l'hon. 
+     <persName ref="pers:MCCR2">L'HON. M. McCREA</persName>.—Eh bien ! l'hon. 
      <lb/>
      membre a dit que la mesure aurait dû être 
      <lb/>
@@ -1980,7 +1982,7 @@ qui y sont autant intéressées que nous-
     
 
             <p>
-     L'HON. M. REESOR.—Je n'ai pas dit 
+     <persName ref="pers:REES1">L'HON. M. REESOR</persName>.—Je n'ai pas dit 
      <lb/>
      que par les résolutions le Haut-Canada 
      <lb/>
@@ -1995,7 +1997,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. MCCREA.—Eh bien ! j'ac<lb break="no"/>cepte l'explication de l'hon. membre. Désire- 
+     <persName ref="pers:MCCR2">L'HON. M. MCCREA</persName>.—Eh bien ! j'ac<lb break="no"/>cepte l'explication de l'hon. membre. Désire- 
      <lb break="yes"/>
      t-il faire un arrangement avec les provinces 
      <lb/>
@@ -2018,14 +2020,14 @@ qui y sont autant intéressées que nous-
      <lb/>toujours !" 
      <lb/>
             </p>
-            <p>L'HON. M. CURRIE.—Plus que cela. 
+            <p><persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Plus que cela. 
      <lb/>
             </p>
 
     
 
             <p>
-     L'HON. M. MCCREA.—Plus que cela ? 
+     <persName ref="pers:MCCR2">L'HON. M. MCCREA</persName>.—Plus que cela ? 
      <lb/>
      Eh bien ! qu'est-ce que cela fait ? Le chiffre 
      <lb/>
@@ -2370,7 +2372,7 @@ qui y sont autant intéressées que nous-
     
 
             <p>
-     L'HON. M. LETELLIER DE ST. JUST. 
+     <persName ref="pers:LETE1">L'HON. M. LETELLIER DE ST. JUST</persName>. 
      <lb/>
      —L'hon. membre voudrait-il nous dire 
      <lb/>
@@ -2379,7 +2381,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. MCCREA.—L'hon. membre 
+     <persName ref="pers:MCCR2">L'HON. M. MCCREA</persName>.—L'hon. membre 
      <lb/>
      pour Grandville ne se rappelle-t-il pas l'ac<lb break="no"/>croissement du nombre des représentants 
      <lb/>
@@ -2481,7 +2483,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CURRIE.—L'hon. monsieur 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—L'hon. monsieur 
      <lb/>
      se trompe : je n'ai donné aucun avis d'une 
      <lb/>
@@ -2490,21 +2492,21 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. MCCREA.—Quel avis avez- 
+     <persName ref="pers:MCCR2">L'HON. M. MCCREA</persName>.—Quel avis avez- 
      <lb break="yes"/>
      vous donné ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. CURRIE.—Lisez-le, et vous 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Lisez-le, et vous 
      <lb/>
      le saurez. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. MCCRAE.—Voulez-vous me 
+     <persName ref="pers:MCCR2">L'HON. M. MCCREA</persName>.—Voulez-vous me 
      <lb/>
      le donner, afin que je voie ce que c'est ? 
      <lb/>
@@ -2513,12 +2515,12 @@ qui y sont autant intéressées que nous-
             <p>
      ( L'HON. M. CURRIE passe son avis à 
      <lb/>
-     l'hon. M. MCCRAE. ) 
+     l'hon. M. MCCREA. ) 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. MCCREA.—Ah ! le voici !- <lb/> Il se lit comme suit :- <lb/>
+     <persName ref="pers:MCCR2">L'HON. M. MCCREA</persName>.—Ah ! le voici !- <lb/> Il se lit comme suit :- <lb/>
             </p>
 
 <quote rendition="tccd:blockquote">
@@ -2605,7 +2607,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     HON. M. OLIVIER—Hons. messieurs :<lb break="no"/>un journal français de Montréal, en rappor<lb break="no"/>tant les procédés d'une assemblée qui a eu 
+     <persName ref="pers:OLIV3">HON. M. OLIVIER</persName>—Hons. messieurs :<lb break="no"/>un journal français de Montréal, en rappor<lb break="no"/>tant les procédés d'une assemblée qui a eu 
      <lb/>
      lieu récemment à Berthier, pour prendre en 
      <lb/>
@@ -2795,15 +2797,13 @@ qui y sont autant intéressées que nous-
      
      
             </p>
-            <p>L'HON SIR E. P. TACHÉ .—Ecoutez ! 
-     <lb/>écoutez ! 
-     <lb/>
-            </p>
+            <p><persName ref="pers:TACH1">L'HON SIR E. P. TACHÉ</persName>.—Ecoutez ! <lb/>écoutez ! <lb/>
+               </p>
             <pb n="177" facs="final/images/Ont_Que_Fr_LC_1865-02-13_Page_0177.jpg"/>
             <fw type="num">177</fw>
             
 <p>
-     L'HON. M. OLIVIER—Je suis heu<lb break="no"/>reux de voir l'hon. premier ministre 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>—Je suis heu<lb break="no"/>reux de voir l'hon. premier ministre 
      <lb/>
      paraître approuver aussi fortement ce que 
      <lb/>
@@ -2812,14 +2812,14 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ.—Ah ! mais 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—Ah ! mais 
      <lb/>
      c'est exactement le contraire ! 
      <lb/>
             </p>
 
             <p>
-     L'HON M. OLIVIER—Alors je suis 
+     <persName ref="pers:OLIV3">L'HON M. OLIVIER</persName>—Alors je suis 
      <lb/>
      fâché de ne pas obtenir son approbation. 
      <lb/>
@@ -2940,7 +2940,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CAMPBELL—A propos des 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—A propos des 
      <lb/>
      mines de Terreneuve j'ai reçu communica<lb break="no"/>tion d'une note de Sir WM. LOGAN, géologue 
      <lb/>
@@ -3036,7 +3036,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ.—L'hon. 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—L'hon. 
      <lb/>
      membre peut continuer, et dans le cours de 
      <lb/>
@@ -3049,7 +3049,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. OLIVIER.—C'est très bien ; 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>.—C'est très bien ; 
      <lb/>
      mais je vois au contraire, d'après des statis<lb break="no"/>tiques, qu'il n'y a pas de bois sur l'Ile, 
      <lb/>
@@ -3068,7 +3068,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ.—C'est un 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—C'est un 
      <lb/>
      fait bien constaté qu'il existe dans l'Ile de 
      <lb/>
@@ -3085,7 +3085,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. OLIVIER.—Une autre raison 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>.—Une autre raison 
      <lb/>
     pour laquelle je ne puis approuver le plan 
      <lb/>de confédération, tel qu'il nous est présenté, 
@@ -3330,14 +3330,14 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CAMPBELL—Ils auront la 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—Ils auront la 
      <lb/>
      garantie de la confédération. 
      <lb/>
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ.—Les droits 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—Les droits 
      <lb/>
      des créanciers de la province feront le sujet 
      <lb/>
@@ -3350,14 +3350,14 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. OLIVIER—Je ne vois rien 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>—Je ne vois rien 
      <lb/>
      de cela dans les résolutions. 
      <lb/>
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ.—Tous les 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—Tous les 
      <lb/>
      détails ne sont pas compris dans les résolu<lb break="no"/>tions ; mais quant à la balance de $5,000,000 
      <lb/>
@@ -3374,7 +3374,7 @@ qui y sont autant intéressées que nous-
     
 
             <p>
-     L' HON. M. OLIVIER—J'ai compris que 
+     <persName ref="pers:OLIV3">L' HON. M. OLIVIER</persName>—J'ai compris que 
      <lb/>
      les dettes devaient être partagées, et que 
      <lb/>
@@ -3408,7 +3408,7 @@ qui y sont autant intéressées que nous-
      <lb/>
            
             <cb/>
-          >
+        
      en parlant de la question des écoles, je ne 
      <lb/>
      voudrais pas voter une constitution qui ne 
@@ -3669,7 +3669,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—Cette ques<lb break="no"/>tion des pêcheries est en effet' divisée entre 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—Cette ques<lb break="no"/>tion des pêcheries est en effet' divisée entre 
      <lb/>
      les gouvernements locaux et le gouverne<lb break="no"/>ment fédéral, mais il est évident que pour 
      <lb/>
@@ -3690,7 +3690,7 @@ qui y sont autant intéressées que nous-
             </p>
 
             <p>
-     L'HON. M. OLIVIER.—L'argument que 
+     <persName ref="pers:OLIV3">L'HON. M. OLIVIER</persName>.—L'argument que 
      <lb/>
      j'ai fait valoir à propos des pêcheries peut 
      <lb/>

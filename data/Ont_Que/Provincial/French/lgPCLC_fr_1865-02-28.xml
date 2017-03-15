@@ -64,6 +64,8 @@
          <change who="mholmes" when="2017-03-09">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-09">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-15"> Marked Up people </change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -301,7 +303,7 @@
             </p>
 
             <p>
-     L'HON. M. CAMPBELL— Avant l'ajour<lb break="no"/>nement, je désire présenter à cette chambre 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>— Avant l'ajour<lb break="no"/>nement, je désire présenter à cette chambre 
      <lb/>
            
             <pb n="517" facs="final/images/Ont_Que_Fr_LC_1865-02-28_Page_0517.jpg"/>
@@ -376,7 +378,7 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE—Je n'ai pas voulu 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>—Je n'ai pas voulu 
      <lb/>
      mettre en doute l'exactitude des chiffres 
      <lb/>
@@ -402,7 +404,7 @@
     
 
             <p>
-     L'HON. M. CAMPBELL—Il existe des 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—Il existe des 
      <lb/>
      tableaux qui font voir les importations et les 
      <lb/>

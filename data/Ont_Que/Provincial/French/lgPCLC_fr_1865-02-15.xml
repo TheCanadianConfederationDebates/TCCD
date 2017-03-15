@@ -168,6 +168,8 @@
          <change who="mholmes" when="2017-03-09">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-09">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-14"> Marked Up people. </change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -398,7 +400,7 @@
             </head>
    
             <p>
-     L'HON. M. BUREAU.— Je me serais 
+     <persName ref="pers:BURE2">L'HON. M. BUREAU</persName>.— Je me serais 
      <lb/>
      abstenu de prendre la parole, si je n'eus 
      <lb/>
@@ -1033,7 +1035,7 @@
             </p>
 
             <p>
-     L'HON. M. FERRIER.—Hons. mes<lb break="no"/>sieurs, je m'étais presque promis de donner 
+     <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>.—Hons. mes<lb break="no"/>sieurs, je m'étais presque promis de donner 
      <lb/>
      un vote muet sur les résolutions maintenant 
      <lb/>
@@ -1168,12 +1170,12 @@
     
 
             <p>
-     L'HON. M. SEYMOUR —-Il vit l'avan<lb break="no"/>tage qui lui était ofi'crt. 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName> —-Il vit l'avan<lb break="no"/>tage qui lui était ofi'crt. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. FERRIER.—Que l'hon. M. 
+     <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>.—Que l'hon. M. 
      <lb/>
      MACDONALD vit que l'opportunité s'offrait de 
      <lb/>
@@ -1385,7 +1387,7 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE.—Je demandrai 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Je demandrai 
      <lb/>
      pardon à mon hon. ami. Dans toutes les 
      <lb/>
@@ -1400,24 +1402,18 @@
      <lb/>
             </p>
 
-            <p>
-     L'HON. M. FERRIER,—Puisque mon 
-     <lb/>
-     hon. ami m'assure qu'il n'a pas dit une pareille 
-     <lb/>
-     chose, je dois accepter sa parole. J'ai sup<lb break="no"/>osé que l'impression qui m'était restée de 
-     <lb/>la lecture de ses observations était juste, mais 
-     <lb/>il faut que je me sois trompé. Cependant 
-     <lb/>je dois dire que je considère qu'il (l'hon. M. 
-     <lb/>CURRIE) a manqué de justice en se servant 
-     <lb/>de journaux pour donner la lecture de tous 
-     <lb/>les pêchés supposés de ses propres amis, le 
-     <lb/>parti avec lequel il marchait autrefois. Au<lb break="no"/>jourd'hui que ces hons. messieurs en tra<lb break="no"/>vaillant à faire passer ce projet d'union, se 
-     <lb/>dévouent à ce que je considère être les meil<lb break="no"/>leurs intérêts du pays, je crois réellement 
-     <lb/>que mon hon. ami ferait mieux de leur 
-     <lb/>donner son appui. 
-     <lb/>
-            </p>
+            <p> <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>.—Puisque mon <lb/> hon. ami m'assure qu'il n'a pas dit une
+                  pareille <lb/> chose, je dois accepter sa parole. J'ai sup<lb break="no"/>osé que
+                  l'impression qui m'était restée de <lb/>la lecture de ses observations était
+                  juste, mais <lb/>il faut que je me sois trompé. Cependant <lb/>je dois dire que je
+                  considère qu'il (l'hon. M. <lb/>CURRIE) a manqué de justice en se servant <lb/>de
+                  journaux pour donner la lecture de tous <lb/>les pêchés supposés de ses propres
+                  amis, le <lb/>parti avec lequel il marchait autrefois. Au<lb break="no"/>jourd'hui
+                  que ces hons. messieurs en tra<lb break="no"/>vaillant à faire passer ce projet
+                  d'union, se <lb/>dévouent à ce que je considère être les meil<lb break="no"/>leurs
+                  intérêts du pays, je crois réellement <lb/>que mon hon. ami ferait mieux de leur
+                  <lb/>donner son appui. <lb/>
+               </p>
 
     
 
@@ -1426,12 +1422,12 @@
     
 
             <p>
-     L'HON. M. CURRIE.—C'est-là une ma<lb break="no"/>tière d'opinion. 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—C'est-là une ma<lb break="no"/>tière d'opinion. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. FERRIER.—Je donne mon 
+     <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>.—Je donne mon 
      <lb/>
      opinion—rien de plus. Mais mon hon. ami 
      <lb/>
@@ -1484,7 +1480,7 @@
      <lb/>l'établissement. (Ecoutez! écoutez !) 
      <lb/>
             </p>
-            <p>L'HON. M. CURRIE.—Mon hou. ami 
+            <p><persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Mon hou. ami 
      <lb/>me permettra de lui rappeler que deux 
      <lb/>
             
@@ -1498,7 +1494,7 @@
             </p>
 
             <p>
-     L'HON. M. FERRIER.—Il est heureux 
+     <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>.—Il est heureux 
      <lb/>
      que certains hommes reconnaissent leurs 
      <lb/>
@@ -1535,7 +1531,7 @@
      <lb/>des produits que nous avons entre les mains. 
      <lb/>
             </p>
-            <p>L HON. M. SIMPSON—Mon hon. ami 
+            <p><persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>—Mon hon. ami 
      <lb/>voudra-t-il me dire de quelle espèce de 
      <lb/>produits sont chargés ces chars, et de quel 
      <lb/>endroit ils ont été expédiés ? 
@@ -1547,7 +1543,7 @@
     
 
             <p>
-     L'HON. M. FERRIER.—Je crois que ce 
+     <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>.—Je crois que ce 
      <lb/>
      sont tous des produits du Canada. (Ecou<lb break="no"/>tez ! écoutez !) Une partie est destinée 
      <lb/>
@@ -1566,14 +1562,14 @@
             </p>
 
             <p>
-     L'HON. M. SIMPSON.—J'ai aussi vu 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>.—J'ai aussi vu 
      <lb/>
      M. BRYDGES 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. FERRIER.—A Portland 
+     <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>.—A Portland 
      <lb/>
      nous avons aussi une accumulation de chars, 
      <lb/>
@@ -1863,26 +1859,26 @@
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—Ainsi que 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—Ainsi que 
      <lb/>
      dans les journaux du Haut—Canada. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. SIMPSON.— Mais on a nié 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>.— Mais on a nié 
      <lb/>
      que ce fût une copie authentique des réso<lb break="no"/>lutions de la conférence. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. CAMPBELL —On a sim<lb break="no"/>plement nié que ce fût une copie officielle. 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName> —On a sim<lb break="no"/>plement nié que ce fût une copie officielle. 
      <lb/>
             </p>
 
             <p>
-     L'HON.M . SIMPSON .—La copie du 
+     <persName ref="pers:SIMP1">L'HON.M . SIMPSON</persName> .—La copie du 
      <lb/>
      document qui m'a été envoyée portant cette 
      <lb/>
@@ -1891,7 +1887,7 @@
             </p>
 
             <p>
-     L'HON. M. FERRIER.—Je pensais que 
+     <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>.—Je pensais que 
      <lb/>
      les hons. membres à qui ces documents 
      <lb/>
@@ -2102,7 +2098,7 @@
      <lb/>
      
             </p>
-            <p>L'HON. M. SEYMOUR—Hons. mes<lb break="no"/>sieurs :—Je désire faire une ou deux obser<lb break="no"/>vations en réponse à une assertion faite par 
+            <p><persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>—Hons. mes<lb break="no"/>sieurs :—Je désire faire une ou deux obser<lb break="no"/>vations en réponse à une assertion faite par 
      <lb/>mon hon. ami le commissaire des terres 
      <lb/>de la couronne relativement aux objections 
      <lb/>que, dans une occasion antérieure, j'énonçai 
@@ -2245,7 +2241,7 @@
      <lb/>
            
             <pb n="203" facs="final/images/Ont_Que_Fr_LC_1865-02-15_Page_0203.jpg"/>
-            <fw type="num">208</fw>
+            <fw type="num">203</fw>
            
      sans le consentement des deux tiers des 
      <lb/>
@@ -2445,7 +2441,7 @@
             </p>
 
             <p>
-     L'HON. M. MACPHERSON.—L'hon. 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>.—L'hon. 
      <lb/>
      membre a tort de vouloir créer une fausse 
      <lb/>
@@ -2460,7 +2456,7 @@
     
 
             <p>
-     L'HON. M. SEYMOUR.—Mon hon. ami 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—Mon hon. ami 
      <lb/>
      leur a-t-il dit combien coûterait ce chemin de 
      <lb/>
@@ -2613,7 +2609,7 @@
             </p>
 
             <p>
-     L'HON. M. MACPHERSON.—Ce que j'ai 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>.—Ce que j'ai 
      <lb/>
      dit, c'est que le revenu antérieur n'était pas 
      <lb/>
@@ -2626,7 +2622,7 @@
             </p>
 
             <p>
-     L'HoN. M. SEYMOUR.—Mon hon. ami 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—Mon hon. ami 
      <lb/>
      dit qu'il adopte un plan pour le passé et un 
      <lb/>
@@ -2888,7 +2884,7 @@
     
 
             <p>
-     L'HON. M. CAMPBELL—Mon hon. 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—Mon hon. 
      <lb/>
      ami ne prétend pas assurément que les res<lb break="no"/>sources de la Nouvelle-Ecosse ne peuvent 
      <lb/>
@@ -2899,7 +2895,7 @@
             </p>
 
             <p>
-     L'HON. M. SEYMOUR.—Qu'offre-t-elle 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—Qu'offre-t-elle 
      <lb/>
      à part ses mines de charbon ? On ne pré<lb break="no"/>tendra pas qu'il s'y trouve du bois. En aug<lb break="no"/>mentant le tarif, le revenu s'accroîtra, c'est 
      <lb/>
@@ -2914,7 +2910,7 @@
             </p>
 
             <p>
-     L'H0N. M. CAMPBELL—En 1859, le 
+     <persName ref="pers:CAMP2">L'H0N. M. CAMPBELL</persName>—En 1859, le 
      <lb/>
      revenu de la Nouvelle-Ecosse était de 
      <lb/>
@@ -2925,7 +2921,7 @@
             </p>
 
             <p>
-     L'HON. M. SEYMOUR.—Je n'ai pas les 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—Je n'ai pas les 
      <lb/>
      chiffres que mon hon. ami vient de citer, 
      <lb/>
@@ -2952,7 +2948,7 @@
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—L'équilibre 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—L'équilibre 
      <lb/>
      sera rétabli lorsque la Rivière-Rouge fera 
      <lb/>
@@ -2963,7 +2959,7 @@
     
 
             <p>
-     L'HON. M. SEYMOUR.—— J'ai bien peur 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—— J'ai bien peur 
      <lb/>
      qu'aucun d'entre nous ne vive assez longtemps 
      <lb/>
@@ -3122,12 +3118,12 @@
             </p>
 
             <p>
-     UNE VOIX—Certainement ! 
+     <persName ref="UNSPECIFIED">UNE VOIX</persName>—Certainement ! 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. SEYMOUR.—J'ai ici, d'a<lb break="no"/>près le <hi rendition="simple:italic">Times</hi> de Londres, la cote des fonds 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—J'ai ici, d'a<lb break="no"/>près le <hi rendition="simple:italic">Times</hi> de Londres, la cote des fonds 
      <lb/>
      canadiens au 7 novembre, date de la lettre 
      <lb/>
@@ -3142,7 +3138,7 @@
             </p>
 
             <p>
-     L'HON. M. MACPHERSON.—Je ne me 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>.—Je ne me 
      <lb/>
      suis point trompé en disant que nos fonds 
      <lb/>
@@ -3155,7 +3151,7 @@
             </p>
 
             <p>
-     L'HON. M. SEYMOUR.—Tout le monde 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—Tout le monde 
      <lb/>
      sait que mille causes diverses influent sur le 
      <lb/>
@@ -3178,7 +3174,7 @@
             </p>
 
             <p>
-     L'HON. M . MACPHERSON.—Je suppose 
+     <persName ref="pers:MACP1">L'HON. M . MACPHERSON</persName>.—Je suppose 
      <lb/>
      que l'hon. monsieur connaît les causes de 
      <lb/>
@@ -3195,7 +3191,7 @@
             </p>
 
             <p>
-     L'HON. M. SEYMOUR.—La sage poli<lb break="no"/>tique du gouvernement anglais nous a au 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—La sage poli<lb break="no"/>tique du gouvernement anglais nous a au 
      <lb/>
      moins tenus en bons termes avec nos voisins. 
      <lb/>
@@ -3263,7 +3259,7 @@
             <p>
      Six heures sonnent, l'ORATEUR quitte le 
      <lb/>
-     fauteuil ; à la rentrée, l'hon. M. SEYMOUR 
+     fauteuil ; à la rentrée, <persName ref="pers:SEYM1">l'hon. M. SEYMOUR</persName> 
      <lb/>
      continue : 
      <lb/>
@@ -3339,7 +3335,7 @@
             </p>
 
             <p>
-     L'HON. M. DEBEAUJEU.—La presse 
+     <persName ref="pers:DEBE1">L'HON. M. DEBEAUJEU</persName>.—La presse 
      <lb/>
      étrangère ne nous a-t-elle pas fait des 
      <lb/>
@@ -3350,7 +3346,7 @@
             </p>
 
             <p>
-     L'HON. M. SEYMOUR.—Je suppose 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—Je suppose 
      <lb/>
      que mon hon. ami fait allusion à la presse 
      <lb/>
@@ -3369,7 +3365,7 @@
             </p>
 
             <p>
-     L'HON. M. MACPHERSON. — M. 
+     <persName ref="pers:MACP1">L'HON. M. MACPHERSON</persName>. — M. 
      <lb/>
      SEWARD ne nous a-t-il pas menacé ? 
      <lb/>
@@ -3378,7 +3374,7 @@
             </p>
 
             <p>
-     L'HON. M. SEYMOUR.—Pas depuis 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—Pas depuis 
      <lb/>
      qu'il fait partie du gouvernement. ( Ecoutez ! 
      <lb/>
@@ -3387,14 +3383,14 @@
             </p>
 
             <p>
-     L'HON. M. CAMPBELL.—Oui, peu 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>.—Oui, peu 
      <lb/>
      avant la dernière élection présidentielle. 
      <lb/>
             </p>
 
             <p>
-     L'HON M. SEYMOUR. —C'est une 
+     <persName ref="pers:SEYM1">L'HON M. SEYMOUR</persName>. —C'est une 
      <lb/>
      petite affaire. ( Rires. ) J'ai fait voir, hons. 
      <lb/>
@@ -3436,7 +3432,7 @@
             </p>
 
             <p>
-     L'HON. M. ROSS.—Mais c'était une 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>.—Mais c'était une 
      <lb/>
      union législative, tandis que chez nous la 
      <lb/>
@@ -3445,7 +3441,7 @@
             </p>
 
             <p>
-     L'HON. M. SEYMOUR.—Cela n'affecte 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>.—Cela n'affecte 
      <lb/>
      en rien la question. Quelle était, après 
      <lb/>
@@ -3466,14 +3462,14 @@
             </p>
 
             <p>
-     L'HON. M. ROSS.—Parce que le parle<lb break="no"/>ment anglais n'admet pas le principe de la 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>.—Parce que le parle<lb break="no"/>ment anglais n'admet pas le principe de la 
      <lb/>
      représentation d'après la population. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. SEYMOUR—On me dira 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>—On me dira 
      <lb/>
      tout à l'heure que la nouvelle constitution 
      <lb/>
@@ -3482,14 +3478,14 @@
             </p>
 
             <p>
-     PLUSIEURS HONS MEMBRES.— 
+     <persName ref="UNSPECIFIED">PLUSIEURS HONS MEMBRES</persName>.— 
      <lb/>
      C'est un projet tout canadien. ( Ecoutez !) 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. SEYMOUR. —Ni l'un ni 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>. —Ni l'un ni 
      <lb/>
      l'autre—c'est une constitution amphibie. 
      <lb/>
@@ -3556,14 +3552,14 @@
             </p>
 
             <p>
-     L'HON. M. CAMPBELL. — Mais vous 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>. — Mais vous 
      <lb/>
      pouvez accepter ou rejeter la mesure. 
      <lb/>
             </p>
 
             <p>
-     L'HON . SEYMOUR. — C'est bien ; 
+     <persName ref="pers:SEYM1">L'HON. M. SEYMOUR</persName>. — C'est bien ; 
      <lb/>
      mais il faut l'accepter telle qu'on nous la 
      <lb/>
@@ -3602,7 +3598,7 @@
             </p>
 
             <p>
-     L'HON. M. BENNETT.—Hons. messieurs : 
+     <persName ref="pers:BENN1">L'HON. M. BENNETT</persName>.—Hons. messieurs : 
      <lb/>
      —Après ces nombreux et habiles discours que 
      <lb/>
@@ -3775,7 +3771,7 @@
      <lb/>
      
             </p>
-            <p>L'HON. M. ALEXANDER.—Hons. mes<lb break="no"/>sieurs :—Je ne veux pas cette fois entretenir 
+            <p><persName ref="pers:ALEX1">L'HON. M. ALEXANDER</persName>.—Hons. mes<lb break="no"/>sieurs :—Je ne veux pas cette fois entretenir 
      <lb/>longtemps la chambre. Mon hon. ami de 
      <lb/>Port Hope ( M. SEYMOUR ) jouit de l'estime 
      <lb/>et du respect de cette chambre et du pays 
@@ -3921,7 +3917,7 @@
     
    
             <p>
-     L'HON. M. AIKINS.—Je voudrais bien 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>.—Je voudrais bien 
      <lb/>
      savoir dans quelle position je vais me trouver 
      <lb/>
@@ -3944,14 +3940,14 @@
             </p>
 
             <p>
-     L'Hon. M. BOSSÉ—Je ne crois pas que 
+     <persName ref="pers:BOSS1">L'Hon. M. BOSSÉ</persName>—Je ne crois pas que 
      <lb/>
      l'amendement soit dans l'ordre et j'objecte. 
      <lb/>
             </p>
 
             <p>
-     L'Hon. Sir N. F. BELLEAU.—Les 
+     <persName ref="pers:BELL2">L'Hon. Sir N. F. BELLEAU</persName>.—Les 
      <lb/>
      réglements de la chambre autorisent les 
      <lb/>
@@ -3960,7 +3956,7 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE.—Mon hon. ami 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Mon hon. ami 
      <lb/>
      de la division de Gore, voudrait-il nous 
      <lb/>
@@ -3971,14 +3967,14 @@
             </p>
 
             <p>
-     L'Hon. M. REESOR.—L'amendement 
+     <persName ref="pers:REES1">L'Hon. M. REESOR</persName>.—L'amendement 
      <lb/>
      est-il dans l'ordre ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. ORATEUR — L'amendement 
+     <persName ref="pers:SPEA1">L'HON. ORATEUR</persName> — L'amendement 
      <lb/>
      n'est pas dans l'ordre. C'est une simple 
      <lb/>
@@ -3993,7 +3989,7 @@
             </p>
 
             <p>
-     L'HON. M. AIKINS—Comme l'hon. 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—Comme l'hon. 
      <lb/>
      membre pour la division de Gore désire par<lb break="no"/>ticulierement se prononcer sur la question 
      <lb/>
@@ -4022,7 +4018,7 @@
             </p></quote>
 
             <p>
-     L'HON. M. CURRIE.— A ce point de la 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.— A ce point de la 
      <lb/>
      discussion je crois opportun de revenir sur 
      <lb/>
@@ -4065,7 +4061,7 @@
             </p>
 
             <p>
-     L'HON. M. ALEXANDER. — L'hon. 
+     <persName ref="pers:ALEX1">L'HON. M. ALEXANDER</persName>. — L'hon. 
      <lb/>
      monsieur oublie que le gouvernement fédé<lb break="no"/>ral paiera une large part des dépenses alors 
      <lb/>
@@ -4074,7 +4070,7 @@
             </p>
 
             <p>
-     L'HON. M. CUBRIE.—Je sais parfaite<lb break="no"/>ment quelles seront les charges du gouver<lb break="no"/>nement général ; je n'ignore pas même qu'il 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Je sais parfaite<lb break="no"/>ment quelles seront les charges du gouver<lb break="no"/>nement général ; je n'ignore pas même qu'il 
      <lb/>
      aura contrôle sur certaines questions laissées 
      <lb/>
@@ -4107,7 +4103,7 @@
             </p>
 
             <p>
-     L'HON. M. ALEXANDER— Les chiffres 
+     <persName ref="pers:ALEX1">L'HON. M. ALEXANDER</persName>— Les chiffres 
      <lb/>
      que j'ai cités sont également authentiques, 
      <lb/>
@@ -4119,7 +4115,7 @@
             <pb n="212" facs="final/images/Ont_Que_Fr_LC_1865-02-15_Page_0212.jpg"/>
             <fw type="num">212</fw>
             <p>
-     L'HON. M. ARMAND.—Hons. messieurs : 
+     <persName ref="pers:ARMA1">L'HON. M. ARMAND</persName>.—Hons. messieurs : 
      <lb/>
      j'ai écouté atttentivement les hons. membres 
      <lb/>
@@ -4316,7 +4312,7 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE.—J'ai quelques 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—J'ai quelques 
      <lb/>
      mots à ajouter avant de donner mon vote sur 
      <lb/>
@@ -4437,7 +4433,7 @@
             </p>
 
             <p>
-     L'HON. SIR. E. P. TACHÉ.—Il m'est 
+     <persName ref="pers:TACH1">L'HON. SIR. E. P. TACHÉ</persName>.—Il m'est 
      <lb/>
      facile de donner des explications à l'hon. 
      <lb/>
@@ -4456,7 +4452,7 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE.—Je crois que mon 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Je crois que mon 
      <lb/>
      hon. ami ne m'a pas bien compris : Je 
      <lb/>
@@ -4471,7 +4467,7 @@
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ.—Je ne vois 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—Je ne vois 
      <lb/>
      pas quel avantage trouverait la couronne à 
      <lb/>
@@ -4502,7 +4498,7 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE.—L'hon. premier 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—L'hon. premier 
      <lb/>
      ministre dit que nous avons un droit acquis. 
      <lb/>
@@ -4546,7 +4542,7 @@
     
 
             <p>
-     L'HON. Sir E. P. TACHÉ.—Ce n'est 
+     <persName ref="pers:TACH1">L'HON. Sir E. P. TACHÉ</persName>.—Ce n'est 
      <lb/>
      qu'une affaire d'opinion. Les autorités im<lb break="no"/>périales ont pu, à l'époque, avoir eu ces 
      <lb/>
@@ -4563,7 +4559,7 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE —Je suis surpris 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName> —Je suis surpris 
      <lb/>
      d'entendre l'hon. premier ministre mettre 
      <lb/>
@@ -4644,14 +4640,14 @@
             </p>
 
             <p>
-     L'HON. M. ROSS.—Pourquoi ? (Ecoutez ! 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>.—Pourquoi ? (Ecoutez ! 
      <lb/>
      écoutez.) 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. CURRIE.—S'il ne s'ensuit 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—S'il ne s'ensuit 
      <lb/>
      pas que l'un de ces deux hons. messieurs 
      <lb/>
@@ -4677,7 +4673,7 @@
      <lb/>des autres provinces. (Ecoutez ! écoutez !) 
      <lb/>
             </p>
-            <p>L'HON. M. CHRISTIE. —Comme les 
+            <p><persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>. —Comme les 
      <lb/>hons. messieurs qui m'ont précédé je suis pro<lb break="no"/>fondément pénétré de l'importance de la 
      <lb/>question qui occupe en ce moment la chambre, 
      <lb/>et je croirais manquer à mon devoir si je 
@@ -4919,7 +4915,7 @@
             </p></quote>
    
             <p>
-     L'HON. M. ROSS. — Ou, en d'autres 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>. — Ou, en d'autres 
      <lb/>
      termes, qu'on espérait voir se réaliser la 
      <lb/>
@@ -4928,7 +4924,7 @@
             </p>
 
             <p>
-     L'HON. M. CHRISTIE. —Oui ; j'allais 
+     <persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>. —Oui ; j'allais 
      <lb/>
      montrer que c'était bien le sens dans lequel 
      <lb/>
@@ -5292,12 +5288,12 @@
             </p></quote>
 
             <p>
-     L'HON. M. CURRIE.—( Ecoutez ! écou<lb break="no"/>tez !) 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—( Ecoutez ! écou<lb break="no"/>tez !) 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. CHRISTIE.—L'hon. mon<lb break="no"/>sieur, dit—( écoutez ! écoutez !)—mais est-ce 
+     <persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>.—L'hon. mon<lb break="no"/>sieur, dit—( écoutez ! écoutez !)—mais est-ce 
      <lb/>
      que les recommandations de ce paragraphe 
      <lb/>
@@ -5510,11 +5506,11 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
      <lb/>
      
             </p>
-            <p>L'HON M. CURRRIE.—Pas plus que 
+            <p><persName ref="pers:CURR2">L'HON M. CURRRIE</persName>.—Pas plus que 
      <lb/>nous n'en avons reçu pour la demander. 
      <lb/>
             </p>
-            <p>L'HON. M. CHRISTIE.—L'hon. mon<lb break="no"/>sieur dit que nous n'avons pas reçu de 
+            <p><persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>.—L'hon. mon<lb break="no"/>sieur dit que nous n'avons pas reçu de 
      <lb/>requête en faveur de la mesure actuelle, mais 
      <lb/>le pays la demande depuis des années. 
      <lb/>( Ecoutez ! écoutez !) Qu'ai-je essayé de 
@@ -5712,7 +5708,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
      parti et que le pays n'aurait pu que gagner. 
      <lb/></p>
 
-            <p>L'HON. M. AIKINS —Je demande pardon 
+            <p><persName ref="pers:AIKI1">L'HON. M. AIKINS</persName> —Je demande pardon 
      <lb/>à l'hon. monsieur. J'ai dit que je regrettais 
      <lb/>qu'on n'eût pas abordé la mesure pour la 
      <lb/>discuter comme une question de parti ; j'ex<lb break="no"/>primais la conviction qu'ainsi présentée la 
@@ -5721,13 +5717,13 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
      <lb/>discutée complétement en face du pays. 
      <lb/>
             </p>
-            <p>L'HON. M. CHRISTIE—Je pense que 
+            <p><persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>—Je pense que 
      <lb/>l'explication de mon hon. ami revient à ce 
      <lb/>que j'ai dit qu'il pensait qu'on aurait dû en 
      <lb/>faire une question de parti. 
      <lb/>
             </p>
-            <p>L'HON. M. AIKINS—Je pense que c'eût 
+            <p><persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—Je pense que c'eût 
      <lb/>été à l'avantage du pays. 
      <lb/>
             </p>
@@ -5735,17 +5731,17 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
     
 
             <p>
-     L'HON. M. CHRISTIE —Et comment ? 
+     <persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName> —Et comment ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. AIKINS—Parce que la dis<lb break="no"/>cussion eût été plus complète. 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—Parce que la dis<lb break="no"/>cussion eût été plus complète. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. CHRISTIE —L'hon. monsieur 
+     <persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName> —L'hon. monsieur 
      <lb/>
      peut-il me citer un seul cas d'une révision 
      <lb/>
@@ -5756,14 +5752,14 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
             <cb/>
             <p>
-     L'HON. M. AIKINS—Mon hon. ami en 
+     <persName ref="pers:AIKI1">L'HON. M. AIKINS</persName>—Mon hon. ami en 
      <lb/>
      a un exemple dans l'initiative de la conven<lb break="no"/>tion de Toronto et celle du parti libéral bas- 
      <lb break="yes"/>
      canadien auxquelles il vient de faire allusion. 
      <lb/>
             </p>
-            <p>L'HON. M. CHRISTIE—Je m'aperçois 
+            <p><persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>—Je m'aperçois 
      <lb/>que l'hon. monsieur ne veut pas quitter le 
      <lb/>terrain sur lequel il s'est placé l'autre jour, 
      <lb/>comme je viens de le lui dire. Il pense qu'il 
@@ -5773,14 +5769,14 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
      <lb/>répète qu'il ne peut me citer un cas de revi<lb break="no"/>sion d'une constitution par un parti. 
      <lb/>
             </p>
-            <p>L'HON. M. CURRIE. —J'en citerai un 
+            <p><persName ref="pers:CURR2">L'HON. M. CURRIE</persName>. —J'en citerai un 
      <lb/>cas, l'amendement à la constitution des 
      <lb/>Etats-Unis pour prohiber l'esclavage, qui a 
      <lb/>été passé l'autre jour, a été proposé par un 
      <lb/>parti. 
      <lb/>
             </p>
-            <p>L'HON. M. CHRISTIE.—Plusieurs des 
+            <p><persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>.—Plusieurs des 
      <lb/>représentants au congrès qui ont voté pour 
      <lb/>cet amendement étaient des démocrates et, 
      <lb/>sans leurs concours, l'amendement eût été 
@@ -6318,7 +6314,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
      
      
             </p>
-            <p>L'HON. M. ARMSTRONG. — Je ne 
+            <p><persName ref="UNSPECIFIED">L'HON. M. ARMSTRONG</persName>. — Je ne 
      <lb/>pense pas qu'il soit dans l'ordre de discuter 
      <lb/>une résolution qui n'a pas encore été pro<lb break="no"/>posée. 
      <lb/>
@@ -6327,7 +6323,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
     
 
             <p>
-     L'HON. M. CHRISTIE.—Elle fait partie 
+     <persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>.—Elle fait partie 
      <lb/>
      de la question soumise à la chambre. Elle 
      <lb/>
@@ -6557,10 +6553,10 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
      de le déclarer. 
      <lb/>
             </p>
-            <p>L'HON. M. CURRIE.—Ecoutez ! écou<lb break="no"/>tez !   
+            <p><persName ref="pers:CURR2">L'HON. M. CURRIE</persName>.—Ecoutez ! écou<lb break="no"/>tez !   
      <lb/>
             </p>
-            <p>L'HON. M. CHRISTIE.—Je suis opposé 
+            <p><persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>.—Je suis opposé 
      <lb/>à quelques uns des détails tout aussi forte<lb break="no"/>ment que peut l'être mon hon. ami de la 
      <lb/>division de Home ( M. AIKINS ) ou mon 
      <lb/>hon. ami de la division de Niagara ( M. 
@@ -6635,7 +6631,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
      par la convention. ( Applaudissements. ) 
      <lb/>
             </p>
-            <p>L'HON. M. SANBORN— Hons. mes<lb break="no"/>sieurs, je ne désire aucunement employer 
+            <p><persName ref="pers:SANB1">L'HON. M. SANBORN</persName>— Hons. mes<lb break="no"/>sieurs, je ne désire aucunement employer 
      <lb/>le temps de la chambre, et je ne le ferai que 
      <lb/>pendant quelques instants. Je n'ai pu, étant 
      <lb/>malade, assister aux séances du conseil pen<lb break="no"/>dant les discours qui ont été prononcés sur 
@@ -6705,7 +6701,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
     
 
             <p>
-     L'HON. M. CAMPBELL—Mais, sous 
+     <persName ref="pers:CAMP2">L'HON. M. CAMPBELL</persName>—Mais, sous 
      <lb/>
      l'union actuelle, il n'y a aucune nécessité 
      <lb/>
@@ -6718,7 +6714,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     L'HON. M. SANBORN—Je n'admets 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Je n'admets 
      <lb/>
      aucune nécessité de cette nature. Ces né<lb break="no"/>cessités sont tout à fait artificielles. Sous ce 
      <lb/>
@@ -6753,12 +6749,12 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     L'HON. M. CHRISTIE—Sans doute. 
+     <persName ref="pers:CURR2">L'HON. M. CHRISTIE</persName>—Sans doute. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. SANBORN—Mon. hon. ami 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Mon. hon. ami 
      <lb/>
      cite l'acte qui a permis à la législature du 
      <lb/>
@@ -6791,7 +6787,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     L'HON. M. CHRISTIE—Mais mon hon. 
+     <persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>—Mais mon hon. 
      <lb/>
      ami remarquera que nous ne législatons pas 
      <lb/>
@@ -6802,7 +6798,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     L'HON. M. SANBORN—Nous devons 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Nous devons 
      <lb/>
      sentir que, d'après les règles de la loi, l'on 
      <lb/>
@@ -6895,7 +6891,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
     
 
             <p>
-     L'HON. M. CHRISTIE—Mon hon. ami 
+     <persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>—Mon hon. ami 
      <lb/>
      se trompe. J'ai cité tout autant du mani<lb break="no"/>feste de l'opposition du Bas-Canada que de 
      <lb/>
@@ -6904,7 +6900,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     L'HON. M. SANBORN—Je parle main<lb break="no"/>tenant des Anglais du Bas-Canada, et en ce 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Je parle main<lb break="no"/>tenant des Anglais du Bas-Canada, et en ce 
      <lb/>
      qui est de l'assentiment du peuple à cette 
      <lb/>
@@ -6917,7 +6913,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     L'HON. M. CHRISTIE—J'ai dit que 
+     <persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>—J'ai dit que 
      <lb/>
      je pouvais parler avec plus de certitude de 
      <lb/>
@@ -6929,7 +6925,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
    
             <p>
-     L'HON. M. SANBORN—Les résolutions 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Les résolutions 
      <lb/>
      dont l'hon. M. DORION a été l'un des au<lb break="no"/>teurs, et qui ont été lues par mon hon. ami, 
      <lb/>
@@ -7017,14 +7013,14 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     L'HON. M. CURRIE—Quel est l'auteur 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>—Quel est l'auteur 
      <lb/>
      de cette adresse ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. SANBORN—Plusieurs per<lb break="no"/>sonnes y ont mis la main. Je vois le nom 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Plusieurs per<lb break="no"/>sonnes y ont mis la main. Je vois le nom 
      <lb/>
      de l'hon. M. MCDOUGALL, le secretaire- 
      <lb break="yes"/>
@@ -7037,14 +7033,14 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     L'HON. M. CURRIE—Ils proposaient 
+     <persName ref="pers:CURR2">L'HON. M. CURRIE</persName>—Ils proposaient 
      <lb/>
      que la constitution fût soumise au peuple ?  
      <lb/>
             </p>
 
             <p>
-     L'HON. M .SANBORN—Oui, elle devait 
+     <persName ref="pers:SANB1">L'HON. M .SANBORN</persName>—Oui, elle devait 
      <lb/>
     être ratifiée par un vote direct du peuple. 
      <lb/>
@@ -7062,10 +7058,10 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
      <lb/>parti ne l'est aujourd'hui. 
      <lb/>
             </p>
-            <p>L'HON. M. CHRISTIE—C'est à savoir. 
+            <p><persName ref="pers:CHRI1">L'HON. M. CHRISTIE</persName>—C'est à savoir. 
      <lb/>
             </p>
-            <p>L'HON. M. SANBORN—Si mon hon. 
+            <p><persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Si mon hon. 
      <lb/>ami voulait prendre ce programme, ou quel<lb break="no"/>que chose d'approchant, je serais heureux de 
      <lb/>lui accorder la plus mûre considération immé<lb break="no"/>diatement ; et je serais très heureux si on vou<lb break="no"/>lait nous en donner une petite partie, savoir : 
      <lb/>des garanties écrites, de manière à nous assu<lb break="no"/>rer que nos droits de propriété ne seront pas 
@@ -7207,7 +7203,7 @@ que je demanderais qu'on en différât l'adop<lb break="no"/>tion jusqu'à ce qu
             </p>
 
             <p>
-     Sur motion de l'hon. M. MOORE, les dé<lb break="no"/>bats sont ajournés à demain.<lb/>
+     Sur motion de <persName ref="pers:MOOR1">l'hon. M. MOORE</persName>, les dé<lb break="no"/>bats sont ajournés à demain.<lb/>
      
             </p>
 
