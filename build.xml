@@ -307,7 +307,7 @@
     
     <antcall target="createLanguageSymlinks"/>
 <!--  NOT WORKING YET.  -->
-    <!--<antcall target="listUnidentifiedNames"/>-->
+    <antcall target="listUnidentifiedNames"/>
   </target>
   
   <target name="listUnidentifiedNames">
