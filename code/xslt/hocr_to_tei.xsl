@@ -58,9 +58,10 @@
   
   <xsl:template match="/">
     
-    
-    
     <xsl:message>Input document URI is <xsl:value-of select="$docUri"/></xsl:message>
+    
+    <xsl:variable name="docLang" select="if ($rootEl/@xml:lang='fr') then 'fr' else 'en'"/>
+    <xsl:message>Input document in <xsl:value-of select="if ($docLang = 'fr') then 'French' else 'English'"/>.</xsl:message>
     
     <!-- It's useful to know the base URI of the TCCD repo itself. -->
     <xsl:variable name="baseDir" select="replace($docUri, '/data/.*$', '')"/>
@@ -534,7 +535,7 @@
   </xsl:template>
   
   <xsl:template match="text()" mode="fw">
-    <xsl:value-of select="normalize-space(hcmc:expandLigatures(.))"/>
+    <xsl:value-of select="normalize-space(hcmc:fixOcrErrors(hcmc:expandLigatures(.)))"/>
   </xsl:template>
   
   <xd:doc scope="component">
@@ -542,7 +543,7 @@
     such as ligatures introduced by the OCR tools.</xd:desc>
   </xd:doc>
   <xsl:template match="text()">
-    <xsl:value-of select="hcmc:straightenQuotes(hcmc:expandLigatures(.))"/>
+    <xsl:value-of select="hcmc:fixOcrErrors(hcmc:straightenQuotes(hcmc:expandLigatures(.)))"/>
   </xsl:template>
   
   <xsl:template match="xh:p[not(@class='editorial')]">

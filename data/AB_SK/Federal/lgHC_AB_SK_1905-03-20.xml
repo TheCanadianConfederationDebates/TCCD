@@ -38,7 +38,8 @@
           <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the King's Most Excellent Majesty</publisher>.
           
 
-          <biblScope unit="page" from="2761" to="2842"/>.
+          <biblScope unit="page" from="2761" to="2761"/>.
+ <biblScope unit="page" from="2839" to="2842"/>.
         </bibl>
         
 
@@ -65,6 +66,8 @@
          <change who="mholmes" when="2017-02-09">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="sarahtaekema" when="2017-02-09">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-10"> Marked up people </change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -175,7 +178,7 @@
             </p>
 
             <p>
-     The SPEAKER took the Chair at Three 
+     <persName ref="pers:SPEA1">The SPEAKER</persName> took the Chair at Three 
      <lb/>
      o'clock. 
      <lb/>
@@ -193,7 +196,7 @@
      <lb/>
       </p>
             <p>
-     Rt. Hon. Sir WILFRID LAURIER (Prime 
+     <persName ref="pers:LAUR5">Rt. Hon. Sir WILFRID LAURIER</persName> (Prime 
      <lb/>
      Minister). I desire to inform the House 
      <lb/>
@@ -222,7 +225,7 @@
             </p>
 
             <p>
-     Mr. R. L. BORDEN. Of course, it would 
+     <persName ref="pers:BORD2">Mr. R. L. BORDEN</persName>. Of course, it would 
      <lb/>
      be desirable, as I have pointed out to the 
      <lb/>
@@ -247,7 +250,7 @@
          </head>
    
             <p>
-     Hon. GEO. E. FOSTER. Is there any an<lb break="no"/>nouncement by the First Minister or the 
+     <persName ref="pers:FOST1">Hon. GEO. E. FOSTER</persName>. Is there any an<lb break="no"/>nouncement by the First Minister or the 
      <lb/>
      Minister of Finance as to the budget, or is 
      <lb/>
@@ -256,7 +259,7 @@
             </p>
    
             <p>
-     Hon. W. S. FIELDING (Minister of Fin<lb break="no"/>ance). I intimated to my hon. friend the 
+     <persName ref="pers:FIEL1">Hon. W. S. FIELDING</persName> (Minister of Fin<lb break="no"/>ance). I intimated to my hon. friend the 
      <lb/>
      other day that some days might elapse be<lb break="no"/>fore we could make an announcement ; and 
      <lb/>
@@ -291,7 +294,7 @@
             </p>
    
             <p>
-     Mr. R. L. BORDEN. The reason that 
+     <persName ref="pers:BORD2">Mr. R. L. BORDEN</persName>. The reason that 
      <lb/>
      this Bill stood was because I desired the 
      <lb/>
@@ -318,7 +321,7 @@
             </p>
 
             <p>
-     Mr. SCOTT. I may say, Mr. Chairman, 
+     <persName ref="pers:SCOT2">Mr. SCOTT</persName>. I may say, Mr. Chairman, 
      <lb/>
      that the application of the promoters called 
      <lb/>
@@ -333,7 +336,7 @@
             </p>
    
             <p>
-     Mr. R. L. BORDEN. What was the 
+     <persName ref="pers:BORD2">Mr. R. L. BORDEN</persName>. What was the 
      <lb/>
      reason for increasing it? Perhaps the hon. 
      <lb/>
@@ -342,7 +345,7 @@
             </p>
    
             <p>
-     Mr. HYMAN. It has been the usual cus<lb break="no"/>tom of the committee in regard to roads of 
+     <persName ref="pers:HYMA1">Mr. HYMAN</persName>. It has been the usual cus<lb break="no"/>tom of the committee in regard to roads of 
      <lb/>
      this character to make the capital stock 
      <lb/>
@@ -364,14 +367,14 @@
             </p>
    
             <p>
-     Mr. FOSTER. What is the length of 
+     <persName ref="pers:FOST1">Mr. FOSTER</persName>. What is the length of 
      <lb/>
      the road ? 
      <lb/>
             </p>
    
             <p>
-     Mr. HYMAN. About 400 miles. These 
+     <persName ref="pers:HYMA1">Mr. HYMAN</persName>. About 400 miles. These 
      <lb/>
      matters have all been discussed from that [...]
      <lb/>
@@ -421,7 +424,7 @@ will see his way to allow this motion to <lb/>
 pass. <lb/>
             </p>
 
-            <p> Mr. FOSTER. Just one
+        <p> <persName ref="pers:FOST1">Mr. FOSTER</persName>. Just one
 word more, if <lb/>
 the House will allow me. If the First Min<lb break="no"/>ister were here I would make an appeal to <lb/>
 him with reference to the principle involved <lb/>
@@ -449,7 +452,7 @@ in his
 possession for months? <lb/>
             </p>
 
-            <p> Mr. FIELDING. I am
+        <p> <persName ref="pers:FIEL1">Mr. FIELDING</persName>. I am
 afraid that I can<lb break="no"/>not agree with my hon. friend that the <lb/>
 House is about to affirm any dangerous prin<lb break="no"/>ciple. Certainly that is not our intention ; <lb/>
 nor is it the intention of this House to aflirm
@@ -464,13 +467,13 @@ to submit those papers to the <lb/>
 House. <lb/>
             </p>
 
-            <p> Mr. FOSTER.
+            <p> <persName ref="pers:FOST1">Mr. FOSTER</persName>.
 Is that
 sufficient without <lb/>
 a reason ? <lb/>
             </p>
             <cb/>
-            <p> Mr. FIELDING. The
+            <p> <persName ref="pers:FIEL1">Mr. FIELDING</persName>. The
 minister has given <lb/>
 a reason. My hon. friend may not accept the <lb/>
 reason. For myself I would say that any un<lb break="no"/>finished transaction might not necessarily <lb/>
@@ -505,7 +508,7 @@ THE <lb/>
 NORTHWEST TERRITORIES—PRE<lb break="no"/>SENTATION OF DOCUMENTS. <lb/>
             </head>
 
-            <p> Hon. W. S. FIELDING
+            <p> <persName ref="pers:FIEL1">Hon. W. S. FIELDING</persName>
 (Minister of
 Fi<lb break="no"/>nance). The House will hardly desire to <lb/>
 proceed further with the Orders. Before <lb/>
@@ -532,14 +535,14 @@ agree to have them printed. I would there<lb break="no"/>fore move that the rule
 purpose of having these printed. <lb/>
             </p>
 
-            <p> Mr. FOSTER. Is that
+            <p> <persName ref="pers:FOST1">Mr. FOSTER</persName>. Is that
 all ? Is there no<lb break="no"/>thing else to come before the House in con<lb break="no"/>nection with the Northwest Territories ?-<lb/> Because the First Minister promised that be<lb break="no"/>fore the sitting closed we would have some<lb break="no"/>thing with regard
 to amendments to the <lb/>
 Bill. <lb/>
             </p>
 
-            <p> Mr.
-FIELDING. Immediately on the ad<lb break="no"/>journment I
+            <p> <persName ref="pers:FIEL1">Mr.
+FIELDING</persName>. Immediately on the ad<lb break="no"/>journment I
 will send to my hon. friend a <lb/>
 copy of the amendment. which will be plac<lb break="no"/>ed on the notice paper. I do not think I <lb/>
          
@@ -556,8 +559,8 @@ friend at once with a. copy.
             <p> Motion agreed to. <lb/>
             </p>
 
-            <p> On motion of Mr.
-Fielding, House ad<lb break="no"/>journed at 11.25 p.m. <lb/>
+            <p> On motion of <persName ref="pers:FIEL1">Mr.
+Fielding</persName>, House ad<lb break="no"/>journed at 11.25 p.m. <lb/>
             </p>
             </div>
             <!-- GL, 2017-02-21, Commented out below as it follows Debate Day --> 

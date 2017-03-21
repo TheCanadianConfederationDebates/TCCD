@@ -15,8 +15,9 @@ function setupPage(){
  if (reFrench.test(document.location)){
      ss = document.createElement('style');
      ss.setAttribute('type', 'text/css')
-     ss.appendChild(document.createTextNode('body *[lang="fr"]{display: inherit;}'));
-     ss.appendChild(document.createTextNode('body *[lang="en"]{display: none;}'));
+     ss.appendChild(document.createTextNode('body *[lang="fr"]{display: block;}\u000a'));
+     ss.appendChild(document.createTextNode('body span[lang="fr"]{display: inline;}\u000a'));
+     ss.appendChild(document.createTextNode('body *[lang="en"]{display: none;}\u000a'));
      document.getElementsByTagName('head')[0].appendChild(ss);
  }
   

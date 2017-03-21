@@ -220,6 +220,19 @@
                           'ﬆ', 'st')"/>
   </xsl:function>
   
+  <xsl:function name="hcmc:fixOcrErrors" as="xs:string">
+    <xsl:param name="inStr" as="xs:string"/>
+    <xsl:value-of select="replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace($inStr, '([A-Z])1([A-Z])', '$1I$2'), 
+                          '([a-z])1([a-z])', '$1l$2'),
+                          '(\s)l(\s+[^\d])', '$1I$2'),
+                          '(\s)l(\s+[\d])', '$11$2'),
+                          '~', '-')"/>
+  </xsl:function>
+  
   <xd:doc scope="component">
     <xd:desc>This function replaces curly single and double quotes with 
     their straight versions. This is to enforce a policy decision designed

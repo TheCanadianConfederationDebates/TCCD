@@ -112,6 +112,10 @@ div[data-el='l']{
     color: #660000;
 }
 
+.unidentifiedName{
+    background-color: #ffcccc;
+}
+
 /* Journal and monograph titles are italicized... */
 span[data-level='m'], span[data-level='j']{
     font-style: italic;
@@ -145,6 +149,13 @@ li{
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 0.9rem;
+}
+
+.untaggedTable{
+    display: block;
+    margin: 1em;
+    border: double 5px red;
+    text-align: center;
 }
 
 /* Popup box for displaying information from the appendix. 

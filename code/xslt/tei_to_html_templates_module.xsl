@@ -142,8 +142,17 @@
     </xd:doc>
     <xsl:template match="persName[not(ancestor::person) and starts-with(@ref, 'pers:')]">
         <a href="#{substring-after(@ref, 'pers:')}" data-el="persName">
+            <xsl:if test="@ref='UNSPECIFIED'">
+                <xsl:attribute name="class" select="'unidentifiedName'"/>
+                <xsl:attribute name="id" select="generate-id(.)"/>
+            </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
         </a>
+    </xsl:template>
+    <xsl:template match="persName[not(ancestor::person) and matches(@ref, 'UNSPECIFIED')]">
+        <span data-el="persName" class="unidentifiedName" id="{generate-id(.)}">
+            <xsl:apply-templates select="@*|node()"/>
+        </span>
     </xsl:template>
     <xsl:template match="persName[ancestor::person]">
         <span data-el="persName">
@@ -362,6 +371,18 @@
                 <xsl:sequence select="$buildVersionCaption"/> <a href="{concat($gitRevUrl, $gitRevision)}"><xsl:value-of select="substring($gitRevision, 1, 8)"/></a><xsl:text>.</xsl:text>
             </div>
         </footer>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Some comments identify specific things which need to be flagged in the output.</xd:desc>
+    </xd:doc>
+    <xsl:template match="comment()[matches(., 'untaggedTable')]">
+        <span class="untaggedTable">
+            <span lang="en">A table appears here, but it has not yet been encoded so cannot be 
+            displayed.</span>
+            <span lang="fr">Un tableau apparaît ici, mais il n'a pas encore été encodé et ne 
+                peut donc pas être affiché.</span>
+        </span>
     </xsl:template>
     
 </xsl:stylesheet>
