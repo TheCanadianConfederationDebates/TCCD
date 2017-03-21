@@ -121,6 +121,8 @@
          <change who="mholmes" when="2017-03-10">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-09">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-19"> Marked Up People </change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -312,7 +314,7 @@
             </head>
    
             <p>
-     L'HON. M. MOORE—Hons. messieurs : 
+     <persName ref="pers:MOOR1">L'HON. M. MOORE</persName>—Hons. messieurs : 
      <lb/>
      —Ce n'est pas sans une grande défiance de 
      <lb/>
@@ -526,14 +528,14 @@
             <pb n="230" facs="final/images/Ont_Que_Fr_LC_1865-02-16_Page_0230.jpg"/>
             <fw type="num">230</fw>
             <p>
-     L'HON. SIR E. P. TACHÉ—Je crois ce 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Je crois ce 
      <lb/>
      chiffre exact. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. MOORE—Le Canada n'était 
+     <persName ref="pers:MOOR1">L'HON. M. MOORE</persName>—Le Canada n'était 
      <lb/>
      représenté que par douze délégués : il est 
      <lb/>
@@ -731,10 +733,10 @@
      resterons pas moins colonies. 
      <lb/>
             </p>
-            <p>L HON. SIR E. P. TACHÉ—Sans doute. 
+            <p><persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Sans doute. 
      <lb/>
             </p>
-            <p>L'HON. M. MOORE—Puisque tel est le 
+            <p><persName ref="pers:MOOR1">L'HON. M. MOORE</persName>—Puisque tel est le 
      <lb/>cas, je crois que notre gouvernement local 
      <lb/>occupera une position encore plus inférieure 
      <lb/>que celle du gouvernement d'aujourd'hui. 
@@ -743,7 +745,7 @@
      <lb/>votée par une législature pourra être désa<lb break="no"/>vouée dans le cours de l'année par le gouver<lb break="no"/>nement fédéral. 
      <lb/>
             </p>
-            <p>L'HON. SIR E. P. TACHÉ—Ce n'est rien 
+            <p><persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Ce n'est rien 
      <lb/>autre chose que ce qui existe actuellement 
      <lb/>entre le Canada et le parlement impérial. 
      <lb/>
@@ -753,7 +755,7 @@
 
             <p>
      
-    L'HON. M. MOORE —Je prendrai la 
+    <persName ref="pers:MOOR1">L'HON. M. MOORE</persName> —Je prendrai la 
      <lb/>liberté de différer légèrement d'opinion avec 
      <lb/>l'hon. monsieur, car toute mesure passée par 
      <lb/>cette province peut être désavouée dans les 
@@ -773,7 +775,7 @@
           
             <cb/>
             <p>
-     L'HON. SIR E. P. TACHÉ—Vous me 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Vous me 
      <lb/>
     comprenez très-bien. 
      <lb/>
@@ -782,7 +784,7 @@
     
 
             <p>
-     L HON. M. MOORE—Tout le monde sait 
+     <persName ref="pers:MOOR1">L HON. M. MOORE</persName>—Tout le monde sait 
      <lb/>
      que la question du veto a été discutée à 
      <lb/>
@@ -891,7 +893,7 @@
      hon. chambre. ( Applaudissements ). 
      <lb/>
             </p>
-            <p>L'HON. M. MCMASTER.—Hons. mes<lb break="no"/>sieurs, les résolutions soumises à la chambre 
+            <p><persName ref="pers:MCMA2">L'HON. M. MCMASTER</persName>.—Hons. mes<lb break="no"/>sieurs, les résolutions soumises à la chambre 
      <lb/>ont été si habilement discutées sous toutes 
      <lb/>les faces, qu'il me semble que l'on ne peut 
      <lb/>guère dire rien de plus que ce qui a déjà été 
@@ -969,14 +971,14 @@
      <lb/>de fer intercolonial plutôt que de s'en passer. 
      <lb/>
             </p>
-            <p>L'HON. M. ROSS. —Et je le répète. 
+            <p><persName ref="pers:ROSS8">L'HON. M. ROSS</persName>. —Et je le répète. 
      <lb/>
             </p>
    
     
 
             <p>
-     L'HON. M. MCMASTER .—Eh ! bien, si 
+     <persName ref="pers:MCMA2">L'HON. M. MCMASTER</persName> .—Eh ! bien, si 
      <lb/>
      l'hon. membre voulait résigner son siége et 
      <lb/>
@@ -1129,7 +1131,7 @@
     
 
             <p>
-     L'HON. M. SIMPSON—Je crois qu'un 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>—Je crois qu'un 
      <lb/>
      sage a dit qu'il n'y avait rien de nouveau sous 
      <lb/>
@@ -1265,12 +1267,12 @@
     
 
             <p>
-     L'HON. M. ROSS —Vous avez les détails. 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName> —Vous avez les détails. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. SIMPSON —Malheureuse<lb break="no"/>ment ce sont précisément les détails qui nous 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName> —Malheureuse<lb break="no"/>ment ce sont précisément les détails qui nous 
      <lb/>
      manquent— ils forment la moëlle du projet. 
      <lb/>
@@ -1477,7 +1479,7 @@
             </p>
 
             <p>
-     L'HON. M. ROSS—De la même manière 
+     <persName ref="pers:ROSS8">L'HON. M. ROSS</persName>—De la même manière 
      <lb/>
      que les canaux, en diminuant les frais de 
      <lb/>
@@ -1486,7 +1488,7 @@
             </p>
 
             <p>
-     L' HON. M. SIMPSON—Cela est impos<lb break="no"/>sible. Un tonneau de fret par chemin de fer 
+     <persName ref="pers:SIMP1">L' HON. M. SIMPSON</persName>—Cela est impos<lb break="no"/>sible. Un tonneau de fret par chemin de fer 
      <lb/>
      coûte deux centins par mille, et, comme la 
      <lb/>
@@ -1563,7 +1565,7 @@
      
      
             </p>
-            <p>L'HON. M. FERRIER — On prédisait, 
+            <p><persName ref="pers:FERR1">L'HON. M. FERRIER</persName> — On prédisait, 
      <lb/>lorsqu'il fut question de construire l'embran<lb break="no"/>chement de la Rivière du Loup que cette 
      <lb/>ligne ne serait pas productive, mais le fait 
      <lb/>est que, durant les deux dernières années, 
@@ -1575,7 +1577,7 @@
     
 
             <p>
-     L'HON. M. SIMPSON —Je ne devrais 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName> —Je ne devrais 
      <lb/>
      pas contredire l'hon. membre, parce qu'il est 
      <lb/>
@@ -1599,7 +1601,7 @@
     
 
             <p>
-     L'HON. M. FERRIER—Je ne devrais 
+     <persName ref="pers:FERR1">L'HON. M. FERRIER</persName>—Je ne devrais 
      <lb/>
     peut-être pas ajouter à ce que je viens de 
      <lb/>dire, car l'hon. monsieur ne voudrait pas 
@@ -1615,7 +1617,7 @@
     
 
             <p>
-     L'HON. M. SIMPSON—Mais le véritable 
+     <persName ref="pers:SIMP1">L'HON. M. SIMPSON</persName>—Mais le véritable 
      <lb/>
      point est de savoir quel a été le coût origi<lb break="no"/>naire de sa construction, l'intérêt sur cette 
      <lb/>
@@ -1768,7 +1770,7 @@
      ( Applaudissements. ) 
      <lb/>
             </p>
-            <p>L'HON. SIR E. P. TACHÉ—Avant que la 
+            <p><persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Avant que la 
      <lb/>question ne soit mise aux voix, j'ai quelques 
      <lb/>remarques à faire sur la question générale, 
      <lb/>et particulièrement sur la motion sous forme 
@@ -1876,14 +1878,14 @@
             </p>
 
             <p>
-     L'HON. M. SANBORN—Dix sont plus 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Dix sont plus 
      <lb/>
      près d'un tiers que les sept que vous proposez. 
      <lb/>
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ—Je crois 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Je crois 
      <lb/>
      que l'hon. monsieur se trompe dans son cal<lb break="no"/>cul Cette chambre compte 21 membres à 
      <lb/>
@@ -1898,7 +1900,7 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE—Elles ont droit à 
+     <persName ref="pers:CURR1">L'HON. M. CURRIE</persName>—Elles ont droit à 
      <lb/>
      un tiers de la totalité. Comptez-vous les 
      <lb/>
@@ -1907,7 +1909,7 @@
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ— Les mem<lb break="no"/>bres électifs sont au nombre des faits accom<lb break="no"/>plis. Sur le principe électif, on propose de 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>— Les mem<lb break="no"/>bres électifs sont au nombre des faits accom<lb break="no"/>plis. Sur le principe électif, on propose de 
      <lb/>
      donner un tiers des membres du conseil 
      <lb/>
@@ -1920,26 +1922,26 @@
             </p>
 
             <p>
-     L'HON. M. CURRIE— Mais non une 
+     <persName ref="pers:CURR1">L'HON. M. CURRIE</persName>— Mais non une 
      <lb/>
      moitié. 
      <lb/>
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ - Tandis 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName> - Tandis 
      <lb/>
      qu'elles ne doivent en avoir que sept. 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. SANBORN—Non, dix. 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Non, dix. 
      <lb/>
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ.—Nous allons 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—Nous allons 
      <lb/>
      faire venir un maître d'école. ( On rit. ) Si 
      <lb/>
@@ -2127,11 +2129,11 @@
      
      
             </p>
-            <p>L'HON. M. SANBORN—Ce n'était pas 
+            <p><persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Ce n'était pas 
      <lb/>une majorité élective. 
      <lb/>
             </p>
-            <p>L'HON. SIR E. P. TACHÉ—Peut-être 
+            <p><persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Peut-être 
      <lb/>est-il bien que nous ayons aujourd'hui le 
      <lb/>gouvernement responsable : il est le remède 
      <lb/>à bien des maux. La loi accordant aux 
@@ -2244,14 +2246,14 @@
     
 
             <p>
-     L'HON. M. CRAWFORD dit en riant 
+     <persName ref="UNSPECIFIED">L'HON. M. CRAWFORD</persName> dit en riant 
      <lb/>
      qu'il est catholique. 
      <lb/>
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ.—Je ne 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—Je ne 
      <lb/>
      puis le croire, je vous sais orangiste. Nous 
      <lb/>
@@ -2344,15 +2346,15 @@
      <lb/>
      
             </p>
-            <p>L'HON. M. MOORE. — Cette chambre 
+            <p><persName ref="pers:MOOR1">L'HON. M. MOORE</persName>. — Cette chambre 
      <lb/>compte cinq protestants du Bas-Canada. 
      <lb/>
             </p>
-            <p>UN HON. MEMBRE.—Mais ils ne sont 
+            <p><persName ref="UNSPECIFIED">UN HON. MEMBRE</persName>.—Mais ils ne sont 
      <lb/>pas tous électifs. 
      <lb/>
             </p>
-            <p>L'HON. SIR E. P. TACHÉ.—Je ne parle 
+            <p><persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>.—Je ne parle 
      <lb/>que des membres électifs, parce qu'il s'agit 
      <lb/>des divisions électorales. Reportons-nous 
      <lb/>maintenant à l'autre branche de la législa<lb break="no"/>ture, et l'on verra que ce principe y a été 
@@ -2859,7 +2861,7 @@
             </p>
 
             <p>
-     L'HON. M CAMPBELL—Non ; car 
+     <persName ref="pers:CAMP2">L'HON. M CAMPBELL</persName>—Non ; car 
      <lb/>
      elles sont encore moins grandes là-haut. 
      <lb/>
@@ -2868,7 +2870,7 @@
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ—Il se peut 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Il se peut 
      <lb/>
      que dans le Haut-Canada les fortunes soient 
      <lb/>
@@ -2943,14 +2945,14 @@
     
 
             <p>
-     L'HON. M. LETELLIER DE ST. JUST 
+     <persName ref="pers:LETE1">L'HON. M. LETELLIER DE ST. JUST</persName> 
      <lb/>
      —Il ne peut s'en trouver que mieux. 
      <lb/>
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ— Mais, 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>— Mais, 
      <lb/>
      comme j'allais le faire remarquer, ce que je 
      <lb/>
@@ -3112,9 +3114,7 @@
      <lb/>
      cet amendement consacre en réalité le prin<lb break="no"/>cipe de répartition adopté dans le projet et 
      <lb/>
-     qui accorde dix autres membres aux provin- 
-     <lb break="yes"/>
-     ces inférieures. Je suis heureux de pouvoir 
+     qui accorde dix autres membres aux provin<lb break="no"/>ces inférieures. Je suis heureux de pouvoir 
      <lb/>
      admettre que mon hon. ami avait raison en 
      <lb/>
@@ -3128,7 +3128,7 @@
      <lb/>la convention. ( Applaudissements. ) 
      <lb/>
             </p>
-            <p>L'HON. M. SKEAD —Hons. messieurs, 
+            <p><persName ref="pers:SKEA1">L'HON. M. SKEAD</persName> —Hons. messieurs, 
      <lb/>je demande à la chambre d'accorder son in<lb break="no"/>dulgence à l'un des députés du Canada 
      <lb/>central pendant les quelques moments qu'il 
      <lb/>va prendre pour exprimer ses vues sur la 
@@ -3447,7 +3447,7 @@
     
 
             <p>
-     L'HON. M. SANBORN—Avant que le 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—Avant que le 
      <lb/>
      vote soit pris, je désire donner une simple 
      <lb/>
@@ -3484,7 +3484,7 @@
             </p>
 
             <p>
-     L'HON. SIR E. P. TACHÉ—Si mon 
+     <persName ref="pers:TACH1">L'HON. SIR E. P. TACHÉ</persName>—Si mon 
      <lb/>
      hon. ami n'a pas fait ce reproche, il va de 
      <lb/>
@@ -3495,7 +3495,7 @@
             </p>
 
             <p>
-     L'HON. M. SANBORN—il est un autre 
+     <persName ref="pers:SANB1">L'HON. M. SANBORN</persName>—il est un autre 
      <lb/>
      point sur lequel je veux aussi attirer l'atten<lb break="no"/>tion. L'hon. premier ministre a paru vouloir 
      <lb/>
@@ -3544,7 +3544,7 @@
     
             <cb/>
             <p>
-     L'HON. M. WILSON informe la chambre 
+     <persName ref="UNSPECIFIED">L'HON. M. WILSON</persName> informe la chambre 
      <lb/>
      qu'il est opposé à l'amendement, mais qu'il 
      <lb/>

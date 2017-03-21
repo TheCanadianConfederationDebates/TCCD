@@ -135,6 +135,8 @@
          <change who="mholmes" when="2017-03-13">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-13">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-03-19"> Marked Up People. </change>
+         
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -393,7 +395,7 @@
             </p>
 
 
-            <p>L'HON. A. A. DORION— M. l'ORA<lb break="no"/>TEUR, j'aurais désiré adresser la parole à la 
+            <p><persName ref="pers:DORI1">L'HON. A. A. DORION</persName>— M. l'ORA<lb break="no"/>TEUR, j'aurais désiré adresser la parole à la 
      <lb/>chambre en français, ce soir ; mais comme 
      <lb/>un grand nombre de membres ne com<lb break="no"/>prennent pas cette langue, et d'un autre 
      <lb/>côté, comme presque tous les membres 
@@ -865,12 +867,12 @@ aux gouver<lb break="no"/>nements locaux, dont les pouvoirs, en un mot,<lb/>
 </quote>
 
 <p>
-  L'Hon.
-Proc.-Gén. MACDONALD —<lb/>
+  <persName ref="pers:MACD1">L'Hon.
+Proc.-Gén. MACDONALD</persName> —<lb/>
   Quel est le document que cite mon bon ami? <lb/></p>
 
 <p>
-  L'Hon. A. A. DORION— Je
+  <persName ref="pers:DORI1">L'Hon. A. A. DORION</persName>— Je
 traduis
 du <lb/>
   document publié par les libéraux du Bas- <lb break="yes"/>
@@ -1000,10 +1002,10 @@ administration dont tous les membres s'étaient <lb/>
 engagés à voter contre la représentation<lb/>
 basée sur la population. (Ecoutez !) <lb/>
             </p>
-            <p>M. Rankin
+            <p><persName ref="pers:RANK1">M. Rankin</persName>
 — Non, non!<lb/>
             </p>
-            <p> L'Hon. A. A. DORION—Si ce n'est <lb/>
+            <p> <persName ref="pers:DORI1">L'Hon. A. A. DORION</persName>—Si ce n'est <lb/>
 pas le cas, j'ai été mal renseigné ; mais j'ai
 
             <cb/>
@@ -1020,10 +1022,10 @@ pendant <lb/>
 onze mois un gouvernement qui était engagé <lb/>à exclure la représentation basée sur la popu<lb break="no"/>lation de la catégorie des questions libres, et <lb/>à mettre cette question de côté. <lb/>
             </p>
  
-            <p> M. MACKENZIE
+            <p> <persName ref="pers:MACK1">M. MACKENZIE</persName>
 ( de Lambton )- <lb/> Non, Non ! <lb/>
             </p>
-            <p> L'HON. A. A. DORION—J'entends un <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—J'entends un <lb/>
 hon. membre dire que ce n'est pas le cas, ou <lb/>
 qu'il n'a pas consenti à mettre
 de côté la <lb/>
@@ -1081,9 +1083,9 @@ générales communes a toutes deux.  L'hon. <lb/>
 à <lb/>
 cette convention. <lb/>
             </p>
-            <p> L'HON. M. HOLTON—Oui, j'y étais. <lb/>
+            <p> <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Oui, j'y étais. <lb/>
             </p>
-            <p> L' HON. A. A. DORION—Et l'hon. membre <lb/>
+            <p> <persName ref="pers:DORI1">L' HON. A. A. DORION</persName>—Et l'hon. membre <lb/>
 m'a dit qu'il n'avait jamais vu une réunion <lb/>
 d'hommes plus respectables, plus instruits et <lb/>
 plus intelligents, pour discuter les questions <lb/>
@@ -1114,11 +1116,11 @@ encore moins. Il ne reçut pas mȇme de <lb/>
 réponse à son discours, malgré
 toute l'habi<lb break="no"/>leté qu'il y avait déployée. <lb/>
             </p>
-            <p> L' Hon.
-M.  HOLTON—Il n'a jamais <lb/>
+            <p> <persName ref="pers:HOLT1">L' Hon.
+M.  HOLTON</persName>—Il n'a jamais <lb/>
 osé proposer de résolution au parlement. <lb/>
             </p>
-            <p> L HON. A.  A. DORION — Bien que <lb/>
+            <p> <persName ref="pers:DORI1">L HON. A.  A. DORION</persName> — Bien que <lb/>
 l'administration fût formée avec l'entente <lb/>
 d'effectuer la confédération de toutes les <lb/>
 provinces, et que ce fût là le principal <lb/>
@@ -1354,16 +1356,16 @@ dans le coffre public pour le Grand Tronc <lb/>
 (rires) ; mais c'était là en réalité l'origine de <lb/>
 la reprise du projet du chemin de fer inter<lb break="no"/>colonial. <lb/>
             </p>
-            <p> L'Hon.
-J. S. MACDONALD—Nous avons <lb/>
+            <p> <persName ref="pers:MACD2">L'Hon.
+J. S. MACDONALD</persName>—Nous avons <lb/>
 trouvé le projet tout prêt ; il nous avait
 été <lb/>
 laissé comme un legs de l'administration <lb/>
 CARTIER-MACDONALD. <lb/>
             </p>
 
-            <p> L'Hon
-A. A. DORION—C'est vrai. Le <lb/>
+            <p> <persName ref="pers:DORI1">L'Hon
+A. A. DORION</persName>—C'est vrai. Le <lb/>
 gouvernement MACDONALD-SICOTTE
 trouva <lb/>la chose tellement avancée qu'un arrangement <lb/>
 avait été fait pour la réunion des délégués <lb/>
@@ -1471,17 +1473,17 @@ adversaire, et se dirent à eux-mêmes: " Nous <lb/>
 allons tout arranger ; nous allons oublier nos <lb/>
 diiférends passés, pourvu que nous conser<lb break="no"/>vions nos portefeuilles." <lb/>
             </p>
-            <p> L'HON.
-Proc.Gén.  MAODONALD —<lb/>
-Ecoutez! écoutez ! <lb/>
-            </p>
+            <p>
+                  <persName ref="pers:MACD1">L'HON. Proc.Gén. MACDONALD</persName> —<lb/> Ecoutez!
+                  écoutez ! <lb/>
+               </p>
 
 
 
 
 
 
-            <p> L'HON. A. A. DORISON—J'entends une <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—J'entends une <lb/>
 voix qui est bien connue dans cette chambre, <lb/>
 —la voix de l'hon. proc.—gén.
 Ouest,—qui <lb/>
@@ -1503,11 +1505,11 @@ la nomination du comité, et dans le comité <lb/>
 il a voté contre le principe de la
 confédéra<lb break="no"/>tion. (Ecoutez !) <lb/>
             </p>
-            <p> L'Hon.
-Proc.—Gén. MACDONALD — <lb/>
+            <p> <persName ref="pers:MACD1">L'Hon.
+Proc.—Gén. MACDONALD</persName> — <lb/>
 Ecoutez ! écoutez! <lb/>
             </p>
-            <p> L'HON.  A. A. DORION—Le dernier vote <lb/>
+            <p> <persName ref="pers:DORI1">L'HON.  A. A. DORION</persName>—Le dernier vote <lb/>
 pris dans ce comité le fut vers le milieu de <lb/>
 juin, le jour même du vote qui a renversé le <lb/>
 ministère, et l'hon. procureur-général  Ouest <lb/>
@@ -1600,18 +1602,18 @@ Nouveau-Brunswick avec ses 250,000,—et <lb/>
 sur le même pied que la Nouvelle-Ecosse <lb/>
 avec ses 330,000 âmes. <lb/>
             </p>
-            <p> L'H0N. Proc.-Gén. MACDONALD - <lb/> Vous vous trompez entièrement. <lb/>
+            <p> <persName ref="pers:MACD1">L'HON. Proc.-Gén. MACDONALD</persName> - <lb/> Vous vous trompez entièrement. <lb/>
             </p>
-            <p> L'HON. A. A. DORION—La chose a été <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—La chose a été <lb/>
 admise par l'hon. président du conseil, <lb/>
 l'autre soir. <lb/>
             </p>
-            <p> L'Hon.   Proc.-Gén  MACDONALD- <lb/> Oh ! non ! <lb/>
+            <p> <persName ref="pers:MACD1">L'Hon. Proc.-Gén  MACDONALD</persName>- <lb/> Oh ! non ! <lb/>
             </p>
             <cb/>
 
 
-            <p> L'HON. A. A. DORION — C'est le <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName> — C'est le <lb/>
 champion de la représentation basée sur la <lb/>
 population qui l'a dit. C'est lui qui est allé à <lb/>l'Ile du Prince-Edouard et qui lui a demandé <lb/>
 de nous préparer une constitution.—(Ecou<lb break="no"/>tez ! et rires.)  Mais afin de faire voir que <lb/>
@@ -1714,14 +1716,14 @@ pour permettre l'admission des autres pro<lb break="no"/>vinces lorsqu'elles jug
 entrer. <lb/>
             </p>
 
-            <p> L'HON. Proc.-Gén. MAODONALD — <lb/>
+            <p> <persName ref="pers:MACD1">L'HON. Proc.-Gén. MACDONALD</persName> — <lb/>
 Lorsqu'elles seraient prêtes.<lb/>
             </p>
-            <p> L' HON. Pro.-Gén. CARTIER—Tout cela <lb/>
+            <p> <persName ref="pers:CART2">L' HON. Pro.-Gén. CARTIER</persName>—Tout cela <lb/>
 est accompli. <lb/>
             </p>
-            <p> L'HON.
-A. A. DORION—Mais, monsieur <lb/>
+            <p> <persName ref="pers:DORI1">L'HON.
+A. A. DORION</persName>—Mais, monsieur <lb/>
 l'ORATEUR, l'on peut me demander,
 en admet<lb break="no"/>tant tout cela, en admettant que le projet <lb/>
 qui nous est soumis n'est pas celui qui nous <lb/>
@@ -1817,13 +1819,13 @@ libéraux parmi les conseillers législatifs du <lb/>
 Haut-Canada. <lb/>
             </p>
 
-            <p> L'HON. Proc.-Gén.  MACDONALD— <lb/>
+            <p> <persName ref="pers:MACD1">L'HON. Proc.-Gén.  MACDONALD</persName>— <lb/>
 Ecoutez! écoutez. <lb/>
             </p>
-            <p> L'HON. M. HOLTON—Juste 25 pour <lb/>
+            <p> <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Juste 25 pour <lb/>
 cent. <lb/>
             </p>
-            <p> L'HON. A. A. DORION—Oui, exacte<lb break="no"/>ment 25 pour cent. Ensuite nous aurons <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Oui, exacte<lb break="no"/>ment 25 pour cent. Ensuite nous aurons <lb/>
 pour la Nouvelle Ecosse, 10 conservateurs, <lb/>
 de l'Ile du Prince-Edouard, 4 de
 plus, et 6 <lb/>
@@ -1856,10 +1858,10 @@ avant que les opinions du parti libéral <lb/>
 puissent prévaloir dans les décisions du <lb/>
 conseil législatif. <lb/>
             </p>
-            <p> M. A. MACKENZIE—Cela ne fait pas de <lb/>
+            <p> <persName ref="pers:MACK1">M. A. MACKENZIE</persName>—Cela ne fait pas de <lb/>
 différence ! <lb/>
             </p>
-            <p> L'HON. A. A. DORION—L'hon. membre <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—L'hon. membre <lb/>
 pour Lambton dit que cela ne fait pas de <lb/>
 différence ! L'hon. membre est prêt à tout <lb/>
 accepter ; mais pour ceux qui ne sont pas si <lb/>
@@ -2025,9 +2027,9 @@ changés à moins de raisons suffisantes. Main<lb break="no"/>tenant,je suis à 
 nous n'aurons rien de tel que le gouvernement <lb/>
 responsable dans nos législatures locales.  <lb/>
             </p>
-            <p> M. DUNKIN—Il ne saurait en avoir. <lb/>
+            <p> <persName ref="pers:DUNK1">M. DUNKIN</persName>—Il ne saurait en avoir. <lb/>
             </p>
-            <p> L'HON. A. A. DORION—Il pourra y <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Il pourra y <lb/>
 avoir deux, trois ou quatre ministres, choisis <lb/>
 par les lieutenants-gouverneurs, qui seront <lb/>
 chargés de l'administration des affaires du <lb/>
@@ -2125,19 +2127,19 @@ censeil législatif, et de gouverneurs locaux, <lb/>
 de l'unanimité qui a régné parmi les membres <lb/>
 de la conférence. <lb/>
             </p>
-            <p> L'HON.  M. HOLTON—Ils ont divisé <lb/>
+            <p> <persName ref="pers:HOLT1">L'HON.  M. HOLTON</persName>—Ils ont divisé <lb/>
 toutes ces bonnes choses entre eux. (Ecoutez.) <lb/>
             </p>
-            <p> L'HON. A. A. DORION—Je n'accuse pas <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Je n'accuse pas <lb/>
 les hon. messieurs d'avoir offert ces appûts- <lb/> je ne mentionne que ce que j'ai
 lu dans un <lb/>
 discours sur ce sujet. <lb/>
             </p>
-            <p> L'HON. M . HOLTON—C'était
+            <p> <persName ref="pers:HOLT1">L'HON. M . HOLTON</persName>—C'était
 un discours <lb/>
 de l'un des délégués ! Ecoutez !) <lb/>
             </p>
-            <p> L'HON. A. A. DORION — J'en viens <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A. DORION</persName> — J'en viens <lb/>
 maintenant à un autre point. L'on dit que <lb/>
 cette confédération est nécessaire afin d'établir <lb/>
 de meilleurs moyens de défense
@@ -2217,10 +2219,10 @@ sur terre que sur mer." <lb/>
             </p>
 </quote>
 
-            <p> L'HON.
-M. HOLTON—Où est cettc ré<lb break="no"/>solution ? (Ecoutez !) <lb/>
+            <p> <persName ref="pers:HOLT1">L'HON.
+M. HOLTON</persName>—Où est cettc ré<lb break="no"/>solution ? (Ecoutez !) <lb/>
             </p>
-            <p> L'HON. A. A DORION—Il paraît donc <lb/>
+            <p> <persName ref="pers:DORI1">L'HON. A. A DORION</persName>—Il paraît donc <lb/>
 que ce que nous avons à faire,
 c'est d'avoir <lb/>
 une force armée et une marine qui soient sur <lb/>
@@ -2283,14 +2285,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     
 
             <p>
-     L'HON. M. HOLTON—Il coûtera plutôt 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Il coûtera plutôt 
      <lb/>
      $40,000,000. 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—En 1862, lorsque 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—En 1862, lorsque 
      <lb/>
      cette question était devant le pays, quel était 
      <lb/>
@@ -2460,7 +2462,7 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p>
 
             <p>
-     L'HON. Proc.-Gén. MACDONALD— 
+     <persName ref="pers:MACD1">L'HON. Proc.-Gén. MACDONALD</persName>— 
      <lb/>
      L'hon. membre me permettra-t-il de lui 
      <lb/>
@@ -2473,7 +2475,7 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p>
 
             <p>
-     L'HON. A. A. DORION—L'hon. membre 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—L'hon. membre 
      <lb/>
      pour Peterborough ( Col. HAULTAIN ) a dit 
      <lb/>
@@ -2641,14 +2643,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     
 
             <p>
-     L'HON. M. HOLTON—Comme le fait 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Comme le fait 
      <lb/>
      le Nouveau-Brunswick sur le bois américain. 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Et par ce 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Et par ce 
      <lb/>
      moyen il aurait pu prélever un revenu 
      <lb/>
@@ -2664,14 +2666,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     
 
             <p>
-     L'HON. M. HOLTON —Changées dans 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Changées dans 
      <lb/>
      un sens hostile au Bas-Canada. 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—L'article des 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—L'article des 
      <lb/>
      résolutions dont je parle se lit maintenant 
      <lb/>
@@ -2767,14 +2769,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p>
 
             <p>
-     L'HON. M. HOLTON—Alors ils se bat<lb break="no"/>tront. ( Rires.) Il n'y aura plus de difficultés 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Alors ils se bat<lb break="no"/>tront. ( Rires.) Il n'y aura plus de difficultés 
      <lb/>
      sectionnelles alors ! 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Oh ! non ; pas 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Oh ! non ; pas 
      <lb/>
      la moindre ! Je puis peut-être maintenant 
      <lb/>
@@ -2886,14 +2888,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     
 
             <p>
-     L'HON. M. HOLTON—Oh ! il n'y en a 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Oh ! il n'y en a 
      <lb/>
      que quatre. ( Rires.) 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—De plus, le 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—De plus, le 
      <lb/>
      Nouveau-Brunswick va recevoir un subside 
      <lb/>
@@ -2911,14 +2913,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             <fw type="num">265</fw>
    
             <p>
-     L'HON. M. HOLTON— Nécessairement,   
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>— Nécessairement,   
      <lb/>elle ne peut pas imposer de taxes directe,<lb/>
      parce qu'elle n'a pas d'institutions munici<lb break="no"/>pales. ( Rires.) 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Eh bien ! je vois 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Eh bien ! je vois 
      <lb/>
      dans un discours prononcé par M. TILLEY, 
      <lb/>
@@ -3071,14 +3073,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     
 
             <p>
-     L'HON. M. HOLTON — Plus près de 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName> — Plus près de 
      <lb/>
      $400,000. 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Mon calcul est 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Mon calcul est 
      <lb/>
      plutôt au-dessous qu'au-dessus de la réalité ; 
      <lb/>
@@ -3191,14 +3193,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     
 
             <p>
-     M. A. MACKENZIE—Parlez vous de 
+     <persName ref="pers:MACK1">M. A. MACKENZIE</persName>—Parlez vous de 
      <lb/>
      la consommation locale ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Je veux dire 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Je veux dire 
      <lb/>
      que les habitants de la ville de Montréal 
      <lb/>
@@ -3230,14 +3232,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
      <lb/>la seule chose qu'elle devait leur faire gagner. 
      <lb/>
             </p>
-            <p>M. A. MACKENZIE —Non ! non ! 
+            <p><persName ref="pers:MACK1">M. A. MACKENZIE</persName> —Non ! non ! 
      <lb/>
             </p>
    
     
 
             <p>
-     L'HON. A. A. DORION—L'hon. membre 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—L'hon. membre 
      <lb/>
      se rappellera peut-être une lettre écrite par 
      <lb/>
@@ -3362,14 +3364,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p>
 
             <p>
-     M. POWELL— La confédération vaut 
+     <persName ref="pers:POWE2">M. POWELL</persName>— La confédération vaut 
      <lb/>
      tout cela ! ( Rires. ) 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Le ministre 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Le ministre 
      <lb/>
      de l'agriculture continuait ainsi : 
      <lb/>
@@ -3421,14 +3423,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p>
 
             <p>
-     L'HON. M. MCGEE—Qu'a à faire cela 
+     <persName ref="pers:MCGE1">L'HON. M. MCGEE</persName>—Qu'a à faire cela 
      <lb/>
      avec l'union des provinces ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Cela a beau<lb break="no"/>coup à faire avec la question. Cela montre 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Cela a beau<lb break="no"/>coup à faire avec la question. Cela montre 
      <lb/>
      que la représentation basée sur la population 
      <lb/>
@@ -3549,12 +3551,12 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     (Oh ! oh!) 
      <lb/>
             </p>
-            <p>L'HON. PROC.—GÉN. CARTIER—Il va 
+            <p><persName ref="pers:CART2">L'HON. PROC.—GÉN. CARTIER</persName>—Il va 
      <lb/>être construit un chemin de fer intercolonial. 
      <lb/>
             </p>
 
-            <p>L'HON. A. A. DORION.—Oui, je sup<lb break="no"/>pose que c'est encore là une <hi rendition="simple:italic">autre nécessité 
+            <p><persName ref="pers:DORI1">L'HON. A. A. DORION</persName>.—Oui, je sup<lb break="no"/>pose que c'est encore là une <hi rendition="simple:italic">autre nécessité 
      <lb/>de la confédération</hi> à laquelle nous pouvons 
      <lb/>
            
@@ -3870,14 +3872,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p>
 
             <p>
-     L'HON. M. MCGEE —C'est une magni<lb break="no"/>fique doctrine à infuser dans la société. 
+     <persName ref="pers:MCGE1">L'HON. M. MCGEE</persName> —C'est une magni<lb break="no"/>fique doctrine à infuser dans la société. 
      <lb/>
      ( Ecoutez ! écoutez !) 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Quoi qu'en dise 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Quoi qu'en dise 
      <lb/>
      l'hon. membre, cette doctrine sert générale<lb break="no"/>ment de règle dans les rapports ordinaires de 
      <lb/>
@@ -4012,26 +4014,26 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p></quote>
    
             <p>
-     M. A. MACKENZIE—A quelle adminis<lb break="no"/>tration y faisait-on allusion ? 
+     <persName ref="pers:MACK1">M. A. MACKENZIE</persName>—A quelle adminis<lb break="no"/>tration y faisait-on allusion ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION— Ce n'était pas 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>— Ce n'était pas 
      <lb/>
      à la mienne. 
      <lb/>
             </p>
 
             <p>
-     L'HON. Proc.-Gén. MACDONALD—Eh 
+     <persName ref="pers:MACD1">L'HON. Proc.-Gén. MACDONALD</persName>—Eh 
      <lb/>
      bien ! à laquelle ? 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. HOLTON—Je pense que le 
+     <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>—Je pense que le 
      <lb/>
      ministre de l'agriculture pourrait renseigner 
      <lb/>
@@ -4040,7 +4042,7 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p>
 
             <p>
-     L'HON. J. S. MACDONALD—L'hon. 
+     <persName ref="pers:MACD2">L'HON. J. S. MACDONALD</persName>—L'hon. 
      <lb/>
      Proc.-Gén. a presque tous les membres de 
      <lb/>
@@ -4049,7 +4051,7 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
             </p>
 
             <p>
-     L'HON. A. A. DORION—En novembre 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—En novembre 
      <lb/>
      1863, le même journal disait, en parlant des 
      <lb/>
@@ -4307,14 +4309,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     
 
             <p>
-     M. A. MACKENZIE—Parlez-nous donc 
+     <persName ref="pers:MACK1">M. A. MACKENZIE</persName>—Parlez-nous donc 
      <lb/>
      du havre de Montréal. 
      <lb/>
             </p>
 
             <p>
-     L'HON. A. A. DORION—Le havre de 
+     <persName ref="pers:DORI1">L'HON. A. A. DORION</persName>—Le havre de 
      <lb/>
      Montréal paiera ses dépenses. Le gouver<lb break="no"/>nement ne sera pas appelé à payer un seul 
      <lb/>
@@ -4645,14 +4647,14 @@ le chemin de fer intercolonial—cette pré<lb break="no"/>tendue nécessité mi
     
 
             <p>
-     M. BELLEROSE—Parlez-nous donc de 
+     <persName ref="pers:BELL1">M. BELLEROSE</persName>—Parlez-nous donc de 
      <lb/>
      Laval. 
      <lb/>
             </p>
 
             <p>
-     L'Hou. A. A. DORION—Il est vrai qu'à 
+     <persName ref="pers:DORI1">L'Hon. A. A. DORION</persName>—Il est vrai qu'à 
      <lb/>
      Laval il y a eu une assemblée, mais elle n'a 
      <lb/>

@@ -66,6 +66,7 @@
          <change who="mholmes" when="2017-03-15">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-15">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-21">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -472,20 +473,15 @@ and rights of married women. <lb/>
 TO THE ADDRESS. <lb/>
             </head>
 
-            <p> Mr. Kaulback,
-in moving the answer to <lb/>
-the address, said : The very great
-pleasure it <lb/>
-gives the in moving the answer to the speech, <lb/>
-with which His Excellency
-opened this Ses<lb break="no"/>sion, is greatly enhanced by the opening
-re<lb break="no"/>marks of His Excellency in which 
-he informed <lb/>
-us of the unprecedented increase
-of our Reve<lb break="no"/>nue as well as the remarkable development <lb/>
-of our mont important Exports
-and Imports. <lb/>
-            </p>
+            <p>
+                  <persName ref="pers:KAUL1">Mr. Kaulback</persName>, in moving the answer to <lb/> the address, said
+                  : The very great pleasure it <lb/> gives the in moving the answer to the speech,
+                  <lb/> with which His Excellency opened this Ses<lb break="no"/>sion, is greatly
+                  enhanced by the opening re<lb break="no"/>marks of His Excellency in which he
+                  informed <lb/> us of the unprecedented increase of our Reve<lb break="no"/>nue as
+                  well as the remarkable development <lb/> of our mont important Exports and
+                  Imports. <lb/>
+               </p>
             <p> It affords
 me great pleasure to congratulate <lb/>
 the Government, and the Country on having
@@ -841,8 +837,9 @@ subject as open as possible, and to the free <lb/>
 action of any member of Government and <lb/>
 members generally. <lb/>
             </p>
-            <p> Mr. WHITMAN seconded the answer. <lb/>
-            </p>
+            <p>
+                  <persName ref="pers:WHIT9">Mr. WHITMAN</persName> seconded the answer. <lb/>
+               </p>
             <p> The Address was allowed to lie on the
 table. <lb/>
 The House adjourned until three o'clock the <lb/>
