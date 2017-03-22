@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgBCLC_1870-03-22"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgBCLCoun">British Columbia Legislative Council</name>, <date when="1870-03-22">22 March 1870</date>, Province of BC, Confederation Debates</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
+          
+
+          
+          
+         
+               <title>Legislative Council, Debate on the Subject of Confederation with Canada</title>.
+                    
+
+          <date when="1912"/>.  
+          
+
+          <pubPlace>Victoria, B.C.</pubPlace>: <publisher>William H. Cullin</publisher>.
+                    
+
+          
+
+          <biblScope unit="page" from="120" to="131"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_120.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_121.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_122.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_123.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_124.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_125.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_126.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_127.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_128.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_129.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_130.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/BC_LC_1870-03-22_Page_131.hocr.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2017-03-22">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2017-03-22">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="BC_LC_1870-03-22_Page_120">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_120.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_121">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_121.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_122">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_122.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_123">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_123.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_124">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_124.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_125">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_125.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_126">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_126.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_127">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_127.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_128">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_128.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_129">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_129.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_130">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_130.jpg"/>
+      </surface>
+      <surface xml:id="BC_LC_1870-03-22_Page_131">
+         <graphic url="final/images/BC_LC_1870-03-22_Page_131.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="120" facs="final/images/BC_LC_1870-03-22_Page_120.jpg"/>
+            <fw type="num">120</fw>
+            <fw type="running">CONFEDERATION DEBATE.</fw>
+            
+<!-- GL, 2017-03-22, Commented out below, as it will appear in the preceding debate day --> 
+
+<!--<p>
+     had; therefore Confederation is out of the question. I have thus, Sir, given my opinion on 
+     <lb/>
+     a point which is sure to meet with popular disfavour, but I am proud to support the Executive 
+     <lb/>
+     when I think it is right; and I would share the responsibility of a measure which would make 
+     <lb/>
+     that Executive obnoxious to blame. I have no chronic feeling of opposition to Government. 
+     <lb/>
+     I have no objection to individuals, nor do I impute to them sordid motives, but in the matter 
+     <lb/>     
+    of Confederation the Executive of this Colony are in a false position; they act primarily, 
+     <lb/>not for the good of the Colony, but for the good, or supposed good, of Great Britain; and 
+     <lb/>they exercise the power of Government in a matter in which the interests of the Colony 
+     <lb/>are mainly at stake to carry out, and effect an organic change of great importance to local 
+     <lb/>interests. It is somewhat unfair to me to say I impute motives to the Executive. 1 only 
+     <lb/>quarrel with them when they place themselves in a false position, as in the question of 
+     <lb/>education; and in this, as in education, I say they oppose their own views to the views of, 
+     <lb/>the,well understood wishes of all classes of the community; and here the carry through a 
+     <lb/>scheme of Confederation; they start the stone, and it is hard to see how or where it will roll. 
+     <lb/>I sincerely feel for their position. The Colony will demand representative institutions, and they 
+     <lb/>will be forced to yield them or back out of the position they have undertaken. The answer of 
+     <lb/>the Executive Government to this is as given by the Hon. Attorney-General. The Attorney- 
+     <lb break="yes"/>General says that after Confederation we are bound to have what we require—Responsible 
+     <lb/>Government. This is taking the matter for granted. It may be attained, but with a struggle. 
+     <lb/>It is impossible to doubt that the Executive of the new Province will oppose representative 
+     <lb/>Government or any diminution of their own rights or their own power. He says it is inoppor<lb break="no"/>tune and beside the question. The Hon. Member for Cariboo (Dr. Carrall) says: "If the 
+     <lb/>people of British Columbia want Responsible Government no power on earth can prevent their 
+     <lb/>having it." This is but a promise for the future. The Hon. Chief Commissioner says the 
+     <lb/>community is not fit for Responsible Government, but the matter is to be left to the new 
+     <lb/>Council. Responsible Government will assuredly come with Confederation. The Hon. Member 
+     <lb/>for Victoria (Dr. Helmcken) says: "This is the argument of the Government. But something 
+     <lb/>must counterbalance Canada, otherwise with a working majority in the House the Dominion 
+     <lb/>Government will keep things as they are when we are a Province of Canada." 
+     <lb/>
+            </p>-->
+   
+<div type="section">
+            <head>
+     TUESDAY, MARCH 22ND, 1870. 
+     <lb/>
+            </head>
+   
+            <p>
+     Hon. MR. HOLBROOK—Mr. Chairman, I rise with some diffidence to give my opinion 
+     <lb/>
+     as to whether we are fitted for Responsible Government or not, after the able speeches that 
+     <lb/>
+     have been delivered by Hon. Members on the subject. The Hon. and learned Member for 
+     <lb/>
+     Victoria City (Mr. Drake) has affirmed that Responsible Government would give the real 
+     <lb/>
+     government of the Colony to Victoria. This I believe is true, and if such were the case what 
+     <lb/>
+     injury it would inflict on New Westminster and the Mainland generally. I feel that we are 
+     <lb/>
+     not yet fit for Responsible Government; but nevertheless, I think that the extent of the popu<lb break="no"/>lation is very much under-estimated. It has been stated that after the most careful calculation 
+     <lb/>
+     that can be made the white population cannot be calculated at over 5,000 adults; but I think 
+     <lb/>
+     this is wrong, and no doubt it has been taken from the Government Accounts, which do not 
+     <lb/>
+     include Kootenay, Big Bend, or the settlements around New Westminster; and I would make 
+     <lb/>
+     the adult white population to be 10,000, besides 40,000 Indians; and these Indians ought not 
+     <lb/>
+     to be ignored. If they are not represented will it not be difficult to make them contented with 
+     <lb/>
+     the change from the Imperial Government to Canada? And it is for this reason that I have 
+     <lb/>
+     given a notice of motion in this House to show them that they are not forgotten, and that they 
+     <lb/>
+     may go on with their settlements and improvements in safety. But if we are to have Respon<lb break="no"/>sible Government I will not be answerable for the consequences. We are told the question is 
+     <lb/>
+     to be submitted to the people. I say let us wait for their decision. I have confidence in 
+     <lb/>
+     Canada, and am content to take my chance of being well governed by the Dominion Govern<lb break="no"/>ment, rather than try something of the working of which we know nothing. I have no doubt 
+     <lb/>
+     that great agitation on the subject of Responsible Government will be got up by the press, and 
+     <lb/>
+     that many members will gain their elections by confusing the questions of Confederation and 
+     <lb/>
+           
+
+            <pb n="121" facs="final/images/BC_LC_1870-03-22_Page_121.jpg"/>
+            <fw type="running">CONDEDERATION DEBATE.</fw> <fw type="num">121</fw> 
+   
+
+     Responsible Government. I entirely concur with the lion. Mr. Wood in believing that more 
+     <lb/>
+     liberal representation will do much more for the good of the Colony than Responsible Govern<lb break="no"/>ment. I believe in a good franchise being given, as foreshadowed by the Governor's Speech ; 
+     <lb/>
+     and I think twelve elected and eight nominated members would give satisfaction and work 
+     <lb/>
+     well, although report makes the change more liberal than this. We are now on the eve of 
+     <lb/>
+     prosperity. Our quartz mining is still to be commenced, and we only want good roads to 
+     <lb/>
+     Kootenay, by way of Eagle Pass, to open our resources in this respect. I do not intend to 
+     <lb/>
+     enter upon the question of Responsible Government. I believe it would be bad for us and is 
+     <lb/>
+     not required by the people. I shall support the Government in the clause now under discussion. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR. DECOSMOS—Mr. Chairman, I had not expected to say anything more on this 
+     <lb/>
+     subject ; but, on more mature reflection, I am satisfied that it is my duty to do so. The more 
+     <lb/>
+     the matter is argued, and the more the remarks of Government members are heard, the more 
+     <lb/>
+     I believe we are being asked to take a leap in the dark ; for all I can learn is that the new 
+     <lb/>
+     House is to be partly nominative and partly elective—and not responsible. The proportions 
+     <lb/>
+     are not stated. It has also cropped out that there will be a qualification for members. and 
+     <lb/>
+     also for electors. If the Government refer this matter to the people to know whether such a 
+     <lb/>
+     Constitution will suit them, I believe the people, to almost a unit, will reject it. The mass 
+     <lb/>
+     are opposed to Confederation altogether unless they can get a more liberal representation than 
+     <lb/>
+     that proposed by the Government. At the outset I proposed a Committee of all parties to 
+     <lb/>
+     consider and report upon the whole matter; but the hasty judgment of the House, as I think, 
+     <lb/>
+     deferred the question. Now, Sir, I think if the Committee had met and suggested, for the 
+     <lb/>
+     protection of the property element, that one-third of the Members of the Council should be 
+     <lb/>
+     elected for a longer period and hold property qualifications, the country would have been 
+     <lb/>
+     satisfied. I can conceive on some such proposition as that being laid before the House, it 
+     <lb/>
+     would have been eminently successful; as it nor stands it is matter of opinion. I think the 
+     <lb/>
+     Governor has been led into error if the utterances that occasionally drop from members of this 
+     <lb/>
+     House mean anything. I cannot conceive that the people will accept such a Constitution. I 
+     <lb/>
+     should prefer that we should go into Confederation as a unit. I have made these few remarks 
+     <lb/>
+     to set my mind at rest, and to save myself trouble with my constituents if I should offer myself 
+     <lb/>
+     as a candidate again. I state that I believe the Government will jeopardise Confederation on 
+     <lb/>
+     this point. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR. DEWDNEY—Sir, the question now under consideration has been so fully gone 
+     <lb/>
+     into by Hon, Members of the Council, that I feel it will be useless for me to take up the time 
+     <lb/>
+     of this House to any great length. At the commencement of this debate I had several argu<lb break="no"/>ments which I proposed to bring before your notice against Responsible Government, but I 
+     <lb/>
+     find that these have been ably handled by other Hon. gentlemen far more ably than I could 
+     <lb/>
+     have hoped to do ; and should I not have been convinced at the earlier stages of this debate, 
+     <lb/>
+     other arguments have been adduced which now completely set my mind at rest on the subject. 
+     <lb/>
+     I am opposed to the recommendations of both the Hon. Members for New Westminster and 
+     <lb/>
+     Lillooet, particularly the latter, and in opposing them I do not feel I am injuring the cause of 
+     <lb/>
+     Confederation. But while I feel, Mr. Chairman, that it is unnecessary for me to enter into 
+     <lb/>
+     the question of Responsible Government, I think I should not be doing my duty were I to 
+     <lb/>
+     remain silent upon one matter connected with this debate—one upon which I consider I am as 
+     <lb/>
+     capable of giving an opinion as any Hon. Member of this Council—namely, the feelings of 
+     <lb/>
+     the inhabitants of the Mainland generally with regard to Responsible Government. I have 
+     <lb/>
+     travelled through this country as much as any Hon. Member of this Council, and I have been 
+     <lb/>
+     brought in contact with all classes, and have mixed with all classes. and I have yet to meet the 
+     <lb/>
+     first individual who has expressed to me his desire for Responsible Government. Now. Mr. 
+     <lb/>
+     Chairman, do you believe, does this Council believe, that the cry throughout this Colony is— <lb/> down with the present form of Government, let us have Responsible Government? Hon. 
+     <lb/>
+     Members of this House are aware, I presume, that my avocations for some years past, in fact 
+     <lb/>
+     as long as I have been in the Colony, have necessarily brought me in contact with all classes, 
+     <lb/>
+     and should this have been the cry, do you think I should not have heard it? I say distinctly 
+     <lb/>
+     again, I have yet to meet the first individual who has expressed to me his desire for Respon<lb break="no"/>sible Government, The feeling of my constituents is not in favour of Responsible Government; 
+     <lb/>
+     on the contrary, it was distinctly expressed to me that they do not desire any change in the 
+     <lb/>
+     present form of Government. All they want is money to keep their trails in order and a 
+     <lb/>
+            
+            <pb n="122" facs="final/images/BC_LC_1870-03-22_Page_122.jpg"/>
+            <fw type="num">122</fw>
+            <fw type="running">CONFEDERATION DEBATE.</fw>
+           
+
+     resident Magistrate to administer and carry out the laws I believe that some Hon. Members 
+     <lb/>
+     of this House have mistaken the feelings of the country on this matter. Any dissatisfaction 
+     <lb/>
+     that exists is not with the present system of government but with the expense of carrying,r the 
+     <lb/>
+     system out. We all feel that, and we all know that. it cannot be avoided, for reasons which 
+     <lb/>
+     have been given over and over again in this House, namely, the smallness of population; 
+     <lb/>
+     scattered as it is over so vast an area. I have not heard during the debate any arguments that 
+     <lb/>
+     will prove to me or to this House that under Responsible Government we could have a cheaper 
+     <lb/>
+     form of government. I for one could not be convinced that we should. I believe that the 
+     <lb/>
+     public moneys would be wasted. peculation and dishonesty would be the order of the day. We 
+     <lb/>
+     are told by the Hon. Member for Yale we must have a beginning. I am aware of that fact. 
+     <lb/>
+     and for one shall assist to put off the evil day. I prefer for a time—until our population 
+     <lb/>
+     increases—to live under the present form of Government, one under which, I am proud to say, 
+     <lb/>
+     I have lived for eleven years without seeing the faults of maladministration and other evil 
+     <lb/>
+     accusations that have been hurled at it by the Hon. Member for Lillooet. I am aware that 
+     <lb/>
+     that Hon. gentleman was himself in some subordinate position under the Government; he may 
+     <lb/>
+     of his own personal knowledge, while in that capacity, be aware of some malpractice, but I 
+     <lb/>
+     defy him to point out a single instance brought before the notice of the Government that did 
+     <lb/>
+     not receive the strictest investigation and in which the individual complained of, if the charges 
+     <lb/>
+     were proved, was not discharged. In conclusion, Mr. Chairman. I shall take this opportunity 
+     <lb/>
+     of expressing my appreciation of the officers generally that have carried on the Government of 
+     <lb/>
+     this Colony during the eleven years that I have lived here; and I challenge any Hon. gentle<lb break="no"/>man to prove by the records of Her Majesty's Colonies, that in any Colony or Dependency of 
+     <lb/>
+     the British Crown laws have been more justly administered, life and property better protected, 
+     <lb/>
+     or the affairs of the. Colony carried on with greater rectitude than in the one in which we are 
+     <lb/>
+     now living. Holding these views, I must decline to support either of the recommendations 
+     <lb/>
+     before the Committee. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Mn. ALSTON—Sir. I am in favour of Responsible Government, but not the form 
+     <lb/>
+     that has been discussed in this House at so great a length I believe all representative Govern<lb break="no"/>ments are responsible. The Hon. and learned Member for Victoria District has quoted John 
+     <lb/>
+     Stuart Mill I believe. Sir, that the words Responsible Government do not occur in his book; 
+     <lb/>
+     he shows that the form applicable to one country will not do for another. We have heard 
+     <lb/>
+     enough in this Council to make me believe that 'the people do not want Responsible Govern<lb break="no"/>ment; I believe that a representative form of Government is the only form that will suit this 
+     <lb/>
+     Colony It has been well shown by the Hon. Mix Wood, that from the difficulty of getting 
+     <lb/>
+     districts represented, this Colony is not adapted for purely representative institutions. I think 
+     <lb/>
+     it most desirable that Executive Members should have seats in this Council, and I think that 
+     <lb/>
+     a partially elective House would best represent the interests of the entire community. The 
+     <lb/>
+     American form of Government is in a certain sense responsible, executive officers being elected 
+     <lb/>
+     for a term of four years. England possesses a ditt'eren't form, and Canada diifers again from 
+     <lb/>
+     England. The Colony from which Governor Musgrave came is the last that has received 
+     <lb/>
+     Responsible Government; thus we may fairly trust to His Excellency to judge for us as to the 
+     <lb/>
+     probability of its working well here. The smallest Colony po 'ing Responsible Government 
+     <lb/>
+     is Prime Edward's Island: and we who do not possess a popula on one-twelfth the size of that 
+     <lb/>
+     of Newfoundland. are a use for Responsible Govermnent. The lion. and learned Member 
+     <lb/>
+     for Victoria City (Mr. Drake). who seems to uphold Responsible Government against his own 
+     <lb/>
+     convictions. admits that all power would be held in Victoria; and he says that there would be 
+     <lb/>
+     no harm in such centralisation. I think, Sir, that he has read John Stuart Mill to little 
+     <lb/>
+     purpose if such be his conviction. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Mr. Humphreys—Sir. I am more impressed than ever with the absolute need 
+     <lb/>
+     of Responsible Government. I think the Hon. Chief Commissioner particularly, and the Hon. 
+     <lb/>
+     Member for Victoria Citv, have proved conclusively that two-thirds of the people representing 
+     <lb/>
+     property are determined to have Responsible Government. The Hon. Member for the City 
+     <lb/>
+     told us the people were not in favour of Responsible Government. and in the same sentence he 
+     <lb/>
+     tells us that if Confederation were set before the people with Responsible Government mixed 
+     <lb/>
+     up with it, the people would take Responsible Government to the exclusion of material interests. 
+     <lb/>
+     I have said, and say again, I am in favour of Confederation, and I earnestly hope that it will 
+     <lb/>
+     be for the benefit of the Colony. I sometimes think that some Hon. Members at the other end 
+     <lb/>
+          
+
+            <pb n="123" facs="final/images/BC_LC_1870-03-22_Page_123.jpg"/>
+            <fw type="num">CONFEDERATION DEBATE.</fw> <fw type="num">123</fw>
+         
+
+     of the House intend to defeat Confederation. I may he called an extremist—an agitator; I 
+     <lb/>
+     admit I am. I desire to see the people having a share in the Government, instead of being 
+     <lb/>
+     under a despotism, or what is equivalent to it. I have been in this Colony nearly eleven years; 
+     <lb/>
+     I am satisfied that the people want Responsible Government. Hon. Members say there are 
+     <lb/>
+     different forms of Responsible Government; admitted. I am not sure that it would be advisable 
+     <lb/>
+     to introduce any one system in its entirety here. Hon. Members have been quoting writers 
+     <lb/>
+     upon this subject; I will quote Lord Macaulay, he says: "Government, like a good coat, is fit 
+     <lb/>
+     for the body for which it is made." I say if we cannot live on Responsible Goverinnont, we 
+     <lb/>
+     cannot live on irresponsible Government. I do not know what is shadowed forth in His 
+     <lb/>
+     Excellency's speech; I confess I cannot understand it. If the Governor had promised a two 
+     <lb/>
+     thirds elective House, with heads of department sitting to give information without voting, 
+     <lb/>
+     then I think the question of Responsible Government would never have been considered. I 
+     <lb/>
+     ask Hon. Members to endeavour to approximate, and if they cannot agree to full Responsible 
+     <lb/>
+     Government, then to give us as liberal a form as they can. If you withhold Responsible 
+     <lb/>
+     Government you lose Confederation. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR. ROBSON—Mr. Chairman, in rising to reply to what has fallen from Hon. 
+     <lb/>
+     gentlemen in opposition to Responsible Government, I crave the kind indulgence of this House; 
+     <lb/>
+     and should I, in the course of my remarks, appear unduly harsh or unkind, I beg Hon. gentle<lb break="no"/>men to attribute it to earnestness in advocating a great cause, rather than to a desire to wound 
+     <lb/>
+     the feelings of any. The Hon. Member for Cariboo, who is also a Member of the Executive, 
+     <lb/>
+     made a very convenient, yet, to my mind, singularly ineffective, reply to one point in my 
+     <lb/>
+     speech of Friday. I had, or fancied I had, with considerable force and elaborateness, pointed 
+     <lb/>
+     out the difficulties that might naturally be presumed to lie in the way of obtaining Responsible 
+     <lb/>
+     Government under the new constitution proposed to be conferred upon this Colony; and the 
+     <lb/>
+     only answer is that the Organic Act makes the necessary provision. 1 was as well aware of 
+     <lb/>
+     the provision made in that Act before the Hon gentleman spoke as after; but no attempt has 
+     <lb/>
+     been made to meet the difficulties I suggested. The Hon. gentleman, with that facetiousness, 
+     <lb/>
+     poetry and ready wit for which he is so justly celebrated, proceeded to point out the undesir<lb break="no"/>ableness of Responsible Government in this Colony. Under it, he told us, Cabinets would be 
+     <lb/>
+     too versatile. In fact, he described the working of such institutions as a sort of dissolving 
+     <lb/>
+     views, a thimble-rigging operation, "now you see it, now you don't," in such quick succession 
+     <lb/>
+     would the changes be rung. The Chief Commissioner would, it appeared from his description, 
+     <lb/>
+     be much like Lincoln's celebrated flea. Now, Sir, where did the Hon. gentleman acquire his 
+     <lb/>
+     experience of the working of Responsible Government? Was it not in Canada? What do 
+     <lb/>
+     we find to be the experience of that country? Certainly it does not in any way warrant the 
+     <lb/>
+     conclusions arrived at by my Hon. friend. On the contrary, we find a change of Ministry to 
+     <lb/>
+     be of very rare occurrence. The present Premier of Canada has, with one. unimportant inter<lb break="no"/>mission, been at the head of the Government for some twelve or fourteen years! As I stated 
+     <lb/>
+     on a former occasion, the people of British Columbia are not politicians, nor are they fond of 
+     <lb/>
+     change. They are naturally conservative. Give them a people's Government, and in no part 
+     <lb/>
+     of her Majesty's Colonial Empire will a less versatile, a more conservative and loyal people be 
+     <lb/>
+     found. The Honourable gentleman said Responsible Government would blow the chaff into this 
+     <lb/>
+     House. Now, although I listened with pleasure, as I always do, to that gentleman's oratory and 
+     <lb/>
+     humour. I could not but experience a feeling of regret to find him on the wrong side of a great 
+     <lb/>
+     question, taking a false step. It is sad to witness the early mistakes of a young man of such 
+     <lb/>
+     talents, ambition, and promise; and when I hear such words coming from my Hon. friend, I begin 
+     <lb/>
+     to fear that the bright future, the brilliant political career I had marked out for him may never 
+     <lb/>
+     be realized. Sir, a certain proportion of chaff may be blown into this House, under Respon<lb break="no"/>sible Government, as is the case now; but, depend upon it, under the form of government we 
+     <lb/>
+     seek, the chaff would quickly be blown out at the back door, before the breath of public opinion. 
+     <lb/>
+     The people can always discriminate between wheat and chaff, and Responsible Government 
+     <lb/>
+     supplies the most effective winnowing-fan with which to separate the two. We were reminded 
+     <lb/>
+     by that Hon. gentleman that Responsible Govarmncnt had its failures as well as its successes; 
+     <lb/>
+     and he referred to Victoria, Australia, and to Jamaica, as instances of failure. Now, I cannot 
+     <lb/>
+     but think the Hon. gentleman has been singularly unfortunate in going to these Colonies to 
+     <lb/>
+     prove his proposition. The former ranks amongst the most flourishing, progressive, and 
+     <lb/>
+     wealthy of all Her Majesty's Colonial possessions. Doubtless very grave political difficulties 
+     <lb/>
+            
+            <pb n="124" facs="final/images/BC_LC_1870-03-22_Page_124.jpg"/>
+            <fw type="num">124</fw>                                                                                                                 
+<fw type="running">CONFEDERATION DEBATE.</fw> 
+     
+
+     were encountered, and many mistakes characterized the earlier working of Responsible Govern<lb break="no"/>ment in that fine Colony ; but it would be most unfair to charge all these to the possession of 
+     <lb/>
+     such institutions. Nay, most of them had their origin in a different political system. As for 
+     <lb/>
+     Jamaica, Hon. gentlemen must be aware that it never possessed Responsible Government. A 
+     <lb/>
+     mixed representative system it had ; and the chief cause of failure was the absence of responsi<lb break="no"/>bility. It was just because those who administered the affairs of that unfortunate Colony were 
+     <lb/>
+     not responsible to the people that the opposition, led by the ill-fated Gordon—a man of 
+     <lb/>
+     unquestionable ability, although, perhaps, somewhat deficient in judgment—was induced finally 
+     <lb/>
+     to assume the extreme attitude which resulted so fatally. The Hon. and learned Attorney- 
+     <lb break="yes"/>
+     General made an effort, not altogether warranted by facts, to force the advocates of Responsible 
+     <lb/>
+     Government into a false and disadvantageous position, in relation to the Government pro<lb break="no"/>gramme ; but Hon. gentlemen will recollect how anxious I was, at the beginning of this debate, 
+     <lb/>
+     to meet the views and adopt the suggestions of that Hon. and learned gentleman, in respect to 
+     <lb/>
+     the particular time and mode of approaching this question. My desire to give the Government 
+     <lb/>
+     a general and strong support upon the great question of Confederation is no secret in this 
+     <lb/>
+     House; and I think I can speak with equal confidence in regard to the views and intentions 
+     <lb/>
+     of my Hon. friend on my left (the Member for Yale). But enough has already been said upon 
+     <lb/>
+     this point ; and I have only to add that I utterly refuse to occupy the position in which the 
+     <lb/>
+     Hon. and learned Attorney-General appears desirous of placing me. That Hon, gentleman 
+     <lb/>
+     was content to give the same answer to the main objection as that given all round the Govern<lb break="no"/>ment end of the table, viz. that the Organic Act provides the necessary and ready means of 
+     <lb/>
+     obtaining what we seek; and he further tells us that, inasmuch as Responsible Government 
+     <lb/>
+     relieves Governors of responsibility, a Governor would naturally be ready to make the conces<lb break="no"/>sion. Such, however, is not the accustomed working of human nature. Such is not the lesson 
+     <lb/>
+     of history. The ruler hugs power as the miser does his gold, nor parts with it only as it is 
+     <lb/>
+     extorted piecemeal by the people. I am charged with having used threats—threats of blood! 
+     <lb/>
+     Now, Sir, I must plead " not guilty" to this charge, While carefully avoiding everything in 
+     <lb/>
+     the nature of threat and prediction, I asked the Government to read carefully those lessons 
+     <lb/>
+     written in blood around us, and implored them to take warning from the errors and profit by 
+     <lb/>
+     the successes of others. We were told by the Hon. and learned Attorney-General that the 
+     <lb/>
+     Governor is powerless to grant what the Resolution asks; but might not the same objection be 
+     <lb/>
+     raised to almost every recommendation passed in connection with Confederation? His Excel<lb break="no"/>lency in asking Her Majesty's Government for power to give us a new Constitution. The 
+     <lb/>
+     Resolution merely suggests a more liberal Constitution than His Excellency proposes. There 
+     <lb/>
+     is therefore, no weight in this objection. The Honourable gentleman next tells us that the 
+     <lb/>
+     Resolution implies want of confidence in the Canadian Government ; that they will not listen 
+     <lb/>
+     to the cry ot the people for Responsible Government. Now, the Hon. gentleman must be 
+     <lb/>
+     aware that Canada can only listen to our cry when it is heard in the particular form prescribed 
+     <lb/>
+     by the Constitution. The people can only cry through the Government it is proposed to give 
+     <lb/>
+     them under the Constitution foreshadowed in His Excellency's opening message ; and I have 
+     <lb/>
+     already endeavoured to point out the probability that the new Government might refuse to 
+     <lb/>
+     utter a cry in that direction at the desire of the people. There is no such expression of want 
+     <lb/>
+     of confidence in the resolution. The Canadian Government could not interfere—would have 
+     <lb/>
+     no power to give us Responsible Government—until asked by our Local Government to do so. 
+     <lb/>
+     Such objections I must, therefore, regard as frivolous, and utterly unworthy of the Hon. and 
+     <lb/>
+     learned Attorney-General. The Hon. Chief Commisioner followed with his accustomed ability, 
+     <lb/>
+     but, I venture to think, without his usual discretion, That Hon. gentleman set out by telling 
+     <lb/>
+     us that he quite understood it to be necessary for certain members, in order to be consistent 
+     <lb/>
+     with pen and speech outside of this House, to bring forward this subject; that it was a logical 
+     <lb/>
+     necessity, inexorable fate. Now, Sir, I cannot see into that Hon, gentleman's heart, any more 
+     <lb/>
+     than I can into the mysterious Executive Chamber. l will not, therefore, permit myself to 
+     <lb/>
+     impute motives to that Hon. gentleman in his opposition to Responsible Government; but he 
+     <lb/>
+     must permit me to be the best judge of those motives which have impelled me, with some 
+     <lb/>
+     degree of reluctance, to take a stand in opposition to the Government upon this question. lt 
+     <lb/>
+     may appear necessary, in order to be consistent with word and pen, that I should advocate in 
+     <lb/>
+     this House great principles which I have advocated elsewhere; but it may be permitted me to 
+     <lb/>
+     say that, whether here or elsewhere, I advocate Responsible Government under Confederation, 
+     <lb/>
+            
+
+            <pb n="125" facs="final/images/BC_LC_1870-03-22_Page_125.jpg"/>
+            <fw type="num">CONFEDERATION DEBATE.</fw> <fw type="num">125</fw>
+          
+
+     because I conceive it not only to be the right of the people. but their interest also. We are 
+     <lb/>
+     constantly told that we should not have mixed this question up with the terms. We have not 
+     <lb/>
+     mixed it up with the terms; but the Government has mixed the terms up with it; and if there 
+     <lb/>
+     is any blame, any responsibility in this connection. it mus rest with the Government, and not 
+     <lb/>
+     with the Opposition The Hon. gentleman tells us that it is impossible to work Responsible 
+     <lb/>
+     Government with a population so scattered; and in the same breath he tells us that we have 
+     <lb/>
+     Responsible Government now,—that the officials are responsible to the Governor, and he to the 
+     <lb/>
+     Queen. Well, certainly. this is a sort of responsibility; but it is not precisely the kind we want. 
+     <lb/>
+     The responsibility now existing takes the wrong direction. It is not responsibility to the people, 
+     <lb/>
+     but to the supreme power. In this sense the most despotic form of government in the world 
+     <lb/>
+     may be termed Responsible Government. The members of the Government of the Czar of 
+     <lb/>
+     Russia are responsible to him, and he is responsible to the Great Ruler of all; ergo, Russia has 
+     <lb/>
+     Responsible Government! The Hon. gentleman must see the absurdity of his startling propo<lb break="no"/>sition. Ile next tells us that if the people desire Responsible Government it is because they 
+     <lb/>
+     have been educated up to it by the press. There is more truth than argument in this. Doubt<lb break="no"/>less the press is in this, as in other civilized countries. the great educator of the people, especially 
+     <lb/>
+     in matters political. Have not the people of England been similarly educated up to every great 
+     <lb/>
+     political reform? Such constitutes a legitimate and important function of the press. But the 
+     <lb/>
+     honourable gentleman goes further and tells us that if the present Government is unpopular 
+     <lb/>
+     with the people the responsibility resls with the press. which has by misrepresentation created 
+     <lb/>
+     prejudice in the public mind. This proposition I beg most. unqualifiedly to deny. The honour<lb break="no"/>able gentleman has confounded cause and effect. The press has opposed the Government because 
+     <lb/>
+     it is unpopular; and the Government is unpopular because it is not. a people's Government— <lb/> because it does not possess the principle of responsibility to the people. it must be remembered 
+     <lb/>
+     that the press subsists on popular favour; and in order lo subsist it must oppose an unpopular 
+     <lb/>
+     form of Government. The press of this Colony has acted rather as the exponent than the 
+     <lb/>
+     moulder and leader of public opinion in its opposition to the present form of Government. As 
+     <lb/>
+     I have repeatedly said, it is not the officials that are unpopular. so much as the system under 
+     <lb/>
+     which th administer. No officials can be popular under such a system. it places them in 
+     <lb/>
+     a false position. The press is, therefore, not to blame; it is the faithful exponent of public 
+     <lb/>
+     opinion. The honourable gentleman on my left [MR. Holbrook] dissents from this view. It is 
+     <lb/>
+     the habit of some honourable gentlemen to affect to sneer at the press 0t this Colony. They 
+     <lb/>
+     admit that the pre s of England is all I claim for it; but they allude sneeringly to the press 
+     <lb/>
+     of this Colony. Now, I am free to admit that the leading journal of this Colony would lose 
+     <lb/>
+     by a comparison with the leading journal of England. It is smaller, and, perhaps, less ability 
+     <lb/>
+     is displayed in its editorial columns. But would not such a comparison be unfair? Apply this 
+     <lb/>
+     rule to other institutions of the Colony and what would be the result? Taking the press of 
+     <lb/>
+     this Colony with all its imperfections, and l boldly assert that it will compare favourably with 
+     <lb/>
+     that of any other country of like age and population. That is the way to institute the com<lb break="no"/>parison; and it is the only true way. When I hear honourable gentlemen indulging in sneers 
+     <lb/>
+     at the press invariably all ye at one conclusion: and I will not tell you what that conclusion 
+     <lb/>
+     is. It will not be necessary for me to again allude to the improper use made of what I said 
+     <lb/>
+     about the hornv-hunded class, especially as the Hon. Mr. Walkem fully vindicated me. One more 
+     <lb/>
+     point and I have done with the honourable the Chief Commissioner. That gentleman repeated 
+     <lb/>
+     the now stereotyped argument that the Dominion Govormnent. being based on liberal institu<lb break="no"/>tions. would not withhold Responsible Government if desired by the people of: British Columbia. 
+     <lb/>
+     That argument has been so often met that I was surprised to hear it repeated by that honour<lb break="no"/>able gentleman. Need I say. for the twentieth time, that it is not the prerogative of the 
+     <lb/>
+     Canadian Government to give, unless asked by our local Government. and that our local Govern<lb break="no"/>ment will, from its organic nature, be averse to ask anything of the hind? Surely I am entitled 
+     <lb/>
+     to regard the constant iteration of those exploded arguments as evidence of the weakness of 
+     <lb/>
+     the Government cause. Passing to the specch of the Honourable Mr. Walkem, my task is an 
+     <lb/>
+     easy one; for although that honourable gentleman spoke. with his accustomed eloquence and 
+     <lb/>
+     agreeable in of word and manner. all must have felt lhat his effort had about it an air of 
+     <lb/>
+     special pleading in a bad can. The principal objection that gentleman brought against the 
+     <lb/>
+     position 1 took on Friday was, that Responsible Government is not a principle, but a form. 
+     <lb/>
+     Now, I think it may be regarded as either or both, and I am not disposed to quarrel about mere 
+     <lb/>
+            
+
+            <pb n="126" facs="final/images/BC_LC_1870-03-22_Page_126.jpg"/>
+            <fw type="num">126</fw>
+            <fw type="running">CONFEDERATION DEBATE.</fw>
+            
+
+     words. What I contend for is Responsible Government. That honourable gentleman tells us 
+     <lb/>
+     that Canada did not get Responsible Government till her population reached about two millions. 
+     <lb/>
+     Now, while that gentleman is greatly astray in his figures, I cannot discover in his facts any 
+     <lb/>
+     evidence in support of the proposition he wishes to establish They may prove that Responsible 
+     <lb/>
+     Government was long wrongfully withheld from Canada. I now come to my honourable friend 
+     <lb/>
+     the senior member for Victoria City. That honourable gentleman started out by telling us 
+     <lb/>
+     that he intended to support the Government scheme, and to support it strongly; but he added 
+     <lb/>
+     that he would not say much about Responsible Govermnent. Would that he had adhered to 
+     <lb/>
+     the latter resolution. It was but natural that, feeling himself on the wrong side of a great 
+     <lb/>
+     principle, he should be disposed to say little. But, unfortunately for himself, he has said much, 
+     <lb/>
+     a great deal too much. He said some things which it would have been much better to have left 
+     <lb/>
+     unsaid. He told us that Government for, by, and from the people means Government for, by, 
+     <lb/>
+     and with the politicians. But he does not stop there. He tells this House that the advocates 
+     <lb/>
+     of Responsible Government will he willing to surrender all the other conditions in order to 
+     <lb/>
+     obtain that form of Government as a means of securing office, power, pickings! Now, Sir, let 
+     <lb/>
+     us look at the political history, and position of the honourable gentleman who presumes, with 
+     <lb/>
+     so much boldness, to judge of other people's motives I recollect when, some two years ago, 
+     <lb/>
+     that honourable gentleman was the most ardent of all Confederationists; when he desired to 
+     <lb/>
+     rush into an unconditional and blind union; when he urged the then Governor to negotiate union 
+     <lb/>
+     by telegraph, At that time I was doubtful about the policy of <hi rendition="simple:italic">immediate</hi> union, regarding such   
+     <lb/>
+     a step as somewhat premature and unreal, so long as the immense intervening territory remained 
+     <lb/>
+     an unorganized and unopen waste. Holding these views I proposed to strike the word 'imme<lb break="no"/>diate' out of the resolution which had been moved by the Honourable Mr. DeCosmos; but so 
+     <lb/>
+     enthusiastic, so fanatical. was the honourable the senior member for Victoria City that he 
+     <lb/>
+     longed for' a stronger word than 'immediate.' Subsequently we saw that honourable gentleman 
+     <lb/>
+     the most ultra, the most rabid Anti-Confederate. We saw him opposing it in every way, both 
+     <lb/>
+     in the House and out of it, denouncing Canada as a most undesirable connection. Now, what 
+     <lb/>
+     do we see? We see the Anti-Confederate Lion rampant suddenly metamorphosed into the 
+     <lb/>
+     Canadian Lamb passant. with his longing eyes fixed on Ottawa! Such has been the magic 
+     <lb/>
+     influence of the mysterious Executive Chamber. I do not, for one, regret the transformation; 
+     <lb/>
+     but I do object to that gentleman turning round so suddenly and denouncing the motives by 
+     <lb/>
+     which others are actuated. Does not that honourable gentleman live in a 'glass house' in 
+     <lb/>
+     that sense which peculiarly disentitles him to throw stones? Is not he guilty of measuring 
+     <lb/>
+     other people's corn in his own bushel? Did not be cast all his political principles to the winds 
+     <lb/>
+     and bolt in at the very first opening to place and power that presented itself? And who knows 
+     <lb/>
+     but there may be at this moment a mission to Ottawa dangling temptingly before his eager 
+     <lb/>
+     eyes? ls this the man who is entitled to turn round and, looking down from his pinnacle of 
+     <lb/>
+     temporary power, judge others? strutting his hour of brief authority, he taunts us with seek<lb break="no"/>ing Responsible Government as a stepping-stone to power and pickings. I hurl back, with scorn 
+     <lb/>
+     and contempt, the accusation in his teeth! To pass, however, to the so-called arguments put 
+     <lb/>
+     forward by that honourable gentleman. he tells us that the resolution asks for a Government 
+     <lb/>
+     like that of Ontario,—that we should require 40 or 30 members. Now. Sir, it is difficult to give 
+     <lb/>
+     him credit (or sincerity, as ever honourable member must see that the resolution asks nothing 
+     <lb/>
+     of the kind. It asks fo' a constitution based upon the principle of Responsible Government as 
+     <lb/>
+     existing in Ontario. That honourable gentleman has attempted to make me inconsistent with 
+     <lb/>
+     myself in saying that we shall be under the heel of Canada without Responsible Government, 
+     <lb/>
+     and that Canada desires that we should have such institutions. Now, I see nothing inconsistent 
+     <lb/>
+     in this. Canada does desire that the people of British Columbia should possess as full powers 
+     <lb/>
+     of managing their own local affairs as the people of the other Provinces possess; but Canada 
+     <lb/>
+     will have no power to grant these institutions until asked to do so in a constitutional way 
+     <lb/>
+     through and by our Local Govermnent; and the weight of my objection lies in the reasonable 
+     <lb/>
+     belief that, however desirous the people may be, the Local Government will be naturally averse 
+     <lb/>
+     to a change calculated to lessen its power, and weaken the tenure by which its members hold 
+     <lb/>
+     office. Again, we are told that the Governor would not be disposed to withhold institutions 
+     <lb/>
+     which would relieve him of responsibility. However plausible this proposition may appear in 
+     <lb/>
+     theory, it is scarcely borne out by experience. As I have already stated, in reply to the honour<lb break="no"/>able and learned Attorney-General, history presents rulers in a different light. We are asked 
+     <lb/>
+          
+            <pb n="127" facs="final/images/BC_LC_1870-03-22_Page_127.jpg"/>
+            <fw type="running">CONFEDERATION DEBATE.</fw>                                                                                                            <fw type="num">127</fw> 
+    
+
+     what measures of importance have been introduced that have not been introduced by the 
+     <lb/>
+     Government? By this the honourable gentleman wishes, I presume, to convey the idea that 
+     <lb/>
+     the Government so fully meets the wants of the people as to leave nothing for representative 
+     <lb/>
+     members to do. In what singular contrast is this with his utterances during past sessions. 
+     <lb/>
+     Here, again, we have the kindly bleating of the docile Confederation Lamb, instead of the 
+     <lb/>
+     terrific roar of the Anti-Confederate Lion of the past. Verily, the mysterious influences of the 
+     <lb/>
+     Executive Chamber must be potent. The honourable gentleman tells us that if we couple the 
+     <lb/>
+     question of Responsible Government with the conditions of union, the people will be willing 
+     <lb/>
+     to accept poorer terms in their eagerness to obtain it. Surely, if language means anything, this 
+     <lb/>
+     is an inadvertent admission of what the honourable gentleman has been so stoutly denying, 
+     <lb/>
+     viz. : that the people desire Responsible Govermnent. Leaving the honourable gentleman to 
+     <lb/>
+     the lashings of his own conscience, and to the seductive influences of the mysterious Executive 
+     <lb/>
+     Chamber, we next come to deal with the Honourable the Registrar of Titles. The Honourable 
+     <lb/>
+     Mr. Alston announces himself in favour of Responsible Government, but not the kind that would 
+     <lb/>
+     make the heads of Departments go in and out. He holds all Representative Government to 
+     <lb/>
+     be Responsible Government. The honourable gentleman may be entitled to hold a theory pecu<lb break="no"/>liarly his own ; but it is scarcely the fitting time to announce personal theories. We are now 
+     <lb/>
+     dealing with the question of Responsible Government, as understood by political economists, not 
+     <lb/>
+     as understood by the honourable gentleman who has just propounded a political paradox. He 
+     <lb/>
+     has been reading John Stuart Mill, and he tells us that writer never mentions Responsible 
+     <lb/>
+     Government. I have not read Mill's theory, but I have read enough to know that he goes even 
+     <lb/>
+     further than I am prepared to go in the direction of responsibility. We have next the honour<lb break="no"/>able gentleman for Kootenay telling this House that with all his experience in the Colony he 
+     <lb/>
+     never heard a man express a desire for Responsible Government, and that his own constituents 
+     <lb/>
+     were distinctly opposed to it. Now, so far as that honourable gentleman's constituents are con<lb break="no"/>cerned, I am prepared to think that his opportunities of learning their views upon that or any 
+     <lb/>
+     other subject have scarcely been such as to entitle him to express a very positive opinion; but 
+     <lb/>
+     when he tells this House that in all his experience in this Colony he has never heard a desire 
+     <lb/>
+     for Responsible Government expressed, I can only say that I am surprised. The honourable 
+     <lb/>
+     gentleman cannot but know, if he has not turned a deaf ear to politics altogether, that the 
+     <lb/>
+     question of Responsible Government has been a prominent issue at more than one election, 
+     <lb/>
+     and that it has been used as one of the chief reasons for Confederation from one end of the 
+     <lb/>
+     Colony to the other. But, Sir, I fear I have already wearied the House. Permit me to say, 
+     <lb/>
+     however, that throughout this protracted debate the efforts on the Government side of the 
+     <lb/>
+     House have been characterized by a want of argument, and by a sort of special pleading, a 
+     <lb/>
+     begging of the question almost painful to listen to. Every effort has been made to raise false 
+     <lb/>
+     issues and to misconstrue remarks coming from this side of the House, and a most unfair 
+     <lb/>
+     attempt has been made to, place the whole question in a false and disadvantageous position; 
+     <lb/>
+     yet this is scarcely surprising. It was not to be expected that the unrepresentative members 
+     <lb/>
+     would approve the measure I feel, however, quite inditterent about their votes. We have a 
+     <lb/>
+     large majority of the representative members with us, and their vote must virtually carry the 
+     <lb/>
+     measure. The great proposition I desire to impress upon honourable members is this: The 
+     <lb/>
+     Colony is about to become a Province of the Dominion of Canada. No union can be equitable 
+     <lb/>
+     and just which does not give this Colony equal political power—equal control over their own 
+     <lb/>
+     local affairs with that possessed by the people at the Provinces with which it is proposed to 
+     <lb/>
+     unite. I care not how good the other conditions may be: it the people of British Columbia are 
+     <lb/>
+     placed in a false political position they will not be content. and the inauguration of such a 
+     <lb/>
+     union will only prove the beginning of new political discontent and agitation. Mistakes will 
+     <lb/>
+     doubtless result from the first workings of Responsible Government, but these mistakes were 
+     <lb/>
+     better made now than years hence, when the consequences might be more serious The period 
+     <lb/>
+     of lisping, stammering infancy must, be passed. Surely it is better to pass it now. while the 
+     <lb/>
+     political questions are few and simple, and the interests comparatively small, than to wait for 
+     <lb/>
+     great development. Almost every speaker on the Government side has accused me of want of 
+     <lb/>
+     confidence in the Dominion Government. 1 have no want of confidence in that Government. 
+     <lb/>
+     I know the men who compose it too well for that. I know them as honourable, liberal, large- 
+     <lb break="yes"/>
+     minded statesmen. But it is our Local Govermnent under the new Constitution. proposed in 
+     <lb/>
+     terms so vague in His Excellency's opening message, that I doubt. The Canadian Government 
+     <lb/>
+         
+
+            <pb n="128" facs="final/images/BC_LC_1870-03-22_Page_128.jpg"/>
+            <fw type="num">128</fw>                                                                                                               
+<fw type="running">CONFEDERATION DEBATE.</fw> 
+     
+
+     will possess no constitutional power to grant us political relief until asked to do so by our 
+     <lb/>
+     Local Government ; and it is the hesitation, the disinclination of the Local Government to 
+     <lb/>
+     move in that direction which I dread. I would again warn the Government against endanger<lb break="no"/>ing the whole scheme by having it submitted to the people unaccompanied by "Responsible 
+     <lb/>
+     Government." 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. DR. CARRALL—Sir, on Friday last the honourable member for New Westminster 
+     <lb/>
+     spoke at some length upon this subject, and I replied as best I could, and it is in accordance 
+     <lb/>
+     with the eternal fitness of things that I should make a very few remarks. It is one of those 
+     <lb/>
+     happy things in nature that where the poison is there is the antidote always near. (Laughter.) 
+     <lb/>
+     I propose to give the antidote. I laid down two principles: First, that the Government did 
+     <lb/>
+     not believe that Responsible Government, as it is maintained in England, was applicable to this 
+     <lb/>
+     Colony. I hold to that. I maintain that no one has controverted this proposition ; no one has 
+     <lb/>
+     proved that it could be adapted to the requirements of this Colony; there has been burning 
+     <lb/>
+     eloquence and all that sort of thing, but no proof. But I say, Sir, that even now there is a 
+     <lb/>
+     measure of responsibility in this Government. 1 am responsible to my constituents, and if there 
+     <lb/>
+     is such an overwhelming force in favour of Responsible Government can I ever return here 
+     <lb/>
+     The utmost that the honourable member for New Westminster has proved is, that under Con<lb break="no"/>federation it would take a great deal of time and much agitation to get Responsible Government, 
+     <lb/>
+     a minimum of five years and a maximum of ten years, and that as it would take that time it 
+     <lb/>
+     was better that we should have it at once. I say if one proposition is correct the other must 
+     <lb/>
+     be incorrect. If there is such an overwhelming desire on the part of the people for it,_they 
+     <lb/>
+     will get it. If the majority even are in favour of Responsible Government there is no con<lb break="no"/>stitutional power to prevent their getting it. There is' no desire on the part of the Government 
+     <lb/>
+     to withhold it. I say it is a want of responsibility of the Executive that has rendered them 
+     <lb/>
+     unpopular ; but the people have never been asked to contrast the present form of Government 
+     <lb/>
+     with that shadowed out by His Excellency ; and I say that heads of Departments under that 
+     <lb/>
+     system will be, to a certain extent, responsible. The present system is bad, but the officers are 
+     <lb/>
+     good I say that the requirements of the Colony will be met by the system proposed by His 
+     <lb/>
+     Excellency. If it is not, then let the people say so, and get Responsible Government. The 
+     <lb/>
+     honourable member for New Westminster allows that it is only a question of time under the 
+     <lb/>
+     Organic Act. If it should take five years, then my point that there is not such a strong desire 
+     <lb/>
+     for it is proved. I said, and I say again, that in Jamaica they could not work Responsible 
+     <lb/>
+     Government, or even representative institutions, and in Victoria it remains to this day a 
+     <lb/>
+     monument of stupidity and mismanagement. With regard to the assertion of the honourable 
+     <lb/>
+     member for New Westminster, I say that if speaking and voting from conviction are false steps, 
+     <lb/>
+     and a bar to advancement in political life, then I don't want to advance a step-further in that 
+     <lb/>
+     direction. I say that Responsible Government has not been made a distinct issue in elections. 
+     <lb/>
+     The Government of the people was to be one of the consequences of Confederation ; I hope we 
+     <lb/>
+     shall get a people's Government before it. The present Executive Council is one-third unofficial ; 
+     <lb/>
+     the work; they have done has brought a shapeless, formless phantom into one harmonious whole, 
+     <lb/>
+     and they propose to precede Confederation with a form of Government which will enable the 
+     <lb/>
+     people to decide what form of Government they will have. I coincide with the Honourable 
+     <lb/>
+     Chief Commissioner of Lands and Works, that it was not necessary to introduce this subject 
+     <lb/>
+     into the Confederation Resolution. I am sorry that it was brought up at all in connection with 
+     <lb/>
+     our scheme. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Dr. HELMCKEN—Sir, I wish to say in reply to the remarks of the honourable member 
+     <lb/>
+     for New Westminster, that I support the Government from conviction. I do not shirk my respon<lb break="no"/>sibility. I said that the one great thing the supporters of Responsible Government are afraid 
+     <lb/>
+     of is, that it shall he set alongside of Representative Government. Honourable members may 
+     <lb/>
+     find when the resolutions return from Canada that I have still something to say upon them. 
+     <lb/>
+            </p>
+
+            <p>
+     The recommendation of the Honourable Mr. Humphreys was put by the Chair, and on 
+     <lb/>
+     division was lost. 
+     <lb/>
+            </p>
+
+            <p>
+     The recommendation of Honourable Mr. Robson was put by the Chair, and on division 
+     <lb/>
+     was lost. 
+     <lb/>
+            </p>
+
+            <p>
+     Clause fifteen then passed  read. 
+     <lb/>
+            </p>
+
+            <p>
+     The Honourable ATTORNEY-GENERAL introduced clause sixteen: 
+     <lb/>
+            </p>
+
+           <quote rendition="tccd:blockquote"> <p>
+     "16. The provisions in 'The British North America Act, 1867,' shall (except those parts 
+     <lb/>
+     "thereof which are in terms made, or by reasonable intendment may be held to be specially 
+     <lb/>
+           
+
+            <pb n="129" facs="final/images/BC_LC_1870-03-22_Page_129.jpg"/>
+            <fw type="num">CONFEDERATION DEBATE.</fw> <fw type="num">129</fw>
+          
+
+     "applicable to and only affect one, and not the whole, of the Provinces now comprising the 
+     <lb/>
+     "Dominion, and except so far as the same may be varied by this resolution) be applicable to 
+     <lb/>
+     "British Columbia in the same way, and to the like extent, as they apply to the other Provinces 
+     <lb/>
+     "of the Dominion, and as if the Colony of British Columbia had been one of the Provinces 
+     <lb/>
+     "originally united by the said Act." 
+     <lb/>
+            </p></quote>
+
+            <p>
+     Honourable Dr. Helmcken and Honourable Mr. Drake objected to this clause on the ground 
+     <lb/>
+     that its passing would kill the notices already on the paper. 
+     <lb/>
+            </p>
+
+            <p>
+     The Honourable ATTORNEY-GENERAL gave an assurance that the resolutions of which 
+     <lb/>
+     notice had been given should be discharged, and the opposition was withdrawn. 
+     <lb/>
+            </p>
+
+            <p>
+     Clause sixteen passed as read. 
+     <lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>
+     "With reference to defences:- <lb/>
+            </p>
+            <p>"<hi rendition="simple:italic">A</hi>. That it shall be an understanding with the Dominion that their influence will be used 
+     <lb/>
+     "to the fullest extent to procure the continued maintenance of the Naval Station at Esquimalt. 
+     <lb/>
+            </p>
+
+            <p>
+     "<hi rendition="simple:italic">B</hi>. Encouragement to be given to develop the efficiency and organization of the Volunteer 
+     <lb/>
+     "force in British Columbia." 
+     <lb/>
+            </p></quote>
+
+            <p>
+     On clause <hi rendition="simple:italic">A</hi> being read by the Chairman, Honourable Mr. Holbrook objected to Esquimalt 
+     <lb/>
+     being named, on the ground that it was only fair to New Westminster that one gunboat should 
+     <lb/>
+     be stationed there. 
+     <lb/>
+            </p>
+
+            <p>
+     Honourable ATTORNEY-GENERAL—I should have been very sorry to have this clause 
+     <lb/>
+     inserted if I thought it would give us only two or three gunboats. 
+     <lb/>
+            </p>
+
+            <p>
+     Honourable COLONIAL SECRETARY (Mr. Hankin)—Because the Naval Station is at 
+     <lb/>
+     Esquimalt it does not follow that every ship will remain there. The commanding officer can send 
+     <lb/>
+     ships where he pleases. 
+     <lb/>
+            </p>
+
+            <p>
+     Clause <hi rendition="simple:italic">A</hi> passed as read. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR.  HUMPHREYS asked what 'encouragement' meant in clause <hi rendition="simple:italic">B</hi>. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon ATTORNEY-GENERAL—At present there is no means of ascertaining What encour<lb break="no"/>agement can be given; I suppose arms and money. 
+     <lb/>
+            </p>
+
+            <p>
+     Clause <hi rendition="simple:italic">B</hi> passed as read. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR. DECOSMOS—Mr. Chairman, I gave notice of my intention to bring up a clause 
+     <lb/>
+     with regard to provision being made to protect the agricultural produce of this Colony. It has 
+     <lb/>
+     been said by the honourable Executive Member for Victoria City that this differential tariff is 
+     <lb/>
+     quite a new thing to me. If he will take the trouble to refer to the <hi rendition="simple:italic">Colonist</hi> of the 15th May, 
+     <lb/>
+     1868, he will find that in an article written by myself I touched on this matter; it is not new to 
+     <lb/>
+     me. I am thoroughly persuaded that the disti ct which I represent will be a unit against Con<lb break="no"/>federation without a provision to keep up protection. From Comox to Sooke the opinion on this 
+     <lb/>
+     point is as that of one man, and I believe I maysay that it is the same thing as regards the whole 
+     <lb/>
+     of the agricultural districts on the Mainland, from Soda Creek to Kamloops. I hold, with respect 
+     <lb/>
+     to protection, that when farmers shall be able to produce farm produce in sufficient quantity to 
+     <lb/>
+     enable them to reduce their prices as low as the prices obtained by the farmers of Oregon and 
+     <lb/>
+     Washington Territory; then protection is not essential, for this great and sufficient reason that if 
+     <lb/>
+     we can produce as good an article at home as we can get abroad, which we can put down at the 
+     <lb/>
+     same price, the cost of transport will be a sufficient protection. Our farmers will have a natural 
+     <lb/>
+     protection. With regard to manufactures, I am one of those who believe that our manufactures 
+     <lb/>
+     ought to be protected. If we go into public works we must have waggons and machinery, and the 
+     <lb/>
+     waggon-builders should have protection; then, again, farming implements should be made in the 
+     <lb/>
+     Colony, and encouragement should be given to the manufacturer of these things. Again, there are 
+     <lb/>
+     the bootmaker and tailor, and the soapmaker and others, even the brewer, for whom we require 
+     <lb/>
+     protection. I ask from the Executive the insertion of this principle: "That British Columbia 
+     <lb/>
+     shall be entitled to levy and collect any tax, or taxes, on the sales of foreign produce and 
+     <lb/>
+     manufactures entered for home consumption equal in amount to the duties of Customs now 
+     <lb/>
+     levied and collected on the same under the 'Customs Ordinance, 1867,' provided, always, that 
+     <lb/>
+     British Columbia shall not be entitled to levy and collect any such tax, or taxes, as aforesaid, 
+     <lb/>
+     if the duties of Customs of Canada extended and applied to British Columbia at the time of and 
+     <lb/>
+     after Union on such foreign produce and manufactures shall be as high as the duties of 
+     <lb/>
+     Customs now levied and collected on the same under the 'Customs Ordinance, 1867,' and 
+     <lb/>
+     provided always, that such foreign produce and manufactures shall be construed to mean no 
+     <lb/>
+     more and none other than such foreign produce and manufactures as may enter into competition 
+     <lb/>
+           
+            <pb n="130" facs="final/images/BC_LC_1870-03-22_Page_130.jpg"/>
+            <fw type="num">130</fw>  <fw type="running">CONFEDERATION DEBATE.</fw> 
+     
+
+     with the produce and manufactures of British Columbia." I don't care how it is put in, our 
+     <lb/>
+     manufactures would come into competition with goods from Canada. That is a natural evil 
+     <lb/>
+     which we cannot avoid. There will be other advantages arising out of Confederation which will 
+     <lb/>
+     counterbalance this. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. DR. HELMCKEN—I have nothing to do with the honourable gentleman's newspaper 
+     <lb/>
+     articles. I can only say that differential duties are contrary to the views of Her Majesty's 
+     <lb/>
+     Government. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR. DRAKE— The honourable member's explanation is different from the clause itself. 
+     <lb/>
+     I suppose from the explanation that it is intended to apply to all foreign produce and manufactures 
+     <lb/>
+     tin-es imported. I think it will be better that I should move my motion as an amendment to 
+     <lb/>
+     his, so as to confine the protection to agricultural produce. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR. DECOSMOS— I don't expect any resolution of mine to pass. If it should pass I 
+     <lb/>
+     shall be quite surprised ; but as I hold this to be the very keystone, and of more consequence than 
+     <lb/>
+   Responsible Government, I deem it my duty to bring it forward. But to confine the protection 
+     <lb/>to agricultural produce will not reach the issue. it would not touch our rude manufactures. 
+     <lb/>
+            </p>
+
+    
+
+    
+
+            <p>
+     Hon. DR. HELMCKEN—This is left an open question by the Government. I wish it to 
+     <lb/>
+     be distinctly understood that this question of the agriculture of the country is an open question. 
+     <lb/>
+     I think I shall be found on the side of these honourable gentlemen. I think with the honourable 
+     <lb/>
+     member for Victoria District that this is the most important question comprised in these resolu<lb break="no"/>tions. If the terms do not contain a clause giving protection to agricultural interests, I will 
+     <lb/>
+     answer for it there will he no Confederation. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. CHIEF COMMISSIONER—I would ask the honourable member to define how far 
+     <lb/>
+     this is left an open question? 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. DR. HELMCKEN —I mean that every member of the Government is free to vote as 
+     <lb/>
+     he pleases upon this question of encouragement to the agricultural interests of the Colony. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR. WOOD—Then it is free for official members to vote these recommendations? 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. DR. HELMCKEN—Certainly it is, and it is right that it should be so ; for I consider, 
+     <lb/>
+     Sir, that we have come to a most important question, one that concerns our own country. Con<lb break="no"/>federation must not come like an eclipse, it must not produce a darkness and then leave us to 
+     <lb/>
+     recover. I say that if these terms are left to pass as they are, and return from Canada, and are 
+     <lb/>
+     passed by the people, they will produce great ills. I say that the agricultural interests are most 
+     <lb/>
+     important ; when we come to manufacturing interests it is different, they have made but little 
+     <lb/>
+     progress. Manufacturers will meet with competition from Canada, and the Dominion would not 
+     <lb/>
+     stand it ; we cannot have protection for manufactures but with regard to farm produce it is 
+     <lb/>
+     different. I say that the farmers could not exist without protection ; you will depopulate the 
+     <lb/>
+     country by bringing Confederation without protection. I have stated that this Colony affords 
+     <lb/>
+     more inducement to people to settle than any other Colony I know of ; yet we do not raise 
+     <lb/>
+     sufficient stock for ourselves. Look at the statistics: $111,447 is the value of agricultural pro<lb break="no"/>duce—barley. flour, malt, wheat, and oats—imported. Of barley. there is nearly one million 
+     <lb/>
+     pounds imported, and this would take about 450 acres to grow in ; of malt about 4,500 bushels, which 
+     <lb/>
+     would require ninety acres to grow in ; of flour and wheat about 87.000 bushels. which would 
+     <lb/>
+     require about 2,500 acres to grow in ; of oats, about 2.364 bushels, which would require about sixty 
+     <lb/>
+     acres to grow in ; altogether about 3.080 acres. More land must be in cultivation to produce the 
+     <lb/>
+     quantity of cereals which I have enumerated as being imported annually. and this number of 
+     <lb/>
+     acres, supposing a man to cultivate fifty acres, would give employment to 123 men ; so that 123 
+     <lb/>
+     men will save the Colony $111,447, or $900 each, besides growing what they want for their 
+     <lb/>
+     own consumption. In relation to this it must be recollected that mills would be at work to grind, 
+     <lb/>
+     machinery would be required, and labour of other kinds would he required. such, for instance, as 
+     <lb/>
+     brewers. In addition to this comes in pigs. There were 508 of these animals imported last year ; 
+     <lb/>
+     less by 28 than in the preceding year. This is on improvement, when we consider that the amount 
+     <lb/>
+     of bacon and hams imported is 61.740 pounds less than last year. To make this bacon about 500 
+     <lb/>
+     hogs are required ; so you will see that nearly the whole amount of bacon is made by and from 
+     <lb/>
+     foreign hogs. Take butter—82.000 pounds, or forty tons, were imported last year. It will take 
+     <lb/>
+     400 more cows, yielding 200 pounds each per annum, to produce this amount, and it would save the 
+     <lb/>
+     Colony $31.588 per annum. One thousand seven hundred head of beef cattle would save annually 
+     <lb/>
+     $96,949 but it repurposes 6,800 more cows at least. Now, then. to supply ourselves with beef 
+     <lb/>
+     and mutton, and cheese, 8,000 more cows are required ; but it takes four years to produce beef. 
+     <lb/>
+     We import 7,000 sheep. Surely no one will tell us that we have no room for 7,000 sheep or 
+     <lb/>
+           
+
+            <pb n="131" facs="final/images/BC_LC_1870-03-22_Page_131.jpg"/>
+            <fw type="num">CONFEDERATION DEBATE.</fw> <fw type="num">131</fw>
+            
+
+     3,000 cows. Why, it only means 20,000 acres, or thirty-six miles of land; six miles will supply 
+     <lb/>
+     the cereals—thirty-six miles in all. Why, the flats at the Fraser would yield it all. The cattle 
+     <lb/>
+     business certainly requires capital, but the capital will produce great results, and recollect the good 
+     <lb/>
+     it would do the country, the amount of labour employed and land cultn ted for the purpose; wool, 
+     <lb/>
+     hides, and bones for house use or export. What I wish to impress upon you, Sir, is the profit 
+     <lb/>
+     that might be derived from the introduction of a couple of hundred families. What an immense 
+     <lb/>
+     loss the Colony would sustain if this were thrown open to the Americans. What a magnificent 
+     <lb/>
+     field for immigration, particularly when we consider how much more of agricultural produce will 
+     <lb/>
+     he required when public works are carried on. The market is good now; how much better it 
+     <lb/>
+     would he then. I think it would be doing those farmers who had commenced farming under a 
+     <lb/>
+     protective tariff a great injustice to withdraw protection from them now. We must have an 
+     <lb/>
+     agricultural population. It Confederation comes, and brings the Canadian tariff, we destroy the 
+     <lb/>
+     agricultural interests altogether, and the country will become a wilderness. Confederation with<lb break="no"/>out those terms will not, in my opinion, be accepted. Leave them out and Confederation will 
+     <lb/>
+     most assuredly fail . Farmers in the Upper Country have a natural protection from the difficulty of 
+     <lb/>
+     transport. The day will come, and pretty quickly, when they will raise more there than they have 
+     <lb/>
+     a market for. They must find an outlet, which must be where the consumers are. If the duty 
+     <lb/>
+     is not maintained, how can they send their produce down? If the railway should be built, the 
+     <lb/>
+     cost of transporting goods from the interior will be diminished. and farms of the Upper Country 
+     <lb/>
+     will then find the tariff of more consequence to them than to the people of the Lower Country. 
+     <lb/>
+     I say Confederation will not go down without protection. The agricultural interest will prefer 
+     <lb/>
+     living in comfort with protection. and without Confederation, than in a perpetual struggle for 
+     <lb/>
+     livelihood under Confederation. I am in favour of protecting our farming interests; but if we 
+     <lb/>
+     had a lower scale upon some other goods I should think it an advantage. I support protection 
+     <lb/>
+     to the agricultural interest, and the throwing open of our ports to other things. The latter part 
+     <lb/>
+     is, I fear, not an open question. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. COMMISSIONER OF Customes—(Mr. Hanley)— It is difficult to tell which resolu<lb break="no"/>tion the Hon. Member is speaking in favour of. It is quite true that protection may he too 
+     <lb/>
+     little on some things and too much on others; for instance. I consider the duty on horses too 
+     <lb/>
+     high. I will tell Hon. gentlemen that a revision of the tariff was considered last year by a 
+     <lb/>
+     Committee appointed by the late Governor, and a majority of that Committee, who were all 
+     <lb/>
+     business men. reported in favour of lowering the duties on agricultural produce, and there was 
+     <lb/>
+     a special report in favour of making Victoria almost a free port. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Mr. DeCosmos that was the bogus Council, I suppose. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Mn, HAMLEY—They were a Committee of gentlemen whom the late Governor thought 
+     <lb/>
+     fit to appoint. I think the tariff must be altered to suit this Colony but I believe it must he left 
+     <lb/>
+     to the Canadian Parliament to alter. What will our representat members do sitting in the 
+     <lb/>
+     Canadian Parliament, except they look after our interests? There is no obstacle that I know 
+     <lb/>
+     of to there being a diiferont tariff to suit the interests of this or any particular Province of the 
+     <lb/>
+     Dominion. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Mr. HOLBROOK is no reason that there should he a similar tariff all over, 
+     <lb/>
+     but I think it must be altered by the Canadian Parliament. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Dr. HELMCKEN—I do not think that it is necessary that one tariff should prevail all over the Dominion 
+     <lb/>
+     over the Dominion. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Mr. Hamley— Not at all, not at all. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Dr. HELMCKEN —But there can be no differential duties; that is forbidden by English 
+     <lb/>
+     statutes. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Mn. HAMLEY—No; not by statute; in nstructions. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. DR. HELMCKEN— So far from leaving it to the Canadian Parliament, I say we 
+     <lb/>
+     must go in with it altered. How absurd for eight members to attempt to revise the tariff of 
+     <lb/>
+     British Columbia in the Dominion Parliament. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. MR. TRUTCH don't see it. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. Mr. HAMLEY— Nor do I. 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. DR. HELMCKEN HEIIMCKlCh—Why. look how ridiculous it is to come to this House to propose 
+     <lb/>
+     any alteration in the tariff. How much more so in the Dominion Parliament. where so many 
+     <lb/>
+     would be on the other side? If at all, it must he done. by ourselves. The Canadian Government 
+     <lb/>
+     must agree to it before we go into Confederation. The other interests are subsidiary to it. 
+     <lb/>
+            </p>
+
+            <p>
+     On motion of Hon. Mr. Ring, the debate was adjourned to Wednesday, the 23rd. 
+     <lb/>
+            </p>
+       </div>  </div>
+      </body>
+   </text>
+</TEI>
