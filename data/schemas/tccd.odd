@@ -622,6 +622,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:ARMA1">
                               <desc>Armand, Joseph-François. Alma (1865: Ont/Que Leg).</desc>
                            </valItem>
+                           <valItem ident="pers:ARMS2">
+                              <desc>Armstrong, David Morrison. Quebec Sorel (1865: Ont/Que Leg).</desc>
+                           </valItem>
                            <valItem ident="pers:ARMS1">
                               <desc>Armstrong, Joseph Elijah. Lambton East (1905: AB/SK House of Commons).</desc>
                            </valItem>
@@ -4309,6 +4312,10 @@ so Volume 2 by implication has finished. -->
                         <valList mode="replace" type="closed">
                            <valItem ident="article">
                               <gloss>A division containing a single newspaper article or report.</gloss>
+                           </valItem>
+                           <valItem ident="chapter">
+                              <gloss>A chapter of a published document which does not easily break 
+                              down into debate days (primarily for Morris).</gloss>
                            </valItem>
                            <valItem ident="debate">
                               <gloss>A division containing the events of one debate in a parliamentary session. Note that 

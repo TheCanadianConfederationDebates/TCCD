@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-03-08T18:18:30Z. 2016.
+Schema generated from ODD source 2017-03-22T20:18:59Z. 2016.
 TEI Edition: Version 3.1.1a. Last updated on
 	27th February 2017, revision 2e456c1
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -4133,6 +4133,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <choice>
                <value>article</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(A division containing a single newspaper article or report.) </a:documentation>
+               <value>chapter</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(A chapter of a published document which does not easily break 
+                              down into debate days (primarily for Morris).) </a:documentation>
                <value>debate</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(A division containing the events of one debate in a parliamentary session. Note that 
                   a debate may span multiple days; if so, separate div type="debate" elements
@@ -4658,6 +4661,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Argue, Hazen Robert. Wood Mountain (1945: House of Commons); Wood Mountain (1949: NF House of Commons).</a:documentation>
                   <value>pers:ARMA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Armand, Joseph-François. Alma (1865: Ont/Que Leg).</a:documentation>
+                  <value>pers:ARMS2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Armstrong, David Morrison. Quebec Sorel (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:ARMS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Armstrong, Joseph Elijah. Lambton East (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:ARSE2</value>
