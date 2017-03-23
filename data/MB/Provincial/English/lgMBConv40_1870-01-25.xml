@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgMBConv40_1870-01-25" type="full">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="legislature" ref="lg:lgConv40">Legislature</name>, <date when="1870-01-25">25 January 1870</date>, Convention of Forty Debates.</title>
+        
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="pers:LYAL1">Gordon Lyall</persName>
+        </respStmt>
+        
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+
+        <bibl>
+          
+
+          <editor>Norma Jean Hall</editor>.
+          
+       
+          <title>Reconstituted Debates of the Convention of Forty</title>.
+                    
+
+          <date when="2010-11-15"/>.  
+          
+          <pubPlace>Winnipeg</pubPlace>: <publisher>Provincial Government of Manitoba</publisher>.
+
+<!-- GL, 2017-03-23, The document itself does not contain any publishing info, but the editor's home page, https://hallnjean.wordpress.com/whats-done/, indicates that this project was initiated by the Manitoba Government which has their own link to the document in their resources, http://www.gov.mb.ca/imr/ir/resources/the-legislative-assembly-of-assiniboia.html   -->
+          
+          <biblScope unit="page" from="7" to="7"/>.
+        </bibl>
+
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
+        selected. This is especially important in cases where discontinuous 
+        page-ranges are used.  -->
+        <p></p>
+      </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="lyallg" when="2017-03-23">Created this document, completed metadata. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+  
+  <text>
+    <body>
+      <div type="debate">
+        <head>Convention of Forty</head>
+<div type="section">        
+<head>First Day</head>
+	<p>Court House, Upper Fort Garry</p>
+
+	<p>Tuesday, 25 January 1870</p>
+
+
+<p>Noon — Thirty-seven of the English [and] French Representatives, met. Three of the French representatives being absent, it was proposed and agreed to that an adjournment till half past three take place. At half past three, met again and adjourned for a similar reason.</p>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>
