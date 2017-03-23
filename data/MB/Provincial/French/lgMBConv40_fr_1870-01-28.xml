@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgMBConv40_fr_1870-01-28" type="full">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="legislature" ref="lg:lgConv40">Deuxième Gouvernement Provisoire du Manitoba</name>, <date when="1870-01-28">28 Janvier 1870</date>, La Grande Convention Débats.</title>
+        
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="pers:LYAL1">Gordon Lyall</persName>
+        </respStmt>
+        
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+
+        <bibl>
+          
+          <editor>Norma Jean Hall</editor>.
+          
+       
+          <title>Débats Reconstitués de la Grande Convention</title>.
+                    
+         <date when="2010-11-15"/>.
+          
+          <pubPlace>Winnipeg</pubPlace>: <publisher>Gouvernement Provinciale du Manitoba</publisher>.
+          
+<!-- GL, 2017-03-23, The document itself does not contain any publishing info, but the editor's home page, https://hallnjean.wordpress.com/whats-done/, indicates that this project was initiated by the Manitoba Government which has their own link to the document in their resources, http://www.gov.mb.ca/imr/ir/resources/the-legislative-assembly-of-assiniboia.html   -->
+
+          <biblScope unit="page" from="20" to="20"/>.
+        </bibl>
+
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
+        selected. This is especially important in cases where discontinuous 
+        page-ranges are used.  -->
+        <p></p>
+      </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="lyallg" when="2017-03-23">Created this document, completed metadata. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+  
+  <text>
+    <body>
+      <div type="debate">
+      <head>La Grande Convention</head>
+  
+
+
+
+<div type="section">
+ 
+<head>Quatrième jour</head>
+<p><emph>Tribunal, Upper Fort Garry</emph></p>
+<p><emph>Vendredi 28 janvier 1870</emph></p>
+	<p>Une heure — Les délégués se rassemblent, puis lèvent la séance de nouveau immédiatement jusqu'à dix heures demain, afin de permettre au comité chargé de la Liste des droits de faire son travail.</p>
+
+
+
+</div>
+
+
+        </div>
+    </body>
+  </text>
+</TEI>
