@@ -3,35 +3,32 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>[<name type="legislature" ref="lg:lgAssinLAssem">Legislature</name>, <date when="1856-01-01">date(-range)</date>, debate title/description]</title>
+        <title><name type="legislature" ref="lg:lgAssinLAssem">Legislative Assembly of Assiniboia</name>, <date when="1856-01-01">date(-range)</date>, Debates on Manitoba Confederation with Canada.</title>
         
         <respStmt>
           <resp>Selection of input documents and completion of metadata</resp>
-          <persName ref="UNSPECIFIED"><!-- TEMPLATE: Your name here. --></persName>
+         <persName ref="pers:LYAL1">Gordon Lyall</persName>
         </respStmt>
         
       </titleStmt>
       
       <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
       <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
+
+
         <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
-          <editor></editor>.
+<editor>Norma Jean Hall</editor>.
           
-<!-- TEMPLATE: Title of the publication -->         
-          <title></title>.
+       
+          <title>Reconstituted Debates of the Legislative Assembly of Assiniboia</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
-          <date/>.  
+
+          <date when="2010-11-15"/>.  
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
-          <pubPlace></pubPlace>: <publisher></publisher>.
+          <pubPlace>Winnipeg</pubPlace>: <publisher>Provincial Government of Manitoba</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page"/>.
         </bibl>
 
@@ -46,7 +43,7 @@
       </samplingDecl>
     </encodingDesc>
     <revisionDesc>
-      <change>Created this document, completed metadata. </change>
+     <change who="lyallg" when="2017-03-24">Created this document, completed metadata. </change>
     </revisionDesc>
   </teiHeader>
   
