@@ -179,6 +179,8 @@
     <xsl:choose>
       <xsl:when test="count($images) lt 1">
         <xsl:message>WARNING: No facsimile images found in this XML collection.</xsl:message>
+<!--    Create a regular expression that will match nothing.    -->
+        <xsl:result-document href="{$regexFileToSave}" encoding="UTF-8" method="text" indent="no">NO_IMAGES_SHOULD_BE_INCLUDED_AT_ALL</xsl:result-document>
       </xsl:when>
       <xsl:otherwise>
         <xsl:result-document href="{$listFileToSave}" encoding="UTF-8" method="text" indent="no">

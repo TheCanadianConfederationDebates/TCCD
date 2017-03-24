@@ -107,6 +107,7 @@
 <!--  Load the pre-generated regular expression for finding
       the linked image files from the file where it was 
       saved by the XSLT process. -->
+    
     <loadfile property="imageRegex" srcfile="xml/imageRegex.txt"/>
     
     <fileset id="imageFiles" dir="../../data" includes="**/*">
