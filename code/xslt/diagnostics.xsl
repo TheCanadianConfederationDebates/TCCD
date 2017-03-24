@@ -54,9 +54,11 @@
   <xsl:variable name="editedHocrFiles" select="collection(concat($utilitiesDir, '/editedHocrFiles.xml'))"/>-->
   <xsl:variable name="teiDebateFiles" select="collection(concat($utilitiesDir, '/teiFiles.xml'))"/>
   <xsl:variable name="teiPages" select="$teiDebateFiles//tei:surface"/>
-  <xsl:variable name="teiPagesWithNameTagging" select="$teiDebateFiles[descendant::tei:body/descendant::tei:persName[@ref]]//tei:surface"/>
-  <xsl:variable name="teiNamesTagged" select="$teiDebateFiles/descendant::tei:persName[@ref]"/>
-  <xsl:variable name="teiUnspecifiedNamesTagged" select="$teiDebateFiles/descendant::tei:persName[@ref = 'UNSPECIFIED']"/>
+  <xsl:variable name="teiPagesWithNameTagging" select="$teiDebateFiles[descendant::tei:text/descendant::tei:persName[@ref[. != 'UNSPECIFIED']]]//tei:surface"/>
+  <xsl:variable name="teiNamesTagged" select="$teiDebateFiles[descendant::tei:text/descendant::tei:persName[@ref != 'UNSPECIFIED']]/descendant::tei:persName[@ref]"/>
+<!-- Be careful only to count names in documents which have had some name markup done, rather than
+     those which have been automatically tagged as unspecified only. -->
+  <xsl:variable name="teiUnspecifiedNamesTagged" select="$teiDebateFiles[descendant::tei:text/descendant::tei:persName[@ref != 'UNSPECIFIED']]/descendant::tei:persName[@ref = 'UNSPECIFIED']"/>
   
 <!-- Root template. -->
   <xsl:template match="/">
