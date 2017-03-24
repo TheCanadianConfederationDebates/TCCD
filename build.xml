@@ -18,22 +18,32 @@
          
       4. Builds the HTML website.
     
-    It requires libraries that are in code/utilities, so it should 
-    be run with:
-    
-      ant -lib code/utilities 
+    It requires java libraries that are in code/utilities.
     
     It also requires ant-contrib.
+    
+    Run with:
+    
+    ant -lib code/utilities
+    
+    We need to provide the path on the command line because 
+    the Schematron ant task cannot find it any other way. :-(
     
     Note that since there are potentially thousands of calls to the
     target validateWithJing, it is recommended to avoid excessive 
     output by running like this:
     
     ant -logger org.apache.tools.ant.listener.SimpleBigProjectLogger 
-        -lib code/utilities
 #                                                                   #
 #####################################################################
   </description>
+
+  <!--Add Saxon and Schematron jars to the classpath-->
+  <classloader>
+    <classpath>
+      <fileset dir="${basedir}/code/utilities" includes="*.jar"/>
+    </classpath>
+  </classloader>
 
   <property name="echo.separator" value="************************************************"/>
   
@@ -89,11 +99,17 @@
   </taskdef>-->
   
 <!-- SaxonHE is in the repo. -->
-  <classloader classpath="code/utilities/saxonhe.jar"></classloader>
+<!--  <classloader classpath="${basedir}/code/utilities/saxon9he.jar"></classloader>
+  <path id="saxonpath">
+    <pathelement location="${basedir}/code/utilities/saxon9he.jar"/>
+  </path>-->
   
 <!-- We need this for Schematron validation. -->
-  <taskdef name="schematron" classname="com.schematron.ant.SchematronTask"
-    classpath="code/utilities/ant-schematron-2010-04-14.jar"/>
+  <taskdef name="schematron" classname="com.schematron.ant.SchematronTask">
+    <classpath>
+      <fileset dir="${basedir}/code/utilities" includes="*.jar"/>
+    </classpath>
+  </taskdef>
   
 <!-- Filesets for key files. -->
 <!-- All XML files in the data directory should be TEI files. -->
@@ -185,7 +201,7 @@
     
     <antcall target="MESSAGE"><param name="msg" value="Validating files with extracted Schematron..."/></antcall>
     <schematron schema="${schFile}" failOnError="true" format="message"
-      queryLanguageBinding="xslt2" >
+      queryLanguageBinding="xslt2">
       <fileset refid="teiFiles"/>
     </schematron>
   </target>
