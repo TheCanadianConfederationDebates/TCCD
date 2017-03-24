@@ -178,7 +178,7 @@
     <xsl:variable name="images" as="xs:string*" select="$coll//tei:facsimile/tei:surface/tei:graphic/@url/tokenize(., '/')[last()]"/>
     <xsl:choose>
       <xsl:when test="count($images) lt 1">
-        <xsl:message terminate="yes">ERROR: No facsimile images found in this XML collection.</xsl:message>
+        <xsl:message>WARNING: No facsimile images found in this XML collection.</xsl:message>
       </xsl:when>
       <xsl:otherwise>
         <xsl:result-document href="{$listFileToSave}" encoding="UTF-8" method="text" indent="no">
