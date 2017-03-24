@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgAssinLAssem_1870-05-02" type="full">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="legislature" ref="lg:lgAssinLAssem">Legislative Assembly of Assiniboia</name>, <date when="1870-05-02">2 May 1870</date>, Debates on Manitoba Confederation with Canada.</title>
+        
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+         <persName ref="pers:LYAL1">Gordon Lyall</persName>
+        </respStmt>
+        
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+
+
+        <bibl>
+          
+<editor>Norma Jean Hall</editor>.
+          
+       
+          <title>Reconstituted Debates of the Legislative Assembly of Assiniboia</title>.
+                    
+
+          <date when="2010-11-15"/>.  
+          
+          <pubPlace>Winnipeg</pubPlace>: <publisher>Provincial Government of Manitoba</publisher>.
+          
+<!-- GL, 2017-03-24, The document itself does not contain any publishing info, but the editor's home page, https://hallnjean.wordpress.com/whats-done/, indicates that this project was initiated by the Manitoba Government which has their own link to the document in their resources, http://www.gov.mb.ca/imr/ir/major-initiatives/pubs/laa%20debates.pdf   -->
+
+          <biblScope unit="page" from="80" to="80"/>.
+        </bibl>
+
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
+        selected. This is especially important in cases where discontinuous 
+        page-ranges are used.  -->
+        <p></p>
+      </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+     <change who="lyallg" when="2017-03-24">Created this document, completed metadata. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+  
+  <text>
+    <body>
+      <div type="debate">
+    <head>Legislative Assembly of Assiniboia</head>
+
+  	
+
+
+<div type="section">
+
+    
+<p><emph>Assembly Chamber, Upper Fort Garry</emph></p>
+
+<p><emph>Monday, 2 May 1870</emph></p>
+    
+<p>Government (Cabinet) business being very urgent today, the House only met to adjourn.</p>
+
+</div>
+
+
+                                                                                                           
+      </div>
+    </body>
+  </text>
+</TEI>
