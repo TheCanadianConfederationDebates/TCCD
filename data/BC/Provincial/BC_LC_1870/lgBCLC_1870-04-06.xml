@@ -81,6 +81,7 @@
          <change who="mholmes" when="2017-03-22">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-03-22">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-25">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -261,7 +262,7 @@
             </p>
 
             <p>
-     On motion, the House resolved itself' into Committee of the Whole, to take into consideration 
+     On motion, the House resolved itself into Committee of the Whole, to take into consideration 
      <lb/>
      the Message of His Excellency the Governor respecting the provision to be made for the sending. 
      <lb/>
@@ -281,8 +282,8 @@
             
 
 <p>
-     Hon. COLLECTOR OF CUSTOMS—Sir, I rise to move,- <lb/>
-            </p>
+                  <persName ref="pers:ANON1">Hon. COLLECTOR OF CUSTOMS</persName> —Sir, I rise to move,- <lb/>
+               </p>
 
 <quote rendition="tccd:blockquote">
             <p>"That suitable provision be made by this House for the payment of the expenses of the 
@@ -308,361 +309,256 @@
             </p>
 
             <p>
-     Hon, MR. RING—Sir, I beg to inquire why these resolutions cannot be transmitted by post. 
-     <lb/>
-     I do not see why the Colony should be put to the expense of conveying the message; there is 
-     <lb/>
-     postal communication with Canada. and sufficient means of conveying to the Canadian Govern<lb break="no"/>ment what we have agreed upon. There can be no necessity to send Hon. Members to Ottawa. 
-     <lb/>
-     The fact of our doing so would lead to the presumption that Confederation is agreed upon. I 
-     <lb/>
-     differ from that. I say the people want to have the terms before them. Let us first see whether 
-     <lb/>
-     the Colony assents to Confederation in the abstract. Why should we send three or four Hon. 
-     <lb/>
-     and learned gentlemen—learned, no doubt. Why, I say, should we have the Colony put to so 
-     <lb/>
-     much expense when it is in a state of poverty and bankruptcy. [No, no.] I say, dispatch the 
-     <lb/>
-     terms in the ordinary way by post.   
-     <lb/>
-            </p>
+                  <persName ref="pers:RING1">Hon. MR. RING</persName> —Sir, I beg to inquire why these resolutions
+                  cannot be transmitted by post. <lb/> I do not see why the Colony should be put to
+                  the expense of conveying the message; there is <lb/> postal communication with
+                  Canada. and sufficient means of conveying to the Canadian Govern<lb break="no"
+                  />ment what we have agreed upon. There can be no necessity to send Hon. Members to
+                  Ottawa. <lb/> The fact of our doing so would lead to the presumption that
+                  Confederation is agreed upon. I <lb/> differ from that. I say the people want to
+                  have the terms before them. Let us first see whether <lb/> the Colony assents to
+                  Confederation in the abstract. Why should we send three or four Hon. <lb/> and
+                  learned gentlemen—learned, no doubt. Why, I say, should we have the Colony put to
+                  so <lb/> much expense when it is in a state of poverty and bankruptcy. [No, no.] I
+                  say, dispatch the <lb/> terms in the ordinary way by post.   <lb/>
+               </p>
 
             <p>
-     Hon. MR. ROBSON—I hope, Sir, it will not be necessary to fight our battles over again. 
-     <lb/>
-     This House has, in the name of the Colony—[No no, from Hons. Ring and Drake.] Perhaps 
-     <lb/>
-     it will suit some Hon. Members better to say a majority of this House, [No no] Perhaps 
-     <lb/>
-     certain Hon. Members will have the decency to be quiet until their turn comes to speak. A 
-     <lb/>
-     majority of this House—an overwhelming majority—has decided upon terms. We shall get the 
-     <lb/>
-     consent of the Canadian Government to these, or modified, conditions and then submit them to 
-     <lb/>
-     the people, That is the only way. If we were, as proposed by the Hon. Member for Nanaimo, 
-     <lb/>
-     to ask the people whether they wanted Confederation, what would they say? [MR Ring—They 
-     <lb/>
-     would say " No! "] They would say most emphatically, " Yes, on terms." They have said so 
-     <lb/>
-     for years. The Governor has adopted the usual course. These resolutions will go to the 
-     <lb/>
-     Canadian Government and come back. perhaps, modified, and the people will then be asked if 
-     <lb/>
-     they will have Confederation on these terms. The terms are now proposed to be sent to Ottawa. 
-     <lb/>
-     I cannot agree with the Hon. Member for Nanaimo that it would be cheaper to send them by 
-     <lb/>
-     post, The first outlay might be smaller, but it might cause delay, and, in my opinion, British 
-     <lb/>
-     Columbia cannot afford delay. The telegraph might do, but it would cost more. It ought to 
-     <lb/>
-     be by delegation. I think the House is entitled to know who are to go. I presume the Govern<lb break="no"/>mnent will be prepared to give us the names. I, for one. would be unprepared to vote a sum of 
-     <lb/>
-     $2,500, or more likely. $5,000, if I thought the Governor would send Delegates who would not 
-     <lb/>
-     be acceptable to the people. I say that the people ought to be represented, and that particular 
-     <lb/>
-     Members who will fairly represent the people on the Responsible Government question ought to 
-     <lb/>
-     go. I say that if the Delegates are silent on Responsible Government the Cabinet at Ottawa 
-     <lb/>
-     will raise it. If the Delegates say that British Columbia is not prepared for it. that it has 
-     <lb/>
-     been voted down. the Cabinet will say, they have reason to believe that the people, or a large 
-     <lb/>
-     proportion of them. want it, and that they have had enough of discontent. I say. that although 
-     <lb/>
-     Responsible Government is not. strictly speaking, a condition, it underlies and permeates the 
-     <lb/>
-     whole question. 
-     <lb/>
-            </p>
+                  <persName ref="pers:ROBS1">Hon. MR. ROBSON</persName> —I hope, Sir, it will not be necessary to
+                  fight our battles over again. <lb/> This House has, in the name of the Colony—[No
+                  no, from Hons. Ring and Drake.] Perhaps <lb/> it will suit some Hon. Members
+                  better to say a majority of this House, [No no] Perhaps <lb/> certain Hon. Members
+                  will have the decency to be quiet until their turn comes to speak. A <lb/>
+                  majority of this House—an overwhelming majority—has decided upon terms. We shall
+                  get the <lb/> consent of the Canadian Government to these, or modified, conditions
+                  and then submit them to <lb/> the people, That is the only way. If we were, as
+                  proposed by the Hon. Member for Nanaimo, <lb/> to ask the people whether they
+                  wanted Confederation, what would they say? [MR Ring—They <lb/> would say " No! "]
+                  They would say most emphatically, " Yes, on terms." They have said so <lb/> for
+                  years. The Governor has adopted the usual course. These resolutions will go to the
+                  <lb/> Canadian Government and come back. perhaps, modified, and the people will
+                  then be asked if <lb/> they will have Confederation on these terms. The terms are
+                  now proposed to be sent to Ottawa. <lb/> I cannot agree with the Hon. Member for
+                  Nanaimo that it would be cheaper to send them by <lb/> post, The first outlay
+                  might be smaller, but it might cause delay, and, in my opinion, British <lb/>
+                  Columbia cannot afford delay. The telegraph might do, but it would cost more. It
+                  ought to <lb/> be by delegation. I think the House is entitled to know who are to
+                  go. I presume the Govern<lb break="no"/>mnent will be prepared to give us the
+                  names. I, for one. would be unprepared to vote a sum of <lb/> $2,500, or more
+                  likely. $5,000, if I thought the Governor would send Delegates who would not <lb/>
+                  be acceptable to the people. I say that the people ought to be represented, and
+                  that particular <lb/> Members who will fairly represent the people on the
+                  Responsible Government question ought to <lb/> go. I say that if the Delegates are
+                  silent on Responsible Government the Cabinet at Ottawa <lb/> will raise it. If the
+                  Delegates say that British Columbia is not prepared for it. that it has <lb/> been
+                  voted down. the Cabinet will say, they have reason to believe that the people, or
+                  a large <lb/> proportion of them. want it, and that they have had enough of
+                  discontent. I say. that although <lb/> Responsible Government is not. strictly
+                  speaking, a condition, it underlies and permeates the <lb/> whole question. <lb/>
+               </p>
 
             <p>
-     Hon. COLLECTOR OF CUSTOMS—Nothing would be easier than to forward the resolutions 
-     <lb/>
-     by post to Canada. "his has probably been done already; but on every one of the resolutions, 
-     <lb/>
-     as you all know. there are numerous points requiring planations, and to make these effective 
-     <lb/>
-     the presence at Ottawa of Delegates on our part, understanding the question and authorized to 
-     <lb/>
-     act for us. would appear to be indispensable. I am inclined to think that the names of the 
-     <lb/>
-     Delegates are pretty well known, but I have no authority to mention them here. The Governor 
-     <lb/>
-     has chosen them on his own responsibility, and he does not ask the Council to share that respon<lb break="no"/>sibility. For what purpose should the names be given? Does the Council wish to canvass the 
-     <lb/>
-     merits of each individual? What those gentlemen will  say on the subject of Responsible Govern<lb break="no"/>ment I am not prepared to tell you; but I tell you this, that on that subject and on every other 
-     <lb/>
-     they will act with fairness and ability. with no discredit to themselves and with no discredit to 
-     <lb/>
-    us. I am ready at any rate to trust them so far as that. I hope this Council will trust them, 
-     <lb/>as the Governor has shown himself ready to trust them. Every year there are expenses that 
-     <lb/>
-           
-
-            <pb n="159" facs="final/images/BC_LC_1870-04-06_Page_159.jpg"/>
-            <fw type="num">CONFEDERATION DEBATE.</fw> <fw type="num">159</fw>
-          
-
-     cannot be provided for except in the Supplementary Estimates. This will doubtless be one of 
-     <lb/>
-     them. There will be no objectionable special tax, that I know of, proposed on this account. If 
-     <lb/>
-     there is, it will be time enough to oppose it when it. comes. in the meantime you are asked 
-     <lb/>
-     simply to authorize the expenditure of a small sum of money for an object of infinite importance. 
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. COLLECTOR OF CUSTOMS</persName> —Nothing would be easier than to
+                  forward the resolutions <lb/> by post to Canada. "his has probably been done
+                  already; but on every one of the resolutions, <lb/> as you all know. there are
+                  numerous points requiring planations, and to make these effective <lb/> the
+                  presence at Ottawa of Delegates on our part, understanding the question and
+                  authorized to <lb/> act for us. would appear to be indispensable. I am inclined to
+                  think that the names of the <lb/> Delegates are pretty well known, but I have no
+                  authority to mention them here. The Governor <lb/> has chosen them on his own
+                  responsibility, and he does not ask the Council to share that respon<lb break="no"
+                  />sibility. For what purpose should the names be given? Does the Council wish to
+                  canvass the <lb/> merits of each individual? What those gentlemen will say on the
+                  subject of Responsible Govern<lb break="no"/>ment I am not prepared to tell you;
+                  but I tell you this, that on that subject and on every other <lb/> they will act
+                  with fairness and ability. with no discredit to themselves and with no discredit
+                  to <lb/> us. I am ready at any rate to trust them so far as that. I hope this
+                  Council will trust them, <lb/>as the Governor has shown himself ready to trust
+                  them. Every year there are expenses that <lb/>
+                  <pb n="159" facs="final/images/BC_LC_1870-04-06_Page_159.jpg"/>
+                  <fw type="num">CONFEDERATION DEBATE.</fw>
+                  <fw type="num">159</fw> cannot be provided for except in the Supplementary
+                  Estimates. This will doubtless be one of <lb/> them. There will be no
+                  objectionable special tax, that I know of, proposed on this account. If <lb/>
+                  there is, it will be time enough to oppose it when it. comes. in the meantime you
+                  are asked <lb/> simply to authorize the expenditure of a small sum of money for an
+                  object of infinite importance. <lb/>
+               </p>
 
             <p>
-     Hon. MR. HUMPHREYS - There is a mighty curious dust kicked up by great opposites when 
-     <lb/>
-     they meet. I think we shall see some of these gentlemen hoisted on their own petards. I have 
-     <lb/>
-     a pretty good idea who the gentlemen are, and I do not think they represent the people, especially 
-     <lb/>
-     in the matter of Responsible Government. I believe the Governor will act fairly and honourably, 
-     <lb/>
-     but I think he will not select men who will he acceptable to the people. My opinion is. that the 
-     <lb/>
-     Hon. Chief Commissioner, the Hon. Member for Victoria, and the Hon. Attorney-General do not 
-     <lb/>
-     represent the people. Popular members will he untrue to themselves 
-     <lb/>
-            </p>
+                  <persName ref="pers:HUMP1">Hon. MR. HUMPHREYS</persName> —There is a mighty curious dust kicked up
+                  by great opposites when <lb/> they meet. I think we shall see some of these
+                  gentlemen hoisted on their own petards. I have <lb/> a pretty good idea who the
+                  gentlemen are, and I do not think they represent the people, especially <lb/> in
+                  the matter of Responsible Government. I believe the Governor will act fairly and
+                  honourably, <lb/> but I think he will not select men who will he acceptable to the
+                  people. My opinion is. that the <lb/> Hon. Chief Commissioner, the Hon. Member for
+                  Victoria, and the Hon. Attorney-General do not <lb/> represent the people. Popular
+                  members will he untrue to themselves <lb/>
+               </p>
 
             <p>
-     Hon. MR. DEWDNEY—The Hon. Member has had his guess. I do not desire to mention 
-     <lb/>
-     names. I would merely suggest that His Excellency be requested to select one of the Delegates 
-     <lb/>
-     from the Mainland. 
-     <lb/>
-            </p>
+                  <persName ref="pers:DEWD1">Hon. MR. DEWDNEY</persName> —The Hon. Member has had his guess. I do not
+                  desire to mention <lb/> names. I would merely suggest that His Excellency be
+                  requested to select one of the Delegates <lb/> from the Mainland. <lb/>
+               </p>
 
             <p>
-     Hon. CHIEF COMMISSIONER—My views on Responsible Government have been so often 
-     <lb/>
-     expressed that there is no occasion to refer to them again, but I am astonished that after Hon. 
-     <lb/>
-     Members have told us that the people are a unit in favour of Responsible Government, they 
-     <lb/>
-     should be afraid to trust it to the people, or to the Council, which His Excellency has told you 
-     <lb/>
-     he will form after this Session. Why, then, are Hon. Members so desirous to weight down the 
-     <lb/>
-     terms? Are they afraid that the people will not be so unanimous at the polls in favour of 
-     <lb/>
-     Responsible Government? His Excellency has told you that, if allowed by Her Majesty's 
-     <lb/>
-     Government, he proposes to form a Council which will be representative. I, for one, have no 
-     <lb/>
-     doubt about the permission. The question will then he left to that Council. Why are Hon. 
-     <lb/>
-     Members afraid to leave this question to the representatives of the people? 
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. CHIEF COMMISSIONER</persName> —My views on Responsible Government
+                  have been so often <lb/> expressed that there is no occasion to refer to them
+                  again, but I am astonished that after Hon. <lb/> Members have told us that the
+                  people are a unit in favour of Responsible Government, they <lb/> should be afraid
+                  to trust it to the people, or to the Council, which His Excellency has told you
+                  <lb/> he will form after this Session. Why, then, are Hon. Members so desirous to
+                  weight down the <lb/> terms? Are they afraid that the people will not be so
+                  unanimous at the polls in favour of <lb/> Responsible Government? His Excellency
+                  has told you that, if allowed by Her Majesty's <lb/> Government, he proposes to
+                  form a Council which will be representative. I, for one, have no <lb/> doubt about
+                  the permission. The question will then he left to that Council. Why are Hon. <lb/>
+                  Members afraid to leave this question to the representatives of the people? <lb/>
+               </p>
 
             <p>
-     Hon. MR. HUMPHREYS—I will answer the Hon. Chief Commissioner: we are not afraid 
-     <lb/>
-     of putting the question before the people, but I am afraid that members of that delegation will 
-     <lb/>
-     misrepresent the opinions of the people to the Canadian Government; I fear the people will not 
-     <lb/>
-     be represented 
-     <lb/>
-            </p>
+                  <persName ref="pers:HUMP1">Hon. MR. HUMPHREYS</persName> —I will answer the Hon. Chief
+                  Commissioner: we are not afraid <lb/> of putting the question before the people,
+                  but I am afraid that members of that delegation will <lb/> misrepresent the
+                  opinions of the people to the Canadian Government; I fear the people will not
+                  <lb/> be represented <lb/>
+               </p>
 
             <p>
-     Hon. MR. DRAKE—Mr. Chairman. I intend to oppose the resolution proposed by the Hon. 
-     <lb/>
-     Collector of Customs. I think that if Hon. Members examine this message in connection with 
-     <lb/>
-     His Excellency's speech, it is apparent that the resolutions were sent down complete. This 
-     <lb/>
-     House was not allowed to alter them. The recommendations of Hon. Members were voted down. 
-     <lb/>
-     I think it would be better to send the resolutions by post as the resolutions of Government; they 
-     <lb/>
-     are not the resolutions of this Committee. 
-     <lb/>
-            </p>
+                  <persName ref="pers:DRAK1">Hon. MR. DRAKE</persName> —Mr. Chairman. I intend to oppose the
+                  resolution proposed by the Hon. <lb/> Collector of Customs. I think that if Hon.
+                  Members examine this message in connection with <lb/> His Excellency's speech, it
+                  is apparent that the resolutions were sent down complete. This <lb/> House was not
+                  allowed to alter them. The recommendations of Hon. Members were voted down. <lb/>
+                  I think it would be better to send the resolutions by post as the resolutions of
+                  Government; they <lb/> are not the resolutions of this Committee. <lb/>
+               </p>
 
             <p>
-     Hon. CHIEF COMMISSIONER—They are the resolutions of this House. 
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. CHIEF COMMISSIONER</persName> —They are the resolutions of this
+                  House. <lb/>
+               </p>
 
             <p>
-     Hon. MR. DRAKE—No; only of the official majority. The expense is unnecessary; it is 
-     <lb/>
-     one which will be incurred to enforce the views of Government. His Excellency asks that he 
-     <lb/>
-     should be authorized to expend a sum of money for this special purpose. A special tax is asked 
-     <lb/>
-     for. If we accede to this message we are assuming the responsibility. I would like to ask this 
-     <lb/>
-     question: Is the Delegation to take powers from this House or from the Government? 
-     <lb/>
-            </p>
+                  <persName ref="pers:DRAK1">Hon. MR. DRAKE</persName> —No; only of the official majority. The
+                  expense is unnecessary; it is <lb/> one which will be incurred to enforce the
+                  views of Government. His Excellency asks that he <lb/> should be authorized to
+                  expend a sum of money for this special purpose. A special tax is asked <lb/> for.
+                  If we accede to this message we are assuming the responsibility. I would like to
+                  ask this <lb/> question: Is the Delegation to take powers from this House or from
+                  the Government? <lb/>
+               </p>
 
             <p>
-     Hon. CHIEF COMMISSIONER—I must reply without delay to one proposition. I would 
-     <lb/>
-     like the Hon. gentleman to point out any one example or suggestion which, if defeated, was 
-     <lb/>
-     not defeated by a majority of so-called popular members, with the exception of Responsible 
-     <lb/>
-     Government, in which there was a minority of, so-called, representative members. The Hon. 
-     <lb/>
-     gentleman's remarks fall to the ground. 
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. CHIEF COMMISSIONER</persName> —I must reply without delay to one
+                  proposition. I would <lb/> like the Hon. gentleman to point out any one example or
+                  suggestion which, if defeated, was <lb/> not defeated by a majority of so-called
+                  popular members, with the exception of Responsible <lb/> Government, in which
+                  there was a minority of, so-called, representative members. The Hon. <lb/>
+                  gentleman's remarks fall to the ground. <lb/>
+               </p>
 
             <p>
-     Hon. MR. HUMPHREYS—The mistake has been made at that end of the table. I think 
-     <lb/>
-     we are in duty bound to send Delegates and raise the money. My only objection is, that the 
-     <lb/>
-     names are withheld. I cannot understand why Hon. Members should vote against this message. 
-     <lb/>
-     I believe we are all agreed that Delegates should go, but if names are not sent down, I must 
-     <lb/>
-     vote against it. 
-     <lb/>
-            </p>
+                  <persName ref="pers:HUMP1">Hon. MR. HUMPHREYS</persName> —The mistake has been made at that end of
+                  the table. I think <lb/> we are in duty bound to send Delegates and raise the
+                  money. My only objection is, that the <lb/> names are withheld. I cannot
+                  understand why Hon. Members should vote against this message. <lb/> I believe we
+                  are all agreed that Delegates should go, but if names are not sent down, I must
+                  <lb/> vote against it. <lb/>
+               </p>
 
             <p>
-     Hon. MR. DECOSMOS—Mr. Chairman. I scarcely expected a discssion upon this point; I 
-     <lb/>
-     should have supposd that this House would have voted the money at once. The question is 
-     <lb/>
-     whether this Delegation will be representative or not. I do not intend to offer any factions 
-     <lb/>
-     opposition. I am satisfied that the people will take means to send a people's delegation. 
-     <lb/>
-            </p>
+                  <persName ref="pers:DECO1">Hon. MR. DECOSMOS</persName> —Mr. Chairman. I scarcely expected a
+                  discssion upon this point; I <lb/> should have supposd that this House would have
+                  voted the money at once. The question is <lb/> whether this Delegation will be
+                  representative or not. I do not intend to offer any factions <lb/> opposition. I
+                  am satisfied that the people will take means to send a people's delegation. <lb/>
+               </p>
 
             <p>
-     Hon. MR. BARNARD—Current report names the gentlemen. The object of sending by 
-     <lb/>
-     delegates is that the terms may be modified if necessary. If unsatisfactory, will not the people 
-     <lb/>
-    have a right to say: "How could we expect anything better." Here are two members recent 
-     <lb/>
-           
-
-            <pb n="160" facs="final/images/BC_LC_1870-04-06_Page_160.jpg"/>
-            <fw type="num">160</fw>
-            <fw type="running">CONFEDERATION DEBATE.</fw>
-          
-
-     converts, and one a decided opponent. How can a popular member go to his constituents after 
-     <lb/>
-     voting this money? The people are in earnest in this matter. I stand on the floor of this House 
-     <lb/>
-     a Government contractor, and likely to support the Government, but so long as I gave a straight 
-     <lb/>
-     vote on Confederation my constituents cared not about anything else. On the Mainland we have 
-     <lb/>
-     been firm on Confederation all through, and the Mainland is ignored. The two Hon. gentlemen 
-     <lb/>
-     at the head of this table represent the Island, and the other Hon. Member represents the Island. 
-     <lb/>
-     The Mainland is not going to be satisfied, particularly when the Hon. senior Member for Victoria, 
-     <lb/>
-     who has consistently opposed. and will oppose, Confederation. is lo be one of the Delegation. 
-     <lb/>
-     For the first time in twenty years the Hon. gentleman leaves this Island. He knows nothing 
-     <lb/>
-     about the interior of the country. 
-     <lb/>
-            </p>
+                  <persName ref="pers:BARN1">Hon. MR. BARNARD</persName> —Current report names the gentlemen. The
+                  object of sending by <lb/> delegates is that the terms may be modified if
+                  necessary. If unsatisfactory, will not the people <lb/> have a right to say: "How
+                  could we expect anything better." Here are two members recent <lb/>
+                  <pb n="160" facs="final/images/BC_LC_1870-04-06_Page_160.jpg"/>
+                  <fw type="num">160</fw>
+                  <fw type="running">CONFEDERATION DEBATE.</fw> converts, and one a decided
+                  opponent. How can a popular member go to his constituents after <lb/> voting this
+                  money? The people are in earnest in this matter. I stand on the floor of this
+                  House <lb/> a Government contractor, and likely to support the Government, but so
+                  long as I gave a straight <lb/> vote on Confederation my constituents cared not
+                  about anything else. On the Mainland we have <lb/> been firm on Confederation all
+                  through, and the Mainland is ignored. The two Hon. gentlemen <lb/> at the head of
+                  this table represent the Island, and the other Hon. Member represents the Island.
+                  <lb/> The Mainland is not going to be satisfied, particularly when the Hon. senior
+                  Member for Victoria, <lb/> who has consistently opposed. and will oppose,
+                  Confederation. is lo be one of the Delegation. <lb/> For the first time in twenty
+                  years the Hon. gentleman leaves this Island. He knows nothing <lb/> about the
+                  interior of the country. <lb/>
+               </p>
 
             <p>
-     Hon. MR. DRAKE—The Hon. Chief Commissioner stated that the whole of the recom<lb break="no"/>mendations were carried, except one, by the majority of the popular vote. I instance free port 
-     <lb/>
-     and the telegraph to the contrary. 
-     <lb/>
-            </p>
+                  <persName ref="pers:DRAK1">Hon. MR. DRAKE</persName> —The Hon. Chief Commissioner stated that the
+                  whole of the recom<lb break="no"/>mendations were carried, except one, by the
+                  majority of the popular vote. I instance free port <lb/> and the telegraph to the
+                  contrary. <lb/>
+               </p>
 
             <p>
-     Hon. CHIEF COMMISSIONER—I must explain that I spoke from recollection. I was not 
-     <lb/>
-     in the House. 
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. CHIEF COMMISSIONER</persName> —I must explain that I spoke from
+                  recollection. I was not <lb/> in the House. <lb/>
+               </p>
 
             <p>
-     Hon. MR. ROBSON—I claim that the official members who voted against Responsible 
-     <lb/>
-     Government must be struck out. But if we allow them to be counted, there is still a majority 
-     <lb/>
-     of six to three of the representative members in favour of Responsible Government; and I say 
-     <lb/>
-     that this resolution ought to be transmitted with such explanation as is necessary. With regard 
-     <lb/>
-     to Responsible Government being in the hands of: the New Council, Members will, we may 
-     <lb/>
-     presume, be elected for four years; consequently, the question will, in all probability, be post<lb break="no"/>poned for four years. And I say that those who keep back Responsible Government will run 
-     <lb/>
-     a great risk of having Confederation defeated at the polls. Some Hon. Members may desire 
-     <lb/>
-     such a result. If so. I can understand the course they are taking. With regard to the 
-     <lb/>
-     individuals going on the Delegation, if we are to take the general rumour, there is not one 
-     <lb/>
-     who will properly represent: the Mainland. There are two recent converts, and one open 
-     <lb/>
-     opponent of Confederation, an implacable and politically unprincipled enemy to Confederation, 
-     <lb/>
-     leagued with some power, I won't say with the cloven-footed gentleman, but with some power 
-     <lb/>
-     to defeat Confederation. The people will not be satisfied. It is extraordinary thumbs: Governor 
-     <lb/>
-     should make such a selection, ignoring the whole Confederation party and the whole Mainland 
-     <lb/>
-     as a territory. I could not justify myselll it I voted for this resolution, which will virtually be 
-     <lb/>
-     voting for three island Members, two recent converts and one—[No, no, from Dr. Helmcken] <lb/> well, I won't say it again. (Laughter) I can understand a Government dishonest at heart 
-     <lb/>
-     pursuing this course. but I cannot understand a Government that is true to the cause doing so. 
-     <lb/>
-            </p>
+                  <persName ref="pers:ROBS1">Hon. MR. ROBSON</persName> —I claim that the official members who voted
+                  against Responsible <lb/> Government must be struck out. But if we allow them to
+                  be counted, there is still a majority <lb/> of six to three of the representative
+                  members in favour of Responsible Government; and I say <lb/> that this resolution
+                  ought to be transmitted with such explanation as is necessary. With regard <lb/>
+                  to Responsible Government being in the hands of: the New Council, Members will, we
+                  may <lb/> presume, be elected for four years; consequently, the question will, in
+                  all probability, be post<lb break="no"/>poned for four years. And I say that those
+                  who keep back Responsible Government will run <lb/> a great risk of having
+                  Confederation defeated at the polls. Some Hon. Members may desire <lb/> such a
+                  result. If so. I can understand the course they are taking. With regard to the
+                  <lb/> individuals going on the Delegation, if we are to take the general rumour,
+                  there is not one <lb/> who will properly represent: the Mainland. There are two
+                  recent converts, and one open <lb/> opponent of Confederation, an implacable and
+                  politically unprincipled enemy to Confederation, <lb/> leagued with some power, I
+                  won't say with the cloven-footed gentleman, but with some power <lb/> to defeat
+                  Confederation. The people will not be satisfied. It is extraordinary thumbs:
+                  Governor <lb/> should make such a selection, ignoring the whole Confederation
+                  party and the whole Mainland <lb/> as a territory. I could not justify myselll it
+                  I voted for this resolution, which will virtually be <lb/> voting for three island
+                  Members, two recent converts and one—[No, no, from Dr. Helmcken] <lb/> well, I
+                  won't say it again. (Laughter) I can understand a Government dishonest at heart
+                  <lb/> pursuing this course. but I cannot understand a Government that is true to
+                  the cause doing so. <lb/>
+               </p>
 
             <p>
-     Hon. CHIEF COMMISSIONER—Mr. Chairman, Hon. Members seem to be in position of 
-     <lb/>
-     fighting shadows in the dark. If they are wroug in their suppositions all the words that have 
-     <lb/>
-     been spoken today are thrown away. I fully concur in what fell from the Hon. Collector of 
-     <lb/>
-     Customs, that it is not proper that these names should be given. Hon. Members who favour 
-     <lb/>
-     Confederation should be the last to object to the Governor's selecting members. 
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. CHIEF COMMISSIONER</persName> —Mr. Chairman, Hon. Members seem to
+                  be in position of <lb/> fighting shadows in the dark. If they are wroug in their
+                  suppositions all the words that have <lb/> been spoken today are thrown away. I
+                  fully concur in what fell from the Hon. Collector of <lb/> Customs, that it is not
+                  proper that these names should be given. Hon. Members who favour <lb/>
+                  Confederation should be the last to object to the Governor's selecting members.
+                  <lb/>
+               </p>
 
             <p>
-     Hon. Mr. ROBSON—I have faith in the honesty of His Excellency in the matter of Con<lb break="no"/>federation. The only act that shook me and other Confederationists was the appointment of 
-     <lb/>
-     the Hon. Member for Victoria City lo the Executive Council. I believe His Excellency to be a 
-     <lb/>
-     Confederate at heart. I will. in order to simplifv matters, move to report progress. and ask 
-     <lb/>
-     leave to sit again, so that the Governor may have the opportunity of sending down names, or, 
-     <lb/>
-     at all events, of satisfying the Mainland that their interests, and Responsible Government, are 
-     <lb/>
-     cared for. 
-     <lb/>
-            </p>
+                  <persName ref="pers:ROBS1">Hon. Mr. ROBSON</persName> —I have faith in the honesty of His
+                  Excellency in the matter of Con<lb break="no"/>federation. The only act that shook
+                  me and other Confederationists was the appointment of <lb/> the Hon. Member for
+                  Victoria City lo the Executive Council. I believe His Excellency to be a <lb/>
+                  Confederate at heart. I will. in order to simplifv matters, move to report
+                  progress. and ask <lb/> leave to sit again, so that the Governor may have the
+                  opportunity of sending down names, or, <lb/> at all events, of satisfying the
+                  Mainland that their interests, and Responsible Government, are <lb/> cared for.
+                  <lb/>
+               </p>
 
             <p>
      The motion to rise and report progress was lost. 
@@ -670,115 +566,88 @@
             </p>
 
             <p>
-     Hon. MR. RING—I think this debate, it it may be so called, is quite uncalled for and 
-     <lb/>
-     unnecessary. It is ridiculous to bring up the names of men who may possibly go to Ottawa 
-     <lb/>
-     and discuss them; it ought not to be allowed; it is waste of time and lungs. I had prepared 
-     <lb/>
-     a resolution that the terms should be sent by post. but I see that it would be vain to put it to 
-     <lb/>
-     the vote. If delegates go they ought to be properly equipped. I shall not, therefore, oppose 
-     <lb/>
-     the vote. 
-     <lb/>
-            </p>
+                  <persName ref="pers:RING1">Hon. MR. RING</persName> —I think this debate, it it may be so called,
+                  is quite uncalled for and <lb/> unnecessary. It is ridiculous to bring up the
+                  names of men who may possibly go to Ottawa <lb/> and discuss them; it ought not to
+                  be allowed; it is waste of time and lungs. I had prepared <lb/> a resolution that
+                  the terms should be sent by post. but I see that it would be vain to put it to
+                  <lb/> the vote. If delegates go they ought to be properly equipped. I shall not,
+                  therefore, oppose <lb/> the vote. <lb/>
+               </p>
 
             <p>
-     Hon. MR. DEWDNEY—I agree with the Hon. Member for Nanaimo that this debate is 
-     <lb/>
-     waste of time. I think the Mainland will be represented. 
-     <lb/>
-            </p>
+                  <persName ref="pers:DEWD1">Hon. MR. DEWDNEY</persName> —I agree with the Hon. Member for Nanaimo
+                  that this debate is <lb/> waste of time. I think the Mainland will be represented.
+                  <lb/>
+               </p>
 
             <p>
-     Hon. MR. DECOSMOS—I think it is not a question whether Island or Mainland is repre<lb break="no"/>sented. We want the views of different parties represented, leaving out the Mainland and 
-     <lb/>
-     Island. 
-     <lb/>
-            </p>
+                  <persName ref="pers:DECO1">Hon. MR. DECOSMOS</persName> —I think it is not a question whether
+                  Island or Mainland is repre<lb break="no"/>sented. We want the views of different
+                  parties represented, leaving out the Mainland and <lb/> Island. <lb/>
+               </p>
 
             <pb n="161" facs="final/images/BC_LC_1870-04-06_Page_161.jpg"/>
             <fw type="num">CONFEDERATION DEBATE.</fw> <fw type="num">161</fw>
 
 
             <p>
-     Hon. MR. ROBSON—I express a hope that the Government will not press  Government 
-     <lb/>
-    vote. 
-     <lb/>
-            </p>
+                  <persName ref="pers:ROBS1">Hon. MR. ROBSON</persName> —I express a hope that the Government will
+                  not press Government <lb/> vote. <lb/>
+               </p>
 
     
 
             <p>
-     Hon. ATTORNEY-GENERAL—I can inform Hon. Members that I feel perfectly satisfied 
-     <lb/>
-     that the Governor will not: send down names. The Hon. Member who names the Delegates has 
-     <lb/>
-     better information than myself. The House having given unanimous adhesion to the terms. 
-     <lb/>
-     —[No, no, I was the exception,—Hon. Mr. DeCosmos.] —at all events it was passed by a 
-     <lb/>
-     majority, and so becomes the act of the Council,—we could not expect Canada to send Delegates 
-     <lb/>
-     here; they would be unable to refer to the Executive Council. It must injure the terms if in 
-     <lb/>
-     the debates of this House an expression of opinion goes forth to the world that the Governor 
-     <lb/>
-    has not Confederation truly at heart. The Hon. Member for New Westminster says that I am 
-     <lb/>a convert, and that I represent Victoria. I am glad that the old idea that I leaned too much 
-     <lb/>to New Westminster is exploded; I should be sorry that it should run in the other direction. 
-     <lb/>The Hon. Member for New Westminster has told us if we cannot; get Responsible Government, 
-     <lb/>he would not consent to make it a <hi rendition="simple:italic">sine qua non</hi>. 
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. ATTORNEY-GENERAL</persName> —I can inform Hon. Members that I feel
+                  perfectly satisfied <lb/> that the Governor will not: send down names. The Hon.
+                  Member who names the Delegates has <lb/> better information than myself. The House
+                  having given unanimous adhesion to the terms. <lb/> —[No, no, I was the
+                  exception,—Hon. Mr. DeCosmos.] —at all events it was passed by a <lb/> majority,
+                  and so becomes the act of the Council,—we could not expect Canada to send
+                  Delegates <lb/> here; they would be unable to refer to the Executive Council. It
+                  must injure the terms if in <lb/> the debates of this House an expression of
+                  opinion goes forth to the world that the Governor <lb/> has not Confederation
+                  truly at heart. The Hon. Member for New Westminster says that I am <lb/>a convert,
+                  and that I represent Victoria. I am glad that the old idea that I leaned too much
+                  <lb/>to New Westminster is exploded; I should be sorry that it should run in the
+                  other direction. <lb/>The Hon. Member for New Westminster has told us if we
+                  cannot; get Responsible Government, <lb/>he would not consent to make it a <hi
+                     rendition="simple:italic">sine qua non</hi>. <lb/>
+               </p>
 
     
 
             <p>
-     Hon. MR.. ROBSON—I have never said that Confederation would be refused without 
-     <lb/>
-     Responsible Government. 
-     <lb/>
-            </p>
+                  <persName ref="pers:ROBS1">Hon. MR. ROBSON</persName> —I have never said that Confederation would
+                  be refused without <lb/> Responsible Government. <lb/>
+               </p>
 
             <p>
-     Hon. ATTORNEY-GENERAL— I have no doubth am not speaking from positive knowledge 
-     <lb/>
-     —that the Delegates will be clothed with full power to discuss all the suggestions made on this 
-     <lb/>
-     matter. If Responsible Government is started by the Canadian Cabinet it will receive full 
-     <lb/>
-     consideration 
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. ATTORNEY-GENERAL</persName> — I have no doubth am not speaking from
+                  positive knowledge <lb/> —that the Delegates will be clothed with full power to
+                  discuss all the suggestions made on this <lb/> matter. If Responsible Government
+                  is started by the Canadian Cabinet it will receive full <lb/> consideration <lb/>
+               </p>
 
             <p>
-     Hon. MR. HUMPHREYS—The people do not mistrust His Excellency, but they do think 
-     <lb/>
-     that if certain Members of the Government are sent on this Delegation they will endeavour to 
-     <lb/>
-     keep up the present system. I am satisfied that if the Hon. Members named are sent, Con<lb break="no"/>federation is killed. 
-     <lb/>
-            </p>
+                  <persName ref="pers:HUMP1">Hon. MR. HUMPHREYS</persName> —The people do not mistrust His
+                  Excellency, but they do think <lb/> that if certain Members of the Government are
+                  sent on this Delegation they will endeavour to <lb/> keep up the present system. I
+                  am satisfied that if the Hon. Members named are sent, Con<lb break="no"
+                  />federation is killed. <lb/>
+               </p>
 
             <p>
-     Hon. CHIEF COMMISSIONER said those who support Confederation are injuring the 
-     <lb/>
-     cause. I believe, Sir, that it a consistent supporter of Confederation from the Island, and one 
-     <lb/>
-     from British Columbia are sent as this Delegation, with one Member of the Government, such 
-     <lb/>
-     a Delegation would carry confidence even if the terms were modified. I propose to vote for 
-     <lb/>
-     this resolution. I hope the Delegates will be such as will give satisfaction. I contend that 
-     <lb/>
-     there are orlicials who would add weight to that Delegation, and I should not like to see official 
-     <lb/>
-     members left out.   
-     <lb/>
-            </p>
+                  <persName ref="pers:SPEA1">Hon. CHIEF COMMISSIONER</persName> said those who support Confederation
+                  are injuring the <lb/> cause. I believe, Sir, that it a consistent supporter of
+                  Confederation from the Island, and one <lb/> from British Columbia are sent as
+                  this Delegation, with one Member of the Government, such <lb/> a Delegation would
+                  carry confidence even if the terms were modified. I propose to vote for <lb/> this
+                  resolution. I hope the Delegates will be such as will give satisfaction. I contend
+                  that <lb/> there are orlicials who would add weight to that Delegation, and I
+                  should not like to see official <lb/> members left out.   <lb/>
+               </p>
 
             <p>
      On division the resolution was carried, only one vote being against it. 
