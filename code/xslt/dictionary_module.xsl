@@ -83,7 +83,7 @@
       and similar characters. -->
   <xsl:function name="hcmc:prepText" as="xs:string*">
     <xsl:param name="inStr" as="xs:string*"/>
-    <xsl:value-of select="replace(translate($inStr, concat($doubleQuote, '?!%$()[]`~*.,:;'), ''),'[‘’]', $singleQuote)"/>
+    <xsl:value-of select="replace(translate(translate($inStr, '—', ''), concat($doubleQuote, '?!%$()[]`~*.,:;'), ''),'[‘’]', $singleQuote)"/>
   </xsl:function>
   
 <!-- This function gets the last word or part-word of a text 
@@ -92,15 +92,15 @@
     <xsl:param name="inLine" as="xs:string"/>
     <xsl:value-of select="replace(
                             hcmc:prepText(
-                            tokenize(normalize-space($inLine), '[\s—]+')[last()]
-                              ), '[\-–—]+\s*$', '')"/>
+                            tokenize(normalize-space($inLine), '[\s]+')[last()]
+                              ), '[\-–]+\s*$', '')"/>
   </xsl:function>
   
 <!-- This function gets the first word or part-word of a text
      run in a form which can be used in other functions. -->
   <xsl:function name="hcmc:getFirstBit" as="xs:string">
     <xsl:param name="inLine" as="xs:string"/>
-    <xsl:value-of select="hcmc:prepText(tokenize(normalize-space($inLine), '([\s—]+)')[1])"/>
+    <xsl:value-of select="hcmc:prepText(tokenize(normalize-space($inLine), '([\s]+)')[1])"/>
   </xsl:function>
   
 <!-- The following templates, all in the lbpass1 and lbpass2 modes, 
@@ -121,7 +121,7 @@
   
 <!-- This is the trigger template which finds a line ending with a hyphen
      and makes the decision, encoding the result in the lb tag.  -->
-  <xsl:template mode="lbpass1" match="tei:lb[matches(preceding::text()[1], '[\-–—]+\s*$')]">
+  <xsl:template mode="lbpass1" match="tei:lb[matches(preceding::text()[1], '[\-–]+\s*$')]">
     <xsl:variable name="firstBit" select="hcmc:getLastBit(preceding::text()[1])"/>
     <xsl:variable name="secondBit" select="hcmc:getFirstBit(following::text()[1])"/>
     <lb xmlns="http://www.tei-c.org/ns/1.0" break="{hcmc:isRealBreak($firstBit, $secondBit)}"/>
@@ -134,13 +134,13 @@
 <!--   If it both follows a non-break 
       and precedes one, it gets both operations.-->
       <xsl:when test="preceding::*[1][not(self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw)][self::tei:lb[@break='no']] and following::*[not(self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw)][1][self::tei:lb[@break='no']]">
-        <xsl:value-of select="replace(replace(., '[\-–—]+\s*$', ''), '^\s+', '')"/>
+        <xsl:value-of select="replace(replace(., '[\-–]+\s*$', ''), '^\s+', '')"/>
       </xsl:when>
       <xsl:when test="preceding::*[not(self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw)][1][self::tei:lb[@break='no']]">
         <xsl:value-of select="replace(., '^\s+', '')"/>
       </xsl:when>
       <xsl:when test="following::*[not(self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw)][1][self::tei:lb[@break='no']]">
-        <xsl:value-of select="replace(., '[\-–—]+\s*$', '')"/>
+        <xsl:value-of select="replace(., '[\-–]+\s*$', '')"/>
       </xsl:when>
       <!--<xsl:when test="preceding::node()[1][self::tei:lb[@break='no']] and following::node()[1][self::tei:pb or self::tei:milestone or self::tei:cb or self::tei:fw]">
         <xsl:value-of select="replace(., '^\s+', '')"/>
