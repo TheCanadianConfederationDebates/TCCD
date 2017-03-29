@@ -73,7 +73,7 @@
 <!--   We start with a number of checks and tests to avoid disaster. -->
     
 <!--   Figure out what document we're importing. We want to make sure we have usable input. -->
-    <xsl:variable name="inputPersonographyId" select="substring-before(tokenize(document-uri(/), '/'), '_expanded.xml')"/>
+    <xsl:variable name="inputPersonographyId" select="substring-before(tokenize(document-uri(/), '/')[last()], '_expanded.xml')"/>
     <xsl:if test="not(matches($inputPersonographyId, '[a-zA-Z0-9_]+'))">
       <xsl:message terminate="yes">
         The input personography filename is not in the expected format. It 
@@ -86,161 +86,221 @@
       </xsl:message>
     </xsl:if>
     
-    <xsl:if test="$existingPersonography//listPerson[@xml:id=$inputPersonographyId]">
+    <!--<xsl:if test="$existingPersonography//listPerson[@xml:id=$inputPersonographyId]">
       <xsl:message>This process will overwrite the contents of the listPerson
       element with the @xml:id "<xsl:value-of select="$inputPersonographyId"/>" with 
       the contents of the expanded FODS file. If this was not your intention, 
       revert personography.xml file to its state prior to this process.</xsl:message>
-    </xsl:if>
-       
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="personography">
-      <teiHeader>
-        <xsl:copy-of select="$existingPersonography//fileDesc"/>
-        <profileDesc>
-          <particDesc>
-            
-            <xsl:copy-of select="$existingPersonography//listPerson[not(@xml:id=$inputPersonographyId)]"/>
-            
-            <listPerson xml:id="{$inputPersonographyId}">
-              
-<!--  Find a variety of column offsets we're going to need.            -->
-              <xsl:variable name="idCol" select="hcmc:getColOffsetFromCaption('xml:id')"/>
-              <xsl:variable name="titleCol" select="hcmc:getColOffsetFromCaption('Title')"/>
-              <xsl:variable name="addNameCol" select="hcmc:getColOffsetFromCaption('Additional Names')"/>
-              <xsl:variable name="surnameCol" select="hcmc:getColOffsetFromCaption('Last Name')"/>
-              <xsl:variable name="firstNameCol" select="hcmc:getColOffsetFromCaption('First Name')"/>
-              <xsl:variable name="middleNameCol" select="hcmc:getColOffsetFromCaption('Middle Name')"/>
-              <xsl:variable name="yearCol" select="hcmc:getColOffsetFromCaption('Year')"/>
-              <xsl:variable name="ridingCol" select="hcmc:getColOffsetFromCaption('Riding')"/>
-              <xsl:variable name="roleCol" select="hcmc:getColOffsetFromCaption('Roles')"/>
-              <xsl:variable name="enBioLinkCol" select="hcmc:getColOffsetFromCaption('DCB English')"/>
-              <xsl:variable name="frBioLinkCol" select="hcmc:getColOffsetFromCaption('DCB French')"/>
-              <xsl:variable name="commentsCol" select="hcmc:getColOffsetFromCaption('Comments')"/>
-              <xsl:variable name="treatyNumCol" select="hcmc:getColOffsetFromCaption('Treaty #')"/>
-              <xsl:variable name="treatyLocCol" select="hcmc:getColOffsetFromCaption('Treaty Signature location')"/>
-              
-              <xsl:variable name="people">
-                <xsl:for-each select="distinct-values(//table:table-row[position() ge 2]/table:table-cell[$idCol]/normalize-space(.))">
-                  <xsl:variable name="currId" select="."/>
-                  <xsl:if test="$currId ne ''">
-                    
-<!--             Let's just check we're not creating an id collision.       -->
-                    <xsl:if test="$existingPersonography//listPerson[not(@xml:id=$inputPersonographyId)]//person[@xml:id=$currId]">
-                      <xsl:message terminate="yes">
-                        ERROR: There is a collision of @xml:id values. The incoming file has a 
-                        person with id "<xsl:value-of select="$currId"/>, and there is an 
-                        existing person in a different listPerson element with the same @xml:id.
-                      </xsl:message>
-                    </xsl:if>
-                    
-                    <person xml:id="{$currId}">
-    <!--        We need to retrieve and merge instances of names for this person.
-                They may change slightly over time, but if they don't, we may 
-                collapse them later on.-->
-                      <xsl:variable name="persNames">
-                        <xsl:for-each select="$docRoot//table:table-row[normalize-space(table:table-cell[$idCol]) = $currId]">
-                          <xsl:sort select="table:table-cell[$yearCol]"/>
-                          <xsl:variable name="thisRow" select="."/>
-                          <xsl:variable name="currYear" select="normalize-space($thisRow/table:table-cell[$yearCol])"/>
-                          <persName when="{$currYear}">
-                            <surname><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$surnameCol])"/></surname><xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$firstNameCol])) gt 0">,
-                            <forename><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$firstNameCol])"/></forename></xsl:if>
-                            <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$middleNameCol])) gt 0"><forename><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$middleNameCol])"/></forename></xsl:if>
-                            <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$addNameCol])) gt 0"><xsl:text> </xsl:text>(<addName><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$addNameCol])"/></addName>)</xsl:if>
-                            <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$titleCol])) gt 0"><xsl:text> </xsl:text>(<roleName><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$titleCol])"/></roleName>)</xsl:if>
-                          </persName>
-                          
-<!--        We get their "affiliation" (usually riding) for this row.                  -->
-                          <affiliation when="{$currYear}"><xsl:value-of select="normalize-space($thisRow/table:table-cell[$ridingCol])"/></affiliation>
-                          
-<!--        We get their role (often within a band or as a representative of some kind) and store it in <state>.   -->
-                          <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$roleCol])) gt 0">
-                            <state when="{$currYear}">
-                              <label><xsl:value-of select="normalize-space($thisRow/table:table-cell[$roleCol])"/></label>
-                              <xsl:variable name="treatyLoc" select="replace(normalize-space($thisRow/table:table-cell[$treatyLocCol]), 'signed at ', '')"/>          <xsl:variable name="treatyNum" select="normalize-space($thisRow/table:table-cell[$treatyNumCol])"/>
-                              <xsl:if test="string-length($treatyLoc) gt 0 or string-length($treatyNum) gt 0">
-                                <note>
-                                  <xsl:if test="string-length($treatyNum) gt 0">Treaty # <num type="treaty"><xsl:value-of select="$treatyNum"/></num>. </xsl:if>
-                                  <xsl:if test="string-length($treatyLoc) gt 0">Location: <placeName><xsl:value-of select="$treatyLoc"/></placeName>. </xsl:if>
-                                </note>
-                              </xsl:if>
-                            </state>
-                          </xsl:if>
-                        </xsl:for-each>
-                      </xsl:variable>
-                      
-    <!--      Now we issue a warning if the first and last names don't match, just in case.        -->
-                      <xsl:for-each select="$persNames/persName">
-                        <xsl:if test="position() gt 1">
-                        <xsl:variable name="pos" select="position()"/>
-                          <xsl:if test="not(lower-case(surname[1]) = lower-case($persNames/persName[$pos - 1]/surname[1])) or not(lower-case(forename[1]) = lower-case($persNames/persName[$pos - 1]/forename[1]))">
-                            <xsl:text>&#x0a;</xsl:text>
-                            <xsl:comment>WARNING: person with @xml:id="<xsl:value-of select="$currId"/>" has non-matching names: <xsl:value-of select="concat(surname[1], ', ', forename[1], ' versus ', $persNames/persName[$pos - 1]/surname[1], ', ', $persNames/persName[$pos - 1]/forename[1])"/>.</xsl:comment>
-                            <xsl:text>&#x0a;</xsl:text>
-                        </xsl:if>
-                        </xsl:if>
-                      </xsl:for-each>
-                      
-    <!--      We currently don't bother trying to collapse the names in the output; it's
-              a bit difficult to figure out what constitutes a difference. -->
-                      <!--<xsl:sequence select="$persNames"/>-->
-                      <xsl:for-each select="$persNames/node()">
-                        <xsl:choose>
-                          <xsl:when test="self::persName and preceding-sibling::persName">
-                            <xsl:if test="not(xs:string(.) = xs:string(preceding-sibling::persName[1]))">
-                              <xsl:copy-of select="."/>
-                            </xsl:if>
-                          </xsl:when>
-                          <xsl:otherwise>
-                            <xsl:copy-of select="."/>
-                          </xsl:otherwise>
-                        </xsl:choose>
-                      </xsl:for-each>
-
-<!--      Now we're dealing with things which SHOULD NOT be different from row to row.                  -->
-                      <xsl:variable name="enBioLinks" select="distinct-values($docRoot//table:table-row[normalize-space(table:table-cell[$idCol]) = $currId]/table:table-cell[$enBioLinkCol][string-length(normalize-space(.)) gt 8]/normalize-space(.))"/>
-                      <xsl:variable name="frBioLinks" select="distinct-values($docRoot//table:table-row[normalize-space(table:table-cell[$idCol]) = $currId]/table:table-cell[$frBioLinkCol][string-length(normalize-space(.)) gt 8]/normalize-space(.))"/>
-                      <xsl:if test="count($enBioLinks) gt 0 or count($frBioLinks) gt 0">
-                        <listBibl>
-                          <xsl:for-each select="$enBioLinks">
-                            <bibl xml:lang="en"><ptr target="{.}"/></bibl>
-                          </xsl:for-each>
-                          <xsl:for-each select="$frBioLinks">
-                            <bibl xml:lang="fr"><ptr target="{.}"/></bibl>
-                          </xsl:for-each>
-                        </listBibl>
-                      </xsl:if>
-                      
-<!--      Comments columns                -->
-                      <xsl:for-each select="distinct-values($docRoot//table:table-row[normalize-space(table:table-cell[$idCol]) = $currId]/table:table-cell[$commentsCol][string-length(normalize-space(.)) gt 0]/normalize-space(.))">
-                        <note><xsl:value-of select="."/></note>
-                      </xsl:for-each>
-                      
-                    </person>
-                  </xsl:if>
-                </xsl:for-each>
-              </xsl:variable>
-              
-              <xsl:result-document href="personography-errors.txt" method="text" encoding="UTF-8" normalization-form="NFC">
-                <xsl:for-each select="$people/descendant::comment()">
-                  <xsl:text>&#x0a;</xsl:text>
-                  <xsl:value-of select="."/>
-                  <xsl:text>&#x0a;</xsl:text>
-                </xsl:for-each>
-              </xsl:result-document>
-              <xsl:sequence select="$people"/>
-            </listPerson>
-          </particDesc>
-        </profileDesc>
-      </teiHeader>
-      <text>
-        <xsl:copy-of select="//body"/>
-      </text>
-    </TEI>
+    </xsl:if>-->
     
+<!--  This part is a rewrite to handle the integration of treaty data. This data 
+      is particularly difficulty since it shares people with the original legislature
+      data. What we do is:
+    
+      1. Create a fresh listPerson for the incoming data, stored in a variable which 
+         will be tunnelled as a parameter to the next phase.
+      
+      2. Apply templates in mode="merge" to the existing listPerson/person elements
+         in the target file, such that any person elements in the existing data which
+         have a match in the new data have the new data content merged into them; others 
+         are left unchanged. 
+         
+      3. Apply templates in mode="add" to the treaty person elements, such that any 
+         with matches in the existing data are ignored (having already had their data
+         merged), but any that are new are added.
+         
+      This is essentially an identity transform with some special features.
+    
+    -->
+    
+    <xsl:variable name="newPersons">
+      <listPerson xml:id="{$inputPersonographyId}">
+        <!--  Find a variety of column offsets we're going to need.            -->
+        <xsl:variable name="idCol" select="hcmc:getColOffsetFromCaption('xml:id')"/>
+        <xsl:variable name="titleCol" select="hcmc:getColOffsetFromCaption('Title')"/>
+        <xsl:variable name="addNameCol" select="hcmc:getColOffsetFromCaption('Additional Names')"/>
+        <xsl:variable name="surnameCol" select="hcmc:getColOffsetFromCaption('Last Name')"/>
+        <xsl:variable name="firstNameCol" select="hcmc:getColOffsetFromCaption('First Name')"/>
+        <xsl:variable name="middleNameCol" select="hcmc:getColOffsetFromCaption('Middle Name')"/>
+        <xsl:variable name="yearCol" select="hcmc:getColOffsetFromCaption('Year')"/>
+        <xsl:variable name="ridingCol" select="hcmc:getColOffsetFromCaption('Riding')"/>
+        <xsl:variable name="roleCol" select="hcmc:getColOffsetFromCaption('Roles')"/>
+        <xsl:variable name="enBioLinkCol" select="hcmc:getColOffsetFromCaption('DCB English')"/>
+        <xsl:variable name="frBioLinkCol" select="hcmc:getColOffsetFromCaption('DCB French')"/>
+        <xsl:variable name="commentsCol" select="hcmc:getColOffsetFromCaption('Comments')"/>
+        <xsl:variable name="treatyNumCol" select="hcmc:getColOffsetFromCaption('Treaty #')"/>
+        <xsl:variable name="treatyLocCol" select="hcmc:getColOffsetFromCaption('Treaty Signature location')"/>
+        
+
+        <xsl:for-each select="distinct-values(//table:table-row[position() ge 2]/table:table-cell[$idCol]/normalize-space(.))">
+          <xsl:variable name="currId" select="if (. = '') then concat('XXXX', position()) else ."/>
+          
+          <person xml:id="{$currId}">
+            <!--        We need to retrieve and merge instances of names for this person.
+              They may change slightly over time, but if they don't, we may 
+              collapse them later on.-->
+            <xsl:variable name="persNames">
+              <xsl:for-each select="$docRoot//table:table-row[normalize-space(table:table-cell[$idCol]) = $currId]">
+                <xsl:sort select="table:table-cell[$yearCol]"/>
+                <xsl:variable name="thisRow" select="."/>
+                <xsl:variable name="currYear" select="normalize-space($thisRow/table:table-cell[$yearCol])"/>
+                <persName when="{$currYear}">
+                  <surname><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$surnameCol])"/></surname><xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$firstNameCol])) gt 0">,
+                    <forename><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$firstNameCol])"/></forename></xsl:if>
+                  <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$middleNameCol])) gt 0"><forename><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$middleNameCol])"/></forename></xsl:if>
+                  <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$addNameCol])) gt 0"><xsl:text> </xsl:text>(<addName><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$addNameCol])"/></addName>)</xsl:if>
+                  <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$titleCol])) gt 0"><xsl:text> </xsl:text>(<roleName><xsl:value-of select="hcmc:normalCaseName($thisRow/table:table-cell[$titleCol])"/></roleName>)</xsl:if>
+                </persName>
+                
+                <!--        We get their "affiliation" (usually riding) for this row.                  -->
+                <affiliation when="{$currYear}"><xsl:value-of select="normalize-space($thisRow/table:table-cell[$ridingCol])"/></affiliation>
+                
+                <!--        We get their role (often within a band or as a representative of some kind) and store it in <state>.   -->
+                <xsl:if test="string-length(normalize-space($thisRow/table:table-cell[$roleCol])) gt 0">
+                  <state when="{$currYear}">
+                    <label><xsl:value-of select="normalize-space($thisRow/table:table-cell[$roleCol])"/></label>
+                    <xsl:variable name="treatyLoc" select="replace(normalize-space($thisRow/table:table-cell[$treatyLocCol]), 'signed at ', '')"/>          <xsl:variable name="treatyNum" select="normalize-space($thisRow/table:table-cell[$treatyNumCol])"/>
+                    <xsl:if test="string-length($treatyLoc) gt 0 or string-length($treatyNum) gt 0">
+                      <note>
+                        <xsl:if test="string-length($treatyNum) gt 0">Treaty # <num type="treaty"><xsl:value-of select="$treatyNum"/></num>. </xsl:if>
+                        <xsl:if test="string-length($treatyLoc) gt 0">Location: <placeName><xsl:value-of select="$treatyLoc"/></placeName>. </xsl:if>
+                      </note>
+                    </xsl:if>
+                  </state>
+                </xsl:if>
+              </xsl:for-each>
+            </xsl:variable>
+            
+            <!--      Now we issue a warning if the first and last names don't match, just in case.        -->
+            <xsl:for-each select="$persNames/persName">
+              <xsl:if test="position() gt 1">
+                <xsl:variable name="pos" select="position()"/>
+                <xsl:if test="not(lower-case(surname[1]) = lower-case($persNames/persName[$pos - 1]/surname[1])) or not(lower-case(forename[1]) = lower-case($persNames/persName[$pos - 1]/forename[1]))">
+                  <xsl:text>&#x0a;</xsl:text>
+                  <xsl:comment>WARNING: person with @xml:id="<xsl:value-of select="$currId"/>" has non-matching names: <xsl:value-of select="concat(surname[1], ', ', forename[1], ' versus ', $persNames/persName[$pos - 1]/surname[1], ', ', $persNames/persName[$pos - 1]/forename[1])"/>.</xsl:comment>
+                  <xsl:text>&#x0a;</xsl:text>
+                </xsl:if>
+              </xsl:if>
+            </xsl:for-each>
+            
+            <!--      We currently don't bother trying to collapse the names in the output; it's
+            a bit difficult to figure out what constitutes a difference. -->
+            <!--<xsl:sequence select="$persNames"/>-->
+            <xsl:for-each select="$persNames/node()">
+              <xsl:choose>
+                <xsl:when test="self::persName and preceding-sibling::persName">
+                  <xsl:if test="not(xs:string(.) = xs:string(preceding-sibling::persName[1]))">
+                    <xsl:copy-of select="."/>
+                  </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:copy-of select="."/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:for-each>
+            
+            <!--      Now we're dealing with things which SHOULD NOT be different from row to row.                  -->
+            <xsl:variable name="enBioLinks" select="distinct-values($docRoot//table:table-row[normalize-space(table:table-cell[$idCol]) = $currId]/table:table-cell[$enBioLinkCol][string-length(normalize-space(.)) gt 8]/normalize-space(.))"/>
+            <xsl:variable name="frBioLinks" select="distinct-values($docRoot//table:table-row[normalize-space(table:table-cell[$idCol]) = $currId]/table:table-cell[$frBioLinkCol][string-length(normalize-space(.)) gt 8]/normalize-space(.))"/>
+            <xsl:if test="count($enBioLinks) gt 0 or count($frBioLinks) gt 0">
+              <listBibl>
+                <xsl:for-each select="$enBioLinks">
+                  <bibl xml:lang="en"><ptr target="{.}"/></bibl>
+                </xsl:for-each>
+                <xsl:for-each select="$frBioLinks">
+                  <bibl xml:lang="fr"><ptr target="{.}"/></bibl>
+                </xsl:for-each>
+              </listBibl>
+            </xsl:if>
+            
+            <!--      Comments columns                -->
+            <xsl:for-each select="distinct-values($docRoot//table:table-row[normalize-space(table:table-cell[$idCol]) = $currId]/table:table-cell[$commentsCol][string-length(normalize-space(.)) gt 0]/normalize-space(.))">
+              <note><xsl:value-of select="."/></note>
+            </xsl:for-each>
+            
+          </person>
+        </xsl:for-each>
+      </listPerson>
+    </xsl:variable>
+    
+    <xsl:result-document href="{concat($baseDir, 'tempPers.xml')}" method="xml">
+      <xsl:sequence select="$newPersons"/>
+    </xsl:result-document>
+    
+    <xsl:apply-templates select="$existingPersonography" mode="merge">
+      <xsl:with-param name="newList" select="$newPersons" tunnel="yes"/>
+    </xsl:apply-templates>
 
   </xsl:template>
 
+  
+<!-- This is the template that merges persons from new and old. -->
+  <xsl:template match="listPerson[@xml:id='historicalPersonography']" mode="merge">
+    <xsl:param name="newList" tunnel="yes"/>
+    <xsl:variable name="origIds" as="xs:string+" select="//person/@xml:id"/>
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:for-each select="person">
+        <xsl:variable name="currId" select="@xml:id"/>
+        <xsl:variable name="origPerson" select="."/>
+        <xsl:choose>
+          <xsl:when test="$newList//person[@xml:id=$currId]">
+            <xsl:variable name="newData" select="$newList//person[@xml:id = $currId]"/>
+            <xsl:copy>
+              <xsl:copy-of select="@*"/>
+              <xsl:apply-templates select="persName" mode="merge"/>
+              <xsl:apply-templates select="affiliation" mode="merge"/>
+              <xsl:apply-templates select="$newData/affiliation" mode="merge"/>
+              <xsl:apply-templates select="$newData/state" mode="merge"/>
+              <xsl:if test="listBibl or $newData/listBibl">
+                <listBibl>
+                  <xsl:copy-of select="listBibl/bibl"/>
+                  <xsl:for-each select="$newData/listBibl/bibl">
+                    <xsl:variable name="target" select="ptr/@target"/>
+                    <xsl:if test="not($origPerson/listBibl/bibl/ptr[@target=$target])">
+                      <xsl:copy-of select="."/>
+                    </xsl:if>
+                  </xsl:for-each>
+                </listBibl>
+              </xsl:if>
+              <xsl:apply-templates select="note" mode="merge"/>
+              <xsl:apply-templates select="$newData/note" mode="merge"/>
+            </xsl:copy>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:copy-of select="."/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+      
+<!--     Now we add the new persons who don't have a match in the old data. -->
+      <xsl:for-each select="$newList//person[not(@xml:id=$origIds)]">
+        <xsl:apply-templates mode="add" select="."/>
+      </xsl:for-each>
+    </xsl:copy>
+  </xsl:template>
+  
+<!-- Fix curly quotes. -->
+  <xsl:template match="text()" mode="#all">
+    <xsl:value-of select="hcmc:straightenQuotes(.)"/>
+  </xsl:template>
+
+<!-- Massage crappy data from place entries in spreadsheet. -->
+  <xsl:template match="placeName[matches(., '(signed)|(near )')]" mode="#all">
+    <xsl:variable name="firstBit" select="replace(., '((signed at\?|\s)|(or near\s)).+', '$1')"/>
+    <xsl:value-of select="hcmc:straightenQuotes($firstBit)"/>
+    <placeName><xsl:value-of select="hcmc:straightenQuotes(normalize-space(replace(., $firstBit, '')))"/></placeName>
+  </xsl:template>
+
+<!-- Suppress empty affiliations. -->
+  <xsl:template match="affiliation[string-length(normalize-space(.)) lt 1]" mode="#all"/>
+
+<!--  Identity transform. -->
+  <xsl:template match="@*|node()" mode="#all" priority="-1">
+    <xsl:copy>
+      <xsl:apply-templates mode="#current" select="@*|node()"/>
+    </xsl:copy>
+  </xsl:template>
   
 <!-- FUNCTIONS.  -->
   
@@ -268,5 +328,6 @@
     </xsl:choose>
     
   </xsl:function>
+  
 
 </xsl:stylesheet>
