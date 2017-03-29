@@ -25,7 +25,7 @@
   <xsl:variable name="simplePara" as="element()">
     <p> Hon. Mr. Rose moved
       that on Tuesday next <lb/>
-      thel House resolve itself into Committee of <lb/>
+      the House resolve itself into Committee of <lb/>
        <lb/>
       
       <pb n="615"/>
@@ -34,15 +34,17 @@
         <fw type="running">juin 1869</fw>
       </fw> the Whole on the
       resolutions respecting Prince <lb/>
-      Edward Island. Those resolutions, of course, <lb/>
+<!--  Em dashes should not result in breaks.    -->
+      Edward Island. Those resolutions—of course— <lb/>
       did not embody any conclusive arrangement, <lb/>
       but were rather an authority for opening <lb/>
       negotiation with Prince Edward Island on <lb/>
       terms which the Government were not with- <lb/>
       out hope would result in completing the Union <lb/>
       of the British North American Provinces on <lb/>
-      the seaboard at least. The Island was owned <lb/>
-      by some 62 individuals, to whom it was origi— <lb/>
+<!--  Em dashes again.    -->
+      the seaboard at least. The Island was owned — <lb/>
+      apparently — by some 62 individuals, to whom it was origi– <lb/>
       nally granted by the Crown at a merely nom- <lb/>
       inal rent, and as their titles obstructed the <lb/>
       Union it was thought they ought to be extin- <lb/>
