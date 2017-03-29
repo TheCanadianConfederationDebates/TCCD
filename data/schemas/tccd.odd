@@ -143,7 +143,7 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="header"
                           include="abstract authority availability category change classDecl creation distributor edition editionStmt              editorialDecl encodingDesc fileDesc funder idno langUsage language licence listPrefixDef normalization              prefixDef principal profileDesc projectDesc publicationStmt quotation rendition revisionDesc samplingDecl             seriesStmt sourceDesc sponsor taxonomy teiHeader titleStmt xenoData"/>
                <moduleRef key="core"
-                          include="abbr add addrLine address author bibl biblScope cb choice corr date del desc             editor email emph expan foreign gap gloss graphic head hi item l label lb lg list listBibl mentioned milestone             name note orig p pb ptr pubPlace publisher q quote ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
+                          include="abbr add addrLine address author bibl biblScope cb choice corr date del desc             editor email emph expan foreign gap gloss graphic head hi item l label lb lg list listBibl mentioned milestone             name note num orig p pb ptr pubPlace publisher q quote ref reg resp respStmt rs sic soCalled sp speaker teiCorpus term title unclear"/>
                <moduleRef key="tei"/>
                <moduleRef key="textstructure"
                           include="TEI back body byline closer dateline div front opener salute signed text"/>
@@ -496,8 +496,8 @@ so Volume 2 by implication has finished. -->
                               <desc>The National Convention was formed by elected officials who met between 1946 and 1948 to investigate Newfoundland and Labrador's future.</desc>
                            </valItem>
                            <valItem ident="lg:lgTreatyNeg">
-                              <gloss>Treaty Negotiation Process</gloss>
-                              <desc>Treaty negotiations (as decribed for example by Morris) are ad-hoc discussions carried out through both correspondence and meeting.</desc>
+                              <gloss>Treaty Negotiation</gloss>
+                              <desc>Treaty negotiations (as decribed for example by Morris) are records of meetings between Indigenous and Crown leaders to develop and / or renew relationships between these Peoples.</desc>
                            </valItem>
                         </valList>
                      </attDef>
