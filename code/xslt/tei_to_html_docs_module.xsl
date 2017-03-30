@@ -93,6 +93,9 @@
                             
                             <li><a href="bibliography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='bibliography']//titleStmt/title[1]"/></a></li>
                             <li><a href="personography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='personography']//titleStmt/title[1]"/></a></li>
+<!--                           Ad-hoc additions that will be removed eventually. -->
+                            <li><a href="unidentified_names.htm">Unidentified names</a> needing research</li>
+                            <li><a href="a_to_z.htm">Project A to Z</a> of all items with ids</li>
                         </ul>
                         
                     </div>

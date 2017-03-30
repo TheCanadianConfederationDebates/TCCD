@@ -62,12 +62,14 @@
     <xd:doc scope="component">
         <xd:desc>The complete set of XML documents found in the data folder.</xd:desc>
     </xd:doc>
-    <xsl:variable name="xmlDocs" select="collection(concat($projectRoot, '/data/?select=*.xml;recurse=no'))"/>
+    <xsl:variable name="xmlDocs" select="collection(concat($projectRoot, '/data/?select=*.xml;recurse=yes'))"/>
     
     <xd:doc scope="component">
-        <xd:desc>The items we're going to list.</xd:desc>
+        <xd:desc>The items we're going to list. We don't include surface elements because there
+        are lots of them and their ids are derived rather than assigned; and we ignore notes
+        because they're purely local.</xd:desc>
     </xd:doc>
-    <xsl:variable name="itemsWithIds" select="$xmlDocs//*[@xml:id]"/>
+    <xsl:variable name="itemsWithIds" select="$xmlDocs//*[not(self::surface or self::note)][@xml:id]"/>
     
     <xd:doc>
         <xd:desc>The root template builds the output document directly.</xd:desc>
@@ -101,7 +103,7 @@
                             </thead>
                             <tbody>
                                 <xsl:for-each select="$itemsWithIds">
-                                    <xsl:sort select="@xml:id"/>
+                                    <xsl:sort select="upper-case(@xml:id)"/>
                                     <tr>
                                         <td><xsl:value-of select="@xml:id"/></td>
                                         <td>

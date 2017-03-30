@@ -249,7 +249,9 @@
     <mkdir dir="${webDir}/css"/>
     <copy file="code/css/html.css" todir="${webDir}/css"/>
     <mkdir dir="${webDir}/js"/>
-    <copy file="code/js/script.js" todir="${webDir}/js"/>
+    <copy todir="${webDir}/js">
+      <fileset dir="code/js" includes="*.js"/>
+    </copy>
     <mkdir dir="${webDir}/images"/>
     <copy todir="${webDir}/images">
       <fileset dir="code/images" includes="*.*"/>
@@ -322,8 +324,9 @@
     </java>
     
     <antcall target="createLanguageSymlinks"/>
-<!--  NOT WORKING YET.  -->
     <antcall target="listUnidentifiedNames"/>
+    
+    <antcall target="createAToZ"/>
   </target>
   
   <target name="listUnidentifiedNames">
@@ -335,6 +338,22 @@
     <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
       <arg value="-s:html_list_unidentified_names.xsl"/>
       <arg value="-xsl:html_list_unidentified_names.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg line="outputFolder=${webDir}"/>
+      <arg line="buildDate=${today}"/>
+      <arg line="gitRevision=${repository.version}"/>
+    </java>
+  </target>
+  
+  <target name="createAToZ">
+    <description>
+      TARGET createAToZ
+      This creates a list of all items in the project which have ids, for reference purposes.
+    </description>
+    <antcall target="MESSAGE"><param name="msg" value="Creating a list of all the project ids..."/></antcall>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:html_project_a_to_z.xsl"/>
+      <arg value="-xsl:html_project_a_to_z.xsl"/> 
       <arg value="--suppressXsltNamespaceCheck:on"/>
       <arg line="outputFolder=${webDir}"/>
       <arg line="buildDate=${today}"/>

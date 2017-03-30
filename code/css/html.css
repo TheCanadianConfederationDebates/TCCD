@@ -151,6 +151,17 @@ li{
     font-size: 0.9rem;
 }
 
+table{
+    border: solid 1px gray;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 0.25em;
+    vertical-align: top;
+    border: solid 1px gray;
+}
+
 .untaggedTable{
     display: block;
     margin: 1em;
