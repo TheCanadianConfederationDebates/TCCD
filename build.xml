@@ -374,6 +374,7 @@
     <antcall target="diagnostics"/>
     <antcall target="metadiagnostics"/>
     <antcall target="website"/>
+    <antcall target="rsyncWebsite"/>
     <antcall target="MESSAGE"><param name="msg" value="DONE!"/></antcall>
   </target>
   
