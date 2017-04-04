@@ -58,6 +58,7 @@
          <change who="mholmes" when="2016-12-19">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-19">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-30">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -70,18 +71,20 @@
          <div type="debate">
             <pb n="2327" facs="final/images/NFLD_H_of_C_1948-03-18_Page_2327.jpg"/>
             <fw type="num">2327</fw>
-            <fw type="running">HOUSE OF COMMONS</fw>
+
+<div type="section">
+            <head>HOUSE OF COMMONS</head>
          
    
-            <fw type="dateline">
-     Thursday, March 18, 1948 
-     <lb/>
-            </fw>
+            <p><emph>Thursday, March 18, 1948</emph></p>
+
    
             <p>
      The house met at three o'clock. 
      <lb/>
             </p>
+
+</div>
    <div type="section">
             <head>
      POSTAL SERVICE 
@@ -96,13 +99,10 @@
             </p>
    
             <p>
-     Hon. ERNEST BERTRAND (Postmaster 
-     <lb/>
-     General) moved that the house go into com<lb break="no"/>mittee at the next sitting to consider the 
-     <lb/>
-     following resolution: 
-     <lb/>
-            </p>
+                  <persName ref="pers:BERT3">Hon. ERNEST BERTRAND</persName> (Postmaster <lb/> General) moved that
+                  the house go into com<lb break="no"/>mittee at the next sitting to consider the
+                  <lb/> following resolution: <lb/>
+               </p>
 
             <quote rendition="tccd:blockquote">
      That it is expedient to bring in a measure to 
@@ -144,11 +144,9 @@
             </p>
    
             <p>
-     Right Hon. W. L. MACKENZIE KING 
-     <lb/>
-     (Prime Minister) moved: 
-     <lb/>
-            </p>
+                  <persName ref="pers:KING1">Right Hon. W. L. MACKENZIE KING</persName>
+                  <lb/> (Prime Minister) moved: <lb/>
+               </p>
    
             <p>
      That the documents tabled on March 10, 1948, 
@@ -186,7 +184,7 @@
      <lb/>
             </p>
             <p>CANADIAN ARMY</p>
-            <p>Mr. FULTON :</p>
+            <p><persName ref="pers:FULT1">Mr. FULTON</persName> :</p>
            <quote rendition="tccd:blockquote"> <p>
      _ 1. (a) What is the strength presently author<lb break="no"/>ized of the active reserve of the Canadian army? 
      <lb/>
@@ -233,11 +231,9 @@
             </p></quote>
    
             <p>
-     Mr. LAPOINTE: The hon. member has 
-     <lb/>
-     agreed) to drop parts 2, 4 and 5 of this ques<lb break="no"/>tion; parts 1 and' 3 are answered. 
-     <lb/>
-            </p>
+                  <persName ref="pers:LAPO2">Mr. LAPOINTE</persName>: The hon. member has <lb/> agreed) to drop parts
+                  2, 4 and 5 of this ques<lb break="no"/>tion; parts 1 and' 3 are answered. <lb/>
+               </p>
 
             <p>
      1. (a) 187,865, subject to the total actual 
@@ -280,9 +276,8 @@
             </head>
    
             <p>
-     Mr. CHURCH: 
-     <lb/>
-            </p>
+                  <persName ref="pers:CHUR1">Mr. CHURCH</persName>: <lb/>
+               </p>
 
             <quote rendition="tccd:blockquote">
      Has the government any further information 
@@ -294,23 +289,16 @@
             </quote>
 
             <p>
-     Mr. ST. LAURENT: The hon. member will 
-     <lb/>
-     find a full answer to this question in the papers 
-     <lb/>
-     I tabled on March 11, and in the declaration 
-     <lb/>
-     made by the Prime Minister on the same day, 
-     <lb/>
-     which is reported at pages 2095 and 2096 of 
-     <lb/>
-     <hi rendition="simple:italic">Hansard</hi>. 
-     <lb/>
-            </p>
+                  <persName ref="pers:LAUR6">Mr. ST. LAURENT</persName>: The hon. member will <lb/> find a full
+                  answer to this question in the papers <lb/> I tabled on March 11, and in the
+                  declaration <lb/> made by the Prime Minister on the same day, <lb/> which is
+                  reported at pages 2095 and 2096 of <lb/>
+                  <hi rendition="simple:italic">Hansard</hi>. <lb/>
+               </p>
 </div>
 <div type="section">
             <p>WHEAT BOARD—EMPLOYEES</p>
-            <p>Mr. MILLER:</p>
+            <p><persName ref="pers:MILL1">Mr. MILLER</persName>:</p>
             <quote rendition="tccd:blockquote"><p>
      1. What is the number of employees (includ<lb break="no"/>ing members of the board) of the Canadian 
      <lb/>
@@ -336,7 +324,7 @@
 
             <p> 4. How many employees of the wheat board <lb/> (including the members of the board)
                      were, as <lb/> at December 31, 1947, in each of the following <lb/> wage or
-                     salary classes (a) $],000 to $2,000 per <lb/> </p></quote>
+                     salary classes (a) $],000 to $2,000 per [...]</p></quote>
      </div>    </div>
       </body>
    </text>

@@ -57,6 +57,7 @@
          <change who="mholmes" when="2016-12-19">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-19">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-30">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -68,162 +69,75 @@
       <body>
          <div type="debate">
             <pb n="2825" facs="final/images/NFLD_H_of_C_1947-05-06_Page_2825.jpg"/>
-            <fw type="dateline">
-               MAY 6, 1947 
-             
-            </fw>
-             <fw type="running"><hi rendition="simple:italic">Private Bills 
-             </hi></fw>
+            <fw type="dateline">MAY 6, 1947</fw>
+             <fw type="running"><hi rendition="simple:italic">Private Bills</hi></fw>
                
-            <fw type="num">
-               2825 
-               </fw>
+            <fw type="num">2825</fw>
       
             <p>
-               Mr. CHURCH: I want to ask one question 
-               <lb/>
-               about section 7. We are giving the company 
-               <lb/>
-               the right to build a railway and, as the Secre<lb break="no"/>tary of State for External Affairs said the 
-               <lb/>
-               other night, we can only give them jurisdiction 
-               <lb/>
-               in Canada, and only capacity to act. I would 
-               <lb/>
-               call the attention of the government to a 
-               <lb/>
-               meeting held today between fifteen representa<lb break="no"/>tives of Newfoundland and the British govern<lb break="no"/>ment in London, England, regarding New<lb break="no"/>foundland's future government. The repre<lb break="no"/>sentatives of Newfoundland were insisting that 
-               <lb/>
-               Labrador be part of that country, and said 
-               <lb/>
-               they are now to come to Canada in June and 
-               <lb/>
-               go into the question of the tenth province of 
-               <lb/>
-               Canada's federation, Newfoundland and Lab<lb break="no"/>rador, and the whole future of it. Under 
-               <lb/>
-               section 7 the company is given power to act, 
-               <lb/>
-               capacity powers only as a corporation to con<lb break="no"/>struct within Canada. To proceed with con<lb break="no"/>struction beyond Canada. they will have to 
-               <lb/>
-               deal with Newfoundland. and Labrador. I under<lb break="no"/>stand that they dealt with them twenty years 
-               <lb/>
-               ago but spent only about $100,000. While I 
-               <lb/>
-               do not believe in railways and coal mines and 
-               <lb/>
-               electric distribution systems being taken over 
-               <lb/>
-               as is now being done in England, I believe that 
-               <lb/>
-               the Canadian National Railways should have 
-               <lb/>
-               had a survey made of this territory not only 
-               <lb/>
-               in Canada but in Labrador. The policy of 
-               <lb/>
-               our national railway in the past has been to go 
-               <lb/>
-               into territories far less profitable than this 
-               <lb/>
-               proposition may turn out to be. While 
-               <lb/>
-               these mining men are going in at their own 
-               <lb/>
-               expense and surveys have been made under 
-               <lb/>
-               section 7, the fact remains that we are giving 
-               <lb/>
-               away public property. We have only the 
-               <lb/>
-               capacity to give the company railway and 
-               <lb/>
-               subsidiary powers to operate within Canada. 
-               <lb/>
-               For anything else the company wants outside 
-               <lb/>
-               Canada, hotels, power, highways, ocean services, 
-               <lb/>
-               vessels, elevators, wharves, it will have to deal 
-               <lb/>
-               with the provisional government of Labrador 
-               <lb/>
-               and Newfoundland. I would: ask the Secretary 
-               <lb/>
-               of State for External Affairs if that is not 
-               <lb/>
-               right? 
-               <lb/>
-               
+               <persName ref="pers:CHUR1">Mr. CHURCH</persName>: I want to ask one question <lb/> about section 7. We
+               are giving the company <lb/> the right to build a railway and, as the Secre<lb
+                  break="no"/>tary of State for External Affairs said the <lb/> other night, we can
+               only give them jurisdiction <lb/> in Canada, and only capacity to act. I would <lb/>
+               call the attention of the government to a <lb/> meeting held today between fifteen
+                  representa<lb break="no"/>tives of Newfoundland and the British govern<lb
+                  break="no"/>ment in London, England, regarding New<lb break="no"/>foundland's
+               future government. The repre<lb break="no"/>sentatives of Newfoundland were insisting
+               that <lb/> Labrador be part of that country, and said <lb/> they are now to come to
+               Canada in June and <lb/> go into the question of the tenth province of <lb/> Canada's
+               federation, Newfoundland and Lab<lb break="no"/>rador, and the whole future of it.
+               Under <lb/> section 7 the company is given power to act, <lb/> capacity powers only
+               as a corporation to con<lb break="no"/>struct within Canada. To proceed with con<lb
+                  break="no"/>struction beyond Canada. they will have to <lb/> deal with
+               Newfoundland. and Labrador. I under<lb break="no"/>stand that they dealt with them
+               twenty years <lb/> ago but spent only about $100,000. While I <lb/> do not believe in
+               railways and coal mines and <lb/> electric distribution systems being taken over
+               <lb/> as is now being done in England, I believe that <lb/> the Canadian National
+               Railways should have <lb/> had a survey made of this territory not only <lb/> in
+               Canada but in Labrador. The policy of <lb/> our national railway in the past has been
+               to go <lb/> into territories far less profitable than this <lb/> proposition may turn
+               out to be. While <lb/> these mining men are going in at their own <lb/> expense and
+               surveys have been made under <lb/> section 7, the fact remains that we are giving
+               <lb/> away public property. We have only the <lb/> capacity to give the company
+               railway and <lb/> subsidiary powers to operate within Canada. <lb/> For anything else
+               the company wants outside <lb/> Canada, hotels, power, highways, ocean services,
+               <lb/> vessels, elevators, wharves, it will have to deal <lb/> with the provisional
+               government of Labrador <lb/> and Newfoundland. I would: ask the Secretary <lb/> of
+               State for External Affairs if that is not <lb/> right? <lb/>
             </p>
 
             
             
             <p>
-               Mr. ST. LAURENT: I think the hon. 
-               <lb/>
-               gentleman is quite right, though perhaps not 
-               <lb/>
-               quite complete. The purposes of this bill as 
-               <lb/>
-               I read it are two-fold. One is to incorporate a 
-               <lb/>
-               company, thereby giving it the capacity to 
-               <lb/>
-               acquire powers through any jurisdiction that 
-               <lb/>
-               may be willing to grant powers to it; and the 
-               <lb/>
-               other is to build a railway from a point on 
-               <lb/>
-               the St. Lawrence in Quebec to the border 
-               <lb/>
-               between Quebec and Labrador. That is some<lb break="no"/>thing which, under the British North America 
-               <lb/>
-               Act, can be granted only by parliament. There 
-               <lb/>
-               is no doubt that the parliament of Canada 
-               <lb/>
-               cannot grant the right to the company to build 
-               <lb/>
-               
-         
-            
-         
-            <!--<p>
+               <persName ref="pers:LAUR6">Mr. ST. LAURENT</persName>: I think the hon. <lb/> gentleman is quite
+               right, though perhaps not <lb/> quite complete. The purposes of this bill as <lb/> I
+               read it are two-fold. One is to incorporate a <lb/> company, thereby giving it the
+               capacity to <lb/> acquire powers through any jurisdiction that <lb/> may be willing
+               to grant powers to it; and the <lb/> other is to build a railway from a point on
+               <lb/> the St. Lawrence in Quebec to the border <lb/> between Quebec and Labrador.
+               That is some<lb break="no"/>thing which, under the British North America <lb/> Act,
+               can be granted only by parliament. There <lb/> is no doubt that the parliament of
+               Canada <lb/> cannot grant the right to the company to build <lb/>
+               <!--<p>
                83166—180 
                <lb/>
                
             </p>-->
-
-
-               a railway in Labrador, but the parliament of 
-               <lb/>
-               Canada can grant the capacity to the corpora<lb break="no"/>tion to go to the government of Labrador and 
-               <lb/>
-               acquire from that government the right to 
-               <lb/>
-               build in the territory governed by the com<lb break="no"/>mission government. 
-               <lb/>
-               
+               a railway in Labrador, but the parliament of <lb/> Canada can grant the capacity to
+               the corpora<lb break="no"/>tion to go to the government of Labrador and <lb/> acquire
+               from that government the right to <lb/> build in the territory governed by the com<lb
+                  break="no"/>mission government. <lb/>
             </p>
             
          
             
             <p>
-               Mr. POULIOT: A moment ago I heard one 
+               <persName ref="pers:POUL1">Mr. POULIOT</persName>: A moment ago I heard one <lb/> hon. member say that
+               he has the right to argue <lb/> in this committee just as well as in the railway
+               <lb/> committee. He is perfectly right. The differ<lb break="no"/>ence is that in the
+               railway committee wit<lb break="no"/>nesses and experts can be heard and be asked
+               <lb/> questions to satisfy the minds of hon. members <lb/> who desire information.
                <lb/>
-               hon. member say that he has the right to argue 
-               <lb/>
-               in this committee just as well as in the railway 
-               <lb/>
-               committee. He is perfectly right. The differ<lb break="no"/>ence is that in the railway committee wit<lb break="no"/>nesses and experts can be heard and be asked 
-               <lb/>
-               questions to satisfy the minds of hon. members 
-               <lb/>
-               who desire information. 
-               <lb/>
-               
             </p>
             
          
@@ -348,17 +262,9 @@
             
             
             <p>
-               Mr. RINFRET: I do not think the general 
-               <lb/>
-               remarks just made by the hon. member for 
-               <lb/>
-               Temiscouata apply to section 7. They might 
-               <lb/>
-               apply to section 11. I will reserve my reply 
-               <lb/>
-               until we reach that section. 
-               <lb/>
-               
+               <persName ref="pers:RINF1">Mr. RINFRET</persName>: I do not think the general <lb/> remarks just made
+               by the hon. member for <lb/> Temiscouata apply to section 7. They might <lb/> apply
+               to section 11. I will reserve my reply <lb/> until we reach that section. <lb/>
             </p>
             
          </div>

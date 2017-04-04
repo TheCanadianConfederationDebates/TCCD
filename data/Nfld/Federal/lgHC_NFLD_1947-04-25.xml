@@ -60,6 +60,7 @@
          <change who="mholmes" when="2016-12-19">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-19">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-30">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -74,23 +75,16 @@
       <body>
          <div type="debate">
             <pb n="2435" facs="final/images/NFLD_H_of_C_1947-04-25_Page_2435.jpg"/>
-            <fw type="dateline">
-               APRIL 25, 1947 
-               <lb/>
-               
-            </fw>
-             <fw type="running"><hi rendition="simple:italic">Private Bills</hi> 
-               <lb/> </fw>
+            <fw type="dateline">APRIL 25, 1947</fw>
+             <fw type="running"><hi rendition="simple:italic">Private Bills</hi></fw>
 
-            <fw type="num">
-               2435 
-               <lb/></fw>
+            <fw type="num">2435</fw>
               
             
          
             
             <p>
-               pletely new area in Canada, an area that has 
+              [...] pletely new area in Canada, an area that has 
                <lb/>
                great promise. Section 20 of the bill provides: 
                <lb/>
@@ -126,46 +120,32 @@
          
             
             <p>
-               Mr. HAZEN: Is there any dominion legis<lb break="no"/>lation which provides for the payment of a 
+               <persName ref="pers:HAZE1">Mr. HAZEN</persName>: Is there any dominion legis<lb break="no"/>lation
+               which provides for the payment of a <lb/> subsidy to a company that constructs a
+                  rail<lb break="no"/>road declared to be for the general advantage <lb/> of Canada?
                <lb/>
-               subsidy to a company that constructs a rail<lb break="no"/>road declared to be for the general advantage 
-               <lb/>
-               of Canada? 
-               <lb/>
-               
             </p>
             
          
             
             <p>
-               Mr. CHEVRIER: I know of no such sub<lb break="no"/>sidy paid under conditions set out by my hon. 
-               <lb/>
-               friend. At one time assistance was given for 
-               <lb/>
-               the construction of branch lines, but that was 
-               <lb/>
-               many years ago. That certainly is not the 
-               <lb/>
-               policy of the government today. 
-               <lb/>
-               
+               <persName ref="pers:CHEV2">Mr. CHEVRIER</persName>: I know of no such sub<lb break="no"/>sidy paid
+               under conditions set out by my hon. <lb/> friend. At one time assistance was given
+               for <lb/> the construction of branch lines, but that was <lb/> many years ago. That
+               certainly is not the <lb/> policy of the government today. <lb/>
             </p>
             
          
             
             <p>
-               Mr. HAZEN: Is there any legislation on 
-               <lb/>
-               our statute books about it? 
-               <lb/>
-               
+               <persName ref="pers:HAZE1">Mr. HAZEN</persName>: Is there any legislation on <lb/> our statute books
+               about it? <lb/>
             </p>
             
          
             
             <p>
-               Mr. CHEVRIER: None that I am aware of. 
-               <lb/>
+               <persName ref="pers:CHEV2">Mr. CHEVRIER</persName>: None that I am aware of. <lb/>
             </p>
 <p>
                Section agreed to. </p>
@@ -188,67 +168,41 @@
          
             
             <p>
-               Mr. MacNICOL: Is either the minister, the 
-               <lb/>
-               hon. member who introduced the bill or the 
-               <lb/>
-               minister of reconstruction in a position to say 
-               <lb/>
-               whether it is the Marguerite, the Moisie or the 
-               <lb/>
-               Wacouno-<lb/>
+               <persName ref="pers:MACN2">Mr. MacNICOL</persName>: Is either the minister, the <lb/> hon. member who
+               introduced the bill or the <lb/> minister of reconstruction in a position to say
+               <lb/> whether it is the Marguerite, the Moisie or the <lb/> Wacouno-<lb/>
             </p>
-            <p>Mr. RINFRET : The Mosie and the <lb/>
-               Wacouno. 
-               <lb/>
-               
+            <p><persName ref="pers:RINF1">Mr. RINFRET</persName> : The Mosie and the <lb/> Wacouno. <lb/>
             </p>
             
          
             
             <p>
-               Mr. MacNICOL: That is a tributary of the 
+               <persName ref="pers:MACN2">Mr. MacNICOL</persName>: That is a tributary of the <lb/> other river?
                <lb/>
-               other river? 
-               <lb/>
-               
             </p>
             
          
             
             <p>
-               Mr. RINFRET: That is right. 
-               <lb/>
-               
+               <persName ref="pers:RINF1">Mr. RINFRET</persName>: That is right. <lb/>
             </p>
             
          
             
             <p>
-               Mr. MacNICOL: Why is the Marguerite 
-               <lb/>
-               mentioned, because it is ten miles west? 
-               <lb/>
-               
+               <persName ref="pers:MACN2">Mr. MacNICOL</persName>: Why is the Marguerite <lb/> mentioned, because it
+               is ten miles west? <lb/>
             </p>
             
          
             
             <p>
-               Mr. CHURCH: I should like to ask a 
-               <lb/>
-               question of the Secretary of State for External 
-               <lb/>
-               Affairs. This section gives authority to the 
-               <lb/>
-               company to construct and operate a line of 
-               <lb/>
-               railway running into Labrador, which is not 
-               <lb/>
-               a part of Canada. I would ask the minister 
-               <lb/>
-               what is the meaning of these words: 
-               <lb/></p>
+               <persName ref="pers:CHUR1">Mr. CHURCH</persName>: I should like to ask a <lb/> question of the
+               Secretary of State for External <lb/> Affairs. This section gives authority to the
+               <lb/> company to construct and operate a line of <lb/> railway running into Labrador,
+               which is not <lb/> a part of Canada. I would ask the minister <lb/> what is the
+               meaning of these words: <lb/></p>
                
 <quote rendition="tccd:blockquote">provided that authority be obtained from New<lb break="no"/>foundland for the construction and operation of 
                <lb/>
@@ -305,71 +259,32 @@
          
             
             <p>
-               Mr. ST. LAURENT: I will try to answer 
-               <lb/>
-               some of the questions involved in the request 
-               <lb/>
-               made by the hon. member. What is being 
-               <lb/>
-               done here has two aspects. One is the incor<lb break="no"/>poration of a company which thereby gets the 
-               <lb/>
-               right to act as a person; the second is the 
-               <lb/>
-               grant to that company of the right to build 
-               <lb/>
-               a railway in Canadian territory. Under our 
-               <lb/>
-               system no one, neither a company nor an 
-               <lb/>
-               individual, can build a railway without a 
-               <lb/>
-               charter from the government of Canada if it 
-               <lb/>
-               is to be interprovincial or if it is to connect 
-               <lb/>
-               Canada with another country, or from a prov<lb break="no"/>ince if the railway is to be entirely within 
-               <lb/>
-               the province. This parliament can grant no 
-               <lb/>
-               rights to build a railway outside its territory, 
-               <lb/>
-               but it can give a company the capacity to 
-               <lb/>
-               receive such rights from the appropriate auth<lb break="no"/>ority. That matter came before the privy coun<lb break="no"/>cil several years ago. One was a case con<lb break="no"/>cerning the John Deere Plow Company, and 
-               <lb/>
-               the other was a case concerning the Bonanza 
-               <lb/>
-               Creek Mining Company. The capacity to 
-               <lb/>
-               receive powers can be granted by this parlia<lb break="no"/>ment in creating a corporation, and that is all 
-               <lb/>
-               that this parliament can do with respect to 
-               <lb/>
-               any portion of the railway that would be out<lb break="no"/>side Canadian territory. It can have the 
-               <lb/>
-               capacity to receive a franchise from the sov<lb break="no"/>ereign of the territory outside Canada where 
-               <lb/>
-               it may operate. I do not think that would be 
-               <lb/>
-               dealing with a foreign government over the 
-               <lb/>
-               head of the Canadian government any more 
-               <lb/>
-               than it would in the case of a United States 
-               <lb/>
-               company that gets a charter here for the 
-               <lb/>
-               operation of a subsidiary in Canada. There 
-               <lb/>
-               does not appear to be any international con<lb break="no"/>flict here. All states assert the right to give 
-               <lb/>
-               companies the capacity to receive powers from 
-               <lb/>
-               whosoever may be willing to grant powers to 
-               <lb/>
-               them. 
-               <lb/>
-               
+               <persName ref="pers:LAUR6">Mr. ST. LAURENT</persName>: I will try to answer <lb/> some of the
+               questions involved in the request <lb/> made by the hon. member. What is being <lb/>
+               done here has two aspects. One is the incor<lb break="no"/>poration of a company
+               which thereby gets the <lb/> right to act as a person; the second is the <lb/> grant
+               to that company of the right to build <lb/> a railway in Canadian territory. Under
+               our <lb/> system no one, neither a company nor an <lb/> individual, can build a
+               railway without a <lb/> charter from the government of Canada if it <lb/> is to be
+               interprovincial or if it is to connect <lb/> Canada with another country, or from a
+                  prov<lb break="no"/>ince if the railway is to be entirely within <lb/> the
+               province. This parliament can grant no <lb/> rights to build a railway outside its
+               territory, <lb/> but it can give a company the capacity to <lb/> receive such rights
+               from the appropriate auth<lb break="no"/>ority. That matter came before the privy
+                  coun<lb break="no"/>cil several years ago. One was a case con<lb break="no"
+               />cerning the John Deere Plow Company, and <lb/> the other was a case concerning the
+               Bonanza <lb/> Creek Mining Company. The capacity to <lb/> receive powers can be
+               granted by this parlia<lb break="no"/>ment in creating a corporation, and that is all
+               <lb/> that this parliament can do with respect to <lb/> any portion of the railway
+               that would be out<lb break="no"/>side Canadian territory. It can have the <lb/>
+               capacity to receive a franchise from the sov<lb break="no"/>ereign of the territory
+               outside Canada where <lb/> it may operate. I do not think that would be <lb/> dealing
+               with a foreign government over the <lb/> head of the Canadian government any more
+               <lb/> than it would in the case of a United States <lb/> company that gets a charter
+               here for the <lb/> operation of a subsidiary in Canada. There <lb/> does not appear
+               to be any international con<lb break="no"/>flict here. All states assert the right to
+               give <lb/> companies the capacity to receive powers from <lb/> whosoever may be
+               willing to grant powers to <lb/> them. <lb/>
             </p>
             
          
@@ -389,8 +304,7 @@
        
             <pb n="2436" facs="final/images/NFLD_H_of_C_1947-04-25_Page_2436.jpg"/>
             
-            <fw type="num">
-               2436</fw>
+            <fw type="num">2436</fw>
                <fw type="running"><hi rendition="simple:italic">Private Bills</hi></fw> 
                
 <fw type="running">COMMONS</fw>
@@ -417,53 +331,21 @@
          
             
             <p>
-               Mr. CHURCH: We are a party to Great 
-               <lb/>
-               Britain's granting of a ninety-nine year lease, 
-               <lb/>
-               binding Canada with America, which is prac<lb break="no"/>tically a freehold of all the Newfoundland 
-               <lb/>
-               bases, and that includes Labrador inland as 
-               <lb/>
-               well as on the ocean. In view of that 
-               <lb/>
-               agreement, have we the power as a parliament 
-               <lb/>
-               to go into Newfoundland and give away, not 
-               <lb/>
-               only the bases, but the land and the bay 
-               <lb/>
-               where they are trying to develop a port? 
-               <lb/>
-               Ungava bay is a big bay and they have no 
-               <lb/>
-               port there yet, and the bill is in the dark 
-               <lb/>
-               on it. Have we the power to do this in 
-               <lb/>
-               view of the ninety-nine year lease made by 
-               <lb/>
-               the British government with the United 
-               <lb/>
-               States for the use of all these bases in New<lb break="no"/>foundland and right down to British Guiana, 
-               <lb/>
-               Which is the size of Great Britain? You 
-               <lb/>
-               know, Mr. Chairman, that in the last war 
-               <lb/>
-               German boats came right up the St. Lawrence 
-               <lb/>
-               and we had a secret meeting of parliament 
-               <lb/>
-               in connection with that. I contend that 
-               <lb/>
-               Canada is bound by that ninety-nine year 
-               <lb/>
-               lease and that we have no power to part with 
-               <lb/>
-               this property. 
-               <lb/>
-               
+               <persName ref="pers:CHUR1">Mr. CHURCH</persName>: We are a party to Great <lb/> Britain's granting of
+               a ninety-nine year lease, <lb/> binding Canada with America, which is prac<lb
+                  break="no"/>tically a freehold of all the Newfoundland <lb/> bases, and that
+               includes Labrador inland as <lb/> well as on the ocean. In view of that <lb/>
+               agreement, have we the power as a parliament <lb/> to go into Newfoundland and give
+               away, not <lb/> only the bases, but the land and the bay <lb/> where they are trying
+               to develop a port? <lb/> Ungava bay is a big bay and they have no <lb/> port there
+               yet, and the bill is in the dark <lb/> on it. Have we the power to do this in <lb/>
+               view of the ninety-nine year lease made by <lb/> the British government with the
+               United <lb/> States for the use of all these bases in New<lb break="no"/>foundland
+               and right down to British Guiana, <lb/> Which is the size of Great Britain? You <lb/>
+               know, Mr. Chairman, that in the last war <lb/> German boats came right up the St.
+               Lawrence <lb/> and we had a secret meeting of parliament <lb/> in connection with
+               that. I contend that <lb/> Canada is bound by that ninety-nine year <lb/> lease and
+               that we have no power to part with <lb/> this property. <lb/>
             </p>
             
             
@@ -604,59 +486,28 @@
          
             
             <p>
-               Mr. McKAY: On first view this bill appears 
-               <lb/>
-               to me to be a virtual monopoly. If that is so 
-               <lb/>
-               I should like to ask the Minister of Trans<lb break="no"/>port whether it will prohibit the operation 
-               <lb/>
-               of any other railway company in that par<lb break="no"/>ticular area. If it does not I cannot see that 
-               <lb/>
-               there should be any real objection to the bill. 
-               <lb/>
-               On the surface it does appear to me, though, 
-               <lb/>
-               that it would prohibit all other railways from 
-               <lb/>
-               going into that district. 
-               <lb/>
-               
+               <persName ref="pers:MCKA3">Mr. McKAY</persName>: On first view this bill appears <lb/> to me to be a
+               virtual monopoly. If that is so <lb/> I should like to ask the Minister of Trans<lb
+                  break="no"/>port whether it will prohibit the operation <lb/> of any other railway
+               company in that par<lb break="no"/>ticular area. If it does not I cannot see that
+               <lb/> there should be any real objection to the bill. <lb/> On the surface it does
+               appear to me, though, <lb/> that it would prohibit all other railways from <lb/>
+               going into that district. <lb/>
             </p>
             
          
             
             <p>
-               Mr. CHEVRIER: I do not think there is 
-               <lb/>
-               any difficulty in answering the hon. member's 
-               <lb/>
-               question. This bill, no more than any other 
-               <lb/>
-               bill which is approved by a. committee of 
-               <lb/>
-               the house, creates a monopoly. Any other 
-               <lb/>
-               corporation or company which seeks similar 
-               <lb/>
-               rights can apply to parliament in the same 
-               <lb/>
-               way as did this company, and its application 
-               <lb/>
-               will be dealt with by the committee on rail<lb break="no"/>ways, canals and telegraph lines. While I 
-               <lb/>
-               do not know what the answer would be, I am 
-               <lb/>
-               sure that the committee would want to give 
-               <lb/>
-               such corporation similar rights to these. The 
-               <lb/>
-               answer is, therefore, that this bill does not 
-               <lb/>
-               preclude another company from making 
-               <lb/>
-               application. 
-               <lb/>
-               
+               <persName ref="pers:CHEV2">Mr. CHEVRIER</persName>: I do not think there is <lb/> any difficulty in
+               answering the hon. member's <lb/> question. This bill, no more than any other <lb/>
+               bill which is approved by a. committee of <lb/> the house, creates a monopoly. Any
+               other <lb/> corporation or company which seeks similar <lb/> rights can apply to
+               parliament in the same <lb/> way as did this company, and its application <lb/> will
+               be dealt with by the committee on rail<lb break="no"/>ways, canals and telegraph
+               lines. While I <lb/> do not know what the answer would be, I am <lb/> sure that the
+               committee would want to give <lb/> such corporation similar rights to these. The
+               <lb/> answer is, therefore, that this bill does not <lb/> preclude another company
+               from making <lb/> application. <lb/>
             </p>
             
          </div>

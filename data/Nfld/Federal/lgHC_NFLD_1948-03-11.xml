@@ -60,6 +60,7 @@
          <change who="mholmes" when="2016-12-19">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-19">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-30">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -75,20 +76,22 @@
          <div type="debate">
             <pb n="2095" facs="final/images/NFLD_H_of_C_1948-03-11_Page_2095.jpg"/>
             <fw type="num">2095</fw>
-            <fw type="running">HOUSE OF COMMONS</fw>
-            <fw type="dateline">
-               Thursday, March 11, 1948 
-               <lb/>
-               
-            </fw>
-            
+
+
+<div type="section">
+            <head>HOUSE OF COMMONS</head>
+
+            <p><emph>Thursday, March 11, 1948</emph></p> 
+             
+
             <p>
                The house met at three o'clock. 
                <lb/>
                
             </p>
             
-         
+</div>
+
     <div type="section">        
             <head>
                HOUSE OF COMMONS 
@@ -109,48 +112,25 @@
          
             
             <p>
-               Mr. FREDERIC DORION (Charlevoix- 
-               <lb break="yes"/>
-               Saguenay): Mr. Speaker, I rise to a question 
-               <lb/>
-               of privilege. A few days ago many members, 
-               <lb/>
-               and I was one of them, received through the 
-               <lb/>
-               post office of the House of Commons a copy 
-               <lb/>
-               of the communist newspaper <hi rendition="simple:italic">Combat</hi>. The 
-               <lb/>
-               envelopes containing that paper, like the one 
-               <lb/>
-               I hold in my hand, did not bear any post 
-               <lb/>
-               office mark, contrary to section 275 of the 
-               <lb/>
-               post office regulations, which reads as follows-<lb/>
-            </p>
-            <p>Mr. SPEAKER: Order. I would ask the 
-               <lb/>
-               hon. member to state his question of privilege. 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:DORI2">Mr. FREDERIC DORION</persName> (Charlevoix- <lb break="yes"/> Saguenay):
+                  Mr. Speaker, I rise to a question <lb/> of privilege. A few days ago many members,
+                  <lb/> and I was one of them, received through the <lb/> post office of the House
+                  of Commons a copy <lb/> of the communist newspaper <hi rendition="simple:italic"
+                     >Combat</hi>. The <lb/> envelopes containing that paper, like the one <lb/> I
+                  hold in my hand, did not bear any post <lb/> office mark, contrary to section 275
+                  of the <lb/> post office regulations, which reads as follows-<lb/>
+               </p>
+            <p><persName ref="pers:SPEA1">Mr. SPEAKER</persName>: Order. I would ask the <lb/> hon. member to state
+                  his question of privilege. <lb/>
+               </p>
             
          
             
             <p>
-               Mr. DORION: I am about to do so, Mr. 
-               <lb/>
-               Speaker, but I submit that on a question of 
-               <lb/>
-               privilege we are entitled to explain why we 
-               <lb/>
-               raise the question. The section to which I 
-               <lb/>
-               refer reads: 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:DORI2">Mr. DORION</persName>: I am about to do so, Mr. <lb/> Speaker, but I
+                  submit that on a question of <lb/> privilege we are entitled to explain why we
+                  <lb/> raise the question. The section to which I <lb/> refer reads: <lb/>
+               </p>
             
          
             
@@ -218,18 +198,11 @@
          
             
             <p>
-               Mr. SPEAKER: I have the honour to lay on 
-               <lb/>
-               the table of the house a report of the civil 
-               <lb/>
-               service commission relating to the appointment 
-               <lb/>
-               of Miss M. E. Black to a permanent position in 
-               <lb/>
-               the debates branch of the House of Commons. 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:SPEA1">Mr. SPEAKER</persName>: I have the honour to lay on <lb/> the table of
+                  the house a report of the civil <lb/> service commission relating to the
+                  appointment <lb/> of Miss M. E. Black to a permanent position in <lb/> the debates
+                  branch of the House of Commons. <lb/>
+               </p>
            <!-- <p>
                5849—134 
                <lb/>
@@ -259,12 +232,10 @@
          
             
             <p>
-               Mr. HUGHES CLEAVER (Halton) pre<lb break="no"/>sented the first and second reports of the stand<lb break="no"/>ing committee on banking and commerce, and 
-               <lb/>
-               moved that the first report be concurred in. 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:CLEA1">Mr. HUGHES CLEAVER</persName> (Halton) pre<lb break="no"/>sented the
+                  first and second reports of the stand<lb break="no"/>ing committee on banking and
+                  commerce, and <lb/> moved that the first report be concurred in. <lb/>
+               </p>
             
          
             
@@ -295,34 +266,17 @@
          
             
             <p>
-               Right Hon. L. S. ST. LAURENT (Secretary 
-               <lb/>
-               of State for External Affairs): Yesterday there 
-               <lb/>
-               was a question on the order paper by the hon. 
-               <lb/>
-               member for Broadview (Mr. Church) with 
-               <lb/>
-               respect to developments in connection with 
-               <lb/>
-               the possible entry of Newfoundland into con<lb break="no"/>federation, and I asked that it be allowed to 
-               <lb/>
-               stand. As I understand that the Prime 
-               <lb/>
-               Minister has information to communicate to 
-               <lb/>
-               the house today, before that is done, I should 
-               <lb/>
-               like to table copies of certain additional ques<lb break="no"/>tions that were submitted to the Canadian 
-               <lb/>
-               government by the governor of Newfoundland, 
-               <lb/>
-               and copies of the answers that were given 
-               <lb/>
-               to those questions. 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:LAUR6">Right Hon. L. S. ST. LAURENT</persName> (Secretary <lb/> of State for
+                  External Affairs): Yesterday there <lb/> was a question on the order paper by the
+                  hon. <lb/> member for Broadview (Mr. Church) with <lb/> respect to developments in
+                  connection with <lb/> the possible entry of Newfoundland into con<lb break="no"
+                  />federation, and I asked that it be allowed to <lb/> stand. As I understand that
+                  the Prime <lb/> Minister has information to communicate to <lb/> the house today,
+                  before that is done, I should <lb/> like to table copies of certain additional
+                     ques<lb break="no"/>tions that were submitted to the Canadian <lb/> government
+                  by the governor of Newfoundland, <lb/> and copies of the answers that were given
+                  <lb/> to those questions. <lb/>
+               </p>
             
       </div>   
             
@@ -338,18 +292,11 @@
          
             
             <p>
-               Right Hon. W. L. MACKENZIE KING 
-               <lb/>
-               (Prime Minister): Mr. Speaker, I might give 
-               <lb/>
-               the house immediately the statement to which 
-               <lb/>
-               my hon. friend the Secretary of State for 
-               <lb/>
-               External Affairs has just referred. 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:KING1">Right Hon. W. L. MACKENZIE KING</persName>
+                  <lb/> (Prime Minister): Mr. Speaker, I might give <lb/> the house immediately the
+                  statement to which <lb/> my hon. friend the Secretary of State for <lb/> External
+                  Affairs has just referred. <lb/>
+               </p>
             
          
             
@@ -375,15 +322,11 @@
             
             <pb n="2096" facs="final/images/NFLD_H_of_C_1948-03-11_Page_2096.jpg"/>
             
-            <fw type="num">2096 </fw>
+            <fw type="num">2096</fw>
             
-            <fw type="running">
-               <hi rendition="simple:italic">Newfoundland</hi> 
-            </fw>
+            <fw type="running"><hi rendition="simple:italic">Newfoundland</hi></fw>
 
-            <fw type="running">
-               COMMONS 
-               <lb/></fw>
+            <fw type="running">COMMONS</fw>
          
             
      
@@ -579,30 +522,19 @@
          
             
             <p>
-               Mr. DORION: Will the proposed arrange<lb break="no"/>ment addressed by the Canadian government 
-               <lb/>
-               to Newfoundland be submitted to this house 
-               <lb/>
-               before any agreement is concluded, in case 
-               <lb/>
-               the result of the referendum in Newfoundland 
-               <lb/>
-               is favourable to its entry into confederation? 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:DORI2">Mr. DORION</persName>: Will the proposed arrange<lb break="no"/>ment
+                  addressed by the Canadian government <lb/> to Newfoundland be submitted to this
+                  house <lb/> before any agreement is concluded, in case <lb/> the result of the
+                  referendum in Newfoundland <lb/> is favourable to its entry into confederation?
+                  <lb/>
+               </p>
             
          
             
             <p>
-               Mr. MACKENZIE KING: The answer is 
-               <lb/>
-               yes. That is part of the terms we are prepared 
-               <lb/>
-               to recommend. 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:KING1">Mr. MACKENZIE KING</persName>: The answer is <lb/> yes. That is part of
+                  the terms we are prepared <lb/> to recommend. <lb/>
+               </p>
             
 </div>     
       <div type="section">    

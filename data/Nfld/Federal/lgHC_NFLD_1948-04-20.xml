@@ -60,6 +60,7 @@
          <change who="mholmes" when="2016-12-19">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-19">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-30">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -74,17 +75,15 @@
       <body>
          <div type="debate">
             <pb n="3157" facs="final/images/NFLD_H_of_C_1948-04-20_Page_3157.jpg"/>
-            <fw type="dateline">
-     APRIL 20, 1948 
-     <lb/>
-            </fw><fw type="running"><hi rendition="simple:italic">Dairy Industry Act</hi> </fw>
-     <lb/>
+            <fw type="dateline">APRIL 20, 1948</fw> 
+    <fw type="running"><hi rendition="simple:italic">Dairy Industry Act</hi></fw>
+   
     <fw type="num"> 3157 </fw>
     
     
      
             <p>
-     ernment report concludes with one paragraph 
+   [...] ernment report concludes with one paragraph 
      <lb/>
      which I think I should put on record. Speak<lb break="no"/>ing 
   
@@ -368,7 +367,7 @@
      <lb/>
            
             <pb n="3158" facs="final/images/NFLD_H_of_C_1948-04-20_Page_3158.jpg"/>
-            <fw type="num">3158 </fw>
+            <fw type="num">3158</fw>
    <fw type="running"><hi rendition="simple:italic">Dairy Industry Act</hi></fw> 
     <fw type="running">COMMONS  <lb/></fw>
     
@@ -471,45 +470,23 @@
             </p>
    
             <p>
-     Mr. CASE: That is right. 
-     <lb/>
+               <persName ref="pers:CASE1">Mr. CASE</persName>: That is right. <lb/>
             </p>
    
             <p>
-     Mr. SINCLAIR: My hon. friend across the 
-     <lb/>
-     way is quite familiar with ballads and poetry. 
-     <lb/>
-     I say that is exactly the same type of logic 
-     <lb/>
-     which traced the loss of a great battle back 
-     <lb/>
-     to the loss of a horseshoe nail. The same 
-     <lb/>
-     argument, of course, was used by the pro<lb break="no"/>ponents of the cotton law of the eighteenth 
-     <lb/>
-     century, except that then it was wool and 
-     <lb/>
-     linen which were the cornerstone of British 
-     <lb/>
-     industry. It was used again by the champions 
-     <lb/>
-     of the corn laws in the nineteenth century, 
-     <lb/>
-            
-   
-          <!--  <p>
+               <persName ref="pers:SINC5">Mr. SINCLAIR</persName>: My hon. friend across the <lb/> way is quite
+               familiar with ballads and poetry. <lb/> I say that is exactly the same type of logic
+               <lb/> which traced the loss of a great battle back <lb/> to the loss of a horseshoe
+               nail. The same <lb/> argument, of course, was used by the pro<lb break="no"/>ponents
+               of the cotton law of the eighteenth <lb/> century, except that then it was wool and
+               <lb/> linen which were the cornerstone of British <lb/> industry. It was used again
+               by the champions <lb/> of the corn laws in the nineteenth century, <lb/>
+               <!--  <p>
      [Mr. Sinclair.] 
      <lb/>
             </p>-->
-            <cb/>
-          
-     though this time grain was the cornerstone. 
-     <lb/>
-     Both predicted national ruin unless those bans 
-     <lb/>
-     were maintained. 
-     <lb/>
+               <cb/> though this time grain was the cornerstone. <lb/> Both predicted national ruin
+               unless those bans <lb/> were maintained. <lb/>
             </p>
    
             <p>
@@ -628,7 +605,7 @@
             <p>
      The next argument which we hear so often 
      <lb/>
-     repeated is that We could not have any oleo-<lb/>
+     repeated is that We could not have any oleo- [...]
             </p>
          </div>
       </body>

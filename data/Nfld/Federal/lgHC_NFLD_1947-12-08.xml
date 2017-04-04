@@ -54,6 +54,7 @@
          <change who="mholmes" when="2016-12-19">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2016-12-19">Created this document, completed metadata. </change>
+         <change who="kim_nguyen" when="2017-03-30">Marked-up people.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -66,19 +67,23 @@
          <div type="debate">
             <pb n="17" facs="final/images/NFLD_H_of_C_1947-12-08_Page_0017.jpg"/>
             
-            <fw type="running">HOUSE OF COMMONS</fw>
-<fw type="num">17</fw>
-            <fw type="dateline">
-               Monday, December 8, 1947 
-               <lb/>
-               
-            </fw>
             
+<fw type="num">17</fw>
+
+<div type="section">
+
+<head>HOUSE OF COMMONS</head>
+
+
+            <p><emph>Monday, December 8, 1947</emph></p> 
+              
+
             <p>
                The house met at three o'clock. 
                <lb/>
                
             </p>
+</div>
             
    <div type="section">    
             
@@ -91,14 +96,10 @@
          
             
             <p>
-               Right Hon. W. L. MACKENZIE KING 
-               <lb/>
-               (Prime Minister): Mr. Speaker, I desire to lay 
-               <lb/>
-               on the table the following documents: 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:KING1">Right Hon. W. L. MACKENZIE KING</persName>
+                  <lb/> (Prime Minister): Mr. Speaker, I desire to lay <lb/> on the table the
+                  following documents: <lb/>
+               </p>
             
             
             <p>
@@ -384,42 +385,22 @@
          
             
             <p>
-               Right Hon. L. S. ST. LAURENT (Secretary 
-               <lb/>
-               of State for External Affairs): Mr. Speaker, in 
-               <lb/>
-               compliance with section 2, subsection 3 of the 
-               <lb/>
-               Bretton Woods Agreements Act, 1945, I wish 
-               <lb/>
-               to table order in council of September 5, 1947, 
-               <lb/>
-               whereby Robert Broughton Bryce was 
-               <lb/>
-               appointed alternate governor of the Inter<lb break="no"/>national Bank for Reconstruction and 
-               <lb/>
-               Development. 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:LAUR6">Right Hon. L. S. ST. LAURENT</persName> (Secretary <lb/> of State for
+                  External Affairs): Mr. Speaker, in <lb/> compliance with section 2, subsection 3
+                  of the <lb/> Bretton Woods Agreements Act, 1945, I wish <lb/> to table order in
+                  council of September 5, 1947, <lb/> whereby Robert Broughton Bryce was <lb/>
+                  appointed alternate governor of the Inter<lb break="no"/>national Bank for
+                  Reconstruction and <lb/> Development. <lb/>
+               </p>
             
          
             
             <p>
-               Hon. J. J. McCANN (Minister of National 
-               <lb/>
-               Revenue): In accordance with standing order 
-               <lb/>
-               84 I desire to lay on the table the annual 
-               <lb/>
-               report of the Department of National Revenue 
-               <lb/>
-               for the year ended March 31, 1946, in English 
-               <lb/>
-               and French. I wish to report further, with 
-               <lb/>
-               
-            </p>
+                  <persName ref="pers:MCCA2">Hon. J. J. McCANN</persName> (Minister of National <lb/> Revenue): In
+                  accordance with standing order <lb/> 84 I desire to lay on the table the annual
+                  <lb/> report of the Department of National Revenue <lb/> for the year ended March
+                  31, 1946, in English <lb/> and French. I wish to report further, with [...]
+               </p>
             
  </div>        </div>
       </body>
