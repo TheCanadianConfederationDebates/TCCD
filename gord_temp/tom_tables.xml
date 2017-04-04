@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tom_tables" type="full">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title><name type="legislature" ref="UNSPECIFIED"></name><date when="2017-04-04">4 April 2017</date>Tom's Tables</title>
+        </titleStmt>
+        <publicationStmt><p>The Confederation Debates project.</p></publicationStmt>
+        <sourceDesc><p>An XML page for marking-up data tables.</p></sourceDesc>
+    </fileDesc>
+</teiHeader>
+    <text>
+<body>
+<div type="debate">
+
+
+<!-- Below is an example of what is needed for a complete table. Include: description of the volume the table comes from, the debate day, and the page number. Then transcribe and mark-up the table below. -->
+<div type="document">
+<head>Provinces of Ontario and Quebec</head>
+<p><date when="1865-01-01">1 January 1865</date>
+<fw type="num">87</fw>
+
+<table>
+<row>
+    <cell></cell>
+</row>
+</table>
+</p>
+</div>
+<!-- End of example. -->
+
+</div>
+</body>
+
+</text>
+
+</TEI>
