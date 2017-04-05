@@ -148,6 +148,14 @@ li{
     text-align: right;
 }
 
+.simple_center{
+    text-align: center;
+}
+
+.simple_left{
+    text-align: left;
+}
+
 /* We have our own values too. */
 .tccd_blockquote{
     margin-left: 1rem;
