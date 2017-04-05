@@ -299,6 +299,57 @@
         <a><xsl:apply-templates select="@*"/><xsl:value-of select="substring-before(substring-after(@target, '//'), '/')"/></a>
     </xsl:template>
     
+    <!--  ####### Begin table-handling templates. #######  -->
+    <xd:doc scope="component">
+        <xd:desc>Template for handling table.</xd:desc>
+    </xd:doc>
+    <xsl:template match="table">
+        <table>
+            <xsl:apply-templates select="@* | node()"/>
+        </table>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Table rows become trs.</xd:desc>
+    </xd:doc>
+    <xsl:template match="row">
+        <tr>
+            <xsl:apply-templates select="@* | node()"/>
+        </tr>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Table cells become tds.</xd:desc>
+    </xd:doc>
+    <xsl:template match="cell">
+        <td>
+            <xsl:apply-templates select="@* | node()"/>
+        </td>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>@role on cells or rows is supported for label.</xd:desc>
+    </xd:doc>
+    <xsl:template match="cell/@role | row/@role">
+        <xsl:attribute name="class" select="."/>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>@rows attribute because @rowspan.</xd:desc>
+    </xd:doc>
+    <xsl:template match="cell/@rows | row/@rows">
+        <xsl:attribute name="rowspan" select="."/>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>@cols attribute because @colspan.</xd:desc>
+    </xd:doc>
+    <xsl:template match="cell/@cols | row/@cols">
+        <xsl:attribute name="colspan" select="."/>
+    </xsl:template>
+    
+    <!--  ####### End table-handling templates. #######  -->
+    
     <xd:doc scope="component">
         <xd:desc>These templates match TEI attributes and produce equivalent 
         XHTML5 attributes.</xd:desc>
