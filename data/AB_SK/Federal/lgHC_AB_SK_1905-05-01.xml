@@ -3794,18 +3794,16 @@
      <lb/>the Northwest Territories as regards three 
      <lb/>leading cereals :-
             </p>
-            <!-- ST, 2017-03-14, untaggedTable commented out table to be marked-up at later date.
-
-            <p>1898. 1903. 
-     <lb/>
-     Wheat. . . . 5,542,478 bush. 16,629,149 bush. 
-     <lb/>
-     0ats.. . . . . .. ..3,040,307 bush. 14,179,705 bush. 
-     <lb/>
-     Barley........ 449,512 bush. 1,741,209 bush. 
-     <lb/>
-     -->
             
+
+           <table> 
+ <row><cell></cell><cell>1898.</cell><cell>1903.</cell></row>
+<row><cell>Wheat. . . . </cell><cell rendition="simple:right">5,542,478 bush.</cell> <cell rendition="simple:right">16,629,149 bush.</cell></row>
+     <row>
+        <cell>0ats.. . . . . .. ..</cell><cell rendition="simple:right">3,040,307 bush.</cell> <cell rendition="simple:right">14,179,705 bush.</cell></row>
+     <row><cell>Barley........</cell> <cell rendition="simple:right">449,512 bush.</cell> <cell rendition="simple:right">1,741,209 bush.</cell></row> </table>
+   
+                 
             <p>The population of these Territories, 
      <lb/>which in 1891 numbered only 98,967, rose in 
      <lb/>1901 to 211,649, and reaches just now 
@@ -3932,17 +3930,12 @@
      <lb/>
             </p>
    
-            <!-- GL, 2017-03-14, untaggedTable commented out table to be marked-up at later date.
-     1891. 1903. 
-     <lb/>
-     Number of schools.. .. .. .. .. .. .. 213 640 
-     <lb/>
-     Number of teachers. .. .. .. .. .. 248 783 
-     <lb/>
-     Number of pupils" 5,652  27,741 
-     <lb/>
-           -->
-   
+            
+     <table><row><cell></cell><cell>1891.</cell><cell>1903.</cell></row> 
+     <row><cell>Number of schools.. .. .. .. .. .. .. </cell><cell rendition="simple:right">213</cell> <cell rendition="simple:right">640 </cell></row>
+         <row><cell>Number of teachers. .. .. .. .. ..</cell><cell rendition="simple:right">248</cell><cell rendition="simple:right">783</cell></row>
+        <row><cell>Number of pupils.. .. .. .. .. ..</cell> <cell rendition="simple:right">5,652</cell>  <cell rendition="simple:right">27,741</cell></row> </table>
+        
             <p>
      Ten, of these, Mr. Speaker, are separate 
      <lb/>
