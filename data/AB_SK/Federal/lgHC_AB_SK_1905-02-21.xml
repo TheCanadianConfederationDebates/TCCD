@@ -126,6 +126,7 @@
          <change who="mholmes" when="2017-01-12">Transformed initial template file to incorporate corrected OCR content.</change>
 
          <change who="lyallg" when="2017-01-12">Created this document, completed metadata. </change>
+         <change who="Yu_Thomson" when="2017-04-07">Enhanced Tables</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -563,10 +564,11 @@
                   exactly the same area as that of the seven <lb/> provinces of the Dominion. The
                   total area <lb/> of the seven provinces, as I said a moment <lb/> ago is 1,110,694
                   miles and the area of the <lb/> different territories is as follows: <lb/> </p>
-               <table>
+               
+     <table>
                   <row>
-                     <cell/>
-                     <cell>Miles.</cell>
+                     <cell></cell>
+                     <cell rendition="simple:right">Miles.</cell>
                   </row>
                   <row>
                      <cell>Assiniboia.. .. .. .. .. .. .. ..</cell>
@@ -592,8 +594,10 @@
                      <cell>Total.. .. .. . . ..</cell>
                      <cell rendition="simple:right">1,112.527</cell>
                   </row>
-               </table>
-               <p> Or, an area a little greater than the total <lb/> area of the seven provinces of
+               </table>  
+  
+     
+              <p> Or, an area a little greater than the total <lb/> area of the seven provinces of
                   the Dom<lb break="no"/>inion. Now, as I have said there is a <lb/> great variety
                   in the sizes of our pro<lb break="no"/>vinces; in fact, it is very much with the
                   <lb/> Canadian Confederation as with the Amer<lb break="no"/>ican Union. There are
@@ -626,7 +630,7 @@
                   coupled with agriculture, is but <lb/> a precarious ground on which to found the
                   <lb/> hope of thick and permanent settlement. <lb/> Therefore, we put aside this
                   northern sec<lb break="no"/>tion; but the southern section is of an ab<lb
-                  break="no"/>solutely different character. <lb/> </p>
+                  break="no"/>solutely different character. <lb/></p>
                <p><persName ref="pers:BORD2">Mr. R. L. BORDEN</persName>. What does the right <lb/> hon. gentleman
                   (Sir Wilfrid Laurier) refer <lb/> to exactly ? <lb/>
                </p>
@@ -1010,35 +1014,35 @@
                <table>
                   <row>
                      <cell>Civil government .. . ..</cell>
-                     <cell>$101,540</cell>
+                     <cell rendition="simple:right">$101,540</cell>
                   </row>
                   <row>
                      <cell>Legislation .. .. .. .. .. ..</cell>
-                     <cell>21,375</cell>
+                     <cell rendition="simple:right">21,375</cell>
                   </row>
                   <row>
                      <cell>Administration of Justice ..</cell>
-                     <cell>29,000</cell>
+                     <cell rendition="simple:right">29,000</cell>
                   </row>
                   <row>
                      <cell>Public Works .. .. .. .. ..</cell>
-                     <cell>680,000</cell>
+                     <cell rendition="simple:right">680,000</cell>
                   </row>
                   <row>
                      <cell>Education.. . .. .. .. ..</cell>
-                     <cell>345,125</cell>
+                     <cell rendition="simple:right">345,125</cell>
                   </row>
                   <row>
                      <cell>Agriculture and Statistics .. ..</cell>
-                     <cell>47,680</cell>
+                     <cell rendition="simple:right">47,680</cell>
                   </row>
                   <row>
                      <cell>Hospitals, charities and public <lb/> health.. .. .. .. . .. ..</cell>
-                     <cell>20,000</cell>
+                     <cell rendition="simple:right">20,000</cell>
                   </row>
                   <row>
                      <cell>Miscellaneous .. .. .. . </cell>
-                     <cell>68.175</cell>
+                     <cell rendition="simple:right">68.175</cell>
                   </row>
                </table>
                <p> To these must be added sums which were <lb/> spent by this government on services
@@ -1047,34 +1051,34 @@
                <table>
                   <row>
                      <cell>Public Works. .. .. .. .. .. ..</cell>
-                     <cell>$100,000</cell>
+                     <cell rendition="simple:right">$100,000</cell>
                   </row>
                   <row>
                      <cell>Justice .. .. .. .. .. ..</cell>
-                     <cell>100.000</cell>
+                     <cell rendition="simple:right">100.000</cell>
                   </row>
                   <row>
                      <cell>Miscellaneous.. .. .. .</cell>
-                     <cell>124,310</cell>
+                     <cell rendition="simple:right">124,310</cell>
                   </row>
                </table>
                <p> And this item of 'miscellaneous' was <lb/> composed as follows: <lb/> </p>
                <table>
                   <row>
                      <cell>Lieutenant-Governor's office.. ..</cell>
-                     <cell>$ 3,880</cell>
+                     <cell rendition="simple:right">$ 3,880</cell>
                   </row>
                   <row>
                      <cell>Incidental Justice .. .. .. .. ..</cell>
-                     <cell>32,000</cell>
+                     <cell rendition="simple:right">32,000</cell>
                   </row>
                   <row>
                      <cell>Insane patients .. .. .. .. ..</cell>
-                     <cell>70,000</cell>
+                     <cell rendition="simple:right">70,000</cell>
                   </row>
                   <row>
                      <cell>Schools in unorganized districts</cell>
-                     <cell>6,500</cell>
+                     <cell rendition="simple:right">6,500</cell>
                   </row>
                </table>
                <p> So that, last year there was provided for <lb/> and expended by the Northwest
@@ -1118,19 +1122,19 @@
                <table>
                   <row>
                      <cell>Ontario .. .. .. .. .. .. .. .. ..</cell>
-                     <cell>$80,000</cell>
+                     <cell rendition="simple:right">$80,000</cell>
                   </row>
                   <row>
                      <cell>Quebec . . .. .. .. .. .. .. .. ..</cell>
-                     <cell>70.000</cell>
+                     <cell rendition="simple:right">70.000</cell>
                   </row>
                   <row>
                      <cell>Nova Scotia. .. .. .. .. .. .. ..</cell>
-                     <cell>60,000</cell>
+                     <cell rendition="simple:right">60,000</cell>
                   </row>
                   <row>
                      <cell>New Brunswick .. ..</cell>
-                     <cell>50,000</cell>
+                     <cell rendition="simple:right">50,000</cell>
                   </row>
                </table>
                <p> Two hundred and sixty thousand,—and an <lb/> annual grant in aid of each province
@@ -1262,32 +1266,32 @@
                <table>
                   <row>
                      <cell>Total population as per census of 1901..</cell>
-                     <cell>165,555</cell>
+                     <cell rendition="simple:right">165,555</cell>
                   </row>
                   <row>
                      <cell>Increase of population of homesteaders <lb/> since the census of 1901..
                         .. .. .. .. ..</cell>
-                     <cell>221,251</cell>
+                     <cell rendition="simple:right">221,251</cell>
                   </row>
                   <row>
                      <cell>Increase of population other than home<lb break="no"/>steaders since
                         census, 1901, say.. .. ..<lb/>(Estimated from Waghorn's Guide.)</cell>
-                     <cell>16,000</cell>
+                     <cell rendition="simple:right">16,000</cell>
                   </row>
                   <row>
                      <cell>Estimated natural increase of the popu<lb break="no"/>lation at 1901 to
                         date is.. .. .</cell>
-                     <cell>9,900</cell>
+                     <cell rendition="simple:right">9,900</cell>
                   </row>
                   <row>
                      <cell>Estimated natural increase of the in<lb break="no"/>crease of population
                         in 1902 to date is</cell>
-                     <cell>1,935</cell>
+                     <cell rendition="simple:right">1,935</cell>
                   </row>
                   <row>
                      <cell>Estimated natural increase of the in<lb break="no"/>crease of population
                         in 1903 to date is</cell>
-                     <cell>2,370</cell>
+                     <cell rendition="simple:right">2,370</cell>
                   </row>
                   <row>
                      <cell>Estimated natural increase of the in<lb break="no"/>crease of population
@@ -1296,7 +1300,7 @@
                   </row>
                   <row>
                      <cell/>
-                     <cell>417.956</cell>
+                     <cell rendition="simple:right">417.956</cell>
                   </row>
                </table>
                <p> Now, this Act is not to come into force <lb/> until the 1st of July, and we
