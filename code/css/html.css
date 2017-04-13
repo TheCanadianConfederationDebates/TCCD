@@ -59,6 +59,8 @@ div.body{
     margin-left: auto;
     margin-right: auto;
     max-width: 40rem;
+/*  Some pages are flipped for large tables.  */
+    overflow: visible;
     /*-moz-column-width: 20rem;
     -webkit-column-width: 20rem;
     column-width: 20rem;
@@ -148,7 +150,7 @@ li{
     text-align: right;
 }
 
-.simple_center{
+.simple_centre{
     text-align: center;
 }
 
@@ -163,10 +165,27 @@ li{
     font-size: 0.9rem;
 }
 
+div.tableContainer{
+    position: relative;
+    left: calc(-50vw + 20rem);
+    width: 100vw;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+}
+
+div.tablePadding{
+    margin: auto;
+    padding: 1em;
+    background-color: #f9f9f9;
+}
+
 table{
     border: solid 1px gray;
     border-collapse: collapse;
     margin: 1em auto 1em auto;
+    background-color: #f9f9f9;
+    padding: 1em;
 }
 
 th, td{
