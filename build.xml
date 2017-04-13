@@ -166,7 +166,7 @@
       <arg value="${filepath}"/>
 <!-- Huge thanks to George Bina for suggesting this jvmarg,
      which prevents unpredictable stack overflow errors. -->
-      <jvmarg value="-Xss2m"/>
+      <jvmarg value="-Xss4m"/>
     </java>
   </target>
   
