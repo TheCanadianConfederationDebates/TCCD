@@ -304,9 +304,13 @@
         <xd:desc>Template for handling table.</xd:desc>
     </xd:doc>
     <xsl:template match="table">
-        <table>
-            <xsl:apply-templates select="@* | node()"/>
-        </table>
+        <div class="tableContainer">
+            <div class="tablePadding">
+                <table>
+                    <xsl:apply-templates select="@* | node()"/>
+                </table>
+            </div>
+        </div>
     </xsl:template>
     
     <xd:doc scope="component">
