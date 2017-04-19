@@ -216,7 +216,7 @@
         <xd:desc>The person element needs its own processing.</xd:desc>
     </xd:doc>
     <xsl:template match="listPerson/person">
-        <li>
+        <li title="pers:{@xml:id}">
             <xsl:variable name="link" select="concat('pers:', @xml:id)"/>
             <xsl:apply-templates select="@*|node()"/>
             
@@ -290,6 +290,13 @@
     </xd:doc>
     <xsl:template match="ref[@target]">
         <a><xsl:apply-templates select="@* | node()"/></a>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Handler for the lb elements which are breaking: add space.</xd:desc>
+    </xd:doc>
+    <xsl:template match="lb[not(@break='no')]">
+        <xsl:text> </xsl:text>
     </xsl:template>
     
     <xd:doc scope="component">

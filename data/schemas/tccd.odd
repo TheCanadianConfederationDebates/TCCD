@@ -7252,6 +7252,20 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                </elementSpec>
           
+               <!--     For <p> elements, let's get rid of trailing lbs.     -->
+               <!--               COMMENTED OUT BECAUSE IT MAKES EVERYTHING INVALID AT THE MOMENT. -->
+               <!--               <elementSpec ident="p" mode="change">
+                  <constraintSpec ident="notrailinglb" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:p">
+                           <sch:assert test="not(*) or tei:*[last()][not(self::tei:lb) or following-sibling::text()[string-length(normalize-space(.)) gt 0]]">
+                              Error: A paragraph does not need a trailing lb element.
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+               </elementSpec>
+          -->
                <!--  Values for textual divisions. These should be reinforced
                 with Schematron to constrain their hierarchy. This is 
                 a very simple hierarchy; most transitions are milestones. -->
