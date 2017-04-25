@@ -294,6 +294,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="tccd:blockquote">
                               <desc>a quotation appearing as a block</desc>
                            </valItem>
+                           <valItem ident="tccd:textIndent">
+                              <desc>A first-line indent on a paragraph or other block.</desc>
+                           </valItem>
                         </valList>
                      </attDef>
                   </attList>
