@@ -3824,25 +3824,27 @@
      <lb/>suit :- <lb/>
             </p>
 
-<!-- GL, 2017-03-07, untaggedTable commented out table to be marked-up at later date.
-            <p>Instruction publique ................ $ 274,112 
-     <lb/>
-    Hôpitaux et institutions de charité… . 125,000 
-     <lb/>Pénitenciers, prisons de réforme       76,000 
-     <lb/>Sociétés agricoles...……….......... 52,000 
-     <lb/>Chemins et ponts........................ 80,000 
-     <lb/>Police.............................................. 15,000 
-     <lb/>Institutions littéraires et scientifiques.. 7,000 
-     <lb/>$629,112 
-     <lb/>Législation. ................................... 100,000 
-     <lb/>Gouvernement civil, lieut-gouverneur 
-     <lb/>et son état-major...................... 120,000 
-     <lb/>$ 849,112 
-     <lb/>Ce qui laisse, pour d'autres objets, une 
-     <lb/>balance de 270,888 
-     <lb/>$1,120,000 
-     <lb/>
-            </p> -->
+
+            <table>
+               <row><cell>Instruction publique ................ </cell><cell rendition="simple:right">$ 274,112 </cell></row>
+     
+    <row><cell>Hôpitaux et institutions de charité… . </cell><cell rendition="simple:right">125,000</cell></row> 
+     <row><cell>Pénitenciers, prisons de réforme....</cell><cell rendition="simple:right">76,000</cell></row> 
+     <row><cell>Sociétés agricoles...……….......... </cell><cell rendition="simple:right">52,000</cell></row> 
+     <row><cell>Chemins et ponts........................ </cell><cell rendition="simple:right">80,000</cell></row> 
+     <row><cell>Police.............................................. </cell><cell rendition="simple:right">15,000</cell></row> 
+     <row><cell>Institutions littéraires et scientifiques.. </cell><cell rendition="simple:right"><hi rendition="simple:underline">7,000</hi></cell></row>
+     <row><cell></cell><cell rendition="simple:right">$629,112 </cell></row>
+     <row><cell>Législation. ................................... </cell><cell rendition="simple:right">100,000</cell></row> 
+     <row><cell rows="2">Gouvernement civil, lieut-gouverneur 
+     <lb/>et son état-major...................... </cell><cell rendition="simple:right" rows="2"><hi rendition="simple:underline">120,000</hi></cell></row>
+     <row><cell></cell><cell rendition="simple:right">$ 849,112 </cell></row>
+     <row><cell>Ce qui laisse, pour d'autres objets, une 
+     <lb/>balance de.............. </cell><cell rendition="simple:right"><hi rendition="simple:underline">270,888</hi></cell></row> 
+     <row><cell></cell><cell rendition="simple:right"><hi rendition="simple:underline">$1,120,000</hi></cell></row>
+            </table>
+     
+            
    
             <p>
      Dans la partie du Haut-Canada que j'habite, 

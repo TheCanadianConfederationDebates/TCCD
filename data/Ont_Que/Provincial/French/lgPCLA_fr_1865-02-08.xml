@@ -2895,18 +2895,16 @@ Ce projet, M. l'ORATEUR, peut être envisagé
      <lb/>
             </p>
    
-<!-- GL, DATE, untaggedTable commented out table to be marked-up at later date.
 
-            <p>
-     Importations ................... $70,600,963 
-     <lb/>
-     Exportations . . . . . . .      66,846,604 
-     <lb/>
-                                        <lb break="no"/>
-            </p>
-            <p>Commerce total ....... $137,447,567 
-     <lb/>
-            </p> -->
+ <table>
+    <row><cell>Importations ................... </cell><cell rendition="simple:right">$70,600,963</cell></row> 
+    
+     <row><cell>Exportations . . . . . . .</cell><cell rendition="simple:right"><hi rendition="simple:underline">66,846,604</hi></cell></row>
+  
+    <row><cell rendition="simple:centre">Commerce total ....... </cell><cell rendition="simple:right">$137,447,567</cell></row> 
+ 
+ </table>
+    
    
             <p>
      Je désirerais, M. l'ORATEUR, rappeler à 
@@ -3333,33 +3331,26 @@ Ce projet, M. l'ORATEUR, peut être envisagé
      <lb/>
             </p>
    
-<!-- GL, 2017-03-02, untaggedTable commented out table to be marked-up at later date.
 
-            <p>
-     VAISSEAUX. TONNAUX. 
-     <lb/>
-            </p>
-   
-            <p>
-     En Canada....... ....158 avec....67,209 
-     <lb/>
-            </p>
-   
-            <p>
-     A la Nouvelle-Ecosse. . . .207 " ..….46,862 
-     <lb/>
-     Au Nouveau—Brunswick… 137 " ....85,260 
-     <lb/>
-     A l'Ile du Prince-Edouard.100 " ...... 24,991 
-     <lb/>
-     A Terreneuve ............... 26 " .... 6,000 
-     <lb/>
-            </p>
 
-            <p>
-     Total . .........628 ........ 230,312' 
-     <lb/>
-            </p> -->
+     <table>      
+    
+        <row><cell></cell><cell>VAISSEAUX.</cell><cell></cell><cell>TONNAUX</cell></row>
+     
+     <row><cell>En Canada....... ....</cell><cell rendition="simple:right">158</cell><cell>avec....</cell><cell rendition="simple:right">67,209</cell></row>
+     
+     <row><cell>A la Nouvelle-Ecosse. . . .</cell><cell rendition="simple:right">207</cell><cell>" ..….</cell><cell rendition="simple:right">46,862</cell></row>
+     
+     <row><cell>Au Nouveau—Brunswick… </cell><cell rendition="simple:right">137</cell><cell>" ....</cell><cell rendition="simple:right">85,260</cell></row>
+     
+   <row><cell>A l'Ile du Prince-Edouard.</cell><cell rendition="simple:right">100</cell><cell> " ...... </cell><cell rendition="simple:right">24,991</cell></row> 
+     
+     <row><cell>A Terreneuve ............... </cell><cell rendition="simple:right"><hi rendition="simple:underline">26</hi></cell> <cell>" .... </cell><cell rendition="simple:right"><hi rendition="simple:underline">6,000</hi></cell></row>
+     
+     <row><cell>Total . .........</cell><cell rendition="simple:right">628</cell> <cell>........</cell> <cell rendition="simple:right">230,312'</cell></row>
+        
+     </table>
+  
    
             <p>
      Maintenant, M. l'0RATEUR, en 1861,— 
@@ -3550,24 +3541,23 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             <pb n="101" facs="final/images/Ont_Que_Fr_LA_1865-02-08_Page_0101.jpg"/>
             <fw type="num">101</fw>
             
-<!-- GL, 2017-03-02, untaggedTable commented out table to be marked-up at later date.
-<p>
-     NAVIRES   TONN'X.<lb/>1864, le Canada avait...…. .... 2,311 . . 237,187 
-     <lb/>
-     1863, la Nouvelle-Ecosse ......... 3,539 .. 309,554 
-     <lb/>
-     1863, le Nouveau-Brunswick... . 891 . . 211,680 
-     <lb/>
-     1863 l'Ile du Prince-Edouard. . 360 . . 34,603 
-     <lb/>
-     1863, Terreneuve ................... 1,429 .. 39,603 
-     <lb/>
-            </p>
 
-            <p>
-     Total ..... 8,530     932,246 
-     <lb/>
-            </p> -->
+    <table> 
+       <row><cell></cell><cell>NAVIRES</cell> <cell>TONN'X.</cell></row>
+      
+       <row><cell>1864, le Canada avait...…. .... </cell><cell rendition="simple:right">2,311</cell><cell rendition="simple:right"> . . 237,187 </cell></row>
+     
+     <row><cell>1863, la Nouvelle-Ecosse ......... </cell><cell rendition="simple:right">3,539</cell><cell rendition="simple:right">.. 309,554</cell></row>
+     
+     <row><cell>1863, le Nouveau-Brunswick... . </cell><cell rendition="simple:right">891</cell><cell rendition="simple:right">. . 211,680</cell></row> 
+     
+     <row><cell>1863 l'Ile du Prince-Edouard. . </cell><cell rendition="simple:right">360</cell><cell rendition="simple:right">. . 34,603 </cell></row>
+     
+     <row><cell>1863, Terreneuve ................... </cell><cell rendition="simple:right"><hi rendition="simple:underline">1,429</hi></cell><cell rendition="simple:right">..<hi rendition="simple:underline">39,603 </hi></cell></row>
+     
+           <row><cell rendition="simple:centre">Total ..... </cell><cell rendition="simple:right">8,530</cell><cell rendition="simple:right">932,246 </cell></row>
+     </table>
+            
    
             <p>
      Il est bien vrai, M. l'ORATEUR, que les 
@@ -3637,24 +3627,23 @@ Ce projet, M. l'ORATEUR, peut être envisagé
      <lb/>
             </p>
    
-<!-- GL, 2017-03-02, untaggedTable commented out table to be marked-up at later date.
-            <p>
-     En Canada…...........…. 5,953 
-     <lb/>
-     A la Nouvelle-Ecosse .......... 19,637 
-     <lb/>
-     Au Nouveau-Brunswick 2,765 
-     <lb/>
-     A l'île du Prince-Edouard… .. . . 2,318 
-     <lb/>
-     A Terreneuve........... 38,573 
-     <lb/>
-            </p>
 
-            <p>
-     Total… .. 69,256 
-     <lb/>
-            </p> -->
+ <table>    
+    
+    <row><cell>En Canada…...........…. </cell><cell rendition="simple:right">5,953</cell></row> 
+    
+     <row><cell>A la Nouvelle-Ecosse .......... </cell><cell rendition="simple:right">19,637</cell></row>
+     
+     <row><cell>Au Nouveau-Brunswick..........</cell><cell rendition="simple:right">2,765</cell></row>
+     
+     <row><cell>A l'île du Prince-Edouard… .. . . </cell><cell rendition="simple:right">2,318</cell></row>
+     
+     <row><cell>A Terreneuve........... </cell><cell rendition="simple:right"><hi rendition="simple:underline">38,573</hi></cell></row>
+     
+     <row><cell rendition="simple:centre">Total… .. </cell><cell rendition="simple:right">69,256</cell></row>
+     
+ </table>
+            
    
             <p>
      Qu'on envisage cette statistique au point 
@@ -3686,21 +3675,21 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             </p>
    
 
-<!-- GL, 2017-03-02, untaggedTable commented out table to be marked-up at later date.
-            <p>
-     Haut-Canada, 1859 .............. $ 380,000 
-     <lb/>
-     Bas-Canada, 1862.….… . . . . . 703,895 
-     <lb/>
-     Nouvelle-Ecosse, 1861. ........ . 2,072,081 
-     <lb/>
-     Nouveau-Brunswick, 1861.… 518,530 
-     <lb/>
-     Terreneuve, 1861 ...... . . . . . 6,317,730 
-     <lb/>
-    Total    $10,022,236   
-     <lb/>
-            </p> -->
+
+   <table>  
+            <row><cell>Haut-Canada, 1859 .............. </cell><cell rendition="simple:right">$ 380,000</cell></row> 
+     
+     <row><cell>Bas-Canada, 1862.….… . . . . . </cell><cell rendition="simple:right">703,895 </cell></row>
+     
+     <row><cell>Nouvelle-Ecosse, 1861. ........ . </cell><cell rendition="simple:right">2,072,081 </cell></row>
+     
+     <row><cell>Nouveau-Brunswick, 1861.… </cell><cell rendition="simple:right">518,530 </cell></row>
+     
+     <row><cell>Terreneuve, 1861 ...... . . . . . </cell><cell rendition="simple:right"><hi rendition="simple:underline"><hi rendition="simple:underline">6,317,730</hi></hi></cell></row>
+     
+    <row><cell>Total</cell><cell rendition="simple:right">$10,022,236</cell></row>
+   </table>
+
    
             <p>
      (Ecoutez ! écoutez ! ) Je n'ai pu trouver 
@@ -3735,24 +3724,20 @@ Ce projet, M. l'ORATEUR, peut être envisagé
             <pb n="102" facs="final/images/Ont_Que_Fr_LA_1865-02-08_Page_0102.jpg"/>
 <fw type="num">102</fw>
 
-<!-- GL, 2017-03-02, untaggedTable commented out table to be marked-up at later date.
-            <p>
-     Du Canada . . . . . . .......................$  789,913 
-     <lb/>
-     De la Nouvelle-Ecosse. . . ..... 2,390,661 
-     <lb/>
-     Du Nouveau-Brunswick (1802) 303,477 
-     <lb/>
-     De Terreneuve. . . .    ............ 4,090,970 
-     <lb/>
-     De l'ile du Prince-Edouard… 121,000 
-     <lb/>
-            </p>
-           
-            <p>
-     Total des exportations . . .... . $7,696,021 
-     <lb/>
-            </p> -->
+
+    <table> 
+       <row><cell>Du Canada . . . . . . .......................</cell><cell rendition="simple:right">$ 789,913</cell></row> 
+     
+     <row><cell>De la Nouvelle-Ecosse. . . ..... </cell><cell rendition="simple:right">2,390,661</cell></row>
+     
+     <row><cell>Du Nouveau-Brunswick (1802).......... </cell><cell rendition="simple:right">303,477</cell></row> 
+     
+     <row><cell>De Terreneuve. . . .    ............ </cell><cell rendition="simple:right">4,090,970</cell></row>
+     
+     <row><cell>De l'ile du Prince-Edouard… </cell><cell rendition="simple:right"><hi rendition="simple:underline">121,000</hi></cell></row>
+     
+     <row><cell>Total des exportations . . .... . </cell><cell rendition="simple:right">$7,696,021</cell></row>
+     </table>
    
             <p>
      Ajoutez à cette somme neuf millions de 
@@ -3792,38 +3777,30 @@ Ce projet, M. l'ORATEUR, peut être envisagé
      <lb/>
             </p>
 
-    <!-- GL, 2017-03-02, untaggedTable commented out table to be marked-up at later date.
-   
-            <p>
-                                 Entrée.      Sortie.     Total. 
-     <lb/>
-     Canada     ..... 1,041,309     1,091,895     2,133,204 
-     <lb/>
-     Nouvelle-Ecosse .... 712,939 719,915 1,482,854 
-     <lb/>
-     Nouveau-Brunswick . 659,258 727,727 1,386,985 
-     <lb/>
-     Ile du P.-E, 1862 ...... 69,080 81,208 150,288 
-     <lb/>
-     Terreneuve..…. ...... 4 156,578 148,610 305,188 
-     <lb/>
-                           2,689,184 2,709,355 5,408,519 
-     <lb/>Navigation intérieure. 
-     <lb/>Canada .......... ..........3,538,701 3,363,482 6,907,133 
-     <lb/>  
-     <lb/>
-            </p>
-
     
-   
-            <p>
-     Tonnage total...6,l77,865 6,137,737 12,315,652 
-     <lb/>
+     <table>
+        
+        <row><cell></cell><cell>Entrée.</cell><cell>Sortie.</cell><cell>Total.</cell></row> 
      
+        <row><cell>Canada..... </cell><cell rendition="simple:right">1,041,309</cell><cell rendition="simple:right">1,091,895</cell><cell rendition="simple:right">2,133,204 </cell></row>
      
-            </p> -->
-   
-            <p>
+     <row><cell>Nouvelle-Ecosse .... </cell><cell rendition="simple:right">712,939</cell> <cell rendition="simple:right">719,915</cell> <cell rendition="simple:right">1,482,854</cell></row> 
+     
+     <row><cell>Nouveau-Brunswick . </cell><cell rendition="simple:right">659,258</cell><cell rendition="simple:right">727,727 </cell><cell rendition="simple:right">1,386,985</cell> </row>
+     
+     <row><cell>Ile du P.-E, 1862 ......</cell><cell rendition="simple:right">69,080</cell><cell rendition="simple:right">81,208</cell><cell rendition="simple:right">150,288</cell></row>
+        
+          <row><cell>Terreneuve..…. ...... </cell><cell rendition="simple:right"><hi rendition="simple:underline">4 156,578</hi></cell><cell rendition="simple:right"><hi rendition="simple:underline">148,610</hi></cell> <cell rendition="simple:right"><hi rendition="simple:underline">305,188</hi></cell></row> 
+    
+   <row><cell></cell><cell rendition="simple:right">2,689,184</cell><cell rendition="simple:right">2,709,355</cell> <cell rendition="simple:right">5,408,519</cell></row>
+        
+     <row><cell rows="2">Navigation intérieure.<lb/>Canada .......... ..........</cell> 
+     <cell rows="2"><hi rendition="simple:underline">3,538,701</hi></cell><cell rows="2"><hi rendition="simple:underline">3,363,482</hi></cell><cell rows="2"><hi rendition="simple:underline">6,907,133</hi></cell> </row>
+     
+     <row><cell>Tonnage total...</cell><cell rendition="simple:right">6,l77,865</cell><cell rendition="simple:right">6,137,737</cell><cell rendition="simple:right">12,315,652</cell></row>
+     </table>
+
+    <p>
      Or, M. l'ORATEUR, les Etats-Unis occupent 
      <lb/>la même position que nous au sujet de la<lb/>
          
@@ -4670,18 +4647,27 @@ français ont encore droit d'être fiers du
             </p>
 
 
-<!-- GL, 2017-03-02, untaggedTable commented out table to be marked-up at later date.
-            <p>Hommes de 20 a 60 ans dans le 
-     <lb/>
-                            Haut-Canada.     308,955 
-     <lb/>                   " " Bas-Canada. 225,620 
-     <lb/>        " " la Nouvelle-Ecosse. 67,367 
-     <lb/>    " " le Nouveau-Brunswick. 51,625 
-     <lb/>     " " Terreneuve. 25,532 
-     <lb/>    " " l'ile du Prince-Edouard. 14,819 
-     <lb/>          Total .................. 693,915 
-     <lb/>
-            </p> -->
+
+           <table> 
+              
+              <row><cell>Hommes de 20 a 60 ans dans le</cell><cell></cell><cell></cell></row> 
+     
+     <row><cell></cell><cell>Haut-Canada.</cell><cell rendition="simple:right">308,955</cell></row> 
+     
+              <row><cell>" "</cell><cell>Bas-Canada.</cell><cell rendition="simple:right">225,620</cell></row> 
+     
+     <row><cell>" " </cell><cell>la Nouvelle-Ecosse.</cell> <cell rendition="simple:right">67,367</cell></row> 
+       
+     <row><cell>" "</cell><cell>le Nouveau-Brunswick.</cell><cell rendition="simple:right">51,625</cell></row> 
+     
+      <row><cell>" " </cell><cell>Terreneuve.</cell><cell rendition="simple:right">25,532</cell></row> 
+     
+      <row><cell>" "</cell><cell rendition="simple:right">l'ile du Prince-Edouard.</cell><cell rendition="simple:right">14,819</cell></row> 
+    
+      <row><cell></cell><cell rendition="simple:centre">Total .................. </cell><cell rendition="simple:right">693,915</cell></row>
+      </table>
+     
+            
 
     
             <p>
