@@ -165,6 +165,10 @@ li{
     font-size: 0.9rem;
 }
 
+.tccd_textIndent{
+    text-indent: 2em;
+}
+
 div.tableContainer{
     position: relative;
     left: calc(-50vw + 20rem);
