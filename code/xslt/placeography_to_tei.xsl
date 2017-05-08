@@ -113,8 +113,6 @@
           </xsl:for-each>
         </xsl:variable>
         
-        <xsl:message select="string-join($sortedDistinctRidings, '&#x0a;')"/>
-        
         <xsl:for-each select="$distinctProvRidings">
           <xsl:variable name="currRiding" select="."/>
 <!-- Get the list of rows for this prov/riding.         -->
@@ -123,9 +121,15 @@
           <xsl:for-each select="$distinctCoords">
             <xsl:variable name="currCoords" select="."/>
             <xsl:variable name="recsForTheseCoords" select="$currRidingRows[replace(table:table-cell[$latLongCol], '\s+', '') = $currCoords]"/>
-            <place n="{$recsForTheseCoords[1]/table:table-cell[$idCol]}" type="{if (ends-with($currRiding, '|P')) then 'federal' else 'nonFederal'}">
+            <place n="{normalize-space($recsForTheseCoords[1]/table:table-cell[$idCol])}" type="{if (ends-with($currRiding, '|P')) then 'federal' else 'nonFederal'}">
               <xsl:sequence select="hcmc:getMassagedPlaceName($recsForTheseCoords[1])"/>
-              <date notBefore="{hcmc:getMinDate($recsForTheseCoords)}" notAfter="{hcmc:getMaxDate($recsForTheseCoords)}"/>
+              <xsl:sequence select="hcmc:getRangeDate($recsForTheseCoords)"/>
+              <location>
+                <geo><xsl:value-of select="$currCoords"/></geo>
+              </location>
+              <note>
+                <xsl:sequence select="hcmc:getRepresentatives($recsForTheseCoords)"/>
+              </note>
             </place>
           </xsl:for-each>
           
@@ -207,17 +211,44 @@
     </placeName>
   </xsl:function>
   
-<!-- This function, passed a set of table rows, gets the lowest date year from the date column. -->
-  <xsl:function name="hcmc:getMinDate" as="xs:string">
+<!-- This function, passed a set of table rows, gets the lowest and highest year from
+     the date column, and returns a TEI date element. -->
+  <xsl:function name="hcmc:getRangeDate" as="element(date)">
     <xsl:param name="rows" as="element(table:table-row)+"/>
-    <xsl:variable name="years" as="xs:integer+" select="for $r in $rows return xs:integer(tokenize($r/table:table-cell[$dateCol], '/')[last()])"/>
-    <xsl:value-of select="min($years)"/>
+    <xsl:variable name="years" as="xs:integer*" select="for $r in $rows return if (matches($r/table:table-cell[$dateCol], '\d\d\d\d')) then xs:integer(tokenize($r/table:table-cell[$dateCol], '/')[last()]) else ()"/>
+    <xsl:choose>
+      <xsl:when test="count($years) gt 0">
+        <date notBefore="{min($years)}" notAfter="{max($years)}"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <date>[not known]</date>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
   
-  <!-- This function, passed a set of table rows, gets the highest date year from the date column. -->
-  <xsl:function name="hcmc:getMaxDate" as="xs:string">
+<!-- This function gets a list of the names of elected representatives from a set of
+     riding rows. -->
+  <xsl:function name="hcmc:getRepresentatives" as="element(list)*">
     <xsl:param name="rows" as="element(table:table-row)+"/>
-    <xsl:variable name="years" as="xs:integer+" select="for $r in $rows return xs:integer(tokenize($r/table:table-cell[$dateCol], '/')[last()])"/>
-    <xsl:value-of select="max($years)"/>
+    <xsl:variable name="people">
+      <xsl:for-each select="$rows">
+        <xsl:if test="normalize-space(table:table-cell[$electedCol]) = '1'">
+          <persName>
+            <surname><xsl:value-of select="normalize-space(table:table-cell[$lastNameCol])"/></surname>
+            <xsl:text>, </xsl:text>
+            <forename><xsl:value-of select="normalize-space(table:table-cell[$firstNameCol])"/></forename>
+          </persName>
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:if test="count($people) gt 0">
+      <list>
+        <head>Representatives</head>
+        <xsl:for-each select="$people">
+          <item><xsl:sequence select="."/></item>
+        </xsl:for-each>
+      </list>
+    </xsl:if>
   </xsl:function>
+  
 </xsl:stylesheet>
