@@ -221,7 +221,7 @@
         <date notBefore="{min($years)}" notAfter="{max($years)}"/>
       </xsl:when>
       <xsl:otherwise>
-        <date>[not known]</date>
+        <date notBefore="1887" notAfter="1905"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
