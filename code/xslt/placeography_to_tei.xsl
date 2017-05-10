@@ -123,10 +123,8 @@
             <xsl:variable name="recsForTheseCoords" select="$currRidingRows[replace(table:table-cell[$latLongCol], '\s+', '') = $currCoords]"/>
             <place n="{normalize-space($recsForTheseCoords[1]/table:table-cell[$idCol])}" type="{if (ends-with($currRiding, '|P')) then 'federal' else 'nonFederal'}">
               <xsl:sequence select="hcmc:getMassagedPlaceName($recsForTheseCoords[1])"/>
-              <xsl:sequence select="hcmc:getRangeDate($recsForTheseCoords)"/>
-              <location>
-                <geo><xsl:value-of select="$currCoords"/></geo>
-              </location>
+              <xsl:sequence select="hcmc:getDatedLocation($recsForTheseCoords, $currCoords)"/>
+              
               <note>
                 <xsl:sequence select="hcmc:getRepresentatives($recsForTheseCoords)"/>
               </note>
@@ -206,22 +204,58 @@
   <xsl:function name="hcmc:getMassagedPlaceName" as="element(placeName)">
     <xsl:param name="row" as="element(table:table-row)"/>
     <placeName>
-      <state><xsl:value-of select="upper-case(normalize-space(replace($row/table:table-cell[$provinceTreatyCol], '[\-‒–—―+]', '-')))"/></state>
-      <region><xsl:value-of select="upper-case(normalize-space(replace($row/table:table-cell[$ridingCol], '[\-‒–—―+]', '-')))"/></region>
+      <region><xsl:value-of select="upper-case(normalize-space(replace($row/table:table-cell[$provinceTreatyCol], '[\-‒–—―+]', '-')))"/></region>
+      <district><xsl:value-of select="upper-case(normalize-space(replace($row/table:table-cell[$ridingCol], '[\-‒–—―+]', '-')))"/></district>
     </placeName>
   </xsl:function>
   
 <!-- This function, passed a set of table rows, gets the lowest and highest year from
-     the date column, and returns a TEI date element. -->
+     the date column, and returns a TEI date element. OBSOLETE. -->
   <xsl:function name="hcmc:getRangeDate" as="element(date)">
     <xsl:param name="rows" as="element(table:table-row)+"/>
     <xsl:variable name="years" as="xs:integer*" select="for $r in $rows return if (matches($r/table:table-cell[$dateCol], '\d\d\d\d')) then xs:integer(tokenize($r/table:table-cell[$dateCol], '/')[last()]) else ()"/>
     <xsl:choose>
       <xsl:when test="count($years) gt 0">
-        <date notBefore="{min($years)}" notAfter="{max($years)}"/>
+        <xsl:choose>
+          <xsl:when test="min($years) ne max($years)">
+            <date notBefore="{min($years)}" notAfter="{max($years)}"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <date notBefore="{min($years)}"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <date notBefore="1887" notAfter="1905"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- This function, passed a set of table rows, gets the lowest and highest year from
+     the date column, and returns a TEI location element also containing the coordinates. -->
+  <xsl:function name="hcmc:getDatedLocation" as="element(location)">
+    <xsl:param name="rows" as="element(table:table-row)+"/>
+    <xsl:param name="coords" as="xs:string"/>
+    <xsl:variable name="years" as="xs:integer*" select="for $r in $rows return if (matches($r/table:table-cell[$dateCol], '\d\d\d\d')) then xs:integer(tokenize($r/table:table-cell[$dateCol], '/')[last()]) else ()"/>
+    <xsl:choose>
+      <xsl:when test="count($years) gt 0">
+        <xsl:choose>
+          <xsl:when test="min($years) ne max($years)">
+            <location notBefore="{min($years)}" notAfter="{max($years)}">
+              <geo><xsl:value-of select="$coords"/></geo>
+            </location>
+          </xsl:when>
+          <xsl:otherwise>
+            <location notBefore="{min($years)}">
+              <geo><xsl:value-of select="$coords"/></geo>
+            </location>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+        <location notBefore="1887" notAfter="1905">
+          <geo><xsl:value-of select="$coords"/></geo>
+        </location>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
