@@ -158,11 +158,11 @@
       <surface xml:id="Ont_Que_Fr_LA_1865-02-09_Page_0132">
          <graphic url="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0132.jpg"/>
       </surface>
-      <surface xml:id="Ont_Que_Fr_Page_0143">
-         <graphic url="mnt/BigDisk/WorkData/history/confederation_debates/TCCD/data/Ont_Que/French/images/Ont_Que_Fr_Page_0143.jpg"/>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-09_Page_0133">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0133.jpg"/>
       </surface>
-      <surface xml:id="Ont_Que_Fr_Page_0144">
-         <graphic url="mnt/BigDisk/WorkData/history/confederation_debates/TCCD/data/Ont_Que/French/images/Ont_Que_Fr_Page_0144.jpg"/>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-09_Page_0134">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0134.jpg"/>
       </surface>
       <surface xml:id="Ont_Que_Fr_LA_1865-02-09_Page_0135">
          <graphic url="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0135.jpg"/>
@@ -217,7 +217,10 @@
       <body>
          <div type="debate">
             <pb n="126" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0126.jpg"/>
-            <p>
+            <fw type="num">126</fw>
+            
+            <!-- MDH, 2017-05-14, Commented out below as it precedes Debate Day --> 
+    <!--        <p>
      fédéral ; les membres nommés par la couronne 
      <lb/>
      resteront membres à vie, et les membres élus res<lb break="no"/>teront membres pour huit ans à compter de leur 
@@ -287,13 +290,10 @@
             <p>
      A 6 heures, le débat est ajourné ; l'hon. 
      <lb/>M. MACPHERSON a la parole.<lb/>
-            </p>
-            <fw type="num">ASSEMBLÉE</fw>
-            <fw type="running">LÉGISLATIVE.</fw>
+            </p>-->
+            <head>ASSEMBLÉE   LÉGISLATIVE.</head>
             <fw type="dateline">
-     Jeudi, 9 février 1865. 
-     <lb/>
-            </fw>
+               <hi rendition="simple:smallcaps">Jeudi</hi>, 9 <hi rendition="simple:italic">février</hi> 1865. </fw>
             <p>
      L'ordre du jour pour la reprise des dé<lb break="no"/>bats sur l'adresse à Sa Majesté au sujet 
      <lb/>
@@ -302,9 +302,9 @@
             </p>
 
             <p>
-     L'HON. M. MCGEE.—Je me lève, M. 
+               <persName ref="pers:MCGE1">L'HON. M. MCGEE</persName>.—Je me lève, M. 
      <lb/>
-     l'ORATEUR, afin de tâcher de remplir la 
+     l'<hi rendition="simple:smallcaps">Orateur</hi>, afin de tâcher de remplir la 
      <lb/>
      promesse qui a été faite en mon nom par le 
      <lb/>
@@ -320,7 +320,7 @@
      <lb/>
      importance essentielle à dire. L'hon. proc.- 
      <lb break="yes"/>
-     gén. MACDONALD, en proposant les résolutions 
+               gén. <hi rendition="simple:smallcaps">Macdonald</hi>, en proposant les résolutions 
      <lb/>
      lundi dernier au nom du gouvemment, a 
      <lb/>
@@ -333,11 +333,9 @@
      avec ses propre commentaires constitu<lb break="no"/>tionnels sur chaque résolution en particulier, 
      <lb/>
      et sur les délibérations de la conférence. 
-     <lb/>
-            </p>
+  
             <cb/>
-            <p>
-     Le proc-gén. CARTIER l'a suivi mardi en trai<lb break="no"/>tant particulièrement la question au point de 
+               Le proc-gén. <hi rendition="simple:smallcaps">Cartier</hi> l'a suivi mardi en trai<lb break="no"/>tant particulièrement la question au point de 
      <lb/>
      vue Bas-Canadien. Le ministre des finances a 
      <lb/>
@@ -373,13 +371,13 @@
      <lb/>
     que je le pourrai. (Ecoutez !) Nous nous 
      <lb/>rappelons tous que dans la légende des trois 
-     <lb/>rois de l'Orient, GASPAR offrit de l'encens, 
-     <lb/>MELCHIOR de l'or, et BALTHAZAR de la 
+               <lb/>rois de l'Orient, <hi rendition="simple:smallcaps">Gaspar</hi> offrit de l'encens, 
+               <lb/><hi rendition="simple:smallcaps">Melchior</hi> de l'or, et <hi rendition="simple:smallcaps">Balthazar</hi> de la 
      <lb/>myrrhe ; je crains seulement que ma con<lb break="no"/>tribution ait moins de valeur que celle 
      <lb/>d'aucun d'entre eux ; mais, telle qu'elle est, 
      <lb/>jel'offrirai cordialement, sachant que beau- 
      <lb break="yes"/>coup de mes amis en cette province et les 
-     <lb/>autres colonies désirent connaître mon opi<lb break="no"/>nion sur la crise actuelle.—Avec votre appro<lb break="no"/>bation, M. l'ORATEUR, et celle de la cham<lb break="no"/>bre, je traiterai le sujet de la manière 
+     <lb/>autres colonies désirent connaître mon opi<lb break="no"/>nion sur la crise actuelle.—Avec votre appro<lb break="no"/>bation, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, et celle de la cham<lb break="no"/>bre, je traiterai le sujet de la manière 
      <lb/>suivante : en premier lieu, je ferai l'histo<lb break="no"/>rique de cette question,—et ensuite j'examine<lb break="no"/>rai les motifs qui doivent nous faire désirer la 
      <lb/>prompte réalisation de cette union—puis je 
      <lb/>parlerai des difficultés que la question a dû 
@@ -400,11 +398,8 @@
      <lb/>très-distingué a fait usage dans le discours 
      <lb/>du trône, à l'ouverture de la session. II est 
      <lb/>vrai que l'un de mes premiers essais sur la 
-     <lb/>
-            </p>
             <pb n="127" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0127.jpg"/>
             <fw type="num">127</fw>
-            <p>
      politique canadienne portait ce titre ; mais 
      <lb/>
      il est également vrai que la feuille presque 
@@ -445,17 +440,17 @@
      <lb/>
      membre pour Hochelaga lui-même. Cela 
      <lb/>
-     me rappelle ce que disait PUFF dans le 
+               me rappelle ce que disait <hi rendition="simple:smallcaps">Puff</hi> dans le 
      <lb/>
-     Critic.—" Il arriva que deux personnes 
+     <title level="m">Critic</title>.—" Il arriva que deux personnes 
      <lb/>
-     eurent la même idée, SHAKESPEARE en fit 
+               eurent la même idée, <hi rendition="simple:smallcaps">Shakespeare</hi> en fit 
      <lb/>
      usage le premier.—Et voilà! " (Rires.) 
      <lb/>
      Mon hon. ami est sans aucun doute sous ce 
      <lb/>
-     rapport le SHAKESPEARE de la nouvelle 
+               rapport le <hi rendition="simple:smallcaps">Shakespeare</hi> de la nouvelle 
      <lb/>
      nationalité. (Rires) S'il y a quelque 
      <lb/>
@@ -493,12 +488,7 @@
      <lb/>pour le moment la discussion du nom aussi 
      <lb/>bien que de l'origine de la confédération ; 
      <lb/>lorsqu'elle aura sa place parmi les nations du 
-     <lb/>
-            </p>
-
-    
             <cb/>
-            <p>
      monde, et qu'elle ouvrira une nouvelle page 
      <lb/>
      dans l'histoire, il sera temps d'en rechercher 
@@ -600,10 +590,8 @@
      été également considéré comme atteint de 
      <lb/>
      démence. (Rires.) Mais ces événements 
-     <lb/>
-            </p>
             <pb n="128" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0128.jpg"/>
-            <p>
+            <fw type="num">128</fw>
      ont eu lieu, et si les messieurs qui n'ont 
      <lb/>
      pas directement contribué à amener ces 
@@ -669,15 +657,11 @@
      <lb/>membres de cette chambre ont lu quelques 
      <lb/>lettres sur l'union coloniale écrites en 1855, 
      <lb/>dont la dernière était adressée au feu duc de 
-     <lb/>NEWCASTLE, par M. P. S. HAMILTON, publi<lb break="no"/>ciste habile de la Nouvelle-Ecosse, et au<lb break="no"/>jourd'hui commissaire des mines d'or de 
+               <lb/><hi rendition="simple:smallcaps">Newcastle</hi>, par M. P. S. <hi rendition="simple:smallcaps">Hamilton</hi>, publi<lb break="no"/>ciste habile de la Nouvelle-Ecosse, et au<lb break="no"/>jourd'hui commissaire des mines d'or de 
      <lb/>cette province ; mais je saisis cette occasion 
      <lb/>pour payer un tribut à son jugement bien 
-     <lb/>
-            </p>
-
     
             <cb/>
-            <p>
      équilibré, à sa sagacité politique, et à la 
      <lb/>
      manière habile avec laquelle il sut traiter le 
@@ -722,7 +706,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote">
      " L'étude des destinées d'un empire britan<lb break="no"/>nique futur, la direction de sa marche, la base de 
      <lb/>
      ses fondations larges et solides, et la création 
@@ -745,7 +729,7 @@
      <lb/>
      pourra s'adapter aux besoins de notre position. 
      <lb/>
-            </p>
+            </quote>
    
             <p>
      L'ouvrage renferme plusieurs autres pas<lb break="no"/>sages excellents, mais je ne désire aucune<lb break="no"/>ment prendre le temps de la chambre 
@@ -762,14 +746,10 @@
      <lb/>position aussi important que celui qui se 
      <lb/>présente,—l'union de ces provinces séparées, 
      <lb/>—l'individu a travaillé en vain, peut être 
-     <lb/>pas entièrement en vain, M. l'ORATEUR, car 
+     <lb/>pas entièrement en vain, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, car 
      <lb/>bien que son travail puisse ne pas avoir alors 
-     <lb/>
-            </p>
-
-    
             <pb n="129" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0129.jpg"/>
-            <p>
+            <fw type="num">129</fw>
      porté de fruits, il allumait un feu qui, avec le 
      <lb/>
      temps, devait éclairer tout l'horizon politique, 
@@ -859,15 +839,7 @@
      moi du moins, la satisfaction et l'assurance 
      <lb/>
      que, si nous ne poursuivons pas plus loin le 
-     <lb/>
-            </p>
-   
-            <p>
-     18 
-     <lb/>
-            </p>
             <cb/>
-            <p>
      projet actuel, nous aurons mis fin pour le 
      <lb/>
      présent, et j'espère pour longtemps, à des 
@@ -950,10 +922,9 @@
      <lb/>un marché plus étendu, — l'abolition des 
      <lb/>tarifs hostiles, — un plus grand champ 
      <lb/>pour l'emploi du capital et de la main<lb break="no"/>
-            </p>
             <pb n="130" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0130.jpg"/>
-            <fw type="num">180</fw>
-            <p>d'œuvre, — un meilleur crédit en An<lb break="no"/>leterre,—et une plus grande capacité, 
+            <fw type="num">130</fw>
+            d'œuvre, — un meilleur crédit en An<lb break="no"/>leterre,—et une plus grande capacité, 
      <lb/>
      lorsque nous serons unis, à nous protéger en 
      <lb/>
@@ -1018,12 +989,8 @@
      <lb/>amical. L'Angleterre nous a avertis par des 
      <lb/>faits réitérés, comme c'est son habitude, 
      <lb/>plutôt que par du verbiage, que les colonies 
-     <lb/>
-            </p>
-
     
             <cb/>
-            <p>
      étaient entrées dans une nouvelle ère d'exis<lb break="no"/>tence, une nouvelle phase de leur carrière. 
      <lb/>
      Elle nous a donné cet avertissement sous 
@@ -1111,10 +1078,8 @@
      de la presse, de ses démagogues et de ses 
      <lb/>
      hommes d'état;—mais, dernièrement, elle 
-     <lb/>
-            </p>
             <pb n="131" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0131.jpg"/>
-            <p>
+            <fw type="num">131</fw>
      nous a donné des avertissements beaucoup 
      <lb/>
      plus intelligibles—tels que l'avis de l'abro<lb break="no"/>gation du traité de réciprocité, et l'avis 
@@ -1207,10 +1172,8 @@
      <lb/>A la fin de 1863,—mes statistiques ne vont 
      <lb/>pas au-delà de cette date, — ces 1952 
      <lb/>canons de gros calibre étaient rendus à 
-     <lb/>
-            </p>
             <cb/>
-            <p>
+               
      2116 ; les 231 pièces de campagne à 2965 ; 
      <lb/>
      les 473,000 carabines d'infanterie à 2,423, 
@@ -1283,18 +1246,18 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote">
      " Ef you take a soaord an' draor it, * 
      <lb/>
      " An go stick a feller thru, 
      <lb/>
      " Guv'ment won't answer for it, 
      <lb/>
-     " God'll send the bill to you 1 " 
+     " God'll send the bill to you ! " 
      <lb/>
-     ( Hilarité bruyante !) 
+     <hi rendition="simple:italic simple:right">( Hilarité bruyante !)</hi> 
      <lb/>
-            </p>
+            </quote>
    
             <p>
      C'était à la fois s'exprimer avec audace et 
@@ -1322,6 +1285,7 @@
      <lb/>
             </note>
             <pb n="132" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0132.jpg"/>
+               <fw type="num">132</fw>
             <!--riodique--> en vogue, et serait, j'en suis sûr, 
      <lb/>
      un des derniers maintenent à empêcher un 
@@ -1411,14 +1375,9 @@
     Est-ce que dans tous ces faits on ne voit pas 
      <lb/>d'avertissement pour nous ? Sommes-nous 
      <lb/>
-            </p>
-   
-            <p>
-     (*) Lorsque le boucher eut fait son compte. 
-     <lb/>
-            </p>
+     <note>(*) Lorsque le boucher eut fait son compte. </note>
+
             <cb/>
-            <p>
      comme ceux qui ont des yeux et qui ne 
      <lb/>
      voient point ; des oreilles et qui n'entendent 
@@ -1492,15 +1451,11 @@
      <lb/>proc.-gén. du B.-C. nous a dit que l'un des 
      <lb/>articles du projet primitif de constitution 
      <lb/>américaine contenait des dispositions rela<lb break="no"/>tives à l'annexion du Canada aux Etats-Unis ; 
-     <lb/>
-            </p>
-
     
 
     
-            <pb n="143"
-                facs="mnt/BigDisk/WorkData/history/confederation_debates/TCCD/data/Ont_Que/French/images/Ont_Que_Fr_Page_0143.jpg"/>
-            <p>
+            <pb n="133" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0133.jpg"/>
+            <fw type="num">133</fw>
      mais aujourd'hui qu'ils sont engagés dans 
      <lb/>
      une guerre, les Etats-Unis, au lieu de cette 
@@ -1555,18 +1510,12 @@
      <lb/>et de systèmes politiques. Nous étions pres<lb break="no"/>que aussi à plaindre que l'armée du Potomac, 
      <lb/>avant qu'elle eut pour chef le général GRANT. 
      <lb/>Ainsi donc, nous avons eu nos trois avertis<lb break="no"/>sements, l'un de l'intérieur et les deux 
-     <lb/>autres du dehors. Je suppose, M. l'ORATEUR, 
+     <lb/>autres du dehors. Je suppose, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, 
      <lb/>que nous nous rappelons tous l'ancienne his<lb break="no"/>toire du livre classique de madame TRAILL, 
      <lb/>intitulé Les trois avertissements, et dans 
-     <lb/>laquelle on voit comment la Mort avait pro<lb break="no"/>mis de ne pas venir chercher certain indi<lb break="no"/></p>
-
-    
-
-    
-
+     <lb/>laquelle on voit comment la Mort avait pro<lb break="no"/>mis de ne pas venir chercher certain indi<lb break="no"/>
     
             <cb/>
-            <p>
      vidu qu'elle avait visité sans intention le 
      <lb/>
      jour de son mariage. Je dis sans intention, 
@@ -1600,7 +1549,7 @@
     reçu, tout comme le journaliste parisien ré<lb break="no"/>calcitrant, ses trois avertissements ; sa cause 
      <lb/>était jugée ; il dût disparaître de la surface 
      <lb/>de la terre, et la mort triompha ! (Ecoutez ! 
-     <lb/>écoutez !) Maintenant, M. l'ORATEUR, que 
+     <lb/>écoutez !) Maintenant, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, que 
      <lb/>nous avons été averti par trois fois de son<lb break="no"/>ger à la position future qui pouvait nous 
      <lb/>être faite, malheur à nous si nous ne sommes 
      <lb/>pas prêts quand l'heure de notre destinée 
@@ -1632,13 +1581,11 @@
      <lb break="yes"/>Brunswick et de la Nouvelle-Ecosse gravite 
      <lb/>aujourd'hui vers Portland et Boston, et que 
      <lb/>celui du Haut-Canada, à l'ouest de Kingston, 
-     <lb/>
-            </p>
 
     
-            <pb n="144"
-                facs="mnt/BigDisk/WorkData/history/confederation_debates/TCCD/data/Ont_Que/French/images/Ont_Que_Fr_Page_0144.jpg"/>
-            <p>
+            <pb n="134" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0134.jpg"/>
+               <fw type="num">134</fw>"
+     
      s'achemine depuis longtemps à New-York 
      <lb/>
      par la voie des lacs, on verra qu'un simple 
@@ -1714,20 +1661,13 @@
      <lb/>parfois mine de mépriser ces colonies tout 
      <lb/>comme si elles étaient indignes de leurs con<lb break="no"/>voitises, mais si l'Angleterre ne nous avait 
      <lb/>pas servi d'égide, nous n'existerions pas au<lb break="no"/>jourd'hui comme peuple. (Applaudisse<lb break="no"/>ments !) L'annexion du Canada a été la 
-     <lb/>
-            </p>
-
-    
-
     
             <cb/>
-            <p>
-     
     première ambition de la confédération amé<lb break="no"/>ricaine, ambition à laquelle elle n'a jamais 
      <lb/>renoncé, même quand ses troupes ne for<lb break="no"/>maient qu'une poignée d'hommes et que sa 
      <lb/>marine se composait à peine d'une escadre. 
      <lb/>Est-il raisonnable de supposer qu'elle y re<lb break="no"/>noncera, maintenant quelle compte les ca<lb break="no"/>nons de sa flotte par milliers et ses troupes 
-     <lb/>par centaines de mille ! A cet égard, l'arche<lb break="no"/>vêque d'Halifax, le Dr. CONNOLLY, a fait con<lb break="no"/>naître son opinion dans une lettre récemment 
+               <lb/>par centaines de mille ! A cet égard, l'arche<lb break="no"/>vêque d'Halifax, le Dr. <hi rendition="simple:smallcaps">Connolly</hi>, a fait con<lb break="no"/>naître son opinion dans une lettre récemment 
      <lb/>publiée. Qui donc est l'archevêque d'Halifax ? 
      <lb/>Dans les colonies maritimes, où il a exercé 
      <lb/>son ministère pendant près d'un tiers de 
@@ -1740,7 +1680,7 @@
      <lb/>bien, dans toutes ces colonies, il est connu 
      <lb/>comme un des hommes les plus sagaces et 
      <lb/>le plus élevé en dignités ; on sait là qu'il 
-     <lb/>a été l'ami intime de feu son confrère si dis<lb break="no"/>tingué l'archevêque HUGHES, de New-York, 
+               <lb/>a été l'ami intime de feu son confrère si dis<lb break="no"/>tingué l'archevêque <hi rendition="simple:smallcaps">Hughes</hi>, de New-York, 
      <lb/>et qu'il connaît aussi bien les Etats-Unis 
      <lb/>que ces provinces. Les lignes qui vont suivre 
      <lb/>sont l'expression de ses vues sur ce point 
@@ -1751,7 +1691,8 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote">
+               <p>
      " Au lieu de faire comme des enfants qui, en 
      <lb/>
      murmurant, se laissent entraîner par le navire 
@@ -1793,12 +1734,10 @@
      <lb/>le moment ? nous serons à la merci de nos voisins ; 
      <lb/>et, victorieux ou non, ils sont un peuple éminem<lb break="no"/>ment militaire. Malgré leur indifférence apparente 
      <lb/>
-            </p>
 
     
             <pb n="135" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0135.jpg"/>
             <fw type="num">135</fw>
-            <p>
      au sujet de l'annexion de ce pays, et leurs sen<lb break="no"/>timents d'amitié, ils auront le pouvoir de frapper 
      <lb/>
      quand il leur plaira, et c'est là le point culminant 
@@ -1898,7 +1837,7 @@
      <lb/>
             </p>
 
-    
+            </quote>
    
             <p>
      Ces paroles sont celles d'un homme d'état, 
@@ -1907,15 +1846,12 @@
      <lb/>
      sortis des moules éprouvés de la discipline 
      <lb/>
-     théologique qui a produit les XIMENES et 
+               théologique qui a produit les <hi rendition="simple:smallcaps">Ximenes</hi> et 
      <lb/>
-     les WOLSEY. Personne plus que moi n'est 
+               les <hi rendition="simple:smallcaps">Wolsey</hi>. Personne plus que moi n'est 
      <lb/>
      opposé à l'intervention du clergé dans la 
-     <lb/>
-            </p>
             <cb/>
-            <p>
      politique de parti et tel est aussi, je crois, 
      <lb/>
      l'avis de sa grâce l'archevêque d'Halifax ; 
@@ -2014,13 +1950,9 @@
      <lb/>un accueil décourageant et froid, elle l'ac<lb break="no"/>cepte au contraire avec joie et bonheur, et 
      <lb/>nous souhaite mille succès dans la nouvelle 
      <lb/>carrière où nous entrons. ( Ecoutez ! écoutez !) 
-     <lb/>
-            </p>
-
     
             <pb n="136" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0136.jpg"/>
-            <fw type="num">186</fw>
-            <p>
+            <fw type="num">136</fw>
      Ramenée sur le terrain des intérêts provin<lb break="no"/>ciaux, la question ne se présente pas avec 
      <lb/>
      moins de force. La première raison est que 
@@ -2075,7 +2007,7 @@
      <lb/>
      à la métropole. (Applaudissements.) Qu'il 
      <lb/>
-     me soit permis, maintenant, M. l'ORATEUR, 
+     me soit permis, maintenant, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, 
      <lb/>
      d'appeler votre attention sur les difficultés 
      <lb/>
@@ -2101,15 +2033,13 @@
      <lb/>
      coup des jalousies et des tiraillements de 
      <lb/>
-     l'opinion publique. Plus tard, sur la propo<lb break="no"/>sition faite en 1858 par M. GALT et sur une 
+               l'opinion publique. Plus tard, sur la propo<lb break="no"/>sition faite en 1858 par M. <hi rendition="simple:smallcaps">Galt</hi> et sur une 
      <lb/>
      autre présentée par moi en 1860, le sujet fut 
      <lb/>
      de nouveau ramené devant les chambres par 
-     <lb/>
-            </p>
+
             <cb/>
-            <p>
      un simple député ; le ministère du jour ne 
      <lb/>
      voulant pas souffrir que personne ne s'en oc<lb break="no"/>cupât que lui-même, s'empara de la question, 
@@ -2125,8 +2055,8 @@
      <lb/>alors à rien. (Ecoutez ! écoutez !) De la 
      <lb/>part du bureau colonial le langage n'avait 
      <lb/>cessé d'être le même :—" Entendez-vous, 
-     <lb/>messieurs, ont tour à tour répété M. LABOU<lb break="no"/>CHÈRE, Sir BULWER LYTTON et le regretté 
-     <lb/>duo de NEWCASTLE, et soyez sûrs que 
+               <lb/>messieurs, ont tour à tour répété M. <hi rendition="simple:smallcaps">Labou<lb break="no"/>chère</hi>, Sir <hi rendition="simple:smallcaps">Bulwer Lytton</hi> et le regretté 
+               <lb/>duo de <hi rendition="simple:smallcaps">Newcastle</hi>, et soyez sûrs que 
      <lb/>nous ne vous apporterons pas le moin<lb break="no"/>dre obstacle." Cette entente était plus 
      <lb/>facile à souhaiter qu'à opérer entre cinq 
      <lb/>colonies, étrangères depuis si longtemps, et 
@@ -2161,12 +2091,9 @@
      <lb/>choses plus de sens qu'elles n'en comportent, 
      <lb/>il me semble qu'en le fesant elle a accepté 
      <lb/>le principe du projet dans le cas où il serait 
-     <lb/>possible. Telle est, M. l'ORATEUR, ma 
-     <lb/>
-            </p>
+     <lb/>possible. Telle est, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, ma 
             <pb n="137" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0137.jpg"/>
             <fw type="num">137</fw>
-            <p>
      manière d'envisager la position de la chambre 
      <lb/>
      vis-à-vis du gouvernement après qu'elle lui 
@@ -2192,7 +2119,7 @@
      <lb/>parler de l'excursion aux provinces maritimes, 
      <lb/>projetée et organisée par deux représentants 
      <lb/>de notre plus grand chemin de fer, MM. 
-     <lb/>FERRIER et BRYDGES (Applaudissements.) 
+               <lb/><hi rendition="simple:smallcaps">Ferrier</hi> et <hi rendition="simple:smallcaps">Brydges</hi> (Applaudissements.) 
      <lb/>On a dit tant de mal de ces deux messieurs 
      <lb/>que je me crois obligé d'en dire du bien 
      <lb/>aujourd'hui. Quarante députés de cette 
@@ -2223,28 +2150,12 @@
      <lb/>huit, à partir du jour où nous nous engageâ<lb break="no"/>mes devant la chambre à régler cette ques<lb break="no"/>tion, que nous avons consacrés à l'étude et à 
      <lb/>l'accomplissement de cette grande idée. 
      <lb/>Puisque je parle de la conférence, me 
-     <lb/>sera-t-il permis, M. l'ORATEUR, d'exprimer 
+     <lb/>sera-t-il permis, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, d'exprimer 
      <lb/>les sentiments de haute estime que les délé<lb break="no"/>gués des provinces d'en-bas m'ont inspirés 
      <lb/>durant les nombreuses heures où nous 
      <lb/>sommes venus nous asseoir ensemble autour 
-     <lb/>
-            </p>
-
-    
-
-    
-
-    
-
-    
-
-            <p>
-     19 
-     <lb/>
-            </p>
-            <cb/>
-            <p>
      
+            <cb/>
     de la table de nos délibérations ? (Applau<lb break="no"/>dissements.) Ayant eu à me rendre à 
      <lb/>Montréal un jour ou deux avant le banquet, 
      <lb/>un citoyen haut placé de cette ville me fit 
@@ -2297,11 +2208,9 @@
      <lb/>on connaît la depêche impériale adressée en 
      <lb/>1862 au lord MULGRAVE, comme gouver<lb break="no"/>neur de la Nouvelle-Ecosse, qui autorise les 
      <lb/>hommes publics des colonies à s'entendre 
-     <lb/>
-            </p>
+
             <pb n="138" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0138.jpg"/>
             <fw type="num">138</fw>
-            <p>
      ensemble sur le sujet et à soumettre au gou<lb break="no"/>vernement de la métropole le résultat de leurs 
      <lb/>
      délibérations. (Ecoutez! écoutez ! ) C'est en 
@@ -2374,11 +2283,11 @@
      <lb/>
      sa fantaisie ou son ordre, ou celui d'aucun 
      <lb/>
-     autre homme ?—Non, M. l'ORATEUR, je ne 
+     autre homme ?—Non, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, je ne 
      <lb/>
      crois pas que jamais un législateur ait eu 
      <lb/>
-     cette idée, pas au moins depuis que ANA<lb break="no"/>CHARSIS CLOOTZ a occupé le poste de 
+               cette idée, pas au moins depuis que <hi rendition="simple:smallcaps">Ana<lb break="no"/>charsis Clootz</hi> a occupé le poste de 
      <lb/>
      " Procureur-général de l'humanité.' (Rires.) 
      <lb/>
@@ -2388,7 +2297,7 @@
      <lb/>
      doit traiter cette question comme toute 
      <lb/>
-     mesure parlementaire et en la forme accou<lb break="no"/>tumée. Non, M. l'ORATEUR, cette question 
+     mesure parlementaire et en la forme accou<lb break="no"/>tumée. Non, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, cette question 
      <lb/>
      n'en est pas une ordinaire, car nous ne som- 
      <lb break="yes"/>
@@ -2399,10 +2308,8 @@
      pouvoir plus élevé que nous le peut. Sup<lb break="no"/>posons que l'adresse soit passée demain par 
      <lb/>
      cette chambre, ce vote sera-t-il final et décisif ? 
-     <lb/>
-            </p>
+
             <cb/>
-            <p>
      non ;—ne sera-ce pas au contraire au parle<lb break="no"/>ment impérial de dire le dernier mot sur 
      <lb/>
      le sujet ? (Ecoutez ! écoutez !) C'est ce 
@@ -2485,17 +2392,12 @@
      <lb/>trouvé cette base commune d'accord mutuel 
      <lb/>qui, je l'espère, ne sera renversée ni aujour<lb break="no"/>d'hui, ni de longtemps. Avant de passer à 
      <lb/>une autre partie de mon discours, je prendrai 
-     <lb/>la liberté, M. l'ORATEUR, de payer mon 
+     <lb/>la liberté, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, de payer mon 
      <lb/>tribut de respect le plus sincère à l'un de 
-     <lb/>nos collègues canadiens aujourd'hui vice<lb break="no"/>
-            </p>
+     <lb/>nos collègues canadiens aujourd'hui vice-<lb break="yes"/>
             <pb n="139" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0139.jpg"/>
-            <p>  139 
-     <lb/>
-            </p>
-   
-            <p>
-     chancelier du Haut-Canada, M. MOWATT, et 
+            <fw type="num">139</fw> 
+               chancelier du Haut-Canada, M. <hi rendition="simple:smallcaps">Mowatt</hi>, et 
      <lb/>
      qui a pris une part si active et si honorable 
      <lb/>
@@ -2555,19 +2457,18 @@
      <lb/>MITCHELL, de Chatham, qui se trouvait ici 
      <lb/>aux premières séances de la conférence, n'a 
      <lb/>dû sa première élection dans l'un de ses com<lb break="no"/>
-            </p>
             <cb/>
-            <p>tés qu'au fait qu'on l'avait surnommé le père 
-     <lb/>MICHEL et qu'il pouvait parler à ses élec<lb break="no"/>teurs dans leur propre langue. Je lirai à ce 
+           tés qu'au fait qu'on l'avait surnommé le père 
+               <lb/><hi rendition="simple:smallcaps">Michel</hi> et qu'il pouvait parler à ses élec<lb break="no"/>teurs dans leur propre langue. Je lirai à ce 
      <lb/>sujet avec la permission de la chambre, une 
      <lb/>esquisse très bien écrite du district français 
      <lb/>du Nouveau-Brunswick, en 1863, par le lieut.- 
-     <lb break="yes"/>gouverneur GORDON (Galston's vacation 
-     <lb/>tourist, 1864), et qui offre le plus vif intérêt : 
+               <lb break="yes"/>gouverneur <hi rendition="simple:smallcaps">Gordon</hi> (<title level="m">Galston's vacation 
+     <lb/>tourist</title>, 1864), et qui offre le plus vif intérêt : 
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote">
      " La population française qui forme une pro<lb break="no"/>portion si considérable des habitants des comtés 
      <lb/>
      de Westmoreland, Kent et Gloucester, me parait 
@@ -2638,7 +2539,7 @@
      <lb/>
      pour quelques semaines, du monde civilisé. " 
      <lb/>
-            </p>
+            </quote>
    
             <p>
      Ainsi, l'on voit que le gouverneur GORDON 
@@ -2668,11 +2569,8 @@
      Ecosse, et un dans Terreneuve, vous les 
      <lb/>
      auriez, en cas de besoin, pour alliés sûrs, 
-     <lb/>
-            </p>
             <pb n="140" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0140.jpg"/>
             <fw type="num">140</fw>
-            <p>
      et vos rangs déjà serrés en acquerraient une 
      <lb/>
      plus grande influence dans le conseil fédéral. 
@@ -2687,7 +2585,7 @@
      <lb/>
      l'élément français, est l'établissement irlan<lb break="no"/>dais de Ferryland, dans Terreneuve, fondé 
      <lb/>
-     par lord BALTIMORE et lord FALKLAND 
+               par lord <hi rendition="simple:smallcaps">Baltimore</hi> et lord <hi rendition="simple:smallcaps">Falkland</hi> 
      <lb/>
      (lord lieutenant d'Irlande à cette époque,) 
      <lb/>
@@ -2744,12 +2642,12 @@
             </p>
 
             <p>
-     M. D. A. MAODONALD.—Ils sont ré<lb break="no"/>pandus par tout le monde. (Rires). 
+               <persName ref="pers:MACD6">M. D. A. MACDONALD</persName>.—Ils sont ré<lb break="no"/>pandus par tout le monde. (Rires). 
      <lb/>
             </p>
 
             <p>
-     L'HON. M. McGEE.—Tant mieux ! (Ap<lb break="no"/>plaudissements). Et je lui dirai, — ce 
+               <persName ref="pers:MCGE1">L'HON. M. McGEE</persName>.—Tant mieux ! (Ap<lb break="no"/>plaudissements). Et je lui dirai, — ce 
      <lb/>
      que je crois être à leur honneur, — 
      <lb/>
@@ -2776,10 +2674,8 @@
      des MARTEL, dont il est facile de deviner 
      <lb/>
      l'origine. (Applaudissements). Il me reste à 
-     <lb/>
-            </p>
+   
             <cb/>
-            <p>
      parler d'un autre élément de cette population, 
      <lb/>
      et c'est celui des loyalistes de l'empire-uni, 
@@ -2798,7 +2694,7 @@
      <lb/>
      comme représentant de cette classe, je 
      <lb/>
-     me contenterai de nommer le juge WILMOT, 
+               me contenterai de nommer le juge <hi rendition="simple:smallcaps">Wilmot</hi>, 
      <lb/>
      qui a déclaré l'autre jour, en pronon<lb break="no"/>çant son allocution à. un grand jury, que 
      <lb/>
@@ -2872,12 +2768,10 @@
      <lb/>
     Bas-Canada lui-même, c'est que je veux 
      <lb/>faire voir la fixité et la stabilité de leur 
-     <lb/>population ; qu'ils sont nés anglo-amé<lb break="no"/>ricains, qu'ils peuvent presque tous pro<lb break="no"/>noncer cette fière et noble parole en regar<lb break="no"/></p>
-
+     <lb/>population ; qu'ils sont nés anglo-amé<lb break="no"/>ricains, qu'ils peuvent presque tous pro<lb break="no"/>noncer cette fière et noble parole en regar<lb break="no"/>
     
             <pb n="141" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0141.jpg"/>
             <fw type="num">141</fw>
-            <p>
      dant chaque jour leurs campagnes : " c'est . 
      <lb/>
     là mon propre pays, ma patrie !" (Ecoutez!' 
@@ -2932,10 +2826,7 @@
      <lb/>discours non politique. S'il n'est pas politique 
      <lb/>dans le sens de n'être pas suggéré par l'esprit 
      <lb/>de parti, alors je plaide coupable ; mais je 
-     <lb/>
-            </p>
             <cb/>
-            <p>
      crois que sur quelques uns des points dont 
      <lb/>
      j'ai parlé, le pays désire avoir des renseigne<lb break="no"/>ments ; et comme beaucoup des hons. membres 
@@ -2948,9 +2839,9 @@
      <lb/>
      et par là renseigner ceux qui, en Canada, 
      <lb/>
-     n'ont pas eu l'occasion de faire des observa<lb break="no"/>tions par eux-mêmes sur les lieux. (Ecou<lb break="no"/>tez !] Sir JOHN BEVERLY ROBINSON, dans 
+     n'ont pas eu l'occasion de faire des observa<lb break="no"/>tions par eux-mêmes sur les lieux. (Ecou<lb break="no"/>tez !] Sir <hi rendition="simple:smallcaps">John Beverley Robinson</hi>, dans 
      <lb/>
-     sa lettre à lord JOHN RUSSELL en 1839, 
+               sa lettre à lord <hi rendition="simple:smallcaps">John Russell</hi> en 1839, 
      <lb/>
      disait que si le gouvernement anglais avait 
      <lb/>
@@ -3025,29 +2916,29 @@
      n'ont pas le temps de faire un voyage à tra<lb break="no"/>vers leur propre pays, veulent seulement 
      <lb/>
      aller à la bibliothèque, ils trouveront un ex<lb break="no"/>
-            </p>
             <pb n="142" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0142.jpg"/>
-            <p>142<lb/>
+            <fw type="num">142</fw>
+               cellent ouvrage qui leur en tiendra lieu: c'est 
+               <lb/>l'Atlas physique de KEITH JOHNSTON,—livre qui ouvre l'esprit à mesure que l'on en<lb/>ouvre les pages. (Rires). Ils y verront que <lb/>notre beau St. Laurent arrose une étendue<lb/>de pays de 298,000 milles carrés, dont 94,000<lb/>seulement sont occupés par les cinq grands <lb/>lacs réunis. Je n'essaierai pas de suivre<lb/>mes deux hons. voisins (MM. GALT et<lb/>BROWN) en faisant un exposé des avantages <lb/>que le commerce trouverait dans cette union.<lb/>J'ai dressé un tableau sur cette matière en<lb/>général [que je ne donne que comme approxi<lb break="no"/>mativement exact], et je demande à la<lb/>chambre qu'il me soit permis de le lire:—
             </p>
-            <p>
-     cellent ouvrage qui leur en tiendra lieu: c'est 
-               <lb/>l'Atlas physique de KEITH JOHNSTON,—livre qui ouvre l'esprit à mesure que l'on en<lb/>ouvre les pages. (Rires). Ils y verront que <lb/>notre beau St. Laurent arrose une étendue<lb/>de pays de 298,000 milles carrés, dont 94,000<lb/>seulement sont occupés par les cinq grands <lb/>lacs réunis. Je n'essaierai pas de suivre<lb/>mes deux hons. voisins (MM. GALT et<lb/>BROWN) en faisant un exposé des avantages <lb/>que le commerce trouverait dans cette union.<lb/>J'ai dressé un tableau sur cette matière en<lb/>général [que je ne donne que comme approxi<lb break="no"/>mativement exact], et je demande à la<lb/>chambre qu'il me soit permis de le lire:<lb break="no"/>
-            </p>
+            
+            <!--    untaggedTable        -->
+            
+            <!--    untaggedTable        -->
             <pb n="143" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0143.jpg"/>
-            <cb/>
-            <p>Il y a cependant une source de richesse<lb/>dans les provinces maritimes dont mes hons.<lb/>amis m'ont dit que peu de chose. Je veux <lb/>parler des houillières. Je pense que dans<lb/>plusieurs parties du Canada nous aurons <lb/>bientôt à ne plus compter sur le bois comme<lb/>combustible, qu'il faudra songer à remplacer<lb/>par le charbon. Tous les ans, dans la ville<lb/>que j'habite, les pauvres souffrent cruellement<lb/>par suite du haut prix du combustible, et <lb/>pour empêcher que des familles entières ne<lb/>periment de froid, des sociétés nationales et<lb/>
-            </p>
+            <fw type="num">143</fw>
+            
+            <!--    untaggedTable        -->
+            
+            <p>Il y a cependant une source de richesse<lb/>dans les provinces maritimes dont mes hons.<lb/>amis m'ont dit que peu de chose. Je veux <lb/>parler des houillières. Je pense que dans<lb/>plusieurs parties du Canada nous aurons <lb/>bientôt à ne plus compter sur le bois comme<lb/>combustible, qu'il faudra songer à remplacer<lb/>par le charbon. Tous les ans, dans la ville<lb/>que j'habite, les pauvres souffrent cruellement<lb/>par suite du haut prix du combustible, et <lb/>pour empêcher que des familles entières ne<lb/>periment de froid, des sociétés nationales et
 
     
-
-    
             <cb/>
-            <p>
      des personnes charitables dépensent de fortes 
-     <lb/>sommes. Avec SIR WILLIAM LOGAN, je<lb/>pense que nous devons tous croire qu'il n'y<lb/>a pas de charbon eu Canada, et de ma propre <lb/>autorité, je crois pouvoir me permettre<lb/>d'affirmer que nous avons un hiver de cinq<lb/>mois généralement très froid. Voyons main-<lb break="yes"/>tenant quelles sont les ressources houillières<lb/>de nos soeurs provinces auxquelles la confé<lb break="no"/>dération nous donnerait libre accès. Je tire<lb/>ces renseignements de l'autorité que j'ai en<lb/>mains, la meilleure que l'on puisse trouver<lb/>sur le sujet: Taylor's coal fields of the New<lb/>World:<lb/>
+     <lb/>sommes. Avec Sir <hi rendition="simple:smallcaps">William Logan</hi>, je<lb/>pense que nous devons tous croire qu'il n'y<lb/>a pas de charbon eu Canada, et de ma propre <lb/>autorité, je crois pouvoir me permettre<lb/>d'affirmer que nous avons un hiver de cinq<lb/>mois généralement très froid. Voyons main-<lb break="yes"/>tenant quelles sont les ressources houillières<lb/>de nos soeurs provinces auxquelles la confé<lb break="no"/>dération nous donnerait libre accès. Je tire<lb/>ces renseignements de l'autorité que j'ai en<lb/>mains, la meilleure que l'on puisse trouver<lb/>sur le sujet: <title level="m">Taylor's coal fields of the New<lb/>World</title>:<lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote">
      " Dans une lettre à la société géologique de 
      <lb/>
      Londres, en 1843, le DR. A. GESNER dit que l'éten<lb break="no"/>due des terrains houilliers du Nouveau—Brunswick 
@@ -3112,10 +3003,10 @@
      <lb/>
      couches superposées." 
      <lb/>
-            </p>
+            </quote>
 
             <p>
-     Je dois avouer, M. l'ORATEUR, que ce 
+     Je dois avouer, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, que ce 
      <lb/>
      sont là de précieux renseignements pour 
      <lb/>
@@ -3136,11 +3027,8 @@
      combustible. Je sais qu'au dire des anti- 
      <lb break="yes"/>
      unionistes d'en-bas, la confédération serait 
-     <lb/>
-            </p>
             <pb n="144" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0144.jpg"/>
             <fw type="num">144</fw>
-            <p>
      la perte du marché de la Nouvelle-Angleterre 
      <lb/>
      pour leur charbon ; mais je ne vois guère 
@@ -3205,11 +3093,9 @@
      <lb/>au point de vue commercial de même que 
      <lb/>militaire nos intérêts sont tous liés les uns 
      <lb/>aux autres. La clé du golfe St. Laurent 
-     <lb/>est Terreneuve dont l'illustre lord CHATHAM 
-     <lb/>
-            </p>
+     <lb/>est Terreneuve dont l'illustre lord <hi rendition="simple:smallcaps">Chatham</hi> 
+
             <cb/>
-            <p>
      disait qu'il fallait tout autant s'en désaisir 
      <lb/>
      que d'abandonner Plymouth : — la Nou<lb break="no"/>velle-Ecosse et le Nouveau-Brunswick sont, 
@@ -3234,7 +3120,7 @@
      <lb/>
      l'autre ; notre situation géographique rend na<lb break="no"/>turelle l'union entre nous et nous en fait con<lb break="no"/>naître les avantages. Pendant qu'ici, en Cana<lb break="no"/>da, nous ne doutons pas un instant de la rati<lb break="no"/>fication de ce traité intercolonial par le parle<lb break="no"/>ment et le pays, je ne puis me dissimuler, M. 
      <lb/>
-     l'ORATEUR, que nos amis des provinces d'en- 
+     l'<hi rendition="simple:smallcaps">Orateur</hi>, que nos amis des provinces d'en- 
      <lb break="yes"/>
      bas se laissent entraîner par des vues étroites 
      <lb/>
@@ -3260,11 +3146,11 @@
      <lb/>
      américains ? Mais alors pourquoi ne pas 
      <lb/>
-     afficher l'écriteau suivant : — Province à 
+     afficher l'écriteau suivant : — <quote rendition="simple:italic">Provinces à 
      <lb/>
      vendre ! Conditions, comptant ! greenbacks 
      <lb/>
-     acceptés au pair. Je me réjouis de voir, de 
+     acceptés au pair.</quote> Je me réjouis de voir, de 
      <lb/>
      leur côté, les unionistes de ces mêmes colonies 
      <lb/>
@@ -3292,18 +3178,15 @@
      <lb/>
      arrivés en Canada, et les concessions surpre<lb break="no"/>nantes faites par les chefs du gouvernements 
      <lb/>
-     d'en-bas. C'est ainsi qu'on a vu le Dr. TUPPER, 
+               d'en-bas. C'est ainsi qu'on a vu le Dr. <hi rendition="simple:smallcaps">Tupper</hi>, 
      <lb/>
      premier ministre de la Nouvelle-Ecosse, se 
      <lb/>
-     faire accompagner ici de MM. ARCHIBALD 
+               faire accompagner ici de MM. <hi rendition="simple:smallcaps">Archibald</hi> 
      <lb/>
-     et MCCULLEY, ses deux adversaires poli 
-     <lb/>
-            </p>
+               et <hi rendition="simple:smallcaps">McCulley</hi>, ses deux adversaires poli<lb break="no"/>
             <pb n="145" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0145.jpg"/>
             <fw type="num">145</fw>
-            <p>
      tiques les plus acharnés et les admettre 
      <lb/>
      dans ses secrets, — Pouvons-nous espérer, 
@@ -3324,7 +3207,7 @@
      <lb/>
      nos difficultés constitutionnelles ? Non, M. 
      <lb/>
-     l'ORATEUR, ce serait trop espérer, et les 
+     l'<hi rendition="simple:smallcaps">Orateur</hi>, ce serait trop espérer, et les 
      <lb/>
      miracles qui se renouvellent tous les jours 
      <lb/>
@@ -3346,7 +3229,7 @@
      <lb/>
      faire imputer à mal les motifs de leur con<lb break="no"/>duite ? ( Applaudissements. ) J'ai parlé, M. 
      <lb/>
-     l'ORATEUR, des dangers que nous courrions 
+     l'<hi rendition="simple:smallcaps">Orateur</hi>, des dangers que nous courrions 
      <lb/>
      en rejetant cette mesure ; en effet ne nous 
      <lb/>
@@ -3357,32 +3240,10 @@
      Unis et dont la devise favorite est— 
      <lb/>
      
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
             </p>
-            <p>(*) No pent up Utica contracts our powers, 
+            <quote rendition="tccd:blockquote"><p>(*) No pent up Utica contracts our powers, 
      <lb/>But the whole continent is ours ? 
-     <lb/>
-            </p>
+     <lb/></p></quote>
             <p>Voilà la doctrine Monroe. Les plus grands 
      <lb/>hommes d'état américains ont regardé 
      <lb/>comme inévitable l'extension des principes 
@@ -3401,9 +3262,9 @@
      <lb/>écoutez !) L'idée d'une démocratie univer<lb break="no"/>selle en Amérique ne sourit pas plus à 
      <lb/>l'esprit des hommes réfléchis que celle de la 
      <lb/>
-            </p>
+            
    
-            <p>
+            <note rendition="simple:italic">
       ( Traduction.) 
      <lb/>
      (*) Nous sommes les plus forts, l'Amérique est à nous ; 
@@ -3411,12 +3272,9 @@
      Qui doutent de nos droits, nous les méprisont tous. 
      <lb/>
      
-            </p>
-            <p>20 
-     <lb/>
-            </p>
+            </note>
+           
             <cb/>
-            <p>
      monarchie universelle ne plaisait à ceux qui 
      <lb/>
      se sont enrôlés sous l'étendard de GUILLAUME 
@@ -3455,15 +3313,15 @@
      <lb/>
      et ne fais pas attention que ce sont là des con<lb break="no"/>sidérations pleines de frivolité, et tout à fait 
      <lb/>
-     indignes de l'attention des SMITH, des 
+     indignes de l'attention des <hi rendition="simple:smallcaps">Smith</hi>, des 
      <lb/>
-     ANNAND et des PALMER, qui n'ont pas craint 
+               <hi rendition="simple:smallcaps">Annand</hi> et des <hi rendition="simple:smallcaps">Palmer</hi>, qui n'ont pas craint 
      <lb/>
      de se mettre à la tête des adversaires de l'union 
      <lb/>
      de l'Amérique anglaise ? Avant de terminer, 
      <lb/>
-     M. l'ORATEUR, ce qui me reste à dire, et 
+     M. l'<hi rendition="simple:smallcaps">Orateur</hi>, ce qui me reste à dire, et 
      <lb/>
      quoique je sente que j'ai déjà trop longtemps 
      <lb/>
@@ -3513,10 +3371,9 @@
      <lb/>
      sache bien que si je parle ainsi ce n'est pas 
      <lb/>
-    parceque je partage la même croyance reli<lb break="no"/></p>
+    parceque je partage la même croyance reli<lb break="no"/>
             <pb n="146" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0146.jpg"/>
             <fw type="num">146</fw>
-            <p>
      gieuse, car la langue et le sang sont des bar<lb break="no"/>rières que la religion elle-même est impuis<lb break="no"/>sante à faire disparaître. Je ne crois pas non 
      <lb/>
      plus que mes compatriotes protestants doivent 
@@ -3547,7 +3404,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote">
      " Vers 1799, les presbytériens de Montréal de 
      <lb/>
      toutes les dénominations, tant anglaise qu'amé<lb break="no"/>ricaine, formèrent une congrégation et s'assurè<lb break="no"/>rent l'année suivante des services du Rév. JOHN 
@@ -3564,7 +3421,7 @@
      <lb/>
      3d., et d'une pièce de vin d'Espagne à £6 5s. " 
      <lb/>
-            </p>
+            </quote>
    
             <p>
      ( Rires. ) Voilà un fait sur lequel j'appelerai 
@@ -3592,10 +3449,8 @@
      <lb/>à ceux qui soupçonnent à peine les services 
      <lb/>précieux de toute espèce qu'elles n'ont cessé 
      <lb/>de rendre au peuple et au gouvernement du 
-     <lb/>
-            </p>
+
             <cb/>
-            <p>
      Bas-Canada, à la civilisation et à l'établisse<lb break="no"/>ment du pays. ( Ecoutez ! écoutez ! ) Aussi, ma 
      <lb/>
      ferme conviction est-elle qu'avec de la modé<lb break="no"/>ration et de la fermeté la minorité protestante 
@@ -3676,20 +3531,15 @@
      <lb/>dangers, quelque chose qui me porte à 
      <lb/>croire qu'il est en quelque sorte inhérent 
      <lb/>à la nature humaine même et que par consé<lb break="no"/>quent son point de départ est rationnel. 
-     <lb/>Quelle est, en effet, M. l'ORATEUR, la prin<lb break="no"/>cipale question, si non celle de la distribution 
+     <lb/>Quelle est, en effet, M. l'<hi rendition="simple:smallcaps">Orateur</hi>, la prin<lb break="no"/>cipale question, si non celle de la distribution 
      <lb/>des pouvoirs ? Sans vouloir entrer ce soir 
      <lb/>dans la discussion de cette question, il me 
-     <lb/>semble cependant que le principe est suscep<lb break="no"/></p>
-
-    
-
+     <lb/>semble cependant que le principe est suscep<lb break="no"/>
     
 
     
             <pb n="147" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0147.jpg"/>
             <fw type="num">147</fw>
-            <p>
-     
      tible de nous procurer la paix à l'intérieur 
      <lb/>
      comme à l'extérieur, et de développer le 
@@ -3746,9 +3596,9 @@
      <lb/>que nous avions pris ce qu'il y a de mieux 
      <lb/>dans les systèmes américains et anglais, et 
      <lb/>cette opinion, formée délibérément à une dis<lb break="no"/>
-            </p>
+
             <cb/>
-            <p>tance, a été exprimée sans parti pris et par 
+      tance, a été exprimée sans parti pris et par 
      <lb/>
      une personne entièrement désintéressée. 
      <lb/>
@@ -3848,14 +3698,12 @@
      <lb/>
      changer le moindre des détails. (Ecoutez !) 
      <lb/>
-     M. l'ORATEUR, je m'aperçois que j'ai retenu 
+     M. l'<hi rendition="simple:smallcaps">Orateur</hi>, je m'aperçois que j'ai retenu 
      <lb/>
      la chambre trop longtemps, et que ma force 
-     <lb/>
-            </p>
             <pb n="148" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0148.jpg"/>
             <fw type="num">148</fw>
-            <p>
+               
      physique n'était pas proportionnée à la tâche 
      <lb/>
      que je me suis imposée, celle d'expliquer les 
@@ -3916,15 +3764,9 @@
      <lb/>pays, ont une grande influence sur le gouver<lb break="no"/>nement ; ici enfin chaque homme est le fils de 
      <lb/>ses œuvres. ( Ecoutez ! écoutez ! ) Nous n'avons 
      <lb/>ici aucune de ces influences qui ailleurs ex<lb break="no"/>ercent sur le gouvernement le même effet que 
-     <lb/>
-            </p>
-
     
-
     
             <cb/>
-            <p>
-     
     l'atmosphère invisible sur la vie animale et 
      <lb/>végétale. Nous sommes dans un pays nou<lb break="no"/>veau—ou tout homme à l'ambition d'arriver 
      <lb/>parce que les castes et les systèmes n'ont 
@@ -3974,7 +3816,7 @@
      <lb/>Grande-Bretagne et de ses colonies ". ( Ap<lb break="no"/>plaudissements ). 
      <lb/>
             </p>
-            <p>L'HON. Proc.-Gén. MACDONALD pro<lb break="no"/>pose que les débats soient ajournés à jeudi, 
+            <p><persName ref="pers:MACD6">L'HON. Proc.-Gén. MACDONALD</persName> pro<lb break="no"/>pose que les débats soient ajournés à jeudi, 
      <lb/>le 18 du courant, et qu'ils soient alors le 
      <lb/>premier ordre du jour après sept heures et 
      <lb/>demie. 
@@ -3983,7 +3825,7 @@
             <pb n="149" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0149.jpg"/>
             <fw type="num">149</fw>
             <p>
-     L'HON. M. HOLTON.—M. l'ORATEUR, 
+               <persName ref="pers:HOLT1">L'HON. M. HOLTON</persName>.—M. l'<hi rendition="simple:smallcaps">Orateur</hi>, 
      <lb/>
      nous avons douté un instant si l'on avait pas 
      <lb/>
@@ -4053,16 +3895,9 @@
      <lb/>adroite dont il s'est pris pour affirmer toutes 
      <lb/>ces choses dont on pouvait attendre de lui la 
      <lb/>preuve. Voila l'impression que ce discours 
-     <lb/>
-            </p>
-
     
-
-    
-
     
             <cb/>
-            <p>
      à laissé dans mon esprit. Vint ensuite le dis<lb break="no"/>cours,—que dis-je ? l'effort herculéen,—de mon 
      <lb/>
      hon. ami le président du conseil, que je vois 
@@ -4134,15 +3969,13 @@
      <lb/>adoptées par cette junte constituée de 
      <lb/>sa propre autorité qui a siégé à Québec, 
      <lb/>pour donner effet à cette union et à tous ces 
-     <lb/>
-            </p>
+   
 
     
 
     
             <pb n="150" facs="final/images/Ont_Que_Fr_LA_1865-02-09_Page_0150.jpg"/>
             <fw type="num">150</fw>
-            <p>
      arrangements mesquins à l'aide desquels les 
      <lb/>
      représentants des provinces inférieures furent 
@@ -4224,12 +4057,9 @@
      <lb/>Cela signifie qu'avec cette union nous serons 
      <lb/>exposés, pour les défenses du pays, à des 
      <lb/>dépenses que l'on ne veut pas faire connaître 
-     <lb/>
-            </p>
 
     
             <cb/>
-            <p>
      maintenant. (Ecoutez ! écoutez !) Ne de<lb break="no"/>vrait-on pas mettre ces renseignements, 
      <lb/>
      ces dépêches, devant la chambre et devant 
@@ -4248,7 +4078,7 @@
      <lb/>
      arrivé d'en parler, ça été, comme dans le cas 
      <lb/>
-     des Oracles de DELPHES, dans un langage qui 
+               des Oracles de <hi rendition="simple:smallcaps">Delphes</hi>, dans un langage qui 
      <lb/>
      défiait toute interprétation. (On rit.) Je dis 
      <lb/>
@@ -4286,6 +4116,8 @@
      quoi la chambre ajourne. 
      <lb/>
             </p>
+            <!-- MDH, 2017-05-14, Commented out below as it follows Debate Day --> 
+            <!--
             <fw type="num">CONSEIL</fw>
             <fw type="running">LÉGISLATIF.</fw>
             <fw type="dateline">
@@ -4327,7 +4159,7 @@
      <lb/>
     que le peuple y adhérait ; que la presse les 
      <lb/>
-            </p>
+            </p>-->
          </div>
       </body>
    </text>
