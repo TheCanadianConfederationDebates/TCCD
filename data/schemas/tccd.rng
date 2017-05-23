@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-04-25T21:25:42Z. 2016.
+Schema generated from ODD source 2017-05-23T14:53:04Z. 2016.
 TEI Edition: Version 3.1.1a. Last updated on
 	31st March 2017, revision 7a1e145
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -5380,13 +5380,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:CAMP3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Campbell, Archibald. York Centre (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:CAMP4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Campbell, Charles James. Victoria County (1866: NS Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Campbell, Charles James. Victoria County (1865: NS Leg).</a:documentation>
                   <value>pers:CAMP6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Campbell, G. H. M. witness; Const. R.C.M.P. Treaty # 11. Location: Fort Norman. (1921: ).</a:documentation>
                   <value>pers:CAMP7</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Campbell, Roderick. witness Treaty # 6. Location: Fort Pitt. (1877: ).</a:documentation>
                   <value>pers:CAMP1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Campbell, Stewart. Guysborough County (1866: NS Leg); Guysborough (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Guysborough (1872: PEI House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Campbell, Stewart. Guysborough County (1865: NS Leg); Guysborough (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Guysborough (1872: PEI House of Commons).</a:documentation>
                   <value>pers:CAMS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Camsell, A. F. witness Treaty # 11. Location: Fort Simpson. (1921: ).</a:documentation>
                   <value>pers:CAMS2</value>
@@ -7825,6 +7825,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nowlan, George Clyde. Digby—Annapolis—Kings (1945: House of Commons); Digby—Annapolis—Kings (1949: NF House of Commons).</a:documentation>
                   <value>pers:NOWL2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nowlan, Patrick. Harbour Main (1861: NF Leg).</a:documentation>
+                  <value>pers:RICH4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Noël-Joseph, Ritchot. witness (1870: MB Government); witness (1870: ).</a:documentation>
                   <value>pers:NURS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nursey, Walter R. witness Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
                   <value>pers:OCON1</value>
