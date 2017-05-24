@@ -148,7 +148,7 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="textstructure"
                           include="TEI back body byline closer dateline div front opener salute signed text"/>
                <moduleRef key="namesdates"
-                          include="addName affiliation birth death forename listOrg listPerson listPlace location org orgName persName person place placeName roleName state surname"/>
+                          include="addName affiliation birth death district forename geo listOrg listPerson listPlace location org orgName persName person place placeName region roleName state surname"/>
                <moduleRef key="corpus" include="particDesc settingDesc textDesc"/>
                <moduleRef key="figures" include="cell figDesc figure row table"/>
                <moduleRef key="transcr" include="facsimile fw surface zone"/>
@@ -524,7 +524,7 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                   <constraintSpec ident="constraintpersnamewhitespace1" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
+                        <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt or ancestor::tei:place)]">
                            <sch:assert test="not(matches(., concat('^[\s', $quotes, $punctuation, ']'))) and not(matches(., concat('[\s', $quotes, $punctuation, ']$')))">
                               A persName should not begin or end with a space or punctuation within 
                               the tag; these should be outside the tag.
@@ -7201,7 +7201,7 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="titleInTitleStmt" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:titleStmt/tei:title">
-                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
+                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'placeography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
                               The title element in a titleStmt must contain both a name element and 
                               a date element with appropriate attributes.
                            </sch:assert>
@@ -7280,7 +7280,7 @@ so Volume 2 by implication has finished. -->
                <elementSpec ident="div" mode="change">
                   <constraintSpec ident="divnesting1" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies', 'bibliography')])]">
+                        <sch:rule context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="parent::tei:div[@type='debate']">
                     Error: a div with @type="document" or "section" must be a child of a div with 
                     @type="debate" (in other words, when a document is read into the record, this 
@@ -7292,7 +7292,7 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                   <constraintSpec ident="divnesting2" scheme="isoschematron">
                      <constraint>
-                        <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'taxonomies', 'bibliography')])]">
+                        <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="@type=('debate', 'article')">
                               Error: a document body must contain a debate or an article reporting
                               a debate (div/@type="debate" or "article").
