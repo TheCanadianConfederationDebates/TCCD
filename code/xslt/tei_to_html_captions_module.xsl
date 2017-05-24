@@ -57,8 +57,8 @@
         <xd:desc>Caption heading the list of people in the appendix of a document.</xd:desc>
     </xd:doc>
     <xsl:variable name="peopleCaption">
-        <span lang="en">Individuals named: </span>
-        <span lang="fr">Personnes nommées: </span>
+        <span lang="en">Participating individuals: </span>
+        <span lang="fr">Personnes participantes: </span>
     </xsl:variable>
     
     <xd:doc scope="component">

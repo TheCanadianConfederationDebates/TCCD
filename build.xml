@@ -159,8 +159,8 @@
   </target>
   
   <target name="validateWithJing">
-    <!--<basename property="fname" file="${filepath}"/>
-    <echo message="Checking ${fname}..."/>-->
+    <basename property="fname" file="${filepath}"/>
+    <echo message="Checking ${fname}..."/>
     <java jar="code/utilities/jing.jar" fork="true" failonerror="true">
       <arg value="${rngFile}"/>
       <arg value="${filepath}"/>
