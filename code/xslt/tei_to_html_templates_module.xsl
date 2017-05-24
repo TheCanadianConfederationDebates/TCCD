@@ -112,6 +112,7 @@
         is active. -->
         <div id="infoPopup" style="display: none;">
             <div class="popupCloser" onclick="this.parentNode.style.display = 'none';">x</div>
+            <div id="infoHeader">&#160;</div>
             <div id="infoContent"></div>
         </div>
     </xsl:template>
@@ -302,8 +303,16 @@
     <xd:doc scope="component">
         <xd:desc>Handler for the ptr element used to encode links.</xd:desc>
     </xd:doc>
-    <xsl:template match="ptr[@target]">
+    <xsl:template match="ptr[not(contains(@target, 'biographi.ca')) or not(ancestor::person)]">
         <a><xsl:apply-templates select="@*"/><xsl:value-of select="substring-before(substring-after(@target, '//'), '/')"/></a>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Special handler for the ptr element used to encode links in personography
+            entries, when it points to biographi.ca.</xd:desc>
+    </xd:doc>
+    <xsl:template match="ptr[@target[contains(., 'biographi.ca')]][ancestor::person]">
+        <a class="linkLogo"><xsl:apply-templates select="@*"/><img src="images/dcb.jpg" alt="{substring-before(substring-after(@target, '//'), '/')}" target="{substring-before(substring-after(@target, '//'), '/')}"/></a>
     </xsl:template>
     
     <!--  ####### Begin table-handling templates. #######  -->

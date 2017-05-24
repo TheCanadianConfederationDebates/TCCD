@@ -52,13 +52,17 @@ function switchLang(toLang){
  * a popup next to the text. */
  /* Code for showing references, biblios etc. in a popup div. */
 var infoPopup = null;
+var infoHeader = null;
 var infoContent = null;
+
 
 function showInfo(sourceId) {
 //Make sure we have an available popup element.
   infoPopup = document.getElementById('infoPopup');
+  infoHeader = document.getElementById('infoHeader');
   infoContent = document.getElementById('infoContent');
-  if ((infoPopup == null) ||(infoContent == null)) {
+  
+  if ((infoPopup == null) ||(infoContent == null) || (infoHeader == null)) {
     return;
   }
   
@@ -70,6 +74,9 @@ function showInfo(sourceId) {
   
   //Copy the content from the source to the popup
   infoContent.innerHTML = sourceEl.innerHTML;
+  
+  //Show the portrait
+  infoHeader.style.backgroundImage = 'url(portraits/' + sourceId + '.jpg)';
   
   //Show the popup
   infoPopup.style.display = 'block';

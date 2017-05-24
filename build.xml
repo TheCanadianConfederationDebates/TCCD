@@ -115,6 +115,9 @@
 <!-- All XML files in the data directory should be TEI files. -->
   <fileset id="teiFiles" dir="data" includes="**/*.xml"/>
   
+<!-- Portraits of individuals. -->
+  <fileset id="portraits" dir="data/personography/portraits" includes="*.jpg"/>
+  
 <!-- Utility targets. -->
   <target name="MESSAGE">
     <echo>&#x0a;${echo.separator}</echo>
@@ -255,6 +258,10 @@
     <mkdir dir="${webDir}/images"/>
     <copy todir="${webDir}/images">
       <fileset dir="code/images" includes="*.*"/>
+    </copy>
+    <mkdir dir="${webDir}/portraits"/>
+    <copy todir="${webDir}/portraits">
+      <fileset refid="portraits"/>
     </copy>
   </target>
   
