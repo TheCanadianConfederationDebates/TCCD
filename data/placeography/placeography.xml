@@ -25,8 +25,8 @@
       </fileDesc>
       <profileDesc>
          <settingDesc>
-            <listPlace xmlns="http://www.tei-c.org/ns/1.0" xml:id="ridings">
-   <place n="ACAD" type="federal">
+            <listPlace xml:id="ridings">
+   <place xml:id="ACAD1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>ACADIA</district>
@@ -45,7 +45,7 @@
          </list>
       </note>
    </place>
-   <place n="ATHA" type="federal">
+   <place xml:id="ATHA1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>ATHABASKA</district>
@@ -64,7 +64,7 @@
          </list>
       </note>
    </place>
-   <place n="BATT" type="federal">
+   <place xml:id="BATT1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>BATTLE RIVER</district>
@@ -83,7 +83,7 @@
          </list>
       </note>
    </place>
-   <place n="BOWR" type="federal">
+   <place xml:id="BOWR1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>BOW RIVER</district>
@@ -102,7 +102,7 @@
          </list>
       </note>
    </place>
-   <place n="ECAL" type="federal">
+   <place xml:id="ECAL1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>CALGARY EAST</district>
@@ -121,7 +121,7 @@
          </list>
       </note>
    </place>
-   <place n="WCAL" type="federal">
+   <place xml:id="WCAL1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>CALGARY WEST</district>
@@ -140,7 +140,7 @@
          </list>
       </note>
    </place>
-   <place n="CAMR" type="federal">
+   <place xml:id="CAMR1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>CAMROSE</district>
@@ -159,7 +159,7 @@
          </list>
       </note>
    </place>
-   <place n="EEDM" type="federal">
+   <place xml:id="EEDM1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>EDMONTON EAST</district>
@@ -178,7 +178,7 @@
          </list>
       </note>
    </place>
-   <place n="WEDM" type="federal">
+   <place xml:id="WEDM1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>EDMONTON WEST</district>
@@ -197,7 +197,7 @@
          </list>
       </note>
    </place>
-   <place n="JASP" type="federal">
+   <place xml:id="JASP1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>JASPER-EDSON</district>
@@ -216,7 +216,7 @@
          </list>
       </note>
    </place>
-   <place n="LETH" type="federal">
+   <place xml:id="LETH1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>LETHBRIDGE</district>
@@ -235,7 +235,7 @@
          </list>
       </note>
    </place>
-   <place n="MACL" type="federal">
+   <place xml:id="MACL8" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>MACLEOD</district>
@@ -254,7 +254,7 @@
          </list>
       </note>
    </place>
-   <place n="MEDI" type="federal">
+   <place xml:id="MEDI1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>MEDICINE HAT</district>
@@ -273,7 +273,7 @@
          </list>
       </note>
    </place>
-   <place n="PEAC" type="federal">
+   <place xml:id="PEAC1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>PEACE RIVER</district>
@@ -292,7 +292,7 @@
          </list>
       </note>
    </place>
-   <place n="REDD" type="federal">
+   <place xml:id="REDD2" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>RED DEER</district>
@@ -311,7 +311,7 @@
          </list>
       </note>
    </place>
-   <place n="VEGR" type="federal">
+   <place xml:id="VEGR1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>VEGREVILLE</district>
@@ -330,7 +330,7 @@
          </list>
       </note>
    </place>
-   <place n="WETA" type="federal">
+   <place xml:id="WETA1" type="federal">
       <placeName>
          <region>ALBERTA</region>
          <district>WETASKIWIN</district>
@@ -349,7 +349,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="federal">
+   <place xml:id="VICT1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VICTORIA DISTRICT</district>
@@ -371,7 +371,7 @@
          </list>
       </note>
    </place>
-   <place n="NEWW" type="federal">
+   <place xml:id="NEWW1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>NEW WESTMINSTER DISTRICT</district>
@@ -390,7 +390,7 @@
          </list>
       </note>
    </place>
-   <place n="VANC" type="federal">
+   <place xml:id="VANC1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VANCOUVER ISLAND</district>
@@ -409,7 +409,7 @@
          </list>
       </note>
    </place>
-   <place n="CARI" type="federal">
+   <place xml:id="CARI1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>CARIBOO DISTRICT</district>
@@ -428,7 +428,7 @@
          </list>
       </note>
    </place>
-   <place n="YALE" type="federal">
+   <place xml:id="YALE1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>YALE DISTRICT</district>
@@ -447,7 +447,7 @@
          </list>
       </note>
    </place>
-   <place n="LILL" type="federal">
+   <place xml:id="LILL1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>LILLOOET DISTRICT</district>
@@ -462,7 +462,7 @@
          </list>
       </note>
    </place>
-   <place n="CARI" type="federal">
+   <place xml:id="CARI2" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>CARIBOO</district>
@@ -484,7 +484,7 @@
          </list>
       </note>
    </place>
-   <place n="NEWW" type="federal">
+   <place xml:id="NEWW2" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>NEW WESTMINSTER</district>
@@ -509,7 +509,7 @@
          </list>
       </note>
    </place>
-   <place n="VANC" type="federal">
+   <place xml:id="VANC2" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VANCOUVER</district>
@@ -528,7 +528,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="federal">
+   <place xml:id="VICT2" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VICTORIA</district>
@@ -553,7 +553,7 @@
          </list>
       </note>
    </place>
-   <place n="YALE" type="federal">
+   <place xml:id="YALE2" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>YALE</district>
@@ -578,7 +578,7 @@
          </list>
       </note>
    </place>
-   <place n="COMO" type="federal">
+   <place xml:id="COMO1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>COMOX-ATLIN</district>
@@ -597,7 +597,7 @@
          </list>
       </note>
    </place>
-   <place n="KOOT" type="federal">
+   <place xml:id="KOOT1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>KOOTENAY</district>
@@ -616,7 +616,7 @@
          </list>
       </note>
    </place>
-   <place n="NANA" type="federal">
+   <place xml:id="NANA1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>NANAIMO</district>
@@ -638,7 +638,7 @@
          </list>
       </note>
    </place>
-   <place n="VANC" type="federal">
+   <place xml:id="VANC3" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VANCOUVER CITY</district>
@@ -657,7 +657,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="federal">
+   <place xml:id="VICT3" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VICTORIA CITY</district>
@@ -676,7 +676,7 @@
          </list>
       </note>
    </place>
-   <place n="YALE" type="federal">
+   <place xml:id="YALE3" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>YALE-CARIBOO</district>
@@ -695,7 +695,7 @@
          </list>
       </note>
    </place>
-   <place n="ECAR" type="nonFederal">
+   <place xml:id="ECAR1" type="nonFederal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>CARIBOO EAST</district>
@@ -710,7 +710,7 @@
          </list>
       </note>
    </place>
-   <place n="WCAR" type="nonFederal">
+   <place xml:id="WCAR1" type="nonFederal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>CARIBOO WEST</district>
@@ -725,7 +725,7 @@
          </list>
       </note>
    </place>
-   <place n="KOOT" type="nonFederal">
+   <place xml:id="KOOT2" type="nonFederal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>KOOTENAY</district>
@@ -740,7 +740,7 @@
          </list>
       </note>
    </place>
-   <place n="NANA" type="nonFederal">
+   <place xml:id="NANA2" type="nonFederal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>NANAIMO</district>
@@ -755,7 +755,7 @@
          </list>
       </note>
    </place>
-   <place n="NEWW" type="nonFederal">
+   <place xml:id="NEWW3" type="nonFederal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>NEW WESTMINSTER</district>
@@ -770,7 +770,7 @@
          </list>
       </note>
    </place>
-   <place n="THOM" type="nonFederal">
+   <place xml:id="THOM17" type="nonFederal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>THOMPSON RIVER DISTRICT</district>
@@ -785,7 +785,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="nonFederal">
+   <place xml:id="VICT4" type="nonFederal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VICTORIA</district>
@@ -800,7 +800,7 @@
          </list>
       </note>
    </place>
-   <place n="YALE" type="nonFederal">
+   <place xml:id="YALE4" type="nonFederal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>YALE AND LYTTON</district>
@@ -815,7 +815,7 @@
          </list>
       </note>
    </place>
-   <place n="COMO" type="federal">
+   <place xml:id="COMO2" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>COMOX-ALBERNI</district>
@@ -834,7 +834,7 @@
          </list>
       </note>
    </place>
-   <place n="FRAS" type="federal">
+   <place xml:id="FRAS8" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>FRASER VALLEY</district>
@@ -853,7 +853,7 @@
          </list>
       </note>
    </place>
-   <place n="KAML" type="federal">
+   <place xml:id="KAML1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>KAMLOOPS</district>
@@ -872,7 +872,7 @@
          </list>
       </note>
    </place>
-   <place n="EKOO" type="federal">
+   <place xml:id="EKOO1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>KOOTENAY EAST</district>
@@ -891,7 +891,7 @@
          </list>
       </note>
    </place>
-   <place n="WKOO" type="federal">
+   <place xml:id="WKOO1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>KOOTENAY WEST</district>
@@ -910,7 +910,7 @@
          </list>
       </note>
    </place>
-   <place n="SKEE" type="federal">
+   <place xml:id="SKEE1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>SKEENA</district>
@@ -929,7 +929,7 @@
          </list>
       </note>
    </place>
-   <place n="CVAN" type="federal">
+   <place xml:id="CVAN1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VANCOUVER CENTRE</district>
@@ -951,7 +951,7 @@
          </list>
       </note>
    </place>
-   <place n="EVAN" type="federal">
+   <place xml:id="EVAN3" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VANCOUVER EAST</district>
@@ -970,7 +970,7 @@
          </list>
       </note>
    </place>
-   <place n="NVAN" type="federal">
+   <place xml:id="NVAN1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VANCOUVER NORTH</district>
@@ -989,7 +989,7 @@
          </list>
       </note>
    </place>
-   <place n="SVAN" type="federal">
+   <place xml:id="SVAN1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VANCOUVER SOUTH</district>
@@ -1008,7 +1008,7 @@
          </list>
       </note>
    </place>
-   <place n="VANC" type="federal">
+   <place xml:id="VANC4" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
          <district>VANCOUVER-BURRARD</district>
@@ -1027,7 +1027,7 @@
          </list>
       </note>
    </place>
-   <place n="ALMA" type="nonFederal">
+   <place xml:id="ALMA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>ALMA</district>
@@ -1042,7 +1042,7 @@
          </list>
       </note>
    </place>
-   <place n="BATH" type="nonFederal">
+   <place xml:id="BATH1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>BATHURST</district>
@@ -1057,7 +1057,7 @@
          </list>
       </note>
    </place>
-   <place n="BEDF" type="nonFederal">
+   <place xml:id="BEDF1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>BEDFORD</district>
@@ -1072,7 +1072,7 @@
          </list>
       </note>
    </place>
-   <place n="BROC" type="nonFederal">
+   <place xml:id="BROC1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>BROCK</district>
@@ -1087,7 +1087,7 @@
          </list>
       </note>
    </place>
-   <place n="BURL" type="nonFederal">
+   <place xml:id="BURL1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>BURLINGTON</district>
@@ -1102,7 +1102,7 @@
          </list>
       </note>
    </place>
-   <place n="CATA" type="nonFederal">
+   <place xml:id="CATA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>CATARAQUE</district>
@@ -1117,7 +1117,7 @@
          </list>
       </note>
    </place>
-   <place n="ERIE" type="nonFederal">
+   <place xml:id="ERIE1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>ERIE</district>
@@ -1132,7 +1132,7 @@
          </list>
       </note>
    </place>
-   <place n="GORE" type="nonFederal">
+   <place xml:id="GORE1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>GORE</district>
@@ -1147,7 +1147,7 @@
          </list>
       </note>
    </place>
-   <place n="GRAN" type="nonFederal">
+   <place xml:id="GRAN5" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>GRANDVILLE</district>
@@ -1162,7 +1162,7 @@
          </list>
       </note>
    </place>
-   <place n="GULF" type="nonFederal">
+   <place xml:id="GULF1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>GULF</district>
@@ -1177,7 +1177,7 @@
          </list>
       </note>
    </place>
-   <place n="HOME" type="nonFederal">
+   <place xml:id="HOME1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>HOME</district>
@@ -1192,7 +1192,7 @@
          </list>
       </note>
    </place>
-   <place n="INKE" type="nonFederal">
+   <place xml:id="INKE1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>INKERMAN</district>
@@ -1207,7 +1207,7 @@
          </list>
       </note>
    </place>
-   <place n="KENN" type="nonFederal">
+   <place xml:id="KENN6" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>KENNEBEC</district>
@@ -1222,7 +1222,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="nonFederal">
+   <place xml:id="KING2" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>KING'S</district>
@@ -1237,7 +1237,7 @@
          </list>
       </note>
    </place>
-   <place n="DURA" type="nonFederal">
+   <place xml:id="DURA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>DURANTAYE</district>
@@ -1252,7 +1252,7 @@
          </list>
       </note>
    </place>
-   <place n="LASA" type="nonFederal">
+   <place xml:id="LASA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>LA SALLE</district>
@@ -1267,7 +1267,7 @@
          </list>
       </note>
    </place>
-   <place n="VALL" type="nonFederal">
+   <place xml:id="VALL1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>VALLIÈRE</district>
@@ -1282,7 +1282,7 @@
          </list>
       </note>
    </place>
-   <place n="LANA" type="nonFederal">
+   <place xml:id="LANA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>LANAUDIÈRE</district>
@@ -1297,7 +1297,7 @@
          </list>
       </note>
    </place>
-   <place n="LAUR" type="nonFederal">
+   <place xml:id="LAUR7" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>LAURENTIDES</district>
@@ -1312,7 +1312,7 @@
          </list>
       </note>
    </place>
-   <place n="LAUZ" type="nonFederal">
+   <place xml:id="LAUZ1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>LAUZON</district>
@@ -1327,7 +1327,7 @@
          </list>
       </note>
    </place>
-   <place n="LORIM" type="nonFederal">
+   <place xml:id="LORIM1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>LORIMIER</district>
@@ -1342,7 +1342,7 @@
          </list>
       </note>
    </place>
-   <place n="MALA" type="nonFederal">
+   <place xml:id="MALA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>MALAHIDE</district>
@@ -1357,7 +1357,7 @@
          </list>
       </note>
    </place>
-   <place n="MIDL" type="nonFederal">
+   <place xml:id="MIDL1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>MIDLAND</district>
@@ -1372,7 +1372,7 @@
          </list>
       </note>
    </place>
-   <place n="MONT" type="nonFederal">
+   <place xml:id="MONT2" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>MONTARVILLE</district>
@@ -1387,7 +1387,7 @@
          </list>
       </note>
    </place>
-   <place n="NEWC" type="nonFederal">
+   <place xml:id="NEWC1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>NEWCASTLE</district>
@@ -1402,7 +1402,7 @@
          </list>
       </note>
    </place>
-   <place n="NIAG" type="nonFederal">
+   <place xml:id="NIAG1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>NIAGARA</district>
@@ -1417,7 +1417,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEE" type="nonFederal">
+   <place xml:id="QUEE1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>QUEEN'S</district>
@@ -1432,7 +1432,7 @@
          </list>
       </note>
    </place>
-   <place n="QUIN" type="nonFederal">
+   <place xml:id="QUIN2" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>QUINTE</district>
@@ -1447,7 +1447,7 @@
          </list>
       </note>
    </place>
-   <place n="REPE" type="nonFederal">
+   <place xml:id="REPE1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>REPENTIGNY</district>
@@ -1462,7 +1462,7 @@
          </list>
       </note>
    </place>
-   <place n="RIDE" type="nonFederal">
+   <place xml:id="RIDE1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>RIDEAU</district>
@@ -1477,7 +1477,7 @@
          </list>
       </note>
    </place>
-   <place n="RIGA" type="nonFederal">
+   <place xml:id="RIGA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>RIGAUD</district>
@@ -1492,7 +1492,7 @@
          </list>
       </note>
    </place>
-   <place n="ROUG" type="nonFederal">
+   <place xml:id="ROUG1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>ROUGEMONT</district>
@@ -1507,7 +1507,7 @@
          </list>
       </note>
    </place>
-   <place n="SALA" type="nonFederal">
+   <place xml:id="SALA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>SALABERRY</district>
@@ -1522,7 +1522,7 @@
          </list>
       </note>
    </place>
-   <place n="SAUG" type="nonFederal">
+   <place xml:id="SAUG1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>SAUGEEN</district>
@@ -1537,7 +1537,7 @@
          </list>
       </note>
    </place>
-   <place n="SHAW" type="nonFederal">
+   <place xml:id="SHAW3" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>SHAWINIGAN</district>
@@ -1552,7 +1552,7 @@
          </list>
       </note>
    </place>
-   <place n="SORE" type="nonFederal">
+   <place xml:id="SORE2" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>SOREL</district>
@@ -1567,7 +1567,7 @@
          </list>
       </note>
    </place>
-   <place n="STCL" type="nonFederal">
+   <place xml:id="STCL1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>ST. CLAIR</district>
@@ -1582,7 +1582,7 @@
          </list>
       </note>
    </place>
-   <place n="STLA" type="nonFederal">
+   <place xml:id="STLA1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>ST. LAWRENCE</district>
@@ -1597,7 +1597,7 @@
          </list>
       </note>
    </place>
-   <place n="STAD" type="nonFederal">
+   <place xml:id="STAD1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>STADACONA</district>
@@ -1612,7 +1612,7 @@
          </list>
       </note>
    </place>
-   <place n="TECU" type="nonFederal">
+   <place xml:id="TECU1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>TECUMSETH</district>
@@ -1627,7 +1627,7 @@
          </list>
       </note>
    </place>
-   <place n="THAM" type="nonFederal">
+   <place xml:id="THAM1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>THAMES</district>
@@ -1642,7 +1642,7 @@
          </list>
       </note>
    </place>
-   <place n="THOU" type="nonFederal">
+   <place xml:id="THOU1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>MILLE ISLES</district>
@@ -1657,7 +1657,7 @@
          </list>
       </note>
    </place>
-   <place n="TREN" type="nonFederal">
+   <place xml:id="TREN1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>TRENT</district>
@@ -1672,7 +1672,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="nonFederal">
+   <place xml:id="VICT5" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>VICTORIA</district>
@@ -1687,7 +1687,7 @@
          </list>
       </note>
    </place>
-   <place n="WELL" type="nonFederal">
+   <place xml:id="WELL2" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>WELLINGTON</district>
@@ -1702,7 +1702,7 @@
          </list>
       </note>
    </place>
-   <place n="WEST" type="nonFederal">
+   <place xml:id="WEST1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>WESTERN</district>
@@ -1717,7 +1717,7 @@
          </list>
       </note>
    </place>
-   <place n="YORK" type="nonFederal">
+   <place xml:id="YORK1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>YORK</district>
@@ -1732,7 +1732,7 @@
          </list>
       </note>
    </place>
-   <place n="EAST" type="nonFederal">
+   <place xml:id="EAST1" type="nonFederal">
       <placeName>
          <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
          <district>EASTERN</district>
@@ -1747,7 +1747,7 @@
          </list>
       </note>
    </place>
-   <place n="LISG" type="federal">
+   <place xml:id="LISG1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>LISGAR</district>
@@ -1769,7 +1769,7 @@
          </list>
       </note>
    </place>
-   <place n="LISG" type="federal">
+   <place xml:id="LISG2" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>LISGAR</district>
@@ -1788,7 +1788,7 @@
          </list>
       </note>
    </place>
-   <place n="LISG" type="federal">
+   <place xml:id="LISG3" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>LISGAR</district>
@@ -1807,7 +1807,7 @@
          </list>
       </note>
    </place>
-   <place n="MARQ" type="federal">
+   <place xml:id="MARQ2" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>MARQUETTE</district>
@@ -1832,7 +1832,7 @@
          </list>
       </note>
    </place>
-   <place n="MARQ" type="federal">
+   <place xml:id="MARQ3" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>MARQUETTE</district>
@@ -1851,7 +1851,7 @@
          </list>
       </note>
    </place>
-   <place n="MARQ" type="federal">
+   <place xml:id="MARQ4" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>MARQUETTE</district>
@@ -1873,7 +1873,7 @@
          </list>
       </note>
    </place>
-   <place n="SELK" type="federal">
+   <place xml:id="SELK1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>SELKIRK</district>
@@ -1895,7 +1895,7 @@
          </list>
       </note>
    </place>
-   <place n="SELK" type="federal">
+   <place xml:id="SELK2" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>SELKIRK</district>
@@ -1914,7 +1914,7 @@
          </list>
       </note>
    </place>
-   <place n="SELK" type="federal">
+   <place xml:id="SELK3" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>SELKIRK</district>
@@ -1933,7 +1933,7 @@
          </list>
       </note>
    </place>
-   <place n="PROV" type="federal">
+   <place xml:id="PROV3" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>PROVENCHER</district>
@@ -1958,7 +1958,7 @@
          </list>
       </note>
    </place>
-   <place n="PROV" type="federal">
+   <place xml:id="PROV4" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>PROVENCHER</district>
@@ -1977,7 +1977,7 @@
          </list>
       </note>
    </place>
-   <place n="PROV" type="federal">
+   <place xml:id="PROV5" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>PROVENCHER</district>
@@ -1996,7 +1996,7 @@
          </list>
       </note>
    </place>
-   <place n="BRAN" type="federal">
+   <place xml:id="BRAN1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>BRANDON</district>
@@ -2015,7 +2015,7 @@
          </list>
       </note>
    </place>
-   <place n="BRAN" type="federal">
+   <place xml:id="BRAN2" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>BRANDON</district>
@@ -2034,7 +2034,7 @@
          </list>
       </note>
    </place>
-   <place n="DAUP" type="federal">
+   <place xml:id="DAUP2" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>DAUPHIN</district>
@@ -2053,7 +2053,7 @@
          </list>
       </note>
    </place>
-   <place n="DAUP" type="federal">
+   <place xml:id="DAUP3" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>DAUPHIN</district>
@@ -2072,7 +2072,7 @@
          </list>
       </note>
    </place>
-   <place n="MACD" type="federal">
+   <place xml:id="MACD17" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>MACDONALD</district>
@@ -2094,7 +2094,7 @@
          </list>
       </note>
    </place>
-   <place n="PORT" type="federal">
+   <place xml:id="PORT2" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>PORTAGE LA PRAIRIE</district>
@@ -2113,7 +2113,7 @@
          </list>
       </note>
    </place>
-   <place n="PORT" type="federal">
+   <place xml:id="PORT3" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>PORTAGE LA PRAIRIE</district>
@@ -2135,7 +2135,7 @@
          </list>
       </note>
    </place>
-   <place n="SOUR" type="federal">
+   <place xml:id="SOUR1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>SOURIS</district>
@@ -2154,7 +2154,7 @@
          </list>
       </note>
    </place>
-   <place n="SOUR" type="federal">
+   <place xml:id="SOUR2" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>SOURIS</district>
@@ -2173,7 +2173,7 @@
          </list>
       </note>
    </place>
-   <place n="WINN" type="federal">
+   <place xml:id="WINN2" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>WINNIPEG</district>
@@ -2192,7 +2192,7 @@
          </list>
       </note>
    </place>
-   <place n="CHUR" type="federal">
+   <place xml:id="CHUR3" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>CHURCHILL</district>
@@ -2211,7 +2211,7 @@
          </list>
       </note>
    </place>
-   <place n="NEEP" type="federal">
+   <place xml:id="NEEP1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>NEEPAWA</district>
@@ -2230,7 +2230,7 @@
          </list>
       </note>
    </place>
-   <place n="SPRI" type="federal">
+   <place xml:id="SPRI1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>SPRINGFIELD</district>
@@ -2249,7 +2249,7 @@
          </list>
       </note>
    </place>
-   <place n="STBO" type="federal">
+   <place xml:id="STBO1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>ST. BONIFACE</district>
@@ -2268,7 +2268,7 @@
          </list>
       </note>
    </place>
-   <place n="NWIN" type="federal">
+   <place xml:id="NWIN1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>WINNIPEG NORTH</district>
@@ -2287,7 +2287,7 @@
          </list>
       </note>
    </place>
-   <place n="NCWI" type="federal">
+   <place xml:id="NCWI1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>WINNIPEG NORTH CENTRE</district>
@@ -2306,7 +2306,7 @@
          </list>
       </note>
    </place>
-   <place n="SWIN" type="federal">
+   <place xml:id="SWIN1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>WINNIPEG SOUTH</district>
@@ -2325,7 +2325,7 @@
          </list>
       </note>
    </place>
-   <place n="SCWI" type="federal">
+   <place xml:id="SCWI1" type="federal">
       <placeName>
          <region>MANITOBA</region>
          <district>WINNIPEG SOUTH CENTRE</district>
@@ -2344,7 +2344,7 @@
          </list>
       </note>
    </place>
-   <place n="ALBE" type="federal">
+   <place xml:id="ALBE1" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>ALBERT</district>
@@ -2366,7 +2366,7 @@
          </list>
       </note>
    </place>
-   <place n="CARL" type="federal">
+   <place xml:id="CARL2" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>CARLETON</district>
@@ -2394,7 +2394,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAR" type="federal">
+   <place xml:id="CHAR6" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>CHARLOTTE</district>
@@ -2422,7 +2422,7 @@
          </list>
       </note>
    </place>
-   <place n="CCSJ" type="federal">
+   <place xml:id="CCSJ1" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>CITY AND COUNTY OF ST. JOHN</district>
@@ -2453,7 +2453,7 @@
          </list>
       </note>
    </place>
-   <place n="CSJO" type="federal">
+   <place xml:id="CSJO1" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>CITY OF ST. JOHN</district>
@@ -2484,7 +2484,7 @@
          </list>
       </note>
    </place>
-   <place n="GLOU" type="federal">
+   <place xml:id="GLOU1" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>GLOUCESTER</district>
@@ -2512,7 +2512,7 @@
          </list>
       </note>
    </place>
-   <place n="KENT" type="federal">
+   <place xml:id="KENT4" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>KENT</district>
@@ -2540,7 +2540,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="federal">
+   <place xml:id="KING3" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>KINGS</district>
@@ -2562,7 +2562,7 @@
          </list>
       </note>
    </place>
-   <place n="NORT" type="federal">
+   <place xml:id="NORT3" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>NORTHUMBERLAND</district>
@@ -2593,7 +2593,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEE" type="federal">
+   <place xml:id="QUEE2" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>QUEENS</district>
@@ -2615,7 +2615,7 @@
          </list>
       </note>
    </place>
-   <place n="REST" type="federal">
+   <place xml:id="REST1" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>RESTIGOUCHE</district>
@@ -2646,7 +2646,7 @@
          </list>
       </note>
    </place>
-   <place n="SUNB" type="federal">
+   <place xml:id="SUNB1" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>SUNBURY</district>
@@ -2668,7 +2668,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="federal">
+   <place xml:id="VICT6" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>VICTORIA</district>
@@ -2693,7 +2693,7 @@
          </list>
       </note>
    </place>
-   <place n="WEST" type="federal">
+   <place xml:id="WEST2" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>WESTMORLAND</district>
@@ -2727,7 +2727,7 @@
          </list>
       </note>
    </place>
-   <place n="YORK" type="federal">
+   <place xml:id="YORK2" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>YORK</district>
@@ -2755,7 +2755,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="federal">
+   <place xml:id="KING4" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>KING'S AND ALBERT</district>
@@ -2774,7 +2774,7 @@
          </list>
       </note>
    </place>
-   <place n="SUNB" type="federal">
+   <place xml:id="SUNB2" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>SUNBURY-QUEEN'S</district>
@@ -2793,7 +2793,7 @@
          </list>
       </note>
    </place>
-   <place n="ALBE" type="nonFederal">
+   <place xml:id="ALBE2" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>ALBERT</district>
@@ -2808,7 +2808,7 @@
          </list>
       </note>
    </place>
-   <place n="CARL" type="nonFederal">
+   <place xml:id="CARL3" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>CARLETON</district>
@@ -2823,7 +2823,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAR" type="nonFederal">
+   <place xml:id="CHAR7" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>CHARLOTTE</district>
@@ -2838,7 +2838,7 @@
          </list>
       </note>
    </place>
-   <place n="GLOU" type="nonFederal">
+   <place xml:id="GLOU2" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>GLOUCESTER</district>
@@ -2853,7 +2853,7 @@
          </list>
       </note>
    </place>
-   <place n="KENT" type="nonFederal">
+   <place xml:id="KENT5" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>KENT</district>
@@ -2868,7 +2868,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="nonFederal">
+   <place xml:id="KING5" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>KINGS</district>
@@ -2883,7 +2883,7 @@
          </list>
       </note>
    </place>
-   <place n="NORT" type="nonFederal">
+   <place xml:id="NORT4" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>NORTHUMBERLAND</district>
@@ -2898,7 +2898,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEE" type="nonFederal">
+   <place xml:id="QUEE3" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>QUEENS</district>
@@ -2913,7 +2913,7 @@
          </list>
       </note>
    </place>
-   <place n="REST" type="nonFederal">
+   <place xml:id="REST2" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>RESTIGOUCHE</district>
@@ -2928,7 +2928,7 @@
          </list>
       </note>
    </place>
-   <place n="STJO" type="nonFederal">
+   <place xml:id="STJO2" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>SAINT JOHN CITY</district>
@@ -2943,7 +2943,7 @@
          </list>
       </note>
    </place>
-   <place n="STJO" type="nonFederal">
+   <place xml:id="STJO3" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>SAINT JOHN COUNTY</district>
@@ -2958,7 +2958,7 @@
          </list>
       </note>
    </place>
-   <place n="SUNB" type="nonFederal">
+   <place xml:id="SUNB3" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>SUNBURY</district>
@@ -2973,7 +2973,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="nonFederal">
+   <place xml:id="VICT7" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>VICTORIA</district>
@@ -2988,7 +2988,7 @@
          </list>
       </note>
    </place>
-   <place n="WEST" type="nonFederal">
+   <place xml:id="WEST3" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>WESTMORLAND</district>
@@ -3003,7 +3003,7 @@
          </list>
       </note>
    </place>
-   <place n="YORK" type="nonFederal">
+   <place xml:id="YORK3" type="nonFederal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>YORK</district>
@@ -3018,7 +3018,7 @@
          </list>
       </note>
    </place>
-   <place n="REST" type="federal">
+   <place xml:id="REST3" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>RESTIGOUCHE-MADAWASKA</district>
@@ -3037,7 +3037,7 @@
          </list>
       </note>
    </place>
-   <place n="ROYA" type="federal">
+   <place xml:id="ROYA1" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>ROYAL</district>
@@ -3056,7 +3056,7 @@
          </list>
       </note>
    </place>
-   <place n="STJO" type="federal">
+   <place xml:id="STJO4" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>ST. JOHN-ALBERT</district>
@@ -3075,7 +3075,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="federal">
+   <place xml:id="VICT8" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>VICTORIA-CARLETON</district>
@@ -3094,7 +3094,7 @@
          </list>
       </note>
    </place>
-   <place n="YORK" type="federal">
+   <place xml:id="YORK4" type="federal">
       <placeName>
          <region>NEW BRUNSWICK</region>
          <district>YORK-SUNBURY</district>
@@ -3116,7 +3116,7 @@
          </list>
       </note>
    </place>
-   <place n="BAYD" type="nonFederal">
+   <place xml:id="BAYD1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BAY DE VERDE</district>
@@ -3131,7 +3131,7 @@
          </list>
       </note>
    </place>
-   <place n="BONA" type="nonFederal">
+   <place xml:id="BONA1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BONAVISTA BAY</district>
@@ -3146,7 +3146,7 @@
          </list>
       </note>
    </place>
-   <place n="BURG" type="nonFederal">
+   <place xml:id="BURG1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BURGEO-LA POILE</district>
@@ -3161,7 +3161,7 @@
          </list>
       </note>
    </place>
-   <place n="BURI" type="nonFederal">
+   <place xml:id="BURI1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BURIN</district>
@@ -3176,7 +3176,7 @@
          </list>
       </note>
    </place>
-   <place n="CARB" type="nonFederal">
+   <place xml:id="CARB1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>CARBONEAR</district>
@@ -3191,7 +3191,7 @@
          </list>
       </note>
    </place>
-   <place n="FERR" type="nonFederal">
+   <place xml:id="FERR3" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>FERRYLAND</district>
@@ -3206,7 +3206,7 @@
          </list>
       </note>
    </place>
-   <place n="FORT" type="nonFederal">
+   <place xml:id="FORT4" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>FORTUNE BAY</district>
@@ -3221,7 +3221,7 @@
          </list>
       </note>
    </place>
-   <place n="FORT" type="nonFederal">
+   <place xml:id="FORT5" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>FORTUNE BAY</district>
@@ -3236,7 +3236,7 @@
          </list>
       </note>
    </place>
-   <place n="HARB" type="nonFederal">
+   <place xml:id="HARB1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>HARBOUR GRACE</district>
@@ -3251,7 +3251,7 @@
          </list>
       </note>
    </place>
-   <place n="HARB" type="nonFederal">
+   <place xml:id="HARB2" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>HARBOUR MAIN</district>
@@ -3266,7 +3266,7 @@
          </list>
       </note>
    </place>
-   <place n="HARB" type="nonFederal">
+   <place xml:id="HARB3" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>HARBOUR MAIN</district>
@@ -3281,7 +3281,7 @@
          </list>
       </note>
    </place>
-   <place n="PLAC" type="nonFederal">
+   <place xml:id="PLAC1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>PLACENTIA-ST. MARY'S</district>
@@ -3296,7 +3296,7 @@
          </list>
       </note>
    </place>
-   <place n="PORT" type="nonFederal">
+   <place xml:id="PORT4" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>PORT DE GRAVE</district>
@@ -3311,7 +3311,7 @@
          </list>
       </note>
    </place>
-   <place n="ESTJ" type="nonFederal">
+   <place xml:id="ESTJ1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>ST. JOHN'S EAST</district>
@@ -3326,7 +3326,7 @@
          </list>
       </note>
    </place>
-   <place n="WSTJ" type="nonFederal">
+   <place xml:id="WSTJ1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>ST. JOHN'S WEST</district>
@@ -3341,7 +3341,7 @@
          </list>
       </note>
    </place>
-   <place n="TRIN" type="nonFederal">
+   <place xml:id="TRIN2" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>TRINITY BAY</district>
@@ -3356,7 +3356,7 @@
          </list>
       </note>
    </place>
-   <place n="TWIL" type="nonFederal">
+   <place xml:id="TWIL1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>TWILLINGATE AND FOGO</district>
@@ -3371,7 +3371,7 @@
          </list>
       </note>
    </place>
-   <place n="BAYR" type="nonFederal">
+   <place xml:id="BAYR1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BAY ROBERTS</district>
@@ -3386,7 +3386,7 @@
          </list>
       </note>
    </place>
-   <place n="BELL" type="nonFederal">
+   <place xml:id="BELL10" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BELL ISLAND</district>
@@ -3401,7 +3401,7 @@
          </list>
       </note>
    </place>
-   <place n="CBON" type="nonFederal">
+   <place xml:id="CBON1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BONAVISTA CENTRE</district>
@@ -3416,7 +3416,7 @@
          </list>
       </note>
    </place>
-   <place n="EBON" type="nonFederal">
+   <place xml:id="EBON1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BONAVISTA EAST</district>
@@ -3431,7 +3431,7 @@
          </list>
       </note>
    </place>
-   <place n="NBON" type="nonFederal">
+   <place xml:id="NBON1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BONAVISTA NORTH</district>
@@ -3446,7 +3446,7 @@
          </list>
       </note>
    </place>
-   <place n="SBON" type="nonFederal">
+   <place xml:id="SBON1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BONAVISTA SOUTH</district>
@@ -3461,7 +3461,7 @@
          </list>
       </note>
    </place>
-   <place n="BURG" type="nonFederal">
+   <place xml:id="BURG2" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BURGEO</district>
@@ -3476,7 +3476,7 @@
          </list>
       </note>
    </place>
-   <place n="EBUR" type="nonFederal">
+   <place xml:id="EBUR1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BURIN EAST</district>
@@ -3491,7 +3491,7 @@
          </list>
       </note>
    </place>
-   <place n="WBUR" type="nonFederal">
+   <place xml:id="WBUR1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>BURIN WEST</district>
@@ -3506,7 +3506,7 @@
          </list>
       </note>
    </place>
-   <place n="FOGO" type="nonFederal">
+   <place xml:id="FOGO1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>FOGO</district>
@@ -3521,7 +3521,7 @@
          </list>
       </note>
    </place>
-   <place n="GRAN" type="nonFederal">
+   <place xml:id="GRAN6" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>GRAND FALLS</district>
@@ -3536,7 +3536,7 @@
          </list>
       </note>
    </place>
-   <place n="GREE" type="nonFederal">
+   <place xml:id="GREE6" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>GREEN BAY</district>
@@ -3551,7 +3551,7 @@
          </list>
       </note>
    </place>
-   <place n="HERM" type="nonFederal">
+   <place xml:id="HERM1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>HERMITAGE</district>
@@ -3566,7 +3566,7 @@
          </list>
       </note>
    </place>
-   <place n="HUMB" type="nonFederal">
+   <place xml:id="HUMB1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>HUMBER</district>
@@ -3581,7 +3581,7 @@
          </list>
       </note>
    </place>
-   <place n="LEWI" type="nonFederal">
+   <place xml:id="LEWI3" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>LEWISPORTE</district>
@@ -3596,7 +3596,7 @@
          </list>
       </note>
    </place>
-   <place n="PLAC" type="nonFederal">
+   <place xml:id="PLAC2" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>PLACENTIA EAST</district>
@@ -3611,7 +3611,7 @@
          </list>
       </note>
    </place>
-   <place n="WPLA" type="nonFederal">
+   <place xml:id="WPLA1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>PLACENTIA WEST</district>
@@ -3626,7 +3626,7 @@
          </list>
       </note>
    </place>
-   <place n="PORT" type="nonFederal">
+   <place xml:id="PORT5" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>PORT-AU-PORT</district>
@@ -3641,7 +3641,7 @@
          </list>
       </note>
    </place>
-   <place n="STBA" type="nonFederal">
+   <place xml:id="STBA1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>ST. BARBE</district>
@@ -3656,7 +3656,7 @@
          </list>
       </note>
    </place>
-   <place n="STGE" type="nonFederal">
+   <place xml:id="STGE1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>ST. GEORGE</district>
@@ -3671,7 +3671,7 @@
          </list>
       </note>
    </place>
-   <place n="ESTJ" type="nonFederal">
+   <place xml:id="ESTJ2" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>ST. JOHN'S CITY EAST</district>
@@ -3686,7 +3686,7 @@
          </list>
       </note>
    </place>
-   <place n="WSTJ" type="nonFederal">
+   <place xml:id="WSTJ2" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>ST. JOHN'S CITY WEST</district>
@@ -3701,7 +3701,7 @@
          </list>
       </note>
    </place>
-   <place n="STMA" type="nonFederal">
+   <place xml:id="STMA1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>ST. MARY'S</district>
@@ -3716,7 +3716,7 @@
          </list>
       </note>
    </place>
-   <place n="CTRI" type="nonFederal">
+   <place xml:id="CTRI1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>TRINITY CENTRE</district>
@@ -3731,7 +3731,7 @@
          </list>
       </note>
    </place>
-   <place n="NTRI" type="nonFederal">
+   <place xml:id="NTRI1" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>TRINITY NORTH</district>
@@ -3746,7 +3746,7 @@
          </list>
       </note>
    </place>
-   <place n="TRIN" type="nonFederal">
+   <place xml:id="TRIN3" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>TRINITY SOUTH</district>
@@ -3761,7 +3761,7 @@
          </list>
       </note>
    </place>
-   <place n="TWIL" type="nonFederal">
+   <place xml:id="TWIL2" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>TWILLINGATE</district>
@@ -3776,7 +3776,7 @@
          </list>
       </note>
    </place>
-   <place n="WHIT" type="nonFederal">
+   <place xml:id="WHIT13" type="nonFederal">
       <placeName>
          <region>NEWFOUNDLAND</region>
          <district>WHITE BAY</district>
@@ -3791,7 +3791,7 @@
          </list>
       </note>
    </place>
-   <place n="BANF" type="nonFederal">
+   <place xml:id="BANF2" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>BANFF</district>
@@ -3806,7 +3806,7 @@
          </list>
       </note>
    </place>
-   <place n="BATO" type="nonFederal">
+   <place xml:id="BATO1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>BATOCHE</district>
@@ -3821,7 +3821,7 @@
          </list>
       </note>
    </place>
-   <place n="BATT" type="nonFederal">
+   <place xml:id="BATT2" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>BATTLEFORD</district>
@@ -3836,7 +3836,7 @@
          </list>
       </note>
    </place>
-   <place n="CALG" type="nonFederal">
+   <place xml:id="CALG1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>CALGARY</district>
@@ -3851,7 +3851,7 @@
          </list>
       </note>
    </place>
-   <place n="CANN" type="nonFederal">
+   <place xml:id="CANN1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>CANNINGTON</district>
@@ -3866,7 +3866,7 @@
          </list>
       </note>
    </place>
-   <place n="CUMB" type="nonFederal">
+   <place xml:id="CUMB2" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>CUMBERLAND</district>
@@ -3881,7 +3881,7 @@
          </list>
       </note>
    </place>
-   <place n="EDMO" type="nonFederal">
+   <place xml:id="EDMO1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>EDMONTON</district>
@@ -3896,7 +3896,7 @@
          </list>
       </note>
    </place>
-   <place n="FMAC" type="nonFederal">
+   <place xml:id="FMAC1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>FORT MACLEOD</district>
@@ -3911,7 +3911,7 @@
          </list>
       </note>
    </place>
-   <place n="KINI" type="nonFederal">
+   <place xml:id="KINI1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>KINISTINO</district>
@@ -3926,7 +3926,7 @@
          </list>
       </note>
    </place>
-   <place n="LETH" type="nonFederal">
+   <place xml:id="LETH2" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>LETHBRIDGE</district>
@@ -3941,7 +3941,7 @@
          </list>
       </note>
    </place>
-   <place n="MEDI" type="nonFederal">
+   <place xml:id="MEDI2" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>MEDICINE HAT</district>
@@ -3956,7 +3956,7 @@
          </list>
       </note>
    </place>
-   <place n="MITC" type="nonFederal">
+   <place xml:id="MITC5" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>MITCHELL</district>
@@ -3971,7 +3971,7 @@
          </list>
       </note>
    </place>
-   <place n="MOOS" type="nonFederal">
+   <place xml:id="MOOS5" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>MOOSE JAW</district>
@@ -3986,7 +3986,7 @@
          </list>
       </note>
    </place>
-   <place n="MOOS" type="nonFederal">
+   <place xml:id="MOOS6" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>MOOSOMIN</district>
@@ -4001,7 +4001,7 @@
          </list>
       </note>
    </place>
-   <place n="PRIN" type="nonFederal">
+   <place xml:id="PRIN3" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>PRINCE ALBERT</district>
@@ -4016,7 +4016,7 @@
          </list>
       </note>
    </place>
-   <place n="SQUA" type="nonFederal">
+   <place xml:id="SQUA1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>SOUTH QU'APPELLE</district>
@@ -4031,7 +4031,7 @@
          </list>
       </note>
    </place>
-   <place n="NQUA" type="nonFederal">
+   <place xml:id="NQUA1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>NORTH QU'APPELLE</district>
@@ -4046,7 +4046,7 @@
          </list>
       </note>
    </place>
-   <place n="REDD" type="nonFederal">
+   <place xml:id="REDD3" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>RED DEER</district>
@@ -4061,7 +4061,7 @@
          </list>
       </note>
    </place>
-   <place n="SREG" type="nonFederal">
+   <place xml:id="SREG1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>SOUTH REGINA</district>
@@ -4076,7 +4076,7 @@
          </list>
       </note>
    </place>
-   <place n="NREG" type="nonFederal">
+   <place xml:id="NREG1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>NORTH REGINA</district>
@@ -4091,7 +4091,7 @@
          </list>
       </note>
    </place>
-   <place n="SOUR" type="nonFederal">
+   <place xml:id="SOUR3" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>SOURIS</district>
@@ -4106,7 +4106,7 @@
          </list>
       </note>
    </place>
-   <place n="SALB" type="nonFederal">
+   <place xml:id="SALB1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>ST. ALBERT</district>
@@ -4121,7 +4121,7 @@
          </list>
       </note>
    </place>
-   <place n="WALL" type="nonFederal">
+   <place xml:id="WALL7" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>WALLACE</district>
@@ -4136,7 +4136,7 @@
          </list>
       </note>
    </place>
-   <place n="WHIT" type="nonFederal">
+   <place xml:id="WHIT14" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>WHITEWOOD</district>
@@ -4151,7 +4151,7 @@
          </list>
       </note>
    </place>
-   <place n="WOLS" type="nonFederal">
+   <place xml:id="WOLS1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>WOLSELEY</district>
@@ -4166,7 +4166,7 @@
          </list>
       </note>
    </place>
-   <place n="ALBE" type="federal">
+   <place xml:id="ALBE3" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>ALBERTA (PROVISIONAL DISTRICT)</district>
@@ -4185,7 +4185,7 @@
          </list>
       </note>
    </place>
-   <place n="EASS" type="federal">
+   <place xml:id="EASS1" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>ASSINIBOIA EAST</district>
@@ -4204,7 +4204,7 @@
          </list>
       </note>
    </place>
-   <place n="WASS" type="federal">
+   <place xml:id="WASS1" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>ASSINIBOIA WEST</district>
@@ -4223,7 +4223,7 @@
          </list>
       </note>
    </place>
-   <place n="CALG" type="federal">
+   <place xml:id="CALG2" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>CALGARY</district>
@@ -4242,7 +4242,7 @@
          </list>
       </note>
    </place>
-   <place n="EDMO" type="federal">
+   <place xml:id="EDMO2" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>EDMONTON</district>
@@ -4264,7 +4264,7 @@
          </list>
       </note>
    </place>
-   <place n="HUMB" type="federal">
+   <place xml:id="HUMB2" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>HUMBOLDT</district>
@@ -4283,7 +4283,7 @@
          </list>
       </note>
    </place>
-   <place n="MACK" type="federal">
+   <place xml:id="MACK5" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>MACKENZIE</district>
@@ -4302,7 +4302,7 @@
          </list>
       </note>
    </place>
-   <place n="QUAP" type="federal">
+   <place xml:id="QUAP1" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>QU'APPELLE</district>
@@ -4321,7 +4321,7 @@
          </list>
       </note>
    </place>
-   <place n="SASK" type="federal">
+   <place xml:id="SASK1" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>SASKATCHEWAN (PROVISIONAL DISTRICT)</district>
@@ -4340,7 +4340,7 @@
          </list>
       </note>
    </place>
-   <place n="STRA" type="federal">
+   <place xml:id="STRA7" type="federal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>STRATHCONA</district>
@@ -4359,7 +4359,7 @@
          </list>
       </note>
    </place>
-   <place n="ANNA" type="federal">
+   <place xml:id="ANNA3" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>ANNAPOLIS</district>
@@ -4384,7 +4384,7 @@
          </list>
       </note>
    </place>
-   <place n="ANTI" type="federal">
+   <place xml:id="ANTI1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>ANTIGONISH</district>
@@ -4418,7 +4418,7 @@
          </list>
       </note>
    </place>
-   <place n="CAPE" type="federal">
+   <place xml:id="CAPE1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>CAPE BRETON</district>
@@ -4443,7 +4443,7 @@
          </list>
       </note>
    </place>
-   <place n="COLC" type="federal">
+   <place xml:id="COLC1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>COLCHESTER</district>
@@ -4474,7 +4474,7 @@
          </list>
       </note>
    </place>
-   <place n="CUMB" type="federal">
+   <place xml:id="CUMB3" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>CUMBERLAND</district>
@@ -4502,7 +4502,7 @@
          </list>
       </note>
    </place>
-   <place n="CUMB" type="federal">
+   <place xml:id="CUMB4" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>CUMBERLAND</district>
@@ -4521,7 +4521,7 @@
          </list>
       </note>
    </place>
-   <place n="DIGB" type="federal">
+   <place xml:id="DIGB1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>DIGBY</district>
@@ -4546,7 +4546,7 @@
          </list>
       </note>
    </place>
-   <place n="GUYS" type="federal">
+   <place xml:id="GUYS1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>GUYSBOROUGH</district>
@@ -4574,7 +4574,7 @@
          </list>
       </note>
    </place>
-   <place n="HALI" type="federal">
+   <place xml:id="HALI1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>HALIFAX</district>
@@ -4608,7 +4608,7 @@
          </list>
       </note>
    </place>
-   <place n="HALI" type="federal">
+   <place xml:id="HALI2" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>HALIFAX</district>
@@ -4633,7 +4633,7 @@
          </list>
       </note>
    </place>
-   <place n="HANT" type="federal">
+   <place xml:id="HANT1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>HANTS</district>
@@ -4664,7 +4664,7 @@
          </list>
       </note>
    </place>
-   <place n="INVE" type="federal">
+   <place xml:id="INVE1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>INVERNESS</district>
@@ -4689,7 +4689,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="federal">
+   <place xml:id="KING6" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>KINGS</district>
@@ -4717,7 +4717,7 @@
          </list>
       </note>
    </place>
-   <place n="LUNE" type="federal">
+   <place xml:id="LUNE1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>LUNENBURG</district>
@@ -4742,7 +4742,7 @@
          </list>
       </note>
    </place>
-   <place n="PICT" type="federal">
+   <place xml:id="PICT1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>PICTOU</district>
@@ -4770,7 +4770,7 @@
          </list>
       </note>
    </place>
-   <place n="PICT" type="federal">
+   <place xml:id="PICT2" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>PICTOU</district>
@@ -4789,7 +4789,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEE" type="federal">
+   <place xml:id="QUEE4" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>QUEENS</district>
@@ -4811,7 +4811,7 @@
          </list>
       </note>
    </place>
-   <place n="RICH" type="federal">
+   <place xml:id="RICH5" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>RICHMOND</district>
@@ -4839,7 +4839,7 @@
          </list>
       </note>
    </place>
-   <place n="SHEL" type="federal">
+   <place xml:id="SHEL1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>SHELBURNE</district>
@@ -4858,7 +4858,7 @@
          </list>
       </note>
    </place>
-   <place n="SHEL" type="federal">
+   <place xml:id="SHEL2" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>SHELBURNE</district>
@@ -4880,7 +4880,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="federal">
+   <place xml:id="VICT9" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>VICTORIA</district>
@@ -4905,7 +4905,7 @@
          </list>
       </note>
    </place>
-   <place n="YARM" type="federal">
+   <place xml:id="YARM1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>YARMOUTH</district>
@@ -4927,7 +4927,7 @@
          </list>
       </note>
    </place>
-   <place n="YARM" type="federal">
+   <place xml:id="YARM2" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>YARMOUTH</district>
@@ -4949,7 +4949,7 @@
          </list>
       </note>
    </place>
-   <place n="SCAP" type="federal">
+   <place xml:id="SCAP1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>CAPE BRETON SOUTH</district>
@@ -4968,7 +4968,7 @@
          </list>
       </note>
    </place>
-   <place n="SCAP" type="federal">
+   <place xml:id="SCAP2" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>CAPE BRETON SOUTH</district>
@@ -4987,7 +4987,7 @@
          </list>
       </note>
    </place>
-   <place n="NCAP" type="federal">
+   <place xml:id="NCAP1" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>NORTH CAPE BRETON AND VICTORIA</district>
@@ -5006,7 +5006,7 @@
          </list>
       </note>
    </place>
-   <place n="SHEL" type="federal">
+   <place xml:id="SHEL3" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>SHELBURNE AND QUEEN'S</district>
@@ -5025,7 +5025,7 @@
          </list>
       </note>
    </place>
-   <place n="ANNA" type="nonFederal">
+   <place xml:id="ANNA4" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>ANNAPOLIS COUNTY</district>
@@ -5040,7 +5040,7 @@
          </list>
       </note>
    </place>
-   <place n="ANTI" type="nonFederal">
+   <place xml:id="ANTI2" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>ANTIGONISH COUNTY</district>
@@ -5055,7 +5055,7 @@
          </list>
       </note>
    </place>
-   <place n="NCOL" type="nonFederal">
+   <place xml:id="NCOL1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>COLCHESTER COUNTY (NORTH DIVISION)</district>
@@ -5070,7 +5070,7 @@
          </list>
       </note>
    </place>
-   <place n="SCOL" type="nonFederal">
+   <place xml:id="SCOL2" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>COLCHESTER COUNTY (SOUTH DIVISION)</district>
@@ -5085,7 +5085,7 @@
          </list>
       </note>
    </place>
-   <place n="CCAP" type="nonFederal">
+   <place xml:id="CCAP1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>COUNTY OF CAPE BRETON</district>
@@ -5100,7 +5100,7 @@
          </list>
       </note>
    </place>
-   <place n="CUMB" type="nonFederal">
+   <place xml:id="CUMB5" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>CUMBERLAND COUNTY</district>
@@ -5115,7 +5115,7 @@
          </list>
       </note>
    </place>
-   <place n="DIGB" type="nonFederal">
+   <place xml:id="DIGB2" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>DIGBY COUNTY</district>
@@ -5130,7 +5130,7 @@
          </list>
       </note>
    </place>
-   <place n="GUYS" type="nonFederal">
+   <place xml:id="GUYS2" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>GUYSBOROUGH COUNTY</district>
@@ -5145,7 +5145,7 @@
          </list>
       </note>
    </place>
-   <place n="EHAL" type="nonFederal">
+   <place xml:id="EHAL1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>HALIFAX COUNTY (EASTERN DIVISION)</district>
@@ -5160,7 +5160,7 @@
          </list>
       </note>
    </place>
-   <place n="WHAL" type="nonFederal">
+   <place xml:id="WHAL1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>HALIFAX COUNTY (WESTERN DIVISION)</district>
@@ -5175,7 +5175,7 @@
          </list>
       </note>
    </place>
-   <place n="NHAN" type="nonFederal">
+   <place xml:id="NHAN1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>HANTS COUNTY (NORTH DIVISION)</district>
@@ -5190,7 +5190,7 @@
          </list>
       </note>
    </place>
-   <place n="SHAN" type="nonFederal">
+   <place xml:id="SHAN3" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>HANTS COUNTY (SOUTH DIVISION)</district>
@@ -5205,7 +5205,7 @@
          </list>
       </note>
    </place>
-   <place n="INVE" type="nonFederal">
+   <place xml:id="INVE2" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>INVERNESS COUNTY</district>
@@ -5220,7 +5220,7 @@
          </list>
       </note>
    </place>
-   <place n="NKIN" type="nonFederal">
+   <place xml:id="NKIN1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>KINGS COUNTY (NORTH DIVISION)</district>
@@ -5235,7 +5235,7 @@
          </list>
       </note>
    </place>
-   <place n="SKIN" type="nonFederal">
+   <place xml:id="SKIN2" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>KINGS COUNTY (SOUTH DIVISION)</district>
@@ -5250,7 +5250,7 @@
          </list>
       </note>
    </place>
-   <place n="LUNE" type="nonFederal">
+   <place xml:id="LUNE2" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>LUNENBURG COUNTY</district>
@@ -5265,7 +5265,7 @@
          </list>
       </note>
    </place>
-   <place n="EPIC" type="nonFederal">
+   <place xml:id="EPIC1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>PICTOU COUNTY (EAST DIVISION)</district>
@@ -5280,7 +5280,7 @@
          </list>
       </note>
    </place>
-   <place n="WPIC" type="nonFederal">
+   <place xml:id="WPIC1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>PICTOU COUNTY (WEST DIVISION)</district>
@@ -5295,7 +5295,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEE" type="nonFederal">
+   <place xml:id="QUEE5" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>QUEENS COUNTY</district>
@@ -5310,7 +5310,7 @@
          </list>
       </note>
    </place>
-   <place n="NQUE" type="nonFederal">
+   <place xml:id="NQUE1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>QUEENS COUNTY (NORTH DISTRICT)</district>
@@ -5325,7 +5325,7 @@
          </list>
       </note>
    </place>
-   <place n="SQUE" type="nonFederal">
+   <place xml:id="SQUE1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>QUEENS COUNTY (SOUTH DISTRICT)</district>
@@ -5340,7 +5340,7 @@
          </list>
       </note>
    </place>
-   <place n="RICH" type="nonFederal">
+   <place xml:id="RICH6" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>RICHMOND COUNTY</district>
@@ -5355,7 +5355,7 @@
          </list>
       </note>
    </place>
-   <place n="SHEL" type="nonFederal">
+   <place xml:id="SHEL4" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>SHELBURNE COUNTY</district>
@@ -5370,7 +5370,7 @@
          </list>
       </note>
    </place>
-   <place n="TARG" type="nonFederal">
+   <place xml:id="TARG1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>TOWNSHIP OF ARGYLE</district>
@@ -5385,7 +5385,7 @@
          </list>
       </note>
    </place>
-   <place n="TBAR" type="nonFederal">
+   <place xml:id="TBAR1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>TOWNSHIP OF BARRINGTON</district>
@@ -5400,7 +5400,7 @@
          </list>
       </note>
    </place>
-   <place n="TSHE" type="nonFederal">
+   <place xml:id="TSHE1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>TOWNSHIP OF SHELBURNE</district>
@@ -5415,7 +5415,7 @@
          </list>
       </note>
    </place>
-   <place n="TYAR" type="nonFederal">
+   <place xml:id="TYAR1" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>TOWNSHIP OF YARMOUTH</district>
@@ -5430,7 +5430,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="nonFederal">
+   <place xml:id="VICT10" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>VICTORIA COUNTY</district>
@@ -5445,7 +5445,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="nonFederal">
+   <place xml:id="VICT11" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>VICTORIA COUNTY</district>
@@ -5460,7 +5460,7 @@
          </list>
       </note>
    </place>
-   <place n="YARM" type="nonFederal">
+   <place xml:id="YARM3" type="nonFederal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>YARMOUTH COUNTY</district>
@@ -5475,7 +5475,7 @@
          </list>
       </note>
    </place>
-   <place n="ANTI" type="federal">
+   <place xml:id="ANTI3" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>ANTIGONISH-GUYSBOROUGH</district>
@@ -5494,7 +5494,7 @@
          </list>
       </note>
    </place>
-   <place n="NCAP" type="federal">
+   <place xml:id="NCAP2" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>CAPE BRETON NORTH AND VICTORIA</district>
@@ -5513,7 +5513,7 @@
          </list>
       </note>
    </place>
-   <place n="COLC" type="federal">
+   <place xml:id="COLC2" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>COLCHESTER-HANTS</district>
@@ -5532,7 +5532,7 @@
          </list>
       </note>
    </place>
-   <place n="DIGB" type="federal">
+   <place xml:id="DIGB3" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>DIGBY-ANNAPOLIS-KINGS</district>
@@ -5554,7 +5554,7 @@
          </list>
       </note>
    </place>
-   <place n="INVE" type="federal">
+   <place xml:id="INVE3" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>INVERNESS-RICHMOND</district>
@@ -5573,7 +5573,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEE" type="federal">
+   <place xml:id="QUEE6" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>QUEENS-LUNENBURG</district>
@@ -5592,7 +5592,7 @@
          </list>
       </note>
    </place>
-   <place n="SHEL" type="federal">
+   <place xml:id="SHEL5" type="federal">
       <placeName>
          <region>NOVA SCOTIA</region>
          <district>SHELBURNE-YARMOUTH-CLARE</district>
@@ -5611,7 +5611,7 @@
          </list>
       </note>
    </place>
-   <place n="ADDI" type="federal">
+   <place xml:id="ADDI1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ADDINGTON</district>
@@ -5633,7 +5633,7 @@
          </list>
       </note>
    </place>
-   <place n="ALGO" type="federal">
+   <place xml:id="ALGO1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ALGOMA</district>
@@ -5658,7 +5658,7 @@
          </list>
       </note>
    </place>
-   <place n="BOTH" type="federal">
+   <place xml:id="BOTH1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BOTHWELL</district>
@@ -5680,7 +5680,7 @@
          </list>
       </note>
    </place>
-   <place n="NBRA" type="federal">
+   <place xml:id="NBRA1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRANT NORTH</district>
@@ -5702,7 +5702,7 @@
          </list>
       </note>
    </place>
-   <place n="SBRA" type="federal">
+   <place xml:id="SBRA1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRANT SOUTH</district>
@@ -5724,7 +5724,7 @@
          </list>
       </note>
    </place>
-   <place n="BROC" type="federal">
+   <place xml:id="BROC2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BROCKVILLE</district>
@@ -5749,7 +5749,7 @@
          </list>
       </note>
    </place>
-   <place n="NBRU" type="federal">
+   <place xml:id="NBRU1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRUCE NORTH</district>
@@ -5774,7 +5774,7 @@
          </list>
       </note>
    </place>
-   <place n="SBRU" type="federal">
+   <place xml:id="SBRU1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRUCE SOUTH</district>
@@ -5802,7 +5802,7 @@
          </list>
       </note>
    </place>
-   <place n="CARD" type="federal">
+   <place xml:id="CARD5" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>CARDWELL</district>
@@ -5824,7 +5824,7 @@
          </list>
       </note>
    </place>
-   <place n="CARL" type="federal">
+   <place xml:id="CARL4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>CARLETON</district>
@@ -5858,7 +5858,7 @@
          </list>
       </note>
    </place>
-   <place n="CORN" type="federal">
+   <place xml:id="CORN2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>CORNWALL</district>
@@ -5880,7 +5880,7 @@
          </list>
       </note>
    </place>
-   <place n="DUND" type="federal">
+   <place xml:id="DUND1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>DUNDAS</district>
@@ -5905,7 +5905,7 @@
          </list>
       </note>
    </place>
-   <place n="EDUR" type="federal">
+   <place xml:id="EDUR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>DURHAM EAST</district>
@@ -5927,7 +5927,7 @@
          </list>
       </note>
    </place>
-   <place n="WDUR" type="federal">
+   <place xml:id="WDUR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>DURHAM WEST</district>
@@ -5952,7 +5952,7 @@
          </list>
       </note>
    </place>
-   <place n="EELG" type="federal">
+   <place xml:id="EELG1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ELGIN EAST</district>
@@ -5977,7 +5977,7 @@
          </list>
       </note>
    </place>
-   <place n="WELG" type="federal">
+   <place xml:id="WELG1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ELGIN WEST</district>
@@ -6002,7 +6002,7 @@
          </list>
       </note>
    </place>
-   <place n="ESSE" type="federal">
+   <place xml:id="ESSE1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ESSEX</district>
@@ -6024,7 +6024,7 @@
          </list>
       </note>
    </place>
-   <place n="FRON" type="federal">
+   <place xml:id="FRON1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>FRONTENAC</district>
@@ -6049,7 +6049,7 @@
          </list>
       </note>
    </place>
-   <place n="FRON" type="federal">
+   <place xml:id="FRON2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>FRONTENAC</district>
@@ -6068,7 +6068,7 @@
          </list>
       </note>
    </place>
-   <place n="GLEN" type="federal">
+   <place xml:id="GLEN3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GLENGARRY</district>
@@ -6102,7 +6102,7 @@
          </list>
       </note>
    </place>
-   <place n="SGRE" type="federal">
+   <place xml:id="SGRE1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GRENVILLE SOUTH</district>
@@ -6124,7 +6124,7 @@
          </list>
       </note>
    </place>
-   <place n="NGRE" type="federal">
+   <place xml:id="NGRE1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GREY NORTH</district>
@@ -6155,7 +6155,7 @@
          </list>
       </note>
    </place>
-   <place n="SGRE" type="federal">
+   <place xml:id="SGRE2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GREY SOUTH</district>
@@ -6180,7 +6180,7 @@
          </list>
       </note>
    </place>
-   <place n="HALD" type="federal">
+   <place xml:id="HALD1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HALDIMAND</district>
@@ -6208,7 +6208,7 @@
          </list>
       </note>
    </place>
-   <place n="HALT" type="federal">
+   <place xml:id="HALT1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HALTON</district>
@@ -6236,7 +6236,7 @@
          </list>
       </note>
    </place>
-   <place n="HAMI" type="federal">
+   <place xml:id="HAMI3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HAMILTON</district>
@@ -6261,7 +6261,7 @@
          </list>
       </note>
    </place>
-   <place n="EHAS" type="federal">
+   <place xml:id="EHAS1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HASTINGS EAST</district>
@@ -6286,7 +6286,7 @@
          </list>
       </note>
    </place>
-   <place n="EHAS" type="federal">
+   <place xml:id="EHAS2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HASTINGS EAST</district>
@@ -6305,7 +6305,7 @@
          </list>
       </note>
    </place>
-   <place n="NHAS" type="federal">
+   <place xml:id="NHAS1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HASTINGS NORTH</district>
@@ -6327,7 +6327,7 @@
          </list>
       </note>
    </place>
-   <place n="WHAS" type="federal">
+   <place xml:id="WHAS1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HASTINGS WEST</district>
@@ -6349,7 +6349,7 @@
          </list>
       </note>
    </place>
-   <place n="WHAS" type="federal">
+   <place xml:id="WHAS2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HASTINGS WEST</district>
@@ -6368,7 +6368,7 @@
          </list>
       </note>
    </place>
-   <place n="NHUR" type="federal">
+   <place xml:id="NHUR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HURON NORTH</district>
@@ -6393,7 +6393,7 @@
          </list>
       </note>
    </place>
-   <place n="SHUR" type="federal">
+   <place xml:id="SHUR3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HURON SOUTH</district>
@@ -6418,7 +6418,7 @@
          </list>
       </note>
    </place>
-   <place n="KENT" type="federal">
+   <place xml:id="KENT6" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>KENT</district>
@@ -6443,7 +6443,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="federal">
+   <place xml:id="KING7" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>KINGSTON</district>
@@ -6468,7 +6468,7 @@
          </list>
       </note>
    </place>
-   <place n="LAMB" type="federal">
+   <place xml:id="LAMB2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LAMBTON</district>
@@ -6493,7 +6493,7 @@
          </list>
       </note>
    </place>
-   <place n="NLAN" type="federal">
+   <place xml:id="NLAN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LANARK NORTH</district>
@@ -6518,7 +6518,7 @@
          </list>
       </note>
    </place>
-   <place n="SLAN" type="federal">
+   <place xml:id="SLAN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LANARK SOUTH</district>
@@ -6546,7 +6546,7 @@
          </list>
       </note>
    </place>
-   <place n="NLEE" type="federal">
+   <place xml:id="NLEE1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LEEDS NORTH AND GRENVILLE NORTH</district>
@@ -6568,7 +6568,7 @@
          </list>
       </note>
    </place>
-   <place n="SLEE" type="federal">
+   <place xml:id="SLEE1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LEEDS SOUTH</district>
@@ -6590,7 +6590,7 @@
          </list>
       </note>
    </place>
-   <place n="LENN" type="federal">
+   <place xml:id="LENN3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LENNOX</district>
@@ -6615,7 +6615,7 @@
          </list>
       </note>
    </place>
-   <place n="LINC" type="federal">
+   <place xml:id="LINC1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LINCOLN</district>
@@ -6646,7 +6646,7 @@
          </list>
       </note>
    </place>
-   <place n="LOND" type="federal">
+   <place xml:id="LOND1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LONDON</district>
@@ -6677,7 +6677,7 @@
          </list>
       </note>
    </place>
-   <place n="EMID" type="federal">
+   <place xml:id="EMID1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>MIDDLESEX EAST</district>
@@ -6705,7 +6705,7 @@
          </list>
       </note>
    </place>
-   <place n="NMID" type="federal">
+   <place xml:id="NMID1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>MIDDLESEX NORTH</district>
@@ -6730,7 +6730,7 @@
          </list>
       </note>
    </place>
-   <place n="WMID" type="federal">
+   <place xml:id="WMID1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>MIDDLESEX WEST</district>
@@ -6758,7 +6758,7 @@
          </list>
       </note>
    </place>
-   <place n="MONC" type="federal">
+   <place xml:id="MONC1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>MONCK</district>
@@ -6780,7 +6780,7 @@
          </list>
       </note>
    </place>
-   <place n="NIAG" type="federal">
+   <place xml:id="NIAG2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>NIAGARA</district>
@@ -6802,7 +6802,7 @@
          </list>
       </note>
    </place>
-   <place n="NNOR" type="federal">
+   <place xml:id="NNOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORFOLK NORTH</district>
@@ -6824,7 +6824,7 @@
          </list>
       </note>
    </place>
-   <place n="SNOR" type="federal">
+   <place xml:id="SNOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORFOLK SOUTH</district>
@@ -6846,7 +6846,7 @@
          </list>
       </note>
    </place>
-   <place n="ENOR" type="federal">
+   <place xml:id="ENOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTHUMBERLAND EAST</district>
@@ -6871,7 +6871,7 @@
          </list>
       </note>
    </place>
-   <place n="WNOR" type="federal">
+   <place xml:id="WNOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTHUMBERLAND WEST</district>
@@ -6896,7 +6896,7 @@
          </list>
       </note>
    </place>
-   <place n="NONT" type="federal">
+   <place xml:id="NONT1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ONTARIO NORTH</district>
@@ -6921,7 +6921,7 @@
          </list>
       </note>
    </place>
-   <place n="SONT" type="federal">
+   <place xml:id="SONT1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ONTARIO SOUTH</district>
@@ -6949,7 +6949,7 @@
          </list>
       </note>
    </place>
-   <place n="OTTA" type="federal">
+   <place xml:id="OTTA1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>OTTAWA (CITY OF)</district>
@@ -6980,7 +6980,7 @@
          </list>
       </note>
    </place>
-   <place n="NOXF" type="federal">
+   <place xml:id="NOXF1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>OXFORD NORTH</district>
@@ -7008,7 +7008,7 @@
          </list>
       </note>
    </place>
-   <place n="SOXF" type="federal">
+   <place xml:id="SOXF1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>OXFORD SOUTH</district>
@@ -7033,7 +7033,7 @@
          </list>
       </note>
    </place>
-   <place n="PEEL" type="federal">
+   <place xml:id="PEEL1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PEEL</district>
@@ -7061,7 +7061,7 @@
          </list>
       </note>
    </place>
-   <place n="NPER" type="federal">
+   <place xml:id="NPER1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PERTH NORTH</district>
@@ -7086,7 +7086,7 @@
          </list>
       </note>
    </place>
-   <place n="SPER" type="federal">
+   <place xml:id="SPER1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PERTH SOUTH</district>
@@ -7111,7 +7111,7 @@
          </list>
       </note>
    </place>
-   <place n="EPET" type="federal">
+   <place xml:id="EPET1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PETERBOROUGH EAST</district>
@@ -7136,7 +7136,7 @@
          </list>
       </note>
    </place>
-   <place n="WPET" type="federal">
+   <place xml:id="WPET1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PETERBOROUGH WEST</district>
@@ -7164,7 +7164,7 @@
          </list>
       </note>
    </place>
-   <place n="PRES" type="federal">
+   <place xml:id="PRES1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PRESCOTT</district>
@@ -7192,7 +7192,7 @@
          </list>
       </note>
    </place>
-   <place n="PRIN" type="federal">
+   <place xml:id="PRIN4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PRINCE EDWARD</district>
@@ -7217,7 +7217,7 @@
          </list>
       </note>
    </place>
-   <place n="NREN" type="federal">
+   <place xml:id="NREN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>RENFREW NORTH</district>
@@ -7248,7 +7248,7 @@
          </list>
       </note>
    </place>
-   <place n="SREN" type="federal">
+   <place xml:id="SREN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>RENFREW SOUTH</district>
@@ -7279,7 +7279,7 @@
          </list>
       </note>
    </place>
-   <place n="RUSS" type="federal">
+   <place xml:id="RUSS2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>RUSSELL</district>
@@ -7307,7 +7307,7 @@
          </list>
       </note>
    </place>
-   <place n="NSIM" type="federal">
+   <place xml:id="NSIM1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>SIMCOE NORTH</district>
@@ -7335,7 +7335,7 @@
          </list>
       </note>
    </place>
-   <place n="SSIM" type="federal">
+   <place xml:id="SSIM1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>SIMCOE SOUTH</district>
@@ -7360,7 +7360,7 @@
          </list>
       </note>
    </place>
-   <place n="STOR" type="federal">
+   <place xml:id="STOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>STORMONT</district>
@@ -7388,7 +7388,7 @@
          </list>
       </note>
    </place>
-   <place n="ETOR" type="federal">
+   <place xml:id="ETOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>TORONTO EAST</district>
@@ -7413,7 +7413,7 @@
          </list>
       </note>
    </place>
-   <place n="NVIC" type="federal">
+   <place xml:id="NVIC1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>VICTORIA NORTH</district>
@@ -7435,7 +7435,7 @@
          </list>
       </note>
    </place>
-   <place n="SVIC" type="federal">
+   <place xml:id="SVIC1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>VICTORIA SOUTH</district>
@@ -7457,7 +7457,7 @@
          </list>
       </note>
    </place>
-   <place n="NWAT" type="federal">
+   <place xml:id="NWAT1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WATERLOO NORTH</district>
@@ -7485,7 +7485,7 @@
          </list>
       </note>
    </place>
-   <place n="SWAT" type="federal">
+   <place xml:id="SWAT1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WATERLOO SOUTH</district>
@@ -7513,7 +7513,7 @@
          </list>
       </note>
    </place>
-   <place n="WELL" type="federal">
+   <place xml:id="WELL3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WELLAND</district>
@@ -7538,7 +7538,7 @@
          </list>
       </note>
    </place>
-   <place n="WELL" type="federal">
+   <place xml:id="WELL4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WELLAND</district>
@@ -7560,7 +7560,7 @@
          </list>
       </note>
    </place>
-   <place n="CWEL" type="federal">
+   <place xml:id="CWEL1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WELLINGTON CENTRE</district>
@@ -7585,7 +7585,7 @@
          </list>
       </note>
    </place>
-   <place n="NWEL" type="federal">
+   <place xml:id="NWEL1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WELLINGTON NORTH</district>
@@ -7613,7 +7613,7 @@
          </list>
       </note>
    </place>
-   <place n="SWEL" type="federal">
+   <place xml:id="SWEL1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WELLINGTON SOUTH</district>
@@ -7641,7 +7641,7 @@
          </list>
       </note>
    </place>
-   <place n="NWEN" type="federal">
+   <place xml:id="NWEN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WENTWORTH NORTH</district>
@@ -7663,7 +7663,7 @@
          </list>
       </note>
    </place>
-   <place n="SWEN" type="federal">
+   <place xml:id="SWEN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WENTWORTH SOUTH</district>
@@ -7685,7 +7685,7 @@
          </list>
       </note>
    </place>
-   <place n="WTOR" type="federal">
+   <place xml:id="WTOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WEST TORONTO</district>
@@ -7710,7 +7710,7 @@
          </list>
       </note>
    </place>
-   <place n="EYOR" type="federal">
+   <place xml:id="EYOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>YORK EAST</district>
@@ -7735,7 +7735,7 @@
          </list>
       </note>
    </place>
-   <place n="NYOR" type="federal">
+   <place xml:id="NYOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>YORK NORTH</district>
@@ -7766,7 +7766,7 @@
          </list>
       </note>
    </place>
-   <place n="WYOR" type="federal">
+   <place xml:id="WYOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>YORK WEST</district>
@@ -7794,7 +7794,7 @@
          </list>
       </note>
    </place>
-   <place n="EGRE" type="federal">
+   <place xml:id="EGRE1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GREY EAST</district>
@@ -7816,7 +7816,7 @@
          </list>
       </note>
    </place>
-   <place n="CHUR" type="federal">
+   <place xml:id="CHUR4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HURON CENTRE</district>
@@ -7835,7 +7835,7 @@
          </list>
       </note>
    </place>
-   <place n="MUSK" type="federal">
+   <place xml:id="MUSK4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>MUSKOKA</district>
@@ -7857,7 +7857,7 @@
          </list>
       </note>
    </place>
-   <place n="CTOR" type="federal">
+   <place xml:id="CTOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>TORONTO CENTRE</district>
@@ -7882,7 +7882,7 @@
          </list>
       </note>
    </place>
-   <place n="EBRU" type="federal">
+   <place xml:id="EBRU1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRUCE EAST</district>
@@ -7901,7 +7901,7 @@
          </list>
       </note>
    </place>
-   <place n="ELAM" type="federal">
+   <place xml:id="ELAM1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LAMBTON EAST</district>
@@ -7923,7 +7923,7 @@
          </list>
       </note>
    </place>
-   <place n="EALG" type="federal">
+   <place xml:id="EALG1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ALGOMA EAST</district>
@@ -7948,7 +7948,7 @@
          </list>
       </note>
    </place>
-   <place n="WALG" type="federal">
+   <place xml:id="WALG1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ALGOMA WEST</district>
@@ -7970,7 +7970,7 @@
          </list>
       </note>
    </place>
-   <place n="BRAN" type="federal">
+   <place xml:id="BRAN3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRANT</district>
@@ -7992,7 +7992,7 @@
          </list>
       </note>
    </place>
-   <place n="BRAN" type="federal">
+   <place xml:id="BRAN4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRANTFORD</district>
@@ -8011,7 +8011,7 @@
          </list>
       </note>
    </place>
-   <place n="DUFF" type="federal">
+   <place xml:id="DUFF1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>DUFFERIN</district>
@@ -8030,7 +8030,7 @@
          </list>
       </note>
    </place>
-   <place n="DURH" type="federal">
+   <place xml:id="DURH1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>DURHAM</district>
@@ -8052,7 +8052,7 @@
          </list>
       </note>
    </place>
-   <place n="NESS" type="federal">
+   <place xml:id="NESS1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ESSEX NORTH</district>
@@ -8071,7 +8071,7 @@
          </list>
       </note>
    </place>
-   <place n="SESS" type="federal">
+   <place xml:id="SESS1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ESSEX SOUTH</district>
@@ -8093,7 +8093,7 @@
          </list>
       </note>
    </place>
-   <place n="GREN" type="federal">
+   <place xml:id="GREN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GRENVILLE</district>
@@ -8112,7 +8112,7 @@
          </list>
       </note>
    </place>
-   <place n="EHAM" type="federal">
+   <place xml:id="EHAM1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HAMILTON EAST</district>
@@ -8134,7 +8134,7 @@
          </list>
       </note>
    </place>
-   <place n="WHAM" type="federal">
+   <place xml:id="WHAM1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HAMILTON WEST</district>
@@ -8156,7 +8156,7 @@
          </list>
       </note>
    </place>
-   <place n="HURO" type="federal">
+   <place xml:id="HURO1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HURON EAST</district>
@@ -8175,7 +8175,7 @@
          </list>
       </note>
    </place>
-   <place n="WHUR" type="federal">
+   <place xml:id="WHUR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HURON WEST</district>
@@ -8194,7 +8194,7 @@
          </list>
       </note>
    </place>
-   <place n="EKEN" type="federal">
+   <place xml:id="EKEN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>KENT EAST</district>
@@ -8213,7 +8213,7 @@
          </list>
       </note>
    </place>
-   <place n="WKEN" type="federal">
+   <place xml:id="WKEN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>KENT WEST</district>
@@ -8232,7 +8232,7 @@
          </list>
       </note>
    </place>
-   <place n="WLAM" type="federal">
+   <place xml:id="WLAM1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LAMBTON WEST</district>
@@ -8257,7 +8257,7 @@
          </list>
       </note>
    </place>
-   <place n="LEED" type="federal">
+   <place xml:id="LEED1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LEEDS</district>
@@ -8279,7 +8279,7 @@
          </list>
       </note>
    </place>
-   <place n="LENN" type="federal">
+   <place xml:id="LENN4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LENNOX AND ADDINGTON</district>
@@ -8298,7 +8298,7 @@
          </list>
       </note>
    </place>
-   <place n="NIPI" type="federal">
+   <place xml:id="NIPI1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>NIPISSING</district>
@@ -8320,7 +8320,7 @@
          </list>
       </note>
    </place>
-   <place n="NORF" type="federal">
+   <place xml:id="NORF1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORFOLK</district>
@@ -8342,7 +8342,7 @@
          </list>
       </note>
    </place>
-   <place n="PARR" type="federal">
+   <place xml:id="PARR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PARRY SOUND</district>
@@ -8364,7 +8364,7 @@
          </list>
       </note>
    </place>
-   <place n="ESIM" type="federal">
+   <place xml:id="ESIM1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>SIMCOE EAST</district>
@@ -8386,7 +8386,7 @@
          </list>
       </note>
    </place>
-   <place n="THUN" type="federal">
+   <place xml:id="THUN1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>THUNDER BAY AND RAINY RIVER</district>
@@ -8405,7 +8405,7 @@
          </list>
       </note>
    </place>
-   <place n="NTOR" type="federal">
+   <place xml:id="NTOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>TORONTO NORTH</district>
@@ -8424,7 +8424,7 @@
          </list>
       </note>
    </place>
-   <place n="STOR" type="federal">
+   <place xml:id="STOR2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>TORONTO SOUTH</district>
@@ -8443,7 +8443,7 @@
          </list>
       </note>
    </place>
-   <place n="WTOR" type="federal">
+   <place xml:id="WTOR2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>TORONTO WEST</district>
@@ -8462,7 +8462,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="federal">
+   <place xml:id="VICT12" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>VICTORIA</district>
@@ -8484,7 +8484,7 @@
          </list>
       </note>
    </place>
-   <place n="WENT" type="federal">
+   <place xml:id="WENT1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>WENTWORTH</district>
@@ -8509,7 +8509,7 @@
          </list>
       </note>
    </place>
-   <place n="CYOR" type="federal">
+   <place xml:id="CYOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>YORK CENTRE</district>
@@ -8528,7 +8528,7 @@
          </list>
       </note>
    </place>
-   <place n="SYOR" type="federal">
+   <place xml:id="SYOR1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>YORK SOUTH</district>
@@ -8550,7 +8550,7 @@
          </list>
       </note>
    </place>
-   <place n="BROC" type="nonFederal">
+   <place xml:id="BROC3" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>BROCKVILLE</district>
@@ -8565,7 +8565,7 @@
          </list>
       </note>
    </place>
-   <place n="CARL" type="nonFederal">
+   <place xml:id="CARL5" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>CARLETON</district>
@@ -8580,7 +8580,7 @@
          </list>
       </note>
    </place>
-   <place n="CORN" type="nonFederal">
+   <place xml:id="CORN3" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>CORNWALL</district>
@@ -8595,7 +8595,7 @@
          </list>
       </note>
    </place>
-   <place n="DUND" type="nonFederal">
+   <place xml:id="DUND2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>DUNDAS</district>
@@ -8610,7 +8610,7 @@
          </list>
       </note>
    </place>
-   <place n="EBRA" type="nonFederal">
+   <place xml:id="EBRA1" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>EAST BRANT</district>
@@ -8625,7 +8625,7 @@
          </list>
       </note>
    </place>
-   <place n="EDUR" type="nonFederal">
+   <place xml:id="EDUR2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>EAST DURHAM</district>
@@ -8640,7 +8640,7 @@
          </list>
       </note>
    </place>
-   <place n="EELG" type="nonFederal">
+   <place xml:id="EELG2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>EAST ELGIN</district>
@@ -8655,7 +8655,7 @@
          </list>
       </note>
    </place>
-   <place n="EMID" type="nonFederal">
+   <place xml:id="EMID2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>EAST MIDDLESEX</district>
@@ -8670,7 +8670,7 @@
          </list>
       </note>
    </place>
-   <place n="ENOR" type="nonFederal">
+   <place xml:id="ENOR2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>EAST NORTHUMBERLAND</district>
@@ -8685,7 +8685,7 @@
          </list>
       </note>
    </place>
-   <place n="ETOR" type="nonFederal">
+   <place xml:id="ETOR2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>EAST TORONTO</district>
@@ -8700,7 +8700,7 @@
          </list>
       </note>
    </place>
-   <place n="EYOR" type="nonFederal">
+   <place xml:id="EYOR2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>EAST YORK</district>
@@ -8715,7 +8715,7 @@
          </list>
       </note>
    </place>
-   <place n="ESSE" type="nonFederal">
+   <place xml:id="ESSE2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>ESSEX</district>
@@ -8730,7 +8730,7 @@
          </list>
       </note>
    </place>
-   <place n="FRON" type="nonFederal">
+   <place xml:id="FRON3" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>FRONTENAC</district>
@@ -8745,7 +8745,7 @@
          </list>
       </note>
    </place>
-   <place n="GLEN" type="nonFederal">
+   <place xml:id="GLEN4" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>GLENGARRY</district>
@@ -8760,7 +8760,7 @@
          </list>
       </note>
    </place>
-   <place n="GREN" type="nonFederal">
+   <place xml:id="GREN2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>GRENVILLE</district>
@@ -8775,7 +8775,7 @@
          </list>
       </note>
    </place>
-   <place n="GREY" type="nonFederal">
+   <place xml:id="GREY1" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>GREY</district>
@@ -8790,7 +8790,7 @@
          </list>
       </note>
    </place>
-   <place n="HALD" type="nonFederal">
+   <place xml:id="HALD2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>HALDIMAND</district>
@@ -8805,7 +8805,7 @@
          </list>
       </note>
    </place>
-   <place n="HALT" type="nonFederal">
+   <place xml:id="HALT2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>HALTON</district>
@@ -8820,7 +8820,7 @@
          </list>
       </note>
    </place>
-   <place n="HAMI" type="nonFederal">
+   <place xml:id="HAMI4" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>HAMILTON</district>
@@ -8835,7 +8835,7 @@
          </list>
       </note>
    </place>
-   <place n="HURO" type="nonFederal">
+   <place xml:id="HURO2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>HURON &amp; BRUCE</district>
@@ -8850,7 +8850,7 @@
          </list>
       </note>
    </place>
-   <place n="KENT" type="nonFederal">
+   <place xml:id="KENT7" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>KENT</district>
@@ -8865,7 +8865,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="nonFederal">
+   <place xml:id="KING8" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>KINGSTON</district>
@@ -8880,7 +8880,7 @@
          </list>
       </note>
    </place>
-   <place n="LAMB" type="nonFederal">
+   <place xml:id="LAMB3" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>LAMBTON</district>
@@ -8895,7 +8895,7 @@
          </list>
       </note>
    </place>
-   <place n="LENN" type="nonFederal">
+   <place xml:id="LENN5" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>LENNOX &amp; ADDINGTON</district>
@@ -8910,7 +8910,7 @@
          </list>
       </note>
    </place>
-   <place n="LINC" type="nonFederal">
+   <place xml:id="LINC2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>LINCOLN</district>
@@ -8925,7 +8925,7 @@
          </list>
       </note>
    </place>
-   <place n="LOND" type="nonFederal">
+   <place xml:id="LOND2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>LONDON</district>
@@ -8940,7 +8940,7 @@
          </list>
       </note>
    </place>
-   <place n="NIAG" type="nonFederal">
+   <place xml:id="NIAG3" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NIAGARA (TOWN)</district>
@@ -8955,7 +8955,7 @@
          </list>
       </note>
    </place>
-   <place n="NORF" type="nonFederal">
+   <place xml:id="NORF2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORFOLK</district>
@@ -8970,7 +8970,7 @@
          </list>
       </note>
    </place>
-   <place n="NHAS" type="nonFederal">
+   <place xml:id="NHAS2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH HASTINGS</district>
@@ -8985,7 +8985,7 @@
          </list>
       </note>
    </place>
-   <place n="NLAN" type="nonFederal">
+   <place xml:id="NLAN2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH LANARK</district>
@@ -9000,7 +9000,7 @@
          </list>
       </note>
    </place>
-   <place n="NLEE" type="nonFederal">
+   <place xml:id="NLEE2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH LEEDS &amp; GRENVILLE</district>
@@ -9015,7 +9015,7 @@
          </list>
       </note>
    </place>
-   <place n="NONT" type="nonFederal">
+   <place xml:id="NONT2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH ONTARIO</district>
@@ -9030,7 +9030,7 @@
          </list>
       </note>
    </place>
-   <place n="NOXF" type="nonFederal">
+   <place xml:id="NOXF2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH OXFORD</district>
@@ -9045,7 +9045,7 @@
          </list>
       </note>
    </place>
-   <place n="NSIM" type="nonFederal">
+   <place xml:id="NSIM2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH SIMCOE</district>
@@ -9060,7 +9060,7 @@
          </list>
       </note>
    </place>
-   <place n="NWAT" type="nonFederal">
+   <place xml:id="NWAT2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH WATERLOO</district>
@@ -9075,7 +9075,7 @@
          </list>
       </note>
    </place>
-   <place n="NWEL" type="nonFederal">
+   <place xml:id="NWEL2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH WELLINGTON</district>
@@ -9090,7 +9090,7 @@
          </list>
       </note>
    </place>
-   <place n="NWEN" type="nonFederal">
+   <place xml:id="NWEN2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH WENTWORTH</district>
@@ -9105,7 +9105,7 @@
          </list>
       </note>
    </place>
-   <place n="NYOR" type="nonFederal">
+   <place xml:id="NYOR2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTH YORK</district>
@@ -9120,7 +9120,7 @@
          </list>
       </note>
    </place>
-   <place n="OTTA" type="nonFederal">
+   <place xml:id="OTTA2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>OTTAWA</district>
@@ -9135,7 +9135,7 @@
          </list>
       </note>
    </place>
-   <place n="PEEL" type="nonFederal">
+   <place xml:id="PEEL2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>PEEL</district>
@@ -9150,7 +9150,7 @@
          </list>
       </note>
    </place>
-   <place n="PERT" type="nonFederal">
+   <place xml:id="PERT1" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>PERTH</district>
@@ -9165,7 +9165,7 @@
          </list>
       </note>
    </place>
-   <place n="PETE" type="nonFederal">
+   <place xml:id="PETE2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>PETERBOROUGH</district>
@@ -9180,7 +9180,7 @@
          </list>
       </note>
    </place>
-   <place n="PRES" type="nonFederal">
+   <place xml:id="PRES2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>PRESCOTT</district>
@@ -9195,7 +9195,7 @@
          </list>
       </note>
    </place>
-   <place n="PRIN" type="nonFederal">
+   <place xml:id="PRIN5" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>PRINCE EDWARD</district>
@@ -9210,7 +9210,7 @@
          </list>
       </note>
    </place>
-   <place n="RENF" type="nonFederal">
+   <place xml:id="RENF1" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>RENFREW</district>
@@ -9225,7 +9225,7 @@
          </list>
       </note>
    </place>
-   <place n="RUSS" type="nonFederal">
+   <place xml:id="RUSS3" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>RUSSELL</district>
@@ -9240,7 +9240,7 @@
          </list>
       </note>
    </place>
-   <place n="SHAS" type="nonFederal">
+   <place xml:id="SHAS2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH HASTINGS</district>
@@ -9255,7 +9255,7 @@
          </list>
       </note>
    </place>
-   <place n="SLAN" type="nonFederal">
+   <place xml:id="SLAN2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH LANARK</district>
@@ -9270,7 +9270,7 @@
          </list>
       </note>
    </place>
-   <place n="SLEE" type="nonFederal">
+   <place xml:id="SLEE2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH LEEDS</district>
@@ -9285,7 +9285,7 @@
          </list>
       </note>
    </place>
-   <place n="SONT" type="nonFederal">
+   <place xml:id="SONT2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH ONTARIO</district>
@@ -9300,7 +9300,7 @@
          </list>
       </note>
    </place>
-   <place n="SOXF" type="nonFederal">
+   <place xml:id="SOXF2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH OXFORD</district>
@@ -9315,7 +9315,7 @@
          </list>
       </note>
    </place>
-   <place n="SSIM" type="nonFederal">
+   <place xml:id="SSIM2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH SIMCOE</district>
@@ -9330,7 +9330,7 @@
          </list>
       </note>
    </place>
-   <place n="SWAT" type="nonFederal">
+   <place xml:id="SWAT2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH WATERLOO</district>
@@ -9345,7 +9345,7 @@
          </list>
       </note>
    </place>
-   <place n="SWEL" type="nonFederal">
+   <place xml:id="SWEL2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH WELLINGTON</district>
@@ -9360,7 +9360,7 @@
          </list>
       </note>
    </place>
-   <place n="SWEN" type="nonFederal">
+   <place xml:id="SWEN2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>SOUTH WENTWORTH</district>
@@ -9375,7 +9375,7 @@
          </list>
       </note>
    </place>
-   <place n="STCL" type="nonFederal">
+   <place xml:id="STCL2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>ST. CLAIRE</district>
@@ -9390,7 +9390,7 @@
          </list>
       </note>
    </place>
-   <place n="STOR" type="nonFederal">
+   <place xml:id="STOR3" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>STORMONT</district>
@@ -9405,7 +9405,7 @@
          </list>
       </note>
    </place>
-   <place n="VICT" type="nonFederal">
+   <place xml:id="VICT13" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>VICTORIA</district>
@@ -9420,7 +9420,7 @@
          </list>
       </note>
    </place>
-   <place n="WEL" type="nonFederal">
+   <place xml:id="WELL5" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>WELLAND</district>
@@ -9435,7 +9435,7 @@
          </list>
       </note>
    </place>
-   <place n="WBRA" type="nonFederal">
+   <place xml:id="WBRA1" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>WEST BRANT</district>
@@ -9450,7 +9450,7 @@
          </list>
       </note>
    </place>
-   <place n="WDUR" type="nonFederal">
+   <place xml:id="WDUR2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>WEST DURHAM</district>
@@ -9465,7 +9465,7 @@
          </list>
       </note>
    </place>
-   <place n="WELG" type="nonFederal">
+   <place xml:id="WELG2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>WEST ELGIN</district>
@@ -9480,7 +9480,7 @@
          </list>
       </note>
    </place>
-   <place n="WMID" type="nonFederal">
+   <place xml:id="WMID2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>WEST MIDDLESEX</district>
@@ -9495,7 +9495,7 @@
          </list>
       </note>
    </place>
-   <place n="WNOR" type="nonFederal">
+   <place xml:id="WNOR2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>WEST NORTHUMBERLAND</district>
@@ -9510,7 +9510,7 @@
          </list>
       </note>
    </place>
-   <place n="WTOR" type="nonFederal">
+   <place xml:id="WTOR3" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>WEST TORONTO</district>
@@ -9525,7 +9525,7 @@
          </list>
       </note>
    </place>
-   <place n="WYOR" type="nonFederal">
+   <place xml:id="WYOR2" type="nonFederal">
       <placeName>
          <region>ONTARIO</region>
          <district>WEST YORK</district>
@@ -9540,7 +9540,7 @@
          </list>
       </note>
    </place>
-   <place n="BRAN" type="federal">
+   <place xml:id="BRAN5" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRANTFORD CITY</district>
@@ -9559,7 +9559,7 @@
          </list>
       </note>
    </place>
-   <place n="BROA" type="federal">
+   <place xml:id="BROA1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BROADVIEW</district>
@@ -9578,7 +9578,7 @@
          </list>
       </note>
    </place>
-   <place n="BRUC" type="federal">
+   <place xml:id="BRUC10" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>BRUCE</district>
@@ -9597,7 +9597,7 @@
          </list>
       </note>
    </place>
-   <place n="COCH" type="federal">
+   <place xml:id="COCH6" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>COCHRANE</district>
@@ -9616,7 +9616,7 @@
          </list>
       </note>
    </place>
-   <place n="DANF" type="federal">
+   <place xml:id="DANF1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>DANFORTH</district>
@@ -9635,7 +9635,7 @@
          </list>
       </note>
    </place>
-   <place n="DAVE" type="federal">
+   <place xml:id="DAVE1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>DAVENPORT</district>
@@ -9654,7 +9654,7 @@
          </list>
       </note>
    </place>
-   <place n="DUFF" type="federal">
+   <place xml:id="DUFF2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>DUFFERIN-SIMCOE</district>
@@ -9673,7 +9673,7 @@
          </list>
       </note>
    </place>
-   <place n="EGLI" type="federal">
+   <place xml:id="EGLI1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>EGLINTON</district>
@@ -9692,7 +9692,7 @@
          </list>
       </note>
    </place>
-   <place n="ELGI" type="federal">
+   <place xml:id="ELGI1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ELGIN</district>
@@ -9711,7 +9711,7 @@
          </list>
       </note>
    </place>
-   <place n="EESS" type="federal">
+   <place xml:id="EESS1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ESSEX EAST</district>
@@ -9730,7 +9730,7 @@
          </list>
       </note>
    </place>
-   <place n="WESS" type="federal">
+   <place xml:id="WESS1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ESSEX WEST</district>
@@ -9749,7 +9749,7 @@
          </list>
       </note>
    </place>
-   <place n="FORT" type="federal">
+   <place xml:id="FORT6" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>FORT WILLIAM</district>
@@ -9768,7 +9768,7 @@
          </list>
       </note>
    </place>
-   <place n="FRON" type="federal">
+   <place xml:id="FRON4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>FRONTENAC-ADDINGTON</district>
@@ -9787,7 +9787,7 @@
          </list>
       </note>
    </place>
-   <place n="GREE" type="federal">
+   <place xml:id="GREE7" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GREENWOOD</district>
@@ -9806,7 +9806,7 @@
          </list>
       </note>
    </place>
-   <place n="GREN" type="federal">
+   <place xml:id="GREN3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GRENVILLE-DUNDAS</district>
@@ -9825,7 +9825,7 @@
          </list>
       </note>
    </place>
-   <place n="GREY" type="federal">
+   <place xml:id="GREY2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>GREY-BRUCE</district>
@@ -9844,7 +9844,7 @@
          </list>
       </note>
    </place>
-   <place n="SHAS" type="federal">
+   <place xml:id="SHAS3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HASTINGS SOUTH</district>
@@ -9863,7 +9863,7 @@
          </list>
       </note>
    </place>
-   <place n="HAST" type="federal">
+   <place xml:id="HAST1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HASTINGS-PETERBOROUGH</district>
@@ -9882,7 +9882,7 @@
          </list>
       </note>
    </place>
-   <place n="HIGH" type="federal">
+   <place xml:id="HIGH1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HIGH PARK</district>
@@ -9901,7 +9901,7 @@
          </list>
       </note>
    </place>
-   <place n="HURO" type="federal">
+   <place xml:id="HURO3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>HURON-PERTH</district>
@@ -9920,7 +9920,7 @@
          </list>
       </note>
    </place>
-   <place n="KENO" type="federal">
+   <place xml:id="KENO1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>KENORA-RAINY RIVER</district>
@@ -9939,7 +9939,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="federal">
+   <place xml:id="KING9" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>KINGSTON CITY</district>
@@ -9958,7 +9958,7 @@
          </list>
       </note>
    </place>
-   <place n="LAMB" type="federal">
+   <place xml:id="LAMB4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LAMBTON-KENT</district>
@@ -9977,7 +9977,7 @@
          </list>
       </note>
    </place>
-   <place n="LANA" type="federal">
+   <place xml:id="LANA2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>LANARK</district>
@@ -9996,7 +9996,7 @@
          </list>
       </note>
    </place>
-   <place n="MUSK" type="federal">
+   <place xml:id="MUSK5" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>MUSKOKA-ONTARIO</district>
@@ -10015,7 +10015,7 @@
          </list>
       </note>
    </place>
-   <place n="NORT" type="federal">
+   <place xml:id="NORT5" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>NORTHUMBERLAND</district>
@@ -10034,7 +10034,7 @@
          </list>
       </note>
    </place>
-   <place n="ONTA" type="federal">
+   <place xml:id="ONTA1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ONTARIO</district>
@@ -10056,7 +10056,7 @@
          </list>
       </note>
    </place>
-   <place n="EOTT" type="federal">
+   <place xml:id="EOTT1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>OTTAWA EAST</district>
@@ -10075,7 +10075,7 @@
          </list>
       </note>
    </place>
-   <place n="WOTT" type="federal">
+   <place xml:id="WOTT1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>OTTAWA WEST</district>
@@ -10094,7 +10094,7 @@
          </list>
       </note>
    </place>
-   <place n="OXFO" type="federal">
+   <place xml:id="OXFO1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>OXFORD</district>
@@ -10113,7 +10113,7 @@
          </list>
       </note>
    </place>
-   <place n="PARK" type="federal">
+   <place xml:id="PARK5" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PARKDALE</district>
@@ -10135,7 +10135,7 @@
          </list>
       </note>
    </place>
-   <place n="PERT" type="federal">
+   <place xml:id="PERT2" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PERTH</district>
@@ -10154,7 +10154,7 @@
          </list>
       </note>
    </place>
-   <place n="PORT" type="federal">
+   <place xml:id="PORT6" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PORT ARTHUR</district>
@@ -10173,7 +10173,7 @@
          </list>
       </note>
    </place>
-   <place n="PRIN" type="federal">
+   <place xml:id="PRIN6" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>PRINCE EDWARD-LENNOX</district>
@@ -10192,7 +10192,7 @@
          </list>
       </note>
    </place>
-   <place n="ROSE" type="federal">
+   <place xml:id="ROSE3" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ROSEDALE</district>
@@ -10211,7 +10211,7 @@
          </list>
       </note>
    </place>
-   <place n="SPAD" type="federal">
+   <place xml:id="SPAD1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>SPADINA</district>
@@ -10230,7 +10230,7 @@
          </list>
       </note>
    </place>
-   <place n="STPA" type="federal">
+   <place xml:id="STPA1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>ST. PAUL'S</district>
@@ -10249,7 +10249,7 @@
          </list>
       </note>
    </place>
-   <place n="TIMI" type="federal">
+   <place xml:id="TIMI1" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>TIMISKAMING</district>
@@ -10268,7 +10268,7 @@
          </list>
       </note>
    </place>
-   <place n="TRIN" type="federal">
+   <place xml:id="TRIN4" type="federal">
       <placeName>
          <region>ONTARIO</region>
          <district>TRINITY</district>
@@ -10287,7 +10287,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="federal">
+   <place xml:id="KING10" type="federal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>KING'S COUNTY</district>
@@ -10309,7 +10309,7 @@
          </list>
       </note>
    </place>
-   <place n="PRIN" type="federal">
+   <place xml:id="PRIN7" type="federal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>PRINCE COUNTY</district>
@@ -10331,7 +10331,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEE" type="federal">
+   <place xml:id="QUEE7" type="federal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>QUEEN'S COUNTY</district>
@@ -10356,7 +10356,7 @@
          </list>
       </note>
    </place>
-   <place n="WQUE" type="federal">
+   <place xml:id="WQUE1" type="federal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>WEST QUEEN'S</district>
@@ -10375,7 +10375,7 @@
          </list>
       </note>
    </place>
-   <place n="KING" type="federal">
+   <place xml:id="KING11" type="federal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>KING'S</district>
@@ -10397,7 +10397,7 @@
          </list>
       </note>
    </place>
-   <place n="PRIN" type="federal">
+   <place xml:id="PRIN8" type="federal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>PRINCE</district>
@@ -10419,7 +10419,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEE" type="federal">
+   <place xml:id="QUEE8" type="federal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>QUEEN'S</district>
@@ -10447,7 +10447,7 @@
          </list>
       </note>
    </place>
-   <place n="FKIN" type="nonFederal">
+   <place xml:id="FKIN1" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>1ST KINGS</district>
@@ -10462,7 +10462,7 @@
          </list>
       </note>
    </place>
-   <place n="FPRI" type="nonFederal">
+   <place xml:id="FPRI1" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>1ST PRINCE</district>
@@ -10477,7 +10477,7 @@
          </list>
       </note>
    </place>
-   <place n="FQUE" type="nonFederal">
+   <place xml:id="FQUE1" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>1ST QUEENS</district>
@@ -10492,7 +10492,7 @@
          </list>
       </note>
    </place>
-   <place n="SKIN" type="nonFederal">
+   <place xml:id="SKIN3" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>2ND KINGS</district>
@@ -10507,7 +10507,7 @@
          </list>
       </note>
    </place>
-   <place n="SPRI" type="nonFederal">
+   <place xml:id="SPRI2" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>2ND PRINCE</district>
@@ -10522,7 +10522,7 @@
          </list>
       </note>
    </place>
-   <place n="SQUE" type="nonFederal">
+   <place xml:id="SQUE2" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>2ND QUEENS</district>
@@ -10537,7 +10537,7 @@
          </list>
       </note>
    </place>
-   <place n="TKIN" type="nonFederal">
+   <place xml:id="TKIN1" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>3RD KINGS</district>
@@ -10552,7 +10552,7 @@
          </list>
       </note>
    </place>
-   <place n="TPRI" type="nonFederal">
+   <place xml:id="TPRI1" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>3RD PRINCE</district>
@@ -10567,7 +10567,7 @@
          </list>
       </note>
    </place>
-   <place n="TQUE" type="nonFederal">
+   <place xml:id="TQUE1" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>3RD QUEENS</district>
@@ -10582,7 +10582,7 @@
          </list>
       </note>
    </place>
-   <place n="FKIN" type="nonFederal">
+   <place xml:id="FKIN2" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>4TH KINGS</district>
@@ -10597,7 +10597,7 @@
          </list>
       </note>
    </place>
-   <place n="FPRI" type="nonFederal">
+   <place xml:id="FPRI2" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>4TH PRINCE</district>
@@ -10612,7 +10612,7 @@
          </list>
       </note>
    </place>
-   <place n="FQUE" type="nonFederal">
+   <place xml:id="FQUE2" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>4TH QUEENS</district>
@@ -10627,7 +10627,7 @@
          </list>
       </note>
    </place>
-   <place n="FPRI" type="nonFederal">
+   <place xml:id="FPRI3" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>5TH PRINCE</district>
@@ -10642,7 +10642,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAR" type="nonFederal">
+   <place xml:id="CHAR8" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>CHARLOTTETOWN AND ROYALTY</district>
@@ -10657,7 +10657,7 @@
          </list>
       </note>
    </place>
-   <place n="GEOR" type="nonFederal">
+   <place xml:id="GEOR1" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>GEORGETOWN AND ROYALTY</district>
@@ -10672,7 +10672,7 @@
          </list>
       </note>
    </place>
-   <place n="FKIN" type="nonFederal">
+   <place xml:id="FKIN3" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>1ST KING</district>
@@ -10687,7 +10687,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAR" type="nonFederal">
+   <place xml:id="CHAR9" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>CHARLOTTETOWN</district>
@@ -10702,7 +10702,7 @@
          </list>
       </note>
    </place>
-   <place n="GEOR" type="nonFederal">
+   <place xml:id="GEOR2" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
          <district>GEORGETOWN</district>
@@ -10717,7 +10717,7 @@
          </list>
       </note>
    </place>
-   <place n="ARGE" type="federal">
+   <place xml:id="ARGE1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ARGENTEUIL</district>
@@ -10742,7 +10742,7 @@
          </list>
       </note>
    </place>
-   <place n="ARGE" type="federal">
+   <place xml:id="ARGE2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ARGENTEUIL</district>
@@ -10761,7 +10761,7 @@
          </list>
       </note>
    </place>
-   <place n="BAGO" type="federal">
+   <place xml:id="BAGO1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BAGOT</district>
@@ -10786,7 +10786,7 @@
          </list>
       </note>
    </place>
-   <place n="BEAU" type="federal">
+   <place xml:id="BEAU8" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BEAUCE</district>
@@ -10814,7 +10814,7 @@
          </list>
       </note>
    </place>
-   <place n="BEAU" type="federal">
+   <place xml:id="BEAU9" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BEAUHARNOIS</district>
@@ -10839,7 +10839,7 @@
          </list>
       </note>
    </place>
-   <place n="BELL" type="federal">
+   <place xml:id="BELL11" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BELLECHASSE</district>
@@ -10870,7 +10870,7 @@
          </list>
       </note>
    </place>
-   <place n="BELL" type="federal">
+   <place xml:id="BELL12" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BELLECHASSE</district>
@@ -10889,7 +10889,7 @@
          </list>
       </note>
    </place>
-   <place n="BERT" type="federal">
+   <place xml:id="BERT5" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BERTHIER</district>
@@ -10914,7 +10914,7 @@
          </list>
       </note>
    </place>
-   <place n="BONA" type="federal">
+   <place xml:id="BONA2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BONAVENTURE</district>
@@ -10945,7 +10945,7 @@
          </list>
       </note>
    </place>
-   <place n="BROM" type="federal">
+   <place xml:id="BROM1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BROME</district>
@@ -10976,7 +10976,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAM" type="federal">
+   <place xml:id="CHAM3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHAMBLY</district>
@@ -10998,7 +10998,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAM" type="federal">
+   <place xml:id="CHAM4" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHAMPLAIN</district>
@@ -11023,7 +11023,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAM" type="federal">
+   <place xml:id="CHAM5" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHAMPLAIN</district>
@@ -11042,7 +11042,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAR" type="federal">
+   <place xml:id="CHAR10" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHARLEVOIX</district>
@@ -11067,7 +11067,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAT" type="federal">
+   <place xml:id="CHAT2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHÂTEAUGUAY</district>
@@ -11092,7 +11092,7 @@
          </list>
       </note>
    </place>
-   <place n="CHIC" type="federal">
+   <place xml:id="CHIC2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHICOUTIMI-SAGUENAY</district>
@@ -11117,7 +11117,7 @@
          </list>
       </note>
    </place>
-   <place n="COMP" type="federal">
+   <place xml:id="COMP1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>COMPTON</district>
@@ -11145,7 +11145,7 @@
          </list>
       </note>
    </place>
-   <place n="COMP" type="federal">
+   <place xml:id="COMP2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>COMPTON</district>
@@ -11164,7 +11164,7 @@
          </list>
       </note>
    </place>
-   <place n="DORC" type="federal">
+   <place xml:id="DORC1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>DORCHESTER</district>
@@ -11192,7 +11192,7 @@
          </list>
       </note>
    </place>
-   <place n="DRUM" type="federal">
+   <place xml:id="DRUM1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>DRUMMOND-ARTHABASKA</district>
@@ -11220,7 +11220,7 @@
          </list>
       </note>
    </place>
-   <place n="GASP" type="federal">
+   <place xml:id="GASP1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>GASPÉ</district>
@@ -11251,7 +11251,7 @@
          </list>
       </note>
    </place>
-   <place n="HOCH" type="federal">
+   <place xml:id="HOCH1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>HOCHELAGA</district>
@@ -11273,7 +11273,7 @@
          </list>
       </note>
    </place>
-   <place n="HOCH" type="federal">
+   <place xml:id="HOCH2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>HOCHELAGA</district>
@@ -11295,7 +11295,7 @@
          </list>
       </note>
    </place>
-   <place n="HOCH" type="federal">
+   <place xml:id="HOCH3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>HOCHELAGA</district>
@@ -11314,7 +11314,7 @@
          </list>
       </note>
    </place>
-   <place n="HUNT" type="federal">
+   <place xml:id="HUNT3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>HUNTINGDON</district>
@@ -11345,7 +11345,7 @@
          </list>
       </note>
    </place>
-   <place n="IBER" type="federal">
+   <place xml:id="IBER1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>IBERVILLE</district>
@@ -11367,7 +11367,7 @@
          </list>
       </note>
    </place>
-   <place n="JACQ" type="federal">
+   <place xml:id="JACQ1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>JACQUES CARTIER</district>
@@ -11392,7 +11392,7 @@
          </list>
       </note>
    </place>
-   <place n="JACQ" type="federal">
+   <place xml:id="JACQ2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>JACQUES CARTIER</district>
@@ -11411,7 +11411,7 @@
          </list>
       </note>
    </place>
-   <place n="JOLI" type="federal">
+   <place xml:id="JOLI1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>JOLIETTE</district>
@@ -11436,7 +11436,7 @@
          </list>
       </note>
    </place>
-   <place n="LASS" type="federal">
+   <place xml:id="LASS1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>L'ASSOMPTION</district>
@@ -11461,7 +11461,7 @@
          </list>
       </note>
    </place>
-   <place n="LISL" type="federal">
+   <place xml:id="LISL1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>L'ISLET</district>
@@ -11489,7 +11489,7 @@
          </list>
       </note>
    </place>
-   <place n="LAPR" type="federal">
+   <place xml:id="LAPR1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LAPRAIRIE</district>
@@ -11511,7 +11511,7 @@
          </list>
       </note>
    </place>
-   <place n="LAVA" type="federal">
+   <place xml:id="LAVA1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LAVAL</district>
@@ -11539,7 +11539,7 @@
          </list>
       </note>
    </place>
-   <place n="LEVI" type="federal">
+   <place xml:id="LEVI2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LÉVIS</district>
@@ -11567,7 +11567,7 @@
          </list>
       </note>
    </place>
-   <place n="LEVI" type="federal">
+   <place xml:id="LEVI3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LÉVIS</district>
@@ -11586,7 +11586,7 @@
          </list>
       </note>
    </place>
-   <place n="LOTB" type="federal">
+   <place xml:id="LOTB1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LOTBINIÈRE</district>
@@ -11608,7 +11608,7 @@
          </list>
       </note>
    </place>
-   <place n="LOTB" type="federal">
+   <place xml:id="LOTB2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LOTBINIÈRE</district>
@@ -11630,7 +11630,7 @@
          </list>
       </note>
    </place>
-   <place n="MASK" type="federal">
+   <place xml:id="MASK1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MASKINONGÉ</district>
@@ -11655,7 +11655,7 @@
          </list>
       </note>
    </place>
-   <place n="MEGA" type="federal">
+   <place xml:id="MEGA1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MÉGANTIC</district>
@@ -11680,7 +11680,7 @@
          </list>
       </note>
    </place>
-   <place n="MISS" type="federal">
+   <place xml:id="MISS2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MISSISQUOI</district>
@@ -11708,7 +11708,7 @@
          </list>
       </note>
    </place>
-   <place n="MONT" type="federal">
+   <place xml:id="MONT3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTCALM</district>
@@ -11736,7 +11736,7 @@
          </list>
       </note>
    </place>
-   <place n="MONT" type="federal">
+   <place xml:id="MONT4" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTMAGNY</district>
@@ -11764,7 +11764,7 @@
          </list>
       </note>
    </place>
-   <place n="MONT" type="federal">
+   <place xml:id="MONT5" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTMORENCY</district>
@@ -11792,7 +11792,7 @@
          </list>
       </note>
    </place>
-   <place n="CMON" type="federal">
+   <place xml:id="CMON1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTREAL CENTRE</district>
@@ -11814,7 +11814,7 @@
          </list>
       </note>
    </place>
-   <place n="EMON" type="federal">
+   <place xml:id="EMON1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTREAL EAST</district>
@@ -11836,7 +11836,7 @@
          </list>
       </note>
    </place>
-   <place n="WMON" type="federal">
+   <place xml:id="WMON1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTREAL WEST</district>
@@ -11861,7 +11861,7 @@
          </list>
       </note>
    </place>
-   <place n="NAPI" type="federal">
+   <place xml:id="NAPI1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>NAPIERVILLE</district>
@@ -11886,7 +11886,7 @@
          </list>
       </note>
    </place>
-   <place n="NICO" type="federal">
+   <place xml:id="NICO1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>NICOLET</district>
@@ -11911,7 +11911,7 @@
          </list>
       </note>
    </place>
-   <place n="OTTA" type="federal">
+   <place xml:id="OTTA3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>OTTAWA (COUNTY OF)</district>
@@ -11933,7 +11933,7 @@
          </list>
       </note>
    </place>
-   <place n="PONT" type="federal">
+   <place xml:id="PONT1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>PONTIAC</district>
@@ -11955,7 +11955,7 @@
          </list>
       </note>
    </place>
-   <place n="PONT" type="federal">
+   <place xml:id="PONT2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>PONTIAC</district>
@@ -11974,7 +11974,7 @@
          </list>
       </note>
    </place>
-   <place n="PONT" type="federal">
+   <place xml:id="PONT3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>PONTIAC</district>
@@ -11996,7 +11996,7 @@
          </list>
       </note>
    </place>
-   <place n="PORT" type="federal">
+   <place xml:id="PORT7" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>PORTNEUF</district>
@@ -12021,7 +12021,7 @@
          </list>
       </note>
    </place>
-   <place n="PORT" type="federal">
+   <place xml:id="PORT8" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>PORTNEUF</district>
@@ -12040,7 +12040,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEB" type="federal">
+   <place xml:id="QUEB1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC COUNTY</district>
@@ -12068,7 +12068,7 @@
          </list>
       </note>
    </place>
-   <place n="EQUE" type="federal">
+   <place xml:id="EQUE1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC EAST</district>
@@ -12093,7 +12093,7 @@
          </list>
       </note>
    </place>
-   <place n="EQUE" type="federal">
+   <place xml:id="EQUE2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC EAST</district>
@@ -12112,7 +12112,7 @@
          </list>
       </note>
    </place>
-   <place n="EQUE" type="federal">
+   <place xml:id="EQUE3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC EAST</district>
@@ -12131,7 +12131,7 @@
          </list>
       </note>
    </place>
-   <place n="WQUE" type="federal">
+   <place xml:id="WQUE2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC WEST</district>
@@ -12153,7 +12153,7 @@
          </list>
       </note>
    </place>
-   <place n="WQUE" type="federal">
+   <place xml:id="WQUE3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC WEST</district>
@@ -12172,7 +12172,7 @@
          </list>
       </note>
    </place>
-   <place n="CQUE" type="federal">
+   <place xml:id="CQUE1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC-CENTRE</district>
@@ -12197,7 +12197,7 @@
          </list>
       </note>
    </place>
-   <place n="CQUE" type="federal">
+   <place xml:id="CQUE2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC-CENTRE</district>
@@ -12216,7 +12216,7 @@
          </list>
       </note>
    </place>
-   <place n="RICH" type="federal">
+   <place xml:id="RICH7" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>RICHELIEU</district>
@@ -12244,7 +12244,7 @@
          </list>
       </note>
    </place>
-   <place n="RICH" type="federal">
+   <place xml:id="RICH8" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>RICHMOND-WOLFE</district>
@@ -12269,7 +12269,7 @@
          </list>
       </note>
    </place>
-   <place n="RICH" type="federal">
+   <place xml:id="RICH9" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>RICHMOND-WOLFE</district>
@@ -12288,7 +12288,7 @@
          </list>
       </note>
    </place>
-   <place n="RIMO" type="federal">
+   <place xml:id="RIMO1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>RIMOUSKI</district>
@@ -12313,7 +12313,7 @@
          </list>
       </note>
    </place>
-   <place n="RIMO" type="federal">
+   <place xml:id="RIMO2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>RIMOUSKI</district>
@@ -12332,7 +12332,7 @@
          </list>
       </note>
    </place>
-   <place n="ROUV" type="federal">
+   <place xml:id="ROUV1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ROUVILLE</district>
@@ -12360,7 +12360,7 @@
          </list>
       </note>
    </place>
-   <place n="STMA" type="federal">
+   <place xml:id="STMA2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>SAINT MAURICE</district>
@@ -12385,7 +12385,7 @@
          </list>
       </note>
    </place>
-   <place n="SHEF" type="federal">
+   <place xml:id="SHEF1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>SHEFFORD</district>
@@ -12410,7 +12410,7 @@
          </list>
       </note>
    </place>
-   <place n="SHEF" type="federal">
+   <place xml:id="SHEF2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>SHEFFORD</district>
@@ -12429,7 +12429,7 @@
          </list>
       </note>
    </place>
-   <place n="SHER" type="federal">
+   <place xml:id="SHER3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>SHERBROOKE (TOWN OF)</district>
@@ -12454,7 +12454,7 @@
          </list>
       </note>
    </place>
-   <place n="SOUL" type="federal">
+   <place xml:id="SOUL1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>SOULANGES</district>
@@ -12479,7 +12479,7 @@
          </list>
       </note>
    </place>
-   <place n="STHY" type="federal">
+   <place xml:id="STHY1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. HYACINTHE</district>
@@ -12510,7 +12510,7 @@
          </list>
       </note>
    </place>
-   <place n="STJO" type="federal">
+   <place xml:id="STJO5" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. JOHN'S</district>
@@ -12532,7 +12532,7 @@
          </list>
       </note>
    </place>
-   <place n="STAN" type="federal">
+   <place xml:id="STAN3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>STANSTEAD</district>
@@ -12557,7 +12557,7 @@
          </list>
       </note>
    </place>
-   <place n="STAN" type="federal">
+   <place xml:id="STAN4" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>STANSTEAD</district>
@@ -12576,7 +12576,7 @@
          </list>
       </note>
    </place>
-   <place n="TEMI" type="federal">
+   <place xml:id="TEMI1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>TÉMISCOUATA</district>
@@ -12604,7 +12604,7 @@
          </list>
       </note>
    </place>
-   <place n="TERR" type="federal">
+   <place xml:id="TERR1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>TERREBONNE</district>
@@ -12632,7 +12632,7 @@
          </list>
       </note>
    </place>
-   <place n="THRE" type="federal">
+   <place xml:id="THRE1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>THREE RIVERS</district>
@@ -12657,7 +12657,7 @@
          </list>
       </note>
    </place>
-   <place n="THRE" type="federal">
+   <place xml:id="THRE2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>THREE RIVERS</district>
@@ -12676,7 +12676,7 @@
          </list>
       </note>
    </place>
-   <place n="TWOM" type="federal">
+   <place xml:id="TWOM1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>TWO MOUNTAINS</district>
@@ -12701,7 +12701,7 @@
          </list>
       </note>
    </place>
-   <place n="VAUD" type="federal">
+   <place xml:id="VAUD1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>VAUDREUIL</district>
@@ -12720,7 +12720,7 @@
          </list>
       </note>
    </place>
-   <place n="VAUD" type="federal">
+   <place xml:id="VAUD2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>VAUDREUIL</district>
@@ -12742,7 +12742,7 @@
          </list>
       </note>
    </place>
-   <place n="VERC" type="federal">
+   <place xml:id="VERC1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>VERCHÈRES</district>
@@ -12764,7 +12764,7 @@
          </list>
       </note>
    </place>
-   <place n="YAMA" type="federal">
+   <place xml:id="YAMA1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>YAMASKA</district>
@@ -12789,7 +12789,7 @@
          </list>
       </note>
    </place>
-   <place n="KAMO" type="federal">
+   <place xml:id="KAMO3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>KAMOURASKA</district>
@@ -12820,7 +12820,7 @@
          </list>
       </note>
    </place>
-   <place n="STJA" type="federal">
+   <place xml:id="STJA1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. JAMES</district>
@@ -12845,7 +12845,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAM" type="federal">
+   <place xml:id="CHAM6" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHAMBLY-VERCHÈRES</district>
@@ -12864,7 +12864,7 @@
          </list>
       </note>
    </place>
-   <place n="LABE" type="federal">
+   <place xml:id="LABE1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LABELLE</district>
@@ -12883,7 +12883,7 @@
          </list>
       </note>
    </place>
-   <place n="LABE" type="federal">
+   <place xml:id="LABE2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LABELLE</district>
@@ -12902,7 +12902,7 @@
          </list>
       </note>
    </place>
-   <place n="LAPR" type="federal">
+   <place xml:id="LAPR2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LAPRAIRIE-NAPIERVILLE</district>
@@ -12921,7 +12921,7 @@
          </list>
       </note>
    </place>
-   <place n="MAIS" type="federal">
+   <place xml:id="MAIS1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MAISONNEUVE</district>
@@ -12940,7 +12940,7 @@
          </list>
       </note>
    </place>
-   <place n="STAN" type="federal">
+   <place xml:id="STAN5" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. ANNE</district>
@@ -12959,7 +12959,7 @@
          </list>
       </note>
    </place>
-   <place n="STAN" type="federal">
+   <place xml:id="STAN6" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. ANTOINE</district>
@@ -12978,7 +12978,7 @@
          </list>
       </note>
    </place>
-   <place n="STJO" type="federal">
+   <place xml:id="STJO6" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. JOHNS-IBERVILLE</district>
@@ -12997,7 +12997,7 @@
          </list>
       </note>
    </place>
-   <place n="STLA" type="federal">
+   <place xml:id="STLA2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. LAWRENCE</district>
@@ -13016,7 +13016,7 @@
          </list>
       </note>
    </place>
-   <place n="STMA" type="federal">
+   <place xml:id="STMA3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. MARY</district>
@@ -13035,7 +13035,7 @@
          </list>
       </note>
    </place>
-   <place n="STMA" type="federal">
+   <place xml:id="STMA4" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. MARY</district>
@@ -13054,7 +13054,7 @@
          </list>
       </note>
    </place>
-   <place n="THRE" type="federal">
+   <place xml:id="THRE3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>THREE RIVERS AND ST. MAURICE</district>
@@ -13073,7 +13073,7 @@
          </list>
       </note>
    </place>
-   <place n="WRIG" type="federal">
+   <place xml:id="WRIG8" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>WRIGHT</district>
@@ -13098,7 +13098,7 @@
          </list>
       </note>
    </place>
-   <place n="ARGE" type="nonFederal">
+   <place xml:id="ARGE3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>ARGENTEUIL</district>
@@ -13113,7 +13113,7 @@
          </list>
       </note>
    </place>
-   <place n="BAGO" type="nonFederal">
+   <place xml:id="BAGO2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>BAGOT</district>
@@ -13128,7 +13128,7 @@
          </list>
       </note>
    </place>
-   <place n="BEAU" type="nonFederal">
+   <place xml:id="BEAU10" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>BEAUCE</district>
@@ -13143,7 +13143,7 @@
          </list>
       </note>
    </place>
-   <place n="BEAU" type="nonFederal">
+   <place xml:id="BEAU11" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>BEAUHARNOIS</district>
@@ -13158,7 +13158,7 @@
          </list>
       </note>
    </place>
-   <place n="BELL" type="nonFederal">
+   <place xml:id="BELL13" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>BELLECHASSE</district>
@@ -13173,7 +13173,7 @@
          </list>
       </note>
    </place>
-   <place n="BERT" type="nonFederal">
+   <place xml:id="BERT6" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>BERTHIER</district>
@@ -13188,7 +13188,7 @@
          </list>
       </note>
    </place>
-   <place n="BONA" type="nonFederal">
+   <place xml:id="BONA3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>BONAVENTURE</district>
@@ -13203,7 +13203,7 @@
          </list>
       </note>
    </place>
-   <place n="BROM" type="nonFederal">
+   <place xml:id="BROM2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>BROME</district>
@@ -13218,7 +13218,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAM" type="nonFederal">
+   <place xml:id="CHAM7" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHAMBLY</district>
@@ -13233,7 +13233,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAM" type="nonFederal">
+   <place xml:id="CHAM8" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHAMPLAIN</district>
@@ -13248,7 +13248,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAR" type="nonFederal">
+   <place xml:id="CHAR11" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHARLEVOIX</district>
@@ -13263,7 +13263,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAT" type="nonFederal">
+   <place xml:id="CHAT3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHÂTEAUGUAY</district>
@@ -13278,7 +13278,7 @@
          </list>
       </note>
    </place>
-   <place n="CHIC" type="nonFederal">
+   <place xml:id="CHIC3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHICOUTIMI-SAGUENAY</district>
@@ -13293,7 +13293,7 @@
          </list>
       </note>
    </place>
-   <place n="COMP" type="nonFederal">
+   <place xml:id="COMP3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>COMPTON</district>
@@ -13308,7 +13308,7 @@
          </list>
       </note>
    </place>
-   <place n="DEUX" type="nonFederal">
+   <place xml:id="DEUX1" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>DEUX-MONTAGNES</district>
@@ -13323,7 +13323,7 @@
          </list>
       </note>
    </place>
-   <place n="DORC" type="nonFederal">
+   <place xml:id="DORC2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>DORCHESTER</district>
@@ -13338,7 +13338,7 @@
          </list>
       </note>
    </place>
-   <place n="DRUM" type="nonFederal">
+   <place xml:id="DRUM2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>DRUMMOND-ARTHABASKA</district>
@@ -13353,7 +13353,7 @@
          </list>
       </note>
    </place>
-   <place n="GASP" type="nonFederal">
+   <place xml:id="GASP2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>GASPÉ</district>
@@ -13368,7 +13368,7 @@
          </list>
       </note>
    </place>
-   <place n="HOCH" type="nonFederal">
+   <place xml:id="HOCH4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>HOCHELAGA</district>
@@ -13383,7 +13383,7 @@
          </list>
       </note>
    </place>
-   <place n="HUNT" type="nonFederal">
+   <place xml:id="HUNT4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>HUNTINGDON</district>
@@ -13398,7 +13398,7 @@
          </list>
       </note>
    </place>
-   <place n="LBER" type="nonFederal">
+   <place xml:id="LBER1" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>IBERVILLE</district>
@@ -13413,7 +13413,7 @@
          </list>
       </note>
    </place>
-   <place n="JACQ" type="nonFederal">
+   <place xml:id="JACQ3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>JACQUES-CARTIER</district>
@@ -13428,7 +13428,7 @@
          </list>
       </note>
    </place>
-   <place n="JOLI" type="nonFederal">
+   <place xml:id="JOLI2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>JOLIETTE</district>
@@ -13443,7 +13443,7 @@
          </list>
       </note>
    </place>
-   <place n="KAMO" type="nonFederal">
+   <place xml:id="KAMO4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>KAMOURASKA</district>
@@ -13458,7 +13458,7 @@
          </list>
       </note>
    </place>
-   <place n="LASS" type="nonFederal">
+   <place xml:id="LASS2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>L'ASSOMPTION</district>
@@ -13473,7 +13473,7 @@
          </list>
       </note>
    </place>
-   <place n="LISL" type="nonFederal">
+   <place xml:id="LISL2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>L'ISLET</district>
@@ -13488,7 +13488,7 @@
          </list>
       </note>
    </place>
-   <place n="LAPR" type="nonFederal">
+   <place xml:id="LAPR3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>LAPRAIRIE</district>
@@ -13503,7 +13503,7 @@
          </list>
       </note>
    </place>
-   <place n="LAVA" type="nonFederal">
+   <place xml:id="LAVA2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>LAVAL</district>
@@ -13518,7 +13518,7 @@
          </list>
       </note>
    </place>
-   <place n="LEVI" type="nonFederal">
+   <place xml:id="LEVI4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>LÉVIS</district>
@@ -13533,7 +13533,7 @@
          </list>
       </note>
    </place>
-   <place n="LOTB" type="nonFederal">
+   <place xml:id="LOTB3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>LOTBINIÈRE</district>
@@ -13548,7 +13548,7 @@
          </list>
       </note>
    </place>
-   <place n="MASK" type="nonFederal">
+   <place xml:id="MASK2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MASKINONGÉ</district>
@@ -13563,7 +13563,7 @@
          </list>
       </note>
    </place>
-   <place n="MEGA" type="nonFederal">
+   <place xml:id="MEGA2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MÉGANTIC</district>
@@ -13578,7 +13578,7 @@
          </list>
       </note>
    </place>
-   <place n="MISS" type="nonFederal">
+   <place xml:id="MISS3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MISSISQUOI</district>
@@ -13593,7 +13593,7 @@
          </list>
       </note>
    </place>
-   <place n="MONT" type="nonFederal">
+   <place xml:id="MONT6" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTCALM</district>
@@ -13608,7 +13608,7 @@
          </list>
       </note>
    </place>
-   <place n="MONT" type="nonFederal">
+   <place xml:id="MONT7" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTMAGNY</district>
@@ -13623,7 +13623,7 @@
          </list>
       </note>
    </place>
-   <place n="MONT" type="nonFederal">
+   <place xml:id="MONT8" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTMORENCY</district>
@@ -13638,7 +13638,7 @@
          </list>
       </note>
    </place>
-   <place n="CMON" type="nonFederal">
+   <place xml:id="CMON2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTREAL CENTRE</district>
@@ -13653,7 +13653,7 @@
          </list>
       </note>
    </place>
-   <place n="EMON" type="nonFederal">
+   <place xml:id="EMON2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTREAL EAST</district>
@@ -13668,7 +13668,7 @@
          </list>
       </note>
    </place>
-   <place n="WMON" type="nonFederal">
+   <place xml:id="WMON2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTREAL WEST</district>
@@ -13683,7 +13683,7 @@
          </list>
       </note>
    </place>
-   <place n="NAPI" type="nonFederal">
+   <place xml:id="NAPI2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>NAPIERVILLE</district>
@@ -13698,7 +13698,7 @@
          </list>
       </note>
    </place>
-   <place n="NICO" type="nonFederal">
+   <place xml:id="NICO2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>NICOLET</district>
@@ -13713,7 +13713,7 @@
          </list>
       </note>
    </place>
-   <place n="OTTA" type="nonFederal">
+   <place xml:id="OTTA4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>OTTAWA</district>
@@ -13728,7 +13728,7 @@
          </list>
       </note>
    </place>
-   <place n="PONT" type="nonFederal">
+   <place xml:id="PONT4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>PONTIAC</district>
@@ -13743,7 +13743,7 @@
          </list>
       </note>
    </place>
-   <place n="PORT" type="nonFederal">
+   <place xml:id="PORT9" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>PORTNEUF</district>
@@ -13758,7 +13758,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEB" type="nonFederal">
+   <place xml:id="QUEB2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC COUNTY</district>
@@ -13773,7 +13773,7 @@
          </list>
       </note>
    </place>
-   <place n="EQUE" type="nonFederal">
+   <place xml:id="EQUE4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC EAST</district>
@@ -13788,7 +13788,7 @@
          </list>
       </note>
    </place>
-   <place n="WQUE" type="nonFederal">
+   <place xml:id="WQUE4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC WEST</district>
@@ -13803,7 +13803,7 @@
          </list>
       </note>
    </place>
-   <place n="CQUE" type="nonFederal">
+   <place xml:id="CQUE3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC-CENTRE</district>
@@ -13818,7 +13818,7 @@
          </list>
       </note>
    </place>
-   <place n="RICH" type="nonFederal">
+   <place xml:id="RICH10" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>RICHELIEU</district>
@@ -13833,7 +13833,7 @@
          </list>
       </note>
    </place>
-   <place n="RICH" type="nonFederal">
+   <place xml:id="RICH11" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>RICHMOND-WOLFE</district>
@@ -13848,7 +13848,7 @@
          </list>
       </note>
    </place>
-   <place n="RIMO" type="nonFederal">
+   <place xml:id="RIMO3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>RIMOUSKI</district>
@@ -13863,7 +13863,7 @@
          </list>
       </note>
    </place>
-   <place n="ROUV" type="nonFederal">
+   <place xml:id="ROUV2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>ROUVILLE</district>
@@ -13878,7 +13878,7 @@
          </list>
       </note>
    </place>
-   <place n="STJE" type="nonFederal">
+   <place xml:id="STJE1" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>SAINT-JEAN</district>
@@ -13893,7 +13893,7 @@
          </list>
       </note>
    </place>
-   <place n="STMA" type="nonFederal">
+   <place xml:id="STMA5" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>SAINT-MAURICE</district>
@@ -13908,7 +13908,7 @@
          </list>
       </note>
    </place>
-   <place n="SHEF" type="nonFederal">
+   <place xml:id="SHEF3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>SHEFFORD</district>
@@ -13923,7 +13923,7 @@
          </list>
       </note>
    </place>
-   <place n="SHER" type="nonFederal">
+   <place xml:id="SHER4" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>SHERBROOKE</district>
@@ -13938,7 +13938,7 @@
          </list>
       </note>
    </place>
-   <place n="SOUL" type="nonFederal">
+   <place xml:id="SOUL2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>SOULANGES</district>
@@ -13953,7 +13953,7 @@
          </list>
       </note>
    </place>
-   <place n="STHY" type="nonFederal">
+   <place xml:id="STHY2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. HYACINTHE</district>
@@ -13968,7 +13968,7 @@
          </list>
       </note>
    </place>
-   <place n="STAN" type="nonFederal">
+   <place xml:id="STAN7" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>STANSTEAD</district>
@@ -13983,7 +13983,7 @@
          </list>
       </note>
    </place>
-   <place n="TEMI" type="nonFederal">
+   <place xml:id="TEMI2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>TÉMISCOUATA</district>
@@ -13998,7 +13998,7 @@
          </list>
       </note>
    </place>
-   <place n="TERR" type="nonFederal">
+   <place xml:id="TERR2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>TERREBONNE</district>
@@ -14013,7 +14013,7 @@
          </list>
       </note>
    </place>
-   <place n="TROI" type="nonFederal">
+   <place xml:id="TROI1" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>TROIS-RIVIÈRES</district>
@@ -14028,7 +14028,7 @@
          </list>
       </note>
    </place>
-   <place n="VAUD" type="nonFederal">
+   <place xml:id="VAUD3" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>VAUDREUIL</district>
@@ -14043,7 +14043,7 @@
          </list>
       </note>
    </place>
-   <place n="VERC" type="nonFederal">
+   <place xml:id="VERC2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>VERCHÈRES</district>
@@ -14058,7 +14058,7 @@
          </list>
       </note>
    </place>
-   <place n="YAMA" type="nonFederal">
+   <place xml:id="YAMA2" type="nonFederal">
       <placeName>
          <region>QUEBEC</region>
          <district>YAMASKA</district>
@@ -14073,7 +14073,7 @@
          </list>
       </note>
    </place>
-   <place n="BEAU" type="federal">
+   <place xml:id="BEAU12" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BEAUHARNOIS-LAPRAIRIE</district>
@@ -14092,7 +14092,7 @@
          </list>
       </note>
    </place>
-   <place n="BERT" type="federal">
+   <place xml:id="BERT7" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BERTHIER-MASKINONGÉ</district>
@@ -14111,7 +14111,7 @@
          </list>
       </note>
    </place>
-   <place n="BROM" type="federal">
+   <place xml:id="BROM3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>BROME-MISSISQUOI</district>
@@ -14130,7 +14130,7 @@
          </list>
       </note>
    </place>
-   <place n="CART" type="federal">
+   <place xml:id="CART6" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CARTIER</district>
@@ -14152,7 +14152,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAM" type="federal">
+   <place xml:id="CHAM9" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHAMBLY-ROUVILLE</district>
@@ -14171,7 +14171,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAP" type="federal">
+   <place xml:id="CHAP3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHAPLEAU</district>
@@ -14190,7 +14190,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAR" type="federal">
+   <place xml:id="CHAR12" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHARLEVOIX-SAGUENAY</district>
@@ -14209,7 +14209,7 @@
          </list>
       </note>
    </place>
-   <place n="CHAT" type="federal">
+   <place xml:id="CHAT4" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHÂTEAUGUAY-HUNTINGDON</district>
@@ -14228,7 +14228,7 @@
          </list>
       </note>
    </place>
-   <place n="CHIC" type="federal">
+   <place xml:id="CHIC4" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>CHICOUTIMI</district>
@@ -14247,7 +14247,7 @@
          </list>
       </note>
    </place>
-   <place n="HULL" type="federal">
+   <place xml:id="HULL1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>HULL</district>
@@ -14266,7 +14266,7 @@
          </list>
       </note>
    </place>
-   <place n="JOLI" type="federal">
+   <place xml:id="JOLI3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>JOLIETTE-L'ASSOMPTION-MONTCALM</district>
@@ -14285,7 +14285,7 @@
          </list>
       </note>
    </place>
-   <place n="LAKE" type="federal">
+   <place xml:id="LAKE2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LAKE ST-JOHN-ROBERVAL</district>
@@ -14304,7 +14304,7 @@
          </list>
       </note>
    </place>
-   <place n="LAUR" type="federal">
+   <place xml:id="LAUR8" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LAURIER</district>
@@ -14323,7 +14323,7 @@
          </list>
       </note>
    </place>
-   <place n="LAVA" type="federal">
+   <place xml:id="LAVA3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>LAVAL-TWO MOUNTAINS</district>
@@ -14345,7 +14345,7 @@
          </list>
       </note>
    </place>
-   <place n="MAIS" type="federal">
+   <place xml:id="MAIS2" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MAISONNEUVE-ROSEMONT</district>
@@ -14364,7 +14364,7 @@
          </list>
       </note>
    </place>
-   <place n="MATA" type="federal">
+   <place xml:id="MATA3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MATAPÉDIA-MATANE</district>
@@ -14383,7 +14383,7 @@
          </list>
       </note>
    </place>
-   <place n="MEGA" type="federal">
+   <place xml:id="MEGA3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MÉGANTIC-FRONTENAC</district>
@@ -14402,7 +14402,7 @@
          </list>
       </note>
    </place>
-   <place n="MERC" type="federal">
+   <place xml:id="MERC5" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MERCIER</district>
@@ -14421,7 +14421,7 @@
          </list>
       </note>
    </place>
-   <place n="MONT" type="federal">
+   <place xml:id="MONT9" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MONTMAGNY-L'ISLET</district>
@@ -14440,7 +14440,7 @@
          </list>
       </note>
    </place>
-   <place n="MOUN" type="federal">
+   <place xml:id="MOUN1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>MOUNT ROYAL</district>
@@ -14459,7 +14459,7 @@
          </list>
       </note>
    </place>
-   <place n="NICO" type="federal">
+   <place xml:id="NICO3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>NICOLET-YAMASKA</district>
@@ -14481,7 +14481,7 @@
          </list>
       </note>
    </place>
-   <place n="OUTR" type="federal">
+   <place xml:id="OUTR1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>OUTREMONT</district>
@@ -14500,7 +14500,7 @@
          </list>
       </note>
    </place>
-   <place n="SQUE" type="federal">
+   <place xml:id="SQUE3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC SOUTH</district>
@@ -14519,7 +14519,7 @@
          </list>
       </note>
    </place>
-   <place n="WSQU" type="federal">
+   <place xml:id="WSQU1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUEBEC WEST AND SOUTH</district>
@@ -14538,7 +14538,7 @@
          </list>
       </note>
    </place>
-   <place n="QUEB" type="federal">
+   <place xml:id="QUEB3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>QUÉBEC-MONTMORENCY</district>
@@ -14557,7 +14557,7 @@
          </list>
       </note>
    </place>
-   <place n="RICH" type="federal">
+   <place xml:id="RICH12" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>RICHELIEU-VERCHÈRES</district>
@@ -14579,7 +14579,7 @@
          </list>
       </note>
    </place>
-   <place n="SHER" type="federal">
+   <place xml:id="SHER5" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>SHERBROOKE</district>
@@ -14598,7 +14598,7 @@
          </list>
       </note>
    </place>
-   <place n="STMA" type="federal">
+   <place xml:id="STMA6" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST-MAURICE-LAFLÈCHE</district>
@@ -14617,7 +14617,7 @@
          </list>
       </note>
    </place>
-   <place n="STAN" type="federal">
+   <place xml:id="STAN8" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. ANN</district>
@@ -14636,7 +14636,7 @@
          </list>
       </note>
    </place>
-   <place n="STAN" type="federal">
+   <place xml:id="STAN9" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. ANTOINE-WESTMOUNT</district>
@@ -14655,7 +14655,7 @@
          </list>
       </note>
    </place>
-   <place n="STDE" type="federal">
+   <place xml:id="STDE1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. DENIS</district>
@@ -14674,7 +14674,7 @@
          </list>
       </note>
    </place>
-   <place n="STHE" type="federal">
+   <place xml:id="STHE1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. HENRY</district>
@@ -14693,7 +14693,7 @@
          </list>
       </note>
    </place>
-   <place n="STHY" type="federal">
+   <place xml:id="STHY3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. HYACINTHE-BAGOT</district>
@@ -14712,7 +14712,7 @@
          </list>
       </note>
    </place>
-   <place n="STJO" type="federal">
+   <place xml:id="STJO7" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. JOHNS-IBERVILLE-NAPIERVILLE</district>
@@ -14731,7 +14731,7 @@
          </list>
       </note>
    </place>
-   <place n="STLA" type="federal">
+   <place xml:id="STLA3" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>ST. LAWRENCE-ST. GEORGE</district>
@@ -14750,7 +14750,7 @@
          </list>
       </note>
    </place>
-   <place n="VAUD" type="federal">
+   <place xml:id="VAUD4" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>VAUDREUIL-SOULANGES</district>
@@ -14769,7 +14769,7 @@
          </list>
       </note>
    </place>
-   <place n="VERD" type="federal">
+   <place xml:id="VERD1" type="federal">
       <placeName>
          <region>QUEBEC</region>
          <district>VERDUN</district>
@@ -14788,7 +14788,7 @@
          </list>
       </note>
    </place>
-   <place n="ASSI" type="federal">
+   <place xml:id="ASSI1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>ASSINIBOIA</district>
@@ -14807,7 +14807,7 @@
          </list>
       </note>
    </place>
-   <place n="HUMB" type="federal">
+   <place xml:id="HUMB3" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>HUMBOLDT</district>
@@ -14826,7 +14826,7 @@
          </list>
       </note>
    </place>
-   <place n="KIND" type="federal">
+   <place xml:id="KIND1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>KINDERSLEY</district>
@@ -14845,7 +14845,7 @@
          </list>
       </note>
    </place>
-   <place n="CLAK" type="federal">
+   <place xml:id="CLAK1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>LAKE CENTRE</district>
@@ -14864,7 +14864,7 @@
          </list>
       </note>
    </place>
-   <place n="MACK" type="federal">
+   <place xml:id="MACK6" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>MACKENZIE</district>
@@ -14883,7 +14883,7 @@
          </list>
       </note>
    </place>
-   <place n="MAPL" type="federal">
+   <place xml:id="MAPL1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>MAPLE CREEK</district>
@@ -14902,7 +14902,7 @@
          </list>
       </note>
    </place>
-   <place n="MELF" type="federal">
+   <place xml:id="MELF1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>MELFORT</district>
@@ -14921,7 +14921,7 @@
          </list>
       </note>
    </place>
-   <place n="MELV" type="federal">
+   <place xml:id="MELV2" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>MELVILLE</district>
@@ -14940,7 +14940,7 @@
          </list>
       </note>
    </place>
-   <place n="MOOS" type="federal">
+   <place xml:id="MOOS7" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>MOOSE JAW</district>
@@ -14959,7 +14959,7 @@
          </list>
       </note>
    </place>
-   <place n="NBAT" type="federal">
+   <place xml:id="NBAT1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>NORTH BATTLEFORD</district>
@@ -14978,7 +14978,7 @@
          </list>
       </note>
    </place>
-   <place n="PRIN" type="federal">
+   <place xml:id="PRIN9" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>PRINCE ALBERT</district>
@@ -14997,7 +14997,7 @@
          </list>
       </note>
    </place>
-   <place n="QUAP" type="federal">
+   <place xml:id="QUAP2" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>QU'APPELLE</district>
@@ -15016,7 +15016,7 @@
          </list>
       </note>
    </place>
-   <place n="REGI" type="federal">
+   <place xml:id="REGI1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>REGINA CITY</district>
@@ -15035,7 +15035,7 @@
          </list>
       </note>
    </place>
-   <place n="ROSE" type="federal">
+   <place xml:id="ROSE4" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>ROSETOWN-BIGGAR</district>
@@ -15054,7 +15054,7 @@
          </list>
       </note>
    </place>
-   <place n="ROST" type="federal">
+   <place xml:id="ROST1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>ROSTHERN</district>
@@ -15076,7 +15076,7 @@
          </list>
       </note>
    </place>
-   <place n="SASK" type="federal">
+   <place xml:id="SASK2" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>SASKATOON CITY</district>
@@ -15095,7 +15095,7 @@
          </list>
       </note>
    </place>
-   <place n="SWIF" type="federal">
+   <place xml:id="SWIF1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>SWIFT CURRENT</district>
@@ -15114,7 +15114,7 @@
          </list>
       </note>
    </place>
-   <place n="BATT" type="federal">
+   <place xml:id="BATT3" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>THE BATTLEFORDS</district>
@@ -15133,7 +15133,7 @@
          </list>
       </note>
    </place>
-   <place n="WEYB" type="federal">
+   <place xml:id="WEYB1" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>WEYBURN</district>
@@ -15152,7 +15152,7 @@
          </list>
       </note>
    </place>
-   <place n="WOOD" type="federal">
+   <place xml:id="WOOD6" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>WOOD MOUNTAIN</district>
@@ -15171,7 +15171,7 @@
          </list>
       </note>
    </place>
-   <place n="YORK" type="federal">
+   <place xml:id="YORK5" type="federal">
       <placeName>
          <region>SASKATCHEWAN</region>
          <district>YORKTON</district>
@@ -15190,7 +15190,7 @@
          </list>
       </note>
    </place>
-   <place n="YUKO" type="federal">
+   <place xml:id="YUKO1" type="federal">
       <placeName>
          <region>YUKON</region>
          <district>YUKON</district>
