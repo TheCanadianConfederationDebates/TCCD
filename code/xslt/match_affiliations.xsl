@@ -29,7 +29,7 @@
     <xsl:for-each select="$personography//person">
       
       <xsl:variable name="currPerson" select="concat(normalize-space(ancestor::person/persName), ' (', ancestor::person/@xml:id, ')')"/>
-      <xsl:for-each select="affiliation">
+      <xsl:for-each select="affiliation[@n]">
         <xsl:variable name="currAffil" select="."/>
         <xsl:variable name="currType" select="if (contains(@n, 'House of Commons')) then 'federal' else 'nonFederal'"/>
         <xsl:variable name="currYear" select="@when"/>
@@ -79,7 +79,7 @@ Found match(es) for </xsl:text><xsl:value-of select="concat(string-join($currReg
     <xsl:param name="type" as="xs:string"/>
     <xsl:param name="region" as="xs:string*"/>
     <xsl:param name="riding" as="xs:string"/>
-    <xsl:sequence select="$placeography//place[@type=$type][placeName/region = $region or $region = ()][placeName/district = $riding]"/>
+    <xsl:sequence select="$placeography//place[@type=$type][hcmc:massageForMatch(placeName/region) = $region or $region = ()][hcmc:massageForMatch(placeName/district) = $riding]"/>
   </xsl:function>
   
 </xsl:stylesheet>
