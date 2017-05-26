@@ -39,7 +39,12 @@
         <xsl:choose>
           <xsl:when test="count($matchingPlaces) gt 0">
             <xsl:text>
-Found match(es) for </xsl:text><xsl:value-of select="concat(string-join($currRegion, ' | '), '/', $currRidingName, ' (', $currYear, ')')"/>
+Found </xsl:text><xsl:value-of select="count($matchingPlaces)"/><xsl:text> match(es) for </xsl:text><xsl:value-of select="concat(string-join($currRegion, ' | '), '/', $currRidingName, ' (', $currYear, ')')"/>
+            <xsl:for-each select="$matchingPlaces">
+              <xsl:text>
+                     </xsl:text><xsl:value-of select="concat(placeName/region, '/', placeName/district, ' (', location/@notBefore, '-', location/@notAfter, ')')"/>
+              
+            </xsl:for-each>
           </xsl:when>
           <xsl:otherwise>
             <xsl:text>

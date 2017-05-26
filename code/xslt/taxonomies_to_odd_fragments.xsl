@@ -23,8 +23,10 @@
 <!-- External resources. -->
   <xsl:param name="taxonomyFilePath" select="'../../data/schemas/taxonomies.xml'"/>
   <xsl:param name="personographyFilePath" select="'../../data/personography/personography.xml'"/>
+  <xsl:param name="placeographyFilePath" select="'../../data/placeography/placeography.xml'"/>
   <xsl:param name="taxonomyFile" select="doc($taxonomyFilePath)"/>
   <xsl:param name="personographyFile" select="doc($personographyFilePath)"/>
+  <xsl:param name="placeographyFile" select="doc($placeographyFilePath)"/>
   
   <xsl:template match="/" exclude-result-prefixes="#all">
     <xsl:message>Processing taxonomies comprising <xsl:value-of select="count($taxonomyFile/descendant::category)"/> categories.</xsl:message>
@@ -50,6 +52,11 @@
     <xsl:sequence select="hcmc:listPersonToValList($personographyFile//listPerson, .)"/>
   </xsl:template>
   
+  <!-- Template for affiliation/@ref. -->
+  <xsl:template match="elementSpec[@ident='affiliation']/attList/attDef[@ident='ref']/valList" exclude-result-prefixes="#all">
+    <xsl:sequence select="hcmc:listPlaceToValList($placeographyFile//listPlace, .)"/>
+  </xsl:template>
+  
   
 <!-- Standard identity transformation. -->
   <xsl:template match="@* | node()" priority="-1" exclude-result-prefixes="#all">
@@ -63,7 +70,7 @@
   <xsl:function name="hcmc:listPersonToValList" as="element(valList)" exclude-result-prefixes="#all">
     <xsl:param name="listPerson" as="element(listPerson)+"/>
     <xsl:param name="valList" as="element(valList)"/>    
-    <valList type="closed">
+    <valList type="closed" mode="add">
         <xsl:copy-of select="$valList/valItem[@ident='UNSPECIFIED']"/>
       <xsl:for-each select="$listPerson//person">
         <xsl:sort select="normalize-space(.)"/>
@@ -71,6 +78,22 @@
           <!--<gloss><xsl:value-of select="normalize-space(persName[1])"/></gloss>-->
           <xsl:variable name="names" select="string-join((for $p in persName return normalize-space($p)), '; ')"/>
           <desc><xsl:value-of select="$names"/><xsl:if test="not(matches($names, '\.\s*$'))">.</xsl:if><xsl:text> </xsl:text><xsl:if test="affiliation or state"><xsl:value-of select="string-join((for $a in (affiliation | state) return concat(normalize-space($a), ' (', if ($a/@when) then concat($a/@when, ': ') else '', $a/@n, ')')), '; ')"/></xsl:if>.</desc>
+        </valItem>
+      </xsl:for-each>
+    </valList>
+  </xsl:function>
+  
+  <xsl:function name="hcmc:listPlaceToValList" as="element(valList)" exclude-result-prefixes="#all">
+    <xsl:param name="listPlace" as="element(listPlace)+"/>
+    <xsl:param name="valList" as="element(valList)"/>    
+    <valList type="closed" mode="add">
+      <xsl:copy-of select="$valList/valItem[@ident='UNSPECIFIED']"/>
+      <xsl:for-each select="$listPlace//place">
+        <xsl:sort select="normalize-space(@xml:id)"/>
+        <valItem ident="plc:{@xml:id}">
+          <xsl:variable name="riding" select="concat(placeName/district, ' (', placeName/region, '), ', @type, ', ', location/@notBefore, '-', location/@notAfter)"/>
+          <xsl:variable name="reps" select="string-join((for $p in note/list/item/persName return normalize-space($p)), '; ')"/>
+          <desc><xsl:value-of select="concat($riding, ' ', $reps)"/></desc>
         </valItem>
       </xsl:for-each>
     </valList>
