@@ -16,17 +16,21 @@
       <xd:p>Process to check each affiliation in the personography file against 
       potential placeography entries. Produces a report in text format.
       Run this file on itself; it loads its data from files.</xd:p>
+      
+      <xd:p>It also process the actual personography file to produce an
+      output file which adds @ref attributes to affiliation elements which
+      have been matched.</xd:p>
     </xd:desc>
   </xd:doc>
   
-  <xsl:output method="text" encoding="UTF-8" normalization-form="NFC"/>
+  <xsl:output method="xml" encoding="UTF-8" normalization-form="NFC"/>
   
   <xsl:variable name="personography" select="doc('../../data/personography/personography.xml')"/>
   
   <xsl:variable name="placeography" select="doc('../../data/placeography/placeography.xml')"/>
   
   <xsl:template match="/">
-    <xsl:for-each select="$personography//person">
+    <!--<xsl:for-each select="$personography//person">
       
       <xsl:variable name="currPerson" select="concat(normalize-space(ancestor::person/persName), ' (', ancestor::person/@xml:id, ')')"/>
       <xsl:for-each select="affiliation[@n]">
@@ -52,7 +56,38 @@ Found </xsl:text><xsl:value-of select="count($matchingPlaces)"/><xsl:text> match
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
-    </xsl:for-each>
+    </xsl:for-each>-->
+    
+<!--  Process the actual personography to see what we get.  -->
+    <xsl:result-document href="../../data/personography/personography_linked.xml" method="xml" encoding="UTF-8"
+      normalization-form="NFC" exclude-result-prefixes="#all" xml:space="preserve">
+      <xsl:apply-templates select="$personography/node()"/>
+    </xsl:result-document>
+  </xsl:template>
+  
+  <xsl:template match="affiliation[@n]">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:variable name="currPerson" select="concat(normalize-space(ancestor::person/persName), ' (', ancestor::person/@xml:id, ')')"/>
+      <xsl:variable name="currAffil" select="."/>
+      <xsl:variable name="currType" select="if (contains(@n, 'House of Commons')) then 'federal' else 'nonFederal'"/>
+      <xsl:variable name="currYear" select="@when"/>
+      <xsl:variable name="currRidingName" select="hcmc:massageForMatch($currAffil)"/>
+      <xsl:variable name="currRegion" select="hcmc:getRegionFromN(@n)"/>
+      <!--<xsl:message><xsl:value-of select="concat('Trying to match: ', $currRidingName, ' (', $currRegion, '), ', $currYear, ' [', $currType, ']')"/></xsl:message>-->
+      <xsl:variable name="matchingPlaces" select="hcmc:getMatchingPlaces($currType, $currRegion, $currRidingName)"/>
+      <xsl:if test="$matchingPlaces[location/@notBefore le $currYear and (location/@notAfter gt $currYear or not(location/@notAfter))]">
+        <xsl:attribute name="ref" select="concat('plc:', $matchingPlaces[location/@notBefore le $currYear and (location/@notAfter gt $currYear or not(location/@notAfter))][1]/@xml:id)"/>
+      </xsl:if>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
+<!-- Identity transform templates for the personography. -->
+  <xsl:template match="@*|node()" priority="-1">
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+    </xsl:copy>
   </xsl:template>
   
   <!-- This function creates a "massaged" version of a text node for comparison purposes. -->
@@ -84,7 +119,10 @@ Found </xsl:text><xsl:value-of select="count($matchingPlaces)"/><xsl:text> match
     <xsl:param name="type" as="xs:string"/>
     <xsl:param name="region" as="xs:string*"/>
     <xsl:param name="riding" as="xs:string"/>
-    <xsl:sequence select="$placeography//place[@type=$type][hcmc:massageForMatch(placeName/region) = $region or $region = ()][hcmc:massageForMatch(placeName/district) = $riding]"/>
+    <!--<xsl:for-each select="$placeography//place[@type=$type]">
+      <xsl:message><xsl:value-of select="concat('Matching against: ', hcmc:massageForMatch(placeName/district), ' (', hcmc:massageForMatch(placeName/region), '), ', location/@notBefore)"/></xsl:message>
+    </xsl:for-each>-->
+    <xsl:sequence select="$placeography//place[@type=$type][hcmc:massageForMatch(placeName/region) = $region or normalize-space(string-join($region, '')) = ''][hcmc:massageForMatch(placeName/district) = $riding]"/>
   </xsl:function>
   
 </xsl:stylesheet>
