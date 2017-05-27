@@ -374,7 +374,7 @@
    <place xml:id="NEWW1" type="federal">
       <placeName>
          <region>BRITISH COLUMBIA</region>
-         <district>NEW WESTMINSTER DISTRICT</district>
+         <district>NEW WESTMINSTER</district>
       </placeName>
       <location notBefore="1871">
          <geo>49.7879,-122.66085</geo>
@@ -416,25 +416,6 @@
       </placeName>
       <location notBefore="1871">
          <geo>52.85586,-122.24487</geo>
-      </location>
-      <note>
-         <list>
-            <head>Representatives</head>
-            <item>
-               <persName ref="UNSPECIFIED">
-                  <surname>THOMPSON</surname>, <forename>Joshua</forename>
-               </persName>
-            </item>
-         </list>
-      </note>
-   </place>
-   <place xml:id="_CARI1" type="nonFederal">
-      <placeName>
-         <region>BRITISH COLUMBIA</region>
-         <district>CARIBOO</district>
-      </placeName>
-      <location notBefore="1867">
-         <geo>52.85587,-122.24488</geo>
       </location>
       <note>
          <list>
@@ -4146,7 +4127,7 @@
          <district>WALLACE</district>
       </placeName>
       <location notBefore="1887" notAfter="1905">
-         <geo>51.21398,-102.46862</geo>
+         <geo>51.58073, -102.13897</geo>
       </location>
       <note>
          <list>
@@ -10428,7 +10409,7 @@
          <region>PRINCE EDWARD ISLAND</region>
          <district>QUEEN'S</district>
       </placeName>
-      <location notBefore="1904" notAfter="1945">
+      <location notBefore="1904" notAfter="1949">
          <geo>46.25771,-63.13426</geo>
       </location>
       <note>
@@ -15213,6 +15194,136 @@
                   <surname>BLACK</surname>, <forename/>
                </persName>
             </item>
+         </list>
+      </note>
+   </place>
+   <place xml:id="_VICT1" type="nonfederal">
+      <placeName>
+         <region>BRITISH COLUMBIA</region>
+         <district>VICTORIA CITY DISTRICT</district>
+      </placeName>
+      <location notBefore="1867" notAfter="1871">
+         <geo>48.42578, -123.36822</geo>
+      </location>
+      <note>
+      </note>
+   </place>
+   <place xml:id="_VICT20" type="nonfederal">
+      <placeName>
+         <region>BRITISH COLUMBIA</region>
+         <district>VICTORIA DISTRICT</district>
+      </placeName>
+      <location notBefore="1867" notAfter="1871">
+         <geo>48.51431, -123.41731</geo>
+      </location>
+      <note>
+      </note>
+   </place>
+   <place xml:id="_CARI1" type="nonFederal">
+      <placeName>
+         <region>BRITISH COLUMBIA</region>
+         <district>CARIBOO</district>
+      </placeName>
+      <location notBefore="1867">
+         <geo>52.85587,-122.24488</geo>
+      </location>
+   </place>
+   <place xml:id= "_GREN1" type="nonFederal">
+      <placeName>
+         <region>NORTHWEST TERRITORIES</region>
+         <district>GRENFELL</district>
+      </placeName>
+      <location notBefore="1887" notAfter="1905">
+         <geo>50.40988, -102.93009</geo>
+      </location>
+      <note>
+         <list>
+            <head>Representatives</head>
+            <item/>
+         </list>
+      </note>
+   </place>
+   <place xml:id= "_LACO1" type="nonFederal">
+      <placeName>
+         <region>NORTHWEST TERRITORIES</region>
+         <district>LACOMBE</district>
+      </placeName>
+      <location notBefore="1887" notAfter="1905">
+         <geo>52.46848, -113.73051</geo>
+      </location>
+   </place>
+   <place xml:id="_PRIN20" type="nonFederal">
+      <placeName>
+         <region>NORTHWEST TERRITORIES</region>
+         <district>PRINCE ALBERT WEST</district>
+      </placeName>
+      <location notBefore="1894" notAfter="1905">
+         <geo>53.88808, -107.50119</geo>
+      </location>
+      <note>
+         <list>
+            <head>Representatives</head>
+            <item/>
+         </list>
+      </note>
+   </place>
+   <place xml:id="_PRIN21" type="nonFederal">
+      <placeName>
+         <region>NORTHWEST TERRITORIES</region>
+         <district>PRINCE ALBERT EAST</district>
+      </placeName>
+      <location notBefore="1894" notAfter="1905">
+         <geo>53.87358, -106.33117</geo>
+      </location>
+      <note>
+         <list>
+            <head>Representatives</head>
+            <item/>
+         </list>
+      </note>
+   </place> 
+   <place xml:id="_SALC1" type="nonFederal">
+      <placeName>
+         <region>NORTHWEST TERRITORIES</region>
+         <district>SALTCOATS</district>
+      </placeName>
+      <location notBefore="1887" notAfter="1905">
+         <geo>51.04066, -102.16117</geo>
+      </location>
+      <note>
+         <list>
+            <head>Representatives</head>
+            <item/>
+         </list>
+      </note>
+   </place>
+   <place xml:id="_CALG1" type="nonFederal">
+      <placeName>
+         <region>NORTHWEST TERRITORIES</region>
+         <district>CALGARY WEST</district>
+      </placeName>
+      <location notBefore="1887" notAfter="1905">
+         <geo>51.07333, -114.1809</geo>
+      </location>
+      <note>
+         <list>
+            <head>Representatives</head>
+            <item/>
+         </list>
+      </note>
+   </place>
+   <place xml:id="_YORK1" type="nonFederal">
+      <placeName>
+         <region>NORTHWEST TERRITORIES</region>
+         <district>YORKTON</district>
+      </placeName>
+      <location notBefore="1887" notAfter="1905">
+         <geo>51.21075, -102.4633</geo>
+      </location>
+      <note>
+         <list>
+            <head>Representatives</head>
+            <item/>
          </list>
       </note>
    </place>
