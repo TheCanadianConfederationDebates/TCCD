@@ -126,8 +126,8 @@
                             <forename>Douglas</forename>
                      <forename>Charles</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">St. Antoine—Westmount</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">St. Antoine—Westmount</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:STAN9">St. Antoine—Westmount</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:STAN9">St. Antoine—Westmount</affiliation>
                </person>
                <person xml:id="ABBO1">
                   <persName when="1867">
@@ -152,8 +152,8 @@
                             <forename>Agar</forename>
                      <forename>Rodney</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">York West</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">York West</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:WYOR1">York West</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:WYOR1">York West</affiliation>
                   <note>orig: first name is stated as Rodney</note>
                </person>
                <person xml:id="ADAM2">
@@ -186,7 +186,7 @@
                             <forename>George</forename>
                      <forename>Oscar</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Prince Edward</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:PRIN4">Prince Edward</affiliation>
                </person>
                <person xml:id="ALEX1">
                   <persName when="1865">
@@ -299,7 +299,7 @@
                             <forename>Joseph</forename>
                      <forename>Éloi</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Berthier</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:BERT5">Berthier</affiliation>
                </person>
                <person xml:id="ARCH1">
                   <persName when="1865">
@@ -382,8 +382,8 @@
                      <surname>Arsenault</surname>,
                             <forename>Bona</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Bonaventure</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Bonaventure</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:BONA2">Bonaventure</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:BONA2">Bonaventure</affiliation>
                </person>
                <person xml:id="ASHB1">
                   <persName when="1945">
@@ -422,8 +422,8 @@
                             <forename>Wilbert</forename>
                      <forename>Ross</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Frontenac—Addington</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Frontenac—Addington</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:FRON4">Frontenac—Addington</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:FRON4">Frontenac—Addington</affiliation>
                </person>
                <person xml:id="BEVE1">
                   <persName when="1865">
@@ -462,8 +462,8 @@
                             <forename>Loran</forename>
                      <forename>Ellis</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Shelburne—Yarmouth—Clare</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Shelburne—Yarmouth—Clare</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:SHEL5">Shelburne—Yarmouth—Clare</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:SHEL5">Shelburne—Yarmouth—Clare</affiliation>
                </person>
                <person xml:id="BALL1">
                   <persName when="1870">
@@ -471,7 +471,7 @@
                             <forename>Henry</forename>
                      <forename>Maynard</forename>
                   </persName>
-                  <affiliation when="1870" n="BC Leg">Caribou West</affiliation>
+                  <affiliation when="1870" n="BC Leg" ref="plc:WCAR1">Caribou West</affiliation>
                </person>
                <person xml:id="BANN1">
                   <persName when="1870">
@@ -504,7 +504,7 @@
                             <forename>Francis</forename>
                      <forename>Jones</forename>
                   </persName>
-                  <affiliation when="1870" n="BC Leg">Yale</affiliation>
+                  <affiliation when="1870" n="BC Leg" ref="plc:YALE4">Yale and Lytton</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/barnard_francis_jones_11E.html"/>
@@ -527,8 +527,8 @@
                             <forename>Theobald</forename>
                      <forename>Butler</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Norfolk</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Norfolk</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:NORF1">Norfolk</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:NORF1">Norfolk</affiliation>
                </person>
                <person xml:id="BART1">
                   <persName when="1870">
@@ -615,8 +615,8 @@
                      <surname>Beaudry</surname>,
                             <forename>Roland</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">St. James</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">St. James</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:STJA1">St. James</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:STJA1">St. James</affiliation>
                </person>
                <person xml:id="BEAU6">
                   <persName when="1905">
@@ -624,7 +624,7 @@
                             <forename>Aimé</forename>
                      <forename>Majorique</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">St. Hyacinthe</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:STHY1">St. Hyacinthe</affiliation>
                </person>
                <person xml:id="BECH1">
                   <persName when="1867">
@@ -632,7 +632,7 @@
                             <forename>François</forename>
                   </persName>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:IBER1">Iberville</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Iberville</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:IBER1">Iberville</affiliation>
                </person>
                <person xml:id="BELL4">
                   <persName when="1892">
@@ -641,7 +641,7 @@
                      <forename>de</forename> 
                      <forename>Gonzague</forename>
                   </persName>
-                  <affiliation when="1895" n="NF House of Commons">Chicoutimi—Saguenay</affiliation>
+                  <affiliation when="1895" n="NF House of Commons" ref="plc:CHIC2">Chicoutimi—Saguenay</affiliation>
                   <state when="1876">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">5</num>. Location: <placeName>the Pas on the Saskatchewan River</placeName>. </note>
@@ -676,7 +676,7 @@
                             <forename>Napoléon</forename>
                      <forename>Antoine</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Ottawa</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:OTTA1">Ottawa</affiliation>
                </person>
                <person xml:id="BELL2">
                   <persName when="1865">
@@ -724,8 +724,8 @@
                      <forename>(bill)</forename>
                      <forename>Moore</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Kenora—Rainy River</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Kenora—Rainy River</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:KENO1">Kenora—Rainy River</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:KENO1">Kenora—Rainy River</affiliation>
                </person>
                <person xml:id="BENN1">
                   <persName when="1865">
@@ -741,7 +741,7 @@
                             <forename>William</forename>
                      <forename>Humphrey</forename>
                   </persName>
-                  <affiliation when="1895" n="NF House of Commons">Simcoe East</affiliation>
+                  <affiliation when="1895" n="NF House of Commons" ref="plc:ESIM1">Simcoe East</affiliation>
                   <affiliation when="1905" n="AB/SK House of Commons" ref="plc:ESIM1">Simcoe East</affiliation>
                </person>
                <person xml:id="BENO1">
@@ -751,7 +751,7 @@
                      <forename>Basile</forename>
                   </persName>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:CHAM3">Chambly</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Chambly</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:CHAM3">Chambly</affiliation>
                </person>
                <person xml:id="BENS1">
                   <persName when="1867">
@@ -777,13 +777,13 @@
                      <forename>Gédéon</forename> 
                      <forename>Horace</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Beauharnois</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:BEAU9">Beauharnois</affiliation>
                </person>
                <person xml:id="BERG2">
                   <persName when="1872">
                      <surname>Bergin</surname>,
                             <forename>Darby</forename> (<roleName>Dr. &amp; Col</roleName>)</persName>
-                  <affiliation when="1872" n="PEI House of Commons">Cornwall</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:CORN2">Cornwall</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/bergin_darby_12E.html"/>
@@ -815,8 +815,8 @@
                      <surname>Bertrand</surname>,
                             <forename>Élie-Oscar</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Prescott</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Prescott</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:PRES1">Prescott</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:PRES1">Prescott</affiliation>
                </person>
                <person xml:id="BERT3">
                   <persName when="1945">
@@ -831,8 +831,8 @@
                      <surname>Bertrand</surname>,
                             <forename>Lionel</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Terrebonne</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Terrebonne</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:TERR1">Terrebonne</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:TERR1">Terrebonne</affiliation>
                </person>
                <person xml:id="CAIE1">
                   <persName when="1865">
@@ -894,16 +894,16 @@
                             <forename>Donald</forename>
                      <forename>Elmer</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Châteauguay—Huntingdon</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Châteauguay—Huntingdon</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:CHAT4">Châteauguay—Huntingdon</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:CHAT4">Châteauguay—Huntingdon</affiliation>
                </person>
                <person xml:id="BLAC2">
                   <persName when="1945">
                      <surname>Black</surname>,
                             <forename>George</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Yukon</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Yukon</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:YUKO1">Yukon</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:CHAT4">Yukon</affiliation>
                </person>
                <person xml:id="BLAC3">
                   <persName when="1870">
@@ -927,7 +927,7 @@
                             <forename>Judson</forename>
                      <forename>Burpee</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Hants</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:HANT1">Hants</affiliation>
                </person>
                <person xml:id="BLAC5">
                   <persName when="1945">
@@ -1059,7 +1059,7 @@
                             <forename>Leonard</forename>
                      <forename>Thomas</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Bruce North</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:NBRU1">Bruce North</affiliation>
                </person>
                <person xml:id="BODW1">
                   <persName when="1867">
@@ -1100,7 +1100,7 @@
                             <forename>Joseph-Arsène</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:STHE1">St. Henry</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">St. Henri</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:STHE1">St. Henri</affiliation>
                </person>
                <person xml:id="BORD1">
                   <persName when="1905">
@@ -1137,7 +1137,7 @@
                      <surname>Bossé</surname>,
                             <forename>Joseph-Noël</forename>
                   </persName>
-                  <affiliation when="1865" n="Ont/Que Leg">La Durantaye</affiliation>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:DURA1">La Durantaye</affiliation>
                </person>
                <person xml:id="CONN1">
                   <persName when="1865">
@@ -1163,7 +1163,7 @@
                      <forename>Albert</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:ROST1">Rosthern</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Rosthern</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:ROST1">Rosthern</affiliation>
                   <note>Elected in by-election of October 25, 1948 to replace <persName ref="pers:TUCK1">Walter Tucker</persName>, who had resigned.</note>
                </person>
                <person xml:id="BOUC1">
@@ -1172,7 +1172,7 @@
                             <forename>Louis-Charles</forename>
                   </persName>
                   <affiliation when="1865" n="Ont/Que Leg" ref="plc:TROI1">Trois-Rivières</affiliation>
-                  <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons">Trois-Rivières</affiliation>
+                  <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:TROI1">Trois-Rivières</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/boucher_de_niverville_louis_charles_9E.html"/>
@@ -1207,8 +1207,8 @@
                             <forename>François</forename>
                   </persName>
                   <affiliation when="1865" n="Ont/Que Leg" ref="plc:STJE1">Saint Jean</affiliation>
-                  <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons">Saint-Jean</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Saint Jean</affiliation>
+                  <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:STJO5">St. John's</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:STJO5">St. John's</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/bourassa_francois_12E.html"/>
@@ -1240,7 +1240,7 @@
                   <persName when="1905">
                      <surname>Bourbonnais</surname>,
                             <forename>Augustin</forename> (<roleName>Dr.</roleName>)</persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Soulanges</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:SOUL1">Soulanges</affiliation>
                </person>
                <person xml:id="BOUR4">
                   <persName when="1945">
@@ -1256,7 +1256,7 @@
                             <forename>John</forename>
                      <forename>George</forename>
                   </persName>
-                  <affiliation when="1865" n="NS Leg">Cape Breton County</affiliation>
+                  <affiliation when="1865" n="NS Leg" ref="plc:CCAP1">Cape Breton County</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/bourinot_john_george_13E.html"/>
@@ -1271,7 +1271,7 @@
                      <surname>Bowell</surname>,
                             <forename>Mackenzie</forename> (<roleName>Sir</roleName>)</persName>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:NHAS1">Hastings North</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Hastings North</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:NHAS1">Hastings North</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/bowell_mackenzie_14E.html"/>
@@ -1306,7 +1306,7 @@
                             <forename>John</forename>
                      <forename>Young</forename> (<roleName>Dr.</roleName>)</persName>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:NBRA1">Brant North</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Brant North</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:NBRA1">Brant North</affiliation>
                </person>
                <person xml:id="BOYC1">
                   <persName when="1905">
@@ -1385,8 +1385,8 @@
                             <forename>Louis</forename>
                      <forename>Orville</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Waterloo North</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Waterloo North</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:NWAT1">Waterloo North</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:NWAT1">Waterloo North</affiliation>
                </person>
                <person xml:id="BRIS1">
                   <persName when="1905">
@@ -1394,7 +1394,7 @@
                             <forename>Edmund</forename>
                      <forename>James</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Toronto Centre</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:CTOR1">Toronto Centre</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/bristol_edmund_james_15E.html"/>
@@ -1409,14 +1409,14 @@
                      <surname>Broder</surname>,
                             <forename>Andrew</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Dundas</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:DUND1">Dundas</affiliation>
                </person>
                <person xml:id="BROD2">
                   <persName when="1905">
                      <surname>Brodeur</surname>,
                             <forename>Louis-Philippe</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Rouville</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:ROUV1">Rouville</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/brodeur_louis_philippe_15E.html"/>
@@ -1489,7 +1489,7 @@
                             <forename>James</forename>
                   </persName>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:WHAS1">Hastings West</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Hastings West</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:WHAS1">Hastings West</affiliation>
                </person>
                <person xml:id="BROW5">
                   <persName when="1905">
@@ -1497,7 +1497,7 @@
                             <forename>James</forename>
                      <forename>Pollock</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Châteauguay</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:CHAT2">Châteauguay</affiliation>
                </person>
                <person xml:id="BRUC1">
                   <persName when="1870">
@@ -1521,7 +1521,7 @@
                             <forename>Arthur</forename>
                      <forename>Aimé</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Richelieu</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:RICH7">Richelieu</affiliation>
                </person>
                <person xml:id="BRUN2">
                   <persName when="1945">
@@ -1560,7 +1560,7 @@
                      <surname>Bureau</surname>,
                             <forename>Jacques</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Three Rivers—St. Maurice</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:THRE3">Three Rivers—St. Maurice</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/bureau_jacques_16E.html"/>
@@ -1584,7 +1584,7 @@
                             <forename>Charles</forename>
                   </persName>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:SUNB1">Sunbury</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Sunbury</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:SUNB1">Sunbury</affiliation>
                </person>
                <person xml:id="BURR1">
                   <persName when="1905">
@@ -1609,7 +1609,7 @@
                      <forename>Henry</forename>
                   </persName>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:EDUR1">Durham East</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Durham East</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:EDUR1">Durham East</affiliation>
                </person>
                <person xml:id="BURT2">
                   <persName when="1945">
@@ -1625,7 +1625,7 @@
                      <surname>Burwell</surname>,
                             <forename>Leonidas</forename>
                   </persName>
-                  <affiliation when="1865" n="Ont/Que Leg">Elgin East</affiliation>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:EELG2">Elgin East</affiliation>
                </person>
                <person xml:id="BUSH1">
                   <persName when="1870">
@@ -1649,7 +1649,7 @@
                             <forename>Thomas</forename>
                      <forename>Boyd</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Lanark North</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:NLAN1">Lanark North</affiliation>
                </person>
                <person xml:id="CALD1">
                   <persName when="1868">
@@ -1741,7 +1741,7 @@
                   <persName when="1865">
                      <surname>Campbell</surname>,
                             <forename>Alexander</forename> (<roleName>Sir &amp; Dr.</roleName>)</persName>
-                  <affiliation when="1865" n="Ont/Que Leg">Cataraqui</affiliation>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:CATA1">Cataraqui</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/campbell_alexander_12E.html"/>
@@ -1802,8 +1802,8 @@
                             <forename>Lewis</forename>
                      <forename>Elston</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Huron North</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Huron North</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:NHUR1">Huron North</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:NLAN1">Huron North</affiliation>
                </person>
                <person xml:id="CARL1">
                   <persName when="1867">
@@ -1842,7 +1842,7 @@
                      <surname>Carney</surname>,
                             <forename>Michael</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Halifax</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:HALI1">Halifax</affiliation>
                </person>
                <person xml:id="CARO1">
                   <persName when="1867">
@@ -1858,7 +1858,7 @@
                             <forename>Jean-Baptiste</forename>
                      <forename>Thomas</forename>
                   </persName>
-                  <affiliation when="1907" n="AB/SK House of Commons">Ottawa</affiliation>
+                  <affiliation when="1907" n="AB/SK House of Commons" ref="plc:OTTA1">Ottawa</affiliation>
                </person>
                <person xml:id="CARR1">
                   <persName when="1870">
@@ -1883,7 +1883,7 @@
                             <forename>Louis</forename>
                      <forename>Auguste</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Lévis</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:LEVI2">Lévis</affiliation>
                   <note>wiki: shows up as Carrier</note>
                </person>
                <person xml:id="CART1">
@@ -1901,7 +1901,7 @@
                             <forename>George-Étienne</forename> (<roleName>Sir</roleName>)</persName>
                   <affiliation when="1865" n="Ont/Que Leg" ref="plc:EMON2">Montreal East</affiliation>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:EMON1">Montreal East</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Montreal East</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:EMON1">Montreal East</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/cartier_george_etienne_10E.html"/>
@@ -1957,8 +1957,8 @@
                             <forename>Wilfrid</forename>
                      <forename>Garfield</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Grey North</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Grey North</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:NGRE1">Grey North</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:NGRE1">Grey North</affiliation>
                </person>
                <person xml:id="CASH1">
                   <persName when="1905">
@@ -1973,8 +1973,8 @@
                             <forename>Arza</forename>
                      <forename>Clair</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Grenville—Dundas</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Grenville—Dundas</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:GREN3">Grenville—Dundas</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:GREN3">Grenville—Dundas</affiliation>
                </person>
                <person xml:id="CAST1">
                   <persName when="1945">
@@ -2047,8 +2047,8 @@
                      <surname>Chapdelaine</surname>,
                             <forename>Renaud</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Nicolet—Yamaska</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Nicolet—Yamaska</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:NICO3">Nicolet—Yamaska</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:NICO3">Nicolet—Yamaska</affiliation>
                   <note>Elected in by-election of February 7, 1949 to replace <persName ref="pers:DUBO1">Lucien Dubois</persName>, who died in office.</note>
                </person>
                <person xml:id="CHAR1">
@@ -2057,8 +2057,8 @@
                             <forename>John</forename>
                      <forename>Alpheus</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Brant</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Brant</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:BRAN3">Brant</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:BRAN3">Brant</affiliation>
                </person>
                <person xml:id="CHAR2">
                   <persName when="1872">
@@ -2066,7 +2066,7 @@
                             <forename>John</forename>
                      <forename>M.</forename>
                   </persName>
-                  <affiliation when="1872" n="PEI House of Commons">Norfolk North</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:NNOR1">Norfolk North</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/charlton_john_13E.html"/>
@@ -2108,8 +2108,8 @@
                      <surname>Chevrier</surname>,
                             <forename>Lionel</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Stormont</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Stormont</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:STOR1">Stormont</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:STOR1">Stormont</affiliation>
                </person>
                <person xml:id="CHIP1">
                   <persName when="1870">
@@ -2143,7 +2143,7 @@
                             <forename>Daniel</forename>
                      <forename>Black</forename>
                   </persName>
-                  <affiliation when="1872" n="PEI House of Commons">Hamilton</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:HAMI3">Hamilton</affiliation>
                </person>
                <person xml:id="CHIS2">
                   <persName when="1905">
@@ -2156,7 +2156,7 @@
                      <surname>Chisholm</surname>,
                             <forename>William</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Antigonish</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:ANTI1">Antigonish</affiliation>
                </person>
                <person xml:id="CHRI1">
                   <persName when="1865">
@@ -2178,7 +2178,7 @@
                      <surname>Christie</surname>,
                             <forename>Peter</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Ontario South</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:SONT1">Ontario South</affiliation>
                </person>
                <person xml:id="CHUR1">
                   <persName when="1945">
@@ -2235,8 +2235,8 @@
                             <forename>Stuart</forename>
                      <forename>Murray</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Essex South</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Essex South</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:SESS1">Essex South</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:SESS1">Essex South</affiliation>
                </person>
                <person xml:id="CLAR3">
                   <persName when="1905">
@@ -2252,7 +2252,7 @@
                             <forename>Edward</forename>
                      <forename>Frederick</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Toronto Centre</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:CTOR1">Toronto Centre</affiliation>
                </person>
                <person xml:id="CLAX1">
                   <persName when="1945">
@@ -2260,8 +2260,8 @@
                             <forename>Brooke</forename> 
                      <forename>Claxton</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">St. Lawrence—St. George</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">St. Lawrence—St. George</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:STLA3">St. Lawrence—St. George</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:STLA3">St. Lawrence—St. George</affiliation>
                </person>
                <person xml:id="CLEA1">
                   <persName when="1945">
@@ -2284,14 +2284,14 @@
                      <surname>Cloutier</surname>,
                             <forename>Armand</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Drummond—Arthabaska</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Drummond—Arthabaska</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:DRUM1">Drummond—Arthabaska</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:DRUM1">Drummond—Arthabaska</affiliation>
                </person>
                <person xml:id="COCH1">
                   <persName when="1905">
                      <surname>Cochrane</surname>,
                             <forename>Edward</forename> (<roleName>Rev.</roleName>)</persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Northumberland East</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:ENOR1">Northumberland East</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/cochrane_edward_13E.html"/>
@@ -2336,7 +2336,7 @@
                      <surname>Cockburn</surname>,
                             <forename>James</forename>
                   </persName>
-                  <affiliation when="1865" n="Ont/Que Leg">Northumberland West</affiliation>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:WNOR2">Northumberland West</affiliation>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:WNOR1">Northumberland West</affiliation>
                   <affiliation when="1872" n="PEI House of Commons" ref="plc:WNOR1">Northumberland West</affiliation>
                   <listBibl>
@@ -2353,8 +2353,8 @@
                      <surname>Cockeram</surname>,
                             <forename>Alan</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">York South</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">York South</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:SYOR1">York South</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:WNOR2">York South</affiliation>
                </person>
                <person xml:id="COCK3">
                   <persName when="1905">
@@ -2395,15 +2395,15 @@
                      <surname>Coldwell</surname>,
                             <forename>James</forename>
                      <forename>William</forename> (<roleName>Major</roleName>)</persName>
-                  <affiliation n="House of Commons" when="1945">Rosetown—Biggar</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Rosetown—Biggar</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:ROSE4">Rosetown—Biggar</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:ROSE4">Rosetown—Biggar</affiliation>
                </person>
                <person xml:id="CONM1">
                   <persName when="1905">
                      <surname>Conmee</surname>,
                             <forename>James</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Thunder Bay &amp; Rainy River</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:THUN1">Thunder Bay &amp; Rainy River</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/conmee_james_14E.html"/>
@@ -2428,7 +2428,7 @@
                      <forename>James</forename> 
                      <forename>Smith</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Digby</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:DIGB1">Digby</affiliation>
                </person>
                <person xml:id="DESB2">
                   <persName when="1865">
@@ -2477,9 +2477,9 @@
                   </persName>
                   <affiliation when="1865" n="NB Leg" ref="plc:YORK3">York</affiliation>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:YORK2">York</affiliation>
-                  <affiliation when="1898" n="AB/SK Leg">Batoche</affiliation>
-                  <affiliation when="1902" n="AB/SK Leg">Batoche</affiliation>
-                  <affiliation when="1903" n="AB/SK Leg">Banff</affiliation>
+                  <affiliation when="1898" n="AB/SK Leg" ref="plc:BATO1">Batoche</affiliation>
+                  <affiliation when="1902" n="AB/SK Leg" ref="plc:BATO1">Batoche</affiliation>
+                  <affiliation when="1903" n="AB/SK Leg" ref="plc:BATO1">Banff</affiliation>
                   <state when="1906">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">10</num>. Location: <placeName>Isle à la Crosse</placeName>. </note>
@@ -2498,8 +2498,8 @@
                      <surname>Côté</surname>,
                             <forename>Alcide</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Saint-Jean—Iberville—Napierville</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">St. Johns—Iberville—Napierville</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:STJE1">Saint-Jean—Iberville—Napierville</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:STJE1">St. Johns—Iberville—Napierville</affiliation>
                   <state when="1899">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Lesser Slave Lake</placeName>. </note>
@@ -2510,8 +2510,8 @@
                      <surname>Côté</surname>,
                             <forename>Antoine-Philéas</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Matapédia—Matane</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Matapédia—Matane</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:MATA3">Matapédia—Matane</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:MATA3">Matapédia—Matane</affiliation>
                </person>
                <person xml:id="COTE3">
                   <persName when="1945">
@@ -2537,8 +2537,8 @@
                      <forename>Philippe</forename> 
                      <forename>Gérard</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Richelieu—Verchères</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Richelieu—Verchères</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:RICH12">Richelieu—Verchères</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:RICH12">Richelieu—Verchères</affiliation>
                   <note>In 1949 list, it lists his full name, but in wiki it states his first name as 
                      Gerard and does not offer any middle names. Elected in by-election of December 23, 1946
                   to replace <persName ref="pers:CARD2">Arthur Cardin</persName>, who had died in office.</note>
@@ -2574,7 +2574,7 @@
                      <forename>Willoughby</forename>
                   </persName>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:SLEE1">Leeds South</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Leeds South</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:SLEE1">Leeds South</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/crawford_john_willoughby_10E.html"/>
@@ -2613,7 +2613,7 @@
                             <forename>Oswald</forename>
                      <forename>Smith</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">York</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:YORK2">York</affiliation>
                </person>
                <person xml:id="CROK1">
                   <persName when="1867">
@@ -2669,7 +2669,7 @@
                      <forename>William</forename>
                   </persName>
                   <affiliation when="1871" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:ALGO1">Algoma</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Algoma</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:ALGO1">Algoma</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/cumberland_frederic_william_11E.html"/>
@@ -2702,8 +2702,8 @@
                             <forename>Joseph</forename>
                      <forename>Merrill</forename>
                   </persName>
-                  <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons">Ottawa</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Ottawa</affiliation>
+                  <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:OTTA1">Ottawa</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:OTTA1">Ottawa</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/currier_joseph_merrill_11E.html"/>
@@ -5920,8 +5920,8 @@
                      <forename>Alexander</forename>
                   </persName>
                   <affiliation when="1871" n="PEI Leg" ref="plc:TPRI1">3rd Prince</affiliation>
-                  <affiliation when="1872" n="PEI Leg">3rd Prince</affiliation>
-                  <affiliation when="1873" n="PEI Leg">3rd Prince</affiliation>
+                  <affiliation when="1872" n="PEI Leg" ref="plc:TPRI1">3rd Prince</affiliation>
+                  <affiliation when="1873" n="PEI Leg" ref="plc:TPRI1">3rd Prince</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.gov.pe.ca/photos/original/leg_mthbiosM.pdf"/>
@@ -5936,7 +5936,7 @@
                   </persName>
                   <affiliation when="1865" n="Ont/Que Leg" ref="plc:CORN3">Cornwall</affiliation>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:CORN2">Cornwall</affiliation>
-                  <affiliation when="1872" n="PEI House of Commons">Cornwall</affiliation>
+                  <affiliation when="1872" n="PEI House of Commons" ref="plc:CORN2">Cornwall</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/macdonald_john_sandfield_10E.html"/>
@@ -5951,7 +5951,7 @@
                      <surname>Macdonald</surname>,
                             <forename>John</forename>
                   </persName>
-                  <affiliation when="1865" n="Ont/Que Leg">Toronto West</affiliation>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:WTOR3">Toronto West</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/macdonald_john_11E.html"/>
@@ -5984,8 +5984,8 @@
                             <forename>James</forename>
                      <forename>MacKerras</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Muskoka—Ontario</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Muskoka—Ontario</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:MUSK5">Muskoka—Ontario</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:MUSK5">Muskoka—Ontario</affiliation>
                </person>
                <person xml:id="MACF1">
                   <persName when="1865">
@@ -6035,7 +6035,7 @@
                             <forename>Alexander</forename>
                      <forename>Ferguson</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Perth North</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:NPER1">Perth North</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/maclaren_alexander_ferguson_14E.html"/>
@@ -6051,7 +6051,7 @@
                             <forename>Alexander</forename>
                      <forename>Kenneth</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Lunenburg</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:LUNE1">Lunenburg</affiliation>
                </person>
                <person xml:id="MACL3">
                   <persName when="1945">
@@ -6059,7 +6059,7 @@
                             <forename>Matthew</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:NCAP2">Cape Breton North and Victoria</affiliation>
-                  <affiliation when="1949" n="NF House of Commons">Cape Breton North—Victoria</affiliation>
+                  <affiliation when="1949" n="NF House of Commons" ref="plc:NCAP2">Cape Breton North—Victoria</affiliation>
                </person>
                <person xml:id="MACL4">
                   <persName when="1905">
@@ -6083,7 +6083,7 @@
                             <forename>John</forename>
                      <forename>Watson</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Prince</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:PRIN8">Prince</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Prince</affiliation>
                </person>
                <person xml:id="MACN2">
@@ -6159,7 +6159,7 @@
                             <forename>Park</forename>
                      <forename>Arthur</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">London</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:LOND1">London</affiliation>
                   <affiliation when="1949" n="NF House of Commons">London</affiliation>
                </person>
                <person xml:id="MARC1">
@@ -6190,7 +6190,7 @@
                      <surname>Marquis</surname>,
                             <forename>Eugène</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Kamouraska</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:KAMO3">Kamouraska</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Kamouraska</affiliation>
                </person>
                <person xml:id="MARS1">
@@ -6326,7 +6326,7 @@
                             <forename>Robert</forename>
                      <forename>Wellington</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Victoria</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:VICT2">Victoria</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Victoria</affiliation>
                </person>
                <person xml:id="MAYR1">
@@ -6334,7 +6334,7 @@
                      <surname>Mayrand</surname>,
                             <forename>Hormidas</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Maskinongé</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:MASK1">Maskinongé</affiliation>
                </person>
                <person xml:id="VAIL1">
                   <persName when="1865">
@@ -6366,7 +6366,7 @@
                             <forename>James</forename>
                      <forename>Joseph</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945">Renfrew South</affiliation>
+                  <affiliation n="House of Commons" when="1945" ref="plc:NREN1">Renfrew South</affiliation>
                   <affiliation when="1949" n="NF House of Commons">Renfrew South</affiliation>
                </person>
                <person xml:id="MCCA3">
@@ -6422,7 +6422,7 @@
                             <forename>John</forename>
                      <forename>B.</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons">Northumberland West</affiliation>
+                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:WNOR1">Northumberland West</affiliation>
                </person>
                <person xml:id="MCCO2">
                   <persName when="1865">
