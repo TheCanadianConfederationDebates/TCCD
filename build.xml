@@ -368,6 +368,21 @@
     </java>
   </target>
   
+  <target name="ridingsToGeoJSON">
+    <description>
+      TARGET ridingsToGeoJSON
+      This converts the place entries in the placeography into a GeoJSON file for use 
+      in the website.
+    </description>
+    <antcall target="MESSAGE"><param name="msg" value="GeoJSON from the places in the placeography..."/></antcall>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:${basedir}/data/placeography/placeography.xml"/>
+      <arg value="-xsl:${basedir}/code/xslt/ridings_to_geojson.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg line="-o:${basedir}/code/map/js/places.json"/>
+    </java>
+  </target>
+  
   <target name="all">
     <description>
       TARGET all
