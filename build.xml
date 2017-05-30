@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project basedir="." default="all" name="Validation and Diagnostics">
+<project basedir="." default="all" name="Validation, Diagnostics and build">
   
   <description>
 #####################################################################
-#  Project build file by Martin Holmes (mholmes@uvic.ca), 2016-11.  #
+# Project build file by Martin Holmes (mholmes@uvic.ca), 2016-2017. #
     
     This build file does three basic tasks:
     
@@ -117,6 +117,11 @@
   
 <!-- Portraits of individuals. -->
   <fileset id="portraits" dir="data/personography/portraits" includes="*.jpg"/>
+  
+<!-- Components of the map, to be copied to the website. -->
+  <fileset id="mapComponents" dir="code/map">
+    <include name="**/*"/>
+  </fileset>
   
 <!-- Utility targets. -->
   <target name="MESSAGE">
@@ -381,6 +386,18 @@
       <arg value="--suppressXsltNamespaceCheck:on"/>
       <arg line="-o:${basedir}/code/map/js/places.json"/>
     </java>
+  </target>
+  
+  <target name="copyMapContentToSite">
+    <description>
+      TARGET copyMapContentToSite
+      This copies two sets of files, the base map files which are in code/map, and
+      the postal code JSON files which are in code/postalcodes. It places them in 
+      the web output folder.
+    </description>
+    <copy todir="${webDir}">
+      <fileset refid="mapComponents"/>
+    </copy>
   </target>
   
   <target name="all">

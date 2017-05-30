@@ -5,9 +5,12 @@
         <meta charset="UTF-8"/>
         <title>Canada</title>
         <link rel="stylesheet" href="css/ol.css" type="text/css"/>
+        <link rel="stylesheet" href="css/map.css"/>
             <script src="js/ol.js" type="text/javascript"></script>
             <script src="js/mapbox-streets-v6-style.js" type="text/javascript"></script>
             <script src="js/key.js" type="text/javascript"></script>
+            <script src="js/utilities.js" type="text/javascript"></script>
+            <script src="js/postalcodes.js" type="text/javascript"></script>
             <style>
       .map {
         background: #f8f4f0;
@@ -62,5 +65,11 @@
         
         //]]>
     </script>
+      
+      <div id="postalCodeForm">
+        <label for="txtPostalCode">Enter your postal code</label>
+        <input type="text" maxlength="6" id="txtPostalCode" value="v8z2s3"/>
+        <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value)">Go</button>
+      </div>
     </body>
 </html>
