@@ -1562,7 +1562,7 @@
       </location>
       <note>
          <list>
-            <head>Representatives</head>
+            <head>Elected Seat</head>
             <item/>
          </list>
       </note>
@@ -3316,7 +3316,7 @@
          <region>NEWFOUNDLAND</region>
          <district>ST. JOHN'S EAST</district>
       </placeName>
-      <location notBefore="1865" notAfter="1946">
+      <location notBefore="1865" notAfter="1869">
          <geo>47.65798,-52.7893</geo>
       </location>
       <note>
@@ -3331,7 +3331,7 @@
          <region>NEWFOUNDLAND</region>
          <district>ST. JOHN'S WEST</district>
       </placeName>
-      <location notBefore="1865" notAfter="1946">
+      <location notBefore="1865" notAfter="1869">
          <geo>47.5172,-52.81127</geo>
       </location>
       <note>
@@ -3962,7 +3962,7 @@
          <district>MITCHELL</district>
       </placeName>
       <location notBefore="1887" notAfter="1905">
-         <geo>52.14023,-106.67724</geo>
+         <geo>52.19454, -106.78436</geo>
       </location>
       <note>
          <list>
@@ -10657,21 +10657,6 @@
          </list>
       </note>
    </place>
-   <place xml:id="FKIN3" type="nonFederal">
-      <placeName>
-         <region>PRINCE EDWARD ISLAND</region>
-         <district>1ST KING</district>
-      </placeName>
-      <location notBefore="1866">
-         <geo>46.4104,-62.27874</geo>
-      </location>
-      <note>
-         <list>
-            <head>Representatives</head>
-            <item/>
-         </list>
-      </note>
-   </place>
    <place xml:id="CHAR9" type="nonFederal">
       <placeName>
          <region>PRINCE EDWARD ISLAND</region>
@@ -15252,7 +15237,7 @@
          <geo>52.46848, -113.73051</geo>
       </location>
    </place>
-   <place xml:id="_PRIN20" type="nonFederal">
+   <place xml:id="_WPRI1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>PRINCE ALBERT WEST</district>
@@ -15267,7 +15252,7 @@
          </list>
       </note>
    </place>
-   <place xml:id="_PRIN21" type="nonFederal">
+   <place xml:id="_EPRI1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>PRINCE ALBERT EAST</district>
@@ -15297,13 +15282,28 @@
          </list>
       </note>
    </place>
-   <place xml:id="_CALG1" type="nonFederal">
+   <place xml:id="_WCAL1" type="nonFederal">
       <placeName>
          <region>NORTHWEST TERRITORIES</region>
          <district>CALGARY WEST</district>
       </placeName>
       <location notBefore="1887" notAfter="1905">
          <geo>51.07333, -114.1809</geo>
+      </location>
+      <note>
+         <list>
+            <head>Representatives</head>
+            <item/>
+         </list>
+      </note>
+   </place>
+   <place xml:id="_ECAL20" type="nonFederal">
+      <placeName>
+         <region>NORTHWEST TERRITORIES</region>
+         <district>CALGARY EAST</district>
+      </placeName>
+      <location notBefore="1887" notAfter="1905">
+         <geo>51.06901, -113.97491</geo>
       </location>
       <note>
          <list>
@@ -15327,6 +15327,126 @@
          </list>
       </note>
    </place>
+               <place xml:id="_HIGH1" type="nonFederal">
+                  <placeName>
+                     <region>NORTHWEST TERRITORIES</region>
+                     <district>HIGH RIVER</district>
+                  </placeName>
+                  <location notBefore="1887" notAfter="1905">
+                     <geo>50.57549, -113.85835</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>Representatives</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
+               <place xml:id="_CARD1" type="nonFederal">
+                  <placeName>
+                     <region>NORTHWEST TERRITORIES</region>
+                     <district>CARDSTON</district>
+                  </placeName>
+                  <location notBefore="1887" notAfter="1905">
+                     <geo>49.19586, -113.30564</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>Representatives</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
+               <place xml:id="_SASK1" type="nonFederal">
+                  <placeName>
+                     <region>NORTHWEST TERRITORIES</region>
+                     <district>SASKATOON</district>
+                  </placeName>
+                  <location notBefore="1887" notAfter="1905">
+                     <geo>52.13622, -106.67707</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>Representatives</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
+               <place xml:id="_VICT21" type="nonFederal">
+                  <placeName>
+                     <region>NORTHWEST TERRITORIES</region>
+                     <district>VICTORIA</district>
+                  </placeName>
+                  <location notBefore="1887" notAfter="1905">
+                     <geo>54.78093, -111.81457</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>Representatives</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
+               <place xml:id="_LABR1" type="nonFederal">
+                  <placeName>
+                     <region>NEWFOUNDLAND</region>
+                     <district>LABRADOR</district>
+                  </placeName>
+                  <location notBefore="1946">
+                     <geo>53.6967, -61.7871</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>Representatives</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
+               <place xml:id="_SORE2" type="nonFederal">
+                  <placeName>
+                     <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
+                     <district>Quebec-Sorel</district>
+                  </placeName>
+                  <location notBefore="1865">
+                     <geo>46.03995, -73.12654</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>Appointed Seat</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
+               <place xml:id="_ESTJ1" type="nonFederal">
+                  <placeName>
+                     <region>NEWFOUNDLAND</region>
+                     <district>ST. JOHN'S EAST</district>
+                  </placeName>
+                  <location notBefore="1946" notAfter="1949">
+                     <geo>47.67694, -52.77831</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>Representatives</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
+               <place xml:id="_WSTJ1" type="nonFederal">
+                  <placeName>
+                     <region>NEWFOUNDLAND</region>
+                     <district>ST. JOHN'S WEST</district>
+                  </placeName>
+                  <location notBefore="1946" notAfter="1949">
+                     <geo>47.57444, -52.78347</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>Representatives</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
 </listPlace>
          </settingDesc>
       </profileDesc>
