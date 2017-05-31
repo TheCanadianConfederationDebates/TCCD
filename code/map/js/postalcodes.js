@@ -62,6 +62,7 @@ function jumpToPostalCode(postalCode){
             alert('The postal code ' + cleanCode + ' was not found. Please try a nearby one.');
         }, function(Error){
             console.log(Error);
+            alert('The postal code ' + cleanCode + ' was not found. Please try a nearby one.');
         })
     }
 }
