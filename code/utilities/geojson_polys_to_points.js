@@ -42,6 +42,7 @@ writeLine('The input file contains ' + geoObj.features.length + ' features.');
 for (var i=0; i<geoObj.features.length; i++){
   writeLine('...processing feature # ' + i);
   geoObj.features[i].geometry = polygonCenter(geoObj.features[i].geometry);
+  delete geoObj.features[i].properties.VERTICES;
 }
 
 writeLine('Writing output file...');
