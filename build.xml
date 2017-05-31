@@ -268,6 +268,9 @@
     <copy todir="${webDir}/portraits">
       <fileset refid="portraits"/>
     </copy>
+    <copy todir="${webDir}">
+      <fileset refid="mapComponents"/>
+    </copy>
   </target>
   
   <target name="createLanguageSymlinks">
@@ -388,18 +391,6 @@
     </java>
   </target>
   
-  <target name="copyMapContentToSite">
-    <description>
-      TARGET copyMapContentToSite
-      This copies two sets of files, the base map files which are in code/map, and
-      the postal code JSON files which are in code/postalcodes. It places them in 
-      the web output folder.
-    </description>
-    <copy todir="${webDir}">
-      <fileset refid="mapComponents"/>
-    </copy>
-  </target>
-  
   <target name="all">
     <description>
       TARGET all
@@ -412,6 +403,7 @@
     <antcall target="validation"/>
     <antcall target="diagnostics"/>
     <antcall target="metadiagnostics"/>
+    <antcall target="ridingsToGeoJSON"/>
     <antcall target="website"/>
     <antcall target="rsyncWebsite"/>
     <antcall target="MESSAGE"><param name="msg" value="DONE!"/></antcall>
