@@ -57,3 +57,27 @@ function ajaxRetrieve(url, responseType) {
     request.send();
   });
 };
+
+/**
+ * Function for parsing a URL query string. Pinched with thanks
+ * from here:
+ * http://stackoverflow.com/questions/2090551/parse-query-string-in-javascript
+ *
+ * @function getQueryParam
+ * @description parses a URL query
+ *         string and returns a value for a specified param name.
+ * @param {string} param The name of the param name to search for.
+ * @returns {string} the value of the param, or an empty string.
+ */
+function getQueryParam(param) {
+    var i, vars, pair, query = window.location.search.substring(1);
+    vars = query.split('&');
+    for (i = 0; i < vars.length; i++) {
+        pair = vars[i].split('=');
+        if (decodeURIComponent(pair[0]) == param) {
+            return decodeURIComponent(pair[1]);
+        }
+    }
+    return '';
+};
+
