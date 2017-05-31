@@ -5,3 +5,7 @@
     bottom: 0;
     padding: 1em;
 }
+
+#postalCodeForm input[type='text']{
+    max-width: 6em;
+}

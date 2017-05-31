@@ -41,7 +41,8 @@ for (var a1=0; a1<26; a1++){
       
 /* Create a basic JS object to which we can add any features that fall into 
    this prefix. */
-      var prefObj = JSON.parse('{"type": "FeatureCollection", "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },"features": []}');
+      //var prefObj = JSON.parse('{"type": "FeatureCollection", "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },"features": []}');
+      var prefObj = JSON.parse('{"type": "FeatureCollection","features": []}');
       
       for (var f=0; f<geoObj.features.length; f++){
         if (geoObj.features[f].properties.ZIP.substring(0,3) === prefix){

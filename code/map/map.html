@@ -24,6 +24,60 @@
 
             <!--
             
+            //Create default style for riding points.
+            var strokeRiding = new ol.style.Stroke({color: 'black', width: 2});
+            var fillRiding = new ol.style.Fill({color: 'rgba(255, 204, 51, 0.5)'});
+            var strokePostalCode = new ol.style.Stroke({color: '#ff0000', width: 2});
+            var fillPostalCode = new ol.style.Fill({color: 'rgba(255, 0, 0, 0.2)'});
+            
+            
+            var ridingStyle = new ol.style.Style({
+              image: new ol.style.Circle({
+                fill: fillRiding,
+                stroke: strokeRiding,
+                radius: 7
+              })
+            });
+            
+            var getPostalCodeStyle = function (feat, resolution){
+              return new ol.style.Style({
+                image: new ol.style.RegularShape({
+                  fill: fillPostalCode,
+                  stroke: strokePostalCode,
+                  points: 5,
+                  radius: 10,
+                  radius2: 4,
+                  angle: 0
+                }),
+                text: new ol.style.Text({
+                  text: feat.get('id'),
+                  align: center,
+                  offsetY: -20,
+                  stroke: new ol.style.Stroke({color: 'white', width: 4}),
+                  font: 'bold 16px Georgia'
+                })
+              });
+            };
+                        
+            //Create a vector layer for the ridings.
+            var srcRidings = new ol.source.Vector({
+              url: 'js/places.json',
+              format:  new ol.format.GeoJSON()
+            });
+            var layerRidings = new ol.layer.Vector({
+              source: srcRidings,
+              style: ridingStyle
+            });
+            
+            //Create another unsourced layer for the user-entered postal codes.
+            var srcPostalCodes = new ol.source.Vector({
+              format:  new ol.format.GeoJSON()
+            });
+            var layerPostalCodes = new ol.layer.Vector({
+              source: srcPostalCodes,
+              style: getPostalCodeStyle
+            });
+            
             var key = APIKey;
             
             //Longitudinal centre of Canada per https://en.wikipedia.org/wiki/Centre_of_Canada;
@@ -45,13 +99,15 @@
                         '{z}/{x}/{y}.vector.pbf?access_token=' + key
                   }),
                   style: createMapboxStreetsV6Style()
-                })
+                }),
+                layerRidings,
+                layerPostalCodes
               ],
               target: 'map',
               view: new ol.View({
                 bounds: bounds,
                 center: ol.proj.fromLonLat(center),
-                projection: 'EPSG:3857',
+                //projection: 'EPSG:3857',
                 zoom: 4,
                 maxZoom: 16,
                 minZoom: 4
@@ -69,7 +125,7 @@
       <div id="postalCodeForm">
         <label for="txtPostalCode">Enter your postal code</label>
         <input type="text" maxlength="6" id="txtPostalCode" value="v8z2s3"/>
-        <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value)">Go</button>
+        <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value); return false;">Go</button>
       </div>
     </body>
 </html>
