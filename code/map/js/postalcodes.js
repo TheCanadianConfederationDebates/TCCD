@@ -58,7 +58,8 @@ function jumpToPostalCode(postalCode){
                     return true;
                 }
             }
-            console.log(srcPostalCodes.getFeatures().length);
+            console.log('Postal code not found.');
+            alert('The postal code ' + cleanCode + ' was not found. Please try a nearby one.');
         }, function(Error){
             console.log(Error);
         })
