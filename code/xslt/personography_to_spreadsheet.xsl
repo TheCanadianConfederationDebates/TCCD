@@ -24,7 +24,7 @@
         <xd:desc>Root template does all processing and produces output.</xd:desc>
     </xd:doc>
     <xsl:template match="/">
-        <xsl:message>Creating CSV from from <xsl:value-of select="count(//listPerson[@xml:id='historicalPersonography']/person)"/> people in the placeography.</xsl:message>
+        <xsl:message>Creating CSV from from <xsl:value-of select="count(//listPerson[@xml:id='historicalPersonography']/person)"/> people in the personography.</xsl:message>
 <!--     Header row.    -->
         <xsl:text>@xml:id&#9;nameDate&#9;surname&#9;forename&#9;affiliation&#9;state&#9;biblio (en)&#9;biblio (fr)</xsl:text>
         <xsl:for-each select="//listPerson[@xml:id='historicalPersonography']/person">
