@@ -7,5 +7,21 @@
 }
 
 #postalCodeForm input[type='text']{
-    max-width: 6em;
+    max-width: 7em;
+}
+
+#mapPopup{
+    padding: 0.5em;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+#mapPopup span.placeName{
+    font-weight: bold;
+}
+
+div.popupCloser{
+    cursor: pointer;
 }

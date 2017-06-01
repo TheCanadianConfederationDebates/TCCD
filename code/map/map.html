@@ -58,12 +58,40 @@
                 })
               });
             };
+            
+            function parseSearch(){
+              var i, maxi, feat;
+              var targPlace = getQueryParam('place');
+              var targPostalCode = getQueryParam('postalCode');
+              if (targPlace.length > 0){
+                 feat = srcRidings.getFeatureById(targPlace);
+                 if (feat !== null){
+                    setupMapPopup();
+                    document.getElementById('mapPopup').innerHTML = featureToHtml(feat);
+                    mapPopup.setPosition(feat.getGeometry().getCoordinates());
+                    zoomToFeature(feat);
+                 }
+              }
+              if (targPostalCode.length > 0){
+                 jumpToPostalCode(targPostalCode);
+              }
+            };
                         
             //Create a vector layer for the ridings.
             var srcRidings = new ol.source.Vector({
               url: 'js/places.json',
               format:  new ol.format.GeoJSON()
             });
+            
+            var ridingsLoadedFunc = function(){
+              if (srcRidings.getState() == 'ready'){
+                srcRidings.un('change', ridingsLoadedFunc);
+                parseSearch();
+              }
+            }
+            
+            srcRidings.on('change', ridingsLoadedFunc);
+            
             var layerRidings = new ol.layer.Vector({
               source: srcRidings,
               style: ridingStyle
@@ -89,6 +117,7 @@
               layers: [
                 new ol.layer.VectorTile({
                   source: new ol.source.VectorTile({
+                    crossOrigin: 'anonymous',
                     attributions: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> ' +
                       '© <a href="https://www.openstreetmap.org/copyright">' +
                       'OpenStreetMap contributors</a>',
@@ -113,6 +142,52 @@
                 minZoom: 4
               })
             });
+            
+            var mapPopup = null;
+            
+            //Add a crude click event so you can see the info on a riding.
+            //Later this will show whatever it is we want to show.
+            map.on("click", function(e) {
+              map.forEachFeatureAtPixel(e.pixel, function (feature, layer) {
+                  setupMapPopup();
+                  if (feature.getProperties().notBefore){
+                    document.getElementById('mapPopup').innerHTML = featureToHtml(feature);
+                    mapPopup.setPosition(e.coordinate);
+                  }
+              })
+            });
+            
+            function featureToHtml(feature){
+              var props = feature.getProperties();
+              var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-200,-200])">✕</div>';
+              ret += '<span class="placeName" title="' + feature.getId() + '">' + props.name + '</span><br/>';
+              ret += '(' + props.notBefore;
+              if (props.notAfter !== ''){ret += '-' + props.notAfter;}
+              ret += ')<br/>';
+              if (props.federal == true){ret += 'Fed.';}
+              else{ret += 'Non-fed.';}
+              return ret;
+            }
+            
+            function setupMapPopup(){
+              if (mapPopup == null){
+                     mapPopup = new ol.Overlay({
+                        element: document.getElementById('mapPopup'),
+                        positioning: 'bottom-center',
+                        offset: [0, -5]
+                      });
+                     map.addOverlay(mapPopup);
+                  }
+            }
+            
+            function zoomToFeature(feat){
+              map.getView().animate({
+                //center: ol.proj.fromLonLat(feat.getGeometry().getCoordinates()),
+                center: feat.getGeometry().getCoordinates(),
+                zoom: 8,
+                duration: 2000
+              });
+            }
 
       // ol.style.Fill, ol.style.Icon, ol.style.Stroke, ol.style.Style and
       // ol.style.Text are required for createMapboxStreetsV6Style()
@@ -124,8 +199,12 @@
       
       <div id="postalCodeForm">
         <label for="txtPostalCode">Enter your postal code</label>
-        <input type="text" maxlength="7" id="txtPostalCode" value="v8z2s3"/>
+        <input type="text" maxlength="7" id="txtPostalCode" value="v8z2s3" onkeyup="if (event.keyCode == 13){jumpToPostalCode(this.value)}; return false;"/>
         <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value); return false;">Go</button>
+      </div>
+      
+      <div id="mapPopup">
+        
       </div>
     </body>
 </html>

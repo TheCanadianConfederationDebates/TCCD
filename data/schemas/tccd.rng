@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-05-26T18:36:20Z. 2016.
+Schema generated from ODD source 2017-05-31T20:47:10Z. 2016.
 TEI Edition: Version 3.1.1a. Last updated on
 	31st March 2017, revision 7a1e145
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -4978,7 +4978,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BARK2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Barkman, Isaac. headman? Treaty # 9. Location: Trout Lake. (1929: ).</a:documentation>
                   <value>pers:BARN1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Barnard, Francis Jones. Yale (1870: BC Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Barnard, Francis Jones. Yale and Lytton (1870: BC Leg).</a:documentation>
                   <value>pers:BARN2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Barnes, William M. Bonavista Bay (1869: NF Leg).</a:documentation>
                   <value>pers:BARR1</value>
@@ -5210,7 +5210,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BOTS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Botsford, Bliss. Westmorland (1865: NB Leg).</a:documentation>
                   <value>pers:BOUC1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher De Niverville, Louis-Charles. Trois-Rivières (1865: Ont/Que Leg); Trois-Rivières (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher De Niverville, Louis-Charles. Trois-Rivières (Three Rivers) (1865: Ont/Que Leg); Trois-Rivières (Three Rivers) (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
                   <value>pers:BOUC3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher, Charles Eugene. Batoche (1894: AB/SK Leg).</a:documentation>
                   <value>pers:BOUC4</value>
@@ -5220,7 +5220,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BOUL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boulton, George Strange. Lower Canada (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:BOUR1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bourassa, François. Saint Jean (1865: Ont/Que Leg); Saint-Jean (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Saint Jean (1872: PEI House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bourassa, François. Saint Jean (1865: Ont/Que Leg); St. John's (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); St. John's (1872: PEI House of Commons).</a:documentation>
                   <value>pers:BOUR2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bourassa, Joseph Napoléon Henri. Labelle (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:BOUR3</value>
@@ -5760,7 +5760,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:DAVI4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Davidson, John A. witness Treaty # 1 &amp;/or 2. Location: signed at?. (1875: ).</a:documentation>
                   <value>pers:DAVI2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Davies, Benjamin. 4th Queens (1867: PEI Leg); 4th Queens (1871: PEI Leg); 4th Queens (1872: PEI Leg); 4th Queens (1873: PEI Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Davies, Benjamin. 4th Queens (1867: PEI Leg); 4th Queens (1871: PEI Leg); 4th Queens&gt;4th Queens (1872: PEI Leg); 4th Queens&gt;4th Queens (1873: PEI Leg).</a:documentation>
                   <value>pers:DAVI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Davies, Daniel. Charlottetown and Royalty (1863: PEI Leg); Charlottetown (1871: PEI Leg).</a:documentation>
                   <value>pers:DAVI3</value>
@@ -6892,7 +6892,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:LAMO2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lamoëlle, Vital. Chipewyans of Great Slave Lake (1900: ); Headman? Treaty # 8. Location: Fort Resolution. (1900: ).</a:documentation>
                   <value>pers:LANC1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lancaster, Edward Arthur. Lincoln and Niagara (1905: AB/SK House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lancaster, Edward Arthur. Lincoln (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:LANC2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lanctôt, Adélard. Richelieu (1907: AB/SK House of Commons).</a:documentation>
                   <value>pers:LANC3</value>
@@ -6900,7 +6900,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:LAND1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Landry, Amand. Westmorland (1865: NB Leg).</a:documentation>
                   <value>pers:LANG1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Langevin, Hector-Louis (Sir). Dorchester (1865: Ont/Que Leg); Dorchester (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Dorchester (1872: PEI House of Commons); Three Rivers (1888: NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Langevin, Hector-Louis (Sir). Dorchester (1865: Ont/Que Leg); Dorchester (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Dorchester (1872: PEI House of Commons); Trois-Rivières (Three Rivers) (1888: NF House of Commons).</a:documentation>
                   <value>pers:LANG3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Langlois, J. G. Léopold. Gaspé (1945: House of Commons); Gaspé (1949: NF House of Commons).</a:documentation>
                   <value>pers:LANG2</value>
@@ -6966,7 +6966,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:LEDU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Leduc, H. witness Treaty # 6. Location: Edmonton. (1877: ).</a:documentation>
                   <value>pers:LEFU1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lefurgey, Alfred Alexander. Prince East (1905: AB/SK House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lefurgey, Alfred Alexander. Prince (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:LEFU2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lefurgey, John. 5th Prince (1871: PEI Leg); 5th Prince (1872: PEI Leg); 5th Prince (1873: PEI Leg).</a:documentation>
                   <value>pers:LEMI1</value>
@@ -7392,7 +7392,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MCDO8</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDougall, William (Sir). Lanark North (1865: Ont/Que Leg); Lanark North (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Lanark North (1872: PEI House of Commons).</a:documentation>
                   <value>pers:MCDO9</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDougall, William. Trois-Rivières (1868: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Trois-Rivières (1872: PEI House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDougall, William. Trois-Rivières (Three Rivers) (1868: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Trois-Rivières (Three Rivers) (1872: PEI House of Commons).</a:documentation>
                   <value>pers:MCEL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McElvey, John. witness Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:MCEW1</value>
@@ -8298,7 +8298,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:ROSE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Rose, Fred. Cartier (1945: House of Commons); witness Treaty # 9. Location: Fort Severn. (1930: ).</a:documentation>
                   <value>pers:ROSE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Rose, John (Sir). Montreal (1865: Ont/Que Leg); Huntingdon (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Rose, John (Sir). Montreal Centre (1865: Ont/Que Leg); Huntingdon (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
                   <value>pers:ROSS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, Alexander Charles. Cape Breton North and Victoria (1906: AB/SK House of Commons).</a:documentation>
                   <value>pers:ROSS14</value>
@@ -8458,11 +8458,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SHAS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sha-Sha-Gance. Shoal Lake (1873: ); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</a:documentation>
                   <value>pers:SHAN1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shanly, Walter. Grenville South (1865: Ont/Que Leg); Grenville South (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Grenville South (1872: PEI House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shanly, Walter. Grenville (1865: Ont/Que Leg); Grenville South (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Grenville South (1872: PEI House of Commons).</a:documentation>
                   <value>pers:SHAN2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shannon, Samuel Leonard. Halifax County Western Division (1865: NS Leg); Halifax County Western Division (1866: NS Leg).</a:documentation>
                   <value>pers:SHAW1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shaw, Frederick Davis. Red Deer (1945: House of Commons); Shoal Lake (1873: ); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shaw, Frederick Davis. Red Deer (1945: House of Commons).</a:documentation>
+                  <value>pers:SHAW3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shaw, Frederick Davis. Shoal Lake (1873: ); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</a:documentation>
                   <value>pers:SHAW2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Shaw, John. witness; Interpreter Treaty # 8. Location: Fort St. John. (1900: ).</a:documentation>
                   <value>pers:SHAY1</value>
@@ -8500,7 +8502,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SIMP2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Simpson, Wemyss Mackenzie. Algoma (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Indian Commissioner Treaty # 1. Location: Lower Fort Garry. (1871: ); Indian Commissioner Treaty # 2. Location: Manitoba Post. (1871: ).</a:documentation>
                   <value>pers:SINC6</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair (sr.), Peter. 1st Queens (1867: PEI Leg); 1st Queens (1872: PEI Leg, PEI Leg); 1st Queens (1872: PEI Leg, PEI Leg); 1st Queens (1873: PEI Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair (sr.), Peter. 1st Queens (1867: PEI Leg); 1st Queens (1872: PEI Leg); 1st Queens (1872: PEI Leg); 1st Queens (1873: PEI Leg).</a:documentation>
                   <value>pers:SINC5</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sinclair, George. 3rd Prince (1863: PEI Leg); 3rd Prince (1867: PEI Leg).</a:documentation>
                   <value>pers:SINC7</value>
@@ -8668,7 +8670,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SUTH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutherland, James. Oxford North (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:SUTH2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutherland, John. 2nd Kings (1863: PEI Leg); Kildonan (1870: MB Convention of 40); witness Treaty # 8. Location: Smith's Landing. (1899: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutherland, John. 2nd Kings (1863: PEI Leg).</a:documentation>
+                  <value>pers:SUTH7</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutherland, John. Kildonan (1870: MB Convention of 40); witness Treaty # 8. Location: Smith's Landing. (1899: ).</a:documentation>
                   <value>pers:SUTH3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sutherland, Robert Franklin. Essex North (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:SUTH4</value>
@@ -8920,7 +8924,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:WALB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walbank, Matthew William. Bonavista Bay (1861: NF Leg).</a:documentation>
                   <value>pers:WALK1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walkem, George Anthony. ? Cariboo East and Quesnel Forks (1870: BC Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walkem, George Anthony. ? Cariboo East (1870: BC Leg).</a:documentation>
                   <value>pers:WALK3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walker, James. witness; N.W.M.P Treaty # 6. Location: or near Fort Carlton. (1876: ); witness; Inspector N.W.M.P. Treaty # 6. Location: Battleford. (1878: ); witness Treaty # 8. Location: Lesser Slave Lake. (1899: ).</a:documentation>
                   <value>pers:WALK4</value>
@@ -8932,7 +8936,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:WALL6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wallace, Richard Alfred. High River (1898: AB/SK Leg); High River (1902: AB/SK Leg).</a:documentation>
                   <value>pers:WALL2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wallace, Robert. Vancouver (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Vancouver Island (1872: PEI House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wallace, Robert. Vancouver Island (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Vancouver Island (1872: PEI House of Commons).</a:documentation>
                   <value>pers:WALL3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wallace, William. Norfolk South (1872: PEI House of Commons).</a:documentation>
                   <value>pers:WALL4</value>
@@ -9256,7 +9260,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:ALMA1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ALMA (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:ANNA3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ANNAPOLIS (NOVA SCOTIA), federal, 1867-1904 RAY, H.; RAY, Hallett; PICKUP, Samuel</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ANNAPOLIS (NOVA SCOTIA), federal, 1867-1905 RAY, H.; RAY, Hallett; PICKUP, Samuel</a:documentation>
                         <value>plc:ANNA4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ANNAPOLIS COUNTY (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:ANTI1</value>
@@ -9266,7 +9270,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:ANTI3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ANTIGONISH-GUYSBOROUGH (NOVA SCOTIA), federal, 1945- KIRK, James</a:documentation>
                         <value>plc:ARGE1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ARGENTEUIL (QUEBEC), federal, 1867-1904 ABBOTT, Joseph; ABBOTT, Joseph; PERLEY, H.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ARGENTEUIL (QUEBEC), federal, 1867-1905 ABBOTT, Joseph; ABBOTT, Joseph; PERLEY, H.</a:documentation>
                         <value>plc:ARGE2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ARGENTEUIL (QUEBEC), federal, 1945- HEON,</a:documentation>
                         <value>plc:ARGE3</value>
@@ -9276,7 +9280,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:ATHA1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ATHABASKA (ALBERTA), federal, 1945- DECHENE, Joseph</a:documentation>
                         <value>plc:BAGO1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BAGOT (QUEBEC), federal, 1867-1904 GENDRON,; GENDRON,; MARCIL,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BAGOT (QUEBEC), federal, 1867-1905 GENDRON,; GENDRON,; MARCIL,</a:documentation>
                         <value>plc:BAGO2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BAGOT (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:BANF2</value>
@@ -9304,19 +9308,19 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:BEAU8</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BEAUCE (QUEBEC), federal, 1867-1945 POZER, Henry; POZER, Henry; BELAND,; DIONNE,</a:documentation>
                         <value>plc:BEAU9</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BEAUHARNOIS (QUEBEC), federal, 1867-1904 CAYLEY,; ROBILLARD,; BERGERON,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BEAUHARNOIS (QUEBEC), federal, 1867-1905 CAYLEY,; ROBILLARD,; BERGERON,</a:documentation>
                         <value>plc:BEDF1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BEDFORD (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:BELL10</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BELL ISLAND (NEWFOUNDLAND), nonFederal, 1946- </a:documentation>
                         <value>plc:BELL11</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BELLECHASSE (QUEBEC), federal, 1867-1904 CASAULT,; FOURNIER,; FOURNIER,; FOURNIER, Télesphore; TALBOT,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BELLECHASSE (QUEBEC), federal, 1867-1905 CASAULT,; FOURNIER,; FOURNIER,; FOURNIER, Télesphore; TALBOT,</a:documentation>
                         <value>plc:BELL12</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BELLECHASSE (QUEBEC), federal, 1945- PICARD,</a:documentation>
                         <value>plc:BELL13</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BELLECHASSE (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:BERT5</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BERTHIER (QUEBEC), federal, 1867-1904 PAQUET, Homère; PAQUET, Homère; ARCHAMBAULT,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BERTHIER (QUEBEC), federal, 1867-1905 PAQUET, Homère; PAQUET, Homère; ARCHAMBAULT,</a:documentation>
                         <value>plc:BERT6</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BERTHIER (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:BERT7</value>
@@ -9346,11 +9350,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:BROC1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BROCK (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:BROC2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BROCKVILLE (ONTARIO), federal, 1867-1904 CRAWFORD, James; BUELL, Jacob; DERBYSHIRE, D.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BROCKVILLE (ONTARIO), federal, 1867-1905 CRAWFORD, James; BUELL, Jacob; DERBYSHIRE, D.</a:documentation>
                         <value>plc:BROC3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BROCKVILLE (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:BROM1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BROME (QUEBEC), federal, 1867-1904 DUNKIN, Christopher; DUNKIN,; CARTER,; CARTER,; FISHER,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BROME (QUEBEC), federal, 1867-1905 DUNKIN, Christopher; DUNKIN,; CARTER,; CARTER,; FISHER,</a:documentation>
                         <value>plc:BROM2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BROME (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:BROM3</value>
@@ -9384,7 +9388,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:CARI2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CARIBOO (BRITISH COLUMBIA), federal, 1872-1945 THOMPSON, Joshua; IRVINE, William</a:documentation>
                         <value>plc:CARL2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CARLETON (NEW BRUNSWICK), federal, 1867-1904 CONNELL, Charles; CONNELL, Charles; Appleby, Stephen; CARVELL, Frank</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CARLETON (NEW BRUNSWICK), federal, 1867-1905 CONNELL, Charles; CONNELL, Charles; Appleby, Stephen; CARVELL, Frank</a:documentation>
                         <value>plc:CARL3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CARLETON (NEW BRUNSWICK), nonFederal, 1865-1866 </a:documentation>
                         <value>plc:CARL4</value>
@@ -9400,11 +9404,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:CCAP1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COUNTY OF CAPE BRETON (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:CCSJ1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CITY AND COUNTY OF ST. JOHN (NEW BRUNSWICK), federal, 1867-1904 GRAY, H.; BURPEE,; PALMER, Lockwood; BURPEE, Isaac; STOCKTON, Alfred</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CITY AND COUNTY OF ST. JOHN (NEW BRUNSWICK), federal, 1867-1905 GRAY, H.; BURPEE,; PALMER, Lockwood; BURPEE, Isaac; STOCKTON, Alfred</a:documentation>
                         <value>plc:CHAM3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHAMBLY (QUEBEC), federal, 1867-1872 BENOIT,; BENOIT,</a:documentation>
                         <value>plc:CHAM4</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHAMPLAIN (QUEBEC), federal, 1867-1904 ROSS, Jones; ROSS, Jones; ROUSSEAU, Alex</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHAMPLAIN (QUEBEC), federal, 1867-1905 ROSS, Jones; ROSS, Jones; ROUSSEAU, Alex</a:documentation>
                         <value>plc:CHAM5</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHAMPLAIN (QUEBEC), federal, 1945- BRUNELLE,</a:documentation>
                         <value>plc:CHAM6</value>
@@ -9418,7 +9422,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:CHAP3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHAPLEAU (QUEBEC), federal, 1945- GOURD,</a:documentation>
                         <value>plc:CHAR10</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHARLEVOIX (QUEBEC), federal, 1867-1904 CIMON,; TREMBLAY,; FORGET,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHARLEVOIX (QUEBEC), federal, 1867-1905 CIMON,; TREMBLAY,; FORGET,</a:documentation>
                         <value>plc:CHAR11</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHARLEVOIX (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:CHAR12</value>
@@ -9432,13 +9436,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:CHAR9</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHARLOTTETOWN (PRINCE EDWARD ISLAND), nonFederal, 1867-1872 </a:documentation>
                         <value>plc:CHAT2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHÂTEAUGUAY (QUEBEC), federal, 1867-1904 HOLTON, Hamilton; HOLTON, Hamilton; BROWN, Pollock</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHÂTEAUGUAY (QUEBEC), federal, 1867-1905 HOLTON, Hamilton; HOLTON, Hamilton; BROWN, Pollock</a:documentation>
                         <value>plc:CHAT3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHÂTEAUGUAY (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:CHAT4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHÂTEAUGUAY-HUNTINGDON (QUEBEC), federal, 1945- BLACK,</a:documentation>
                         <value>plc:CHIC2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHICOUTIMI-SAGUENAY (QUEBEC), federal, 1867-1904 TREMBLAY, Alexis; PRICE, Evan; GIRARD,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHICOUTIMI-SAGUENAY (QUEBEC), federal, 1867-1905 TREMBLAY, Alexis; PRICE, Evan; GIRARD,</a:documentation>
                         <value>plc:CHIC3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHICOUTIMI-SAGUENAY (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:CHIC4</value>
@@ -9456,7 +9460,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:COCH6</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COCHRANE (ONTARIO), federal, 1945- BRADETTE, Joseph</a:documentation>
                         <value>plc:COLC1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COLCHESTER (NOVA SCOTIA), federal, 1867-1904 MCLELLAN, Archibald; ARCHIBALD, George; PEARSON, M.; PEARSON, M.; LAURENCE, F.A.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COLCHESTER (NOVA SCOTIA), federal, 1867-1905 MCLELLAN, Archibald; ARCHIBALD, George; PEARSON, M.; PEARSON, M.; LAURENCE, F.A.</a:documentation>
                         <value>plc:COLC2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COLCHESTER-HANTS (NOVA SCOTIA), federal, 1945- STANFIELD, Frank</a:documentation>
                         <value>plc:COMO1</value>
@@ -9464,7 +9468,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:COMO2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COMOX-ALBERNI (BRITISH COLUMBIA), federal, 1945- GIBSON, John</a:documentation>
                         <value>plc:COMP1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COMPTON (QUEBEC), federal, 1867-1904 POPE, Henry; POPE, Henry; POPE, Henry; HUNT,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COMPTON (QUEBEC), federal, 1867-1905 POPE, Henry; POPE, Henry; POPE, Henry; HUNT,</a:documentation>
                         <value>plc:COMP2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">COMPTON (QUEBEC), federal, 1945- BLANCHETTE,</a:documentation>
                         <value>plc:COMP3</value>
@@ -9480,7 +9484,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:CQUE3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC-CENTRE (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:CSJO1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CITY OF ST. JOHN (NEW BRUNSWICK), federal, 1867-1904 TILLEY, Leonard; TILLEY, Leonard; DE VEBER, Jeremiah; DANIEL, J.W.; DANIEL, John</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CITY OF ST. JOHN (NEW BRUNSWICK), federal, 1867-1905 TILLEY, Leonard; TILLEY, Leonard; DE VEBER, Jeremiah; DANIEL, J.W.; DANIEL, John</a:documentation>
                         <value>plc:CTOR1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TORONTO CENTRE (ONTARIO), federal, 1872-1905 WILKES, Robert; CLARKE, E.F.; BRISTOL, Edmund</a:documentation>
                         <value>plc:CTRI1</value>
@@ -9488,7 +9492,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:CUMB2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CUMBERLAND (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
                         <value>plc:CUMB3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CUMBERLAND (NOVA SCOTIA), federal, 1867-1904 TUPPER, Charles; TUPPER,; TUPPER, Charles; LOGAN, Hance</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CUMBERLAND (NOVA SCOTIA), federal, 1867-1905 TUPPER, Charles; TUPPER,; TUPPER, Charles; LOGAN, Hance</a:documentation>
                         <value>plc:CUMB4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CUMBERLAND (NOVA SCOTIA), federal, 1945- BLACK, Percy</a:documentation>
                         <value>plc:CUMB5</value>
@@ -9510,7 +9514,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:DEUX1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DEUX-MONTAGNES (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:DIGB1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DIGBY (NOVA SCOTIA), federal, 1867-1904 SAVARY, W.; SAVARY, William; COPP, Albert</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DIGBY (NOVA SCOTIA), federal, 1867-1905 SAVARY, W.; SAVARY, William; COPP, Albert</a:documentation>
                         <value>plc:DIGB2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DIGBY COUNTY (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:DIGB3</value>
@@ -9528,7 +9532,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:DUFF2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DUFFERIN-SIMCOE (ONTARIO), federal, 1945- ROWE, William</a:documentation>
                         <value>plc:DUND1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DUNDAS (ONTARIO), federal, 1867-1904 ROSS, John; GIBSON,; BRODER, Andrew</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DUNDAS (ONTARIO), federal, 1867-1905 ROSS, John; GIBSON,; BRODER, Andrew</a:documentation>
                         <value>plc:DUND2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DUNDAS (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:DURA1</value>
@@ -9564,7 +9568,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:EEDM1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">EDMONTON EAST (ALBERTA), federal, 1945- ASHBY, Patrick</a:documentation>
                         <value>plc:EELG1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ELGIN EAST (ONTARIO), federal, 1867-1904 DOBBIE, Thomas; HARVEY,; INGRAM, Andrew</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ELGIN EAST (ONTARIO), federal, 1867-1905 DOBBIE, Thomas; HARVEY,; INGRAM, Andrew</a:documentation>
                         <value>plc:EELG2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">EAST ELGIN (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:EESS1</value>
@@ -9572,7 +9576,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:EGLI1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">EGLINTON (ONTARIO), federal, 1945- FLEMING, Donald</a:documentation>
                         <value>plc:EGRE1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GREY EAST (ONTARIO), federal, 1872-1904 FLESHER, Kingston; SPROULE, Thos</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GREY EAST (ONTARIO), federal, 1872-1905 FLESHER, Kingston; SPROULE, Thos</a:documentation>
                         <value>plc:EHAL1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HALIFAX COUNTY (EASTERN DIVISION) (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:EHAM1</value>
@@ -9598,17 +9602,17 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:EMON2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTREAL EAST (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:ENOR1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTHUMBERLAND EAST (ONTARIO), federal, 1867-1904 KEELER,; KEELER,; COCHRANE,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTHUMBERLAND EAST (ONTARIO), federal, 1867-1905 KEELER,; KEELER,; COCHRANE,</a:documentation>
                         <value>plc:ENOR2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">EAST NORTHUMBERLAND (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:EOTT1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OTTAWA EAST (ONTARIO), federal, 1945- RICHARD,</a:documentation>
                         <value>plc:EPET1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PETERBOROUGH EAST (ONTARIO), federal, 1867-1904 GROVER, Peregrine; GROVER, Peregrine; FINLAY, John</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PETERBOROUGH EAST (ONTARIO), federal, 1867-1905 GROVER, Peregrine; GROVER, Peregrine; FINLAY, John</a:documentation>
                         <value>plc:EPIC1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PICTOU COUNTY (EAST DIVISION) (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:EQUE1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC EAST (QUEBEC), federal, 1867-1904 HUOT, Gabriel; GUILLET, dit TOURANGEAU,; LAURIER, Sir</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC EAST (QUEBEC), federal, 1867-1905 HUOT, Gabriel; GUILLET, dit TOURANGEAU,; LAURIER, Sir</a:documentation>
                         <value>plc:EQUE2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC EAST (QUEBEC), federal, 1872- GUILLET, dit TOURANGEAU,</a:documentation>
                         <value>plc:EQUE3</value>
@@ -9624,11 +9628,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:ESSE2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ESSEX (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:ESTJ1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. JOHN'S EAST (NEWFOUNDLAND), nonFederal, 1865-1946 </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. JOHN'S EAST (NEWFOUNDLAND), nonFederal, 1865-1869 </a:documentation>
                         <value>plc:ESTJ2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. JOHN'S CITY EAST (NEWFOUNDLAND), nonFederal, 1946- </a:documentation>
                         <value>plc:ETOR1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TORONTO EAST (ONTARIO), federal, 1867-1904 BEATTY, James; BEATTY, James; KEMP, Albert</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TORONTO EAST (ONTARIO), federal, 1867-1905 BEATTY, James; BEATTY, James; KEMP, Albert</a:documentation>
                         <value>plc:ETOR2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">EAST TORONTO (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:EVAN3</value>
@@ -9643,8 +9647,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">1ST KINGS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </a:documentation>
                         <value>plc:FKIN2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">4TH KINGS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </a:documentation>
-                        <value>plc:FKIN3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">1ST KING (PRINCE EDWARD ISLAND), nonFederal, 1866- </a:documentation>
                         <value>plc:FMAC1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">FORT MACLEOD (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
                         <value>plc:FOGO1</value>
@@ -9714,7 +9716,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:GULF1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GULF (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:GUYS1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GUYSBOROUGH (NOVA SCOTIA), federal, 1867-1904 CAMPBELL,; CAMPBELL,; SINCLAIR, J.H.; SINCLAIR, John</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GUYSBOROUGH (NOVA SCOTIA), federal, 1867-1905 CAMPBELL,; CAMPBELL,; SINCLAIR, J.H.; SINCLAIR, John</a:documentation>
                         <value>plc:GUYS2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GUYSBOROUGH COUNTY (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:HALD1</value>
@@ -9722,7 +9724,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:HALD2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HALDIMAND (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:HALI1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HALIFAX (NOVA SCOTIA), federal, 1867-1904 JONES,; POWERS,; ALMON, Johnston; TOBIN,; ROCHE, William; CARNEY, Michael</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HALIFAX (NOVA SCOTIA), federal, 1867-1905 JONES,; POWERS,; ALMON, Johnston; TOBIN,; ROCHE, William; CARNEY, Michael</a:documentation>
                         <value>plc:HALI2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HALIFAX (NOVA SCOTIA), federal, 1945-1947 ISNOR, Gordon; MACDONALD, William; DICKEY, John</a:documentation>
                         <value>plc:HALT1</value>
@@ -9734,7 +9736,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:HAMI4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HAMILTON (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:HANT1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HANTS (NOVA SCOTIA), federal, 1867-1904 HOWE, Joseph; HOWE,; HOWE, Joseph; GOUDGE, Monson; BLACK, J.B.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HANTS (NOVA SCOTIA), federal, 1867-1905 HOWE, Joseph; HOWE,; HOWE, Joseph; GOUDGE, Monson; BLACK, J.B.</a:documentation>
                         <value>plc:HARB1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HARBOUR GRACE (NEWFOUNDLAND), nonFederal, 1865-1946 </a:documentation>
                         <value>plc:HARB2</value>
@@ -9766,7 +9768,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:HUMB3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HUMBOLDT (SASKATCHEWAN), federal, 1945- BURTON, Niddrie</a:documentation>
                         <value>plc:HUNT3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HUNTINGDON (QUEBEC), federal, 1867-1904 ROSE, John; ROSE,; SCRIVER,; SCRIVER,; WALSH, Robt.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HUNTINGDON (QUEBEC), federal, 1867-1905 ROSE, John; ROSE,; SCRIVER,; SCRIVER,; WALSH, Robt.</a:documentation>
                         <value>plc:HUNT4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HUNTINGDON (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:HURO1</value>
@@ -9780,13 +9782,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:INKE1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">INKERMAN (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:INVE1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">INVERNESS (NOVA SCOTIA), federal, 1867-1904 CAMERON,; McDonnell,; MCLENNAN, Angus</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">INVERNESS (NOVA SCOTIA), federal, 1867-1905 CAMERON,; McDonnell,; MCLENNAN, Angus</a:documentation>
                         <value>plc:INVE2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">INVERNESS COUNTY (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:INVE3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">INVERNESS-RICHMOND (NOVA SCOTIA), federal, 1945- MCGARRY, Moses</a:documentation>
                         <value>plc:JACQ1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">JACQUES CARTIER (QUEBEC), federal, 1867-1904 GAUCHER, Gamelin; LAFLAMME,; MONK, F.D.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">JACQUES CARTIER (QUEBEC), federal, 1867-1905 GAUCHER, Gamelin; LAFLAMME,; MONK, F.D.</a:documentation>
                         <value>plc:JACQ2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">JACQUES CARTIER (QUEBEC), federal, 1945- MARIER, Hector</a:documentation>
                         <value>plc:JACQ3</value>
@@ -9794,7 +9796,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:JASP1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">JASPER-EDSON (ALBERTA), federal, 1945- KUHL, Walter</a:documentation>
                         <value>plc:JOLI1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">JOLIETTE (QUEBEC), federal, 1867-1904 GODIN, Benjamin; BABY, François George; DUBEAU, Joseph</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">JOLIETTE (QUEBEC), federal, 1867-1905 GODIN, Benjamin; BABY, François George; DUBEAU, Joseph</a:documentation>
                         <value>plc:JOLI2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">JOLIETTE (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:JOLI3</value>
@@ -9832,9 +9834,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:KING5</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KINGS (NEW BRUNSWICK), nonFederal, 1865-1866 </a:documentation>
                         <value>plc:KING6</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KINGS (NOVA SCOTIA), federal, 1867-1904 CHIPMAN, Henry; CHIPMAN,; CHIPMAN,; BORDEN, Sir</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KINGS (NOVA SCOTIA), federal, 1867-1905 CHIPMAN, Henry; CHIPMAN,; CHIPMAN,; BORDEN, Sir</a:documentation>
                         <value>plc:KING7</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KINGSTON (ONTARIO), federal, 1867-1904 MACDONALD,; MACDONALD,; HARTY, William</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KINGSTON (ONTARIO), federal, 1867-1905 MACDONALD,; MACDONALD,; HARTY, William</a:documentation>
                         <value>plc:KING8</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KINGSTON (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:KING9</value>
@@ -9870,7 +9872,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:LASA1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LA SALLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:LASS1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">L'ASSOMPTION (QUEBEC), federal, 1867-1904 ARCHAMBAULT, Louis; ARCHAMBAULT, Louis; LAURIER, R.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">L'ASSOMPTION (QUEBEC), federal, 1867-1905 ARCHAMBAULT, Louis; ARCHAMBAULT, Louis; LAURIER, R.</a:documentation>
                         <value>plc:LASS2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">L'ASSOMPTION (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:LAUR7</value>
@@ -9880,7 +9882,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:LAUZ1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LAUZON (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:LAVA1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LAVAL (QUEBEC), federal, 1867-1904 BELLEROSE, Joseph-Hyacinthe; BELLEROSE,; Ouimet, Joseph-Aldéric; LÉONARD, Émile</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LAVAL (QUEBEC), federal, 1867-1905 BELLEROSE, Joseph-Hyacinthe; BELLEROSE,; Ouimet, Joseph-Aldéric; LÉONARD, Émile</a:documentation>
                         <value>plc:LAVA2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LAVAL (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:LAVA3</value>
@@ -9920,7 +9922,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:LISG3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LISGAR (MANITOBA), federal, 1945- WINKLER, Waldemar</a:documentation>
                         <value>plc:LISL1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">L'ISLET (QUEBEC), federal, 1867-1904 POULIOT, Barthélemy; POULIOT,; CASGRAIN, Baby; PAQUET, Eugène</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">L'ISLET (QUEBEC), federal, 1867-1905 POULIOT, Barthélemy; POULIOT,; CASGRAIN, Baby; PAQUET, Eugène</a:documentation>
                         <value>plc:LISL2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">L'ISLET (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:LOND1</value>
@@ -9936,7 +9938,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:LOTB3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LOTBINIÈRE (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:LUNE1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LUNENBURG (NOVA SCOTIA), federal, 1867-1904 MCDONALD,; CHURCH, Edward; MACLEAN, Alex</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LUNENBURG (NOVA SCOTIA), federal, 1867-1905 MCDONALD,; CHURCH, Edward; MACLEAN, Alex</a:documentation>
                         <value>plc:LUNE2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LUNENBURG COUNTY (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:MACD17</value>
@@ -9962,7 +9964,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:MARQ4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MARQUETTE (MANITOBA), federal, 1945-1948 GLEN, Allison; GARSON, Sinclair</a:documentation>
                         <value>plc:MASK1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MASKINONGÉ (QUEBEC), federal, 1867-1904 CARON, George; BOYER,; MAYRAND, H.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MASKINONGÉ (QUEBEC), federal, 1867-1905 CARON, George; BOYER,; MAYRAND, H.</a:documentation>
                         <value>plc:MASK2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MASKINONGÉ (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:MATA3</value>
@@ -9972,7 +9974,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:MEDI2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MEDICINE HAT (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
                         <value>plc:MEGA1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MÉGANTIC (QUEBEC), federal, 1867-1904 IRVINE, George; RICHARD,; SAVOIE, François</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MÉGANTIC (QUEBEC), federal, 1867-1905 IRVINE, George; RICHARD,; SAVOIE, François</a:documentation>
                         <value>plc:MEGA2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MÉGANTIC (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:MEGA3</value>
@@ -9986,7 +9988,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:MIDL1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MIDLAND (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:MISS2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MISSISQUOI (QUEBEC), federal, 1867-1904 CHAMBERLIN,; BAKER, Barnard; BAKER, B.; MEIGS, D.B.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MISSISQUOI (QUEBEC), federal, 1867-1905 CHAMBERLIN,; BAKER, Barnard; BAKER, B.; MEIGS, D.B.</a:documentation>
                         <value>plc:MISS3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MISSISQUOI (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:MITC5</value>
@@ -9996,11 +9998,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:MONT2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTARVILLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:MONT3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTCALM (QUEBEC), federal, 1867-1904 DUFRESNE,; DUGAS,; DUGAS,; DUGAS, F.O.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTCALM (QUEBEC), federal, 1867-1905 DUFRESNE,; DUGAS,; DUGAS,; DUGAS, F.O.</a:documentation>
                         <value>plc:MONT4</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTMAGNY (QUEBEC), federal, 1867-1904 BEAUBIEN, Joseph-Octave; TASCHEREAU,; LAVERGNE, Armand; LAVERGNE, Armand</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTMAGNY (QUEBEC), federal, 1867-1905 BEAUBIEN, Joseph-Octave; TASCHEREAU,; LAVERGNE, Armand; LAVERGNE, Armand</a:documentation>
                         <value>plc:MONT5</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTMORENCY (QUEBEC), federal, 1867-1904 CAUCHON, Joseph; LANGLOIS,; LANGLOIS,; PARENT, George</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTMORENCY (QUEBEC), federal, 1867-1905 CAUCHON, Joseph; LANGLOIS,; LANGLOIS,; PARENT, George</a:documentation>
                         <value>plc:MONT6</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTCALM (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:MONT7</value>
@@ -10018,7 +10020,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:MOUN1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MOUNT ROYAL (QUEBEC), federal, 1945- WHITMAN,</a:documentation>
                         <value>plc:MUSK4</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MUSKOKA (ONTARIO), federal, 1872-1904 COCKBURN, P.; WRIGHT, William</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MUSKOKA (ONTARIO), federal, 1872-1905 COCKBURN, P.; WRIGHT, William</a:documentation>
                         <value>plc:MUSK5</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MUSKOKA-ONTARIO (ONTARIO), federal, 1945- MACDONNELL, MacKerras</a:documentation>
                         <value>plc:NANA1</value>
@@ -10036,7 +10038,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:NBRA1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BRANT NORTH (ONTARIO), federal, 1867-1872 BOWN, John; FLEMING, Gavin</a:documentation>
                         <value>plc:NBRU1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BRUCE NORTH (ONTARIO), federal, 1867-1904 SPROAT, Alexander; GILLIES, John; BLAND, L.T.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BRUCE NORTH (ONTARIO), federal, 1867-1905 SPROAT, Alexander; GILLIES, John; BLAND, L.T.</a:documentation>
                         <value>plc:NCAP1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTH CAPE BRETON AND VICTORIA (NOVA SCOTIA), federal, 1904- MCKENZIE, D.D.</a:documentation>
                         <value>plc:NCAP2</value>
@@ -10052,7 +10054,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:NEWC1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NEWCASTLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:NEWW1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NEW WESTMINSTER DISTRICT (BRITISH COLUMBIA), federal, 1871- NELSON, Hugh</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NEW WESTMINSTER (BRITISH COLUMBIA), federal, 1871- NELSON, Hugh</a:documentation>
                         <value>plc:NEWW2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NEW WESTMINSTER (BRITISH COLUMBIA), federal, 1872-1945 NELSON, Hugh; KENNEDY, James; REID, Tom</a:documentation>
                         <value>plc:NEWW3</value>
@@ -10074,7 +10076,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:NIAG3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NIAGARA (TOWN) (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:NICO1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NICOLET (QUEBEC), federal, 1867-1904 GAUDET,; GAUDET,; LEMIEUX, Rodolphe</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NICOLET (QUEBEC), federal, 1867-1905 GAUDET,; GAUDET,; LEMIEUX, Rodolphe</a:documentation>
                         <value>plc:NICO2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NICOLET (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:NICO3</value>
@@ -10084,7 +10086,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:NKIN1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KINGS COUNTY (NORTH DIVISION) (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:NLAN1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LANARK NORTH (ONTARIO), federal, 1867-1904 MACDOUGALL, William; GALBRAITH,; CALDWELL, Thomas</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LANARK NORTH (ONTARIO), federal, 1867-1905 MACDOUGALL, William; GALBRAITH,; CALDWELL, Thomas</a:documentation>
                         <value>plc:NLAN2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTH LANARK (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:NLEE1</value>
@@ -10092,11 +10094,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:NLEE2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTH LEEDS &amp; GRENVILLE (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:NMID1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MIDDLESEX NORTH (ONTARIO), federal, 1867-1904 SCATCHERD,; SCATCHERD,; RATZ, Valentine</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MIDDLESEX NORTH (ONTARIO), federal, 1867-1905 SCATCHERD,; SCATCHERD,; RATZ, Valentine</a:documentation>
                         <value>plc:NNOR1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORFOLK NORTH (ONTARIO), federal, 1867-1872 WALSH,; CHARLTON,</a:documentation>
                         <value>plc:NONT1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ONTARIO NORTH (ONTARIO), federal, 1867-1904 THOMPSON, John; GIBBS, William; GRANT, D.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ONTARIO NORTH (ONTARIO), federal, 1867-1905 THOMPSON, John; GIBBS, William; GRANT, D.</a:documentation>
                         <value>plc:NONT2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTH ONTARIO (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:NORF1</value>
@@ -10114,7 +10116,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:NOXF2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTH OXFORD (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:NPER1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PERTH NORTH (ONTARIO), federal, 1867-1904 REDFORD, James; DALY, Thomas; MACLAREN, Alexander</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PERTH NORTH (ONTARIO), federal, 1867-1905 REDFORD, James; DALY, Thomas; MACLAREN, Alexander</a:documentation>
                         <value>plc:NQUA1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTH QU'APPELLE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
                         <value>plc:NQUE1</value>
@@ -10156,7 +10158,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:ONTA1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ONTARIO (ONTARIO), federal, 1945-1948 SINCLAIR, Edmund Newto; WILLIAMS,</a:documentation>
                         <value>plc:OTTA1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OTTAWA (CITY OF) (ONTARIO), federal, 1867-1904 CURRIER, Joseph; LEWIS, John; CURRIER, Joseph; BELCOURT,; STEWART,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OTTAWA (CITY OF) (ONTARIO), federal, 1867-1905 CURRIER, Joseph; LEWIS, John; CURRIER, Joseph; BELCOURT,; STEWART,</a:documentation>
                         <value>plc:OTTA2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OTTAWA (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:OTTA3</value>
@@ -10184,7 +10186,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:PETE2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PETERBOROUGH (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:PICT1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PICTOU (NOVA SCOTIA), federal, 1867-1904 CARMICHAEL, W.; DOULL,; MCDONALD, James; MACDONALD, Edward</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PICTOU (NOVA SCOTIA), federal, 1867-1905 CARMICHAEL, W.; DOULL,; MCDONALD, James; MACDONALD, Edward</a:documentation>
                         <value>plc:PICT2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PICTOU (NOVA SCOTIA), federal, 1945- MCCULLOCH, Henry</a:documentation>
                         <value>plc:PLAC1</value>
@@ -10210,7 +10212,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:PORT6</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PORT ARTHUR (ONTARIO), federal, 1945- HOWE, Decatur</a:documentation>
                         <value>plc:PORT7</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PORTNEUF (QUEBEC), federal, 1867-1904 BROUSSEAU,; ST-GEORGES, Alfred; DELISLE, M.-S.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PORTNEUF (QUEBEC), federal, 1867-1905 BROUSSEAU,; ST-GEORGES, Alfred; DELISLE, M.-S.</a:documentation>
                         <value>plc:PORT8</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PORTNEUF (QUEBEC), federal, 1945- GAUTHIER,</a:documentation>
                         <value>plc:PORT9</value>
@@ -10222,7 +10224,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:PRIN3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PRINCE ALBERT (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
                         <value>plc:PRIN4</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PRINCE EDWARD (ONTARIO), federal, 1867-1904 ROSS, Walter; ROSS, Walter; ALCORN,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PRINCE EDWARD (ONTARIO), federal, 1867-1905 ROSS, Walter; ROSS, Walter; ALCORN,</a:documentation>
                         <value>plc:PRIN5</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PRINCE EDWARD (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:PRIN6</value>
@@ -10244,7 +10246,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:QUAP2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QU'APPELLE (SASKATCHEWAN), federal, 1945- STRUM, Gladys</a:documentation>
                         <value>plc:QUEB1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC COUNTY (QUEBEC), federal, 1867-1904 CHAUVEAU, J.O.; CHAUVEAU, J.O.; CARON, Joseph-Philippe-René-Adolphe; FITZPATRICK, Chas.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC COUNTY (QUEBEC), federal, 1867-1905 CHAUVEAU, J.O.; CHAUVEAU, J.O.; CARON, Joseph-Philippe-René-Adolphe; FITZPATRICK, Chas.</a:documentation>
                         <value>plc:QUEB2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC COUNTY (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:QUEB3</value>
@@ -10264,7 +10266,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:QUEE7</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEEN'S COUNTY (PRINCE EDWARD ISLAND), federal, 1873- SINCLAIR,; LAIRD,; LAIRD,</a:documentation>
                         <value>plc:QUEE8</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEEN'S (PRINCE EDWARD ISLAND), federal, 1904-1945 MCLEAN, A.; MARTIN,; DOUGLAS, Lester; MCLURE, Chester S.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEEN'S (PRINCE EDWARD ISLAND), federal, 1904-1949 MCLEAN, A.; MARTIN,; DOUGLAS, Lester; MCLURE, Chester S.</a:documentation>
                         <value>plc:QUIN2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUINTE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:REDD2</value>
@@ -10278,7 +10280,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:REPE1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">REPENTIGNY (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:REST1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RESTIGOUCHE (NEW BRUNSWICK), federal, 1867-1904 MCMILLAN, John; CALDWELL, Murray; MOFFATT,; MOFFATT, George; REID, James</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RESTIGOUCHE (NEW BRUNSWICK), federal, 1867-1905 MCMILLAN, John; CALDWELL, Murray; MOFFATT,; MOFFATT, George; REID, James</a:documentation>
                         <value>plc:REST2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RESTIGOUCHE (NEW BRUNSWICK), nonFederal, 1865-1866 </a:documentation>
                         <value>plc:REST3</value>
@@ -10290,13 +10292,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:RICH12</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHELIEU-VERCHÈRES (QUEBEC), federal, 1945-1946 CARDIN, Brooke; COURNOYER,</a:documentation>
                         <value>plc:RICH5</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHMOND (NOVA SCOTIA), federal, 1867-1904 CROKE, Joseph; LE VESCONTE,; LE VESCONTE, Isaac; FINLAYSON, Duncan</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHMOND (NOVA SCOTIA), federal, 1867-1905 CROKE, Joseph; LE VESCONTE,; LE VESCONTE, Isaac; FINLAYSON, Duncan</a:documentation>
                         <value>plc:RICH6</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHMOND COUNTY (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:RICH7</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHELIEU (QUEBEC), federal, 1867-1904 MCCARTHY,; BARTHE, Isidore; MATHIEU, Michel; BRUNEAU, A.A.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHELIEU (QUEBEC), federal, 1867-1905 MCCARTHY,; BARTHE, Isidore; MATHIEU, Michel; BRUNEAU, A.A.</a:documentation>
                         <value>plc:RICH8</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHMOND-WOLFE (QUEBEC), federal, 1867-1904 WEBB, Hoste; WEBB, William; TOBIN, Edmund</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHMOND-WOLFE (QUEBEC), federal, 1867-1905 WEBB, Hoste; WEBB, William; TOBIN, Edmund</a:documentation>
                         <value>plc:RICH9</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RICHMOND-WOLFE (QUEBEC), federal, 1945- MULLINS,</a:documentation>
                         <value>plc:RIDE1</value>
@@ -10304,7 +10306,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:RIGA1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RIGAUD (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:RIMO1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RIMOUSKI (QUEBEC), federal, 1867-1904 SYLVAIN,; FISET, J.B.; ROSS, J.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RIMOUSKI (QUEBEC), federal, 1867-1905 SYLVAIN,; FISET, J.B.; ROSS, J.</a:documentation>
                         <value>plc:RIMO2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RIMOUSKI (QUEBEC), federal, 1945- BELZILE,</a:documentation>
                         <value>plc:RIMO3</value>
@@ -10318,7 +10320,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:ROUG1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ROUGEMONT (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:ROUV1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ROUVILLE (QUEBEC), federal, 1867-1904 CHEVAL, alias SAINT-JACQUES,; MERCIER, Honoré; BRODEUR, L.; BRODEUR, L.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ROUVILLE (QUEBEC), federal, 1867-1905 CHEVAL, alias SAINT-JACQUES,; MERCIER, Honoré; BRODEUR, L.; BRODEUR, L.</a:documentation>
                         <value>plc:ROUV2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ROUVILLE (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:ROYA1</value>
@@ -10342,7 +10344,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:SBRA1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BRANT SOUTH (ONTARIO), federal, 1867-1872 WOOD, Edmund; PATERSON, William</a:documentation>
                         <value>plc:SBRU1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BRUCE SOUTH (ONTARIO), federal, 1867-1904 HURDON, Francis; BLAKE, Edward; BLAKE, Edward; MCKENZIE, Peter</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BRUCE SOUTH (ONTARIO), federal, 1867-1905 HURDON, Francis; BLAKE, Edward; BLAKE, Edward; MCKENZIE, Peter</a:documentation>
                         <value>plc:SCAP1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CAPE BRETON SOUTH (NOVA SCOTIA), federal, 1904- JOHNSTON, Alex.</a:documentation>
                         <value>plc:SCAP2</value>
@@ -10362,7 +10364,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:SGRE1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GRENVILLE SOUTH (ONTARIO), federal, 1867-1872 SHANLY, Walter; BROUSE, Henry</a:documentation>
                         <value>plc:SGRE2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GREY SOUTH (ONTARIO), federal, 1867-1904 JACKSON, George; LANDERKIN,; MILLER, Henry</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GREY SOUTH (ONTARIO), federal, 1867-1905 JACKSON, George; LANDERKIN,; MILLER, Henry</a:documentation>
                         <value>plc:SHAN3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HANTS COUNTY (SOUTH DIVISION) (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:SHAS2</value>
@@ -10372,7 +10374,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:SHAW3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHAWINIGAN (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:SHEF1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHEFFORD (QUEBEC), federal, 1867-1904 HUNTINGTON, Seth; HUNTINGTON, Lucius; PARMELEE, Charles</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHEFFORD (QUEBEC), federal, 1867-1905 HUNTINGTON, Seth; HUNTINGTON, Lucius; PARMELEE, Charles</a:documentation>
                         <value>plc:SHEF2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHEFFORD (QUEBEC), federal, 1945- BOIVIN,</a:documentation>
                         <value>plc:SHEF3</value>
@@ -10388,13 +10390,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:SHEL5</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHELBURNE-YARMOUTH-CLARE (NOVA SCOTIA), federal, 1945- BAKER, Loran</a:documentation>
                         <value>plc:SHER3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHERBROOKE (TOWN OF) (QUEBEC), federal, 1867-1904 GALT, Tilloch; BROOKS, Edward; WORTHINGTON, Arthur</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHERBROOKE (TOWN OF) (QUEBEC), federal, 1867-1905 GALT, Tilloch; BROOKS, Edward; WORTHINGTON, Arthur</a:documentation>
                         <value>plc:SHER4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHERBROOKE (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:SHER5</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SHERBROOKE (QUEBEC), federal, 1945- GINGUES,</a:documentation>
                         <value>plc:SHUR3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HURON SOUTH (ONTARIO), federal, 1867-1904 CAMERON, Collin; CAMERON, Collin; GUNN, Benjamin</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HURON SOUTH (ONTARIO), federal, 1867-1905 CAMERON, Collin; CAMERON, Collin; GUNN, Benjamin</a:documentation>
                         <value>plc:SKEE1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SKEENA (BRITISH COLUMBIA), federal, 1945- ARCHIBALD, Harry</a:documentation>
                         <value>plc:SKIN2</value>
@@ -10402,7 +10404,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:SKIN3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">2ND KINGS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </a:documentation>
                         <value>plc:SLAN1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LANARK SOUTH (ONTARIO), federal, 1867-1904 MORRIS,; MORRIS, Alexander; HAGGART, Graham; HAGGART, John</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LANARK SOUTH (ONTARIO), federal, 1867-1905 MORRIS,; MORRIS, Alexander; HAGGART, Graham; HAGGART, John</a:documentation>
                         <value>plc:SLAN2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOUTH LANARK (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:SLEE1</value>
@@ -10412,13 +10414,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:SNOR1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORFOLK SOUTH (ONTARIO), federal, 1867-1872 LAWSON,; WALLACE,</a:documentation>
                         <value>plc:SONT1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ONTARIO SOUTH (ONTARIO), federal, 1867-1904 GIBBS, Thomas; GIBBS, Thomas; GIBBS, Thomas; CHRISTIE,</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ONTARIO SOUTH (ONTARIO), federal, 1867-1905 GIBBS, Thomas; GIBBS, Thomas; GIBBS, Thomas; CHRISTIE,</a:documentation>
                         <value>plc:SONT2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOUTH ONTARIO (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:SORE2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOREL (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:SOUL1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOULANGES (QUEBEC), federal, 1867-1904 MASSON,; LANTHIER, Jacques-Philippe; BOURBONNAIS, Augustin</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOULANGES (QUEBEC), federal, 1867-1905 MASSON,; LANTHIER, Jacques-Philippe; BOURBONNAIS, Augustin</a:documentation>
                         <value>plc:SOUL2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOULANGES (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:SOUR1</value>
@@ -10428,13 +10430,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:SOUR3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOURIS (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
                         <value>plc:SOXF1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OXFORD SOUTH (ONTARIO), federal, 1867-1904 BODWELL, Ebenezer; BODWELL, Ebenezer; SCHELL, Malcolm</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OXFORD SOUTH (ONTARIO), federal, 1867-1905 BODWELL, Ebenezer; BODWELL, Ebenezer; SCHELL, Malcolm</a:documentation>
                         <value>plc:SOXF2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOUTH OXFORD (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:SPAD1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SPADINA (ONTARIO), federal, 1945- CROLL, Arnold</a:documentation>
                         <value>plc:SPER1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PERTH SOUTH (ONTARIO), federal, 1867-1904 MACFARLANE, Robert; TROW, James; MCINTYRE, Gilbert</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PERTH SOUTH (ONTARIO), federal, 1867-1905 MACFARLANE, Robert; TROW, James; MCINTYRE, Gilbert</a:documentation>
                         <value>plc:SPRI1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SPRINGFIELD (MANITOBA), federal, 1945- SINNOTT, Sylvester</a:documentation>
                         <value>plc:SPRI2</value>
@@ -10452,13 +10454,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:SREN1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">RENFREW SOUTH (ONTARIO), federal, 1867-1945 MCLACHLIN, Daniel; MCDOUGALL, John; O'REILLY, James; WRIGHT, A.A.; MCCANN, Joseph</a:documentation>
                         <value>plc:SSIM1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SIMCOE SOUTH (ONTARIO), federal, 1867-1904 LITTLE, William; LITTLE, William; LENNOX, Haughton</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SIMCOE SOUTH (ONTARIO), federal, 1867-1905 LITTLE, William; LITTLE, William; LENNOX, Haughton</a:documentation>
                         <value>plc:SSIM2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SOUTH SIMCOE (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:STAD1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">STADACONA (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:STAN3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">STANSTEAD (QUEBEC), federal, 1867-1904 COLBY, C.; COLBY, Charles; LOVELL, Henry</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">STANSTEAD (QUEBEC), federal, 1867-1905 COLBY, C.; COLBY, Charles; LOVELL, Henry</a:documentation>
                         <value>plc:STAN4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">STANSTEAD (QUEBEC), federal, 1945- HACKETT, W.</a:documentation>
                         <value>plc:STAN5</value>
@@ -10486,7 +10488,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:STHE1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. HENRY (QUEBEC), federal, 1945- BONNIER,</a:documentation>
                         <value>plc:STHY1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. HYACINTHE (QUEBEC), federal, 1867-1904 KIERZKOWSKI,; DELORME,; DELORME, Louis; BLANCHET, J.B.; BEAUPARLANT, Aimé-Majorique</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. HYACINTHE (QUEBEC), federal, 1867-1905 KIERZKOWSKI,; DELORME,; DELORME, Louis; BLANCHET, J.B.; BEAUPARLANT, Aimé-Majorique</a:documentation>
                         <value>plc:STHY2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. HYACINTHE (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:STHY3</value>
@@ -10616,7 +10618,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:TWIL2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TWILLINGATE (NEWFOUNDLAND), nonFederal, 1946- </a:documentation>
                         <value>plc:TWOM1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TWO MOUNTAINS (QUEBEC), federal, 1867-1904 DAOUST,; PRÉVOST, Wilfred; ÉTHIER, J.A.C.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TWO MOUNTAINS (QUEBEC), federal, 1867-1905 DAOUST,; PRÉVOST, Wilfred; ÉTHIER, J.A.C.</a:documentation>
                         <value>plc:TYAR1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TOWNSHIP OF YARMOUTH (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:VALL1</value>
@@ -10632,7 +10634,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:VAUD1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VAUDREUIL (QUEBEC), federal, 1867- MCMILLAN,</a:documentation>
                         <value>plc:VAUD2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VAUDREUIL (QUEBEC), federal, 1872-1904 HARWOOD, Robert; BOYER, Gustave</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VAUDREUIL (QUEBEC), federal, 1872-1905 HARWOOD, Robert; BOYER, Gustave</a:documentation>
                         <value>plc:VAUD3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VAUDREUIL (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:VAUD4</value>
@@ -10662,7 +10664,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:VICT5</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VICTORIA (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:VICT6</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VICTORIA (NEW BRUNSWICK), federal, 1867-1904 COSTIGAN,; COSTIGAN, John; COSTIGAN, John</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VICTORIA (NEW BRUNSWICK), federal, 1867-1905 COSTIGAN,; COSTIGAN, John; COSTIGAN, John</a:documentation>
                         <value>plc:VICT7</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VICTORIA (NEW BRUNSWICK), nonFederal, 1865-1866 </a:documentation>
                         <value>plc:VICT8</value>
@@ -10690,7 +10692,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:WEDM1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">EDMONTON WEST (ALBERTA), federal, 1945- MACKINNON, James</a:documentation>
                         <value>plc:WELG1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ELGIN WEST (ONTARIO), federal, 1867-1904 MUNROE, John; CASEY, Elliott; JACKSON, William</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ELGIN WEST (ONTARIO), federal, 1867-1905 MUNROE, John; CASEY, Elliott; JACKSON, William</a:documentation>
                         <value>plc:WELG2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WEST ELGIN (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:WELL2</value>
@@ -10746,7 +10748,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:WMON2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MONTREAL WEST (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:WNOR1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTHUMBERLAND WEST (ONTARIO), federal, 1867-1904 COCKBURN, James; COCKBURN, James; MCCOLL, B.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NORTHUMBERLAND WEST (ONTARIO), federal, 1867-1905 COCKBURN, James; COCKBURN, James; MCCOLL, B.</a:documentation>
                         <value>plc:WNOR2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WEST NORTHUMBERLAND (ONTARIO), nonFederal, 1863- </a:documentation>
                         <value>plc:WOLS1</value>
@@ -10764,7 +10766,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:WQUE1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WEST QUEEN'S (PRINCE EDWARD ISLAND), federal, 1904- HASZARD,</a:documentation>
                         <value>plc:WQUE2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC WEST (QUEBEC), federal, 1867-1904 MCGREEVEY,; POWER, William</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC WEST (QUEBEC), federal, 1867-1905 MCGREEVEY,; POWER, William</a:documentation>
                         <value>plc:WQUE3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC WEST (QUEBEC), federal, 1872- MCGREEVY, Thomas</a:documentation>
                         <value>plc:WQUE4</value>
@@ -10774,7 +10776,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:WSQU1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">QUEBEC WEST AND SOUTH (QUEBEC), federal, 1945- PARENT,</a:documentation>
                         <value>plc:WSTJ1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. JOHN'S WEST (NEWFOUNDLAND), nonFederal, 1865-1946 </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. JOHN'S WEST (NEWFOUNDLAND), nonFederal, 1865-1869 </a:documentation>
                         <value>plc:WSTJ2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. JOHN'S CITY WEST (NEWFOUNDLAND), nonFederal, 1946- </a:documentation>
                         <value>plc:WTOR1</value>
@@ -10796,19 +10798,19 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:YALE4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YALE AND LYTTON (BRITISH COLUMBIA), nonFederal, 1867- </a:documentation>
                         <value>plc:YAMA1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YAMASKA (QUEBEC), federal, 1867-1904 FORTIER,; DUGUAY, Joseph; GLADU, Joseph-Ernest-Oscar</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YAMASKA (QUEBEC), federal, 1867-1905 FORTIER,; DUGUAY, Joseph; GLADU, Joseph-Ernest-Oscar</a:documentation>
                         <value>plc:YAMA2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YAMASKA (QUEBEC), nonFederal, 1863- </a:documentation>
                         <value>plc:YARM1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YARMOUTH (NOVA SCOTIA), federal, 1867-1869 KILLAM, Thomas; KILLAM,</a:documentation>
                         <value>plc:YARM2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YARMOUTH (NOVA SCOTIA), federal, 1872-1904 KILLAM, Frank; LAW, Bowman</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YARMOUTH (NOVA SCOTIA), federal, 1872-1905 KILLAM, Frank; LAW, Bowman</a:documentation>
                         <value>plc:YARM3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YARMOUTH COUNTY (NOVA SCOTIA), nonFederal, 1864- </a:documentation>
                         <value>plc:YORK1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YORK (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:YORK2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YORK (NEW BRUNSWICK), federal, 1867-1904 FISHER, Charles; PICKARD,; PICKARD, John; CROCKET, S.</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YORK (NEW BRUNSWICK), federal, 1867-1905 FISHER, Charles; PICKARD,; PICKARD, John; CROCKET, S.</a:documentation>
                         <value>plc:YORK3</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YORK (NEW BRUNSWICK), nonFederal, 1865-1866 </a:documentation>
                         <value>plc:YORK4</value>
@@ -10817,6 +10819,44 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YORKTON (SASKATCHEWAN), federal, 1945- CASTLEDEN, George</a:documentation>
                         <value>plc:YUKO1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YUKON (YUKON), federal, 1904-1945 THOMPSON, Alfred; BLACK,</a:documentation>
+                        <value>plc:_CARD1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CARDSTON (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_CARI1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CARIBOO (BRITISH COLUMBIA), nonFederal, 1867- </a:documentation>
+                        <value>plc:_ECAL20</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CALGARY EAST (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_EPRI1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PRINCE ALBERT EAST (NORTHWEST TERRITORIES), nonFederal, 1894-1905 </a:documentation>
+                        <value>plc:_ESTJ1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. JOHN'S EAST (NEWFOUNDLAND), nonFederal, 1946-1949 </a:documentation>
+                        <value>plc:_GREN1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GRENFELL (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_HIGH1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">HIGH RIVER (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_LABR1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LABRADOR (NEWFOUNDLAND), nonFederal, 1946- </a:documentation>
+                        <value>plc:_LACO1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">LACOMBE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_SALC1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SALTCOATS (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_SASK1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SASKATOON (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_SORE2</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Quebec-Sorel (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
+                        <value>plc:_VICT1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VICTORIA CITY DISTRICT (BRITISH COLUMBIA), nonfederal, 1867-1871 </a:documentation>
+                        <value>plc:_VICT20</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VICTORIA DISTRICT (BRITISH COLUMBIA), nonfederal, 1867-1871 </a:documentation>
+                        <value>plc:_VICT21</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">VICTORIA (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_WCAL1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CALGARY WEST (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
+                        <value>plc:_WPRI1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PRINCE ALBERT WEST (NORTHWEST TERRITORIES), nonFederal, 1894-1905 </a:documentation>
+                        <value>plc:_WSTJ1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ST. JOHN'S WEST (NEWFOUNDLAND), nonFederal, 1946-1949 </a:documentation>
+                        <value>plc:_YORK1</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YORKTON (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </a:documentation>
                      </choice>
                   </oneOrMore>
                </list>
