@@ -118,6 +118,7 @@
                                         <td>
                                             <xsl:choose>
                                                 <xsl:when test="local-name() = 'person'"><xsl:value-of select="persName"/></xsl:when>
+                                                <xsl:when test="local-name() = 'place'"><xsl:value-of select="placeName"/></xsl:when>
                                                 <xsl:when test="local-name() = 'TEI'"><xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/></xsl:when>
                                                 <xsl:otherwise>
                                                     <xsl:variable name="content" select="normalize-space(.)"/>
