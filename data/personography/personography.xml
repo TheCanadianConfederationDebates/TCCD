@@ -638,14 +638,9 @@
                   <persName when="1892">
                      <surname>Belley</surname>,
                      <forename>Louis</forename>
-                     <forename>de</forename> 
-                     <forename>Gonzague</forename>
+                     <forename>de Gonzague</forename>
                   </persName>
                   <affiliation when="1895" n="NF House of Commons" ref="plc:CHIC2">Chicoutimi—Saguenay</affiliation>
-                  <state when="1876">
-                     <label>witness</label>
-                     <note>Treaty # <num type="treaty">5</num>. Location: <placeName>the Pas on the Saskatchewan River</placeName>. </note>
-                  </state>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.lop.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0acd8e5a-af4a-4000-9bb2-85f38333bb6c&amp;Language=E&amp;Section=ALL"/>
@@ -654,6 +649,16 @@
                         <ptr target="http://www.lop.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0acd8e5a-af4a-4000-9bb2-85f38333bb6c&amp;Language=F&amp;Section=ALL"/>
                      </bibl>
                   </listBibl>
+               </person>
+               <person xml:id="BELL14">
+                  <persName when="1876">
+                     <surname>BELLANGER</surname>,
+                     <forename>H.</forename>
+                  </persName>
+                  <state when="1876">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">5</num>. Location: <placeName>the Pas on the Saskatchewan River</placeName>. </note>
+                  </state>
                </person>
                <person xml:id="BOYD1">
                   <persName when="1865">
