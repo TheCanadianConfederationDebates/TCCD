@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-05-31T20:47:10Z. 2016.
+Schema generated from ODD source 2017-06-05T15:11:34Z. 2016.
 TEI Edition: Version 3.1.1a. Last updated on
 	31st March 2017, revision 7a1e145
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.1a./
@@ -4774,7 +4774,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:ABBO3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Abbott, W. R. witness; Sergeant-Major, N.W.M.P. Treaty # 6. Location: Fort Walsh. (1882: ).</a:documentation>
                   <value>pers:ACKE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ackemence. Lac Seul, Seul, Trout and Sturgeon Lakes (1874: ); Councillor Treaty # 3. Location: Lac Seul. (1874: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ackemence. Lac Seul, Seul, Trout and Sturgeon Lakes (1874: ); Councillor Treaty # 3. Location: Lac Seul. smi (1874: ).</a:documentation>
                   <value>pers:ADAM3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Adams, Charles. witness; C. Clk., H.B. Co. Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
                   <value>pers:ADAM1</value>
@@ -4929,6 +4929,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aylesworth, Wilbert Ross. Frontenac—Addington (1945: House of Commons); Frontenac—Addington (1949: NF House of Commons).</a:documentation>
                   <value>pers:AZE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aze, Pierre. Hatchet Lake Band (1907: ); Headman Treaty # 10. Location: Lac du Brochet. (1907: ).</a:documentation>
+                  <value>pers:BELL14</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BELLANGER, H. witness Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
                   <value>pers:BABB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Babbit, Robert Thorne. Queen's (1866: NB Leg).</a:documentation>
                   <value>pers:BACO1</value>
@@ -5072,7 +5074,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:BELL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bellerose, Joseph-Hyacinthe. Laval (1865: Ont/Que Leg); Laval (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Laval (1872: PEI House of Commons).</a:documentation>
                   <value>pers:BELL4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belley, Louis de Gonzague. Chicoutimi—Saguenay (1895: NF House of Commons); witness Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belley, Louis de Gonzague. Chicoutimi—Saguenay (1895: NF House of Commons).</a:documentation>
                   <value>pers:BELZ1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belzile, Gleason. Rimouski (1945: House of Commons); Rimouski (1949: NF House of Commons).</a:documentation>
                   <value>pers:BEMI2</value>
@@ -5211,10 +5213,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Botsford, Bliss. Westmorland (1865: NB Leg).</a:documentation>
                   <value>pers:BOUC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher De Niverville, Louis-Charles. Trois-Rivières (Three Rivers) (1865: Ont/Que Leg); Trois-Rivières (Three Rivers) (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
+                  <value>pers:BOUC5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher, Adam. Chipewyan Indian of Fort McMurray and the country thereabouts (1899: ); Chipewyan Headman Treaty # 8. Location: Fort McMurray. (1899: ).</a:documentation>
                   <value>pers:BOUC3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher, Charles Eugene. Batoche (1894: AB/SK Leg).</a:documentation>
                   <value>pers:BOUC4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher, George Russell. Carleton (1945: House of Commons); Chipewyan Indian of Fort McMurray and the country thereabouts (1899: ); Chipewyan Headman Treaty # 8. Location: Fort McMurray. (1899: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher, George Russell. Carleton (1945: House of Commons).</a:documentation>
                   <value>pers:BOUC2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Boucher, William Albert. Rosthern (1945: House of Commons); Rosthern (1949: NF House of Commons).</a:documentation>
                   <value>pers:BOUL1</value>
@@ -10054,7 +10058,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:NEWC1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NEWCASTLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </a:documentation>
                         <value>plc:NEWW1</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NEW WESTMINSTER (BRITISH COLUMBIA), federal, 1871- NELSON, Hugh</a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NEW WESTMINSTER DISTRICT (BRITISH COLUMBIA), federal, 1871- NELSON, Hugh</a:documentation>
                         <value>plc:NEWW2</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NEW WESTMINSTER (BRITISH COLUMBIA), federal, 1872-1945 NELSON, Hugh; KENNEDY, James; REID, Tom</a:documentation>
                         <value>plc:NEWW3</value>
@@ -11064,20 +11068,31 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="person">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]</a:documentation>
          <choice>
-      
             <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-      
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.personPart"/>
                   <ref name="model.global"/>
                </choice>
             </zeroOrMore>
-      
          </choice>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-person-personIdNoClashWithPlace-constraint-assert-18">
+            <rule context="tei:person">
+               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           xmlns:svg="http://www.w3.org/2000/svg"
+                           xmlns:math="http://www.w3.org/1998/Math/MathML"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           test="not(@xml:id = doc('../placeography/placeography.xml')//tei:place/@xml:id)">
+                           The xml:ids of person elements must not clash with those of place elements
+                           in the placeography file.
+                        </sch:assert>
+            </rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <optional>
             <attribute name="role">
@@ -11118,20 +11133,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="place">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains data about a geographic location [13.3.4. Places]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
-      
             <choice>
-        
-          
                <zeroOrMore>
                   <ref name="model.pLike"/>
                </zeroOrMore>
-          
-        
-        
                <zeroOrMore>
                   <choice>
                      <ref name="model.labelLike"/>
@@ -11139,28 +11147,36 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                      <ref name="model.eventLike"/>
                   </choice>
                </zeroOrMore>
-        
             </choice>
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.noteLike"/>
                   <ref name="model.biblLike"/>
                   <ref name="idno"/>
-          
-          
                </choice>
             </zeroOrMore>
-      
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.placeLike"/>
                   <ref name="listPlace"/>
                </choice>
             </zeroOrMore>
-      
          </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tccd-place-placeIdNoClashWithPerson-constraint-assert-19">
+            <rule context="tei:place">
+               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           xmlns:svg="http://www.w3.org/2000/svg"
+                           xmlns:math="http://www.w3.org/1998/Math/MathML"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           test="not(@xml:id = doc('../personography/personography.xml')//tei:person/@xml:id)">
+                           The xml:ids of place elements must not clash with those of person elements
+                           in the personography file.
+                        </sch:assert>
+            </rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
          <empty/>

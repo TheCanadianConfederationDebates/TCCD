@@ -593,7 +593,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Abbott, W. R. witness; Sergeant-Major, N.W.M.P. Treaty # 6. Location: Fort Walsh. (1882: ).</desc>
                            </valItem>
                            <valItem ident="pers:ACKE1">
-                              <desc>Ackemence. Lac Seul, Seul, Trout and Sturgeon Lakes (1874: ); Councillor Treaty # 3. Location: Lac Seul. (1874: ).</desc>
+                              <desc>Ackemence. Lac Seul, Seul, Trout and Sturgeon Lakes (1874: ); Councillor Treaty # 3. Location: Lac Seul. smi (1874: ).</desc>
                            </valItem>
                            <valItem ident="pers:ADAM3">
                               <desc>Adams, Charles. witness; C. Clk., H.B. Co. Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</desc>
@@ -826,6 +826,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:AZE1">
                               <desc>Aze, Pierre. Hatchet Lake Band (1907: ); Headman Treaty # 10. Location: Lac du Brochet. (1907: ).</desc>
                            </valItem>
+                           <valItem ident="pers:BELL14">
+                              <desc>BELLANGER, H. witness Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</desc>
+                           </valItem>
                            <valItem ident="pers:BABB1">
                               <desc>Babbit, Robert Thorne. Queen's (1866: NB Leg).</desc>
                            </valItem>
@@ -1040,7 +1043,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Bellerose, Joseph-Hyacinthe. Laval (1865: Ont/Que Leg); Laval (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Laval (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:BELL4">
-                              <desc>Belley, Louis de Gonzague. Chicoutimi—Saguenay (1895: NF House of Commons); witness Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</desc>
+                              <desc>Belley, Louis de Gonzague. Chicoutimi—Saguenay (1895: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:BELZ1">
                               <desc>Belzile, Gleason. Rimouski (1945: House of Commons); Rimouski (1949: NF House of Commons).</desc>
@@ -1249,11 +1252,14 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:BOUC1">
                               <desc>Boucher De Niverville, Louis-Charles. Trois-Rivières (Three Rivers) (1865: Ont/Que Leg); Trois-Rivières (Three Rivers) (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</desc>
                            </valItem>
+                           <valItem ident="pers:BOUC5">
+                              <desc>Boucher, Adam. Chipewyan Indian of Fort McMurray and the country thereabouts (1899: ); Chipewyan Headman Treaty # 8. Location: Fort McMurray. (1899: ).</desc>
+                           </valItem>
                            <valItem ident="pers:BOUC3">
                               <desc>Boucher, Charles Eugene. Batoche (1894: AB/SK Leg).</desc>
                            </valItem>
                            <valItem ident="pers:BOUC4">
-                              <desc>Boucher, George Russell. Carleton (1945: House of Commons); Chipewyan Indian of Fort McMurray and the country thereabouts (1899: ); Chipewyan Headman Treaty # 8. Location: Fort McMurray. (1899: ).</desc>
+                              <desc>Boucher, George Russell. Carleton (1945: House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:BOUC2">
                               <desc>Boucher, William Albert. Rosthern (1945: House of Commons); Rosthern (1949: NF House of Commons).</desc>
@@ -8540,7 +8546,7 @@ so Volume 2 by implication has finished. -->
                               <desc>NEWCASTLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
                            </valItem>
                            <valItem ident="plc:NEWW1">
-                              <desc>NEW WESTMINSTER (BRITISH COLUMBIA), federal, 1871- NELSON, Hugh</desc>
+                              <desc>NEW WESTMINSTER DISTRICT (BRITISH COLUMBIA), federal, 1871- NELSON, Hugh</desc>
                            </valItem>
                            <valItem ident="plc:NEWW2">
                               <desc>NEW WESTMINSTER (BRITISH COLUMBIA), federal, 1872-1945 NELSON, Hugh; KENNEDY, James; REID, Tom</desc>
@@ -9749,7 +9755,30 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-          
+               
+               <!--           We need to constrain people and places so that their xml:ids don't clash.    -->
+               <elementSpec ident="person" module="namesdates" mode="change">
+                  <constraintSpec scheme="schematron" ident="personIdNoClashWithPlace" mode="add">
+                     <desc>The <att>xml:id</att> attributes of person and place elements should not clash.</desc>
+                     <constraint>
+                        <sch:assert test="not(@xml:id = doc('../placeography/placeography.xml')//tei:place/@xml:id)">
+                           The xml:ids of person elements must not clash with those of place elements
+                           in the placeography file.
+                        </sch:assert>
+                     </constraint>
+                  </constraintSpec>
+               </elementSpec>
+               <elementSpec ident="place" module="namesdates" mode="change">
+                  <constraintSpec scheme="schematron" ident="placeIdNoClashWithPerson" mode="add">
+                     <desc>The <att>xml:id</att> attributes of place and person elements should not clash.</desc>
+                     <constraint>
+                        <sch:assert test="not(@xml:id = doc('../personography/personography.xml')//tei:person/@xml:id)">
+                           The xml:ids of place elements must not clash with those of person elements
+                           in the personography file.
+                        </sch:assert>
+                     </constraint>
+                  </constraintSpec>
+               </elementSpec>
           
             </schemaSpec>
          </div>
