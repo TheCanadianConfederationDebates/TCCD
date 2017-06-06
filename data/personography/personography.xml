@@ -12723,11 +12723,17 @@
                      <forename>Alexander</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:PARK5">Parkdale</affiliation>
+                  <note>Served until resignation. Replaced by <persName ref="pers:TIMM1">Harold Timmins</persName> in by-election of 1946.</note>
+                  </person>
+               <person xml:id="BRUC4">
+                  <persName when="1921">
+                     <surname>BRUCE</surname>,<forename>W</forename>
+                     <forename>V</forename>
+                  </persName>
                   <state when="1921">
                      <label>witness; Inspector Royal Canadian Mounted Police</label>
                      <note>Treaty # <num type="treaty">11</num>. Location: <placeName>Fort Providence</placeName>. </note>
                   </state>
-                  <note>Served until resignation. Replaced by <persName ref="pers:TIMM1">Harold Timmins</persName> in by-election of 1946.</note>
                </person>
                <person xml:id="TIMM1">
                   <persName when="1945">
@@ -13043,7 +13049,7 @@
                   <affiliation when="1874">Lac Seul, Seul, Trout and Sturgeon Lakes</affiliation>
                   <state when="1874">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName>Lac Seul</placeName>. </note>smi
+                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName>Lac Seul</placeName>. </note>
                   </state>
                </person>
                <person xml:id="ADAM3">
@@ -13822,16 +13828,7 @@
                   </state>
                </person>
                <person xml:id="BEAR5">
-<!--WARNING: person with @xml:id="BEAR5" has non-matching names: Bear, Jack versus Beardy, Samson.-->
-                  <persName when="1929">
-                     <surname>Beardy</surname>,
-                    <forename>Samson</forename>
-                  </persName>
-                  <state when="1929">
-                     <label>chief?</label>
-                     <note>Treaty # <num type="treaty">9</num>. Location: <placeName>Trout Lake</placeName>. </note>
-                  </state>
-                  <persName when="1950">
+                     <persName when="1950">
                      <surname>Bear</surname>,
                     <forename>Jack</forename>
                   </persName>
@@ -13840,9 +13837,19 @@
                      <label>headman</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName>Witchekan Lake</placeName>. </note>
                   </state>
+               </person>
+               <person xml:id="BEAR9">
+                  <persName when="1929">
+                     <surname>Beardy</surname>,
+                     <forename>Samson</forename>
+                  </persName>
+                  <state when="1929">
+                     <label>chief?</label>
+                     <note>Treaty # <num type="treaty">9</num>. Location: <placeName>Trout Lake</placeName>. </note>
+                  </state>
                   <note>name obtained from book "Bounty and Benevolence: A Documentary History of Saskatchewan Treaties". By Arthur J. Ray, Jim Miller, Frank Tough</note>
                   <note>treaty signature: Signed in syllabic characters</note>
-               </person>
+                 </person>
                <person xml:id="BEAR6">
                   <persName when="1950">
                      <surname>Bear</surname>,
@@ -13868,7 +13875,6 @@
                   <note>name obtained from book "Bounty and Benevolence: A Documentary History of Saskatchewan Treaties". By Arthur J. Ray, Jim Miller, Frank Tough</note>
                </person>
                <person xml:id="BEAR1">
-<!--WARNING: person with @xml:id="BEAR1" has non-matching names: Bear, Annie versus Beardy, Peter.-->
                   <persName when="1875">
                      <surname>Beardy</surname>,
                     <forename>Peter</forename>
@@ -13877,13 +13883,15 @@
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">5</num>. Location: <placeName>the Grand Rapids</placeName>. </note>
                   </state>
+                 </person>
+               <person xml:id="BEAR8">
                   <persName when="1950">
                      <surname>Bear</surname>,
-                    <forename>Annie</forename>
+                     <forename>Annie</forename>
                   </persName>
                   <state when="1950">
                      <label>witness</label>
-                     <note>Location: <placeName>Witchekan Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName>Witchekan Lake</placeName>.</note>
                   </state>
                   <note>name: guessed at.</note>
                </person>
