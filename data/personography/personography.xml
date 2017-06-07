@@ -2263,7 +2263,6 @@
                   <persName when="1945">
                      <surname>Claxton</surname>,
                             <forename>Brooke</forename> 
-                     <forename>Claxton</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:STLA3">St. Lawrence—St. George</affiliation>
                   <affiliation when="1949" n="NF House of Commons" ref="plc:STLA3">St. Lawrence—St. George</affiliation>
@@ -2505,6 +2504,12 @@
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:STJE1">Saint-Jean—Iberville—Napierville</affiliation>
                   <affiliation when="1949" n="NF House of Commons" ref="plc:STJE1">St. Johns—Iberville—Napierville</affiliation>
+               </person>
+               <person xml:id="COTE4">
+                  <persName when="1899">
+                     <surname>Côté</surname>,
+                     <forename>j</forename>
+                  </persName>
                   <state when="1899">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Lesser Slave Lake</placeName>. </note>
@@ -3192,6 +3197,12 @@
                   </persName>
                   <affiliation when="1873" n="PEI House of Commons" ref="plc:MONC1">Monck</affiliation>
                   <affiliation when="1888" n="NF House of Commons">Ontario West</affiliation>
+               </person>
+               <person xml:id="EDGA2">
+                  <persName when="1906">
+                     <surname>Edgar</surname>,
+                     <forename>Pelham</forename>
+                     </persName>
                   <state when="1906">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">9</num>. Location: <placeName>Abitibi</placeName>. </note>
@@ -12225,12 +12236,11 @@
                   <affiliation n="House of Commons" when="1945" ref="plc:ACAD1">Acadia</affiliation>
                </person>
                <person xml:id="DECH2">
-                  <persName when="1945">
-                     <surname>Dechene</surname>,
-                     <forename>Joseph</forename> 
-                     <forename>Miville</forename>
+                  <persName when="1899">
+                     <surname>DE CHAMBOUR</surname>,
+                     <forename>A</forename> 
                   </persName>
-                  <affiliation n="House of Commons" when="1945" ref="plc:ATHA1">Athabaska</affiliation>
+                  <affiliation n="House of Commons" when="1899" ref="plc:ATHA1">Athabaska</affiliation>
                   <state when="1899">
                      <label>witness; O.M.I.</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Fort Chipewyan</placeName>. </note>
@@ -12945,12 +12955,17 @@
                      <surname>Cardin</surname>, <forename>Arthur</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:RICH12">Richelieu—Verchères</affiliation>
+                  <note>Died October 21, 1946. Replaced by <persName ref="pers:COUR1">Gérard Cournoyer</persName>
+                     in by-election of December 23, 1946.</note>
+               </person>
+               <person xml:id="CARD7">
+                  <persName when="1876">
+                     <surname>Cardin</surname>, <forename>Isaac</forename>
+                  </persName>
                   <state when="1876">
                      <label>Councillor to PEE-NAY-SIS</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName>near Fort Pitt</placeName>. </note>
                   </state>
-                  <note>Died October 21, 1946. Replaced by <persName ref="pers:COUR1">Gérard Cournoyer</persName>
-                     in by-election of December 23, 1946.</note>
                </person>
                <person xml:id="POUL3">
                   <persName when="1945">
@@ -15714,7 +15729,6 @@
                   </state>
                </person>
                <person xml:id="DESC1">
-<!--WARNING: person with @xml:id="DESC1" has non-matching names: Deschamps, Joe versus Deschambeault, Pierre.-->
                   <persName when="1899">
                      <surname>Deschambeault</surname>,
                     <forename>Pierre</forename>
@@ -15735,7 +15749,9 @@
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Fond du Lac</placeName>. </note>
                   </state>
-                  <persName when="1950">
+               </person>
+                  <person xml:id="DESC2">
+                     <persName when="1950">
                      <surname>Deschamps</surname>,
                     <forename>Joe</forename>
                   </persName>
