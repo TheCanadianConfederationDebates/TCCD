@@ -101,7 +101,9 @@
                         <xsl:variable name="persIds" select="distinct-values(//text/descendant::persName/@ref/substring-after(normalize-space(.), 'pers:'))"/>
                         <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person[@xml:id = $persIds]">
                             <xsl:sort select="string-join(persName, ' ')"/>
-                            <xsl:apply-templates select="."/>
+                            <li id="{@xml:id}">
+                                <xsl:sequence select="doc(concat($outputFolder, '/ajax/', @xml:id, '.xml'))/xh:div/node()"/>
+                            </li>
                         </xsl:for-each>
                     </ul>
                 </div>
@@ -155,8 +157,8 @@
             <xsl:apply-templates select="@*|node()"/>
         </span>
     </xsl:template>
-    <xsl:template match="persName[ancestor::person]">
-        <span data-el="persName">
+    <xsl:template match="persName[ancestor::person] | placeName[ancestor::place]">
+        <span data-el="{local-name()}">
             <xsl:apply-templates select="@*|node()"/>
         </span>
     </xsl:template>

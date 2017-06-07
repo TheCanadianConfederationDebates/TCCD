@@ -34,6 +34,7 @@
         them as required to produce output in XHTML5.</xd:desc>
     </xd:doc>
     <xsl:template name="allDocs">
+        
         <xsl:sequence select="hcmc:message(concat('Processing documents in ', $projectData))"/>
         <xsl:sequence select="hcmc:message(concat('Found ', count($teiDocs), ' candidate documents.'))"/>
         
@@ -82,7 +83,7 @@
                         
                         <ul>
                             <li><a href="map.html">Map</a></li>
-                            <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'bibliography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
+                            <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'bibliography', 'placeography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
                                 <xsl:sort select="hcmc:getTaxonomyVal(current-grouping-key())"/>
                                 <li>
                                     <a href="{substring-after(current-grouping-key(), 'lg:')}.html">
@@ -94,6 +95,7 @@
                             
                             <li><a href="bibliography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='bibliography']//titleStmt/title[1]"/></a></li>
                             <li><a href="personography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='personography']//titleStmt/title[1]"/></a></li>
+                            <li><a href="placeography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='placeography']//titleStmt/title[1]"/></a></li>
 <!--                           Ad-hoc additions that will be removed eventually. -->
                             <li><a href="unidentified_names.htm">Unidentified names</a> needing research</li>
                             <li><a href="a_to_z.htm">Project A to Z</a> of all items with ids</li>
@@ -145,5 +147,6 @@
         </xsl:for-each-group>
         
     </xsl:template>
+
     
 </xsl:stylesheet>
