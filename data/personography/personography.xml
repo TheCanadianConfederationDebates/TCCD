@@ -12272,6 +12272,12 @@
                      <forename>Angus</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:WEDM1">Edmonton West</affiliation>
+               </person>
+               <person xml:id="MACK7">
+                  <persName when="1889">
+                     <surname>Mackay</surname>, <forename>John</forename>
+                     <forename>Alexander</forename>
+                     </persName>
                   <state when="1889">
                      <label>witness; Archdeacon of Saskatchewan</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName>Montreal Lake</placeName>. </note>
@@ -12529,6 +12535,12 @@
                      <forename>Chisholm</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:HALI2">Halifax</affiliation>
+                  <note>Died November 19, 1946. Halifax was represented by more than one member during the 20th parliament.</note>
+               </person>
+               <person xml:id="MACD18">
+                  <persName when="1882">
+                     <surname>Macdonald</surname>, <forename>Allan</forename> 
+                  </persName>
                   <state when="1882">
                      <label>witness; Indian Agent</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName>Fort Walsh</placeName>. </note>
@@ -12541,8 +12553,7 @@
                         <ptr target="http://www.biographi.ca/fr/bio/macdonald_allan_13F.html"/>
                      </bibl>
                   </listBibl>
-                  <note>Died November 19, 1946. Halifax was represented by more than one member during the 20th parliament.</note>
-               </person>
+                  </person>
                <person xml:id="WINT3">
                   <persName when="1945">
                      <surname>Winters</surname>, <forename>Robert</forename>
@@ -12617,11 +12628,16 @@
                      <surname>MacDiarmid</surname>, <forename>William</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:GLEN3">Glengarry</affiliation>
+                  <note>resigned June 22, 1945</note>
+               </person>
+               <person xml:id="MACD19">
+                  <persName when="1900">
+                     <surname>MacDermot</surname>, <forename>Myles</forename>
+                  </persName>
                   <state when="1900">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Lesser Slave Lake</placeName>. </note>
                   </state>
-                  <note>resigned June 22, 1945</note>
                </person>
                <person xml:id="SENN1">
                   <persName when="1945">
@@ -12866,10 +12882,9 @@
                   <affiliation n="House of Commons" when="1945" ref="plc:LAKE2">Lake St-John—Roberval</affiliation>
                </person>
                <person xml:id="LACO1">
-                  <persName when="1945">
-                     <surname>Lacombe</surname>, <forename>Liguori</forename>
+                  <persName when="1899">
+                     <surname>Lacombe</surname>, <forename>Albert</forename>
                   </persName>
-                  <affiliation n="House of Commons" when="1945" ref="plc:LAVA3">Laval—Two Mountains</affiliation>
                   <state when="1899">
                      <label>witness; Roman Catholic priest</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Lesser Slave Lake</placeName>. </note>
@@ -12894,6 +12909,12 @@
                         <ptr target="http://www.biographi.ca/fr/bio/lacombe_albert_14F.html"/>
                      </bibl>
                   </listBibl>
+               </person>
+               <person xml:id="LACO3">
+                  <persName when="1945">
+                     <surname>Lacombe</surname>, <forename>Liguori</forename>
+                  </persName>
+                  <affiliation n="House of Commons" when="1945" ref="plc:LAVA3">Laval—Two Mountains</affiliation>
                   <note>Resigned July 12, 1948. Replaced by <persName ref="pers:DEME1">Léopold Demers</persName> in by-election of December 20, 1948.</note>
                </person>
                <person xml:id="WHIT9">
@@ -16761,7 +16782,6 @@
                   </state>
                </person>
                <person xml:id="HARD1">
-<!--WARNING: person with @xml:id="HARD1" has non-matching names: Hardisty, E. versus Hardisty, Eliza.-->
                   <persName when="1876">
                      <surname>Hardisty</surname>,
                     <forename>Eliza</forename>
@@ -17536,6 +17556,16 @@
                   <state when="1900">
                      <label>principal man?</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Vermilion</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="KACH4">
+                  <persName when="1876">
+                     <surname>KA-CHA-CHUCK-OOS</surname>
+                  </persName>
+                  <affiliation when="1876">"Moose Lake" Band</affiliation>
+                  <state when="1876">
+                     <label>Councillor</label>
+                     <note>Treaty # <num type="treaty">5</num>. Location: <placeName>Saskatchewan River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KAHA1">
