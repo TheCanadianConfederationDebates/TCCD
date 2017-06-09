@@ -77,6 +77,9 @@
                     <xsl:when test="$currId = 'personography'">
                         <xsl:apply-templates select="ancestor::TEI//particDesc"/>
                     </xsl:when>
+                    <xsl:when test="$currId = 'placeography'">
+                        <xsl:apply-templates select="ancestor::TEI//settingDesc"/>
+                    </xsl:when>
                     <xsl:otherwise>
                         <xsl:apply-templates/>
                     </xsl:otherwise>
@@ -157,7 +160,7 @@
             <xsl:apply-templates select="@*|node()"/>
         </span>
     </xsl:template>
-    <xsl:template match="persName[ancestor::person] | placeName[ancestor::place]">
+    <xsl:template match="persName[ancestor::person]">
         <span data-el="{local-name()}">
             <xsl:apply-templates select="@*|node()"/>
         </span>
@@ -175,10 +178,10 @@
    
     
     <xd:doc scope="component">
-        <xd:desc>The personography needs special handling.</xd:desc>
+        <xd:desc>The personography and placeography needs special handling.</xd:desc>
     </xd:doc>
-    <xsl:template match="particDesc">
-        <div data-el="particDesc">
+    <xsl:template match="particDesc | settingDesc">
+        <div data-el="{local-name()}">
             <xsl:apply-templates select="@*|node()"/>
         </div>
     </xsl:template>
@@ -186,7 +189,7 @@
     <xd:doc scope="component">
         <xd:desc>Lists are all processed in a similar way. More types may be added.</xd:desc>
     </xd:doc>
-    <xsl:template match="listPerson | listBibl | list">
+    <xsl:template match="listPerson | listBibl | list | listPlace">
         <xsl:apply-templates select="head"/>
         <ul data-el="{local-name()}">
             <xsl:apply-templates select="@*|node()[not(self::head)]"/>
@@ -274,6 +277,49 @@
         <xsl:text>)</xsl:text>
     </xsl:template>
     <xsl:template match="affiliation/@n"/>
+    
+    
+    <xd:doc scope="component">
+        <xd:desc>The place element needs its own processing.</xd:desc>
+    </xd:doc>
+    <xsl:template match="listPlace/place">
+        <li title="plc:{@xml:id}">
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    
+    
+    <xd:doc scope="component">
+        <xd:desc>The placeName element in the context of a place element
+            is turned into a comma-separated sequence of components.</xd:desc>
+    </xd:doc>
+    <xsl:template match="listPlace/place/placeName">
+        <span class="{local-name()}"><xsl:value-of select="string-join((for $c in * return normalize-space($c)), ', ')"/></span>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The locations in the placeography are output as links to the map.</xd:desc>
+    </xd:doc>
+    <xsl:template match="listPlace/place/location">
+        <span class="{local-name()}">
+            <xsl:if test="string-length(normalize-space(geo)) gt 0">
+            <a href="map.html?place={ancestor::place[1]/@xml:id}"><xsl:value-of select="geo"/></a>
+            </xsl:if>
+            <xsl:text> (</xsl:text>
+            <xsl:value-of select="if (@notBefore) then @notBefore else ''"/>
+            <xsl:if test="@notBefore or @notAfter"><xsl:text>-</xsl:text></xsl:if>
+            <xsl:value-of select="if (@notAfter) then @notAfter else ''"/>
+            <xsl:text>)</xsl:text>
+        </span>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The note element in places currently has pointless stuff in
+        it, which we suppress.</xd:desc>
+    </xd:doc>
+    <xsl:template match="listPlace/place/note">
+        <xsl:apply-templates select="node()[not(self::list)]"/>
+    </xsl:template>
     
     <xd:doc scope="component">
         <xd:desc>This is a set of inline elements which are all processed in 
