@@ -7498,6 +7498,21 @@
                   </persName>
                   <affiliation when="1870" n="MB Convention of 40">St. Boniface</affiliation>
                   <affiliation when="1870" n="MB Government">St. Boniface</affiliation>
+                  <listBibl>
+                     <bibl xml:lang="en">
+                        <ptr target="http://www.biographi.ca/en/bio/o_donoghue_william_bernard_10E.html"/>
+                     </bibl>
+                     <bibl xml:lang="fr">
+                        <ptr target="http://www.biographi.ca/fr/bio/o_donoghue_william_bernard_10F.html"/>
+                     </bibl>
+                  </listBibl>
+               </person>
+               <person xml:id="ODON2">
+                  <persName when="1870">
+                     <surname>O'Donell</surname>,
+                     <forename>W</forename>
+                     <forename>J</forename>
+                  </persName>
                   <state when="1900">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Lesser Slave Lake</placeName>. </note>
@@ -7510,15 +7525,7 @@
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">11</num>. Location: <placeName>Fort Rae</placeName>. </note>
                   </state>
-                  <listBibl>
-                     <bibl xml:lang="en">
-                        <ptr target="http://www.biographi.ca/en/bio/o_donoghue_william_bernard_10E.html"/>
-                     </bibl>
-                     <bibl xml:lang="fr">
-                        <ptr target="http://www.biographi.ca/fr/bio/o_donoghue_william_bernard_10F.html"/>
-                     </bibl>
-                  </listBibl>
-               </person>
+                  </person>
                <person xml:id="OLIV1">
                   <persName when="1905">
                      <surname>Oliver</surname>,
@@ -10341,6 +10348,12 @@
                      <forename>John</forename>
                   </persName>
                   <affiliation when="1869" n="NF Leg" ref="plc:PLAC1">Placentia-St. Mary's</affiliation>
+                </person>
+               <person xml:id="PARS3">
+                  <persName when="1921">
+                     <surname>Parsons</surname>,
+                     <forename>J</forename>
+                  </persName>
                   <state when="1921">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">11</num>. Location: <placeName>Arctic Red River</placeName>. </note>
@@ -12327,6 +12340,11 @@
                      <surname>Reid</surname>, <forename>Thomas</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:NEWW2">New Westminster</affiliation>
+               </person>
+               <person xml:id="REID5">
+                  <persName when="1899">
+                     <surname>Reid</surname>, <forename>J</forename>
+                  </persName>
                   <state when="1899">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Smith's Landing</placeName>. </note>
@@ -12338,11 +12356,17 @@
                      <forename>Alistair</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:CVAN1">Vancouver Centre</affiliation>
+                  <note>until January 19, 1948 Senate appointment</note>
+               </person>
+               <person xml:id="MACK8">
+                  <persName when="1944">
+                     <surname>Mackenzie</surname>, <forename>W</forename> 
+                     <forename>A</forename>
+                  </persName>
                   <state when="1944">
                      <label>witness; Rev.</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName>Rocky Mountain House</placeName>. </note>
                   </state>
-                  <note>until January 19, 1948 Senate appointment</note>
                   <note>name: guessed at</note>
                </person>
                <person xml:id="YOUN4">
@@ -12502,6 +12526,11 @@
                      <surname>Richard</surname>, <forename>Clovis-Thomas</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:GLOU1">Gloucester</affiliation>
+               </person>
+               <person xml:id="RICH13">
+                  <persName when="1875">
+                     <surname>Richardson</surname>, <forename>W</forename>
+                  </persName>
                   <state when="1875">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">3</num>. Location: <placeName>Fort Francis</placeName>. </note>
@@ -12833,6 +12862,12 @@
                      <surname>Picard</surname>, <forename>Louis-Philippe</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:BELL12">Bellechasse</affiliation>
+               </person>
+               <person xml:id="PICA2">
+                  <persName when="1899">
+                     <surname>Picard</surname>, <forename>Joseph</forename>
+                     <forename>Henri</forename>
+                  </persName>
                   <state when="1899">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName>Lesser Slave Lake</placeName>. </note>
@@ -12945,11 +12980,16 @@
                      <surname>McDonald</surname>, <forename>Wallace</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:PONT2">Pontiac</affiliation>
+                  <note>Died May 2, 1946. Replaced by <persName ref="pers:CAOU1">Réal Caouette</persName> in by-election of September 16, 1946.</note>
+               </person>
+               <person xml:id="MCDO24">
+                  <persName when="1871">
+                     <surname>McDonald</surname>, <forename>Eliza</forename>
+                  </persName>
                   <state when="1871">
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">2</num>. Location: <placeName>Manitoba Post</placeName>. </note>
                   </state>
-                  <note>Died May 2, 1946. Replaced by <persName ref="pers:CAOU1">Réal Caouette</persName> in by-election of September 16, 1946.</note>
                </person>
                <person xml:id="LAUR6">
                   <persName when="1945">
@@ -20258,15 +20298,12 @@
 <!--WARNING: person with @xml:id="MISS1" has non-matching names: Missabay, Thomas versus Missabay, .-->
                   <persName when="1905">
                      <surname>Missabay</surname>
+                     <forename>Thomas</forename>
                   </persName>
                   <state when="1905">
                      <label>chief?</label>
                      <note>Treaty # <num type="treaty">9</num>. Location: <placeName>Osnaburg</placeName>. </note>
                   </state>
-                  <persName when="1905">
-                     <surname>Missabay</surname>,
-                    <forename>Thomas</forename>
-                  </persName>
                   <state when="1905">
                      <label>headman?</label>
                      <note>Treaty # <num type="treaty">9</num>. Location: <placeName>Osnaburg</placeName>. </note>
