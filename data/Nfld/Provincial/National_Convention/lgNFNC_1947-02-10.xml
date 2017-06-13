@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgNFNC_1947-02-10" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgNFNC">Newfoundland National Convention</name>, <date when="1947-02-10">10 February 1947</date>, Debates on Confederation with Canada</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgNFNC_1947-02-10"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgNFNC">Newfoundland National Convention</name>, <date when="1947-02-10">10 February 1947</date>, Debates on Confederation with Canada</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName ref="pers:LYAL1">Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<editor>J.K. Hiller and M.F. Harrington</editor>.
+               <editor>J.K. Hiller and M.F. Harrington</editor>.
      
          
          <title>The Newfoundland National Convention 1946-1948 Vol 1</title>.
@@ -35,50 +34,2291 @@
 
          <pubPlace>Montreal and Kingston</pubPlace>: <publisher>McGill-Queen's University Press</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="303" to="313"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0303.hocr.html"/></item>
-          <item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0304.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0305.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0306.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0307.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0308.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0309.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0310.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0311.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0312.hocr.html"/></item>
-<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0313.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0303.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0304.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0305.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0306.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0307.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0308.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0309.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0310.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0311.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0312.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0313.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2017-06-09">Created this document, completed metadata. </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2017-06-09">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2017-06-09">Created this document, completed metadata. </change>
+      </revisionDesc>
   </teiHeader>
+   <facsimile>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0303">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0303.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0304">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0304.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0305">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0305.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0306">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0306.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0307">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0307.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0308">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0308.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0309">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0309.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0310">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0310.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0311">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0311.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0312">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0312.jpg"/>
+      </surface>
+      <surface xml:id="NFLD_National_Convention_1947-02-10_Page_0313">
+         <graphic url="final/images/NFLD_National_Convention_1947-02-10_Page_0313.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="303"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0303.jpg"/>
+            <fw type="dateline">February 1947</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">303</fw>
+           
+
+
+<!-- GL, 2017-06-09, Commented out below, as it will appear in the preceding debate day --> 
+ <!--<p>
+     Let us see that our men going to the fisheries get 
+     <lb/>
+     a square deal so that we can live as a country 
+     <lb/>
+     should live. 
+     <lb/>
+     
+     
+     
+     
+     
+     
+     
+     
+            </p>
+            <p>[The Committee rose and reported progress.] 
+     <lb/>
+            </p>
+            <p>Mr. Chairman Gentlemen, I have to report to 
+     <lb/>you that in pursuance of the plan adopted a couple 
+     <lb/>of days ago at an informal session of the Conven<lb break="no"/>tion, the following were elected to be members 
+     <lb/>of the committee to interview His Excellency the 
+     <lb/>Governor in Commission. These are the mem<lb break="no"/>bers of the committee: 
+     <lb/>
+            </p>
+
+            <p>
+     Hon. R.B. Job 
+     <lb/>
+            </p>
+            <milestone type="unknown"/>
+            <p>
+     Mr. C.A. Crosbie 
+     <lb/>
+            </p>
+
+            <p>
+     Mr. G.F. Higgins, K.C. 
+     <lb/>
+            </p>
+
+            <p>
+     Mr. T.W. Ashbourne 
+     <lb/>
+            </p>
+
+            <p>
+     Mr. J.R. Smallwood 
+     <lb/>
+            </p>
+
+            <p>
+     Mr. I. Newell 
+     <lb/>
+            </p>
+
+            <p>
+     Mr. F.T. Fogwill 
+     <lb/>
+     
+     
+     
+     
+     
+     
+            </p>
+            <p>It is necessary that we have a motion formally to 
+     <lb/>confirm this election I will accept a motion now 
+     <lb/>from any member of the Convention confirming 
+     <lb/>the appointment of these gentlemen. 
+     <lb/>
+            </p>
+            <p>[The motion was put and carried, and the Con<lb break="no"/>vention adjourned]<lb/>
+            </p>-->
+   
+
+<div type="section">
+            <head rendition="simple:centre">
+     February 10, 1947 
+     <lb/>
+            </head>
+   
+            <p rendition="simple:centre">
+     <emph>Report of the Local Industries Committee:<ref target="#fn_01">[1]</ref>
+     <lb/>
+     Committee of the Whole</emph> 
+     <lb/>
+            </p>
+</div>
+
+<div type="section">
+   
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> I think perhaps it might be best if 
+     <lb/>
+     the Secretary would finish reading the report, and 
+     <lb/>
+     we could then take it all and debate it.... 
+     <lb/>
+            </p>
+            <p><hi rendition="simple:italic">[The Secretary read the second part of the report,<lb/>and Mr. Hickman answered a number of ques<lb break="no"/>tions]</hi><lb/>
+            </p>
+
+    
+
+            <p>
+     <persName ref="pers:SMAL1">Mr. Smallwood</persName> Let us consider the appendix 
+     <lb/>
+     compiled by the Industrial Development Board, 
+     <lb/>
+     which strikes me as a constructive. report. They 
+     <lb/>
+     seem to have the same idea I have — to use up 
+     <lb/>
+     the raw materials we have here in the country 
+     <lb/>
+     rather than import. I do not think sealskins are 
+     <lb/>
+     mentioned, but that is an important item. They are 
+     <lb/>
+     exported raw. Why are they not manufactured 
+     <lb/>
+     here? Then the birch. What possibilities are there 
+     <lb/>
+     for manufacturing that here? Then, limestone. It 
+     <lb/>
+     seems from this report that limestone is sub<lb break="no"/>sidised in Canada. To encourage agriculture, the 
+     <lb/>
+     government subsidises limestone to make it 
+     <lb/>
+     cheaper for farmers. Fish offal — perhaps Mr. 
+     <lb/>
+     Crosbie can tell us something about that. I was 
+     <lb/>
+     into a place in Labrador where there was 
+     <lb/>
+     machinery for turning fish guts, sound bones, and 
+     <lb/>
+     heads into fish meal. Then we come to seaweed. 
+     <lb/>
+     What do we find? "Processing firms in the USA 
+     <lb/>
+     when contacted re the establishment of branch 
+     <lb/>
+     plants in this country immediately asked for data 
+     <lb/>
+     on the quantities of the various species of 
+     <lb/>
+     seaweed available. This information, unfor<lb break="no"/>tunately, has never been compiled." Why not? 
+     <lb/>
+     They make blancmange out of seaweed. 
+     <lb/>
+     Blancmange is the usual Sunday dessert in New<lb break="no"/>foundland; and here we are importing 
+   
+
+            <cb/>
+         
+     blancmange. Then wallboard, If they can make 
+     <lb/>
+     wallboard out of sawdust, why can't we put up a 
+     <lb/>
+     place to make wallboard? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> They are doing experimental 
+     <lb/>
+     work on that now. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:SMAL1">Mr. Smallwood</persName> I know the Anglo-New<lb break="no"/>foundland Development Co. have been ex<lb break="no"/>perimenting with it. We have the raw materials 
+     <lb/>
+     for all those things. I know of one local factory in 
+     <lb/>
+     St. John's — it is true they are importing raw 
+     <lb/>
+     material — they are milking that factory to put 
+     <lb/>
+     the profits into another industry of the country. I 
+     <lb/>
+     like that very much.... I hope Mr. Job will tell us 
+     <lb/>
+     about sealskins and Mr. Crosbie about fish offal. 
+     <lb/>
+      </p>
+
+            <p><persName ref="pers:JOB1">Mr. Job</persName> I take this opportunity of making a few 
+     <lb/>remarks about Mr. Smallwood's ideas in regard 
+     <lb/>to different industries. I am in accord with some 
+     <lb/>of his ideas but I am not in accord with the drastic 
+     <lb/>way in which he thinks local industries should be 
+     <lb/>dealt with. Any local industry must have a small 
+     <lb/>amount of protection and the most important 
+     <lb/>thing about local industries is the employment. 
+     <lb/>There are 3-4,000 men employed in local in<lb break="no"/>dustries, what would be the position if they were 
+     <lb/>out of employment now? It is serious. I think it is 
+     <lb/>helpful to the country generally. The other point 
+     <lb/>is the enormous government revenue from those 
+     <lb/>industries. I do not know how much. I do say that 
+     <lb/>if any industry is receiving excessive protection, 
+     <lb/>it should be remedied. Now, with regard to 
+     <lb/>sealskins. The answer is simple. It has been tried 
+     <lb/>on various occasions. The main trouble is foreign 
+     <lb/>tariffs. Our sealskins go into the United States 
+    
+
+   
+ 
+<note xml:id="fn_01">1 Volume II:54. [Volume II is not in <hi rendition="simple:italic">The Confederation Debates</hi> Collection]</note>
+
+
+            <pb n="304"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0304.jpg"/>
+            <fw type="num">304</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">February 1947</fw>
+
+
   
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
+     absolutely free of duty. If we make them up into <lb/>
+a manufactured article we get a 50% tariff or <lb/>
+something like that. The same thing applied to the <lb/>
+British market. The tanning of sealskins is an art <lb/>
+-- it is an art learned in Great Britain at very <lb/>
+heavy cost. We have had factories —— one on <lb/>
+Water Street West and another in Harbour Grace <lb/>
+—— and much effort was, made to turn out a good <lb/>
+article. It was discovered utterly impossible to do it. <lb/>
+I do not want to transgress on the questions <lb/>
+asked of Mr. Crosbie, but I would like to say one <lb/>
+word about ﬁsh offal. it may not be known to Mr.<lb/>
+Smallwood, but about 70 years ago, my ﬁrm lost<lb/>
+£20,000 trying to deal with fish offal. It has a very<lb/>
+enticing appearance, you sell all this stuff being<lb/>
+thrown away. You think, "This is ridiculous", but<lb/>
+I am sorry to say my firm and others put up<lb/>
+factories in Catalina, Bay Bulls and L'Anse-au-<lb/>
+Loup; I am told it cost my ﬁrm £20,000 and it<lb/>
+very nearly ruined us. The day will come when<lb/>
+fish offal will be used, but it depends on the<lb/>
+question of centralisation of the ﬁsheries. Mr.<lb/>
+Crosbie is doing a lot towards that. I hope it will<lb/>
+be a successful adjunct.</p>
+
+<p>
+<persName ref="pers:SMAL1">Mr. Smallwood</persName> There was a time when we got<lb/>
+500,000 sealskins a year; if we get it back to<lb/>
+200,000 it will be good. Even these could be<lb/>
+made into boots and shoes and consumed locally<lb/>
+— manufactured locally for the home market. I<lb/>
+have seen in the States pocket hooks, women's<lb/>
+purses, all kinds of leather goods made in<lb/>
+England and exhibited in the States and Canada,<lb/>
+paying the high duty and selling. In New York<lb/>
+you will see a ﬁne class of leather goods made in<lb/>
+England, and on which they pay high duty. I was<lb/>
+once given a pocket book made of Newfoundland<lb/>
+seal —— it was soft as silk —— if you were to buy it,<lb/>
+it would cost $30 or $40. If England can do it, we<lb/>
+can...</p>
+
+<p>
+<persName ref="pers:HIGG1">Mr. Higgins</persName> ....I believe I understood Mr.<lb/>
+Smallwood to refer to the Imperial Tobacco Co.,<lb/>
+and the protection it received.</p>
+
+<p>
+<persName ref="pers:SMAL1">Mr. Smallwood</persName> No.</p>
+
+<p>
+<persName ref="pers:HIGG1">Mr. Higgins</persName> Well, you corroborated Major<lb/>
+Cashin's ideas in the matter, and the suggestion<lb/>
+that the amount they were receiving in connec<lb break="no"/>tion with salaries after all did not warrant the<lb/>
+protection they were receiving. The suggestion<lb/>
+was that the protection is not given in other<lb/>
+countries. I believe those familiar with Canadian<lb/>
+and American tariffs will remember that the price<lb/>
+ 
+<cb/>
+ 
+of American cigarettes, if you can buy them in<lb/>
+Canada, is very much higher than here. Obvious<lb break="no"/>ly it is the same subsidiary of the major company<lb/>
+who are making the lines of cigarettes that are<lb/>
+sold. They must enjoy a very much higher protec<lb break="no"/>ion to be able to charge a higher price for<lb/>
+American cigarettes. I thought it was worth men<lb break="no"/>ioning, because the Imperial Tobacco Co. was<lb/>
+under attack, because I knew the position myself,<lb/>
+and I am sure a lot of you know it.</p>
+
+<p>
+<persName ref="pers:CROS2">Mr. Crosbie</persName> Mr. Chairman, l have taken very<lb/>
+little part in the numerous debates which have<lb/>
+taken place, for the simple reason that I prefer to<lb/>
+listen and learn; besides, Many of my fellow<lb/>
+delegates have said, in certain instances, what I<lb/>
+would have said myself. However, I cannot let<lb/>
+this opportunity pass without expressing my<lb/>
+views on some phases of the Report on Local<lb/>
+Industries.</p>
+
+<p>
+I would first say how disappointed I was at the<lb/>
+small number of replies received by the Commit<lb break="no"/>tee to the questionnaires sent out to local firms.<lb/>
+Can you imagine, that out of 150 firms, only 35<lb/>
+showed sufficient interest to answer. Those who<lb/>
+failed to reply have nothing of which to be proud.<lb/>
+If we had our own government, and if l were a<lb/>
+member of it, I would see that these firms pro<lb break="no"/>duced the answers to the questions which were<lb/>
+asked. It is regrettable our government did not<lb/>
+have the faith and foresight to implement and<lb/>
+entrust this Convention with power to demand<lb/>
+information, and get it. In many ways (and I agree<lb/>
+with my friend the Major) this country has been<lb/>
+put to unnecessary expense at this National Con<lb break="no"/>vention in ascertaining certain facts when the<lb/>
+government should have, and must have, figures<lb/>
+and statistics which, after proper analysis, would<lb/>
+show if our country is self-supporting or not.</p>
+
+<p>
+I was sorry and disappointed, but not sur<lb break="no"/>prised, at the tirade that bellowed forth from my<lb/>
+genial friend, Mr. Smallwood, who like Pathé<lb/>
+News, professes to see all, hear all, and know all.<lb/>
+I am far from convinced that he knows all the<lb/>
+correct answers to all the questions all the time.<lb/>
+After the Local Industries Report was tabled, my<lb/>
+friend, with his usual gusto, for 15 minutes or<lb/>
+more, told us what he would do with local in-<lb/>
+dustries which were not producing from our own<lb/>
+raw materials. Now, what did he tell us'? Exactly<lb/>
+nothing, except that he would do away with them,<lb/>
+even if it meant paying something like $4 million
+
+            <pb n="305"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0305.jpg"/>
+            <fw type="dateline">February 1947</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">305</fw>
+      
+     per annum to the people, who thus became un<lb break="no"/>employed, to do nothing. Mr. Smallwood did not 
+     <lb/>
+     suggest that the industries receiving protection be 
+     <lb/>
+     investigated thoroughly, and the unessential and 
+     <lb/>
+     uneconomic ones be eliminated, and the others 
+     <lb/>
+     maintained and encouraged. No, he eliminated 
+     <lb/>
+     them all. 
+     <lb/>
+            </p>
+
+            <p>
+     I cannot agree with this attitude. There are 
+     <lb/>
+     some very worthwhile local industries which are 
+     <lb/>
+     great assets to our country. I am a shareholder in 
+     <lb/>
+     many, and no one realises more than I how depen<lb break="no"/>dant they are on the income from the forests, the 
+     <lb/>
+     fisheries, and our mines. I receive — and I don't 
+     <lb/>
+     mind admitting it — some local dividends which, 
+     <lb/>
+     in turn, are used to help finance the things I am 
+     <lb/>
+     endeavouring to do in our fisheries. I would like 
+     <lb/>
+     to congratulate the Committee; they have done 
+     <lb/>
+     their best, and have brought in an excellent report 
+     <lb/>
+     when you consider the many handicaps they had 
+     <lb/>
+     to face. As far as local industries are concerned, 
+     <lb/>
+     I would suggest to our present government, and 
+     <lb/>
+     to whatever form of government we will have in 
+     <lb/>
+     the future that they thoroughly investigate all 
+     <lb/>
+     local companies receiving high tariff protection, 
+     <lb/>
+     and if they are not operated in the best interest of 
+     <lb/>
+     the people, remove this protection. 
+     <lb/>
+            </p>
+
+            <p>
+     As a closing word I appeal to you gentlemen, 
+     <lb/>
+     no matter what form of government you favour, 
+     <lb/>
+     do not let us knock our country; Newfoundland 
+     <lb/>
+     too often has been knocked by her own sons and 
+     <lb/>
+     daughters. If we cannot praise our country for 
+     <lb/>
+     something, the least we can do is wash our dirty 
+     <lb/>
+     linen in private. 
+     <lb/>
+            </p>
+
+            <p>
+     There will be a report on fish offal in the 
+     <lb/>
+     Fisheries Report. Some 70 years ago Mr. Job's 
+     <lb/>
+     firm lost a lot of money on utilising fish offal; but 
+     <lb/>
+     in the last six years I have been greatly interested 
+     <lb/>
+     in this, and it is only within the past 18 months 
+     <lb/>
+     that we have found a new process which will 
+     <lb/>
+     greatly reduce the cost of producing, or process<lb break="no"/>ing this. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:BAIL3">Mr. Bailey</persName> Mr. Chairman, I wonder if the con<lb break="no"/>venor of the Committee could tell me what 
+     <lb/>
+     material is used in the blankets that cover the 
+     <lb/>
+     paper machines? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> Perhaps Mr. Fudge might be able 
+     <lb/>
+     to answer that better than me. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HIGG1">Mr. Higgins</persName> They are made of wool. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:FUDG1">Mr. Fudge</persName> Very heavy wool. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:BAIL3">Mr. Bailey</persName> Because I noticed in the report that 
+   
+
+            <cb/>
+          
+
+     these blankets are made in the United States and 
+     <lb/>
+     Canada because they have the materials in their 
+     <lb/>
+     own country. I happen to know that they have not 
+     <lb/>
+     got the materials. Any time you are in Boston if 
+     <lb/>
+     you go down to the station, you will pass through 
+     <lb/>
+     a section of the city which is nothing but wool 
+     <lb/>
+     warehouses, mostly Australian wool. I am inter<lb break="no"/>ested in the Riverside wool....<ref target="#fn_02">[1]</ref> Here is an industry 
+     <lb/>
+     which is worth building up. I came to know about 
+     <lb/>
+     this during the war, I was in New York and one 
+     <lb/>
+     of our women, who originally belonged to New<lb break="no"/>foundland, happened to go to her closet and take 
+     <lb/>
+     out a white blanket and spread it over the bed. An 
+     <lb/>
+     American woman who was there said, "Where in 
+     <lb/>
+     the world did you get a blanket like that?" She 
+     <lb/>
+     said, "That's a Newfoundland product, the wool 
+     <lb/>
+     is grown there, and the blanket made there".... 
+     <lb/>
+     These are industries which can be expanded. If in 
+     <lb/>
+     the future we can get machines to utilise cotton 
+     <lb/>
+     with the wool, and if we get wool direct from 
+     <lb/>
+     Australia, without passing through American and 
+     <lb/>
+     Canadian brokers, here is an industry 
+     <lb/>
+     worthwhile. I can't see why in the future all our 
+     <lb/>
+     clothes cannot be made in this country. 
+     <lb/>
+            </p>
+
+            <p>
+     Now here is another industry. I was in Costa 
+     <lb/>
+     Rica during a time of famine and I was talking to 
+     <lb/>
+     a man about what our country is doing as regards 
+     <lb/>
+     fruit, and he happened to say, "We were fortunate 
+     <lb/>
+     to get 800 barrels of loganberries, I wish we could 
+     <lb/>
+     get 8,000." He said, "You have a wonderful fruit 
+     <lb/>
+     in panridgeberries." I know one of our women 
+     <lb/>
+     went to the States to join her son, and because she 
+     <lb/>
+     was not satisfied to lie around and do nothing, her 
+     <lb/>
+     son opened a Newfoundland store up there. She 
+     <lb/>
+     got the berries and started putting up so much jam 
+     <lb/>
+     in the kitchen. It went from one to another, and 
+     <lb/>
+     she could not make as much as she could sell.... 
+     <lb/>
+     There is something that can be made worthwhile 
+     <lb/>
+     if it was looked into. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:JONE5">Mr. Jones</persName> I was going to refer to the blueberry 
+     <lb/>
+     industry. I quote from the report of the Industrial 
+     <lb/>
+     Development Board: "A report of blueberry 
+     <lb/>
+     production over a period of years shows that this 
+     <lb/>
+     industry has decreased alarmingly over the past 
+     <lb/>
+     few years." I wonder if anything has been done 
+     <lb/>
+     to revive this industry, which means so much to 
+     <lb/>
+     the people, especially the people of the Avalon 
+     <lb/>
+     Peninsula. I know the department has urged the 
+     <lb/>
+     burning of certain areas. Has this been beneficial 
+     <lb/>
+     to the industry or not? This matter concerns this 
   
-  <text>
-    <body>
-      <div type="debate">
-        <p>This content will be replaced by data from the source documents during processing.</p>
-      </div>
-    </body>
-  </text>
+
+   
+        
+<note xml:id="fn_02">1 Riverside: Woolen Mills, Makinson's, Conception Bay, owned by the Royal Stores of St. John's.</note>
+ 
+
+            <pb n="306"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0306.jpg"/>
+            <fw type="num">306</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">February 1947</fw>
+          
+
+     Committee, and we should find a remedy to 
+     <lb/>
+     revive this industry which does not cost anything 
+     <lb/>
+     at all. It would be a wise thing to do. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> I am not in the blueberry industry 
+     <lb/>
+     and I don't know much about it, but I understand 
+     <lb/>
+     the decrease in the blueberry production was 
+     <lb/>
+     mainly caused by the volume of employment at 
+     <lb/>
+     the bases, and the people did not have the neces<lb break="no"/>sity of going blueberry picking. That was the 
+     <lb/>
+     main factor in blueberry production, the price 
+     <lb/>
+     was definitely set, and perhaps as unemployment 
+     <lb/>
+     increases, which we trust it won't, it may bring 
+     <lb/>
+     back a greater production. That is the answer you 
+     <lb/>
+     get from businessmen engaged in it. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:SMAL1">Mr. Smallwood</persName> I wonder if Mr. Bailey could 
+     <lb/>
+     tell us something in connection with wool. I 
+     <lb/>
+     followed his argument on herring with great in<lb break="no"/>terest. I thought it was completely sound....but 
+     <lb/>
+     now about this wool. He suggests importing wool 
+     <lb/>
+     from Australia as the United States does and as 
+     <lb/>
+     Canada does. If we were to import wool from 
+     <lb/>
+     Australia to manufacture into blankets and men's 
+     <lb/>
+     suits, does he suggest that that is an economic 
+     <lb/>
+     proposition for export, or is he picturing merely 
+     <lb/>
+     importing enough wool to supply our own needs? 
+     <lb/>
+     And has he considered the cost of a plant large 
+     <lb/>
+     enough to do that? Has he worked that thing out? 
+   </p>
+
+            <p><persName ref="pers:SPEN3">Mr. Spencer</persName> I have noticed that this report does 
+     <lb/>not say anything about our local shipbuilding 
+     <lb/>industry. Can Mr. Hickman tell us if that is 
+     <lb/>covered by another committee. In view of the 
+     <lb/>importance of this to the fisheries I don't think it 
+     <lb/>should be overlooked. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> We did not make that investiga<lb break="no"/>tion, as we thought it would be covered by the 
+     <lb/>
+     Fishery Report. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:NORT2">Mr. Northcott</persName> The enemies of man are fire, 
+     <lb/>
+     floods, earthquakes and disease, and it looks as if 
+     <lb/>
+     we could add local industry as an enemy. I think 
+     <lb/>
+     we should encourage every local industry, 
+     <lb/>
+     whether small or large. Every industry started in 
+     <lb/>
+     this country means a few more people get work, 
+     <lb/>
+     happier people and happier homes. Our people 
+     <lb/>
+     are not crying out for money, but for work, there<lb break="no"/>fore we should encourage those local industries 
+     <lb/>
+     and place no barrier in their way. It seems too bad 
+     <lb/>
+     that there are barriers in the way. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:SPEN3">Mr. Spencer</persName> I wonder if the convenor of the 
+     <lb/>
+     Local Industries Committee will answer the fol<lb break="no"/>lowing question. It is on page 19 of the report in 
+     <lb/>
+     connection with cardboard cartons. I wonder if 
+
+
+            <cb/>
+     
+     you have any idea of the price of them? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> No, the cartons come in for so 
+     <lb/>
+     many products that we have no price on the 
+     <lb/>
+     various types. It would take quite a bit of com<lb break="no"/>putation to get all that. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:BAIL3">Mr. Bailey</persName> Replying to that question, I did not 
+     <lb/>
+     have any idea of exporting, I thought it would be 
+     <lb/>
+     a long step ahead in the industrial development 
+     <lb/>
+     of this country if we got as far as where we could 
+     <lb/>
+     clothe ourselves, and I shall have something to 
+     <lb/>
+     say on this later when another report comes in.... 
+   
+</p>
+
+            <p><persName ref="pers:ASHB2">Mr. Ashbourne</persName> Rather than import raw wool 
+     <lb/>from Australia and New Zealand I would be in 
+     <lb/>favour of raising it in Newfoundland ourselves, 
+     <lb/>even though we have to subsidise every man who 
+     <lb/>keeps sheep, and the time may come when the 
+     <lb/>government pays them to do it. I realise that the 
+     <lb/>Committee had quite a job owing to the lack of 
+     <lb/>statistics. One of the things the govemmentmight 
+     <lb/>look into how is the formation of a bureau of 
+     <lb/>statistics. It already has the personnel, and let it 
+     <lb/>be simplified so that we can get government 
+     <lb/>statistics, not only for these local industries, but 
+     <lb/>upon everything pertaining to the economy of 
+     <lb/>Newfoundland. 
+     <lb/>
+            </p>
+
+            <p>
+     When Mr. Bailey was speaking about wool, I 
+     <lb/>
+     was thinking of the amount of hams and bacon 
+     <lb/>
+     used in Newfoundland, and I am of the opinion 
+     <lb/>
+     that we don't raise enough pigs. Talking about 
+     <lb/>
+     sealskins, Mr. Smallwood mentioned my name 
+     <lb/>
+     just now. It is quite true that I had a pair of 
+     <lb/>
+     sealskin boots. We had quite a number of harps 
+     <lb/>
+     and hoods, and the price was about 63 cents for 
+     <lb/>
+     a damaged skin, so we decided to send some of 
+     <lb/>
+     them to Harbour Grace and have them tanned. It 
+     <lb/>
+     was an expensive process, and we have not yet 
+     <lb/>
+     got rid of all those skins, but we used them in the 
+     <lb/>
+     manufacture of certain articles like pouches, pur<lb break="no"/>ses, school bags and also for furniture, leather for 
+     <lb/>
+     chairs, etc. It was quite suitable and I feel sure 
+     <lb/>
+     there is quite a market for that in Newfoundland, 
+     <lb/>
+     but not in sufficient volume or quantity to take 
+     <lb/>
+     the whole of our catch.... 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> Some sort of statistical depart<lb break="no"/>ment should be set up. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HIGG1">Mr. Higgins</persName> On the question of wool products 
+     <lb/>
+     — I do not know if I got Mr. Bailey's story right, 
+     <lb/>
+     but I do not see how we can compete with out<lb break="no"/>siders. I do not know if your Committee has any 
+     <lb/>
+     information about the Riverside Woolen Mills? I 
+     <lb/>
+     do not see why they cannot be increased. I 
+  
+
+            <pb n="307"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0307.jpg"/>
+            <fw type="dateline">February 1947</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">307</fw>
+          
+
+     wonder if we could have your views on that, Mr. 
+     <lb/>
+     Hickman? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> We have no views — only statis<lb break="no"/>tics. We have had no reply from the Riverside 
+     <lb/>
+     Woolen Mills. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:SMAL1">Mr. Smallwood</persName> This business of wool and 
+     <lb/>
+     woolen mills is a very good example of the point 
+     <lb/>
+     I am trying to make. Perhaps when the Commit<lb break="no"/>tee on Agriculture brings in its report we may 
+     <lb/>
+     have some information on the practical pos<lb break="no"/>sibility of rearing sheep.... Mr. Hollett wanted to 
+     <lb/>
+     know if they have protective tariffs everywhere. 
+     <lb/>
+     Yes they do. They caused the big war. Mr. Hollett 
+     <lb/>
+     will agree there is a difference between Great 
+     <lb/>
+     Britain with a big home market, and the United 
+     <lb/>
+     States with 140 millions, and Canada with 12 
+     <lb/>
+     millions, setting out deliberately with a policy to 
+     <lb/>
+     start local industries. But take a country like 
+     <lb/>
+     Newfoundland with 318,000 population, count<lb break="no"/>ing Labrador — if you are going to start an 
+     <lb/>
+     industry where you have to import raw material 
+     <lb/>
+     and fabricate it into a finished article, the cost of 
+     <lb/>
+     doing so is great. You are turning out a small 
+     <lb/>
+     quantity. Your overhead is high. If you do it on a 
+     <lb/>
+     large scale, you get modern equipment and turn 
+     <lb/>
+     out large quantities, you cannot do it in a small 
+     <lb/>
+     country. If you do, you turn out enough in a week 
+     <lb/>
+     to last the country for years.... 
+     <lb/>
+            </p>
+
+            <p>
+     What are we doing today? We are looking at 
+     <lb/>
+     one of the great issues that has divided man, free 
+     <lb/>
+     trade. We must export or die. We must export our 
+     <lb/>
+     fish, our paper and our minerals. Whatever lies in 
+     <lb/>
+     our power we must do to help industries bringing 
+     <lb/>
+     money into this country.... When I say local in<lb break="no"/>dustries, I am talking about fish, ore, forests — 
+     <lb/>
+     they are not the kind of industries we are talking 
+     <lb/>
+     about. I am talking about the industries that are 
+     <lb/>
+     artificial, made possible by a protective tariff. We 
+     <lb/>
+     are making it expensive to produce through the 
+     <lb/>
+     customs tariff. Ithas been a grave issue which has 
+     <lb/>
+     divided man and made enemies, this question of 
+     <lb/>
+     free trade versus protection. They come to the 
+     <lb/>
+     government as infant industries, need just a little 
+     <lb/>
+     bit of help, little bit of fostering care, protective 
+     <lb/>
+     tariff. "When we get on our feet, we will not need 
+     <lb/>
+     it", they say. While they are infants they want the 
+     <lb/>
+     government to help them. They want a little bit 
+     <lb/>
+     of nursing. Some of them are now pretty lusty 
+     <lb/>
+     infants, and they are still getting the protective 
+     <lb/>
+     tariffs — they were infants in the 1870s. You are 
+     <lb/>
+     unpatriotic, you are destructive if you get up and 
+
+
+            <cb/>
+           
+
+     mention it. I do not care if it costs me my place 
+     <lb/>
+     in public life, I will mention it. I do not want a 
+     <lb/>
+     place in public life if I have to suppress the truth. 
+     <lb/>
+     I want to see free trade and cut out the cursed 
+     <lb/>
+     tariffs. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:REDD1">Mr. Reddy</persName> Every member has a right to express 
+     <lb/>
+     his opinion on any matter that comes before this 
+     <lb/>
+     House, and being a member of the Local In<lb break="no"/>dustries Committee does not debar me from that 
+     <lb/>
+     privilege.... I am very much in favour of local 
+     <lb/>
+     industries, but I am certainly opposed to the ex<lb break="no"/>orbitant protective tariff that is enjoyed by the 
+     <lb/>
+     main local industries of St. John's, which is con<lb break="no"/>veniently called a revenue tariff. This burden of 
+     <lb/>
+     taxation falls most heavily on those least able to 
+     <lb/>
+     bear it, our woodsmen, miners and fishermen. 
+     <lb/>
+     Some people argue that if you close down local 
+     <lb/>
+     industries, you put a certain number of people out 
+     <lb/>
+     of employment. I would say, if the rights of the 
+     <lb/>
+     masses are infringed upon, the cause of the 
+     <lb/>
+     minority is not a just one. In my opinion this 
+     <lb/>
+     peculiar set-up of local industries in St. John's 
+     <lb/>
+     appears to be the greatest imposition yet per<lb break="no"/>petrated against the working class of Newfound<lb break="no"/>land. 
+     <lb/>
+            </p>
+
+            <p>
+     I feel it is the duty of this Convention to 
+     <lb/>
+     recommend that this taxation be reduced to the 
+     <lb/>
+     minimum... I am of the opinion that the exor<lb break="no"/>bitant protection enjoyed by the several local 
+     <lb/>
+     industries amounts to well over a million dollars 
+     <lb/>
+     per annum. Isn't it time that the powers that be 
+     <lb/>
+     recognised this protection and did something to 
+     <lb/>
+     reduce taxation from the shoulders of the masses 
+     <lb/>
+     of our people? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HIGG1">Mr. Higgins</persName> I was wondering if the Committee 
+     <lb/>
+     had investigated the possibilities of electricity. 
+     <lb/>
+     The making of electricity by windmills is now a 
+     <lb/>
+     well known factor in the country, and I was 
+     <lb/>
+     wondering if you investigated the potential 
+     <lb/>
+     electric power that we might be able to harness. 
+     <lb/>
+     
+            </p>
+            <p><persName ref="pers:HICK1">Mr. Hickman</persName> No. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:CROS2">Mr. Crosbie</persName> Can you tell me what protection 
+     <lb/>
+     these local industries have? How great is it? Mr. 
+     <lb/>
+     Reddy talked a lot about it, what is the tariff they 
+     <lb/>
+     have in their favour? Let's have the truth. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:REDD1">Mr. Reddy</persName> The Imperial Tobacco Co. gets a 
+     <lb/>
+     protection of $552,000, and the Newfoundland 
+     <lb/>
+     Butter Co. $250,000 more. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:CROS2">Mr. Crosbie</persName> I would like to tell Mr. Reddy that 
+     <lb/>
+     his figures are entirely wrong. If he does not give 
+     <lb/>
+     the correct facts, I will. 
+     <lb/>
+            </p>
+
+            <pb n="308"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0308.jpg"/>
+            <fw type="num">308</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">February 1947</fw>
+            
+<p>
+     <persName ref="pers:REDD1">Mr. Reddy</persName> I don't think my figures are wrong 
+     <lb/>
+     about the Tobacco Co. or the Butter Co., but we 
+     <lb/>
+     don't know about the Standard Manufacturing 
+     <lb/>
+     Co. or some of the others. 
+    </p>
+
+            <p><persName ref="pers:CROS2">Mr. Crosbie</persName> It is easy enough to find out. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:FOGW1">Mr. Fogwill</persName> I would like to ask if the Committee 
+     <lb/>did break down the fourth column, "Wages, 
+     <lb/>Salaries and Commission"? What part would be 
+     <lb/>wages? 
+     <lb/>
+            </p>
+            <p><persName ref="pers:HICK1">Mr. Hickman</persName> The answer to that question is 
+     <lb/>that that column includes wages and salaries, or 
+     <lb/>the compensation for work done which in one 
+     <lb/>form or another was paid out to their employees. 
+     <lb/>It was not broken down. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:FOGW1">Mr. Fogwill</persName> That's all the information you 
+     <lb/>have? It is not broken down into wages, commis<lb break="no"/>sion, etc.? 
+     <lb/>
+            </p>
+            <p><persName ref="pers:HICK1">Mr. Hickman</persName> No, it was not. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:FOGW1">Mr. Fogwill</persName> Do you know what is the total 
+     <lb/>number of employees? Does that include all 
+     <lb/>employees in a particular industry, including 
+     <lb/>directors, etc.? 
+     <lb/>
+            </p>
+            <p><persName ref="pers:HICK1">Mr. Hickman</persName> Well, the question asked was, 
+     <lb/>would they give the total number of employees. 
+     <lb/>I presume that would include directors if they had 
+     <lb/>any. In most cases there are only from three to 
+     <lb/>five. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:FOGW1">Mr. Fogwill</persName> In asking that question I was inter<lb break="no"/>ested because in Mr. Liddell's report he made a 
+     <lb/>survey of employees in the manufacturing firms 
+     <lb/>in St. John's for March and April 1939.<ref target="#fn_03">[1]</ref> You 
+     <lb/>have got it for January to December, which is also 
+     <lb/>quoted in his report, that is a total of 31 concerns 
+     <lb/>in St. John's. In a further report which he made 
+     <lb/>he has it from 64 firms in St. John's. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:HICK1">Mr. Hickman</persName> Did he include all employers? 
+     <lb/>
+            </p>
+            <p><persName ref="pers:FOGW1">Mr. Fogwill</persName> No.... He gives a total of males and 
+     <lb/>females in that table, that is for firms employing 
+     <lb/>15 to 50; 22 firms reported, males and females, 
+     <lb/>and firms employing from 50 to 150, for males 
+     <lb/>and females. I thought perhaps that was available 
+     <lb/>to the Committee, but I understand now that it is 
+     <lb/>not included in the report. He gives the average 
+     <lb/>returns for all firms in his survey. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:FUDG1">Mr. Fudge</persName> I would like to see as many local 
+     <lb/>industries in this country as we can possibly get. 
+     <lb/>It has been my duty for the past eight or ten years 
+     <lb/>to inquire as to what those particular industries 
+     <lb/>can afford to pay by way of wages. Then we 
+     <lb/>would seek the wages that we think that industry 
+    
+
+            <cb/>
+           
+
+     could afford. Now there is a lot said about this 
+     <lb/>
+     protection tariff, or subsidy as I call it. In Canada 
+     <lb/>
+     they use that word A lot of people are complain<lb break="no"/>ing about the high cost of living, but I have had 
+     <lb/>
+     nobody yet tell me that anybody has complained 
+     <lb/>
+     about ways and means of getting protection of 
+     <lb/>
+     profit. Let's look at our local industries here in 
+     <lb/>
+     St. John's — the clothing factory for instance. I 
+     <lb/>
+     wonder would anybody be honest enough to tell 
+     <lb/>
+     us what it costs the White Clothing Factory to 
+     <lb/>
+     make a suit of clothes, and what they charge our 
+     <lb/>
+     people in the outports for it? Most of us have an 
+     <lb/>
+     idea. I don't know what committee this would 
+     <lb/>
+     come under, but I hope that in the near future 
+     <lb/>
+     some of this will be brought up. Then talk about 
+     <lb/>
+     the cost of living. I know why it is, we have too 
+     <lb/>
+     many like Ananias and Sapphira here — they 
+     <lb/>
+     keep back part of the price! If I was challenged 
+     <lb/>
+     on this I can willingly give more particulars. 
+     <lb/>
+      </p>
+
+            <p><persName ref="pers:CRAN1">Mr. Cranford</persName> As a member of the Local In<lb break="no"/>dustries Committee I think I should add a few 
+     <lb/>remarks to what has already been said. When I 
+     <lb/>was selected as a member of this Committee I 
+     <lb/>took it as a coincidence that I should serve as a 
+     <lb/>member. I do not believe there are many in this 
+     <lb/>assembly more acquainted with the doings and 
+     <lb/>advantages given to the promoters of local in<lb break="no"/>dustries, such as the factories here in St. John's 
+     <lb/>that have enjoyed protective tariffs, than I am.... 
+     <lb/>
+            </p>
+            <p>I am a person who has passed through the hard 
+     <lb/>school of knowing how to raise a large family in 
+     <lb/>an outport with all the odds against him. I come 
+     <lb/>from the rank and file, an orphan at the age of 14 
+     <lb/>years, when my father was lost at sea in pursuit 
+     <lb/>of a living by fishing which left me stranded. 
+     <lb/>
+            </p>
+            <p>For 45 years I have been trying to eke out a 
+     <lb/>living by fishing, lumbering, trapping, importing 
+     <lb/>dry goods and exporting fresh salmon and raw 
+     <lb/>furs. It can be expected of me to know something 
+     <lb/>about the conditions under which we live, and 
+     <lb/>how present and past governments have been the 
+     <lb/>means of upsetting our economic structure. I am 
+     <lb/>firmly convinced that one of the principal pests 
+     <lb/>that ate the props from under our economic struc<lb break="no"/>ture was the protective tariff. It ate the life out of 
+     <lb/>our main industries, particularly the fisheries. 
+     <lb/>The fishermen do not have any protection. They 
+     <lb/>are obliged to sell their product in competition 
+     <lb/>with similar products throughout the world and it 
+     <lb/>is not altogether the juice that a fisherman gets 
+ 
+
+<note xml:id="fn_03">1 Thomas K. Lidell, <hi rendition="simple:italic">Industrial Survey of Newfoundland</hi> (St. John's, 1940).</note> 
+    
+
+            <pb n="309"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0309.jpg"/>
+            <fw type="dateline">February 1947</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">309</fw>
+          
+     for his products, it is really the amount of the 
+     <lb/>
+     necessities of life in return for his fish that counts. 
+     <lb/>
+     So I say that local industries such as factories, that 
+     <lb/>
+     handled a large part of the earnings of the people, 
+     <lb/>
+     obtained from all other major industries in<lb break="no"/>cluding the fisheries, should be conducted in such 
+     <lb/>
+     a manner as to be a benefit to the poorest worker 
+     <lb/>
+     as well as to the richest of this country. When a 
+     <lb/>
+     person or corporation is about to start a so-called 
+     <lb/>
+     factory the first thing is to take it up with the 
+     <lb/>
+     government with the aim and object of getting all 
+     <lb/>
+     the protection they can produce. That's so they 
+     <lb/>
+     could prevent competition and be able to satisfy 
+     <lb/>
+     their dealers with a substantial discount and com<lb break="no"/>mission without any consideration of what any 
+     <lb/>
+     other industry would have to suffer by their ar<lb break="no"/>rangements. They do not care if the workers of 
+     <lb/>
+     the country starve to death as long as they could 
+     <lb/>
+     live in luxury. If that state of affairs is to be 
+     <lb/>
+     continued it will not matter what form of future 
+     <lb/>
+     government we may have. In other words, if we 
+     <lb/>
+     do not take our fishery as a guiding star in all our 
+     <lb/>
+     undertakings we are doomed to failure. 
+     <lb/>
+            </p>
+
+            <p>
+     In describing local industries there are two 
+     <lb/>
+     kinds. One that I am trying to describe and the 
+     <lb/>
+     other that is going on in the outports, for example 
+     <lb/>
+     sawmills that take the raw wood and convert it 
+     <lb/>
+     into commercial articles, and meet all kinds of 
+     <lb/>
+     competition and even help to keep the protected 
+     <lb/>
+     ones going. I must say that since the advent of 
+     <lb/>
+     Commission of Government the protective tariff 
+     <lb/>
+     has not been so great. But the sting of past years 
+     <lb/>
+     still lingers, demonstrated a few days ago when 
+     <lb/>
+     one of the members of the Board of Trade who 
+     <lb/>
+     attended a meeting of the Local Industries Com<lb break="no"/>mittee told the story of a person who was eating 
+     <lb/>
+     an article of food made in a Newfoundland fac<lb break="no"/>tory; when that person was told it was a local 
+     <lb/>
+     product he spit it out. Doesn't that story prove 
+     <lb/>
+     that it was not the taste of the article that made 
+     <lb/>
+     that person spit it out, but the sting of protective 
+     <lb/>
+     tariff? 
+     <lb/>
+            </p>
+
+            <p>
+     When the words local industries are even 
+     <lb/>
+     mentioned it sends a thrill through me. It brings 
+     <lb/>
+     back to my memory what happened over 20 years 
+     <lb/>
+     ago because of protective tariff. It was at a time 
+     <lb/>
+     when I had a shipment of goods landed here from 
+     <lb/>
+     New York bought in the regular way without any 
+     <lb/>
+     strings attached whatever. It happened to be the 
+     <lb/>
+     same kind of goods that were made in the local 
+     <lb/>
+     factories I could not make entry on my invoices 
+  
+
+            <cb/>
+        
+
+     but was told that my goods had to be appraised 
+     <lb/>
+     by officials of the factories here. I had to prove 
+     <lb/>
+     without doubt that I could not buy from the local 
+     <lb/>
+     factories. I was placed in the same category as the 
+     <lb/>
+     foreign business people whom we all call Jews, 
+     <lb/>
+     forgetting that the people who built up their busi<lb break="no"/>nesses by the protective tariff are the worst kind 
+     <lb/>
+     of a Jew — a Newfoundland Jew. I have no 
+     <lb/>
+     hesitation in saying that the protective tariff was 
+     <lb/>
+     never meant to foster industries that would give 
+     <lb/>
+     employment to the people, but is merely a con<lb break="no"/>cocted manipulation of trade. The consolation I 
+     <lb/>
+     have, that I can thank God for, is that my family 
+     <lb/>
+     was not raised by the protective tariff. If it was I 
+     <lb/>
+     would not be seen here in this assembly. I would 
+     <lb/>
+     be found home in an armchair shedding crocodile 
+     <lb/>
+     tears over the condition of the country. 
+     <lb/>
+            </p>
+
+            <p>
+     I do not believe there is another country under 
+     <lb/>
+     the sun that protects foreign products as we do, 
+     <lb/>
+     and I am fully convinced that these so-called 
+     <lb/>
+     factories that reap the benefit of protection are 
+     <lb/>
+     really parasites on the fishermen and workers of 
+     <lb/>
+     this country. I will stick to my conviction until 
+     <lb/>
+     such time as an independent accountant can con<lb break="no"/>vince me otherwise. I predict that accountant's 
+     <lb/>
+     report will show a loss to the public treasury of 
+     <lb/>
+     the tidy sum of approximately $2,000 a year at 
+     <lb/>
+     least, for each individual employed in these es<lb break="no"/>tablishments where foreign material is processed. 
+     <lb/>
+     In other words, if the government would pay the 
+     <lb/>
+     employees of these establishments the full 
+     <lb/>
+     amount of their wages and let them go idle if they 
+     <lb/>
+     wish, and import the finished article, the govern<lb break="no"/>ment would save at least $2,000 a year on each 
+     <lb/>
+     individual so employed and in one or two cases 
+     <lb/>
+     it will be double that amount. 
+     <lb/>
+            </p>
+
+            <p>
+     If there are any persons or firms that wish to 
+     <lb/>
+     dispute my prediction, I suggest they produce a 
+     <lb/>
+     comparative statement showing the difference in 
+     <lb/>
+     the regular duty that would be paid on the same 
+     <lb/>
+     quantity that they processed during the past year, 
+     <lb/>
+     and what they really paid. and the amount of 
+     <lb/>
+     excise duty paid for that period, and have it 
+     <lb/>
+     certified by the Department of Customs as being 
+     <lb/>
+     correct. If that is not done I will consider myself 
+     <lb/>
+     as being correct. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:SPEA1">Mr. Chairman</persName> If there is no further discussion 
+     <lb/>
+     I shall put the question. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:MACD12">Mr. MacDonald</persName> Going back to a question con<lb break="no"/>cerning the corporation taxes paid by these local 
+     <lb/>
+     industries, which has a definite bearing on the 
+ 
+
+            <pb n="310"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0310.jpg"/>
+            <fw type="num">310</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">February 1947</fw>
+   
+          
+     value of these local industries. I understood it was 
+     <lb/>
+     impossible to get these figures from the different 
+     <lb/>
+     companies, but does the convenor of the Local 
+     <lb/>
+     Industries Committee think it would be possible 
+     <lb/>
+     to get them from the Finance Department in the 
+     <lb/>
+     aggregate amount? Do you think they would give 
+     <lb/>
+     you the aggregate amount of the corporation 
+     <lb/>
+     taxes that are paid? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> The Assessor of Taxes could be 
+     <lb/>
+     asked if they would give us the total figure paid. 
+
+</p>
+
+            <p><persName ref="pers:MACD12">Mr. MacDonald</persName> That's it. I could see where the 
+     <lb/>companies don't want to make a public acknow<lb break="no"/>ledgement. I would not. But I think it is due to 
+     <lb/>this Convention to know the amount that these 35 
+     <lb/>companies have paid in as a whole. Considering 
+     <lb/>the value of the local industries to the country as 
+     <lb/>a whole I think it is a most important thing. There 
+     <lb/>is no way of averaging or considering what it 
+     <lb/>might be for any one concern, and it would not 
+     <lb/>give away any of the business secrets of these 
+     <lb/>concerns if we got the total amount. 
+     <lb/>
+            </p>
+
+            <p>
+     In looking over this list I see there are three 
+     <lb/>
+     concerns that export some of their products, to 
+     <lb/>
+     the amount of $133,000. Would the convenor of 
+     <lb/>
+     the Local Industries Committee say that it is 
+     <lb/>
+     possible to manufacture in this country and ex<lb break="no"/>port? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> That might be possible in certain 
+     <lb/>
+     cases, but I would not be able to give a general 
+     <lb/>
+     answer. There are some items that could be ex<lb break="no"/>ported. For example in this report here, one ex<lb break="no"/>port is margarine. I imagine that is what went to 
+     <lb/>
+     St. Pierre. There must be items that can be ex<lb break="no"/>ported. There has been such a demand locally in 
+     <lb/>
+     the last few years and such a shortage of imported 
+     <lb/>
+     goods that I don't think we could touch the export 
+     <lb/>
+     market. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:MACD12">Mr. MacDonald</persName> I was thinking of the old 
+     <lb/>
+     country, they are like ourselves, they must export 
+     <lb/>
+     or perish. That country lives purely on industry, 
+     <lb/>
+     and most of them are conducted by importing raw 
+     <lb/>
+     materials. They have very little of their own, but 
+     <lb/>
+     everything is imported, manufactured and then 
+     <lb/>
+     exported to other countries and compete with 
+     <lb/>
+     those from which they imported the raw mater<lb break="no"/>ials. How do they do it, and can it be done here? 
+ </p>
+
+            <p><persName ref="pers:SMAL1">Mr. Smallwood</persName> The other name for Great 
+     <lb/>Britain is "the workshop of the world". She im<lb break="no"/>ports raw materials in hundreds of steamer loads, 
+     <lb/>fabricates them in vast mills and factories and 
+     <lb/>then exports the finished products, She has the 
+  
+
+            <cb/>
+          
+     greatest merchant marine in the world. There is a 
+     <lb/>
+     great difference in that and a little country of 
+     <lb/>
+     300,000 people importing for local consumption 
+     <lb/>
+     alone. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:ASHB2">Mr. Ashbourne</persName> Regarding the export of mar<lb break="no"/>garine, I presume that is not allowed today. Cer<lb break="no"/>tainly we are not allowing that to go out of the 
+     <lb/>
+     country now with our imports cut by 15%? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HICK1">Mr. Hickman</persName> I don't know, these figures are 
+     <lb/>
+     back in 1945. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:ASHB2">Mr. Ashbourne</persName> I notice that $2,400 worth of 
+     <lb/>
+     brick was exported. It might be capable of expan<lb break="no"/>sion. These bricks are in great demand today, 
+     <lb/>
+     because it is quite ajob to get galvanised iron to 
+     <lb/>
+     make stovepipes, and we are very fortunate in 
+     <lb/>
+     being able to make brick in Newfoundland. I 
+     <lb/>
+     would also .like to have seen some reference to 
+     <lb/>
+     the matter of plastics. As I understand it, that's 
+     <lb/>
+     quite an important industry, particularly in those 
+     <lb/>
+     countries that have large forests, and I hope that 
+     <lb/>
+     Newfoundland will be able to do something in 
+     <lb/>
+     this regard, and also in the matter of pottery.... 
+     <lb/>
+     Perhaps when the investigation that's going to 
+     <lb/>
+     take place shortly materialises, many of these 
+     <lb/>
+     industries will be brought into a flourishing con<lb break="no"/>dition. We would have more industries if we had 
+     <lb/>
+     more coal. If we had the coal we could manufac<lb break="no"/>ture some of our own iron ore. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HARR6">Mr. Harrington</persName> There are a few general obser<lb break="no"/>vations I would like to make on several of the 
+     <lb/>
+     matters referred to in the report or inferred during 
+     <lb/>
+     the debate. In leading off, I would refer to a 
+     <lb/>
+     statement which I made in a radio broadcast 
+     <lb/>
+     during the short election campaign that preceded 
+     <lb/>
+     the election in June last. In speaking of the pur<lb break="no"/>pose of the Convention, I said: "You are not 
+     <lb/>
+     electing a government; you are notelecting mem<lb break="no"/>bers to the House of Assembly who will repair 
+     <lb/>
+     the public wharf or fix the highroad through the 
+     <lb/>
+     settlement; or see that new industries are created 
+     <lb/>
+     in the West End of St. John's before they are 
+     <lb/>
+     started in the East End. That is not the purpose of 
+     <lb/>
+     the National Convention — that is the job of the 
+     <lb/>
+     government which will take over when the Na<lb break="no"/>tional Convention is history...." Some weeks ago 
+     <lb/>
+     too, in a Christmas message to the people of St. 
+     <lb/>
+     John's West, I said I did not intend to apologise 
+     <lb/>
+     for the debates that had taken place in the Con<lb break="no"/>vention, which in some quarters have been 
+     <lb/>
+     criticised as irrelevant and inclined to wander. I 
+     <lb/>
+     make no apology now, and you may be entitled 
+ 
+
+            <pb n="311"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0311.jpg"/>
+            <fw type="dateline">February 1947</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">311</fw>
+           
+
+     to wonder if I am going to contribute to that 
+     <lb/>
+     irrelevancy, which though perhaps unnecessary, 
+     <lb/>
+     is nonetheless natural, in view of my first quota<lb break="no"/>tion, which speaks of new industries being 
+     <lb/>
+     created in the city of St. John's. 
+     <lb/>
+            </p>
+
+            <p>
+     I assure you I am not, although, when it is 
+     <lb/>
+     considered that the bulk of the secondary in<lb break="no"/>dustries are concentrated in the city, both myself 
+     <lb/>
+     and the other four gentlemen on my left here, who 
+     <lb/>
+     represent that city, as well as the convenor of the 
+     <lb/>
+     Local Industries Committee, Mr. Hickman — all 
+     <lb/>
+     five of us might be more than justified in holding 
+     <lb/>
+     forth on the merits of such local industries, as 
+     <lb/>
+     long as some other members have railed against 
+     <lb/>
+     them, and advocated their abolition or their 
+     <lb/>
+     restriction in one form or another. 
+     <lb/>
+            </p>
+
+            <p>
+     I don't think the people of St. John's either 
+     <lb/>
+     expect or want such defence or explanation. They 
+     <lb/>
+     will agree that the pros and cons of such a policy 
+     <lb/>
+     are something for a government to concern them<lb break="no"/>selves with, a democratic government too, when 
+     <lb/>
+     perhaps one political party might make free trade 
+     <lb/>
+     and anti-protectionism and even abolishing of 
+     <lb/>
+     local industries a plank in their platform on which 
+     <lb/>
+     they might try to be elected, and then bring about 
+     <lb/>
+     such reforms. 
+     <lb/>
+            </p>
+
+            <p>
+     From the days of Adam Smith, the famous 
+     <lb/>
+     English economist, whose treatise <hi rendition="simple:italic">The Wealth of 
+     <lb/>
+     Nations</hi> was published in 1776, the doctrine of 
+     <lb/>
+     free trade has been known. Its first application 
+     <lb/>
+     came with Pitt's commercial treaty with France 
+     <lb/>
+     in 1786, which removed many of the prohibitions 
+     <lb/>
+     and duties that had previously obstructed 
+     <lb/>
+     legitimate trade between the two countries, but 
+     <lb/>
+     the outbreak of the Napoleonic wars checked its 
+     <lb/>
+     workings. Down through the centuries the 
+     <lb/>
+     protagonists of free trade and protective tariffs 
+     <lb/>
+     have been battling the subject, and there is still a 
+     <lb/>
+     wide difference of opinion as to the respective 
+     <lb/>
+     merits of either policy, and the existence of 
+     <lb/>
+     protective tariffs in most countries of the world 
+     <lb/>
+     today would seem to prove that the free trade 
+     <lb/>
+     doctrine has not as yet won the allegiance of an 
+     <lb/>
+     overwhelming number of disciples. The breaking 
+     <lb/>
+     down of all international barriers and tariffs 
+     <lb/>
+     would seem to be essential to the satisfactory 
+     <lb/>
+     working of the doctrine, and perhaps it may be 
+     <lb/>
+     said that the ultimate fulfillment of the dream of 
+     <lb/>
+     men like Adam Smith, Mercier and Le Trosne 
+     <lb/>
+     lies in the present dream of the peoples of the 
+     <lb/>
+     globe for the "one world" that Wendell Wilkie 
+  
+
+            <cb/>
+          
+     sought, and which today has its shaky beginnings 
+     <lb/>
+     in the United Nations Organization. 
+     <lb/>
+            </p>
+
+            <p>
+     I do not wish to become involved in a theoreti<lb break="no"/>cal discussion on free trade and tariffs — protec<lb break="no"/>tive or preferential. Such a discussion can be 
+     <lb/>
+     highly academic and of little value to the ultimate 
+     <lb/>
+     conclusions of the Local Industries Committee or 
+     <lb/>
+     the Convention as a whole. I do agree with the 
+     <lb/>
+     Committee's conclusion "that the local industries 
+     <lb/>
+     of the class investigated by us do have a definite 
+     <lb/>
+     bearing on the economy of the country and con<lb break="no"/>tribute in no small way towards the employment 
+     <lb/>
+     and support of a large number of people, and that 
+     <lb/>
+     encouragement should be given to the estab<lb break="no"/>lishment of all local industries that could in any 
+     <lb/>
+     way contribute the same benefits to the economic 
+     <lb/>
+     structure of Newfoundland". I also find myself in 
+     <lb/>
+     agreement with their statement in the last para<lb break="no"/>graph of page 9 — "The question of local in<lb break="no"/>dustries in relation to tariffs and customs duties, 
+     <lb/>
+     as affecting the cost to the consumer, was taken 
+     <lb/>
+     up by your Committee, and it should be noted 
+     <lb/>
+     here that your Committee is not satisfied that the 
+     <lb/>
+     high customs tariff under which certain local 
+     <lb/>
+     industries operate may be in the best interest of 
+     <lb/>
+     the country as a whole, and we believe that such 
+     <lb/>
+     matters should be investigated." Again I say, that 
+     <lb/>
+     it is a government's duty to conduct such an 
+     <lb/>
+     investigation, and it is not a task that comes 
+     <lb/>
+     within the scope of this Convention. 
+     <lb/>
+            </p>
+
+            <p>
+     Quoting again from the report: "...the Com<lb break="no"/>mittee felt that it would require the investigation 
+     <lb/>
+     by accountants and/or economists in order to 
+     <lb/>
+     determine the degree of protection in connection 
+     <lb/>
+     with revenue tariff." I have to disagree with Mr. 
+     <lb/>
+     Smallwood's inference in Friday's debate that 
+     <lb/>
+     the Committee was lacking in appreciation of its 
+     <lb/>
+     task as well as its powers, by not getting such 
+     <lb/>
+     accountants or economists to assist them. By the 
+     <lb/>
+     same token all committees of the Convention 
+     <lb/>
+     would be so lacking, including the Committee on 
+     <lb/>
+     Transportation and Communications, which on 
+     <lb/>
+     certain matters, notably the railway, professed its 
+     <lb/>
+     inability to make a proper assessment of all the 
+     <lb/>
+     figures and factors that went to make up their 
+     <lb/>
+     comprehensive report. 
+     <lb/>
+            </p>
+
+            <p>
+     This observation serves to give an opening for 
+     <lb/>
+     my own opinion as to the degree of co-operation 
+     <lb/>
+     which the Convention on the whole has received 
+     <lb/>
+     from the existing authorities in the carrying out 
+     <lb/>
+     of its task. When this Convention began, the 
+  
+
+            <pb n="312"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0312.jpg"/>
+            <fw type="num">312</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">February 1947</fw>
+      
+
+     present government should have set up a small 
+     <lb/>
+     staff of accountants, perhaps an economist 
+     <lb/>
+     among them and so on, to materially assist the 
+     <lb/>
+     Convention in its fact-and-figure Steeplechase. I 
+     <lb/>
+     am the first to admit that the co-operation we 
+     <lb/>
+     received on these lines among the civil service in 
+     <lb/>
+     the various departments was whole-hearted and 
+     <lb/>
+     valuable, but many of these people were already 
+     <lb/>
+     overworked and the amount of help they could 
+     <lb/>
+     give was limited. 
+     <lb/>
+            </p>
+
+            <p>
+     I agree with Mr. Hollett's remarks in connec<lb break="no"/>tion with the second paragraph on page 10. It 
+     <lb/>
+     seems strange to me also that there should be in 
+     <lb/>
+     existence since 1938 an Industrial Statistics Act, 
+     <lb/>
+     which however appears to be more honoured in 
+     <lb/>
+     the ignoring than in the implementation". I 
+     <lb/>
+     strongly support the Committee's recommenda<lb break="no"/>tion that it be implemented, after careful revision 
+     <lb/>
+     which would produce some worthwhile changes. 
+     <lb/>
+     In this regard, I must add a few words, on the 
+     <lb/>
+     same matter which was one of the first obstacles 
+     <lb/>
+     met by the Local Industries Committee The 
+     <lb/>
+     Committee says, "...we might say that from the 
+     <lb/>
+     outset we have been very much handicapped by 
+     <lb/>
+     the lack of figures and statistics in relation to 
+     <lb/>
+     employment, production, invested value and 
+     <lb/>
+     other figures regarding the secondary industries. 
+     <lb/>
+     There is a complete lack of the necessary 
+     <lb/>
+     figures". That last brief sentence has now become 
+     <lb/>
+     the official refrain of all committees; for, as was 
+     <lb/>
+     pointed out, the Mining Committee has been so 
+     <lb/>
+     handicapped, and it is no secret that the Public 
+     <lb/>
+     Health and Welfare Committee, of which I am a 
+     <lb/>
+     member, has been up against the same problem 
+     <lb/>
+     In the debate on the supplementary report of the 
+     <lb/>
+     Forestry Committee and in previous reports of 
+     <lb/>
+     other committees, the same thing is found; the 
+     <lb/>
+     same abysmal ignorance of the various statistics 
+     <lb/>
+     that go to make up what Mr. Smallwood has been 
+     <lb/>
+     so much concerned with — namely, the gross 
+     <lb/>
+     national product. It is one of the great sins of 
+     <lb/>
+     omission of which the present government, with 
+     <lb/>
+     its 13 years of undisputed authority, has been 
+     <lb/>
+     guilty. I note too with some disappointment the 
+     <lb/>
+     lack of co-operation that the Committee had to 
+     <lb/>
+     contend with in connection with the question<lb break="no"/>naires which were issued to various local firms 
+     <lb/>
+     for completion. It is regrettable that they did not 
+     <lb/>
+     consider the matter of sufficient national impor<lb break="no"/>tance to supply the information desired, and it is 
+     <lb/>
+     to be hoped that the country will make note of 
+
+
+            <cb/>
+           
+     such an unco-operative attitude, or lack of inter<lb break="no"/>est. It is a small matter, but it serves to prove what 
+     <lb/>
+     insurmountable barriers lie in the way of the 
+     <lb/>
+     Convention's getting a true picture and a 
+     <lb/>
+     thorough appraisal of the general position of the 
+     <lb/>
+     country. 
+     <lb/>
+            </p>
+
+            <p>
+     Only one other observation would I make. 
+     <lb/>
+     That is with reference to the rather sweeping 
+     <lb/>
+     remarks in connection with the figurative burn<lb break="no"/>ing down of all local industries and paying the 
+     <lb/>
+     people so employed out of the treasury. I am 
+     <lb/>
+     aware that no one means that literally, but saying 
+     <lb/>
+     it does create a false impression in the case for 
+     <lb/>
+     local industries. I do not agree, any more than 
+     <lb/>
+     other speakers, with excessively high protective 
+     <lb/>
+     tariffs, but I do agree that local industries should 
+     <lb/>
+     have some protection, though within reason. That 
+     <lb/>
+     is a matter which requires much investigation as 
+     <lb/>
+     the Committee has said, and until such time as it 
+     <lb/>
+     has been thoroughly gone into, we should not so 
+     <lb/>
+     sweepingly condemn an avenue of employment 
+     <lb/>
+     which takes care of a fairly large section of the 
+     <lb/>
+     community. The process of reduction of duties 
+     <lb/>
+     should be a gradual one, over a period, so that 
+     <lb/>
+     those whose livings may be affected by the sub<lb break="no"/>sequent loss of local industries may become ab<lb break="no"/>sorbed by other industries and in other 
+     <lb/>
+     occupations. It is a vexatious and highly complex 
+     <lb/>
+     matter and is not something which either the 
+     <lb/>
+     Local Industries Committee or the Convention as 
+     <lb/>
+     a whole can either solve or dispose of in the brief 
+     <lb/>
+     period of its existence. 
+     <lb/>
+            </p>
+
+            <p>
+     All these comments have dealt with the first 
+     <lb/>
+     part of the report for to my mind it is the only 
+     <lb/>
+     controversial part; the second portion which con<lb break="no"/>sists more of an account of stewardship by the 
+     <lb/>
+     Newfoundland Industrial Development Board is 
+     <lb/>
+     not controversial and in the main is most satisfac<lb break="no"/>tory and encouraging. In the comparatively short 
+     <lb/>
+     time that this Board has been in existence, it has 
+     <lb/>
+     accomplished a variety of excellent projects, that 
+     <lb/>
+     have more than justified the setting up of this 
+     <lb/>
+     organisation. For those people who favour either 
+     <lb/>
+     complete governmental control or nationalisa<lb break="no"/>tion of everything, and those who are equally in 
+     <lb/>
+     favour of governmental abstention from every<lb break="no"/>thing, especially where it may conflict with 
+     <lb/>
+     private enterprise, here is an example of how 
+     <lb/>
+     these two extremes can be more or less reconciled 
+     <lb/>
+     to bring about a mutual co-operation between 
+     <lb/>
+     government and private enterprise, with benefi<lb break="no"/>
+          
+
+            <pb n="313"
+                facs="final/images/NFLD_National_Convention_1947-02-10_Page_0313.jpg"/>
+            <fw type="dateline">February 1947</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="num">313</fw>
+        
+     cial results to the people of the country as a 
+     <lb/>
+     whole. I endorse the work of the Newfoundland 
+     <lb/>
+     Industrial Development Board and recommend 
+    
+            <cb/>
+          
+
+     that they receive all the encouragement possible. 
+     <lb/>
+     
+     
+            </p>
+
+            <p><hi rendition="simple:italic">[The committee rose and reported that it had<lb/>passed the report. The Convention adjourned]</hi>
+            </p>
+   
+
+<!-- GL, 2017-06-13, Commented out below, as it will appear in the following debate day -->
+            <!--<p>
+     February 26, 1947 
+     <lb/>
+            </p>
+   
+            <p>
+     Report of the Committee of the Convention which interviewed 
+     <lb/>
+     His Excellency the Governor in Commission¹ 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:JOB1">Mr. Job</persName> I did not know that I was to make this 
+     <lb/>
+     motion, and unfortunately I have not prepared 
+     <lb/>
+     any remarks. I simply move that this report be 
+     <lb/>
+     received and suggest that it be read to the House. 
+     <lb/>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+            </p>
+            <p><persName ref="pers:CROS2">Mr. Crosbie</persName> I second that motion. 
+     <lb/>
+            </p>
+            <p>[The motion carried, and the report of the Com<lb break="no"/>mittee was read by the Assistant Secretary] 
+     <lb/>
+            </p>
+            <p><persName ref="pers:CASH2">Mr. Cashin</persName> Mr. Chairman, when this Conven<lb break="no"/>tion decided to send a committee to confer with 
+     <lb/>the Governor in Commission with the object of 
+     <lb/>obtaining information relating to the sending of 
+     <lb/>delegates to discuss the affairs of our country 
+     <lb/>with the governments of Great Britain, Canada 
+     <lb/>and the United States, I was one of those who 
+     <lb/>voted against such a measure on the grounds that 
+     <lb/>such a committee could not obtain any tangible 
+     <lb/>results. Today, that Committee has presented its 
+     <lb/>report and its nature is such as I anticipated. 
+     <lb/>
+            </p>
+            <p>Over and over, I have given expression of my 
+     <lb/>opinion that it is futile to entertain any notion that 
+     <lb/>we can expect sincere co-operation from either 
+     <lb/>the Dominions Office or its local agents, the 
+     <lb/>Commission of Government. I have given 
+     <lb/>definite instances of the obvious intention of our 
+     <lb/>rulers to thwart and circumscribe the activities of 
+     <lb/>this Convention — of their intention to divert and 
+     <lb/>keep our thoughts and actions in the harmless and 
+     <lb/>ineffectual channel of petty discussion. I have 
+     <lb/>pointed out that as a country and a people we are 
+     <lb/>being trifled with, that our rulers do not intend to 
+     <lb/>allow us to interfere with the plans they have laid 
+     <lb/>down. Time goes by, the treasury of our country 
+     <lb/>is being squandered, and future generations are 
+     <lb/>being harnessed with huge financial commit<lb break="no"/>ments... I say that under the present set-up, this 
+     <lb/>Convention can do nothing to help our people or 
+     <lb/>our country. If the doors of this Convention were 
+     <lb/>closed tomorrow it would make no appreciable 
+     <lb/>difference or have any effect on the already 
+     <lb/>prepared plans of the Dominions Office. The 
+     <lb/>future of this country has been planned out long 
+     <lb/>ago in an office thousands of miles away. And if 
+     <lb/>
+            </p>
+            <milestone type="unknown"/>
+            <p>
+     Mr. Attlee can do it, he is going to see that we 
+     <lb/>
+     follow out his plans to the letter. 
+     <lb/>
+            </p>
+
+            <p>
+     The fate of this country does not rest with this 
+     <lb/>
+     Convention, but in the hands of the common 
+     <lb/>
+     people. We have been given the glory, but Mr. 
+     <lb/>
+     Attlee has kept the power. If there are any 
+     <lb/>
+     amongst us who cling to the vain hope that this 
+     <lb/>
+     Convention might be able to protect and 
+     <lb/>
+     safeguard the financial and political interests of 
+     <lb/>
+     this country, they should be long disillusioned. 
+     <lb/>
+     We have only to examine the report before us 
+     <lb/>
+     today, to obtain ample confirmation of what I say. 
+     <lb/>
+     We have the position where the members of this 
+     <lb/>
+     Convention, representing over 300,000 people, 
+     <lb/>
+     decide to ascertain the possibility of establishing 
+     <lb/>
+     economic relations with other countries, and in 
+     <lb/>
+     particular the United States. To quote the resolu<lb break="no"/>tion: "bearing in mind the present occupation of 
+     <lb/>
+     Newfoundland territory by the United States of 
+     <lb/>
+     America and the fact that free entry is accorded 
+     <lb/>
+     the USA for its imports into Newfoundland." 
+     <lb/>
+     Arising out of this resolution, a committee of the 
+     <lb/>
+     Convention asked the government if they can 
+     <lb/>
+     approach the USA with a view to making some 
+     <lb/>
+     profitable-arrangements in the interests of the 
+     <lb/>
+     country, and the answer to their request is a clear 
+     <lb/>
+     and definite refusal. We, the people of New<lb break="no"/>foundland, are told that the Dominions Office 
+     <lb/>
+     will not allow us to make any attempt to better 
+     <lb/>
+     our national conditions by opening negotiations 
+     <lb/>
+     with the United States. When the people of this 
+     <lb/>
+     country, through their appointed representatives 
+     <lb/>
+     are prevented from exercising the ordinary 
+     <lb/>
+     freedom of bargaining with another country, 
+     <lb/>
+     what name are we to put on this sort of thing? 
+     <lb/>
+     Could there ever be presented to us a stronger 
+     <lb/>
+     justification for having control of our own 
+     <lb/>
+     country? Imagine the position, if the British 
+     <lb/>
+     government tried to prevent Canada or Australia 
+     <lb/>
+     or any other colony or dominion from doing 
+     <lb/>
+     business with the United States. Would not the 
+     <lb/>
+     thing be regarded as so outrageous and improper 
+     <lb/>
+            </p>
+   
+            <p>
+     ¹Volume II:446. 
+     <lb/>
+            </p>-->
+       </div>  </div>
+      </body>
+   </text>
 </TEI>
