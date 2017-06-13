@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
+     but without the trailing .xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgNFNC_1947-02-10" type="template">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
+        conforming with our current norms. Tag the date with a <date> element
+        which includes @when or @from/@to attributes so we can process it 
+        mechanically. -->
+        <title><name type="legislature" ref="lg:lgNFNC">Newfoundland National Convention</name>, <date when="1947-02-10">10 February 1947</date>, Debates on Confederation with Canada</title>
+        
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="pers:LYAL1">Gordon Lyall</persName>
+        </respStmt>
+        
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
+                      this data was taken.-->
+        <bibl>
+          
+<editor>J.K. Hiller and M.F. Harrington</editor>.
+     
+         
+         <title>The Newfoundland National Convention 1946-1948 Vol 1</title>.
+                    
+
+         <date when="1995"/>. 
+          
+
+         <pubPlace>Montreal and Kingston</pubPlace>: <publisher>McGill-Queen's University Press</publisher>.
+          
+<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
+               If it's a single page, put the same page number in @from and @to.-->
+          <biblScope unit="page" from="303" to="313"/>.
+        </bibl>
+        
+<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
+        examples. File path should be relative to THIS XML FILE. -->
+        <list>
+          <item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0303.hocr.html"/></item>
+          <item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0304.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0305.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0306.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0307.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0308.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0309.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0310.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0311.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0312.hocr.html"/></item>
+<item><ptr target="final/hocr/NFLD_National_Convention_1947-02-10_Page_0313.hocr.html"/></item>
+        </list>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
+        selected. This is especially important in cases where discontinuous 
+        page-ranges are used.  -->
+        <p></p>
+      </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
+        date in the @when attribute. -->
+      <change who="lyallg" when="2017-06-09">Created this document, completed metadata. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
+  
+  <text>
+    <body>
+      <div type="debate">
+        <p>This content will be replaced by data from the source documents during processing.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

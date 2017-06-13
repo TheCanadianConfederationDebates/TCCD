@@ -275,7 +275,7 @@
   
   <target name="createLanguageSymlinks">
     <description>
-      TARGET createLanguage Symlinks
+      TARGET createLanguageSymlinks
       This target creates two symlinks in the output html folder pointing
       back at the folder itself, allowing use of the document location to
       control the language content which is shown.
@@ -326,6 +326,17 @@
 
 <!--  Copy web resources. -->
     <antcall target="copyWebResources"/>
+    
+<!--  Create AJAX fragments.  -->
+    <antcall target="MESSAGE"><param name="msg" value="Creating AJAX fragments..."/></antcall>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:tei_to_ajax_fragments_master.xsl"/>
+      <arg value="-xsl:tei_to_ajax_fragments_master.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg line="outputFolder=${webDir}"/>
+      <arg line="buildDate=${today}"/>
+      <arg line="gitRevision=${repository.version}"/>
+    </java>
     
 <!-- Now create the actual HTML stuff. Saxon handles most of this.    -->
     <antcall target="MESSAGE"><param name="msg" value="Building HTML pages..."/></antcall>
