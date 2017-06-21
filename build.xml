@@ -221,7 +221,51 @@
       
     </schematron>
   </target>
-
+  
+  
+<!-- BEGIN EXPERIMENTAL STUFF. -->
+  <target name="schematronTest">
+    <antcall target="MESSAGE"><param name="msg" value="Test target for schematron validation of large files..."/></antcall>
+    <xslt in="${schFile}" out="data/schemas/tccd_expanded.sch"
+      style="code/utilities/schematron/iso_abstract_expand.xsl">
+      <classpath path="code/utilities/saxon9he.jar"/>
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+    <xslt in="data/schemas/tccd_expanded.sch" out="tccd_compiled.xsl"
+      style="code/utilities/schematron/iso_svrl_for_xslt2.xsl">
+      <classpath path="code/utilities/saxon9he.jar"/>
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+    <loadfile property="allTeiFiles" srcFile="${teiFileList}"/>
+    <!--<foreach
+      target="schematronValidationWithSaxon"
+      list="${allTeiFiles}"
+      delimiter="${line.separator}"
+      param="filepath"/>-->
+    
+    <antcall target="schematronValidationWithSaxon"><param name="filepath" value="${basedir}/data/personography/personography.xml"/></antcall>
+    
+    <!--<java jar="code/utilities/ant-schematron-2010-04-14.jar" fork="true" failonerror="true">
+      <arg value="${rngFile}"/>
+      <arg value="${filepath}"/>
+      <jvmarg value="-Xss4m"/>
+    </java>-->
+  </target>
+  
+  <target name="schematronValidationWithSaxon">
+    <dirname property="fileDir" file="${filepath}"/>
+    <echo message="${fileDir}"/>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="${fileDir}">
+      <arg value="-s:${filepath}"/>
+      <arg value="-xsl:${basedir}/tccd_compiled.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <jvmarg value="-Xss4m"/>
+      <jvmarg value="-Duser.dir=${fileDir}"/>
+    </java>
+  </target>
+  
+  <!-- END EXPERIMENTAL STUFF. -->
+  
   <target name="diagnostics">
     <antcall target="MESSAGE"><param name="msg" value="Running diagnostics..."/></antcall>
     <!--<echo message="${today}"/>-->
