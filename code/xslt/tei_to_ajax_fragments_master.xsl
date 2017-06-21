@@ -57,6 +57,22 @@
             <xsl:result-document href="{concat($outputFolder, '/ajax/', @xml:id, '.xml')}">
                 <div id="{@xml:id}">
                     <xsl:apply-templates select="node()"/>
+                    <xsl:if test="parent::listPerson/@xml:id = 'historicalPersonography'">
+                        <xsl:variable name="link" select="concat('pers:', @xml:id)"/>
+                        <xsl:variable name="instances" select="$teiDocs/TEI[text/descendant::persName[@ref=$link]]"/>
+                        <xsl:message>Found <xsl:value-of select="count($instances)"/> documents linking to <xsl:value-of select="$link"/></xsl:message>
+                        <xsl:sequence select="$nameAppearanceCaption"/>
+                        <xsl:value-of select="count($instances)"/>
+                        <xsl:if test="count($instances) gt 0">
+                            <xsl:variable name="docListId" select="concat(@xml:id, '_docList')"/>
+                            <br/><button onclick="showHideEl(this.nextElementSibling);"><xsl:sequence select="$showHideDocsCaption"/></button>
+                            <ul class="docsMentioningPerson">
+                                <xsl:for-each select="$instances">
+                                    <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:if>
+                    </xsl:if>
                 </div>
             </xsl:result-document>
         </xsl:for-each>

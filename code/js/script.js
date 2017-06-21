@@ -81,3 +81,14 @@ function showInfo(sourceId) {
   //Show the popup
   infoPopup.style.display = 'block';
 }
+
+function showHideEl(el){
+    if (el != null){
+        if (el.style.display != 'block'){
+            el.style.display = 'block';
+        }
+        else{
+            el.style.display = 'none';
+        }
+    }
+}

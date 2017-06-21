@@ -69,4 +69,12 @@
         <span lang="fr">Index des documents</span>
     </xsl:variable>
     
+    <xd:doc scope="component">
+        <xd:desc>Caption for controls showing/hiding document lists.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="showHideDocsCaption">
+        <span lang="en">Show/hide documents</span>
+        <span lang="fr">Afficher/masquer les documents</span>
+    </xsl:variable>
+    
 </xsl:stylesheet>
