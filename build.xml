@@ -115,6 +115,12 @@
 <!-- All XML files in the data directory should be TEI files. -->
   <fileset id="teiFiles" dir="data" includes="**/*.xml"/>
   
+  <!-- All files that are small enough to validate with Schematron. MUST FIND A WAY AROUND THIS. -->
+  <fileset id="smTeiFiles" dir="data" includes="**/*.xml">
+    <exclude name="**/personography.xml"/>
+    <exclude name="**/placeography.xml"/>
+  </fileset>
+  
 <!-- Portraits of individuals. -->
   <fileset id="portraits" dir="data/personography/portraits" includes="*.jpg"/>
   
@@ -208,9 +214,11 @@
     </xslt>
     
     <antcall target="MESSAGE"><param name="msg" value="Validating files with extracted Schematron..."/></antcall>
-    <schematron schema="${schFile}" failOnError="true" format="message"
+    <schematron schema="${schFile}" failOnError="false" format="message"
       queryLanguageBinding="xslt2">
-      <fileset refid="teiFiles"/>
+      
+      <fileset refid="smTeiFiles"/>
+      
     </schematron>
   </target>
 
@@ -405,9 +413,9 @@
   <target name="all">
     <description>
       TARGET all
-      This runs a standard complete build. It does not include the target to rsync
-      the HTML output up to HCMC's server; if required, that can be run manually 
-      on completion.
+      This runs a standard complete build, and rsyncs the results to the server. If you don't
+      notice it asking for the pw, the connection may timeout and you'll have to run the 
+      rsyncWebsite target again.
     </description>
     <antcall target="MESSAGE"><param name="msg" value="Running all the tasks in the build file."/></antcall>
     <antcall target="listFiles"/>
