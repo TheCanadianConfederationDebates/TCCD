@@ -74,8 +74,88 @@
         
         <taxonomy xml:id="tccdLegislatureTopics" n="Taxonomy of legislatures topics by legislature, where a topic is typically the confederation of one province.">
           <category xml:id="lgHC_BC">
-            <gloss>The House of Commons Debates on British Columbia</gloss>
-            <desc>The Canadian Federal House of Commons debates on the confederation of British Columbia.</desc>
+            <gloss>House of Commons debates on British Columbia joining Confederation</gloss>
+            <desc>The Federal House of Commons debates on British Columbia joining Confederation.</desc>
+          </category>
+          <category xml:id="lgHC_MB">
+            <gloss>House of Commons debates on Manitoba joining Confederation</gloss>
+            <desc>The Canadian House of Commons debates on Manitoba joining Confederation.</desc>
+          </category>
+          <category xml:id="lgHC_NFLD">
+            <gloss>House of Commons debates on Newfoundland joining Confederation</gloss>
+            <desc>The Canadian House of Commons debates on Newfoundland joining Confederation.</desc>
+          </category>
+          <category xml:id="lgHC_AB_SK">
+            <gloss>House of Commons debates on creating Alberta and Saskatchewan</gloss>
+            <desc>The Canadian House of Commons debates on creating Alberta and Saskatchewan.</desc>
+          </category>
+          <category xml:id="lgHC_PEI">
+            <gloss>House of Commons debates on Prince Edward Island joining Confederation</gloss>
+            <desc>The Canadian House of Commons debates on Prince Edward Island joining Confederation.</desc>
+          </category>
+          <category xml:id="lgBC_LC">
+            <gloss>British Columbia's Legislative Council debates on Confederation</gloss>
+            <desc>The British Columbia Legislative Council's debates on Confederation.</desc>
+          </category>
+          <category xml:id="lgAS_LA">
+            <gloss>Northwest Legislative Assembly debates on Prairie provinces</gloss>
+            <desc>The Northwest Legislative Assembly's debates that helped lead to the creation of Alberta and Saskatchewan</desc>
+          </category>
+          <category xml:id="lgM_CO">
+            <gloss>Convention of 40 debates on Manitoba</gloss>
+            <desc>Convention of 40 debates on whether to demand the establishment of Manitoba during the Red River Resistance</desc>
+          </category>
+          <category xml:id="lgM_PG">
+            <gloss>Legislative Assembly of Assiniboia debates on Manitoba</gloss>
+            <desc>Legislative Assembly of Assiniboia debates on whether to demand the establishment of Manitoba during the Red River Resistance</desc>
+          </category>
+          <category xml:id="lgPCLA">
+            <gloss>Province of Canada Legislative Assembly debates on Confederation</gloss>
+            <desc>Province of Canada (present-day Ontario and Quebec) Legislative Assembly's debates on Confederation</desc>
+          </category>
+          <category xml:id="lgPCLC">
+            <gloss>Province of Canada Legislative Council debates on Confederation</gloss>
+            <desc>Province of Canada (present-day Ontario and Quebec) Legislative Council debates on Confederation</desc>
+          </category>
+          <category xml:id="lgPCLA_fr">
+            <gloss>Les debats à l'Assemblée législative, Province du Canada</gloss>
+            <desc>Les debats à l'Assemblée législative, Province du Canada (Québec-Ontario)</desc>
+<!-- French needs to be checked by translator -->
+          </category>
+          <category xml:id="lgPCLC_fr">
+            <gloss>Les debats à la Conseil législatif, Province du Canada</gloss>
+            <desc>Les debats à la Conseil législatif, Province du Canada (Québec-Ontario)</desc>
+<!-- French needs to be checked by translator -->
+          </category>
+          <category xml:id="lgNB_LA">
+            <gloss>New Brunwick Legislative Assembly debates on Confederation</gloss>
+            <desc>TNew Brunwick Legislative Assembly debates on Confederation</desc>
+          </category>
+          <category xml:id="lgNS_LA">
+            <gloss>Nova Scotia Legislative Assembly debates on Confederation</gloss>
+            <desc>Nova Scotia Legislative Assembly debates on Confederation</desc>
+          </category>
+          <category xml:id="lgPE_LA">
+            <gloss>Prince Edward Island Legislative Assembly debates on Confederation</gloss>
+            <desc>Prince Edward Island Legislative Assembly debates on Confederation</desc>
+          </category>
+          <category xml:id="lgNL_LA">
+            <gloss>Newfoundland Legislative Assembly debates on Confederation</gloss>
+            <desc>Newfoundland Legislative Assembly debates on Confederation as recorded in the "Newfoundlander"</desc>
+          </category>
+          <category xml:id="lgNL_NC">
+            <gloss>Newfoundland National Convention debates on Confederation</gloss>
+            <desc>Newfoundland National Convention debates on Confederation.</desc>
+          </category>
+          <category xml:id="Morris">
+<!--I'm not sure if this ID is correct. Do we need seprate IDs for each chapter / Treaty?-->
+            <gloss>Numbered Treaty Negotiations</gloss>
+            <desc>Numbered Treaty Negotiations</desc>
+          </category>
+          <category xml:id="Erasmus">
+            <gloss>Peter Erasmus's narrative of Treaty 6 negotiations</gloss>
+            <desc>Peter Erasmus's narrative of Treaty 6 negotiations</desc>
+            <!-- this ID may not be correct since XML file has yet to be produced-->
           </category>
         </taxonomy>
       </classDecl>
