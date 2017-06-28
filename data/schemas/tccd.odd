@@ -470,7 +470,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="lg:lgAssinLAssem">
                               <gloss>
-                                 <seg xml:lang="en">Legislative Assembly of Assiniboia</seg> / l'Assemblée législative d'Assiniboia</gloss>
+                                 <seg xml:lang="en">Legislative Assembly of Assiniboia</seg> 
+                                 <seg xml:lang="fr">l'Assemblée législative d'Assiniboia</seg>
+                              </gloss>
                               <desc/>
                            </valItem>
                            <valItem ident="lg:lgNBLAssem">
@@ -10020,6 +10022,21 @@ so Volume 2 by implication has finished. -->
                         </sch:assert>
                      </constraint>
                   </constraintSpec>
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList type="closed" mode="add">
+                           <valItem ident="federal">
+                              <gloss>A federal riding (House of Commons)</gloss>
+                           </valItem>
+                           <valItem ident="nonFederal">
+                              <gloss>A provincial or territorial riding</gloss>
+                           </valItem>
+                           <valItem ident="treaty">
+                              <gloss>A place associated with treaty negotiations or signature</gloss>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
                </elementSpec>
           
             </schemaSpec>
