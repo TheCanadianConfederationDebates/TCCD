@@ -242,7 +242,7 @@ div#infoPopup {
   position: fixed;
   right: 2%;
   top: 40%;
-  width: 22%;
+  width: 20em;
   background-color: #ffffff;
   word-wrap: break-word;
 }
@@ -305,12 +305,20 @@ footer {
 .linkLogo:first-of-type {
   width: 10%;
 }
+
+
 /* expander/contractor elements. */
+.closedDocCaption, .openDocCaption{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
 .closedDocCaption::before{
-    content: "+";
+    content: "⊞ ";
 }
 .openDocCaption::before{
-    content: "-";
+    content: "⊟ ";
 }
 .closedDocCaption+ul{
     display: none;
@@ -321,4 +329,5 @@ footer {
 ul.docsMentioningPerson, ul.docsMentioningPerson ul{
     padding-left: 0.25em;
     margin-left: 0;
+    list-style-type: none;
 }
