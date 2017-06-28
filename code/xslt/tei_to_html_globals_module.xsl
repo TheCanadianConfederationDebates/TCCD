@@ -71,4 +71,10 @@
     </xd:doc>
     <xsl:variable name="projectOdd" select="doc(concat($projectRoot, 'data/schemas/tccd.odd'))"/>
     
+    <xd:doc scope="component">
+        <xd:desc>The project taxonomies file, from which has some things we
+            use for captions etc. in it.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="projectTaxonomies" select="doc(concat($projectRoot, 'data/schemas/taxonomies.xml'))"/>
+    
 </xsl:stylesheet>

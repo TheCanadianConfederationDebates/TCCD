@@ -504,4 +504,12 @@
         </span>
     </xsl:template>
     
+    <xd:doc scope="component">
+        <xd:desc>Some captions with multiple language components originate in the XML. We 
+        process these into their HTML equivalents.</xd:desc>
+    </xd:doc>
+    <xsl:template match="seg[@xml:lang]">
+        <span lang="{@xml:lang}"><xsl:apply-templates/></span>
+    </xsl:template>
+    
 </xsl:stylesheet>

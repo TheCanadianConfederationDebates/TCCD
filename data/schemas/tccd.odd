@@ -152,6 +152,7 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="corpus" include="particDesc settingDesc textDesc"/>
                <moduleRef key="figures" include="cell figDesc figure row table"/>
                <moduleRef key="transcr" include="facsimile fw surface zone"/>
+               <moduleRef key="linking" include="seg"/>
                
                
                <!--              Adapted from jTEI ODD file.  -->
@@ -468,7 +469,8 @@ so Volume 2 by implication has finished. -->
                               <desc>[Awaiting description]</desc>
                            </valItem>
                            <valItem ident="lg:lgAssinLAssem">
-                              <gloss>Legislative Assembly of Assiniboia / l'Assemblée législative d'Assiniboia</gloss>
+                              <gloss>
+                                 <seg xml:lang="en">Legislative Assembly of Assiniboia</seg> / l'Assemblée législative d'Assiniboia</gloss>
                               <desc/>
                            </valItem>
                            <valItem ident="lg:lgNBLAssem">

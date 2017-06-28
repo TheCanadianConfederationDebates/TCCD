@@ -302,6 +302,23 @@ footer {
 .linkLogo img {
   height: 40px;
 }
-.linkLogo::first-of-type {
+.linkLogo:first-of-type {
   width: 10%;
+}
+/* expander/contractor elements. */
+.closedDocCaption::before{
+    content: "+";
+}
+.openDocCaption::before{
+    content: "-";
+}
+.closedDocCaption+ul{
+    display: none;
+}
+.openDocCaption+ul{
+    display: block;
+}
+ul.docsMentioningPerson, ul.docsMentioningPerson ul{
+    padding-left: 0.25em;
+    margin-left: 0;
 }

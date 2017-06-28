@@ -65,11 +65,25 @@
                         <xsl:value-of select="count($instances)"/>
                         <xsl:if test="count($instances) gt 0">
                             <xsl:variable name="docListId" select="concat(@xml:id, '_docList')"/>
-                            <br/><button onclick="showHideEl(this.nextElementSibling);"><xsl:sequence select="$showHideDocsCaption"/></button>
+                            <br/><span class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:sequence select="$showHideDocsCaption"/></span>
                             <ul class="docsMentioningPerson">
-                                <xsl:for-each select="$instances">
+                                <xsl:for-each-group select="$instances" group-by="tokenize(@xml:id, '(_fr)?_\d')[1]">
+                                    <xsl:variable name="legCaption" select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
+                                    <li><xsl:apply-templates select="$legCaption/node()"/></li>
+                                    <ul>
+                                        <xsl:for-each select="current-group()">
+                                            <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </xsl:for-each-group>
+                                
+                            
+                                
+                                <!--<xsl:for-each select="$instances">
                                     <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
-                                </xsl:for-each>
+                                </xsl:for-each>-->
+                                
+                                
                             </ul>
                         </xsl:if>
                     </xsl:if>
