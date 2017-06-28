@@ -857,7 +857,7 @@
                                             <cssFile-array>
                                                 <cssFile>
                                                     <field name="href">
-                                                        <String>${pd}/code/css/debate.css</String>
+                                                        <String>${pdu}/code/css/debate.css</String>
                                                     </field>
                                                     <field name="title">
                                                         <String>Display CSS for debate files</String>
@@ -1144,7 +1144,7 @@
                                             <Integer>6</Integer>
                                         </field>
                                         <field name="uri">
-                                            <String>${pd}/data/schemas/tccd.rng</String>
+                                            <String>${pdu}/data/schemas/tccd.rng</String>
                                         </field>
                                     </docTypeSchema>
                                 </field>
@@ -1160,7 +1160,7 @@
                                             <cssFile-array>
                                                 <cssFile>
                                                     <field name="href">
-                                                        <String>${pd}/code/css/debate.css</String>
+                                                        <String>${pdu}/code/css/debate.css</String>
                                                     </field>
                                                     <field name="title">
                                                         <String>Display CSS for debate files</String>
@@ -1345,7 +1345,7 @@
                                                 <String></String>
                                             </field>
                                             <field name="inputXSLURL">
-                                                <String>${pd}/code/xslt/hocr_to_tei.xsl</String>
+                                                <String>${pdu}/code/xslt/hocr_to_tei.xsl</String>
                                             </field>
                                             <field name="inputXMLURL">
                                                 <String>${currentFileURL}</String>
@@ -2865,7 +2865,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pd}/code/xslt/hocr_to_tei.xsl</String>
+                                    <String>${pdu}/code/xslt/hocr_to_tei.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
