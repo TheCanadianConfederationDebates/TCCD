@@ -70,11 +70,11 @@
     </xsl:variable>
     
     <xd:doc scope="component">
-        <xd:desc>Caption for controls showing/hiding document lists.</xd:desc>
+        <xd:desc>Heading for lists of documents (debates etc.).</xd:desc>
     </xd:doc>
-    <xsl:variable name="showHideDocsCaption">
-        <span lang="en">Show/hide documents</span>
-        <span lang="fr">Afficher/masquer les documents</span>
+    <xsl:variable name="debatesDocumentsCaption">
+        <span lang="en">Debates and documents</span>
+        <span lang="fr">Débats et documents</span>
     </xsl:variable>
     
 </xsl:stylesheet>
