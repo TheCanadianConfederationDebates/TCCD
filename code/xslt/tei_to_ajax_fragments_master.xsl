@@ -53,7 +53,8 @@
     </xd:doc>
     <xsl:template name="createAjaxFragments">
         <xsl:sequence select="hcmc:message(concat('Creating AJAX fragments from ', count($teiDocs/TEI[@xml:id='personography']//person), ' people and ', count($teiDocs/TEI[@xml:id='placeography']//place), ' places.'))"/>
-        <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person | $teiDocs/TEI[@xml:id='placeography']//place">
+        <!--<xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person | $teiDocs/TEI[@xml:id='placeography']//place">-->
+            <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person">
             <xsl:result-document href="{concat($outputFolder, '/ajax/', @xml:id, '.xml')}">
                 <div id="{@xml:id}">
                     <xsl:apply-templates select="node()"/>
@@ -76,16 +77,14 @@
                                         </xsl:for-each>
                                     </ul>
                                 </xsl:for-each-group>
-                                
-                            
-                                
                                 <!--<xsl:for-each select="$instances">
                                     <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
                                 </xsl:for-each>-->
-                                
-                                
                             </ul>
                         </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="self::place">
+                        
                     </xsl:if>
                 </div>
             </xsl:result-document>
