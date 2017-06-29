@@ -296,7 +296,7 @@
     <xsl:template match="listPlace/place/placeName">
         <span data-el="{local-name()}"><xsl:value-of select="string-join((for $c in * return normalize-space($c)), ', ')"/></span>
         <xsl:if test="parent::place/@type">
-            <span> (<xsl:apply-templates select="hcmc:getPlaceTypeCaption(parent::place/@type)"/>)</span>
+            <span> (<xsl:sequence select="hcmc:getPlaceTypeCaption(parent::place/@type)"/>)</span>
         </xsl:if>
     </xsl:template>
     
@@ -306,13 +306,22 @@
     <xsl:template match="listPlace/place/location">
         <span class="{local-name()}">
             <xsl:if test="string-length(normalize-space(geo)) gt 0">
-            <a href="map.html?place={ancestor::place[1]/@xml:id}"><xsl:value-of select="geo"/></a>
+            <a href="map.html?place={ancestor::place[1]/@xml:id}"><xsl:value-of select="geo"/></a><xsl:text> </xsl:text>
             </xsl:if>
-            <xsl:text> (</xsl:text>
-            <xsl:value-of select="if (@notBefore) then @notBefore else ''"/>
-            <xsl:if test="@notBefore or @notAfter"><xsl:text>-</xsl:text></xsl:if>
-            <xsl:value-of select="if (@notAfter) then @notAfter else ''"/>
-            <xsl:text>)</xsl:text>
+            <xsl:choose>
+                <xsl:when test="@notBefore and @notAfter and (@notAfter ne @notBefore)">
+                    <xsl:text>(</xsl:text><xsl:value-of select="@notBefore"/><xsl:text>-</xsl:text><xsl:value-of select="@notAfter"/><xsl:text>)</xsl:text>
+                </xsl:when>
+                <xsl:when test="@notBefore and not(@notAfter)">
+                    <xsl:text>(</xsl:text><xsl:value-of select="@notBefore"/><xsl:text>-?)</xsl:text>
+                </xsl:when>
+                <xsl:when test="@notAfter and not(@notBefore)">
+                    <xsl:text>(?-</xsl:text><xsl:value-of select="@notAfter"/><xsl:text>)</xsl:text>
+                </xsl:when>
+                <xsl:when test="@notAfter and @notBefore and (@notAfter eq @notBefore)">
+                    <xsl:text>(</xsl:text><xsl:value-of select="@notAfter"/><xsl:text>)</xsl:text>
+                </xsl:when>
+            </xsl:choose>
         </span>
     </xsl:template>
     

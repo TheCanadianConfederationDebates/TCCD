@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Canada</title>
+        <link rel="stylesheet" href="css/html.css"/>
         <link rel="stylesheet" href="css/ol.css" type="text/css"/>
         <link rel="stylesheet" href="css/map.css"/>
             <script src="js/ol.js" type="text/javascript"></script>
@@ -151,7 +152,8 @@
               map.forEachFeatureAtPixel(e.pixel, function (feature, layer) {
                   setupMapPopup();
                   if (feature.getProperties().notBefore){
-                    document.getElementById('mapPopup').innerHTML = featureToHtml(feature);
+                    //document.getElementById('mapPopup').innerHTML = featureToHtml(feature);
+                    placePopup(feature);
                     mapPopup.setPosition(e.coordinate);
                   }
               })
@@ -159,7 +161,7 @@
             
             function featureToHtml(feature){
               var props = feature.getProperties();
-              var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-200,-200])">✕</div>';
+              var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
               ret += '<span class="placeName" title="' + feature.getId() + '">' + props.name + '</span><br/>';
               ret += '(' + props.notBefore;
               if (props.notAfter !== ''){ret += '-' + props.notAfter;}
@@ -167,6 +169,20 @@
               if (props.federal == true){ret += 'Fed.';}
               else{ret += 'Non-fed.';}
               return ret;
+            }
+            
+            function reqLoad(){
+              var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
+              ret += this.responseText;
+              document.getElementById('mapPopup').innerHTML = ret;
+            }
+            
+            function placePopup(feature){
+              var id = feature.getId();
+              var oReq = new XMLHttpRequest();
+              oReq.addEventListener('load', reqLoad);
+              oReq.open('GET', 'ajax/' + id + '.xml');
+              oReq.send();
             }
             
             function setupMapPopup(){

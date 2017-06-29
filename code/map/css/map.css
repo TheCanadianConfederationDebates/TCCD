@@ -15,13 +15,16 @@
     border: solid 1px black;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
+    text-align: left;
+    overflow-y: auto;
+    max-height: 60vh;
 }
 
-#mapPopup span.placeName{
+#mapPopup span[data-el='placeName']{
     font-weight: bold;
 }
 
 div.popupCloser{
     cursor: pointer;
+    text-align: right;
 }

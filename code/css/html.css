@@ -246,7 +246,7 @@ div#infoPopup {
   background-color: #ffffff;
   word-wrap: break-word;
 }
-div.popupCloser {
+div #infoPopup div.popupCloser {
   font-size: 1.375em;
   line-height: 1;
   position: fixed;
@@ -320,10 +320,10 @@ footer {
 .openDocCaption::before{
     content: "⊟ ";
 }
-.closedDocCaption+ul{
+.closedDocCaption+ul, .closedDocCaption+div{
     display: none;
 }
-.openDocCaption+ul{
+.openDocCaption+ul, .openDocCaption+div{
     display: block;
 }
 ul.docsMentioningPerson, ul.docsMentioningPerson ul{
