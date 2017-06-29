@@ -42,7 +42,7 @@
         <xd:desc>The root template simply invokes a named template in 
         the docs module, which figures out what to process.</xd:desc>
     </xd:doc>
-    <xsl:template match="/">
+    <xsl:template match="xsl:stylesheet">
         <xsl:call-template name="allDocs"/>
     </xsl:template>
     

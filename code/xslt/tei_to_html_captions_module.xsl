@@ -77,4 +77,19 @@
         <span lang="fr">Débats et documents</span>
     </xsl:variable>
     
+    <xd:doc scope="component">
+        <xd:desc>Captions for different types of place: federal riding</xd:desc>
+    </xd:doc>
+    <xsl:variable name="federalRidingCaption"><span lang="en">Federal riding</span><span lang="fr">[Fr caption needed for "Federal riding"]</span></xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Captions for different types of place: provincial riding</xd:desc>
+    </xd:doc>
+    <xsl:variable name="nonFederalRidingCaption"><span lang="en">Provincial/Territorial riding</span><span lang="fr">[Fr caption needed for "Non-federal riding"]</span></xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Captions for different types of place: treaty location</xd:desc>
+    </xd:doc>
+    <xsl:variable name="treatyLocationCaption"><span lang="en">Treaty negotiation or signing location</span><span lang="fr">[Fr caption needed for "Treaty negotiation or signing location"]</span></xsl:variable>
+    
 </xsl:stylesheet>

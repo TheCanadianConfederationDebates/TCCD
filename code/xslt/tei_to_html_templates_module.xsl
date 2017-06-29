@@ -294,7 +294,10 @@
             is turned into a comma-separated sequence of components.</xd:desc>
     </xd:doc>
     <xsl:template match="listPlace/place/placeName">
-        <span class="{local-name()}"><xsl:value-of select="string-join((for $c in * return normalize-space($c)), ', ')"/></span>
+        <span data-el="{local-name()}"><xsl:value-of select="string-join((for $c in * return normalize-space($c)), ', ')"/></span>
+        <xsl:if test="parent::place/@type">
+            <span> (<xsl:apply-templates select="hcmc:getPlaceTypeCaption(parent::place/@type)"/>)</span>
+        </xsl:if>
     </xsl:template>
     
     <xd:doc scope="component">

@@ -53,7 +53,7 @@
         <xd:desc>Variable containing location of data directories where the XML files
         will be found.</xd:desc>
     </xd:doc>
-    <xsl:variable name="projectData" select="concat($projectRoot, 'data/')"/>
+    <xsl:variable name="projectData" select="concat($projectRoot, 'data')"/>
     
     <xd:doc scope="component">
         <xd:desc>The complete set of XML documents found in the data folder.</xd:desc>
@@ -63,18 +63,18 @@
     <xd:doc scope="component">
         <xd:desc>The subset of xmlDocs that we want to actually process (excluding templates etc.).</xd:desc>
     </xd:doc>
-    <xsl:variable name="teiDocs" select="$xmlDocs[TEI[text/descendant::persName[@ref[. != 'UNSPECIFIED']] or @xml:id=('personography', 'bibliography', 'placeography')][not(@xml:id='debate')]]"/>
+    <xsl:variable name="teiDocs" select="$xmlDocs[TEI[not(@xml:id=('debate', 'debate_day'))][text/descendant::persName[@ref[. != 'UNSPECIFIED']] or @xml:id=('personography', 'bibliography', 'placeography')]]"/>
     
     <xd:doc scope="component">
         <xd:desc>The project ODD file, from which we harvest information from 
                  taxonomies.</xd:desc>
     </xd:doc>
-    <xsl:variable name="projectOdd" select="doc(concat($projectRoot, 'data/schemas/tccd.odd'))"/>
+    <xsl:variable name="projectOdd" select="doc(concat($projectData, '/schemas/tccd.odd'))"/>
     
     <xd:doc scope="component">
         <xd:desc>The project taxonomies file, from which has some things we
             use for captions etc. in it.</xd:desc>
     </xd:doc>
-    <xsl:variable name="projectTaxonomies" select="doc(concat($projectRoot, 'data/schemas/taxonomies.xml'))"/>
+    <xsl:variable name="projectTaxonomies" select="doc(concat($projectRoot, '/data/schemas/taxonomies.xml'))"/>
     
 </xsl:stylesheet>

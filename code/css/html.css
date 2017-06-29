@@ -144,9 +144,9 @@ div[data-el='l'] {
 .unidentifiedName {
   background-color: #ffcccc;
 }
-ul.docsMentioningPerson, .appendix ul.docsMentioningPerson{
+/*ul.docsMentioningPerson, .appendix ul.docsMentioningPerson{
     display: none;
-}
+}*/
 
 /* Journal and monograph titles are italicized... */
 span[data-level='m'],

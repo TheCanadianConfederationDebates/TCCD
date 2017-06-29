@@ -53,4 +53,23 @@
         <xsl:value-of select="string-join($inText, ' / ')"/>
     </xsl:function>
     
+    <xd:doc scope="component">
+        <xd:desc>This function simply retrieves one of three captions
+        based on the value of a string from the place/@type attribute.</xd:desc>
+    </xd:doc>
+    <xsl:function name="hcmc:getPlaceTypeCaption" as="node()*">
+        <xsl:param name="type" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="$type='federal'">
+                <xsl:sequence select="$federalRidingCaption"/>
+            </xsl:when>
+            <xsl:when test="$type='nonFederal'">
+                <xsl:sequence select="$nonFederalRidingCaption"/>
+            </xsl:when>
+            <xsl:when test="$type='treaty'">
+                <xsl:sequence select="$treatyLocationCaption"/>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:function>
+    
 </xsl:stylesheet>

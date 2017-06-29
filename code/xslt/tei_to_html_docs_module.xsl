@@ -40,17 +40,19 @@
         
         <xsl:for-each select="$teiDocs/TEI">
             <xsl:variable name="currId" select="@xml:id" as="xs:string"/>
+            <xsl:sequence select="hcmc:message($currId)"/>
             <xsl:result-document href="{concat($outputFolder, '/', $currId, '.html')}">
                 <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
             </xsl:text>
                 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$currId}">
-                    <xsl:apply-templates>
+                    <xsl:apply-templates select=".">
                         <xsl:with-param name="currId" select="$currId" as="xs:string" tunnel="yes"/>
                     </xsl:apply-templates>
                 </html>
             </xsl:result-document>
         </xsl:for-each>
         
+        <xsl:sequence select="hcmc:message('Done.')"/>
         <xsl:call-template name="createDocIndex"/>
         
     </xsl:template>

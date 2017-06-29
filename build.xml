@@ -113,12 +113,15 @@
   
 <!-- Filesets for key files. -->
 <!-- All XML files in the data directory should be TEI files. -->
-  <fileset id="teiFiles" dir="data" includes="**/*.xml"/>
+  <fileset id="teiFiles" dir="data" includes="**/*.xml">
+    <exclude name="**/templates/*.xml"/>
+  </fileset>
   
   <!-- All files that are small enough to validate with Schematron. MUST FIND A WAY AROUND THIS. -->
   <fileset id="smTeiFiles" dir="data" includes="**/*.xml">
     <exclude name="**/personography.xml"/>
     <exclude name="**/placeography.xml"/>
+    <exclude name="**/templates/*.xml"/>
   </fileset>
   
 <!-- Portraits of individuals. -->
@@ -361,6 +364,19 @@
     </exec>
   </target>
   
+  <target name="createAjaxFragments">
+    <!--  Create AJAX fragments.  -->
+    <antcall target="MESSAGE"><param name="msg" value="Creating AJAX fragments..."/></antcall>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:tei_to_ajax_fragments_master.xsl"/>
+      <arg value="-xsl:tei_to_ajax_fragments_master.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg line="outputFolder=${webDir}"/>
+      <arg line="buildDate=${today}"/>
+      <arg line="gitRevision=${repository.version}"/>
+    </java>
+  </target>
+  
   <target name="website" depends="git.revision">
     <description>
       TARGET website
@@ -378,17 +394,9 @@
 
 <!--  Copy web resources. -->
     <antcall target="copyWebResources"/>
-    
-<!--  Create AJAX fragments.  -->
-    <antcall target="MESSAGE"><param name="msg" value="Creating AJAX fragments..."/></antcall>
-    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
-      <arg value="-s:tei_to_ajax_fragments_master.xsl"/>
-      <arg value="-xsl:tei_to_ajax_fragments_master.xsl"/> 
-      <arg value="--suppressXsltNamespaceCheck:on"/>
-      <arg line="outputFolder=${webDir}"/>
-      <arg line="buildDate=${today}"/>
-      <arg line="gitRevision=${repository.version}"/>
-    </java>
+
+<!--  Create the AJAX fragments for people and places. -->
+    <antcall target="createAjaxFragments"/>
     
 <!-- Now create the actual HTML stuff. Saxon handles most of this.    -->
     <antcall target="MESSAGE"><param name="msg" value="Building HTML pages..."/></antcall>

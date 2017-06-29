@@ -39,7 +39,7 @@
         <xd:desc>The root template simply invokes a named template in 
         the docs module, which figures out what to process.</xd:desc>
     </xd:doc>
-    <xsl:template match="/">
+    <xsl:template match="xsl:stylesheet">
         <xsl:call-template name="createAjaxFragments"/>
     </xsl:template>
     
@@ -53,8 +53,7 @@
     </xd:doc>
     <xsl:template name="createAjaxFragments">
         <xsl:sequence select="hcmc:message(concat('Creating AJAX fragments from ', count($teiDocs/TEI[@xml:id='personography']//person), ' people and ', count($teiDocs/TEI[@xml:id='placeography']//place), ' places.'))"/>
-        <!--<xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person | $teiDocs/TEI[@xml:id='placeography']//place">-->
-            <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person">
+        <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person | $teiDocs/TEI[@xml:id='placeography']//place">
             <xsl:result-document href="{concat($outputFolder, '/ajax/', @xml:id, '.xml')}">
                 <div id="{@xml:id}">
                     <xsl:apply-templates select="node()"/>
