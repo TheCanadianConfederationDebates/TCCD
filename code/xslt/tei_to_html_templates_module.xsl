@@ -26,7 +26,8 @@
         <!--    Starting with a Google font embed, just because. Design comes later.        -->
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"/> 
         <link rel="stylesheet" type="text/css" href="css/html.css"/>
-        <script type="text/ecmascript" src="js/script.js"/> 
+        <script type="text/ecmascript" src="js/script.js"></script> 
+        <script type="text/ecmascript" src="js/utilities.js"></script> 
     </xsl:variable>
    
    <xd:doc>
@@ -250,7 +251,7 @@
     <xsl:template match="person/affiliation[not(preceding-sibling::affiliation)]">
         <ul>
             <li>
-                <xsl:apply-templates select="node()"/>
+                <a href="map.html?place={replace(normalize-space(@ref), '^plc:', '')}"><xsl:apply-templates select="node()"/></a>
                 <xsl:apply-templates select="@*"/>
             </li>
             <xsl:apply-templates select="following-sibling::affiliation">
@@ -262,7 +263,7 @@
         <xsl:param name="inList" select="false()" tunnel="yes"/>
         <xsl:if test="$inList = true()">
             <li>
-                <xsl:apply-templates select="node()"/>
+                <a href="map.html?place={replace(normalize-space(@ref), '^plc:', '')}"><xsl:apply-templates select="node()"/></a>
                 <xsl:apply-templates select="@*"/>
             </li>
         </xsl:if>

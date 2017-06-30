@@ -18,6 +18,10 @@
     text-align: left;
     overflow-y: auto;
     max-height: 60vh;
+    max-width: 30vw;
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
 }
 
 #mapPopup span[data-el='placeName']{
