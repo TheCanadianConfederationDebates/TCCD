@@ -366,12 +366,26 @@
   
   <target name="createAjaxFragments">
     <!--  Create AJAX fragments.  -->
-    <antcall target="MESSAGE"><param name="msg" value="Creating AJAX fragments..."/></antcall>
+    <antcall target="MESSAGE"><param name="msg" value="Creating AJAX fragments for people..."/></antcall>
+<!--    People first, then places. -->
     <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
       <arg value="-s:tei_to_ajax_fragments_master.xsl"/>
       <arg value="-xsl:tei_to_ajax_fragments_master.xsl"/> 
       <arg value="--suppressXsltNamespaceCheck:on"/>
       <arg line="outputFolder=${webDir}"/>
+      <arg line="whichTransformation=people"/>
+      <arg line="buildDate=${today}"/>
+      <arg line="gitRevision=${repository.version}"/>
+    </java>
+    
+    
+    <antcall target="MESSAGE"><param name="msg" value="Creating AJAX fragments for places..."/></antcall>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:tei_to_ajax_fragments_master.xsl"/>
+      <arg value="-xsl:tei_to_ajax_fragments_master.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg line="outputFolder=${webDir}"/>
+      <arg line="whichTransformation=places"/>
       <arg line="buildDate=${today}"/>
       <arg line="gitRevision=${repository.version}"/>
     </java>

@@ -4,12 +4,14 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Canada</title>
+        <link rel="stylesheet" href="css/html.css"/>
         <link rel="stylesheet" href="css/ol.css" type="text/css"/>
         <link rel="stylesheet" href="css/map.css"/>
             <script src="js/ol.js" type="text/javascript"></script>
             <script src="js/mapbox-streets-v6-style.js" type="text/javascript"></script>
             <script src="js/key.js" type="text/javascript"></script>
             <script src="js/utilities.js" type="text/javascript"></script>
+             <script src="js/script.js" type="text/javascript"></script> 
             <script src="js/postalcodes.js" type="text/javascript"></script>
             <style>
       .map {
@@ -67,8 +69,9 @@
                  feat = srcRidings.getFeatureById(targPlace);
                  if (feat !== null){
                     setupMapPopup();
-                    document.getElementById('mapPopup').innerHTML = featureToHtml(feat);
-                    mapPopup.setPosition(feat.getGeometry().getCoordinates());
+                    //document.getElementById('mapPopup').innerHTML = featureToHtml(feat);
+                    //mapPopup.setPosition(feat.getGeometry().getCoordinates());
+                    placePopup(feat);
                     zoomToFeature(feat);
                  }
               }
@@ -151,15 +154,17 @@
               map.forEachFeatureAtPixel(e.pixel, function (feature, layer) {
                   setupMapPopup();
                   if (feature.getProperties().notBefore){
-                    document.getElementById('mapPopup').innerHTML = featureToHtml(feature);
-                    mapPopup.setPosition(e.coordinate);
+                    //document.getElementById('mapPopup').innerHTML = featureToHtml(feature);
+                    placePopup(feature);
+                    //mapPopup.setPosition(e.coordinate);
                   }
               })
             });
             
+            //NOW OBSOLETE.
             function featureToHtml(feature){
               var props = feature.getProperties();
-              var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-200,-200])">✕</div>';
+              var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
               ret += '<span class="placeName" title="' + feature.getId() + '">' + props.name + '</span><br/>';
               ret += '(' + props.notBefore;
               if (props.notAfter !== ''){ret += '-' + props.notAfter;}
@@ -169,14 +174,43 @@
               return ret;
             }
             
+            function reqLoad(){
+              //var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
+              var ret = '<div class="popupCloser" onclick="mapPopup.style.display = \'none\';">✕</div>';
+              ret += this.responseText;
+              mapPopup.innerHTML = ret;
+              mapPopup.style.display = 'block';
+            }
+            
+            function placePopup(feature){
+              var id = feature.getId();
+              console.log(id);
+              //THIS FAILS. Don't know why.
+              /*var url = 'ajax/' + id + '.xml';
+                ajaxRetrieve(url).then(function(response) {
+                    var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
+                    ret += response.responseXml;
+                    document.getElementById('mapPopup').innerHTML = ret;
+                }, function(Error) {
+                    console.log(Error);
+              });*/
+              
+              //Doing it the simple way.
+              var oReq = new XMLHttpRequest();
+              oReq.addEventListener('load', reqLoad);
+              oReq.open('GET', 'ajax/' + id + '.xml');
+              oReq.send();
+            }
+            
             function setupMapPopup(){
               if (mapPopup == null){
-                     mapPopup = new ol.Overlay({
+                mapPopup = document.getElementById('mapPopup');
+                     /*mapPopup = new ol.Overlay({
                         element: document.getElementById('mapPopup'),
                         positioning: 'bottom-center',
                         offset: [0, -5]
                       });
-                     map.addOverlay(mapPopup);
+                     map.addOverlay(mapPopup);*/
                   }
             }
             

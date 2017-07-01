@@ -7,7 +7,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:hcmc="http://hcmc.uvic.ca/ns"
-    version="2.0">
+    version="3.0">
     
     <xd:doc scope="stylesheet">
         <xd:desc>
@@ -59,6 +59,14 @@
     <xsl:variable name="peopleCaption">
         <span lang="en">Participating individuals: </span>
         <span lang="fr">Personnes participantes: </span>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Caption heading the list of people in the map popup.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="peopleCaptionShort">
+        <span lang="en">People</span>
+        <span lang="fr">Personnes</span>
     </xsl:variable>
     
     <xd:doc scope="component">

@@ -81,3 +81,13 @@ function getQueryParam(param) {
     return '';
 };
 
+
+/* Function to toggle a class for an expander heading. */
+function switchExpanderClass(sender){
+    if (sender.className.match(/^open/)){
+        sender.className = sender.className.replace(/^open/, 'closed');
+    }
+    else{
+        sender.className = sender.className.replace(/^closed/, 'open');
+    }    
+}
