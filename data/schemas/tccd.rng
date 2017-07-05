@@ -11134,8 +11134,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
-      
-      54.55355, -94.49416
             <oneOrMore>
                <choice>
                   <ref name="model.placeLike"/>
