@@ -126,20 +126,7 @@
                 <div id="{$currId}">
                     <xsl:apply-templates select="node()"/>
 
-                    <xsl:if test="count($peopleIds) gt 0">
-                        <h3 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:copy-of select="$peopleCaptionShort/node()"/></h3>
-                        <div id="{concat($currId, '_people')}">
-                                <ul data-el="listPerson">
-                                    <xsl:for-each select="$peopleIds">
-                                        <xsl:variable name="personId" select="."/>
-                                        <li data-id="{$personId}">
-                                            <xsl:variable name="personAjaxFile" select="concat($outputFolder, '/ajax/', $personId, '.xml')"/>
-                                            <xsl:sequence select="doc($personAjaxFile)/xh:div/node()"/>
-                                        </li>
-                                    </xsl:for-each>
-                                </ul>
-                        </div>
-                    </xsl:if>
+                    
                     <!-- Now we need a list of documents associated with each person.  -->
                         <xsl:variable name="persNameRegEx" select="concat('^\s*(', string-join((for $p in $peopleIds return concat('(pers:', $p, ')')), '|'), ')\s*$')"/>
                         <xsl:variable name="docsForPlace" select="$teiDocs/TEI[not(@xml:id=('personography', 'placeography', 'bibliography'))][text/descendant::persName[matches(@ref, $persNameRegEx)]]"/>
@@ -162,7 +149,21 @@
                                 </xsl:for-each-group>
                             </ul>
                         </div>
-                  </xsl:if>
+                    </xsl:if>
+                    <xsl:if test="count($peopleIds) gt 0">
+                        <h3 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:copy-of select="$peopleCaptionShort/node()"/></h3>
+                        <div id="{concat($currId, '_people')}">
+                            <ul data-el="listPerson">
+                                <xsl:for-each select="$peopleIds">
+                                    <xsl:variable name="personId" select="."/>
+                                    <li data-id="{$personId}">
+                                        <xsl:variable name="personAjaxFile" select="concat($outputFolder, '/ajax/', $personId, '.xml')"/>
+                                        <xsl:sequence select="doc($personAjaxFile)/xh:div/node()"/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </div>
+                    </xsl:if>
                 </div>
             </xsl:result-document>
         </xsl:for-each>
