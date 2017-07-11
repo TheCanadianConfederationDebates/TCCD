@@ -16405,10 +16405,82 @@ geographical entity. So:
                <place xml:id="FWAL2" type="treaty">
                   <placeName>
                      <region>TREATY 6</region>
-                     <district>Carlton, North West Territories, in present-day southwest</district>
+                     <district>Fort Walsh, North West Territories, in present-day southwest</district>
                   </placeName>
-                  <location notBefore="1878" notAfter="1878">
-                     <geo>52.86962, -106.53038</geo>
+                  <location notBefore="1879" notAfter="1882">
+                     <geo>49.57309, -109.88216</geo>
+                  </location>
+               </place>
+               <place xml:id="LMON1" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Montreal Lake</district>
+                  </placeName>
+                  <location notBefore="1889" notAfter="1889">
+                     <geo>54.04851, -105.78007</geo>
+                  </location>
+               </place>
+               <place xml:id="ROCK1" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Rocky Mountain House </district>
+                  </placeName>
+                  <location notBefore="1994" notAfter="1950">
+                     <geo>52.3801, -114.91836</geo>
+                  </location>
+               </place>
+               <place xml:id="WITC1" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Witchekan Lake </district>
+                  </placeName>
+                  <location notBefore="1950" notAfter="1950">
+                     <geo>53.50693, -107.57885</geo>
+                  </location>
+               </place>
+               <place xml:id="COCH7" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Cochin</district>
+                  </placeName>
+                  <location notBefore="1954" notAfter="1956">
+                     <geo>53.50693, -107.57885</geo>
+                  </location>
+               </place>
+               <place xml:id="BLAC9" type="treaty">
+                  <placeName>
+                     <region>TREATY 7</region>
+                     <district>Blackfoot Crossing</district>
+                  </placeName>
+                  <location notBefore="1877" notAfter="1877">
+                     <geo>50.78293, -112.84572</geo>
+                  </location>
+               </place>
+               <place xml:id="FMAC2" type="treaty">
+                  <placeName>
+                     <region>TREATY 7</region>
+                     <district>Fort MacLeod</district>
+                  </placeName>
+                  <location notBefore="1877" notAfter="1877">
+                     <geo>49.72636, -113.40711</geo>
+                  </location>
+               </place>
+               <place xml:id="GROU2" type="treaty">
+                  <placeName>
+                     <region>TREATY 7</region>
+                     <district>near Grouard on Lesser Slave Lake</district>
+                  </placeName>
+                  <location notBefore="1899" notAfter="1899">
+                     <geo>55.52668, -116.12754</geo>
+                  </location>
+               </place>
+               <place xml:id="GROU3" type="treaty">
+                  <placeName>
+                     <region>TREATY 8</region>
+                     <district>Lesser Slave Lake</district>
+                  </placeName>
+                  <location notBefore="1899" notAfter="1899">
+                     <geo>55.51933, -116.11355</geo>
                   </location>
                </place>
                
