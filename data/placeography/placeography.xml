@@ -16360,10 +16360,55 @@ geographical entity. So:
                <place xml:id="NFCA1" type="treaty">
                   <placeName>
                      <region>TREATY 6</region>
-                     <district></district>
+                     <district>near Fort Pitt</district>
                   </placeName>
                   <location notBefore="1876" notAfter="1876">
                      <geo>53.60898, -109.75045</geo>
+                  </location>
+               </place>
+               <place xml:id="FEDM1" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Fort Edmonton</district>
+                  </placeName>
+                  <location notBefore="1877" notAfter="1877">
+                     <geo>53.50356, -113.57219</geo>
+                  </location>
+               </place>
+               <place xml:id="BLAC8" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Blackfoot Crossing</district>
+                  </placeName>
+                  <location notBefore="1877" notAfter="1877">
+                     <geo>50.78293, -112.84572</geo>
+                  </location>
+               </place>
+               <place xml:id="BATT4" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Battleford, North West Territories, in present-day southwest </district>
+                  </placeName>
+                  <location notBefore="1878" notAfter="1878">
+                     <geo>52.73618, -108.30562</geo>
+                  </location>
+               </place>
+               <place xml:id="CARL6" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Carlton, North West Territories, in present-day southwest</district>
+                  </placeName>
+                  <location notBefore="1878" notAfter="1878">
+                     <geo>52.86962, -106.53038</geo>
+                  </location>
+               </place>
+               <place xml:id="FWAL2" type="treaty">
+                  <placeName>
+                     <region>TREATY 6</region>
+                     <district>Carlton, North West Territories, in present-day southwest</district>
+                  </placeName>
+                  <location notBefore="1878" notAfter="1878">
+                     <geo>52.86962, -106.53038</geo>
                   </location>
                </place>
                
