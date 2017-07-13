@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="19.0">
+<project version="18.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="19.0" xml:space="preserve">
+            <serialized version="18.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>document.types</String>
@@ -310,9 +310,6 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
-                                <field name="textModeExternalObjectInsertionHandler">
-                                    <null/>
-                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -595,9 +592,6 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
-                                <field name="textModeExternalObjectInsertionHandler">
-                                    <null/>
-                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -831,9 +825,6 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
-                                    <null/>
-                                </field>
-                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -1137,9 +1128,6 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
-                                    <null/>
-                                </field>
-                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -1495,9 +1483,6 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
-                                    <null/>
-                                </field>
-                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -2169,6 +2154,846 @@
                     <entry>
                         <String>scenarios</String>
                         <scenario-array>
+                            <antScenario>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String>${cfd}/build.xml</String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>encoderName</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>This is a version of the name of the person for whom the encoding package is intended, in all-lower-case with no punctuation or spaces.</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${ask('Provide the encoder's name, lower-case, with no spaces or punctuation.', generic, 'encoder_name')}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx256m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>Build Encoder Package</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>ANT</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>ANT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </antScenario>
+                            <antScenario>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String>${pd}/code/build_schema.xml</String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>cfd</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>current input file directory</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${cfd}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>cfn</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>current input file name (without extension)</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${cfn}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>cfne</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>current input file name (with extension)</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${cfne}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>defaultSource</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>latest P5 subset in TEI plugin</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${frameworkDir(TEI P5)}/xml/tei/odd/p5subset.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>oxygenlib</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>path to the Oxygen library folder</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${oxygenInstallDir}/lib</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>pd</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>current project directory (i.e. where the tccd.xpr file lives)</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${pd}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>teiPlugin</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>TEI plugin location</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${frameworkDir(TEI P5)}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx256m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>tccd_build_schema</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>ANT</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String>${cfd}/${cfne}</String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>ANT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array>
+                                        <String>${oxygenHome}/lib/saxon9ee.jar</String>
+                                    </String-array>
+                                </field>
+                            </antScenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>diagnostics</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>diagnostics_${date(yyyy-MM-dd)}.html</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>diagnostics_${date(yyyy-MM-dd)}.html</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-HE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>match_affiliations</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>${cfd}/affiliations_to_placeography.txt</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${cfd}/affiliations_to_placeography.txt</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-HE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>split_languages</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/code/xslt/split_languages.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list>
+                                        <transformationParameter>
+                                            <field name="paramDescription">
+                                                <paramDescriptor>
+                                                    <field name="localName">
+                                                        <String>collectionPath</String>
+                                                    </field>
+                                                    <field name="prefix">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="namespace">
+                                                        <null/>
+                                                    </field>
+                                                </paramDescriptor>
+                                            </field>
+                                            <field name="value">
+                                                <String>/home/mholmes/WorkData/history/confederation_debates/TCCD/data/PEI/Federal/hocr_edited/</String>
+                                            </field>
+                                            <field name="hasXPathValue">
+                                                <Boolean>false</Boolean>
+                                            </field>
+                                        </transformationParameter>
+                                    </list>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <serializableOrderedMap>
+                                        <entry>
+                                            <String>Saxon-HE</String>
+                                            <xsltSaxonHEAdvancedOptions>
+                                                <field name="showVersionWarnings">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="dtdSourceValidation">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="dtdSourceValidationRecover">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="lineNumbering">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="initialMode">
+                                                    <null/>
+                                                </field>
+                                                <field name="initialTemplate">
+                                                    <null/>
+                                                </field>
+                                                <field name="traceXPathExpression">
+                                                    <Boolean>true</Boolean>
+                                                </field>
+                                                <field name="expandAttributeDefaults">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="errorRecoverPolicy">
+                                                    <String>saxon.recover.with.warning</String>
+                                                </field>
+                                                <field name="stripWS">
+                                                    <String>saxon.strip.ws.none</String>
+                                                </field>
+                                                <field name="optimizationLevel">
+                                                    <String>10</String>
+                                                </field>
+                                                <field name="useConfigFile">
+                                                    <Boolean>false</Boolean>
+                                                </field>
+                                                <field name="configSystemID">
+                                                    <null/>
+                                                </field>
+                                                <field name="initializer">
+                                                    <String></String>
+                                                </field>
+                                            </xsltSaxonHEAdvancedOptions>
+                                        </entry>
+                                    </serializableOrderedMap>
+                                </field>
+                                <field name="name">
+                                    <String>tei_to_html_master</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XML</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-HE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
                             <scenario>
                                 <field name="advancedOptionsMap">
                                     <null/>
@@ -3006,846 +3831,6 @@
                                 </field>
                                 <field name="showInXMLPane">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>Saxon-HE</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </scenario>
-                            <antScenario>
-                                <field name="additionalAntArgs">
-                                    <String></String>
-                                </field>
-                                <field name="buildTarget">
-                                    <String></String>
-                                </field>
-                                <field name="buildFilePath">
-                                    <String>${cfd}/build.xml</String>
-                                </field>
-                                <field name="ditaParams">
-                                    <list>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>encoderName</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>This is a version of the name of the person for whom the encoding package is intended, in all-lower-case with no punctuation or spaces.</String>
-                                            </field>
-                                            <field name="value">
-                                                <String>${ask('Provide the encoder's name, lower-case, with no spaces or punctuation.', generic, 'encoder_name')}</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                    </list>
-                                </field>
-                                <field name="jvmArgs">
-                                    <String>-Xmx256m</String>
-                                </field>
-                                <field name="useCustomJavaHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customJavaHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="useCustomANTHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customANTHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="workingDir">
-                                    <String>${cfd}</String>
-                                </field>
-                                <field name="showConsoleAlways">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>Build Encoder Package</String>
-                                </field>
-                                <field name="baseURL">
-                                    <null/>
-                                </field>
-                                <field name="footerURL">
-                                    <null/>
-                                </field>
-                                <field name="fOPMethod">
-                                    <null/>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <null/>
-                                </field>
-                                <field name="headerURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <null/>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>ANT</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
-                                <field name="outputResource">
-                                    <null/>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <String></String>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>ANT</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </antScenario>
-                            <antScenario>
-                                <field name="additionalAntArgs">
-                                    <String></String>
-                                </field>
-                                <field name="buildTarget">
-                                    <String></String>
-                                </field>
-                                <field name="buildFilePath">
-                                    <String>${pd}/code/build_schema.xml</String>
-                                </field>
-                                <field name="ditaParams">
-                                    <list>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>cfd</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>current input file directory</String>
-                                            </field>
-                                            <field name="value">
-                                                <String>${cfd}</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>cfn</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>current input file name (without extension)</String>
-                                            </field>
-                                            <field name="value">
-                                                <String>${cfn}</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>cfne</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>current input file name (with extension)</String>
-                                            </field>
-                                            <field name="value">
-                                                <String>${cfne}</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>defaultSource</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>latest P5 subset in TEI plugin</String>
-                                            </field>
-                                            <field name="value">
-                                                <String>${frameworkDir(TEI P5)}/xml/tei/odd/p5subset.xml</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>oxygenlib</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>path to the Oxygen library folder</String>
-                                            </field>
-                                            <field name="value">
-                                                <String>${oxygenInstallDir}/lib</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>pd</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>current project directory (i.e. where the tccd.xpr file lives)</String>
-                                            </field>
-                                            <field name="value">
-                                                <String>${pd}</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                        <antParameter>
-                                            <field name="name">
-                                                <String>teiPlugin</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>TEI plugin location</String>
-                                            </field>
-                                            <field name="value">
-                                                <String>${frameworkDir(TEI P5)}</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>5</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </antParameter>
-                                    </list>
-                                </field>
-                                <field name="jvmArgs">
-                                    <String>-Xmx256m</String>
-                                </field>
-                                <field name="useCustomJavaHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customJavaHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="useCustomANTHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customANTHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="workingDir">
-                                    <String>${cfd}</String>
-                                </field>
-                                <field name="showConsoleAlways">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>tccd_build_schema</String>
-                                </field>
-                                <field name="baseURL">
-                                    <null/>
-                                </field>
-                                <field name="footerURL">
-                                    <null/>
-                                </field>
-                                <field name="fOPMethod">
-                                    <null/>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <null/>
-                                </field>
-                                <field name="headerURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <null/>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>ANT</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
-                                <field name="outputResource">
-                                    <null/>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <String>${cfd}/${cfne}</String>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>ANT</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array>
-                                        <String>${oxygenHome}/lib/saxon9ee.jar</String>
-                                    </String-array>
-                                </field>
-                            </antScenario>
-                            <scenario>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>diagnostics</String>
-                                </field>
-                                <field name="baseURL">
-                                    <String></String>
-                                </field>
-                                <field name="footerURL">
-                                    <String></String>
-                                </field>
-                                <field name="fOPMethod">
-                                    <String>pdf</String>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <String>Apache FOP</String>
-                                </field>
-                                <field name="headerURL">
-                                    <String></String>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <String>${currentFileURL}</String>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <String>${currentFileURL}</String>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>XML</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>diagnostics_${date(yyyy-MM-dd)}.html</File>
-                                </field>
-                                <field name="outputResource">
-                                    <String>diagnostics_${date(yyyy-MM-dd)}.html</String>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <null/>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>Saxon-HE</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </scenario>
-                            <scenario>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>match_affiliations</String>
-                                </field>
-                                <field name="baseURL">
-                                    <String></String>
-                                </field>
-                                <field name="footerURL">
-                                    <String></String>
-                                </field>
-                                <field name="fOPMethod">
-                                    <String>pdf</String>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <String>Apache FOP</String>
-                                </field>
-                                <field name="headerURL">
-                                    <String></String>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <String>${currentFileURL}</String>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <String>${currentFileURL}</String>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>XML</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfd}/affiliations_to_placeography.txt</File>
-                                </field>
-                                <field name="outputResource">
-                                    <String>${cfd}/affiliations_to_placeography.txt</String>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <null/>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>Saxon-HE</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </scenario>
-                            <scenario>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>split_languages</String>
-                                </field>
-                                <field name="baseURL">
-                                    <String></String>
-                                </field>
-                                <field name="footerURL">
-                                    <String></String>
-                                </field>
-                                <field name="fOPMethod">
-                                    <String>pdf</String>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <String>Apache FOP</String>
-                                </field>
-                                <field name="headerURL">
-                                    <String></String>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <String>${pdu}/code/xslt/split_languages.xsl</String>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <String>${currentFileURL}</String>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>XML</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
-                                <field name="outputResource">
-                                    <null/>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <null/>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list>
-                                        <transformationParameter>
-                                            <field name="paramDescription">
-                                                <paramDescriptor>
-                                                    <field name="localName">
-                                                        <String>collectionPath</String>
-                                                    </field>
-                                                    <field name="prefix">
-                                                        <null/>
-                                                    </field>
-                                                    <field name="namespace">
-                                                        <null/>
-                                                    </field>
-                                                </paramDescriptor>
-                                            </field>
-                                            <field name="value">
-                                                <String>/home/mholmes/WorkData/history/confederation_debates/TCCD/data/PEI/Federal/hocr_edited/</String>
-                                            </field>
-                                            <field name="hasXPathValue">
-                                                <Boolean>false</Boolean>
-                                            </field>
-                                        </transformationParameter>
-                                    </list>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>Saxon-PE</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </scenario>
-                            <scenario>
-                                <field name="advancedOptionsMap">
-                                    <serializableOrderedMap>
-                                        <entry>
-                                            <String>Saxon-HE</String>
-                                            <xsltSaxonHEAdvancedOptions>
-                                                <field name="showVersionWarnings">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="dtdSourceValidation">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="dtdSourceValidationRecover">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="lineNumbering">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="initialMode">
-                                                    <null/>
-                                                </field>
-                                                <field name="initialTemplate">
-                                                    <null/>
-                                                </field>
-                                                <field name="traceXPathExpression">
-                                                    <Boolean>true</Boolean>
-                                                </field>
-                                                <field name="expandAttributeDefaults">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="errorRecoverPolicy">
-                                                    <String>saxon.recover.with.warning</String>
-                                                </field>
-                                                <field name="stripWS">
-                                                    <String>saxon.strip.ws.none</String>
-                                                </field>
-                                                <field name="optimizationLevel">
-                                                    <String>10</String>
-                                                </field>
-                                                <field name="useConfigFile">
-                                                    <Boolean>false</Boolean>
-                                                </field>
-                                                <field name="configSystemID">
-                                                    <null/>
-                                                </field>
-                                                <field name="initializer">
-                                                    <String></String>
-                                                </field>
-                                            </xsltSaxonHEAdvancedOptions>
-                                        </entry>
-                                    </serializableOrderedMap>
-                                </field>
-                                <field name="name">
-                                    <String>tei_to_html_master</String>
-                                </field>
-                                <field name="baseURL">
-                                    <String></String>
-                                </field>
-                                <field name="footerURL">
-                                    <String></String>
-                                </field>
-                                <field name="fOPMethod">
-                                    <String>pdf</String>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <String>Apache FOP</String>
-                                </field>
-                                <field name="headerURL">
-                                    <String></String>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <String>${currentFileURL}</String>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <String>${currentFileURL}</String>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>XML</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
-                                <field name="outputResource">
-                                    <null/>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <null/>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="showInSVGPane">
                                     <Boolean>false</Boolean>
