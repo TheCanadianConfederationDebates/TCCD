@@ -327,15 +327,16 @@
             <p>
      <persName ref="pers:BANF1">Mr. Banfield</persName> 
 
-<!-- GL, 2017-06-27, untaggedTable commented out table to be marked-up at later date.
 
-Mobile River 3,000 hp 
-     <lb/>
-     Petty Harbour 1,800 
-     <lb/>
-     Tors Cove &amp; Rocky River 4,493 
-     <lb/>
-            </p>--></p>
+
+<table>
+<row><cell>Mobile River</cell><cell rendition="simple:right">3,000 hp </cell></row>
+
+<row><cell>Petty Harbour</cell><cell rendition="simple:right">1,800</cell></row>
+     
+<row><cell>Tors Cove &amp; Rocky River</cell><cell rendition="simple:right">4,493</cell></row></table> 
+     
+            
    
 <note xml:id="fn_01">[2] Volume II:313. [Volume II is not in <hi rendition="simple:italic">The Confederation Debates</hi> Collection]</note>
 
@@ -346,49 +347,56 @@ Mobile River 3,000 hp
                 facs="final/images/NFLD_National_Convention_1947-04-16_Page_0494.jpg"/>
             <fw type="num">494</fw> <fw type="running">NATIONAL CONVENTION</fw> <fw type="dateline">April 1947</fw>
     
-<!-- GL, 2017-06-27, untaggedTable commented out table to be marked-up at later date.
 
-            <p>
-     Terra Nova No data. 
-     <lb/>
-     Fort Union No data. 
-     <lb/>
-     Exploits River 54,000 
-     <lb/>
-     Kaipokok River No data. 
-     <lb/>
-     Muskrat Falls No data. 
-     <lb/>
-     S.E. Brook entering 
-     <lb/>
-    into S.W. Arm No data. 
-     <lb/>Black River, RE. No data. 
-     <lb/>Pipers Hole River No data. 
-     <lb/>Pismire Brook No data. 
-     <lb/>Indian Brook, Halls Bay 2,000 
-     <lb/>Rattling Brook 2,000 
-     <lb/>Rocky River, Colinet 1,500 
-     <lb/>Great Rattling Brook No data. 
-     <lb/>Badger Brook 4,975 
-     <lb/>Main Gander River 50,000 
-     <lb/>Little River 100,000 
-     <lb/>Wild Cove Brook No data. 
-     <lb/>Middle Arm Brook No data. 
-     <lb/>Black Bay Brook 3,800 
-     <lb/>Corner Brook, 
-     <lb/>Bay of Islands No data. 
-     <lb/>Grand River No data. 
-     <lb/>Colliers No data. 
-     <lb/>LaManche 1,000 
-     <lb/>Main River, St. Lawrence 500. 
-     <lb/>
+    <table>
+
+<row><cell>Terra Nova </cell><cell>No data.</cell></row> 
+     
+<row><cell>Fort Union</cell><cell>No data.</cell></row>
+
+<row><cell>Exploits River</cell><cell rendition="simple:right">54,000 </cell></row>
+
+<row><cell>Kaipokok River</cell><cell>No data.</cell></row>
+
+<row><cell>Muskrat Falls </cell><cell>No data.</cell></row>
+     
+<row><cell>S.E. Brook entering <lb/> into S.W. Arm </cell><cell>No data. </cell></row>
+
+<row><cell>Black River, RE.</cell><cell>No data.</cell></row>
+
+<row><cell>Pipers Hole River</cell><cell>No data.</cell></row> 
+     
+<row><cell>Pismire Brook</cell><cell>No data.</cell></row>
+           
+<row><cell>Indian Brook, Halls Bay</cell><cell rendition="simple:right">2,000</cell></row>
+           
+<row><cell>Rattling Brook</cell><cell rendition="simple:right">2,000</cell></row>
+
+<row><cell>Rocky River, Colinet</cell><cell rendition="simple:right">1,500</cell></row>
+           
+<row><cell>Great Rattling Brook</cell><cell>No data.</cell></row>
+           
+<row><cell>Badger Brook</cell><cell rendition="simple:right">4,975</cell></row>
+           
+<row><cell>Main Gander River</cell><cell rendition="simple:right">50,000</cell></row>
+           
+<row><cell>Little River</cell><cell rendition="simple:right">100,000</cell></row>
+
+<row><cell>Wild Cove Brook </cell><cell>No data.</cell></row> 
+
+<row><cell>Middle Arm Brook</cell><cell> No data.</cell></row>
+<row><cell>Black Bay Brook </cell><cell rendition="simple:right">3,800</cell></row>
+<row><cell>Corner Brook, <lb/>Bay of Islands</cell><cell> No data.</cell></row>
+           
+<row><cell>Grand River </cell><cell>No data. </cell></row>
+<row><cell>Colliers</cell><cell>No data.</cell></row>
+<row><cell>LaManche</cell><cell rendition="simple:right">1,000</cell></row> 
+<row><cell>Main River, St. Lawrence</cell><cell rendition="simple:right">500.</cell></row>
+</table>
             </p>
--->
-    
-
-    
-   
-            <p>
+     
+       
+       <p>
      <persName ref="pers:SMAL1">Mr. Smallwood</persName> With reference to 12 rivers 
      <lb/>
      given in this list, in each of them it says from two 
@@ -493,22 +501,22 @@ Mobile River 3,000 hp
      <lb/>granted to them, developed or not? 
      <lb/>
             </p>
-            <p><persName ref="pers:BANF1">Mr. Banfield</persName> Rentals and royalties, 
-<!-- GL, 2017-06-27, untaggedTable commented out table to be marked-up at later date.
-
-     <lb/>1940-41...$l,527 
-     <lb/>1941-42... 1,672 
-     <lb/>1942-43... 1,870 
-     <lb/>1943-44... 4,387 
-     <lb/>1944-45... 3,690 
-     <lb/>1945-46... 4,460 
-     <lb/> -->
+            <p><persName ref="pers:BANF1">Mr. Banfield</persName> 
+<table>
+<row><cell>Rentals and </cell><cell>royalties,</cell></row>
+<row><cell>1940-41...</cell><cell rendition="simple:right">$l,527</cell></row> 
+<row><cell>1941-42... </cell><cell rendition="simple:right">1,672</cell></row>
+<row><cell>1942-43... </cell><cell rendition="simple:right">1,870</cell></row>
+<row><cell>1943-44...</cell><cell rendition="simple:right"> 4,387</cell></row> 
+<row><cell>1944-45... </cell><cell rendition="simple:right">3,690</cell></row> 
+<row><cell>1945-46...</cell><cell rendition="simple:right">4,460</cell></row> 
+</table> 
             </p>
             <p><persName ref="pers:SMAL1">Mr. Smallwood</persName> Could you tell me why they 
      <lb/>vary? It jumped from $1,800 to $4,460. Why? 
      <lb/>
             </p>
-            <p><persName ref="pers:BANF1">Mr. Banfield</persName> Thejump is due to the erection of 
+            <p><persName ref="pers:BANF1">Mr. Banfield</persName> The jump is due to the erection of 
      <lb/>new plants, but the decline is due to adeposit paid 
 
    
@@ -1553,7 +1561,7 @@ concerning the legislation governing the<lb/>Labrador Mining and Development Com
      possibly be heated. I don't think that is conducive 
      <lb/>
             </p>-->
-        </div> </div>
+       </div> </div>
       </body>
    </text>
 </TEI>
