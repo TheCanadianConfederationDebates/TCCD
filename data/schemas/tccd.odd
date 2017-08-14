@@ -151,7 +151,7 @@ so Volume 2 by implication has finished. -->
                           include="addName affiliation birth death district forename geo listOrg listPerson listPlace location org orgName persName person place placeName region roleName state surname"/>
                <moduleRef key="corpus" include="particDesc settingDesc textDesc"/>
                <moduleRef key="figures" include="cell figDesc figure row table"/>
-               <moduleRef key="transcr" include="facsimile fw surface zone"/>
+               <moduleRef key="transcr" include="facsimile fw supplied surface zone"/>
                <moduleRef key="linking" include="seg"/>
                
                
