@@ -785,7 +785,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
      on the subjects of immigration and agricul<lb break="no"/>ture; but the Federal egislature will have 
      <lb/>
-     the same pow er, and it is evident that it will 
+     the same power, and it is evident that it will 
      <lb/>
      have the upper hand on these matters; that 
      <lb/>
@@ -985,6 +985,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
      <quote rendition="tccd:blockquote"><p>
      The second point which Her Majesty's Govern<lb break="no"/>ment desire should be reconsidered is the Consti<lb break="no"/><cb/>tution of the Legislative Council. They appre<lb break="no"/>ciate the considerations which have influenced the 
      <lb/>Conference in determining the mode in which this 
@@ -2218,7 +2219,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
             </p>
    
     
-
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> Whenever a majority of the House of Repre<lb break="no"/>sentatives shall deem it necessary to alter or 
      <lb/>
@@ -2259,6 +2260,8 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">Whenever two-thirds of the General Assembly 
      <lb/>
@@ -2522,7 +2525,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>when you can employ it in manufactures, or 
      <lb/>in the cultivation of good farming lands; 
      <lb/>but look at the case of Ireland, where popu-   
-     <lb/>lation has been a source of poverty . 
+     <lb/>lation has been a source of poverty. 
      <lb/>
             </p>
             <p><persName ref="pers:MACP1">HON. MR. MACPHERSON</persName>— What I said 
@@ -2866,6 +2869,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
     <p>
      <quote rendition="tccd:blockquote">As regards the sum proposed to be granted for 
      <lb/>
@@ -2915,6 +2919,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
 <quote rendition="tccd:blockquote">Under ordinary circumstances he would agree 
      <lb/>
@@ -3757,7 +3762,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
             </p>
 
     
-   
+   <!-- GL Comment, <p> element not needed here, just <table>. ALSO please eliminate white space within the text (all the numeral cells have space either before or after number -->
             <p><table>
 
 <row><cell>Education .................. ..................................</cell><cell rendition="simple:right"> $274,112</cell></row> 
@@ -3846,6 +3851,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+
       <quote rendition="tccd:blockquote"><p>
      That it is proper that any members of this 
      <lb/>
@@ -3961,6 +3967,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+
      <quote rendition="tccd:blockquote"><p>
      That the legislative councillors representing 
      <lb/>
@@ -4597,7 +4604,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>or infringing on those of the people ; and I 
      <lb/>think the conclusion this House and the 
      <lb/>country, as well as the other branch of the 
-     <lb/>Legislature, will arrive at, is that these te 
+     <lb/>Legislature, will arrive at, is that these te <!-- GL Comment, this is a transcription error NOT "te" should be "re" with a <lb break="no" making the whole word "resolutions" -->
      <lb/>
             
             <pb n="212" facs="final/images/Ont_Que_LC_1865-02-15_Page_0212.jpg"/>
@@ -4859,6 +4866,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> That without entering on the discussion of 
      <lb/>
@@ -4873,7 +4881,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
             <p>
      The object of this resolution was clearly 
      <lb/>
-     . not to ignore the larger project of Con<lb break="no"/>federation of all the British North American 
+     not to ignore the larger project of Con<lb break="no"/>federation of all the British North American 
      <lb/>
      Provinces, and I think I shall be able to 
      <lb/>
@@ -4906,6 +4914,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> That in the opinion of this assembly the best 
      <lb/>
@@ -4973,6 +4982,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">Mr. SHEPPARD has stated that if he could see 
      <lb/>
@@ -5095,6 +5105,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
 
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">Neither can we comprehend how the re-adjust<lb break="no"/>ment of representation could effectually prevent 
      <lb/>
@@ -5139,7 +5150,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
      say now, that representation by population 
      <lb/>
-     per se would not afford sufficient means of 
+     <!-- GL Comment, missed italics here -->per se would not afford sufficient means of 
      <lb/>
      extrication from our difficulties, and would 
      <lb/>
@@ -5159,6 +5170,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
 
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> We should be exposed to an endless round of 
      <lb/>
@@ -5195,6 +5207,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
 
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> Your committee are impressed with the con<lb break="no"/>viction that whether we consider the present needs 
      <lb/>
@@ -5254,6 +5267,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> The proposition to Federalize the Canadian 
      <lb/>
@@ -5287,7 +5301,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
             </p>
 
     
-   
+   <!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote"> The discussion now going on in Upper Canada 
      <lb/>
@@ -5344,6 +5358,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> If Lower Canada insists on maintaining the 
      <lb/>
@@ -5393,6 +5408,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
 
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">Your committee will not be expected, it is 
      <lb/>
@@ -5929,6 +5945,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
 
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">That the elective members had received a 
      <lb/>
@@ -5990,6 +6007,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">Any trust, to be obligatory in conscience, 
      <lb/>
@@ -6086,6 +6104,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">It shall be lawful for the Legislature of Canada, 
      <lb/>
@@ -6122,6 +6141,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">That it shall be lawful for the Legislature of 
      <lb/>
@@ -6273,6 +6293,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">It hath sovereign and uncontrollable authority 
      <lb/>
@@ -6285,6 +6306,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> Where a power is granted in general terms the 
      <lb/>
@@ -6300,6 +6322,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">The Constitution unavoidably deals in general 
      <lb/>
@@ -6322,6 +6345,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">No axiom is more clearly established in law 
      <lb/>
@@ -6413,7 +6437,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
      have to apologize for having detained the 
      <lb/>
-     House so long—(cries of "no,no," "go on")—-— 
+     House so long—(cries of "no,no," "go on")— 
      <lb/>
      but, before sitting down, I must refer to the 
      <lb/>
@@ -6425,6 +6449,7 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
     <quote rendition="tccd:blockquote"> That upon a matter of such great importance 
      <lb/>
@@ -6522,10 +6547,11 @@ minority of Upper Canada must not be <lb/> abandoned to the mercy of the majorit
 
     
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p><quote rendition="tccd:blockquote">
      Efforts have been made, in several cases, by the 
      <lb/>
-     state 1egislatures to relieve themselves of the res<lb break="no"/>ponsibility of their functions, by submitting statutes 
+     state <!-- GL Comment, here is one of those really pesky transcription errors, this "l" is actually a "1" please fix, also watch out for "1" as "I" -->1egislatures to relieve themselves of the res<lb break="no"/>ponsibility of their functions, by submitting statutes 
      <lb/>
      to the will of the people in their primary capacity. 
      <lb/>
@@ -7131,6 +7157,7 @@ estimate them slightly when they were com<lb break="no"/>plaining of the conduct
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p><quote rendition="tccd:blockquote"> " The true remedy !" What then is the remedy 
      <lb/>
      best adapted to deliver the province from the 

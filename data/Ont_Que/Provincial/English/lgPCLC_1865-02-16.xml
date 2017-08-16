@@ -1404,7 +1404,7 @@
      <lb/>I will read a portion of my short address to 
      <lb/>the electors. It is as follows :— 
      <lb/>
-            
+            <!-- GL Comment, above paragraph should end and next paragraph nested inside the <quote> element -->
 
     
             <cb/>
@@ -1764,6 +1764,7 @@
      <lb/>
             </p>
    
+<!-- GL Comment, <p> not needed here, just <table> -->
             <p>
     <table> 
        <row><cell></cell><cell>Miles <lb/>built</cell><cell>To Be <lb/>built.</cell></row> 
@@ -1805,7 +1806,7 @@
      <lb/>
      be nearly eaten up in expenses. [An honor<lb break="no"/>able member—There would be nothing 
      <lb/>
-     left but the hoops. (Laughter) .] It has 
+     left but the hoops. (Laughter).] It has 
      <lb/>
      been urged that under Confederation an 
      <lb/>
@@ -2572,6 +2573,7 @@
      <lb/>
             </p>
 
+<!-- GL Comment, this should be <persName ref="pers:anon1" -->
             <p>
      <persName ref="UNSPECIFIED">AN HON. MEMBER</persName>—But they are not 
      <lb/>
@@ -2788,6 +2790,7 @@
      <lb/>
             </p>
    
+<!-- GL Comment, please switch these elements around, the <p> should be nested in the <quote> element -->
             <p>
      <quote rendition="tccd:blockquote">The first selection of the members of the Legis<lb break="no"/>lative Council shall be made, except as regards 
      <lb/>
@@ -3500,7 +3503,7 @@
      <lb/>
      to pursue that course which I think myself 
      <lb/>
-     to be for the interests of the country. ( Hear, 
+     to be for the interests of the country. (Hear, 
      <lb/>
      hear.) My feeling in the first instance was 
      <lb/>
@@ -3615,7 +3618,7 @@
      <lb/>
      Downing-street or other influence may prevent 
      <lb/>
-     it. (Cries of "no, no ! ") I should like to 
+     it. (Cries of "no, no !") I should like to 
      <lb/>
      see the Pacific as the western boundary of this 
      <lb/>

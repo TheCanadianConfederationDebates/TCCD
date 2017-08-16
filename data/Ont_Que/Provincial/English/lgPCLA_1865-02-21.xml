@@ -368,7 +368,7 @@ was then adjourned. <lb/>
             <p rendition="simple:centre"> TUESDAY, <hi rendition="simple:underline">February</hi> 21, 1865. <lb/>
             </p>
 
-            <p> <persName ref="pers:LANG1">HON. SOLICITO GENERAL LANGEVIN</persName> <lb/>
+            <p> <persName ref="pers:LANG1">HON. SOLICITOR GENERAL LANGEVIN</persName> <lb/>
  —It is not without some degree of hesitation <lb/>
  that I rise to address the
 House on this <lb/>
@@ -395,6 +395,8 @@ result from <lb/>
             
             <pb n="363" facs="final/images/Ont_Que_LA_1865-02-21_Page_0363.jpg"/>
             <fw type="num">363</fw>  
+
+<!-- GL Comment, this is NOT italicized -->
             <hi rendition="simple:italic">our decision</hi>, both to ourselves and our
 pos<lb break="no"/>terity. The measure is so vast in its bear<lb break="no"/>ings, the interests affected by it are so con<lb break="no"/>siderable, that no one can be surprised at my <lb/>
 diffidence and hesitation. This question of <lb/>
@@ -414,7 +416,7 @@ which the question of
 Confederation excites <lb/>
 both in America and in Europe
 itself, and <lb/>
-how close'y the governments observe our <lb/>
+how closely the governments observe our <lb/>
 proceedings ; and this interest which
 they <lb/>
 feel and proclaim is legitimate and natural, <lb/>
@@ -906,18 +908,16 @@ perfectly comfortable ; Catholics and Protest<lb break="no"/>ants have the same 
 liberty, and they live as peacefully together <lb/>
             </p>
 
-
+<!-- GL Comment, this paragraph should continue, NO </p> and erase <p> after <pb> and <fw> -->
 
             <pb n="367" facs="final/images/Ont_Que_LA_1865-02-21_Page_0367.jpg"/>
             <fw type="num">367</fw>    
             <p>as if there was but one religion in the
 land.<lb/>
             </p>
-            <p> MR.
-<choice>
-   <sic>DUFRESN!</sic>
-   <corr><persName ref="pers:DUFR1">DUFRESNE</persName></corr>
-</choice> (Iberville)—We are <lb/>
+            <p> 
+<persName ref="pers:DUFR1">MR. DUFRESNE</persName>
+(Iberville)—We are <lb/>
 well off, just us remain so.<lb/>
             </p>
             <p><persName ref="pers:LANG1"><persName ref="pers:LANG1">HON. SOL. GEN. LANGEVIN</persName></persName>—Yes, but <lb/>
@@ -1572,7 +1572,7 @@ it, and I feel that I was perfectly justi<lb break="no"/>
 
                <pb n="372" facs="final/images/Ont_Que_LA_1865-02-21_Page_0372.jpg"/>
             <fw type="num">372</fw>  
-
+<!-- GL Comment, trans error, should be "fied" NOT "fled" -->
 fled
 in saying what I said ; but after the <lb/>
 explanations which the hon. gentleman has <lb/>
@@ -2331,12 +2331,13 @@ have gathered from an examination of the <lb/>
 official documents :— <lb/>
             </p>
             
+<!-- GL Comment, <p> NOT needed here just <table> -->
              <p> <table>
 <row><cell>Expenses other than those of the<lb/>
 legislature and of the local <lb/>
 debt of Lower Canada ...... </cell><cell rendition="simple:right">$ 997,000</cell> </row>
  
-<row><cell>Cost of legislation ........... </cell><cell rendition="simple:right">150,000 </cell></row>
+<row><cell>Cost of legislation ........... </cell><cell rendition="simple:right">150,000</cell></row>
 
 <row><cell>Interest on local debt .......... </cell><cell rendition="simple:right"><hi rendition="simple:underline">90,000</hi></cell></row>
             
@@ -2350,6 +2351,8 @@ follows, taking the present figures and without <lb/>
 adding the probable increase :— <lb/>
             </p>
 
+
+<!-- GL Comment, <p> NOT needed here just <table> -->
           <p><table>
 <row><cell>Slide dues .....................</cell><cell rendition="simple:right">$ 49,040</cell></row>
 <row><cell>Casual ......................... </cell><cell rendition="simple:right">4,000 </cell></row>
@@ -2361,30 +2364,30 @@ adding the probable increase :— <lb/>
 
 <row><cell>Cullers' fees, measuring timber. . .</cell><cell rendition="simple:right">79,960</cell></row>
             
-<row><cell>Interest on Municipal Loan Fund ..</cell><cell rendition="simple:right">114,889 </cell></row><lb/>
+<row><cell>Interest on Municipal Loan Fund ..</cell><cell rendition="simple:right">114,889</cell></row><lb/>
             
 <row><cell>Court houses. Lower Canada ..... </cell><cell rendition="simple:right">25,392 </cell></row>
             
 <row><cell>Jury and building fund, L. C ......</cell><cell rendition="simple:right">29,710</cell></row> 
             
-<row><cell>L. C. municipal fund ............ </cell><cell rendition="simple:right">38,752 </cell></row>
+<row><cell>L. C. municipal fund ............ </cell><cell rendition="simple:right">38,752</cell></row>
             
-<row><cell>Common school lands ............</cell><cell rendition="simple:right"> 128,340 </cell></row>
+<row><cell>Common school lands ............</cell><cell rendition="simple:right"> 128,340</cell></row>
             
 <row><cell>Tavern licenses applied to L. C. <lb/>municipal fund ..............</cell><cell rendition="simple:right">3,962</cell></row> 
             
-<row><cell>Crown lands ...................</cell><cell rendition="simple:right"> <hi rendition="simple:underline">205,512 </hi></cell></row>
+<row><cell>Crown lands ...................</cell><cell rendition="simple:right"> <hi rendition="simple:underline">205,512</hi></cell></row>
             
-            <row> <cell>Total revenue ......... </cell><cell rendition="simple:right">771,823 </cell></row>
+            <row> <cell>Total revenue ......... </cell><cell rendition="simple:right">771,823</cell></row>
             
-            <row><cell>80c per head of population .......</cell><cell rendition="simple:right">888,888 </cell></row>
+            <row><cell>80c per head of population .......</cell><cell rendition="simple:right">888,888</cell></row>
             
-            <row><cell></cell><cell rendition="simple:right">1,660,712 </cell></row>
+            <row><cell></cell><cell rendition="simple:right">1,660,712</cell></row>
             
             <row><cell>LESS:—Interest
 on municipal loan <lb/>
 fund, and proceeds of school <lb/>
-lands .....................</cell><cell rendition="simple:right"> <hi rendition="simple:underline">243,129 </hi></cell></row><lb/>
+lands .....................</cell><cell rendition="simple:right"> <hi rendition="simple:underline">243,129</hi></cell></row><lb/>
             
 
             <row><cell>Leaving a net revenue of... </cell><cell rendition="simple:right">$1,4l7,582</cell></row> </table></p>
@@ -3103,6 +3106,7 @@ Newfoundland, which has not yet been read <lb/>
 in the House, but which has just been pub<lb break="no"/>lished in the newspapers :— <lb/>
             </p>
 
+                                               <!-- GL Comment, this first <p> should be <p rendition="simple:right"> as seen in the document -->
             <quote rendition="tccd:blockquote"><p> ST. JOHNS, <hi rendition="simple:italic">Jan. 5th</hi>, 1865. <lb/>
             </p>
 
@@ -4436,7 +4440,7 @@ found wanting on this occasion. The whole <lb/>
      <lb/>
      honestly paid his debt; rich and poor, seigniors 
      <lb/>
-     and censitaires, advocates and pleaders, all 
+     and <!-- GL Comment, this should be italicized -->censitaires, advocates and pleaders, all 
      <lb/>
      have received their due, and the banker is 
      <lb/>
