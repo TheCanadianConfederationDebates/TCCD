@@ -1806,6 +1806,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/placeography/placeography.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>placeography_to_spreadsheet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/schemas/tccd.odd</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -1831,21 +1846,6 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/placeography/placeography.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>placeography_to_spreadsheet</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
