@@ -65,12 +65,12 @@
 <!--    First we create an index of the core documents (personography, bibliography and 
         sub-indexes).
         -->
-        <xsl:result-document href="{concat($outputFolder, '/index.html')}">
+        <xsl:result-document href="{concat($outputFolder, '/contents.html')}">
             <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
             </xsl:text>
             <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index">
                 <head>
-                    <title><xsl:value-of select="$projectTitle"/>: <xsl:value-of select="$docIndexTitle"/></title>
+                    <title><xsl:value-of select="$projectTitlePlain"/>: <xsl:value-of select="$docIndexTitlePlain"/></title>
                     
                     <xsl:sequence select="$linkedResources"/>
                 </head>
