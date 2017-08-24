@@ -459,7 +459,7 @@ so Volume 2 by implication has finished. -->
                               <desc>The Legislative Council of the Province of Canada (Ontario and Québec
               constituting a single colony).</desc>
                            </valItem>
-                           <valItem ident="lg:lgBCLCoun">
+                           <valItem ident="lg:lgBCLC">
                               <gloss>Legislative Council of British Columbia</gloss>
                               <desc>An advisory body created in 1867 to advise the governor of the 
             new BC colony.</desc>
@@ -552,6 +552,15 @@ so Volume 2 by implication has finished. -->
                            <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
                               After a persName element, we would expect to see a space or
                               some following punctuation.
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <constraintSpec ident="constraintpersnamenotnested" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:persName">
+                           <sch:assert test="not(ancestor::tei:persName)">
+                              persName elements should not be nested inside other persNames.
                            </sch:assert>
                         </sch:rule>
                      </constraint>

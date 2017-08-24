@@ -76,8 +76,8 @@
     </xd:doc>
     <xsl:template match="/">
         <xsl:variable name="outDoc">
-            <!--<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
-            </xsl:text>-->
+            <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
+</xsl:text>
             <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="a_to_z">
                 <head>
                     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

@@ -127,13 +127,26 @@
         <xd:desc>This template matches a range of different block elements. We convert them
         into HTML5 divs, distinguished by their source element name.</xd:desc>
     </xd:doc>
-    <xsl:template match="div | p | ab | fw | pb | cb | quote[@rendition='tccd:blockquote'] | lg | l">
+    <xsl:template match="div | p | ab | quote[@rendition='tccd:blockquote'] | lg | l">
         <div data-el="{local-name()}">
             <xsl:if test="self::p and matches(., '^[\s\*]+$')">
                 <xsl:attribute name="class">asterism</xsl:attribute>
             </xsl:if>
             <xsl:apply-templates select="@*|node()"/>
         </div>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>This template matches a range of different elements that we want
+        to treat as blocks, but which are often in an inline context.</xd:desc>
+    </xd:doc>
+    <xsl:template match="fw | pb | cb">
+        <span data-el="{local-name()}">
+            <xsl:if test="self::p and matches(., '^[\s\*]+$')">
+                <xsl:attribute name="class">asterism</xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates select="@*|node()"/>
+        </span>
     </xsl:template>
     
     <xsl:template match="div/head">
@@ -373,7 +386,7 @@
             entries, when it points to biographi.ca.</xd:desc>
     </xd:doc>
     <xsl:template match="ptr[@target[contains(., 'biographi.ca')]][ancestor::person]">
-        <a class="linkLogo"><xsl:apply-templates select="@*"/><img src="images/dcb.jpg" alt="{substring-before(substring-after(@target, '//'), '/')}" target="{substring-before(substring-after(@target, '//'), '/')}"/></a>
+        <a class="linkLogo" target="{substring-before(substring-after(@target, '//'), '/')}"><xsl:apply-templates select="@*"/><img src="images/dcb.jpg" alt="{substring-before(substring-after(@target, '//'), '/')}"/></a>
     </xsl:template>
     
     <!--  ####### Begin table-handling templates. #######  -->
@@ -419,14 +432,14 @@
         <xd:desc>@rows attribute because @rowspan.</xd:desc>
     </xd:doc>
     <xsl:template match="cell/@rows | row/@rows">
-        <xsl:attribute name="rowspan" select="."/>
+        <xsl:attribute name="rowspan" select="normalize-space(.)"/>
     </xsl:template>
     
     <xd:doc scope="component">
         <xd:desc>@cols attribute because @colspan.</xd:desc>
     </xd:doc>
     <xsl:template match="cell/@cols | row/@cols">
-        <xsl:attribute name="colspan" select="."/>
+        <xsl:attribute name="colspan" select="normalize-space(.)"/>
     </xsl:template>
     
     <!--  ####### End table-handling templates. #######  -->

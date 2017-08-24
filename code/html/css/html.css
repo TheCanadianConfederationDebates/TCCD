@@ -102,6 +102,12 @@ div[data-el='p'] {
 div.asterism {
   text-align: center;
 }
+/* These are physical division elements which 
+ * may appear in an inline context, but which 
+ * should cause a physical break. */
+span[data-el='fw'], span[data-el='pb'], span[data-el='cb']{
+    display: block;
+}
 /* We hide line-breaks and column-breaks by default. */
 div[data-el='cb'],
 div[data-el='lb'] {

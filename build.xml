@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project basedir="." default="all" name="Validation, Diagnostics and build">
+<project basedir="." default="all" name="Validation, Diagnostics and build" xmlns:if="ant:if"
+  xmlns:unless="ant:unless">
   
   <description>
 #####################################################################
@@ -52,6 +53,9 @@
     <format property="today" pattern="yyyy-MM-dd" locale="en,CA"/>
   </tstamp>
   
+  <!-- Location of vnu.jar. the validator for HTML5 output documents.
+       We don't store this in the repo, because it's large. -->
+  <property name="vnuDist" value="https://github.com/validator/validator/releases/download/17.9.0/vnu.jar_17.9.0.zip"/>
   
 <!-- RelaxNG file which also includes Schematron annotations. -->
   <property name="rngFile" value="data/schemas/tccd.rng"/>
@@ -124,6 +128,11 @@
     <exclude name="**/templates/*.xml"/>
   </fileset>
   
+<!-- Static HTML pages to be copied directly to the output. -->
+  <fileset id="staticHtml" dir="code/html">
+    <include name="*.html"/>
+  </fileset>
+  
 <!-- Portraits of individuals. -->
   <fileset id="portraits" dir="data/personography/portraits" includes="*.jpg"/>
   
@@ -187,7 +196,7 @@
     </java>
   </target>
   
-  <target name="validation">
+  <target name="validateXml">
     
     <antcall target="MESSAGE"><param name="msg" value="Validating XML files with RelaxNG..."/></antcall>
 
@@ -313,14 +322,14 @@
   <target name="copyWebResources">
     <antcall target="MESSAGE"><param name="msg" value="Copying resources to output folder..."/></antcall>
     <mkdir dir="${webDir}/css"/>
-    <copy file="code/css/html.css" todir="${webDir}/css"/>
+    <copy file="code/html/css/html.css" todir="${webDir}/css"/>
     <mkdir dir="${webDir}/js"/>
     <copy todir="${webDir}/js">
-      <fileset dir="code/js" includes="*.js"/>
+      <fileset dir="code/html/js" includes="*.js"/>
     </copy>
     <mkdir dir="${webDir}/images"/>
     <copy todir="${webDir}/images">
-      <fileset dir="code/images" includes="*.*"/>
+      <fileset dir="code/html/images" includes="*.*"/>
     </copy>
     <mkdir dir="${webDir}/portraits"/>
     <copy todir="${webDir}/portraits">
@@ -328,6 +337,7 @@
     </copy>
     <copy todir="${webDir}">
       <fileset refid="mapComponents"/>
+      <fileset refid="staticHtml"/>
     </copy>
   </target>
   
@@ -425,11 +435,16 @@
       <arg line="buildDate=${today}"/>
       <arg line="gitRevision=${repository.version}"/>
     </java>
-    
-    <antcall target="createLanguageSymlinks"/>
+
     <antcall target="listUnidentifiedNames"/>
     
     <antcall target="createAToZ"/>
+    
+<!--   We do validation before creating the language symlinks so that 
+       we don't chase the symlink recursion endlessly.-->
+    <antcall target="validateHtml"/>
+    
+    <antcall target="createLanguageSymlinks"/>
   </target>
   
   <target name="listUnidentifiedNames">
@@ -479,6 +494,41 @@
     </java>
   </target>
   
+  <target name="getVnu">
+    <description>
+      TARGET getVnu
+      This checks for the presence of the vnu.jar file in the ${basedir}/code/utilities
+      directory, and if it's not there, downloads a copy.
+    </description>
+    <antcall target="MESSAGE"><param name="msg" value="Checking for presence of vnu.jar..."/></antcall>
+    <property name="getVnuAlreadyExecuted" value="true" />
+    <available property="vnuAvailable" file="${basedir}/code/utilities/vnu.jar"/>
+    <echo unless:true="${vnuAvailable}" message="Downloading vnu.jar to enable validation of HTML pages..."/>
+    <get unless:true="${vnuAvailable}" src="${vnuDist}" 
+      dest="${basedir}/code/utilities" verbose="on" retries="3" usetimestamp="true"/>
+    <unzip unless:true="${vnuAvailable}" src="${basedir}/code/utilities/vnu.jar_17.9.0.zip" dest="${basedir}/code/utilities" failonemptyarchive="true"/>
+    <copy unless:true="${vnuAvailable}" file="${basedir}/code/utilities/dist/vnu.jar" todir="${basedir}/code/utilities"/>
+    <delete unless:true="${vnuAvailable}" file="${basedir}/code/utilities/vnu.jar_17.9.0.zip"/>
+    <delete unless:true="${vnuAvailable}" dir="${basedir}/code/utilities/dist"/>
+  </target>
+  
+  <target name="validateHtml" depends="getVnu">
+    <description>
+      TARGET validateHtml
+      This target validates the complete collection of XHTML5 documents 
+      comprising the output website, using the VNU validator (the same validator used by 
+      the W3C's online validation service).
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Validating the HTML pages produced in the build using the VNU validator."/>
+    <java jar="${basedir}/code/utilities/vnu.jar" failonerror="false" fork="true">
+      <arg value="--format text"/>
+      <arg value="--skip-non-html"/>
+      <arg value="--filterpattern *.html"/>
+      <arg value="${webDir}/"/>
+    </java>
+  </target>
+  
   <target name="all">
     <description>
       TARGET all
@@ -488,7 +538,7 @@
     </description>
     <antcall target="MESSAGE"><param name="msg" value="Running all the tasks in the build file."/></antcall>
     <antcall target="listFiles"/>
-    <antcall target="validation"/>
+    <antcall target="validateXml"/>
     <antcall target="diagnostics"/>
     <antcall target="metadiagnostics"/>
     <antcall target="ridingsToGeoJSON"/>

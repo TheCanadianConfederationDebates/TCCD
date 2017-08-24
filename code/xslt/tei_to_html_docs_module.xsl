@@ -43,7 +43,7 @@
             <xsl:sequence select="hcmc:message($currId)"/>
             <xsl:result-document href="{concat($outputFolder, '/', $currId, '.html')}">
                 <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
-            </xsl:text>
+</xsl:text>
                 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$currId}">
                     <xsl:apply-templates select=".">
                         <xsl:with-param name="currId" select="$currId" as="xs:string" tunnel="yes"/>
@@ -67,7 +67,7 @@
         -->
         <xsl:result-document href="{concat($outputFolder, '/contents.html')}">
             <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
-            </xsl:text>
+</xsl:text>
             <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index">
                 <head>
                     <title><xsl:value-of select="$projectTitlePlain"/>: <xsl:value-of select="$docIndexTitlePlain"/></title>
@@ -114,6 +114,8 @@
             <xsl:variable name="leg" select="current-grouping-key()"/>
             <xsl:variable name="legTitle" select="hcmc:getTaxonomyVal(current-grouping-key())"/>
             <xsl:result-document href="{concat($outputFolder, '/', substring-after($leg, 'lg:'))}.html">
+                <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
+</xsl:text>
                 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index_{$leg}">
                     <head>
                         <title><xsl:value-of select="$docIndexTitle"/>: <xsl:value-of select="$legTitle"/></title>
