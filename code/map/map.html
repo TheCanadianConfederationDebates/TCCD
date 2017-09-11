@@ -30,14 +30,16 @@
             var fillRiding = new ol.style.Fill({color: 'rgba(255, 204, 51, 0.5)'});
             var iconFedRiding = new ol.style.Icon({
                                                     src: 'js/placemarkRed.png',
+                                                    anchor: [0,0.5],
                                                     size: [25,25]
                                                   });
             var iconProvRiding = new ol.style.Icon({
                                                     src: 'js/placemarkBlue.png',
+                                                    anchor: [1,0.5],
                                                     size: [25,25]
                                                   });
-            var strokePostalCode = new ol.style.Stroke({color: '#ff0000', width: 2});
-            var fillPostalCode = new ol.style.Fill({color: 'rgba(255, 0, 0, 0.2)'});
+            var strokePostalCode = new ol.style.Stroke({color: '#00ff00', width: 2});
+            var fillPostalCode = new ol.style.Fill({color: 'rgba(0, 255, 0, 0.2)'});
             
             var ridingStyle = new ol.style.Style({
               image: new ol.style.Circle({
@@ -164,6 +166,12 @@
                 maxZoom: 16,
                 minZoom: 4
               })
+            });
+            
+            map.on('pointermove', function(e){
+              var pixel = map.getEventPixel(e.originalEvent);
+              var hit = map.hasFeatureAtPixel(pixel);
+              map.getViewport().style.cursor = hit ? 'pointer' : '';
             });
             
             var mapPopup = null;
