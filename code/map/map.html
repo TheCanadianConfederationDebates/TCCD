@@ -20,7 +20,7 @@
     </head>
     <body>
         <div id="map" class="map"></div>
-        <script type="text/javascript">
+      <script type="text/javascript">
             //<![CDATA[
 
             <!--
@@ -28,9 +28,16 @@
             //Create default style for riding points.
             var strokeRiding = new ol.style.Stroke({color: 'black', width: 2});
             var fillRiding = new ol.style.Fill({color: 'rgba(255, 204, 51, 0.5)'});
+            var iconFedRiding = new ol.style.Icon({
+                                                    src: 'js/placemarkRed.png',
+                                                    size: [25,25]
+                                                  });
+            var iconProvRiding = new ol.style.Icon({
+                                                    src: 'js/placemarkBlue.png',
+                                                    size: [25,25]
+                                                  });
             var strokePostalCode = new ol.style.Stroke({color: '#ff0000', width: 2});
             var fillPostalCode = new ol.style.Fill({color: 'rgba(255, 0, 0, 0.2)'});
-            
             
             var ridingStyle = new ol.style.Style({
               image: new ol.style.Circle({
@@ -39,6 +46,19 @@
                 radius: 7
               })
             });
+            
+            var getRidingStyle = function (feat, resolution){
+              if (feat.getProperties().federal === true){
+                return new ol.style.Style({
+                  image: iconFedRiding
+                });
+              }
+              else {
+                return new ol.style.Style({
+                  image: iconProvRiding
+                });
+              }
+            };
             
             var getPostalCodeStyle = function (feat, resolution){
               return new ol.style.Style({
@@ -96,7 +116,8 @@
             
             var layerRidings = new ol.layer.Vector({
               source: srcRidings,
-              style: ridingStyle
+              /* style: ridingStyle */
+              style: getRidingStyle
             });
             
             //Create another unsourced layer for the user-entered postal codes.
