@@ -325,7 +325,7 @@
     <copy file="code/html/css/html.css" todir="${webDir}/css"/>
     <mkdir dir="${webDir}/js"/>
     <copy todir="${webDir}/js">
-      <fileset dir="code/html/js" includes="*.js"/>
+      <fileset dir="code/html/js" includes="*.js *.png"/>
     </copy>
     <mkdir dir="${webDir}/images"/>
     <copy todir="${webDir}/images">
