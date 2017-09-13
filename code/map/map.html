@@ -28,6 +28,10 @@
             //Create default style for riding points.
             var strokeRiding = new ol.style.Stroke({color: 'black', width: 2});
             var fillRiding = new ol.style.Fill({color: 'rgba(255, 204, 51, 0.5)'});
+            /* Federal riding icon is offset to the left; provincial is offset to 
+               the right; and treaty is centred. This is so that where two types
+               of location have the same point, they don't appear on top of each
+               other. */
             var iconFedRiding = new ol.style.Icon({
                                                     src: 'js/placemarkRed.png',
                                                     anchor: [0,0.5],
@@ -36,6 +40,11 @@
             var iconProvRiding = new ol.style.Icon({
                                                     src: 'js/placemarkBlue.png',
                                                     anchor: [1,0.5],
+                                                    size: [25,25]
+                                                  });
+            var iconTreatyRiding = new ol.style.Icon({
+                                                    src: 'js/placemarkGreen.png',
+                                                    anchor: [0.5,0.5],
                                                     size: [25,25]
                                                   });
             var strokePostalCode = new ol.style.Stroke({color: '#00ff00', width: 2});
@@ -50,16 +59,23 @@
             });
             
             var getRidingStyle = function (feat, resolution){
-              if (feat.getProperties().federal === true){
+              if (feat.getProperties().type === 'federal'){
                 return new ol.style.Style({
                   image: iconFedRiding
                 });
               }
-              else {
-                return new ol.style.Style({
-                  image: iconProvRiding
-                });
+              else{
+                if (feat.getProperties().type === 'treaty'){
+                  return new ol.style.Style({
+                    image: iconTreatyRiding
+                  });
+                }else {
+                  return new ol.style.Style({
+                    image: iconProvRiding
+                  });
+                }
               }
+              
             };
             
             var getPostalCodeStyle = function (feat, resolution){

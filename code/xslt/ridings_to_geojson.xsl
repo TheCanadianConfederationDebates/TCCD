@@ -44,7 +44,7 @@
         "name": "</xsl:text><xsl:value-of select="hcmc:escapeForJson(placeName/district)"/><xsl:text>",
         "notBefore": "</xsl:text><xsl:value-of select="location/@notBefore"/><xsl:text>",
         "notAfter": "</xsl:text><xsl:value-of select="location/@notAfter"/><xsl:text>",
-        "federal": </xsl:text><xsl:value-of select="if (@type='federal') then 'true' else 'false'"/><xsl:text>
+        "type": "</xsl:text><xsl:value-of select="@type"/><xsl:text>"
         }
       }</xsl:text>
             <xsl:if test="position() lt last()"><xsl:text>,</xsl:text></xsl:if>
