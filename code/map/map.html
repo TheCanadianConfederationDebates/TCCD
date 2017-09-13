@@ -205,19 +205,6 @@
               })
             });
             
-            //NOW OBSOLETE.
-            function featureToHtml(feature){
-              var props = feature.getProperties();
-              var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
-              ret += '<span class="placeName" title="' + feature.getId() + '">' + props.name + '</span><br/>';
-              ret += '(' + props.notBefore;
-              if (props.notAfter !== ''){ret += '-' + props.notAfter;}
-              ret += ')<br/>';
-              if (props.federal == true){ret += 'Fed.';}
-              else{ret += 'Non-fed.';}
-              return ret;
-            }
-            
             function reqLoad(){
               //var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
               var ret = '<div class="popupCloser" onclick="mapPopup.style.display = \'none\';">✕</div>';
