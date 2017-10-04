@@ -91,6 +91,17 @@
                                     <a href="{substring-after(current-grouping-key(), 'lg:')}.html">
                                         <xsl:sequence select="hcmc:getTaxonomyVal(current-grouping-key())"/>
                                     </a>
+<!--                     We also need to break out the House of Commons documents into smaller sets by province.  
+                         We do this by making use of the taxonomy of legislature topics. -->
+                                    <xsl:if test="current-grouping-key() = 'lg:lgHC'">
+                                        <ul>
+                                            <xsl:for-each select="$projectTaxonomies//taxonomy[@xml:id='tccdLegislatureTopics']/category[starts-with(@xml:id, 'lgHC')]">
+                                                <xsl:sort select="gloss"/>
+                                                <li id="{@xml:id}"><a href="{@xml:id}.html"><xsl:value-of select="gloss"/></a></li>
+                                            </xsl:for-each>
+                                        </ul>
+                                    </xsl:if>
+                                    
                                 </li>
                             
                             </xsl:for-each-group>          
@@ -149,6 +160,49 @@
             </xsl:result-document>
             
         </xsl:for-each-group>
+        
+<!--     And now we create pages for each of the province topics in the House of Commons debates.   -->
+        
+        <xsl:for-each select="$projectTaxonomies//taxonomy[@xml:id='tccdLegislatureTopics']/category[starts-with(@xml:id, 'lgHC')]">
+            
+            <xsl:variable name="indexTitle" select="gloss"/>
+            <xsl:variable name="catId" select="@xml:id"/>
+            <xsl:result-document href="{concat($outputFolder, '/', $catId)}.html">
+                <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
+</xsl:text>
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index_{$catId}">
+                    <head>
+                        <title><xsl:value-of select="$docIndexTitle"/>: <xsl:value-of select="gloss"/></title>
+                        
+                        <xsl:sequence select="$linkedResources"/>
+                    </head>
+                    
+                    <body>
+                        <xsl:call-template name="header"/>
+                        <xsl:call-template name="nav"/>
+                        
+                        <div class="body">
+                            
+                            <h2><xsl:sequence select="$docIndexTitle"/>: <xsl:value-of select="gloss"/></h2>
+                            
+                            <ul>
+                                <xsl:for-each select="$teiDocs/TEI[starts-with(@xml:id, $catId)]">
+                                    <xsl:sort select="tokenize(@xml:id, '_')[last()]"/>
+                                    <li>
+                                        <a href="{@xml:id}.html">
+                                            <xsl:apply-templates select="//titleStmt/title[1]"/>
+                                        </a>
+                                    </li>
+                                </xsl:for-each>          
+                            </ul>
+                            
+                        </div>
+                        <xsl:call-template name="footer"/>
+                    </body>
+                </html>
+            </xsl:result-document>
+            
+        </xsl:for-each>
         
     </xsl:template>
 
