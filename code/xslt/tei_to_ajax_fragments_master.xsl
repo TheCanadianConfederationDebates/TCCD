@@ -120,7 +120,7 @@
             <xsl:result-document href="{concat($outputFolder, '/ajax/', @xml:id, '.xml')}">
                 <xsl:variable name="currId" select="@xml:id"/>
                 <!-- First we need the list of people associated with that place. -->
-                <xsl:variable name="plcLinkRegEx" select="concat('\s*plc:', $currId, '\s*')"/>
+                <xsl:variable name="plcLinkRegEx" select="concat('(^|\s+)*plc:', $currId, '(\s+|$)')"/>
                 <xsl:variable name="peopleIds" select="$teiDocs/TEI[@xml:id='personography']//person[descendant::affiliation[matches(@ref, $plcLinkRegEx)]]/@xml:id"/>
                 <xsl:message>Processing <xsl:value-of select="$currId"/></xsl:message>
                 <div id="{$currId}">
