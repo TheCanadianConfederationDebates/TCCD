@@ -147,7 +147,31 @@
               style: getPostalCodeStyle
             });
             
+            //Standard OSM layer.
+            var layerOSM = new ol.layer.Tile({
+              source: new ol.source.OSM({
+                numZoomLevels: 20,
+                maxZoom: 19
+              })
+            });
+            
             var key = APIKey;
+            
+            //MapBox layer used for development only.
+            var layerMapBox = new ol.layer.VectorTile({
+              source: new ol.source.VectorTile({
+                crossOrigin: 'anonymous',
+                attributions: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> ' +
+                  '© <a href="https://www.openstreetmap.org/copyright">' +
+                  'OpenStreetMap contributors</a>',
+                format: new ol.format.MVT(),
+                tileGrid: ol.tilegrid.createXYZ({maxZoom: 17}),
+                tilePixelRatio: 16,
+                url: 'https://{a-d}.tiles.mapbox.com/v4/mapbox.mapbox-streets-v6/' +
+                    '{z}/{x}/{y}.vector.pbf?access_token=' + key
+              }),
+              style: createMapboxStreetsV6Style()
+            });
             
             //Longitudinal centre of Canada per https://en.wikipedia.org/wiki/Centre_of_Canada;
             //latitudinal adjusted by me.
@@ -156,20 +180,7 @@
       
             var map = new ol.Map({
               layers: [
-                new ol.layer.VectorTile({
-                  source: new ol.source.VectorTile({
-                    crossOrigin: 'anonymous',
-                    attributions: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> ' +
-                      '© <a href="https://www.openstreetmap.org/copyright">' +
-                      'OpenStreetMap contributors</a>',
-                    format: new ol.format.MVT(),
-                    tileGrid: ol.tilegrid.createXYZ({maxZoom: 17}),
-                    tilePixelRatio: 16,
-                    url: 'https://{a-d}.tiles.mapbox.com/v4/mapbox.mapbox-streets-v6/' +
-                        '{z}/{x}/{y}.vector.pbf?access_token=' + key
-                  }),
-                  style: createMapboxStreetsV6Style()
-                }),
+                layerOSM,
                 layerRidings,
                 layerPostalCodes
               ],
