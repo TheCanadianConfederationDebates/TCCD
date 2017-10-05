@@ -485,9 +485,8 @@
     </xd:doc>
     <xsl:template name="header">
         <header>
+<!--  This switcher will be filled in later when the language versions are created.          -->
             <div class="langSwitcher">
-                <a href="javascript:switchLang('en')">EN</a>
-                <a href="javascript:switchLang('fr')">FR</a>
             </div>
             <a href="index.html">
                 <img lang="en" src="images/eng-logo.svg" alt="{$projectTitle/xh:span[@lang='en']}" class="siteLogo"/>

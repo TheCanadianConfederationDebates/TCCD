@@ -46,7 +46,12 @@
     <xd:doc scope="component">
         <xd:desc>The complete set of HTML documents found in the output folder.</xd:desc>
     </xd:doc>
-    <xsl:variable name="htmlDocs" select="collection(concat($outputFolder, '/?select=*.html;recurse=yes'))"/>
+    <xsl:variable name="htmlDocs" select="collection(concat($outputFolder, '/?select=*.html;recurse=no'))"/>
+    
+    <xd:doc scope="component">
+        <xd:desc>The complete set of AJAX fragments found in the output folder/ajax.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="ajaxDocs" select="collection(concat($outputFolder, '/ajax/?select=*.xml;recurse=no'))"/>
     
     <xd:doc scope="component">
         <xd:desc>Output is XHTML5; doctype is handled with hard-coded text.</xd:desc>
@@ -63,47 +68,110 @@
     <xsl:template match="/">
         <xsl:choose>
             <xsl:when test="html">
+                <xsl:message>Processing a single input document.</xsl:message>
 <!-- We have a single input document. -->
                 <xsl:variable name="docId" select="html/@id"/>
 <!-- We process all docs in English mode if that's selected (en or both) and as long as they're not 
      explicitly French documents. -->
-                <xsl:if test="$targetLang = ('en', 'both') and not(matches(@id, '_fr_'))">
-                    <xsl:result-document href="{concat($outputFolder, '/en/', $docId, '.html')}">
-                        <xsl:apply-templates select="html" mode="en"/>
+                <xsl:if test="$targetLang = ('en', 'both') and not(matches(html/@id, '_fr_'))">
+                    <xsl:variable name="outputDoc" select="concat($outputFolder, '/en/', $docId, '.html')"/>
+                    <xsl:message>Writing to <xsl:value-of select="$outputDoc"/>.</xsl:message>
+                    <xsl:result-document href="{$outputDoc}">
+                        <xsl:apply-templates select="html" mode="en">
+                            <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+                        </xsl:apply-templates>
                     </xsl:result-document>
                 </xsl:if>
 <!-- We process all docs in French mode if that's selected (fr or both) and there's no matching French
      document. -->
-                <xsl:if test="$targetLang = ('fr', 'both') and not($htmlDocs//html[@id/replace(., '_fr_', '') = $docId])">
-                    <xsl:result-document href="{concat($outputFolder, '/fr/', $docId, '.html')}">
-                        <xsl:apply-templates select="html" mode="fr"/>
+                <xsl:if test="$targetLang = ('fr', 'both') and not($htmlDocs//html[@id[not(.=$docId)]/replace(., '_fr_', '') = $docId])"><xsl:variable name="outputDoc" select="concat($outputFolder, '/fr/', $docId, '.html')"/>
+                    <xsl:message>Writing to <xsl:value-of select="$outputDoc"/>.</xsl:message>
+                    <xsl:result-document href="{$outputDoc}">
+                        <xsl:apply-templates select="html" mode="fr">
+                            <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+                        </xsl:apply-templates>
                     </xsl:result-document>
                 </xsl:if>
             </xsl:when>
             <xsl:otherwise>
 <!-- The input document is this file itself, therefore we process everything. -->
-                
+                <xsl:for-each select="$htmlDocs/html">
+                    <xsl:variable name="docId" select="@id"/>
+                    <!-- We process all docs in English mode if that's selected (en or both) and as long as they're not 
+     explicitly French documents. -->
+                    <xsl:if test="$targetLang = ('en', 'both') and not(matches(@id, '_fr_'))">
+                        <xsl:result-document href="{concat($outputFolder, '/en/', $docId, '.html')}">
+                            <xsl:apply-templates select="." mode="en">
+                                <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+                            </xsl:apply-templates>
+                        </xsl:result-document>
+                    </xsl:if>
+                    <!-- We process all docs in French mode if that's selected (fr or both) and there's no matching French
+     document. -->
+                    <xsl:if test="$targetLang = ('fr', 'both') and not($htmlDocs//html[@id[not(.=$docId)]/replace(., '_fr_', '') = $docId])">
+                        <xsl:result-document href="{concat($outputFolder, '/fr/', $docId, '.html')}">
+                            <xsl:apply-templates select="." mode="fr">
+                                <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+                            </xsl:apply-templates>
+                        </xsl:result-document>
+                    </xsl:if>
+                </xsl:for-each>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+
     
     <xd:doc scope="component">
         <xd:desc>Mostly we're just copying, so this is the default identity template.</xd:desc>
     </xd:doc>
-    <xsl:template match="*|node()" priority="-1" mode="#all">
+    <xsl:template match="node()|@*" priority="-1" mode="#all">
+        <xsl:param name="docId" tunnel="yes"/>
         <xsl:copy>
-            <xsl:apply-templates select="@*|node()" mode="#current"/>
+            <xsl:apply-templates select="@*|node()" mode="#current">
+                <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+            </xsl:apply-templates>
         </xsl:copy>
     </xsl:template>
     
     <xd:doc scope="component">
         <xd:desc>Suppress English stuff if we're in French.</xd:desc>
     </xd:doc>
-    <xsl:template match="*[@lang='en']" mode="fr"/>
+    <xsl:template match="*[not(self::html)][@lang='en']" mode="fr"/>
        
     <xd:doc scope="component">
         <xd:desc>Suppress French stuff if we're in English.</xd:desc>
     </xd:doc>
-    <xsl:template match="*[@lang='fr']" mode="en"/>
+    <xsl:template match="*[not(self::html)][@lang='fr']" mode="en"/>
     
+    <xd:doc scope="component">
+        <xd:desc>English documents link to the best French equivalent.
+        <ref name="docId">docId</ref> is the root id of the document
+        being processed.</xd:desc>
+    </xd:doc>
+    <xsl:template match="div[@class='langSwitcher']" mode="en">
+        <xsl:param name="docId" tunnel="yes"/>
+        <xsl:copy>
+            <xsl:apply-templates select="@*" mode="#current"/>
+            <a href="{if ($htmlDocs/html[replace(@id, '_fr_', '') = $docId]) then concat('../fr/', $htmlDocs//html[replace(@id, '_fr_', '') = $docId][1]/@id, '.html') else concat('../fr/', $docId, '.html')}">FR</a>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>French documents link to the best English equivalent.</xd:desc>
+    </xd:doc>    
+    <xsl:template match="div[@class='langSwitcher']" mode="fr">
+        <xsl:param name="docId" tunnel="yes"/>
+        <xsl:variable name="enDocId" select="replace($docId, '_fr_', '')"/>
+        <xsl:copy>
+            <xsl:apply-templates select="@*" mode="#current"/>
+            <a href="{concat('../en/', $enDocId, '.html')}">EN</a>
+        </xsl:copy>
+    </xsl:template> 
+    
+    <xd:doc scope="component">
+        <xd:desc>All attributes with local links to resources need to be tweaked.</xd:desc>
+    </xd:doc>
+    <xsl:template match="img/@src[not(contains(., ':'))] | link/@href | script/@src" mode="#all">
+        <xsl:attribute name="{local-name()}" select="concat('../', .)"/>
+    </xsl:template>
 </xsl:stylesheet>
