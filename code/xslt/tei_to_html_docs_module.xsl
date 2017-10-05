@@ -68,7 +68,7 @@
         <xsl:result-document href="{concat($outputFolder, '/contents.html')}">
             <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
-            <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index">
+            <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="contents">
                 <head>
                     <title><xsl:value-of select="$projectTitlePlain"/>: <xsl:value-of select="$docIndexTitlePlain"/></title>
                     
