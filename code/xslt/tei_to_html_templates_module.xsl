@@ -283,6 +283,14 @@
     </xsl:template>
     
     <xd:doc scope="component">
+        <xd:desc>The person/state element is a bit unpredictable in its usage 
+        at the moment; we'll just output it as a p for now.</xd:desc>
+    </xd:doc>
+    <xsl:template match="person/state">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+        
+    <xd:doc scope="component">
         <xd:desc>We process the attributes of affiliation elements into actual output.</xd:desc>
     </xd:doc>
     <xsl:template match="affiliation/@when">
