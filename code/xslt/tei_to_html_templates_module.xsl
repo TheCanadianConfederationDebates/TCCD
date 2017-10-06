@@ -181,6 +181,14 @@
     </xsl:template>
     
     <xd:doc scope="component">
+        <xd:desc>Sometimes persNames are added because they don't actually appear on 
+        the original printed page. In this case, we add square brackets.</xd:desc>
+    </xd:doc>
+    <xsl:template match="add">
+        <span class="editorialAddition"><xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text></span>
+    </xsl:template>
+    
+    <xd:doc scope="component">
         <xd:desc>Sometimes commas are included in names, and sometimes not.
                  Might as well allow for this graciously, although we 
                  could constrain it with Schematron.</xd:desc>
