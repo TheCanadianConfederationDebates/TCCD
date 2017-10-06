@@ -200,7 +200,7 @@
     </xd:doc>    
     <xsl:template match="div[@class='langSwitcher']" mode="fr">
         <xsl:param name="docId" tunnel="yes"/>
-        <xsl:variable name="enDocId" select="replace($docId, '_fr_', '')"/>
+        <xsl:variable name="enDocId" select="replace($docId, '_fr_', '_')"/>
         <xsl:copy>
             <xsl:apply-templates select="@*" mode="#current"/>
             <a href="{concat('../en/', $enDocId, '.html')}">EN</a>
