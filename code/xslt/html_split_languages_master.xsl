@@ -191,7 +191,7 @@
         <xsl:param name="docId" tunnel="yes"/>
         <xsl:copy>
             <xsl:apply-templates select="@*" mode="#current"/>
-            <a href="{if ($docId = $engDocsWithFrenchParallels) then concat('../fr/', $htmlDocs[1]/html[replace(@id, '_fr_', '_') = $docId][1]/@id, '.html') else concat('../fr/', $docId, '.html')}">FR</a>
+            <a href="{if ($docId = $engDocsWithFrenchParallels) then concat('../fr/', replace($docId, '_(\d\d\d\d-)', '_fr_$1'), '.html') else concat('../fr/', $docId, '.html')}">FR</a>
         </xsl:copy>
     </xsl:template>
     

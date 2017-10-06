@@ -84,7 +84,7 @@
                         <h2><xsl:sequence select="$docIndexTitle"/></h2>
                         
                         <ul>
-                            <li><a href="canadaMap.html">Map</a></li>
+                            <li><a href="canadaMap.html"><span lang="en">Map</span> <span lang="fr">Carte</span></a></li>
                             <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'bibliography', 'placeography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
                                 <xsl:sort select="hcmc:getTaxonomyVal(current-grouping-key())"/>
                                 <li>
