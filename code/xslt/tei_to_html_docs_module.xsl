@@ -170,7 +170,7 @@
             <xsl:result-document href="{concat($outputFolder, '/', $catId)}.html">
                 <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
-                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index_{$catId}">
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$catId}">
                     <head>
                         <title><xsl:value-of select="$docIndexTitle"/>: <xsl:value-of select="gloss"/></title>
                         
