@@ -127,6 +127,20 @@
                         </xsl:result-document>
                     </xsl:if>
                 </xsl:for-each>
+                
+<!--      Now the AJAX documents.          -->
+                <xsl:for-each select="$ajaxDocs">
+                    
+                    <xsl:variable name="enOutputDoc" select="concat($outputFolder, '/en/ajax/', tokenize(document-uri(.), '/')[last()])"/>
+                    <xsl:result-document href="{$enOutputDoc}" method="xml" encoding="UTF8">
+                        <xsl:apply-templates mode="en"/>
+                    </xsl:result-document>
+                    
+                    <xsl:variable name="frOutputDoc" select="concat($outputFolder, '/fr/ajax/', tokenize(document-uri(.), '/')[last()])"/>
+                    <xsl:result-document href="{$frOutputDoc}" method="xml" encoding="UTF8">
+                        <xsl:apply-templates mode="fr"/>
+                    </xsl:result-document>
+                </xsl:for-each>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -191,5 +205,13 @@
     </xd:doc>
     <xsl:template match="html/@id[. = 'home']" mode="#all">
         <xsl:attribute name="id" select="'index'"/>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The infoHeader in the popup has a background graphic with an image in it.
+        The URL needs to be tweaked.</xd:desc>
+    </xd:doc>
+    <xsl:template match="div[@id = 'infoHeader']/@style[contains(., 'portraits')]" mode="#all">
+        <xsl:attribute name="style" select="replace(., 'portraits', '../portraits')"/>
     </xsl:template>
 </xsl:stylesheet>
