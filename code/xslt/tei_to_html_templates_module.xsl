@@ -264,7 +264,7 @@
     <xsl:template match="person/affiliation[not(preceding-sibling::affiliation)]">
         <ul>
             <li>
-                <a href="map.html?place={replace(normalize-space(@ref), '^plc:', '')}"><xsl:apply-templates select="node()"/></a>
+                <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}"><xsl:apply-templates select="node()"/></a>
                 <xsl:apply-templates select="@*"/>
             </li>
             <xsl:apply-templates select="following-sibling::affiliation">
@@ -276,7 +276,7 @@
         <xsl:param name="inList" select="false()" tunnel="yes"/>
         <xsl:if test="$inList = true()">
             <li>
-                <a href="map.html?place={replace(normalize-space(@ref), '^plc:', '')}"><xsl:apply-templates select="node()"/></a>
+                <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}"><xsl:apply-templates select="node()"/></a>
                 <xsl:apply-templates select="@*"/>
             </li>
         </xsl:if>
@@ -320,7 +320,7 @@
     <xsl:template match="listPlace/place/location">
         <span class="{local-name()}">
             <xsl:if test="string-length(normalize-space(geo)) gt 0">
-            <a href="map.html?place={ancestor::place[1]/@xml:id}"><xsl:value-of select="geo"/></a><xsl:text> </xsl:text>
+                <a href="canadaMap.html?place={ancestor::place[1]/@xml:id}"><xsl:value-of select="geo"/></a><xsl:text> </xsl:text>
             </xsl:if>
             <xsl:choose>
                 <xsl:when test="@notBefore and @notAfter and (@notAfter ne @notBefore)">

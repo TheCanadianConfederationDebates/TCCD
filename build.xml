@@ -341,7 +341,7 @@
     </copy>
   </target>
   
-  <target name="createLanguageSymlinks">
+<!--  <target name="createLanguageSymlinks">
     <description>
       TARGET createLanguageSymlinks
       This target creates two symlinks in the output html folder pointing
@@ -351,7 +351,7 @@
     <antcall target="MESSAGE"><param name="msg" value="Creating symbolic links to support multilingual interface..."/></antcall>
     <symlink link="${webDir}/en" resource="."/>
     <symlink link="${webDir}/fr" resource="."/>
-  </target>
+  </target>-->
   
   <target name="rsyncWebsite">
     <description>
@@ -413,9 +413,7 @@
     
 <!--  First remove the target.  -->
     <antcall target="MESSAGE"><param name="msg" value="Removing original content..."/></antcall>
-<!--  First we delete any symlinks.  -->
-    <symlink link="${webDir}/en" action="delete"/>
-    <symlink link="${webDir}/fr" action="delete"/>
+
     <delete dir="${webDir}"/>
     <mkdir dir="${webDir}"/>
 
@@ -440,11 +438,56 @@
     
     <antcall target="createAToZ"/>
     
-<!--   We do validation before creating the language symlinks so that 
-       we don't chase the symlink recursion endlessly.-->
+<!--   Call the translation thing.  -->
+    <antcall target="splitLanguages"/>
+    
+<!--   Delete the original files. -->
+    <!--<antcall target="deleteMixedLanguageHtml"/>-->
+    
+<!--   Validate all the HTML.-->
     <antcall target="validateHtml"/>
     
-    <antcall target="createLanguageSymlinks"/>
+    <!--<antcall target="createLanguageSymlinks"/>-->
+  </target>
+  
+  <target name="splitLanguages">
+    <description>
+      TARGET splitLanguages
+    This takes the already-created bilingual set of HTML pages and creates
+    from them an English-only set (in html/en) and a French-only set 
+    (in html/fr).
+    </description>
+    <!--   Create language subfolders. -->
+    
+    <antcall target="MESSAGE"><param name="msg" value="Creating English and French web pages..."/></antcall>
+    <delete dir="${webDir}/en"/>
+    <delete dir="${webDir}/fr"/>
+    <mkdir dir="${webDir}/en"/>
+    <mkdir dir="${webDir}/fr"/>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:html_split_languages_master.xsl"/>
+      <arg value="-xsl:html_split_languages_master.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg line="outputFolder=${webDir}"/>
+      <arg line="buildDate=${today}"/>
+      <arg line="gitRevision=${repository.version}"/>
+    </java>
+  </target>
+  
+  <target name="deleteMixedLanguageHtml">
+    <description>
+      TARGET deleteMixedLanguageHtml
+      This task simply deletes the original HTML files which are in the
+      root of the output directory. This is done after they have been 
+      split out to create the separate language versions.
+    </description>
+    
+    <antcall target="MESSAGE"><param name="msg" value="Deleting the original mixed-language pages..."/></antcall>
+    <delete dir="${webDir}">
+      <include name="*.html"/>
+      <exclude name="index.html"/>
+    </delete>
+    <delete dir="${webDir}/ajax"/>
   </target>
   
   <target name="listUnidentifiedNames">

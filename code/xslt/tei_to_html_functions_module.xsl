@@ -34,15 +34,24 @@
     
     <xd:doc scope="component">
         <xd:desc>This function retrieves the canonical name of an entity such
-            as a legislature from the project ODD file. 
-            NOTE: THIS NEEDS TO BE IMPROVED TO HANDLE
-            FRENCH NAMES WHEN WE HAVE THEM.</xd:desc>
+            as a legislature from the project ODD file. </xd:desc>
     </xd:doc>
     <xsl:function name="hcmc:getTaxonomyVal" as="node()*">
         <xsl:param as="xs:string" name="legCode"/>
         <xsl:variable name="valItem" select="$projectOdd//valItem[@ident=$legCode]"/>
         <span title="{$valItem/desc}"><xsl:value-of select="$valItem/gloss"/></span>
     </xsl:function>
+    
+    <xd:doc scope="component">
+        <xd:desc>This function retrieves the subelements in the 
+            canonical name of a legislature; they can then be
+            further processed. </xd:desc>
+    </xd:doc>
+    <xsl:function name="hcmc:getTaxonomyGloss" as="node()*">
+        <xsl:param as="xs:string" name="legCode"/>
+        <xsl:variable name="valItem" select="$projectOdd//valItem[@ident=$legCode]"/>
+        <xsl:sequence select="$valItem/gloss/node()"/>
+    </xsl:function>    
     
     <xd:doc scope="component">
         <xd:desc>This function is designed to combine two language spans

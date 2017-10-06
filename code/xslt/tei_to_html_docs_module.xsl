@@ -84,7 +84,7 @@
                         <h2><xsl:sequence select="$docIndexTitle"/></h2>
                         
                         <ul>
-                            <li><a href="map.html">Map</a></li>
+                            <li><a href="canadaMap.html">Map</a></li>
                             <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'bibliography', 'placeography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
                                 <xsl:sort select="hcmc:getTaxonomyVal(current-grouping-key())"/>
                                 <li>
@@ -97,7 +97,7 @@
                                         <ul>
                                             <xsl:for-each select="$projectTaxonomies//taxonomy[@xml:id='tccdLegislatureTopics']/category[starts-with(@xml:id, 'lgHC')]">
                                                 <xsl:sort select="gloss"/>
-                                                <li id="{@xml:id}"><a href="{@xml:id}.html"><xsl:value-of select="gloss"/></a></li>
+                                                <li id="{@xml:id}"><a href="{@xml:id}.html"><xsl:apply-templates select="gloss"/></a></li>
                                             </xsl:for-each>
                                         </ul>
                                     </xsl:if>
@@ -127,7 +127,7 @@
             <xsl:result-document href="{concat($outputFolder, '/', substring-after($leg, 'lg:'))}.html">
                 <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
-                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="index_{$leg}">
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{substring-after($leg, 'lg:')}">
                     <head>
                         <title><xsl:value-of select="$docIndexTitle"/>: <xsl:value-of select="$legTitle"/></title>
                         
@@ -140,9 +140,9 @@
                         
                         <div class="body">
                             
-                            <h2><xsl:sequence select="$docIndexTitle"/>: <xsl:value-of select="$legTitle"/></h2>
+                            <h2><xsl:sequence select="$docIndexTitle"/>: <xsl:apply-templates select="hcmc:getTaxonomyGloss(current-grouping-key())"/></h2>
                             
-                            <ul>
+                            <ul class="docList">
                                 <xsl:for-each select="$teiDocs/TEI[//titleStmt/title/name[@type='legislature']/@ref = $leg]">
                                     <xsl:sort select="tokenize(@xml:id, '_')[last()]"/>
                                     <li>

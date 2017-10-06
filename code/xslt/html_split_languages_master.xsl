@@ -54,6 +54,17 @@
     <xsl:variable name="ajaxDocs" select="collection(concat($outputFolder, '/ajax/?select=*.xml;recurse=no'))"/>
     
     <xd:doc scope="component">
+        <xd:desc>A handy list of the ids of all English docs which have a French parallel.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="engDocsWithFrenchParallels" as="xs:string*">
+        <xsl:for-each select="$htmlDocs/html/@id[matches(., '_fr_')]">
+            <xsl:variable name="enId" select="replace(., '_fr_', '_')"/>
+            <!--<xsl:message>Eng id = <xsl:value-of select="$enId"/></xsl:message>-->
+            <xsl:if test="$htmlDocs/html[@id=$enId]"><xsl:value-of select="$enId"/></xsl:if>
+        </xsl:for-each>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
         <xd:desc>Output is XHTML5; doctype is handled with hard-coded text.</xd:desc>
     </xd:doc>
     <xsl:output method="xhtml" encoding="UTF-8" indent="yes" normalization-form="NFC"
@@ -66,6 +77,8 @@
                  set of HTML files will be processed.</xd:desc>
     </xd:doc>
     <xsl:template match="/">
+        <xsl:message>English documents with French parallel documents:
+        <xsl:value-of select="string-join($engDocsWithFrenchParallels, '&#x0a;')"/></xsl:message>
         <xsl:choose>
             <xsl:when test="html">
                 <xsl:message>Processing a single input document.</xsl:message>
@@ -80,7 +93,7 @@
                         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
                         <xsl:apply-templates select="html" mode="en">
-                            <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+                            <xsl:with-param name="docId" select="if ($docId = 'home') then 'index' else $docId" tunnel="yes"/>
                         </xsl:apply-templates>
                     </xsl:result-document>
                 </xsl:if>
@@ -92,7 +105,8 @@
                         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
                         <xsl:apply-templates select="html" mode="fr">
-                            <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+                            
+                            <xsl:with-param name="docId" select="if ($docId = 'home') then 'index' else $docId" tunnel="yes"/>
                         </xsl:apply-templates>
                     </xsl:result-document>
                 </xsl:if>
@@ -110,7 +124,7 @@
                             <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
                             <xsl:apply-templates select="." mode="en">
-                                <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+                                <xsl:with-param name="docId" select="if ($docId = 'home') then 'index' else $docId" tunnel="yes"/>
                             </xsl:apply-templates>
                         </xsl:result-document>
                     </xsl:if>
@@ -122,7 +136,7 @@
                             <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
                             <xsl:apply-templates select="." mode="fr">
-                                <xsl:with-param name="docId" select="$docId" tunnel="yes"/>
+                                <xsl:with-param name="docId" select="if ($docId = 'home') then 'index' else $docId" tunnel="yes"/>
                             </xsl:apply-templates>
                         </xsl:result-document>
                     </xsl:if>
@@ -130,7 +144,7 @@
                 
 <!--      Now the AJAX documents.          -->
                 <xsl:for-each select="$ajaxDocs">
-                    
+                    <xsl:message>Processing <xsl:value-of select="div/@id"/></xsl:message>
                     <xsl:variable name="enOutputDoc" select="concat($outputFolder, '/en/ajax/', tokenize(document-uri(.), '/')[last()])"/>
                     <xsl:result-document href="{$enOutputDoc}" method="xml" encoding="UTF8">
                         <xsl:apply-templates mode="en"/>
@@ -177,7 +191,7 @@
         <xsl:param name="docId" tunnel="yes"/>
         <xsl:copy>
             <xsl:apply-templates select="@*" mode="#current"/>
-            <a href="{if ($htmlDocs/html[replace(@id, '_fr_', '') = $docId]) then concat('../fr/', $htmlDocs/html[replace(@id, '_fr_', '') = $docId][1]/@id, '.html') else concat('../fr/', $docId, '.html')}">FR</a>
+            <a href="{if ($docId = $engDocsWithFrenchParallels) then concat('../fr/', $htmlDocs[1]/html[replace(@id, '_fr_', '_') = $docId][1]/@id, '.html') else concat('../fr/', $docId, '.html')}">FR</a>
         </xsl:copy>
     </xsl:template>
     
@@ -214,4 +228,38 @@
     <xsl:template match="div[@id = 'infoHeader']/@style[contains(., 'portraits')]" mode="#all">
         <xsl:attribute name="style" select="replace(., 'portraits', '../portraits')"/>
     </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The text inside a script element needs to be output without
+        escaping, otherwise it breaks the JavaScript.</xd:desc>
+    </xd:doc>
+    <xsl:template match="script[not(@src)]/text()" mode="#all">
+        <xsl:value-of select="." disable-output-escaping="yes"/>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>We need to make sure that when we're processing a document index, 
+        where there are parallel documents in both languages, we only include a 
+        link to the one that's in the core language.</xd:desc>
+    </xd:doc>
+    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+_fr_[^/\.]+\.html$')]][ancestor::ul[@class='docList']]" mode="en">
+        <xsl:variable name="targetId" select="replace(replace(a/@href, '\.html$', ''), '_fr_', '_')"/>
+        <xsl:choose>
+            <xsl:when test="$targetId = $engDocsWithFrenchParallels"></xsl:when>
+            <xsl:otherwise>
+                <xsl:next-match/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+\.html$')]][ancestor::ul[@class='docList']]" mode="fr">
+        <xsl:variable name="targetId" select="replace(a/@href, '\.html$', '')"/>
+        <xsl:choose>
+            <xsl:when test="$targetId = $engDocsWithFrenchParallels"></xsl:when>
+            <xsl:otherwise>
+                <xsl:next-match/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
 </xsl:stylesheet>
+

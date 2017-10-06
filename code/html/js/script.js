@@ -76,7 +76,7 @@ function showInfo(sourceId) {
   infoContent.innerHTML = sourceEl.innerHTML;
   
   //Show the portrait
-  infoHeader.style.backgroundImage = 'url(portraits/' + sourceId + '.jpg)';
+  infoHeader.style.backgroundImage = 'url(../portraits/' + sourceId + '.jpg)';
   
   //Show the popup
   infoPopup.style.display = 'block';

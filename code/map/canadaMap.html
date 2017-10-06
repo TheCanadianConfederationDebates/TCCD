@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" id="canadaMap">
     <head>
-        <meta charset="UTF-8"/>
         <title>Canada</title>
         <link rel="stylesheet" href="css/html.css"/>
         <link rel="stylesheet" href="css/ol.css" type="text/css"/>
@@ -25,6 +24,10 @@
 
             <!--
             
+            //Create a reliable path to the project root, for constructing URLs.
+            //We need this because we may be in either the /en/ or /fr/ subfolders.
+            var projectRoot = location.href.replace('canadaMap.html', '').replace(/((\/en\/)|(\/fr\/))/, '/');
+            
             //Create default style for riding points.
             var strokeRiding = new ol.style.Stroke({color: 'black', width: 2});
             var fillRiding = new ol.style.Fill({color: 'rgba(255, 204, 51, 0.5)'});
@@ -33,19 +36,19 @@
                of location have the same point, they don't appear on top of each
                other. */
             var iconFedRiding = new ol.style.Icon({
-                                                    src: 'js/placemarkRed.png',
+                                                    src:    projectRoot + 'js/placemarkRed.png',
                                                     anchor: [0,0.5],
-                                                    size: [25,25]
+                                                    size:   [25,25]
                                                   });
             var iconProvRiding = new ol.style.Icon({
-                                                    src: 'js/placemarkBlue.png',
+                                                    src:    projectRoot + 'js/placemarkBlue.png',
                                                     anchor: [1,0.5],
-                                                    size: [25,25]
+                                                    size:   [25,25]
                                                   });
             var iconTreatyRiding = new ol.style.Icon({
-                                                    src: 'js/placemarkGreen.png',
+                                                    src:    projectRoot + 'js/placemarkGreen.png',
                                                     anchor: [0.5,0.5],
-                                                    size: [25,25]
+                                                    size:   [25,25]
                                                   });
             var strokePostalCode = new ol.style.Stroke({color: '#00ff00', width: 2});
             var fillPostalCode = new ol.style.Fill({color: 'rgba(0, 255, 0, 0.2)'});
@@ -101,6 +104,7 @@
             function parseSearch(){
               var i, maxi, feat;
               var targPlace = getQueryParam('place');
+              console.log(targPlace);
               var targPostalCode = getQueryParam('postalCode');
               if (targPlace.length > 0){
                  feat = srcRidings.getFeatureById(targPlace);
@@ -119,7 +123,9 @@
                         
             //Create a vector layer for the ridings.
             var srcRidings = new ol.source.Vector({
-              url: 'js/places.json',
+            //We need to make sure this works whether we're in the /en/ or /fr/ subfolders.
+              //url: 'js/places.json',
+              url: projectRoot + 'js/places.json',
               format:  new ol.format.GeoJSON()
             });
             
@@ -274,9 +280,10 @@
     </script>
       
       <div id="postalCodeForm">
-        <label for="txtPostalCode">Enter your postal code</label>
+        <label for="txtPostalCode" lang="en">Enter your postal code</label>
+        <label for="txtPostalCode" lang="fr">Entrez votre code postal</label>
         <input type="text" maxlength="7" id="txtPostalCode" value="v8z2s3" onkeyup="if (event.keyCode == 13){jumpToPostalCode(this.value)}; return false;"/>
-        <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value); return false;">Go</button>
+        <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value); return false;"><span lang="en">Go</span><span lang="fr">Allons-y</span></button>
       </div>
       
       <div id="mapPopup">
