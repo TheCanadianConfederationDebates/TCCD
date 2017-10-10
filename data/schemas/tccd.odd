@@ -3099,7 +3099,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Hogsett, George James. Harbour Main (1865: NF Leg).</desc>
                            </valItem>
                            <valItem ident="pers:HOLB1">
-                              <desc>Holbrook, Henry. ? New Westminster (1870: BC Leg).</desc>
+                              <desc>Holbrook, Henry. New Westminster (1870: BC Leg).</desc>
                            </valItem>
                            <valItem ident="pers:HOLL1">
                               <desc>Holland, Augustus Edward Crevier. 4th Prince (1873: PEI Leg).</desc>
@@ -7458,8 +7458,2815 @@ so Volume 2 by implication has finished. -->
             
                </elementSpec>
                
+               <!--      The placeName element has its @ref attribute value list constructed from 
+          the places in the placeography. -->
+               <elementSpec ident="placeName" module="namesdates" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="change">
+                        <valList type="closed" mode="add">
+                           <valItem ident="UNSPECIFIED">
+                              <gloss>Use this value when you have not yet determined 
+                                 the correct value. This value should be temporary.</gloss>
+                           </valItem>
+                           <valItem ident="plc:ABIT1">
+                              <desc>Abitibi (TREATY 9), treaty, 1905-1906 </desc>
+                           </valItem>
+                           <valItem ident="plc:ACAD1">
+                              <desc>ACADIA (ALBERTA), federal, 1945- QUELCH, Victor</desc>
+                           </valItem>
+                           <valItem ident="plc:ADDI1">
+                              <desc>ADDINGTON (ONTARIO), federal, 1867-1872 LAPUM, James; SHIBLEY, Schuyler</desc>
+                           </valItem>
+                           <valItem ident="plc:ALBE1">
+                              <desc>ALBERT (NEW BRUNSWICK), federal, 1867-1872 WALLACE,; WALLACE,</desc>
+                           </valItem>
+                           <valItem ident="plc:ALBE2">
+                              <desc>ALBERT (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:ALBE3">
+                              <desc>ALBERTA (PROVISIONAL DISTRICT) (NORTHWEST TERRITORIES), federal, 1904- HERRON,</desc>
+                           </valItem>
+                           <valItem ident="plc:ALGO1">
+                              <desc>ALGOMA (ONTARIO), federal, 1867-1872 SIMPSON, Wemyss; CUMBERLAND, Frederick; ROBINSON, John</desc>
+                           </valItem>
+                           <valItem ident="plc:ALMA1">
+                              <desc>ALMA (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:ANNA3">
+                              <desc>ANNAPOLIS (NOVA SCOTIA), federal, 1867-1905 RAY, H.; RAY, Hallett; PICKUP, Samuel</desc>
+                           </valItem>
+                           <valItem ident="plc:ANNA4">
+                              <desc>ANNAPOLIS COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:ANTI1">
+                              <desc>ANTIGONISH (NOVA SCOTIA), federal, 1867-1905 MCDONALD,; MCDONALD,; MCDONALD, Hugh; MCISAAC, Angus; MCISAAC, Colin; CHISHOLM, Wm.</desc>
+                           </valItem>
+                           <valItem ident="plc:ANTI2">
+                              <desc>ANTIGONISH COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:ANTI3">
+                              <desc>ANTIGONISH-GUYSBOROUGH (NOVA SCOTIA), federal, 1945- KIRK, James</desc>
+                           </valItem>
+                           <valItem ident="plc:ARCT1">
+                              <desc>Arctic Red River (TREATY 11), treaty, 1921-1921 </desc>
+                           </valItem>
+                           <valItem ident="plc:ARGE1">
+                              <desc>ARGENTEUIL (QUEBEC), federal, 1867-1905 ABBOTT, Joseph; ABBOTT, Joseph; PERLEY, H.</desc>
+                           </valItem>
+                           <valItem ident="plc:ARGE2">
+                              <desc>ARGENTEUIL (QUEBEC), federal, 1945- HEON,</desc>
+                           </valItem>
+                           <valItem ident="plc:ARGE3">
+                              <desc>ARGENTEUIL (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:ASSI1">
+                              <desc>ASSINIBOIA (SASKATCHEWAN), federal, 1945- MCCULLOUGH, David</desc>
+                           </valItem>
+                           <valItem ident="plc:ATHA1">
+                              <desc>ATHABASKA (ALBERTA), federal, 1945- DECHENE, Joseph</desc>
+                           </valItem>
+                           <valItem ident="plc:BAGO1">
+                              <desc>BAGOT (QUEBEC), federal, 1867-1905 GENDRON,; GENDRON,; MARCIL,</desc>
+                           </valItem>
+                           <valItem ident="plc:BAGO2">
+                              <desc>BAGOT (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BANF2">
+                              <desc>BANFF (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:BAST1">
+                              <desc>BAIE ST. PAUL (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:BAST2">
+                              <desc>BAIE ST. PAUL AND PRAIRIE DU CHEVAL BLANC (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:BATH1">
+                              <desc>BATHURST (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:BATO1">
+                              <desc>BATOCHE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:BATT1">
+                              <desc>BATTLE RIVER (ALBERTA), federal, 1945- FAIR, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:BATT2">
+                              <desc>BATTLEFORD (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:BATT3">
+                              <desc>THE BATTLEFORDS (SASKATCHEWAN), federal, 1945- CAMPBELL, Max</desc>
+                           </valItem>
+                           <valItem ident="plc:BATT4">
+                              <desc>Battleford, North West Territories, in present-day southwest  (TREATY 6), treaty, 1878-1878 </desc>
+                           </valItem>
+                           <valItem ident="plc:BAYD1">
+                              <desc>BAY DE VERDE (NEWFOUNDLAND), nonFederal, 1865-1946 </desc>
+                           </valItem>
+                           <valItem ident="plc:BAYR1">
+                              <desc>BAY ROBERTS (NEWFOUNDLAND), nonFederal, 1869-1946 </desc>
+                           </valItem>
+                           <valItem ident="plc:BEAU10">
+                              <desc>BEAUCE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BEAU11">
+                              <desc>BEAUHARNOIS (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BEAU12">
+                              <desc>BEAUHARNOIS-LAPRAIRIE (QUEBEC), federal, 1945- RAYMOND,</desc>
+                           </valItem>
+                           <valItem ident="plc:BEAU8">
+                              <desc>BEAUCE (QUEBEC), federal, 1867-1949 POZER, Henry; POZER, Henry; BELAND,; DIONNE,</desc>
+                           </valItem>
+                           <valItem ident="plc:BEAU9">
+                              <desc>BEAUHARNOIS (QUEBEC), federal, 1867-1905 CAYLEY,; ROBILLARD,; BERGERON,</desc>
+                           </valItem>
+                           <valItem ident="plc:BEDF1">
+                              <desc>BEDFORD (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:BELL10">
+                              <desc>BELL ISLAND (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:BELL11">
+                              <desc>BELLECHASSE (QUEBEC), federal, 1867-1905 CASAULT,; FOURNIER,; FOURNIER,; FOURNIER, Télesphore; TALBOT,</desc>
+                           </valItem>
+                           <valItem ident="plc:BELL12">
+                              <desc>BELLECHASSE (QUEBEC), federal, 1945- PICARD,</desc>
+                           </valItem>
+                           <valItem ident="plc:BELL13">
+                              <desc>BELLECHASSE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BERT5">
+                              <desc>BERTHIER (QUEBEC), federal, 1867-1905 PAQUET, Homère; PAQUET, Homère; ARCHAMBAULT,</desc>
+                           </valItem>
+                           <valItem ident="plc:BERT6">
+                              <desc>BERTHIER (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BERT7">
+                              <desc>BERTHIER-MASKINONGÉ (QUEBEC), federal, 1945- LAURENDEAU, Alphonse</desc>
+                           </valItem>
+                           <valItem ident="plc:BLAC8">
+                              <desc>Blackfoot Crossing (TREATY 6), treaty, 1877-1877 </desc>
+                           </valItem>
+                           <valItem ident="plc:BLAC9">
+                              <desc>Blackfoot Crossing (TREATY 7), treaty, 1877-1877 </desc>
+                           </valItem>
+                           <valItem ident="plc:BONA1">
+                              <desc>BONAVISTA BAY (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:BONA2">
+                              <desc>BONAVENTURE (QUEBEC), federal, 1867-1949 ROBITAILLE,; ROBITAILLE,; ROBITAILLE, Théodore; MARCIL,; ARSENAULT,</desc>
+                           </valItem>
+                           <valItem ident="plc:BONA3">
+                              <desc>BONAVENTURE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BOTH1">
+                              <desc>BOTHWELL (ONTARIO), federal, 1867-1872 MILLS, David; MILLS, David</desc>
+                           </valItem>
+                           <valItem ident="plc:BOWR1">
+                              <desc>BOW RIVER (ALBERTA), federal, 1945- JOHNSTON, Charles</desc>
+                           </valItem>
+                           <valItem ident="plc:BRAN1">
+                              <desc>BRANDON (MANITOBA), federal, 1904- SIFTON,</desc>
+                           </valItem>
+                           <valItem ident="plc:BRAN2">
+                              <desc>BRANDON (MANITOBA), federal, 1945- MATTHEWS, Ewen</desc>
+                           </valItem>
+                           <valItem ident="plc:BRAN3">
+                              <desc>BRANT (ONTARIO), federal, 1904-1949 PATERSON, William; CHARLTON, John</desc>
+                           </valItem>
+                           <valItem ident="plc:BRAN4">
+                              <desc>BRANTFORD (ONTARIO), federal, 1904- COCKSHUTT, William</desc>
+                           </valItem>
+                           <valItem ident="plc:BRAN5">
+                              <desc>BRANTFORD CITY (ONTARIO), federal, 1945- MACDONALD, W.</desc>
+                           </valItem>
+                           <valItem ident="plc:BROA1">
+                              <desc>BROADVIEW (ONTARIO), federal, 1945- CHURCH, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:BROC1">
+                              <desc>BROCK (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:BROC2">
+                              <desc>BROCKVILLE (ONTARIO), federal, 1867-1905 CRAWFORD, James; BUELL, Jacob; DERBYSHIRE, D.</desc>
+                           </valItem>
+                           <valItem ident="plc:BROC3">
+                              <desc>BROCKVILLE (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BROM1">
+                              <desc>BROME (QUEBEC), federal, 1867-1905 DUNKIN, Christopher; DUNKIN,; CARTER,; CARTER,; FISHER,</desc>
+                           </valItem>
+                           <valItem ident="plc:BROM2">
+                              <desc>BROME (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BROM3">
+                              <desc>BROME-MISSISQUOI (QUEBEC), federal, 1945- HALLE,</desc>
+                           </valItem>
+                           <valItem ident="plc:BRUC10">
+                              <desc>BRUCE (ONTARIO), federal, 1945- ROBINSON, Andrew</desc>
+                           </valItem>
+                           <valItem ident="plc:BURG1">
+                              <desc>BURGEO-LA POILE (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:BURG2">
+                              <desc>BURGEO (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:BURI1">
+                              <desc>BURIN (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:BURL1">
+                              <desc>BURLINGTON (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:CALG1">
+                              <desc>CALGARY (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:CALG2">
+                              <desc>CALGARY (NORTHWEST TERRITORIES), federal, 1904- MCCARTHY, Stewart</desc>
+                           </valItem>
+                           <valItem ident="plc:CAMR1">
+                              <desc>CAMROSE (ALBERTA), federal, 1945- MARSHALL, James</desc>
+                           </valItem>
+                           <valItem ident="plc:CANN1">
+                              <desc>CANNINGTON (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:CAPE1">
+                              <desc>CAPE BRETON (NOVA SCOTIA), federal, 1867-1872 MCKEAGNEY, James; MACKAY, L.; MCDONALD,</desc>
+                           </valItem>
+                           <valItem ident="plc:CARB1">
+                              <desc>CARBONEAR (NEWFOUNDLAND), nonFederal, 1865-1946 </desc>
+                           </valItem>
+                           <valItem ident="plc:CARD5">
+                              <desc>CARDWELL (ONTARIO), federal, 1867-1872 FERGUSON, Thomas; CAMERON, Hillyard</desc>
+                           </valItem>
+                           <valItem ident="plc:CARD6">
+                              <desc>CARDSTON (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:CARI1">
+                              <desc>CARIBOO DISTRICT (BRITISH COLUMBIA), federal, 1871- THOMPSON, Joshua</desc>
+                           </valItem>
+                           <valItem ident="plc:CARI2">
+                              <desc>CARIBOO (BRITISH COLUMBIA), federal, 1872-1949 THOMPSON, Joshua; IRVINE, William</desc>
+                           </valItem>
+                           <valItem ident="plc:CARI3">
+                              <desc>CARIBOO (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:CARL2">
+                              <desc>CARLETON (NEW BRUNSWICK), federal, 1867-1905 CONNELL, Charles; CONNELL, Charles; Appleby, Stephen; CARVELL, Frank</desc>
+                           </valItem>
+                           <valItem ident="plc:CARL3">
+                              <desc>CARLETON (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:CARL4">
+                              <desc>CARLETON (ONTARIO), federal, 1867-1948 HOLMES, John; ROCHESTER,; KIDD, Edward; BORDEN, R.L.; Boucher, G.; DREW,</desc>
+                           </valItem>
+                           <valItem ident="plc:CARL5">
+                              <desc>CARLETON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CARL6">
+                              <desc>Carlton, North West Territories, in present-day southwest (TREATY 6), treaty, 1878-1878 </desc>
+                           </valItem>
+                           <valItem ident="plc:CART6">
+                              <desc>CARTIER (QUEBEC), federal, 1945-1947 ROSE,; HARTT, Hilliard</desc>
+                           </valItem>
+                           <valItem ident="plc:CATA1">
+                              <desc>CATARAQUE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:CBON1">
+                              <desc>BONAVISTA CENTRE (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:CCAP1">
+                              <desc>COUNTY OF CAPE BRETON (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:CCSJ1">
+                              <desc>CITY AND COUNTY OF ST. JOHN (NEW BRUNSWICK), federal, 1867-1905 GRAY, H.; BURPEE,; PALMER, Lockwood; BURPEE, Isaac; STOCKTON, Alfred</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAM3">
+                              <desc>CHAMBLY (QUEBEC), federal, 1867-1872 BENOIT,; BENOIT,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAM4">
+                              <desc>CHAMPLAIN (QUEBEC), federal, 1867-1905 ROSS, Jones; ROSS, Jones; ROUSSEAU, Alex</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAM5">
+                              <desc>CHAMPLAIN (QUEBEC), federal, 1945- BRUNELLE,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAM6">
+                              <desc>CHAMBLY-VERCHÈRES (QUEBEC), federal, 1904- GEOFFRION,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAM7">
+                              <desc>CHAMBLY (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CHAM8">
+                              <desc>CHAMPLAIN (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CHAM9">
+                              <desc>CHAMBLY-ROUVILLE (QUEBEC), federal, 1945- PINARD,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAP3">
+                              <desc>CHAPLEAU (QUEBEC), federal, 1945- GOURD,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAR10">
+                              <desc>CHARLEVOIX (QUEBEC), federal, 1867-1905 CIMON,; TREMBLAY,; FORGET,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAR11">
+                              <desc>CHARLEVOIX (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CHAR12">
+                              <desc>CHARLEVOIX-SAGUENAY (QUEBEC), federal, 1945- DORION, Jr.</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAR6">
+                              <desc>CHARLOTTE (NEW BRUNSWICK), federal, 1867-1949 BOLTON,; MCADAM,; GANONG, Gilbert; STUART, Wesley</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAR7">
+                              <desc>CHARLOTTE (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:CHAR8">
+                              <desc>CHARLOTTETOWN AND ROYALTY (PRINCE EDWARD ISLAND), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CHAR9">
+                              <desc>CHARLOTTETOWN (PRINCE EDWARD ISLAND), nonFederal, 1867-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:CHAT2">
+                              <desc>CHÂTEAUGUAY (QUEBEC), federal, 1867-1905 HOLTON, Hamilton; HOLTON, Hamilton; BROWN, Pollock</desc>
+                           </valItem>
+                           <valItem ident="plc:CHAT3">
+                              <desc>CHÂTEAUGUAY (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CHAT4">
+                              <desc>CHÂTEAUGUAY-HUNTINGDON (QUEBEC), federal, 1945- BLACK,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHIC2">
+                              <desc>CHICOUTIMI-SAGUENAY (QUEBEC), federal, 1867-1905 TREMBLAY, Alexis; PRICE, Evan; GIRARD,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHIC3">
+                              <desc>CHICOUTIMI-SAGUENAY (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CHIC4">
+                              <desc>CHICOUTIMI (QUEBEC), federal, 1945- GAGNON,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHUR3">
+                              <desc>CHURCHILL (MANITOBA), federal, 1945- MOORE,</desc>
+                           </valItem>
+                           <valItem ident="plc:CHUR4">
+                              <desc>HURON CENTRE (ONTARIO), federal, 1872- HORTON,</desc>
+                           </valItem>
+                           <valItem ident="plc:CLAK1">
+                              <desc>LAKE CENTRE (SASKATCHEWAN), federal, 1945- DIEFENBAKER, Carl</desc>
+                           </valItem>
+                           <valItem ident="plc:CMON1">
+                              <desc>MONTREAL CENTRE (QUEBEC), federal, 1867-1872 WORKMAN,; RYAN, Patrick</desc>
+                           </valItem>
+                           <valItem ident="plc:CMON2">
+                              <desc>MONTREAL CENTRE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:COCH6">
+                              <desc>COCHRANE (ONTARIO), federal, 1945- BRADETTE, Joseph</desc>
+                           </valItem>
+                           <valItem ident="plc:COCH7">
+                              <desc>Cochin (TREATY 6), treaty, 1954-1956 </desc>
+                           </valItem>
+                           <valItem ident="plc:COLC1">
+                              <desc>COLCHESTER (NOVA SCOTIA), federal, 1867-1905 MCLELLAN, Archibald; ARCHIBALD, George; PEARSON, M.; PEARSON, M.; LAURENCE, F.A.</desc>
+                           </valItem>
+                           <valItem ident="plc:COLC2">
+                              <desc>COLCHESTER-HANTS (NOVA SCOTIA), federal, 1945- STANFIELD, Frank</desc>
+                           </valItem>
+                           <valItem ident="plc:COMO1">
+                              <desc>COMOX-ATLIN (BRITISH COLUMBIA), federal, 1904- SLOAN, W.</desc>
+                           </valItem>
+                           <valItem ident="plc:COMO2">
+                              <desc>COMOX-ALBERNI (BRITISH COLUMBIA), federal, 1945- GIBSON, John</desc>
+                           </valItem>
+                           <valItem ident="plc:COMP1">
+                              <desc>COMPTON (QUEBEC), federal, 1867-1905 POPE, Henry; POPE, Henry; POPE, Henry; HUNT,</desc>
+                           </valItem>
+                           <valItem ident="plc:COMP2">
+                              <desc>COMPTON (QUEBEC), federal, 1945- BLANCHETTE,</desc>
+                           </valItem>
+                           <valItem ident="plc:COMP3">
+                              <desc>COMPTON (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CORN2">
+                              <desc>CORNWALL (ONTARIO), federal, 1867-1872 MACDONALD, John; BERGIN,</desc>
+                           </valItem>
+                           <valItem ident="plc:CORN3">
+                              <desc>CORNWALL (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CQUE1">
+                              <desc>QUEBEC-CENTRE (QUEBEC), federal, 1867-1905 SIMARD, Honoré; MALOUIN, Albert; LACHANCE, Arthur</desc>
+                           </valItem>
+                           <valItem ident="plc:CQUE2">
+                              <desc>QUEBEC-CENTRE (QUEBEC), federal, 1872- CAUCHON, Joseph</desc>
+                           </valItem>
+                           <valItem ident="plc:CQUE3">
+                              <desc>QUEBEC-CENTRE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:CROS3">
+                              <desc>Cross Lake  (TREATY 5), treaty, 1908-1908 </desc>
+                           </valItem>
+                           <valItem ident="plc:CSJO1">
+                              <desc>CITY OF ST. JOHN (NEW BRUNSWICK), federal, 1867-1905 TILLEY, Leonard; TILLEY, Leonard; DE VEBER, Jeremiah; DANIEL, J.W.; DANIEL, John</desc>
+                           </valItem>
+                           <valItem ident="plc:CTOR1">
+                              <desc>TORONTO CENTRE (ONTARIO), federal, 1872-1905 WILKES, Robert; CLARKE, E.F.; BRISTOL, Edmund</desc>
+                           </valItem>
+                           <valItem ident="plc:CTRI1">
+                              <desc>TRINITY CENTRE (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:CUMB2">
+                              <desc>CUMBERLAND (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:CUMB3">
+                              <desc>CUMBERLAND (NOVA SCOTIA), federal, 1867-1905 TUPPER, Charles; TUPPER,; TUPPER, Charles; LOGAN, Hance</desc>
+                           </valItem>
+                           <valItem ident="plc:CUMB4">
+                              <desc>CUMBERLAND (NOVA SCOTIA), federal, 1945- BLACK, Percy</desc>
+                           </valItem>
+                           <valItem ident="plc:CUMB5">
+                              <desc>CUMBERLAND COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:CVAN1">
+                              <desc>VANCOUVER CENTRE (BRITISH COLUMBIA), federal, 1945-1948 MACKENZIE, Ian; YOUNG,</desc>
+                           </valItem>
+                           <valItem ident="plc:CWEL1">
+                              <desc>WELLINGTON CENTRE (ONTARIO), federal, 1867-1872 PARKER, Thomas; ROSS, James; ROSS, James</desc>
+                           </valItem>
+                           <valItem ident="plc:CYOR1">
+                              <desc>YORK CENTRE (ONTARIO), federal, 1904- CAMPBELL, Archibald</desc>
+                           </valItem>
+                           <valItem ident="plc:DANF1">
+                              <desc>DANFORTH (ONTARIO), federal, 1945- HARRIS, Joseph</desc>
+                           </valItem>
+                           <valItem ident="plc:DAUP2">
+                              <desc>DAUPHIN (MANITOBA), federal, 1904- BURROWS, Arthur</desc>
+                           </valItem>
+                           <valItem ident="plc:DAUP3">
+                              <desc>DAUPHIN (MANITOBA), federal, 1945- ZAPLITNY, S.</desc>
+                           </valItem>
+                           <valItem ident="plc:DAVE1">
+                              <desc>DAVENPORT (ONTARIO), federal, 1945- MACNICOL, John</desc>
+                           </valItem>
+                           <valItem ident="plc:DEER1">
+                              <desc>Deer's Lake (TREATY 5), treaty, 1910-1910 </desc>
+                           </valItem>
+                           <valItem ident="plc:DEUX1">
+                              <desc>DEUX-MONTAGNES (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:DIGB1">
+                              <desc>DIGBY (NOVA SCOTIA), federal, 1867-1905 SAVARY, W.; SAVARY, William; COPP, Albert</desc>
+                           </valItem>
+                           <valItem ident="plc:DIGB2">
+                              <desc>DIGBY COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:DIGB3">
+                              <desc>DIGBY-ANNAPOLIS-KINGS (NOVA SCOTIA), federal, 1945-1948 ILSLEY, James; NOWLAN, George</desc>
+                           </valItem>
+                           <valItem ident="plc:DOGH1">
+                              <desc>Dog Head Point (TREATY 5), treaty, 1876-1876 </desc>
+                           </valItem>
+                           <valItem ident="plc:DORC1">
+                              <desc>DORCHESTER (QUEBEC), federal, 1867-1949 LANGEVIN, Louis; LANGEVIN, Louis; MORIN,; TREMBLAY,</desc>
+                           </valItem>
+                           <valItem ident="plc:DORC2">
+                              <desc>DORCHESTER (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:DRUM1">
+                              <desc>DRUMMOND-ARTHABASKA (QUEBEC), federal, 1867-1949 SÉNÉCAL,; DORION,; LAVERGNE,; CLOUTIER,</desc>
+                           </valItem>
+                           <valItem ident="plc:DRUM2">
+                              <desc>DRUMMOND-ARTHABASKA (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:DUFF1">
+                              <desc>DUFFERIN (ONTARIO), federal, 1904- BARR, John</desc>
+                           </valItem>
+                           <valItem ident="plc:DUFF2">
+                              <desc>DUFFERIN-SIMCOE (ONTARIO), federal, 1945- ROWE, William</desc>
+                           </valItem>
+                           <valItem ident="plc:DUND1">
+                              <desc>DUNDAS (ONTARIO), federal, 1867-1905 ROSS, John; GIBSON,; BRODER, Andrew</desc>
+                           </valItem>
+                           <valItem ident="plc:DUND2">
+                              <desc>DUNDAS (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:DUNV1">
+                              <desc>Dunvegan (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:DURA1">
+                              <desc>DURANTAYE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:DURH1">
+                              <desc>DURHAM (ONTARIO), federal, 1904-1949 WARD, Henry; STEPHENSON, Charles</desc>
+                           </valItem>
+                           <valItem ident="plc:EALG1">
+                              <desc>ALGOMA EAST (ONTARIO), federal, 1904-1948 DYMENT, Albert; FARQUHAR, Thomas; PEARSON, B.</desc>
+                           </valItem>
+                           <valItem ident="plc:EASS1">
+                              <desc>ASSINIBOIA EAST (NORTHWEST TERRITORIES), federal, 1904- TURRIFF,</desc>
+                           </valItem>
+                           <valItem ident="plc:EAST1">
+                              <desc>EASTERN (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:EBON1">
+                              <desc>BONAVISTA EAST (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:EBRA1">
+                              <desc>EAST BRANT (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:EBRU1">
+                              <desc>BRUCE EAST (ONTARIO), federal, 1904- DONNELLY, James</desc>
+                           </valItem>
+                           <valItem ident="plc:EBUR1">
+                              <desc>BURIN EAST (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:ECAL1">
+                              <desc>CALGARY EAST (ALBERTA), federal, 1945- HARKNESS, Douglas</desc>
+                           </valItem>
+                           <valItem ident="plc:ECAL2">
+                              <desc>CALGARY EAST (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:ECAR1">
+                              <desc>CARIBOO EAST (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:EDMO1">
+                              <desc>EDMONTON (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:EDMO2">
+                              <desc>EDMONTON (NORTHWEST TERRITORIES), federal, 1904-1905 OLIVER,; OLIVER, Frank</desc>
+                           </valItem>
+                           <valItem ident="plc:EDUR1">
+                              <desc>DURHAM EAST (ONTARIO), federal, 1867-1872 BURTON, Francis; ROSS,</desc>
+                           </valItem>
+                           <valItem ident="plc:EDUR2">
+                              <desc>EAST DURHAM (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:EEDM1">
+                              <desc>EDMONTON EAST (ALBERTA), federal, 1945- ASHBY, Patrick</desc>
+                           </valItem>
+                           <valItem ident="plc:EELG1">
+                              <desc>ELGIN EAST (ONTARIO), federal, 1867-1905 DOBBIE, Thomas; HARVEY,; INGRAM, Andrew</desc>
+                           </valItem>
+                           <valItem ident="plc:EELG2">
+                              <desc>EAST ELGIN (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:EESS1">
+                              <desc>ESSEX EAST (ONTARIO), federal, 1945- MARTIN, Paul</desc>
+                           </valItem>
+                           <valItem ident="plc:EGLI1">
+                              <desc>EGLINTON (ONTARIO), federal, 1945- FLEMING, Donald</desc>
+                           </valItem>
+                           <valItem ident="plc:EGRE1">
+                              <desc>GREY EAST (ONTARIO), federal, 1872-1905 FLESHER, Kingston; SPROULE, Thos</desc>
+                           </valItem>
+                           <valItem ident="plc:EHAL1">
+                              <desc>HALIFAX COUNTY (EASTERN DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:EHAM1">
+                              <desc>HAMILTON EAST (ONTARIO), federal, 1904-1949 BARKER, Samuel; ROSS, Hambly</desc>
+                           </valItem>
+                           <valItem ident="plc:EHAS1">
+                              <desc>HASTINGS EAST (ONTARIO), federal, 1867-1872 READ, Robert; WHITE, John; WHITE,</desc>
+                           </valItem>
+                           <valItem ident="plc:EHAS2">
+                              <desc>HASTINGS EAST (ONTARIO), federal, 1904- NORTHRUP, W.B.</desc>
+                           </valItem>
+                           <valItem ident="plc:EKEN1">
+                              <desc>KENT EAST (ONTARIO), federal, 1904- GORDON, David</desc>
+                           </valItem>
+                           <valItem ident="plc:EKOO1">
+                              <desc>KOOTENAY EAST (BRITISH COLUMBIA), federal, 1945- MATTHEWS, James</desc>
+                           </valItem>
+                           <valItem ident="plc:ELAM1">
+                              <desc>LAMBTON EAST (ONTARIO), federal, 1904- ARMSTRONG, Joseph; ARMSTRONG, J.E.</desc>
+                           </valItem>
+                           <valItem ident="plc:ELGI1">
+                              <desc>ELGIN (ONTARIO), federal, 1945- COYLE, Charles</desc>
+                           </valItem>
+                           <valItem ident="plc:EMID1">
+                              <desc>MIDDLESEX EAST (ONTARIO), federal, 1867-1949 WILSON,; GLASS,; ELSON, Peter; WHITE, Oliver</desc>
+                           </valItem>
+                           <valItem ident="plc:EMID2">
+                              <desc>EAST MIDDLESEX (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:EMON1">
+                              <desc>MONTREAL EAST (QUEBEC), federal, 1867-1872 CARTIER,; JETTÉ,</desc>
+                           </valItem>
+                           <valItem ident="plc:EMON2">
+                              <desc>MONTREAL EAST (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:ENOR1">
+                              <desc>NORTHUMBERLAND EAST (ONTARIO), federal, 1867-1905 KEELER,; KEELER,; COCHRANE,</desc>
+                           </valItem>
+                           <valItem ident="plc:ENOR2">
+                              <desc>EAST NORTHUMBERLAND (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:EOTT1">
+                              <desc>OTTAWA EAST (ONTARIO), federal, 1945- RICHARD,</desc>
+                           </valItem>
+                           <valItem ident="plc:EPET1">
+                              <desc>PETERBOROUGH EAST (ONTARIO), federal, 1867-1905 GROVER, Peregrine; GROVER, Peregrine; FINLAY, John</desc>
+                           </valItem>
+                           <valItem ident="plc:EPIC1">
+                              <desc>PICTOU COUNTY (EAST DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:EPRI1">
+                              <desc>PRINCE ALBERT EAST (NORTHWEST TERRITORIES), nonFederal, 1894-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:EQUE1">
+                              <desc>QUEBEC EAST (QUEBEC), federal, 1867-1905 HUOT, Gabriel; GUILLET, dit TOURANGEAU,; LAURIER, Sir</desc>
+                           </valItem>
+                           <valItem ident="plc:EQUE2">
+                              <desc>QUEBEC EAST (QUEBEC), federal, 1872- GUILLET, dit TOURANGEAU,</desc>
+                           </valItem>
+                           <valItem ident="plc:EQUE3">
+                              <desc>QUEBEC EAST (QUEBEC), federal, 1945- ST-LAURENT,</desc>
+                           </valItem>
+                           <valItem ident="plc:EQUE4">
+                              <desc>QUEBEC EAST (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:ERIE1">
+                              <desc>ERIE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:ESIM1">
+                              <desc>SIMCOE EAST (ONTARIO), federal, 1904-1949 BENNETT, William; ROBINSON, Alfred</desc>
+                           </valItem>
+                           <valItem ident="plc:ESSE1">
+                              <desc>ESSEX (ONTARIO), federal, 1867-1872 O'CONNOR, John; O'CONNOR, John</desc>
+                           </valItem>
+                           <valItem ident="plc:ESSE2">
+                              <desc>ESSEX (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:ESTJ1">
+                              <desc>ST. JOHN'S EAST (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:ESTJ2">
+                              <desc>ST. JOHN'S CITY EAST (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:ESTJ3">
+                              <desc>ST. JOHN'S EAST (NEWFOUNDLAND), nonFederal, 1946-1949 </desc>
+                           </valItem>
+                           <valItem ident="plc:ETOR1">
+                              <desc>TORONTO EAST (ONTARIO), federal, 1867-1905 BEATTY, James; BEATTY, James; KEMP, Albert</desc>
+                           </valItem>
+                           <valItem ident="plc:ETOR2">
+                              <desc>EAST TORONTO (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:EVAN3">
+                              <desc>VANCOUVER EAST (BRITISH COLUMBIA), federal, 1945- MACINNIS, Angus</desc>
+                           </valItem>
+                           <valItem ident="plc:EYOR1">
+                              <desc>YORK EAST (ONTARIO), federal, 1867-1949 METCALFE, James; METCALFE, James; MCGREGOR, Henry</desc>
+                           </valItem>
+                           <valItem ident="plc:EYOR2">
+                              <desc>EAST YORK (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:FALB1">
+                              <desc>Fort Albany  (TREATY 9), treaty, 1905-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:FCARL1">
+                              <desc>Fort Carlton, North West Territories, in present-day southwest (TREATY 6), treaty, 1876-1876 </desc>
+                           </valItem>
+                           <valItem ident="plc:FCHI1">
+                              <desc>Fort Chipewyan (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:FCHU1">
+                              <desc>Fort Churchill (TREATY 5), treaty, 1910-1910 </desc>
+                           </valItem>
+                           <valItem ident="plc:FEDM1">
+                              <desc>Fort Edmonton (TREATY 6), treaty, 1877-1877 </desc>
+                           </valItem>
+                           <valItem ident="plc:FELI1">
+                              <desc>Fort Ellice (TREATY 4), treaty, 1874-1874 </desc>
+                           </valItem>
+                           <valItem ident="plc:FERR3">
+                              <desc>FERRYLAND (NEWFOUNDLAND), nonFederal, 1865-1946 </desc>
+                           </valItem>
+                           <valItem ident="plc:FFRA1">
+                              <desc>Fort Frances (TREATY 3), treaty, 1871-1875 </desc>
+                           </valItem>
+                           <valItem ident="plc:FGOO1">
+                              <desc>Fort Good Hope (TREATY 11), treaty, 1921-1921 </desc>
+                           </valItem>
+                           <valItem ident="plc:FHOP1">
+                              <desc>Osnaburg (TREATY 9), treaty, 1905-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:FISH3">
+                              <desc>Fisher River  (TREATY 5), treaty, 1908-1908 </desc>
+                           </valItem>
+                           <valItem ident="plc:FKIN1">
+                              <desc>1ST KINGS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:FKIN2">
+                              <desc>4TH KINGS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:FLIA1">
+                              <desc>Fort Liard (TREATY 11), treaty, 1922-1922 </desc>
+                           </valItem>
+                           <valItem ident="plc:FLYI1">
+                              <desc>Flying Post (TREATY 9), treaty, 1906-1906 </desc>
+                           </valItem>
+                           <valItem ident="plc:FMAC1">
+                              <desc>FORT MACLEOD (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:FMAC2">
+                              <desc>Fort MacLeod (TREATY 7), treaty, 1877-1877 </desc>
+                           </valItem>
+                           <valItem ident="plc:FMCM1">
+                              <desc>Fort McMurray (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:FMCP1">
+                              <desc>Fort McPherson (TREATY 11), treaty, 1921-1921 </desc>
+                           </valItem>
+                           <valItem ident="plc:FNOR1">
+                              <desc>Fort Norman (TREATY 11), treaty, 1921-1921 </desc>
+                           </valItem>
+                           <valItem ident="plc:FOGO1">
+                              <desc>FOGO (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:FOND1">
+                              <desc>Fond du Lac  (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:FORT4">
+                              <desc>FORTUNE BAY (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:FORT5">
+                              <desc>FORTUNE BAY (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:FORT6">
+                              <desc>FORT WILLIAM (ONTARIO), federal, 1945- MCIVOR,</desc>
+                           </valItem>
+                           <valItem ident="plc:FPELL1">
+                              <desc>Fort Pelly (TREATY 4), treaty, 1876-1876 </desc>
+                           </valItem>
+                           <valItem ident="plc:FPIT1">
+                              <desc>Fort Pitt, North West Territories, in present-day southwest (TREATY 6), treaty, 1876-1877 </desc>
+                           </valItem>
+                           <valItem ident="plc:FPRI1">
+                              <desc>1ST PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:FPRI2">
+                              <desc>4TH PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:FPRI3">
+                              <desc>5TH PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:FPRO1">
+                              <desc>Lac du Brochet (TREATY 10), treaty, 1921-1921 </desc>
+                           </valItem>
+                           <valItem ident="plc:FQUA1">
+                              <desc>Fort Qu'Appelle (TREATY 4), treaty, 1874-1874 </desc>
+                           </valItem>
+                           <valItem ident="plc:FQUE1">
+                              <desc>1ST QUEENS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:FQUE2">
+                              <desc>4TH QUEENS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:FRAE1">
+                              <desc>Fort Rae (TREATY 11), treaty, 1921-1921 </desc>
+                           </valItem>
+                           <valItem ident="plc:FRAS8">
+                              <desc>FRASER VALLEY (BRITISH COLUMBIA), federal, 1945- CRUICKSHANK, George</desc>
+                           </valItem>
+                           <valItem ident="plc:FRES1">
+                              <desc>Fort Resolution (TREATY 8), treaty, 1900-1900 </desc>
+                           </valItem>
+                           <valItem ident="plc:FRON1">
+                              <desc>FRONTENAC (ONTARIO), federal, 1867-1872 KIRKPATRICK, Thomas; KIRKPATRICK, George; KIRKPATRICK, Airey</desc>
+                           </valItem>
+                           <valItem ident="plc:FRON2">
+                              <desc>FRONTENAC (ONTARIO), federal, 1904- AVERY, Melzar</desc>
+                           </valItem>
+                           <valItem ident="plc:FRON3">
+                              <desc>FRONTENAC (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:FRON4">
+                              <desc>FRONTENAC-ADDINGTON (ONTARIO), federal, 1945- AYLESWORTH, Ross</desc>
+                           </valItem>
+                           <valItem ident="plc:FSEV1">
+                              <desc>Windigo River (TREATY 9), treaty, 1930-1930 </desc>
+                           </valItem>
+                           <valItem ident="plc:FSIM1">
+                              <desc>Fort Simpson (TREATY 11), treaty, 1921-1921 </desc>
+                           </valItem>
+                           <valItem ident="plc:FSTJ1">
+                              <desc>Fort St. John (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:FWAL1">
+                              <desc>Fort Walsh (TREATY 4), treaty, 1877-1877 </desc>
+                           </valItem>
+                           <valItem ident="plc:FWAL2">
+                              <desc>Fort Walsh, North West Territories, in present-day southwest (TREATY 6), treaty, 1879-1882 </desc>
+                           </valItem>
+                           <valItem ident="plc:FWILL1">
+                              <desc>Fort William  (TREATY 3), treaty, 1872-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:FWRI1">
+                              <desc>Fort Wrigley (TREATY 11), treaty, 1921-1921 </desc>
+                           </valItem>
+                           <valItem ident="plc:GASP1">
+                              <desc>GASPÉ (QUEBEC), federal, 1867-1949 FORTIN,; FORTIN,; LEMIEUX, Rodolphe; LEMIEUX, Rodolphe; LANGLOIS,</desc>
+                           </valItem>
+                           <valItem ident="plc:GASP2">
+                              <desc>GASPÉ (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:GEOR1">
+                              <desc>GEORGETOWN AND ROYALTY (PRINCE EDWARD ISLAND), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:GEOR2">
+                              <desc>GEORGETOWN (PRINCE EDWARD ISLAND), nonFederal, 1867-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:GLEN3">
+                              <desc>GLENGARRY (ONTARIO), federal, 1867-1949 MACDONALD, Donald; MACDONALD, Alexander; MACDONALD, Donald; SCHELL, Jacob; MACDIARMID, B.; KING, Lyon Mackenzie</desc>
+                           </valItem>
+                           <valItem ident="plc:GLEN4">
+                              <desc>GLENGARRY (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:GLOU1">
+                              <desc>GLOUCESTER (NEW BRUNSWICK), federal, 1867-1949 ANGLIN, Warren; ANGLIN, Warren; TURGEON, Onésiphore; RICHARD,</desc>
+                           </valItem>
+                           <valItem ident="plc:GLOU2">
+                              <desc>GLOUCESTER (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:GODS1">
+                              <desc>God's Lake  (TREATY 5), treaty, 1909-1909 </desc>
+                           </valItem>
+                           <valItem ident="plc:GORE1">
+                              <desc>GORE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:GRAN5">
+                              <desc>GRANDVILLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:GRAN6">
+                              <desc>GRAND FALLS (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:GRAN7">
+                              <desc>Grand Rapids  (TREATY 5), treaty, 1875-1875 </desc>
+                           </valItem>
+                           <valItem ident="plc:GREE6">
+                              <desc>GREEN BAY (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:GREE7">
+                              <desc>GREENWOOD (ONTARIO), federal, 1945- MASSEY,</desc>
+                           </valItem>
+                           <valItem ident="plc:GREN1">
+                              <desc>GRENVILLE (ONTARIO), federal, 1904- REID, John</desc>
+                           </valItem>
+                           <valItem ident="plc:GREN2">
+                              <desc>GRENVILLE (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:GREN3">
+                              <desc>GRENVILLE-DUNDAS (ONTARIO), federal, 1945- CASSELMAN, Clair</desc>
+                           </valItem>
+                           <valItem ident="plc:GREN4">
+                              <desc>GRENFELL (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:GREY1">
+                              <desc>GREY (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:GREY2">
+                              <desc>GREY-BRUCE (ONTARIO), federal, 1945- HARRIS, Edward</desc>
+                           </valItem>
+                           <valItem ident="plc:GROU2">
+                              <desc>near Grouard on Lesser Slave Lake (TREATY 7), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:GULF1">
+                              <desc>GULF (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:GUYS1">
+                              <desc>GUYSBOROUGH (NOVA SCOTIA), federal, 1867-1905 CAMPBELL,; CAMPBELL,; SINCLAIR, J.H.; SINCLAIR, John</desc>
+                           </valItem>
+                           <valItem ident="plc:GUYS2">
+                              <desc>GUYSBOROUGH COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:HALD1">
+                              <desc>HALDIMAND (ONTARIO), federal, 1867-1949 THOMPSON, David; THOMSON,; LALOR, Francis; SENN, Cecil</desc>
+                           </valItem>
+                           <valItem ident="plc:HALD2">
+                              <desc>HALDIMAND (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:HALI1">
+                              <desc>HALIFAX (NOVA SCOTIA), federal, 1867-1905 JONES,; POWERS,; ALMON, Johnston; TOBIN,; ROCHE, William; CARNEY, Michael</desc>
+                           </valItem>
+                           <valItem ident="plc:HALI2">
+                              <desc>HALIFAX (NOVA SCOTIA), federal, 1945-1947 ISNOR, Gordon; MACDONALD, William; DICKEY, John</desc>
+                           </valItem>
+                           <valItem ident="plc:HALT1">
+                              <desc>HALTON (ONTARIO), federal, 1867-1949 WHITE, John; WHITE,; HENDERSON, David; CLEAVER,</desc>
+                           </valItem>
+                           <valItem ident="plc:HALT2">
+                              <desc>HALTON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:HAMI3">
+                              <desc>HAMILTON (ONTARIO), federal, 1867-1872 MAGILL, Charles; CHISHOLM, B.; WITTON, B.</desc>
+                           </valItem>
+                           <valItem ident="plc:HAMI4">
+                              <desc>HAMILTON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:HANT1">
+                              <desc>HANTS (NOVA SCOTIA), federal, 1867-1905 HOWE, Joseph; HOWE,; HOWE, Joseph; GOUDGE, Monson; BLACK, J.B.</desc>
+                           </valItem>
+                           <valItem ident="plc:HARB1">
+                              <desc>HARBOUR GRACE (NEWFOUNDLAND), nonFederal, 1865-1946 </desc>
+                           </valItem>
+                           <valItem ident="plc:HARB2">
+                              <desc>HARBOUR MAIN (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:HARB3">
+                              <desc>HARBOUR MAIN (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:HAST1">
+                              <desc>HASTINGS-PETERBOROUGH (ONTARIO), federal, 1945- WHITE, Stanley</desc>
+                           </valItem>
+                           <valItem ident="plc:HEAD1">
+                              <desc>HEADINGLEY (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:HERM1">
+                              <desc>HERMITAGE (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:HIGH1">
+                              <desc>HIGH PARK (ONTARIO), federal, 1945- MCMASTER, Alexander</desc>
+                           </valItem>
+                           <valItem ident="plc:HIGH2">
+                              <desc>HIGH RIVER (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:HOCH1">
+                              <desc>HOCHELAGA (QUEBEC), federal, 1867-1872 DORION,; BEAUBIEN,</desc>
+                           </valItem>
+                           <valItem ident="plc:HOCH2">
+                              <desc>HOCHELAGA (QUEBEC), federal, 1904- RIVET, L.A.A.; RIVET, Louis</desc>
+                           </valItem>
+                           <valItem ident="plc:HOCH3">
+                              <desc>HOCHELAGA (QUEBEC), federal, 1945- EUDES,</desc>
+                           </valItem>
+                           <valItem ident="plc:HOCH4">
+                              <desc>HOCHELAGA (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:HOME1">
+                              <desc>HOME (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:HULL1">
+                              <desc>HULL (QUEBEC), federal, 1945- FOURNIER,</desc>
+                           </valItem>
+                           <valItem ident="plc:HUMB1">
+                              <desc>HUMBER (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:HUMB2">
+                              <desc>HUMBOLDT (NORTHWEST TERRITORIES), federal, 1904- ADAMSON,</desc>
+                           </valItem>
+                           <valItem ident="plc:HUMB3">
+                              <desc>HUMBOLDT (SASKATCHEWAN), federal, 1945- BURTON, Niddrie</desc>
+                           </valItem>
+                           <valItem ident="plc:HUNT3">
+                              <desc>HUNTINGDON (QUEBEC), federal, 1867-1905 ROSE, John; ROSE,; SCRIVER,; SCRIVER,; WALSH, Robt.</desc>
+                           </valItem>
+                           <valItem ident="plc:HUNT4">
+                              <desc>HUNTINGDON (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:HURO1">
+                              <desc>HURON EAST (ONTARIO), federal, 1904- CHISHOLM, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:HURO2">
+                              <desc>HURON &amp; BRUCE (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:HURO3">
+                              <desc>HURON-PERTH (ONTARIO), federal, 1945- GOLDING, Henry</desc>
+                           </valItem>
+                           <valItem ident="plc:IALC1">
+                              <desc>Isle à la Crosse (TREATY 10), treaty, 1906-1906 </desc>
+                           </valItem>
+                           <valItem ident="plc:IBER1">
+                              <desc>IBERVILLE (QUEBEC), federal, 1867-1872 BÉCHARD,; BÉCHARD,</desc>
+                           </valItem>
+                           <valItem ident="plc:INKE1">
+                              <desc>INKERMAN (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:INVE1">
+                              <desc>INVERNESS (NOVA SCOTIA), federal, 1867-1905 CAMERON,; McDonnell,; MCLENNAN, Angus</desc>
+                           </valItem>
+                           <valItem ident="plc:INVE2">
+                              <desc>INVERNESS COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:INVE3">
+                              <desc>INVERNESS-RICHMOND (NOVA SCOTIA), federal, 1945- MCGARRY, Moses</desc>
+                           </valItem>
+                           <valItem ident="plc:ISLA1">
+                              <desc>Island Lake (TREATY 5), treaty, 1909-1909 </desc>
+                           </valItem>
+                           <valItem ident="plc:JACQ1">
+                              <desc>JACQUES CARTIER (QUEBEC), federal, 1867-1905 GAUCHER, Gamelin; LAFLAMME,; MONK, F.D.</desc>
+                           </valItem>
+                           <valItem ident="plc:JACQ2">
+                              <desc>JACQUES CARTIER (QUEBEC), federal, 1945- MARIER, Hector</desc>
+                           </valItem>
+                           <valItem ident="plc:JACQ3">
+                              <desc>JACQUES-CARTIER (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:JASP1">
+                              <desc>JASPER-EDSON (ALBERTA), federal, 1945- KUHL, Walter</desc>
+                           </valItem>
+                           <valItem ident="plc:JOLI1">
+                              <desc>JOLIETTE (QUEBEC), federal, 1867-1905 GODIN, Benjamin; BABY, François George; DUBEAU, Joseph</desc>
+                           </valItem>
+                           <valItem ident="plc:JOLI2">
+                              <desc>JOLIETTE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:JOLI3">
+                              <desc>JOLIETTE-L'ASSOMPTION-MONTCALM (QUEBEC), federal, 1945- LAPALME,</desc>
+                           </valItem>
+                           <valItem ident="plc:KAML1">
+                              <desc>KAMLOOPS (BRITISH COLUMBIA), federal, 1945- FULTON, Edmund</desc>
+                           </valItem>
+                           <valItem ident="plc:KAMO3">
+                              <desc>KAMOURASKA (QUEBEC), federal, 1869-1949 PELLETIER,; PELLETIER, Pantaléon; LAPOINTE, Ernest; LAPOINTE, Ernest; MARQUIS, E.</desc>
+                           </valItem>
+                           <valItem ident="plc:KAMO4">
+                              <desc>KAMOURASKA (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:KENN6">
+                              <desc>KENNEBEC (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:KENO1">
+                              <desc>KENORA-RAINY RIVER (ONTARIO), federal, 1945- BENIDICKSON, Moore</desc>
+                           </valItem>
+                           <valItem ident="plc:KENT4">
+                              <desc>KENT (NEW BRUNSWICK), federal, 1867-1949 RENAUD,; CUTLER, Barry; LEBLANC, O.J.; LÉGER, D.</desc>
+                           </valItem>
+                           <valItem ident="plc:KENT5">
+                              <desc>KENT (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:KENT6">
+                              <desc>KENT (ONTARIO), federal, 1867-1949 STEPHENSON,; STEPHENSON,; DESMOND, Earl</desc>
+                           </valItem>
+                           <valItem ident="plc:KENT7">
+                              <desc>KENT (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:KILD1">
+                              <desc>KILDONAN (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:KILD2">
+                              <desc>KILDONAN (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:KIND1">
+                              <desc>KINDERSLEY (SASKATCHEWAN), federal, 1945- JAENICKE, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:KING10">
+                              <desc>KING'S COUNTY (PRINCE EDWARD ISLAND), federal, 1873- MACDONALD, Colin; DAVIES,</desc>
+                           </valItem>
+                           <valItem ident="plc:KING11">
+                              <desc>KING'S (PRINCE EDWARD ISLAND), federal, 1904-1949 HUGHES, J.; GRANT, Vincent</desc>
+                           </valItem>
+                           <valItem ident="plc:KING2">
+                              <desc>KING'S (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:KING3">
+                              <desc>KINGS (NEW BRUNSWICK), federal, 1867-1872 RYAN,; DOMVILLE,</desc>
+                           </valItem>
+                           <valItem ident="plc:KING4">
+                              <desc>KING'S AND ALBERT (NEW BRUNSWICK), federal, 1904- FOWLER, George</desc>
+                           </valItem>
+                           <valItem ident="plc:KING5">
+                              <desc>KINGS (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:KING6">
+                              <desc>KINGS (NOVA SCOTIA), federal, 1867-1905 CHIPMAN, Henry; CHIPMAN,; CHIPMAN,; BORDEN, Sir</desc>
+                           </valItem>
+                           <valItem ident="plc:KING7">
+                              <desc>KINGSTON (ONTARIO), federal, 1867-1905 MACDONALD,; MACDONALD,; HARTY, William</desc>
+                           </valItem>
+                           <valItem ident="plc:KING8">
+                              <desc>KINGSTON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:KING9">
+                              <desc>KINGSTON CITY (ONTARIO), federal, 1945- KIDD, Ashmore</desc>
+                           </valItem>
+                           <valItem ident="plc:KINI1">
+                              <desc>KINISTINO (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:KOOT1">
+                              <desc>KOOTENAY (BRITISH COLUMBIA), federal, 1904- GALLIHER, William</desc>
+                           </valItem>
+                           <valItem ident="plc:KOOT2">
+                              <desc>KOOTENAY (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:LABE1">
+                              <desc>LABELLE (QUEBEC), federal, 1904- BOURASSA, Henri</desc>
+                           </valItem>
+                           <valItem ident="plc:LABE2">
+                              <desc>LABELLE (QUEBEC), federal, 1945- LALONDE,</desc>
+                           </valItem>
+                           <valItem ident="plc:LABR1">
+                              <desc>LABRADOR (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:LACO2">
+                              <desc>LACOMBE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:LACS1">
+                              <desc>North-West Angle (TREATY 3), treaty, 1873-1873 </desc>
+                           </valItem>
+                           <valItem ident="plc:LAKE2">
+                              <desc>LAKE ST-JOHN-ROBERVAL (QUEBEC), federal, 1945- DION,</desc>
+                           </valItem>
+                           <valItem ident="plc:LAMB2">
+                              <desc>LAMBTON (ONTARIO), federal, 1867-1873 MACKENZIE,; MACKENZIE, Alexander; MACKENZIE, Alexander</desc>
+                           </valItem>
+                           <valItem ident="plc:LAMB3">
+                              <desc>LAMBTON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LAMB4">
+                              <desc>LAMBTON-KENT (ONTARIO), federal, 1945- HENDERSON, James</desc>
+                           </valItem>
+                           <valItem ident="plc:LANA1">
+                              <desc>LANAUDIÈRE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:LANA2">
+                              <desc>LANARK (ONTARIO), federal, 1945- BLAIR, Gourlay</desc>
+                           </valItem>
+                           <valItem ident="plc:LAPR1">
+                              <desc>LAPRAIRIE (QUEBEC), federal, 1867-1872 PINSONNEAULT, Alfred; PINSONNEAULT,</desc>
+                           </valItem>
+                           <valItem ident="plc:LAPR2">
+                              <desc>LAPRAIRIE-NAPIERVILLE (QUEBEC), federal, 1904- LANCTOT, Roch</desc>
+                           </valItem>
+                           <valItem ident="plc:LAPR3">
+                              <desc>LAPRAIRIE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LASA1">
+                              <desc>LA SALLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:LASS1">
+                              <desc>L'ASSOMPTION (QUEBEC), federal, 1867-1905 ARCHAMBAULT, Louis; ARCHAMBAULT, Louis; LAURIER, R.</desc>
+                           </valItem>
+                           <valItem ident="plc:LASS2">
+                              <desc>L'ASSOMPTION (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LAUR7">
+                              <desc>LAURENTIDES (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:LAUR8">
+                              <desc>LAURIER (QUEBEC), federal, 1945- BERTRAND,</desc>
+                           </valItem>
+                           <valItem ident="plc:LAUZ1">
+                              <desc>LAUZON (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:LAVA1">
+                              <desc>LAVAL (QUEBEC), federal, 1867-1905 BELLEROSE, Joseph-Hyacinthe; BELLEROSE,; Ouimet, Joseph-Aldéric; LÉONARD, Émile</desc>
+                           </valItem>
+                           <valItem ident="plc:LAVA2">
+                              <desc>LAVAL (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LAVA3">
+                              <desc>LAVAL-TWO MOUNTAINS (QUEBEC), federal, 1945-1948 LACOMBE,; DEMERS, J.</desc>
+                           </valItem>
+                           <valItem ident="plc:LBER1">
+                              <desc>IBERVILLE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LBRO1">
+                              <desc>Lac du Brochet (TREATY 10), treaty, 1907-1907 </desc>
+                           </valItem>
+                           <valItem ident="plc:LEED1">
+                              <desc>LEEDS (ONTARIO), federal, 1904-1949 TAYLOR, George; WEBB, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:LENN3">
+                              <desc>LENNOX (ONTARIO), federal, 1867-1873 CARTWRIGHT, John; CARTWRIGHT, John; CARTWRIGHT, Richard</desc>
+                           </valItem>
+                           <valItem ident="plc:LENN4">
+                              <desc>LENNOX AND ADDINGTON (ONTARIO), federal, 1904- WILSON, Uriah</desc>
+                           </valItem>
+                           <valItem ident="plc:LENN5">
+                              <desc>LENNOX &amp; ADDINGTON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LETH1">
+                              <desc>LETHBRIDGE (ALBERTA), federal, 1945- BLACKMORE, John</desc>
+                           </valItem>
+                           <valItem ident="plc:LETH2">
+                              <desc>LETHBRIDGE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:LEVI2">
+                              <desc>LÉVIS (QUEBEC), federal, 1867-1905 BLANCHET, Joseph-Godérich; BLANCHET, Godérich; DEMERS, Louis-Jules; CARRIER,</desc>
+                           </valItem>
+                           <valItem ident="plc:LEVI3">
+                              <desc>LÉVIS (QUEBEC), federal, 1945- BOURGET,</desc>
+                           </valItem>
+                           <valItem ident="plc:LEVI4">
+                              <desc>LÉVIS (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LEWI3">
+                              <desc>LEWISPORTE (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:LFOR1">
+                              <desc>Lower Fort Garry (TREATY 1), treaty, 1871-1871 </desc>
+                           </valItem>
+                           <valItem ident="plc:LILL1">
+                              <desc>LILLOOET DISTRICT (BRITISH COLUMBIA), federal, 1871- </desc>
+                           </valItem>
+                           <valItem ident="plc:LINC1">
+                              <desc>LINCOLN (ONTARIO), federal, 1867-1949 BENSON, Rea; MERRITT, Thomas; MERRITT, Rodman; LANCASTER, E.A.; LOCKHART, J.</desc>
+                           </valItem>
+                           <valItem ident="plc:LINC2">
+                              <desc>LINCOLN (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LISG1">
+                              <desc>LISGAR (MANITOBA), federal, 1871-1872 SCHULTZ, Christian; SCHULTZ, Christian</desc>
+                           </valItem>
+                           <valItem ident="plc:LISG2">
+                              <desc>LISGAR (MANITOBA), federal, 1904- GREENWAY,</desc>
+                           </valItem>
+                           <valItem ident="plc:LISG3">
+                              <desc>LISGAR (MANITOBA), federal, 1945- WINKLER, Waldemar</desc>
+                           </valItem>
+                           <valItem ident="plc:LISL1">
+                              <desc>L'ISLET (QUEBEC), federal, 1867-1905 POULIOT, Barthélemy; POULIOT,; CASGRAIN, Baby; PAQUET, Eugène</desc>
+                           </valItem>
+                           <valItem ident="plc:LISL2">
+                              <desc>L'ISLET (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LMON1">
+                              <desc>Montreal Lake (TREATY 6), treaty, 1889-1889 </desc>
+                           </valItem>
+                           <valItem ident="plc:LOND1">
+                              <desc>LONDON (ONTARIO), federal, 1867-1949 CARLING, John; CARLING, John; HYMAN, Charles; HYMAN, C.S.; MANROSS, A.</desc>
+                           </valItem>
+                           <valItem ident="plc:LOND2">
+                              <desc>LONDON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LONG4">
+                              <desc>Long Lake (TREATY 9), treaty, 1906-1906 </desc>
+                           </valItem>
+                           <valItem ident="plc:LORIM1">
+                              <desc>LORIMIER (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:LOTB1">
+                              <desc>LOTBINIÈRE (QUEBEC), federal, 1867-1872 JOLY, Henry; JOLY, Gustave</desc>
+                           </valItem>
+                           <valItem ident="plc:LOTB2">
+                              <desc>LOTBINIÈRE (QUEBEC), federal, 1904-1949 FORTIER, Edmond; LAPOINTE,</desc>
+                           </valItem>
+                           <valItem ident="plc:LOTB3">
+                              <desc>LOTBINIÈRE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:LSAV1">
+                              <desc>Lesser Slave Lake (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:LSLA1">
+                              <desc>Lesser Slave Lake (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:LUNE1">
+                              <desc>LUNENBURG (NOVA SCOTIA), federal, 1867-1905 MCDONALD,; CHURCH, Edward; MACLEAN, Alex</desc>
+                           </valItem>
+                           <valItem ident="plc:LUNE2">
+                              <desc>LUNENBURG COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:LWINN1">
+                              <desc>Lake Winnipeg Wa-pang or Dog-head Island  (TREATY 5), treaty, 1875-1875 </desc>
+                           </valItem>
+                           <valItem ident="plc:MACD17">
+                              <desc>MACDONALD (MANITOBA), federal, 1904-1949 STAPLES, D.; WEIR, Gilbert</desc>
+                           </valItem>
+                           <valItem ident="plc:MACK5">
+                              <desc>MACKENZIE (NORTHWEST TERRITORIES), federal, 1904- CASH,</desc>
+                           </valItem>
+                           <valItem ident="plc:MACK6">
+                              <desc>MACKENZIE (SASKATCHEWAN), federal, 1945- NICHOLSON, George</desc>
+                           </valItem>
+                           <valItem ident="plc:MACL8">
+                              <desc>MACLEOD (ALBERTA), federal, 1945- HANSELL, Ernest</desc>
+                           </valItem>
+                           <valItem ident="plc:MAIS1">
+                              <desc>MAISONNEUVE (QUEBEC), federal, 1904- PRÉFONTAINE, J.</desc>
+                           </valItem>
+                           <valItem ident="plc:MAIS2">
+                              <desc>MAISONNEUVE-ROSEMONT (QUEBEC), federal, 1945- FOURNIER,</desc>
+                           </valItem>
+                           <valItem ident="plc:MALA1">
+                              <desc>MALAHIDE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:MANI1">
+                              <desc>Manitoba Post (TREATY 2), treaty, 1871-1871 </desc>
+                           </valItem>
+                           <valItem ident="plc:MAPL1">
+                              <desc>MAPLE CREEK (SASKATCHEWAN), federal, 1945- MCCUAIG, George</desc>
+                           </valItem>
+                           <valItem ident="plc:MARQ2">
+                              <desc>MARQUETTE (MANITOBA), federal, 1871-1872 MCKAY,; LYNCH, S.; CUNNINGHAM,</desc>
+                           </valItem>
+                           <valItem ident="plc:MARQ3">
+                              <desc>MARQUETTE (MANITOBA), federal, 1904- ROCHE,</desc>
+                           </valItem>
+                           <valItem ident="plc:MARQ4">
+                              <desc>MARQUETTE (MANITOBA), federal, 1945-1948 GLEN, Allison; GARSON, Sinclair</desc>
+                           </valItem>
+                           <valItem ident="plc:MART12">
+                              <desc>Marten Falls (TREATY 9), treaty, 1905-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:MASK1">
+                              <desc>MASKINONGÉ (QUEBEC), federal, 1867-1905 CARON, George; BOYER,; MAYRAND, H.</desc>
+                           </valItem>
+                           <valItem ident="plc:MASK2">
+                              <desc>MASKINONGÉ (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:MATA3">
+                              <desc>MATAPÉDIA-MATANE (QUEBEC), federal, 1945- COTÉ,</desc>
+                           </valItem>
+                           <valItem ident="plc:MATA4">
+                              <desc>Matachewan (TREATY 9), treaty, 1905-1906 </desc>
+                           </valItem>
+                           <valItem ident="plc:MATT3">
+                              <desc>Mattagami (TREATY 9), treaty, 1906-1906 </desc>
+                           </valItem>
+                           <valItem ident="plc:MEDI1">
+                              <desc>MEDICINE HAT (ALBERTA), federal, 1945- WYLIE, William</desc>
+                           </valItem>
+                           <valItem ident="plc:MEDI2">
+                              <desc>MEDICINE HAT (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:MEGA1">
+                              <desc>MÉGANTIC (QUEBEC), federal, 1867-1905 IRVINE, George; RICHARD,; SAVOIE, François</desc>
+                           </valItem>
+                           <valItem ident="plc:MEGA2">
+                              <desc>MÉGANTIC (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:MEGA3">
+                              <desc>MÉGANTIC-FRONTENAC (QUEBEC), federal, 1945- LAFONTAINE,</desc>
+                           </valItem>
+                           <valItem ident="plc:MELF1">
+                              <desc>MELFORT (SASKATCHEWAN), federal, 1945- WRIGHT, Percy</desc>
+                           </valItem>
+                           <valItem ident="plc:MELV2">
+                              <desc>MELVILLE (SASKATCHEWAN), federal, 1945- GARDINER, James</desc>
+                           </valItem>
+                           <valItem ident="plc:MERC5">
+                              <desc>MERCIER (QUEBEC), federal, 1945- JEAN,</desc>
+                           </valItem>
+                           <valItem ident="plc:MIDL1">
+                              <desc>MIDLAND (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:MISS2">
+                              <desc>MISSISQUOI (QUEBEC), federal, 1867-1905 CHAMBERLIN,; BAKER, Barnard; BAKER, B.; MEIGS, D.B.</desc>
+                           </valItem>
+                           <valItem ident="plc:MISS3">
+                              <desc>MISSISQUOI (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:MITC5">
+                              <desc>MITCHELL (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:MONC1">
+                              <desc>MONCK (ONTARIO), federal, 1867-1872 MCCALLUM,; EDGAR, David</desc>
+                           </valItem>
+                           <valItem ident="plc:MONT2">
+                              <desc>MONTARVILLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:MONT3">
+                              <desc>MONTCALM (QUEBEC), federal, 1867-1905 DUFRESNE,; DUGAS,; DUGAS,; DUGAS, F.O.</desc>
+                           </valItem>
+                           <valItem ident="plc:MONT4">
+                              <desc>MONTMAGNY (QUEBEC), federal, 1867-1905 BEAUBIEN, Joseph-Octave; TASCHEREAU,; LAVERGNE, Armand; LAVERGNE, Armand</desc>
+                           </valItem>
+                           <valItem ident="plc:MONT5">
+                              <desc>MONTMORENCY (QUEBEC), federal, 1867-1905 CAUCHON, Joseph; LANGLOIS,; LANGLOIS,; PARENT, George</desc>
+                           </valItem>
+                           <valItem ident="plc:MONT6">
+                              <desc>MONTCALM (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:MONT7">
+                              <desc>MONTMAGNY (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:MONT8">
+                              <desc>MONTMORENCY (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:MONT9">
+                              <desc>MONTMAGNY-L'ISLET (QUEBEC), federal, 1945- LESAGE,</desc>
+                           </valItem>
+                           <valItem ident="plc:MOOS5">
+                              <desc>MOOSE JAW (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:MOOS6">
+                              <desc>MOOSOMIN (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:MOOS7">
+                              <desc>MOOSE JAW (SASKATCHEWAN), federal, 1945- THATCHER, Wilbert</desc>
+                           </valItem>
+                           <valItem ident="plc:MOOS8">
+                              <desc>Moose Factory  (TREATY 9), treaty, 1905-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:MOUN1">
+                              <desc>MOUNT ROYAL (QUEBEC), federal, 1945- WHITMAN,</desc>
+                           </valItem>
+                           <valItem ident="plc:MUSK4">
+                              <desc>MUSKOKA (ONTARIO), federal, 1872-1905 COCKBURN, P.; WRIGHT, William</desc>
+                           </valItem>
+                           <valItem ident="plc:MUSK5">
+                              <desc>MUSKOKA-ONTARIO (ONTARIO), federal, 1945- MACDONNELL, MacKerras</desc>
+                           </valItem>
+                           <valItem ident="plc:NANA1">
+                              <desc>NANAIMO (BRITISH COLUMBIA), federal, 1904-1949 SMITH, Ralph; PEARKES, George</desc>
+                           </valItem>
+                           <valItem ident="plc:NANA2">
+                              <desc>NANAIMO (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:NAPI1">
+                              <desc>NAPIERVILLE (QUEBEC), federal, 1867-1873 COUPAL, dit LA REINE,; DORION, Aimé; DORION, Antoine-Aimé</desc>
+                           </valItem>
+                           <valItem ident="plc:NAPI2">
+                              <desc>NAPIERVILLE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NBAT1">
+                              <desc>NORTH BATTLEFORD (SASKATCHEWAN), federal, 1945- TOWNLEY-SMITH, Frederick</desc>
+                           </valItem>
+                           <valItem ident="plc:NBON1">
+                              <desc>BONAVISTA NORTH (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:NBRA1">
+                              <desc>BRANT NORTH (ONTARIO), federal, 1867-1872 BOWN, John; FLEMING, Gavin</desc>
+                           </valItem>
+                           <valItem ident="plc:NBRU1">
+                              <desc>BRUCE NORTH (ONTARIO), federal, 1867-1905 SPROAT, Alexander; GILLIES, John; BLAND, L.T.</desc>
+                           </valItem>
+                           <valItem ident="plc:NCAP1">
+                              <desc>NORTH CAPE BRETON AND VICTORIA (NOVA SCOTIA), federal, 1904- MCKENZIE, D.D.</desc>
+                           </valItem>
+                           <valItem ident="plc:NCAP2">
+                              <desc>CAPE BRETON NORTH AND VICTORIA (NOVA SCOTIA), federal, 1945- MACLEAN, Matthew</desc>
+                           </valItem>
+                           <valItem ident="plc:NCOL1">
+                              <desc>COLCHESTER COUNTY (NORTH DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:NCWI1">
+                              <desc>WINNIPEG NORTH CENTRE (MANITOBA), federal, 1945- KNOWLES, H.</desc>
+                           </valItem>
+                           <valItem ident="plc:NEEP1">
+                              <desc>NEEPAWA (MANITOBA), federal, 1945- BRACKEN,</desc>
+                           </valItem>
+                           <valItem ident="plc:NELS2">
+                              <desc>Nelson House  (TREATY 5), treaty, 1908-1908 </desc>
+                           </valItem>
+                           <valItem ident="plc:NESS1">
+                              <desc>ESSEX NORTH (ONTARIO), federal, 1904- SUTHERLAND, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:NEWB1">
+                              <desc>New Brunswick House (TREATY 9), treaty, 1906-1906 </desc>
+                           </valItem>
+                           <valItem ident="plc:NEWC1">
+                              <desc>NEWCASTLE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:NEWP1">
+                              <desc>New Post (TREATY 9), treaty, 1905-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:NEWW1">
+                              <desc>NEW WESTMINSTER DISTRICT (BRITISH COLUMBIA), federal, 1871- NELSON, Hugh</desc>
+                           </valItem>
+                           <valItem ident="plc:NEWW2">
+                              <desc>NEW WESTMINSTER (BRITISH COLUMBIA), federal, 1872-1949 NELSON, Hugh; KENNEDY, James; REID, Tom</desc>
+                           </valItem>
+                           <valItem ident="plc:NEWW3">
+                              <desc>NEW WESTMINSTER (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:NFCA1">
+                              <desc>near Fort Pitt (TREATY 6), treaty, 1876-1876 </desc>
+                           </valItem>
+                           <valItem ident="plc:NGRE1">
+                              <desc>GREY NORTH (ONTARIO), federal, 1867-1949 SNIDER, George; SNIDER,; TELFORD, William; CASE, Wilfred; CASE, Garfield</desc>
+                           </valItem>
+                           <valItem ident="plc:NHAN1">
+                              <desc>HANTS COUNTY (NORTH DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:NHAS1">
+                              <desc>HASTINGS NORTH (ONTARIO), federal, 1867-1872 BOWELL,; BOWELL,</desc>
+                           </valItem>
+                           <valItem ident="plc:NHAS2">
+                              <desc>NORTH HASTINGS (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NHUR1">
+                              <desc>HURON NORTH (ONTARIO), federal, 1867-1949 WHITEHEAD,; FARROW,; CARDIFF, Elston</desc>
+                           </valItem>
+                           <valItem ident="plc:NIAG1">
+                              <desc>NIAGARA (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:NIAG2">
+                              <desc>NIAGARA (ONTARIO), federal, 1867-1872 MORRISON,; MORRISON,</desc>
+                           </valItem>
+                           <valItem ident="plc:NIAG3">
+                              <desc>NIAGARA (TOWN) (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NICO1">
+                              <desc>NICOLET (QUEBEC), federal, 1867-1905 GAUDET,; GAUDET,; LEMIEUX, Rodolphe</desc>
+                           </valItem>
+                           <valItem ident="plc:NICO2">
+                              <desc>NICOLET (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NICO3">
+                              <desc>NICOLET-YAMASKA (QUEBEC), federal, 1945-1949 DUBOIS,; CHAPDELAINE, Ethel</desc>
+                           </valItem>
+                           <valItem ident="plc:NIPI1">
+                              <desc>NIPISSING (ONTARIO), federal, 1904-1949 MCCOOL, Charles; GAUTHIER,</desc>
+                           </valItem>
+                           <valItem ident="plc:NKIN1">
+                              <desc>KINGS COUNTY (NORTH DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:NLAN1">
+                              <desc>LANARK NORTH (ONTARIO), federal, 1867-1905 MACDOUGALL, William; GALBRAITH,; CALDWELL, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:NLAN2">
+                              <desc>NORTH LANARK (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NLEE1">
+                              <desc>LEEDS NORTH AND GRENVILLE NORTH (ONTARIO), federal, 1867-1872 JONES,; JONES,</desc>
+                           </valItem>
+                           <valItem ident="plc:NLEE2">
+                              <desc>NORTH LEEDS &amp; GRENVILLE (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NMID1">
+                              <desc>MIDDLESEX NORTH (ONTARIO), federal, 1867-1905 SCATCHERD,; SCATCHERD,; RATZ, Valentine</desc>
+                           </valItem>
+                           <valItem ident="plc:NNOR1">
+                              <desc>NORFOLK NORTH (ONTARIO), federal, 1867-1872 WALSH,; CHARLTON,</desc>
+                           </valItem>
+                           <valItem ident="plc:NONT1">
+                              <desc>ONTARIO NORTH (ONTARIO), federal, 1867-1905 THOMPSON, John; GIBBS, William; GRANT, D.</desc>
+                           </valItem>
+                           <valItem ident="plc:NONT2">
+                              <desc>NORTH ONTARIO (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NORF1">
+                              <desc>NORFOLK (ONTARIO), federal, 1904-1949 TISDALE, David; BARRETT, Butler</desc>
+                           </valItem>
+                           <valItem ident="plc:NORF2">
+                              <desc>NORFOLK (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NORT3">
+                              <desc>NORTHUMBERLAND (NEW BRUNSWICK), federal, 1867-1949 JOHNSON, M.; HUTCHISON,; MITCHELL, Peter; LOGGIE, William; MALONEY, William</desc>
+                           </valItem>
+                           <valItem ident="plc:NORT4">
+                              <desc>NORTHUMBERLAND (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:NORT5">
+                              <desc>NORTHUMBERLAND (ONTARIO), federal, 1945- DROPE, Earle</desc>
+                           </valItem>
+                           <valItem ident="plc:NORV1">
+                              <desc>Norway House (TREATY 5), treaty, 1875-1875 </desc>
+                           </valItem>
+                           <valItem ident="plc:NORW1">
+                              <desc>Norway House (TREATY 5), treaty, 1908-1908 </desc>
+                           </valItem>
+                           <valItem ident="plc:NOXF1">
+                              <desc>OXFORD NORTH (ONTARIO), federal, 1867-1905 OLIVER, Thomas; OLIVER, Thomas; SUTHERLAND, James; SMITH, George</desc>
+                           </valItem>
+                           <valItem ident="plc:NOXF2">
+                              <desc>NORTH OXFORD (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NPER1">
+                              <desc>PERTH NORTH (ONTARIO), federal, 1867-1905 REDFORD, James; DALY, Thomas; MACLAREN, Alexander</desc>
+                           </valItem>
+                           <valItem ident="plc:NQUA1">
+                              <desc>NORTH QU'APPELLE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:NQUE1">
+                              <desc>QUEENS COUNTY (NORTH DISTRICT) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:NREG1">
+                              <desc>NORTH REGINA (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:NREN1">
+                              <desc>RENFREW NORTH (ONTARIO), federal, 1867-1949 RANKIN, John; HINCKS, Francis; FINDLAY, James; WHITE, Peter; WARREN, Melville</desc>
+                           </valItem>
+                           <valItem ident="plc:NSIM1">
+                              <desc>SIMCOE NORTH (ONTARIO), federal, 1867-1949 MCCONKEY, Thomas; COOK, Herman; MCCARTHY, Leighton; FERGUSON, H.</desc>
+                           </valItem>
+                           <valItem ident="plc:NSIM2">
+                              <desc>NORTH SIMCOE (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NTOR1">
+                              <desc>TORONTO NORTH (ONTARIO), federal, 1904- FOSTER, George</desc>
+                           </valItem>
+                           <valItem ident="plc:NTRI1">
+                              <desc>TRINITY NORTH (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:NVAN1">
+                              <desc>VANCOUVER NORTH (BRITISH COLUMBIA), federal, 1945- SINCLAIR, James</desc>
+                           </valItem>
+                           <valItem ident="plc:NVIC1">
+                              <desc>VICTORIA NORTH (ONTARIO), federal, 1867-1872 MORRISON, John; STAPLES, Joseph</desc>
+                           </valItem>
+                           <valItem ident="plc:NWAG1">
+                              <desc>North-West Angle (TREATY 3), treaty, 1873-1873 </desc>
+                           </valItem>
+                           <valItem ident="plc:NWAT1">
+                              <desc>WATERLOO NORTH (ONTARIO), federal, 1867-1949 BOWMAN, Isaac; BOWMAN, Isaac; SEAGRAM, Joseph; BREITHAUPT, Orville</desc>
+                           </valItem>
+                           <valItem ident="plc:NWAT2">
+                              <desc>NORTH WATERLOO (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NWEL1">
+                              <desc>WELLINGTON NORTH (ONTARIO), federal, 1867-1949 DREW, George; HIGINBOTHAM, Nathaniel; MARTIN, Thomas; MENARY,</desc>
+                           </valItem>
+                           <valItem ident="plc:NWEL2">
+                              <desc>NORTH WELLINGTON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NWEN1">
+                              <desc>WENTWORTH NORTH (ONTARIO), federal, 1867-1872 MCMONIES, James; BAIN, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:NWEN2">
+                              <desc>NORTH WENTWORTH (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:NWIN1">
+                              <desc>WINNIPEG NORTH (MANITOBA), federal, 1945- STEWART, McLeod</desc>
+                           </valItem>
+                           <valItem ident="plc:NYOR1">
+                              <desc>YORK NORTH (ONTARIO), federal, 1867-1949 WELLS, James; DODGE, Anson; MULOCK, Sir; AYLESWORTH, A.; SMITH, E.</desc>
+                           </valItem>
+                           <valItem ident="plc:NYOR2">
+                              <desc>NORTH YORK (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:ONTA1">
+                              <desc>ONTARIO (ONTARIO), federal, 1945-1948 SINCLAIR, Edmund Newto; WILLIAMS,</desc>
+                           </valItem>
+                           <valItem ident="plc:OSAN1">
+                              <desc>Osnaburg (TREATY 9), treaty, 1905-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:OTTA1">
+                              <desc>OTTAWA (CITY OF) (ONTARIO), federal, 1867-1905 CURRIER, Joseph; LEWIS, John; CURRIER, Joseph; BELCOURT,; STEWART,</desc>
+                           </valItem>
+                           <valItem ident="plc:OTTA2">
+                              <desc>OTTAWA (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:OTTA3">
+                              <desc>OTTAWA (COUNTY OF) (QUEBEC), federal, 1867-1872 WRIGHT,; WRIGHT,</desc>
+                           </valItem>
+                           <valItem ident="plc:OTTA4">
+                              <desc>OTTAWA (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:OUTR1">
+                              <desc>OUTREMONT (QUEBEC), federal, 1945- RINFRET, Charles</desc>
+                           </valItem>
+                           <valItem ident="plc:OXFO1">
+                              <desc>OXFORD (ONTARIO), federal, 1945- DANIEL, R.</desc>
+                           </valItem>
+                           <valItem ident="plc:OXFO2">
+                              <desc>Oxford House  (TREATY 5), treaty, 1909-1909 </desc>
+                           </valItem>
+                           <valItem ident="plc:PARK5">
+                              <desc>PARKDALE (ONTARIO), federal, 1945-1946 BRUCE, A.; TIMMINS,</desc>
+                           </valItem>
+                           <valItem ident="plc:PARR1">
+                              <desc>PARRY SOUND (ONTARIO), federal, 1904-1949 WATSON, Robert; MCDONALD,</desc>
+                           </valItem>
+                           <valItem ident="plc:PEAC1">
+                              <desc>PEACE RIVER (ALBERTA), federal, 1945- LOW, Solon</desc>
+                           </valItem>
+                           <valItem ident="plc:PEAC2">
+                              <desc>Peace River Landing (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:PEEL1">
+                              <desc>PEEL (ONTARIO), federal, 1867-1949 CAMERON, John; SMITH, Robert; BLAIN, Richard; GRAYDON,</desc>
+                           </valItem>
+                           <valItem ident="plc:PEEL2">
+                              <desc>PEEL (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:PERT1">
+                              <desc>PERTH (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:PERT2">
+                              <desc>PERTH (ONTARIO), federal, 1945- BRADSHAW, James</desc>
+                           </valItem>
+                           <valItem ident="plc:PETE2">
+                              <desc>PETERBOROUGH (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:PICT1">
+                              <desc>PICTOU (NOVA SCOTIA), federal, 1867-1905 CARMICHAEL, W.; DOULL,; MCDONALD, James; MACDONALD, Edward</desc>
+                           </valItem>
+                           <valItem ident="plc:PICT2">
+                              <desc>PICTOU (NOVA SCOTIA), federal, 1945- MCCULLOCH, Henry</desc>
+                           </valItem>
+                           <valItem ident="plc:PLAC1">
+                              <desc>PLACENTIA-ST. MARY'S (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:PLAC2">
+                              <desc>PLACENTIA EAST (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:POIN1">
+                              <desc>POINTE COUPÉE (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:POIN2">
+                              <desc>POINTE-À-GROUETTE (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:POIN3">
+                              <desc>POINTE COUPÉE (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:PONT1">
+                              <desc>PONTIAC (QUEBEC), federal, 1867-1872 HEATH,; WRIGHT, McKay</desc>
+                           </valItem>
+                           <valItem ident="plc:PONT2">
+                              <desc>PONTIAC (QUEBEC), federal, 1904- BRABAZON, Gerald</desc>
+                           </valItem>
+                           <valItem ident="plc:PONT3">
+                              <desc>PONTIAC (QUEBEC), federal, 1945-1946 MCDONALD,; CAOUETTE, Francis</desc>
+                           </valItem>
+                           <valItem ident="plc:PONT4">
+                              <desc>PONTIAC (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:PORT2">
+                              <desc>PORTAGE LA PRAIRIE (MANITOBA), federal, 1904- CRAWFORD,</desc>
+                           </valItem>
+                           <valItem ident="plc:PORT3">
+                              <desc>PORTAGE LA PRAIRIE (MANITOBA), federal, 1945-1946 LEADER,; Miller, Charlton</desc>
+                           </valItem>
+                           <valItem ident="plc:PORT4">
+                              <desc>PORT DE GRAVE (NEWFOUNDLAND), nonFederal, 1865-1946 </desc>
+                           </valItem>
+                           <valItem ident="plc:PORT5">
+                              <desc>PORT-AU-PORT (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:PORT6">
+                              <desc>PORT ARTHUR (ONTARIO), federal, 1945- HOWE, Decatur</desc>
+                           </valItem>
+                           <valItem ident="plc:PORT7">
+                              <desc>PORTNEUF (QUEBEC), federal, 1867-1905 BROUSSEAU,; ST-GEORGES, Alfred; DELISLE, M.-S.</desc>
+                           </valItem>
+                           <valItem ident="plc:PORT8">
+                              <desc>PORTNEUF (QUEBEC), federal, 1945- GAUTHIER,</desc>
+                           </valItem>
+                           <valItem ident="plc:PORT9">
+                              <desc>PORTNEUF (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:PRES1">
+                              <desc>PRESCOTT (ONTARIO), federal, 1867-1949 HAGAR, Albert; HAGAR, Albert; PROULX, E.; BERTRAND, Oscar</desc>
+                           </valItem>
+                           <valItem ident="plc:PRES2">
+                              <desc>PRESCOTT (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:PRIN3">
+                              <desc>PRINCE ALBERT (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:PRIN4">
+                              <desc>PRINCE EDWARD (ONTARIO), federal, 1867-1905 ROSS, Walter; ROSS, Walter; ALCORN,</desc>
+                           </valItem>
+                           <valItem ident="plc:PRIN5">
+                              <desc>PRINCE EDWARD (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:PRIN6">
+                              <desc>PRINCE EDWARD-LENNOX (ONTARIO), federal, 1945- TUSTIN, James</desc>
+                           </valItem>
+                           <valItem ident="plc:PRIN7">
+                              <desc>PRINCE COUNTY (PRINCE EDWARD ISLAND), federal, 1873- YEO,; POPE, Colledge</desc>
+                           </valItem>
+                           <valItem ident="plc:PRIN8">
+                              <desc>PRINCE (PRINCE EDWARD ISLAND), federal, 1904-1949 LEFURGEY,; MACNAUGHT, Watson</desc>
+                           </valItem>
+                           <valItem ident="plc:PRIN9">
+                              <desc>PRINCE ALBERT (SASKATCHEWAN), federal, 1945- BOWERMAN, Edward</desc>
+                           </valItem>
+                           <valItem ident="plc:PROV3">
+                              <desc>PROVENCHER (MANITOBA), federal, 1871-1873 DELORME,; CARTIER,; RIEL,</desc>
+                           </valItem>
+                           <valItem ident="plc:PROV4">
+                              <desc>PROVENCHER (MANITOBA), federal, 1904- CYR,</desc>
+                           </valItem>
+                           <valItem ident="plc:PROV5">
+                              <desc>PROVENCHER (MANITOBA), federal, 1945- JUTRAS,</desc>
+                           </valItem>
+                           <valItem ident="plc:QUAP1">
+                              <desc>QU'APPELLE (NORTHWEST TERRITORIES), federal, 1904- LAKE, Stuart</desc>
+                           </valItem>
+                           <valItem ident="plc:QUAP2">
+                              <desc>QU'APPELLE (SASKATCHEWAN), federal, 1945- STRUM, Gladys</desc>
+                           </valItem>
+                           <valItem ident="plc:QUAP3">
+                              <desc>Qu'Appelle Lakes (TREATY 4), treaty, 1875-1875 </desc>
+                           </valItem>
+                           <valItem ident="plc:QUEB1">
+                              <desc>QUEBEC COUNTY (QUEBEC), federal, 1867-1905 CHAUVEAU, J.O.; CHAUVEAU, J.O.; CARON, Joseph-Philippe-René-Adolphe; FITZPATRICK, Chas.</desc>
+                           </valItem>
+                           <valItem ident="plc:QUEB2">
+                              <desc>QUEBEC COUNTY (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:QUEB3">
+                              <desc>QUÉBEC-MONTMORENCY (QUEBEC), federal, 1945- LACROIX,</desc>
+                           </valItem>
+                           <valItem ident="plc:QUEE1">
+                              <desc>QUEEN'S (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:QUEE2">
+                              <desc>QUEENS (NEW BRUNSWICK), federal, 1867-1872 FARRIS,; FARRIS, John</desc>
+                           </valItem>
+                           <valItem ident="plc:QUEE3">
+                              <desc>QUEENS (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:QUEE4">
+                              <desc>QUEENS (NOVA SCOTIA), federal, 1867-1872 FORBES, F.; FORBES, James</desc>
+                           </valItem>
+                           <valItem ident="plc:QUEE5">
+                              <desc>QUEENS COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:QUEE6">
+                              <desc>QUEENS-LUNENBURG (NOVA SCOTIA), federal, 1945- WINTERS, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:QUEE7">
+                              <desc>QUEEN'S COUNTY (PRINCE EDWARD ISLAND), federal, 1873- SINCLAIR,; LAIRD,; LAIRD,</desc>
+                           </valItem>
+                           <valItem ident="plc:QUEE8">
+                              <desc>QUEEN'S (PRINCE EDWARD ISLAND), federal, 1904-1949 MCLEAN, A.; MARTIN,; DOUGLAS, Lester; MCLURE, Chester S.</desc>
+                           </valItem>
+                           <valItem ident="plc:QUIN2">
+                              <desc>QUINTE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:REDD2">
+                              <desc>RED DEER (ALBERTA), federal, 1945- SHAW, Frederick</desc>
+                           </valItem>
+                           <valItem ident="plc:REDD3">
+                              <desc>RED DEER (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:REGI1">
+                              <desc>REGINA CITY (SASKATCHEWAN), federal, 1945- PROBE, John</desc>
+                           </valItem>
+                           <valItem ident="plc:RENF1">
+                              <desc>RENFREW (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:REPE1">
+                              <desc>REPENTIGNY (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:REST1">
+                              <desc>RESTIGOUCHE (NEW BRUNSWICK), federal, 1867-1905 MCMILLAN, John; CALDWELL, Murray; MOFFATT,; MOFFATT, George; REID, James</desc>
+                           </valItem>
+                           <valItem ident="plc:REST2">
+                              <desc>RESTIGOUCHE (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:REST3">
+                              <desc>RESTIGOUCHE-MADAWASKA (NEW BRUNSWICK), federal, 1945- MICHAUD,</desc>
+                           </valItem>
+                           <valItem ident="plc:RICH10">
+                              <desc>RICHELIEU (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:RICH11">
+                              <desc>RICHMOND-WOLFE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:RICH12">
+                              <desc>RICHELIEU-VERCHÈRES (QUEBEC), federal, 1945-1946 CARDIN, Brooke; COURNOYER,</desc>
+                           </valItem>
+                           <valItem ident="plc:RICH5">
+                              <desc>RICHMOND (NOVA SCOTIA), federal, 1867-1905 CROKE, Joseph; LE VESCONTE,; LE VESCONTE, Isaac; FINLAYSON, Duncan</desc>
+                           </valItem>
+                           <valItem ident="plc:RICH6">
+                              <desc>RICHMOND COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:RICH7">
+                              <desc>RICHELIEU (QUEBEC), federal, 1867-1905 MCCARTHY,; BARTHE, Isidore; MATHIEU, Michel; BRUNEAU, A.A.</desc>
+                           </valItem>
+                           <valItem ident="plc:RICH8">
+                              <desc>RICHMOND-WOLFE (QUEBEC), federal, 1867-1905 WEBB, Hoste; WEBB, William; TOBIN, Edmund</desc>
+                           </valItem>
+                           <valItem ident="plc:RICH9">
+                              <desc>RICHMOND-WOLFE (QUEBEC), federal, 1945- MULLINS,</desc>
+                           </valItem>
+                           <valItem ident="plc:RIDE1">
+                              <desc>RIDEAU (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:RIGA1">
+                              <desc>RIGAUD (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:RIMO1">
+                              <desc>RIMOUSKI (QUEBEC), federal, 1867-1905 SYLVAIN,; FISET, J.B.; ROSS, J.</desc>
+                           </valItem>
+                           <valItem ident="plc:RIMO2">
+                              <desc>RIMOUSKI (QUEBEC), federal, 1945- BELZILE,</desc>
+                           </valItem>
+                           <valItem ident="plc:RIMO3">
+                              <desc>RIMOUSKI (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:ROCK1">
+                              <desc>Rocky Mountain House  (TREATY 6), treaty, 1994-1950 </desc>
+                           </valItem>
+                           <valItem ident="plc:ROSE3">
+                              <desc>ROSEDALE (ONTARIO), federal, 1945- JACKMAN, Rutherford</desc>
+                           </valItem>
+                           <valItem ident="plc:ROSE4">
+                              <desc>ROSETOWN-BIGGAR (SASKATCHEWAN), federal, 1945- COLDWELL, Major</desc>
+                           </valItem>
+                           <valItem ident="plc:ROST1">
+                              <desc>ROSTHERN (SASKATCHEWAN), federal, 1945-1948 TUCKER, Walter; Boucher, William</desc>
+                           </valItem>
+                           <valItem ident="plc:ROUG1">
+                              <desc>ROUGEMONT (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:ROUV1">
+                              <desc>ROUVILLE (QUEBEC), federal, 1867-1905 CHEVAL, alias SAINT-JACQUES,; MERCIER, Honoré; BRODEUR, L.; BRODEUR, L.</desc>
+                           </valItem>
+                           <valItem ident="plc:ROUV2">
+                              <desc>ROUVILLE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:ROYA1">
+                              <desc>ROYAL (NEW BRUNSWICK), federal, 1945- BROOKS, J.</desc>
+                           </valItem>
+                           <valItem ident="plc:RUSS2">
+                              <desc>RUSSELL (ONTARIO), federal, 1867-1949 GRANT, James; GRANT, James; WILSON, Norman; GOUR,</desc>
+                           </valItem>
+                           <valItem ident="plc:RUSS3">
+                              <desc>RUSSELL (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SALA1">
+                              <desc>SALABERRY (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:SALB1">
+                              <desc>ST. ALBERT (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:SALC1">
+                              <desc>SALTCOATS (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:SASK1">
+                              <desc>SASKATCHEWAN (PROVISIONAL DISTRICT) (NORTHWEST TERRITORIES), federal, 1904- LAMONT, Henderson</desc>
+                           </valItem>
+                           <valItem ident="plc:SASK2">
+                              <desc>SASKATOON CITY (SASKATCHEWAN), federal, 1945- KNIGHT, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:SASK3">
+                              <desc>SASKATOON (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:SAUG1">
+                              <desc>SAUGEEN (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:SBON1">
+                              <desc>BONAVISTA SOUTH (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:SBRA1">
+                              <desc>BRANT SOUTH (ONTARIO), federal, 1867-1872 WOOD, Edmund; PATERSON, William</desc>
+                           </valItem>
+                           <valItem ident="plc:SBRU1">
+                              <desc>BRUCE SOUTH (ONTARIO), federal, 1867-1905 HURDON, Francis; BLAKE, Edward; BLAKE, Edward; MCKENZIE, Peter</desc>
+                           </valItem>
+                           <valItem ident="plc:SCAP1">
+                              <desc>CAPE BRETON SOUTH (NOVA SCOTIA), federal, 1904- JOHNSTON, Alex.</desc>
+                           </valItem>
+                           <valItem ident="plc:SCAP2">
+                              <desc>CAPE BRETON SOUTH (NOVA SCOTIA), federal, 1945- GILLIS, Clarence</desc>
+                           </valItem>
+                           <valItem ident="plc:SCOL2">
+                              <desc>COLCHESTER COUNTY (SOUTH DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:SCWI1">
+                              <desc>WINNIPEG SOUTH CENTRE (MANITOBA), federal, 1945- MAYBANK,</desc>
+                           </valItem>
+                           <valItem ident="plc:SELK1">
+                              <desc>SELKIRK (MANITOBA), federal, 1871-1872 SMITH, Alexander; SMITH, A.</desc>
+                           </valItem>
+                           <valItem ident="plc:SELK2">
+                              <desc>SELKIRK (MANITOBA), federal, 1904- JACKSON,</desc>
+                           </valItem>
+                           <valItem ident="plc:SELK3">
+                              <desc>SELKIRK (MANITOBA), federal, 1945- BRYCE,</desc>
+                           </valItem>
+                           <valItem ident="plc:SESS1">
+                              <desc>ESSEX SOUTH (ONTARIO), federal, 1904-1949 CLARKE, A.H.; CLARK, Murray</desc>
+                           </valItem>
+                           <valItem ident="plc:SGRE1">
+                              <desc>GRENVILLE SOUTH (ONTARIO), federal, 1867-1872 SHANLY, Walter; BROUSE, Henry</desc>
+                           </valItem>
+                           <valItem ident="plc:SGRE2">
+                              <desc>GREY SOUTH (ONTARIO), federal, 1867-1905 JACKSON, George; LANDERKIN,; MILLER, Henry</desc>
+                           </valItem>
+                           <valItem ident="plc:SHAN3">
+                              <desc>HANTS COUNTY (SOUTH DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:SHAS2">
+                              <desc>SOUTH HASTINGS (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SHAS3">
+                              <desc>HASTINGS SOUTH (ONTARIO), federal, 1945- STOKES, Henry</desc>
+                           </valItem>
+                           <valItem ident="plc:SHAW4">
+                              <desc>SHAWINIGAN (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:SHEB1">
+                              <desc>Shebandowan Lakes (TREATY 3), treaty, 1871-1871 </desc>
+                           </valItem>
+                           <valItem ident="plc:SHEF1">
+                              <desc>SHEFFORD (QUEBEC), federal, 1867-1905 HUNTINGTON, Seth; HUNTINGTON, Lucius; PARMELEE, Charles</desc>
+                           </valItem>
+                           <valItem ident="plc:SHEF2">
+                              <desc>SHEFFORD (QUEBEC), federal, 1945- BOIVIN,</desc>
+                           </valItem>
+                           <valItem ident="plc:SHEF3">
+                              <desc>SHEFFORD (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SHEL1">
+                              <desc>SHELBURNE (NOVA SCOTIA), federal, 1867- COFFIN,</desc>
+                           </valItem>
+                           <valItem ident="plc:SHEL2">
+                              <desc>SHELBURNE (NOVA SCOTIA), federal, 1872-1873 COFFIN, Thomas; COFFIN, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:SHEL3">
+                              <desc>SHELBURNE AND QUEEN'S (NOVA SCOTIA), federal, 1904- FIELDING, W.</desc>
+                           </valItem>
+                           <valItem ident="plc:SHEL4">
+                              <desc>SHELBURNE COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:SHEL5">
+                              <desc>SHELBURNE-YARMOUTH-CLARE (NOVA SCOTIA), federal, 1945- BAKER, Loran</desc>
+                           </valItem>
+                           <valItem ident="plc:SHER3">
+                              <desc>SHERBROOKE (TOWN OF) (QUEBEC), federal, 1867-1905 GALT, Tilloch; BROOKS, Edward; WORTHINGTON, Arthur</desc>
+                           </valItem>
+                           <valItem ident="plc:SHER4">
+                              <desc>SHERBROOKE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SHER5">
+                              <desc>SHERBROOKE (QUEBEC), federal, 1945- GINGUES,</desc>
+                           </valItem>
+                           <valItem ident="plc:SHUR3">
+                              <desc>HURON SOUTH (ONTARIO), federal, 1867-1905 CAMERON, Collin; CAMERON, Collin; GUNN, Benjamin</desc>
+                           </valItem>
+                           <valItem ident="plc:SKEE1">
+                              <desc>SKEENA (BRITISH COLUMBIA), federal, 1945- ARCHIBALD, Harry</desc>
+                           </valItem>
+                           <valItem ident="plc:SKIN2">
+                              <desc>KINGS COUNTY (SOUTH DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:SKIN3">
+                              <desc>2ND KINGS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:SLAN1">
+                              <desc>LANARK SOUTH (ONTARIO), federal, 1867-1905 MORRIS,; MORRIS, Alexander; HAGGART, Graham; HAGGART, John</desc>
+                           </valItem>
+                           <valItem ident="plc:SLAN2">
+                              <desc>SOUTH LANARK (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SLEE1">
+                              <desc>LEEDS SOUTH (ONTARIO), federal, 1867-1872 CRAWFORD,; RICHARDS, N.</desc>
+                           </valItem>
+                           <valItem ident="plc:SLEE2">
+                              <desc>SOUTH LEEDS (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SMI10">
+                              <desc>Smith's Landing (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:SNOR1">
+                              <desc>NORFOLK SOUTH (ONTARIO), federal, 1867-1872 LAWSON,; WALLACE,</desc>
+                           </valItem>
+                           <valItem ident="plc:SONT1">
+                              <desc>ONTARIO SOUTH (ONTARIO), federal, 1867-1905 GIBBS, Thomas; GIBBS, Thomas; GIBBS, Thomas; CHRISTIE,</desc>
+                           </valItem>
+                           <valItem ident="plc:SONT2">
+                              <desc>SOUTH ONTARIO (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SORE2">
+                              <desc>SOREL (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:SORE3">
+                              <desc>Quebec-Sorel (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:SOUL1">
+                              <desc>SOULANGES (QUEBEC), federal, 1867-1905 MASSON,; LANTHIER, Jacques-Philippe; BOURBONNAIS, Augustin</desc>
+                           </valItem>
+                           <valItem ident="plc:SOUL2">
+                              <desc>SOULANGES (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SOUR1">
+                              <desc>SOURIS (MANITOBA), federal, 1904- SCHAFFNER,</desc>
+                           </valItem>
+                           <valItem ident="plc:SOUR2">
+                              <desc>SOURIS (MANITOBA), federal, 1945- ROSS, Arthur</desc>
+                           </valItem>
+                           <valItem ident="plc:SOUR3">
+                              <desc>SOURIS (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:SOXF1">
+                              <desc>OXFORD SOUTH (ONTARIO), federal, 1867-1905 BODWELL, Ebenezer; BODWELL, Ebenezer; SCHELL, Malcolm</desc>
+                           </valItem>
+                           <valItem ident="plc:SOXF2">
+                              <desc>SOUTH OXFORD (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SPAD1">
+                              <desc>SPADINA (ONTARIO), federal, 1945- CROLL, Arnold</desc>
+                           </valItem>
+                           <valItem ident="plc:SPER1">
+                              <desc>PERTH SOUTH (ONTARIO), federal, 1867-1905 MACFARLANE, Robert; TROW, James; MCINTYRE, Gilbert</desc>
+                           </valItem>
+                           <valItem ident="plc:SPLI1">
+                              <desc>Split Lake (TREATY 5), treaty, 1908-1908 </desc>
+                           </valItem>
+                           <valItem ident="plc:SPRI1">
+                              <desc>SPRINGFIELD (MANITOBA), federal, 1945- SINNOTT, Sylvester</desc>
+                           </valItem>
+                           <valItem ident="plc:SPRI2">
+                              <desc>2ND PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:SQUA1">
+                              <desc>SOUTH QU'APPELLE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:SQUE1">
+                              <desc>QUEENS COUNTY (SOUTH DISTRICT) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:SQUE2">
+                              <desc>2ND QUEENS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:SQUE3">
+                              <desc>QUEBEC SOUTH (QUEBEC), federal, 1945- POWER,</desc>
+                           </valItem>
+                           <valItem ident="plc:SREG1">
+                              <desc>SOUTH REGINA (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:SREN1">
+                              <desc>RENFREW SOUTH (ONTARIO), federal, 1867-1949 MCLACHLIN, Daniel; MCDOUGALL, John; O'REILLY, James; WRIGHT, A.A.; MCCANN, Joseph</desc>
+                           </valItem>
+                           <valItem ident="plc:SSIM1">
+                              <desc>SIMCOE SOUTH (ONTARIO), federal, 1867-1905 LITTLE, William; LITTLE, William; LENNOX, Haughton</desc>
+                           </valItem>
+                           <valItem ident="plc:SSIM2">
+                              <desc>SOUTH SIMCOE (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:STAD1">
+                              <desc>STADACONA (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:STAN10">
+                              <desc>STE.-ANNE/OAK POINT (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STAN11">
+                              <desc>ST. ANDREW'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STAN12">
+                              <desc>ST. ANNE'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STAN13">
+                              <desc>STE.-ANNE/OAK POINT (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STAN14">
+                              <desc>ST. ANN'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STAN15">
+                              <desc>ST. ANDREW'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STAN3">
+                              <desc>STANSTEAD (QUEBEC), federal, 1867-1905 COLBY, C.; COLBY, Charles; LOVELL, Henry</desc>
+                           </valItem>
+                           <valItem ident="plc:STAN4">
+                              <desc>STANSTEAD (QUEBEC), federal, 1945- HACKETT, W.</desc>
+                           </valItem>
+                           <valItem ident="plc:STAN5">
+                              <desc>ST. ANNE (QUEBEC), federal, 1904- GALLERY, D.</desc>
+                           </valItem>
+                           <valItem ident="plc:STAN6">
+                              <desc>ST. ANTOINE (QUEBEC), federal, 1904- AMES, H.B.</desc>
+                           </valItem>
+                           <valItem ident="plc:STAN7">
+                              <desc>STANSTEAD (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:STAN8">
+                              <desc>ST. ANN (QUEBEC), federal, 1945- HEALY,</desc>
+                           </valItem>
+                           <valItem ident="plc:STAN9">
+                              <desc>ST. ANTOINE-WESTMOUNT (QUEBEC), federal, 1945- ABBOTT,</desc>
+                           </valItem>
+                           <valItem ident="plc:STB01">
+                              <desc>ST. BONIFACE (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STBA1">
+                              <desc>ST. BARBE (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:STBO1">
+                              <desc>ST. BONIFACE (MANITOBA), federal, 1945- VIAU,</desc>
+                           </valItem>
+                           <valItem ident="plc:STBO2">
+                              <desc>ST. BONIFACE (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STCH1">
+                              <desc>ST. CHARLES (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STCH2">
+                              <desc>ST. CHARLES (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STCL1">
+                              <desc>ST. CLAIR (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:STCL2">
+                              <desc>ST. CLAIRE (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:STCL3">
+                              <desc>ST. CLEMENT'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STCL4">
+                              <desc>ST. CLEMENT'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STDE1">
+                              <desc>ST. DENIS (QUEBEC), federal, 1945- DENIS,</desc>
+                           </valItem>
+                           <valItem ident="plc:STFR1">
+                              <desc>ST. FRANÇOIS-XAVIER (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STFR2">
+                              <desc>ST. FRANÇOIS-XAVIER (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STGE1">
+                              <desc>ST. GEORGE (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:STHE1">
+                              <desc>ST. HENRY (QUEBEC), federal, 1945- BONNIER,</desc>
+                           </valItem>
+                           <valItem ident="plc:STHY1">
+                              <desc>ST. HYACINTHE (QUEBEC), federal, 1867-1905 KIERZKOWSKI,; DELORME,; DELORME, Louis; BLANCHET, J.B.; BEAUPARLANT, Aimé-Majorique</desc>
+                           </valItem>
+                           <valItem ident="plc:STHY2">
+                              <desc>ST. HYACINTHE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:STHY3">
+                              <desc>ST. HYACINTHE-BAGOT (QUEBEC), federal, 1945- FONTAINE,</desc>
+                           </valItem>
+                           <valItem ident="plc:STJA1">
+                              <desc>ST. JAMES (QUEBEC), federal, 1904-1949 GERVAIS, Honoré; GERVAIS, H.; BEAUDRY,</desc>
+                           </valItem>
+                           <valItem ident="plc:STJA2">
+                              <desc>ST. JAMES'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STJA3">
+                              <desc>ST. JAMES'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STJE1">
+                              <desc>SAINT-JEAN (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:STJO2">
+                              <desc>SAINT JOHN CITY (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:STJO3">
+                              <desc>SAINT JOHN COUNTY (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:STJO4">
+                              <desc>ST. JOHN-ALBERT (NEW BRUNSWICK), federal, 1945- HAZEN, King</desc>
+                           </valItem>
+                           <valItem ident="plc:STJO5">
+                              <desc>ST. JOHN'S (QUEBEC), federal, 1867-1872 BOURASSA,; BOURASSA, François</desc>
+                           </valItem>
+                           <valItem ident="plc:STJO6">
+                              <desc>ST. JOHNS-IBERVILLE (QUEBEC), federal, 1904- DEMERS, Louis-Philippe</desc>
+                           </valItem>
+                           <valItem ident="plc:STJO7">
+                              <desc>ST. JOHNS-IBERVILLE-NAPIERVILLE (QUEBEC), federal, 1945- COTÉ,</desc>
+                           </valItem>
+                           <valItem ident="plc:STJO8">
+                              <desc>ST. JOHN'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STJO9">
+                              <desc>ST. JOHN'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STLA1">
+                              <desc>ST. LAWRENCE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:STLA2">
+                              <desc>ST. LAWRENCE (QUEBEC), federal, 1904- BICKERDIKE, R.</desc>
+                           </valItem>
+                           <valItem ident="plc:STLA3">
+                              <desc>ST. LAWRENCE-ST. GEORGE (QUEBEC), federal, 1945- CLAXTON,</desc>
+                           </valItem>
+                           <valItem ident="plc:STMA1">
+                              <desc>ST. MARY'S (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:STMA10">
+                              <desc>ST. MARGARET'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STMA2">
+                              <desc>SAINT MAURICE (QUEBEC), federal, 1867-1872 DÉSAULNIERS, Lesieur; LACERTE,; LACERTE, Elie</desc>
+                           </valItem>
+                           <valItem ident="plc:STMA3">
+                              <desc>ST. MARY (QUEBEC), federal, 1904- PICHÉ, C.</desc>
+                           </valItem>
+                           <valItem ident="plc:STMA4">
+                              <desc>ST. MARY (QUEBEC), federal, 1945- FAUTEUX,</desc>
+                           </valItem>
+                           <valItem ident="plc:STMA5">
+                              <desc>SAINT-MAURICE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:STMA6">
+                              <desc>ST-MAURICE-LAFLÈCHE (QUEBEC), federal, 1945- HAMEL,</desc>
+                           </valItem>
+                           <valItem ident="plc:STMA7">
+                              <desc>ST. MARY'S LAPRAIRIE (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STMA8">
+                              <desc>ST. MARGARET'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STMA9">
+                              <desc>ST. MARY'S LAPRAIRIE (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STNO1">
+                              <desc>ST. NORBERT (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STNO2">
+                              <desc>ST. NORBERT (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STOR1">
+                              <desc>STORMONT (ONTARIO), federal, 1867-1949 AULT, Samuel; ARCHIBALD, Cyril; PRINGLE, Robert; CHEVRIER, Lionel</desc>
+                           </valItem>
+                           <valItem ident="plc:STOR2">
+                              <desc>TORONTO SOUTH (ONTARIO), federal, 1904- MACDONNELL, A.C.</desc>
+                           </valItem>
+                           <valItem ident="plc:STOR3">
+                              <desc>STORMONT (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:STPA1">
+                              <desc>ST. PAUL'S (ONTARIO), federal, 1945- ROSS, Gooderham</desc>
+                           </valItem>
+                           <valItem ident="plc:STPA2">
+                              <desc>ST. PAUL'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STPA3">
+                              <desc>ST. PAUL'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STPE1">
+                              <desc>ST. PETER'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STPE2">
+                              <desc>ST. PETER'S (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STRA7">
+                              <desc>STRATHCONA (NORTHWEST TERRITORIES), federal, 1904- TALBOT,</desc>
+                           </valItem>
+                           <valItem ident="plc:STVI1">
+                              <desc>ST. VITAL (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:STVI2">
+                              <desc>ST. VITAL (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:SUNB1">
+                              <desc>SUNBURY (NEW BRUNSWICK), federal, 1867-1872 BURPEE,; BURPEE, Charles</desc>
+                           </valItem>
+                           <valItem ident="plc:SUNB2">
+                              <desc>SUNBURY-QUEEN'S (NEW BRUNSWICK), federal, 1904- WILMOT, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:SUNB3">
+                              <desc>SUNBURY (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:SVAN1">
+                              <desc>VANCOUVER SOUTH (BRITISH COLUMBIA), federal, 1945- GREEN, Howard</desc>
+                           </valItem>
+                           <valItem ident="plc:SVIC1">
+                              <desc>VICTORIA SOUTH (ONTARIO), federal, 1867-1872 KEMPT, George; DORMER, George</desc>
+                           </valItem>
+                           <valItem ident="plc:SWAN1">
+                              <desc>Swan Lake (TREATY 4), treaty, 1875-1875 </desc>
+                           </valItem>
+                           <valItem ident="plc:SWAT1">
+                              <desc>WATERLOO SOUTH (ONTARIO), federal, 1867-1949 YOUNG, James; YOUNG, James; CLARE, George; HOMUTH,</desc>
+                           </valItem>
+                           <valItem ident="plc:SWAT2">
+                              <desc>SOUTH WATERLOO (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SWEL1">
+                              <desc>WELLINGTON SOUTH (ONTARIO), federal, 1867-1949 STIRTON, David; STIRTON, David; GUTHRIE, Hugh; GLADSTONE, W.</desc>
+                           </valItem>
+                           <valItem ident="plc:SWEL2">
+                              <desc>SOUTH WELLINGTON (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SWEN1">
+                              <desc>WENTWORTH SOUTH (ONTARIO), federal, 1867-1872 RYMAL, Joseph; RYMAL, Joseph</desc>
+                           </valItem>
+                           <valItem ident="plc:SWEN2">
+                              <desc>SOUTH WENTWORTH (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:SWIF1">
+                              <desc>SWIFT CURRENT (SASKATCHEWAN), federal, 1945- BENTLEY, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:SWIN1">
+                              <desc>WINNIPEG SOUTH (MANITOBA), federal, 1945- MUTCH, Alexander</desc>
+                           </valItem>
+                           <valItem ident="plc:SYOR1">
+                              <desc>YORK SOUTH (ONTARIO), federal, 1904-1949 MCLEAN, William; COCKERAM,</desc>
+                           </valItem>
+                           <valItem ident="plc:TARG1">
+                              <desc>TOWNSHIP OF ARGYLE (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:TBAR1">
+                              <desc>TOWNSHIP OF BARRINGTON (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:TECU1">
+                              <desc>TECUMSETH (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:TEMI1">
+                              <desc>TÉMISCOUATA (QUEBEC), federal, 1867-1949 BERTRAND,; MAILLOUX, Élie; GAUVREAU, Chs.; POULIOT,</desc>
+                           </valItem>
+                           <valItem ident="plc:TEMI2">
+                              <desc>TÉMISCOUATA (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:TERR1">
+                              <desc>TERREBONNE (QUEBEC), federal, 1867-1949 MASSON,; MASSON, Louis-François-Rodrigue; DESJARDINS, Samuel; BERTRAND, Campbell</desc>
+                           </valItem>
+                           <valItem ident="plc:TERR2">
+                              <desc>TERREBONNE (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:THAM1">
+                              <desc>THAMES (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:THEP1">
+                              <desc>The Pas (TREATY 5), treaty, 1876-1876 </desc>
+                           </valItem>
+                           <valItem ident="plc:THOM17">
+                              <desc>THOMPSON RIVER DISTRICT (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:THOU1">
+                              <desc>MILLE ISLES (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:THRE1">
+                              <desc>THREE RIVERS (QUEBEC), federal, 1867-1872 BOUCHER DE NIVERVILLE,; MCDOUGALL,; MCDOUGALL, William</desc>
+                           </valItem>
+                           <valItem ident="plc:THRE2">
+                              <desc>THREE RIVERS (QUEBEC), federal, 1945- GARIÉPY, Robeson</desc>
+                           </valItem>
+                           <valItem ident="plc:THRE3">
+                              <desc>THREE RIVERS AND ST. MAURICE (QUEBEC), federal, 1904- BUREAU, Jacques</desc>
+                           </valItem>
+                           <valItem ident="plc:THUN1">
+                              <desc>THUNDER BAY AND RAINY RIVER (ONTARIO), federal, 1904- CONMEE, James</desc>
+                           </valItem>
+                           <valItem ident="plc:TIMI1">
+                              <desc>TIMISKAMING (ONTARIO), federal, 1945- LITTLE,</desc>
+                           </valItem>
+                           <valItem ident="plc:TKIN1">
+                              <desc>3RD KINGS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:TPRI1">
+                              <desc>3RD PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:TQUE1">
+                              <desc>3RD QUEENS (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
+                           </valItem>
+                           <valItem ident="plc:TREN1">
+                              <desc>TRENT (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:TRIN2">
+                              <desc>TRINITY BAY (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:TRIN3">
+                              <desc>TRINITY SOUTH (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:TRIN4">
+                              <desc>TRINITY (ONTARIO), federal, 1945- SKEY,</desc>
+                           </valItem>
+                           <valItem ident="plc:TROI1">
+                              <desc>TROIS-RIVIÈRES (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:TROU1">
+                              <desc>Trout Lake (TREATY 9), treaty, 1929-1929 </desc>
+                           </valItem>
+                           <valItem ident="plc:TSHE1">
+                              <desc>TOWNSHIP OF SHELBURNE (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:TWIL1">
+                              <desc>TWILLINGATE AND FOGO (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:TWIL2">
+                              <desc>TWILLINGATE (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:TWINN1">
+                              <desc>TOWN OF WINNIPEG (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:TWOM1">
+                              <desc>TWO MOUNTAINS (QUEBEC), federal, 1867-1905 DAOUST,; PRÉVOST, Wilfred; ÉTHIER, J.A.C.</desc>
+                           </valItem>
+                           <valItem ident="plc:TYAR1">
+                              <desc>TOWNSHIP OF YARMOUTH (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:VALL1">
+                              <desc>VALLIÈRE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:VANC1">
+                              <desc>VANCOUVER ISLAND (BRITISH COLUMBIA), federal, 1871- WALLACE, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:VANC2">
+                              <desc>VANCOUVER (BRITISH COLUMBIA), federal, 1872- HINCKS, Francis</desc>
+                           </valItem>
+                           <valItem ident="plc:VANC3">
+                              <desc>VANCOUVER CITY (BRITISH COLUMBIA), federal, 1904- MACPHERSON, R.G.</desc>
+                           </valItem>
+                           <valItem ident="plc:VANC4">
+                              <desc>VANCOUVER-BURRARD (BRITISH COLUMBIA), federal, 1945- MERRITT, Charles</desc>
+                           </valItem>
+                           <valItem ident="plc:VAUD1">
+                              <desc>VAUDREUIL (QUEBEC), federal, 1867- MCMILLAN,</desc>
+                           </valItem>
+                           <valItem ident="plc:VAUD2">
+                              <desc>VAUDREUIL (QUEBEC), federal, 1872-1905 HARWOOD, Robert; BOYER, Gustave</desc>
+                           </valItem>
+                           <valItem ident="plc:VAUD3">
+                              <desc>VAUDREUIL (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:VAUD4">
+                              <desc>VAUDREUIL-SOULANGES (QUEBEC), federal, 1945- BEAUDOIN, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:VEGR1">
+                              <desc>VEGREVILLE (ALBERTA), federal, 1945- HLYNKA, Anthony</desc>
+                           </valItem>
+                           <valItem ident="plc:VERC1">
+                              <desc>VERCHÈRES (QUEBEC), federal, 1867-1872 GEOFFRION,; GEOFFRION, Félix</desc>
+                           </valItem>
+                           <valItem ident="plc:VERC2">
+                              <desc>VERCHÈRES (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:VERD1">
+                              <desc>VERDUN (QUEBEC), federal, 1945- COTÉ, Gordon</desc>
+                           </valItem>
+                           <valItem ident="plc:VERM1">
+                              <desc>Vermilion (TREATY 8), treaty, 1899-1900 </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT1">
+                              <desc>VICTORIA DISTRICT (BRITISH COLUMBIA), federal, 1871- DE COSMOS, Amor; NATHAN, Henry Jr.</desc>
+                           </valItem>
+                           <valItem ident="plc:VICT10">
+                              <desc>VICTORIA COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT11">
+                              <desc>VICTORIA CITY DISTRICT (BRITISH COLUMBIA), nonFederal, 1867-1871 </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT12">
+                              <desc>VICTORIA (ONTARIO), federal, 1904-1949 HUGHES, Samuel; HODGSON, Wesley</desc>
+                           </valItem>
+                           <valItem ident="plc:VICT13">
+                              <desc>VICTORIA (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT14">
+                              <desc>VICTORIA DISTRICT (BRITISH COLUMBIA), nonFederal, 1867-1871 </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT2">
+                              <desc>VICTORIA (BRITISH COLUMBIA), federal, 1872-1949 NATHAN, Henry; DE COSMOS, Amor; MAYHEW, Robert</desc>
+                           </valItem>
+                           <valItem ident="plc:VICT21">
+                              <desc>VICTORIA (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT3">
+                              <desc>VICTORIA CITY (BRITISH COLUMBIA), federal, 1904- RILEY, Geo.</desc>
+                           </valItem>
+                           <valItem ident="plc:VICT4">
+                              <desc>VICTORIA (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT5">
+                              <desc>VICTORIA (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT6">
+                              <desc>VICTORIA (NEW BRUNSWICK), federal, 1867-1905 COSTIGAN,; COSTIGAN, John; COSTIGAN, John</desc>
+                           </valItem>
+                           <valItem ident="plc:VICT7">
+                              <desc>VICTORIA (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:VICT8">
+                              <desc>VICTORIA-CARLETON (NEW BRUNSWICK), federal, 1945- HATFIELD, Harold</desc>
+                           </valItem>
+                           <valItem ident="plc:VICT9">
+                              <desc>VICTORIA (NOVA SCOTIA), federal, 1867-1873 ROSS,; ROSS, William; ROSS, William</desc>
+                           </valItem>
+                           <valItem ident="plc:WALG1">
+                              <desc>ALGOMA WEST (ONTARIO), federal, 1904-1949 BOYCE, A.C.; NIXON, George</desc>
+                           </valItem>
+                           <valItem ident="plc:WALL7">
+                              <desc>WALLACE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:WAPI1">
+                              <desc>Wapiscow Lake (TREATY 8), treaty, 1899-1899 </desc>
+                           </valItem>
+                           <valItem ident="plc:WASS1">
+                              <desc>ASSINIBOIA WEST (NORTHWEST TERRITORIES), federal, 1904- SCOTT,</desc>
+                           </valItem>
+                           <valItem ident="plc:WBRA1">
+                              <desc>WEST BRANT (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WBUR1">
+                              <desc>BURIN WEST (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:WCAL1">
+                              <desc>CALGARY WEST (ALBERTA), federal, 1945- SMITH, Arthur</desc>
+                           </valItem>
+                           <valItem ident="plc:WCAL2">
+                              <desc>CALGARY WEST (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:WCAR1">
+                              <desc>CARIBOO WEST (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:WDUR1">
+                              <desc>DURHAM WEST (ONTARIO), federal, 1867-1873 BLAKE, Edward; BLAKE, Edward; WOOD, Edmund</desc>
+                           </valItem>
+                           <valItem ident="plc:WDUR2">
+                              <desc>WEST DURHAM (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WEDM1">
+                              <desc>EDMONTON WEST (ALBERTA), federal, 1945- MACKINNON, James</desc>
+                           </valItem>
+                           <valItem ident="plc:WELG1">
+                              <desc>ELGIN WEST (ONTARIO), federal, 1867-1905 MUNROE, John; CASEY, Elliott; JACKSON, William</desc>
+                           </valItem>
+                           <valItem ident="plc:WELG2">
+                              <desc>WEST ELGIN (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WELL2">
+                              <desc>WELLINGTON (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:WELL3">
+                              <desc>WELLAND (ONTARIO), federal, 1867-1872 STREET, Thomas; STREET, Thomas; THOMSON, William</desc>
+                           </valItem>
+                           <valItem ident="plc:WELL4">
+                              <desc>WELLAND (ONTARIO), federal, 1904-1949 GERMAN, W.M.; MITCHELL, Humphrey</desc>
+                           </valItem>
+                           <valItem ident="plc:WELL5">
+                              <desc>WELLAND (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WENT1">
+                              <desc>WENTWORTH (ONTARIO), federal, 1904-1949 SMITH, E.D.; SMITH, E.D.; LENNARD, Exton Jr.</desc>
+                           </valItem>
+                           <valItem ident="plc:WESL3">
+                              <desc>Wesleyan Mission School House, Berens River  (TREATY 5), treaty, 1875-1875 </desc>
+                           </valItem>
+                           <valItem ident="plc:WESS1">
+                              <desc>ESSEX WEST (ONTARIO), federal, 1945- BROWN, Ferguson</desc>
+                           </valItem>
+                           <valItem ident="plc:WEST1">
+                              <desc>WESTERN (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:WEST2">
+                              <desc>WESTMORLAND (NEW BRUNSWICK), federal, 1867-1949 SMITH, James; SMITH, Albert; SMITH, Albert; EMMERSON, H.; EMMERSON, Robert; EMMERSON, Read</desc>
+                           </valItem>
+                           <valItem ident="plc:WEST3">
+                              <desc>WESTMORLAND (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:WETA1">
+                              <desc>WETASKIWIN (ALBERTA), federal, 1945- JAQUES, Norman</desc>
+                           </valItem>
+                           <valItem ident="plc:WEYB1">
+                              <desc>WEYBURN (SASKATCHEWAN), federal, 1945- MCKAY, Eric</desc>
+                           </valItem>
+                           <valItem ident="plc:WHAL1">
+                              <desc>HALIFAX COUNTY (WESTERN DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:WHAM1">
+                              <desc>HAMILTON WEST (ONTARIO), federal, 1904-1949 ZIMMERMAN, A.; GIBSON, William</desc>
+                           </valItem>
+                           <valItem ident="plc:WHAS1">
+                              <desc>HASTINGS WEST (ONTARIO), federal, 1867-1872 BROWN,; BROWN,</desc>
+                           </valItem>
+                           <valItem ident="plc:WHAS2">
+                              <desc>HASTINGS WEST (ONTARIO), federal, 1904- PORTER, E.</desc>
+                           </valItem>
+                           <valItem ident="plc:WHIT13">
+                              <desc>WHITE BAY (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:WHIT14">
+                              <desc>WHITEWOOD (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:WHUR1">
+                              <desc>HURON WEST (ONTARIO), federal, 1904- LEWIS, Edward</desc>
+                           </valItem>
+                           <valItem ident="plc:WIND4">
+                              <desc>Windigo River (TREATY 9), treaty, 1930-1930 </desc>
+                           </valItem>
+                           <valItem ident="plc:WINI1">
+                              <desc>Winisk (TREATY 9), treaty, 1930-1930 </desc>
+                           </valItem>
+                           <valItem ident="plc:WINN2">
+                              <desc>WINNIPEG (MANITOBA), federal, 1904- BOLE,</desc>
+                           </valItem>
+                           <valItem ident="plc:WINN3">
+                              <desc>WINNIPEG (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:WINN4">
+                              <desc>Winnipeg (TREATY 5), treaty, 1876-1876 </desc>
+                           </valItem>
+                           <valItem ident="plc:WITC1">
+                              <desc>Witchekan Lake  (TREATY 6), treaty, 1950-1950 </desc>
+                           </valItem>
+                           <valItem ident="plc:WKEN1">
+                              <desc>KENT WEST (ONTARIO), federal, 1904- CLEMENTS, Herbert</desc>
+                           </valItem>
+                           <valItem ident="plc:WKOO1">
+                              <desc>KOOTENAY WEST (BRITISH COLUMBIA), federal, 1945- HERRIDGE, Herbert</desc>
+                           </valItem>
+                           <valItem ident="plc:WLAM1">
+                              <desc>LAMBTON WEST (ONTARIO), federal, 1904-1949 JOHNSTON, Thomas; PARDEE, F.F.; MURPHY, Warner</desc>
+                           </valItem>
+                           <valItem ident="plc:WMID1">
+                              <desc>MIDDLESEX WEST (ONTARIO), federal, 1867-1949 MCDONALD, Peter; ROSS, William; CALVERT, William; MCCUBBIN,</desc>
+                           </valItem>
+                           <valItem ident="plc:WMID2">
+                              <desc>WEST MIDDLESEX (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WMON1">
+                              <desc>MONTREAL WEST (QUEBEC), federal, 1867-1872 MCGEE, D'Arcy; RYAN, Patrick; YOUNG, John</desc>
+                           </valItem>
+                           <valItem ident="plc:WMON2">
+                              <desc>MONTREAL WEST (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WNOR1">
+                              <desc>NORTHUMBERLAND WEST (ONTARIO), federal, 1867-1905 COCKBURN, James; COCKBURN, James; MCCOLL, B.</desc>
+                           </valItem>
+                           <valItem ident="plc:WNOR2">
+                              <desc>WEST NORTHUMBERLAND (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WOLS1">
+                              <desc>WOLSELEY (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:WOOD6">
+                              <desc>WOOD MOUNTAIN (SASKATCHEWAN), federal, 1945- ARGUE, Hazen</desc>
+                           </valItem>
+                           <valItem ident="plc:WOTT1">
+                              <desc>OTTAWA WEST (ONTARIO), federal, 1945- MCILRAITH, James</desc>
+                           </valItem>
+                           <valItem ident="plc:WPET1">
+                              <desc>PETERBOROUGH WEST (ONTARIO), federal, 1867-1949 PERRY, Charles; BERTRAM, John; HALL, R.R.; FRASER, Knapman</desc>
+                           </valItem>
+                           <valItem ident="plc:WPIC1">
+                              <desc>PICTOU COUNTY (WEST DIVISION) (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:WPLA1">
+                              <desc>PLACENTIA WEST (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:WPRI1">
+                              <desc>PRINCE ALBERT WEST (NORTHWEST TERRITORIES), nonFederal, 1894-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:WQUE1">
+                              <desc>WEST QUEEN'S (PRINCE EDWARD ISLAND), federal, 1904- HASZARD,</desc>
+                           </valItem>
+                           <valItem ident="plc:WQUE2">
+                              <desc>QUEBEC WEST (QUEBEC), federal, 1867-1905 MCGREEVEY,; POWER, William</desc>
+                           </valItem>
+                           <valItem ident="plc:WQUE3">
+                              <desc>QUEBEC WEST (QUEBEC), federal, 1872- MCGREEVY, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:WQUE4">
+                              <desc>QUEBEC WEST (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WRIG8">
+                              <desc>WRIGHT (QUEBEC), federal, 1904-1949 LAURIER, Sir; DEVLIN,; RAYMOND, Hemming</desc>
+                           </valItem>
+                           <valItem ident="plc:WSQU1">
+                              <desc>QUEBEC WEST AND SOUTH (QUEBEC), federal, 1945- PARENT,</desc>
+                           </valItem>
+                           <valItem ident="plc:WSTJ1">
+                              <desc>ST. JOHN'S WEST (NEWFOUNDLAND), nonFederal, 1865-1869 </desc>
+                           </valItem>
+                           <valItem ident="plc:WSTJ2">
+                              <desc>ST. JOHN'S CITY WEST (NEWFOUNDLAND), nonFederal, 1946- </desc>
+                           </valItem>
+                           <valItem ident="plc:WSTJ3">
+                              <desc>ST. JOHN'S WEST (NEWFOUNDLAND), nonFederal, 1946-1949 </desc>
+                           </valItem>
+                           <valItem ident="plc:WTOR1">
+                              <desc>WEST TORONTO (ONTARIO), federal, 1867-1873 HARRISON, Robert; CRAWFORD, John; MOSS, Thomas</desc>
+                           </valItem>
+                           <valItem ident="plc:WTOR2">
+                              <desc>TORONTO WEST (ONTARIO), federal, 1904- OSLER, Edmund</desc>
+                           </valItem>
+                           <valItem ident="plc:WTOR3">
+                              <desc>WEST TORONTO (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:WYOR1">
+                              <desc>YORK WEST (ONTARIO), federal, 1867-1949 HOWLAND, William; WRIGHT, Amos; BLAIN, David; ADAMSON,</desc>
+                           </valItem>
+                           <valItem ident="plc:WYOR2">
+                              <desc>WEST YORK (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:YALE1">
+                              <desc>YALE DISTRICT (BRITISH COLUMBIA), federal, 1871- HOUGHTON, Charles</desc>
+                           </valItem>
+                           <valItem ident="plc:YALE2">
+                              <desc>YALE (BRITISH COLUMBIA), federal, 1872-1948 DEWDNEY, Edgar; STIRLING, Grote; JONES, Lewis</desc>
+                           </valItem>
+                           <valItem ident="plc:YALE3">
+                              <desc>YALE-CARIBOO (BRITISH COLUMBIA), federal, 1904- ROSS, Duncan</desc>
+                           </valItem>
+                           <valItem ident="plc:YALE4">
+                              <desc>YALE AND LYTTON (BRITISH COLUMBIA), nonFederal, 1867- </desc>
+                           </valItem>
+                           <valItem ident="plc:YAMA1">
+                              <desc>YAMASKA (QUEBEC), federal, 1867-1905 FORTIER,; DUGUAY, Joseph; GLADU, Joseph-Ernest-Oscar</desc>
+                           </valItem>
+                           <valItem ident="plc:YAMA2">
+                              <desc>YAMASKA (QUEBEC), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:YARM1">
+                              <desc>YARMOUTH (NOVA SCOTIA), federal, 1867-1869 KILLAM, Thomas; KILLAM,</desc>
+                           </valItem>
+                           <valItem ident="plc:YARM2">
+                              <desc>YARMOUTH (NOVA SCOTIA), federal, 1872-1905 KILLAM, Frank; LAW, Bowman</desc>
+                           </valItem>
+                           <valItem ident="plc:YARM3">
+                              <desc>YARMOUTH COUNTY (NOVA SCOTIA), nonFederal, 1864- </desc>
+                           </valItem>
+                           <valItem ident="plc:YORK1">
+                              <desc>YORK (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
+                           <valItem ident="plc:YORK2">
+                              <desc>YORK (NEW BRUNSWICK), federal, 1867-1905 FISHER, Charles; PICKARD,; PICKARD, John; CROCKET, S.</desc>
+                           </valItem>
+                           <valItem ident="plc:YORK3">
+                              <desc>YORK (NEW BRUNSWICK), nonFederal, 1865-1866 </desc>
+                           </valItem>
+                           <valItem ident="plc:YORK4">
+                              <desc>YORK-SUNBURY (NEW BRUNSWICK), federal, 1945-1947 BRIDGES, G.; GREGG, Fowler</desc>
+                           </valItem>
+                           <valItem ident="plc:YORK5">
+                              <desc>YORKTON (SASKATCHEWAN), federal, 1945- CASTLEDEN, George</desc>
+                           </valItem>
+                           <valItem ident="plc:YORK6">
+                              <desc>YORKTON (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:YORK7">
+                              <desc>York Factory (TREATY 5), treaty, 1910-1910 </desc>
+                           </valItem>
+                           <valItem ident="plc:YUKO1">
+                              <desc>YUKON (YUKON), federal, 1904-1949 THOMPSON, Alfred; BLACK,</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
                
-               <!--      The affiliation element has its @corresp attribute value list constructed from 
+               <!--      The affiliation element has its @ref attribute value list constructed from 
           the places in the placeography. -->
                <elementSpec ident="affiliation" module="namesdates" mode="change">
                   <attList>

@@ -27,7 +27,7 @@
   <xsl:param name="taxonomyFile" select="doc($taxonomyFilePath)"/>
   <xsl:param name="personographyFile" select="doc($personographyFilePath)"/>
   <xsl:param name="placeographyFile" select="doc($placeographyFilePath)"/>
-  
+   
   <xsl:template match="/" exclude-result-prefixes="#all">
     <xsl:message>Processing taxonomies comprising <xsl:value-of select="count($taxonomyFile/descendant::category)"/> categories.</xsl:message>
     <xsl:apply-templates/>
@@ -53,7 +53,7 @@
   </xsl:template>
   
   <!-- Template for affiliation/@ref. -->
-  <xsl:template match="elementSpec[@ident='affiliation']/attList/attDef[@ident='ref']/valList" exclude-result-prefixes="#all">
+  <xsl:template match="elementSpec[@ident='affiliation']/attList/attDef[@ident='ref']/valList | elementSpec[@ident='placeName']/attList/attDef[@ident='ref']/valList" exclude-result-prefixes="#all">
     <xsl:sequence select="hcmc:listPlaceToValList($placeographyFile//listPlace, .)"/>
   </xsl:template>
   
