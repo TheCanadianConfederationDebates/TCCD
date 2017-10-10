@@ -1,0 +1,31 @@
+[33mcommit 3e58beacccf0ea12a227e29b9d7a92b12e8f4e26[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: c1979c4f4 7b8f2d6ac
+Author: Daniel Heidt <danielhheidt@Daniels-iMac-2.local>
+Date:   Thu Sep 28 14:56:05 2017 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+[1mdiff --cc code/html/purpose.html[m
+[1mindex 60699bfda,380c5b062..2ccb02fef[m
+[1m--- a/code/html/purpose.html[m
+[1m+++ b/code/html/purpose.html[m
+[36m@@@ -18,15 -18,15 +18,15 @@@[m
+  <a href="javascript:switchLang('en')">EN</a><a[m
+  href="javascript:switchLang('fr')">FR</a></div>[m
+  <a href="index.html"><img lang="en" src="images/eng-logo.svg"[m
+[31m- alt="The Confederation Debates 1865–1949" class="siteLogo"></img><img[m
+[32m+ alt="The Confederation Debates 1865–1949" class="siteLogo"/><img[m
+  lang="fr" src="images/fr-logo.svg"[m
+  alt="Les D衡ts de la Conf襩ration 1865–1949"[m
+[31m- class="siteLogo"></img></a></header><nav></nav>[m
+[32m+ class="siteLogo"/></a></header><nav></nav>[m
+  [m
+  <div class="body">[m
+[31m -<h2>Purpose</h2>[m
+[32m +<h2 lang="eng">Purpose</h2>[m
+  [m
+[31m -<p>The ideas and concerns that inform a country's founding inspire and[m
+[32m +<p lang="eng">The ideas and concerns that inform a country's founding inspire and[m
+  complicate politics for generations. In the United States, Americans can learn[m
+  about their country's founding ideas and debates by consulting any one of[m
+  several published editions of the Federalist Papers, or thematically organized[m
