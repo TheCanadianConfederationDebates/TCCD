@@ -442,12 +442,11 @@
     <antcall target="splitLanguages"/>
     
 <!--   Delete the original files. -->
-    <!--<antcall target="deleteMixedLanguageHtml"/>-->
+    <antcall target="deleteMixedLanguageHtml"/>
     
 <!--   Validate all the HTML.-->
     <antcall target="validateHtml"/>
     
-    <!--<antcall target="createLanguageSymlinks"/>-->
   </target>
   
   <target name="splitLanguages">
