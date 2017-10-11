@@ -337,3 +337,32 @@ ul.docsMentioningPerson, ul.docsMentioningPerson ul{
     margin-left: 0;
     list-style-type: none;
 }
+
+.interactiveMap {
+  background: #ff3333;
+  background: white;
+}
+.interactiveMap svg {
+  width: 100%;
+}
+.interactiveMap svg #Canada_1_ > path,
+.interactiveMap svg #Canada_1_ > g > g > path {
+  filter: url(#nodropshadow);
+  fill: #ff3333;
+  stroke: white;
+  position: relative;
+  z-index: 1;
+}
+.interactiveMap svg #Canada_1_ > path:hover,
+.interactiveMap svg #Canada_1_ > g > g > path:hover {
+  fill: white;
+  stroke: #ff3333;
+  filter: url(#dropshadow);
+  z-index: 99;
+}
+.interactiveMap .tray > div {
+  display: none;
+}
+.interactiveMap .tray .active {
+  display: block;
+}
