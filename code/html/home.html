@@ -700,18 +700,24 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                 </div>
             </div>
             <script>
-                $(".st0").on('click touch', function() {
-                    changeTabFocus($(this).attr('id'));
-
-                });
-
-                function changeTabFocus(selector) {
-                    var selectorClass = '.tray';
-                    var region = selector.substr(0, 2);
-                    var activeClass = 'active';
-                    $('.'+activeClass).removeClass(activeClass);
-                    $('#' + region).first().addClass(activeClass);
+                function setUpSvgMap(){
+                    var paths = document.querySelectorAll('.st0');
+                    paths.forEach(function(el){
+                        el.addEventListener('click', function(evt){changeTabFocus(el.getAttribute('id'))}.bind(this, false));
+                        el.addEventListener('touchend', function(evt){changeTabFocus(el.getAttribute('id'))}.bind(this, false));
+                    });
                 }
+                window.addEventListener('load', setUpSvgMap);
+                
+                function changeTabFocus(senderId){
+                    //var senderClass='tray';
+                    var region = senderId.substr(0,2);
+                    console.log(region);
+                    var activeClass = 'active';
+                    document.querySelectorAll('.' + activeClass).forEach(function(el){el.classList.remove(activeClass)});
+                    document.getElementById(region).classList.add(activeClass);
+                }
+                
             </script>
 
         </div>

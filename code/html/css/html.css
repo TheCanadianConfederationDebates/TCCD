@@ -337,7 +337,63 @@ ul.docsMentioningPerson, ul.docsMentioningPerson ul{
     margin-left: 0;
     list-style-type: none;
 }
-
+* {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+h2 {
+  margin-bottom: 1em;
+}
+h2::after {
+  height: 0.125em;
+  width: 1.5em;
+  content: "";
+  display: block;
+  background: #ff3333;
+  margin-top: 0.5em;
+}
+img {
+  display: inline-block;
+  width: 100%;
+}
+nav {
+  border-radius: 0;
+}
+nav.navbar-default {
+  background-image: linear-gradient(270deg, #ff3333 50%, #ffffff 51%);
+}
+nav.navbar-default .navbar-nav > li > a {
+  color: white;
+  border-bottom: #ff3333 solid 5px;
+}
+nav.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  border-bottom: white solid 5px;
+}
+nav .collapse {
+  margin-top: 0;
+  background: #ff3333;
+}
+nav .container {
+  margin-top: 0;
+}
+nav .navbar-header {
+  background: white;
+  height: 100%;
+  margin: 0;
+  padding: 1rem;
+}
+nav .navbar-brand {
+  display: inline-block;
+  padding: 0;
+}
+nav .navbar-brand img {
+  width: auto;
+  height: 100%;
+  padding: 0;
+}
 .interactiveMap {
   background: #ff3333;
   background: white;
