@@ -461,3 +461,13 @@ footer h2 {
   border-top: 50px #ff3333 solid;
   border-bottom: 50px #ff3333 solid;
 }
+.mapEmbed {
+  margin-top: -20px;
+}
+.mapEmbed iframe {
+  height: 56.25vh; /*16:9 ratio*/
+  width: 100vw;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
