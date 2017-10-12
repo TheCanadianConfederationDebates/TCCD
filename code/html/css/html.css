@@ -427,6 +427,9 @@ nav .navbar-brand img {
   color: white;
   padding-bottom: 50px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 2;
 }
 .downloadDataSet a {
   color: white;
@@ -450,4 +453,11 @@ nav .navbar-brand img {
 }
 .lessonsContainer h3 {
   font-size: 2rem;
+}
+footer h2 {
+  text-align: left;
+}
+.supportingInstitutions {
+  border-top: 50px #ff3333 solid;
+  border-bottom: 50px #ff3333 solid;
 }
