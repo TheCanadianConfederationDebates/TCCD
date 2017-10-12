@@ -8,13 +8,48 @@ div#map, div#map div{
 #postalCodeForm{
     position: absolute;
     bottom: 0;
+    padding: 0;
+    background-color: #ff3333;
+    width: 100vw;
+}
+
+#postalCodeForm label {
     padding: 1em;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    max-width: 50vw;
+    box-sizing: border-box;
 }
 
-#postalCodeForm input[type='text']{
-    max-width: 7em;
+#postalCodeForm * {
+  float: left;
+  box-sizing: border-box;
 }
 
+#postalCodeForm input[type='text'], #btnPostalCode{
+    max-width: 25vw;
+    width: 100%;
+    border: none;
+    height: 100%;
+    border-radius: 0px;
+    font-size: 17px;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    display: table-cell;
+}
+#postalCodeForm input[type='text'] {
+    text-transform: uppercase;
+}
+#btnPostalCode{
+    background: black;
+    color: white;
+    text-align: center;
+}
+#btnPostalCode span {
+    width: 100%;
+}
 #mapPopup{
     padding: 0.5em;
     border: solid 1px black;
