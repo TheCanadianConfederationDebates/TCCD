@@ -465,9 +465,13 @@ footer h2 {
   margin-top: -20px;
 }
 .mapEmbed iframe {
-  height: 56.25vh; /*16:9 ratio*/
+  height: 60vh; /*16:9 ratio*/
   width: 100vw;
   border: 0;
   padding: 0;
   margin: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+.navSpacer {
+  width: 5em;
 }

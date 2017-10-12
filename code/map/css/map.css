@@ -6,11 +6,13 @@ div#map, div#map div{
 }
 
 #postalCodeForm{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding: 0;
     background-color: #ff3333;
     width: 100vw;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
 
 #postalCodeForm label {
@@ -19,7 +21,6 @@ div#map, div#map div{
     display: inline-block;
     width: 100%;
     max-width: 50vw;
-    box-sizing: border-box;
 }
 
 #postalCodeForm * {
@@ -52,9 +53,10 @@ div#map, div#map div{
 }
 #mapPopup{
     padding: 0.5em;
-    border: solid 1px black;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
+    padding-right: 3em;
+    border: solid 2px black;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 1);
     text-align: left;
     overflow-y: auto;
     max-height: 60vh;
@@ -63,6 +65,7 @@ div#map, div#map div{
     top: 5vh;
     right: 5vw;
     display: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
 
 #mapPopup span[data-el='placeName']{
@@ -71,5 +74,14 @@ div#map, div#map div{
 
 div.popupCloser{
     cursor: pointer;
-    text-align: right;
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    background: #ff4747;
+    padding: 0 0.25em;
+    color: white;
+}
+
+.ol-control button {
+    background: black;
 }
