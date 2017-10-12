@@ -422,3 +422,32 @@ nav .navbar-brand img {
 .interactiveMap .tray .active {
   display: block;
 }
+.downloadDataSet {
+  background: #ff3333;
+  color: white;
+  padding-bottom: 50px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+.downloadDataSet a {
+  color: white;
+  text-decoration: underline;
+}
+.downloadDataSet h2::after {
+  background: white;
+}
+.downloadDataSet svg {
+    display: inline-block;
+}
+.downloadDataSet .btn {
+  background: white;
+  color: black; 
+  border: none;
+  margin-bottom: 5px;
+  display: inline-block;
+  border-radius: 0;
+  padding: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+.lessonsContainer h3 {
+  font-size: 2rem;
+}
