@@ -475,3 +475,17 @@ footer h2 {
 .navSpacer {
   width: 5em;
 }
+.mapBanner {
+  margin-top: -20px; 
+  color: white;
+  background: black;
+  padding-bottom: 30px;
+}
+.mapBanner h2:after {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mapBanner .row {
+  display: flex;
+  align-items: center;
+}
