@@ -150,7 +150,7 @@
     or fixed we can do it here.
   -->
   
-  <xsl:template match="@*|node()" priority="-1" mode="#all">
+  <xsl:template match="@*|node()" priority="-1" mode="#all" exclude-result-prefixes="#all">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()" mode="#current"/>
     </xsl:copy>
