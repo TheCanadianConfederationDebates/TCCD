@@ -106,7 +106,11 @@ div.asterism {
  * may appear in an inline context, but which 
  * should cause a physical break. */
 span[data-el='fw'], span[data-el='pb'], span[data-el='cb']{
-    display: block;
+    display: inline-block;
+    color: red;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    font-size: 0.5em;
 }
 /* We hide line-breaks and column-breaks by default. */
 div[data-el='cb'],
@@ -514,4 +518,27 @@ footer h2 {
   clear: both;
   width: 100%;
   display: block;
+}
+.landingPage {
+  border: 13px solid #FF3333;
+  height: 100vh;
+  background: url(../images/canada-map.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landingPage .container {
+  padding-top: 25vh;
+  text-align: center;
+}
+.landingPage .row > div {
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.4);
+}
+.landingPage p {
+  padding: 0;
+  margin: 0;
+}
+.landingPage a {
+  color: black;
 }
