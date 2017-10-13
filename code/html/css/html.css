@@ -397,6 +397,7 @@ nav .navbar-brand img {
 .interactiveMap {
   background: #ff3333;
   background: white;
+  padding-bottom: 50px;
 }
 .interactiveMap svg {
   width: 100%;
@@ -446,12 +447,11 @@ nav .navbar-brand img {
   color: black; 
   border: none;
   margin-bottom: 5px;
-  display: inline-block;
   border-radius: 0;
   padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
-.lessonsContainer h3 {
+.lessonsContainer h3, .interactiveMap h3 {
   font-size: 2rem;
 }
 footer h2 {
@@ -465,9 +465,27 @@ footer h2 {
   margin-top: -20px;
 }
 .mapEmbed iframe {
-  height: 56.25vh; /*16:9 ratio*/
+  height: 60vh; /*16:9 ratio*/
   width: 100vw;
   border: 0;
   padding: 0;
   margin: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+.navSpacer {
+  width: 5em;
+}
+.mapBanner {
+  margin-top: -20px; 
+  color: white;
+  background: black;
+  padding-bottom: 30px;
+}
+.mapBanner h2:after {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mapBanner .row {
+  display: flex;
+  align-items: center;
 }
