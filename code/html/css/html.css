@@ -502,10 +502,16 @@ footer h2 {
   color: black;
 }
 .team-pic {
+  padding-bottom: 1em;
     filter: url(data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt…33 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale);
     filter: gray;
     -webkit-filter: grayscale(1) contrast(0.65) brightness(1.45);
     -moz-filter: grayscale(1) contrast(0.65) brightness(1.45);
     -o-filter: grayscale(1) contrast(0.65) brightness(1.45);
     -ms-filter: grayscale(1) contrast(0.65) brightness(1.45);
+}
+.teamPage .team i {
+  clear: both;
+  width: 100%;
+  display: block;
 }
