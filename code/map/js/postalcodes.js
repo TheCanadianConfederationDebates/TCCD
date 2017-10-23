@@ -34,9 +34,9 @@ function jumpToPostalCode(postalCode){
 //We need to make sure this works whether we're in the English or the French subfolder.
         //jsonUri = 'js/postalcodes/' + first + '/' + three + '.json';
         //jsonUri = location.href.replace(/canadaMap.html.*/, '').replace(/((\/en\/)|(\/fr\/))/, '/') + 'js/postalcodes/' + first + '/' + three + '.json';
-        console.log(location.href);
+        //console.log(location.href);
         jsonUri = location.href.replace(/((\/en)|(\/fr))?\/[^\.\/]+\.html.*$/, '/js/postalcodes/' + first + '/' + three + '.json');
-        console.log(jsonUri);
+        //console.log(jsonUri);
         ajaxRetrieve(jsonUri, 'json').then(function(response){
             for (i=0, maxi=response.features.length; i<maxi; i++){
                 if (response.features[i].properties.ZIP === cleanCode){

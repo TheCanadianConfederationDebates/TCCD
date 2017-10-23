@@ -1,13 +1,23 @@
 /* Styles for the map interface . */
 
+#mapContainer{
+    display: flex;
+    flex-direction: column;
+}
+
 div#map, div#map div{
     margin: 0;
     overflow: hidden;
 }
 
+.map {
+    background: #f8f4f0;
+}
+
 #postalCodeForm{
-    position: fixed;
-    bottom: 0;
+    flex-basis: auto;
+    /*position: fixed;
+    bottom: 0;*/
     padding: 0;
     background-color: #ff3333;
     width: 100vw;
