@@ -11,6 +11,19 @@
     </script>
     <script type="text/ecmascript" src="js/utilities.js">
     </script>
+    
+    <link rel="stylesheet" href="css/ol.css" type="text/css"/>
+    <link rel="stylesheet" href="css/map.css"/>
+    <script src="js/ol.js" type="text/javascript"></script>
+    <script src="js/mapbox-streets-v6-style.js" type="text/javascript"></script>
+    <script src="js/key.js" type="text/javascript"></script>
+    <script src="js/postalcodes.js" type="text/javascript"></script>
+    <style>
+      .map {
+        background: #f8f4f0;
+      }
+    </style>
+    
 </head>
 
 <body>
@@ -35,13 +48,13 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/purpose.html">Purpose</a>
+                        <li lang="en"><a href="purpose.html">Purpose</a>
                         </li>
-                        <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/purpose.html">Objectif</a>
+                        <li lang="fr"><a href="purpose.html">Objectif</a>
                         </li>
-                        <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/team.html">Team</a>
+                        <li lang="en"><a href="team.html">Team</a>
                         </li>
-                        <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/team.html">Personnalités</a>
+                        <li lang="fr"><a href="team.html">Personnalités</a>
                         </li>
                         <li lang="en"><a href="#">Daily Quotes</a></li>
                         <li lang="fr"><a href="#">Citation du jour</a></li>
@@ -77,8 +90,283 @@
         </div>
     </div>
     <div class="fullPage mapEmbed">
-        <iframe src="http://hcmc.uvic.ca/tccd/en/canadaMap.html"></iframe>
+        <!--<iframe src="canadaMap.html"></iframe>-->
+        <div id="map" class="map"></div>
+        
+        <script type="text/javascript">
+            //<![CDATA[
+
+            <!--
+            
+            //Create a reliable path to the project root, for constructing URLs.
+            //We need this because we may be in either the /en/ or /fr/ subfolders.
+            var projectRoot = location.href.replace(/canadaMap\.html.*/, '').replace(/((\/en\/)|(\/fr\/))/, '/');
+            
+            //Create default style for riding points.
+            var strokeRiding = new ol.style.Stroke({color: 'black', width: 2});
+            var fillRiding = new ol.style.Fill({color: 'rgba(255, 204, 51, 0.5)'});
+            /* Federal riding icon is offset to the left; provincial is offset to 
+               the right; and treaty is centred. This is so that where two types
+               of location have the same point, they don't appear on top of each
+               other. */
+            var iconFedRiding = new ol.style.Icon({
+                                                    src:    projectRoot + 'js/placemarkRed.png',
+                                                    anchor: [0,0.5],
+                                                    size:   [25,25]
+                                                  });
+            var iconProvRiding = new ol.style.Icon({
+                                                    src:    projectRoot + 'js/placemarkBlue.png',
+                                                    anchor: [1,0.5],
+                                                    size:   [25,25]
+                                                  });
+            var iconTreatyRiding = new ol.style.Icon({
+                                                    src:    projectRoot + 'js/placemarkGreen.png',
+                                                    anchor: [0.5,0.5],
+                                                    size:   [25,25]
+                                                  });
+            var strokePostalCode = new ol.style.Stroke({color: '#00ff00', width: 2});
+            var fillPostalCode = new ol.style.Fill({color: 'rgba(0, 255, 0, 0.2)'});
+            
+            var ridingStyle = new ol.style.Style({
+              image: new ol.style.Circle({
+                fill: fillRiding,
+                stroke: strokeRiding,
+                radius: 7
+              })
+            });
+            
+            var getRidingStyle = function (feat, resolution){
+              if (feat.getProperties().type === 'federal'){
+                return new ol.style.Style({
+                  image: iconFedRiding
+                });
+              }
+              else{
+                if (feat.getProperties().type === 'treaty'){
+                  return new ol.style.Style({
+                    image: iconTreatyRiding
+                  });
+                }else {
+                  return new ol.style.Style({
+                    image: iconProvRiding
+                  });
+                }
+              }
+              
+            };
+            
+            var getPostalCodeStyle = function (feat, resolution){
+              return new ol.style.Style({
+                image: new ol.style.RegularShape({
+                  fill: fillPostalCode,
+                  stroke: strokePostalCode,
+                  points: 5,
+                  radius: 10,
+                  radius2: 4,
+                  angle: 0
+                }),
+                text: new ol.style.Text({
+                  text: feat.get('id'),
+                  align: center,
+                  offsetY: -20,
+                  stroke: new ol.style.Stroke({color: 'white', width: 4}),
+                  font: 'bold 16px Georgia'
+                })
+              });
+            };
+            
+            function parseSearch(){
+              var i, maxi, feat;
+              var targPlace = getQueryParam('place');
+              console.log(targPlace);
+              var targPostalCode = getQueryParam('postalCode');
+              if (targPlace.length > 0){
+                 feat = srcRidings.getFeatureById(targPlace);
+                 if (feat !== null){
+                    setupMapPopup();
+                    //document.getElementById('mapPopup').innerHTML = featureToHtml(feat);
+                    //mapPopup.setPosition(feat.getGeometry().getCoordinates());
+                    placePopup(feat);
+                    zoomToFeature(feat);
+                 }
+              }
+              if (targPostalCode.length > 0){
+                 jumpToPostalCode(targPostalCode);
+              }
+            };
+                        
+            //Create a vector layer for the ridings.
+            var srcRidings = new ol.source.Vector({
+            //We need to make sure this works whether we're in the /en/ or /fr/ subfolders.
+              //url: 'js/places.json',
+              url: projectRoot + 'js/places.json',
+              format:  new ol.format.GeoJSON()
+            });
+            
+            var ridingsLoadedFunc = function(){
+              if (srcRidings.getState() == 'ready'){
+                srcRidings.un('change', ridingsLoadedFunc);
+                parseSearch();
+              }
+            }
+            
+            srcRidings.on('change', ridingsLoadedFunc);
+            
+            var layerRidings = new ol.layer.Vector({
+              source: srcRidings,
+              /* style: ridingStyle */
+              style: getRidingStyle
+            });
+            
+            //Create another unsourced layer for the user-entered postal codes.
+            var srcPostalCodes = new ol.source.Vector({
+              format:  new ol.format.GeoJSON()
+            });
+            var layerPostalCodes = new ol.layer.Vector({
+              source: srcPostalCodes,
+              style: getPostalCodeStyle
+            });
+            
+            //Standard OSM layer.
+            var layerOSM = new ol.layer.Tile({
+              source: new ol.source.OSM({
+                numZoomLevels: 20,
+                maxZoom: 19
+              })
+            });
+            
+            var key = APIKey;
+            
+            //MapBox layer used for development only.
+            var layerMapBox = new ol.layer.VectorTile({
+              source: new ol.source.VectorTile({
+                crossOrigin: 'anonymous',
+                attributions: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> ' +
+                  '© <a href="https://www.openstreetmap.org/copyright">' +
+                  'OpenStreetMap contributors</a>',
+                format: new ol.format.MVT(),
+                tileGrid: ol.tilegrid.createXYZ({maxZoom: 17}),
+                tilePixelRatio: 16,
+                url: 'https://{a-d}.tiles.mapbox.com/v4/mapbox.mapbox-streets-v6/' +
+                    '{z}/{x}/{y}.vector.pbf?access_token=' + key
+              }),
+              style: createMapboxStreetsV6Style()
+            });
+            
+            //Longitudinal centre of Canada per https://en.wikipedia.org/wiki/Centre_of_Canada;
+            //latitudinal adjusted by me.
+            var center = [-96.8097,56.6277];
+            var bounds = [-141.9903, 76.1156, -49.1778, 44.2580];
+      
+            var map = new ol.Map({
+              layers: [
+                layerOSM,
+                layerRidings,
+                layerPostalCodes
+              ],
+              target: 'map',
+              view: new ol.View({
+                bounds: bounds,
+                center: ol.proj.fromLonLat(center),
+                //projection: 'EPSG:3857',
+                zoom: 4,
+                maxZoom: 16,
+                minZoom: 4
+              })
+            });
+            
+            map.on('pointermove', function(e){
+              var pixel = map.getEventPixel(e.originalEvent);
+              var hit = map.hasFeatureAtPixel(pixel);
+              map.getViewport().style.cursor = hit ? 'pointer' : '';
+            });
+            
+            var mapPopup = null;
+            
+            //Add a crude click event so you can see the info on a riding.
+            //Later this will show whatever it is we want to show.
+            map.on("click", function(e) {
+              map.forEachFeatureAtPixel(e.pixel, function (feature, layer) {
+                  setupMapPopup();
+                  if (feature.getProperties().notBefore){
+                    //document.getElementById('mapPopup').innerHTML = featureToHtml(feature);
+                    placePopup(feature);
+                    //mapPopup.setPosition(e.coordinate);
+                  }
+              })
+            });
+            
+            function reqLoad(){
+              //var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
+              var ret = '<div class="popupCloser" onclick="mapPopup.style.display = \'none\';">✕</div>';
+              ret += this.responseText;
+              mapPopup.innerHTML = ret;
+              mapPopup.style.display = 'block';
+            }
+            
+            function placePopup(feature){
+              var id = feature.getId();
+              console.log(id);
+              //THIS FAILS. Don't know why.
+              /*var url = 'ajax/' + id + '.xml';
+                ajaxRetrieve(url).then(function(response) {
+                    var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
+                    ret += response.responseXml;
+                    document.getElementById('mapPopup').innerHTML = ret;
+                }, function(Error) {
+                    console.log(Error);
+              });*/
+              
+              //Doing it the simple way.
+              var oReq = new XMLHttpRequest();
+              oReq.addEventListener('load', reqLoad);
+              oReq.open('GET', 'ajax/' + id + '.xml');
+              oReq.send();
+            }
+            
+            function setupMapPopup(){
+              if (mapPopup == null){
+                mapPopup = document.getElementById('mapPopup');
+                     /*mapPopup = new ol.Overlay({
+                        element: document.getElementById('mapPopup'),
+                        positioning: 'bottom-center',
+                        offset: [0, -5]
+                      });
+                     map.addOverlay(mapPopup);*/
+                  }
+            }
+            
+            function zoomToFeature(feat){
+              map.getView().animate({
+                //center: ol.proj.fromLonLat(feat.getGeometry().getCoordinates()),
+                center: feat.getGeometry().getCoordinates(),
+                zoom: 8,
+                duration: 2000
+              });
+            }
+
+      // ol.style.Fill, ol.style.Icon, ol.style.Stroke, ol.style.Style and
+      // ol.style.Text are required for createMapboxStreetsV6Style()
+      
+        //-->
+        
+        //]]>
+    </script>
+        
+        <div id="postalCodeForm">
+            <label for="txtPostalCode" lang="en">Enter your postal code to learn whether local leaders supported or opposed joining Confederation</label>
+            <label for="txtPostalCode" lang="fr">Entrez votre code postal pour savoir si les leaders locaux étaient pour ou contre la Confédération </label>
+            <input type="text" maxlength="7" id="txtPostalCode" value="A9A9A9" onkeyup="if (event.keyCode == 13){jumpToPostalCode(this.value)}; return false;"/>
+            <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value); return false;"><span lang="en">Go</span><span lang="fr">Allons-y</span></button>
+        </div>
+        
+        <div id="mapPopup">
+            
+        </div>
     </div>
+    
+    
+    
 
     <div class="container">
         <!-- Headers to include: Purpose, Team, Mini Units, Daily Quotes, links to social
@@ -114,8 +402,8 @@ Debates</em> digitized and preserved all of these 9,000+ pages of records for Ca
                     <p lang="en">All of the Inidgenous lesson plans were produced under the oversight of Professor <a href="https://www.uvic.ca/law/facultystaff/facultydirectory/borrows.php">John Borrows</a>, the Canada Research Chair in Indigenous Law Nexen Chair in Indigenous Leadership at the University of Victoria.</p>
                     <p lang="fr">Avec l’aide de Canadiens de partout au pays, <em>Les Débats de la Confédération</em> a conçu des plans de leçons pour aider les élèves de 7<sup>e</sup> et de 8<sup>e</sup> années, ainsi que ceux des écoles secondaires, à s’intéresser aux débats parlementaires de leur province ou de leur territoire et aux débats sur les enjeux autochtones. Tous les mini modules comprennent de nombreuses activités ainsi que des sources primaires, et sont conformes aux exigences des programmes pédagogiques provinciaux et territoriaux.</p>
                     <p lang="fr">Tous les plans de leçons sur les thématiques autochtones ont été conçus sous la supervision du professeur <a href="https://www.uvic.ca/law/facultystaff/facultydirectory/borrows.php">John Borrows</a>, titulaire de la Chaire de recherche du Canada sur le droit autochtone et de la Chaire de recherche Nexen sur le leadership autochtone à l’Université de Victoria.</p>
-                    <a lang="en" href="http://hcmc.uvic.ca/tccd/en/education.html" class="btn btn-default">Mini Units</a>
-                    <a lang="fr" href="http://hcmc.uvic.ca/tccd/fr/education.html" class="btn btn-default">Mini modules</a>
+                    <a lang="en" href="education.html" class="btn btn-default">Mini Units</a>
+                    <a lang="fr" href="education.html" class="btn btn-default">Mini modules</a>
                 </div>
             </div>
             <div class="row">
@@ -151,8 +439,8 @@ Debates</em> digitized and preserved all of these 9,000+ pages of records for Ca
                             <p lang="en">Find these and many more helpful answers.</p>
                             <p lang="fr">Par où puis-je commencer? Comment dois-je citer <em>Les Débats de la Confédération </em> dans mon projet de recherche?</p>
                             <p lang="fr">Vous trouverez dans cette section les réponses à ces questions et à bien d’autres.</p>
-                            <a lang="en" href="http://hcmc.uvic.ca/tccd/en/FAQ.html" class="btn btn-default">FAQ</a>
-                            <a lang="fr" href="http://hcmc.uvic.ca/tccd/fr/FAQ.html" class="btn btn-default">FAQ</a>
+                            <a lang="en" href="FAQ.html" class="btn btn-default">FAQ</a>
+                            <a lang="fr" href="FAQ.html" class="btn btn-default">FAQ</a>
                         </div>
                     </div>
                 </div>
@@ -550,10 +838,10 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                             <p lang="fr">Après la chute du gouvernement pro-Confédération de Leonard Tilley au Nouveau-Brunswick en mars 1865, Charles Tupper et son gouvernement ont dû faire preuve de prudence. Lisez les documents ci-dessous pour savoir comment Tupper et ses supporteurs ont empêché les opposants à la Confédération de l’emporter.</p>
                             <ul>
                                 <li lang="en">Learn more about "<a href="#" target="_blank">The Maritimes and the Debate Over Confederation</a>" in this chapter by historian Philip Buckner</li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgNSLAssem.html">The Nova Scotia Legislative Assembly's Debates on Confederation, 1865-1867</a>
+                                <li lang="en"><a href="lgNSLAssem.html">The Nova Scotia Legislative Assembly's Debates on Confederation, 1865-1867</a>
                                 </li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">Les Maritimes et le débat sur la Confédération</a> » de l’historien Philip Buckner</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgNSLAssem.html">Débats de l'Assemblée législative de la Nouvelle-Écosse sur la Confédération, 1865-1867</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgNSLAssem.html">Débats de l'Assemblée législative de la Nouvelle-Écosse sur la Confédération, 1865-1867</a> (en anglais seulement)</li>
                             </ul>
                         </div>
                         <div id="NL" class="">
@@ -569,14 +857,14 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                                 <li lang="en">Learn more about "<a href="#" target="_blank">Newfoundland and Canada: Confederation and the Search for Stability</a>" in this chapter by historian Raymond Blake</li>
                                 <li lang="en"><a href="#">The Newfoundland Legislative Assembly's Debates on Confederation, 1865-1869</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgNFNC.html">The Newfoundland National Convention's Debates on Confederation, 1946-1948</a>
+                                <li lang="en"><a href="lgNFNC.html">The Newfoundland National Convention's Debates on Confederation, 1946-1948</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgHC_NFLD.html">The House of Commons' Debates on Newfoundland joining Confederation, 1867-1949</a>
+                                <li lang="en"><a href="lgHC_NFLD.html">The House of Commons' Debates on Newfoundland joining Confederation, 1867-1949</a>
                                 </li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">Terre-Neuve et le Canada : la Confédération et la recherche de stabilité</a> » de l’historien Raymond Blake</li>
                                 <li lang="fr"><a href="#">Débats de l'Assemblée législative de Terre-Neuve sur la Confédération, 1865-1869</a> (en anglais seulement)</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgNFNC.html">Débats de la Convention nationale de Terre-Neuve sur la Confédération, 1946-1948</a> (en anglais seulement)</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgHC_NFLD.html">Débats de la Chambre des communes sur Terre-Neuve et la Confédération, 1867-1949</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgNFNC.html">Débats de la Convention nationale de Terre-Neuve sur la Confédération, 1946-1948</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgHC_NFLD.html">Débats de la Chambre des communes sur Terre-Neuve et la Confédération, 1867-1949</a> (en anglais seulement)</li>
                             </ul>
                         </div>
                         <div id="PE" class="">
@@ -592,11 +880,11 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                                 <li lang="en">Learn more about "<a href="#" target="_blank">The Maritimes and the Debate Over Confederation</a>" in this chapter by historian Philip Buckner</li>
                                 <li lang="en"><a href="#">The Prince Edward Island Legislative Assembly's Debates on Confederation, 1865-1873</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgHC_PEI.html">The House of Commons' Debates on Prince Edward Island joining Confederation, 1867-1873</a>
+                                <li lang="en"><a href="lgHC_PEI.html">The House of Commons' Debates on Prince Edward Island joining Confederation, 1867-1873</a>
                                 </li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">Les Maritimes et le débat sur la Confédération</a> » de l’historien Philip Buckner</li>
                                 <li lang="fr"><a href="#">Débats de l'Assemblée législative de l'Île-du-Prince-Édouard sur la Confédération, 1865-1873</a> (en anglais seulement)</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgHC_PEI.html">Débats de la Chambre des communes sur l'Île-du-Prince-Édouard et la Confédération, 1867-1873</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgHC_PEI.html">Débats de la Chambre des communes sur l'Île-du-Prince-Édouard et la Confédération, 1867-1873</a> (en anglais seulement)</li>
                             </ul>
 
                         </div>
@@ -611,10 +899,10 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                             <p lang="fr">Seule province à rejeter la Confédération lors d’une élection, les débats du Nouveau-Brunswick qui ont eu lieu entre 1865 et 1867 sont des plus captivants!</p>
                             <ul>
                                 <li lang="en">Learn more about "<a href="#" target="_blank">The Maritimes and the Debate Over Confederation</a>" in this chapter by historian Philip Buckner</li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgNBLAssem.html">The New Brunswick Legislative Assembly's Debates on Confederation, 1865-1867</a>
+                                <li lang="en"><a href="lgNBLAssem.html">The New Brunswick Legislative Assembly's Debates on Confederation, 1865-1867</a>
                                 </li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">Les Maritimes et le débat sur la Confédération</a> » de l’historien Philip Buckner</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgNBLAssem.html">Débats de l'Assemblée législative du Nouveau-Brunswick sur la Confédération, 1865-1867</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgNBLAssem.html">Débats de l'Assemblée législative du Nouveau-Brunswick sur la Confédération, 1865-1867</a> (en anglais seulement)</li>
                             </ul>
                         </div>
                         <div id="QC" class="">
@@ -628,14 +916,14 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                             <p lang="fr">Le Québec, connu sous le nom de Canada-Est dans les années précédant la Confédération, partageait son assemblée législative avec celle du Canada-Ouest (aujourd’hui l’Ontario). Les politiciens des deux régions qui composaient la Province du Canada étaient souvent en désaccord et l’impasse qui en a découlé fut l’une des causes majeures de la Confédération. Au moment de débattre des conditions de l’union, les Canadiens français n’arrivaient pas à déterminer si la création de ce nouveau pays aurait un impact positif ou négatif sur la protection de leur culture.</p>
                             <ul>
                                 <li lang="en">Learn more about "<a href="#" target="_blank">Quebec and Confederation: Gains and Compromise</a>" in this chapter by historians Marcel Martel, Colin Coates, Martin Pâquet, and Maxime Gohier</li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgPCLAssem.html">The Province of Canada's Legislative Assembly Debates on Confederation, 1865</a>
+                                <li lang="en"><a href="lgPCLAssem.html">The Province of Canada's Legislative Assembly Debates on Confederation, 1865</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgPCLCoun.html">The Province of Canada's Legislative Council Debates on Confederation, 1865</a>
+                                <li lang="en"><a href="lgPCLCoun.html">The Province of Canada's Legislative Council Debates on Confederation, 1865</a>
                                 </li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">Le Québec et la Confédération : gains et compromis</a> » des historiens Marcel Martel, Colin Coates, Martin Pâquet et Maxime Gohier</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgPCLAssem.html">Débats de l'Assemblée législative de la Province du Canada sur la Confédération, 1865</a>
+                                <li lang="fr"><a href="lgPCLAssem.html">Débats de l'Assemblée législative de la Province du Canada sur la Confédération, 1865</a>
                                 </li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgPCLCoun.html">Débats du Conseil législatif de la Province du Canada sur la Confédération, 1865</a>
+                                <li lang="fr"><a href="lgPCLCoun.html">Débats du Conseil législatif de la Province du Canada sur la Confédération, 1865</a>
                                 </li>
                             </ul>
                         </div>
@@ -650,17 +938,17 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                             <p lang="fr">L’Ontario, connu sous le nom de Canada-Ouest dans les années précédant la Confédération, partageait son assemblée législative avec celle du Canada-Est (aujourd’hui le Québec). Les politiciens des deux régions qui composaient la Province du Canada étaient souvent en désaccord et l’impasse qui en a découlé fut l’une des causes majeures de la Confédération. Dans l'ensemble, les électeurs du Canada-Ouest étaient les plus enthousiastes à l'idée de la Confédération. Apprenez pourquoi en consultant les liens ci-dessous.</p>
                             <ul>
                                 <li lang="en">Read about why Ontarians hoped that their province would be the "<a href="#" target="_blank">The Centre of Confederation</a>" in this chapter by historian Daniel Heidt</li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgPCLAssem.html">The Province of Canada's Legislative Assembly Debates on Confederation, 1865</a>
+                                <li lang="en"><a href="lgPCLAssem.html">The Province of Canada's Legislative Assembly Debates on Confederation, 1865</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgPCLCoun.html">The Province of Canada's Legislative Council Debates on Confederation, 1865</a>
+                                <li lang="en"><a href="lgPCLCoun.html">The Province of Canada's Legislative Council Debates on Confederation, 1865</a>
                                 </li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028675/1100100028679">Treaty No. 3</a></li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028699/1100100028700">Treaty No. 5</a></li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028863/1100100028864">Treaty No. 9</a></li>                                
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">Au cœur de la Confédération</a> » de l’historien Daniel Heidt et apprenez pourquoi les Ontariens voulaient être au centre de celle-ci</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgPCLAssem.html">Débats de l'Assemblée législative de la Province du Canada sur la Confédération, 1865</a>
+                                <li lang="fr"><a href="lgPCLAssem.html">Débats de l'Assemblée législative de la Province du Canada sur la Confédération, 1865</a>
                                 </li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgPCLCoun.html">Débats du Conseil législatif de la Province du Canada sur la Confédération, 1865</a>
+                                <li lang="fr"><a href="lgPCLCoun.html">Débats du Conseil législatif de la Province du Canada sur la Confédération, 1865</a>
                                 </li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028675/1100100028679">Traité Nº 3</a></li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028699/1100100028700">Traités Nº 5</a></li>
@@ -680,7 +968,7 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                                 <li lang="en">Learn more about "<a href="#" target="_blank">Creating New Provinces: Saskatchewan and Alberta</a>" in this chapter by historian Bill Waiser</li>
                                 <li lang="en"><a href="#">The Legislative Assembly of the North-West Territories' Debates on Confederation, 1896-1904</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgHC_AB_SK.html">The House of Commons' Debates on creating Saskatchewan, 1867-1873</a>
+                                <li lang="en"><a href="lgHC_AB_SK.html">The House of Commons' Debates on creating Saskatchewan, 1867-1873</a>
                                 </li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028664/1100100028665">Treaties No. 1 and No. 2</a></li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028689/1100100028690">Treaty No. 4</a></li>
@@ -691,7 +979,7 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028874/1100100028906">Treaty No. 10</a></li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">La création de nouvelles provinces : Saskatchewan et Alberta</a> » de l’historien Bill Waiser</li>
                                 <li lang="fr"><a href="#">Débats de l'Assemblée législative des Territoires du Nord-Ouest sur la Confédération, 1896-1904</a> (en anglais seulement)</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgHC_AB_SK.html">Débats de la Chambre des communes sur la création de la Saskatchewan, 1867-1873</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgHC_AB_SK.html">Débats de la Chambre des communes sur la création de la Saskatchewan, 1867-1873</a> (en anglais seulement)</li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028664/1100100028665">Traités nos 1 et 2</a></li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028689/1100100028690">Traités Nº 4</a></li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028699/1100100028700">Traités Nº 5</a></li>
@@ -762,12 +1050,12 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                             <p lang="fr">Lorsque la Colombie-Britannique envisageait de joindre la Confédération au début des années 1870, une distance considérable la séparait du reste du pays. La promesse d’un chemin de fer transcontinental était essentielle pour combler cette distance, mais les dépenses engendrées par ce projet firent hésiter plusieurs Canadiens.</p>
                             <ul>
                                 <li lang="en">Learn more about "<a href="#" target="_blank">British Columbia and Confederation</a>" in this chapter by historian Patricia Roy</li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgBCLC.html">British Columbia's Legislative Council Debates on Confederation, 1870</a></li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgHC_BC.html">The House of Commons' Debates on British Columbia joining Confederation, 1871</a></li>
+                                <li lang="en"><a href="lgBCLC.html">British Columbia's Legislative Council Debates on Confederation, 1870</a></li>
+                                <li lang="en"><a href="lgHC_BC.html">The House of Commons' Debates on British Columbia joining Confederation, 1871</a></li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028813/1100100028853">Treaty No. 8</a></li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">La Colombie-Britannique et la Confédération</a> » de l’historienne Patricia Roy</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgBCLC.html">Débats du Conseil législatif de la Colombie-Britannique sur la Confédération, 1870</a> (en anglais seulement)</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgHC_BC.html">Débats de la Chambre des communes sur la Colombie-Britannique et la Confédération, 1871</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgBCLC.html">Débats du Conseil législatif de la Colombie-Britannique sur la Confédération, 1870</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgHC_BC.html">Débats de la Chambre des communes sur la Colombie-Britannique et la Confédération, 1871</a> (en anglais seulement)</li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028813/1100100028853">Traité Nº 8</a></li>
                             </ul>
                         </div>
@@ -784,7 +1072,7 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                                 <li lang="en">Learn more about "<a href="#" target="_blank">Creating New Provinces: Saskatchewan and Alberta</a>" in this chapter by historian Bill Waiser</li>
                                 <li lang="en"><a href="#">The Legislative Assembly of the North-West Territories' Debates on Confederation, 1896-1904</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgHC_AB_SK.html">The House of Commons' Debates on creating Alberta, 1867-1873</a>
+                                <li lang="en"><a href="lgHC_AB_SK.html">The House of Commons' Debates on creating Alberta, 1867-1873</a>
                                 </li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028689/1100100028690">Treaty No. 4</a></li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028710/1100100028783">Treaty No. 6</a></li>
@@ -793,7 +1081,7 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028874/1100100028906">Treaty No. 10</a></li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">La création de nouvelles provinces : Saskatchewan et Alberta</a> » de l’historien Bill Waiser</li>
                                 <li lang="fr"><a href="#">Débats de l'Assemblée législative des Territoires du Nord-Ouest sur la Confédération, 1896-1904</a> (en anglais seulement)</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgHC_AB_SK.html">Débats de la Chambre des communes sur la création de l'Alberta, 1867-1873</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgHC_AB_SK.html">Débats de la Chambre des communes sur la création de l'Alberta, 1867-1873</a> (en anglais seulement)</li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028689/1100100028690">Traités Nº 4</a></li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028710/1100100028783">Traités Nº 6</a></li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028793/1100100028803">Traité Nº 7 et de son supplément</a></li>
@@ -814,11 +1102,11 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
 
                             <ul>
                                 <li lang="en">Read about "<a href="#" target="_blank">Resisting Canada’s Will: Manitoba’s Entry into Confederation</a>" in this chapter by historians Robert Wardhaugh and Barry Ferguson</li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgConv40.html">The Convention of 40 on Confederation, 1870</a>
+                                <li lang="en"><a href="lgConv40.html">The Convention of 40 on Confederation, 1870</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgAssinLAssem.html">Legislative Assembly of Assiniboia's Debates on Confederation, 1870</a>
+                                <li lang="en"><a href="lgAssinLAssem.html">Legislative Assembly of Assiniboia's Debates on Confederation, 1870</a>
                                 </li>
-                                <li lang="en"><a href="http://hcmc.uvic.ca/tccd/en/lgHC_MB.html">The House of Commons' Debates on creating Manitoba, 1869-1870</a>
+                                <li lang="en"><a href="lgHC_MB.html">The House of Commons' Debates on creating Manitoba, 1869-1870</a>
                                 </li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028664/1100100028665">Treaties No. 1 and No. 2</a></li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028675/1100100028679">Treaty No. 3</a></li>
@@ -826,11 +1114,11 @@ FOR, OR AGAINST, JOINING CONFEDERATION." -->
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028699/1100100028700">Treaty No. 5</a></li>
                                 <li lang="en"><a href="https://www.aadnc-aandc.gc.ca/eng/1100100028863/1100100028864">Treaty No. 9</a></li>
                                 <li lang="fr">Lisez le chapitre « <a href="#" target="_blank">Résister à la volonté du Canada : l'entrée du Manitoba dans la Confédération</a> » des historiens Robert Wardhaugh et Barry Ferguson</li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgConv40.html">Le Conseil des 40 au sujet de la Confédération, 1870</a>
+                                <li lang="fr"><a href="lgConv40.html">Le Conseil des 40 au sujet de la Confédération, 1870</a>
                                 </li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgAssinLAssem.html">Débats de l'Assemblée législative d'Assiniboia sur la Confédération, 1870</a>
+                                <li lang="fr"><a href="lgAssinLAssem.html">Débats de l'Assemblée législative d'Assiniboia sur la Confédération, 1870</a>
                                 </li>
-                                <li lang="fr"><a href="http://hcmc.uvic.ca/tccd/fr/lgHC_MB.html">Débats de la Chambre des communes sur la création du Manitoba, 1869-1870</a> (en anglais seulement)</li>
+                                <li lang="fr"><a href="lgHC_MB.html">Débats de la Chambre des communes sur la création du Manitoba, 1869-1870</a> (en anglais seulement)</li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028664/1100100028665">Traités nos 1 et 2</a></li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028675/1100100028679">Traité Nº 3</a></li>
                                 <li lang="fr"><a href="https://www.aadnc-aandc.gc.ca/fra/1100100028689/1100100028690">Traités Nº 4</a></li>

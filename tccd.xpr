@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="18.1">
+<project version="19.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="18.1" xml:space="preserve">
+            <serialized version="19.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>document.types</String>
@@ -310,6 +310,9 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
+                                <field name="textModeExternalObjectInsertionHandler">
+                                    <null/>
+                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -592,6 +595,9 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
+                                <field name="textModeExternalObjectInsertionHandler">
+                                    <null/>
+                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -825,6 +831,9 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -1128,6 +1137,9 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -1483,6 +1495,9 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -3874,6 +3889,5 @@
             <file name="code/xslt/tei_to_html_master.xsl"/>
         </folder>
         <folder path="."/>
-        <file name="data/Nfld/Federal/lgHC_NFLD_1949-01-26.xml"/>
     </projectTree>
 </project>

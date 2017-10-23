@@ -138,7 +138,7 @@
   
 <!-- Components of the map, to be copied to the website. -->
   <fileset id="mapComponents" dir="code/map">
-    <include name="**/*"/>
+    <include name="**/*.*"/>
   </fileset>
   
 <!-- Utility targets. -->
@@ -322,7 +322,9 @@
   <target name="copyWebResources">
     <antcall target="MESSAGE"><param name="msg" value="Copying resources to output folder..."/></antcall>
     <mkdir dir="${webDir}/css"/>
-    <copy file="code/html/css/html.css" todir="${webDir}/css"/>
+    <copy todir="${webDir}/css">
+      <fileset dir="code/html/css" includes="*.css"/>
+    </copy>
     <mkdir dir="${webDir}/js"/>
     <copy todir="${webDir}/js">
       <fileset dir="code/html/js" includes="*.js *.png"/>

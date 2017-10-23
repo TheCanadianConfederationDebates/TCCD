@@ -468,7 +468,7 @@ footer h2 {
 .mapEmbed {
   margin-top: -20px;
 }
-.mapEmbed iframe {
+.mapEmbed iframe, .mapEmbed>div {
   height: 60vh; /*16:9 ratio*/
   width: 100vw;
   border: 0;
