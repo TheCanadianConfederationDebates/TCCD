@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
+     but without the trailing .xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgNSLA_1865-04-21" type="template">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
+        conforming with our current norms. Tag the date with a <date> element
+        which includes @when or @from/@to attributes so we can process it 
+        mechanically. -->
+        <title><name type="legislature" ref="lg:lgNSLAssem">Nova Scotia Legislative Assembly</name>, <date when="1865-04-20">20 April 1865</date>, Nova Scotia Confederation with Canada.</title>
+        
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="pers:YU1">Thomson Yu</persName>
+        </respStmt>
+        
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
+                      this data was taken.-->
+        <bibl>
+          
+          <editor>John George Bourinot</editor>.
+          
+          
+          <title>Debates and Proceedings of the House of Assembly, During the Second Session of the Twenty-Third Parliament of the Province of Nova Scotia.</title>.
+          
+          
+          <date when="1865"/>.  
+          
+          
+          <pubPlace>Halifax, N.S.</pubPlace>: <publisher>Crosskill and Bourinot, "Reporter" Office</publisher>.
+          
+          
+          <biblScope unit="page" from="288" to="299"/>.
+        </bibl>
+        
+<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
+        examples. File path should be relative to THIS XML FILE. -->
+        <list>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_288.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_289.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_290.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_291.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_292.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_293.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_294.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_295.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_296.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_297.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_298.hocr.html"/></item>
+          <item><ptr target="final/hocr/NS_LA_1865-04-21_Page_299.hocr.html"/></item>
+        </list>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
+        selected. This is especially important in cases where discontinuous 
+        page-ranges are used.  -->
+        <p></p>
+      </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
+        date in the @when attribute. -->
+      <change who="YuYom" when="2017-10-23">Created this document, completed metadata. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
+  
+  <text>
+    <body>
+      <div type="debate">
+        <p>This content will be replaced by data from the source documents during processing.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
