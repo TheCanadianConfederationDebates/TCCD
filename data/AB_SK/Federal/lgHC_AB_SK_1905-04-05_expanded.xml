@@ -3,7 +3,7 @@
      xml:id="lgHC_AB_SK_1905-04-05"
      type="full">
    <teiHeader>
-      <fileDesc>
+      <fileDesc> <!-- PG, delete name markup on Bergeron and Scott in quote in line 7504 -->
          <titleStmt>
 
             <title>
@@ -2339,7 +2339,7 @@
            
             <pb n="3847" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3847.jpg"/>
            
-     <fw type="num">3847</fw>                                                               <fw type="running">COMMONS</fw>                                                        <fw type="num">3848</fw> 
+     <fw type="num">3847</fw>                                                               <fw type="running">COMMONS</fw>                                                       <fw type="num">3848</fw> 
      <lb/>
             
 
@@ -2352,7 +2352,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Hear, hear. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Hear, hear. 
      <lb/>
      
             </p>
@@ -2439,15 +2439,10 @@
      <lb/>
      that province was present and could sub<lb break="no"/>mit its case. Upon that statement I with<lb break="no"/>drew from the meeting, and I am told 
      <lb/>
-            </p>
+          
    
-            <p>
-     Sir WILLIAM MULOCK. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
-     
+            <cb/>
+          
      
      
      
@@ -2459,7 +2454,7 @@
      
      
      that the claim for extension to Hudson bay         
-     <lb/>then and there ceased for the time being.<lb/>I take the ground to-day, as a minister from<lb/>Ontario, without expressing any opinion as<lb/>to how the territory should be divided, that<lb/>our province is entitled to an oppor<lb break="no"/>tunity to present its case before the parlia<lb break="no"/>ment of Canada deals with it. In my opin<lb break="no"/>ion it is quite possible to make a fair dis<lb break="no"/>tribution, so that Ontario may be able to<lb/>acquire a deep sea harbour and Manitoba<lb/>be similarly equipped on the Hudson bay.<lb/>Our territory extends to James bay but I be-<lb break="maybe"/>leive James bay is shallow and not suitable<lb/>ocean navigation, whereas when you<lb/>go to the west coast of Hudson bay, you<lb/>have two possible ports, one at the mouth<lb/>of the Nelson river, which with dredging<lb/>may be made a very good sea harbour, and<lb/>it might be regarded by the two provinces <lb/>as a fair division of territory if Manitoba<lb/>were given a harbour at the mouth of the <lb/>Churchill river and Ontario at Nelson<lb/>river. That was the idea that went through<lb/>my mind when I heard of this claim ; and so<lb/>far as the Papal Ablegate is concerned, the<lb/>statement made in this newspaper is the <lb/>first intimation I have that he took any part<lb/>in the adjustment of the boundaries of On<lb break="no"/>tario. Long before the interview in question,<lb/>I had given, so far as a minister from On<lb break="no"/>tario could do so, a decision as the atti<lb break="no"/>tude I assumed on that question, and that<lb/>was that until the province of Ontario could<lb/>be heard, no conclusion could be come to.<lb/>
+     <lb/>then and there ceased for the time being.<lb/>I take the ground to-day, as a minister from<lb/>Ontario, without expressing any opinion as<lb/>to how the territory should be divided, that<lb/>our province is entitled to an oppor<lb break="no"/>tunity to present its case before the parlia<lb break="no"/>ment of Canada deals with it. In my opin<lb break="no"/>ion it is quite possible to make a fair dis<lb break="no"/>tribution, so that Ontario may be able to<lb/>acquire a deep sea harbour and Manitoba<lb/>be similarly equipped on the Hudson bay.<lb/>Our territory extends to James bay but I be<lb break="no"/>lieve James bay is shallow and not suitable<lb/>ocean navigation, whereas when you<lb/>go to the west coast of Hudson bay, you<lb/>have two possible ports, one at the mouth<lb/>of the Nelson river, which with dredging<lb/>may be made a very good sea harbour, and<lb/>it might be regarded by the two provinces <lb/>as a fair division of territory if Manitoba<lb/>were given a harbour at the mouth of the <lb/>Churchill river and Ontario at Nelson<lb/>river. That was the idea that went through<lb/>my mind when I heard of this claim ; and so<lb/>far as the Papal Ablegate is concerned, the<lb/>statement made in this newspaper is the <lb/>first intimation I have that he took any part<lb/>in the adjustment of the boundaries of On<lb break="no"/>tario. Long before the interview in question,<lb/>I had given, so far as a minister from On<lb break="no"/>tario could do so, a decision as the atti<lb break="no"/>tude I assumed on that question, and that<lb/>was that until the province of Ontario could<lb/>be heard, no conclusion could be come to.<lb/>
             </p>
    
             <p>
@@ -2517,10 +2512,10 @@
      <lb/>
             </p>
             <pb n="3849" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3849.jpg"/>
-            <fw type="dateline">
-     3849 APRIL 5, 1905 3850 
+       
+     <fw type="num">3849</fw> <fw type="dateline">APRIL 5, 1905</fw> <fw type="num">3850</fw> 
      <lb/>
-            </fw>
+
             <p>
      I do not know anything about the letter 
      <lb/>
@@ -2562,7 +2557,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      Sir, as we find it necessary to leave Ottawa 
      <lb/>
      to-morrow, we desire to refer to our interview 
@@ -2579,7 +2574,7 @@
      <lb/>
      give us an answer respecting same. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      They remained here not only two or three 
@@ -2588,9 +2583,7 @@
      <lb/>
      of February, and they departed without re<lb break="no"/>ceiving any answer or any intimation 
      <lb/>
-     beyond that. But they received an intima<lb break="no"/>tion from His Excellency Monseigneur Sbar- 
-     <lb break="maybe"/>
-     retti which has been dealt with by the 
+     beyond that. But they received an intima<lb break="no"/>tion from His Excellency Monseigneur Sbar<lb break="no"/>retti which has been dealt with by the 
      <lb/>
      Prime Minister and by Mr. Rogers in his 
      <lb/>
@@ -2644,16 +2637,16 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      Two days after the ' Telegram ' had trumpet<lb break="no"/>ed abroad the Hon. Robert Rogers' great hopes 
      <lb/>
      for the western extension of Manitoba, the 
      <lb/>
      same wise and prophetic journal deplores the 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+           
      fact that there will be no such extension in 
      <lb/>
      any direction. But it omits to give the reason 
@@ -2672,7 +2665,7 @@
      <lb/>
      policy. 
      <lb/>
-            </p>
+            </p> </quote>
 
             <p>
      That is a pretty direct statement. In so 
@@ -2741,17 +2734,17 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      The school legislation of the little pro<lb break="no"/>vince— 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      That is the province of Manitoba. 
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      —is not of a nature to attract immigrants 
      <lb/>
      who people the districts. The Northwest has 
@@ -2772,19 +2765,19 @@
             <p>
      Manitoba will remain lowest with her pre<lb break="no"/>tentious law. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      A little before that the same paper says : 
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      In proportion to her big sisters Manitoba will 
      <lb/>
      count as little more than a large county. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      In view of these suggestions, they are 
@@ -2797,11 +2790,11 @@
      <lb/>
      the absolute direction and control of the 
      <lb/>
-            </p>
+          
             <pb n="3851" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3851.jpg"/>
             <fw type="num">3851</fw>
-            <fw type="running">COMMONS  3852</fw>
-            <p>
+            <fw type="running">COMMONS</fw>  <fw type="num">3852</fw>
+           
      right hon. gentleman (Sir Wilfrid Laurier) 
      <lb/>
      in view of all this, might I not respectfully 
@@ -2923,14 +2916,11 @@
      <lb/>
      but that he did deliver the letter. Surely 
      <lb/>
-            </p>
+            
    
-            <p>
-     Mr. R. L. BORDEN. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+        
+            <cb/>
+        
      we are living in a mysterious age, myster<lb break="no"/>ious things are taking place every day, 
      <lb/>
      and this is one of them. I wish to call the 
@@ -3037,13 +3027,13 @@
      <lb/>received a letter from the Archbishop of 
      <lb/>Ephesus, Monseigneur Sbarretti, and there 
      <lb/>
-            </p>
+           
             <pb n="3853" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3853.jpg"/>
-            <fw type="dateline">
-     3853  APRIL 5, 1905  3854  
+        
+     <fw type="num">3853</fw> <fw type="dateline"> APRIL 5, 1905</fw>  <fw type="num">3854 </fw> 
      <lb/>
-            </fw>
-            <p>
+            
+           
      is no denial of that; there is no denial of 
      <lb/>
      the fact that he waited upon the Apostolic 
@@ -3096,7 +3086,7 @@
      <lb/>
             </p>
 
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      This invitation was accepted and His Excel<lb break="no"/>lency then presented the following memo<lb break="no"/>randum, remarking that if we would place this 
      <lb/>
      on the statute-book of our province it would 
@@ -3113,7 +3103,7 @@
      <lb/>
      claim for extension westward. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Now is that true or is it not ? Is it true 
@@ -3172,7 +3162,7 @@
      facts if he means by 'hon. gentlemen op<lb break="no"/>posite ' the government. 
      <lb/>
             </p>
-            <milestone type="unknown"/>
+            <cb/>
             <p>
      Mr. W. F. MACLEAN. _I did not say that. 
      <lb/>
@@ -3200,14 +3190,14 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      It is desirable, if not necessary, that the mis<lb break="no"/>sion of Monseigneur Merry Del Val should be or 
      <lb/>
      rather continued, and that he should be pre<lb break="no"/>sent in the midst of us for a more or less pro<lb break="no"/>longed time as the accredited representative 
      <lb/>
      of the Holy See. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      The hon. Minister of Justice, as Mr. Chas. 
@@ -3275,7 +3265,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      I have just arrived at Rome once more at the 
      <lb/>
      urgent request of the Catholic members of the 
@@ -3294,14 +3284,14 @@
      <lb/>
      outside all local interests. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      That is not denied. Then, what else fol<lb break="no"/>lows '3 Mr. Russell, the Canadian legal re<lb break="no"/>presentative, wrote to His Eminence as fol<lb break="no"/>lows : 
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      We do not solicit His Holiness to sanction as 
      <lb/>
      perfect the concessions obtained, but that in his 
@@ -3310,7 +3300,7 @@
      <lb/>
      a. beginning of justice. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Now, that is a very important statement. 
@@ -3321,11 +3311,11 @@
      <lb/>
      in 1905, when the west is to be fettered in 
      <lb/>
-            </p>
+         
             <pb n="3855" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3855.jpg"/>
             <fw type="num">3855</fw>
-            <fw type="running">COMMONS 3856</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3856</fw>
+          
      regard to her school freedom. In addition I 
      <lb/>
      wish to refer to another thing. Does not 
@@ -3346,7 +3336,7 @@
      <lb/>civil service ? 
      <lb/>
             </p>
-            <p>Some hon. MEMBERS. Oh, oh. 
+            <p><persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Oh, oh. 
      <lb/>
             </p>
    
@@ -3431,14 +3421,9 @@
      <lb/>he did tell them that if they did accept 
      <lb/>them they would find that their boundaries 
      <lb/>
-            </p>
-   
-            <p>
-     Mr. W. F. MACLEAN. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>would be extended to the north, and that<lb/>the reason that their boundaries had not<lb/>been extended to the west was because of<lb/>their school legislation. This is something<lb/>that the people want an explanation of. It<lb/>is something of which no explanation has<lb/>been given here to-day and if the right hon.<lb/>leader of the government thinks that this<lb/>is to pass off with the explanation made<lb/>here to-day he greatly misunderstands the<lb/>situation of this country. There is a poli<lb break="no"/>tical crisis in this country, there is a feeling<lb/>of unrest that hon. gentlemen opposite pre<lb break="no"/>tend to ignore but it is here, it must be<lb/>dealt with and there is nothing that con<lb break="no"/>firms it so much as the timidity of hon.<lb/>gentlemen opposite. They are afraid to do<lb/>anything. They cannot fill the vacancies in<lb/>their cabinet. They cannot send the hon.<lb/>member for London (Mr. Hyman) back for<lb/>the endorsation of his constituents, they are<lb/>doing everything that men who have done<lb/>wrong and fear public censure could do, but<lb/>they are not discharging their duty as they<lb/>ought to discharge it.<lb/>
+           
+            <cb/>
+            would be extended to the north, and that<lb/>the reason that their boundaries had not<lb/>been extended to the west was because of<lb/>their school legislation. This is something<lb/>that the people want an explanation of. It<lb/>is something of which no explanation has<lb/>been given here to-day and if the right hon.<lb/>leader of the government thinks that this<lb/>is to pass off with the explanation made<lb/>here to-day he greatly misunderstands the<lb/>situation of this country. There is a poli<lb break="no"/>tical crisis in this country, there is a feeling<lb/>of unrest that hon. gentlemen opposite pre<lb break="no"/>tend to ignore but it is here, it must be<lb/>dealt with and there is nothing that con<lb break="no"/>firms it so much as the timidity of hon.<lb/>gentlemen opposite. They are afraid to do<lb/>anything. They cannot fill the vacancies in<lb/>their cabinet. They cannot send the hon.<lb/>member for London (Mr. Hyman) back for<lb/>the endorsation of his constituents, they are<lb/>doing everything that men who have done<lb/>wrong and fear public censure could do, but<lb/>they are not discharging their duty as they<lb/>ought to discharge it.<lb/>
                <lb/>
             </p>
             <p>
@@ -3482,9 +3467,7 @@
      <lb/>
      it was drawn up. Then, we have the fur<lb break="no"/>ther statement that the hon. Minister of 
      <lb/>
-     Finance (Mr. Fielding) and the hon. ex-Min- 
-     <lb break="maybe"/>
-     ister of the Interior (Mr. Sifton), both men 
+     Finance (Mr. Fielding) and the hon. ex-Min<lb break="no"/>ister of the Interior (Mr. Sifton), both men 
      <lb/>
      who were supposed to represent the Pro<lb break="no"/>testant faith in the government,–I suppose 
      <lb/>
@@ -3512,10 +3495,10 @@
      <lb/>
             </p>
             <pb n="3857" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3857.jpg"/>
-            <fw type="dateline">
-     3857 APRIL 5, 1905  3858  
+         
+     <fw type="num">3857</fw> <fw type="dateline">APRIL 5, 1905</fw>  <fw type="num">3858</fw>
      <lb/>
-            </fw>
+           
             <p>
      Sir WILLIAM. MULOCK. That is quite 
      <lb/>
@@ -3575,7 +3558,7 @@
             <p>
      Sir WILLIAM MULOCK. 
      <lb/>
-     lie about it. 
+    You need not lie about it. 
      <lb/>
             </p>
    
@@ -3629,7 +3612,7 @@
             </p>
 
             <p>
-     Some hon. MEMBERS. Take it back. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Take it back. 
      <lb/>
      
      
@@ -3663,7 +3646,7 @@
      gentleman is paying his political debts 
      <lb/>
             </p>
-            <milestone type="unknown"/>
+            <cb/>
             <p>
      Mr. SPEAKER. Order. My ruling must 
      <lb/>
@@ -3729,7 +3712,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Withdraw. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Withdraw. 
      <lb/>
             </p>
    
@@ -3777,7 +3760,7 @@
      
      
             </p>
-            <p>Some hon. MEMBERS. Order. Expel 
+            <p><persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Order. Expel 
      <lb/>him. 
      <lb/>
             </p>
@@ -3809,7 +3792,7 @@
             <p>
      Mr. SPEAKER. Order. 
      <lb/>
-     Some hon. MEMBERS. Order. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Order. 
      <lb/>
             </p>
    
@@ -3828,7 +3811,7 @@
             </p>
             <pb n="3859" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3859.jpg"/>
             <fw type="num">3859</fw>
-            <fw type="running">COMMONS 3860</fw>
+            <fw type="running">COMMONS</fw> <fw type="num">3860</fw>
             <p>
      Mr. SAM. HUGHES. Do all the naming 
      <lb/>
@@ -3880,7 +3863,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Oh. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Oh. 
      <lb/>
             </p>
    
@@ -3892,7 +3875,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Nonsense. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Nonsense. 
      <lb/>
             </p>
    
@@ -3960,12 +3943,12 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Oh. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Oh. 
      <lb/>
             </p>
 
             <p>
-     An hon. MEMBER. Prove it. 
+     <persName ref="pers:ANON1">An hon. MEMBER</persName>. Prove it. 
      <lb/>
             </p>
 
@@ -3980,14 +3963,12 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Oh. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Oh. 
      <lb/>
      
             </p>
-            <p>Mr. SPEAKER. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
+            
+            <cb/>
             <p>
      Sir WILLIAM MULOCK. Will the hon. 
      <lb/>
@@ -4013,7 +3994,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Oh. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Oh. 
      <lb/>
             </p>
    
@@ -4049,7 +4030,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Oh. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Oh. 
      <lb/>
             </p>
    
@@ -4077,7 +4058,7 @@
      <lb/>
      
             </p>
-            <p>Some hon. MEMBERS. Order. 
+            <p><persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Order. 
      <lb/>
             </p>
    
@@ -4140,11 +4121,11 @@
             </p>
             <pb n="3861" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3861.jpg"/>
             <fw type="dateline">
-     3861 APRIL 5, 1905 3862 
+     <fw type="num">3861</fw> <fw type="dateline">APRIL 5, 1905</fw> <fw type="num">3862</fw> 
      <lb/>
             </fw>
             <p>
-     Some hon. MEMBERS. Oh, oh ; where ? 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Oh, oh ; where ? 
      <lb/>
             </p>
    
@@ -4212,7 +4193,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Order. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Order. 
      <lb/>
             </p>
    
@@ -4254,7 +4235,7 @@
             </p>
    
             <p>
-     An hon. MEMBER. Hold them now. 
+     <persName ref="pers:ANON1">An hon. MEMBER</persName>. Hold them now. 
      <lb/>
             </p>
    
@@ -4278,14 +4259,9 @@
      the city of Toronto. He dare not go even 
      <lb/>
      
-            </p>
    
-            <p>
-     123 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            <cb/>
+          
      into his own constituency of North York 
      <lb/>
      and discuss this Bill. I will go into North 
@@ -4412,13 +4388,12 @@
      <lb/>
      who has had the temerity to interfere with 
      <lb/>
-            </p>
             <fw type="num">REVISED</fw>
             <fw type="running">EDITION</fw>
             <pb n="3863" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3863.jpg"/>
             <fw type="num">3863</fw>
-            <fw type="running">COMMONS 3864</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3864</fw>
+            
      the government of this country. Hon. gen<lb break="no"/>tlemen may laugh ; but we all know what 
      <lb/>
      King John said—and let me tell these hon. 
@@ -4472,12 +4447,12 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      Get thee glass eyes, and, like a scurvy politi<lb break="no"/>cian, 
      <lb/>
      Seem to see the things thou dost not. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Mr. SPEAKER. Order. 
@@ -4517,7 +4492,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Take it back. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Take it back. 
      <lb/>
             </p>
 
@@ -4536,7 +4511,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Withdraw. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Withdraw. 
      <lb/>
             </p>
    
@@ -4558,14 +4533,11 @@
      <lb/>
      we have just heard. I desire simply to ask 
      <lb/>
-            </p>
+           
    
-            <p>
-     Mr. W. F. MACLEAN 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+            
      hon. gentlemen opposite if they really intend 
      <lb/>
      to fasten on the parliament of Canada such 
@@ -4688,11 +4660,11 @@
      <lb/>
      courage and the manliness of standing up 
      <lb/>
-            </p>
+          
             <pb n="3865" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3865.jpg"/>
-            <p>3865 APRIL 5, 1905  3866<lb/>
-            </p>
-            <p>
+            <fw type="num">3865</fw> <fw type="dateline">APRIL 5, 1905</fw>  <fw type="num">3866</fw><lb/>
+            
+            
      and denouncing such an infamous policy. 
      <lb/>
      And at a moment like this, when such ap<lb break="no"/>peals are being made to the worst passions 
@@ -4715,9 +4687,7 @@
      <lb/>
      member for Jacques Cartier (Mr. Monk) or 
      <lb/>
-     the hon. member for Beauharnois (Mr. Ber- 
-     <lb break="maybe"/>
-     geron), who have shown by their speeches 
+     the hon. member for Beauharnois (Mr. Ber<lb break="no"/>geron), who have shown by their speeches 
      <lb/>
      that they had the courage to separate from 
      <lb/>
@@ -4817,12 +4787,9 @@
      <lb/>need only mention, as I have done, that all 
      <lb/>governments of civilized nations entertain 
      <lb/>
-            </p>
-            <p>123 1/2 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+          
      direct official relations with the Pope. My 
      <lb/>
      hon. friend the Postmaster General has 
@@ -4850,7 +4817,7 @@
             </p>
    
             <p>
-     An hon. MEMBER. And in London. 
+     <persName ref="pers:ANON1">An hon. MEMBER</persName>. And in London. 
      <lb/>
             </p>
    
@@ -4929,22 +4896,20 @@
      <lb/>
      of view, it is to-day no longer a temporal 
      <lb/>
-     government but only a high moral govern<lb break="no"/>ment, guiding the spiritual affairs of 300,- 
-     <lb break="maybe"/>
-     000,000 of human beings, among which are 
+     government but only a high moral govern<lb break="no"/>ment, guiding the spiritual affairs of 300,<lb break="no"/>000,000 of human beings, among which are 
      <lb/>
      12,000,000 respectable, law-abiding British 
      <lb/>
      subjects, including 2,000,000 Canadians of 
      <lb/>
      different origins. It is unworthy of mem<lb break="no"/>
-            </p>
+            
             <pb n="3867" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3867.jpg"/>
-            <p>3867                                                          COMMONS                                                            3868 
+            <fw type="num">3867</fw>                                                          <fw type="running">COMMONS</fw>                                                            <fw type="num">3868</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+            
      bers of this House, of representatives of a 
      <lb/>
      great party, and representatives of a great 
@@ -5060,14 +5025,9 @@
      <lb/>
      the province of Ontario. And this was not 
      <lb/>the first time that an ablegate was sent to<lb/>Canada. The same thing was done in 1876<lb/>and later on on the 80's. But how was it in<lb/>
-            </p>
-   
-            <p>
-     Mr. BOURASSA. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      those days ? The arch-defenders of British 
      <lb/>
      citizenship and of loyalty to Protestantism 
@@ -5177,16 +5137,14 @@
      their power, to unthrone the Pope and 
      <lb/>
      prevent the priests of the province of Que<lb break="no"/>bec from saying mass, I would not be say<lb break="no"/>ing more silly things than you read every<lb/>day in three or four columns of the 'World'<lb/>
-            </p>
+            
             <pb n="3869" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3869.jpg"/>
-            <fw type="dateline">
-     3869 APRIL 5, 1905 3870 
+          
+     <fw type="num">3869</fw> <fw type="dateline">APRIL 5, 1905</fw> <fw type="num">3870</fw> 
      <lb/>
-            </fw>
-            <p>
-     or the 'News.' These newspapers are try<lb break="no"/>ing to create outside of Ontario the impres- 
-     <lb break="maybe"/>
-     siou that Ontario is one of the most ignor<lb break="no"/>ant places on earth. I refuse to believe 
+            
+          
+     or the 'News.' These newspapers are try<lb break="no"/>ing to create outside of Ontario the impres<lb break="no"/>sion that Ontario is one of the most ignor<lb break="no"/>ant places on earth. I refuse to believe 
      <lb/>
      that. I refuse to believe that a majority 
      <lb/>
@@ -5202,9 +5160,7 @@
      <lb/>
      the seventeen men who took General de 
      <lb/>
-     Villiers and let him skip off the next morn- 
-     <lb break="maybe"/>
-     ing—unless these two gentlemen would 
+     Villiers and let him skip off the next morn<lb break="no"/>ing—unless these two gentlemen would 
      <lb/>
      come together and throw stones at me, I do 
      <lb/>
@@ -5265,9 +5221,7 @@
      <lb/>
      province, to whom he is responsible. If, 
      <lb/>
-     Sir, it is such a nasty thing for the Catho- 
-     <lb break="maybe"/>
-     lies to have called for an ablegate to come 
+     Sir, it is such a nasty thing for the Catho<lb break="no"/>lics to have called for an ablegate to come 
      <lb/>
      into this country to look after their own 
      <lb/>
@@ -5288,9 +5242,9 @@
      <lb/>Manitoba government and of the legislative 
      <lb/>assembly of Manitoba, by a Protestant 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      statesman, in having an interview with 
      <lb/>
      Monseigneur Sbarretti ? I do not suppose 
@@ -5391,8 +5345,7 @@
      <lb/>passed between Mr. Rogers and Monseigneur 
      <lb/>Sbarretti, and I would advise the hon. mem<lb break="no"/>ber for South York to call on them if he 
      <lb/>wants to know what transpired between 
-     <lb/>them. But suppose that Monseigneur Sbar- 
-     <lb break="maybe"/>retti (lid discuss with Mr. Rogers the rights 
+     <lb/>them. But suppose that Monseigneur Sbar<lb break="no"/>retti did discuss with Mr. Rogers the rights 
      <lb/>of the Catholics of Manitoba, suppose he 
      <lb/>did ask Mr. Rogers to do something for the 
      <lb/>Catholics of Manitoba, where in the name 
@@ -5414,11 +5367,11 @@
      <lb/>it is about time that we should look at these 
      <lb/>questions from a common sense point of 
      <lb/>
-            </p>
+            
             <pb n="3871" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3871.jpg"/>
             <fw type="num">3871</fw>
-            <fw type="running">COMMONS 3872</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3872</fw>
+          
      view, and with greater breadth of mind. 
      <lb/>
     'Monseigneur Sbarretti, in discussing with 
@@ -5534,14 +5487,11 @@
      <lb/>
      ought not to remain in this country a single 
      <lb/>
-            </p>
+            
 
-            <p>
-     Mr. BOURASSA. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+           
      hour longer than those gentlemen who secur<lb break="no"/>ed his presence here can manage to effect 
      <lb/>
      his recall by communicating with his su<lb break="no"/>perior in Rome. I think it is their duty, it 
@@ -5616,7 +5566,7 @@
             </p>
    
             <p>
-     Some hon. MEMBERS. Oh, oh. 
+     <persName ref="pers:ANON1">Some hon. MEMBERS</persName>. Oh, oh. 
      <lb/>
             </p>
    
@@ -5653,13 +5603,12 @@
      <lb/>
      speaking provinces at the present time, 
      <lb/>
-            </p>
+           
             <pb n="3873" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3873.jpg"/>
-            <fw type="dateline">
-     3873 APRIL 5, 1905 3874 
+           
+     <fw type="num">3873</fw> <fw type="dateline">APRIL 5, 1905</fw> <fw type="num">3874</fw> 
      <lb/>
-            </fw>
-            <p>
+            
      that my hon. friend made the challenge that 
      <lb/>
      he did make to hon. members on the other 
@@ -5781,9 +5730,9 @@
      <lb/>
      United States ? Not at all. There is, it 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+            
      is true, a Papal representative, but to deal 
      <lb/>
      with the church, not to negotiate with the 
@@ -5880,13 +5829,13 @@
      <lb/>
      
      
-            </p>
+           <quote rendition="tccd:blockquote">
             <p>He who fights and runs away 
      <lb/>May live to fight another day, 
      <lb/>
-            </p>
+            </p></quote>
 
-            <p>
+          
      for every time he finishes speaking he gets 
      <lb/>
      up and clears from the House. He has 
@@ -5901,11 +5850,11 @@
      <lb/>
      a lack of courage. But, what are the 
      <lb/>
-            </p>
+           
             <pb n="3875" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3875.jpg"/>
             <fw type="num">3875</fw>
-            <fw type="running">COMMONS 3876</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3876</fw>
+           
      duties of this Papal delegate ? We were 
      <lb/>
      told that his duties were to settle differ<lb break="no"/>ences between the Roman Catholic people 
@@ -6015,20 +5964,15 @@
      <lb/>
      day atter day and night after night to de<lb break="no"/>fend the rights of the people against im<lb break="no"/>proper interference. I am glad to know I 
      <lb/>
-     had the assistance and support of Sir Wil- 
-     <lb break="maybe"/>
-     frid Laurier and his friends in that fight, 
+     had the assistance and support of Sir Wil<lb break="no"/>frid Laurier and his friends in that fight, 
      <lb/>
      With his sunny ways and his diplomatic 
      <lb/>
-            </p>
+            
 
-            <p>
-     Mr. SPROULE. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+          
+            <cb/>
+           
      ability he succeeded in arranging that trouble 
      <lb/>
      and bringing about conciliation and har<lb break="no"/>mony where they did not exist before. But 
@@ -6083,9 +6027,7 @@
      <lb/>
      and on the 21st the Bill was introduced. I 
      <lb/>
-     noticed the Minister of Agriculture coach<lb break="no"/>ing the member for Labelle to draw atten- 
-     <lb break="maybe"/>
-     ton to the fact that Mr. Robert Rogers and 
+     noticed the Minister of Agriculture coach<lb break="no"/>ing the member for Labelle to draw atten<lb break="no"/>tion to the fact that Mr. Robert Rogers and 
      <lb/>
      Mr. Colin Campbell were with the Papal 
      <lb/>
@@ -6129,12 +6071,11 @@
      <lb/>
      letter reached the hands of the Prime Minis<lb break="no"/>ter because it may never have reached his 
      <lb/>hands, but at all events it verifies the state<lb break="no"/>
-            </p>
+            
             <pb n="3877" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3877.jpg"/>
-            <fw type="dateline">3877 APRIL 5, 1905 3878 
+            <fw type="num">3877</fw> <fw type="dateline">APRIL 5, 1905</fw> <fw type="num">3878</fw> 
      <lb/>
-            </fw>
-            <p>
+            
      ment made by Mr. Robert Rogers, that 
      <lb/>
      from that day to this they have never re<lb break="no"/>ceived the reply they believed they were en<lb break="no"/>titled to. Was that the way to treat the 
@@ -6252,9 +6193,9 @@
      <lb/>
      and they have not put a single check upon 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+         
+            <cb/>
+            
      him, so far as we know. I need not go 
      <lb/>
      into the history of his being here ; but I 
@@ -6327,9 +6268,7 @@
      <lb/>
      Let charity begin at home. Let our Roman 
      <lb/>
-     Catholic friends show some charity and to]- 
-     <lb break="maybe"/>
-     erance towards those opposed to them, and 
+     Catholic friends show some charity and to]<lb break="no"/>erance towards those opposed to them, and 
      <lb/>
      then they will have very much less trouble 
      <lb/>
@@ -6365,11 +6304,11 @@
      <lb/>
      the minds of the Canadian people that the 
      <lb/>
-            </p>
+          
             <pb n="3879" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3879.jpg"/>
             <fw type="num">3879</fw>
-            <fw type="running">COMMONS 3880</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3880</fw>
+          
      Papal ablegate did interfere, not only with 
      <lb/>
      that question, but with the other important 
@@ -6472,22 +6411,26 @@
             <p>At six o'clock, House took recess. 
      <lb/>
             </p>
-   
-            <p>
+</div>
+                
+                
+                
+                <div type="section">
+            <head rendition="simple:centre">
      After Recess. 
      <lb/>
-            </p>
+            </head>
    
             <p>
      House resumed at eight o'clock. 
      <lb/>
      
             </p>
-            <p>PRIVATE BILLS. 
+            <p rendition="simple:centre"><emph>PRIVATE BILLS.</emph> 
      <lb/>
             </p>
    
-            <p>
+            <p rendition="simple:centre">
      GRAND TRUNK RAILWAY. 
      <lb/>
             </p>
@@ -6518,14 +6461,9 @@
      <lb/>
      by the Canada Atlantic to-day, and known 
      <lb/>
-            </p>
-   
-            <p>
-     Mr. SPROULE. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      as the Canada Atlantic system, and also over 
      <lb/>
     the Grand Trunk Railway from Coteau to its 
@@ -6551,7 +6489,7 @@
      <lb/>
      the other railways and accept freight at 
      <lb/>
-     Georgian hay ports ? 
+     Georgian bay ports ? 
      <lb/>
             </p>
    
@@ -6640,9 +6578,7 @@
             </p>
 
             <p>
-     Mr. EMMERSON. Yes, to run Intercol- 
-     <lb break="maybe"/>
-     onial trains right through. 
+     Mr. EMMERSON. Yes, to run Intercol<lb break="no"/>onial trains right through. 
      <lb/>
             </p>
    
@@ -6659,11 +6595,11 @@
      <lb/>
             </p>
             <pb n="3893" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3893.jpg"/>
-            <fw type="dateline">
-      3893  APRIL 5, 1905  3894  
+
+      <fw type="num">3893</fw>  <fw type="dateline">APRIL 5, 1905</fw>  <fw type="num">3894</fw>  
      <lb/>
-            </fw>
-            <p>
+                       <!-- PG, 2017-10-24, Commented out below becausee it precedes debate day and is not about confederation --> 
+           <!-- <p>
      answer their questions if it is in my power 
      <lb/>
      to do so; but it seemed to me that we should 
@@ -6697,19 +6633,24 @@
      <lb/>
      I say I was not treated with courtesy. 
      <lb/>
-            </p>
+            </p>-->
+                       
    
             <p>
      The hour for private bills having ex<lb break="no"/>pired the Speaker took the chair. 
      <lb/>
             </p>
-   
-            <p>
+                </div>
+                
+                
+                
+                <div type="section">
+            <head rendition="simple:centre">
      PROVINCIAL GOVERNMENT IN THE 
      <lb/>
      NORTHWEST. 
      <lb/>
-            </p>
+            </head>
    
             <p>
      House resumed adjourned debate on the 
@@ -6783,15 +6724,9 @@
      <lb/>
      session of parliament a Bill would be in<lb break="no"/>troduced granting autonomy to the North<lb break="no"/>west provinces. I am not at all disposed 
      <lb/>
-            </p>
-
-            <p>
-     
-     124 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      to agree with the government in the division 
      <lb/>
      they have made, creating two provinces 
@@ -6855,9 +6790,7 @@
      <lb/>
      as compared with British Columbia, which 
      <lb/>
-     has 372,620 miles, Quebec, which has 351,- 
-     <lb break="maybe"/>
-     873, and Ontario, 260,862 miles. You can 
+     has 372,620 miles, Quebec, which has 351,<lb break="no"/>873, and Ontario, 260,862 miles. You can 
      <lb/>
      easily see, therefore, that if the government 
      <lb/>
@@ -6998,22 +6931,12 @@
      <lb/>1870 to 1880, the administration of Crown 
      <lb/>lands in Manitoba and the Northwest cost 
      <lb/>$1,244,499.34 in excess of receipts. In the 
-     <lb/>years 1881 to 1890 the accounts show $753,- 
-     <lb break="maybe"/>576.53 in excess of revenue. In the years 
+     <lb/>years 1881 to 1890 the accounts show $753,<lb break="no"/>576.53 in excess of revenue. In the years 
      <lb/>
-            </p>
-
-    
-   
-            <p>
-     Mr. U. WILSON. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
-     from 1891 to 1900 there was again an ex<lb break="no"/>cess of expenditure amounting to $184,- 
-     <lb break="maybe"/>
-     398.95. In the years from 1901 to 1904, 
+           
+            <cb/>
+            
+     from 1891 to 1900 there was again an ex<lb break="no"/>cess of expenditure amounting to $184,<lb break="no"/>398.95. In the years from 1901 to 1904, 
      <lb/>
      there was an excess of expenditure over re<lb break="no"/>ceipts of $11,733.49. Taking the whole per<lb break="no"/>iod from 1870 up to date, therefore, the 
      <lb/>
@@ -7132,14 +7055,14 @@
      <lb/>
      as the constitution provides unless we see fit 
      <lb/>
-            </p>
+           
             <pb n="3897" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3897.jpg"/>
-            <p>
-     3897                       APRIL 5, 1905                        3898   
+          
+     <fw type="num">3897</fw>                       <fw type="dateline">APRIL 5, 1905</fw>                       <fw type="num">3898</fw>   
      <lb/>
-            </p>
+            
    
-            <p>
+          
      to give them extra terms by the legislation 
      <lb/>
      of this House. The thing that is important 
@@ -7170,14 +7093,14 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      How many provinces should be admitted into 
      <lb/>
      the confederation coming from the Northwest 
      <lb/>
      Territories—one, or two or more ? 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      They have decided on two, and have ap<lb break="no"/>parently decided to leave Manitoba as it is, 
@@ -7191,12 +7114,12 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      In whom should be vested the ownership of 
      <lb/>
      the public lands ? 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      They decided that they would keep the 
@@ -7213,12 +7136,12 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      What should be the financial terms to be 
      <lb/>
      granted to these new provinces ? 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      They have been liberal, but I certainly 
@@ -7231,7 +7154,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      And the fourth and not the least important 
      <lb/>
      by any means was the question of the school 
@@ -7240,7 +7163,7 @@
      <lb/>
      should be continued in the Territories. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      That I think is where the premier made a 
@@ -7286,12 +7209,9 @@
      down our leader, but he is not easily downed. 
      <lb/>
      To my great surprise they put up the Min<lb break="no"/>
-            </p>
-            <p>1241/2 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+            
      ister of Finance (Mr. Fielding) and I was 
      <lb/>
      further surprised by the admissions he made. 
@@ -7302,7 +7222,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      My right hon. friend the First Minister has 
      <lb/>
      not declared that it is not within the power of 
@@ -7313,7 +7233,7 @@
      <lb/>
      to re-enact the clauses of the Act of 1875. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      I think that is exactly opposed to what 
@@ -7409,7 +7329,7 @@
      <lb/>
             </p>
    
-            <p>
+          <quote rendition="tccd:blockquote">  <p>
      We are proposing to make these people fully 
      <lb/>
      responsible for their own self-government in 
@@ -7418,21 +7338,21 @@
      <lb/>
      works and all affairs of internal development. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      The hon. member for West Assiniboia 
      <lb/>
      (Mr. Scott) seemed to think that there was 
      <lb/>
-            </p>
+            
             <pb n="3899" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3899.jpg"/>
-            <p>
-     3899                       COMMONS                           3900 
+           
+     <fw type="num">3899</fw>                       <fw type="running">COMMONS</fw>                           <fw type="num">3900</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+         
      no difference between the public schools of 
      <lb/>
      that country and the separate schools. Well 
@@ -7449,12 +7369,12 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      A free west, a common school, provincial 
      <lb/>
      rights and religious equality. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      He did not seem to think that was a good 
@@ -7473,7 +7393,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      Articles and inflammatory cartoons under 
      <lb/>
     that motto have led the innocent citizens to be<lb break="no"/>lieve that the proposals of the government are 
@@ -7485,7 +7405,7 @@
      <lb/>A free west—that is a reasonably free west ; 
      <lb/>just as free as Ontario. 
      <lb/>
-            </p>
+            </p></quote>
 
     
    
@@ -7554,7 +7474,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"><p>
      Mr. BERGERON. What is the difference be<lb break="no"/>tween the two schools then ? 
      <lb/>
      
@@ -7571,10 +7491,8 @@
      <lb/>school then ?  
      <lb/>
             </p>
-            <p>Mr. U. WILSON. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
+           
+            <cb/>
             <p>
      Mr. SCOTT. It is certainly a separate school, 
      <lb/>
@@ -7592,18 +7510,16 @@
             <p>
      Mr. SCOTT. It is the same class of school. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
-     Now the hon. member for East Assini- 
-     <lb break="maybe"/>
-     boia (Mr. Turriff) spoke last night, and he 
+     Now the hon. member for East Assini<lb break="no"/>boia (Mr. Turriff) spoke last night, and he 
      <lb/>
      said : 
      <lb/>
             </p>
 
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      The only difference is that in the first and sec<lb break="no"/>ond readers the text is a little different, but 
      <lb/>
      even these books have to be authorized by the 
@@ -7616,7 +7532,7 @@
      <lb/>
      Territories to-day. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Now we have one gentleman saying there 
@@ -7647,7 +7563,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"><p>
      I have a communication from an important 
      <lb/>
      body, the Baptist convention of Manitoba and 
@@ -7671,7 +7587,7 @@
      <lb/>
      harmony. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Now, why he should quote that communi<lb break="no"/>cation as a reason for voting for the Bill, 
@@ -7696,7 +7612,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      Another petition very largely signed contains 
      <lb/>
      the following : 
@@ -7712,7 +7628,7 @@
      <lb/>
      now before parliament. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      That is another reason why he should 
@@ -7721,7 +7637,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"><p>
      In a petition dated March 7th, from the Min<lb break="no"/>isterial Association of Winnipeg, the second 
      <lb/>
      clause reads as follows : 
@@ -7733,10 +7649,10 @@
      <lb/>
      Act in any particular case. 
      <lb/>
-            </p>
+            </p></quote>
             <pb n="3901" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3901.jpg"/>
             <p>
-     3901                     APRIL 5, 1905                          3902 
+     <fw type="num">3901</fw>                     <fw type="dateline">APRIL 5, 1905</fw>                          <fw rendition="tccd:blockquote">3902</fw> 
      <lb/>
             </p>
    
@@ -7785,13 +7701,11 @@
      <lb/>
      Caldecott. He said himself before the meet<lb break="no"/>ing was over that as Paul called himself, 
      <lb/>
-     a Hebrew of the Hebrews, so he, Mr. Calde- 
-     <lb break="maybe"/>
-     cott, was a Grit of the Grits. He is re<lb break="no"/>ported to have said : 
+     a Hebrew of the Hebrews, so he, Mr. Calde<lb break="no"/>cott, was a Grit of the Grits. He is re<lb break="no"/>ported to have said : 
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      We must make no mistake, and if we pass 
      <lb/>
      the clause as brought before us by Sir Wilfrid 
@@ -7818,7 +7732,7 @@
      <lb/>
      favour of the proposal ? 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Well, Sir, the Minister of Customs took a 
@@ -7829,9 +7743,7 @@
      <lb/>
      because he had lost the respect of that 
      <lb/>
-     gentleman, but he did not respect Mr. Calde- 
-     <lb break="maybe"/>
-     cott's judgment because, he said, a man 
+     gentleman, but he did not respect Mr. Calde<lb break="no"/>cott's judgment because, he said, a man 
      <lb/>
      who knew anything about parliamentary 
      <lb/>
@@ -7851,7 +7763,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      Since the date of the introduction of these 
      <lb/>
      Bills, there has arisen a huge wave of public 
@@ -7861,13 +7773,13 @@
      reached as far as Ottawa, it was wafted there 
      <lb/>
      in some particular way, it has caused much ex<lb break="no"/>
-            </p>
-            <milestone type="unknown"/>
-            <p>citement—acute situations, resignations have 
+          
+            <cb/>
+            citement—acute situations, resignations have 
      <lb/>
      taken place, and rumors of more. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Now, Mr. Speaker, under that state of 
@@ -7975,7 +7887,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      I take it that we meet here to-night as a 
      <lb/>
      body of Liberals, intent upon setting before 
@@ -8011,10 +7923,10 @@
      <lb/>
      educational clauses for the people of the Do<lb break="no"/>minion without the knowledge of those mem<lb break="no"/>bers of the cabinet most concerned therewith. 
      <lb/>
-            </p>
+            </p></quote>
             <pb n="3903" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3903.jpg"/>
             <fw type="num">3903</fw>
-            <fw type="running">COMMONS  3904</fw>
+            <fw type="running">COMMONS</fw><fw type="num">3904</fw>
             <p>
      I ought to have said, perhaps, earlier in 
      <lb/>
@@ -8099,7 +8011,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"> <p>
      At the mass meeting held in the Massey Hall 
      <lb/>
      last evening to protest against the school clause 
@@ -8110,7 +8022,7 @@
      <lb/>
      Rev. Dr. Milligan, and carried unanimously : 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      I do not suppose that any one will accuse 
@@ -8127,7 +8039,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      Whereas it is of vital importance to Canada 
      <lb/>
      that the new provinces about to be established 
@@ -8138,11 +8050,8 @@
      <lb/>
             </p>
    
-            <p>
-     Mr. U. WILSON. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
+           
+            <cb/>
             <p>
      Be it therefore resolved, that this meeting 
      <lb/>
@@ -8189,7 +8098,7 @@
      <lb/>
      Minister and to the city members of the House. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      That is, in my judgment, a pretty strong 
@@ -8262,7 +8171,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      The remedial legislation of 1896 had some 
      <lb/>
      warrant in the constitution ; the present legis<lb break="no"/>lation has none. It is a gratuitous seeking for 
@@ -8295,19 +8204,19 @@
      <lb/>
      on the statute-book. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      I daresay this was written by the gentle<lb break="no"/>man who wrote the life of the Rt. Hon. Sir 
      <lb/>
-            </p>
+            
             <pb n="3905" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3905.jpg"/>
-            <p>
-     3905                       APRIL 5, 1905                        3906 
+          
+     <fw type="num">3905</fw>                       <fw type="dateline">APRIL 5, 1905</fw>                        <fw type="num">3906</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+            
      Wilfrid Laurier, Prime Minister of Canada. 
      <lb/>
      I shall not quote extracts from papers which 
@@ -8342,7 +8251,7 @@
      <lb/>
             </p>
 
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      No legislation is too wild, unpatriotic or in<lb break="no"/>defensible to be regarded as a possibility under 
      <lb/>
      a government which repudiates its most solemn 
@@ -8366,7 +8275,7 @@
      <lb/>
      obedience from its subjects. 
      <lb/>
-            </p>
+            </p></quote>
 
             <p>
      Now, Mr. Speaker, I have placed before the 
@@ -8388,7 +8297,7 @@
             </p>
    
             <p>
-     An hon. MEMBER. You got into bad 
+     <persName ref="pers:ANON1">An hon. MEMBER</persName>. You got into bad 
      <lb/>
      company. 
      <lb/>
@@ -8439,11 +8348,10 @@
      <lb/>
      the compact of confederation and to pursue 
      <lb/>
-     the policy which the fathers of confedera- 
-     <lb break="maybe"/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+     the policy which the fathers of confedera<lb break="no"/>
+            
+            <cb/>
+          
      tion have laid down as the principles of the 
      <lb/>
      constitution of our country. 
@@ -8556,11 +8464,11 @@
      <lb/>
      educational clauses of the Bill have excited 
      <lb/>
-            </p>
+            
             <pb n="3907" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3907.jpg"/>
             <fw type="num">3907</fw>
-            <fw type="running">COMMONS          3908</fw>
-            <p>
+            <fw type="running">COMMONS</fw>          <fw type="num">3908</fw>
+           
      much comment; although in my opinion 
      <lb/>
      they have received, and are receiving the 
@@ -8615,14 +8523,12 @@
      <lb/>create their revenue from those lands ; and 
      <lb/>the moment you increase the price of land<lb/>you hamper immigration, while you want<lb/>to promote immigration you have to de<lb break="no"/>crease the price of land.<lb/>
             </p>
-            <p>I have heard some hon. gentlemen on the<lb/>other side of the House say that the pro<lb break="no"/>vinces of Ontario and Quebec have the con<lb break="no"/>trol of their lands. Very true, Mr. Speaker ;<lb/>but the provinces of Ontario and Quebec <lb/>should not be considered from the same <lb/>point of view as the Northwest provinces,<lb/>and I will tell you why. Because there are<lb/>in those two provinces immense timber<lb/>limits, from which they derive a very large<lb/>revenue. In the province of Quebec, during<lb/>the last year, I think the revenue accruing<lb/>from the Crown lands amounted to $600,-<lb break="maybe"/>000-not from the sale of lands, but from<lb/>the stumpage only. The situation is not the <lb/>same in the Northwest Territories.<lb/>
+            <p>I have heard some hon. gentlemen on the<lb/>other side of the House say that the pro<lb break="no"/>vinces of Ontario and Quebec have the con<lb break="no"/>trol of their lands. Very true, Mr. Speaker ;<lb/>but the provinces of Ontario and Quebec <lb/>should not be considered from the same <lb/>point of view as the Northwest provinces,<lb/>and I will tell you why. Because there are<lb/>in those two provinces immense timber<lb/>limits, from which they derive a very large<lb/>revenue. In the province of Quebec, during<lb/>the last year, I think the revenue accruing<lb/>from the Crown lands amounted to $600,<lb break="no"/>000-not from the sale of lands, but from<lb/>the stumpage only. The situation is not the <lb/>same in the Northwest Territories.<lb/>
             </p>
             <p>There is another point of view from which<lb/>I think we should withhold the lands from<lb/>the new provinces, that is the national point<lb/>of view. In stating this opinion, I may be<lb/>taxed by some hon. gentlemen with being<lb/>a Utopist ; I may be told that I am dream<lb break="no"/>ing ; but let me say frankly what I think.<lb/>It is obvious to every one who observes the<lb/>Northwest Territories to-day that the loyal<lb/>sentiment which prevails there is pure,<lb/>deep and large, as the stately rivers which<lb/>run over the endless prairies. But who<lb/>knows what will be the immigration of<lb/>
-            </p>
-            <p>Mr. BELAND.<lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      to-morrow ? There are to-day half a mil<lb break="no"/>lion people in the Northwest Territories ; 
      <lb/>
      how many will you find in twenty or thirty 
@@ -8695,13 +8601,13 @@
      <lb/>
              Coming to what is known in the country as 
      <lb/>the educational clause of this Bill, it is a<lb/>very burning question and a question of<lb/>very great importance. The agitation which<lb/>has been aroused over that clause is im<lb break="no"/>mense, and we all regret it. That agita<lb break="no"/>tion is so intense that we are that that the <lb/>provincial government of Manitoba, now on<lb/>its last legs, is seeking to get a new lease<lb/>of office out of it. Well, the educational<lb/>clauses of this measure have already been<lb/>discussed a good deal in this country. They<lb/>have encountered very bitter opposition<lb/>from the newspapers, especially in that en<lb break="no"/>lightened city of Toronto, where even men<lb/>who used to be ranked amongst the fore<lb break="no"/>most Liberals have been outspoken in their<lb/>opposition to those clauses, and they have<lb/>also enjoyed the distinction of being made <lb/>the subject of the censorious tongues of those<lb/>who adorn the pulpits of this country. There<lb/>are many points of view from which this<lb/>important question may be considered.<lb/>There is a constitutional point of view,<lb/>there is the provincial autonomy point of<lb/>view ; but whatever may be the reasons in<lb break="no"/>voked in this debate, the main object of<lb/>those who are making to-day a solid opposi<lb break="no"/>tion to these educational clauses is nothing<lb/>else but political capital. Before proceed<lb break="no"/>ing further, I must say that I was very<lb/>much surprised the other night when I<lb/>heard the eloquent member for West As<lb break="no"/>
-            </p>
+           
             <pb n="3909" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3909.jpg"/>
-            <p>3909                           APRIL 5, 1905                       3910 
+           <fw type="num">3909</fw>                           <fw type="dateline">APRIL 5, 1905</fw>                      <fw type="num">3910</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+           
      siniboia (Mr. Scott) state in this House that 
      <lb/>
      amongst the Protestant population of this 
@@ -8740,7 +8646,7 @@
      <lb/>
      to 8. 
      <lb/>
-            </p>
+            </p> 
 
             <p>
      You have heard, Sir, on this question 
@@ -8801,14 +8707,14 @@
      <lb/>
             </p>
 
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      Nothing in any such law shall prejudicially 
      <lb/>
      affect any right or privilege with respect to 
      <lb/>
      denominational schools which any class of per<lb break="no"/>sons have by law in the province at the union. 
      <lb/>
-            </p>
+            </p></quote>
 
             <p>
      Well, if we take the alternative that 
@@ -8827,9 +8733,9 @@
      <lb/>
      by this parliament in 1875, in the full exer<lb break="no"/>cise of its powers, creating in the North<lb break="no"/>west Teritories a system of separate 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+            
      schools by which the minorities were to en<lb break="no"/>joy certain privileges. In pursuance of that 
      <lb/>
      law, ordinances were passed in the Ter<lb break="no"/>ritories by which this system of schools 
@@ -8943,11 +8849,11 @@
      <lb/>
      him to state that church influence, clerical 
      <lb/>
-            </p>
+           
             <pb n="3911" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3911.jpg"/>
             <fw type="num">3911</fw>
-            <fw type="running">COMMONS 3912</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3912</fw>
+           
      schools, in France, for instance. had pro<lb break="no"/>duced a people of illiterates and atheists. 
      <lb/>
      He will likely be disposed to recognize that 
@@ -9030,9 +8936,7 @@
      <lb/>
      institutions of Great Britain, and I am 
      <lb/>
-     very sorry, I deeply regret—I say it sin- 
-     <lb break="maybe"/>
-     cerely—that the great lines, the illuminat<lb break="no"/>ed paths which have been set for 
+     very sorry, I deeply regret—I say it sin<lb break="no"/>cerely—that the great lines, the illuminat<lb break="no"/>ed paths which have been set for 
      <lb/>
      us in the mother country, are in this 
      <lb/>
@@ -9076,14 +8980,11 @@
      <lb/>
      the opportunity to sever their connection 
      <lb/>
-            </p>
+            
 
-            <p>
-     Mr. BELAND. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+            
      from Great Britain, if they were offered 
      <lb/>
      independence, if they were offered annexa<lb break="no"/>tion, if they were offered French allegiance, 
@@ -9140,7 +9041,7 @@
      <lb/>
             </p>
 
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      I have high hopes for education and for Pres<lb break="no"/>byterianism and for future Christianity as the 
      <lb/>
      result of the advent of this imperfect, but sub<lb break="no"/>stantially good, Education Bill, and, in spite of 
@@ -9165,7 +9066,7 @@
      <lb/>
      are misled and become martyrs by mistake. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      This should be read to some of the reve<lb break="no"/>rend gentlemen of Ottawa and Toronto who 
@@ -9192,13 +9093,12 @@
      <lb/>
      uphold the constitution, and by it to con<lb break="no"/>firm the privileges. be they large or be they 
      <lb/>
-            </p>
+           
             <pb n="3913" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3913.jpg"/>
-            <fw type="dateline">
-     3913 APRIL 5, 1905 3914 
+    
+     <fw type="num">3913</fw> <fw type="dateline">APRIL 5, 1905</fw> <fw type="num">3914</fw> 
      <lb/>
-            </fw>
-            <p>
+            
      small, that the majority enjoy in the North<lb break="no"/>west Territories. There are some hon. gen<lb break="no"/>tlemen on the other side of this House, 
      <lb/>
      the hon. member for East Grey (Mr. Sproule) 
@@ -9266,7 +9166,7 @@
             </p>
    
             <p>
-     Mr. BERGE'RON. Would my hon. friend 
+     Mr. BERGERON. Would my hon. friend 
      <lb/>
      allow me to ask him a question ? Did the 
      <lb/>
@@ -9298,16 +9198,14 @@
             </p>
    
             <p>
-     Mr. BERGERON. I hope I am not troubl<lb break="no"/>ing my hon. friend. But how does he ex<lb break="no"/>plain this trip of Mr. Rogers and Mr. Camp- 
-     <lb break="maybe"/>
-     bcll down here to secure a more favourable 
+     Mr. BERGERON. I hope I am not troubl<lb break="no"/>ing my hon. friend. But how does he ex<lb break="no"/>plain this trip of Mr. Rogers and Mr. Camp<lb break="no"/>bell down here to secure a more favourable 
      <lb/>
      settlement for the minority of Manitoba ? 
      <lb/>
             </p>
    
             <p>
-     Mr. L. G. McCAR'DHY. Was that what 
+     Mr. L. G. McCARTHY. Was that what 
      <lb/>
      Mr. Rogers and Mr. Campbell came for ? 
      <lb/>
@@ -9334,13 +9232,12 @@
      <lb/>
      Rogers is fond of notoriety, he desires to 
      <lb/>
-     make himself and his party some politi- 
-     <lb break="maybe"/>
-            </p>
-            <milestone type="unknown"/>
+     make himself and his party some politi<lb break="no"/>
+           
+            <cb/>
     
 
-            <p>
+          
      cal capital in Manitoba, and he came to 
      <lb/>
          meet Monseigneur Sbarretti for the pur<lb break="no"/>pose, in my opinion. of procuring some ar<lb break="no"/>rangement by which he hoped to capture 
@@ -9371,7 +9268,7 @@
 
     
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      May I not further suggest that even if there 
      <lb/>
      were any danger—and I do not think there is— 
@@ -9384,7 +9281,7 @@
      <lb/>
      price of these lands, and obtain to it the con<lb break="no"/>sent of the people of the Northwest Territories. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      It is no more difficult than that. 
@@ -9455,11 +9352,11 @@
      <lb/>
      he pronounced that eulogy, when he uttered 
      <lb/>
-            </p>
+         
             <pb n="3915" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3915.jpg"/>
             <fw type="num">3915</fw>
-            <fw type="running">COMMONS  3916</fw>
-            <p>
+            <fw type="running">COMMONS</fw>  <fw type="num">3916</fw>
+          
      those words in praise of the French Cana<lb break="no"/>dian people he was doing the work of a 
      <lb/>
      surgeon before the operation—injecting into 
@@ -9488,9 +9385,7 @@
      <lb/>
      splits to pieces. The hon. member for Jac<lb break="no"/>ques Cartier (Mr. Monk) mortally wounded ; 
      <lb/>
-     the hon. member for Beauharnois (Mr. Ber- 
-     <lb break="maybe"/>
-     geron) not quite so badly wounded. The list 
+     the hon. member for Beauharnois (Mr. Ber<lb break="no"/>geron) not quite so badly wounded. The list 
      <lb/>
      of wounded grows every day. The hon. 
      <lb/>
@@ -9532,7 +9427,7 @@
      <lb/>
             </p>
    
-            <p>
+          <quote rendition="tccd:blockquote">  <p>
      Speaking of the provinces, I have not a mo<lb break="no"/>ment's hesitation in saying that the result of 
      <lb/>
      provincial government in Canada has been 
@@ -9559,7 +9454,7 @@
      <lb/>
      power. 
      <lb/>
-            </p>
+            </p></quote>
 
             <p>
      Who would believe that after what the 
@@ -9572,7 +9467,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"><p>
      Yet we are told that there is no hope of 
      <lb/>
      progress, that the main thing is to uphold 
@@ -9593,13 +9488,10 @@
      <lb/>
      the past few years. 
      <lb/>
-            </p>
+            </p></quote>
    
-            <p>
-     Mr. BELAND. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
+           
+            <cb/>
             <p>
      I ask my hon. friend frankly if he ap<lb break="no"/>proves of that ? 
      <lb/>
@@ -9692,14 +9584,14 @@
      <lb/>a purely local paper, and from the extracts 
      <lb/>that the member for East Grey read to the 
      <lb/>
-            </p>
+           
             <pb n="3917" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3917.jpg"/>
-            <p>
-     3917                            APRIL 5, 1905                       3918 
+            
+     <fw type="num">3917</fw>                            <fw type="dateline">APRIL 5, 1905</fw>                       <fw type="num">3918</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+            
      House one would be led to believe that the 
      <lb/>
      Protestant people in the province of Que<lb break="no"/>bec are being ill-treated. Well, here is the 
@@ -9724,7 +9616,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      I, being the son of a Scotch father and a 
      <lb/>
      Scotch mother. I, a Protestant, have always 
@@ -9743,7 +9635,7 @@
      <lb/>
      them. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Let me refer for a moment or two to some 
@@ -9760,7 +9652,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      It is not conceivable that Sir Wilfrid Laurier, 
      <lb/>
      much less the Protestant, members of his cabi<lb break="no"/>net believe they are acting in accordance with 
@@ -9769,7 +9661,7 @@
      <lb/>
      submitted themselves to the will of the hier<lb break="no"/>archy of Quebec is the only reasonable expla<lb break="no"/>nation of their conduct. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      I will give you the answer to that from 
@@ -9782,7 +9674,7 @@
      <lb/>
             </p>
 
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      No, no. It is not the free denominational 
      <lb/>
      schools that Sir Wilfrid Laurier guaranteed to 
@@ -9793,7 +9685,7 @@
      <lb/>
      cruel truth, the truth undeniable and manifest. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      The Toronto 'World,' the organ of my 
@@ -9822,15 +9714,15 @@
      <lb/>
             </p>
 
-            <p>
+           <quote rendition="tccd:blockquote"><p>
      The new provinces are to be stripped of their 
      <lb/>
      public lands and compelled to submit to an edu<lb break="no"/>cational system modelled under the artistic 
      <lb/>
      direction of the Quebec hierarchy. 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
+            </p></quote>
+            <cb/>
             <p>
      Let me give my hon. friend from South 
      <lb/>
@@ -9842,14 +9734,14 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      When one has seventy of a majority, he does 
      <lb/>
      his duty or he falls on the field of honour. He 
      <lb/>
      does not need to betray to remain in power. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      And when ' L'Evénement ' talks of betray<lb break="no"/>ing, it does not talk of betraying Protes<lb break="no"/>tants; it is surely talking of Sir Wilfrid 
@@ -9875,7 +9767,7 @@
             </p>
    
             <p>
-     An hon. MEMBER. He will not admit 
+     <persName ref="pers:ANON1">An hon. MEMBER</persName>. He will not admit 
      <lb/>
      it. 
      <lb/>
@@ -9911,7 +9803,7 @@
             </p>
    
             <p>
-     An hon. MEMBER. Mr. Ames. 
+     <persName ref="pers:ANON1">An hon. MEMBER</persName>. Mr. Ames. 
      <lb/>
             </p>
    
@@ -9954,20 +9846,18 @@
      <lb/>
      will feel obliged to stand up and admit it 
      <lb/>
-     if he wants to be fair. The county of Miss- 
-     <lb break="maybe"/>
-     isquoi, with a Protestant population of 8,000 
+     if he wants to be fair. The county of Miss<lb break="no"/>isquoi, with a Protestant population of 8,000 
      <lb/>
      and a Catholic population of 10,000, sends 
      <lb/>
-            </p>
+            
             <pb n="3919" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3919.jpg"/>
-            <p>
-     3919                            COMMONS                            3920 
+            
+     <fw type="num">3919</fw>                            <fw type="running">COMMONS</fw>                            <fw type="num">3920</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+            
      as its representative to this House, our good 
      <lb/>
      friend Mr. Meigs. Montreal, St. Lawrence 
@@ -9992,9 +9882,7 @@
      <lb/>
      Lovell, has a Protestant population of 9,000 
      <lb/>
-     and a Catholic population of 9,500. Shef- 
-     <lb break="maybe"/>
-     ford, which is represented by our eminent 
+     and a Catholic population of 9,500. Shef<lb break="no"/>ford, which is represented by our eminent 
      <lb/>
      friend Mr. Parmelee, has a Protestant popu<lb break="no"/>lation of 5,000 and a Catholic population of 
      <lb/>
@@ -10066,7 +9954,7 @@
      <lb/>
             </p>
    
-            <p>
+            <quote rendition="tccd:blockquote"><p>
      Ontario's tolerance is illustrated in the ten<lb break="no"/>dency of every Roman Catholic who represents 
      <lb/>
      a Protestant constituency to vote as a liegeman 
@@ -10094,9 +9982,7 @@
             <p>
      Ontario's treatment of the minority that is 
      <lb/>
-     over-represented in the government, over-repre- 
-     <lb break="maybe"/>
-     sented in the legislature, is not equalled by 
+     over-represented in the government, over-repre<lb break="no"/>sented in the legislature, is not equalled by 
      <lb/>
      the treatment which the minority receives in 
      <lb/>
@@ -10104,11 +9990,8 @@
      <lb/>
             </p>
    
-            <p>
-     Mr. BELAND. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
+           
+            <cb/>
             <p>
      Ontario can match her alleged intolerance 
      <lb/>
@@ -10120,7 +10003,7 @@
      <lb/>
      lectures on toleration from the bigots of Que<lb break="no"/>bec. 
      <lb/>
-            </p>
+            </p></quote>
    
             <p>
      Well, let us see if it is true that Ontario 
@@ -10221,14 +10104,14 @@
      <lb/>
      in Canada were to be ranked the French 
      <lb/>
-            </p>
+            
             <pb n="3921" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3921.jpg"/>
-            <p>
-     3921                                                      APRIL 5, 1905                                                                  3922 
+           
+     <fw type="num">3921</fw>                                                      <fw type="dateline">APRIL 5, 1905</fw>                                                                  <fw type="num">3922</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+           
      Canadian Catholic clergy and population;            
      <lb/>
      if he were taught in the schools these          
@@ -10331,9 +10214,9 @@
      <lb/>
      to address the House on this subject, did 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+            
      I not think it was my bounden duty not to 
      <lb/>give a silent vote on this Autonomy Bill.<lb/>In voting, as I intend to do, for the amend<lb break="no"/>ment of the leader of the opposition, I do<lb/>not wish to be understood as being opposed<lb/>to giving to the fullest extent provincial<lb/>rights to all the great lone land of the <lb/>Northwest. But before entering upon the <lb/>remarks I intend to make on the Bill itself,<lb/>I desire for a shore time to follow my hon.<lb/>friend who has just sat down. I was pleased<lb/>
     to learn that the hon. gentleman is not a 
@@ -10405,11 +10288,11 @@
      freely as do the minority. My hon. friend 
      <lb/>
      attempted to make a point against the lead<lb break="no"/>
-            </p>
+           
             <pb n="3923" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3923.jpg"/>
             <fw type="num">3923</fw>
-            <fw type="running">COMMONS   3924</fw>
-            <p>er of the opposition (Mr. R. L. Borden) and 
+            <fw type="running">COMMONS</fw>   <fw type="num">3924</fw>
+           er of the opposition (Mr. R. L. Borden) and 
      <lb/>
      although not a lawyer he endeavoured to 
      <lb/>
@@ -10479,9 +10362,7 @@
      <lb/>
      not of a religious nature. I might point to 
      <lb/>
-     the liberality of Ontario. In the Conser<lb break="no"/>vative government of the province of On- 
-     <lb break="maybe"/>
-     ario, one of the strongest governments the 
+     the liberality of Ontario. In the Conser<lb break="no"/>vative government of the province of On<lb break="no"/>ario, one of the strongest governments the 
      <lb/>
      province ever had, there is for the first 
      <lb/>
@@ -10513,14 +10394,9 @@
      <lb/>
      have had a larger representation in the 
      <lb/>
-            </p>
-   
-            <p>
-     Mr. BARR. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      Conservative ranks than they have had in 
      <lb/>
      the Reform ranks, proving beyond a doubt 
@@ -10650,14 +10526,14 @@
      <lb/>
      is being done to her. I believe it would be 
      <lb/>
-            </p>
+            
             <pb n="3925" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3925.jpg"/>
-            <p>
-     3925                       APRIL 5, 1905                       3926 
+            
+     <fw type="num">3925</fw>                       <fw type="dateline">APRIL 5, 1905</fw>                       <fw type="num">3926</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+            
      better to have two provinces in place of 
      <lb/>
      three. We know that the more populous a 
@@ -10688,9 +10564,7 @@
      <lb/>
      building would be required. We must re<lb break="no"/>member that to-day we are laying the foun<lb break="no"/>dation of what will probably become the 
      <lb/>
-     two greatest provinces in this fair Domin<lb break="no"/>ion of ours. Although they have only 500,- 
-     <lb break="maybe"/>
-     000 at present, in less than two decades, cer<lb break="no"/>tainly in less than a quater of a century, 
+     two greatest provinces in this fair Domin<lb break="no"/>ion of ours. Although they have only 500,<lb break="no"/>000 at present, in less than two decades, cer<lb break="no"/>tainly in less than a quater of a century, 
      <lb/>
      there will be 10,000,000 or 20,000,000 in that 
      <lb/>
@@ -10769,14 +10643,9 @@
      <lb/>cents per head on an estimated population 
      <lb/>of 250,000, $200,000 ; interest at 5 per cent on 
      <lb/>
-            </p>
-   
-            <p>
-     125 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+          
+            <cb/>
+           
      $38,107,568, as a set-off against the debt of 
      <lb/>
      the other provinces which the Dominion as<lb break="no"/>sumed when they entered confederation, 
@@ -10899,14 +10768,13 @@
      by paying two or three rake-offs he is more 
      <lb/>
      fortunate than the great majority of pros<lb break="no"/>
-            </p>
-            <p>                    REVISED EDITION 
-     <lb/>
-            </p>
+                            
+     
+            
             <pb n="3927" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3927.jpg"/>
             <fw type="num">3927</fw>
-            <fw type="running">COMMONS 3928</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3928</fw>
+            
      pectors that are doing business in that 
      <lb/>
      vast country. They are surrounded by the 
@@ -11007,14 +10875,9 @@
      <lb/>Bill in the eastern provinces is that the 
      <lb/>people residing in this part of the country 
      <lb/>
-            </p>
-   
-            <p>
-     Mr. BARR. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      have relatives in the west, that many of 
      <lb/>
      them have their sons and daughters up 
@@ -11127,14 +10990,14 @@
      <lb/>
      that unfortunate class that is rapidly in<lb break="no"/>creasing in all countries, the insane. They 
      <lb/>
-            </p>
+            
             <pb n="3929" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3929.jpg"/>
-            <p>
-     3929                    APRIL 5, 1905                    3930 
+            
+     <fw type="num">3929</fw>                    <fw type="dateline">APRIL 5, 1905</fw>                    <fw type="num">3930</fw> 
      <lb/>
-            </p>
+            
    
-            <p>
+            
      have to provide charitable institutions, they 
      <lb/>
      have to build roads and bridges and incur 
@@ -11229,14 +11092,9 @@
      <lb/>years. It is a question which will live, 
      <lb/>and which will continue to increase in im<lb break="no"/>portance, at all events until free and in<lb break="no"/>dependent electors of Canada will have 
      <lb/>
-            </p>
-   
-            <p>
-     125½ 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      an opportunity to make themselves heard 
      <lb/>
      on it. We have had the legal aspect of this 
@@ -11348,11 +11206,11 @@
      <lb/>
      Brown, to the effect that in providing for 
      <lb/>
-            </p>
+            
             <pb n="3931" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3931.jpg"/>
             <fw type="num">3931</fw>
-            <fw type="running">COMMONS 3932</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3932</fw>
+            
      separate schools in the Territorial Bill, they 
      <lb/>
      were establishing them for all time to come. 
@@ -11471,7 +11329,7 @@
      <lb/>
             </p>
    
-            <p>
+           <quote rendition="tccd:blockquote"> <p>
      Talk about Mr. Haultain not having been con<lb break="no"/>sulted. He was consulted frequentlym but if he 
      <lb/>
      had never been consulted or if no Northwest 
@@ -11480,19 +11338,14 @@
      <lb/>
      better indication can you have of the desire 
      <lb/>
-            </p>
-   
-            <p>
-     Mr. BARR. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+            
      of the people of the Northwest Territories 
      <lb/>
      than their own legislation ? 
      <lb/>
-            </p>
+            </p></quote>
 
             <p>
      The legislation to which the Minister of 
@@ -11541,8 +11394,7 @@
      <lb/>No. l6 should be embodied in these Bills. 
      <lb/>It is evident that the First Minister took 
      <lb/>upon himself to bring down these Bills and 
-     <lb/>force them through the House without con- 
-     <lb break="maybe"/>sultingr his colleagues, proving beyond doubt 
+     <lb/>force them through the House without con<lb break="no"/>sulting his colleagues, proving beyond doubt 
      <lb/>that we have to-day in this country a one 
      <lb/>man government. Let us for a moment look 
      <lb/>at the position occupied by this government 
@@ -11562,13 +11414,12 @@
      <lb/>First Minister and the Postmaster General 
      <lb/>on several occasions, and the arrangement 
      <lb/>
-            </p>
+           
             <pb n="3933" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3933.jpg"/>
-            <fw type="dateline">
-     3933 APRIL 5, 1905 3934 
+         
+     <fw type="num">3933</fw> <fw type="dateline">APRIL 5, 1905</fw> <fw type="num">3934</fw> 
      <lb/>
-            </fw>
-            <p>
+           
      they entered into was this. The First Min<lb break="no"/>ister went up to the western part of Ontario 
      <lb/>
      and entered into an agreement with the late 
@@ -11685,9 +11536,9 @@
      <lb/>
      party and the result was that in 1896 the 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+          
+            <cb/>
+            
      Reformers were surprised at the large vote 
      <lb/>
      which they received in Ontario. They ob<lb break="no"/>tained it under false pretenses in the way 
@@ -11717,11 +11568,11 @@
      
      
             </p>
-            <p>An all-wise and ever-indulging Providence has 
+           <quote rendition="tccd:blockquote"><p>An all-wise and ever-indulging Providence has 
      <lb/>made them hollow. 
      <lb/>In order that they their promises might swal<lb break="no"/>low. 
      <lb/>
-            </p>
+            </p></quote>
             <p>We have no separate schools in my county. 
      <lb/>We had them on one occasion but they have 
      <lb/>all disappeared. After a trial the Roman 
@@ -11764,11 +11615,11 @@
      <lb/>Roman Catholic children or in a city or 
      <lb/>town thirty Roman Catholic children sep<lb break="no"/>arate rooms must be provided for them 
      <lb/>
-            </p>
+           
             <pb n="3935" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3935.jpg"/>
             <fw type="num">3936</fw>
-            <fw type="running">COMMONS 3936</fw>
-            <p>
+            <fw type="running">COMMONS</fw> <fw type="num">3936</fw>
+          
      and that the trustees if they so desired it 
      <lb/>
      must engage a teacher of their religious 
@@ -11902,14 +11753,9 @@
      <lb/>
      the world. France has had church schools, 
      <lb/>
-            </p>
-
-            <p>
-     Mr. BARR. 
-     <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+           
+            <cb/>
+           
      and to-day she is severing all connection 
      <lb/>
      between church and state, and as a result 
@@ -11979,9 +11825,7 @@
      <lb/>
      the table has groaned beneath their weight. 
      <lb/>
-     We have seen public meetings passing resol- 
-     <lb break="maybe"/>
-     ntions in almost every province in the 
+     We have seen public meetings passing resol<lb break="no"/>utions in almost every province in the 
      <lb/>
      Dominion, protesting against forcing separ<lb break="no"/>ate schools upon these new provinces. There 
      <lb/>
@@ -12023,21 +11867,20 @@
      <lb/>
      to shoulder in every constituency in Ontario, 
      <lb/>
-            </p>
+      
             <pb n="3937" facs="final/images/AB_SK_H_of_C_1905-04-05_Page_3937.jpg"/>
-            <fw type="dateline">
-     3937 APRIL 6, 1905 3938 
+          
+     <fw type="num">3937</fw> <fw type="dateline">APRIL 6, 1905</fw> <fw type="num">3938</fw> 
      <lb/>
-            </fw>
-            <p>
+           
      to vote against this legislation and against 
      <lb/>
      the present government. This agitation will 
      <lb/>
      not die out. No matter whether the elec4 
      <lb/>
-     tions come on in one year, or two years, or- 
-     <lb break="yes"/>
+     tions come on in one year, or two years, or 
+     <lb/>
      three years, or four years from now, this 
      <lb/>
      is a live question, and I venture to say that 
@@ -12154,9 +11997,7 @@
             </p>
 
             <p>
-     3. All before Mr. Commissioner Lafon- 
-     <lb break="maybe"/>
-     taine. 
+     3. All before Mr. Commissioner Lafon<lb break="no"/>taine. 
      <lb/>
             </p>
    
@@ -12175,9 +12016,7 @@
      <lb/>
      extradition proceedings against John F. Gaynor 
      <lb/>
-     and Benjamin D. Greene, a recusation for al<lb break="no"/>leged reasons was taken against Mr. Ulric La- 
-     <lb break="maybe"/>
-     fontaine, the extradition commissioner ? 
+     and Benjamin D. Greene, a recusation for al<lb break="no"/>leged reasons was taken against Mr. Ulric La<lb break="no"/>fontaine, the extradition commissioner ? 
      <lb/>
             </p>
 
@@ -12187,7 +12026,7 @@
      purpose taking in regard to the said recusation? 
      <lb/>
             </p>
-            <milestone type="unknown"/>
+            <cb/>
             <p>
      Hon. CHAS. FITZPATRICK (Minister of 
      <lb/>
@@ -12202,9 +12041,7 @@
      <lb/>
      and Benjamin D. Greene, 21 paper called a 
      <lb/>
-     'recusation' was filed against Mr. Lafon- 
-     <lb break="maybe"/>
-     taine, the Extradition Commissioner; but 
+     'recusation' was filed against Mr. Lafon<lb break="no"/>taine, the Extradition Commissioner; but 
      <lb/>
      the government has no official notice of 
      <lb/>
