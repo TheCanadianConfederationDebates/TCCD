@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
+     but without the trailing .xml. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_AB_SK_1905-04-05" type="template">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
+        conforming with our current norms. Tag the date with a <date> element
+        which includes @when or @from/@to attributes so we can process it 
+        mechanically. -->
+        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1905-04-05">5 April 1905</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="pers:LYAL1">Gordon Lyall</persName>
+        </respStmt>
+        
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
+                      this data was taken.-->
+        <bibl>
+          
+<title>House of Commons Debates, Tenth Parliament, First Session</title>.
+        
+
+          <date when="1905"/>.
+          
+
+          <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the King's Most Excellent Majesty</publisher>.
+          
+<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
+               If it's a single page, put the same page number in @from and @to.-->
+          <biblScope unit="page" from="3833" to="3938"/>.
+        </bibl>
+        
+<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
+        examples. File path should be relative to THIS XML FILE. -->
+        <list>
+          <item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3833.hocr.html"/></item>
+         <item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3835.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3837.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3839.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3841.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3843.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3845.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3847.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3849.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3851.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3853.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3855.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3857.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3859.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3861.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3863.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3865.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3867.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3869.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3871.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3873.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3875.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3877.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3879.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3893.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3895.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3897.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3899.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3901.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3903.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3905.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3907.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3909.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3911.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3913.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3915.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3917.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3919.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3921.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3923.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3925.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3927.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3929.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3931.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3933.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3935.hocr.html"/></item>
+<item><ptr target="final/hocr/AB_SK_H_of_C_1905-04-05_Page_3937.hocr.html"/></item>
+        </list>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
+        selected. This is especially important in cases where discontinuous 
+        page-ranges are used.  -->
+        <p></p>
+      </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
+        date in the @when attribute. -->
+      <change who="lyallg" when="2017-10-24">Created this document, completed metadata. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
+  
+  <text>
+    <body>
+      <div type="debate">
+        <p>This content will be replaced by data from the source documents during processing.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
