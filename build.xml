@@ -331,7 +331,7 @@
     </copy>
     <mkdir dir="${webDir}/images"/>
     <copy todir="${webDir}/images">
-      <fileset dir="code/html/images" includes="*.*"/>
+      <fileset dir="code/html/images" includes="**/*.*"/>
     </copy>
     <mkdir dir="${webDir}/portraits"/>
     <copy todir="${webDir}/portraits">
