@@ -2,6 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" id="canadaMap">
     <head>
         <title>Canada</title>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/html.css"/>
         <link rel="stylesheet" href="css/ol.css" type="text/css"/>
         <link rel="stylesheet" href="css/map.css"/>
@@ -18,18 +20,21 @@
     </style>
     </head>
     <body>
+      <div id="mapContainer">
         <div id="map" class="map"></div>
-        <script type="text/javascript" src="js/canadaMap.js"></script>
+        <script type="text/ecmascript" src="js/canadaMap.js"></script>
       
-      <div id="postalCodeForm">
-        <label for="txtPostalCode" lang="en">Enter your postal code to learn whether local leaders supported or opposed joining Confederation</label>
-        <label for="txtPostalCode" lang="fr">Entrez votre code postal pour savoir si les leaders locaux étaient pour ou contre la Confédération </label>
-        <input type="text" maxlength="7" id="txtPostalCode" value="A9A9A9" onkeyup="if (event.keyCode == 13){jumpToPostalCode(this.value)}; return false;"/>
-        <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value); return false;"><span lang="en">Go</span><span lang="fr">Allons-y</span></button>
-      </div>
-      
-      <div id="mapPopup">
+        <div id="postalCodeForm">
+          <label for="txtPostalCode" lang="en">Enter your postal code to learn whether local leaders supported or opposed joining Confederation</label>
+          <label for="txtPostalCode" lang="fr">Entrez votre code postal pour savoir si les leaders locaux étaient pour ou contre la Confédération </label>
+          <input type="text" maxlength="7" id="txtPostalCode" value="A9A9A9" onkeyup="if (event.keyCode == 13){jumpToPostalCode(this.value)}; return false;"/>
+          <button id="btnPostalCode" onclick="jumpToPostalCode(document.getElementById('txtPostalCode').value); return false;"><span lang="en">Go</span><span lang="fr">Allons-y</span></button>
+        </div>
         
+        <div id="mapPopup">
+          
+        </div>
       </div>
+        
     </body>
 </html>
