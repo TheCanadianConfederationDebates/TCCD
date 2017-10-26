@@ -5,9 +5,9 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-10-10T22:31:34Z. 2016.
+Schema generated from ODD source 2017-10-26T20:16:07Z. 2016.
 TEI Edition: Version 3.3.0a. Last updated on
-	4th October 2017, revision 53d8e09
+	10th October 2017, revision 60abc2f
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0a./
   
 --><!---->
@@ -6182,6 +6182,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gauthier, Rene. witness Treaty # 9. Location: Fort Severn. (1930: ).</a:documentation>
                   <value>pers:GAUV1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gauvreau, Charles Arthur. Témiscouata (1905: AB/SK House of Commons).</a:documentation>
+                  <value>pers:GELF1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gelfer, Paige. .</a:documentation>
                   <value>pers:GEND1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gendron, Pierre-Samuel. Bagot (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Bagot (1872: PEI House of Commons).</a:documentation>
                   <value>pers:GENT1</value>
@@ -6950,6 +6952,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lanctôt, Roch. Laprairie—Napierville (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:LAND1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Landry, Amand. Westmorland (1865: NB Leg).</a:documentation>
+                  <value>pers:LANG4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lang, Dave. .</a:documentation>
                   <value>pers:LANG1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Langevin, Hector-Louis (Sir). Dorchester (1865: Ont/Que Leg); Dorchester (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Dorchester (1872: PEI House of Commons); Trois-Rivières (Three Rivers) (1888: NF House of Commons).</a:documentation>
                   <value>pers:LANG3</value>
