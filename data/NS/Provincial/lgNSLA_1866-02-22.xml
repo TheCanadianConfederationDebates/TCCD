@@ -6,13 +6,13 @@
       <fileDesc>
          <titleStmt>
 
-            <title>  
-               <name type="legislature" ref="lg:lgNSLAssem">Nova Scotia Legislative Assembly</name>, <date when="1866-02-22">22 February 1866</date>, Nova Scotia Confederation with Canada.</title>
+           <title>  
+           <name type="legislature" ref="lg:lgNSLAssem">Nova Scotia Legislative Assembly</name>, <date when="1866-02-22">22 February 1866</date>, Nova Scotia Confederation with Canada.</title>
         
-            <respStmt>
-               <resp>Selection of input documents and completion of metadata</resp>
-               <persName ref="pers:LANG4">Dave Lang</persName>
-            </respStmt>
+           <respStmt>
+           <resp>Selection of input documents and completion of metadata</resp>
+           <persName ref="pers:LANG4">Dave Lang</persName>
+           </respStmt>
         
          </titleStmt>
       
@@ -22,31 +22,20 @@
          <sourceDesc>
 
             <bibl>
-          
-               <editor>John George Bourinot</editor>.
-          
-          
-          <title>Debates and Proceedings of the House of Assembly, During the Third Session of the Twenty-Third Parliament of the Province of Nova Scotia.</title>.
-          
-          
-          <date when="1866"/>.  
-          
-          
-          <pubPlace>Halifax, N.S.</pubPlace>: <publisher>Crosskill and Bourinot, "Evening Reporter" Office</publisher>.
-          
-          <biblScope unit="page" from="1" to="2"/>.
-        </bibl>
+             <editor>John George Bourinot</editor>.
+             <title>Debates and Proceedings of the House of Assembly, During the Third Session of the Twenty-Third Parliament of the Province of Nova Scotia.</title>.
+             <date when="1866"/>.  
+             <pubPlace>Halifax, N.S.</pubPlace>: <publisher>Crosskill and Bourinot, "Evening Reporter" Office</publisher>.
+             <biblScope unit="page" from="1" to="2"/>.
+            </bibl>
         
-
             <list>
-               <item>
-                  <ptr target="final/hocr/NS_LA_1866-02-22_Page_001.hocr.html"/>
-               </item>
-               <item>
-                  <ptr target="final/hocr/NS_LA_1866-02-22_Page_002.hocr.html"/>
-               </item>
+              <item><ptr target="final/hocr/NS_LA_1866-02-22_Page_001.hocr.html"/></item>
+              <item><ptr target="final/hocr/NS_LA_1866-02-22_Page_002.hocr.html"/></item>
             </list>
+            
         </sourceDesc>
+         
       </fileDesc>
       <encodingDesc>
          <samplingDecl>
@@ -57,7 +46,7 @@
       <revisionDesc>
          <change who="mholmes" when="2017-10-26">Transformed initial template file to incorporate corrected OCR content.</change>
 
-         <change who="davelang68" when="2017-10-26">Created this document, completed metadata. </change>
+         <change who="DLANG4" when="2017-10-26">Created this document, completed metadata.</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
