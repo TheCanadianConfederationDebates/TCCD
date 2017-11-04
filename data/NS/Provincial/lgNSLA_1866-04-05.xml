@@ -136,7 +136,7 @@
             <pb n="195" facs="final/images/NS_LA_1866-04-05_Page_195.jpg"/>
             <fw type="running">OF THE HOUSE OF ASSEMBLY</fw>
             <fw type="num">195</fw>
-            <p>
+            
   <!--   community, and there was no doubt that some 
      <lb/>
      remedy ought to be provided for the difficul<lb break="no"/>ties that now existed. Under the law, Pro<lb break="no"/>vincial and City Debentures; were exempted 
@@ -354,14 +354,13 @@
      <lb/>
             </p>-->
 
-<!--oxygen wouldn't allow me to put a <p> here. I used <hi> for now-->            
-     <hi rendition="simple:right">THURSDAY, April 5, 1866</hi>. 
-     <lb/>
-     <hi rendition="simple:centre">UNION OF THE COLONIES. </hi>
-     <lb/>
-           
-   
             
+<div type="section"> <p rendition="simple:right">THURSDAY, April 5, 1866</p> 
+     <p rendition="simple:centre"><emph>UNION OF THE COLONIES.</emph></p>
+           
+         
+
+<p>
      Mr. ANNAND said :---I felt, Mr. Speaker, 
      <lb/>
      when the hon. member for Inverness, Mr. Mc<lb break="no"/>Donnell, addressed the House, that the time 
@@ -751,9 +750,9 @@
      <lb/>
      reasonable proposals ? I do not recognize the 
      <lb/>
-            </p>
-            <milestone type="unknown"/>
-            <p>
+            
+            <cb/>
+            
      necessity for a union, but I believe that in de- 
      <lb break="maybe"/>
      ference to the wishes of the British Government 
@@ -3299,7 +3298,8 @@
             </p>
             <p>HON PROV.SEC. said that the bill had gone<lb/>
             </p>
-         </div>
+   
+        </div></div>
       </body>
    </text>
 </TEI>
