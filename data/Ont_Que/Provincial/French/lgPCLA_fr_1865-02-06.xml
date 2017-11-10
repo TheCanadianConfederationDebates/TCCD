@@ -9,7 +9,7 @@
         conforming with our current norms. Tag the date with a <date> element
         which includes @when or @from/@to attributes so we can process it 
         mechanically. -->
-        <title><name type="legislature" ref="lg:lgPCLAssem">Assemblée Législative</name>, <date when="1856-01-01">date(-range)</date>, Provinces de L'Amerique Britannique du Nord, Débats de la Confédération.</title>
+        <title><name type="legislature" ref="lg:lgPCLAssem">Assemblée Législative</name>, <date when="1865-02-06">6 Février 1865</date>, Provinces de L'Amerique Britannique du Nord, Débats de la Confédération.</title>
         
         <respStmt>
           <resp>Selection of input documents and completion of metadata</resp>
@@ -60,7 +60,7 @@
     <revisionDesc>
 <!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
         date in the @when attribute. -->
-      <change>Created this document, completed metadata, </change>
+      <change who="lyallg" when="2017-11-10">Created this document, completed metadata. </change>
     </revisionDesc>
   </teiHeader>
   
