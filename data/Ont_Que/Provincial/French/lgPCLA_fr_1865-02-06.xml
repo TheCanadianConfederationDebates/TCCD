@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
      but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPCLA_fr_1865-02-06">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPCLA_fr_1865-02-06" type="template">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,14 +38,31 @@
           
 <!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
                If it's a single page, put the same page number in @from and @to.-->
-          <biblScope unit="page"/>.
+          <biblScope unit="page" from="26" to="44"/>.
         </bibl>
         
 <!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
         examples. File path should be relative to THIS XML FILE. -->
         <list>
-          <item><ptr target="hocr_edited/by_language/en/PEI_H_of_C_1869_Page_01.hocr.html"/></item>
-          <item><ptr target="hocr_edited/by_language/en/PEI_H_of_C_1869_Page_02.hocr.html"/></item>
+          <item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0026.hocr.html"/></item>
+          <item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0027.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0028.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0029.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0030.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0031.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0032.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0033.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0034.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0035.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0036.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0037.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0038.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0039.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0040.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0041.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0042.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0043.hocr.html"/></item>
+<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0044.hocr.html"/></item>
         </list>
         </sourceDesc>
     </fileDesc>
