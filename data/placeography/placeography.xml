@@ -16117,10 +16117,28 @@ geographical entity. So:
                <place xml:id="LACS1" type="treaty">
                   <placeName>
                      <region>TREATY 3</region>
-                     <district>North-West Angle</district>
+                     <district>Lac Seul</district>
                   </placeName>
                   <location notBefore="1873" notAfter="1873">
                      <geo>49.38552, -95.15095</geo>
+                  </location>
+               </place>
+               <place xml:id="FALE1" type="treaty">
+                  <placeName>
+                     <region>TREATY 1 and 2</region>
+                     <district>Fort Alexander</district>
+                  </placeName>
+                  <location notBefore="1871" notAfter="1871">
+                     <geo>50.61178, -96.29619</geo>
+                  </location>
+               </place>
+               <place xml:id="BROK1" type="treaty">
+                  <placeName>
+                     <region>TREATY 1 and 2</region>
+                     <district>Broken Head River</district>
+                  </placeName>
+                  <location notBefore="1871" notAfter="1871">
+                     <geo>50.345, -96.603889</geo>
                   </location>
                </place>
                <place xml:id="FQUA1" type="treaty">
@@ -16553,15 +16571,6 @@ geographical entity. So:
                   </placeName>
                   <location notBefore="1899" notAfter="1899">
                      <geo>55.74729, -101.32063</geo>
-                  </location>
-               </place>
-               <place xml:id="LSAV1" type="treaty">
-                  <placeName>
-                     <region>TREATY 8</region>
-                     <district>Lesser Slave Lake</district>
-                  </placeName>
-                  <location notBefore="1899" notAfter="1899">
-                     <geo>55.28216, -114.79432</geo>
                   </location>
                </place>
                <place xml:id="FSTJ1" type="treaty">
