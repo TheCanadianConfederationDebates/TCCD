@@ -24896,9 +24896,53 @@
                         <ptr target="http://www.biographi.ca/fr/bio/tache_alexandre_antonin_12E.html"/>
                      </bibl>
                   </listBibl>
+                  </person>
+                  <person xml:id="MATH2">
+                     <persName when="1870">
+                        <surname>Matheson</surname>,
+                        <forename>Donald</forename>
+                     </persName>
+                     <affiliation when="1870" n="MB Government"></affiliation>
+                  </person>
+               <person xml:id="LASC1">
+                  <persName when="1870">
+                     <surname>Lascerte</surname>,
+                     <forename>?</forename>
+                  </persName>
+                  <affiliation when="1870" n="MB Government"></affiliation>
+               </person>
+               <person xml:id="THIB2">
+                  <persName when="1870">
+                     <surname>Thibeault</surname>,
+                     <forename>Grand Vicar</forename>
+                  </persName>
+                  <affiliation when="1870" n="MB Convention of 40"></affiliation>
+               </person>
+               <person xml:id="DESA1">
+                  <persName when="1870">
+                     <surname>DeSalaberry</surname>,
+                     <forename>Colonel</forename>
+                  </persName>
+                  <affiliation when="1870" n="MB Convention of 40"></affiliation>
+               </person>
+               <person xml:id="HENR1">
+                  <persName when="1865">
+                     <surname>Henry</surname>,
+                     <forename>William</forename>
+                     <forename>Alexander</forename>
+                  </persName>
+                  <affiliation when="1865" n="NS Leg" ref="plc:ANTI2">Antigonish County</affiliation>
+                  <listBibl>
+                     <bibl xml:lang="en">
+                        <ptr target="http://www.biographi.ca/en/bio/henry_william_alexander_11E.html"/>
+                     </bibl>
+                     <bibl xml:lang="fr">
+                        <ptr target="http://www.biographi.ca/fr/bio/henry_william_alexander_11E.html"/>
+                     </bibl>
+                  </listBibl>
                </person>
             </listPerson>
-         </particDesc>
+            </particDesc>
       </profileDesc>
    </teiHeader>
    <text>
