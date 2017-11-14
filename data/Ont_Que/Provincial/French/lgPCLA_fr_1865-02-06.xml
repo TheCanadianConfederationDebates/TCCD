@@ -1,93 +1,2998 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPCLA_fr_1865-02-06" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgPCLAssem">Assemblée Législative</name>, <date when="1865-02-06">6 Février 1865</date>, Provinces de L'Amerique Britannique du Nord, Débats de la Confédération.</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPCLA_fr_1865-02-06"
+     type="full"
+xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPCLAssem">Assemblée Législative</name>, <date when="1865-02-06">6 Février 1865</date>, Provinces de L'Amerique Britannique du Nord, Débats de la Confédération.</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName ref="pers:LYAL1">Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
-<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
+
         
           
-<!-- TEMPLATE: Title of the publication -->         
-          <title>Débats Parlementaires sur la Question de la Confédération des Provinces de L'Amerique Britannique du Nord</title>.
+         
+               <title>Débats Parlementaires sur la Question de la Confédération des Provinces de L'Amerique Britannique du Nord</title>.
                     
-<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+
          <date when="1865"/>. 
           
-<!-- TEMPLATE: Complete the publisher and publication place -->
+
            <pubPlace>Québec</pubPlace>: <publisher>Hunter, Rose et Lemieux, Imprimeurs Parlementaires</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="26" to="44"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0026.hocr.html"/></item>
-          <item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0027.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0028.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0029.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0030.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0031.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0032.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0033.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0034.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0035.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0036.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0037.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0038.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0039.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0040.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0041.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0042.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0043.hocr.html"/></item>
-<item><ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0044.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0026.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0027.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0028.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0029.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0030.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0031.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0032.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0033.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0034.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0035.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0036.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0037.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0038.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0039.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0040.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0041.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0042.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0043.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-06_Page_0044.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2017-11-10">Created this document, completed metadata. </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2017-11-10">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2017-11-10">Created this document, completed metadata. </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <div type="debate">
-        <p>This content will be replaced by data from the source documents during processing.</p>
-      </div>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0026">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0026.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0027">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0027.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0028">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0028.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0029">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0029.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0030">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0030.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0031">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0031.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0032">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0032.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0033">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0033.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0034">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0034.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0035">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0035.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0036">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0036.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0037">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0037.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0038">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0038.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0039">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0039.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0040">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0040.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0041">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0041.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0042">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0042.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0043">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0043.jpg"/>
+      </surface>
+      <surface xml:id="Ont_Que_Fr_LA_1865-02-06_Page_0044">
+         <graphic url="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0044.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="26" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0026.jpg"/>
+            <fw type="num">26</fw>
+
+
+<!-- GL, 2017-11-10, Commented out below, as it will appear in the preceding debate day --> 
+
+            <!--<p> monic entre les deux chambres serait
+toujours <lb/>
+prompte et efficace, et qu'un conflit entre les <lb/>
+deux branches de la législaturc générale <lb/>
+n'était pas tellement à craindre que cela pût <lb/>
+mettre obstacle au principe de nomination, <lb/>
+qui offre tant d'autres
+avantages, que j'ai <lb/>
+essayé de faire ressortir en commençant mes <lb/>
+observations. J'ai donc la ferme espérance <lb/>
+que cette chanbre partagera les vues que je <lb/>
+viens d'exprimer et accueillera la mesure <lb/>
+qui lui est soumise comme étant la plus <lb/>
+avantageuse aux intérêts du Canada et des <lb/>
+autres provinces. De plus, en formant cette <lb/>
+union, nous le lèguerons à la postérité une <lb/>
+constitution analogue à celle de l'empire sous <lb/>
+la protection duquel nous avons le bonheur <lb/>
+de vivre -\- et qui perpétuera,
+j'en suis con- <lb break="maybe"/>
+vaincu, notre union avec l'Angleterre pour <lb/>
+'notre propre avantage et le sien. (Ecoutez! <lb/>
+et applaudissemcnts.) <lb/>
+            </p>
+            <p> L HON.
+M. VIDAL.—J'aimerais à savoir <lb/>
+de l'hon. préopinant pourquoi le choix des <lb/>
+conseillers législatifs du Bas-Canada doit, <lb/>
+d'après le projet de confédération, être laissé <lb/>
+au gouvernement local de cette province, et <lb/>
+qu'il n'en est pas ainsi pour le Haut-Canada <lb/>
+et les provinces maritimes ? <lb/>
+            </p>
+            <p> L'HON.
+M. CAMPBELL—Il a été décidé <lb/>
+qu'il en serait ainsi afin de sauvegarder les <lb/>
+intérêts des anglo-canadiens du Bas-Canada,<lb/>
+qui craignaient de n'avoir pas anses de moyens<lb/>
+de protection autrement. <lb/>
+            </p>
+            <p> L'HON. M. RYAN.—Je sens de mon <lb/>
+devoir de m'opposer à ce mode
+comme pro- <lb break="maybe"/>
+pre à éterniser les distinctions de nationalité <lb/>
+et de religion ; je crois qu'il vaut mieux <lb/>
+abandonner ce choix sans réserve à la cou- <lb break="maybe"/>
+ronne. <lb/>
+            </p>
+            <p> Un grand nombre de questions sont ensuite
+<lb/>
+faites à l'hon. M. CAMPBELL sur
+divers <lb/>
+points de détail, entr'autres celle de savoir : <lb/>
+si les gouvernements locaux seraient organi- <lb break="maybe"/>
+sés avant que la confédération ne devint une <lb/>
+loi définitive. On se plaint des contradictions <lb/>
+de la résolution à ce sujet, qui
+suppose en <lb/>
+force une partie du projet dépen ant de <lb/>
+l'action des gouvernements qui n'existeront <lb/>
+pas encore. <lb/>
+            </p>
+            <p> L'HON. M. CAMPBELL promet de <lb/>
+donner une explication sur ce point a la <lb/>
+prochaine séance du conseil législatif. <lb/>
+            </p>
+            <p> ' L'HON. M. SANBORN.—Comme il est <lb/>
+près de six heures, je n' ai guère le temps de <lb/>
+parler très au long. Je dirai, cependant, que <lb/>
+je ne repousse pas le projet en totalité, mais je <lb/>
+dois déclarer que si nous abandonnons le<lb/>
+principe électif, tel
+qu'appliqué au conseil <lb/>
+législatif, c'est faire un pas en
+arrière et une <lb/>
+            </p>
+            <milestone type="unknown"/>
+            <p> démarche très-imprudente. Je pourrais, à <lb/>
+l'appui de ce que j'avance, citer l'opinion <lb/>
+qu énonçait le premier ministre il y a deux <lb/>
+ans ; il me semble bien étrange qu'il
+ait si <lb/>
+subitement changé sa manière d'envisager <lb/>
+la question. <lb/>
+            </p>
+
+            <p> Six heures sonnant, les débats sont <lb/>
+ajournés au lendemain.  <lb/>
+            </p>-->
+
+<div type="section">
+            <head rendition="simple:centre">ASSEMBLÉE LÉGISLATIVE.</head>
+
+            <p rendition="simple:centre"> Lundi, 6 <hi rendition="simple:italic">février</hi> 1866. <lb/>
+            </p>
+
+
+            <p> <persName ref="pers:MACD1">L'HON. Proc.-Gén. MACDONALD</persName> pro<lb break="no"/>pose "qu'une humble adresse soit présentée <lb/>
+à Sa Majesté, demandant qu'il
+lui plaise <lb/>
+gracieusement de soumettre au parlement <lb/>
+impérial une mesure a l'effet
+d'unir les <lb/>
+colonies du Canada, de la Nouvelle-Ecosse, <lb/>
+du Nouveau Brunswick, de Terraneuve
+<lb/>
+et de l'Ile du Prince-Edouard en un seul <lb/>
+gouvernement, d'après certaines disposi<lb break="no"/>tions basées sur les résolutions adoptées a <lb/>
+une conférence de délégués de ces colonies, <lb/>
+tenue en la cité de Québec le 10 octobre <lb/>
+1884." <ref target="#fn_01">*</ref>—Monsieur l'Orateur,—C'est pour <lb/>
+remplir la promesse faite par le gouverne<lb break="no"/>ment à cette chambre, lors de la dernière <lb/>
+session, que j'ai reposé cette résolution. <lb/>
+J'ai eu l'honneur d'étre chargé par le gou<lb break="no"/>vernement de soumettre un projet de confé<lb break="no"/>dération de toutes les provinces de l'Amé<lb break="no"/>rique Britannique du Nord,
+projet qui, je <lb/>
+suis heureux de le dire, a été accueilli par <lb/>
+une approbation générale, sinon universelle <lb/>en Canada. Le projet tel qu'exposé par la <lb/>
+presse n'a, pour ainsi dire, rencontréaucune <lb/>
+opposition. Ça et la il y a au des dissenti<lb break="no"/>ments sur certains détails, mais, comme <lb/>
+ensemble, le projet a reçu une
+approbation <lb/>
+presqu'universelle, aussi est-ce avec la plus <lb/>
+grande satisfaction que le gouvernement le <lb/>
+soumet aujourd'hui à la chambre.
+Cette <lb/>
+question, qui préoccupe aujourd'hui non- <lb break="yes"/>
+seulement le Canada mais toute l'Amérique <lb/>
+Britannique du Nord, n'est pas nouvelle. <lb/>
+Depuis plusieurs années elle a plus au moins <lb/>
+attiré l'attention de tous les hommes d'état, <lb/>
+et de tous les hommes politiques de ces <lb/>
+provinces, et les plus clairvoyants y ont vu <lb/>
+le moyen de décider et régler des questions <lb/>
+vexatoires qui ont retardé la prosperité des <lb/>
+colonies en général et du Canada en parti<lb break="no"/><note xml:id="fn_01">* Pour les résolutions, voir page 1.</note>
+
+            <pb n="27" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0027.jpg"/>
+ <fw type="num">27</fw>
+
+culier.
+Nombre de publicistes et d'hommes <lb/>
+politiques ont appelé l'attention sur
+le sujet, <lb/>
+mais je crois que l'éveil a été
+donné à la <lb/>
+législature, il y a quelques années, par mon <lb/>
+hon. ami le ministre des
+finances. Dans <lb/>
+un discours éloquent, alors qu'un des <lb/>
+membres indépendants de cette
+chambre et <lb/>
+qu'il n'était lié à aucun
+gouvernement, il <lb/>
+développa ses vues avec son énergie habi<lb break="no"/>tuelle. Mais aucun parti n'avait fait entrer <lb/>
+cette question dans son programme jusqu'à
+<lb/>
+la formation du ministère CARTIER-MAC<lb break="no"/>DONALD, en 1858, époque à
+laquelle ce <lb/>
+ministère annonça ofiiciellement que ce serait <lb/>
+une des mesures qu'il tenterait de mener à
+<lb/>
+bonne fin, s'il était possible ; en vue de cette <lb/>
+promesse, trois membres du
+cabinet adres<lb break="no"/>sèrent au ministre des colonies la fameuse <lb/>
+dépêche si souvent commentée par les jour<lb break="no"/>naux et dans cette chambre. Toutefois, ce <lb/>
+projet accueilli
+favorablement par le pays, <lb/>
+sans distinction de partis
+politiques, ne prit <lb/>
+ses proportions actuelles qu'à la dernière <lb/>
+session. A cette époque, les hommes de tous <lb/>
+les partis et de toutes les nuances politiques <lb/>
+étaient alarmés de l'aspect
+général de nos <lb/>
+affaires. Il devint évident pour eux que <lb/>
+l'antagonisme entre les deux sections de la <lb/>
+province, le danger d'une anarchie immi<lb break="no"/>nente, fruit d'opinions irréconciliables sur la <lb/>
+représentation d'après la population dans le <lb/>
+Haut et le Bas-Canada, nous présageaient <lb/>
+une triste succession de gouvernements fai<lb break="no"/>bles, en majorité et en influence, incapables <lb/>
+par-là même de réaliser aucun
+bien. Les <lb/>
+élections générales se succédaient rapidement <lb/>
+et de même se succédaient les ministères <lb/>
+sans aucun résultat. La force des
+partis <lb/>
+était tellement égale qu'une seule voix po<lb break="no"/>vait décider du sort de
+l'administration et <lb/>
+de la marche de notre législation pour une <lb/>
+ou plusieurs années a venir. Cet état de <lb/>
+choses était bien propre à éveiller la sérieuse <lb/>
+attention des vrais amis du pays.
+Or, tel a <lb/>
+été l'effet produit, je suis
+heureux de le dire. <lb/>
+L'état précaire de nos affaires, les graves <lb/>
+appréhensions d'une anarchie qui
+aurait <lb/>
+ruiné notre crédit, détruit notre prospérité <lb/>
+et anéanti notre progrès, firent
+surtout im<lb break="no"/>pression sur les membres du
+parlement <lb/>
+actuel, et les chefs, des deux côtés de la <lb/>
+chambre, semblèrent tous en être
+arrivés à <lb/>
+la conclusion qu'il fallait prendre
+des me<lb break="no"/>sures pour faire sortir le pays
+de l'im<lb break="no"/>passe où il se trouvait et nous mettre <lb/>
+à l'abri d'une anarchie
+menaçante.  Dans <lb/>
+ce but, mon hon. collègue, le président <lb/>
+du conseil, : fit une motion basée sur la <lb/>
+          
+
+            <cb/>
+           
+ dépêche adressée au ministre des
+colonies, <lb/>
+que je viens de mentionner ; et il fut <lb/>
+formé un comité composé des membres
+des <lb/>
+deux côtés de la chambre, pris dans
+toutes <lb/>
+les nuances politiques, sans considérer
+s'ils <lb/>
+appuyaient l'administration du jour ou s'ils <lb/>
+lui étaient opposés, à l'effet d'examiner à <lb/>
+fond et avec calme les maux qui menaçaient <lb/>
+l'avenir du Canada. La motion de mon <lb/>
+hon. ami eût les meilleurs résultats. Le <lb/>
+comité, par une sage disposition, et afin <lb/>
+ne chaque membre fût mis à même <lb/>d'exprimer librement ses opinions sans se <lb/>
+compromettre devant le public ou devant son <lb/>
+parti, et sans avoir à tenir compte dans cette <lb/>
+expression, ni de ses amis, ni de ses ennemis <lb/>
+politiques, décida que la
+discussion aurait lieu <lb/>
+librement et sans tenir compte des antécé<lb break="no"/>dents politiques d'aucun de ses membres, et <lb/>
+que de plus il siégerait à huis-clos
+afin de <lb/>
+pouvoir aborder la question franchement et <lb/>
+avec le ferme désir d'en venir à un compro<lb break="no"/>mis. Les membres les plus influents de la <lb/>
+chambre formaient ce comité,—(j'eus
+moi-<lb break="yes"/>
+méme l'honneur d'en faire partie),——dans <lb/>
+lequel se manifesta immédiatement un ardent <lb/>
+désir, un louable désir, pour dire le vrai <lb/>
+mot, d'aborder honnêtement le sujet en <lb/>
+recherchant une solution qui arracherait le <lb/>
+Canada aux malheurs dont il était
+menacé. <lb/>
+Le rapport de ce comité fut soumis à
+la <lb/>
+chambre, et alors commença la partie politi<lb break="no"/>que du rôle des membres les plus influents <lb/>
+de cette assemblée ; quelques jours plus tard, <lb/>
+le gouvernement actuel était forme. Le <lb/>
+principe de la formation de ce gouvernement <lb/>
+iut rendu public et est aujourd'hui connu <lb/>
+de tous. Le grand but était la
+question deja <lb/>
+réglée en partie par les résolutions que j'ai <lb/>
+eu l'honneur de vous communiquer. On sait <lb/>
+que les difficultés et les
+répugnances n'ont <lb/>
+pas manqué dans la formation du cabinet <lb/>
+actuel. Les membres qui le
+composent <lb/>
+avaient, pendant de longues années, été <lb/>
+ennemis politiques, et cette haine avait, <lb/>
+dans plusieurs cas, affecté jusqu'à
+leurs re<lb break="no"/>lations sociales. Mais la crise était forte, le <lb/>
+danger imminent, et les ministres actuels<lb/>
+crurent devoir mettre de côté leurs senti<lb break="no"/>ments personnels, sacrifier jusqu'à
+un certain <lb/>point leur position, et même courir le risque <lb/>
+de voir leurs motifs mal
+interprétés, afin <lb/>
+de pouvoir ainsi arriver à une
+conclusion <lb/>
+satisfaisante pour le pays en général. Les <lb/>
+résolutions actuelles en furent
+le resul<lb break="no"/>tat. Je l'ai déjà dit, je suis fier de songer <lb/>
+que le nous a approuvés, et j`espère<lb/>que cette chambre ratifiera le projet que 
+<lb/>
+           
+
+
+            <pb n="28" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0028.jpg"/>
+   <fw type="num">28</fw>
+
+ nous lui soumettons pour le gouvernement <lb/>
+futur de l'Amérique Britannique du Nord. <lb/>
+(Applaudissements.) Tout a semblé favo<lb break="no"/>riser ce projet, et tout paraît démontrer que <lb/>
+l'époque actuelle est celle qui doit voir <lb/>
+s'accomplir cette umon grandiose de tous les <lb/>
+sujets de Sa Majesté dans l'Amérique Bri<lb break="np"/>tannique du Nord, si. jamais elle doit <lb/>
+avoir lieu. (Ecoutez! écoutezl)
+Lors de <lb/>
+la formation de la présente administration, <lb/>
+on crut que les difficultés qui empêchaient <lb/>
+l'union de toutes les provinces étaient très-<lb break="yes"/>
+grandes, et elles parurent, même à
+plusieurs, <lb/>
+insurmontablcs. C'est pourquoi le gouver<lb break="no"/>nement était décidé, dans le cas où il ne <lb/>
+pourrait effectuer cette union,
+de faire sortir <lb/>
+le pays de la crise sans fin où l'avaient <lb/>
+plongé les luttes du Haut et du Bas-Canada, <lb/>
+au moyen d'une modification de l'union <lb/>
+actuelle des deux provinces en une union <lb/>
+fédérale. La plupart d'entre nous, cepen<lb break="no"/>dant, et je pourrais dire tous, pensèrent <lb/>
+qu'il valait bien mieux étendre cette union <lb/>à toutes les provinces, et
+s'accordèrcnt à <lb/>
+croire ce projet supérieur, du moment qu'il <lb/>
+serait réalisable, à celui de la
+fédération du <lb/>
+Haut et du Bas-Canada seulement.
+Un <lb/>
+concours heureux de circonstances nous <lb/>
+permit d'en faire, aux sœurs colonies, la <lb/>
+proposition avec espoir de succès. Presque <lb/>
+dans le même temps, en effet, les provinces <lb/>
+maritimes ayant manifesté le désir de s'unir <lb/>
+entre elles et exprimé la
+nécessité de se <lb/>
+donner plus de force par une union plus <lb/>
+étroite, tinrent, dans l'Ile du Prince <lb/>
+Edouard, une convention composée de délé<lb break="no"/>légués de la Nouvelle-Ecosse, du Nouveau- <lb break="yes"/>
+Brunswick et de l'Ile du
+Prince Edouard, <lb/>
+nommés par les gouvernements respectifs
+<lb/>
+de chacune de ces colonies, pour s'entendre <lb/>
+sur un projet d'union quelconque. Personne <lb/>
+ne savait encore si cette union devait être <lb/>
+législative ou fédérale, mais ce
+que tous <lb/>
+voulaient, c'était d'arriver à une mesure qui <lb/>
+aurait l'efi'et de ne faire qu'un seul peuple <lb/>
+de trois peuples différents. Ayant appris <lb/>
+ces faits et sachant que si nous laissions <lb/>
+échapper cette circonstance dans laquelle <lb/>
+ces provinces, brisant leur organisation
+poli<lb break="no"/>tique actuelle et se préparant à en inaugurer
+<lb/>
+une nouvelle, une pareille occasion ne se <lb/>
+présenterait plus, nous en profitâmes pour <lb/>
+leur demander si elles consentiraient à rece<lb break="no"/>voir, à Charlottetown, une députation du <lb/>
+Canada qui leur exposeruit les avantages <lb/>
+d'une union plus étendue opérée par l'asso<lb break="no"/>ciation de toutes les colonies anglaises de
+<lb/>
+l'Amérique du Nord en un seul gouverne<lb break="no"/>
+<cb/>
+ment soumis à un même souverain. Elles <lb/>
+consentirent sans difficulté à nous recevoir <lb/>
+et à nous entendre, et nous accueillirent avec <lb/>
+une grande cordialité, en nous exprimant le <lb/>
+désir d'apprendre quelles étaient nos idées <lb/>
+sur la question. Nous fîmes part aux délé<lb break="no"/>gués de nos vues assez longuement et pûmcs <lb/>
+tellement les satisfaire par les raisons ne <lb/>
+nous apportâmes à leur appui,
+et si bien es <lb/>
+convaincre des avantages d'une union géné<lb break="no"/>rale sur une union particulière qu'ils mirent <lb/>
+de suite de côté leur propre projet et se <lb/>
+rallièrent à l'idée de former
+une grande <lb/>
+nation et un gouvernement fort. (Applau<lb break="no"/>dissements.) Nous revînmes à
+Québec <lb/>
+pleins de courage et d'espoir de cet arran<lb break="no"/>gement quoiqu'il manquàt de la
+sanc<lb break="no"/>tion officielle, et c'est alors que le gou<lb break="no"/>vernement du Canada invita ceux de toutes <lb/>
+les sœurs provinces à se faire repré<lb break="no"/>senter à une convention qui
+devait être <lb/>
+tenue à Québec, dans le but
+d'étudier la <lb/>
+question, en leur nom et avec leur sanction. <lb/>
+Notre invitation fut agréée, et le 10 octobre, <lb/>
+jour de l'ouverture de la convention, sous <lb/>
+l'influence des discussions approfondies et <lb/>
+libres qui avaient eu lieu à Charlottetown, la <lb/>
+première des résolutions, maintenant devant <lb/>
+cette chambre, fut votée à
+l'unanimité et au <lb/>
+milieu des acclamations. Il ne vint pas même <lb/>
+à l'esprit de personne que cette
+proposition <lb/>
+ne dût pas recevoir et ne reçût pas a sanc<lb break="no"/>tion de chacun des gouvernements et de <lb/>
+chacune des colonies. Voici cette proposi<lb break="no"/>tion, savoir:——" Une union fédérale sous <lb/>
+la couronne de la Grande-Bretagne aurait <lb/>
+l'effet de sauvegarder les
+intérêts les plus <lb/>
+chers et d'accroître la prospérité
+de l'A<lb break="no"/>mérique Britannique du Nord,
+pourvu <lb/>
+qu'elle puisse s'effectuer à des conditions <lb/>
+équitables pour les diverses provinces." <lb/>
+Il parut à tous les hommes
+d'état qui <lb/>
+composaient la convention,—car les provinces <lb/>
+maritimes comptent des hommes
+politiques <lb/>
+très-distingués, des hommes qui
+feraient <lb/>
+honneur à n'importe quel
+gouvernement et à <lb/>
+n'importe quelle législature de pays libres,—
+<lb/>
+il leur parut, dis-je, évident que les intérêts <lb/>
+les plus essentiels, et du présent et de l'avenir <lb/>
+de l'Amérique Britannique du Nord, ne <lb/>
+pourraient être mieux
+sauvegardés que par <lb/>
+une union fédérale sous la couronne de la <lb/>
+Grande-Bretagne. En effet, il doit sembler <lb/>
+au peuple de ce pays, que si nous voulons <lb/>
+tous devenir une grande nation, si nous vou<lb break="no"/>lons former une grande
+nationalité,—quelque <lb/>
+malsonnant qu'ait pu paraître ce
+met aux <lb/>
+         
+
+            <pb n="29" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0029.jpg"/>
+           <fw type="num">29</fw>
+
+ oreilles de certains députés à l'une des
+<lb/>
+séances précédentes,-une
+nationalité qui <lb/>
+commande le respect au dehors et puise <lb/>
+défendre ces institutions dont nous sommes <lb/>
+si orgueilleux ; si nous voulons n'avoir <lb/>
+qu'une forme de gouvernement, et fonder <lb/>
+une union commerciale et une réciprocité <lb/>
+absolue d échanges entre cinq colonies déjà <lb/>
+unies par une communauté
+d'origine, de sou<lb break="no"/>veraineté, d'allégennce et presque de sang et <lb/>
+d'extraction ; si nous voulons nous mettre en <lb/>
+état de nous accorder, les uns aux autres, les <lb/>
+secours d'une défense mutuelle
+contre les <lb/>
+aggressions de l'étranger,—le seul moyen <lb/>
+d'arriver à ce magnifique résultat
+est de <lb/>
+soumettre à une organisation
+quelconque, <lb/>
+mais uniforme, les diverses
+provinces de <lb/>
+l'Amérique Britannique du Nord.
+(Applau— <lb/>
+dissements.) L'énonciation seule
+du sujet <lb/>
+suffit ce me semble, pour
+emporter l'appro<lb break="no"/>bation. Supposons que dans le
+printemps de <lb/>
+1865, il arrive un demi-million
+d'individus de <lb/>
+l'Angleterre en Canada pour s'y
+établir ; <lb/>
+quand même n'apporteraient-ils
+avec eux <lb/>
+que leur robuste charpente et des cœurs <lb/>
+bien disposés ; quand même ils ne
+seraient <lb/>
+ni industrieux ni riches, ne les
+recevrions- <lb break="yes"/>
+nous pas à bras ouverts, ne saluerions-
+<lb break="yes"/>
+nous pas leur arrivée chez nous
+comme <lb/>
+une accession à notre puissance? Mais, <lb/>
+lorsque nous voyons que par l'union pro<lb break="yes"/>
+jetée, nous nous adjoindrons près d'un <lb/>
+million d'individus qui augmenteront, non- <lb break="yes"/>
+seulement l'importance du chiffre
+de notre <lb/>
+population, mais encore notre force unaté<lb break="yes"/>rielle,—qui sont résolus de mettre à
+profit les <lb/>
+ressources de leur position,-quise composent <lb/>
+de sociétés déjà anciennes, et qui possèdent <lb/>
+par conséquent, une assez grande somme de <lb/>
+richesse,—qui ont acquis
+l'habilité, l'expé<lb break="no"/>rience et l'habitude de la vie du nouveau <lb/>
+monde,—qui sont aussi canadiens,
+j'oserai <lb/>
+dire que nous, qui sont animés de
+la même <lb/>
+loyauté envers la Reine, et du même désir <lb/>
+de rester unis à la métropole,—qui ont avec <lb/>
+nous un vif attachement pour leur
+nouvelle <lb/>
+patrie et pour laquelle, s'il
+était nécessaire, <lb/>
+ils combattraient et verseraient
+leur sang ! <lb/>
+oui, je le répète, en voyant ces
+choses, il serait <lb/>
+bien avaugle celui qui refuserait de croire <lb/>
+aux avantages de l'union projetée.
+(Ecoutez ! <lb/>
+écoutez !) Revenant maintenant à la situa<lb break="no"/>tion critique de nos propres affaires ; je dis <lb/>
+qu'on ne pouvait suggérer que trois moyens<lb/>
+de tirer le Canada des
+difficultés fâcheuses <lb/>
+qui l'entouraient, de le faire sortir de
+l'état <lb/>
+d'anarchie et de souffrance où
+il se trouvait, <lb/>
+et de lui assurer un état de prospérité. L'un <lb/>
+    
+
+            <cb/>
+
+ était la dissolution de l'union entre le
+Haut <lb/>
+et le Bas-Canada. les laissant comme ils <lb/>
+étaient avant l'union de 1841. Je crois <lb/>
+qu'une telle proposition ne trouverait pas
+<lb/>
+aujourd'hui un seul partisan. L'on a senti <lb/>que,—-bien que cela eût mis fin aux pressantes <lb/>
+demandes du Haut-Canada pour la
+représen<lb break="no"/>tation d'après la population, et à la crainte <lb/>
+de la part du peuple du Bas-Canada de voir <lb/>
+ses institutions en danger par
+une telle me<lb break="no"/>sure,—cette dissolution eût été un pas rétro<lb break="no"/>grade qui aurait repoussé le pays
+vers la <lb/>
+position qu'il occupait avant l'union, et eût <lb/>
+diminué le crédit de tout le Canada; l'on a <lb/>
+senti, dis-je, que cela eût brisé un lien qui <lb/>
+existe depuis vingt-cinq ans, et
+qui, sans <lb/>
+avoir pu réussir à écarter
+les jalousies de <lb/>
+localité que les circonstances
+avaient créées <lb/>
+avant l'union, n'en a pas moins duré un <lb/>
+temps assez considérable,
+pendant lequel la <lb/>
+province entière a joui d'une prospérité <lb/>
+marquée et sans cesse
+croissante. L'on a <lb/>
+senti que cette dissolution eût détruit le <lb/>
+crédit que nous avons acquis par cette union <lb/>
+de deux provinces faibles et insignifiantes,
+<lb/>
+et qu'en y ayant recours, nous nous exposions
+<lb/>à rabaisser notre niveau au lieu
+de nous <lb/>
+élever au rang d'une nation puissante. <lb/>
+[Ecoutez ! écoutez !] L'autre moyen par <lb/>
+lequel cet état d'anarchie
+pouvait avoir <lb/>
+un terme, eut été d'accorder au Haut-<lb break="yes"/>
+Canada la représentation d'après la popu<lb break="no"/>lation. Nous savons tous de quelle ma<lb break="no"/>nière cette question est
+envisagée par le <lb/>
+peuple du Bas-Canada, et que, pendant que <lb/>le désir du Haut-Canada pour
+s'assurer une <lb/>
+juste représentation, devenait de plus en plus <lb/>
+vivace, la résistance du Bas-Canada gagnait <lb/>
+aussi en énergie. Si une solution telle que la <lb/>
+confédération ne se fut pas présentée pour <lb/>
+mettre fin aux difficultés de
+province à <lb/>
+province qui existent, la représentation <lb/>
+basée sur la population était le seul <lb/>
+moyen qui restait à adopter. Peu
+im<lb break="no"/>porte que le Bas-Canada eût
+prétendu que <lb/>
+c'était une violation du traité d'union, et <lb/>
+qu'une telle réforme entraînerait la ruine de <lb/>
+ses intérêts locaux, il est certain que la force <lb/>
+des choses nous ont amenés à
+recourir à la <lb/>
+représentation basée sur le nombre ; et je ne <lb/>
+pense pas que c'cût été dans l'intérêt du <lb/>
+Haut-Canada. Telle a toujours été ma ma<lb break="no"/>nière d'envisager le sujet. Ce que le Haut- <lb break="yes"/>
+Canada aurait regardé comme un droite à
+<lb/>
+réclamer et à exercer, eut été
+certainement <lb/>
+envisagé par le Bas-Canada comme une injus<lb break="no"/>tice et un danger ; les bas-canadiens,
+au lieu <lb/>
+de concourir de bonne volonté à l'exercice <lb/>
+         
+
+            <pb n="30" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0030.jpg"/>
+         <fw type="num">30</fw>
+
+de ce nouveau régime comme nationalité <lb/>
+représentée par des chefs et
+soumise à des <lb/>
+principes, n'auraient vu dans ce changement <lb/>
+constitutionnel que leurs intérêts menacés, <lb/>
+et n'auraient plus écouté que le désir de <lb/>
+sauvegarder leurs institutions,
+leurs lois et <lb/>
+leur avenir matériel. [Ecoutez !
+écoutez !] <lb/>
+Le troisième et seul moyen d'obtenir une <lb/>
+solution à nos difficultés était une confédéra<lb break="no"/>tion des provinces, par une union, soit fédé<lb break="no"/>rale, soit législative. Or,
+quant aux avantages <lb/>
+comparatifs d'une union législative et d'une <lb/>
+union fédérale, je n'ai jamais hésité à
+dire <lb/>
+que si la chose était praticable, une union <lb/>
+législative eût été préférable. (Ecoutez ! <lb/>
+écoutez !] J'ai déclaré maintes et maintes <lb/>
+fois que si nous pouvions avoir un gouver<lb break="no"/>nement et un parlement pour toutes les pro<lb break="no"/>vinces, nous aurions eu le gouvernement <lb/>
+le meilleur, le moins dispendieux, le plus <lb/>
+vigoureux et le plus fort. [ Ecoutez ! écoutez !] <lb/>
+Mais en considérant ce sujet et
+en le discu<lb break="no"/>tant, comme nous l'avons fait dans la con<lb break="no"/>férence avec le désir d'en venir à
+une solu<lb break="no"/>tion satisfaisante, j'ai trouvé que ce système <lb/>
+était impraticable. Et, d'abord, il ne saurait <lb/>
+rencontrer l'assentiment au peuple du Bas- <lb break="yes"/>
+Canada qui sent que, dans la position <lb/>
+particulière où il se trouve comme mino<lb break="no"/>rité, parlent un langage différent, et pro<lb break="no"/>fessant une foi différente de la
+majorité <lb/>
+du peuple sous la confédération, ses insti<lb break="no"/>tutions, ses lois, ses associations natio<lb break="no"/>nales, qu'il estime hautement, pourraient <lb/>
+avoir à en souffrir. C'est pourquoi il a été <lb/>
+compris que toute proposition qui
+implique<lb break="no"/>rait l`absorption de
+l'individuaiité du Bas- <lb break="yes"/>
+Canada, ne serait pas reçue avec faveur par <lb/>
+le peuple de cette section. Nous avons <lb/>
+trouvé, en outre, que quoique le peuple <lb/>
+des provinces inférieures parle la même <lb/>
+langue que celui du Haut-Canada et soit <lb/>
+régit par la même loi,—loi basée sur le <lb/>
+droit anglais,—il n'y avait, de la part de ces <lb/>
+provinces, aucun désir de perdre leur indivi<lb break="no"/>dualité comme nation, et qu'elles partageaient <lb/>
+à cet égard, les mêmes dispositions que le <lb/>
+Bas-Canada. (Ecoutez ! écoutez.) C'est <lb/>
+pourquoi, après mûre
+considération du sujet <lb/>
+et des avantages et désavantages des deux <lb/>
+systèmes, nous nous
+aperçûmes que l'union <lb/>
+législative ne ralliait pas toutes les opinions, <lb/>
+et qu'il ne nous restait qu'à
+adopter l'union <lb/>
+fédérale comme seul système acceptable, <lb/>
+même aux provinces maritimes. Une autre <lb/>
+objection contre une union législative <lb/>
+naissait du fait que, quoique les pro<lb break="no"/>vinces maritimes eussent une loi com<lb break="no"/>
+          
+
+            <cb/>
+    
+mune dérivant de la même source que <lb/>
+celle du Haut-Canada, chacune d'elles possé<lb break="no"/>dait cependant un certain nombre de lois <lb/>
+qui lui étaient propres,—telles, par exemple, <lb/>
+que la loi sur la propriété, la loi municipale, <lb/>
+la loi des cotisations, la loi pour la protection <lb/>
+des biens et de la liberté des sujets: et <lb/>
+chacun peut se convaincre qu'avec une telle <lb/>
+diversité de législation, il eût
+été hors de <lb/>
+question de songer à placer toutes ces pro<lb break="no"/>vinces sous une union législative.
+Car, M. <lb/>
+l'Orateur, comment eu-til pu être possible <lb/>
+d'assimiler tout le système de lois locales et <lb/>
+générales de ces colonies, lorsqu'on se repré<lb break="no"/>sente les innombrables sujets de législation <lb/>
+que l'on trouve dans tous les jeunes pays, et <lb/>
+lorsqu'on songe au fait que chacune des cinq<lb/>
+provinces de l'Amérique Britannique du <lb/>
+Nord avait ses lois
+particulières auxquelles <lb/>
+le peuple était attaché et accoutumé. (Ecou<lb break="no"/>tez ! écoutez !) Le Haut-Canada est en <lb/>
+position de mieux comprendre que qui ce <lb/>
+soit, à cause de ses institutions municipales <lb/>
+particulières, combien il eût été difficile <lb/>
+d'embrasser dans un même système général <lb/>
+toutes les mesures locales, de manière à satis<lb break="no"/>faire les désirs et les exigences de plusieurs <lb/>
+provinces. Qui ne sait que même
+les lois <lb/>
+qu'on regarde comme les moins importantes, <lb/>
+telles que celles réglant la coupe des arbres, <lb/>
+les priviléges particuliers sur les routes, les <lb/>
+clôtures, et mille autres de ce genre, sont <lb/>
+envisagées comme ayant une importance <lb/>
+vitale par la population agricole qui forme le <lb/>
+noyau le plus considérable de la population
+<lb/>
+d'un pays? Aussi, voyant que chaque colonie <lb/>
+avait des lois de cette nature, et qu'il s'é<lb break="no"/>coulerait des années avant qu'elles passent <lb/>
+être assimilées, avons-nous compris de suite <lb/>
+que, dans tous les cas, toute législation
+com<lb break="no"/>mune serait presque impossible. Je suis <lb/>
+heureux de dire à cette Chambre
+qu'en ce <lb/>
+qui regarde les provinces
+inférieures, leurs<lb/>
+délégués exprimèrent le désir de voir une <lb/>
+assimilation finale de nos lois ; en effet,
+une <lb/>
+des propositions, comme le démontrent les <lb/>
+résolutions, comportait qu'on tenterait l'as<lb break="no"/>similation des lois des provinces maritimes <lb/>
+avec celles du Haut-Canada, dans le <lb/>
+but d'en venir à
+l'établissement définitif <lb/>
+d'un seul système basé sur la loi com<lb break="no"/>mune d'Angleterre, la source de toutes <lb/>
+les lois de ces provinces. La grande <lb/>
+objection à l'union fédérale est la dépense <lb/>
+occasionnée par une augmentation du nombre <lb/>
+de nos législatures. Je
+n'insisterai pas sur <lb/>
+ce point, mais mon hon. ami, le ministre <lb/>
+des finances, beaucoup plus habile que moi <lb/>
+         
+
+            <pb n="31" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0031.jpg"/>
+       <fw type="num">31</fw>
+
+à traiter ce genre
+de questions, pourra dé<lb break="no"/>montrer, je I espère, qu'elle ne sera pas plus <lb/>
+grane qu`à présent. (Ecoutez ! écoutez_l)
+<lb/>
+En effet
+nous avons aujourd'hui une légis<lb break="no"/>lature commune pour le Haut et le Bas- <lb break="yes"/>
+Canada, qui s'occupe, non
+seulement des <lb/>
+affaires d'intérêt général, mais encore de <lb/>
+tous les sujets de droit privé et d'un carac<lb break="no"/>tère local, tombant dans la catégorie des <lb/>
+bills privés; il en résulte que les
+frais de <lb/>la législation forment un item
+considérable <lb/>des dépenses du pays. Nous voyons aussi
+que <lb/>
+ces deux genres de législation se
+nuisent <lb/>
+et sont en conflit dans le travail
+général ; <lb/>
+tandis que si la législation
+était bornée à <lb/>des mesures d'un seul genre, les sessions du <lb/>
+parlement seraient moins
+prolongées et la <lb/>
+dépense moins grande qu'à présent. Mais, <lb/>
+dans la constitution
+projetée, tous les sujets <lb/>
+d'intérêt général, tout ce qui affecte
+les <lb/>
+provinces comme un tout, seront laissés <lb/>
+exclusivement à la législature
+générale, <lb/>
+pendant que les législatures
+locales règle<lb break="no"/>ront les intérêts locaux, qui, sans inté<lb break="no"/>resser la confédération entière, ont un <lb/>
+haut intérêt local. Par suite de
+cette divi<lb break="no"/>sion du travail, les sessions de la légis<lb break="no"/>lature générale ne seraient pas aussi pro<lb break="no"/>longées qu'elles le sont actuellement au <lb/>
+Canada. Pour ce qui est des législatures <lb/>
+locales, elles n'auraient à
+s'occuper que des <lb/>
+sujets qui intéressent leurs propres sections, <lb/>
+et leurs sessions seront moins longues
+et moins <lb/>
+dispendieuses. Lorsque nous
+considérons <lb/>
+l'énorme économie qui sera apportée dans <lb/>
+l'administration des affaires,
+par le gouverne<lb break="no"/>ment général; quand nous réfléchissons que <lb/>chacune des cinq colonies a une administra<lb break="no"/>tion complète avec tout le
+personnel néces<lb break="no"/>saire pour la transaction de ses
+affaires ; que <lb/>chacune a son système exécutif, judiciaire et <lb/>
+militaire; un ministre dans
+chaque dépar<lb break="no"/>tement, y compris un ministre de
+la milice <lb/>avec un bureau complet d'adjudant général
+; <lb/>
+que chaque ministre des finances a un per<lb break="no"/>sonnel complet d'employés pour
+les douanes <lb/>
+et l'accise,
+et que dans chacune ce nombre <lb/>
+d'employés et d'officiers publics
+est aussi <lb/>
+considérable que le nombre qui
+serait requis <lb/>pour le gouvernement général, nous pouvons <lb/>
+comprendre très-bien l'économie considérable <lb/>
+qui résulterait
+de l'union des colonies si elles
+<lb/>avaient un système général et un seul chef <lb/>
+pour l'administration des affaires publiques.
+<lb/>Quantaux désavantages d'une union fédérale, <lb/>
+nous en savons
+quelque chose en Canada, et <lb/>
+nous connaissons aussi ses avantages. Mais
+<lb/>
+nous ne pouvons nous dissimuler que,
+quoi-<lb break="yes"/>
+       
+
+            <cb/>
+        
+ que nous ayions nominalement une union <lb/>
+législative et que nous siégions dans un seul <lb/>
+parlement supposé constitutionnellemeut
+re<lb break="no"/>présenter le peuple sans égard aux sections <lb/>
+et aux localités, cependant, nous savons, par <lb/>
+expérience que depuis l'union,
+nous avons eu <lb/>
+une union fédérale; que dans les matières <lb/>
+affectant le Haut-Canada, les
+députés de cette <lb/>
+section s'occupent exclusivement
+des lois qui <lb/>
+les concernent, et qu'il en est de même pour <lb/>
+le Bas-Canada. Nous avons, de fait, une union <lb/>
+fedérale, quoique cette union soit nominale ; <lb/>
+et nous savons que, dans les contestations <lb/>
+vives qui ont surgi dans ces
+dernières an<lb break="no"/>nées, si, en quelqu'occasion, une mesure <lb/>
+affectant l'une des sections était combattue <lb/>
+par les membres de l'autre section qui n'y <lb/>
+étaient pas directement intéressés ;—ou si <lb/>
+une mesure affectant les intérêts locaux du <lb/>
+Haut-Canada était emportée ou rejetée contre <lb/>
+les vœux de sa majorité par les votes du Bas- <lb break="yes"/>
+Canada,—mon hon. ami le président du <lb/>
+conseil et ses artisans dénonçaient, avec la <lb/>
+plus grande habileté et la plus grande éner<lb break="no"/>gie, ce mode de législation comme une vio<lb break="no"/>lation des droits du Haut-Canada. (Ecoutez !) <lb/>
+Et de même pour le Bas-Canada.
+si un acte <lb/>
+devenait loi contre les vœux de sa majorité, <lb/>
+ses représentants, se levant
+comme un seul <lb/>
+homme a protestaient contre la
+violation de <lb/>
+leurs droits. (Ecoutez !) La
+position de <lb/>
+l'Angleterre et de l'Ecosse est à
+peu près <lb/>
+analogue à celle du Canada.
+L'union de <lb/>
+ces deux pays, en matières de législation, <lb/>
+est d'un caractère fédéral, pour la raison <lb/>
+que l'acte d'union stipule
+qu'aucune loi <lb/>
+écossaise ne sera changée qu'à
+l'avantage <lb/>
+évident des écossais. Et cette règle
+a <lb/>
+été regardée comme tellement obligatoire, <lb/>
+dans la législature de la Grande-Bretagne, <lb/>
+qu'aucune loi affectant l'Ecosse
+ne peut <lb/>
+être passée sans une majorité des votes <lb/>
+écossais. Il peut être important pour <lb/>
+les intérêts généraux de l'empire que <lb/>
+la loi écossaise soit modifiée ; cette loi <lb/>
+peut affecter le système général du la légis<lb break="no"/>lation du Royaume-Uni,—malgré toutes <lb/>
+ces raisons, elle ne peut être changée
+<lb/>
+sans la sanction de la majorité des membres <lb/>
+écossais dans la législature, et leurs <lb/>
+vues sont exprimées par un vote
+sur la <lb/>
+question même. Si les membres écossais <lb/>
+ne l'approuvent pas, la loi ne peut passer en <lb/>
+parlement. (Ecoutez !) Nous
+trouvons donc <lb/>
+en Angleterre un exemple
+frappant du fonc<lb break="no"/>tionnement et des effets d'une
+union fédé<lb break="no"/>rale, et nous pouvons nous attendre à
+voir <lb/>
+les mêmes effets se produire
+dans notre con<lb break="no"/>
+          
+            <pb n="32" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0032.jpg"/>
+       <fw type="num">32</fw>
+
+fédération.
+Le plan entier de la confédé<lb break="no"/>ration tel qu'éluboré par la conférence, et <lb/>
+soumis par le gouvernement
+canadien à <lb/>
+l'examen du peuple et de la législature, porte <lb/>
+le caractère d'un compromis. Je n'hésite <lb/>
+pas à  le répéter,
+il y a eu de toute nécessité <lb/>
+beaucoup de concessions
+mutuelles. Lorsque <lb/>
+nous songeons que cinq colonies, toutes sup<lb break="no"/>posées avoir des intérêts
+différents, se ré<lb break="no"/>unissent dans le but de représenter leurs <lb/>
+intérêts individuels, leurs vues,
+concernant <lb/>
+leurs propres localités,—il faut avouer que si <lb/>
+ne nous nous étions pas assemblés
+dans un <lb/>
+esprit de conciliation, avec un désir ardent <lb/>
+d'effectuar cette union,—que si
+nous n'a<lb break="no"/>vions pas été pénétrés du sens
+de cette <lb/>
+résolution,—" Une union fédérale sous la <lb/>
+couronne de la Grande-Bretagne aurait <lb/>
+l'effet de sauvegarder les
+intérêts les<lb/>
+plus chers et d'accroître la prospérité <lb/>
+de l'Amérique Britannique du
+Nord,"— <lb/>
+tous nos efforts auraient été vaine. Si nous<lb/>
+n'avions pas senti que nous devions mettre de <lb/>
+côté nos propres opinions sur certains détails <lb/>
+et n'avoir en vue que ce qui
+était praticable <lb/>
+et ne pas rejeter obstinémeut l'opinion des <lb/>
+autres,—si nous n'avions pas été
+pleins du <lb/>
+désir de former un grand peuple et un gou<lb break="no"/>vernement fort, j'affirme que le projet tout <lb/>
+entier aurait subi un immense échec. C'est <lb/>
+dans ces circonstances que nous mettons le <lb/>
+projet devant la chambre et devant le pays <lb/>
+en leur disant : si, dans votre opinion, <lb/>
+l'union des peuples des cinq colonies pour <lb/>
+former une seule nation régie par un seul <lb/>
+souverain n'est pas à l'avantage de tous, <lb/>
+rejeter le projet. Mais si après
+une consi<lb break="no"/>deration caline, juste et entière du projet, <lb/>
+vous croyez réellement que, dans son en<lb break="no"/>semble, il est à l'avantage des
+provinces,—si <lb/>
+vous croyez qu'il est de nature à
+nous assurer <lb/>
+une continuation de la jouissance des lois <lb/>
+anglaises, des institutions, de la liberté et de <lb/>
+l'union avec la mère-patrie,
+aussi bien que <lb/>
+le développement de notre prospérité na<lb break="no"/>tionale, sociale et politique, nous supplions
+<lb/>
+cette chambre de mettre de côté tout pré<lb break="no"/>jugé et d'adopter le projet qui lui est sou<lb break="no"/>mis; nous lui demandons d'aborder la ques<lb break="no"/>tion avec le même esprit qui
+animait les <lb/>
+délégués, d'accepter l'ensemble
+du projet; <lb/>
+si elle le regarde comme profitable et avan<lb break="no"/>tageux ; nous lui demandons d'agir ainsi <lb/>
+afin que nous arrivions sans tarder à une <lb/>
+conclusion satisfaisante Par un heureux <lb/>
+concours de circonstances, au
+moment où se <lb/>
+formait au Canada une administration ayant <lb/>
+pour but d'essayer à résoudre les difficultés   <lb/>
+           
+
+            <cb/>      
+         
+qui nous accablaient, les provinces mari<lb break="no"/>times, animées du même sentiment et dans <lb/>
+des intérêts analogues, avaient
+nommé une <lb/>
+conférence dans le but d'opérer une union <lb/>
+entre elles, sans savoir alors quelle attitude <lb/>
+allait prendre le gouvernement du Canada. <lb/>
+Sans cette heureuse coincidence, il nous <lb/>
+aurait peut-être lallu une longue série d'an<lb break="no"/>nées pour arriver à une
+conclusion pra<lb break="no"/>tique. Aujourd'hui, nous y sommes arrivés :
+<lb/>
+les députations des divers gouvernements
+<lb/>
+représentés dans la conférence se sont <lb/>
+engagés, en partant, à soumettre le projet à <lb/>
+leurs gouvernements respectifs, et à
+doman<lb break="no"/>der l'approbation de leurs législatures et de <lb/>
+leurs populations. J'espère que
+le projet <lb/>
+passera dans son ensemble. Je suis sûr que <lb/>
+la chambre ne cherchera pas à en
+modifier <lb/>
+les détails les plus importants, car, si tel <lb/>
+devait être le cas, il vaudrait autant n'y plus <lb/>
+songer. Ce projet peut être
+considéré comme <lb/>
+un traité passé entre les différentes provinces, <lb/>
+et si on veut y faire aucune
+modification sé<lb break="no"/>rieuse, chacune. des colonies se croira
+relevée <lb/>
+de l'obligation implicite de le considérer
+<lb/>
+comme un traité et pourra à son tour l'amen<lb break="no"/>der <hi rendition="simple:italic">ad libitum</hi> au point de vue de ses propres <lb/>
+intérêts ; tous nos travaux resteront sans <lb/>
+résultat, et nous aurons à recommencer et à <lb/>
+élaborer un nouveau traité; nous devrons <lb/>
+entrer de nouveau en négociations avec les <lb/>
+diverses provinces, et refaire
+tout le projet. <lb/>
+J'espère que la chambre s'opposera à toute <lb/>
+tentative qui arrêterait ou diffèrerait peut <lb/>
+être pour toujours toutes nos chances d'union. <lb/>
+Tous les hommes d'état des diverses colonies <lb/>
+qui ont parlé sur le sujet ont admis que <lb/>
+l`union était avantageuse et praticable. Main<lb break="no"/>tenant que cette union nous est proposée, si <lb/>
+nous laissons passer l'occasion elle ne se pré<lb break="no"/>sentera peut-être jamais. Du moment que le <lb/>
+projet sera rejeté, la proposition première, <lb/>but de l'assemblée de Charlottetown, et rela<lb break="no"/>tive à l'union des provinces maritimes sans <lb/>
+comprendre le Canada, sera de nouveau mise<lb/>
+de l'avant. Ces provinces ne resteront pas <lb/>
+séparées et impuissantee comme elles le sont <lb/>
+aujourd'hui, elles ne réuniront pour former <lb/>
+un peuple qui sans être aussi puissant que <lb/>
+s'il état uni au Canada. ne laissera pas <lb/>
+d'avoir une certaine importance. Si vous <lb/>
+croyez aux termes de la résolution,
+savoir: <lb/>
+que " l'union est proposée dans les plus chers
+<lb/>
+intérêts et la prospérité
+présente et future <lb/>
+de l'Amérique britannique du Nord",
+il est <lb/>
+temps d'agir, de ne plus fermer
+les yeux sur <lb/>
+notre position actuelle, et de voir enfin à
+<lb/>
+quels dangereux hazards nous exposent <lb/>
+     
+
+
+            <pb n="33" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0033.jpg"/>
+          <fw type="num">33</fw>
+
+ nos relations avec les Etats-Unis. Je <lb/>
+ne suis pas alarmiste, et ne crois pas
+au <lb/>
+danger immédiat d'une guerre avec les Etats- <lb break="yes"/>
+Unis ; je crois que le bon sens de
+l'un et de <lb/>
+l'autre peuple leur fera éviter la guerre. <lb/>
+Mais le chose ne sersit pas impossible, et <lb/>
+nous, comme ministres, nous
+manquerions à <lb/>
+notre devoir, et la législature y manquerait <lb/>
+également, si nous ne prenions
+toutes les <lb/>
+précautions possibles d'en
+éloigner l'évène<lb break="no"/>ment. Nous savons que les Etsts-Unis sont <lb/>
+engagés en ce moment dans une grande
+<lb/>
+guerre et que de nombreuses occasions se <lb/>
+sont présentées et peuvent se présenter <lb/>
+encore d`en venir aux hostilités avec la <lb/>
+Grande Bretagne. Il nous est
+impossible de <lb/>
+prévoir ce qui devra arriver, mais nous <lb/>
+n`ignorons pas que les deux
+nations à l'ex<lb break="no"/>emple des autres, peuvent être
+entreînées <lb/>
+dans une guerre entre elles.
+Est-ce qu'en ce <lb/>
+moment même et par suite de différends qui <lb/>
+ont éclaté entre les deux peuples,—différends <lb/>
+dont nous ne sommes aucunement
+la cause,— <lb/>
+il ne s`est pas déclaré de part
+et d'autre un <lb/>
+sentiment d'animosité ? est-ce
+que le traité de <lb/>
+réciprocité ne panaît pes devoir
+étre aboli ? <lb/>
+est-ce que notre commerce n'est pas <lb/>
+déjà géné par le système des
+passeports? <lb/>
+est-ce que nous ne pouvons pas être <lb/>
+mis dans l'impossibilité en
+aucun temps de <lb/>
+faire venir nos marchandises par les voies <lb/>
+ferrées américaines par l'abrogation du sys<lb break="no"/>tème de transit, et être dépouillés par consé<lb break="no"/>quent des priviléges accordés à notre com<lb break="no"/>merce pendant l'hiver par les Etats-Unis? <lb/>
+Ajoutez à tout cela la perspective
+pour <lb/>
+nos marchands d'étre obligés de
+retourner <lb/>
+à l'ancien usage de faire venir
+en été <lb/>
+leurs approvisionnements de toute l'année. <lb/>
+Déjà nous sommes menacés de voir
+nos rela<lb break="no"/>tions politiques et commerciales interrom<lb break="no"/>puce. Si nous n'en prenons pes avis pendant <lb/>
+qu'il en est encore temps et que nous
+pou<lb break="no"/>vons conjurer le danger en nous unis<lb break="no"/>sant aux provinces maritimes, qui désirent <lb/>
+tant former une plus étroite alliance <lb/>
+avec nous, nous soufrirons dans notre
+<lb/>
+commerce des dommages irréparables. <lb/>
+Ecoutez ! écoutez !) Le conférence,
+<lb/>
+trouvant impraticable l'union législative <lb/>
+pure et simple, en est venue à adopter une <lb/>
+forme de gouvernement fédéral, qui
+pourra <lb/>
+avoir toute le force d'une union législative <lb/>
+et administrative, pendent qu'en
+même temps,<lb/>
+nous conserverons la liberté d'action en <lb/>
+faveur des différentes sections. Je suis heu<lb break="no"/>reux de croire que nous avons trouvé un <lb/>
+plan de gouvernement qui posède le double<lb/>
+          
+
+            <cb/>  
+          
+ avantage de nous donner le puissance d'une <lb/>
+union législative et la liberté
+d'une union <lb/>
+fédérale, une protection enfin pour les in<lb break="no"/>téréts locaux. Nous avons eu, pour nous <lb/>
+guider, l'expérience des Etats-Unis. Je ne <lb/>
+suis pas un de ceux qui regardent le cons<lb break="no"/>titution des Etats-Unis comme un coup <lb/>
+manqué. (Ecoutez!) Je crois que c'est <lb/>
+une des plus grandes œuvres que le génie <lb/>
+humain sit jamsais créée. Mais dire qu'elle <lb/>
+est parfaite, serait se tromper. Cette consti<lb break="no"/>tution basée sur celle de le Grande-Bretagne <lb/>
+a été adaptée aux circonstances
+qui existaient <lb/>
+lors de sa formation, et en prenant avantage de <lb/>
+l'expérience des cinquante ou soixante et dix <lb/>
+dernières années de son
+existence, je suis <lb/>
+convaincu que dans le système
+que nous <lb/>
+soumettons à l'adoption du
+peuple, toutes <lb/>
+les défectuosités reconnues per
+l'expérience <lb/>
+ont, dans une grande mesure, été
+évitées. En <lb/>
+premier lieu, par une proposition qui ren<lb break="no"/>contre l'assentiment universel du peuple de <lb/>
+ce pays et des membres de cette chambre,
+<lb/>
+nous avons réglé que nous aurions
+pour chef<lb/>
+de l'exécutif, le souverain de la Grande- <lb break="yes"/>
+Bretagne. (Applaudissements.) Personne ne <lb/>
+peut prédire quelle sers un jour la destinée <lb/>de ce pays; dans le cours des
+siècles, les <lb/>
+peuples et les nations se transforment; mais <lb/>
+dans la mesure du pouvoir de notre législa<lb break="no"/>tion, nous avons décrété que le souverain de <lb/>
+le Grande-Bretagne serait indéfiniment celui <lb/>
+de l'Amérique Britennique du Nord. En <lb/>
+adhérent en principe monarchique, nous <lb/>
+évitons une feiblesse inhérente à
+le consti<lb break="no"/>tution des Etats-Unis. Le président étant élu <lb/>
+pour une courte periode, il ne peut jamais être
+<lb/>
+regardé comme le souverain de la nation; il <lb/>
+est seulement le chef heureux d'un parti <lb/>politique. Cette anomalie s'aggrave encore <lb/>
+davantage par le principe de la
+réélection; <lb/>
+pendant la durée de ses fonctions, il travaile <lb/>
+pour lui et son parti, à se
+maintenir au pou<lb break="no"/>voir pendant une autre période; mais en <lb/>
+adhérant au principe monarchique nous <lb/>
+obvions à tout cela. Je crois
+qu'il est <lb/>
+de le plus grands sagesse que ce
+prin<lb break="no"/>cipe soit reconnu, afin que nous ayons <lb/>
+un monarque vers qui pourront se tourner
+<lb/>
+tous les regards, un monarque
+qui n'appar<lb break="no"/>tendra ni n'adhérera à aucun
+parti, en un <lb/>
+mot, qui sera le chef et le protection com<lb break="no"/>mune de tous. (Ecoutez ! écoutez !) Nous <lb/>
+proposons aussi que le
+souverain, comme tel<lb/>
+est déjà le cas en ce pays depuis 1841 et 
+<lb/>
+dans la mère-patrie, soit avisépar les minis<lb break="no"/>tres responsables au peuple. C'est en cela
+<lb/>
+que notre constitution sera préservée d'une
+
+
+            <pb n="34" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0034.jpg"/>
+           <fw type="num">34</fw>
+
+ grande faiblesse qui existe dans la cons<lb break="no"/>titution des Etats-Unis. Le président
+est un <lb/>
+despote pendant quatre ans ; il y a un vaste <lb/>
+pouvoir, un patronage immense. Son cabinet <lb/>
+est composé de chefs de départements qu'il <lb/>
+peut consulter, ou ne pas consulter. Avec <lb/>
+nous, le souverain, ou en ce pays le repré<lb break="no"/>sentant du souverain, ne pourra agir que sur <lb/>
+l'avis de ses ministres, lesquels soront respon<lb break="no"/>sables au peuple Avant la
+formation de <lb/>
+l'union américaine, chacun le
+sait, les diffé<lb break="no"/>rents états qui en firent partie étaient des <lb/>
+provinces séparées. Il n'existait
+entre elles, <lb/>
+précisément comme cela se trouve pour nous, <lb/>
+d'autre lien que celui du souverain qui leur <lb/>
+était commun. Leur organisation et leurs lois <lb/>
+étaient différentes. Elles
+pouvaient, et cela <lb/>
+s'est vu, légiférer au détriment des unes et <lb/>
+des autres, et lorsqu'elles entrèrent en lutte <lb/>
+avec la métropole, elles agirent comme autant
+<lb/>
+de souverainetés distinctes en vertu d'une <lb/>
+espèce de traité d'alliance contre l'ennemi <lb/>
+commun. A dater de la formation de cette <lb/>
+union, la difficulté connue sous
+le nom de <lb/>
+droits d'état a toujours existé,
+et c'est cette <lb/>
+difliculté, ainsi que nous le savons, qui a été <lb/>
+pour beaucoup la cause de la guerre actuelle <lb/>
+des Etats-Unis. En fait, elles commencèrent <lb/>
+par où elles auraient dû finir. Par leur <lb/>
+constitution, elles déclarèrent que chaque <lb/>
+état était une souveraineté par lui-même, <lb/>
+excepté à l'égard des pouvoirs conférés au <lb/>
+congrès général. Ici nous avons
+adopté un <lb/>
+système différent; nous avons
+concentré <lb/>
+la force dans le gouvernement général. <lb/>
+Nous avons déféré a la
+législature générale <lb/>
+toutes les grandes questions de législa<lb break="no"/>tion. Nous lui 'avons conféré, non seulement <lb/>
+en les spécifiant et détaillant, tous les pou<lb break="no"/>voirs inhérents à. la souveraineté et a
+la <lb/>
+nationalité, mais nous avons expressément <lb/>
+déclaré que tous les sujets d'un
+intérêt <lb/>
+général, non déléguée aux législatures locales, <lb/>
+serment du ressort du gouvernement fédéré <lb/>
+et que les matières locales
+seraient du ressort <lb/>
+des gouvernements locaux. Par ce moyen, <lb/>
+nous avons donné de la force au gouver<lb break="no"/>nement et à la législature
+générale, et <lb/>
+nous avons évité cette grande
+source de <lb/>
+faiblesse qui a été la cause de la rupture <lb/>
+entre les Etats-Unis, c'est-à-dire,
+les conflits <lb/>
+de jurisdiction et d'autorité. En
+55 cette <lb/>
+constitution est mise à effet et
+sanctionnée <lb/>
+par un acte du parlement impérial, nous <lb/>
+aurons de fait tous les avantages d'une union <lb/>
+législative, et d'une seule administration <lb/>
+avec en même temps des garanties pour <lb/>
+nos institutions et nos lois locales. Bien
+<lb/>
+       
+            <cb/> 
+        
+
+que l'autre jour, pendant la discussion
+de <lb/>
+l'adresse en réponse au discours du trône, <lb/>
+cela ait fait rire mon honorable ami, le <lb/>
+député d'Hochelega (l'hon. M. Dorion),
+je <lb/>
+crois que nous avons bien fait, en rédigeant <lb/>
+notre constitution, de dédier notre première <lb/>
+résolution à la reconnaissance de la
+souve<lb break="no"/>raineté de Sa Majesté. (Ecoutez
+! écoutez!) <lb/>
+Je sais que l'Angleterre tient à ses colonies <lb/>
+et que son peuple serait très-chagrin de les <lb/>
+perdre; mais si, aprés mûre délibération, <lb/>la population de l'Amérique Britannique
+du <lb/>
+Nord déclarait qu'elle juge de son intérét <lb/>
+de se séparer de la métropole, telle est <lb/>
+grande la générosité du peuple anglais, qu'il <lb/>
+ne ferait rien, malgré son désir de conserver <lb/>
+ces colonies, pour nous contraindre à
+rester <lb/>
+sujets de la couronne britannique;
+et si, à <lb/>
+la conférence, nous en fussions
+venus à cette <lb/>
+conclusion, qu'il y allait de l'intérêt de ces <lb/>
+provinces qu une séparation eut lien, je suis <lb/>
+convaincu que Sa Majesté et le parlement <lb/>
+impérial eussent consenti à cette séparation. <lb/>
+Nous avons alors reconnu
+l'opportunité de <lb/>
+faire une déclaration distincte de notre opi<lb break="no"/>nion sur ce point, et d'énoncer dès le but <lb/>
+de nos négociations, que " le
+pouvoir ou <lb/>
+gouvernement exécutif résiderait dans le <lb/>
+souverain du royaume-uni de la Grande- <lb break="yes"/>
+Bretagne et d'Irlande, et serait administré <lb/>
+par le souverain ou le représentant du <lb/>
+souverain, suivant les principes de la <lb/>
+constitution britannique." Cette résolu<lb break="no"/>tion rencontra l'approbation unanime de <lb/>
+tous les membres de la conférence. Pas <lb/>
+un n'exprima le désir de rompre avec la <lb/>
+Grande-Bretagne et de ne pas continuer <lb/>
+notre allégeance à Sa Majesté ;
+personne ne <lb/>
+fit de proposition en faveur de l'une ou <lb/>
+l'autre des provinces qui pût, en aucune <lb/>
+manière, tendre à briser les liens qui nous <lb/>
+unissent à la métropole. Il nous
+était im<lb break="no"/>possible de ne pas savoir que le Canada <lb/>
+serait, par sa position, exposé a toutes les <lb/>
+horreurs d'une guerre qui se déclarerait <lb/>
+entre l'Angleterre et les Etats-Unis,—et
+<lb/>
+cela sans que nous pussions avoir aucun <lb/>
+contrôle que ce soit sur les causes qui <lb/>
+l'auraient fait éclater, et cependant tous <lb/>
+exprimèront hautement l'avis qu'il valait <lb/>
+mieux subir cette calamité que de se séparer <lb/>
+de la métropole. (Applaudissements) Une <lb/>
+autre résolution porte que "le pouvoir ou <lb/>
+gouvernement exécutif résidera
+dans le sou<lb break="no"/>verain du royaume-uni de la Grande-Breta<lb break="no"/>gne et d'Irlande, et sera administré par le <lb/>
+souverain ou le représentant du souverain." <lb/>
+C'eut été, sans doute, montrer
+trop d'exigence <lb/>
+            
+
+            <pb n="35" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0035.jpg"/>
+          <fw type="num">35</fw>
+
+que de vouloir que la reine nous
+gouvernât <lb/>
+elle-même ou qu'elle se transportât en per<lb break="no"/>sonne au milieu de nous,
+autrement que pour <lb/>
+nous renouveler
+la gracieuse visite que <lb/>
+l'héritier présomptif actuel nous
+a déjà faite : <lb/>
+c'est pourquoi nous avons statué
+que le <lb/>
+pouvoir exécutif serait administré par
+son <lb/>
+représentant. Nous n'apportons
+aucune res<lb break="no"/>triction au choix que Sa Majesté
+fera de son <lb/>
+représentant ; sa prérogative
+sera la même <lb/>
+qu'aujourd'hui, et elle sera parfaitement <lb/>
+libre. Nous ne savons si ce choix s'arrêtera
+<lb/>
+sur un membre de la famille
+royale, qui vien<lb break="no"/>drait régner ici en qualité de vice-roi, ou <lb/>
+bien sur l'un des grands hommes d'état
+que <lb/>
+l'Angleterre enverrait ici
+administrer les <lb/>
+affairres du Canada: nous laissons à Sa <lb/>
+Majesté d'en décider. Mais ce
+qu'il nous <lb/>
+est permis d'espérer c'est que,
+si l'union se <lb/>
+consomme, ce ne sera pas une des
+moins <lb/>
+belles ambitions des hommes
+d'état anglais, <lb/>
+que d'être
+envoyé ici pour présider à nos <lb/>
+destinées. Je prendrai maintenant
+la liberté <lb/>
+d'appeler l'attention de la
+Chambre sur <lb/>
+l'article de la constitution qui a trait au pou<lb break="no"/>voir législatif. Le sixième résolution est <lb/>
+conçue en ces termes : "Il y aura
+pour toutes <lb/>
+les provinces fédérées une législature on <lb/>
+parlement général, composé d'un
+conseil<lb/>
+léglslatif et d'une chambre des communes." <lb/>
+Un journal anglais a prétendu que cette réso<lb break="no"/>lution ne fait pas mention du souverain comme <lb/>
+formant partie de la législature: en effet, <lb/>
+cette remarque est juste dans un certain <lb/>
+sens, parce que suivant le
+langage strictement <lb/>
+parlementaire, la législature
+d'Angleterre <lb/>
+se compose du roi, des lords et des com<lb break="no"/>munes. Mais dans le langage
+habituel ou <lb/>
+parle du "roi et de son parlement,"—ou
+du <lb/>
+"roi convoquant son parlement," c'est-à-dire
+<lb/>
+des trois états, les lords
+spirituels, les lords <lb/>
+temporels et la chambre des communes. <lb/>
+Je puis faire remarquer ici qu'un écrivain, <lb/>
+tel que Hallam, se sert ordinairement de l'ex<lb break="no"/>pression "parlement" dans ce sens restreint <lb/>
+Cette critique n'est donc en définitive
+qu'une <lb/>
+pure affaire de mots. La
+législature de <lb/>
+l'Amérique Britannique du Nord
+sera com<lb break="no"/>posée du roi, des lords et des communes. <lb/>
+Le conseil législatif occupera vis-à-vie
+la <lb/>
+chambre basse la même position que la <lb/>
+chambre des lords occupe vis-à-vie
+des com<lb break="no"/>munes en Angleterre, et aura de même le <lb/>
+pouvoir de l'initiative de toute espèce de <lb/>
+
+législation,sauf
+celle des mesures de finances. <lb/>
+L'autre chambre pourra une
+s'appeler chambre <lb/>
+des communes ou d'assemblée, peu importe;<lb/>
+elle prendra le nom que le parlement
+anglais  <lb/>
+        
+
+            <cb/> 
+       
+ lui donnera ; cependant, celui de
+"chambre <lb/>
+des communes" nous paraîtrait préférable <lb/>
+attendu qu'il désigne les
+communes du <lb/>
+Canada de la même manière que la chambre <lb/>
+anglaise des communes signifie les
+communes <lb/>
+d'Angleterre, avec les mêmes privilèges,
+les <lb/>
+mêmes usages et pouvoirs
+parlementaires. <lb/>
+Nous sommes tombés d'accord qu'il fallait <lb/>
+dans la constitution de la chambre basse <lb/>
+lui donner pour base le principe de la <lb/>
+représentation d'après le chiffre de la <lb/>
+population ; l'application de ce principe se <lb/>
+trouve pleinement développée dans ces réso<lb break="no"/>lutions. Lorsque je dis représentation basée <lb/>
+sur le chiffre de la population,
+je prie la <lb/>
+chambre de ne pas croire que le suffrage <lb/>
+universel ait été en quoi que ce soit sanc<lb break="no"/>tionné par la conférence comme le principe <lb/>
+constitutif de cette branche populaire. Afin <lb/>
+de protéger les intérêts locaux de chaque
+<lb/>
+province, nous avons jugé
+nécessaire de <lb/>
+donner aux trois grandes divisions de l'Amé<lb break="no"/>rique Britannique du Nord une représen<lb break="no"/>tation égale dans la chambre
+haute, car <lb/>
+chacune de ces divisions aura des
+intérêts <lb/>
+différents. D'un côté, c'est le Haut-Canada, <lb/>
+pays agricole, éloigné de la mer
+et renfer<lb break="no"/>mant la population la plus considérable
+qui <lb/>
+aura des intérêts agricoles surtout à
+sauve- <lb break="yes"/>
+garder ; de l'autre. c'est le
+Bas-Canada, dont <lb/>
+les intérêts sont différents et
+qui veut surtout <lb/>
+conserver intactes ses institutions et ses lois <lb/>
+contre un pouvoir plus fort, plus considérable <lb/>
+ou plus nombreux; ce sont enfin les
+pro<lb break="no"/>vinces maritimes qui ont aussi des intérêts <lb/>
+propres qui nous sont
+complètement étrangers <lb/>
+dans le Haut-Canada. La constitution statue <lb/>
+que le conseil législatif,—dont la mission
+est <lb/>
+de modérer et de contrôler la
+législation, <lb/>
+mais non d'en prendre l'initiative, (car tout <lb/>
+le monde sait, qu'ici comme en Angleterre <lb/>
+les mesures publiques d'une haute portée
+<lb/>
+doivent venir de la chambre basse)—sera <lb/>
+composé d'un nombre égal de 24
+représen<lb break="no"/>tants pour chaque division, la seule excep<lb break="no"/>tion à cette règle a été faite
+en faveur de <lb/>
+Terreneuve, parceque cette dernière colonie <lb/>
+a un intérêt tout à fait à part
+et plus rap<lb break="no"/>proché de ceux du Canada que toute
+<lb/>
+autre par suite de sa position à
+l'embou<lb break="no"/>chure du fleuve St. Laurent De fait, et
+<lb/>à parler comparativement, elle n'a rien <lb/>
+de commun arec les autres
+provinces ma<lb break="no"/>ritimes; ses intérêts et ses
+droits à pro<lb break="no"/>téger sont particuliers; aussi, fûmes-nous
+<lb/>
+tous d'accord de traiter avec
+elle séparément <lb/>
+et de lui donner une représentation spéciale<lb/>
+dans la chambre haute, nous écourant ainsi<lb/>
+    
+
+            <pb n="36" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0036.jpg"/>
+            <fw type="num">36</fw>
+
+
+ du principe d'égalité appliqué aux autres
+<lb/>
+sections. Comme on peut le penser, il se
+<lb/>
+déclara d'abord une grande divergence d'o<lb break="no"/>pinions sur la constitution du
+conseil légis<lb break="no"/>latif ; de la part du Canada, on
+voulait le<lb/>
+principe électif. tandis que les provinces <lb/>
+d'en-bas, à l'exception de l'Ile du Prince- <lb break="yes"/>
+Edouard, demandaient le principe contraire, <lb/>
+c'est-à-dire la nomination par la
+couronne. <lb/>
+Les délégués du Nouveau-Brunswick, de la <lb/>
+Nouvelle-Ecosse et de Terreneuve se décla<lb break="no"/>rèrent tous sans exception en faveur du <lb/>
+principe de la nomination,
+lequel se rap<lb break="no"/>proche le plus, sans contredit, de la consti<lb break="no"/>tution anglaise. Nous décidâmes
+en consé<lb break="no"/>quence qu'il en serait ainsi autant que les <lb/>
+circonstances pourraient le permettre. Une <lb/>
+chambre haute héréditaire est une impossi<lb break="no"/>bilité en ce jeune pays, car nous n'avons aucun <lb/>
+des éléments propres à former une aristo<lb break="no"/>cratie foncière ; nous sommes sans fortunes <lb/>
+territoriales ; nous n'avons
+aucune classe <lb/>
+séparée et distincte du peuple et un corps <lb/>
+politique bériditaire ne
+conviendrait par <lb/>
+conséquent en aucune manière à
+notre état <lb/>
+de société. Il se réduirait bientôt à
+rien. <lb/>
+C'est pourquoi la seule manière d'appliquer <lb/>
+le système anglais, à la chambre
+haute, con<lb break="no"/>siste à conférer à la couronne
+le pouvoir <lb/>
+d'en nommer les membres de la même ma<lb break="no"/>nière que les pairs anglais,
+avec cette diffé<lb break="no"/>rence que les nominations seront à
+vie. Je <lb/>
+ne me cache pas que les raisons
+que l'on <lb/>
+donne à l'appui du principe opposé sont <lb/>
+fortes et nombreuses; je les apprécie d'au<lb break="no"/>tant mieux ne j'ai fait partie du ministère <lb/>
+qui a in uit le principe électif en Ca<lb break="no"/>nada. (Ecoutes! écoutes !) Cependant, sans <lb/>
+prétendre que notre tentative n'ait pas été <lb/>
+couronnée de succès, je dois dire que plu<lb break="no"/>sieurs raisons l'ont empéché de réussir au<lb break="no"/>tant que nous nous y attendions. L'une <lb/>
+de ces raisons est la grandeur des colléges <lb/>
+électoraux, le travail
+considérable que <lb/>
+doit entreprendre un candidat et les <lb/>
+dépenses (rires), les dépenses légitimes <lb/>
+qu'il lui faut encourir, toutes choses <lb/>
+trés-propres, on en conviendra, à
+éloigner <lb/>
+des rangs beaucoup d'hommes que l'émi<lb break="no"/>nence de leur position appelait naturelle<lb break="no"/>ment à ce poste. On a compté, je
+l'avoue, <lb/>
+dans les premiers temps, des hommes de ce <lb/>
+calibre parmi les candidats, mais le chiffre <lb/>
+en a diminué d'élection en élection, tandis-<lb break="yes"/>
+que d'un autre côté on voyait tous les <lb/>
+hommes encore jeunes, adonnés à
+la poli<lb break="no"/>tique active et déterminés à s'y
+créer un <lb/>
+avenir, chercher à entrer dans
+la chambre<lb/>
+           
+
+            <cb/> 
+        
+d'assemblée. L'époque où le système de <lb/>
+nomination a fonctionné avec quelque succès <lb/>
+parmi nous remonte au temps de l'avène<lb break="no"/>ment du gouvernement responsable, et alors <lb/>
+que le Canada formait plutôt une colonie <lb/>
+royale et que l'on composait le conseil légis<lb break="no"/>latif des premiers fonctionnaires judiciaires, <lb/>
+des chefs de département et des hommes les <lb/>
+plus distingués du pays. On conçoit que <lb/>
+ces corps devaient inspirer le respect, d'a<lb break="no"/>prés le caractère même de leurs membres <lb/>
+qui, de leur côté, n'avaient que peu de <lb/>
+sympathie avec les députés du peuple : aussi, <lb/>
+les querelles entre ces deux branches de <lb/>
+la législature étaient-elles fréquentes surtout <lb/>
+en Bas-Canada. Une fois l'établissement <lb/>
+du gouvernement responsable inauguré.
+il <lb/>
+devenait nécesaire pour le gouverneur de <lb/>
+s'entourer d'un corps de conseillers possé<lb break="no"/>dant la confiance de la chambre d'assemblée, <lb/>
+de la chambre à qui il appartient de faire et <lb/>
+défaire les ministres suivant son caprice, de <lb/>
+sorte que ce fut elle aussi qui se trouva à <lb/>
+indiquer les nominations à faire
+dans le <lb/>
+conseil législatif. En effet, le
+ministère, <lb/>
+obligé de s'assurer l'appui de la chambre <lb/>
+basse, dût choisir les membres de la chambre <lb/>
+haute parmi ses amis politiques et sous la <lb/>
+dictée de la première, et le conseil se mit <lb/>à perdre de plus en plus son caractère <lb/>
+de contrôle sur la législation
+de l'assemblée. <lb/>
+Il n'en sera pas ainsi avec le système
+pro<lb break="no"/>posé. Nul ministère ne peut se flatter de faire <lb/>
+dans l'avenir ce que ses prédécesseurs ont <lb/>
+fait ci-devant en Canada,—car il lui sera <lb/>
+impossible de remplir la chambre haute de <lb/>
+ses partisans et amis politiques dans l'inten<lb break="no"/>tion de la dominer, d'après la constitution <lb/>
+même qui limite à un certain chiffre
+la com<lb break="no"/>position du conseil législatif. Chacune des <lb/>
+trois grandes divisions de la confédération <lb/>
+ne pouvant nommer que 24 membres chaque, <lb/>
+la chambre haute ne pourra jamais tomber <lb/>
+sous l'influence du ministère du jour soit <lb/>
+pour l'exécution de ses projets, soit pour <lb/>
+plaire à ses partisans. Le fait même que le <lb/>
+gouvernement ne pourra excéder ce chiffre<lb/>
+sauvegardera l'indépendance de la chambre <lb/>
+haute, lui donnera un caractère spécial et
+<lb/>
+lui permettra d'exercer une influence légi<lb break="no"/>time et un contrôle salutaire sur la législa<lb break="no"/>tion du pays. On a prétendu que cette <lb/>
+limitation du droit de la couronne pourrait <lb/>
+donner naissance à des conflits entre les <lb/>
+deux branches de la législature,
+et pousser <lb/>
+la chambre haute, ainsi placée
+hors de l'ac<lb break="no"/>tion du souverain, de l'assemblée et des <lb/>
+conseillers de la couronne, à agir à son <lb/>
+           
+
+            <pb n="37" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0037.jpg"/>
+          <fw type="num">37</fw>
+
+gré et ce au point d'arrêter toute
+légis<lb break="no"/>lation. Je ne crois pas qu'une telle chose <lb/>
+se présente jamais, et chacun
+sait que ce <lb/>
+cas n'est pas encore arrivé en Angleterre. <lb/>
+Où serait l'utilité de la chambre haute, si <lb/>
+elle ne devait pas exercer, en temps
+oppor<lb break="no"/>tun, son droit
+d'amender ou modifier la légis<lb break="no"/>lation de la chambre d'assemblée? Il ne <lb/>
+faut pas que ce soit un simple bureau
+d'enre<lb break="no"/>gistrement des décrets de la
+chambre basse, <lb/>
+mais au contraire une chambre indépendante, <lb/>
+douée d'une action propre, et ce
+n'est qu'à <lb/>
+ce titre qu'elle pourra modérer et considérer
+<lb/>
+avec calme la législation de l'assemblée <lb/>
+et empêcher
+la maturité de toute loi intem<lb break="no"/>pestive ou pernicieuse passée par
+cette der<lb break="no"/>nière, sans jamais oser s'opposer aux vœux <lb/>
+réfléchis et définis des populations. La <lb/>
+chambre des lords, quoique plus indépen<lb break="no"/>dante à cause de son caractère
+d'hérédité <lb/>
+q'une chambre composée de membres nom<lb break="no"/>més à vie,
+cède toujours à la volonté calme <lb/>
+et sage
+du peuple anglais, et il faut
+remonter <lb/>
+au règne de la reine ANNE, pour
+trouver un <lb/>
+seul fait qui prouve quelle ait tenté de renver<lb break="no"/>ser les décisions des communes par la nomi<lb break="no"/>nation de nouveaux pairs. Il est vrai qu'en <lb/>
+1832 la chambre des lords fut menacée d'une <lb/>
+pareille mesure par suite de son refus
+obsti<lb break="no"/>né de voter le bill de réforme, et qu'on y <lb/>
+aurait eu recours s'il eut été nécessaire: <lb/>
+mais tous les ministres du temps et ceux <lb/>
+mêmes qui conseillaient ce moyen convinrent <lb/>
+que c'était un acte révolutionnaire, une in<lb break="no"/>fraction à la constitution, et qu'il n'y avait <lb/>
+que la nécessité de conjurer la révolution <lb/>
+qui menaçait d'ensanglanter l'Angleterre, <lb/>
+pour justifier cette tentative de forcer l'opi<lb break="no"/>nion indépendante de la chambre des lords <lb/>
+sur cette question. (Ecoutez ! écoutez !) Cette <lb/>
+tentative n'a pas été renouvelée
+depuis, et <lb/>
+je suis sûr qu'elle ne le sera
+plus jamais. <lb/>
+Il y a environ un an ou deux, la chambre <lb/>
+des lords refusa de passer le
+bill des droits <lb/>
+sur le papier; en le faisant, elle
+agissait <lb/>
+constitutionnellemeat et, suivant plusieurs, <lb/>
+dans l'esprit et la lettre de la
+constitution. <lb/>
+Cependant, lorsqu'elle vitqu'elles'interposait <lb/>
+dans l'exercice d'un droit ne les communes <lb/>
+regardaient comme exclusif, elle
+se désista <lb/>
+de son opposition à la session
+suivante, non <lb/>
+parce qu'elle s'était trompée,
+mais bien parce <lb/>
+qu'elle s'était convaincue de l'opinion réelle et <lb/>
+et calme des députés du peuple
+sur la question. <lb/>
+Nous devrons nous rappeler en
+outre que <lb/>
+les personnes nommées au conseil
+législatif <lb/>
+occuperont une position toute
+différente de <lb/>
+celle des pairs d'Angleterre. Ils n'auront <lb/>
+      
+
+            <cb/> 
+     
+pas, par exemple, de liens de famille on
+de <lb/>
+position imposés par l'histoire,
+non plus que <lb/>
+cette influence directe sur le peuple ou sur <lb/>
+les communes que donnent à ces derniers <lb/>
+la richesse, les domaines territoriaux, le <lb/>
+nombre de fermiers et le prestige que les <lb/>
+siècles ont attaché à leur nom. (Ecoutez
+! <lb/>
+écoutez!) Ils seront, comme ceux de la <lb/>
+chambre basse, hommes du peuple et tirés <lb/>
+du peuple, et lui appartiendront autant le <lb/>
+lendemain de leur élévation que la veille. <lb/>
+Sympathisant donc nécessairement avec le <lb/>
+peuple, le conseiller législatif, à son retour <lb/>des sessions du parlement, se confondra de <lb/>
+nouveau avec lui et subira les mêmes senti<lb break="no"/>ments, les mêmes idées et les
+mêmes besoins <lb/>
+que son entourage. S'il en est ainsi, comment <lb/>
+supposer que les membres de la chambre <lb/>
+haute veuillent se mettre à l'œuvre et de <lb/>
+propos délibéré s'opposer à ce
+qu'ils savent <lb/>
+être les vœux et l'opinion du peuple? <lb/>
+Cela est impossible, c'est
+pourquoi je n'ai <lb/>
+pas la moindre crainte d'un conflit réel entre <lb/>
+les deux chambres. Ce conflit serait bien
+<lb/>
+plus probable si le conseil législatif était
+<lb/>
+constitué sur le principe électif et voici <lb/>pourquoi. D'abord, les
+conseillers sortiraient <lb/>
+du peuple comme ceux de
+l'assemblée légis<lb break="no"/>lative, puis s'il s'élevait entr'eux une diffé<lb break="no"/>rence d'opinion, les premiers n'auraient-ils <lb/>
+pas le droit de dire aux seconds - nous <lb/>
+représentons le peuple tout autant et même <lb/>
+plus que vous, car nous, nous ne sommes pas <lb/>
+élus comme vous par une petite localité ni <lb/>
+pour une période de peu de durée, et notre <lb/>
+entrée en parlement n'est pas due comme la <lb/>
+vôtre à des circonstances
+particulières d'opi<lb break="no"/>nion et de temps, qui font que loin de <lb/>
+réfléter les vues de tout le pays vous ne <lb/>
+représentez que celles des électeurs qui
+<lb/>
+sont venus voter pour vous aux polls. <lb/>
+Nous avons donc autant et plus de droit que <lb/>
+vous de nous regarder comme l'expression de <lb/>
+l'opinion du pays sur les questions générales
+<lb/>
+et nous ne cèderons pas." (Ecoutez ! écoutez !)
+<lb/>
+Il y aurait, je le répète, de grands dangers <lb/>
+de conflits entre les deux chambres si la <lb/>
+constitution du conseil législatif au lieu <lb/>
+d'être laissée entre les mains de la couronne <lb/>
+devait être remise entre celles du peuple. <lb/>
+On devra se rappeler encore que les conseil<lb break="no"/>lers nommés à vie n'ont pas le même privi<lb break="no"/>lège que les lords, car en cas de décès ce <lb/>
+sont des étrangers qui leur succèdent tandis <lb/>
+qu'en Angleterre ce sont les fils qui rem<lb break="no"/>placent les pères, ce qui fait que les chan<lb break="no"/>gements dans la composition et
+l'état de <lb/>
+l'opinion de notre chambre haute seraient
+<lb/>
+      
+
+            <pb n="38" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0038.jpg"/>
+<fw type="num">38</fw>
+
+
+          toujours beaucoup plus rapides que dans <lb/>
+celle des lords. Quelques faits démontre<lb break="no"/>ront combien ces chan amants se font vite:-
+<lb/>
+lors de l'appel nomiu du conseil législatif, <lb/>
+en 1866, on enregistre la présence de 42 <lb/>
+membres a vie; deux ans après, en 1858, <lb/>
+ce cbifi'm n'était que de 35; en 1862, de <lb/>
+26 ; et en 1864, de 21. (Ecoutez! écoutes!) <lb/>
+Ce. fait! démontrent combien les change<lb break="no"/>ments sont rapides dans la représentation <lb/>
+des membres a vie. Mais tout remarquable <lb/>
+que soit ce changement, il est encore plus <lb/>
+sensible parmi les membres électifs. Le <lb/>
+principe électif n'a été mis en vigueur qu'en <lb/>
+1866; dense membres seulement furent élus <lb/>
+cette année-là et, depuis, donne
+tous les deux <lb/>
+ans; malgré cela, il y a eu vingt-quatre chan<lb break="no"/>gements pour cause de décès, d'acceptation <lb/>
+de charges publiques ou de résiunation;
+il est <lb/>
+donc évident que si un conflit venait a <lb/>
+s'élever entre la chambre haute et la cham<lb break="no"/>bre basse, a mesure que des siégea devien<lb break="no"/>draient Vacants dans la chambre haute, le <lb/>
+gouvernement du jour—possédant, par obli<lb break="no"/>gation la confiance de la chambre basse- <lb break="yes"/>
+pourrait, afin de rétablir l'harmonie entre <lb/>
+as deux branches de la lé islature, donner <lb/>
+les siégea en question à. sa hommes dont <lb/>
+les sympathies et les idées seraient d'accord <lb/>
+avec le gouvernement et, par conséquent, <lb/>
+avec la majorité de la chambre basse; et <lb/>
+tous les actes de l'administration dans ce <lb/>
+sens auraient pour but d'établir las mpathh
+<lb/>
+et l'harmonie entre les deux Chambres
+dans <lb/>
+leurs travaux législatifs.
+(Ecoutez! écoutez !) <lb/>
+Il a encore un autre avantage résultant de <lb/>
+la limitation du nombre des
+représentante. <lb/>
+A la chambre haute sera confié le soin <lb/>
+de protéger les intéréts de section; il <lb/>
+en résulte que les trois grandes divisions <lb/>
+seront également représentées pour défen<lb break="no"/>dre leurs propres intérêts contre toutes <lb/>
+combinaisons de majorités dans l'Assemblée. <lb/>
+Chaque section aura donc intérêt
+! se faire <lb/>
+représenter par ses hommes les plus habiles, <lb/>
+et les membres du gouvernement, apparte<lb break="no"/>nant a chaque section, devront
+veiller à. ce <lb/>
+que les chou soient faits dans leur section <lb/>
+en vue de ess intérêts, à.
+mesure qu'il se <lb/>
+présentera des vacances. C'est pour cette
+<lb/>
+raison que chaque état de l'union américaine <lb/>
+envoie au sénat ses hommes les plus émi<lb break="no"/>nents. [Eccutesl] La constitution pourvoit <lb/>
+à. ce que, dans les premiers choix qui seront <lb/>
+faits pour le Conseil, on ait égard aux mem— <lb/>
+bres qui occupent des positions
+analogues <lb/>
+dans les différentes colonies. Selon moi, c'est <lb/>
+une disposition sage. Dans les conseils légis<lb break="no"/>
+          
+
+            <cb/>
+         
+ latifs de toutes les provinces, &amp; l'exception <lb/>
+de l'Ile du Prince—Edouard, il y a des <lb/>
+membres à. vie. En Canada, il y en a un <lb/>
+certain nombre, mais la majorité, bien que <lb/>
+n'étant pas nommés par la reine qui confère <lb/>
+tous les honneurs, tient son mandat du <lb/>
+peuple et a droit de marcher de pair avec <lb/>
+ceux qui ont une commission royale. On <lb/>
+ne saurait donner une bonne raison en vertu <lb/>
+de laquelle ceux qui ont l'expérience de la <lb/>
+législation, soit qu'ils tiennent leur mandat <lb/>
+de la couronne ou du peuple, devraient être <lb/>
+laissée de côté pour être remplacés par des <lb/>
+hommes nouveaux dans le conseil législatif <lb/>
+de la confédération. La constitution pour<lb break="no"/>voit donc à. ce que le choix des conseillers <lb/>
+législatifs soit fait parmi les houe. messieurs <lb/>
+qui sont actuellement membres de la cham<lb break="no"/>bre haute dans les différentes colonies - c'est <lb/>
+en vertu de dispositions analogues, que pour <lb/>
+représenter l'Ecosse et l'lrlnnde dans la <lb/>
+chambre des pairsdu royaume-uni les choix <lb/>
+saut faits parmi les pairs d'Ecosse et d' Irlan<lb break="no"/>de. De méme, les membres du conseil législatif <lb/>
+de la confédération projetée seront chosia
+<lb/>
+d'abord dans les conseils législatifs actuels <lb/>
+des différentes provinces. Dans la composition <lb/>
+de la chambre des communes ou a appliqué. <lb/>
+d'une façon aussi simple qu'ingénieuse, le <lb/>
+principe de la représentation d'après la <lb/>
+population. L'admission de ce principe pré<lb break="no"/>sentait dès l'abord une difliculté apparente, <lb/>
+celle de Pau.; mentation
+incessante du nombre <lb/>
+des représentants dans la chambre basse, <lb/>
+avec l'accroissement de la population, cette <lb/>
+augmentation pouvant devenir gênants
+et <lb/>
+trop coûteuse. Mais en adoptant pour terme <lb/>
+de comparaison la représentation du Bas- <lb break="yes"/>
+Canada—qui sera le pivot de notre système <lb/>
+représentatif,— cette province étant la mieux <lb/>
+choisie à cause des variations
+p-u sensibles <lb/>
+de sa opulation, et parceque le nombre de <lb/>
+ses habitants tient la moyenne
+entre les popu<lb break="no"/>lations des autres provinces, nous avons pu <lb/>
+surmonter la diüculté que je
+viens de men<lb break="no"/>tionner. Nous avons donc introduit le s tème <lb/>
+de représentation d'après la population, en <lb/>
+évitant le dan geret
+l'inconvénient de voir une <lb/>
+augmentation dans le nombre des membres <lb/>
+de la chambre basse se renouveler périodi<lb break="no"/>quement tous les dix ans: c'était
+une simple <lb/>
+règle de trois. Je ci a des chifl'res : !.
+<lb/>
+po ulation du Haut-Canada est de 1,400,000,
+<lb/>
+cel e du Bas-Canada de 1,100,000, la prop»
+<lb/>
+tien a établir est celle-ci : avec sa population <lb/>
+de 1,100,000 le Bas—Canada a
+droit à, 65 <lb/>
+membres, combien devræt—on
+accorder de <lb/>
+membres au Haut—Canada avec sa population
+<lb/>
+           
+
+            <pb n="39" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0039.jpg"/>
+<fw type="num">39</fw>
+
+plus
+consiidérablc de 1,400,000? La même <lb/>
+règle s'applique
+aux autres provinces. Le <lb/>
+principe de la représentation d'après la <lb/>
+population est strictement mis en pratique <lb/>
+sans avoir à craindre tous les dix ans une <lb/>
+augmentation gênante du nombre des mem<lb break="no"/>bres dans la chambre basse. De
+plus une <lb/>
+clause de la constitution pourvoit à ce que, <lb/>
+lorsqu'il sera jugé convenable,
+le nombre des <lb/>
+représentants puisse être porté
+au-delà de<lb/>
+194, chiffre fixé en premier
+lieu. Dans ce <lb/>
+cas si la représentation
+augmente, le Bas- <lb break="yes"/>
+Canada fournira encore la base du
+nouvenu <lb/>
+calcul. Si, par exemple, au lieu
+de soixante- <lb break="yes"/>
+cinq membres le Bas-Canada vient
+à en avoir <lb/>
+soixante-dix, la question sera
+celle-ci : avec <lb/>
+telle population le Bas-Canada a soixante-dix <lb/>
+membres combien doit en avoir le Haut-<lb break="yes"/>
+Canada avec une population plus considéra<lb break="no"/>ble ? A mon point de vue personnel, j'aurais <lb/>
+voulu dans la chambre plus de cent quatre- <lb break="yes"/>
+vingte-quatorze membres, mais il
+m'a été <lb/>
+impossible de faire prévaloir mon opinion <lb/>
+qu il serait bien de commencer avec un plus <lb/>
+grand nombre de représentants dans la <lb/>
+chambre basse. On me fit deux objections ; <lb/>
+la première, que le système
+augmenterait trop <lb/>
+nos dépenses ; la seconde que,
+dans un pays <lb/>
+nouveau comme le nôtre, nous ne pourrions <lb/>
+pas trouver un nombre suffisant d'hommes <lb/>
+vraiment apres à remplir le rôle
+de représen<lb break="no"/>tants. Je répondis que le nombre des hom<lb break="no"/>mes capables augmenterait rapidement d'an<lb break="no"/>née en année à mesure que notre système <lb/>
+d'éducation se perfectionnerait
+et que nos <lb/>
+richesses se développeraient, qu'en établissant
+<lb/>
+des colléges électoraux plus petits, un plus <lb/>
+grand nombre d'individus seraient inté<lb break="no"/>ressés au fonctionnement de l'union ; qu'un <lb/>
+champ plus large serait ouvert à  l'ambi<lb break="no"/>tion politique par le fait que
+nous aurions <lb/>
+un corps plus nombreux de représentants, <lb/>
+et que nous aurions un plus grand
+choix <lb/>
+pour les chefs de notre gouvernement et <lb/>
+pour les chefs de partis. Tels étaient mes <lb/>
+sentiments personnels, que je n'aurais peut- <lb break="yes"/>
+être pas dû exprimer ici, mais, comme je l'ai <lb/>
+dit, je perdis complétement ma
+cause et le <lb/>
+nombre des représentants fut fixé cent-
+<lb break="yes"/>
+quatre-vingt-quatorze: ce n'est pas trop si <lb/>
+on considère qu'il y en a
+aujourd'hui cent- <lb break="yes"/>
+trente dans la seule législature du Canada. <lb/>
+La différence
+entre cent-trente et cent-quatre- <lb break="yes"/>
+vingt-quatorze n'est pas
+considérable si on <lb/>
+songe à l'accroisement de notre
+population <lb/>
+lorsque la confédération sera une fois opé<lb break="no"/>rée. Quand le principe de la représen<lb break="no"/>tation d'aprés la population fut
+adopté <lb/>
+         
+
+            <cb/>
+    
+par la chambre basse pas un seul mem<lb break="no"/>bre de la conférence. comme je l'ai déjà
+<lb/>
+dit, pas un seul des délégués du gouvern<lb break="no"/>nement ou de l'opposition d'aucune des pro<lb break="no"/>vinces maritimes ne se prononça en faveur <lb/>
+du suffrage universel. Sous ce
+rapport tout <lb/>
+le monde était pénétré qu'on devait appli<lb break="no"/>quer le principe de la constitution anglaise, <lb/>
+et que les différentés classes d'électeurs ainsi <lb/>
+que la propriété devaient être représentées tout <lb/>
+comme l'élément numérique. Si nous avions <lb/>
+entrepris de régler immédiatement la ques<lb break="no"/>tion du cens d'éligibilité nous
+aurions rencon<lb break="no"/>tré des difficultés insurmontables. Les colonies <lb/>
+ont chacune des lois différentes à
+cet égard. <lb/>
+Nous avons adopté une clause analogue à
+<lb/>
+celle qui est contenue dans l'acte d'union <lb/>
+des Canadas, passé en 1841, savoir : que <lb/>
+les lois relatives au cens électoral et au cens <lb/>
+d'éligibilité, à la nomination
+et aux devoirs <lb/>
+des officiers-rapporteurs, à la
+conduite des <lb/>
+élections contestées dans les diverses pro<lb break="no"/>vinces, seraient appliquées dans la première
+<lb/>
+élection au parlement confédéré, de sorte<lb/>
+que tout électeur aujourd'hui inscrit
+légale<lb break="no"/>ment sur les listes auront droit de voter<lb/>
+pour le choix d'un représentant dans <lb/>le premier parlement fédéral. Un des <lb/>
+premiers actes du parlement de la
+confédé<lb break="no"/>ration devra être de régler la
+question du <lb/>
+cens d'éligibilité de manière à l'appliquer à <lb/>
+toute la confédération. (Ecoutez !) La durée <lb/>
+du parlement a été fixée à cinq ans. Per<lb break="no"/>sonnellement, je demandais une plus longue <lb/>période. Je pensais que la durée des légis<lb break="no"/>latures locales ne devait pas être moindre <lb/>
+que quatre ans et que le parlement général, <lb/>
+comme dans le royaume-uni, devait avoir <lb/>
+une plus longue durée. La période de cinq <lb/>
+ans a été préférée. Une constitution soi<lb break="no"/>gneusement élaborée nonseulement par le <lb/>
+gouvernement local, mais par les autorités <lb/>
+impériales, celle de la Nouvelle-Zélande,
+<lb/>
+admet cette limite de cinq années. Au fait <lb/>
+il importait peu que ce fût cinq
+ou sept ans <lb/>
+dès lors qu'on réservait à  la
+couronne le <lb/>
+droit de dissoudre les chambres. Depuis <lb/>
+l'avènement de GEORGE III, sans compter <lb/>
+le parlement actuel, il y a eu en Angleterre<lb/>
+dix-sept parlements, dont la durée moyenne <lb/>a été de trois ans et demi. Cette moyenne <lb/>
+est plus faible que celle de la durée des par<lb break="no"/>lements canadiens depuis l'union, de sorte <lb/>qu'il était de peu d'importance que la durée <lb/>
+du parlement général fût fixée à
+cinq ou sept <lb/>
+ans. L'omission de quelques mots dans la
+<lb/>
+24éme résolution a donné lieu à de nom <lb/>
+breuses appréhensions. On a cru que les
+<lb/>
+         
+
+
+
+
+            <pb n="40" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0040.jpg"/>
+<fw type="num">40</fw>
+
+
+       
+législatures locales auraient le pouvoir
+de <lb/>
+changer ultérieurement l'étendue et les <lb/>
+limites des différents colleges électoraux. <lb/>
+Cette résolution doit être interprétée comme <lb/>
+suit : pour le premier parlement général <lb/>
+l'arrangement des colléges électoraux sera <lb/>
+règlé par les législatures locales telles <lb/>
+qu'aujourd'hui constituées. Par exemple, le <lb/>
+parlement canadien actuel devra décider <lb/>
+quels seront les colléges électoraux du Haut-<lb break="yes"/>
+Canada et faire les changements nécessaires <lb/>
+pour donner à cette partie de la
+province le <lb/>
+nombre additionnel de membres que lui <lb/>
+accorde la nouvelle constitution; il devra <lb/>
+aussi régler les changements à faire dans les <lb/>
+colléges électoraux actuels du Bas-Canada. <lb/>
+En un mot, le parlement devra désigner en <lb/>
+quelque sorte, les colléges électoraux qui <lb/>
+pourront envoyer des membres au premier <lb/>
+parlement fédéral. De même, les autres <lb/>
+provinces fixeront les limites de leurs diffé<lb break="no"/>rents colléges électoraux dans la session <lb/>
+pendant laquelle ils adopteront la nouvelle <lb/>
+constitution. Plus tard, les législatures lo<lb break="no"/>cales pourront, à leur gré, changer leurs <lb/>
+limites électorales en vue de leurs élections <lb/>
+locales. Mais on ne pouvait évidemment <lb/>
+accorder aux législatures locales la faculté <lb/>
+de changer les colléges électoraux envoyant <lb/>
+des représentants à la législature générale <lb/>
+après que cette législature aura été une fois <lb/>
+constituée. Si tel était le cas, un membre <lb/>
+de la législature générale pourrait, d'un <lb/>
+moment à l'autre, perdre son siége à
+la suite <lb/>
+d'un changement apporté dans son collége <lb/>
+par la législature de sa sect on. Non, du <lb/>
+moment que le parlement général sera réuni, <lb/>
+il faut qu'il ait plein contrôle sur sa propre <lb/>
+législation, et pour cela il doit rester maitre <lb/>
+absolu de sa position avec la faculté de <lb/>
+remanier comme il lui plaira les limites <lb/>
+électorales, ce pouvoir étant éminemment <lb/>
+essentiel à une législature de
+ce genre. <lb/>
+(Ecoutez !) Je n'abuscrai pas de
+la pa<lb break="no"/>tience de la chambre, en examinant, dans <lb/>
+tous leurs détails, les pouvoirs divers <lb/>
+conférés au parlement général en les <lb/>
+distinguant de ceux qui demeurent acquis <lb/>
+aux législatures locales. Mais tout hono<lb break="no"/>rable membre qui voudra bien examiner <lb/>
+la liste des différents sujets
+assignés aux <lb/>
+législatures générales et locales respecti<lb break="no"/>vement, se convaincra que toutes les grandes <lb/>
+questions affectant les intérêts de la confé<lb break="no"/>dération dans son ensemble, sont
+laissées au <lb/>
+parlement fédéral tandis que les questions <lb/>
+et les lois d'intérêt local sont laissées à la <lb/>
+juridiction des parlements locaux. Natu<lb break="no"/>
+           
+
+            <cb/>
+           
+rellement, la législature générale aura
+le <lb/>
+pouvoir de régler la dette publique et le <lb/>
+revenu de la confédération ; il réglera aussi <lb/>
+les questions de trafic, de commerce, de <lb/>
+donanes et d'accise; il devra enfin posséder <lb/>
+plein pouvoir de prélever des
+fonds par tous <lb/>les moyens et de toutes sources, conformé<lb break="no"/>ment à la décision des représentants du <lb/>
+peuple. Les législatures locales auront le <lb/>
+contrôle de tous les travaux locaux; c'est un <lb/>
+point important et un des principaux avan<lb break="no"/>tages de l'union fédérale et des par<lb break="no"/>lements locaux, car ainsi chaque province <lb/>
+aura le pouvoir et les moyens de développer <lb/>
+ses ressources particulières et de travailler à  <lb/>
+son progrès individuel sans entraves et <lb/>
+comme il lui plaira. Ainsi toutes les amé<lb break="no"/>liorations locales, de même que les entre<lb break="no"/>prises de toute espèce, sont laissées aux soins <lb/>
+et à l'administration des
+législatures locales <lb/>
+de chaque province. Une des résolutions <lb/>
+pourvoit à ce que " les lignes de bateaux-à-
+<lb break="yes"/>
+vapeur ou d'autres bâtiments,
+les chemins <lb/>
+de fer, les canaux et autres travaux qui <lb/>
+relieront deux ou plusieurs provinces ou se <lb/>
+prolongeront au-delà des limites
+de l'une <lb/>
+d'elles," appartiendront au gouvernement <lb/>
+général et seront sous le contrôle de la <lb/>
+législature générale. Il est dit aussi dans <lb/>
+une autre que " les lignes de bateaux-à-
+<lb break="yes"/>
+vapeur entre les provinces fédérées et <lb/>
+d'autres pays, les communications télégra<lb break="no"/>phiques et l'incorporation des compagnies <lb/>
+télégraphiques, et tous autres travaux qui, <lb/>
+bien que situés dans une seule province, <lb/>
+seront spécialement déclarés dans les actes <lb/>
+qui les autoriseront être d'un avantage <lb/>
+général," appartiendront au gouvernement <lb/>
+général. Ainsi le canal Welland, bien que <lb/>
+situé en entier dans une des sections de la <lb/>
+confédération et les canaux du St. Laurent <lb/>
+ne traversant que deux de ces sections, <lb/>
+peuvent étre considérés comme des ouvrages<lb/>
+nationaux et avantageux à toute la confédé<lb break="no"/>ration. Le recensement par lequel sont <lb/>
+constatés le chiffre de notre population et <lb/>
+l'étendue de nos ressources, est aussi un <lb/>
+travail d'utilité publique, et partant, doit <lb/>
+être laissé au gouvernement général. Il en <lb/>
+est de même des défenses du pays.
+Un des <lb/>
+grands avantages de la confédération
+est <lb/>que nous serons unis dans un système <lb/>des défense bien concerté et
+uniforme. <lb/>
+(Ecoutez !) Aujourd'hui chacune des
+<lb/>
+colonies a un système militaire différent; <lb/>
+quelques-unes même ne sont nullement orga<lb break="no"/>nisées pour la défense. Nous avons plusieurs <lb/>
+corps militaires séparés, mais nulle entente <lb/>
+           
+
+            <pb n="41" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0041.jpg"/>
+<fw type="num">41</fw>
+
+
+        
+ n'existe
+entre les colonies en ce qui concerne<lb/>
+l'offensive ou la défensive. Dans la confé<lb break="no"/>dération nous aurons un système unique de<lb/>
+défense et un seul système
+d'organisation <lb/>
+militaire. Au cas où les provinces maritimes <lb/>
+seraient attaquées nous pourrons
+leur envoyer <lb/>
+les puissantes milices du Haut-Canada, et si <lb/>
+une invasion nous menaçait sur nos lacs les <lb/>
+hardis marins des provinces d'en bas vole<lb break="no"/>raient à notre secours et viendraient manœu<lb break="no"/>vrer nos vaisseaux. ( Ecoutez !) En un mot <lb/>
+nous ne ferons plus qu'un peuple agissant<lb/>
+de parfait accord dans la paix
+et dans la <lb/>
+guerre. (Applaudissements.) Le code cri<lb break="no"/>minel, -c'est-à-dire la
+détermination de ce <lb/>
+qui est crime et de ce qui ne l'est pas,-est <lb/>
+laissé au gouvernement général. Ceci est <lb/>
+presque une nécessité. Il est très important <lb/>
+que le code criminel soit uniforme dans <lb/>
+toutes les pmvinces,-—que ce qui est crime <lb/>
+dans une partie de l'Amérique
+anglaise soit <lb/>
+jugé tel dans toutes les autres parties, —et<lb/>
+que, dans toute l'union, la vie et la prepriété<lb/>
+des individus soient uniformément
+protégées. <lb/>
+C'est un des grands vices de la constitution <lb/>
+des Etats-Unis où ce qui est crime dans <lb/>
+un Etat n'est qu'une offsnse vénielle et pas<lb break="no"/>sible d'une légère punition dans
+un autre. <lb/>
+Mais, dans notre constitution, nous n'aurons <lb/>
+qu'un code criminel basé sur le code criminel <lb/>
+anglais, et applicable à toute
+l'Amérique <lb/>
+Britannique, de sorte qu'un des sujets de la <lb/>
+confédération saura toujours, dans quelque <lb/>
+partie de l'union qu'il se trouve, quels sont <lb/>
+ses droits et aussi à quels chàtiments il s'ex<lb break="no"/>pose s'il se rend coupable d'infraction à la <lb/>
+loi. Je ne saurais citer une
+preuve plus <lb/>
+frappante des avantages que nous ont fourni <lb/>
+l'examen et l'expérience des
+défauts qui <lb/>
+existent dans la constitution de nos voisins. <lb/>
+(Ecoutez !) La 33ème résolution
+est très <lb/>
+importante pour le bien-être futur des colo<lb break="no"/>nies. Elle donne au parlement général le <lb/>
+pouvoir de passer " toute mesure tendant à <lb/>
+rendre uniformes les lois relatives à
+la pro<lb break="no"/>priété et aux droits civils dans le Haut- <lb break="yes"/>
+Canada, la Nouvelle-Ecosse, le Nouveau- <lb break="yes"/>
+Brunswick, l'Ile du Prince Edouard et l'Ile <lb/>
+de Terreneuve, ainsi que la procédure de <lb/>
+toutes les cours de justice dans ces provinces." <lb/>
+Le principe général des lois de toutes les<lb/>
+provinces, à l'exception du
+Bas-Canada, est <lb/>
+la même, bien qu'il puisse y avoir différence <lb/>
+dans les détails; et j ai vu avec plaisir que les <lb/>
+provinces inférieures désiraient
+se joindre au <lb/>
+Haut-Canada dans l'œuvre de l'assimilation <lb/>
+des lois deja mentionnée, et elles se sont aussi<lb/>
+montées
+disposées à introduire chez
+elles <lb/>
+         
+
+            <cb/>
+    
+ notre système de lois provinciales, qui diffère <lb/>
+beaucoup du leur. Dans une colonie, par <lb/>
+exemple, il n'existe aucun système munici<lb break="no"/>pal; dans une autre, il n'est que facultatif <lb/>
+et n'a pas été adopté complètement. Ces cir<lb break="no"/>constances ayant fait trouver presque impos<lb break="no"/>sible une union législative, il fut convenu, <lb/>
+autant que faire se pourrait, que le premîer <lb/>
+acte du parlement confédéré serait
+d'assimi<lb break="no"/>ler les lois provinciales, qui ont toutes pour <lb/>
+base le droit commun d'Angleterre. Mais
+<lb/>
+pour ne pas blesser les intérêts
+locaux, on a <lb/>décidé qu'aucun changement n'aurait lieu <lb/>
+dans ce sens sans avoir reçu la sanction des <lb/>
+législatures locales (Ecoutez ! écoutez!) <lb/>
+La législature fédérale aura le
+pouvoir d'é<lb break="no"/>tablir une cour générale d'appel pour les <lb/>
+provinces fédérées. Quoique la législature <lb/>
+canadienne ait toujours eu le pouvoir d'éta<lb break="no"/>blir une semblable cour, à
+laquelle les <lb/>
+justiciables des tribunaux du
+Haut et du <lb/>
+Bas-Canada auraient pu en appeler, elle <lb/>
+ne s'en est jamais prévalu. Le Haut
+et le <lb/>
+Bas-Canada ont chacun leur cour d'appel, et
+<lb/>
+ce système continuera jusqu'a ce
+que la légis<lb break="no"/>lature fédérale ait établi une cour générale <lb/>
+d'appel. La constitution ne pourvoit pas à
+<lb/>
+l'établissement de cette cour, en
+faveur de <lb/>
+laquelle et contre laquelle il existe beaucoup
+<lb/>
+de motifs, mais on a jugé sage
+et à propos <lb/>
+de stipuler dans la constitution
+que la lé<lb break="no"/>gislature générale avait le pouvoir, si elle le <lb/>
+trouvait utile, d'établir une cour générale <lb/>
+d'appel des cours supérieures de toutes les <lb/>
+provinces. (Ecoutez ! écoutes !) Je n'entre<lb break="no"/>prendrai pas de passer en revue les autres <lb/>
+pouvoirs conférés au parlement général, qui, <lb/>
+pour la plupart, ont trait à des affaires de <lb/>
+finance et d'intérêt commercial,
+je laisse cela <lb/>
+à d'autres plus habiles. A part
+de tous les <lb/>
+pouvoirs spécialement désignés dans le 37e <lb/>
+et dernier article de cette partie de la consti<lb break="no"/>tution, se trouve conférée à la
+législature <lb/>
+générale la grande législation souveraine, <lb/>
+c'est-à-dire le pouvoir de
+légiférer
+sur "toutes <lb/>
+les matières d'un caractère général qui ne <lb/>
+seront pas spécialement et exclusivement <lb/>
+réservées au contrôle des législatures et des <lb/>
+gouvernements locaux." Telle est
+justement <lb/>la disposition qui manque à la
+constitution <lb/>
+des Etats-Unis; c'est là ou l'on
+trouve ce <lb/>
+côté vulnérable du système
+américain, le <lb/>
+vide qui enlève à la constitution américaine <lb/>
+se force de cohésion. (Ecoutez!
+écoutez !) <lb/>
+C'est là ce que l'on peut appeler une sage et <lb/>
+nécessaire disposition. Par elle nous concen<lb break="no"/>trons la force dans le parlement central et
+<lb/>
+faisons de la confédération un seul peuple et <lb/>
+           
+
+            <pb n="42" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0042.jpg"/>
+<fw type="num">42</fw>
+            
+          
+
+               un seul gouvernement, au lieu de cinq peu<lb break="no"/>ples et de cinq gouvernements à peine liés 
+               <lb/>
+               entre eux sous l'autorité de la métropole. 
+               <lb/>
+               Quant aux gouvernments locaux, il est 
+               <lb/>
+               prescrit que chacun aura pour chef un offi<lb break="no"/>cier exécutif nommé par le gouvernement 
+               <lb/>
+               général. Comme nous devons former une 
+               <lb/>
+               province unie, avec des gouvernements 
+               <lb/>
+               com: et des législatures subordonnés au 
+               <lb/>
+               gouvernement fédéré et :'t la lé islature 
+               <lb/>
+               générale, il est opportun que le e ef exé<lb break="no"/>cutif de chaque section soit également subor<lb break="no"/>donné &amp; l'exécutif principal de toute la 
+               <lb/>
+               confédération. Envers les gouvernements 
+               <lb/>
+               locaux, le qeuvernement général occupera 
+               <lb/>
+               exactement a même position que le gouver<lb break="no"/>nement impérial eccupc actuellement à 
+               <lb/>
+               '(gard des colonies; de sorte que de même 
+               <lb/>
+               que le lieutenant-gouverneur de chacune des 
+               <lb/>
+               provinces est directement nommé par la 
+               <lb/>
+               reine, à laquelle il est directement respon<lb break="no"/>sable et fait directement rapport, de même les 
+               <lb/>
+               ofliciers exécutifs des gouvernements locaux 
+               <lb/>
+               seront par la suite subordonnés au représen<lb break="no"/>tant de la reine, auquel ils seront respon<lb break="no"/>sables et feront rapport. On a objecté que 
+               <lb/>
+               c'était empiéter sur la préregativc royale de 
+               <lb/>
+               conférer aux gouverneurs locaux le pouvoir 
+               <lb/>
+               de gracier, pour la raison qu'ils n'étaient 
+               <lb/>
+               as directement nommés par la couronne mais 
+               <lb/>
+               indirectement par l'oflicier exécutif de la 
+               <lb/>
+               confédération. Cette disposition a trouvé 
+               <lb/>
+               place dans la constitution à. cause de la difi<lb break="no"/>culté qu'il y aurait si ce pouvoir n'était 
+               <lb/>
+               confié qu'au gommneur-général. Par ex<lb break="no"/>emple, s'il s'élève une question au sujet de 
+               <lb/>
+               la libération d'un ,rls'onnier convaincu 
+               <lb/>
+               d'oflense mineure—disons a la Nouvelle- 
+               <lb break="yes"/>
+               Ecosse—et en danger imminent de perdre la 
+               <lb/>
+               vie s'il reste emprisonné, le pardon pourrait 
+               <lb/>
+               arriver trop tard s'il fallait l'attendre du 
+               <lb/>
+               gouverneur—général. Il faut se rappeler 
+               <lb/>
+               que le pouvoir de gracier ne s'applique pas 
+               <lb/>
+               qu'a la peine capitale, mais bien a tous les 
+               <lb/>
+               cas de condamnation, uelque minimes qu'ils 
+               <lb/>
+               soient, même a celui ci une amende imposée 
+               <lb/>
+               comme énalité sur conviction criminelle. 
+               <lb/>
+               Il s'app ique a des cas innombrables, et si 
+               <lb/>
+               la responsabilité de son exercice ne devait 
+               <lb/>
+               re oser que sur l'exécutif général, il ne pour<lb break="no"/>vrait être exercé d'une manière satisfaisante. 
+               <lb/>
+               Il va sans dire que dans chaque province il 
+               <lb/>
+            devra y avoir un jurisconsulte de la couronne 
+               <lb/>
+               occupant la position de procureur—général, 
+               <lb/>
+               comme dans tout état de I union américaine. 
+               <lb/>
+               "Cet officier ap artiendra au gouvernement 
+               <lb/>
+               local; mais si c pouvoir de pardonner est 
+               <lb/>
+               réservé à l'exécutif général, dans chaque 
+               <lb/>
+               
+      <cb/>
+               cas où le pouvoir de gracier sera invoqué, il 
+               <lb/>
+               faudra que le jurisconsulte en question en 
+               <lb/>
+               fasse directement rapport au gouverneur- 
+               <lb break="yes"/>
+               général. Cette difficulté pratique fut re<lb break="no"/>connue si grande que l'on juges a propos 
+               <lb/>
+               d'en venir a cette détermination sans 
+               <lb/>
+               intention aucune d'enfreindre les préro ativcs 
+               <lb/>
+               de la couronne, car tout ce qu'a fait a con<lb break="no"/>férence démontre qu'elle était mue par le 
+               <lb/>
+               lus grand désir de veiller avec sellicitude a 
+               <lb/>
+               eur maintien. (Ecoutez! écoutez !) Cette 
+               <lb/>
+               question, d'ailleurs, intéresse l'empire, et si 
+               <lb/>
+               les gouvernement et parlement impériaux 
+               <lb/>
+               ne se rendent pas aux raisons que nous pour<lb break="no"/>rons faire valoir pour maintenir cet article, 
+               <lb/>
+               alors, comme puissance dominante, ils pour<lb break="no"/>ront le faire disparaitre. (Bien ! très bien!). 
+               <lb/>
+               Il est de nombreux sujets qui appartiennent 
+               <lb/>
+               de droit aux législatures locales et fédérales, 
+               <lb/>
+               et pour éviter un conflit d'autorités, l'on a 
+               <lb/>
+               décidé que la où il y a juridiction concur<lb break="no"/>rents entre le parlement énéral et les par<lb break="no"/>lements locaux et la où la égislation de l'une 
+               <lb/>
+               sera hostile a celle de l'autre, lalégislntion du 
+               <lb/>
+               gouvernement général l'emportera sur l'autre. 
+               <lb/>
+            Nous avons aussi introduit toutes les dis<lb break="no"/>positions néeessaires au complet fonctionne<lb break="no"/>ment de la constitution britannique en ces 
+               <lb/>
+               provinces. Il est également present que nul 
+               <lb/>
+               vote de crédit ne sera donné que parla 
+               <lb/>
+               branche populaire de la le islature,—en qui 
+               <lb/>
+               repose la solidarité de l' qullibre entre le 
+               <lb/>
+               revenu et la dépense,——que nulle dépense 
+               <lb/>
+               ou autorisation de dépense par adresse ou 
+               <lb/>
+               autrement ne se fera ni ne sera donnée que 
+               <lb/>
+               sur la recommandation de la couronne pré<lb break="no"/>cédée de l'avis de ses conseillers responsables. 
+               <lb/>
+               (Ecoutez! écoutes l) Quant à. la partie 
+               <lb/>
+               financière du projet, aux arrangements pris 
+               <lb/>
+               à l'égard du passif actuel des différentes 
+               <lb/>
+               provinces, du futur passif de la confédéra<lb break="no"/>tion et des autres matières de ce eure, je ne 
+               <lb/>
+               doute pas que mes hons. amis, le ministre 
+               <lb/>
+               des finances et le président du conseil, 
+               <lb/>
+               sauront en donner d'amplcs détails, tout en 
+               <lb/>
+               démontrant que cette partie du sujet a été 
+               <lb/>
+               étudiée itfond par eux. Je sens que ce 
+               <lb/>
+               serait faire perdre inutilement le temps de 
+               <lb/>
+               la chambre, avec mes hibles connaissances 
+               <lb/>
+               sur ces sujets, que d'oser vouloir les traiter, 
+               <lb/>
+               sachant surtout que mes deux hons. amis
+               <lb/>
+               sauront si bien s'en acquitter. La der<lb break="no"/>nière résolution qui offre quelqu'intérôt 
+               <lb/>
+               est celle par laquelle il est proposé que 
+               <lb/>
+               Sa Majesté détermine le rang et le nom des 
+               <lb/>
+               provinces confédérées. Je ne sais pas si elles 
+               <lb/>
+               seront considérées comme une royauté ou 
+               <lb/>
+               une vice-royauté, ou si elles continueront à 
+               <lb/>
+               
+ 
+            
+            <pb n="43" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0043.jpg"/>
+            <fw type="num">43</fw>
+
+
+     garder le titre de provinces ; mais je suis 
+     <lb/>
+     certain que Sa Gracieuse Majesté considérera 
+     <lb/>
+     le sujet comme il convient, et le nom qui 
+     <lb/>
+     nous sera donné sera digne de notre avenir. 
+     <lb/>
+     (Acclamation.) Avant de conclure, qu'il me 
+     <lb/>
+     soit permis de prier les hons. députés de lire 
+     <lb/>
+     ces résolutions avec calme et de les considé<lb break="no"/>rer dans leur ensemble, quelque soient leurs 
+     <lb/>
+     préjugés antérieurs et leurs idées précon<lb break="no"/>çues, et s'ils croient que, comme ensemble, 
+     <lb/>le projet proposé doit contribuer au bien- 
+     <lb break="yes"/>être du peuple de ces provinces,—que la 
+     <lb/>prospérité de notre pays doit y gagner—que 
+     <lb/>nous augmenterons par là notre richesse et 
+     <lb/>notre crédit—je leur dis avec conviction : 
+     <lb/>laissez de côté tout esprit de parti et 
+     <lb/>examinez la question sur ses mérites. (Ecou<lb break="no"/>tez! écoutez !) Quelques-uns ont prétendu 
+     <lb/>—mais leur argument n'est pas des plus 
+     <lb/>plausibles—que ce projet de confédération 
+     <lb/>était un pas vers l'indépendance, vers une 
+     <lb/>séparation de la mère-patrie. Je n'ai aucune 
+     <lb/>crainte de ce genre. Je crois qu'à mesure 
+     <lb/>ne nous croîtrons en richesse et en force. 
+     <lb/>L'Angleterre sera moins disposée à se séparer 
+     <lb/>de nous que si nous nous affaiblissions et que 
+     <lb/>nous fussions sans défense. ( Ecoutez ! 
+     <lb/>écoutez !) Je suis fermement persuadé que 
+     <lb/>d'année en année, c'est-à-dire à mesure que 
+     <lb/>nous augmenterons en force et en population, 
+     <lb/>l'Angleterre jugera mieux des avantages que 
+     <lb/>lui vaudra son alliance avec l'Amérique 
+     <lb/>Britannique du Nord. Lorsqu'au lieu de 
+     <lb/>trois et demi nous compterons sept millions, 
+     <lb/>chiffre que nous atteindrons avant que bien 
+     <lb/>des années ne s'écoulent, il n'est guère pré<lb break="no"/>sumable que nous serons plus qu'aujourd'hui 
+     <lb/>disposés à rompre notre union avec l'Angle<lb break="no"/>terre. Est-ce, qu'autant que nous le sommes 
+     <lb/>aujourd'hui, ces sept millions ne seront pas 
+     <lb/>désireux de conserver leur allégeance à la 
+     <lb/>reine et leur alliance avec la métropole ? 
+     <lb/>Est-ce que la réunion du peuple des pro<lb break="no"/>vinces maritimes au nôtre pourrait avoir 
+     <lb/>l'effet de diminuer le désir de rester attachés 
+     <lb/>à la mère-patrie ? Le peuple du Canada est 
+     <lb/>loyal dans le vrai sens du mot ; mais 
+     <lb/>s'il est possible que quelqu'un le soit 
+     <lb/>plus que lui, ce sont certainement les 
+     <lb/>provinces maritimes. (Acclamations.) Par<lb break="no"/>tout dans ces provinces, les partis politi<lb break="no"/>ques luttent à qui donnera le plus de témoi<lb break="no"/>gnages de sa loyauté à Sa Majesté et à la 
+     <lb/>couronne britannique. (Ecoutez ! écoutez !) 
+     <lb/>Si cette union s'effectue, nous compterons 
+     <lb/>une population de quatre millions d'habitants. 
+     <lb/>Nous ne serons pas alors un peuple insigni<lb break="no"/>fiant. En Europe, avec une pareille popula<lb break="np"/>
+           
+
+
+            <cb/>
+          
+
+     
+    tion, nous occuperions la position d'une 
+     <lb/>puissance de second ou troisième ordre au 
+     <lb/>moins. Notre crédit et nos ressources aug<lb break="no"/>mentant rapidement, nous offrirons un champ 
+     <lb/>attrayant aux émigrants anglais et à l'émi<lb break="no"/>gration européenne en général, et nous 
+     <lb/>progresseront en conséquence sur une grande 
+     <lb/>échelle. Les 25 dernières années ont vu 
+     <lb/>s'opérer de grandes choses pendant lesquelles 
+     <lb/>a existé l'union entre le Haut et le Bas- 
+     <lb break="yes"/>Canada, mais je crois que les 25 années à 
+     <lb/>venir seront plus remarquables encore sous 
+     <lb/>le rapport des progrès et de la prospérité. 
+     <lb/>(Ecoutez ! écoutez !) Quand enfin, nous 
+     <lb/>aurons une population de huit en neuf mil<lb break="no"/>lions, notre alliance sera recherchée par les 
+     <lb/>grandes nations de la terre parce qu'elle sera 
+     <lb/>précieuse. (Ecoutez ! écoutez !) Le désir 
+     <lb/>que nous manifestons de rester toujours 
+     <lb/>attachés a l'Angleterre sera, je m'en fais 
+     <lb/>gloire, réciproque chez le peuple de cette 
+     <lb/>puissance. Il y a en Angleterre un parti 
+     <lb/>qui désire se débarrasser des colonies, 
+     <lb/>mais ce parti est peu puissant. Je ne crois 
+     <lb/>pas que ce soit là la pensée du peuple 
+     <lb/>ni des hommes d'Etat du peuple d'Angle<lb break="no"/>terre. (Ecoutez ! écoutez ! et acclamations.) 
+     <lb/>Jamais, à mon avis, le gouvernement de la 
+     <lb/>Grande-Bretagne ne prendra délibérément 
+     <lb/>cette détermination. (Ecoutez ! écoutez !) 
+     <lb/>Les colonies sont en ce moment dans un état 
+     <lb/>de transition. Bientôt, au lieu d'être une 
+     <lb/>dépendance, nous serons un ami et un allié 
+     <lb/>puissant. L'Angleterre aura bientôt sous 
+     <lb/>sa domination des nations qui seront prêtes 
+     <lb/>et disposées à lui prêter leur concours dans 
+     <lb/>la paix et dans la guerre, et à l'aider, si cela 
+     <lb/>est nécessaire, à maintenir sa puissance 
+     <lb/>contre le monde en armes. (Acclamations.) 
+     <lb/>L'Australie aussi deviendra une nation su<lb break="no"/>bordonnée, et l'Angleterre, si, comme je le 
+     <lb/>pense, ses colonies prospèrent sous le nou<lb break="no"/>veau système colonial, dans la supposition où 
+     <lb/>elle serait en guerre avec le reste du monde, 
+     <lb/>aura cet avantage de pouvoir faire alliance 
+     <lb/>avec les nations à elles subordonnées et qui, 
+     <lb/>grâce à leur allégeance au même souverain, 
+     <lb/>l'aideront à lutter, comme elle l'a déjà fait, 
+     <lb/>contre le monde entier (applaudissements !) 
+     <lb/>Si pendant la grande guerre avec Napoléon, 
+     <lb/>alors que chaque port de l'Europe était 
+     <lb/>fermé a son commerce, elle a pu encore tenir 
+     <lb/>ferme, combien donc sera plus grande sa 
+     <lb/>force de résistance lorsqu'elle aura un empire 
+     <lb/>colonial croissant rapidement en richesse 
+     <lb/>et en crédit. (Ecoutez ! écoutez !) Il est 
+     <lb/>vrai ne nous sommes en danger, comme 
+     <lb/>nous l'avons déjà été maintes et maintes 
+     <lb/>
+            
+
+            <pb n="44" facs="final/images/Ont_Que_Fr_LA_1865-02-06_Page_0044.jpg"/>
+            <fw type="num">44</fw>
+
+
+
+     fois, d'être plongés dans une guerre par des 
+     <lb/>
+     causes en dehors de notre contrôle, et cepen<lb break="no"/>dant, cela ne nous a sa intimidés. Il y a 
+     <lb/>
+     quelque temps, et à la seule mention de la 
+     <lb/>
+     probabilité d'une guerre, d'une extrémité à 
+     <lb/>
+     l'autre de l'Amérique Britannique on a vu 
+     <lb/>
+     se réveiller les sentiments du peuple qui 
+     <lb/>
+     déjà était prêt à en accepter toutes les con<lb break="no"/>séquences. Bien que le peuple de ce pays 
+     <lb/>
+     ait une juste idée des horreurs de la guerre, 
+     <lb/>
+     le cas advenant où elle serait malheureu<lb break="no"/>sement déclarée entre les Etats-Unis et 
+     <lb/>
+     l'Angleterre, il serait prêt à aller au<lb break="no"/>devant de ses périls par attachement pour 
+     <lb/>
+     la métropole. Il n'y a qu'une seule 
+     <lb/>
+     opinion sur ce point. Nous connais<lb break="no"/>sons l'avantage moral de la protection de 
+     <lb/>
+     l'Angleterre. Tant que cette alliance sera 
+     <lb/>
+     maintenue, nous jouirons sous sa protection 
+     <lb/>
+     des priviléges de la liberté constitutionnelle, 
+     <lb/>
+     et comme conséquence, les droits de la mi<lb break="no"/>norité seront toujours respectés. (Écoutez ! 
+     <lb/>
+     écoutez !) Dans la plupart des gouverne<lb break="no"/>ments, les droits de la majorité seuls comp<lb break="no"/>tent; il n'y a que dans les pays comme 
+     <lb/>
+     l'Angleterre, jouissant de la liberté constitu<lb break="no"/>tionnelle et méconnaissant la tyrannie d'un 
+     <lb/>
+     simple despote ou la démocratie sans frein, 
+     <lb/>
+     que les droits des minorités sont respectés. 
+     <lb/>
+     Tant ne nous resterons abrités sous le dra<lb break="no"/>peau de la Grande-Bretagne, nous jouirons 
+     <lb/>
+     du bénéfice de ses institutions libres, ayant 
+     <lb/>
+     devant les yeux la conduite de ses hommes 
+     <lb/>
+     d'État à imiter, et pour exemple la pureté 
+     <lb/>
+     de sa législation et l'administration impar<lb break="no"/>tiale de ses lois. Dans ce nouveau pays, un 
+     <lb/>
+     des grands avantages de notre connexion 
+     <lb/>
+     avec la Grande-Bretagne, c'est que sous ses 
+     <lb/>
+     auspices et guidés par ses exemples, nos 
+     <lb/>
+     hommes publics seront mus par des principes 
+     <lb/>
+     analogues à ceux qui servent de mobile aux 
+     <lb/>
+     hommes d'état de la mère-patrie. Si ce 
+     <lb/>
+     ne sont pas là des avantages matériels, ils 
+     <lb/>
+     sont du moins très précieux et dignes de 
+     <lb/>
+     tous les sacrifices que nous pourrons faire 
+     <lb/>
+     pour conserver la connexion qui nous as<lb break="no"/>sure ces avantages. (Écoutez ! écoutez !) 
+     <lb/>
+     Nous devons aussi être reconnaissants à la 
+     <lb/>
+     providence de pouvoir examiner et discuter 
+     <lb/>
+     cette grande et paisible révolution constitu<lb break="no"/>tionnelle à la veille de s'opérer et dont l'éla<lb break="no"/>boration, comme aux États-Unis, n'a pas été 
+     <lb/>
+     hâtée par les exigences de la guerre,—de ce 
+     <lb/>
+     que notre pays n a pas, comme d'autres, subi 
+     <lb/>
+     de violentes révolutions, fomentées soit par 
+     <lb/>
+     des hostilités du dehors, soit par des dissen<lb break="no"/>sions intérieures. Ici nous sommes au sein 
+     <lb/>
+     de la paix et de la prospérité, sous le gouver<lb break="no"/>
+     
+
+            <cb/>
+       
+
+     nement protecteur de la Grande-Bretagne ; 
+     <lb/>
+     nous sommes un peuple dépendant, avec un 
+     <lb/>
+     gouvernement dont 'autorité est limitée et 
+     <lb/>
+     déléguée mais auquel on permet sans res<lb break="no"/>triction de légiférer, même sur la destinée 
+     <lb/>
+     future de l'Amérique Britannique du Nord. 
+     <lb/>
+     Nous avons aussi la joie de savoir, par l'in<lb break="no"/>termédiaire de ses ministres, qu'il avait plu 
+     <lb/>
+     à notre gracieuse souveraine de donner sa 
+     <lb/>
+     complète adhésion à nos délibérations ; que 
+     <lb/>
+     sa seule sollicitude était que nous adoptions 
+     <lb/>
+     un système réellement à notre avantage, et 
+     <lb/>
+     qu'elle promettait de donner son assen<lb break="no"/>timent aux mesures que nous saurions 
+     <lb/>
+     prendre pour atteindre le but projeté, la 
+     <lb/>
+     prospérité présente et future de l'Amé<lb break="no"/>rique Britannique. (Applaudissements !) 
+     <lb/>
+     Nous ne saurions donc être trop reconnais<lb break="no"/>sants de la position enviable qui nous est 
+     <lb/>
+     faite. (Écoutez! écoutez !) Il ne me reste 
+     <lb/>
+     qu'à demander pardon à la Chambre de l'avoir 
+     <lb/>
+     entretenue si longtemps. (Acclamations et 
+     <lb/>
+     cris de continuer.) Je supplie la Chambre 
+     <lb/>
+     de ne pas laisser échapper cette occasion, qui 
+     <lb/>
+     ne se présentera peut-être jamais, et qui a 
+     <lb/>
+     été amenée par un concours particulier de 
+     <lb/>
+     circonstances. Il faut donc en profiter, car 
+     <lb/>
+     si nous la négligeons, nous pourrions un jour 
+     <lb/>
+     regretter de ne pas avoir accepté cette heu<lb break="no"/>reuse opportunité de fonder une nation 
+     <lb/>
+     puissante sous l'égide de la Grande-Bretagne 
+     <lb/>
+     et de notre souveraine Dame la Reine VIC<lb break="no"/>TORIA. [L'honorable monsieur s'assit au 
+     <lb/>
+     milieu d'aplaudissements enthousiastes et 
+     <lb/>
+     prolongés.]<lb/> 
+               <lb/>
+     
+            </p>
+            <p>La Chambre ajourne à 11 heures, P.M.<lb/>
+            </p>
+
+<!-- GL, 2017-11-14, Commented out below, as it will appear in the following debate day -->
+            <!--<fw type="num">CONSEIL</fw>
+            <fw type="running">LEGISLATIF.</fw>
+            <fw type="dateline">
+     MARDI, 7 février 1865. 
+     <lb/>
+            </fw>
+            <p>
+     L'HON. M. CAMPBELL—J'ai promis 
+     <lb/>
+     hier de donner aujourd'hui à la chambre 
+     <lb/>
+     une explication au sujet de la disposition 
+     <lb/>
+     contenue dans la 14ème résolution rela<lb break="no"/>tive au choix des membres du conseil légis- 
+     <lb break="maybe"/>
+     latif dans la législature générale Voici 
+     <lb/>
+     cette résolution :— 
+     <lb/>
+            </p>
+   
+            <p>
+     14. " Les premiers conseillers législatifs fédé- 
+     <lb break="maybe"/>
+     raux seront pris dans les conseils législatifs 
+     <lb/>
+     actuels des diverses provinces, excepté pour ce 
+     <lb/>
+     qui regarde l'Île du Prince-Edouard. S'il ne s'en 
+     <lb/>
+     trouvait pas assez parmi ces conseillers qui fussent 
+     <lb/>
+     éligibles ou qui voulussent servir, le complément 
+     <lb/>
+            </p>-->
+       </div>  </div>
+      </body>
+   </text>
 </TEI>
