@@ -2153,6 +2153,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:DEVE1">
                               <desc>De Veber, Leverett George. Lethbridge (1898: AB/SK Leg); Lethbridge (1902: AB/SK Leg).</desc>
                            </valItem>
+                           <valItem ident="pers:DESA1">
+                              <desc>DeSalaberry, Colonel.  (1870: MB Convention of 40).</desc>
+                           </valItem>
                            <valItem ident="pers:DECH1">
                               <desc>Dechêne, Joseph Miville. Athabaska (1949: NF House of Commons).</desc>
                            </valItem>
@@ -3056,6 +3059,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:HEND2">
                               <desc>Henderson, Robert James. Lambton—Kent (1945: House of Commons); Lambton—Kent (1949: NF House of Commons).</desc>
                            </valItem>
+                           <valItem ident="pers:HENR1">
+                              <desc>Henry, William Alexander. Antigonish County (1865: NS Leg).</desc>
+                           </valItem>
                            <valItem ident="pers:HENS1">
                               <desc>Hensley, Joseph. 1st Kings (1863: PEI Leg); 1st Kings (1867: PEI Leg).</desc>
                            </valItem>
@@ -3863,6 +3869,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:LARO2">
                               <desc>Laroque, H. J. witness Treaty # 8. Location: Vermilion. (1900: ).</desc>
                            </valItem>
+                           <valItem ident="pers:LASC1">
+                              <desc>Lascerte, ?.  (1870: MB Government).</desc>
+                           </valItem>
                            <valItem ident="pers:LAUR1">
                               <desc>Laurence, Frederick Andrew. Colchester (1905: AB/SK House of Commons).</desc>
                            </valItem>
@@ -4402,6 +4411,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:MATH1">
                               <desc>Matheson, Alex. witness Treaty # 5. Location: the Grand Rapids. (1875: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:MATH2">
+                              <desc>Matheson, Donald.  (1870: MB Government).</desc>
                            </valItem>
                            <valItem ident="pers:MATT1">
                               <desc>Matthews, James Ewen. Brandon (1945: House of Commons); Brandon (1949: NF House of Commons).</desc>
@@ -5232,7 +5244,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Nixon, Jr., Thomas. witness Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ); witness Treaty # 5. Location: the Beren's River. (1876: ); witness Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:NOLI1">
-                              <desc>Nolin, Charles. Ste.-Anne/Oak Point (1870: MB Convention of 40); witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</desc>
+                              <desc>Nolin, Charles. Ste.-Anne/Oak Point (1870: MB); witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</desc>
                            </valItem>
                            <valItem ident="pers:NOLI2">
                               <desc>Nolin, Joseph. witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</desc>
@@ -6605,6 +6617,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:TACH2">
                               <desc>Tachea. Beaver Indian of the Upper Peace River and the country thereabouts (1900: ); headman? Treaty # 8. Location: Fort St. John. (1900: ).</desc>
                            </valItem>
+                           <valItem ident="pers:TACH3">
+                              <desc>Taché, Alexandre-Antonin Bishop.  (1870: MB Government).</desc>
+                           </valItem>
                            <valItem ident="pers:TACH1">
                               <desc>Taché, Étienne-Paschal (Sir &amp; Col.). Lower Canada (1865: Ont/Que Leg).</desc>
                            </valItem>
@@ -6697,6 +6712,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:WHIT15">
                               <desc>The White bear,. chief Treaty # 4. Location: Qu'Appelle Lakes. (1875: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:THIB2">
+                              <desc>Thibeault, Grand Vicar.  (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:THIB1">
                               <desc>Thibert, Pierre. Baie St. Paul (1870: MB Convention of 40).</desc>
@@ -7350,6 +7368,17 @@ so Volume 2 by implication has finished. -->
                <!--        Milestones are of various types, and this set may change as we 
           test our schema with actual documents. -->
                <elementSpec ident="milestone" module="core" mode="change">
+                  <constraintSpec ident="unknownmilestonetype" scheme="isoschematron">
+                     <constraint>
+                        <sch:rule context="tei:milestone">
+                           <sch:report test="@type='unknown'" role="warning">
+                              Please examine this milestone and re-encode it 
+                              appropriately. Unknown milestone types should 
+                              not appear in files committed to the repository.
+                           </sch:report>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
                   <attList>
                      <attDef ident="type" mode="replace">
                         <valList type="closed">
@@ -7361,6 +7390,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="day">
                               <gloss>A transition between one day and the next in a parliamentary session.</gloss>
+                           </valItem>
+                           <valItem ident="unknown">
+                              <gloss>A temporary value which should be replaced as soon as possible.</gloss>
                            </valItem>
                         </valList>
                      </attDef>
@@ -7656,6 +7688,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="plc:BROC3">
                               <desc>BROCKVILLE (ONTARIO), nonFederal, 1863- </desc>
+                           </valItem>
+                           <valItem ident="plc:BROK1">
+                              <desc>Broken Head River (TREATY 1 and 2), treaty, 1871-1871 </desc>
                            </valItem>
                            <valItem ident="plc:BROM1">
                               <desc>BROME (QUEBEC), federal, 1867-1905 DUNKIN, Christopher; DUNKIN,; CARTER,; CARTER,; FISHER,</desc>
@@ -8125,6 +8160,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:FALB1">
                               <desc>Fort Albany  (TREATY 9), treaty, 1905-1905 </desc>
                            </valItem>
+                           <valItem ident="plc:FALE1">
+                              <desc>Fort Alexander (TREATY 1 and 2), treaty, 1871-1871 </desc>
+                           </valItem>
                            <valItem ident="plc:FCARL1">
                               <desc>Fort Carlton, North West Territories, in present-day southwest (TREATY 6), treaty, 1876-1876 </desc>
                            </valItem>
@@ -8150,7 +8188,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Fort Good Hope (TREATY 11), treaty, 1921-1921 </desc>
                            </valItem>
                            <valItem ident="plc:FHOP1">
-                              <desc>Osnaburg (TREATY 9), treaty, 1905-1905 </desc>
+                              <desc>Fort Hope (TREATY 9), treaty, 1905-1905 </desc>
                            </valItem>
                            <valItem ident="plc:FISH3">
                               <desc>Fisher River  (TREATY 5), treaty, 1908-1908 </desc>
@@ -8213,7 +8251,7 @@ so Volume 2 by implication has finished. -->
                               <desc>5TH PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
                            </valItem>
                            <valItem ident="plc:FPRO1">
-                              <desc>Lac du Brochet (TREATY 10), treaty, 1921-1921 </desc>
+                              <desc>Fort Providence (TREATY 10), treaty, 1921-1921 </desc>
                            </valItem>
                            <valItem ident="plc:FQUA1">
                               <desc>Fort Qu'Appelle (TREATY 4), treaty, 1874-1874 </desc>
@@ -8246,7 +8284,7 @@ so Volume 2 by implication has finished. -->
                               <desc>FRONTENAC-ADDINGTON (ONTARIO), federal, 1945- AYLESWORTH, Ross</desc>
                            </valItem>
                            <valItem ident="plc:FSEV1">
-                              <desc>Windigo River (TREATY 9), treaty, 1930-1930 </desc>
+                              <desc>Fort Severn (TREATY 9), treaty, 1930-1930 </desc>
                            </valItem>
                            <valItem ident="plc:FSIM1">
                               <desc>Fort Simpson (TREATY 11), treaty, 1921-1921 </desc>
@@ -8564,7 +8602,7 @@ so Volume 2 by implication has finished. -->
                               <desc>LACOMBE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
                            </valItem>
                            <valItem ident="plc:LACS1">
-                              <desc>North-West Angle (TREATY 3), treaty, 1873-1873 </desc>
+                              <desc>Lac Seul (TREATY 3), treaty, 1873-1873 </desc>
                            </valItem>
                            <valItem ident="plc:LAKE2">
                               <desc>LAKE ST-JOHN-ROBERVAL (QUEBEC), federal, 1945- DION,</desc>
@@ -8706,9 +8744,6 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="plc:LOTB3">
                               <desc>LOTBINIÈRE (QUEBEC), nonFederal, 1863- </desc>
-                           </valItem>
-                           <valItem ident="plc:LSAV1">
-                              <desc>Lesser Slave Lake (TREATY 8), treaty, 1899-1899 </desc>
                            </valItem>
                            <valItem ident="plc:LSLA1">
                               <desc>Lesser Slave Lake (TREATY 8), treaty, 1899-1899 </desc>
@@ -10465,6 +10500,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:BROC3">
                               <desc>BROCKVILLE (ONTARIO), nonFederal, 1863- </desc>
                            </valItem>
+                           <valItem ident="plc:BROK1">
+                              <desc>Broken Head River (TREATY 1 and 2), treaty, 1871-1871 </desc>
+                           </valItem>
                            <valItem ident="plc:BROM1">
                               <desc>BROME (QUEBEC), federal, 1867-1905 DUNKIN, Christopher; DUNKIN,; CARTER,; CARTER,; FISHER,</desc>
                            </valItem>
@@ -10933,6 +10971,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:FALB1">
                               <desc>Fort Albany  (TREATY 9), treaty, 1905-1905 </desc>
                            </valItem>
+                           <valItem ident="plc:FALE1">
+                              <desc>Fort Alexander (TREATY 1 and 2), treaty, 1871-1871 </desc>
+                           </valItem>
                            <valItem ident="plc:FCARL1">
                               <desc>Fort Carlton, North West Territories, in present-day southwest (TREATY 6), treaty, 1876-1876 </desc>
                            </valItem>
@@ -10958,7 +10999,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Fort Good Hope (TREATY 11), treaty, 1921-1921 </desc>
                            </valItem>
                            <valItem ident="plc:FHOP1">
-                              <desc>Osnaburg (TREATY 9), treaty, 1905-1905 </desc>
+                              <desc>Fort Hope (TREATY 9), treaty, 1905-1905 </desc>
                            </valItem>
                            <valItem ident="plc:FISH3">
                               <desc>Fisher River  (TREATY 5), treaty, 1908-1908 </desc>
@@ -11021,7 +11062,7 @@ so Volume 2 by implication has finished. -->
                               <desc>5TH PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
                            </valItem>
                            <valItem ident="plc:FPRO1">
-                              <desc>Lac du Brochet (TREATY 10), treaty, 1921-1921 </desc>
+                              <desc>Fort Providence (TREATY 10), treaty, 1921-1921 </desc>
                            </valItem>
                            <valItem ident="plc:FQUA1">
                               <desc>Fort Qu'Appelle (TREATY 4), treaty, 1874-1874 </desc>
@@ -11054,7 +11095,7 @@ so Volume 2 by implication has finished. -->
                               <desc>FRONTENAC-ADDINGTON (ONTARIO), federal, 1945- AYLESWORTH, Ross</desc>
                            </valItem>
                            <valItem ident="plc:FSEV1">
-                              <desc>Windigo River (TREATY 9), treaty, 1930-1930 </desc>
+                              <desc>Fort Severn (TREATY 9), treaty, 1930-1930 </desc>
                            </valItem>
                            <valItem ident="plc:FSIM1">
                               <desc>Fort Simpson (TREATY 11), treaty, 1921-1921 </desc>
@@ -11372,7 +11413,7 @@ so Volume 2 by implication has finished. -->
                               <desc>LACOMBE (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
                            </valItem>
                            <valItem ident="plc:LACS1">
-                              <desc>North-West Angle (TREATY 3), treaty, 1873-1873 </desc>
+                              <desc>Lac Seul (TREATY 3), treaty, 1873-1873 </desc>
                            </valItem>
                            <valItem ident="plc:LAKE2">
                               <desc>LAKE ST-JOHN-ROBERVAL (QUEBEC), federal, 1945- DION,</desc>
@@ -11514,9 +11555,6 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="plc:LOTB3">
                               <desc>LOTBINIÈRE (QUEBEC), nonFederal, 1863- </desc>
-                           </valItem>
-                           <valItem ident="plc:LSAV1">
-                              <desc>Lesser Slave Lake (TREATY 8), treaty, 1899-1899 </desc>
                            </valItem>
                            <valItem ident="plc:LSLA1">
                               <desc>Lesser Slave Lake (TREATY 8), treaty, 1899-1899 </desc>
