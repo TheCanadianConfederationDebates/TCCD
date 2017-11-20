@@ -89,7 +89,7 @@
   
 <!-- Settings to scp the resulting website content after building. -->
   <property name="remoteServerUser" value="hcmc"/>
-  <property name="remoteServerLocation" value="nfs.hcmc.uvic.ca:/home1t/hcmc/www/tccd"/>
+  <property name="remoteServerLocation" value="nfs.hcmc.uvic.ca:/home1t/hcmc/www/confederation"/>
   
 <!--  Some paths, libs and tasks. (May not all be needed.) -->
   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
