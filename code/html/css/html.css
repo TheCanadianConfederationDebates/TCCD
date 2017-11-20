@@ -112,6 +112,13 @@ span[data-el='fw'], span[data-el='pb'], span[data-el='cb']{
     padding-right: 0.1em;
     font-size: 0.5em;
 }
+/* Per DH 2017-11-20, 
+ * https://github.com/TheCanadianConfederationDebates/TCCD/issues/88 
+ * hide the dateline. */
+span[data-el='fw'][data-type='dateline']{
+  display: none;
+} 
+
 /* We hide line-breaks and column-breaks by default. */
 div[data-el='cb'],
 div[data-el='lb'] {
