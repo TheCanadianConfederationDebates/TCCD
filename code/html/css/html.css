@@ -115,7 +115,7 @@ span[data-el='fw'], span[data-el='pb'], span[data-el='cb']{
 /* Per DH 2017-11-20, 
  * https://github.com/TheCanadianConfederationDebates/TCCD/issues/88 
  * hide the dateline. */
-span[data-el='fw'][data-type='dateline']{
+span[data-el='fw'][data-type='dateline'], span[data-el='fw'][data-type='running']{
   display: none;
 } 
 
