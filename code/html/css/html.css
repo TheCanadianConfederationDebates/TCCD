@@ -190,7 +190,7 @@ li {
 .simple_underline {
   text-decoration: underline;
 }
-.simple_right {
+.simple_right, div[data-el='p'].simple_right {
   text-align: right;
 }
 .simple_centre {
