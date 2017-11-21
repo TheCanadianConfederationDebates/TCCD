@@ -36,7 +36,7 @@
     <xsl:message>Processing file <xsl:value-of select="$fileNameNoExtension"/> from source <xsl:value-of select="$sourceUrl"/>. </xsl:message>
     
     <TEI xmlns="http://www.tei-c.org/ns/1.0"
-      xml:id="{$fileId}"
+      xml:id="treaty_{$fileId}"
       type="full">
       <teiHeader>
         <fileDesc>
