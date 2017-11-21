@@ -13156,6 +13156,29 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
+               
+               <elementSpec ident="table" module="figures" mode="change">
+                  <constraintSpec scheme="schematron"
+                                  ident="tablerowsmusthavealignedcells"
+                                  mode="add">
+                     <desc>All rows in a table must have the same number of cells.</desc>
+                     <constraint>
+                        <sch:rule context="tei:table">
+                           <sch:let name="totalRows" value="count(tei:row)"/>
+                           <sch:let name="firstRowCols"
+                                    value="sum((for $c in tei:row[1]/tei:cell return if ($c/@cols) then xs:integer($c/@cols) else 1))"/>
+                           <sch:let name="totalRequiredCells" value="($totalRows * $firstRowCols)"/>
+                           <sch:let name="totalActualCells"
+                                    value="sum((for $c in descendant::tei:cell return if ($c/@cols and $c/@rows) then (xs:integer($c/@cols) * xs:integer($c/@rows)) else if ($c/@cols) then xs:integer($c/@cols) else if ($c/@rows) then xs:integer($c/@rows) else 1))"/>
+                           <sch:assert test="$totalRequiredCells = $totalActualCells">
+                              Based on its first row, this table should have <sch:value-of select="$totalRequiredCells"/> cells, but it 
+                              actually has <sch:value-of select="$totalActualCells"/>.
+                           </sch:assert>
+                        </sch:rule>
+                        
+                     </constraint>
+                  </constraintSpec>
+               </elementSpec>
           
             </schemaSpec>
          </div>
