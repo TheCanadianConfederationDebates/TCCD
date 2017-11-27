@@ -138,8 +138,9 @@
             <pb n="211" facs="final/images/NS_LA_1866-04-10_Page_211.jpg"/>
             <fw type="running">OF THE HOUSE OF ASSEMBLY</fw>
             <fw type="num">211</fw>
-            
-          <div type="section">
+           
+ <!-- DL, 2017-10-24, commented out below as it precedes debate day -->           
+          <!--<div type="section">
             <p>
              
      [...] ed by an act relating to the Baddeck church 
@@ -333,12 +334,12 @@
      Kings. 
      <lb/>
          </p>
-         </div>
+         </div>-->
          
          <div type="section">
-            <p rendition="simple:right">TUESDAY APRIL 10.</p>
-            <p rendition="simple:centre"><emph>UNION OF THE COLONIES.</emph></p>
-            <p rendition="simple:centre">HON. PROVINCIAL SECRETARY.</p>   
+            <head rendition="simple:right">TUESDAY APRIL 10.</head>
+            <head rendition="simple:centre">UNION OF THE COLONIES.</head>
+            <head rendition="simple:centre">SPEECH OF HON. PROVINCIAL SECRETARY.</head>  
             <p>
     
      House met at 3 o'clock.   
@@ -397,8 +398,9 @@
      <lb/>are prepared to assume in relation to the sub<lb break="no"/>ject. I regret deeply that in approaching a 
      <lb/>
             <pb n="212" facs="final/images/NS_LA_1866-04-10_Page_212.jpg"/>
-            <fw type="running">DEBATES AND PROCEEDINGS</fw>
             <fw type="num">212</fw>
+            <fw type="running">DEBATES AND PROCEEDINGS</fw>
+            
                
      question of such gravity—which demands that 
      <lb/>
@@ -466,7 +468,8 @@
      <lb/>
             </p>
 
-            <quote rendition="tccd:blockquote"><p>
+      <quote rendition="tccd:blockquote">
+         <p>
      "As it is well known, a few designing politicians, 
      <lb/>
      doing the work of conspirators, traitorously contem<lb break="no"/>plate the destruction of our constitution, and the 
@@ -870,8 +873,9 @@
             </p>
 
             <pb n="214" facs="final/images/NS_LA_1866-04-10_Page_214.jpg"/>
-            <fw type="running">DEBATES AND PROCEEDINGS</fw>
             <fw type="num">214</fw>
+            <fw type="running">DEBATES AND PROCEEDINGS</fw>
+            
             <p>
      promoting the scheme though he was at the 
      <lb/>
@@ -1369,8 +1373,9 @@
      <lb/>
             </p>
             <pb n="216" facs="final/images/NS_LA_1866-04-10_Page_216.jpg"/>
-            <fw type="running">DEBATES AND PROCEEDINGS</fw>
             <fw type="num">216</fw>
+            <fw type="running">DEBATES AND PROCEEDINGS</fw>
+            
             <p>
      rebel," at this moment occupies a position as 
      <lb/>
@@ -1880,8 +1885,9 @@
      <lb/>
          
             <pb n="218" facs="final/images/NS_LA_1866-04-10_Page_218.jpg"/>
+             <fw type="num">218</fw>
                <fw type="running">DEBATES AND PROCEEDINGS</fw>
-            <fw type="num">218</fw>
+            
     
      favour of a Federal Union of these Provinces with a 
      <lb/>
@@ -2380,9 +2386,9 @@
      <lb/>
             
             <pb n="220" facs="final/images/NS_LA_1866-04-10_Page_220.jpg"/>
-            <fw type="running">DEBATES AND PROCEEDINGS</fw>
-            <fw type="num">220</fw>
-           
+               <fw type="num">220</fw>
+               <fw type="running">DEBATES AND PROCEEDINGS</fw>
+                      
      the naval armaments sent out too late for their 
      <lb/>
      relief. *  *  *  *  * 
@@ -2813,8 +2819,9 @@
      <lb/>
  
             <pb n="222" facs="final/images/NS_LA_1866-04-10_Page_222.jpg"/>
-            <fw type="running">DEBATES AND PROCEEDINGS</fw>
             <fw type="num">222</fw>
+            <fw type="running">DEBATES AND PROCEEDINGS</fw>
+            
 
      country, the pride in its institutions, lies to the fact 
      <lb/>
@@ -3011,9 +3018,9 @@
          </div>
          
          <div type="section">
-            <p rendition="simple:right">TUESDAY APRIL 10.</p>
-            <p rendition="simple:centre"><emph>UNION OF THE COLONIES.</emph></p>
-            <p rendition="simple:centre">SPEECH OF MR. ARCHIBALD.</p>   
+            <head rendition="simple:right">TUESDAY APRIL 10.</head>
+            <head rendition="simple:centre">UNION OF THE COLONIES.</head>
+            <head rendition="simple:centre">SPEECH OF MR. ARCHIBALD.</head>   
 
             <p>
      Mr. ARCHIBALD said:—After the very long 
@@ -3286,8 +3293,8 @@
      <lb/>
             
             <pb n="224" facs="final/images/NS_LA_1866-04-10_Page_224.jpg"/>
-            <fw type="running">DEBATES AND PROCEEDINGS</fw>
             <fw type="num">224</fw>
+            <fw type="running">DEBATES AND PROCEEDINGS</fw>
            
      these; but contemplating the whole Empire, 
      <lb/>
@@ -3495,10 +3502,10 @@
             </p>
          </div>
          
-         <div type="section">
-            <p rendition="simple:right">Wednesday, April 11.</p>
-            <p rendition="simple:centre">The House met at 3 o'clock.</p>
-            <p rendition="simple:centre"><emph>MISCELLANEOUS.</emph></p>   
+<!--         <div type="section">
+            <head><p rendition="simple:right">Wednesday, April 11.</p></head>
+            <head><p rendition="simple:centre">The House met at 3 o'clock.</p></head>
+            <head><p rendition="simple:centre">MISCELLANEOUS.</p></head>  
 
             <p>
     
@@ -3543,7 +3550,7 @@
             </p>
 
             <p>
-     Mr Coffin and Mr Locke objected to the bill as 
+     <persName ref="pers:COFF1">Mr Coffin</persName> and <persName ref="pers:LOCK1">Mr Locke</persName> objected to the bill as 
      <lb/>
      it might operate hardly on poor working men, 
      <lb/>
@@ -3554,7 +3561,7 @@
      committee. 
      <lb/>
             </p>
-         </div></div>
+         </div>--></div>
       </body>
    </text>
 </TEI>
