@@ -7449,11 +7449,9 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="divnesting1" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
-                           <sch:assert test="parent::tei:div[@type='debate']">
+                           <sch:assert test="parent::tei:div[@type=('debate', 'treaty', 'article')]">
                     Error: a div with @type="document" or "section" must be a child of a div with 
-                    @type="debate" (in other words, when a document is read into the record, this 
-                    must be done in the context of a debate; and debate subsections must obviously 
-                    be children of debate divs).
+                    @type="debate", "treaty" or "article".
                   </sch:assert>
                         </sch:rule>
                      </constraint>
@@ -7463,7 +7461,7 @@ so Volume 2 by implication has finished. -->
                         <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="@type=('debate', 'article', 'treaty')">
                               Error: a document body must contain a treaty, a debate, or an article reporting
-                              a debate (div/@type="debate" or "article").
+                              a debate (div/@type="debate", "treaty", or "article").
                            </sch:assert>
                         </sch:rule>
                      </constraint>
