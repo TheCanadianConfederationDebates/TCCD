@@ -7490,6 +7490,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="section">
                               <gloss>A subsection of a debate which has its own subheading in the record.</gloss>
                            </valItem>
+                           <valItem ident="treaty">
+                              <gloss>A treaty document.</gloss>
+                           </valItem>
                         </valList>
                      </attDef>
                   </attList>
@@ -13178,6 +13181,27 @@ so Volume 2 by implication has finished. -->
                         
                      </constraint>
                   </constraintSpec>
+               </elementSpec>
+               
+               <elementSpec ident="list" module="core" mode="change">
+                  <attList>
+                     <attDef ident="rend" mode="add">
+                        <valList type="closed">
+                           <valItem ident="bulleted">
+                              <gloss>items preceded by bullets or similar markings</gloss>
+                           </valItem>
+                           <valItem ident="inline">
+                              <gloss>items rendered within continuous prose, with no linebreaks</gloss>
+                           </valItem>
+                           <valItem ident="numbered">
+                              <gloss>items preceded by numbers or letters</gloss>
+                           </valItem>
+                           <valItem ident="simple">
+                              <gloss>items rendered as blocks, but with no bullet or number</gloss>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
                </elementSpec>
           
             </schemaSpec>
