@@ -13620,7 +13620,9 @@
                      <note>Treaty # <num type="treaty">1</num>. Location: <placeName ref="plc:LFOR1">Lower Fort Garry</placeName>. </note>
                   </state>
                </person>
-               <person xml:id="ARCH6">
+               <!--GL, 2017-11-30, commented out because this is extremely likely to be the same person as above 
+
+<person xml:id="ARCH6">
                   <persName when="1871">
                      <surname>Archibald</surname>,
                     <forename>E.</forename>
@@ -13630,7 +13632,9 @@
                      <label>witness</label>
                      <note>Treaty # <num type="treaty">2</num>. Location: <placeName ref="plc:MANI1">Manitoba Post</placeName>. </note>
                   </state>
-               </person>
+               </person>-->
+
+
                <person xml:id="ARCH7">
                   <persName when="1871">
                      <surname>Archibald</surname>,
