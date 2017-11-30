@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-11-30T20:10:21Z. 2016.
+Schema generated from ODD source 2017-11-30T20:22:01Z. 2016.
 TEI Edition: Version 3.3.0a. Last updated on
 	17th November 2017, revision 6711c60
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0a./
@@ -4232,8 +4232,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
-                           <sch:assert test="@type=('debate', 'article')">
-                              Error: a document body must contain a debate or an article reporting
+                           <sch:assert test="@type=('debate', 'article', 'treaty')">
+                              Error: a document body must contain a treaty, a debate, or an article reporting
                               a debate (div/@type="debate" or "article").
                            </sch:assert>
                         </sch:rule>

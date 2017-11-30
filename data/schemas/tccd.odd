@@ -7461,8 +7461,8 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="divnesting2" scheme="isoschematron">
                      <constraint>
                         <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
-                           <sch:assert test="@type=('debate', 'article')">
-                              Error: a document body must contain a debate or an article reporting
+                           <sch:assert test="@type=('debate', 'article', 'treaty')">
+                              Error: a document body must contain a treaty, a debate, or an article reporting
                               a debate (div/@type="debate" or "article").
                            </sch:assert>
                         </sch:rule>
