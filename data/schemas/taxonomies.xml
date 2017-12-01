@@ -129,7 +129,7 @@
           </category>
           <category xml:id="lgNBLA">
             <gloss>New Brunwick Legislative Assembly debates on Confederation</gloss>
-            <desc>TNew Brunwick Legislative Assembly debates on Confederation</desc>
+            <desc>New Brunwick Legislative Assembly debates on Confederation</desc>
           </category>
           <category xml:id="lgNSLA">
             <gloss>Nova Scotia Legislative Assembly debates on Confederation</gloss>
@@ -156,6 +156,14 @@
             <gloss>Peter Erasmus's narrative of Treaty 6 negotiations</gloss>
             <desc>Peter Erasmus's narrative of Treaty 6 negotiations</desc>
             <!-- this ID may not be correct since XML file has yet to be produced-->
+          </category>
+          <category xml:id="treaty">
+            <gloss>Treaty texts</gloss>
+            <desc>Treaty texts from Indigenous and Northern Affairs Canada</desc>
+          </category>
+          <category xml:id="treaty_fr">
+            <gloss>Textes des traités</gloss>
+            <desc>Textes des traités fournis par Affaires autochtones et du Nord Canada</desc>
           </category>
         </taxonomy>
       </classDecl>

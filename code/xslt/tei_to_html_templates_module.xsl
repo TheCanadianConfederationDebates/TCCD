@@ -213,9 +213,10 @@
     </xd:doc>
     <xsl:template match="listPerson | listBibl | list | listPlace">
         <xsl:apply-templates select="head"/>
-        <ul data-el="{local-name()}">
+        <xsl:element name="{if (self::list[@rend='numbered']) then 'ol' else 'ul'}">
+            <xsl:attribute name="data-el" select="local-name()"/>
             <xsl:apply-templates select="@*|node()[not(self::head)]"/>
-        </ul>
+        </xsl:element>
     </xsl:template>
     
     <xd:doc scope="component">
@@ -384,6 +385,13 @@
     </xsl:template>
     
     <xd:doc scope="component">
+        <xd:desc>Handler for the choice element with sic/corr.</xd:desc>
+    </xd:doc>
+    <xsl:template match="choice[sic and corr]">
+        <span class="correction" title="orig: {@sic}"><xsl:apply-templates select="corr"/></span>
+    </xsl:template>
+    
+    <xd:doc scope="component">
         <xd:desc>Handler for the lb elements which are breaking: add space.</xd:desc>
     </xd:doc>
     <xsl:template match="lb[not(@break='no')]">
@@ -488,6 +496,9 @@
     </xsl:template>
     <xsl:template match="persName/@when">
         <xsl:attribute name="data-when" select="."/>
+    </xsl:template>
+    <xsl:template match="@rend">
+        <xsl:attribute name="data-rend" select="."/>
     </xsl:template>
     
     <xd:doc scope="component">
