@@ -13617,23 +13617,10 @@
                   </persName>
                   <state when="1871">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">1</num>. Location: <placeName ref="plc:LFOR1">Lower Fort Garry</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1</num>. Location: <placeName ref="plc:LFOR1">Lower Fort Garry</placeName>. Treaty # <num type="treaty">2</num>. Location: <placeName ref="plc:MANI1">Manitoba Post</placeName>. </note>
                   </state>
                </person>
-               <!--GL, 2017-11-30, commented out because this is extremely likely to be the same person as above 
-
-<person xml:id="ARCH6">
-                  <persName when="1871">
-                     <surname>Archibald</surname>,
-                    <forename>E.</forename>
-                     <forename>A.</forename>
-                  </persName>
-                  <state when="1871">
-                     <label>witness</label>
-                     <note>Treaty # <num type="treaty">2</num>. Location: <placeName ref="plc:MANI1">Manitoba Post</placeName>. </note>
-                  </state>
-               </person>-->
-
+            
 
                <person xml:id="ARCH7">
                   <persName when="1871">
@@ -22394,22 +22381,7 @@
                      <label>Indian Commissioner</label>
                      <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
                   </state>
-                  <listBibl>
-                     <bibl xml:lang="en">
-                        <ptr target="http://www.biographi.ca/en/bio/provencher_joseph_alfred_norbert_11E.html"/>
-                     </bibl>
-                     <bibl xml:lang="fr">
-                        <ptr target="http://www.biographi.ca/fr/bio/provencher_joseph_alfred_norbert_11F.html"/>
-                     </bibl>
-                  </listBibl>
-               </person>
-               <person xml:id="PROV2">
-                  <persName when="1876">
-                     <surname>Provencher</surname>,
-                    <forename>Joseph</forename>
-                     <forename>Alfred Norbert</forename>
-                  </persName>
-                  <state when="1876">
+      <state when="1876">
                      <label>Witness</label>
                      <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="plc:WINN4">Winnipeg</placeName>. </note>
                   </state>
@@ -22422,6 +22394,7 @@
                      </bibl>
                   </listBibl>
                </person>
+
                <person xml:id="PRUD1">
                   <persName when="1899">
                      <surname>Prud'homme</surname>,
