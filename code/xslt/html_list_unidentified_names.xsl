@@ -67,7 +67,7 @@
     <xd:doc scope="component">
         <xd:desc>The names we're going to list.</xd:desc>
     </xd:doc>
-    <xsl:variable name="unidentifiedNames" select="$htmlDocs//span[@class='unidentifiedName']"/>
+    <xsl:variable name="unidentifiedNames" select="$htmlDocs/html[not(@id='unidentified_names')]//span[@class='unidentifiedName']"/>
     
     <xd:doc>
         <xd:desc>The root template builds the output document directly.</xd:desc>
@@ -98,7 +98,7 @@
                 </body>
             </html>
         </xsl:variable>
-        <xsl:result-document href="{concat($outputFolder, '/', 'unidentified_names.htm')}">
+        <xsl:result-document href="{concat($outputFolder, '/', 'unidentified_names.html')}">
             <xsl:sequence select="$outDoc"/>
         </xsl:result-document>
     </xsl:template>
