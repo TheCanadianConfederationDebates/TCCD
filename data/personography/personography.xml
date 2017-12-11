@@ -24286,6 +24286,10 @@
                      <label>witness; N.W.M.P</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
                   </state>
+   <state when="1876">
+                     <label>witness; Inspector N.W.M.P</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
                   <state when="1878">
                      <label>witness; Inspector N.W.M.P.</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BATT4">Battleford</placeName>. </note>
@@ -24303,25 +24307,7 @@
                      </bibl>
                   </listBibl>
                </person>
-               <person xml:id="WALK4">
-                  <persName when="1876">
-                     <surname>Walker</surname>,
-                    <forename>Jas.</forename>
-                     <forename>F.</forename>
-                  </persName>
-                  <state when="1876">
-                     <label>witness; Inspector N.W.M.P</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
-                  </state>
-                  <listBibl>
-                     <bibl xml:lang="en">
-                        <ptr target="http://www.biographi.ca/en/bio/walker_james_16E.html"/>
-                     </bibl>
-                     <bibl xml:lang="fr">
-                        <ptr target="http://www.biographi.ca/fr/bio/walker_james_16F.html"/>
-                     </bibl>
-                  </listBibl>
-               </person>
+            
                <person xml:id="WALS5">
                   <persName when="1877">
                      <surname>Walsh</surname>,
