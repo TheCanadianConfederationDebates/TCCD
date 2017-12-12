@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-11-30T20:26:05Z. 2016.
+Schema generated from ODD source 2017-12-12T20:03:08Z. 2016.
 TEI Edition: Version 3.3.0a. Last updated on
 	17th November 2017, revision 6711c60
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0a./
@@ -4882,10 +4882,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Archambeault, Louis. L'Assomption (1865: Ont/Que Leg); L'Assomption (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); L'Assomption (1872: PEI House of Commons).</a:documentation>
                   <value>pers:ARCH2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Archibald, Adams George (Sir). Colchester County South Division (1865: NS Leg); Colchester County South Division (1866: NS Leg); Colchester (1869: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Lieut.-Gov. of Man. and N.W. Territories, witness Treaty # 1. Location: Lower Fort Garry. (1871: ); Lieut. Gov. of Man &amp; NWT, witness Treaty # 2. Location: Manitoba Post. (1871: ).</a:documentation>
-                  <value>pers:ARCH6</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Archibald, E. A. witness Treaty # 2. Location: Manitoba Post. (1871: ).</a:documentation>
                   <value>pers:ARCH5</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Archibald, E. Alice. witness Treaty # 1. Location: Lower Fort Garry. (1871: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Archibald, E. Alice. witness Treaty # 1. Location: Lower Fort Garry. Treaty # 2. Location: Manitoba Post. (1871: ).</a:documentation>
                   <value>pers:ARCH4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Archibald, Harry Grenfell. Skeena (1945: House of Commons); Skeena (1949: NF House of Commons).</a:documentation>
                   <value>pers:ARCH7</value>
@@ -5290,10 +5288,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Breithaupt, Louis Orville. Waterloo North (1945: House of Commons); Waterloo North (1949: NF House of Commons).</a:documentation>
                   <value>pers:BREL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Breland, Pascal. witness Treaty # 4. Location: Qu'Appelle. (1874: ); witness Treaty # 4. Location: Qu'Appelle Lakes. (1875: ); witness Treaty # 4. Location: Qu'Appelle Lakes. (1875: ).</a:documentation>
-                  <value>pers:BREM1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bremnes, Joseph. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
-                  <value>pers:BREM2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bremnes, Thomas. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:BREN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Brennan, Peter. St. John's West (1869: NF Leg).</a:documentation>
                   <value>pers:BRET1</value>
@@ -5304,6 +5298,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Brick, T. A. witness Treaty # 8. Location: Peace River Landing. (1899: ).</a:documentation>
                   <value>pers:BRID1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bridges, Hedley Francis Gregory. York—Sunbury (1945: House of Commons).</a:documentation>
+                  <value>pers:BRIM1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Brimmis, Joseph. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
+                  <value>pers:BRIM2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Brimmis, Thomas. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:BRIS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bristol, Edmund James. Toronto Centre (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:BROD1</value>
@@ -5535,7 +5533,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:CHEN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Che-Ne-Ka, John. Stony (1877: ); Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</a:documentation>
                   <value>pers:CHEE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chee. Chief Treaty # 4. Location: Qu'Appelle Lakes. (1875: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Chee Cuk. Chief Treaty # 4. Location: Qu'Appelle Lakes. (1875: ).</a:documentation>
                   <value>pers:CHEE3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cheena, Simon. councillor? Treaty # 9. Location: Moose Factory. (1905: ).</a:documentation>
                   <value>pers:CHEE2</value>
@@ -5746,8 +5744,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crummey, Pleaman Wellington. Bay de Verde (1946: NF National Convention).</a:documentation>
                   <value>pers:CUDL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cudlip, John Waterbury. Saint John County (1865: NB Leg).</a:documentation>
-                  <value>pers:CUK1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cuk. Chief Treaty # 4. Location: Qu'Appelle Lakes. (1875: ).</a:documentation>
                   <value>pers:CUMB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cumberland, Frederick William. Algoma (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Algoma (1872: PEI House of Commons).</a:documentation>
                   <value>pers:CUMM1</value>
@@ -8229,9 +8225,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:PROU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Proulx, Edmond. Prescott (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:PROV1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Provencher, Joseph Alfred Norbert. Indian Commissioner, Esquire Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ); Indian Commissioner, Esquire Treaty # 3. Location: signed at?. (1873: ); Indian Commissioner, witness Treaty # 1 &amp;/or 2. Location: signed near Fort Alexander, on the Indian Reserve. (1875: ); Indian Commissioner, witness Treaty # 1 &amp;/or 2. Location: Broken Head River. (1875: ); Indian Commissioner Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875: ).</a:documentation>
-                  <value>pers:PROV2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Provencher, Joseph Alfred Norbert. Witness Treaty # 5. Location: Winnipeg. (1876: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Provencher, Joseph Alfred Norbert. Indian Commissioner, Esquire Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ); Indian Commissioner, Esquire Treaty # 3. Location: signed at?. (1873: ); Indian Commissioner, witness Treaty # 1 &amp;/or 2. Location: signed near Fort Alexander, on the Indian Reserve. (1875: ); Indian Commissioner, witness Treaty # 1 &amp;/or 2. Location: Broken Head River. (1875: ); Indian Commissioner Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875: ); Witness Treaty # 5. Location: Winnipeg. (1876: ).</a:documentation>
                   <value>pers:PROW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Prowse, Daniel Woodley. Burgeo-La Poile (1861: NF Leg); Burgeo-La Poile (1865: NF Leg).</a:documentation>
                   <value>pers:PROW2</value>
@@ -9029,9 +9023,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:WALK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walkem, George Anthony. ? Cariboo East (1870: BC Leg).</a:documentation>
                   <value>pers:WALK3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walker, James. witness; N.W.M.P Treaty # 6. Location: or near Fort Carlton. (1876: ); witness; Inspector N.W.M.P. Treaty # 6. Location: Battleford. (1878: ); witness Treaty # 8. Location: Lesser Slave Lake. (1899: ).</a:documentation>
-                  <value>pers:WALK4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walker, Jas. F. witness; Inspector N.W.M.P Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walker, James. witness; N.W.M.P Treaty # 6. Location: or near Fort Carlton. (1876: ); witness; Inspector N.W.M.P Treaty # 6. Location: signed near Fort Pitt. (1876: ); witness; Inspector N.W.M.P. Treaty # 6. Location: Battleford. (1878: ); witness Treaty # 8. Location: Lesser Slave Lake. (1899: ).</a:documentation>
                   <value>pers:WALK2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Walker, Ronald. 3rd Kings (1863: PEI Leg).</a:documentation>
                   <value>pers:WALL1</value>
