@@ -98,7 +98,7 @@
                 </body>
             </html>
         </xsl:variable>
-        <xsl:result-document href="{concat($outputFolder, '/', 'unidentified_names.html')}">
+        <xsl:result-document href="{concat($outputFolder, '/', 'unidentified_names.htm')}">
             <xsl:sequence select="$outDoc"/>
         </xsl:result-document>
     </xsl:template>
