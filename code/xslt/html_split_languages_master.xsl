@@ -243,7 +243,7 @@
         need to be linked with ../, since the contents pages are moving down into language
         subdirectories.</xd:desc>
     </xd:doc>
-    <xsl:template match="li/a[matches(@href, '^(unidentified_names.htm)|(a_to_z.htm)$')]">
+    <xsl:template match="li/a[matches(@href, '^(unidentified_names.htm)|(a_to_z.htm)$')]" mode="#all">
         <a href="{concat('../', @href)}"><xsl:apply-templates/></a>
     </xsl:template>
     
