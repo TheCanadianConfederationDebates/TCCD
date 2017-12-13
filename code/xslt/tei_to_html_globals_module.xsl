@@ -77,4 +77,10 @@
     </xd:doc>
     <xsl:variable name="projectTaxonomies" select="doc(concat($projectRoot, '/data/schemas/taxonomies.xml'))"/>
     
+    <xd:doc scope="component">
+        <xd:desc>The project bibliography file, from which has some things we
+            use for captions etc. in it.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="projectBibliography" select="doc(concat($projectRoot, '/data/bibliography/bibliography.xml'))"/>
+    
 </xsl:stylesheet>
