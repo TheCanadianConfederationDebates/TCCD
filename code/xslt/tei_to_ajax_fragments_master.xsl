@@ -129,30 +129,6 @@
                 <div id="{$currId}">
                     <xsl:apply-templates select="node()"/>
 
-                    
-                    <!-- Now we need a list of documents associated with each person.  -->
-                        <xsl:variable name="persNameRegEx" select="concat('^\s*(', string-join((for $p in $peopleIds return concat('(pers:', $p, ')')), '|'), ')\s*$')"/>
-                        <xsl:variable name="docsForPlace" select="$teiDocs/TEI[not(@xml:id=('personography', 'placeography', 'bibliography'))][text/descendant::persName[matches(@ref, $persNameRegEx)]]"/>
-                        <xsl:if test="count($docsForPlace) gt 0">
-                            <h3 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:copy-of select="$debatesDocumentsCaption/node()"/></h3>
-                            <div id="{concat($currId, '_documents')}">
-                        
-                            <ul class="docsMentioningPerson">
-                                <xsl:for-each-group select="$docsForPlace" group-by="tokenize(@xml:id, '(_fr)?_\d')[1]">
-                                    <xsl:sort select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
-                                    <xsl:variable name="legCaption" select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
-                                    <li>
-                                        <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="$legCaption/node()"/></h6>
-                                        <ul>
-                                            <xsl:for-each select="current-group()">
-                                                <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
-                                            </xsl:for-each>
-                                        </ul>
-                                    </li>
-                                </xsl:for-each-group>
-                            </ul>
-                        </div>
-                    </xsl:if>
                     <xsl:if test="count($peopleIds) gt 0">
                         <h3 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:copy-of select="$peopleCaptionShort/node()"/></h3>
                         <div id="{concat($currId, '_people')}">
@@ -167,6 +143,30 @@
                             </ul>
                         </div>
                     </xsl:if>
+                    <!-- Now we need a list of documents associated with each person.  -->
+                    <xsl:variable name="persNameRegEx" select="concat('^\s*(', string-join((for $p in $peopleIds return concat('(pers:', $p, ')')), '|'), ')\s*$')"/>
+                    <xsl:variable name="docsForPlace" select="$teiDocs/TEI[not(@xml:id=('personography', 'placeography', 'bibliography'))][text/descendant::persName[matches(@ref, $persNameRegEx)]]"/>
+                        <xsl:if test="count($docsForPlace) gt 0">
+                            <h3 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:copy-of select="$debatesDocumentsCaption/node()"/></h3>
+                            <div id="{concat($currId, '_documents')}">
+                        
+                                <ul class="docsMentioningPerson">
+                                    <xsl:for-each-group select="$docsForPlace" group-by="tokenize(@xml:id, '(_fr)?_\d')[1]">
+                                        <xsl:sort select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
+                                        <xsl:variable name="legCaption" select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
+                                        <li>
+                                            <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="$legCaption/node()"/></h6>
+                                            <ul>
+                                                <xsl:for-each select="current-group()">
+                                                    <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
+                                                </xsl:for-each>
+                                            </ul>
+                                        </li>
+                                    </xsl:for-each-group>
+                                </ul>
+                            </div>
+                    </xsl:if>
+                    
                 </div>
             </xsl:result-document>
         </xsl:for-each>

@@ -444,8 +444,9 @@
     <xsl:template match="listPlace/place/location">
         <span class="{local-name()}">
             <xsl:if test="string-length(normalize-space(geo)) gt 0">
-                <a href="canadaMap.html?place={ancestor::place[1]/@xml:id}">
-                    <xsl:value-of select="geo"/>
+                <a href="canadaMap.html?place={ancestor::place[1]/@xml:id}" title="{geo}">
+<!--                    Globe character. -->
+                    <xsl:text>&#x1F310;</xsl:text>
                 </a>
                 <xsl:text> </xsl:text>
             </xsl:if>
