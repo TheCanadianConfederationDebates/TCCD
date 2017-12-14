@@ -83,4 +83,10 @@
     </xd:doc>
     <xsl:variable name="projectBibliography" select="doc(concat($projectRoot, '/data/bibliography/bibliography.xml'))"/>
     
+    <xd:doc scope="component">
+        <xd:desc>List of portrait images available in the repo, so that we don't try to 
+        link to a non-existent image.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="portraitList" select="unparsed-text(concat($projectRoot, '/code/utilities/portraits.txt'))"/>
+    
 </xsl:stylesheet>

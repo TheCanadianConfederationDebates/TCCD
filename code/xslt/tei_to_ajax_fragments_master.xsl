@@ -79,6 +79,9 @@
                 <xsl:variable name="currId" select="@xml:id"/>
                 <xsl:message>Processing <xsl:value-of select="$currId"/></xsl:message>
                 <div id="{$currId}">
+                    <xsl:if test="matches($portraitList, concat('\|', $currId, '\.jpg\|'))">
+                        <xsl:attribute name="data-has-portrait" select="'yes'"/>
+                    </xsl:if>
                     <xsl:apply-templates select="node()"/>
                     <xsl:if test="parent::listPerson/@xml:id = 'historicalPersonography'">
                         <xsl:variable name="link" select="concat('pers:', @xml:id)"/>

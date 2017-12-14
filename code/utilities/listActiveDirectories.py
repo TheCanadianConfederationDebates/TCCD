@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 #This is a simple script which walks the trees in the TCCD/data folder
-#to find and list all the folders containing files that need to be 
-#dealt with in various ways. These lists are saved into text files 
+#to find and list all the folders containing files that need to be
+#dealt with in various ways. These lists are saved into text files
 #which can be read and used by the build process.
 
 #Author Martin Holmes. November 2016.
@@ -18,13 +18,16 @@ print("=====================================================================")
 print()
 
 def getScriptPath():
-  return os.path.dirname(os.path.realpath(sys.argv[0]))
+    return os.path.dirname(os.path.realpath(sys.argv[0]))
 
 #root location is the folder containing this file.
 dirRoot = getScriptPath()
 
 #data directory is relative to working dir
 dirData = os.path.abspath(dirRoot + '../../../data')
+
+#portrait directory containing images is relative to working dir
+dirPortraits = os.path.abspath(dirRoot + '../../../data/personography/portraits')
 
 #regex for TEI file names
 reTeiFile = re.compile("^((lg.+\d\d\d\d-\d\d-\d\d)|(personography)|(placeography)|(taxonomies)|(bibliography)).xml$")
@@ -44,18 +47,23 @@ provinceFolders = ["AB_SK", "BC", "Indigenous_Voices", "MB", "NB", "Nfld", "NS",
 #Function for creating an XSLT collection file from a list of files.
 
 def writeCollection(fileList, fileName):
-  f = open(dirRoot + '/' + fileName, 'w')
-  f.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
-  f.write("<collection>\n")
-  for i in fileList:
-    f.write("   <doc href=\"" + i + "\"/>\n")
-  f.write("</collection>")
-  
+    f = open(dirRoot + '/' + fileName, 'w')
+    try:
+        f.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
+        f.write("<collection>\n")
+        for i in fileList:
+            f.write("   <doc href=\"" + i + "\"/>\n")
+        f.write("</collection>")
+    finally:
+        f.close()
+
 def writeList(fileList, fileName):
-  f = open(dirRoot + '/' + fileName, 'w')
-  for i in fileList:
-    #f.write("**/" + os.path.basename(i).replace(".", "\.") + "\n")
-    f.write(i + "\n")
+    f = open(dirRoot + '/' + fileName, 'w')
+    try:
+        for i in fileList:
+            f.write(i + "\n")
+    finally:
+        f.close()
 
 print("=====================================================================")
 print("Walking the data directory to list all the TEI files...")
@@ -65,7 +73,7 @@ for dirpath, subdirs, files in os.walk(dirData):
     for f in files:
         if re.match(reTeiFile, f):
             teiFiles.append(os.path.join(dirpath, f))
-            
+
 writeCollection(teiFiles, 'teiFiles.xml')
 writeList(teiFiles, 'teiFiles.txt')
 
@@ -78,11 +86,11 @@ print("Listing all the original HOCR files...")
 
 origHocrFiles = []
 for fldr in provinceFolders:
-  for dirpath, subdirs, files in os.walk(dirData + '/' + fldr):
-      for f in files:
-          if re.search(reOrigHocr, dirpath):
-              origHocrFiles.append(os.path.join(dirpath, f))
- 
+    for dirpath, subdirs, files in os.walk(dirData + '/' + fldr):
+        for f in files:
+            if re.search(reOrigHocr, dirpath):
+                origHocrFiles.append(os.path.join(dirpath, f))
+
 writeCollection(origHocrFiles, 'origHocrFiles.xml')
 
 print("Done.")
@@ -94,15 +102,26 @@ print("Listing all the edited HOCR files...")
 
 editedHocrFiles = []
 for fldr in provinceFolders:
-  for dirpath, subdirs, files in os.walk(dirData + '/' + fldr):
-    for f in files:
-      if re.search(reEditedHocr, dirpath):
-        editedHocrFiles.append(os.path.join(dirpath, f))
-      
-            
+    for dirpath, subdirs, files in os.walk(dirData + '/' + fldr):
+        for f in files:
+            if re.search(reEditedHocr, dirpath):
+                editedHocrFiles.append(os.path.join(dirpath, f))
+
+
 writeCollection(editedHocrFiles, 'editedHocrFiles.xml')
+
+print("=====================================================================")
+print("Listing all the portrait images for the personography...")
+
+portraitImages = [f for f in os.listdir(dirPortraits) if re.match(r'[A-Z]+[0-9]+\.jpg', f)]
+
+f = open(dirRoot + '/portraits.txt', 'w')
+try:
+    for i in portraitImages:
+        f.write("|" + i + "|")
+finally:
+    f.close()
 
 print("Done.")
 print("=====================================================================")
 print()
-

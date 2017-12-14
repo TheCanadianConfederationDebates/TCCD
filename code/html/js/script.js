@@ -76,7 +76,7 @@ function showInfo(sourceId) {
   infoContent.innerHTML = sourceEl.innerHTML;
   
   //Show the portrait
-  if (sourceId.match(/^[A-Z]{4,}\d+$/)){
+  if (sourceId.match(/^[A-Z]{4,}\d+$/) && sourceEl.getAttribute('data-has-portrait') === 'yes'){
     infoHeader.style.backgroundImage = 'url(../portraits/' + sourceId + '.jpg)';
     infoHeader.style.display = 'block';
   }

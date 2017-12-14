@@ -184,9 +184,11 @@
                         <xsl:for-each
                             select="$teiDocs/TEI[@xml:id = 'personography']//person[@xml:id = $persIds]">
                             <xsl:sort select="string-join(persName, ' ')"/>
+                            <xsl:variable name="personDiv" select="doc(concat($outputFolder, '/ajax/', @xml:id, '.xml'))/xh:div"/>
                             <li id="{@xml:id}">
+                                <xsl:copy-of select="$personDiv/@data-has-portrait"/>
                                 <xsl:sequence
-                                    select="doc(concat($outputFolder, '/ajax/', @xml:id, '.xml'))/xh:div/node()"
+                                    select="$personDiv/node()"
                                 />
                             </li>
                         </xsl:for-each>
