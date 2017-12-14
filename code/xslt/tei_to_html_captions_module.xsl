@@ -108,6 +108,14 @@
     </xsl:variable>
     
     <xd:doc scope="component">
+        <xd:desc>Caption for footnotes.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="footnotesCaption">
+        <span lang="en">Footnotes: </span>
+        <span lang="fr">Notes de bas de page: </span>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
         <xd:desc>Captions for different types of place: federal riding</xd:desc>
     </xd:doc>
     <xsl:variable name="federalRidingCaption"><span lang="en">Federal riding</span><span lang="fr">[Fr caption needed for "Federal riding"]</span></xsl:variable>

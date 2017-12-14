@@ -177,6 +177,15 @@ span[data-level='j'] span[data-level='j'],
 span[data-level='j'] span[data-level='m'] {
   font-style: normal;
 }
+span[data-el='note']{
+  display: block;
+  font-size: 90%;
+}
+
+li[data-el='note']:target{
+  background-color: #ff0000;
+}
+
 li {
   margin-top: 1em;
 }
