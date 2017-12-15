@@ -118,7 +118,7 @@
     <xd:doc scope="component">
         <xd:desc>Captions for different types of place: federal riding</xd:desc>
     </xd:doc>
-    <xsl:variable name="federalRidingCaption"><span lang="en">Federal riding</span><span lang="fr">[Fr caption needed for "Federal riding"]</span></xsl:variable>
+    <xsl:variable name="federalRidingCaption"><span lang="en">Federal riding</span><span lang="fr">Circonscription fédérale</span></xsl:variable>
     
     <xd:doc scope="component">
         <xd:desc>Captions for different types of place: provincial riding</xd:desc>

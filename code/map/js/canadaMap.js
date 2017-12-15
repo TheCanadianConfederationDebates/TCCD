@@ -3,7 +3,7 @@
 //Create a reliable path to the project root, for constructing URLs.
     //We need this because we may be in either the /en/ or /fr/ subfolders.
     //We may also be in a folder root, missing the filename.
-    var projectRoot = location.href.replace(/((\/en\/)|(\/fr\/))/, '/').replace(/\/([^\.\/]+\.html)(\?.*)*$/, '/');
+    var projectRoot = location.href.replace(/((\/en\/)|(\/fr\/))/, '/').replace(/\/([^\.\/]+\.html)?(\?.*)*$/, '/');
     console.log(projectRoot);
     
     //Create default style for riding points.
