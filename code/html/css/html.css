@@ -326,12 +326,9 @@ footer {
   display: inline-block;
 }
 .linkLogo img {
-  height: 40px;
+  max-height: 1.5em;
+  width: auto;
 }
-.linkLogo:first-of-type {
-  width: 10%;
-}
-
 
 /* expander/contractor elements. */
 .closedDocCaption, .openDocCaption{

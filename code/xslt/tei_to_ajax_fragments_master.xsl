@@ -99,7 +99,7 @@
                                     <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="$legCaption/node()"/></h6>
                                         <ul>
                                             <xsl:for-each select="current-group()">
-                                                <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
+                                                <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]/date[1]"/></a></li>
                                             </xsl:for-each>
                                         </ul>
                                     </li>

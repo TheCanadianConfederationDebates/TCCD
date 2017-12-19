@@ -130,4 +130,14 @@
     </xd:doc>
     <xsl:variable name="treatyLocationCaption"><span lang="en">Treaty negotiation or signing location</span><span lang="fr">[Fr caption needed for "Treaty negotiation or signing location"]</span></xsl:variable>
     
+    <xd:doc scope="component">
+        <xd:desc>Caption for person fragment introducing debate participation</xd:desc>
+    </xd:doc>
+    <xsl:variable name="participatedCaption"><span lang="en">participated in the following debates: </span><span lang="fr">a participé aux débats de la Confédération suivants :</span></xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Caption for riding represented by someone</xd:desc>
+    </xd:doc>
+    <xsl:variable name="representedCaption"><span lang="en"> as a representative for </span><span lang="fr"> en tant que représentant de </span></xsl:variable>
+    
 </xsl:stylesheet>

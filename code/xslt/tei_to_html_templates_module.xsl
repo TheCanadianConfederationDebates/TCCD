@@ -260,6 +260,8 @@
         <span data-el="{local-name()}">
             <xsl:apply-templates select="@* | node()"/>
         </span>
+<!--     Process any DCB links here.   -->
+        <xsl:apply-templates select="ancestor::person/descendant::ptr[contains(@target, 'biographi.ca')]"/>  
     </xsl:template>
 
     <xd:doc scope="component">
@@ -338,9 +340,11 @@
 
             <xsl:if test="parent::listPerson/@xml:id = 'historicalPersonography'">
 
-                <xsl:sequence select="$nameAppearanceCaption"/>
-                <xsl:value-of select="count($teiDocs//persName[@ref = $link])"/>
-
+                <p>
+                    <xsl:sequence select="$nameAppearanceCaption"/>
+                    <xsl:value-of select="count($teiDocs//persName[@ref = $link])"/>
+                </p>
+                
                 <xsl:if test="$teiDocs/TEI[text/descendant::persName[@ref = $link]]">
                     <ul class="docsMentioningPerson">
                         <xsl:for-each select="$teiDocs/TEI[text/descendant::persName[@ref = $link]]">
@@ -361,12 +365,15 @@
             linking once we know how the riding information is going to work.</xd:desc>
     </xd:doc>
     <xsl:template match="person/affiliation[not(preceding-sibling::affiliation)]">
+        <xsl:sequence select="$participatedCaption"/>
         <ul>
             <li>
+                <xsl:apply-templates select="@when"/>
+                <xsl:sequence select="$representedCaption"/>
                 <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}">
                     <xsl:apply-templates select="node()"/>
                 </a>
-                <xsl:apply-templates select="@*"/>
+                <xsl:apply-templates select="@*[not(local-name() = 'when')]"/>
             </li>
             <xsl:apply-templates select="following-sibling::affiliation">
                 <xsl:with-param name="inList" select="true()" tunnel="yes"/>
@@ -377,10 +384,12 @@
         <xsl:param name="inList" select="false()" tunnel="yes"/>
         <xsl:if test="$inList = true()">
             <li>
+                <xsl:apply-templates select="@when"/>
+                <xsl:sequence select="$representedCaption"/>
                 <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}">
                     <xsl:apply-templates select="node()"/>
                 </a>
-                <xsl:apply-templates select="@*"/>
+                <xsl:apply-templates select="@*[not(local-name() = 'when')]"/>
             </li>
         </xsl:if>
     </xsl:template>
@@ -394,18 +403,26 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
+    
+    <xd:doc scope="component">
+        <xd:desc>We suppress notes containing only biographi.ca pointers, because these
+        are processed right after the name.</xd:desc>
+    </xd:doc>
+    <xsl:template match="person/listBibl[descendant::ptr[contains(@target, 'biographi.ca')]]"/>
+
 
     <xd:doc scope="component">
         <xd:desc>We process the attributes of affiliation elements into actual output.</xd:desc>
     </xd:doc>
     <xsl:template match="affiliation/@when">
-        <xsl:text> (</xsl:text>
+        <!--<xsl:text> (</xsl:text>-->
         <xsl:value-of select="."/>
         <xsl:if test="parent::affiliation/@n">
             <xsl:text>: </xsl:text>
             <xsl:value-of select="parent::affiliation/@n"/>
         </xsl:if>
-        <xsl:text>)</xsl:text>
+        <!--<xsl:text>)</xsl:text>-->
     </xsl:template>
     <xsl:template match="affiliation/@n"/>
 
@@ -542,6 +559,10 @@
     </xd:doc>
     <xsl:template match="ptr[@target[contains(., 'biographi.ca')]][ancestor::person]">
         <a class="linkLogo" target="{substring-before(substring-after(@target, '//'), '/')}">
+            <xsl:if test="parent::bibl[@xml:lang]">
+                <xsl:attribute name="lang" select="parent::bibl/@xml:lang"/>
+                <xsl:copy-of select="parent::bibl/@xml:lang"/>
+            </xsl:if>
             <xsl:apply-templates select="@*"/>
             <img src="images/dcb.jpg" alt="{substring-before(substring-after(@target, '//'), '/')}"
             />
