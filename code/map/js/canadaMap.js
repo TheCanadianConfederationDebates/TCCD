@@ -6,6 +6,9 @@
     var projectRoot = location.href.replace(/((\/en\/)|(\/fr\/))/, '/').replace(/\/([^\.\/]+\.html)?(\?.*)*$/, '/');
     console.log(projectRoot);
     
+    //Pointer to the currently selected feature, if there is one.
+    var currFeat = null;
+    
     //Create default style for riding points.
     var strokeRiding = new ol.style.Stroke({color: 'black', width: 2});
     var fillRiding = new ol.style.Fill({color: 'rgba(255, 204, 51, 0.5)'});
@@ -18,7 +21,7 @@
                                             anchor: [0,0.5],
                                             size:   [25,25]
                                           });
-    console.log(iconFedRiding.getSrc());
+    //console.log(iconFedRiding.getSrc());
     var iconProvRiding = new ol.style.Icon({
                                             src:    projectRoot + 'js/placemarkBlue.png',
                                             anchor: [1,0.5],
@@ -31,6 +34,9 @@
                                           });
     var strokePostalCode = new ol.style.Stroke({color: '#00ff00', width: 2});
     var fillPostalCode = new ol.style.Fill({color: 'rgba(0, 255, 0, 0.2)'});
+    
+    var strokeSelectedRiding = new ol.style.Stroke({color: '#ff0000', width: 10});
+    var fillSelectedRiding = new ol.style.Fill({color: 'rgba(255, 127, 127, 0.5)'});
     
     var ridingStyle = new ol.style.Style({
       image: new ol.style.Circle({
@@ -57,7 +63,23 @@
           });
         }
       }
-      
+    };
+    
+    var getSelectedStyle = function(feat, resolution){
+      var anchor = [1,0.5]; //provincial
+      if (feat.getProperties().type === 'federal'){
+        anchor = [0,0.5];
+      }
+      else if (feat.getProperties().type === 'treaty'){
+        anchor = [0.5,0.5];
+      }
+      return new ol.style.Style({
+        image: new ol.style.Icon({
+          src:    projectRoot + 'js/placemarkSelected.png',
+          anchor: anchor,
+          size:   [25,25]
+        })
+      });
     };
     
     var getPostalCodeStyle = function (feat, resolution){
@@ -83,7 +105,7 @@
     function parseSearch(){
       var i, maxi, feat;
       var targPlace = getQueryParam('place');
-      console.log(targPlace);
+      //console.log(targPlace);
       var targPostalCode = getQueryParam('postalCode');
       if (targPlace.length > 0){
          feat = srcRidings.getFeatureById(targPlace);
@@ -93,6 +115,11 @@
             //mapPopup.setPosition(feat.getGeometry().getCoordinates());
             placePopup(feat);
             zoomToFeature(feat);
+            if (currFeat !== null){
+              currFeat.setStyle(null);
+            }
+            currFeat = feat;
+            currFeat.setStyle(getSelectedStyle);
          }
       }
       if (targPostalCode.length > 0){
@@ -198,6 +225,11 @@
             placePopup(feature);
             //mapPopup.setPosition(e.coordinate);
           }
+          if (currFeat !== null){
+            currFeat.setStyle(null);
+          }
+          currFeat = feature;
+          currFeat.setStyle(getSelectedStyle);
       })
     });
     
@@ -211,7 +243,7 @@
     
     function placePopup(feature){
       var id = feature.getId();
-      console.log(id);
+      //console.log(id);
       //THIS FAILS. Don't know why.
       /*var url = 'ajax/' + id + '.xml';
         ajaxRetrieve(url).then(function(response) {

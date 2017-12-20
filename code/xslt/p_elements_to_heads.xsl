@@ -5,7 +5,7 @@
   exclude-result-prefixes="#all"
   xmlns="http://www.tei-c.org/ns/1.0"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-  version="3.0">
+  version="2.0">
   <xd:doc scope="stylesheet">
     <xd:desc>
       <xd:p><xd:b>Created on:</xd:b> Dec 19, 2017</xd:p>
@@ -42,12 +42,12 @@
 <!--  <xsl:template match="p/text()[normalize-space(.) = ''][not(preceding-sibling::node()) or not(following-sibling::node())]" mode="special"/>-->
   
   <!-- NOTE: This one is not matching; WHY? -->
-  <xsl:template match="p/text()[not(preceding-sibling::node())]" mode="second">
+  <xsl:template match="p/text()[following-sibling::node() and not(preceding-sibling::node())]" mode="second">
     <xsl:value-of select="replace(., '^[\s\n]+', '', 'm')"/>
   </xsl:template>
   
 
-  <xsl:template match="text()[not(following-sibling::node())]" mode="second">
+  <xsl:template match="text()[preceding-sibling::node() and not(following-sibling::node())]" mode="second">
     <xsl:value-of select="replace(., '\s+$', '', 'm')"/>
   </xsl:template>
   

@@ -480,6 +480,8 @@ footer h2 {
 }
 .mapEmbed {
   margin-top: -20px;
+/* Without this, the postal code form scrolls right off the page. */
+  height: 70vh;
 }
 .mapEmbed iframe, .mapEmbed>div {
   height: 60vh; /*16:9 ratio*/
