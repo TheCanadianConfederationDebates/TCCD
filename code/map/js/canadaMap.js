@@ -65,14 +65,15 @@
       }
     };
     
-    var getSelectedStyle = function(feat, resolution){
+    var getSelectedStyle = function(resolution){
       var anchor = [1,0.5]; //provincial
-      if (feat.getProperties().type === 'federal'){
+      if (this.getProperties().type === 'federal'){
         anchor = [0,0.5];
       }
-      else if (feat.getProperties().type === 'treaty'){
+      else if (this.getProperties().type === 'treaty'){
         anchor = [0.5,0.5];
       }
+      console.log(anchor.toString());
       return new ol.style.Style({
         image: new ol.style.Icon({
           src:    projectRoot + 'js/placemarkSelected.png',
@@ -119,6 +120,7 @@
               currFeat.setStyle(null);
             }
             currFeat = feat;
+            //console.log(targPlace);
             currFeat.setStyle(getSelectedStyle);
          }
       }
@@ -218,7 +220,10 @@
     //Add a crude click event so you can see the info on a riding.
     //Later this will show whatever it is we want to show.
     map.on("click", function(e) {
+      var found = false;
       map.forEachFeatureAtPixel(e.pixel, function (feature, layer) {
+        if (found === false){
+          found = true;
           setupMapPopup();
           if (feature.getProperties().notBefore){
             //document.getElementById('mapPopup').innerHTML = featureToHtml(feature);
@@ -230,6 +235,7 @@
           }
           currFeat = feature;
           currFeat.setStyle(getSelectedStyle);
+        }
       })
     });
     
@@ -281,6 +287,3 @@
         duration: 2000
       });
     }
-
-// ol.style.Fill, ol.style.Icon, ol.style.Stroke, ol.style.Style and
-// ol.style.Text are required for createMapboxStreetsV6Style()
