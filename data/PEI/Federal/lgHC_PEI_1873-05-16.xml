@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="lgHC_PEI_1873-05-16"
-     type="full">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_PEI_1873-05-16" type="full">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +49,7 @@
 
          <change who="lyallg" when="2016-09-29">Created this document, completed metadata, </change>
          
-         <change who="taekema_sarah" when= "2016-11-28">Marked-up people</change>
+         <change who="taekema_sarah" when="2016-11-28">Marked-up people</change>
       </revisionDesc>
   </teiHeader>
    <facsimile>
@@ -71,9 +68,9 @@
           
 <div type="section">
             <head rendition="simple:centre">HOUSE OF COMMONS</head>
-            <p rendition="simple:centre"> <emph>Friday, May 16, 1873</emph> <lb/>
+            <head rendition="simple:centre"> Friday, May 16, 1873 
                
-            </p>
+            </head>
             
             <p> The SPEAKER took the
                chair at 3 pm. <lb/>
@@ -240,8 +237,7 @@
          
             <head rendition="simple:centre">THE NORTHERN RAILWAY</head>
             
-            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName> transmitted a report of the Lieutenant-<lb break="yes"
-            />Governor of Ontario with respect to the Northern Railway <lb/> Company. <lb/>
+            <p> <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName> transmitted a report of the Lieutenant-<lb break="yes"/>Governor of Ontario with respect to the Northern Railway <lb/> Company. <lb/>
           </p>
             
          

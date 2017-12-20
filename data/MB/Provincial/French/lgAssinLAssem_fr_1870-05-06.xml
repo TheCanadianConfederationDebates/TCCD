@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgAssinLAssem_fr_1870-05-06" type="full">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgAssinLAssem_fr_1870-05-06" type="full">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,7 +41,7 @@
 <!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
         selected. This is especially important in cases where discontinuous 
         page-ranges are used.  -->
-        <p></p>
+        <p/>
       </samplingDecl>
     </encodingDesc>
     <revisionDesc>
@@ -66,9 +65,9 @@
 
 
 
-<p rendition="simple:right">Chambre de l'Assemblée, Upper Fort Garry</p>
+<head rendition="simple:right">Chambre de l'Assemblée, Upper Fort Garry</head>
 
-<p rendition="simple:right">Vendredi, 6 mai 1870</p>
+<head rendition="simple:right">Vendredi, 6 mai 1870</head>
 
 <p>Le Président prend place au fauteuil à deux heures et demie P.M.</p>
 
@@ -89,8 +88,7 @@
 
 <p>propose que la période de coupe des foins au-delà de la ligne de quatre milles soit le vingt-cinq juillet, au lieu du vingt et un juillet.</p>
 
-<p><persName ref="pers:TOUR2">L'honorable M. Touron</persName>, appuyé par <persName
-              ref="pers:BANN1">l'honorable M. Bannatyne</persName>, propose sous forme d'amendement
+<p><persName ref="pers:TOUR2">L'honorable M. Touron</persName>, appuyé par <persName ref="pers:BANN1">l'honorable M. Bannatyne</persName>, propose sous forme d'amendement
             que l'article, tel q'il a été présenté, soit adopté. — Adopté avec dissidence : 12 pour;
             9 contre.</p>
 

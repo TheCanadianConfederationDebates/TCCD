@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="lgPCLC_1865-02-16"
-     type="full">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPCLC_1865-02-16" type="full">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -1767,7 +1764,7 @@
 <!-- GL Comment, <p> not needed here, just <table> -->
             <p>
     <table> 
-       <row><cell></cell><cell>Miles <lb/>built</cell><cell>To Be <lb/>built.</cell></row> 
+       <row><cell/><cell>Miles <lb/>built</cell><cell>To Be <lb/>built.</cell></row> 
      
      <row><cell>From Halifax to Truro ......... </cell><cell rendition="simple:right">65 </cell><cell>..</cell></row>
      
@@ -1781,7 +1778,7 @@
      <lb/>
      <row><cell>Woodstock to Rivier du Loup </cell><cell><hi rendition="simple:underline">. . </hi></cell><cell rendition="simple:right"><hi rendition="simple:underline">160</hi></cell></row>
      
-     <row><cell></cell><cell rendition="simple:right">223</cell><cell rendition="simple:right">325</cell></row>
+     <row><cell/><cell rendition="simple:right">223</cell><cell rendition="simple:right">325</cell></row>
      </table>
             </p>
    
