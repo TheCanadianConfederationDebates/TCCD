@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-12-12T20:03:08Z. 2016.
+Schema generated from ODD source 2017-12-20T19:34:00Z. 2016.
 TEI Edition: Version 3.3.0a. Last updated on
 	17th November 2017, revision 6711c60
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0a./
@@ -5074,6 +5074,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belcourt, Napoléon Antoine. Ottawa (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:BELH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belh, C. S. witness Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
+                  <value>pers:BELL15</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bell, A. S. witness Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:BELL7</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bell, A. W. witness Treaty # 10. Location: Lac du Brochet. (1907: ); witness Treaty # 10. Location: Lac du Brochet. (1907: ).</a:documentation>
                   <value>pers:BELL8</value>
@@ -5134,7 +5136,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bertrand, Lionel. Terrebonne (1945: House of Commons); Terrebonne (1949: NF House of Commons).</a:documentation>
                   <value>pers:BERT2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bertrand, Élie-Oscar. Prescott (1945: House of Commons); Prescott (1949: NF House of Commons).</a:documentation>
-                  <value>pers:BESG1</value>
+                  <value>pers:BERG3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Besggren, R. W. witness; Cst. Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
                   <value>pers:BETT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Betts, John Felton. Prince Albert East (1894: AB/SK Leg).</a:documentation>
@@ -5142,6 +5144,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Beveridge, Benjamin. Victoria (1865: NB Leg).</a:documentation>
                   <value>pers:BEVI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bevington, E. T. witness Treaty # 5. Location: God's Lake. (1909: ).</a:documentation>
+                  <value>pers:BHAN1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bhanz, B. A. witness Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:BICK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bickerdike, Robert. St. Lawrence (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:BIGB1</value>
@@ -5888,6 +5892,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dixon, James. Stony (1877: ); Councillor Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</a:documentation>
                   <value>pers:DOBB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dobbie, Thomas William. Elgin East (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Elgin East (1872: PEI House of Commons).</a:documentation>
+                  <value>pers:DONA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Donald, Ed. witness Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:DORI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dorion, Antoine-Aimé (Sir). Hochelaga (1865: Ont/Que Leg); Hochelaga (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Hochelaga (1872: PEI House of Commons).</a:documentation>
                   <value>pers:DORI2</value>
@@ -6174,6 +6180,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Geoffrion, Félix. Verchères (1865: Ont/Que Leg); Verchères (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Verchères (1872: PEI House of Commons).</a:documentation>
                   <value>pers:GEOF2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Geoffrion, Victor. Chambly—Verchères (1905: AB/SK House of Commons).</a:documentation>
+                  <value>pers:WAHP3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">George, Wahpansee. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:GERM1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">German, William Manley. Welland (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:GERV1</value>
@@ -6223,7 +6231,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:GOLD1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Golding, William Henry. Huron—Perth (1945: House of Commons); Huron—Perth (1949: NF House of Commons).</a:documentation>
                   <value>pers:GOOD4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gooderbaum, G. K. witness Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gooderham, G. Kent. witness Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:GOOD1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Goodridge, Alfred J. Ferryland (1946: NF National Convention).</a:documentation>
                   <value>pers:GOOD2</value>
@@ -6258,6 +6266,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Graham, George Perry. Brockville (1907: AB/SK House of Commons).</a:documentation>
                   <value>pers:GRAH2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Graham, Jas. F. witness Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ); witness Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875: ); Witness Treaty # 5. Location: Winnipeg. (1876: ).</a:documentation>
+                  <value>pers:GRAN9</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gran, V. M. witness Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:GRAN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Grant, George Davidson. Ontario North (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:GRAN2</value>
@@ -6266,8 +6276,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Grant, Thomas Vincent. King's (1945: House of Commons); King's (1949: NF House of Commons).</a:documentation>
                   <value>pers:GRAN4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Grant, W. J. (M.d.). witness; Medical Officer Treaty # 5. Location: Split Lake. (1908: ); witness; Medical Officer Treaty # 5. Location: Nelson House. (1908: ).</a:documentation>
-                  <value>pers:GRAV1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Grave, V. M. witness Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:GRAY1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gray, John Hamilton. 4th Queens (1863: PEI Leg); Saint John County (1866: NB Leg); City and County of St. John (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); St. John (City and County) (1872: PEI House of Commons).</a:documentation>
                   <value>pers:GRAY2</value>
@@ -6529,9 +6537,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:IRON1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Iron, John. Canoe Lake Band (1906: ); Chief Treaty # 10. Location: Isle à la Crosse. (1906: ).</a:documentation>
                   <value>pers:IRON3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ironbon, Joseph. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ironbow, Joseph. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:IRON4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ironbon, Margaret. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ironbow, Margaret. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:IRVI3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Irvine, A. G. witness; major Treaty # 1. Location: Lower Fort Garry. (1871: ); witness; Ass't. Com., N.W.M.P. Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ); witness; Assistant Commissioner Treaty # 7. Location: Fort MacLeod. (1877: ); witness; Asst. Com. N.W.M.P. Treaty # 6. Location: the Blackfoot Crossing of the Bow River. (1877: ); witness; Assistant Commissioner N.W.M.P. Treaty # 6. Location: Fort Walsh. (1879: ); witness; Lieut.-Col., Com. N.WM.P. Treaty # 6. Location: Fort Walsh. (1882: ); witness; Lt.-Colonel, Commissioner. Treaty # 6. Location: Montreal Lake. (1889: ).</a:documentation>
                   <value>pers:IRVI1</value>
@@ -6732,14 +6740,14 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kapusekonew, Joseph. Indians of Wapiscow and the country thereabouts (1899: ); Chief Treaty # 8. Location: Wapiscow Lake. (1899: ).</a:documentation>
                   <value>pers:KATC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Katchang. chief? Treaty # 9. Location: Fort Hope. (1905: ).</a:documentation>
-                  <value>pers:KATC4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Katcheech, George. Saulteaux Indian Band (1956: ); chief? headman? Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
                   <value>pers:KATC3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Katcheech, Helen. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:KATC2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Katcheech, Joe. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:KATC5</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Katchich, Francis. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
+                  <value>pers:KATC4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Katchuch, George. Saulteaux Indian Band (1956: ); chief? headman? Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
                   <value>pers:KAUL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kaulback, Henry Adolphus Newman. Lunenburg County (1866: NS Leg).</a:documentation>
                   <value>pers:KAVA1</value>
@@ -7040,6 +7048,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lewis, Edward Norman. Huron West (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:LEWI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lewis, John. Albert (1865: NB Leg).</a:documentation>
+                  <value>pers:LIES1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Liessés, C. J. W. witness Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:LIND1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Lindsay, William. Carleton (1865: NB Leg).</a:documentation>
                   <value>pers:LINE1</value>
@@ -7680,10 +7690,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moberly, Henry John. witness; C. F., H. B. Co. Treaty # 6. Location: Montreal Lake. (1889: ).</a:documentation>
                   <value>pers:MOCA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mocassin, Alex. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
-                  <value>pers:MOCA3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moccasin, Atlas. Saulteaux Indian Band (1956: ); chief? headman? Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
                   <value>pers:MOCA2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moccasin, Francis. Saulteaux Indian Band (1956: ); chief? headman? Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
+                  <value>pers:MOCA3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moccasin, Stan. Saulteaux Indian Band (1956: ); chief? headman? Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
                   <value>pers:MOFF1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Moffatt, George. Restigouche (1870: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Restigouche (1872: PEI House of Commons).</a:documentation>
                   <value>pers:MOIS1</value>
@@ -7773,7 +7783,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MUSK3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Muskeg, John. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:MUSK2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Muskeg, Nocass. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Muskeg, No Case. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:MUTC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mutch, Leslie Alexander. Winnipeg South (1945: House of Commons); Winnipeg South (1949: NF House of Commons).</a:documentation>
                   <value>pers:NAHA1</value>
@@ -7816,6 +7826,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nakogee, John. headman? Treaty # 9. Location: Moose Factory. (1905: ).</a:documentation>
                   <value>pers:NAMA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Namay, George. headman? Treaty # 9. Location: Fort Hope. (1905: ).</a:documentation>
+                  <value>pers:NAPA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Napaysis,. Cree Indian, located by the Baptiste River (1944: ); headman? Treaty # 6. Location: Rocky Mountain House. (1944: ).</a:documentation>
                   <value>pers:NATA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Natawayo, James. Councillor, H.S.S. Treaty # 5. Location: Oxford House. (1909: ).</a:documentation>
                   <value>pers:NATE1</value>
@@ -8744,6 +8756,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Stuart, A. Wesley. Charlotte (1945: House of Commons).</a:documentation>
                   <value>pers:SUKE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Su-Ke-Man (Mlsketo). Stony Tribe of Indians (1878: ); Chief? Treaty # 6. Location: Battleford. (1878: ).</a:documentation>
+                  <value>pers:SUIE1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Suiers, N. B. witness Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:SULL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sullivan, William Wilfred (Sir). 1st Kings (1872: PEI Leg); 2nd Kings (1873: PEI Leg).</a:documentation>
                   <value>pers:SUMN1</value>
@@ -8769,7 +8783,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SWAI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Swain, A. witness Treaty # 5. Location: God's Lake. (1909: ).</a:documentation>
                   <value>pers:SWIM3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Swimmer, Bonnie. Saulteaux Indian Band (1956: ); chief? headman? Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Swimmer, Bennie. Saulteaux Indian Band (1956: ); chief? headman? Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
                   <value>pers:SWIM1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Swimmer, John. Saulteaux Indian Band (1956: ); chief? headman? Treaty # 6. Location: Cochin. (1956: ).</a:documentation>
                   <value>pers:SWIM2</value>
@@ -8863,7 +8877,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:THOM10</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thomas, A. Vernon. witness; secretary to Commissioner Treaty # 5. Location: Deer's Lake East. (1910: ); Witness; Clerk Treaty # 5. Location: Fort Churchill. (1910: ); Witness; Clerk Treaty # 5. Location: York Factory. (1910: ).</a:documentation>
                   <value>pers:THOM11</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thomas, Erma. witness Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thomas, Emma. witness Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:THOM13</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thomas, George. Cree Indian, located on the Witchekan Lake (1950: ); headman Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:THOM16</value>
@@ -8875,7 +8889,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:THOM14</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thomas, John. Cree Indian, located on the Witchekan Lake (1950: ); headman Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:THOM12</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thomas, Louie. Cree Indian, located on the Witchekan Lake (1950: ); Chief Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thomas, Louis. Cree Indian, located on the Witchekan Lake (1950: ); Chief Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:THOM6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thompson, Alexander. York (1866: NB Leg).</a:documentation>
                   <value>pers:THOM2</value>
@@ -9055,7 +9069,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:WARD1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ward, Henry Alfred. Durham (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:WARD3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wardern, J. T. witness Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Warden, J. T. witness Treaty # 6. Location: Witchekan Lake. (1950: ).</a:documentation>
                   <value>pers:WARD2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wardner, G. J. witness; Constable Treaty # 5. Location: Split Lake. (1908: ); witness; Constable Treaty # 5. Location: Nelson House. (1908: ).</a:documentation>
                   <value>pers:WARR1</value>
@@ -9080,6 +9094,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wawakachin. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:WAYM1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Way-Mi-Ah. Dogribs Indians of Great Slave Lake (1900: ); Headman Treaty # 8. Location: Fort Resolution. (1900: ).</a:documentation>
+                  <value>pers:WEAG1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Weaganase. Salteaux Band (1954: ); Treaty # 6. Location: or near Cochin. (1954: ).</a:documentation>
                   <value>pers:WEAV1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Weaver, Charles Riley. witness Treaty # 8. Location: Wapiscow Lake. (1899: ).</a:documentation>
                   <value>pers:WEBB2</value>
@@ -9252,6 +9268,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Zimmerman, Adam. Hamilton West (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:ZOAT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Zoatze-Tapitapiw (Setting On An Eagle Tail). North Piegan (1877: ); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</a:documentation>
+                  <value>pers:GRAN8</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">de Grandmaison, N. witness Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:XXXX1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">{signature Written In Cree-Name Appears Between Sunchild And Yellow Eyes On Treaty Signing}. Cree Indian, located by the Baptiste River (1944: ); headman? Treaty # 6. Location: Rocky Mountain House. (1944: ).</a:documentation>
                   <value>pers:ETHI1</value>
