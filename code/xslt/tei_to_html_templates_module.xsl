@@ -370,9 +370,16 @@
             <li>
                 <xsl:apply-templates select="@when"/>
                 <xsl:sequence select="$representedCaption"/>
-                <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}">
-                    <xsl:apply-templates select="node()"/>
-                </a>
+                <xsl:choose>
+                    <xsl:when test="@ref">
+                        <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}">
+                            <xsl:apply-templates select="node()"/>
+                        </a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates select="node()"/>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:apply-templates select="@*[not(local-name() = 'when')]"/>
             </li>
             <xsl:apply-templates select="following-sibling::affiliation">
@@ -386,9 +393,16 @@
             <li>
                 <xsl:apply-templates select="@when"/>
                 <xsl:sequence select="$representedCaption"/>
-                <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}">
-                    <xsl:apply-templates select="node()"/>
-                </a>
+                <xsl:choose>
+                    <xsl:when test="@ref">
+                        <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}">
+                            <xsl:apply-templates select="node()"/>
+                        </a>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates select="node()"/>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:apply-templates select="@*[not(local-name() = 'when')]"/>
             </li>
         </xsl:if>

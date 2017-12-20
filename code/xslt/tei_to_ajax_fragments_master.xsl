@@ -86,8 +86,10 @@
                     <xsl:if test="parent::listPerson/@xml:id = 'historicalPersonography'">
                         <xsl:variable name="link" select="concat('pers:', @xml:id)"/>
                         <xsl:variable name="instances" select="$teiDocs/TEI[text/descendant::persName[@ref=$link]]"/>
-                        <xsl:sequence select="$nameAppearanceCaption"/>
-                        <xsl:value-of select="count($instances)"/>
+                        <p>
+                            <xsl:sequence select="$nameAppearanceCaption"/>
+                            <xsl:value-of select="count($instances)"/>
+                        </p>
                         <xsl:if test="count($instances) gt 0">
                             <xsl:variable name="docListId" select="concat(@xml:id, '_docList')"/>
                             <h5 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:sequence select="$debatesDocumentsCaption"/></h5>
