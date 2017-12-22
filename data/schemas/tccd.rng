@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-12-20T19:34:00Z. 2016.
+Schema generated from ODD source 2017-12-22T17:31:50Z. 2016.
 TEI Edition: Version 3.3.0a. Last updated on
 	17th November 2017, revision 6711c60
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0a./
@@ -5394,6 +5394,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CAU-AH-HA-CHA-PEW (Making Ready The Bow). South side of the South Branch of the Saskatchewan (1874: ); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874: ).</a:documentation>
                   <value>pers:CHAK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHA-KAS-TA-PAY-SIN. Carlton Indians (1876: ); Chief Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
+                  <value>pers:CHIN2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">CHIN-UN-US-KUT (the Stump),. Cree Indian? (1878: ); Headman? Treaty # 6. Location: ?. (1878: ).</a:documentation>
                   <value>pers:CADI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cadien, Pierre. Carlton Indians (1876: ); Councillor of Mis-to-wa-sis Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:CAIE1</value>
@@ -5440,6 +5442,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Camsell, A. F. witness Treaty # 11. Location: Fort Simpson. (1921: ).</a:documentation>
                   <value>pers:CAMS2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Camsell, J. S. witness Treaty # 8. Location: Fort Resolution. (1900: ).</a:documentation>
+                  <value>pers:CANA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Can-a-hah-cha-pew,. (1873: ); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</a:documentation>
                   <value>pers:CAOU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Caouette, David Réal. Pontiac (1945: House of Commons); Pontiac (1949: NF House of Commons).</a:documentation>
                   <value>pers:CAPT1</value>
@@ -6626,6 +6630,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Jones, W. E. witness Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:JORD1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Jordan, James. St. John's East (1869: NF Leg).</a:documentation>
+                  <value>pers:TOMA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Joseph Toma,. Salteaux Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:JOSU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Josue. headman? Treaty # 11. Location: Fort Rae. (1921: ).</a:documentation>
                   <value>pers:JOYF1</value>
@@ -6692,6 +6698,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-TIP-IS-KOW-AHT. Carlton Indians (1876: ); Councillor of Cha-Kas-Ta-Pay-Sin Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:KEWE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KE-WE-TAY-ASH (Flying Round). chief Treaty # 1. Location: Lower Fort Garry. (1871: ); Chief Treaty # 1. Location: signed on reserve at Rosseau River. (1875: ).</a:documentation>
+                  <value>pers:KEEE1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KEE-E-KUK. (1874: ); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874: ).</a:documentation>
                   <value>pers:KEEJ1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KEE-JEE-GO-KAY. Rainy River (1873: ); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</a:documentation>
                   <value>pers:KEES2</value>
@@ -6736,6 +6744,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kachweesala. Slave Indians of Hay river and the country thereabouts (1900: ); principal man? Treaty # 8. Location: Vermilion. (1900: ).</a:documentation>
                   <value>pers:KAMO2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kam-Oo-Win. Councillor to JAMES SEENUM Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
+                  <value>pers:KAMO5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kamooses,. (1873: ); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</a:documentation>
                   <value>pers:KAPU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kapusekonew, Joseph. Indians of Wapiscow and the country thereabouts (1899: ); Chief Treaty # 8. Location: Wapiscow Lake. (1899: ).</a:documentation>
                   <value>pers:KATC1</value>
@@ -6814,6 +6824,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kerr, John A. witness Treaty # 6. Location: signed near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:KICH1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ki-Chi-Pwot, Jacob. Stony (1877: ); Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</a:documentation>
+                  <value>pers:KIHE1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ki-he-win,. Cree Chief? Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:KICK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kickham, Edward. 2nd Kings (1867: PEI Leg).</a:documentation>
                   <value>pers:KIDD1</value>
@@ -7810,6 +7822,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NO-TE-NA-QUA-HUNG. North-West Angle (1873: ); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</a:documentation>
                   <value>pers:NUNA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NUN-AK-OW-AH-NUK-WAPE. Councillor Treaty # 5. Location: the Beren's River. (1876: ).</a:documentation>
+                  <value>pers:NUSW1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">NUS-WAS-OO-WAH-TUM,. Cree Chief? Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:NAGL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Nagle, W. H. commissioner? Treaty # 4. Location: Fort Pelly. (1876: ).</a:documentation>
                   <value>pers:NAHK1</value>
@@ -7934,6 +7948,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Reilly, Thomas. Placentia-St. Mary's (1865: NF Leg, NF Leg); Placentia-St. Mary's (1865: NF Leg, NF Leg).</a:documentation>
                   <value>pers:OTIN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O-TIN-IK-IM-AW. "Moose Lake" Band (1876: ); Chief Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
+                  <value>pers:OTAH1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O-ta-ha-o-man,. (1873: ); Chief Treaty # 3. Location: North-West Angle of the Lake of the Woods. (1873: ).</a:documentation>
                   <value>pers:OOMI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OO-MIN-AH-KAW. Willow Indians (1876: ); Councillor? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:OOMU1</value>
@@ -7942,6 +7958,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OO-NAH-TAH-MEE-NAH-HOOS. Cree Chief? Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:OONO1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OO-NOW-AK-EE-PAH-CHAS. Councillor to SEE-KAHS-KOOTCH Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
+                  <value>pers:OOPE1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OO-PEE-TOO-KERAH-HAN-AP-EE-WEE-YIN (The Pondmaker),. Cree Chief? Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:OOTU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OO-TUK-KOO-PAH-KAH-MAY-TOW-WAY-YIT. Willow Indians (1876: ); Councillor? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:OOZA2</value>
@@ -8452,6 +8470,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SAK-CHE-KA-POW, Senia. headman? Treaty # 9. Location: Windigo River. (1930: ).</a:documentation>
                   <value>pers:SANG1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SANG-GWA-WA-KA-POW (James Sinclair). Jack Head (1876: ); Councillor Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876: ).</a:documentation>
+                  <value>pers:SAYS2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SAY-SWAY-PUS,. Cree Indian? (1878: ); Headman? Treaty # 6. Location: ?. (1878: ).</a:documentation>
                   <value>pers:SEES2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SEE-SEE-KWAHN-IS. Willow Indians (1876: ); Joint Chief? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:SEES1</value>
@@ -8482,6 +8502,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Savary, Alfred William. Digby (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Digby (1872: PEI House of Commons).</a:documentation>
                   <value>pers:SAVO1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Savoie, François Théodore. Mégantic (1905: AB/SK House of Commons).</a:documentation>
+                  <value>pers:SAYS1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Say-sway-kees,. Cree Chief? Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:SAYE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sayer, John. councillor? Treaty # 5. Location: Winnipeg. (1876: ).</a:documentation>
                   <value>pers:SAYE1</value>
@@ -8794,6 +8816,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Sénécal, Louis-Adélard. Drummond—Arthabaska (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Drummond—Arthabaska (1872: PEI House of Commons).</a:documentation>
                   <value>pers:TAPA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TA-PAS-TA-NUM (Donald William Sinclair Ross). Norway House region - Band of Wood Indians (1875: ); Chief Treaty # 5. Location: Norway House. (1875: ).</a:documentation>
+                  <value>pers:TEET1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TEE—TEE-QUAY-SAY,. Cree Chief? Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:TIBI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TIBIS-QUO-GE-SICK. brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875: ).</a:documentation>
                   <value>pers:TLPE1</value>
@@ -8860,6 +8884,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Thatcher, W. Ross. Moose Jaw (1945: House of Commons).</a:documentation>
                   <value>pers:CAPT2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The Captain. Cree Indian of Sturgeon Lake, and the country thereabouts (1900: ); Headman Treaty # 8. Location: Lesser Slave Lake. (1900: ).</a:documentation>
+                  <value>pers:HUNT5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The Little Hunter,. Cree Chief? Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:ONET1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The One That Fetched The Coat. chief? headman? Treaty # 4. Location: Fort Walsh. (1877: ).</a:documentation>
                   <value>pers:POOR1</value>
@@ -9004,6 +9030,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WAH-KEG-SEE-KOOT. Councillor to SEE-KAHS-KOOTCH Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:WAHP1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WAH-PII-MOOSE-TOO-SIIS (The White Calf). Qu'Appelle River (1874: ); Chief? or Headman? Treaty # 4. Location: Qu'Appelle. (1874: ).</a:documentation>
+                  <value>pers:WHAT1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WAH-TAH-NEE,. Cree Indian? (1878: ); Headman? Treaty # 6. Location: ?. (1878: ).</a:documentation>
                   <value>pers:WAHW2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WAH-WEE-KAH-OO-TAH-MAH-HOTE (Totem; MEH-CHA-AW-ASIS). Willow Indians (1876: ); Councillor? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:WAYW1</value>
