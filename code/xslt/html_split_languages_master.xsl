@@ -271,5 +271,14 @@
         </xsl:choose>
     </xsl:template>
     
+    
+    <xd:doc scope="component">
+        <xd:desc>Links to PDFs need to have a ../ added to them, since we keep
+            only one copy of the folder of PDFs in the root.</xd:desc>
+    </xd:doc>
+    <xsl:template match="a[matches(@href, '^pdfs/.+\.pdf$')]" mode="#all">
+        <a href="{concat('../', @href)}"><xsl:apply-templates/></a>
+    </xsl:template>
+    
 </xsl:stylesheet>
 

@@ -337,6 +337,10 @@
     <copy todir="${webDir}/portraits">
       <fileset refid="portraits"/>
     </copy>
+    <mkdir dir="${webDir}/pdfs"/>
+    <copy todir="${webDir}/pdfs">
+      <fileset dir="code/html/pdfs" includes="**/*.pdf"/>
+    </copy>
     <copy todir="${webDir}">
       <fileset refid="mapComponents"/>
       <fileset refid="staticHtml"/>
