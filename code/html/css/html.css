@@ -177,9 +177,23 @@ span[data-level='j'] span[data-level='j'],
 span[data-level='j'] span[data-level='m'] {
   font-style: normal;
 }
+span[data-el='note']{
+  display: block;
+  font-size: 90%;
+}
+
+li[data-el='note']:target{
+  background-color: #ff0000;
+}
+
 li {
   margin-top: 1em;
 }
+
+ul[data-el='listPerson'] p{
+  margin-top: 1em;
+}
+
 /* TEI simplePrint values are used for styling. */
 .simple_italic {
   font-style: italic;
@@ -317,12 +331,9 @@ footer {
   display: inline-block;
 }
 .linkLogo img {
-  height: 40px;
+  max-height: 1.5em;
+  width: auto;
 }
-.linkLogo:first-of-type {
-  width: 10%;
-}
-
 
 /* expander/contractor elements. */
 .closedDocCaption, .openDocCaption{
@@ -474,6 +485,8 @@ footer h2 {
 }
 .mapEmbed {
   margin-top: -20px;
+/* Without this, the postal code form scrolls right off the page. */
+  height: 70vh;
 }
 .mapEmbed iframe, .mapEmbed>div {
   height: 60vh; /*16:9 ratio*/

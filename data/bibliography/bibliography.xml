@@ -21,56 +21,146 @@
       <listBibl>
         <head>Records of legislative proceedings</head>
         
-        <bibl xml:id="lgHC" n="H of C – Fed. 1869-1870"><publisher>Canada</publisher>. <title level="m">House of Commons Debates</title>, <date from="1867" to="1949">1867-1949</date>. Provided by the Library of Parliament, <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.</bibl>
+        <bibl xml:id="lgHC" n="H of C – Fed. 1875-1949"><publisher>Canada</publisher>. <title level="m">House of Commons Debates</title>, <date from="1875" to="1949">1875-1949</date>. Provided by the <ref target="http://parl.canadiana.ca/">Library of Parliament</ref>.</bibl>
         
-        <bibl xml:id="lgBC_LC" n="BC Leg. Council 1870"><publisher>British Columbia</publisher>. <title level="m">Legislative Council: Debates on the Subject of Confederation with Canada</title>, <date when="1870">1870</date>.
+        <bibl xml:id="lgBCLC" n="BC Leg. Council 1870"><publisher>British Columbia</publisher>. <title level="m">Legislative Council: Debates on the Subject of Confederation with Canada</title>. <pubPlace>Victoria</pubPlace>: <publisher>William H. Cullin</publisher>,  <date when="1912">1912</date>.
         </bibl>
         
-        <bibl xml:id="lgAS_LA" n="Alb/Sask Leg. Ass. – 1896-1904"><title level="j">Regina Leader</title>, <date from="1896" to="1904">1896-1904</date>.</bibl>
+        <bibl xml:id="lgASLA" n="Alb/Sask Leg. Ass. – 1896-1904"><title level="j">Regina Leader</title>, <date from="1896" to="1904">1896-1904</date>. Digitized by <ref target="https://news.google.com/newspapers?nid=IjbvboqL_eAC">Google Books</ref>.</bibl>
         
-        <bibl xml:id="lgM_CO" n="Man. Conv. of 40, 1870"><publisher>Manitoba</publisher>. <title level="m">Convention of Forty / La Grande Convention Debates</title>, <date when="1870">1870</date>.</bibl>
+        <bibl xml:id="lgMBConv40" n="Man. Conv. of 40, 1870"><publisher>Manitoba</publisher>. <title level="m">Convention of Forty</title>. Edited by <editor>Norma Jean Hall</editor>. <date when="2010">2010</date>. Digitized by the <ref target="http://www.gov.mb.ca/inr/major-initiatives/pubs/convention%20of%2040%20transcript.pdf">Province of Manitoba</ref>.</bibl>
         
-        <bibl xml:id="lgM_PG" n="Man Prov. Gov., 1870"><publisher>Manitoba</publisher>. <title level="m">Legislative Assembly of Assiniboia Debates / Débats de l'Assemblée législative d'Assiniboia</title>, <date when="1870">1870</date>.</bibl>
+        <bibl xml:id="lgAssinLAssem" n="Man Prov. Gov., 1870"><publisher>Manitoba</publisher>. <title level="m">Legislative Assembly of Assiniboia Debates</title>. Edited by <editor>Norma Jean Hall</editor>. <date when="2010">2010</date>. Digitized by the <ref target="http://www.gov.mb.ca/inr/major-initiatives/pubs/laa%20debates.pdf">Province of Manitoba</ref>.</bibl>
         
-        <bibl xml:id="lgOQ" n="Ont-Que debates, 1865" >
-          <!--(this vol includes LA and LC, so I'm not sure what we should call the ID – perhaps DE – for debate?)-->
-        <publisher>Province of Canada</publisher>. <title level="m">Parliamentary Debates on the Subject of the Confederation of the British North American Provinces / Débats parlementaires sur la question de la Confédération des provinces de l'Amérique britannique du nord</title>. <date when="1865">1865</date>.</bibl>
+        <bibl xml:id="lgMBConv40_fr" n="Man. Conv. of 40, 1870"><publisher>Manitoba</publisher>. <title level="m">La Grande Convention Debates</title>. Édité par <editor>Norma Jean Hall</editor>. <date when="2010">2010</date>. Numérisé par la <ref target="http://www.gov.mb.ca/inr/major-initiatives/pubs/la%20grande%20convention%20-%20convention%20of%20forty%20d%C3%A9bats.pdf">Province du Manitoba</ref>.</bibl>
         
-        <bibl xml:id="lgNB_LA" n="NB Leg. Ass., 1864-1867"><publisher>New Brunswick</publisher>. <title level="m">Reports of the Debates of the House of Assembly</title>, <date from="1865" to="1867">1865-1867</date>.</bibl>
+        <bibl xml:id="lgAssinLAssem_fr" n="Man Prov. Gov., 1870"><publisher>Manitoba</publisher>. <title level="m">Débats de l'Assemblée législative d'Assiniboia</title>. Édité par <editor>Norma Jean Hall</editor>. <date when="2010">2010</date>. Numérisé par la <ref target="http://www.gov.mb.ca/inr/major-initiatives/pubs/d%C3%A9bats%20de%20l%E2%80%99assembl%C3%A9e%20l%C3%A9gislative%20d%E2%80%99assiniboia.pdf">Province du Manitoba</ref>.</bibl>
         
-        <bibl xml:id="lgNS_LA" n="NS Leg. Ass., 1864-1867"><publisher>Nova Scotia</publisher>. <title level="m">The Debates and Proceedings of the House of Assembly</title>. <date from="1864" to="1867">1864-1867</date> <ref target="http://eco.canadiana.ca/view/oocihm.9_01339">http://eco.canadiana.ca/view/oocihm.9_01339</ref>.</bibl>
+        <bibl xml:id="lgPCLA" n="Ont-Que debates, 1865" >
+          <publisher>Province of Canada</publisher>. <title level="m">Parliamentary Debates on the Subject of the Confederation of the British North American Provinces</title>. <pubPlace>Quebec</pubPlace>: <publisher>Hunter, Rose and Co., Parliamentary Printers</publisher>, <date when="1865">1865</date>. Digitized by <ref target="https://goo.gl/kdW3S2">Google Books</ref>.</bibl>
         
-        <bibl xml:id="lgPE_LA" n="PEI Leg. Ass., 1864-1873"><!--not sure if we could use an extra char for "PEI")-->"<title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>." Provided by the Prince Edward Island Public Archives and Records Office. <date from="1864" to="1873">1864-1873</date>. <ref target="http://www.gov.pe.ca/archives/">http://www.gov.pe.ca/archives/</ref>.</bibl>
+        <bibl xml:id="lgPCLC" n="Ont-Que debates, 1865" >
+          <publisher>Province of Canada</publisher>. <title level="m">Parliamentary Debates on the Subject of the Confederation of the British North American Provinces</title>. <pubPlace>Quebec</pubPlace>: <publisher>Hunter, Rose and Co., Parliamentary Printers</publisher>, <date when="1865">1865</date>. Digitized by <ref target="https://goo.gl/kdW3S2">Google Books</ref>.</bibl>
         
-        <bibl xml:id="lgNL_LA" n="NFLD Leg. Ass., 1864-1869"><title level="j">The Newfoundlander</title>, <date from="1864" to="1869">1864-1869</date>.</bibl>
+        <bibl xml:id="lgPCLA_fr" n="Ont-Que debates, 1865" >
+          <publisher>Province du Canada</publisher>. <title level="m">Débats parlementaires sur la question de la Confédération des provinces de l'Amérique britannique du nord</title>. <pubPlace>Quebec</pubPlace>: <publisher>Hunter, Rose et Lemieux, Imprimeurs Parlementaires</publisher>, <date when="1865">1865</date>. Numérisé par <ref target="http://eco.canadiana.ca/view/oocihm.9_07149/2?r=0as=1">Canadiana</ref>.</bibl>
         
-        <bibl xml:id="lgNL_NC" n="NFLD Nat. Conv., 1946-1948">Newfoundland. <title level="m">The Newfoundland National Convention <date from="1946" to="1948">1946-1948</date> Vol 1: Debates</title>. Edited by <editor>J.K. Hiller</editor> and <edition>M.F. Harrington</edition> (<publisher>Memorial University of Newfoundland by McGill-Queen's University Press</publisher>: <date>1995</date>).</bibl>
+        <bibl xml:id="lgPCLC_fr" n="Ont-Que debates, 1865" >
+          <publisher>Province du Canada</publisher>. <title level="m">Débats parlementaires sur la question de la Confédération des provinces de l'Amérique britannique du nord</title>. <pubPlace>Quebec</pubPlace>: <publisher>Hunter, Rose et Lemieux, Imprimeurs Parlementaires</publisher>, <date when="1865">1865</date>. Numérisé par <ref target="http://eco.canadiana.ca/view/oocihm.9_07149/2?r=0amp;s=1">Canadiana</ref>.</bibl>
         
-        <bibl xml:id="lgHC_1867-1868" n="H of C – Fed. 1867-1868"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1867-1868</title>. Edited by <editor>P.B. Waite</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Queen's Printer</publisher>, <date>1967</date>. <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
+        <bibl xml:id="lgNBLA" n="NB Leg. Ass., 1864-1867"><publisher>New Brunswick</publisher>. <title level="m">Reports of the Debates of the House of Assembly</title>. <pubPlace>St. John</pubPlace>: <publisher>G.W. Day</publisher>, <date from="1865" to="1867">1865-1867</date>. Microfilm copies provided by the <ref target="http://archives.gnb.ca/Archives/?culture=en-CA">Provincial Archives of New Brunswick</ref>.</bibl>
+        
+        <bibl xml:id="lgNSLA" n="NS Leg. Ass., 1864-1867"><publisher>Nova Scotia</publisher>. <title level="m">The Debates and Proceedings of the House of Assembly</title>. <pubPlace>Halifax</pubPlace>: <publisher>Croshill and Bourinot</publisher>, <date from="1864" to="1867">1864-1867</date>. Digitized by <ref target="http://eco.canadiana.ca/view/oocihm.9_01339">Canadiana</ref>.</bibl>
+        
+        <bibl xml:id="lgPEILA_1864" n="PEI Leg. Ass., 1864-1865"><title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>. <pubPlace>Charlottetown</pubPlace>: <publisher>The Protestant</publisher>, <date from="1864" to="1865">1864-1865</date>. Microfilm copies provided by the <ref target="https://www.princeedwardisland.ca/en/topic/libraries-and-archives">Prince Edward Island Libraries and Archives</ref>.</bibl>
+       
+        <bibl xml:id="lgPEILA_1866" n="PEI Leg. Ass., 1866"><title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>. <pubPlace>Charlottetown</pubPlace>: <publisher>The Examiner</publisher>, <date when="1866">1866</date>. Microfilm copies provided by the <ref target="https://www.princeedwardisland.ca/en/topic/libraries-and-archives">Prince Edward Island Libraries and Archives</ref>.</bibl>      
+       
+        <bibl xml:id="lgPEILA_1867" n="PEI Leg. Ass., 1867"><title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>. <pubPlace>Charlottetown</pubPlace>: <publisher>The Patriot</publisher>, <date when="1867">1867</date>. Microfilm copies provided by the <ref target="https://www.princeedwardisland.ca/en/topic/libraries-and-archives">Prince Edward Island Libraries and Archives</ref>.</bibl>           
+       
+        <bibl xml:id="lgPEILA_1868" n="PEI Leg. Ass., 1868"><title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>. <pubPlace>Charlottetown</pubPlace>: <publisher>The Examiner</publisher>, <date when="1868">1868</date>. Microfilm copies provided by the <ref target="https://www.princeedwardisland.ca/en/topic/libraries-and-archives">Prince Edward Island Libraries and Archives</ref>.</bibl>
+       
+        <bibl xml:id="lgPEILA_1869" n="PEI Leg. Ass., 1869"><title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>. <pubPlace>Charlottetown</pubPlace>: <publisher>Edward Reilly, Queen's Printer</publisher>, <date when="1869">1869</date>. Microfilm copies provided by the <ref target="https://www.princeedwardisland.ca/en/topic/libraries-and-archives">Prince Edward Island Libraries and Archives</ref>.</bibl>
+        
+        <bibl xml:id="lgPEILA_1870" n="PEI Leg. Ass., 1870"><title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>. <pubPlace>Charlottetown</pubPlace>: <publisher>Partiot Book and Job Printing Rooms</publisher>, <date when="1870">1870</date>. Microfilm copies provided by the <ref target="https://www.princeedwardisland.ca/en/topic/libraries-and-archives">Prince Edward Island Libraries and Archives</ref>.</bibl>
+        
+        <bibl xml:id="lgPEILA_1871" n="PEI Leg. Ass., 1871-1872"><title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>. <pubPlace>Charlottetown</pubPlace>: <publisher>The Examiner</publisher>, <date from="1871" to="1872">1871-1872</date>. Microfilm copies provided by the <ref target="https://www.princeedwardisland.ca/en/topic/libraries-and-archives">Prince Edward Island Libraries and Archives</ref>.</bibl>
+       
+        <bibl xml:id="lgPEILA_1873" n="PEI Leg. Ass., 1873"><title level="a">The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>. <pubPlace>Charlottetown</pubPlace>: <publisher>Henry Cooper</publisher>, <date when="1873">1873</date>. Microfilm copies provided by the <ref target="https://www.princeedwardisland.ca/en/topic/libraries-and-archives">Prince Edward Island Libraries and Archives</ref>.</bibl>
+        
+        <bibl xml:id="lgNLLA" n="NFLD Leg. Ass., 1864-1869"><title level="j">The Newfoundlander</title>, <date from="1864" to="1869">1864-1869</date>. Digitized by <ref target="https://news.google.com/newspapers?nid=maZDTaKrznsC">Google Books</ref></bibl>
+        
+        <bibl xml:id="lgNFNC" n="NFLD Nat. Conv., 1946-1948">Newfoundland. <title level="m">The Newfoundland National Convention, 1946-1948 Vol 1: Debates</title>. Edited by <editor>J.K. Hiller</editor> and <editor>M.F. Harrington</editor> <pubPlace>Montreal</pubPlace>: <publisher>Memorial University of Newfoundland by McGill-Queen's University Press</publisher>, <date when="1995">1995</date>).</bibl>
+        
+        <bibl xml:id="lgHC_1867-1868" n="H of C – Fed. 1867-1868"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1867-1868</title>. Edited by <editor>P.B. Waite</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Queen's Printer</publisher>, <date when="1967">1967</date><date from="1867-11-06" to="1868-05-22"></date>. Original scans accessible at: <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
         </bibl>
         
-        <bibl xml:id="lgHC_1869" n="H of C – Fed. 1869"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1869</title>. Edited by <editor>P.B. Waite</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Queen's Printer</publisher>, <date>1975</date>. <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
+        <bibl xml:id="lgHC_1869" n="H of C – Fed. 1869"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1869</title>. Edited by <editor>P.B. Waite</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Queen's Printer</publisher>, <date when="1975">1975</date><date from="1869-04-15" to="1869-06-22"></date>. Original scans accessible at: <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
         </bibl>
         
-        <bibl xml:id="lgHC_1870" n="H of C – Fed. 1870"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1870</title>. Edited by <editor>P.B. Waite</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Queen's Printer</publisher>, <date>1979</date>. <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
+        <bibl xml:id="lgHC_1870" n="H of C – Fed. 1870"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1870</title>. Edited by <editor>P.B. Waite</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Queen's Printer</publisher>, <date when="1979">1979</date><date from="1870-02-15" to="1870-05-12"></date>. Original scans accessible at: <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
         </bibl>
         
-        <bibl xml:id="lgHC_1871" n="H of C – Fed. 1871"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1871</title>. Edited by <editor>Norman Ward</editor> and <editor>Pamela Hardisty</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Ministry of Supply and Services Canada</publisher>, <date>2007</date>. <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
+        <bibl xml:id="lgHC_1871" n="H of C – Fed. 1871"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1871</title>. Edited by <editor>Norman Ward</editor> and <editor>Pamela Hardisty</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Ministry of Supply and Services Canada</publisher>, <date when="2007">2007</date><date from="1871-02-15" to="1871-04-14"></date>. Original scans accessible at: <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.</bibl>
+        
+        <bibl xml:id="lgHC_1872" n="H of C – Fed. 1872"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1872</title>. Edited by <editor>David Farr</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>, <date when="2007">2007</date><date from="1872-04-11" to="1872-06-14"></date>. Original scans accessible at: <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
         </bibl>
         
-        <bibl xml:id="lgHC_1872" n="H of C – Fed. 1872"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1872</title>. Edited by <editor>David Farr</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>, <date>2007</date>. <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
+        <bibl xml:id="lgHC_1873_1" n="H of C – Fed. 1873 1st Session"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1873 First Session</title>. Edited by <editor>David Farr</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>, <date when="2013">2013</date><date from="1873-03-05" to="1873-08-13"></date>. Original scans accessible at: <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.</bibl>
+        
+        <bibl xml:id="lgHC_1873_2" n="H of C – Fed. 1873 2nd Session"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1873 Second Session</title>. Edited by <editor>David Farr</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>, <date when="2014">2014</date><date from="1873-10-23" to="1873-11-07"></date>. Original scans accessible at: <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
         </bibl>
         
-        <bibl xml:id="lgHC_1873_1" n="H of C – Fed. 1873 1st Session"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1873 First Session</title>. Edited by <editor>David Farr</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>, <date>2013</date>. <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
+        <bibl xml:id="lgHC_1874" n="H of C – Fed. 1874"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1874</title>. Edited by <editor>David Farr</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>, <date when="2014">2014</date><date from="1874-03-26" to="1874-04-08"></date>. Original scans accessible at: <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
         </bibl>
         
-        <bibl xml:id="lgHC_1873_2" n="H of C – Fed. 1873 2nd Session"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1873 Second Session</title>. Edited by <editor>David Farr</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>, <date>2014</date>. <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
+        <bibl xml:id="Morris" n="Treaty negotiations 1811-1878"><publisher>Morris, Alexander</publisher>. <title level="m">The Treaties of Canada with the Indians of Manitoba and the North-West Territories Including the Negotiations on Which They Are Based, and Other Information Relating Thereto.</title>. <pubPlace>Toronto</pubPlace>: <publisher>Willing &amp; Williamson</publisher>, <date when="1880">1880</date>. Digitized by <ref target="https://archive.org/details/cihm_14955">University of Alberta Libraries</ref>.
         </bibl>
         
-        <bibl xml:id="lgHC_1874" n="H of C – Fed. 1874"><publisher>Canada</publisher>. <title level="m">House of Commons Debates, 1874</title>. Edited by <editor>David Farr</editor>. <pubPlace>Ottawa</pubPlace>: <publisher>Library of Parliament</publisher>, <date>2014</date>. <ref target="http://parl.canadiana.ca/">http://parl.canadiana.ca/</ref>.
+        <bibl xml:id="Erasmus" n="Treaty 6 Negotiations, 1876"><publisher>Erasmus, Peter</publisher>. <title level="m">Buffalo Days and Nights</title>. <pubPlace>Calgary</pubPlace>: <publisher>Glenbow-Alberta Institute</publisher>, <date when="1976">1976</date>.
+        </bibl>
+
+        <bibl xml:id="treaty_1_2" n="Treaties 1 and 2 Negotiations, 1871"><title level="m">Treaty No. 1 and Treaty No. 2</title>. Reproduced from: <ref target="https://www.aadnc-aandc.gc.ca/eng/1100100028664/1100100028665">https://www.aadnc-aandc.gc.ca/eng/1100100028664/1100100028665</ref>
         </bibl>
         
+        <bibl xml:id="treaty_1_2_fr" n="Traités nos 1 et 2, 1871"><title level="m">Traités nos 1 et 2</title>. Reproduit de : <ref target="https://www.aadnc-aandc.gc.ca/fra/1100100028664/1100100028665">https://www.aadnc-aandc.gc.ca/fra/1100100028664/1100100028665</ref>
+        </bibl>
         
+        <bibl xml:id="treaty_3" n="Treaty No. 3, 1873"><title level="m">Treaty No. 3</title>. Reproduced from: <ref target="https://www.aadnc-aandc.gc.ca/eng/1100100028675/1100100028679">https://www.aadnc-aandc.gc.ca/eng/1100100028675/1100100028679</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_3_fr" n="Treaty No. 3, 1873"><title level="m">Traité Nº 3</title>. Reproduit de : <ref target="https://www.aadnc-aandc.gc.ca/fra/1100100028675/1100100028679">https://www.aadnc-aandc.gc.ca/fra/1100100028675/1100100028679</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_4" n="Treaty No. 4, 1874"><title level="m">Treaty No. 4</title>. Reproduced from: <ref target="https://www.aadnc-aandc.gc.ca/eng/1100100028689/1100100028690">https://www.aadnc-aandc.gc.ca/eng/1100100028689/1100100028690</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_4_fr" n="Treaty No. 4, 1874"><title level="m">Traité Nº 4</title>. Reproduit de : <ref target="https://www.aadnc-aandc.gc.ca/fra/1100100028689/1100100028690">https://www.aadnc-aandc.gc.ca/fra/1100100028689/1100100028690</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_5" n="Treaty No. 5, 1875"><title level="m">Treaty No. 5</title>. Reproduced from: <ref target="http://www.aadnc-aandc.gc.ca/eng/1100100028699/1100100028700">http://www.aadnc-aandc.gc.ca/eng/1100100028699/1100100028700</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_5_fr" n="Treaty No. 5, 1875"><title level="m">Traité Nº 5</title>. Reproduit de : <ref target="http://www.aadnc-aandc.gc.ca/fra/1100100028699/1100100028700">http://www.aadnc-aandc.gc.ca/fra/1100100028699/1100100028700</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_6" n="Treaty No. 6, 1876"><title level="m">Treaty No. 6</title>. Reproduced from: <ref target="https://www.aadnc-aandc.gc.ca/eng/1100100028710/1100100028783">https://www.aadnc-aandc.gc.ca/eng/1100100028710/1100100028783</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_6_fr" n="Treaty No. 6, 1876"><title level="m">Traité Nº 6</title>. Reproduit de : <ref target="https://www.aadnc-aandc.gc.ca/fra/1100100028710/1100100028783">https://www.aadnc-aandc.gc.ca/fra/1100100028710/1100100028783</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_7" n="Treaty No. 7, 1877"><title level="m">Treaty No. 7</title>. Reproduced from: <ref target="http://www.aadnc-aandc.gc.ca/eng/1100100028793/1100100028803">http://www.aadnc-aandc.gc.ca/eng/1100100028793/1100100028803</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_7_fr" n="Treaty No. 7, 1877"><title level="m">Traité Nº 7</title>. Reproduit de : <ref target="http://www.aadnc-aandc.gc.ca/fra/1100100028793/1100100028803">http://www.aadnc-aandc.gc.ca/fra/1100100028793/1100100028803</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_8" n="Treaty No. 8, 1899"><title level="m">Treaty No. 8</title>. Reproduced from: <ref target="http://www.aadnc-aandc.gc.ca/eng/1100100028813/1100100028853">http://www.aadnc-aandc.gc.ca/eng/1100100028813/1100100028853</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_8_fr" n="Treaty No. 8, 1899"><title level="m">Traité Nº 8</title>. Reproduit de : <ref target="http://www.aadnc-aandc.gc.ca/fra/1100100028813/1100100028853">http://www.aadnc-aandc.gc.ca/fra/1100100028813/1100100028853</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_9" n="Treaty No. 9, 1905"><title level="m">Treaty No. 9</title>. Reproduced from: <ref target="http://www.aadnc-aandc.gc.ca/eng/1100100028863/1100100028864">http://www.aadnc-aandc.gc.ca/eng/1100100028863/1100100028864</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_9_fr" n="Treaty No. 9, 1905"><title level="m">Traité Nº 9</title>. Reproduit de : <ref target="http://www.aadnc-aandc.gc.ca/fra/1100100028863/1100100028864">http://www.aadnc-aandc.gc.ca/fra/1100100028863/1100100028864</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_10" n="Treaty No. 10, 1906"><title level="m">Treaty No. 10</title>. Reproduced from: <ref target="https://www.aadnc-aandc.gc.ca/eng/1100100028874/1100100028906">https://www.aadnc-aandc.gc.ca/eng/1100100028874/1100100028906</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_10_fr" n="Treaty No. 10, 1906"><title level="m">Traité Nº 10</title>. Reproduit de : <ref target="https://www.aadnc-aandc.gc.ca/fra/1100100028874/1100100028906">https://www.aadnc-aandc.gc.ca/fra/1100100028874/1100100028906</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_11" n="Treaty No. 11, 1921"><title level="m">Treaty No. 11</title>. Reproduced from: <ref target="https://www.aadnc-aandc.gc.ca/eng/1100100028916/1100100028947">https://www.aadnc-aandc.gc.ca/eng/1100100028916/1100100028947</ref>
+        </bibl>
+        
+        <bibl xml:id="treaty_11_fr" n="Treaty No. 11, 1921"><title level="m">Traité Nº 11</title>. Reproduit de :  <ref target="https://www.aadnc-aandc.gc.ca/fra/1100100028916/1100100028947">https://www.aadnc-aandc.gc.ca/fra/1100100028916/1100100028947</ref>
+        </bibl>
+        
+
       </listBibl>
     
     

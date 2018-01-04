@@ -100,9 +100,25 @@
     </xsl:variable>
     
     <xd:doc scope="component">
+        <xd:desc>Caption for source citation in debate day document.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="debateSourceCaption">
+        <span lang="en">Source: </span>
+        <span lang="fr">Source: </span>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Caption for footnotes.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="footnotesCaption">
+        <span lang="en">Footnotes: </span>
+        <span lang="fr">Notes de bas de page: </span>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
         <xd:desc>Captions for different types of place: federal riding</xd:desc>
     </xd:doc>
-    <xsl:variable name="federalRidingCaption"><span lang="en">Federal riding</span><span lang="fr">[Fr caption needed for "Federal riding"]</span></xsl:variable>
+    <xsl:variable name="federalRidingCaption"><span lang="en">Federal riding</span><span lang="fr">Circonscription fédérale</span></xsl:variable>
     
     <xd:doc scope="component">
         <xd:desc>Captions for different types of place: provincial riding</xd:desc>
@@ -113,5 +129,15 @@
         <xd:desc>Captions for different types of place: treaty location</xd:desc>
     </xd:doc>
     <xsl:variable name="treatyLocationCaption"><span lang="en">Treaty negotiation or signing location</span><span lang="fr">[Fr caption needed for "Treaty negotiation or signing location"]</span></xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Caption for person fragment introducing debate participation</xd:desc>
+    </xd:doc>
+    <xsl:variable name="participatedCaption"><span lang="en">participated in the following debates: </span><span lang="fr">a participé aux débats de la Confédération suivants :</span></xsl:variable>
+    
+    <xd:doc scope="component">
+        <xd:desc>Caption for riding represented by someone</xd:desc>
+    </xd:doc>
+    <xsl:variable name="representedCaption"><span lang="en"> as a representative for </span><span lang="fr"> en tant que représentant de </span></xsl:variable>
     
 </xsl:stylesheet>

@@ -315,6 +315,22 @@
                      </bibl>
                   </listBibl>
                </person>
+               <person xml:id="BALC1">
+                  <persName when="1865">
+                     <surname>Balcom</surname>,
+                     <forename>Henry</forename>
+                  </persName>
+                  <affiliation when="1865" n="NS Leg" ref="plc:EHAL1">Halifax County Eastern Division</affiliation>
+                  <affiliation when="1866" n="NS Leg" ref="plc:EHAL1">Halifax County Eastern Division</affiliation>
+               </person>
+               <person xml:id="PRYO1">
+                  <persName when="1865">
+                     <surname>Pryor</surname>,
+                     <forename>Henry</forename>
+                  </persName>
+                  <affiliation when="1865" n="NS Leg" ref="plc:EHAL1">Halifax County Western Division</affiliation>
+                  <affiliation when="1866" n="NS Leg" ref="plc:EHAL1">Halifax County Western Division</affiliation>
+               </person>
                <person xml:id="ARCH3">
                   <persName when="1905">
                      <surname>Archambault</surname>,
@@ -682,6 +698,18 @@
                      <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="plc:THEP1">the Pas on the Saskatchewan River</placeName>. </note>
                   </state>
                </person>
+ <person xml:id="BELL15">
+                  <persName when="1954">
+                     <surname>Bell</surname>,
+                    <forename>A.</forename>
+                     <forename>S.</forename>
+                  </persName>
+                  <state when="1954">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:COCH7">Cochin</placeName>. </note>
+                  </state>
+                  <note></note>
+               </person>
                <person xml:id="BOYD1">
                   <persName when="1865">
                      <surname>Boyd</surname>,
@@ -868,6 +896,18 @@
                      <forename>Shand</forename>
                   </persName>
                   <affiliation when="1865" n="NB Leg" ref="plc:KENT5">Kent</affiliation>
+               </person>
+<person xml:id="BHAN1">
+                  <persName when="1950">
+                     <surname>Bhanz</surname>,
+                    <forename>B.</forename>
+<forename>A.</forename>
+                  </persName>
+                  <state when="1950">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:ROCK1">Rocky Mountain House</placeName>. </note>
+                  </state>
+                  <note></note>
                </person>
                <person xml:id="BICK1">
                   <persName when="1905">
@@ -3053,6 +3093,17 @@
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:EELG1">Elgin East</affiliation>
                   <affiliation when="1872" n="PEI House of Commons" ref="plc:EELG1">Elgin East</affiliation>
                </person>
+<person xml:id="DONA1">
+                  <persName when="1950">
+                     <surname>Donald</surname>,
+                    <forename>Ed</forename>
+                  </persName>
+                  <state when="1950">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:ROCK1">Rocky Mountain House</placeName>. </note>
+                  </state>
+                  <note></note>
+               </person>
                <person xml:id="DORI1">
                   <persName when="1865">
                      <surname>Dorion</surname>,
@@ -4117,6 +4168,17 @@
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:KING11">King's</affiliation>
                   <affiliation when="1949" n="NF House of Commons" ref="plc:KING11">King's</affiliation>
+               </person>
+<person xml:id="GRAN8">
+                  <persName when="1950">
+                     <surname>de Grandmaison</surname>,
+                    <forename>N.</forename>
+                  </persName>
+                  <state when="1950">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:ROCK1">Rocky Mountain House</placeName>. </note>
+                  </state>
+                  <note></note>
                </person>
                <person xml:id="GRAY1">
                   <persName when="1863">
@@ -12901,6 +12963,69 @@
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
+<person xml:id="TOMA1">
+                  <persName when="1876">
+                     <surname>Joseph Toma</surname>,
+                  </persName>
+                  <state when="1876">
+                     <label>Salteaux</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
+<person xml:id="NUSW1">
+                  <persName when="1876">
+                     <surname>NUS-WAS-OO-WAH-TUM</surname>,
+                  </persName>
+                  <state when="1876">
+                     <label>Cree Chief?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
+<person xml:id="SAYS1">
+                  <persName when="1876">
+                     <surname>Say-sway-kees</surname>,
+                  </persName>
+                  <state when="1876">
+                     <label>Cree Chief?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
+<person xml:id="TEET1">
+                  <persName when="1876">
+                     <surname>TEE—TEE-QUAY-SAY</surname>, 
+                  </persName>
+                  <state when="1876">
+                     <label>Cree Chief?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
+<person xml:id="OOPE1">
+                  <persName when="1876">
+                     <surname>OO-PEE-TOO-KERAH-HAN-AP-EE-WEE-YIN (The Pondmaker)</surname>, 
+                  </persName>
+                  <state when="1876">
+                     <label>Cree Chief?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
+<person xml:id="HUNT5">
+                  <persName when="1876">
+                     <surname>The Little Hunter</surname>,
+                  </persName>
+                  <state when="1876">
+                     <label>Cree Chief?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
+  <person xml:id="KIHE1">
+                  <persName when="1876">
+                     <surname>Ki-he-win</surname> (<addName>The Eagle</addName>),
+                  </persName>
+                  <state when="1876">
+                     <label>Cree Chief?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
                <person xml:id="WARR3">
                   <persName when="1945">
                      <surname>Warren</surname>, <forename>Ralph</forename>
@@ -12944,7 +13069,7 @@
                      <surname>Smith</surname>, <forename>Jack</forename>
                   </persName>
                   <affiliation n="House of Commons" when="1945" ref="plc:NYOR1">York North</affiliation>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                </person>
                <person xml:id="SMIT13">
                   <persName when="1876">
@@ -13227,7 +13352,7 @@
                   <persName when="1877">
                      <surname>Aah-Pay-Sis</surname>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>Headman of KE-HI-WIN</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FPIT1">Fort Pitt</placeName>. </note>
@@ -13286,7 +13411,7 @@
                <person xml:id="AHTU1">
                   <persName when="1876">
                      <surname>AH-TUK-UK-KOOP</surname> (<addName>Star Blanket; Ahtahkakoop</addName>)</persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Head Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -13297,7 +13422,7 @@
                   <persName when="1876">
                      <surname>AH-YAH-TUS-KUM-IK-IM-AM</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -13316,7 +13441,7 @@
                   <persName when="1876">
                      <surname>Ahs-Koos</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of PEE-YAHN-KAH-NIHK-OO-SIT</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -13515,7 +13640,7 @@
                      <surname>Ansey</surname>,
                     <forename>Joseph</forename>
                   </persName>
-                  <affiliation when="1899">Indians of Wapiscow and the country thereabouts</affiliation>
+                  <affiliation when="1899">First Nations of Wapiscow and the country thereabouts</affiliation>
                   <state when="1899">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:WAPI1">Wapiscow Lake</placeName>. </note>
@@ -13526,7 +13651,7 @@
                      <surname>Ansey</surname>,
                     <forename>Michael</forename>
                   </persName>
-                  <affiliation when="1899">Indians of Wapiscow and the country thereabouts</affiliation>
+                  <affiliation when="1899">First Nations of Wapiscow and the country thereabouts</affiliation>
                   <state when="1899">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:WAPI1">Wapiscow Lake</placeName>. </note>
@@ -13617,23 +13742,10 @@
                   </persName>
                   <state when="1871">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">1</num>. Location: <placeName ref="plc:LFOR1">Lower Fort Garry</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1</num>. Location: <placeName ref="plc:LFOR1">Lower Fort Garry</placeName>. Treaty # <num type="treaty">2</num>. Location: <placeName ref="plc:MANI1">Manitoba Post</placeName>. </note>
                   </state>
                </person>
-               <!--GL, 2017-11-30, commented out because this is extremely likely to be the same person as above 
-
-<person xml:id="ARCH6">
-                  <persName when="1871">
-                     <surname>Archibald</surname>,
-                    <forename>E.</forename>
-                     <forename>A.</forename>
-                  </persName>
-                  <state when="1871">
-                     <label>witness</label>
-                     <note>Treaty # <num type="treaty">2</num>. Location: <placeName ref="plc:MANI1">Manitoba Post</placeName>. </note>
-                  </state>
-               </person>-->
-
+            
 
                <person xml:id="ARCH7">
                   <persName when="1871">
@@ -13850,7 +13962,7 @@
                      <surname>Badger</surname>,
                     <forename>William</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of John Smith</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -13861,9 +13973,18 @@
                      <surname>Badger</surname>,
                     <forename>John</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of John Smith</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="BADG3">
+                  <persName when="1876">
+                     <surname>The Badger</surname>,
+                  </persName>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
+                  <state when="1876">
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
                   </state>
                </person>
@@ -13948,7 +14069,7 @@
                      <surname>Baptiste</surname>,
                     <forename>Jean</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of KEE-OO-WA-HAW</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -14027,7 +14148,7 @@
                      <surname>Bear</surname>,
                     <forename>James</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of John Smith</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -14135,7 +14256,7 @@
                      <surname>Beaver</surname>,
                     <forename>Louisa</forename>
                   </persName>
-                  <affiliation when="1899">Indians of Wapiscow and the country thereabouts</affiliation>
+                  <affiliation when="1899">First Nations of Wapiscow and the country thereabouts</affiliation>
                   <state when="1899">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:WAPI1">Wapiscow Lake</placeName>. </note>
@@ -14299,7 +14420,7 @@
                   <persName when="1876">
                      <surname>Benjamin</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Ah-tuk-uk-koop</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -14315,7 +14436,7 @@
                      <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="plc:FLIA1">Fort Liard</placeName>. </note>
                   </state>
                </person>
-               <person xml:id="BESG1">
+               <person xml:id="BERG3">
                   <persName when="1956">
                      <surname>Besggren</surname>,
                     <forename>R.</forename>
@@ -14386,7 +14507,7 @@
                      <surname>Bird</surname>,
                     <forename>Benjamin</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Councillor of William Charles' band</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -14397,7 +14518,7 @@
                      <surname>Bird</surname>,
                     <forename>Isaac</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Councillor of William Charles' band</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -14408,7 +14529,7 @@
                      <surname>Bird</surname>,
                     <forename>Patrick</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Councillor of William Charles' band</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -14419,7 +14540,7 @@
                      <surname>Bird</surname>,
                     <forename>Moses</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Councillor of William Charles' band</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -14581,9 +14702,9 @@
                      </bibl>
                   </listBibl>
                </person>
-               <person xml:id="BREM1">
+               <person xml:id="BRIM1">
                   <persName when="1950">
-                     <surname>Bremnes</surname>,
+                     <surname>Brimmis</surname>,
                     <forename>Joseph</forename>
                   </persName>
                   <affiliation when="1950">Chippewa Indian, located at Rocky Mountain House</affiliation>
@@ -14591,11 +14712,11 @@
                      <label>chief? headman?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:ROCK1">Rocky Mountain House</placeName>. </note>
                   </state>
-                  <note>name obtained from book "Bounty and Benevolence: A Documentary History of Saskatchewan Treaties". By Arthur J. Ray, Jim Miller, Frank Tough</note>
+                  <note>name obtained from book "Bounty and Benevolence: A Documentary History of Saskatchewan Treaties". By Arthur J. Ray, Jim Miller, Frank Tough <!-- This website identifies these men as "Brimmis" not "Bremnes" Thomas' signature clearly shows Brimmis: https://books.google.ca/books?id=oa17AwAAQBAJ&pg=PA151&lpg=PA151&dq=brimmis&source=bl&ots=qWvoZQfQNm&sig=xA9EJDEuLtY3x2z1bkFqgnoi6H0&hl=en&sa=X&ved=0ahUKEwj1xc72oIXYAhWH44MKHZ6HBx4Q6AEISDAH#v=onepage&q=brimmis&f=false --></note>
                </person>
-               <person xml:id="BREM2">
+               <person xml:id="BRIM2">
                   <persName when="1950">
-                     <surname>Bremnes</surname>,
+                     <surname>Brimmis</surname>,
                     <forename>Thomas</forename>
                   </persName>
                   <affiliation when="1950">Chippewa Indian, located at Rocky Mountain House</affiliation>
@@ -14761,7 +14882,7 @@
                      <surname>Cadien</surname>,
                     <forename>Pierre</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Mis-to-wa-sis</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -14909,7 +15030,7 @@
                   <persName when="1877">
                      <surname>CATCHIS-TAH-WAY-SKUM</surname>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FEDM1">Edmonton</placeName>. </note>
@@ -14959,7 +15080,7 @@
                   <persName when="1876">
                      <surname>CHA-KAS-TA-PAY-SIN</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -15003,7 +15124,7 @@
                      <surname>Charles</surname>,
                     <forename>William</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -15014,7 +15135,7 @@
                      <surname>Charles</surname>,
                     <forename>Amos</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Councillor of James Roberts' band</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -15025,7 +15146,7 @@
                      <surname>Charles</surname>,
                     <forename>Joseph</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Councillor of James Roberts' band</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -15079,7 +15200,7 @@
                </person>
                <person xml:id="CHEE1">
                   <persName when="1875">
-                     <surname>Chee</surname>
+                     <surname>Chee Cuk</surname>
                   </persName>
                   <state when="1875">
                      <label>Chief</label>
@@ -15131,7 +15252,7 @@
                   <persName when="1876">
                      <surname>Chip-Ee-Wayan</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -15481,7 +15602,7 @@
                      <surname>Constant</surname>,
                     <forename>Bernard</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of James Smith</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -15533,7 +15654,7 @@
                      <surname>Cook</surname>,
                     <forename>John</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Councillor of William Charles' band</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -15625,7 +15746,7 @@
                   <persName when="1900">
                      <surname>Crap-Wa-Tee</surname>
                   </persName>
-                  <affiliation when="1900">Dogribs Indians of Great Slave Lake</affiliation>
+                  <affiliation when="1900">Dogribs First Nations of Great Slave Lake</affiliation>
                   <state when="1900">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:FRES1">Fort Resolution</placeName>. </note>
@@ -15716,15 +15837,7 @@
                   </listBibl>
                   <note>Treaty 7 shows as: T. N. F. CROZIER, Inspector</note>
                </person>
-               <person xml:id="CUK1">
-                  <persName when="1875">
-                     <surname>Cuk</surname>
-                  </persName>
-                  <state when="1875">
-                     <label>Chief</label>
-                     <note>Treaty # <num type="treaty">4</num>. Location: <placeName ref="plc:QUAP3">Qu'Appelle Lakes</placeName>. </note>
-                  </state>
-               </person>
+             
                <person xml:id="CUNN2">
                   <persName when="1909">
                      <surname>Cunningham</surname>,
@@ -16056,7 +16169,7 @@
                   <persName when="1900">
                      <surname>Dried Geese</surname>
                   </persName>
-                  <affiliation when="1900">Dogribs Indians of Great Slave Lake</affiliation>
+                  <affiliation when="1900">Dogribs First Nations of Great Slave Lake</affiliation>
                   <state when="1900">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:FRES1">Fort Resolution</placeName>. </note>
@@ -16194,7 +16307,7 @@
                <person xml:id="ETAM1">
                   <persName when="1878">
                      <surname>ETA-ME-PE-TON</surname> (<addName>Uses Both Arms</addName>)</persName>
-                  <affiliation when="1878">Stony Tribe of Indians</affiliation>
+                  <affiliation when="1878">Stony Tribe of First Nations</affiliation>
                   <state when="1878">
                      <label>Headman?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BATT4">Battleford</placeName>. </note>
@@ -16403,7 +16516,7 @@
                   </persName>
                   <affiliation when="1899">Beaver Indian</affiliation>
                   <state when="1899">
-                     <label>Headman Beaver Indians</label>
+                     <label>Headman Beaver First Nations</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:VERM1">Vermilion</placeName>. </note>
                   </state>
                </person>
@@ -16657,9 +16770,9 @@
                </person>
                <person xml:id="GOOD4">
                   <persName when="1950">
-                     <surname>Gooderbaum</surname>,
+                     <surname>Gooderham</surname>,
                     <forename>G.</forename>
-                     <forename>K.</forename>
+                     <forename>Kent</forename>
                   </persName>
                   <state when="1950">
                      <label>witness</label>
@@ -16813,9 +16926,9 @@
                      <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="plc:NELS2">Nelson House</placeName>. </note>
                   </state>
                </person>
-               <person xml:id="GRAV1">
+               <person xml:id="GRAN9">
                   <persName when="1950">
-                     <surname>Grave</surname>,
+                     <surname>Gran</surname>,
                     <forename>V.</forename>
                      <forename>M.</forename>
                   </persName>
@@ -17260,7 +17373,7 @@
                </person>
                <person xml:id="IRON3">
                   <persName when="1954">
-                     <surname>Ironbon</surname>,
+                     <surname>Ironbow</surname>,
                     <forename>Joseph</forename>
                   </persName>
                   <affiliation when="1954">Saulteaux Band, at Saulteaux Indian Reserve</affiliation>
@@ -17272,7 +17385,7 @@
                </person>
                <person xml:id="IRON4">
                   <persName when="1954">
-                     <surname>Ironbon</surname>,
+                     <surname>Ironbow</surname>,
                     <forename>Margaret</forename>
                   </persName>
                   <affiliation when="1954">Saulteaux Band, at Saulteaux Indian Reserve</affiliation>
@@ -17430,7 +17543,7 @@
                <person xml:id="JAME1">
                   <persName when="1878">
                      <surname>James</surname> (<addName>Chief Son</addName>)</persName>
-                  <affiliation when="1878">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1878">Wood Cree First Nations</affiliation>
                   <state when="1878">
                      <label>Councillor</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:CARL6">Carlton</placeName>. </note>
@@ -17548,7 +17661,7 @@
                      <surname>Joyful</surname>,
                     <forename>Benjamin</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of John Smith</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -17648,6 +17761,15 @@
                      <note>Treaty # <num type="treaty">4</num>. Location: <placeName ref="plc:FQUA1">Qu'Appelle</placeName>. </note>
                   </state>
                </person>
+  <person xml:id="KEEE1">
+                  <persName when="1874">
+                     <surname>KEE-E-KUK</surname> </persName>
+                  <affiliation when="1874"></affiliation>
+                  <state when="1874">
+                     <label>Chief? or Headman?</label>
+                     <note>Treaty # <num type="treaty">4</num>. Location: <placeName ref="plc:FQUA1">Qu'Appelle</placeName>. </note>
+                  </state>
+               </person>
                <person xml:id="KATA1">
                   <persName when="1875">
                      <surname>KA-TAH-KAK-WA-NA-YAAS</surname>
@@ -17689,7 +17811,7 @@
                <person xml:id="KAWA2">
                   <persName when="1878">
                      <surname>KA-WA-SA-SKO-TRE-PAH-IK</surname> (<addName>Lightning</addName>)</persName>
-                  <affiliation when="1878">Stony Tribe of Indians</affiliation>
+                  <affiliation when="1878">Stony Tribe of First Nations</affiliation>
                   <state when="1878">
                      <label>Headman?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BATT4">Battleford</placeName>. </note>
@@ -17732,7 +17854,7 @@
                   <persName when="1900">
                      <surname>Kachweesala</surname>
                   </persName>
-                  <affiliation when="1900">Slave Indians of Hay river and the country thereabouts</affiliation>
+                  <affiliation when="1900">Slave First Nations of Hay river and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>principal man?</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:VERM1">Vermilion</placeName>. </note>
@@ -17752,7 +17874,7 @@
                   <persName when="1876">
                      <surname>KAH-AH-TEE-KOO-WEN</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -17781,7 +17903,7 @@
                   <persName when="1876">
                      <surname>KAH-KUN-EE-KNAHN-AHS-UM</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Cha-Kas-Ta-Pay-Sin</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -17789,19 +17911,20 @@
                </person>
                <person xml:id="KAHM1">
                   <persName when="1876">
-                     <surname>KAH-MEE-GIS-TOO-WAY-SIT</surname>
+                     <surname>KAH-MEE-GIS-TOO-WAY-SIT</surname><addName>Kah-mee-yes-too-waegs</addName><addName>The Beardy</addName>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Joint Chief?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
                   </state>
                </person>
+
                <person xml:id="KAHN3">
                   <persName when="1876">
                      <surname>KAH-NAH-LAH-SKOW-WAHT</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -17811,7 +17934,7 @@
                   <persName when="1876">
                      <surname>KAH-NAH-MAH-CHEW</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -17840,7 +17963,7 @@
                   <persName when="1876">
                      <surname>KAH-PAH-PAH-MAH-CHATIK-WAY</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of CHIPEE-WAYAN</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -17850,7 +17973,7 @@
                   <persName when="1876">
                      <surname>KAH-PAY-YAK-WAHSK-OO-NUM</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Joint Chief?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -17860,7 +17983,7 @@
                   <persName when="1877">
                      <surname>KAH-SEE-MUT-A-POO</surname>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>chief? Headman?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FPIT1">Fort Pitt</placeName>. </note>
@@ -17880,7 +18003,7 @@
                   <persName when="1876">
                      <surname>KAH-TIP-IS-KOW-AHT</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Cha-Kas-Ta-Pay-Sin</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -17900,7 +18023,7 @@
                      <surname>Kapusekonew</surname>,
                     <forename>Joseph</forename>
                   </persName>
-                  <affiliation when="1899">Indians of Wapiscow and the country thereabouts</affiliation>
+                  <affiliation when="1899">First Nations of Wapiscow and the country thereabouts</affiliation>
                   <state when="1899">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:WAPI1">Wapiscow Lake</placeName>. </note>
@@ -17941,7 +18064,7 @@
                </person>
                <person xml:id="KATC4">
                   <persName when="1956">
-                     <surname>Katcheech</surname>,
+                     <surname>Katchuch</surname>,
                     <forename>George</forename>
                   </persName>
                   <affiliation when="1956">Saulteaux Indian Band</affiliation>
@@ -18058,7 +18181,7 @@
                   <persName when="1876">
                      <surname>Kee-Koo-Hoos</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of KEE-OO-WA-HAW</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -18088,7 +18211,7 @@
                   <persName when="1876">
                      <surname>KEE-SIK-OW-AS-IS</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Ah-tuk-uk-koop</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -18108,7 +18231,7 @@
                   <persName when="1876">
                      <surname>KEE-TOO-WA-HAW</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -18127,7 +18250,7 @@
                   <persName when="1876">
                      <surname>KEE-YEU-AH-TIAH-PIM-WAHT</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of CHIPEE-WAYAN</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -18138,7 +18261,7 @@
                      <surname>KEES-KEE-CHEE-CHI</surname>,
                     <forename>Alexis</forename>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FEDM1">Edmonton</placeName>. </note>
@@ -18148,7 +18271,7 @@
                   <persName when="1878">
                      <surname>Kene-Mo-Tay</surname>
                   </persName>
-                  <affiliation when="1878">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1878">Wood Cree First Nations</affiliation>
                   <state when="1878">
                      <label>Chief? Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:CARL6">Carlton</placeName>. </note>
@@ -18324,12 +18447,21 @@
                <person xml:id="KISK1">
                   <persName when="1877">
                      <surname>Kiskaquin</surname> (<addName>Bob-Tail</addName>)</persName>
-                  <affiliation when="1877">Cree Tribe of Indians</affiliation>
+                  <affiliation when="1877">Cree First Nations</affiliation>
                   <state when="1877">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BLAC8">the Blackfoot Crossing of the Bow River</placeName>. </note>
                   </state>
                   <note>referenced in DCB http://www.biographi.ca/en/bio/norwest_henry_14E.html</note>
+               </person>
+               <person xml:id="KISK2">
+                  <persName when="1876">
+                     <surname>Kis-ki-on</surname> (<addName>Short Tail</addName>)</persName>
+                  <affiliation when="1876">Cree First Nations</affiliation>
+                  <state when="1876">
+                     <label>Chief</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FPIT1">Fort Pitt</placeName>. </note>
+                  </state>
                </person>
                <person xml:id="KISS1">
                   <persName when="1877">
@@ -18418,7 +18550,7 @@
                   <persName when="1878">
                      <surname>KO-PAH-A-WA-KE-MUM</surname>
                   </persName>
-                  <affiliation when="1878">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1878">Wood Cree First Nations</affiliation>
                   <state when="1878">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:CARL6">Carlton</placeName>. </note>
@@ -18428,7 +18560,7 @@
                   <persName when="1900">
                      <surname>Koka</surname>
                   </persName>
-                  <affiliation when="1900">Slave Indians of Hay river and the country thereabouts</affiliation>
+                  <affiliation when="1900">Slave First Nations of Hay river and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>principal man?</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:VERM1">Vermilion</placeName>. </note>
@@ -18438,7 +18570,7 @@
                   <persName when="1877">
                      <surname>KOO-SAH-WAN-AS-KAY-O</surname>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FEDM1">Edmonton</placeName>. </note>
@@ -18448,7 +18580,7 @@
                   <persName when="1876">
                      <surname>KOO-YAH-TIK-WAH-PAHA</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Mis-to-wa-sis</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -18801,6 +18933,19 @@
                      <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="plc:NWAG1">North-West Angle of the Lake of the Woods</placeName>. </note>
                   </state>
                </person>
+ <person xml:id="LIES1">
+                  <persName when="1950">
+                     <surname>Liessés</surname>,
+                    <forename>C.</forename>
+                     <forename>J.</forename>
+<forename>W.</forename>
+                  </persName>
+                  <state when="1950">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:WITC1">Witchekan Lake</placeName>. </note>
+                  </state>
+                  <note></note>
+               </person>
                <person xml:id="LINK1">
                   <persName when="1909">
                      <surname>Linklater</surname>,
@@ -18834,7 +18979,7 @@
                   <persName when="1876">
                      <surname>LOO-SOU-AM-EE-KWAKN</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of AH-YAH-TUS-KUM-IK-IM-UM</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -18928,7 +19073,7 @@
                   <persName when="1876">
                      <surname>MA-TWA-AHS-TIN-OO-WE-GIN</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of James Smith</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -19076,6 +19221,14 @@
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
+               <person xml:id="REDP1">
+                  <persName when="1876">
+                     <surname>THE RED PHEASANT</surname>
+                  </persName>
+                  <state when="1876">
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
                <person xml:id="MAHK1">
                   <persName when="1878">
                      <surname>Mah-Kayo</surname>
@@ -19100,7 +19253,7 @@
                   <persName when="1876">
                      <surname>MAHS-KEE-TO-TIM-AN</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Mis-to-wa-sis</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -19199,7 +19352,7 @@
                      <surname>Maristyo</surname>,
                     <forename>Banyiel</forename>
                   </persName>
-                  <affiliation when="1878">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1878">Wood Cree First Nations</affiliation>
                   <state when="1878">
                      <label>Councillor</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:CARL6">Carlton</placeName>. </note>
@@ -19319,7 +19472,7 @@
                   <persName when="1878">
                      <surname>MAS-E-NAS-CHOSE</surname>
                   </persName>
-                  <affiliation when="1878">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1878">Wood Cree First Nations</affiliation>
                   <state when="1878">
                      <label>Chief? Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:CARL6">Carlton</placeName>. </note>
@@ -19356,7 +19509,7 @@
                   <persName when="1876">
                      <surname>Mass-Ax</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Mis-to-wa-sis</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -20017,7 +20170,7 @@
                      <surname>McLean</surname>,
                     <forename>Jacob</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of James Smith</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -20209,7 +20362,7 @@
                   <persName when="1876">
                      <surname>MEE-NOW-AH-CHAHK-WAY</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Ah-tuk-uk-koop</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -20304,7 +20457,7 @@
                <person xml:id="MEMI1">
                   <persName when="1877">
                      <surname>Meminowataw</surname> (<addName>Sometimes Glad</addName>)</persName>
-                  <affiliation when="1877">Cree Tribe of Indians</affiliation>
+                  <affiliation when="1877">Cree First Nations</affiliation>
                   <state when="1877">
                      <label>Councillor</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BLAC8">the Blackfoot Crossing of the Bow River</placeName>. </note>
@@ -20427,7 +20580,7 @@
                <person xml:id="MIST1">
                   <persName when="1876">
                      <surname>MIS-TO-WA-SIS</surname> (<addName>Mistawāsis; Big Child</addName>)</persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Head Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -20509,7 +20662,7 @@
                <person xml:id="MOCA3">
                   <persName when="1956">
                      <surname>Moccasin</surname>,
-                    <forename>Atlas</forename>
+                    <forename>Stan</forename>
                   </persName>
                   <affiliation when="1956">Saulteaux Indian Band</affiliation>
                   <state when="1956">
@@ -20571,7 +20724,7 @@
                   <persName when="1876">
                      <surname>Moon-Ed-Yahs</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -20869,7 +21022,7 @@
                   <persName when="1876">
                      <surname>MUS-IN-AH-WE-KIM-AHER</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Cha-Kas-Ta-Pay-Sin</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -20890,7 +21043,7 @@
                <person xml:id="MUSK2">
                   <persName when="1950">
                      <surname>Muskeg</surname>,
-                    <forename>Nocass</forename>
+                    <forename>No Case</forename>
                   </persName>
                   <affiliation when="1950">Chippewa Indian, located at Rocky Mountain House</affiliation>
                   <state when="1950">
@@ -20957,7 +21110,7 @@
                   <persName when="1876">
                      <surname>NAA-POO-CHEE-CHEES</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of CHIPEE-WAYAN</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -20998,7 +21151,7 @@
                   <persName when="1876">
                      <surname>Nah-Pach</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Cha-Kas-Ta-Pay-Sin</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -21030,7 +21183,7 @@
                      <surname>Nahdayyah</surname>,
                     <forename>Giroux</forename>
                   </persName>
-                  <affiliation when="1900">Slave Indians of Hay river and the country thereabouts</affiliation>
+                  <affiliation when="1900">Slave First Nations of Hay river and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>principal man?</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:VERM1">Vermilion</placeName>. </note>
@@ -21065,6 +21218,19 @@
                      <label>headman?</label>
                      <note>Treaty # <num type="treaty">9</num>. Location: <placeName ref="plc:FHOP1">Fort Hope</placeName>. </note>
                   </state>
+               </person>
+<person xml:id="NAPA1">
+                  <persName when="1944">
+                     <surname>Napaysis</surname>,
+                    <forename></forename>
+                 
+                  </persName>
+                  <affiliation when="1944">Cree Indian, located by the Baptiste River</affiliation>
+                  <state when="1944">
+                     <label>headman?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:ROCK1">Rocky Mountain House</placeName>. </note>
+                  </state>
+                  <note>name obtained from French translation (https://www.aadnc-aandc.gc.ca/fra/1100100028710/1100100028783), in syllabic characters.</note>
                </person>
                <person xml:id="NATT1">
                   <persName when="1875">
@@ -21211,7 +21377,7 @@
                   <persName when="1876">
                      <surname>NEES-WAH-YAK-EE-NAH-KOOS</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of AH-YAH-TUS-KUM-IK-IM-UM</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -21241,7 +21407,7 @@
                <person xml:id="NESO1">
                   <persName when="1878">
                      <surname>Neso-Au-Asis</surname> (<addName>Two Child</addName>)</persName>
-                  <affiliation when="1878">Stony Tribe of Indians</affiliation>
+                  <affiliation when="1878">Stony Tribe of First Nations</affiliation>
                   <state when="1878">
                      <label>Headman?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BATT4">Battleford</placeName>. </note>
@@ -21540,7 +21706,7 @@
                   <persName when="1876">
                      <surname>OO-MIN-AH-KAW</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -21550,7 +21716,7 @@
                   <persName when="1877">
                      <surname>OO-MUS-IN-AH-SOO-WAW-SINEE</surname>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FEDM1">Edmonton</placeName>. </note>
@@ -21578,7 +21744,7 @@
                   <persName when="1876">
                      <surname>Oo-Sahm US-KOO-NEE-KIK</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of AH-YAH-TUS-KUM-IK-IM-UM</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -21588,7 +21754,7 @@
                   <persName when="1876">
                      <surname>OO-TUK-KOO-PAH-KAH-MAY-TOW-WAY-YIT</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -21764,7 +21930,7 @@
                   <persName when="1877">
                      <surname>Pahs-Pahs-Chase</surname>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>Headman?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FEDM1">Edmonton</placeName>. </note>
@@ -21913,7 +22079,7 @@
                   <persName when="1877">
                      <surname>PAY-MO-TAY-AH-SOO</surname>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>chief?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FPIT1">Fort Pitt</placeName>. </note>
@@ -21961,7 +22127,7 @@
                   <persName when="1876">
                      <surname>Pee-Ay-Chew</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of PEE-YAHN-KAH-NIHK-OO-SIT</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -21980,7 +22146,7 @@
                   <persName when="1876">
                      <surname>PEE-TOOK-AH-HA N AP-EE-GIW-EW</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of PEE-YAHN-KAH-NIHK-OO-SIT</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -22000,7 +22166,7 @@
                   <persName when="1876">
                      <surname>PEE-YAHN-KAH-NICHK-OO-SIT</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -22071,7 +22237,7 @@
                   <persName when="1876">
                      <surname>PET-E-QUA-CAY</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of KEE-OO-WA-HAW</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -22394,22 +22560,7 @@
                      <label>Indian Commissioner</label>
                      <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
                   </state>
-                  <listBibl>
-                     <bibl xml:lang="en">
-                        <ptr target="http://www.biographi.ca/en/bio/provencher_joseph_alfred_norbert_11E.html"/>
-                     </bibl>
-                     <bibl xml:lang="fr">
-                        <ptr target="http://www.biographi.ca/fr/bio/provencher_joseph_alfred_norbert_11F.html"/>
-                     </bibl>
-                  </listBibl>
-               </person>
-               <person xml:id="PROV2">
-                  <persName when="1876">
-                     <surname>Provencher</surname>,
-                    <forename>Joseph</forename>
-                     <forename>Alfred Norbert</forename>
-                  </persName>
-                  <state when="1876">
+      <state when="1876">
                      <label>Witness</label>
                      <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="plc:WINN4">Winnipeg</placeName>. </note>
                   </state>
@@ -22422,6 +22573,7 @@
                      </bibl>
                   </listBibl>
                </person>
+
                <person xml:id="PRUD1">
                   <persName when="1899">
                      <surname>Prud'homme</surname>,
@@ -22629,7 +22781,7 @@
                      <surname>Roberts</surname>,
                     <forename>James</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -22640,7 +22792,7 @@
                      <surname>Roberts</surname>,
                     <forename>Elias</forename>
                   </persName>
-                  <affiliation when="1889">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1889">Wood Cree First Nations</affiliation>
                   <state when="1889">
                      <label>Councillor of James Roberts' band</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:LMON1">Montreal Lake</placeName>. </note>
@@ -22722,7 +22874,7 @@
                   <persName when="1878">
                      <surname>SA-SE-WA-HUM</surname>
                   </persName>
-                  <affiliation when="1878">Wood Cree Tribe of Indians</affiliation>
+                  <affiliation when="1878">Wood Cree First Nations</affiliation>
                   <state when="1878">
                      <label>Chief? Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:CARL6">Carlton</placeName>. </note>
@@ -22773,7 +22925,7 @@
                   <persName when="1876">
                      <surname>SAH-SAH-KOO-MOOS</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of Ah-tuk-uk-koop</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -22968,6 +23120,36 @@
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName>?</placeName>. </note>
                   </state>
                </person>
+<person xml:id="WHAT1">
+                  <persName when="1878">
+                     <surname>WAH-TAH-NEE</surname>,
+                  </persName>
+                  <affiliation when="1878">Cree Indian?</affiliation>
+                  <state when="1878">
+                     <label>Headman?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName>?</placeName>. </note>
+                  </state>
+               </person>
+<person xml:id="CHIN2">
+                  <persName when="1878">
+                     <surname>CHIN-UN-US-KUT (the Stump)</surname>,
+                  </persName>
+                  <affiliation when="1878">Cree Indian?</affiliation>
+                  <state when="1878">
+                     <label>Headman?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName>?</placeName>. </note>
+                  </state>
+               </person>
+<person xml:id="SAYS2">
+                  <persName when="1878">
+                     <surname>SAY-SWAY-PUS</surname>,
+                  </persName>
+                  <affiliation when="1878">Cree Indian?</affiliation>
+                  <state when="1878">
+                     <label>Headman?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName>?</placeName>. </note>
+                  </state>
+               </person>
                <person xml:id="SEEK1">
                   <persName when="1876">
                      <surname>See-Kahs-Kootch</surname>
@@ -22981,7 +23163,7 @@
                   <persName when="1876">
                      <surname>SEE-SEE-KWAHN-IS</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Joint Chief?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -22991,7 +23173,7 @@
                   <persName when="1876">
                      <surname>SEE-SEE-QUAN-ISH</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -23111,6 +23293,15 @@
                      <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
+               <person xml:id="SHEB2">
+                  <persName when="1873">
+                     <surname>Shebandowan</surname>
+                  </persName>
+                  <state when="1873">
+                     <label>Councillor</label>
+                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="plc:NWAG1">North-West Angle of the Lake of the Woods</placeName>. </note>
+                  </state>
+               </person>
                <person xml:id="SHEM1">
                   <persName when="1906">
                      <surname>Shemeket</surname>,
@@ -23221,7 +23412,7 @@
                      <surname>Smith</surname>,
                     <forename>James</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -23232,7 +23423,7 @@
                      <surname>Smith</surname>,
                     <forename>Henry</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of James Smith</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -23569,10 +23760,22 @@
                      <note>Treaty # <num type="treaty">4</num>. Location: <placeName ref="plc:FQUA1">Qu'Appelle</placeName>. </note>
                   </state>
                </person>
+<person xml:id="SUIE1">
+                  <persName when="1950">
+                     <surname>Suiers</surname>,
+                    <forename>N.</forename>
+                     <forename>B.</forename>
+                  </persName>
+                  <state when="1950">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:WITC1">Witchekan Lake</placeName>. </note>
+                  </state>
+                  <note>M.D.</note>
+               </person>
                <person xml:id="SUKE1">
                   <persName when="1878">
                      <surname>Su-Ke-Man</surname> (<addName>Mlsketo</addName>)</persName>
-                  <affiliation when="1878">Stony Tribe of Indians</affiliation>
+                  <affiliation when="1878">Stony Tribe of First Nations</affiliation>
                   <state when="1878">
                      <label>Chief?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BATT4">Battleford</placeName>. </note>
@@ -23659,7 +23862,7 @@
                <person xml:id="SWIM3">
                   <persName when="1956">
                      <surname>Swimmer</surname>,
-                    <forename>Bonnie</forename>
+                    <forename>Bennie</forename>
                   </persName>
                   <affiliation when="1956">Saulteaux Indian Band</affiliation>
                   <state when="1956">
@@ -23671,7 +23874,7 @@
                <person xml:id="TAPA1">
                   <persName when="1875">
                      <surname>TA-PAS-TA-NUM</surname> (<addName>Donald William Sinclair Ross</addName>)</persName>
-                  <affiliation when="1875">Norway House region - Band of Wood Indians</affiliation>
+                  <affiliation when="1875">Norway House region - Band of Wood First Nations</affiliation>
                   <state when="1875">
                      <label>Chief</label>
                      <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="plc:NORV1">Norway House</placeName>. </note>
@@ -23702,7 +23905,7 @@
                   <persName when="1877">
                      <surname>Tah-Kootch</surname>
                   </persName>
-                  <affiliation when="1877">Cree and other Bands of Indians</affiliation>
+                  <affiliation when="1877">Cree and other Bands of First Nations</affiliation>
                   <state when="1877">
                      <label>Headman?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FEDM1">Edmonton</placeName>. </note>
@@ -23712,7 +23915,7 @@
                   <persName when="1876">
                      <surname>Tah-Wah-Jus K Ee-Kahp-Pow</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of PEE-YAHN-KAH-NIHK-OO-SIT</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -23763,7 +23966,7 @@
                      <surname>Tastaoosts</surname>,
                     <forename>Duncan</forename>
                   </persName>
-                  <affiliation when="1899">Indians of Peace River Landing and the adjacent territory</affiliation>
+                  <affiliation when="1899">First Nations of Peace River Landing and the adjacent territory</affiliation>
                   <state when="1899">
                      <label>Headman of Crees</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:PEAC2">Peace River Landing</placeName>. </note>
@@ -23774,7 +23977,7 @@
                      <surname>Tatatechay</surname>,
                     <forename>Alexis</forename>
                   </persName>
-                  <affiliation when="1900">Slave Indians of Hay river and the country thereabouts</affiliation>
+                  <affiliation when="1900">Slave First Nations of Hay river and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>chief?</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:VERM1">Vermilion</placeName>. </note>
@@ -23795,7 +23998,7 @@
                      <surname>Tchatee</surname>,
                     <forename>Francois</forename>
                   </persName>
-                  <affiliation when="1900">Slave Indians of Hay river and the country thereabouts</affiliation>
+                  <affiliation when="1900">Slave First Nations of Hay river and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>principal man?</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:VERM1">Vermilion</placeName>. </note>
@@ -23804,7 +24007,7 @@
                <person xml:id="TCHO1">
                   <persName when="1877">
                      <surname>Tchowek</surname> (<addName>Passingsound</addName>)</persName>
-                  <affiliation when="1877">Cree Tribe of Indians</affiliation>
+                  <affiliation when="1877">Cree First Nations</affiliation>
                   <state when="1877">
                      <label>Councillor</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BLAC8">the Blackfoot Crossing of the Bow River</placeName>. </note>
@@ -23828,7 +24031,7 @@
                   </persName>
                   <affiliation when="1899">Beaver Indian</affiliation>
                   <state when="1899">
-                     <label>Chief Beaver Indians</label>
+                     <label>Chief Beaver First Nations</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:VERM1">Vermilion</placeName>. </note>
                   </state>
                </person>
@@ -23840,6 +24043,36 @@
                   <state when="1900">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                  </state>
+               </person>
+            <person xml:id="KAMO5">
+                  <persName when="1874">
+                     <surname>Kamooses</surname>, 
+                     </persName>
+                  <affiliation when="1874"></affiliation>
+                  <state when="1874">
+                     <label>Chief</label>
+                     <note>Treaty # <num type="treaty">4</num>. Location: <placeName ref="plc:FQUA1">Fort Qu'appelle</placeName>. </note>
+                  </state>
+               </person>
+            <person xml:id="CANA1">
+                  <persName when="1874">
+                     <surname>Can-a-hah-cha-pew</surname>, 
+                     </persName>
+                  <affiliation when="1874"></affiliation>
+                  <state when="1874">
+                     <label>Chief</label>
+                     <note>Treaty # <num type="treaty">4</num>. Location: <placeName ref="plc:FQUA1">Fort Qu'appelle</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="OTAH1">
+                  <persName when="1874">
+                     <surname>O-ta-ha-o-man</surname> (<addName>The Gambler</addName>)
+                     </persName>
+                  <affiliation when="1874"></affiliation>
+                  <state when="1874">
+                     <label>Chief</label>
+                     <note>Treaty # <num type="treaty">4</num>. Location: <placeName ref="plc:FQUA1">Fort Qu'Appelle</placeName>. </note>
                   </state>
                </person>
                <person xml:id="ONET1">
@@ -23913,7 +24146,7 @@
                <person xml:id="THOM11">
                   <persName when="1950">
                      <surname>Thomas</surname>,
-                    <forename>Erma</forename>
+                    <forename>Emma</forename>
                   </persName>
                   <state when="1950">
                      <label>witness</label>
@@ -23924,7 +24157,7 @@
                <person xml:id="THOM12">
                   <persName when="1950">
                      <surname>Thomas</surname>,
-                    <forename>Louie</forename>
+                    <forename>Louis</forename>
                   </persName>
                   <affiliation when="1950">Cree Indian, located on the Witchekan Lake</affiliation>
                   <state when="1950">
@@ -24262,6 +24495,18 @@
                   </state>
                   <note>Treaty 4: also named as Pus-coos</note>
                </person>
+ <person xml:id="WAHP3">
+                  <persName when="1954">
+                     <surname>George</surname>,
+                    <forename>Wahpansee</forename>
+                  </persName>
+                  <affiliation when="1954">Saulteaux Band, at Saulteaux Indian Reserve</affiliation>
+                  <state when="1954">
+                     <label>chief? headman?</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:COCH7">Cochin</placeName>. </note>
+                  </state>
+                  <note></note>
+               </person>
                <person xml:id="WAHS1">
                   <persName when="1873">
                      <surname>Wah-Shis-Kouce</surname>
@@ -24275,7 +24520,7 @@
                <person xml:id="WAHW2">
                   <persName when="1876">
                      <surname>WAH-WEE-KAH-OO-TAH-MAH-HOTE</surname> (<addName>Totem; MEH-CHA-AW-ASIS</addName>)</persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -24285,7 +24530,7 @@
                   <persName when="1876">
                      <surname>Wah-Wis</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of CHIPEE-WAYAN</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -24321,6 +24566,10 @@
                      <label>witness; N.W.M.P</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
                   </state>
+   <state when="1876">
+                     <label>witness; Inspector N.W.M.P</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                  </state>
                   <state when="1878">
                      <label>witness; Inspector N.W.M.P.</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:BATT4">Battleford</placeName>. </note>
@@ -24338,25 +24587,7 @@
                      </bibl>
                   </listBibl>
                </person>
-               <person xml:id="WALK4">
-                  <persName when="1876">
-                     <surname>Walker</surname>,
-                    <forename>Jas.</forename>
-                     <forename>F.</forename>
-                  </persName>
-                  <state when="1876">
-                     <label>witness; Inspector N.W.M.P</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
-                  </state>
-                  <listBibl>
-                     <bibl xml:lang="en">
-                        <ptr target="http://www.biographi.ca/en/bio/walker_james_16E.html"/>
-                     </bibl>
-                     <bibl xml:lang="fr">
-                        <ptr target="http://www.biographi.ca/fr/bio/walker_james_16F.html"/>
-                     </bibl>
-                  </listBibl>
-               </person>
+            
                <person xml:id="WALS5">
                   <persName when="1877">
                      <surname>Walsh</surname>,
@@ -24380,7 +24611,7 @@
                   <persName when="1899">
                      <surname>Wapoose</surname>
                   </persName>
-                  <affiliation when="1899">Indians of Wapiscow and the country thereabouts</affiliation>
+                  <affiliation when="1899">First Nations of Wapiscow and the country thereabouts</affiliation>
                   <state when="1899">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:WAPI1">Wapiscow Lake</placeName>. </note>
@@ -24388,7 +24619,7 @@
                </person>
                <person xml:id="WARD3">
                   <persName when="1950">
-                     <surname>Wardern</surname>,
+                     <surname>Warden</surname>,
                     <forename>J.</forename>
                      <forename>T.</forename>
                   </persName>
@@ -24459,7 +24690,7 @@
                   <persName when="1900">
                      <surname>Way-Mi-Ah</surname>
                   </persName>
-                  <affiliation when="1900">Dogribs Indians of Great Slave Lake</affiliation>
+                  <affiliation when="1900">Dogribs First Nations of Great Slave Lake</affiliation>
                   <state when="1900">
                      <label>Headman</label>
                      <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:FRES1">Fort Resolution</placeName>. </note>
@@ -24494,6 +24725,16 @@
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
+     <person xml:id="WEAG1">
+                  <persName when="1954">
+                     <surname>Weaganase</surname>
+                  </persName>
+                  <affiliation when="1954">Salteaux Band</affiliation>
+                  <state when="1954">
+                     <label></label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:COCH7">Cochin</placeName>. </note>
+                  </state>
+               </person>
                <person xml:id="WEAV1">
                   <persName when="1899">
                      <surname>Weaver</surname>,
@@ -24517,10 +24758,10 @@
                </person>
                <person xml:id="WEEK1">
                   <persName when="1876">
-                     <surname>WEE-KAS-KOO-KEE-SAY-YIN</surname>
+                     <surname>WEE-KAS-KOO-KEE-SAY-YIN</surname> (<addName>Sweetgrass</addName>)
                   </persName>
                   <state when="1876">
-                     <label>Cree Chief?</label>
+                     <label>Cree Chief</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
@@ -24528,7 +24769,7 @@
                   <persName when="1876">
                      <surname>WEE-TEE-KOO-WEE-KAH-MAW-OO</surname>
                   </persName>
-                  <affiliation when="1876">Willow Indians</affiliation>
+                  <affiliation when="1876">Willow First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor?</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:FCARL1">near Fort Carlton</placeName>. </note>
@@ -24706,7 +24947,7 @@
                      <surname>Wolfe</surname>,
                     <forename>Isadore</forename>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of KEE-OO-WA-HAW</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
@@ -24797,7 +25038,7 @@
                   <persName when="1876">
                      <surname>YAY-YAH-TOO-WAY</surname>
                   </persName>
-                  <affiliation when="1876">Carlton Indians</affiliation>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
                      <label>Councillor of AH-YAH-TUS-KUM-IK-IM-UM</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>

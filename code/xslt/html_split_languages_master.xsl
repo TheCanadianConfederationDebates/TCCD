@@ -238,6 +238,16 @@
     </xsl:template>
     
     <xd:doc scope="component">
+        <xd:desc>Two of the documents we link from document index pages are project-level
+        diagnosis/monitoring pages. Those remain in the root directory and therefore 
+        need to be linked with ../, since the contents pages are moving down into language
+        subdirectories.</xd:desc>
+    </xd:doc>
+    <xsl:template match="li/a[matches(@href, '^(unidentified_names.htm)|(a_to_z.htm)$')]" mode="#all">
+        <a href="{concat('../', @href)}"><xsl:apply-templates/></a>
+    </xsl:template>
+    
+    <xd:doc scope="component">
         <xd:desc>We need to make sure that when we're processing a document index, 
         where there are parallel documents in both languages, we only include a 
         link to the one that's in the core language.</xd:desc>
@@ -259,6 +269,15 @@
                 <xsl:next-match/>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    
+    
+    <xd:doc scope="component">
+        <xd:desc>Links to PDFs need to have a ../ added to them, since we keep
+            only one copy of the folder of PDFs in the root.</xd:desc>
+    </xd:doc>
+    <xsl:template match="a[matches(@href, '^pdfs/.+\.pdf$')]" mode="#all">
+        <a href="{concat('../', @href)}"><xsl:apply-templates/></a>
     </xsl:template>
     
 </xsl:stylesheet>

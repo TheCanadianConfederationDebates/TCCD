@@ -76,7 +76,15 @@ function showInfo(sourceId) {
   infoContent.innerHTML = sourceEl.innerHTML;
   
   //Show the portrait
-  infoHeader.style.backgroundImage = 'url(../portraits/' + sourceId + '.jpg)';
+  if (sourceId.match(/^[A-Z]{4,}\d+$/) && sourceEl.getAttribute('data-has-portrait') === 'yes'){
+    infoHeader.style.backgroundImage = 'url(../portraits/' + sourceId + '.jpg)';
+    infoHeader.style.display = 'block';
+  }
+  else{
+    infoHeader.style.backgroundImage = '';
+    infoHeader.style.display = 'none';
+  }
+  
   
   //Show the popup
   infoPopup.style.display = 'block';

@@ -77,4 +77,16 @@
     </xd:doc>
     <xsl:variable name="projectTaxonomies" select="doc(concat($projectRoot, '/data/schemas/taxonomies.xml'))"/>
     
+    <xd:doc scope="component">
+        <xd:desc>The project bibliography file, from which has some things we
+            use for captions etc. in it.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="projectBibliography" select="doc(concat($projectRoot, '/data/bibliography/bibliography.xml'))"/>
+    
+    <xd:doc scope="component">
+        <xd:desc>List of portrait images available in the repo, so that we don't try to 
+        link to a non-existent image.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="portraitList" select="unparsed-text(concat($projectRoot, '/code/utilities/portraits.txt'))"/>
+    
 </xsl:stylesheet>

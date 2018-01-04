@@ -55,7 +55,7 @@
   
   <!-- Location of vnu.jar. the validator for HTML5 output documents.
        We don't store this in the repo, because it's large. -->
-  <property name="vnuDist" value="https://github.com/validator/validator/releases/download/17.9.0/vnu.jar_17.9.0.zip"/>
+  <property name="vnuDist" value="https://github.com/validator/validator/releases/download/17.11.1/vnu.jar_17.11.1.zip"/>
   
 <!-- RelaxNG file which also includes Schematron annotations. -->
   <property name="rngFile" value="data/schemas/tccd.rng"/>
@@ -336,6 +336,10 @@
     <mkdir dir="${webDir}/portraits"/>
     <copy todir="${webDir}/portraits">
       <fileset refid="portraits"/>
+    </copy>
+    <mkdir dir="${webDir}/pdfs"/>
+    <copy todir="${webDir}/pdfs">
+      <fileset dir="code/html/pdfs" includes="**/*.pdf"/>
     </copy>
     <copy todir="${webDir}">
       <fileset refid="mapComponents"/>

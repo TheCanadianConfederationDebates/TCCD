@@ -81,4 +81,54 @@
         </xsl:choose>
     </xsl:function>
     
+    <xd:doc scope="component">
+        <xd:desc>This function is designed to infer the putative id
+            of a bibliography item from the id of a debate day document. </xd:desc>
+    </xd:doc>
+    <xsl:function name="hcmc:getBiblId" as="xs:string">
+        <xsl:param name="inText" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="starts-with($inText, 'treaty_')">
+                <xsl:value-of select="$inText"/>
+            </xsl:when>
+            <xsl:when test="starts-with($inText, 'lgHC')">
+                <xsl:value-of select="concat('lg', 'HC', if (contains($inText, '_fr_')) then '_fr' else '')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="replace($inText, '_[\d\-]+$', '')"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xd:doc scope="component">
+        <xd:desc>This function is designed to create a pair of bounding
+        xs:date values, returned as a sequence, from a date element
+        which has @from and @to values which may not be complete
+        dates.</xd:desc>
+    </xd:doc>
+    <xsl:function name="hcmc:getDateRange" as="xs:date+">
+        <xsl:param name="inDate" as="element(date)"/>
+        <xsl:variable name="from" as="xs:date" select="if (string-length($inDate/@from) = 4) then xs:date(concat($inDate/@from, '-01-01'))
+                                                      else if (string-length($inDate/@from) = 7) then xs:date(concat($inDate/@from, '-01'))
+                                                      else xs:date($inDate/@from)"/>
+        <xsl:variable name="to" as="xs:date" select="if (string-length($inDate/@to) = 4) then xs:date(concat($inDate/@to, '-12-31'))
+            else if (string-length($inDate/@to) = 7) then xs:date(concat($inDate/@to, hcmc:getMonthDays(tokenize($inDate/@to, '-')[last()])))
+            else xs:date($inDate/@to)"/>
+        <xsl:sequence select="($from, $to)"/>
+    </xsl:function>
+    
+    
+    <xd:doc scope="component">
+        <xd:desc>This function returns the number of days in a month based on the 
+        month number. It ignores leap years.</xd:desc>
+    </xd:doc>
+    <xsl:function name="hcmc:getMonthDays" as="xs:string">
+        <xsl:param name="strMonthNum" as="xs:string"/>
+        <xsl:variable name="intMonth" as="xs:integer" select="xs:integer($strMonthNum)"/>
+        <xsl:choose>
+            <xsl:when test="$intMonth = (1, 3, 5, 7, 8, 10, 12)"><xsl:value-of select="'31'"/></xsl:when>
+            <xsl:when test="$intMonth = (4, 6, 9, 11)"><xsl:value-of select="'30'"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="'28'"/></xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
 </xsl:stylesheet>

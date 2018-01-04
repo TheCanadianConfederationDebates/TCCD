@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgAssinLAssem_fr_1870-05-03" type="full">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgAssinLAssem_fr_1870-05-03" type="full">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,7 +41,7 @@
 <!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
         selected. This is especially important in cases where discontinuous 
         page-ranges are used.  -->
-        <p></p>
+        <p/>
       </samplingDecl>
     </encodingDesc>
     <revisionDesc>
@@ -63,9 +62,9 @@
 
 
 
-<p rendition="simple:right">Chambre de l'Assemblée, Upper Fort Garry</p>
+<head rendition="simple:right">Chambre de l'Assemblée, Upper Fort Garry</head>
 
-<p rendition="simple:right">Mardi, 3 mai 1870</p>
+<head rendition="simple:right">Mardi, 3 mai 1870</head>
 
 <p><persName ref="pers:SPEA1">Le Président</persName> prend place au fauteuil à une heure et demie P.M. et s'adresse à la Chambre ainsi :  </p>
 
@@ -207,8 +206,7 @@ d'autres s'opposent à la motion, pour le motif qu'aucune raison suffisante n'a 
 
 <p><persName ref="pers:TAIT2">L'honorable M. Tait</persName> s'oppose fortement à l'article et aux amendements. Il ne voit pas la justice de qualifier de délit le fait d'être trouvé avec de la boisson parmi des Indiens, tant que la partie ainsi trouvée, ou ses agents ne fournissent pas cette boisson aux Indiens.</p>
 
-<p><persName ref="pers:ODON1">L'honorable M. O'Donoghue</persName>, appuyé par <persName
-              ref="pers:BRUC1">l'honorable M. Bruce</persName>, propose l'adoption de l'article avec
+<p><persName ref="pers:ODON1">L'honorable M. O'Donoghue</persName>, appuyé par <persName ref="pers:BRUC1">l'honorable M. Bruce</persName>, propose l'adoption de l'article avec
             l'ajout de la clause suivante après le dernier « enivrement » :</p>
 
 <quote rendition="tccd:blockquote">

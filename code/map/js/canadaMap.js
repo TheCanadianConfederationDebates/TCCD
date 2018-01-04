@@ -2,8 +2,12 @@
 
 //Create a reliable path to the project root, for constructing URLs.
     //We need this because we may be in either the /en/ or /fr/ subfolders.
-    var projectRoot = location.href.replace(/((\/en)|(\/fr))?\/[^\.\/]+\.html.*$/, '/');
-    //console.log(projectRoot);
+    //We may also be in a folder root, missing the filename.
+    var projectRoot = location.href.replace(/((\/en\/)|(\/fr\/))/, '/').replace(/\/([^\.\/]+\.html)?(\?.*)*$/, '/');
+    console.log(projectRoot);
+    
+    //Pointer to the currently selected feature, if there is one.
+    var currFeat = null;
     
     //Create default style for riding points.
     var strokeRiding = new ol.style.Stroke({color: 'black', width: 2});
@@ -17,7 +21,7 @@
                                             anchor: [0,0.5],
                                             size:   [25,25]
                                           });
-    console.log(iconFedRiding.getSrc());
+    //console.log(iconFedRiding.getSrc());
     var iconProvRiding = new ol.style.Icon({
                                             src:    projectRoot + 'js/placemarkBlue.png',
                                             anchor: [1,0.5],
@@ -30,6 +34,9 @@
                                           });
     var strokePostalCode = new ol.style.Stroke({color: '#00ff00', width: 2});
     var fillPostalCode = new ol.style.Fill({color: 'rgba(0, 255, 0, 0.2)'});
+    
+    var strokeSelectedRiding = new ol.style.Stroke({color: '#ff0000', width: 10});
+    var fillSelectedRiding = new ol.style.Fill({color: 'rgba(255, 127, 127, 0.5)'});
     
     var ridingStyle = new ol.style.Style({
       image: new ol.style.Circle({
@@ -56,7 +63,24 @@
           });
         }
       }
-      
+    };
+    
+    var getSelectedStyle = function(resolution){
+      var anchor = [1,0.5]; //provincial
+      if (this.getProperties().type === 'federal'){
+        anchor = [0,0.5];
+      }
+      else if (this.getProperties().type === 'treaty'){
+        anchor = [0.5,0.5];
+      }
+      console.log(anchor.toString());
+      return new ol.style.Style({
+        image: new ol.style.Icon({
+          src:    projectRoot + 'js/placemarkSelected.png',
+          anchor: anchor,
+          size:   [25,25]
+        })
+      });
     };
     
     var getPostalCodeStyle = function (feat, resolution){
@@ -82,7 +106,7 @@
     function parseSearch(){
       var i, maxi, feat;
       var targPlace = getQueryParam('place');
-      console.log(targPlace);
+      //console.log(targPlace);
       var targPostalCode = getQueryParam('postalCode');
       if (targPlace.length > 0){
          feat = srcRidings.getFeatureById(targPlace);
@@ -92,6 +116,12 @@
             //mapPopup.setPosition(feat.getGeometry().getCoordinates());
             placePopup(feat);
             zoomToFeature(feat);
+            if (currFeat !== null){
+              currFeat.setStyle(null);
+            }
+            currFeat = feat;
+            //console.log(targPlace);
+            currFeat.setStyle(getSelectedStyle);
          }
       }
       if (targPostalCode.length > 0){
@@ -190,13 +220,22 @@
     //Add a crude click event so you can see the info on a riding.
     //Later this will show whatever it is we want to show.
     map.on("click", function(e) {
+      var found = false;
       map.forEachFeatureAtPixel(e.pixel, function (feature, layer) {
+        if (found === false){
+          found = true;
           setupMapPopup();
           if (feature.getProperties().notBefore){
             //document.getElementById('mapPopup').innerHTML = featureToHtml(feature);
             placePopup(feature);
             //mapPopup.setPosition(e.coordinate);
           }
+          if (currFeat !== null){
+            currFeat.setStyle(null);
+          }
+          currFeat = feature;
+          currFeat.setStyle(getSelectedStyle);
+        }
       })
     });
     
@@ -210,7 +249,7 @@
     
     function placePopup(feature){
       var id = feature.getId();
-      console.log(id);
+      //console.log(id);
       //THIS FAILS. Don't know why.
       /*var url = 'ajax/' + id + '.xml';
         ajaxRetrieve(url).then(function(response) {
@@ -248,6 +287,3 @@
         duration: 2000
       });
     }
-
-// ol.style.Fill, ol.style.Icon, ol.style.Stroke, ol.style.Style and
-// ol.style.Text are required for createMapboxStreetsV6Style()
