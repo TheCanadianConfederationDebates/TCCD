@@ -175,12 +175,12 @@
     <xd:doc scope="component">
         <xd:desc>Suppress English stuff if we're in French.</xd:desc>
     </xd:doc>
-    <xsl:template match="*[not(self::html)][@lang='en']" mode="fr"/>
+    <xsl:template match="*[not(self::html) and not(self::a[matches(@href, '^pdfs/.+\.pdf$')])][@lang='en']" mode="fr"/>
        
     <xd:doc scope="component">
         <xd:desc>Suppress French stuff if we're in English.</xd:desc>
     </xd:doc>
-    <xsl:template match="*[not(self::html)][@lang='fr']" mode="en"/>
+    <xsl:template match="*[not(self::html) and not(self::a[matches(@href, '^pdfs/.+\.pdf$')])][@lang='fr']" mode="en"/>
     
     <xd:doc scope="component">
         <xd:desc>English documents link to the best French equivalent.

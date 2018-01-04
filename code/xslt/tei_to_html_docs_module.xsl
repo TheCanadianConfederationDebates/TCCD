@@ -104,7 +104,16 @@
                                     
                                 </li>
                             
-                            </xsl:for-each-group>          
+                            </xsl:for-each-group>    
+                            
+<!--                        Morris and Erasmus are special cases. -->
+                            <xsl:for-each select="('Morris', 'Erasmus')">
+                                <xsl:variable name="currName" select="."/>
+                                <xsl:variable name="cat" select="$projectTaxonomies//category[starts-with(@xml:id, $currName)]"/>
+                                <li><a href="{.}.html"><xsl:apply-templates select="$cat/gloss"/></a></li>
+                            </xsl:for-each>
+                            
+                            
                             
                             <li><a href="bibliography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='bibliography']//titleStmt/title[1]"/></a></li>
                             <li><a href="personography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='personography']//titleStmt/title[1]"/></a></li>
@@ -120,7 +129,7 @@
             </html>
         </xsl:result-document>
         
-<!--   Next, we create the index pages for each of the individual legislatures.     -->
+<!--   Next, we create the index pages for each of the individual legislatures and similar collections     -->
         <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'bibliography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
             <xsl:variable name="leg" select="current-grouping-key()"/>
             <xsl:variable name="legTitle" select="hcmc:getTaxonomyVal(current-grouping-key())"/>
@@ -203,6 +212,50 @@
             </xsl:result-document>
             
         </xsl:for-each>
+        
+        
+        <!--     And now we create pages for Morris and Erasmus. No Erasmus docs yet. -->
+        
+        <xsl:for-each select="('Morris', 'Erasmus')">
+            <xsl:variable name="currName" select="."/>
+            <xsl:variable name="cat" select="$projectTaxonomies//category[starts-with(@xml:id, $currName)]"/>
+            <xsl:result-document href="{concat($outputFolder, '/', $currName)}.html">
+                <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
+    </xsl:text>
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$currName}">
+                    <head>
+                        <title><xsl:value-of select="$docIndexTitle"/>: <xsl:value-of select="$cat/gloss"/></title>
+                        
+                        <xsl:sequence select="$linkedResources"/>
+                    </head>
+                    
+                    <body>
+                        <xsl:call-template name="header"/>
+                        <xsl:call-template name="nav"/>
+                        
+                        <div class="body">
+                            
+                            <h2><xsl:sequence select="$docIndexTitle"/>: <xsl:apply-templates select="$cat/gloss"/></h2>
+                            
+                            <ul>
+                                <xsl:for-each select="$teiDocs/TEI[starts-with(@xml:id, $currName)]">
+                                    <xsl:sort select="tokenize(@xml:id, '_')[last()]"/>
+                                    <li>
+                                        <a href="{@xml:id}.html">
+                                            <xsl:apply-templates select="//titleStmt/title[1]"/>
+                                        </a>
+                                    </li>
+                                </xsl:for-each>          
+                            </ul>
+                            
+                        </div>
+                        <xsl:call-template name="footer"/>
+                    </body>
+                </html>
+            </xsl:result-document>
+        </xsl:for-each>
+        
+        
         
     </xsl:template>
 

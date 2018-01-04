@@ -94,7 +94,7 @@
                             <xsl:variable name="docListId" select="concat(@xml:id, '_docList')"/>
                             <h5 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:sequence select="$debatesDocumentsCaption"/></h5>
                             <ul class="docsMentioningPerson">
-                                <xsl:for-each-group select="$instances" group-by="tokenize(@xml:id, '(_fr)?_\d')[1]">
+                                <xsl:for-each-group select="$instances" group-by="tokenize(@xml:id, '(_fr)?(_Chapter)?_\d')[1]">
                                     <xsl:sort select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
                                     <xsl:variable name="legCaption" select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
                                     <li>
@@ -153,7 +153,7 @@
                             <div id="{concat($currId, '_documents')}">
                         
                                 <ul class="docsMentioningPerson">
-                                    <xsl:for-each-group select="$docsForPlace" group-by="tokenize(@xml:id, '(_fr)?_\d')[1]">
+                                    <xsl:for-each-group select="$docsForPlace" group-by="tokenize(@xml:id, '(_fr)?(_Chapter)?_\d')[1]">
                                         <xsl:sort select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
                                         <xsl:variable name="legCaption" select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
                                         <li>
