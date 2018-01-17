@@ -519,6 +519,7 @@
     <xd:doc scope="component">
         <xd:desc>We suppress notes in regular processing, and handle them in the appendix.</xd:desc>
     </xd:doc>
+    <xsl:template match="note"/>
 
     <xd:doc scope="component">
         <xd:desc>This is a set of inline elements which are all processed in a similar way. hi

@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-01-02T16:06:05Z. 2016.
+Schema generated from ODD source 2018-01-17T18:24:22Z. 2016.
 TEI Edition: Version 3.3.0a. Last updated on
 	15th December 2017, revision 8f36d97
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0a./
@@ -2498,6 +2498,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Legislative Assembly of Newfoundland) The NF House of Assembly was established in 1832 and sat until 1934 when responsible government was terminated.</a:documentation>
                <value>lg:lgNFNC</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(National Convention of Newfoundland) The National Convention was formed by elected officials who met between 1946 and 1948 to investigate Newfoundland and Labrador's future.</a:documentation>
+               <value>lg:lgTreaty</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaties) Treaty documents</a:documentation>
                <value>lg:lgTreatyNeg</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty Negotiation) Treaty negotiations (as decribed for example by Morris) are records of meetings between Indigenous and Crown leaders to develop and / or renew relationships between these Peoples.</a:documentation>
             </choice>

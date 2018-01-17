@@ -285,6 +285,7 @@
     <antcall target="MESSAGE"><param name="msg" value="Running diagnostics..."/></antcall>
     <!--<echo message="${today}"/>-->
     <xslt force="yes" style="${diagnosticsXsl}" in="${diagnosticsXsl}" out="${diagnosticsOutput}">
+      <classpath path="code/utilities/saxon9he.jar"></classpath>
       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
     </xslt>
     

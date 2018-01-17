@@ -191,7 +191,21 @@
         <xsl:param name="docId" tunnel="yes"/>
         <xsl:copy>
             <xsl:apply-templates select="@*" mode="#current"/>
-            <a href="{if ($docId = $engDocsWithFrenchParallels) then concat('../fr/', replace($docId, '_(\d\d\d\d-)', '_fr_$1'), '.html') else concat('../fr/', $docId, '.html')}">FR</a>
+            <xsl:choose>
+<!--               Regular debate documents with dates.  -->
+                <xsl:when test="matches($docId, '\d\d\d\d')">
+                    <a href="{if ($docId = $engDocsWithFrenchParallels) then concat('../fr/', replace($docId, '_(\d\d\d\d-)', '_fr_$1'), '.html') else concat('../fr/', $docId, '.html')}">FR</a>
+                </xsl:when>
+<!--               Treaty documents, which don't have dates. -->
+                <xsl:when test="matches($docId, 'treaty')">
+                    <a href="{if ($docId = $engDocsWithFrenchParallels) then concat('../fr/', replace($docId, 'treaty_', 'treaty_fr_'), '.html') else concat('../fr/', $docId, '.html')}">FR</a>
+                </xsl:when>
+<!--     This is a repetition of the first case. May be changed in future.           -->
+                <xsl:otherwise>
+                    <a href="{if ($docId = $engDocsWithFrenchParallels) then concat('../fr/', replace($docId, '_(\d\d\d\d-)', '_fr_$1'), '.html') else concat('../fr/', $docId, '.html')}">FR</a>
+                </xsl:otherwise>
+            </xsl:choose>
+            
         </xsl:copy>
     </xsl:template>
     
