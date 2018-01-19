@@ -483,19 +483,6 @@ footer h2 {
   border-top: 50px #ff3333 solid;
   border-bottom: 50px #ff3333 solid;
 }
-.mapEmbed {
-  margin-top: -20px;
-/* Without this, the postal code form scrolls right off the page. */
-  height: 70vh;
-}
-.mapEmbed iframe, .mapEmbed>div {
-  height: 60vh; /*16:9 ratio*/
-  width: 100vw;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
-}
 .navSpacer {
   width: 5em;
 }
