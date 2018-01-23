@@ -106,11 +106,11 @@ div.asterism {
  * may appear in an inline context, but which 
  * should cause a physical break. */
 span[data-el='fw'], span[data-el='pb'], span[data-el='cb']{
-    display: inline-block;
+    display: block;
     color: red;
     padding-left: 0.1em;
     padding-right: 0.1em;
-    font-size: 0.5em;
+    font-size: 0.8em;
 }
 /* Per DH 2017-11-20, 
  * https://github.com/TheCanadianConfederationDebates/TCCD/issues/88 
@@ -128,22 +128,25 @@ div[data-el='fw'][data-type='running'] {
   text-align: center;
   margin-bottom: 1em;
 }
-div[data-el='fw'][data-type='num'] {
+div[data-el='fw'][data-type='num'], span[data-el='fw'][data-type='num'] {
   text-align: center;
   font-weight: normal;
-  margin-bottom: 1em;
-  margin: 0;
-  padding: 0;
-  line-height: 0;
   color: red;
-  display: inline-block;
+  display: block;
+  position: relative;
+  line-height: 0.8;
+  left: -7em;
+  padding: 0.25rem;
+  border: solid 2px #ff3333;
+  margin: 0 auto 0 0;
+  max-width: 4em;
 }
-div[data-el='fw'][data-type='num']::before {
+/*div[data-el='fw'][data-type='num']::before {
   content: '[ page ';
 }
 div[data-el='fw'][data-type='num']::after {
   content: ' ]';
-}
+}*/
 /* Poetic stanzas and lines. */
 div[data-el='lg'] {
   margin-top: 0.5rem;

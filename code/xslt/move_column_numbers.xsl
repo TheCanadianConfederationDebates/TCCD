@@ -18,7 +18,7 @@
     <xsl:copy-of select="."/>
     <xsl:text>
      </xsl:text>
-      <fw rendition="simple:right">
+      <fw>
         <xsl:copy-of select="preceding::fw[@type='num'][1]/@*"/>
         <xsl:copy-of select="preceding::fw[@type='num'][1]/node()"/>
       </fw>
