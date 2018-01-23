@@ -16755,7 +16755,7 @@ geographical entity. So:
                </place>
                <place xml:id="FPRO1" type="treaty">
                   <placeName>
-                     <region>TREATY 10</region>
+                     <region>TREATY 11</region>
                      <district>Fort Providence</district>
                   </placeName>
                   <location notBefore="1921" notAfter="1921">
@@ -16834,11 +16834,57 @@ geographical entity. So:
                      <geo>60.23957, -123.47331</geo>
                   </location>
                </place>
-               
-
-               
-               
-               
+               <place xml:id="ROSS17" type="treaty">
+                  <placeName>
+                     <region>TREATIES 1 and 2</region>
+                     <district>Rosseau River</district>
+                  </placeName>
+                  <location notBefore="1875" notAfter="1875">
+                     <geo>49.211082, -96.940101</geo>
+                  </location>
+               </place>
+               <place xml:id="UPPE1" type="nonFederal">
+                  <placeName>
+                     <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
+                     <district>Upper Canada</district>
+                  </placeName>
+                  <location notBefore="1865">
+                     <geo>43.11251, -79.1455</geo>
+                  </location>
+               </place>
+               <place xml:id="WONT1" type="federal">
+                  <placeName>
+                     <region>ONTARIO</region>
+                     <district>ONTARIO WEST</district>
+                  </placeName>
+                  <location notBefore="1882">
+                     <geo>43.96897, -79.25674</geo>
+                  </location>
+               </place>
+               <place xml:id="LCAN1" type="nonFederal">
+                  <placeName>
+                     <region>PROVINCE OF CANADA LEGISLATIVE COUNCIL</region>
+                     <district>Lower Canada</district>
+                  </placeName>
+                  <location notBefore="1865">
+                     <geo>45.51164, -73.62384</geo>
+                  </location>
+               </place>
+               <place xml:id="UFGA1" type="nonFederal">
+                  <placeName>
+                     <region>MANITOBA</region>
+                     <district>Upper Fort Garry</district>
+                  </placeName>
+                  <location notBefore="1870" notAfter="1870">
+                     <geo>49.88791, -97.13523</geo>
+                  </location>
+                  <note>
+                     <list>
+                        <head>LAA</head>
+                        <item/>
+                     </list>
+                  </note>
+               </place>
                
              
                

@@ -3056,7 +3056,7 @@
                             <forename>Walter</forename>
                      <forename>Hamilton</forename>
                   </persName>
-                  <affiliation when="1865" n="Ont/Que Leg" ref="UNSPECIFIED">Lower Canada</affiliation>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:UPPE1">Upper Canada</affiliation>
                   <note>orig: says "L" vs wiki listing says "Canada West" ["U"]</note>
                </person>
                <person xml:id="DIEF1">
@@ -3269,7 +3269,7 @@
                      <forename>David</forename>, <addName>Sir</addName>
                   </persName>
                   <affiliation when="1873" n="PEI House of Commons" ref="plc:MONC1">Monck</affiliation>
-                  <affiliation when="1888" n="NF House of Commons" ref="UNSPECIFIED">Ontario West</affiliation>
+                  <affiliation when="1888" n="NF House of Commons" ref="plc:WONT1">Ontario West</affiliation>
                </person>
                <person xml:id="EDGA2">
                   <persName when="1906">
@@ -3440,7 +3440,7 @@
                      <surname>Ferrier</surname>,
                             <forename>James</forename>
                   </persName>
-                  <affiliation when="1865" n="Ont/Que Leg" ref="UNSPECIFIED">Lower Canada</affiliation>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:LCAN1">Lower Canada</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/ferrier_james_11E.html"/>
@@ -7556,7 +7556,7 @@
                             <forename>Hugh</forename>
                      <forename>F.</forename>
                   </persName>
-                  <affiliation when="1870" n="MB Government" ref="UNSPECIFIED">Winnipeg</affiliation>
+                  <affiliation when="1870" n="MB Government" ref="plc:WINN3">Winnipeg</affiliation>
                   <note>? should be: O'lone ?</note>
                </person>
                <person xml:id="OREI1">
@@ -8570,7 +8570,7 @@
                      <forename>Henry</forename>
                   </persName>
                   <affiliation when="1870" n="MB Convention of 40" ref="plc:WINN3">Winnipeg</affiliation>
-                  <affiliation when="1870" n="MB Government" ref="UNSPECIFIED">Winnipeg</affiliation>
+                  <affiliation when="1870" n="MB Government" ref="plc:TWINN1">Winnipeg</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/scott_alfred_henry_10E.html"/>
@@ -12786,7 +12786,7 @@
                   </persName>
                   <state when="1900">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
                <person xml:id="SENN1">
@@ -12918,7 +12918,7 @@
                      <surname>Noël-Joseph</surname>,
                      <forename>Ritchot</forename>
                   </persName>
-                  <affiliation when="1870" n="MB Government" ref="UNSPECIFIED">witness</affiliation>
+                  <affiliation when="1870" n="MB Government" ref="plc:UFGA1">witness</affiliation>
                   <state when="1870">
                      <label>witness</label>
                   </state>
@@ -13376,7 +13376,7 @@
                   <affiliation when="1874">Lac Seul, Seul, Trout and Sturgeon Lakes</affiliation>
                   <state when="1874">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="UNSPECIFIED">Lac Seul</placeName>. </note>
+                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="plc:LACS1">Lac Seul</placeName>. </note>
                   </state>
                </person>
                <person xml:id="ADAM3">
@@ -13396,7 +13396,7 @@
                   <affiliation when="1900">Beaver Indian of the Upper Peace River and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>headman?</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Fort St. John</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:FSTJ1">Fort St. John</placeName>. </note>
                   </state>
                </person>
                <person xml:id="AHSI1">
@@ -13485,7 +13485,7 @@
                   </persName>
                   <state when="1875">
                      <label>brave</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:RunOSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="AKAK1">
@@ -13545,7 +13545,7 @@
                   <affiliation when="1900">Beaver Indian of the Upper Peace River and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>headman?</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Fort St. John</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:FSTJ1">Fort St. John</placeName>. </note>
                   </state>
                </person>
                <person xml:id="ALLA2">
@@ -13575,7 +13575,7 @@
                   </persName>
                   <state when="1875">
                      <label>brave</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="ANDE1">
@@ -13731,7 +13731,7 @@
                   <affiliation when="1900">Beaver Indian of the Upper Peace River and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>headman?</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Fort St. John</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:FSTJ1">Fort St. John</placeName>. </note>
                   </state>
                </person>
                <person xml:id="ARCH5">
@@ -13845,7 +13845,7 @@
                   <affiliation when="1900">Beaver Indian of the Upper Peace River and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>headman?</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Fort St. John</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:FSTJ1">Fort St. John</placeName>. </note>
                   </state>
                </person>
                <person xml:id="ATTI2">
@@ -14035,7 +14035,7 @@
                   </persName>
                   <state when="1921">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="UNSPECIFIED">Fort Providence</placeName>. </note>
+                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="plc:FPRO1">Fort Providence</placeName>. </note>
                   </state>
                </person>
                <person xml:id="BANT1">
@@ -15163,7 +15163,7 @@
                   </state>
                   <state when="1874">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="UNSPECIFIED">Lac Seul</placeName>. </note>
+                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="plc:LACS1">Lac Seul</placeName>. </note>
                   </state>
                   <affiliation when="1875">RAINY RIVER AND LAKE {on behalf of Half-breeds}</affiliation>
                   <state when="1875">
@@ -15224,7 +15224,7 @@
                   </persName>
                   <state when="1900">
                      <label>witness; Const.</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
                <person xml:id="CHIC1">
@@ -15513,7 +15513,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="UNSPECIFIED">the Beren's River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="plc:WESL3">the Beren's River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="CONR2">
@@ -15555,7 +15555,7 @@
                   </state>
                   <state when="1921">
                      <label>Commissioner</label>
-                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="UNSPECIFIED">Fort Providence</placeName>. </note>
+                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="plc:FPRO1">Fort Providence</placeName>. </note>
                   </state>
                   <state when="1921">
                      <label>Commissioner</label>
@@ -15792,7 +15792,7 @@
                   <affiliation when="1874">Lac Seul, Seul, Trout and Sturgeon Lakes</affiliation>
                   <state when="1874">
                      <label>Chief</label>
-                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="UNSPECIFIED">Lac Seul</placeName>. </note>
+                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="plc:LACS1">Lac Seul</placeName>. </note>
                   </state>
                </person>
                <person xml:id="CROW2">
@@ -16548,7 +16548,7 @@
                   </persName>
                   <state when="1921">
                      <label>Headman</label>
-                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="UNSPECIFIED">Fort Providence</placeName>. </note>
+                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="plc:FPRO1">Fort Providence</placeName>. </note>
                   </state>
                </person>
                <person xml:id="FRAN1">
@@ -16905,7 +16905,7 @@
                   </state>
                   <state when="1875">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                   <state when="1876">
                      <label>Witness</label>
@@ -17028,7 +17028,7 @@
                   </state>
                   <state when="1900">
                      <label>witness; Interpreter</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
                <person xml:id="HALL3">
@@ -17247,7 +17247,7 @@
                   </state>
                   <state when="1900">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                   <listBibl>
                      <bibl xml:lang="en">
@@ -17867,7 +17867,7 @@
                   <affiliation when="1876">"Moose Lake" Band</affiliation>
                   <state when="1876">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="UNSPECIFIED">Saskatchewan River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">5</num>. Location: <placeName ref="plc:THEP1">Saskatchewan River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KAHA1">
@@ -18122,7 +18122,7 @@
                   </state>
                   <state when="1875">
                      <label>Chief</label>
-                     <note>Treaty # <num type="treaty">1</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KECH1">
@@ -18509,7 +18509,7 @@
                   </persName>
                   <state when="1921">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="UNSPECIFIED">Fort Providence</placeName>. </note>
+                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="plc:FPRO1">Fort Providence</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KITT1">
@@ -18519,7 +18519,7 @@
                   </persName>
                   <state when="1874">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="UNSPECIFIED">Lac Seul</placeName>. </note>
+                     <note>Treaty # <num type="treaty">3</num>. Location: <placeName ref="plc:LACS1">Lac Seul</placeName>. </note>
                   </state>
                   <state when="1875">
                      <label>witness</label>
@@ -18668,7 +18668,7 @@
                   </persName>
                   <state when="1921">
                      <label>CHIEF</label>
-                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="UNSPECIFIED">Fort Providence</placeName>. </note>
+                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="plc:FPRO1">Fort Providence</placeName>. </note>
                   </state>
                </person>
                <person xml:id="LAFO3">
@@ -19041,7 +19041,7 @@
                   </persName>
                   <state when="1875">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="MANA1">
@@ -19049,7 +19049,7 @@
                      <surname>MA-NA-WA-NANAN</surname> (<addName>Centre Of Bird's Tail</addName>)</persName>
                   <state when="1875">
                      <label>Chief</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="MASA1">
@@ -19197,7 +19197,7 @@
                   </persName>
                   <state when="1900">
                      <label>Commissioner; Esquire</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                   <state when="1900">
                      <label>Commissioner; Esquire</label>
@@ -20375,7 +20375,7 @@
                   <affiliation when="1900">Cree Indian of Sturgeon Lake, and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>Headman</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
                <person xml:id="MEIN1">
@@ -20521,7 +20521,7 @@
                   </persName>
                   <state when="1921">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="UNSPECIFIED">Fort Providence</placeName>. </note>
+                     <note>Treaty # <num type="treaty">11</num>. Location: <placeName ref="plc:FPRO1">Fort Providence</placeName>. </note>
                   </state>
                </person>
                <person xml:id="MILL7">
@@ -20768,7 +20768,7 @@
                   <affiliation when="1900">Cree Indian of Sturgeon Lake, and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>Headman</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
                <person xml:id="MOOS4">
@@ -21238,7 +21238,7 @@
                   </persName>
                   <state when="1875">
                      <label>brave</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="NATA1">
@@ -21321,7 +21321,7 @@
                   </persName>
                   <state when="1875">
                      <label>brave</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="NEAL1">
@@ -21819,7 +21819,7 @@
                   </persName>
                   <state when="1875">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="OSAY1">
@@ -21828,7 +21828,7 @@
                   </persName>
                   <state when="1875">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="OSTA1">
@@ -21910,7 +21910,7 @@
                   <affiliation when="1900">Cree Indian of Sturgeon Lake, and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>Headman</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
                <person xml:id="PAHT1">
@@ -21919,11 +21919,11 @@
                   </persName>
                   <state when="1875">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                   <state when="1875">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="PAHS1">
@@ -22189,7 +22189,7 @@
                   <affiliation when="1900">Cree Indian of Sturgeon Lake, and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>Headman</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
                <person xml:id="PEEK1">
@@ -22558,7 +22558,7 @@
                   </state>
                   <state when="1875">
                      <label>Indian Commissioner</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
       <state when="1876">
                      <label>Witness</label>
@@ -23281,7 +23281,7 @@
                   </persName>
                   <state when="1875">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="SHES1">
@@ -23290,7 +23290,7 @@
                   </persName>
                   <state when="1875">
                      <label>Councillor</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="SHEB2">
@@ -23990,7 +23990,7 @@
                   </persName>
                   <state when="1900">
                      <label>witness; Interpreter</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
                <person xml:id="TCHA1">
@@ -24042,7 +24042,7 @@
                   <affiliation when="1900">Cree Indian of Sturgeon Lake, and the country thereabouts</affiliation>
                   <state when="1900">
                      <label>Headman</label>
-                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="UNSPECIFIED">Lesser Slave Lake</placeName>. </note>
+                     <note>Treaty # <num type="treaty">8</num>. Location: <placeName ref="plc:LSLA1">Lesser Slave Lake</placeName>. </note>
                   </state>
                </person>
             <person xml:id="KAMO5">
@@ -24245,7 +24245,7 @@
                   </persName>
                   <state when="1875">
                      <label>brave</label>
-                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1 &amp;/or 2</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="TILL2">
@@ -24423,7 +24423,7 @@
                   </state>
                   <state when="1875">
                      <label>Chief</label>
-                     <note>Treaty # <num type="treaty">1</num>. Location: signed <placeName ref="UNSPECIFIED">on reserve at Rosseau River</placeName>. </note>
+                     <note>Treaty # <num type="treaty">1</num>. Location: signed <placeName ref="plc:ROSS17">on reserve at Rosseau River</placeName>. </note>
                   </state>
                </person>
                <person xml:id="WAME1">
