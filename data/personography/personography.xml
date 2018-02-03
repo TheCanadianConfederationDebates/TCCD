@@ -1833,6 +1833,13 @@
                   </persName>
                   <affiliation when="1865" n="NS Leg" ref="plc:VICT10">Victoria County</affiliation>
                </person>
+               <person xml:id="CAMP8">
+                  <persName when="1865">
+                     <surname>Campbell</surname>,
+                     <forename>Colin</forename>
+                  </persName>
+                  <affiliation when="1865" n="NS Leg" ref="plc:DIGB2">Digby County</affiliation>
+               </person>
                <person xml:id="CAMP1">
                   <persName when="1865">
                      <surname>Campbell</surname>,
@@ -4387,6 +4394,14 @@
                   <affiliation when="1866" n="NS Leg" ref="plc:NKIN1">Kings County North Division</affiliation>
                   <note>wiki: no link</note>
                </person>
+               <person xml:id="BILL1">
+                  <persName when="1866">
+                     <surname>Bill</surname>,
+                     <forename>Caleb</forename>
+                     <forename>Rand</forename></persName>
+                  <affiliation when="1866" n="NS Leg" ref="plc:NKIN1">Kings County North Division</affiliation>
+                  <note>wiki: https://en.wikipedia.org/wiki/Caleb_Rand_Bill</note>
+               </person>
                <person xml:id="HAMI2">
                   <persName when="1865">
                      <surname>Hamilton</surname>,
@@ -5165,6 +5180,14 @@
                      <forename>Adolphus</forename> 
                      <forename>Newman</forename>
                   </persName>
+                  <affiliation when="1866" n="NS Leg" ref="plc:LUNE2">Lunenburg County</affiliation>
+               </person>
+               <person xml:id="JOST1">
+                  <persName when="1866">
+                     <surname>Jost</surname>,
+                     <forename>Henry</forename>
+                     <forename>S</forename> 
+                   </persName>
                   <affiliation when="1866" n="NS Leg" ref="plc:LUNE2">Lunenburg County</affiliation>
                </person>
                <person xml:id="KEEL1">
@@ -6901,7 +6924,7 @@
                   </state>
                   <state when="1876">
                      <label>Indian Commr.</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <listBibl>
                      <bibl xml:lang="en">
@@ -6951,6 +6974,13 @@
                             <forename>Alexander</forename>
                   </persName>
                   <affiliation when="1870" n="MB Convention of 40" ref="plc:STCL3">St. Clement's</affiliation>
+               </person>
+               <person xml:id="GRAN10">
+                  <persName when="1870">
+                     <surname>Grant</surname>,
+                     <forename>J.F.</forename>
+                  </persName>
+                  <affiliation when="1870" n="MB Convention of 40" ref="plc:STCH1">St. Charles</affiliation>
                </person>
                <person xml:id="MCKE4">
                   <persName when="1905">
@@ -7263,6 +7293,13 @@
                         <ptr target="http://www.biographi.ca/fr/bio/mills_david_13F.html"/>
                      </bibl>
                   </listBibl>
+               </person>               
+               <person xml:id="COWI2">
+                  <persName when="1864">
+                     <surname>Cowie</surname>,
+                     <forename>Andrew</forename>
+                  </persName>
+                  <affiliation when="1864" n="NS Leg" ref="plc:SQUE1">QUEENS COUNTY (SOUTH DISTRICT)</affiliation>
                </person>
                <person xml:id="MITC1">
                   <persName when="1945">
@@ -7744,7 +7781,15 @@
                             <forename>Frances</forename>
                      <forename>R.</forename>
                   </persName>
-                  <affiliation when="1866" n="NS Leg" ref="plc:SCOL2">Colchester County South Division</affiliation>
+                  <affiliation when="1865" n="NS Leg" ref="plc:SCOL2">Colchester County South Division</affiliation>
+               </person>
+               <person xml:id="MOOR5">
+                  <persName when="1865">
+                     <surname>Moore</surname>,
+                     <forename>Daniel</forename>
+                     <forename>Chares</forename>
+                  </persName>
+                  <affiliation when="1865" n="NS Leg" ref="plc:SKIN2">KINGS COUNTY (SOUTH DIVISION)</affiliation>
                </person>
                <person xml:id="PARK2">
                   <persName when="1865">
@@ -8087,6 +8132,7 @@
                             <forename>William</forename>
                      <forename>Hallett</forename>
                   </persName>
+                  <affiliation when="1864" n="NS Leg" ref="plc:ANNA4"></affiliation>
                   <affiliation when="1867" n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons" ref="plc:ANNA3">Annapolis</affiliation>
                   <affiliation when="1872" n="PEI House of Commons" ref="plc:ANNA3">Annapolis</affiliation>
                </person>
@@ -10928,7 +10974,7 @@
                   <affiliation when="1902" n="AB/SK Leg" ref="plc:PRIN3">Prince Albert</affiliation>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="VILL1">
@@ -12852,6 +12898,15 @@
                      <note>Treaty # <num type="treaty">7</num>. Location: <placeName ref="plc:BLAC9">the "Blackfoot Crossing" of the Bow River</placeName>. </note>
                   </state>
                </person>
+               <person xml:id="FATH1">
+                  <persName when="1877">
+                     <surname>Father of Many Children</surname>,
+                  </persName>
+                  <state when="1877">
+                     <label>Chief</label>
+                     <note>Treaty # <num type="treaty">7</num>. Location: <placeName ref="plc:BLAC9">the "Blackfoot Crossing" of the Bow River</placeName>. </note>
+                  </state>
+               </person>
                <person xml:id="WEBB2">
                   <persName when="1945">
                      <surname>Webb</surname>, <forename>George</forename>
@@ -12960,7 +13015,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
 <person xml:id="TOMA1">
@@ -12969,7 +13024,7 @@
                   </persName>
                   <state when="1876">
                      <label>Salteaux</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
 <person xml:id="NUSW1">
@@ -12978,7 +13033,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
 <person xml:id="SAYS1">
@@ -12987,7 +13042,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
 <person xml:id="TEET1">
@@ -12996,7 +13051,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
 <person xml:id="OOPE1">
@@ -13005,7 +13060,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
 <person xml:id="HUNT5">
@@ -13014,7 +13069,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
   <person xml:id="KIHE1">
@@ -13023,7 +13078,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="WARR3">
@@ -13271,7 +13326,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to PEE-NAY-SIS</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="POUL3">
@@ -13405,7 +13460,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to SEE-KAHS-KOOTCH</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="AHTU1">
@@ -13982,6 +14037,15 @@
                <person xml:id="BADG3">
                   <persName when="1876">
                      <surname>The Badger</surname>,
+                  </persName>
+                  <affiliation when="1876">Carlton First Nations</affiliation>
+                  <state when="1876">
+                     <note>Treaty # <num type="treaty">6</num>. Location: or near <placeName ref="plc:FCARL1">Fort Carlton</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="SOHA1">
+                  <persName when="1876">
+                     <surname>Soh-ah-moos</surname>,
                   </persName>
                   <affiliation when="1876">Carlton First Nations</affiliation>
                   <state when="1876">
@@ -14620,6 +14684,36 @@
                      <note>Treaty # <num type="treaty">7</num>. Location: <placeName ref="plc:BLAC9">the "Blackfoot Crossing" of the Bow River</placeName>. </note>
                   </state>
                </person>
+               <person xml:id="SAMP1">
+                  <persName when="1877">
+                     <surname>Sample</surname>,
+                     <forename>Daniel</forename>
+                  </persName>
+                  <state when="1877">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">7</num>. Location: <placeName ref="plc:BLAC9">the "Blackfoot Crossing" of the Bow River</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="LION1">
+                  <persName when="1877">
+                     <surname>Manning</surname>,
+                     <forename>Lionel</forename>
+                  </persName>
+                  <state when="1877">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">7</num>. Location: <placeName ref="plc:BLAC9">the "Blackfoot Crossing" of the Bow River</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="BELL16">
+                  <persName when="1877">
+                     <surname>Bell</surname>,
+                     <forename>John</forename>
+                  </persName>
+                  <state when="1877">
+                     <label>witness</label>
+                     <note>Treaty # <num type="treaty">7</num>. Location: <placeName ref="plc:BLAC9">the "Blackfoot Crossing" of the Bow River</placeName>. </note>
+                  </state>
+               </person>
                <person xml:id="BORB1">
                   <persName when="1922">
                      <surname>Borbin</surname>,
@@ -14840,7 +14934,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to JAMES SEENUM</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="BULM1">
@@ -14917,7 +15011,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to OO-NAH-TAH-MEE-NAH-HOOS</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="CALI1">
@@ -15002,7 +15096,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to KEE-YE-WIN</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="CARD4">
@@ -15290,7 +15384,7 @@
                   </state>
                   <state when="1876">
                      <label>Indian Commr</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <listBibl>
                      <bibl xml:lang="en">
@@ -15353,7 +15447,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness; Adj. N.W.M.P</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <state when="1877">
                      <label>witness; Lieut &amp; Adjutant N.W.M.P.</label>
@@ -16264,7 +16358,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <state when="1877">
                      <label>witness</label>
@@ -17071,7 +17165,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <persName when="1877">
                      <surname>Hardisty</surname>,
@@ -17526,7 +17620,7 @@
                   </state>
                   <state when="1876">
                      <label>witness; M.D.</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <note>Treaty 6 text incorrectly shows first name as "ALF."</note>
                </person>
@@ -17644,7 +17738,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="JOSU1">
@@ -17886,7 +17980,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to WEE-KAS-KOO-KEE-SAY-YIN</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KAHK1">
@@ -18015,7 +18109,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to JAMES SEENUM</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KAPU1">
@@ -18243,7 +18337,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KEEY1">
@@ -18309,7 +18403,7 @@
                   </state>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KENN5">
@@ -18361,7 +18455,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to WEE-KAS-KOO-KEE-SAY-YIN</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KIIS2">
@@ -18398,7 +18492,7 @@
                   </persName>
                   <state when="1876">
                      <label>Chipewayan Chief</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="KINL1">
@@ -19218,7 +19312,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to PEE-NAY-SIS</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="REDP1">
@@ -19226,7 +19320,7 @@
                      <surname>THE RED PHEASANT</surname>
                   </persName>
                   <state when="1876">
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="MAHK1">
@@ -19851,7 +19945,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness; Meth. Missionary</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <listBibl>
                      <bibl xml:lang="en">
@@ -19879,7 +19973,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="MCEW1">
@@ -20055,7 +20149,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="MCKA17">
@@ -20205,7 +20299,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness; Commr. N.W.M.P</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <state when="1877">
                      <label>witness; Lieut.-Col, Com. N.W.M.P.</label>
@@ -20879,7 +20973,7 @@
                   </state>
                   <state when="1876">
                      <label>L.G., N.W.T.</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <listBibl>
                      <bibl xml:lang="en">
@@ -21070,7 +21164,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to SEE-KAHS-KOOTCH</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="NAHA1">
@@ -21370,7 +21464,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to TUS-TUK-EE-SKWAHS</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="NEES2">
@@ -21728,7 +21822,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="OONO1">
@@ -21737,7 +21831,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to SEE-KAHS-KOOTCH</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="OOSA1">
@@ -21801,7 +21895,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to TUS-TUK-EE-SKWAHS</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="OOSK1">
@@ -21944,7 +22038,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="PANA1">
@@ -22102,7 +22196,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to PEE-YAS-EE-WAH-KAH-WE-CHA-KOOT</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="PAYE1">
@@ -22139,7 +22233,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="PEET1">
@@ -22178,7 +22272,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="PEEY3">
@@ -23018,7 +23112,7 @@
                     <forename>Constantine</forename> (<roleName>Father</roleName>)</persName>
                   <state when="1876">
                      <label>witness; Prst., O.M.I.</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <persName when="1877">
                      <surname>Scollen</surname>,
@@ -23156,7 +23250,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief?</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="SEES2">
@@ -23185,7 +23279,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to WEE-KAS-KOO-KEE-SAY-YIN</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="SEEN1">
@@ -23195,7 +23289,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <note>referenced in DCB http://www.biographi.ca/en/bio/erasmus_peter_16E.html</note>
                </person>
@@ -23374,7 +23468,7 @@
                   </persName>
                   <state when="1876">
                      <label>witness</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="SKUN1">
@@ -24265,7 +24359,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to PEE-YAS-EE-WAH-KAH-WE-CHA-KOOT</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="TOUS1">
@@ -24403,7 +24497,7 @@
                     <forename>J.</forename> (<roleName>Bishop</roleName>)</persName>
                   <state when="1876">
                      <label>witness; Bishop St. Albert, O.M.I.</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <listBibl>
                      <bibl xml:lang="en">
@@ -24473,7 +24567,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to SEE-KAHS-KOOTCH</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="WAHP2">
@@ -24543,7 +24637,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to KEE-YE-WIN</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="WAHW3">
@@ -24568,7 +24662,7 @@
                   </state>
    <state when="1876">
                      <label>witness; Inspector N.W.M.P</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                   <state when="1878">
                      <label>witness; Inspector N.W.M.P.</label>
@@ -24722,7 +24816,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to WEE-KAS-KOO-KEE-SAY-YIN</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
      <person xml:id="WEAG1">
@@ -24762,7 +24856,7 @@
                   </persName>
                   <state when="1876">
                      <label>Cree Chief</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="WEET1">
@@ -25021,7 +25115,7 @@
                   </persName>
                   <state when="1876">
                      <label>Councillor to KIN-OO-SAY-OO</label>
-                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFCA1">near Fort Pitt</placeName>. </note>
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
                   </state>
                </person>
                <person xml:id="YATS1">
@@ -25185,6 +25279,15 @@
                         <ptr target="http://www.biographi.ca/fr/bio/henry_william_alexander_11E.html"/>
                      </bibl>
                   </listBibl>
+               </person>
+               <person xml:id="MCDO22">
+                  <persName when="1876">
+                     <surname>McDougall</surname>
+                     <forename>G.</forename>
+                  </persName>
+                  <state when="1876">
+                     <note>Treaty # <num type="treaty">6</num>. Location: signed <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
+                  </state>
                </person>
             </listPerson>
             </particDesc>
