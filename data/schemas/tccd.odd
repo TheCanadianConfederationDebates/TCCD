@@ -153,10 +153,11 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="figures" include="cell figDesc figure row table"/>
                <moduleRef key="transcr" include="facsimile fw supplied surface zone"/>
                <moduleRef key="linking" include="seg"/>
+               <moduleRef key="tagdocs" include="listRef"/>
                
                
                <!--              Adapted from jTEI ODD file.  -->
-               <constraintSpec ident="tccd.sch-ns" scheme="isoschematron">
+               <constraintSpec ident="tccd.sch-ns" scheme="schematron">
                   <constraint>
                      <sch:ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
                      <sch:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
@@ -165,7 +166,7 @@ so Volume 2 by implication has finished. -->
                      <sch:ns prefix="eg" uri="http://www.tei-c.org/ns/Examples"/>
                   </constraint>
                </constraintSpec>
-               <constraintSpec ident="tccd.sch-variables" scheme="isoschematron">
+               <constraintSpec ident="tccd.sch-variables" scheme="schematron">
                   <constraint>
                      <sch:pattern>
                         <sch:let name="double.quotes" value="'&#34;“”'"/>
@@ -227,7 +228,7 @@ so Volume 2 by implication has finished. -->
                </classSpec>
                <!--  This is taken directly from the TEI Simple ODD and modified to make it even simpler. -->
                <classSpec type="atts" ident="att.global.rendition" mode="change">
-                  <constraintSpec ident="renditionpointer" scheme="isoschematron">
+                  <constraintSpec ident="renditionpointer" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:*[@rendition]">
                            <sch:let name="results"
@@ -370,7 +371,7 @@ so Volume 2 by implication has finished. -->
           
           
                <elementSpec ident="TEI" module="textstructure" mode="change">
-                  <constraintSpec ident="rootIdEqualsFileName" scheme="isoschematron">
+                  <constraintSpec ident="rootIdEqualsFileName" scheme="schematron">
                      <desc>The root TEI element must have an @xml:id attribute which 
               matches its filename.</desc>
                      <constraint>
@@ -391,7 +392,7 @@ so Volume 2 by implication has finished. -->
                      </constraint>
                   </constraintSpec>
                   
-                  <constraintSpec ident="curlyQuotesNotAllowed" scheme="isoschematron">
+                  <constraintSpec ident="curlyQuotesNotAllowed" scheme="schematron">
                      <desc>This project has standardized on "straight" quotes, single and 
                      double. Curly quotes are not allowed.</desc>
                      <constraint>
@@ -427,7 +428,7 @@ so Volume 2 by implication has finished. -->
                constrain its attributes. For other usages, <persName> and 
                <placeName> are available without these constraints. -->
                <elementSpec ident="name" module="core" mode="change">
-                  <constraintSpec ident="alignRefAndType" scheme="isoschematron">
+                  <constraintSpec ident="alignRefAndType" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:name">
                            <sch:assert test="matches(@ref, '^((lg:lg)|(UNSPECIFIED))') or not(@type='legislature')">
@@ -520,7 +521,7 @@ so Volume 2 by implication has finished. -->
                </elementSpec>
                
                <elementSpec ident="persName" module="namesdates" mode="change">
-                  <constraintSpec ident="constraintpersnameref" scheme="isoschematron">
+                  <constraintSpec ident="constraintpersnameref" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
                            <sch:assert test="matches(@ref, '^((pers:[A-Z]{3,4}\d+)|(UNSPECIFIED))$')">
@@ -530,7 +531,7 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  <constraintSpec ident="constraintpersnamewhitespace1" scheme="isoschematron">
+                  <constraintSpec ident="constraintpersnamewhitespace1" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt or ancestor::tei:place)]">
                            <sch:assert test="not(matches(., concat('^[\s', $quotes, $punctuation, ']'))) and not(matches(., concat('[\s', $quotes, $punctuation, ']$')))">
@@ -540,7 +541,7 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  <constraintSpec ident="constraintpersnamewhitespace2" scheme="isoschematron">
+                  <constraintSpec ident="constraintpersnamewhitespace2" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
                            <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—\[]$')) or not(preceding-sibling::node())">
@@ -550,7 +551,7 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  <constraintSpec ident="constraintpersnamewhitespace3" scheme="isoschematron">
+                  <constraintSpec ident="constraintpersnamewhitespace3" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
                            <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
@@ -560,7 +561,7 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  <constraintSpec ident="constraintpersnamenotnested" scheme="isoschematron">
+                  <constraintSpec ident="constraintpersnamenotnested" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:persName">
                            <sch:assert test="not(ancestor::tei:persName)">
@@ -1062,6 +1063,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:BELL5">
                               <desc>Bell, John (Jr.). "Pas" Band (1876: ); Councillor Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</desc>
                            </valItem>
+                           <valItem ident="pers:BELL16">
+                              <desc>Bell, John. witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</desc>
+                           </valItem>
                            <valItem ident="pers:BELL6">
                               <desc>Bell, Peter. "Pas" Band (1876: ); Councillor Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</desc>
                            </valItem>
@@ -1160,6 +1164,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:BIGG1">
                               <desc>Biggar, James Lyons. East Northumberland (1865: Ont/Que Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:BILL1">
+                              <desc>Bill, Caleb Rand. Kings County North Division (1866: NS Leg).</desc>
                            </valItem>
                            <valItem ident="pers:BIRD3">
                               <desc>Bird, Benjamin. Wood Cree First Nations (1889: ); Councillor of William Charles' band Treaty # 6. Location: Montreal Lake. (1889: ).</desc>
@@ -1581,6 +1588,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:CAMP4">
                               <desc>Campbell, Charles James. Victoria County (1865: NS Leg).</desc>
                            </valItem>
+                           <valItem ident="pers:CAMP8">
+                              <desc>Campbell, Colin. Digby County (1865: NS Leg).</desc>
+                           </valItem>
                            <valItem ident="pers:CAMP6">
                               <desc>Campbell, G. H. M. witness; Const. R.C.M.P. Treaty # 11. Location: Fort Norman. (1921: ).</desc>
                            </valItem>
@@ -1986,6 +1996,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:COWA1">
                               <desc>Cowan, James. South Waterloo (1865: Ont/Que Leg).</desc>
                            </valItem>
+                           <valItem ident="pers:COWI2">
+                              <desc>Cowie, Andrew. QUEENS COUNTY (SOUTH DISTRICT) (1864: NS Leg).</desc>
+                           </valItem>
                            <valItem ident="pers:COWI1">
                               <desc>Cowie, Isaac. witness Treaty # 1 &amp;/or 2. Location: signed at?. (1875: ).</desc>
                            </valItem>
@@ -2254,7 +2267,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Dickieson, M. G. witness, Private Secy. Min. of Interior Treaty # 4. Location: Qu'Appelle. (1874: ).</desc>
                            </valItem>
                            <valItem ident="pers:DICK2">
-                              <desc>Dickson, Walter Hamilton. Lower Canada (1865: Ont/Que Leg).</desc>
+                              <desc>Dickson, Walter Hamilton. Upper Canada (1865: Ont/Que Leg).</desc>
                            </valItem>
                            <valItem ident="pers:DIEF1">
                               <desc>Diefenbaker, John George. Lake Centre (1945: House of Commons); Lake Centre (1949: NF House of Commons).</desc>
@@ -2435,6 +2448,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:FARQ1">
                               <desc>Farquhar, Thomas. Algoma East (1945: House of Commons).</desc>
+                           </valItem>
+                           <valItem ident="pers:FATH1">
+                              <desc>Father of Many Children,. Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</desc>
                            </valItem>
                            <valItem ident="pers:FAUT1">
                               <desc>Fauteux, Gaspard. St. Mary (1945: House of Commons); St. Mary (1949: NF House of Commons).</desc>
@@ -2843,6 +2859,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:GRAN1">
                               <desc>Grant, George Davidson. Ontario North (1905: AB/SK House of Commons).</desc>
+                           </valItem>
+                           <valItem ident="pers:GRAN10">
+                              <desc>Grant, J.F. St. Charles (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:GRAN2">
                               <desc>Grant, James Alexander (Sir &amp; Dr.). Russell (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Russell (1872: PEI House of Commons).</desc>
@@ -3380,6 +3399,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:TOMA1">
                               <desc>Joseph Toma,. Salteaux Treaty # 6. Location: signed near Fort Pitt. (1876: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:JOST1">
+                              <desc>Jost, Henry S. Lunenburg County (1866: NS Leg).</desc>
                            </valItem>
                            <valItem ident="pers:JOSU1">
                               <desc>Josue. headman? Treaty # 11. Location: Fort Rae. (1921: ).</desc>
@@ -4347,6 +4369,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:MANN1">
                               <desc>Mann, Henry J. witness Treaty # 9. Location: Fort Severn. (1930: ).</desc>
                            </valItem>
+                           <valItem ident="pers:LION1">
+                              <desc>Manning, Lionel. witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</desc>
+                           </valItem>
                            <valItem ident="pers:MANR1">
                               <desc>Manross, Park Arthur. London (1945: House of Commons); London (1949: NF House of Commons).</desc>
                            </valItem>
@@ -4616,6 +4641,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:MCDO6">
                               <desc>McDonnell, Samuel. Inverness County (1866: NS Leg).</desc>
+                           </valItem>
+                           <valItem ident="pers:MCDO22">
+                              <desc>McDougall G. Treaty # 6. Location: signed near Fort Pitt. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:MCDO18">
                               <desc>McDougall, Andrew. witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ); councillor? Treaty # 9. Location: Abitibi. (1906: ).</desc>
@@ -5024,6 +5052,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:MOON2">
                               <desc>Moonias. chief Treaty # 9. Location: Fort Hope. (1905: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:MOOR5">
+                              <desc>Moore, Daniel Chares. KINGS COUNTY (SOUTH DIVISION) (1865: NS Leg).</desc>
                            </valItem>
                            <valItem ident="pers:MOOR4">
                               <desc>Moore, Harold. witness Treaty # 6. Location: Rocky Mountain House. (1950: ).</desc>
@@ -5560,7 +5591,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Park, Archie. witness; interpreter Treaty # 10. Location: Isle à la Crosse. (1906: ).</desc>
                            </valItem>
                            <valItem ident="pers:PARK1">
-                              <desc>Parker, Frances R. Colchester County South Division (1866: NS Leg).</desc>
+                              <desc>Parker, Frances R. Colchester County South Division (1865: NS Leg).</desc>
                            </valItem>
                            <valItem ident="pers:PARK2">
                               <desc>Parker, Thomas Sutherland (Dr.). Wellington North (1865: Ont/Que Leg); Wellington Centre (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</desc>
@@ -5887,7 +5918,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Ratz, Valentine. Middlesex North (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:RAY1">
-                              <desc>Ray, William Hallett. Annapolis (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Annapolis (1872: PEI House of Commons).</desc>
+                              <desc>Ray, William Hallett.  (1864: NS Leg); Annapolis (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Annapolis (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:RAYM2">
                               <desc>Raymond, Léon. Wright (1945: House of Commons).</desc>
@@ -6177,6 +6208,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:SAKO1">
                               <desc>Sakoye-Aotan (Heavy Shield). Middle Blackfeet (1877: ); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</desc>
                            </valItem>
+                           <valItem ident="pers:SAMP1">
+                              <desc>Sample, Daniel. witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</desc>
+                           </valItem>
                            <valItem ident="pers:SANB1">
                               <desc>Sanborn, John Sewell. Wellington (1865: Ont/Que Leg).</desc>
                            </valItem>
@@ -6458,6 +6492,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:SNYD1">
                               <desc>Snyder, A. E. witness; Insp. N.W.M.P. Treaty # 8. Location: Lesser Slave Lake. (1899: ); witness; Insp. N.W.M.P. Treaty # 8. Location: Dunvegan. (1899: ); witness; Insp., N.W.M.P Treaty # 8. Location: Fort Chipewyan. (1899: ); witness; Insp. N.W.M.P. Treaty # 8. Location: Smith's Landing. (1899: ); witness; Insp. N.W.M.P. Treaty # 8. Location: Wapiscow Lake. (1899: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:SOHA1">
+                              <desc>Soh-ah-moos,. Carlton First Nations (1876: ); Treaty # 6. Location: or near Fort Carlton. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:SONS1">
                               <desc>Son-Sonse. representing East-Manitoba or Elm Point (1875: ); chief Treaty # 1 &amp;/or 2. Location: signed at?. (1875: ).</desc>
@@ -7431,7 +7468,7 @@ so Volume 2 by implication has finished. -->
                it occurs in <titleStmt> to ensure that we have core 
                info there that we can process. -->
                <elementSpec ident="title" module="core" mode="change">
-                  <constraintSpec ident="titleInTitleStmt" scheme="isoschematron">
+                  <constraintSpec ident="titleInTitleStmt" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:titleStmt/tei:title">
                            <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'placeography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
@@ -7447,7 +7484,7 @@ so Volume 2 by implication has finished. -->
                <!--        Milestones are of various types, and this set may change as we 
           test our schema with actual documents. -->
                <elementSpec ident="milestone" module="core" mode="change">
-                  <constraintSpec ident="unknownmilestonetype" scheme="isoschematron">
+                  <constraintSpec ident="unknownmilestonetype" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:milestone">
                            <sch:report test="@type='unknown'" role="warning">
@@ -7480,7 +7517,7 @@ so Volume 2 by implication has finished. -->
                
                <!--               lb elements with the @break='maybe' value need to be flagged for attention. -->
                <elementSpec ident="lb" module="core" mode="change">
-                  <constraintSpec ident="lbbreakmaybewarning" scheme="isoschematron">
+                  <constraintSpec ident="lbbreakmaybewarning" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:lb">
                            <sch:report test="@break='maybe'" role="warning">
@@ -7492,7 +7529,7 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  <constraintSpec ident="nowhitespacearoundintrawordbreak" scheme="isoschematron">
+                  <constraintSpec ident="nowhitespacearoundintrawordbreak" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:lb[@break='no']">
                            <sch:assert test="not(matches(preceding::text()[1], '((\s+$)|([\-–—]+\s*$))')) and (not(matches(following::text()[1], '^\s+')) or following::*[1][self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone])">
@@ -7508,7 +7545,7 @@ so Volume 2 by implication has finished. -->
                <!--     For <p> elements, let's get rid of trailing lbs.     -->
                <!--               COMMENTED OUT BECAUSE IT MAKES EVERYTHING INVALID AT THE MOMENT. -->
                <!--               <elementSpec ident="p" mode="change">
-                  <constraintSpec ident="notrailinglb" scheme="isoschematron">
+                  <constraintSpec ident="notrailinglb" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:p">
                            <sch:assert test="not(*) or tei:*[last()][not(self::tei:lb) or following-sibling::text()[string-length(normalize-space(.)) gt 0]]">
@@ -7525,7 +7562,7 @@ so Volume 2 by implication has finished. -->
           
           
                <elementSpec ident="div" mode="change">
-                  <constraintSpec ident="divnesting1" scheme="isoschematron">
+                  <constraintSpec ident="divnesting1" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="parent::tei:div[@type=('debate', 'treaty', 'article')]">
@@ -7535,7 +7572,7 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  <constraintSpec ident="divnesting2" scheme="isoschematron">
+                  <constraintSpec ident="divnesting2" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="@type=('debate', 'article', 'treaty')">
@@ -8331,7 +8368,7 @@ so Volume 2 by implication has finished. -->
                               <desc>5TH PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
                            </valItem>
                            <valItem ident="plc:FPRO1">
-                              <desc>Fort Providence (TREATY 10), treaty, 1921-1921 </desc>
+                              <desc>Fort Providence (TREATY 11), treaty, 1921-1921 </desc>
                            </valItem>
                            <valItem ident="plc:FQUA1">
                               <desc>Fort Qu'Appelle (TREATY 4), treaty, 1874-1874 </desc>
@@ -8744,6 +8781,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:LBRO1">
                               <desc>Lac du Brochet (TREATY 10), treaty, 1907-1907 </desc>
                            </valItem>
+                           <valItem ident="plc:LCAN1">
+                              <desc>Lower Canada (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
                            <valItem ident="plc:LEED1">
                               <desc>LEEDS (ONTARIO), federal, 1904-1949 TAYLOR, George; WEBB, Robert</desc>
                            </valItem>
@@ -9038,7 +9078,7 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:NEWW3">
                               <desc>NEW WESTMINSTER (BRITISH COLUMBIA), nonFederal, 1867- </desc>
                            </valItem>
-                           <valItem ident="plc:NFCA1">
+                           <valItem ident="plc:NFPI1">
                               <desc>near Fort Pitt (TREATY 6), treaty, 1876-1876 </desc>
                            </valItem>
                            <valItem ident="plc:NGRE1">
@@ -9457,6 +9497,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="plc:ROSE4">
                               <desc>ROSETOWN-BIGGAR (SASKATCHEWAN), federal, 1945- COLDWELL, Major</desc>
+                           </valItem>
+                           <valItem ident="plc:ROSS17">
+                              <desc>Rosseau River (TREATIES 1 and 2), treaty, 1875-1875 </desc>
                            </valItem>
                            <valItem ident="plc:ROST1">
                               <desc>ROSTHERN (SASKATCHEWAN), federal, 1945-1948 TUCKER, Walter; Boucher, William</desc>
@@ -10037,6 +10080,12 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:TYAR1">
                               <desc>TOWNSHIP OF YARMOUTH (NOVA SCOTIA), nonFederal, 1864- </desc>
                            </valItem>
+                           <valItem ident="plc:UFGA1">
+                              <desc>Upper Fort Garry (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:UPPE1">
+                              <desc>Upper Canada (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
                            <valItem ident="plc:VALL1">
                               <desc>VALLIÈRE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
                            </valItem>
@@ -10270,6 +10319,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="plc:WOLS1">
                               <desc>WOLSELEY (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:WONT1">
+                              <desc>ONTARIO WEST (ONTARIO), federal, 1882- </desc>
                            </valItem>
                            <valItem ident="plc:WOOD6">
                               <desc>WOOD MOUNTAIN (SASKATCHEWAN), federal, 1945- ARGUE, Hazen</desc>
@@ -11142,7 +11194,7 @@ so Volume 2 by implication has finished. -->
                               <desc>5TH PRINCE (PRINCE EDWARD ISLAND), nonFederal, 1863-1872 </desc>
                            </valItem>
                            <valItem ident="plc:FPRO1">
-                              <desc>Fort Providence (TREATY 10), treaty, 1921-1921 </desc>
+                              <desc>Fort Providence (TREATY 11), treaty, 1921-1921 </desc>
                            </valItem>
                            <valItem ident="plc:FQUA1">
                               <desc>Fort Qu'Appelle (TREATY 4), treaty, 1874-1874 </desc>
@@ -11555,6 +11607,9 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:LBRO1">
                               <desc>Lac du Brochet (TREATY 10), treaty, 1907-1907 </desc>
                            </valItem>
+                           <valItem ident="plc:LCAN1">
+                              <desc>Lower Canada (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
                            <valItem ident="plc:LEED1">
                               <desc>LEEDS (ONTARIO), federal, 1904-1949 TAYLOR, George; WEBB, Robert</desc>
                            </valItem>
@@ -11849,7 +11904,7 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:NEWW3">
                               <desc>NEW WESTMINSTER (BRITISH COLUMBIA), nonFederal, 1867- </desc>
                            </valItem>
-                           <valItem ident="plc:NFCA1">
+                           <valItem ident="plc:NFPI1">
                               <desc>near Fort Pitt (TREATY 6), treaty, 1876-1876 </desc>
                            </valItem>
                            <valItem ident="plc:NGRE1">
@@ -12268,6 +12323,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="plc:ROSE4">
                               <desc>ROSETOWN-BIGGAR (SASKATCHEWAN), federal, 1945- COLDWELL, Major</desc>
+                           </valItem>
+                           <valItem ident="plc:ROSS17">
+                              <desc>Rosseau River (TREATIES 1 and 2), treaty, 1875-1875 </desc>
                            </valItem>
                            <valItem ident="plc:ROST1">
                               <desc>ROSTHERN (SASKATCHEWAN), federal, 1945-1948 TUCKER, Walter; Boucher, William</desc>
@@ -12848,6 +12906,12 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="plc:TYAR1">
                               <desc>TOWNSHIP OF YARMOUTH (NOVA SCOTIA), nonFederal, 1864- </desc>
                            </valItem>
+                           <valItem ident="plc:UFGA1">
+                              <desc>Upper Fort Garry (MANITOBA), nonFederal, 1870-1870 </desc>
+                           </valItem>
+                           <valItem ident="plc:UPPE1">
+                              <desc>Upper Canada (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
+                           </valItem>
                            <valItem ident="plc:VALL1">
                               <desc>VALLIÈRE (PROVINCE OF CANADA LEGISLATIVE COUNCIL), nonFederal, 1865- </desc>
                            </valItem>
@@ -13081,6 +13145,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="plc:WOLS1">
                               <desc>WOLSELEY (NORTHWEST TERRITORIES), nonFederal, 1887-1905 </desc>
+                           </valItem>
+                           <valItem ident="plc:WONT1">
+                              <desc>ONTARIO WEST (ONTARIO), federal, 1882- </desc>
                            </valItem>
                            <valItem ident="plc:WOOD6">
                               <desc>WOOD MOUNTAIN (SASKATCHEWAN), federal, 1945- ARGUE, Hazen</desc>
