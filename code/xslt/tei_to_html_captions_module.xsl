@@ -140,4 +140,9 @@
     </xd:doc>
     <xsl:variable name="representedCaption"><span lang="en"> as a representative for </span><span lang="fr"> en tant que représentant de </span></xsl:variable>
     
+    <xd:doc scope="component">
+        <xd:desc>Caption for images source/provenance</xd:desc>
+    </xd:doc>
+    <xsl:variable name="imageSourceCaption"><span lang="en">Image source</span><span lang="fr">Provenance</span></xsl:variable>
+    
 </xsl:stylesheet>
