@@ -5,9 +5,9 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-02-05T18:31:31Z. 2016.
+Schema generated from ODD source 2018-02-13T17:21:19Z. 2016.
 TEI Edition: Version 3.3.1a. Last updated on
-	2nd February 2018, revision a7acf14
+	9th February 2018, revision 6f05317
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.1a./
   
 --><!---->
@@ -6730,7 +6730,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:KAHK2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-KUN-EE-KNAHN-AHS-UM. Carlton First Nations (1876: ); Councillor of Cha-Kas-Ta-Pay-Sin Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:KAHM1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-MEE-GIS-TOO-WAY-SITKah-mee-yes-too-waegsThe Beardy. Willow First Nations (1876: ); Joint Chief? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-MEE-GIS-TOO-WAY-SIT Kah-mee-yes-too-waegs The Beardy. Willow First Nations (1876: ); Joint Chief? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:KAHN3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">KAH-NAH-LAH-SKOW-WAHT. Willow First Nations (1876: ); Councillor? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:KAHN4</value>
@@ -7363,10 +7363,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martel, L. Ph. witness; O.M.I. Treaty # 9. Location: Winisk. (1930: ).</a:documentation>
                   <value>pers:MART10</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martell, Alex. witness Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
-                  <value>pers:MART11</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, Alexander Munro. Wellington North (1907: AB/SK House of Commons).</a:documentation>
                   <value>pers:MART1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, Alexander. Queen's (1905: AB/SK House of Commons).</a:documentation>
+                  <value>pers:MART11</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, Alexander Munro. Wellington North (1907: AB/SK House of Commons).</a:documentation>
                   <value>pers:MART6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, J. W. witness Treaty # 8. Location: Lesser Slave Lake. (1899: ); witness Treaty # 8. Location: Peace River Landing. (1899: ); witness Treaty # 8. Location: Vermilion. (1899: ); witness Treaty # 8. Location: Fort McMurray. (1899: ).</a:documentation>
                   <value>pers:MART2</value>
@@ -7511,7 +7511,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDonald, Wilfred (Bucko) Kennedy. Parry Sound (1945: House of Commons); Parry Sound (1949: NF House of Commons).</a:documentation>
                   <value>pers:MCDO6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDonnell, Samuel. Inverness County (1866: NS Leg).</a:documentation>
-                  <value>pers:MCDO22</value>
+                  <value>pers:MCDO25</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDougall G. Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:MCDO18</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McDougall, Andrew. witness Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ); councillor? Treaty # 9. Location: Abitibi. (1906: ).</a:documentation>
@@ -8471,12 +8471,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, Duncan. Yale—Cariboo (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:ROSS12</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, J. Arthur. Souris (1945: House of Commons).</a:documentation>
-                  <value>pers:ROSS11</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, James Hamilton. Moose Jaw (1894: AB/SK Leg); Moose Jaw (1898: AB/SK Leg); Treaty Commissioner Treaty # 8. Location: Lesser Slave Lake. (1899: ); Commissioner Treaty # 8. Location: Dunvegan. (1899: ); Treaty Commissioner Treaty # 8. Location: Fort Chipewyan. (1899: ); Treaty Commissioner Treaty # 8. Location: Smith's Landing. (1899: ); Treaty Commissioner Treaty # 8. Location: Wapiscow Lake. (1899: ).</a:documentation>
                   <value>pers:ROSS4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, James. St. John's (1870: MB Convention of 40).</a:documentation>
                   <value>pers:ROSS3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, James. Wellington Centre (1869: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Wellington Centre (1872: PEI House of Commons).</a:documentation>
+                  <value>pers:ROSS11</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, James Hamilton. Moose Jaw (1894: AB/SK Leg); Moose Jaw (1898: AB/SK Leg); Treaty Commissioner Treaty # 8. Location: Lesser Slave Lake. (1899: ); Commissioner Treaty # 8. Location: Dunvegan. (1899: ); Treaty Commissioner Treaty # 8. Location: Fort Chipewyan. (1899: ); Treaty Commissioner Treaty # 8. Location: Smith's Landing. (1899: ); Treaty Commissioner Treaty # 8. Location: Wapiscow Lake. (1899: ).</a:documentation>
                   <value>pers:ROSS5</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, Jean Auguste (Dr.). Rimouski (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:ROSS6</value>
@@ -9231,12 +9231,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">White, Gerald Verner. Renfrew North (1906: AB/SK House of Commons).</a:documentation>
                   <value>pers:WHIT8</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">White, Harry Oliver. Middlesex East (1945: House of Commons).</a:documentation>
-                  <value>pers:WHIT2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">White, John. Halton (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Halton (1872: PEI House of Commons).</a:documentation>
                   <value>pers:WHIT3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">White, John. Hastings East (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Hastings East (1872: PEI House of Commons).</a:documentation>
                   <value>pers:WHIT11</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">White, John R. witness Treaty # 6. Location: Rocky Mountain House. (1944: ).</a:documentation>
+                  <value>pers:WHIT2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">White, John. Halton (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Halton (1872: PEI House of Commons).</a:documentation>
                   <value>pers:WHIT4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">White, Peter. Renfrew North (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:WHIT16</value>
@@ -13693,40 +13693,9 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
    <define name="table">
       <element name="table">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="model.headLike"/>
-                  <ref name="model.global"/>
-               </choice>
-            </zeroOrMore>
-            <choice>
-               <oneOrMore>
-                  <group>
-                     <ref name="row"/>
-                     <zeroOrMore>
-                        <ref name="model.global"/>
-                     </zeroOrMore>
-                  </group>
-               </oneOrMore>
-               <oneOrMore>
-                  <group>
-                     <ref name="model.graphicLike"/>
-                     <zeroOrMore>
-                        <ref name="model.global"/>
-                     </zeroOrMore>
-                  </group>
-               </oneOrMore>
-            </choice>
-            <zeroOrMore>
-               <group>
-                  <ref name="model.divBottom"/>
-                  <zeroOrMore>
-                     <ref name="model.global"/>
-                  </zeroOrMore>
-               </group>
-            </zeroOrMore>
-         </group>
+         <oneOrMore>
+            <ref name="row"/>
+         </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-table-tablerowsmusthavealignedcells-constraint-rule-23">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"

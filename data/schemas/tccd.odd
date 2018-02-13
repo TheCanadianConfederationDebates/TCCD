@@ -3470,7 +3470,7 @@ so Volume 2 by implication has finished. -->
                               <desc>KAH-KUN-EE-KNAHN-AHS-UM. Carlton First Nations (1876: ); Councillor of Cha-Kas-Ta-Pay-Sin Treaty # 6. Location: or near Fort Carlton. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:KAHM1">
-                              <desc>KAH-MEE-GIS-TOO-WAY-SITKah-mee-yes-too-waegsThe Beardy. Willow First Nations (1876: ); Joint Chief? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</desc>
+                              <desc>KAH-MEE-GIS-TOO-WAY-SIT Kah-mee-yes-too-waegs The Beardy. Willow First Nations (1876: ); Joint Chief? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:KAHN3">
                               <desc>KAH-NAH-LAH-SKOW-WAHT. Willow First Nations (1876: ); Councillor? Treaty # 6. Location: signed near Fort Carlton. (1876: ).</desc>
@@ -4420,11 +4420,11 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:MART10">
                               <desc>Martell, Alex. witness Treaty # 6. Location: Cochin. (1954: ).</desc>
                            </valItem>
-                           <valItem ident="pers:MART11">
-                              <desc>Martin, Alexander Munro. Wellington North (1907: AB/SK House of Commons).</desc>
-                           </valItem>
                            <valItem ident="pers:MART1">
                               <desc>Martin, Alexander. Queen's (1905: AB/SK House of Commons).</desc>
+                           </valItem>
+                           <valItem ident="pers:MART11">
+                              <desc>Martin, Alexander Munro. Wellington North (1907: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MART6">
                               <desc>Martin, J. W. witness Treaty # 8. Location: Lesser Slave Lake. (1899: ); witness Treaty # 8. Location: Peace River Landing. (1899: ); witness Treaty # 8. Location: Vermilion. (1899: ); witness Treaty # 8. Location: Fort McMurray. (1899: ).</desc>
@@ -4642,7 +4642,7 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:MCDO6">
                               <desc>McDonnell, Samuel. Inverness County (1866: NS Leg).</desc>
                            </valItem>
-                           <valItem ident="pers:MCDO22">
+                           <valItem ident="pers:MCDO25">
                               <desc>McDougall G. Treaty # 6. Location: signed near Fort Pitt. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:MCDO18">
@@ -6082,14 +6082,14 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:ROSS12">
                               <desc>Ross, J. Arthur. Souris (1945: House of Commons).</desc>
                            </valItem>
-                           <valItem ident="pers:ROSS11">
-                              <desc>Ross, James Hamilton. Moose Jaw (1894: AB/SK Leg); Moose Jaw (1898: AB/SK Leg); Treaty Commissioner Treaty # 8. Location: Lesser Slave Lake. (1899: ); Commissioner Treaty # 8. Location: Dunvegan. (1899: ); Treaty Commissioner Treaty # 8. Location: Fort Chipewyan. (1899: ); Treaty Commissioner Treaty # 8. Location: Smith's Landing. (1899: ); Treaty Commissioner Treaty # 8. Location: Wapiscow Lake. (1899: ).</desc>
-                           </valItem>
                            <valItem ident="pers:ROSS4">
                               <desc>Ross, James. St. John's (1870: MB Convention of 40).</desc>
                            </valItem>
                            <valItem ident="pers:ROSS3">
                               <desc>Ross, James. Wellington Centre (1869: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Wellington Centre (1872: PEI House of Commons).</desc>
+                           </valItem>
+                           <valItem ident="pers:ROSS11">
+                              <desc>Ross, James Hamilton. Moose Jaw (1894: AB/SK Leg); Moose Jaw (1898: AB/SK Leg); Treaty Commissioner Treaty # 8. Location: Lesser Slave Lake. (1899: ); Commissioner Treaty # 8. Location: Dunvegan. (1899: ); Treaty Commissioner Treaty # 8. Location: Fort Chipewyan. (1899: ); Treaty Commissioner Treaty # 8. Location: Smith's Landing. (1899: ); Treaty Commissioner Treaty # 8. Location: Wapiscow Lake. (1899: ).</desc>
                            </valItem>
                            <valItem ident="pers:ROSS5">
                               <desc>Ross, Jean Auguste (Dr.). Rimouski (1905: AB/SK House of Commons).</desc>
@@ -7222,14 +7222,14 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:WHIT8">
                               <desc>White, Harry Oliver. Middlesex East (1945: House of Commons).</desc>
                            </valItem>
-                           <valItem ident="pers:WHIT2">
-                              <desc>White, John. Halton (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Halton (1872: PEI House of Commons).</desc>
-                           </valItem>
                            <valItem ident="pers:WHIT3">
                               <desc>White, John. Hastings East (1871: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Hastings East (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:WHIT11">
                               <desc>White, John R. witness Treaty # 6. Location: Rocky Mountain House. (1944: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:WHIT2">
+                              <desc>White, John. Halton (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Halton (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:WHIT4">
                               <desc>White, Peter. Renfrew North (1905: AB/SK House of Commons).</desc>
@@ -13305,6 +13305,10 @@ so Volume 2 by implication has finished. -->
                </elementSpec>
                
                <elementSpec ident="table" module="figures" mode="change">
+                  
+                  <content>
+                     <elementRef key="row" minOccurs="1" maxOccurs="unbounded"/>
+                  </content>
                   <constraintSpec scheme="schematron"
                                   ident="tablerowsmusthavealignedcells"
                                   mode="add">
