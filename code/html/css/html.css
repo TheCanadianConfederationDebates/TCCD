@@ -225,6 +225,10 @@ ul[data-el='listPerson'] p{
 .tccd_textIndent {
   text-indent: 2em;
 }
+.unclear{
+  background-color: #c0c0c0;
+}
+
 div.tableContainer {
   position: relative;
   left: 50%;
