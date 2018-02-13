@@ -550,6 +550,15 @@
             <xsl:apply-templates select="corr"/>
         </span>
     </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Handler for the unclear element with @reason.</xd:desc>
+    </xd:doc>
+    <xsl:template match="unclear[@reason]">
+        <span class="unclear" title="{xs:string(@reason)}">
+            <xsl:apply-templates select="@*[not(local-name() = 'reason')]|node()"/>
+        </span>
+    </xsl:template>
 
     <xd:doc scope="component">
         <xd:desc>Handler for the lb elements which are breaking: add space.</xd:desc>
