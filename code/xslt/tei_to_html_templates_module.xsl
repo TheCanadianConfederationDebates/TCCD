@@ -546,7 +546,7 @@
         <xd:desc>Handler for the choice element with sic/corr.</xd:desc>
     </xd:doc>
     <xsl:template match="choice[sic and corr]">
-        <span class="correction" title="orig: {@sic}">
+        <span class="correction" title="orig: {xs:string(sic)}">
             <xsl:apply-templates select="corr"/>
         </span>
     </xsl:template>
