@@ -86,7 +86,7 @@
                             <figcaption><xsl:copy-of select="$imageSourceCaption"/>: <xsl:apply-templates select="figure/listRef/ref"/></figcaption>
                         </figure>
                     </xsl:if>
-                    <xsl:apply-templates select="node()"/>
+                    <xsl:apply-templates select="node()[not(self::figure)]"/>
                     <xsl:if test="parent::listPerson/@xml:id = 'historicalPersonography'">
                         <xsl:variable name="link" select="concat('pers:', @xml:id)"/>
                         <xsl:variable name="instances" select="$teiDocs/TEI[text/descendant::persName[@ref=$link]]"/>
