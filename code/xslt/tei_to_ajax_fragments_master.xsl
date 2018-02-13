@@ -82,7 +82,7 @@
                     <xsl:if test="matches($portraitList, concat('\|', $currId, '\.jpg\|'))">
                         <xsl:attribute name="data-has-portrait" select="'yes'"/>
                         <figure class="portrait">
-                            <img src="portraits/{$currId}.jpg" alt="{normalize-space(persName[1])}" title="normalize-space(persName[1])"/>
+                            <img src="portraits/{$currId}.jpg" alt="{normalize-space(persName[1])}" title="{normalize-space(persName[1])}"/>
                             <figcaption><xsl:copy-of select="$imageSourceCaption"/>: <xsl:apply-templates select="figure/listRef/ref"/></figcaption>
                         </figure>
                     </xsl:if>
@@ -130,7 +130,7 @@
                 <xsl:variable name="currId" select="@xml:id"/>
                 <!-- First we need the list of people associated with that place. -->
                 <xsl:variable name="plcLinkRegEx" select="concat('(^|\s+)*plc:', $currId, '(\s+|$)')"/>
-                <xsl:variable name="peopleIds" select="$teiDocs/TEI[@xml:id='personography']//person[descendant::affiliation[matches(@ref, $plcLinkRegEx)]]/@xml:id"/>
+                <xsl:variable name="peopleIds" select="$teiDocs/TEI[@xml:id='personography']//person[descendant::affiliation[matches(@ref, $plcLinkRegEx)] or descendant::state/note/placeName[matches(@ref, $plcLinkRegEx)]]/@xml:id"/>
                 <xsl:message>Processing <xsl:value-of select="$currId"/></xsl:message>
                 <div id="{$currId}">
                     <xsl:apply-templates select="node()"/>

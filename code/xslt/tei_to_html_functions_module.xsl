@@ -8,7 +8,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns:hcmc="http://hcmc.uvic.ca/ns"
-    version="2.0">
+    version="3.0">
     
     <xd:doc scope="stylesheet">
         <xd:desc>

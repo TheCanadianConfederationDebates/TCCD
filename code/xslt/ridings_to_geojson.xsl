@@ -5,7 +5,7 @@
     xmlns:hcmc="http://hcmc.uvic/ca/ns"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="#all"
-    version="2.0">
+    version="3.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b> May 29, 2017</xd:p>

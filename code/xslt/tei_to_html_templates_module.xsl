@@ -4,7 +4,7 @@
     exclude-result-prefixes="#all" xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns:hcmc="http://hcmc.uvic.ca/ns"
-    version="2.0">
+    version="3.0">
 
     <xd:doc scope="stylesheet">
         <xd:desc>
@@ -416,6 +416,31 @@
         <p>
             <xsl:apply-templates/>
         </p>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>States usually have labels.</xd:desc>
+    </xd:doc>
+    <xsl:template match="person/state/label">
+        <strong><xsl:apply-templates/></strong>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>Notes in most locations are suppressed or processed specially, but 
+            here we should just handle them.</xd:desc>
+    </xd:doc>
+    <xsl:template match="listPerson/person/state/note">
+        <xsl:apply-templates select="node()"/>
+    </xsl:template>
+    
+    <xd:doc scopy="component">
+        <xd:desc>Processing for links to places: we might as well show them all
+        on the map.</xd:desc>
+    </xd:doc>
+    <xsl:template match="placeName[starts-with(@ref, 'plc:')]">
+        <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}">
+            <xsl:apply-templates select="node()"/>
+        </a>
     </xsl:template>
     
     
