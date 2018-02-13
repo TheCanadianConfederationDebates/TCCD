@@ -298,13 +298,40 @@ div#infoContent {
   text-align: left;
   margin-top: 0;
 }
-#infoHeader {
+/* Note: old system of using a background image
+ * has been replaced by a proper figure with 
+ * caption. */
+/*#infoHeader {
   display: block;
   width: 100%;
   height: 300px;
   background-size: cover;
   background-position: 50% 30%;
   margin-top: 0;
+}*/
+/* Hide the figure in the context of the back 
+ * matter of the document. */
+li figure.portrait{
+  display: none;
+}
+/* Display the figure when the info is in a 
+ * popup. */
+/* Override the padding set on the container
+ * with a negative margin. Not ideal but it
+ * will work. */
+div#infoContent figure.portrait{
+  margin: -1.25em -1.25em 1em -1.25em;
+  padding: 0;
+}
+div#infoContent figure.portrait img{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+div#infoContent figure.portrait figcaption{
+  text-align: center;
+  font-size: 0.75rem;
 }
 footer {
   margin-top: 2rem;

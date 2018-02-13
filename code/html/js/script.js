@@ -59,10 +59,9 @@ var infoContent = null;
 function showInfo(sourceId) {
 //Make sure we have an available popup element.
   infoPopup = document.getElementById('infoPopup');
-  infoHeader = document.getElementById('infoHeader');
   infoContent = document.getElementById('infoContent');
   
-  if ((infoPopup == null) ||(infoContent == null) || (infoHeader == null)) {
+  if ((infoPopup == null) ||(infoContent == null)) {
     return;
   }
   
@@ -74,17 +73,6 @@ function showInfo(sourceId) {
   
   //Copy the content from the source to the popup
   infoContent.innerHTML = sourceEl.innerHTML;
-  
-  //Show the portrait
-  if (sourceId.match(/^[A-Z]{4,}\d+$/) && sourceEl.getAttribute('data-has-portrait') === 'yes'){
-    infoHeader.style.backgroundImage = 'url(../portraits/' + sourceId + '.jpg)';
-    infoHeader.style.display = 'block';
-  }
-  else{
-    infoHeader.style.backgroundImage = '';
-    infoHeader.style.display = 'none';
-  }
-  
   
   //Show the popup
   infoPopup.style.display = 'block';

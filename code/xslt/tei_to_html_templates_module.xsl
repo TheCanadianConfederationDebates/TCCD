@@ -201,7 +201,7 @@
         is active. -->
         <div id="infoPopup" style="display: none;">
             <div class="popupCloser" onclick="this.parentNode.style.display = 'none';">x</div>
-            <div id="infoHeader">&#160;</div>
+            <!--<div id="infoHeader">&#160;</div>-->
             <div id="infoContent"/>
         </div>
     </xsl:template>

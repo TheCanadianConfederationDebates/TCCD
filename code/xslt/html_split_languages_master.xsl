@@ -237,11 +237,11 @@
     
     <xd:doc scope="component">
         <xd:desc>The infoHeader in the popup has a background graphic with an image in it.
-        The URL needs to be tweaked.</xd:desc>
+        The URL needs to be tweaked. NOW OBSOLETE.</xd:desc>
     </xd:doc>
-    <xsl:template match="div[@id = 'infoHeader']/@style[contains(., 'portraits')]" mode="#all">
+    <!--<xsl:template match="div[@id = 'infoHeader']/@style[contains(., 'portraits')]" mode="#all">
         <xsl:attribute name="style" select="replace(., 'portraits', '../portraits')"/>
-    </xsl:template>
+    </xsl:template>-->
     
     <xd:doc scope="component">
         <xd:desc>The text inside a script element needs to be output without
