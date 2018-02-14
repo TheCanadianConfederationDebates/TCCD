@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_AB_SK_1905-07-06" type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1905-07-06">6 July 1905</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1905-07-06"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1905-07-06">6 July 1905</date>, Canadian Confederation with Alberta and Saskatchewan</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName ref="pers:LYAL1">Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl>
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl>
           
- <title>House of Commons Debates, Tenth Parliament, First Session</title>.
+               <title>House of Commons Debates, Tenth Parliament, First Session</title>.
    
                     
 
@@ -33,41 +32,437 @@
 
           <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the King's Most Excellent Majesty</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
+
           <biblScope unit="page" from="8885" to="8886"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/AB_SK_H_of_C_1905-07-06_Page_8885.hocr.html"/></item>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1905-07-06_Page_8885.hocr.html"/>
+               </item>
         
-        </list>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
- <change who="lyallg" when="2018-02-07">Created this document, completed metadata. </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-02-14">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-02-07">Created this document, completed metadata. </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <div type="debate">
-        <p>This content will be replaced by data from the source documents during processing.</p>
-      </div>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1905-07-06_Page_8885">
+         <graphic url="final/images/AB_SK_H_of_C_1905-07-06_Page_8885.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="8885" facs="final/images/AB_SK_H_of_C_1905-07-06_Page_8885.jpg"/>
+         
+     <fw type="num">8885</fw> <fw type="dateline">JULY 6, 1905</fw> <fw type="num">8886</fw> 
+     
+   
+
+<!-- GL, 2018-02-14, Commented out below, as it will appear in the preceding debate day --> 
+
+<!--            <p>
+     This is a similar motion to that present<lb break="no"/>ed by Mr. Sam. Hughes with reference to 
+     <lb/>
+     the other Bill. I do not propose to accom<lb break="no"/>pany it with any remarks, as the argument 
+     <lb/>
+     has been made on the other Bill and will 
+     <lb/>
+     apply with equal force to this. 
+     <lb/>
+            </p>
+   
+            <p>
+     Amendment negatived, and Bill read the 
+     <lb/>
+     third time, on division, and passed. 
+     <lb/>
+            </p>
+   
+            <p>
+                        THIRD READINGS. 
+     <lb/>
+            </p>
+   
+            <p>
+         Bill (No. 156) to amend the Northwest 
+     <lb/>
+     Territories Representation Act—Mr. Fitz<lb break="no"/>patrick. 
+     <lb/>
+            </p>
+
+            <p>
+          Bill (No. 159) to amend the Dominion 
+     <lb/>
+     Controverted Elections Act—Mr. Fitzpat<lb break="no"/>rick. 
+     <lb/>
+            </p>
+
+            <p>
+          Bill (No. 163) to amend the Census and 
+     <lb/>
+     Statistics Act—Mr. Fisher. 
+     <lb/>
+            </p>
+   
+            <p>
+           Bill (No. 161) to amend the Northwest 
+     <lb/>
+     Irrigation Act, 1898.——Mr. Oliver. 
+     <lb/>
+            </p>
+   
+            <p>
+         On motion of Sir Wilfrid Laurier, House 
+     <lb/>
+     adjourned at 1.15 am Thursday. 
+     <lb/>
+            </p>-->
+   
+            <head rendition="simple:centre">
+                   HOUSE OF COMMONS. </head>
+ 
+<head rendition="simple:right">THURSDAY, July 6, 1905. 
+
+            </head>
+   
+            <p>
+      The SPEAKER took the Chair at Three 
+     <lb/>
+     o'clock. 
+     <lb/>
+            </p>
+
+<div type="section">
+   
+            <head rendition="simple:centre">
+                           QUESTIONS. </head>
+ 
+<head rendition="simple:centre">
+     INVERNESS, NOVA SCOTIA, POSTMASTER. </head>
+
+
+   
+            <p>
+     <persName ref="pers:LANC1">Mr. LANCASTER</persName> asked: 
+     <lb/>
+            </p>
+   
+<quote rendition="tccd:blockquote">
+            <p>
+     1. Who is the postmaster at the town of. In<lb break="no"/>verness, Nova Scotia ? 
+     <lb/>
+            </p>
+
+            <p>
+     2. Does he attend to his duties personally, or 
+     <lb/>
+     are they delegated to others ? If so, to whom ? 
+     <lb/>
+            </p>
+
+            <p>
+     3. What salary does he receive ? 
+     <lb/>
+            </p>
+
+            <p>
+     4. During what hours is the office kept open ? 
+     <lb/>
+            </p>
+
+            <p>
+     5. What accommodation has the post office 
+     <lb/>
+     building, and what is the size and character of 
+     <lb/>
+     the building or room used for the post office ? 
+     <lb/>
+            </p>
+
+            <p>
+     6. What is the intention of the government 
+     <lb/>
+     with regard to post office accommodation in this 
+     <lb/>
+     town ? 
+     <lb/>
+            </p></quote>
+   
+            <p>
+     <persName ref="pers:FISH2">Hon. SYDNEY FISHER</persName> (for the Post<lb break="no"/>master General) : 
+     <lb/>
+            </p>
+
+            <p>
+     1 and 2. Donald McIsaac is in charge of 
+     <lb/>
+     the Inverness post office, Nova Seotia. He 
+     <lb/>
+     gives personal supervision to the duties of 
+     <lb/>
+     the office. 
+     <lb/>
+            </p>
+
+            <p>
+     3. The salary and allowances attached to 
+     <lb/>
+     the office amount to $606. 
+     <lb/>
+            </p>
+
+            <p>
+     4. The office hours are from 8 am to 10 
+     <lb/>
+     p.m. 
+     <lb/>
+            </p>
+
+            <p>
+     5. The post office building is provided by 
+     <lb/>
+     the postmaster subject to the approval of 
+     <lb/>
+     the Post Office Inspector. As the inspector 
+     <lb/>
+     has not reported the accommodation as in<lb break="no"/>sufficient. it is assumed by the department 
+     <lb/>
+     that it is adequate to the public require<lb break="no"/>ments.   
+     <lb/>
+            </p>
+            <cb/>
+            <p>
+     6. As the department has not been notified 
+     <lb/>
+     that accommodation is insufficient, the ques<lb break="no"/>tion has not been considered. 
+     <lb/>
+            </p>
+</div>
+
+<div type="section">
+            <head rendition="simple:centre">
+     WEIGHING OF BUTTER AND CHEESE. 
+     <lb/>
+            </head>
+   
+            <p>
+     <persName ref="pers:WALS3">Mr. WALSH</persName> asked: 
+     <lb/>
+            </p>
+   
+<quote rendition="tccd:blockquote">
+            <p>
+     1. Is the government aware that a grievance 
+     <lb/>
+     exists at the port of Montreal with regard to 
+     <lb/>
+     the weighing of butter and cheese ? 
+     <lb/>
+            </p>
+
+            <p>
+     2. Does the government intend to take any 
+     <lb/>
+     action in the matter ? If so. when? 
+     <lb/>
+            </p></quote>
+   
+            <p>
+     <persName ref="pers:FISH2">Hon. SYDNEY FISHER</persName> (Minister of 
+     <lb/>
+     Agriculture). The government is aware that 
+     <lb/>
+     a grievance exists in Montreal with regard 
+     <lb/>
+     to the weighing of butter and cheese. The 
+     <lb/>
+     Department of Agriculture is dealing with 
+     <lb/>
+     the matter in connection with the Board 
+     <lb/>
+     of Trade of Montreal, which now has the 
+     <lb/>
+     rules and regulations of this weighing under 
+     <lb/>
+     its control. 
+     <lb/>
+            </p>
+   
+</div>
+
+<div type="section">
+        
+            <head rendition="simple:centre">
+                      HALIFAX AWARD. 
+     <lb/>
+            </head>
+   
+            <p>
+          Mr. PICHE asked : 
+     <lb/>
+            </p>
+   
+<quote rendition="tccd:blockquote">
+            <p>
+     1. Did the government of Canada receive any 
+     <lb/>
+     portion of the sum of $5,500,000 paid by the 
+     <lb/>
+     government of the United States to the govern<lb break="no"/>ment of the United Kingdom, in consequence 
+     <lb/>
+     of the decision rendered on the 23rd November, 
+     <lb/>
+     1877, by the arbitration commission sitting at 
+     <lb/>
+     Halifax ? 
+     <lb/>
+            </p>
+
+            <p>
+     2. If so, what amount ? 
+     <lb/>
+            </p>
+
+            <p>
+     3. At what date was such payment made ? 
+     <lb/>
+            </p>
+
+            <p>
+     4. Did the provinces which are interested in 
+     <lb/>
+     the fisheries affected by that decision, or any 
+     <lb/>
+     of them, claim the remittance total or in part, 
+     <lb/>
+     of the amount paid to the government of Can<lb break="no"/>ada ? 
+     <lb/>
+            </p>
+
+            <p>
+     5. If so. when, and by which provinces were 
+     <lb/>
+     such claims made ? 
+     <lb/>
+            </p></quote>
+   
+            <p>
+     <persName ref="pers:PREF1">Hon. RAYMOND PREFONTAINE</persName> (Min<lb break="no"/>ister of Marine and Fisheries) : 
+     <lb/>
+            </p>
+
+            <p>
+     1. Yes.   
+     <lb/>
+            </p>
+
+            <p>
+     2. $4,490,332.64. 
+     <lb/>
+            </p>
+
+            <p>
+     3. 6th December, 1878. 
+     <lb/>
+            </p>
+
+            <p>
+     4. Yes.  
+     <lb/>
+            </p>
+
+            <p>
+     5. Prince Edward Island, 19th February, 
+     <lb/>
+     1879; Quebec, 5th February, 1902; New 
+     <lb/>
+     Brunswick, 7th September, 1903. 
+     <lb/>
+            </p>
+
+            <p>
+     Nova Scotia has made no specific claim; 
+     <lb/>
+     but her agreement to an adjustment of the 
+     <lb/>
+     case between the Dominion and the pro<lb break="no"/>vinces involves such claim, if the principle, 
+     <lb/>
+     which is now denied, eventually prevails. 
+     <lb/>
+            </p>
+   
+</div>
+
+<div type="section">
+            <head rendition="simple:centre">
+                      MILITIA OFFICERS. 
+     <lb/>
+            </head>
+   
+            <p>
+     <persName ref="pers:LEON1">Mr. LEONARD</persName>—by <persName ref="pers:TAYL1">Mr. Taylor</persName>—asked: 
+     <lb/>
+            </p>
+   
+<quote rendition="tccd:blockquote">
+            <p>
+     1. Were the militia officers who successfully 
+     <lb/>
+     passed their examinations last winter at Mon<lb break="no"/>treal ' Gazetted ' '? 
+     <lb/>
+            </p>
+
+            <p>
+     2. If so. on what date ? 
+     <lb/>
+            </p>
+
+            <p>
+     3. What are their names and rank ? 
+     <lb/>
+            </p>
+
+            <p>
+     4. If not, why have they not been ' Gazetted ' ? 
+     <lb/>
+            </p>
+
+            <p>
+     5. When will they be 'Gazetted' ? 
+     <lb/>
+            </p>
+</quote>
+
+            <p>
+     <persName ref="pers:BORD1">Hon. Sir FREDERICK BORDEN</persName> (Minis<lb break="no"/>ter of Militia) : 
+     <lb/>
+            </p>
+
+            <p>
+     1. Yes. 
+     <lb/>
+            </p>
+
+            <p>
+     2. Promulgated in Militia Order 109, 13th 
+     <lb/>
+     May, 1905. Provisionally appointed officers, [...] 
+     <lb/>
+            </p>
+        </div> </div>
+      </body>
+   </text>
 </TEI>
