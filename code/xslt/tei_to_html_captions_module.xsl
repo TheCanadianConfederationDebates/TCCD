@@ -56,8 +56,8 @@
         someone's name in the collection.</xd:desc>
     </xd:doc>
     <xsl:variable name="nameAppearanceCaption">
-        <span lang="en">Number of times this person appears in the debates: </span>
-        <span lang="fr">Nombre de fois que cette personne apparaît dans les débats: </span>
+        <span lang="en">Number of times this person appears in the documents<!--debates-->: </span>
+        <span lang="fr">Nombre de fois que cette personne apparaît dans les documents<!--débats-->: </span>
     </xsl:variable>
     
     <xd:doc scope="component">
@@ -131,9 +131,9 @@
     <xsl:variable name="treatyLocationCaption"><span lang="en">Treaty negotiation or signing location</span><span lang="fr">[Fr caption needed for "Treaty negotiation or signing location"]</span></xsl:variable>
     
     <xd:doc scope="component">
-        <xd:desc>Caption for person fragment introducing debate participation</xd:desc>
+        <xd:desc>Caption for person fragment introducing debate or treaty participation</xd:desc>
     </xd:doc>
-    <xsl:variable name="participatedCaption"><span lang="en">participated in the following debates: </span><span lang="fr">a participé aux débats de la Confédération suivants :</span></xsl:variable>
+    <xsl:variable name="participatedCaption"><span lang="en">participated in<!-- the following debates-->: </span><span lang="fr">a participé aux<!-- débats de la Confédération suivants--> :</span></xsl:variable>
     
     <xd:doc scope="component">
         <xd:desc>Caption for riding represented by someone</xd:desc>

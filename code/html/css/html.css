@@ -193,8 +193,51 @@ li {
   margin-top: 1em;
 }
 
+li figure.portrait{
+}
+
+ul[data-el='listPerson']{
+  list-style-type: none;
+  font-size: 0.8rem;
+}
+
+div#mapPopup ul[data-el='listPerson']{
+  font-size: 1.2rem;
+}
+
+ul[data-el='listPerson']>li{
+  line-height: 1.0;
+  clear: both;
+  border-top: solid 1px #ccc;
+  padding-top: 0.5em;
+}
+
+div#mapPopup ul[data-el='listPerson']>li{
+  line-height: 1.2;
+}
+
+/* Ensmallen the figure in the context of the back 
+ * matter of the document. */
+ul[data-el='listPerson'] figure.portrait{
+  float: right;
+  max-width: 8em;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  clear: both;
+  padding: 0.5em;
+  margin: 0 0 0.25em 0.25em;;
+}
+ul[data-el='listPerson'] figure figcaption{
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+div#mapPopup ul[data-el='listPerson'] figure figcaption{
+  font-size: 1rem;
+}
+
 ul[data-el='listPerson'] p{
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 /* TEI simplePrint values are used for styling. */
@@ -313,13 +356,7 @@ div#infoContent {
   background-position: 50% 30%;
   margin-top: 0;
 }*/
-/* Hide the figure in the context of the back 
- * matter of the document. */
-li figure.portrait{
-  display: none;
-}
-/* Display the figure when the info is in a 
- * popup. */
+
 /* Override the padding set on the container
  * with a negative margin. Not ideal but it
  * will work. */
@@ -360,8 +397,8 @@ footer {
 }
 .linkLogo {
   text-decoration: none;
-  height: 40px;
-  margin: 10px;
+/*  height: 40px;
+  margin: 10px;*/
   display: inline-block;
 }
 .linkLogo img {
@@ -402,7 +439,7 @@ ul.docsMentioningPerson, ul.docsMentioningPerson ul{
 h2 {
   margin-bottom: 1em;
 }
-h2::after {
+h2::after{
   height: 0.125em;
   width: 1.5em;
   content: "";

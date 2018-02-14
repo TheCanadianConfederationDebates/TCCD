@@ -81,10 +81,7 @@
                 <div id="{$currId}">
                     <xsl:if test="matches($portraitList, concat('\|', $currId, '\.jpg\|'))">
                         <xsl:attribute name="data-has-portrait" select="'yes'"/>
-                        <figure class="portrait">
-                            <img src="portraits/{$currId}.jpg" alt="{normalize-space(persName[1])}" title="{normalize-space(persName[1])}"/>
-                            <figcaption><xsl:copy-of select="$imageSourceCaption"/>: <xsl:apply-templates select="figure/listRef/ref"/></figcaption>
-                        </figure>
+                        <xsl:apply-templates select="figure"/>
                     </xsl:if>
                     <xsl:apply-templates select="node()[not(self::figure)]"/>
                     <xsl:if test="parent::listPerson/@xml:id = 'historicalPersonography'">

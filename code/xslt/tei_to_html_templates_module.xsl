@@ -349,7 +349,7 @@
                     <ul class="docsMentioningPerson">
                         <xsl:for-each select="$teiDocs/TEI[text/descendant::persName[@ref = $link]]">
                             <li>
-                                <a href="{@xml:id}.html">
+                                <a href="{@xml:id}.html" lang="{if (contains(@xml:id, '_fr_')) then 'fr' else 'en'}">
                                     <xsl:value-of select="//titleStmt/title[1]"/>
                                 </a>
                             </li>
@@ -364,7 +364,7 @@
         <xd:desc>The person/affiliation element is complex; it's going to need some elaboration and
             linking once we know how the riding information is going to work.</xd:desc>
     </xd:doc>
-    <xsl:template match="person/affiliation[not(preceding-sibling::affiliation)]">
+    <xsl:template match="person/affiliation[not(preceding-sibling::affiliation or preceding-sibling::state)] | person/state[not(preceding-sibling::affiliation or preceding-sibling::state)]">
         <xsl:sequence select="$participatedCaption"/>
         <ul>
             <li>
@@ -382,17 +382,19 @@
                 </xsl:choose>
                 <xsl:apply-templates select="@*[not(local-name() = 'when')]"/>
             </li>
-            <xsl:apply-templates select="following-sibling::affiliation">
+            <xsl:apply-templates select="following-sibling::affiliation | following-sibling::state">
                 <xsl:with-param name="inList" select="true()" tunnel="yes"/>
             </xsl:apply-templates>
         </ul>
     </xsl:template>
-    <xsl:template match="person/affiliation[preceding-sibling::affiliation]">
+    <xsl:template match="person/affiliation[preceding-sibling::affiliation or preceding-sibling::state]| person/state[preceding-sibling::affiliation or preceding-sibling::state]">
         <xsl:param name="inList" select="false()" tunnel="yes"/>
         <xsl:if test="$inList = true()">
             <li>
                 <xsl:apply-templates select="@when"/>
-                <xsl:sequence select="$representedCaption"/>
+                <xsl:if test="self::affiliation">
+                    <xsl:sequence select="$representedCaption"/>
+                </xsl:if>
                 <xsl:choose>
                     <xsl:when test="@ref">
                         <a href="canadaMap.html?place={replace(normalize-space(@ref), '^plc:', '')}">
@@ -409,15 +411,28 @@
     </xsl:template>
 
     <xd:doc scope="component">
-        <xd:desc>The person/state element is a bit unpredictable in its usage at the moment; we'll
-            just output it as a p for now.</xd:desc>
+        <xd:desc>Figures need to be processed in the context of people.</xd:desc>
     </xd:doc>
-    <xsl:template match="person/state">
-        <p>
+    <xsl:template match="person/figure">
+        <figure class="portrait">
             <xsl:apply-templates/>
-        </p>
+        </figure>
     </xsl:template>
     
+    <xd:doc scope="component">
+        <xd:desc>Graphics in figures in person elements.</xd:desc>
+    </xd:doc>
+    <xsl:template match="person/figure/graphic">
+        <img src="portraits/{ancestor::person/@xml:id}.jpg" alt="{normalize-space(ancestor::person/persName[1])}" title="{normalize-space(ancestor::person/persName[1])}"/>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>References for graphics in figures in person elements.</xd:desc>
+    </xd:doc>
+    <xsl:template match="person/figure/listRef">
+        <figcaption><xsl:copy-of select="$imageSourceCaption"/>: <xsl:apply-templates select="ref"/></figcaption>
+    </xsl:template>
+
     <xd:doc scope="component">
         <xd:desc>States usually have labels.</xd:desc>
     </xd:doc>
