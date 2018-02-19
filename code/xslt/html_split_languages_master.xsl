@@ -85,7 +85,7 @@
 <!-- We have a single input document. -->
                 <xsl:variable name="docId" select="html/@id"/>
 <!-- We process all docs in English mode if that's selected (en or both) and as long as they're not 
-     explicitly French documents. -->
+     explicitly French documents or entity documents. -->
                 <xsl:if test="$targetLang = ('en', 'both') and not(matches(html/@id, '_fr_')) and not($docId = 'index')">
                     <xsl:variable name="outputDoc" select="concat($outputFolder, '/en/', $docId, '.html')"/>
                     <xsl:message>Writing to <xsl:value-of select="$outputDoc"/>.</xsl:message>
@@ -233,6 +233,13 @@
     </xd:doc>
     <xsl:template match="html/@id[. = 'home']" mode="#all">
         <xsl:attribute name="id" select="'index'"/>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>The pages created from entities are a special case for French.</xd:desc>
+    </xd:doc>
+    <xsl:template match="html[matches(@id, '^[A-Z]+\d+$')]/@lang" mode="fr">
+        <xsl:attribute name="lang" select="'fr'"/>
     </xsl:template>
     
     <xd:doc scope="component">

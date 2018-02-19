@@ -23,8 +23,8 @@
         <!--    Starting with a Google font embed, just because. Design comes later.        -->
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="css/html.css"/>
-        <script type="text/ecmascript" src="js/script.js"/>
-        <script type="text/ecmascript" src="js/utilities.js"/>
+        <script type="text/ecmascript" src="js/script.js"> </script>
+        <script type="text/ecmascript" src="js/utilities.js"> </script>
     </xsl:variable>
 
     <xd:doc>
@@ -258,7 +258,7 @@
     </xsl:template>
     <xsl:template match="persName[ancestor::person]">
         <span data-el="{local-name()}">
-            <xsl:apply-templates select="@* | node()"/>
+            <a href="{ancestor::person[1]/@xml:id}.html"><xsl:apply-templates select="@* | node()"/></a>
         </span>
 <!--     Process any DCB links here.   -->
         <xsl:apply-templates select="ancestor::person/descendant::ptr[contains(@target, 'biographi.ca')]"/>  

@@ -73,10 +73,13 @@
             other files, or called up on the website from (for instance) the map.</xd:desc>
     </xd:doc>
     <xsl:template name="createAjaxFragmentsPeople">
-        <xsl:sequence select="hcmc:message(concat('Creating AJAX fragments from ', count($teiDocs/TEI[@xml:id='personography']//person), ' people and ', count($teiDocs/TEI[@xml:id='placeography']//place), ' places.'))"/>
-        <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person | $teiDocs/TEI[@xml:id='placeography']//place">
-            <xsl:result-document href="{concat($outputFolder, '/ajax/', @xml:id, '.xml')}">
-                <xsl:variable name="currId" select="@xml:id"/>
+        <xsl:sequence select="hcmc:message(concat('Creating AJAX fragments from ', count($teiDocs/TEI[@xml:id='personography']//person), ' people'))"/>
+        <xsl:for-each select="$teiDocs/TEI[@xml:id='personography']//person">
+            <xsl:variable name="currId" select="@xml:id"/>
+            <xsl:variable name="currName" select="normalize-space(persName[1])"/>
+            
+    <!--     First we create the fragment with the core content.       -->
+            <xsl:variable name="ajaxFragment">
                 <xsl:message>Processing <xsl:value-of select="$currId"/></xsl:message>
                 <div id="{$currId}">
                     <xsl:if test="matches($portraitList, concat('\|', $currId, '\.jpg\|'))">
@@ -111,7 +114,39 @@
                         </xsl:if>
                     </xsl:if>
                 </div>
+            </xsl:variable>
+    <!--        Now we output just the fragment for AJAX purposes.     -->
+            
+            <xsl:result-document href="{concat($outputFolder, '/ajax/', @xml:id, '.xml')}">
+                <xsl:sequence select="$ajaxFragment"/>
             </xsl:result-document>
+            
+    <!--        Now we output a fully-constructed page from the fragment, for linking.    -->
+            <xsl:result-document href="{concat($outputFolder, '/', $currId, '.html')}">
+                <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
+</xsl:text>
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$currId}">
+                    <head>
+                        <title><xsl:value-of select="$projectTitlePlain"/>: <xsl:value-of select="$currName"/></title>
+                        
+                        <xsl:sequence select="$linkedResources"/>
+                    </head>
+                    
+                    <body>
+                        <xsl:call-template name="header"/>
+                        <xsl:call-template name="nav"/>
+                        
+                        <div class="body">
+                            
+                            <h2><xsl:sequence select="$currName"/></h2>
+                            
+                            <div>
+                                <xsl:sequence select="$ajaxFragment/xh:div/node()"/>
+                            </div>
+                        </div>
+                    </body>
+                </html>
+            </xsl:result-document>    
         </xsl:for-each>
     </xsl:template>
     
@@ -123,8 +158,11 @@
     <xsl:template name="createAjaxFragmentsPlaces">
         <xsl:sequence select="hcmc:message(concat('Creating AJAX fragments from ', count($teiDocs/TEI[@xml:id='placeography']//place), ' places.'))"/>
         <xsl:for-each select="$teiDocs/TEI[@xml:id='placeography']//place">
-            <xsl:result-document href="{concat($outputFolder, '/ajax/', @xml:id, '.xml')}">
-                <xsl:variable name="currId" select="@xml:id"/>
+        <xsl:variable name="currId" select="@xml:id"/>  
+        <xsl:variable name="currName" select="normalize-space(placeName[1])"/>
+            
+<!--     First we create the fragment with the core content.       -->
+            <xsl:variable name="ajaxFragment">
                 <!-- First we need the list of people associated with that place. -->
                 <xsl:variable name="plcLinkRegEx" select="concat('(^|\s+)*plc:', $currId, '(\s+|$)')"/>
                 <xsl:variable name="peopleIds" select="$teiDocs/TEI[@xml:id='personography']//person[descendant::affiliation[matches(@ref, $plcLinkRegEx)] or descendant::state/note/placeName[matches(@ref, $plcLinkRegEx)]]/@xml:id"/>
@@ -171,7 +209,41 @@
                     </xsl:if>
                     
                 </div>
+            </xsl:variable>
+            
+<!--        Now we output just the fragment for AJAX purposes.     -->
+            <xsl:result-document href="{concat($outputFolder, '/ajax/', @xml:id, '.xml')}">
+                <xsl:sequence select="$ajaxFragment"/>
             </xsl:result-document>
+            
+<!--        Now we output a fully-constructed page from the fragment, for linking.    -->
+            <xsl:result-document href="{concat($outputFolder, '/', $currId, '.html')}">
+                <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
+</xsl:text>
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$currId}">
+                    <head>
+                        <title><xsl:value-of select="$projectTitlePlain"/>: <xsl:value-of select="$currName"/></title>
+                        
+                        <xsl:sequence select="$linkedResources"/>
+                    </head>
+                    
+                    <body>
+                        <xsl:call-template name="header"/>
+                        <xsl:call-template name="nav"/>
+                        
+                        <div class="body">
+                            
+                            <h2><xsl:sequence select="$currName"/></h2>
+                            
+                            <div>
+                                <xsl:sequence select="$ajaxFragment/xh:div/node()"/>
+                            </div>
+                            
+                        </div>
+                    </body>
+                </html>
+            </xsl:result-document>
+            
         </xsl:for-each>
     </xsl:template>
     

@@ -39,9 +39,9 @@ a {
 /* By default, temporarily, we hide French captions etc. 
  * Need to figure out a good approach to internationalization. 
  * */
-*[lang='fr'] {
+/**[lang='fr'] {
   display: none;
-}
+}*/
 /* Some things will be hidden and shown on the fly. */
 *.hidden {
   display: none;

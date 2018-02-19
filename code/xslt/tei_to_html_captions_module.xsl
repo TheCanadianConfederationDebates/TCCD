@@ -145,4 +145,5 @@
     </xd:doc>
     <xsl:variable name="imageSourceCaption"><span lang="en">Image source</span><span lang="fr">Provenance</span></xsl:variable>
     
+    
 </xsl:stylesheet>
