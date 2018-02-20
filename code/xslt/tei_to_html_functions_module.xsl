@@ -83,7 +83,8 @@
     
     <xd:doc scope="component">
         <xd:desc>This function is designed to infer the putative id
-            of a bibliography item from the id of a debate day document. </xd:desc>
+            of a bibliography item from the id of a debate day document. 
+            OBSOLETE.</xd:desc>
     </xd:doc>
     <xsl:function name="hcmc:getBiblId" as="xs:string">
         <xsl:param name="inText" as="xs:string"/>
