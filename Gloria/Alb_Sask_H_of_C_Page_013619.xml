@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="missed_page_template" type="template">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="legislature" ref="lg:lgHC">Legislature</name>, <date when="1856-01-01">date(-range)</date>, debate title/description]</title>
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="pers:FAN1">Gloria Fan</persName>
+        </respStmt> 
+      </titleStmt>
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+        <bibl>
+        </bibl>
+        </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  
+
+  
+  <text>
+    <body>
+      <div type="debate">
+        <p>MOTIONS AGREED TO WITHOUT DIS-<lb/>
+        CUSSION.</p>
+        <p>Copies of all Orders in Council, memorials,<lb/>
+          letters, telegrams, and other correspondence,<lb/>
+          and all other documents and communications<lb/>
+          in writing, between the first day of January,<lb/>
+          1897, and the first day of May, 1903, relating to,<lb/>
+          or concerning, or in any way having reference<lb/>
+          to the granting of provincial autonomy to the<lb/>
+          North-west Territories, or the creation of the<lb/>
+          said Territories into a province, or provinces.—<lb/>
+        Mr. Borden (Halifax).</p>
+      </div>
+    </body>
+  </text>
+</TEI>

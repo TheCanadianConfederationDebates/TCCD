@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="missed_page_template" type="template">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="legislature" ref="lg:lgHC">Legislature</name>, <date when="1856-01-01">date(-range)</date>, debate title/description]</title>
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="pers:FAN1">Gloria Fan</persName>
+        </respStmt> 
+      </titleStmt>
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+        <bibl>
+        </bibl>
+        </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  
+
+  
+  <text>
+    <body>
+      <div type="debate">
+        <p>INQUIRIES, &amp; c.</p>
+        <p>Mr. R. L. BORDEN (Halifax). I moved<lb/>
+          some time ago for the correspondence be-<lb/>
+          tween this government and the government<lb/>
+          of the North-west Territories on the sub-<lb/>
+          ject of provincial autonomy. I do not think<lb/>
+          the papers have yet been brought down.<lb/>
+          I also moved some time ago for a return<lb/>
+          of all persons in the North-west Territories<lb/>
+          who had been naturalized within a certain<lb/>
+          period of years. I believe the return has<lb/>
+          been sent forward, but it had not been<lb/>
+        brought down.</p>
+        <p>The MINISTER OF TRADE AND<lb/>
+          COMMERCE. I will bring the matter to<lb/>
+        the attention of the acting minister.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
