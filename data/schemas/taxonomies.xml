@@ -14,6 +14,10 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
+      <listPrefixDef>
+        <prefixDef ident="bibl" matchPattern="(.+)" replacementPattern="bibliography/bibliography.xml#$1"><p>Links to bibliography items are handled through
+        the "bibl" prefix.</p></prefixDef>
+      </listPrefixDef>
       <classDecl>
         <taxonomy xml:id="tccdLegislatures" n="Taxonomy of legislatures, appointed bodies, and negotiations, whose proceedings form part of our dataset.">
           <category xml:id="lgHC">

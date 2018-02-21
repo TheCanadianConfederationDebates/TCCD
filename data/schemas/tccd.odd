@@ -332,10 +332,6 @@ so Volume 2 by implication has finished. -->
                      <attDef ident="nymRef" mode="delete"/>
                   </attList>
                </classSpec>
-               <classSpec type="atts"
-                          ident="att.patternReplacement"
-                          module="tei"
-                          mode="delete"/> 
                <classSpec type="atts" ident="att.personal" module="tei" mode="change">
                   <attList>
                      <attDef ident="full" mode="delete"/>
@@ -576,9 +572,6 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="UNSPECIFIED">
                               <gloss>Use this value when you have not yet determined 
             the correct value. This value should be temporary.</gloss>
-                           </valItem>
-                           <valItem ident="pers:XXXX980">
-                              <desc>. .</desc>
                            </valItem>
                            <valItem ident="pers:AHTU1">
                               <desc>AH-TUK-UK-KOOP (Star Blanket; Ahtahkakoop). Carlton First Nations (1876: ); Head Chief Treaty # 6. Location: or near Fort Carlton. (1876: ).</desc>
@@ -13346,6 +13339,227 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="simple">
                               <gloss>items rendered as blocks, but with no bullet or number</gloss>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               
+               <elementSpec ident="bibl" module="core" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="replace" usage="opt">
+                        <valList type="closed">
+                           <valItem ident="bibl:lgHC">
+                              <gloss>H of C – Fed. 1875-1949</gloss>
+                              <desc>House of Commons Debates. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgBCLC">
+                              <gloss>BC Leg. Council 1870</gloss>
+                              <desc>Legislative Council: Debates on the Subject of Confederation with Canada. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgASLA">
+                              <gloss>Alb/Sask Leg. Ass. – 1896-1904</gloss>
+                              <desc>Regina Leader. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgMBConv40">
+                              <gloss>Man. Conv. of 40, 1870</gloss>
+                              <desc>Convention of Forty. Norma Jean Hall</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgAssinLAssem">
+                              <gloss>Man Prov. Gov., 1870</gloss>
+                              <desc>Legislative Assembly of Assiniboia Debates. Norma Jean Hall</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgMBConv40_fr">
+                              <gloss>Man. Conv. of 40, 1870</gloss>
+                              <desc>La Grande Convention Debates. Norma Jean Hall</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgAssinLAssem_fr">
+                              <gloss>Man Prov. Gov., 1870</gloss>
+                              <desc>Débats de l'Assemblée législative d'Assiniboia. Norma Jean Hall</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPCLA">
+                              <gloss>Ont-Que debates, 1865</gloss>
+                              <desc>Parliamentary Debates on the Subject of the Confederation of the British North American Provinces. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPCLC">
+                              <gloss>Ont-Que debates, 1865</gloss>
+                              <desc>Parliamentary Debates on the Subject of the Confederation of the British North American Provinces. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPCLA_fr">
+                              <gloss>Ont-Que debates, 1865</gloss>
+                              <desc>Débats parlementaires sur la question de la Confédération des provinces de l'Amérique britannique du nord. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPCLC_fr">
+                              <gloss>Ont-Que debates, 1865</gloss>
+                              <desc>Débats parlementaires sur la question de la Confédération des provinces de l'Amérique britannique du nord. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgNBLA">
+                              <gloss>NB Leg. Ass., 1864-1867</gloss>
+                              <desc>Reports of the Debates of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgNSLA">
+                              <gloss>NS Leg. Ass., 1864-1867</gloss>
+                              <desc>The Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPEILA_1864">
+                              <gloss>PEI Leg. Ass., 1864-1865</gloss>
+                              <desc>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPEILA_1866">
+                              <gloss>PEI Leg. Ass., 1866</gloss>
+                              <desc>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPEILA_1867">
+                              <gloss>PEI Leg. Ass., 1867</gloss>
+                              <desc>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPEILA_1868">
+                              <gloss>PEI Leg. Ass., 1868</gloss>
+                              <desc>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPEILA_1869">
+                              <gloss>PEI Leg. Ass., 1869</gloss>
+                              <desc>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPEILA_1870">
+                              <gloss>PEI Leg. Ass., 1870</gloss>
+                              <desc>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPEILA_1871">
+                              <gloss>PEI Leg. Ass., 1871-1872</gloss>
+                              <desc>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgPEILA_1873">
+                              <gloss>PEI Leg. Ass., 1873</gloss>
+                              <desc>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgNLLA">
+                              <gloss>NFLD Leg. Ass., 1864-1869</gloss>
+                              <desc>The Newfoundlander. </desc>
+                           </valItem>
+                           <valItem ident="bibl:lgNFNC">
+                              <gloss>NFLD Nat. Conv., 1946-1948</gloss>
+                              <desc>The Newfoundland National Convention, 1946-1948 Vol 1: Debates. J.K. Hiller, M.F. Harrington</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgHC_1867-1868">
+                              <gloss>H of C – Fed. 1867-1868</gloss>
+                              <desc>House of Commons Debates, 1867-1868. P.B. Waite</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgHC_1869">
+                              <gloss>H of C – Fed. 1869</gloss>
+                              <desc>House of Commons Debates, 1869. P.B. Waite</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgHC_1870">
+                              <gloss>H of C – Fed. 1870</gloss>
+                              <desc>House of Commons Debates, 1870. P.B. Waite</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgHC_1871">
+                              <gloss>H of C – Fed. 1871</gloss>
+                              <desc>House of Commons Debates, 1871. Norman Ward, Pamela Hardisty</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgHC_1872">
+                              <gloss>H of C – Fed. 1872</gloss>
+                              <desc>House of Commons Debates, 1872. David Farr</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgHC_1873_1">
+                              <gloss>H of C – Fed. 1873 1st Session</gloss>
+                              <desc>House of Commons Debates, 1873 First Session. David Farr</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgHC_1873_2">
+                              <gloss>H of C – Fed. 1873 2nd Session</gloss>
+                              <desc>House of Commons Debates, 1873 Second Session. David Farr</desc>
+                           </valItem>
+                           <valItem ident="bibl:lgHC_1874">
+                              <gloss>H of C – Fed. 1874</gloss>
+                              <desc>House of Commons Debates, 1874. David Farr</desc>
+                           </valItem>
+                           <valItem ident="bibl:Morris">
+                              <gloss>Treaty negotiations 1811-1878</gloss>
+                              <desc>The Treaties of Canada with the Indians of Manitoba and the North-West Territories Including the Negotiations on Which They Are Based, and Other Information Relating Thereto.. </desc>
+                           </valItem>
+                           <valItem ident="bibl:Erasmus">
+                              <gloss>Treaty 6 Negotiations, 1876</gloss>
+                              <desc>Buffalo Days and Nights. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_1_2">
+                              <gloss>Treaties 1 and 2 Negotiations, 1871</gloss>
+                              <desc>Treaty No. 1 and Treaty No. 2. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_1_2_fr">
+                              <gloss>Traités nos 1 et 2, 1871</gloss>
+                              <desc>Traités nos 1 et 2. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_3">
+                              <gloss>Treaty No. 3, 1873</gloss>
+                              <desc>Treaty No. 3. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_3_fr">
+                              <gloss>Treaty No. 3, 1873</gloss>
+                              <desc>Traité Nº 3. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_4">
+                              <gloss>Treaty No. 4, 1874</gloss>
+                              <desc>Treaty No. 4. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_4_fr">
+                              <gloss>Treaty No. 4, 1874</gloss>
+                              <desc>Traité Nº 4. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_5">
+                              <gloss>Treaty No. 5, 1875</gloss>
+                              <desc>Treaty No. 5. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_5_fr">
+                              <gloss>Treaty No. 5, 1875</gloss>
+                              <desc>Traité Nº 5. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_6">
+                              <gloss>Treaty No. 6, 1876</gloss>
+                              <desc>Treaty No. 6. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_6_fr">
+                              <gloss>Treaty No. 6, 1876</gloss>
+                              <desc>Traité Nº 6. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_7">
+                              <gloss>Treaty No. 7, 1877</gloss>
+                              <desc>Treaty No. 7. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_7_fr">
+                              <gloss>Treaty No. 7, 1877</gloss>
+                              <desc>Traité Nº 7. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_8">
+                              <gloss>Treaty No. 8, 1899</gloss>
+                              <desc>Treaty No. 8. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_8_fr">
+                              <gloss>Treaty No. 8, 1899</gloss>
+                              <desc>Traité Nº 8. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_9">
+                              <gloss>Treaty No. 9, 1905</gloss>
+                              <desc>Treaty No. 9. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_9_fr">
+                              <gloss>Treaty No. 9, 1905</gloss>
+                              <desc>Traité Nº 9. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_10">
+                              <gloss>Treaty No. 10, 1906</gloss>
+                              <desc>Treaty No. 10. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_10_fr">
+                              <gloss>Treaty No. 10, 1906</gloss>
+                              <desc>Traité Nº 10. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_11">
+                              <gloss>Treaty No. 11, 1921</gloss>
+                              <desc>Treaty No. 11. </desc>
+                           </valItem>
+                           <valItem ident="bibl:treaty_11_fr">
+                              <gloss>Treaty No. 11, 1921</gloss>
+                              <desc>Traité Nº 11. </desc>
                            </valItem>
                         </valList>
                      </attDef>

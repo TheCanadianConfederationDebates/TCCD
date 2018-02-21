@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-02-13T17:21:19Z. 2016.
+Schema generated from ODD source 2018-02-20T23:04:11Z. 2016.
 TEI Edition: Version 3.3.1a. Last updated on
 	9th February 2018, revision 6f05317
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.1a./
@@ -3170,9 +3170,133 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                <ref name="model.global"/>
             </choice>
          </zeroOrMore>
-         <ref name="att.global.attributes"/>
+         <ref name="att.global.attribute.xmlid"/>
+         <ref name="att.global.attribute.n"/>
+         <ref name="att.global.attribute.xmllang"/>
+         <ref name="att.global.attribute.xmlbase"/>
+         <ref name="att.global.attribute.xmlspace"/>
+         <ref name="att.global.rendition.attribute.rendition"/>
+         <ref name="att.global.linking.attribute.next"/>
+         <ref name="att.global.linking.attribute.prev"/>
+         <ref name="att.global.facs.attribute.facs"/>
+         <ref name="att.global.responsibility.attribute.cert"/>
+         <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.global.source.attribute.source"/>
          <ref name="att.typed.attributes"/>
          <ref name="att.docStatus.attributes"/>
+         <optional>
+            <attribute name="corresp">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>bibl:lgHC</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1875-1949) House of Commons Debates. </a:documentation>
+                  <value>bibl:lgBCLC</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(BC Leg. Council 1870) Legislative Council: Debates on the Subject of Confederation with Canada. </a:documentation>
+                  <value>bibl:lgASLA</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Alb/Sask Leg. Ass. – 1896-1904) Regina Leader. </a:documentation>
+                  <value>bibl:lgMBConv40</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Man. Conv. of 40, 1870) Convention of Forty. Norma Jean Hall</a:documentation>
+                  <value>bibl:lgAssinLAssem</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Man Prov. Gov., 1870) Legislative Assembly of Assiniboia Debates. Norma Jean Hall</a:documentation>
+                  <value>bibl:lgMBConv40_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Man. Conv. of 40, 1870) La Grande Convention Debates. Norma Jean Hall</a:documentation>
+                  <value>bibl:lgAssinLAssem_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Man Prov. Gov., 1870) Débats de l'Assemblée législative d'Assiniboia. Norma Jean Hall</a:documentation>
+                  <value>bibl:lgPCLA</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Ont-Que debates, 1865) Parliamentary Debates on the Subject of the Confederation of the British North American Provinces. </a:documentation>
+                  <value>bibl:lgPCLC</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Ont-Que debates, 1865) Parliamentary Debates on the Subject of the Confederation of the British North American Provinces. </a:documentation>
+                  <value>bibl:lgPCLA_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Ont-Que debates, 1865) Débats parlementaires sur la question de la Confédération des provinces de l'Amérique britannique du nord. </a:documentation>
+                  <value>bibl:lgPCLC_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Ont-Que debates, 1865) Débats parlementaires sur la question de la Confédération des provinces de l'Amérique britannique du nord. </a:documentation>
+                  <value>bibl:lgNBLA</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(NB Leg. Ass., 1864-1867) Reports of the Debates of the House of Assembly. </a:documentation>
+                  <value>bibl:lgNSLA</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(NS Leg. Ass., 1864-1867) The Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgPEILA_1864</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(PEI Leg. Ass., 1864-1865) The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgPEILA_1866</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(PEI Leg. Ass., 1866) The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgPEILA_1867</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(PEI Leg. Ass., 1867) The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgPEILA_1868</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(PEI Leg. Ass., 1868) The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgPEILA_1869</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(PEI Leg. Ass., 1869) The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgPEILA_1870</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(PEI Leg. Ass., 1870) The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgPEILA_1871</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(PEI Leg. Ass., 1871-1872) The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgPEILA_1873</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(PEI Leg. Ass., 1873) The Parliamentary Reporter of Debates and Proceedings of the House of Assembly. </a:documentation>
+                  <value>bibl:lgNLLA</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(NFLD Leg. Ass., 1864-1869) The Newfoundlander. </a:documentation>
+                  <value>bibl:lgNFNC</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(NFLD Nat. Conv., 1946-1948) The Newfoundland National Convention, 1946-1948 Vol 1: Debates. J.K. Hiller, M.F. Harrington</a:documentation>
+                  <value>bibl:lgHC_1867-1868</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1867-1868) House of Commons Debates, 1867-1868. P.B. Waite</a:documentation>
+                  <value>bibl:lgHC_1869</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1869) House of Commons Debates, 1869. P.B. Waite</a:documentation>
+                  <value>bibl:lgHC_1870</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1870) House of Commons Debates, 1870. P.B. Waite</a:documentation>
+                  <value>bibl:lgHC_1871</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1871) House of Commons Debates, 1871. Norman Ward, Pamela Hardisty</a:documentation>
+                  <value>bibl:lgHC_1872</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1872) House of Commons Debates, 1872. David Farr</a:documentation>
+                  <value>bibl:lgHC_1873_1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1873 1st Session) House of Commons Debates, 1873 First Session. David Farr</a:documentation>
+                  <value>bibl:lgHC_1873_2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1873 2nd Session) House of Commons Debates, 1873 Second Session. David Farr</a:documentation>
+                  <value>bibl:lgHC_1874</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(H of C – Fed. 1874) House of Commons Debates, 1874. David Farr</a:documentation>
+                  <value>bibl:Morris</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty negotiations 1811-1878) The Treaties of Canada with the Indians of Manitoba and the North-West Territories Including the Negotiations on Which They Are Based, and Other Information Relating Thereto.. </a:documentation>
+                  <value>bibl:Erasmus</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty 6 Negotiations, 1876) Buffalo Days and Nights. </a:documentation>
+                  <value>bibl:treaty_1_2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaties 1 and 2 Negotiations, 1871) Treaty No. 1 and Treaty No. 2. </a:documentation>
+                  <value>bibl:treaty_1_2_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Traités nos 1 et 2, 1871) Traités nos 1 et 2. </a:documentation>
+                  <value>bibl:treaty_3</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 3, 1873) Treaty No. 3. </a:documentation>
+                  <value>bibl:treaty_3_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 3, 1873) Traité Nº 3. </a:documentation>
+                  <value>bibl:treaty_4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 4, 1874) Treaty No. 4. </a:documentation>
+                  <value>bibl:treaty_4_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 4, 1874) Traité Nº 4. </a:documentation>
+                  <value>bibl:treaty_5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 5, 1875) Treaty No. 5. </a:documentation>
+                  <value>bibl:treaty_5_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 5, 1875) Traité Nº 5. </a:documentation>
+                  <value>bibl:treaty_6</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 6, 1876) Treaty No. 6. </a:documentation>
+                  <value>bibl:treaty_6_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 6, 1876) Traité Nº 6. </a:documentation>
+                  <value>bibl:treaty_7</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 7, 1877) Treaty No. 7. </a:documentation>
+                  <value>bibl:treaty_7_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 7, 1877) Traité Nº 7. </a:documentation>
+                  <value>bibl:treaty_8</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 8, 1899) Treaty No. 8. </a:documentation>
+                  <value>bibl:treaty_8_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 8, 1899) Traité Nº 8. </a:documentation>
+                  <value>bibl:treaty_9</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 9, 1905) Treaty No. 9. </a:documentation>
+                  <value>bibl:treaty_9_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 9, 1905) Traité Nº 9. </a:documentation>
+                  <value>bibl:treaty_10</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 10, 1906) Treaty No. 10. </a:documentation>
+                  <value>bibl:treaty_10_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 10, 1906) Traité Nº 10. </a:documentation>
+                  <value>bibl:treaty_11</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 11, 1921) Treaty No. 11. </a:documentation>
+                  <value>bibl:treaty_11_fr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Treaty No. 11, 1921) Traité Nº 11. </a:documentation>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -3397,6 +3521,22 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
          </optional>
          <empty/>
       </element>
+   </define>
+   <define name="att.patternReplacement.attributes">
+      <ref name="att.patternReplacement.attribute.matchPattern"/>
+      <ref name="att.patternReplacement.attribute.replacementPattern"/>
+   </define>
+   <define name="att.patternReplacement.attribute.matchPattern">
+      <attribute name="matchPattern">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a regular expression against which the values of other attributes can be matched.</a:documentation>
+         <data type="token"/>
+      </attribute>
+   </define>
+   <define name="att.patternReplacement.attribute.replacementPattern">
+      <attribute name="replacementPattern">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a replacement pattern, that is, the skeleton of a relative or absolute URI containing references to groups in the matchPattern which, once subpattern substitution has been performed, complete the URI.</a:documentation>
+         <text/>
+      </attribute>
    </define>
    <define name="teiHeader">
       <element name="teiHeader">
@@ -3820,6 +3960,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <ref name="model.pLike"/>
          </zeroOrMore>
          <ref name="att.global.attributes"/>
+         <ref name="att.patternReplacement.attributes"/>
          <attribute name="ident">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a name which functions as the prefix for an abbreviated pointing scheme such as a private URI scheme. The prefix constitutes the text preceding the first colon.</a:documentation>
             <data type="token">
@@ -4801,8 +4942,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>UNSPECIFIED</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Use this value when you have not yet determined 
             the correct value. This value should be temporary.) </a:documentation>
-                  <value>pers:XXXX980</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">. .</a:documentation>
                   <value>pers:AHTU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">AH-TUK-UK-KOOP (Star Blanket; Ahtahkakoop). Carlton First Nations (1876: ); Head Chief Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:AHYA1</value>

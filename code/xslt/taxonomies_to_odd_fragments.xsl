@@ -24,9 +24,11 @@
   <xsl:param name="taxonomyFilePath" select="'../../data/schemas/taxonomies.xml'"/>
   <xsl:param name="personographyFilePath" select="'../../data/personography/personography.xml'"/>
   <xsl:param name="placeographyFilePath" select="'../../data/placeography/placeography.xml'"/>
+  <xsl:param name="bibliographyFilePath" select="'../../data/bibliography/bibliography.xml'"/>
   <xsl:param name="taxonomyFile" select="doc($taxonomyFilePath)"/>
   <xsl:param name="personographyFile" select="doc($personographyFilePath)"/>
   <xsl:param name="placeographyFile" select="doc($placeographyFilePath)"/>
+  <xsl:param name="bibliographyFile" select="doc($bibliographyFilePath)"/>
    
   <xsl:template match="/" exclude-result-prefixes="#all">
     <xsl:message>Processing taxonomies comprising <xsl:value-of select="count($taxonomyFile/descendant::category)"/> categories.</xsl:message>
@@ -43,6 +45,19 @@
             <xsl:copy-of select="gloss"/>
             <xsl:copy-of select="desc"/>
           </valItem>
+      </xsl:for-each>
+    </valList>
+  </xsl:template>
+  
+  <!-- Template for bibl/@corresp. -->
+  <xsl:template match="elementSpec[@ident='bibl']/attList/attDef[@ident='corresp']/valList" exclude-result-prefixes="#all">
+    <valList type="closed">
+      <xsl:for-each select="$bibliographyFile/descendant::bibl[@xml:id]">
+        <!--<xsl:sort select="@xml:id"/>-->
+        <valItem ident="bibl:{@xml:id}">
+          <gloss><xsl:value-of select="@n"/></gloss>
+          <desc><xsl:value-of select="concat(title[1], '. ', string-join(editor, ', '))"/></desc>
+        </valItem>
       </xsl:for-each>
     </valList>
   </xsl:template>

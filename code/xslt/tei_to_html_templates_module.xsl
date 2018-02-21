@@ -87,7 +87,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
 
-                <xsl:call-template name="appendix"/>
+                <xsl:call-template name="appendix"/>                
             </div>
             <xsl:call-template name="footer"/>
         </body>
@@ -101,12 +101,21 @@
         <xsl:param name="currId" as="xs:string" tunnel="yes"/>
         <div class="appendix">
             <!--       Find and report the source document for this debate from the bibliography.     -->
-
-            <xsl:variable name="prefix" select="hcmc:getBiblId($currId)"/>
-            <xsl:variable name="strDate" select="replace($currId, '.+_([\d\-]+)$', '$1')"/>
+            <xsl:variable name="biblId" select="$xmlDocs[TEI/@xml:id = $currId]/descendant::sourceDesc[1]/bibl[1]/@corresp/substring-after(., 'bibl:')"/>
+            <!--<xsl:variable name="prefix" select="hcmc:getBiblId($currId)"/>
+            <xsl:variable name="strDate" select="replace($currId, '.+_([\d\-]+)$', '$1')"/>-->
 
             <xsl:variable name="citation">
                 <xsl:choose>
+                    <xsl:when test="$projectBibliography//bibl[@xml:id=$biblId]">
+                        <xsl:apply-templates mode="#current" select="$projectBibliography//bibl[@xml:id=$biblId]/node()"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        xsl:otherwise>[Error: no source found for this document.]
+                    </xsl:otherwise>
+                </xsl:choose>
+<!--      NOTE: OLD SYSTEM WAS NOT WORKING. REPLACED WITH SIMPLER PROCESS BASED ON sourceDesc/bibl/@corresp.          -->
+                <!--<xsl:choose>
                     <xsl:when test="$projectBibliography//bibl[@xml:id=$prefix]">
                         <xsl:apply-templates mode="#current" select="$projectBibliography//bibl[@xml:id=$prefix]/node()"/>
                     </xsl:when>
@@ -142,7 +151,7 @@
                         </xsl:choose>
                     </xsl:when>
                     <xsl:otherwise></xsl:otherwise>
-                </xsl:choose>
+                </xsl:choose>-->
             </xsl:variable>
 
             <div id="sourceDocument">
@@ -154,8 +163,7 @@
                         <xsl:when test="$citation/node()">
                             <xsl:sequence select="$citation"/>
                         </xsl:when>
-                        <xsl:otherwise>[Error: no source found for <xsl:value-of
-                                select="concat($prefix, ' (', $strDate, ')')"/>.] </xsl:otherwise>
+                        <xsl:otherwise>[Error: no source found for this document.] </xsl:otherwise>
                     </xsl:choose>
                 </p>
             </div>
