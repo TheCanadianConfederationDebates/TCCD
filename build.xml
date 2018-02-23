@@ -97,10 +97,10 @@
 <!-- We end up calling Jing with a dedicated Java task because we need to 
      pass a jvmarg to increase the default stack size, so this is not really
      needed. -->
-<!--  <classloader classpath="code/utilities/jing.jar"></classloader>
-  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" >
+  <classloader classpath="code/utilities/jing.jar"></classloader>
+  <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask">
     <classpath path="code/utilities/jing.jar"></classpath>
-  </taskdef>-->
+  </taskdef>
   
 <!-- SaxonHE is in the repo. -->
 <!--  <classloader classpath="${basedir}/code/utilities/saxon9he.jar"></classloader>
@@ -119,6 +119,7 @@
 <!-- All XML files in the data directory should be TEI files. -->
   <fileset id="teiFiles" dir="data" includes="**/*.xml">
     <exclude name="**/templates/*.xml"/>
+    <exclude name="**/*.hocr.xml"/>
   </fileset>
   
   <!-- All files that are small enough to validate with Schematron. MUST FIND A WAY AROUND THIS. -->
@@ -188,11 +189,11 @@
     <basename property="fname" file="${filepath}"/>
     <echo message="Checking ${fname}..."/>
     <java jar="code/utilities/jing.jar" fork="true" failonerror="true">
-      <arg value="${rngFile}"/>
-      <arg value="${filepath}"/>
 <!-- Huge thanks to George Bina for suggesting this jvmarg,
      which prevents unpredictable stack overflow errors. -->
       <jvmarg value="-Xss4m"/>
+      <arg value="${rngFile}"/>
+      <arg value="${filepath}"/>
     </java>
   </target>
   
@@ -214,6 +215,23 @@
     <!--<jing compactsyntax="false" rngfile="${rngFile}" failonerror="true">
       <fileset refid="teiFiles"/>
     </jing>-->
+    
+    <echo message="NOTE TO SELF: NOT DOING SCHEMATRON VALIDATION RIGHT NOW BECAUSE OF
+      SAXON VERSION ISSUE. REVISIT THIS."/>
+    <!--<antcall target="schematronValidation"/>-->
+    
+  </target> 
+  
+  <target name="validateXml2">
+    
+    <antcall target="MESSAGE"><param name="msg" value="Validating XML files with RelaxNG..."/></antcall>
+    <!--<loadfile property="allTeiFiles" srcFile="${teiFileList}"/>-->
+    
+    <!--  This fails because the iteration through folders takes huge amounts of time.
+      Using a dedicated task on each file instead. -->
+    <jing compactsyntax="false" rngfile="${rngFile}" failonerror="true">
+      <fileset refid="teiFiles"/>
+    </jing>
     
     <echo message="NOTE TO SELF: NOT DOING SCHEMATRON VALIDATION RIGHT NOW BECAUSE OF
       SAXON VERSION ISSUE. REVISIT THIS."/>

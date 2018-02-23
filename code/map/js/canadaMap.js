@@ -215,6 +215,9 @@
       map.getViewport().style.cursor = hit ? 'pointer' : '';
     });
     
+    window.addEventListener('orientationchange', function(){map.updateSize(); map.render()});
+    window.addEventListener('resize', function(){setTimeout(function(){map.updateSize(); map.render();}, '200')});
+    
     var mapPopup = null;
     
     //Add a crude click event so you can see the info on a riding.
