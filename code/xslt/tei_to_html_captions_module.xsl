@@ -145,5 +145,9 @@
     </xd:doc>
     <xsl:variable name="imageSourceCaption"><span lang="en">Image source</span><span lang="fr">Provenance</span></xsl:variable>
     
+    <xd:doc scope="component">
+        <xd:desc>Caption cases where French-language versions are not (yet) available</xd:desc>
+    </xd:doc>
+    <xsl:variable name="englishOnlyCaption"><!--<span lang="en">(only English available)</span>--><span lang="fr">(en anglais seulement)</span></xsl:variable>
     
 </xsl:stylesheet>

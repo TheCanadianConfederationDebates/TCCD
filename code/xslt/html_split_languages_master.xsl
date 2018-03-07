@@ -32,6 +32,11 @@
     </xd:doc>
     
     <xd:doc scope="component">
+        <xd:desc>We need the captions module.</xd:desc>
+    </xd:doc>
+    <xsl:include href="tei_to_html_captions_module.xsl"/>
+    
+    <xd:doc scope="component">
         <xd:desc>The <xd:ref name="targetLang">targetLang</xd:ref> attribute can take the values
         "en", "fr" or "both" (the default). This is only used in single-document testing; in the 
         general case (processing the whole site), both versions are always created.</xd:desc>
@@ -290,6 +295,17 @@
                 <xsl:next-match/>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    
+    <xd:doc scope="component">
+        <xd:desc>When we're forced to link from a French page to a document which is in 
+        English, we try to detect the situation and add a warning message.</xd:desc>
+    </xd:doc>
+    <xsl:template match="li/a[matches(@href, '^lg[^/\.]+\.html$')][not(matches(@href, '_fr_'))][ancestor::ul[@class='docList']]" mode="fr">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+        <xsl:text> </xsl:text><xsl:sequence select="$englishOnlyCaption"/>
     </xsl:template>
     
     
