@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+ xml:id="lgPCLA_fr_1865-02-03"
+ xml:lang="fr"
+ type="full">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+
+ <title>[<name type="legislature" ref="lg:lgPCLAssem">Assemblée Législative</name>, <date when="1865-02-03">3 Février 1865</date>, Provinces de L'Amérique Britannique du Nord, Débats de la Confédération.]</title>
+ 
+ <respStmt>
+ <resp>Selection of input documents and completion of metadata</resp>
+ <persName ref="pers:LANG4">Dave Lang</persName> 
+ <!-- DL xml markup only -->
+ </respStmt>
+ 
+ </titleStmt>
+ 
+ <publicationStmt>
+
+<p>Published by The Confederation Debates project.</p>
+ </publicationStmt>
+ <sourceDesc>
+
+<bibl corresp="bibl:lgPCLA_fr">
+<title>Débats Parlementaires sur la Question de la Confédération des Provinces de L'Amérique Britannique du Nord</title>.
+<date when="1865"/>. 
+<pubPlace>Québec</pubPlace>: 
+<publisher>Hunter, Rose et Lemieux, Imprimeurs Parlementaires</publisher>. 
+<biblScope unit="page" from="14" to="21"/>. 
+</bibl>
+
+ <list>
+ <item> 
+ <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-03_Page_0014.hocr.html"/> 
+ </item>
+ <item> 
+ <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-03_Page_0015.hocr.html"/> 
+ </item>
+ <item> 
+ <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-03_Page_0016.hocr.html"/> 
+ </item>
+ <item> 
+ <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-03_Page_0017.hocr.html"/> 
+ </item>
+ <item> 
+ <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-03_Page_0018.hocr.html"/> 
+ </item>
+ <item> 
+ <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-03_Page_0019.hocr.html"/> 
+ </item>
+ <item> 
+ <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-03_Page_0020.hocr.html"/> 
+ </item>
+ <item> 
+ <ptr target="final/hocr/Ont_Que_Fr_LA_1865-02-03_Page_0021.hocr.html"/> 
+ </item>
+
+ </list>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+ <samplingDecl>
+
+ <p/>
+ </samplingDecl>
+ </encodingDesc>
+ <revisionDesc>
+ <change who="mholmes" when="2018-03-18">Transformed initial template file to incorporate corrected OCR content.</change>
+
+ <change who="DLANG4" when="2018-03-18">Created this document, completed metadata.</change>
+ </revisionDesc>
+ </teiHeader>
+ <facsimile>
+ <surface xml:id="Ont_Que_Fr_LA_1865-02-03_Page_0014">
+ <graphic url="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0014.jpg"/>
+ </surface>
+ <surface xml:id="Ont_Que_Fr_LA_1865-02-03_Page_0015">
+ <graphic url="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0015.jpg"/>
+ </surface>
+ <surface xml:id="Ont_Que_Fr_LA_1865-02-03_Page_0016">
+ <graphic url="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0016.jpg"/>
+ </surface>
+ <surface xml:id="Ont_Que_Fr_LA_1865-02-03_Page_0017">
+ <graphic url="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0017.jpg"/>
+ </surface>
+ <surface xml:id="Ont_Que_Fr_LA_1865-02-03_Page_0018">
+ <graphic url="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0018.jpg"/>
+ </surface>
+ <surface xml:id="Ont_Que_Fr_LA_1865-02-03_Page_0019">
+ <graphic url="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0019.jpg"/>
+ </surface>
+ <surface xml:id="Ont_Que_Fr_LA_1865-02-03_Page_0020">
+ <graphic url="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0020.jpg"/>
+ </surface>
+ <surface xml:id="Ont_Que_Fr_LA_1865-02-03_Page_0021">
+ <graphic url="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0021.jpg"/>
+ </surface>
+ </facsimile>
+<text>
+<body>
+
+<div type="debate">
+<pb n="14" facs="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0014.jpg"/>
+<fw type="num">14</fw>
+
+<div type="section"><head rendition="simple:centre">ASSEMBLÉE LÉGISLATIVE.</head></div>
+
+<div type="section"> <head rendition="simple:right">VENDREDI, 3 <hi rendition="simple:italic">février</hi> 1865.</head>
+
+<!-- DL, 2018-03-18, previous debate day info on page 14 missing -->
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.-M. <lb/>
+l'Orateur ayant éxprime le désir que nous ne <lb/>
+commençions pas aujourd'hui les débats sur <lb/>
+l'adresse relative à l'union des colonies, je <lb/>
+propose de les différer jusqu'à lundi. Mais <lb/>
+comme le sujet est de la plus haute impor<lb break="no"/>tance, il serait peut-être bon d'établir la <lb/>
+marche que l'on devra suivre pour la discus<lb break="no"/>sion. Je propose que la discussion, une fois <lb/>
+commencée, se continue de jour en jour, et <lb/>
+pour qu'il y ait plus de régularité, que l'Ora<lb break="no"/>teur ne laisse pas son siége. En même temps, <lb/>
+je propose qu la règle que enlève aux mem<lb break="no"/>bres le droit de parler plus d'une fois, lors<lb break="no"/>que l'Orateur es au fauteuil, soit suspendue, <lb/>
+afin que chaque membre ait la même liberté <lb/>
+de discuter, que si la chambre était formée <lb/>
+en comité général. <lb/></p>
+
+<p>L'<persName ref="pers:MACD2">HON. J. S. MACDONALD</persName>.-Je pense <lb/>
+que la proposition de l'hon. proc-gén. <lb/>
+Ouest, qu la discussion se continue de <lb/>
+jour en jour en jour, doit être, selon moi, <lb/>
+rejetée par la chambre. Cette question est <lb/>
+très-importante; je pense que le peuple de <lb/>
+ce pays a le droit d'examiner attentivement <lb/>
+les vues exprimées par ses représentants <lb/>
+sue cette question. Je regrette que le proc.-<lb break="yes"/>gén. ait annoncée que le gouvernment avait <lb/>
+l'intention de presser cette mesure, en met<lb break="yes"/>tant de côte tout autre sujet. <lb/></p>
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.-Ce <lb/>
+n'est pas l'intention que j'ai exprimée. Mon <lb/>
+idée est qu'une fois les débats commencées, ils <lb/>
+se continuent chaque jour à la séance du soir, <lb/>
+laissant l'après-midi pour les autres affaires. <lb/>
+Si l'on ne permettait la discussion qu'aux <lb/>
+jours du gouvernment, les débats du mardi <lb/>
+seraient oubliés le vendredi; les mêmes <lb/>
+
+<pb n="15" facs="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0015.jpg"/>
+<fw type="num">15</fw>
+
+arguments seraient constamment répétés, et <lb/>
+il faudrait siéger toute l'année pour terminer <lb/>
+cette mesure. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD2">HON. J. S. MACDONALD</persName>.-Des <lb/>
+changements aussi importants que celui <lb/>
+que l'on propose, tels que ceux relatifs <lb/>
+aux réserves du clergé, au conseil législatif,<lb/>
+à la tenure seigneuriale, ont été devant le <lb/>
+peuple, un quart de siècle, et discutés de session <lb/>
+en session, avant qu'on ne les ait défi<lb break="no"/>nitivement réglés. De cette manière, l'opi<lb break="no"/>mon publique avait pu se mûrir sur ces <lb/>
+questions. Mais aujourd'hui, on nous donne <lb/>
+à peine quelques jours d'avis pour changer <lb/>
+entièrement la constitution sous laquelle<lb/>
+nous vivons, et on ne laisse pas au peuple le <lb/>
+temps d'exprimer son opinion. Je m'ob<lb break="no"/>jecte aussi à la suspension des règles du <lb/>
+parlement, afin de permettre la discussion<lb/>
+devant l' 0rateur, au lieu de la permettre de<lb break="no"/>vant la chambre réunie en comité général.<lb/>
+S'il est une question à l'égard de laquelle la <lb/>
+chambre doive suivre les formes prescrites, <lb/>
+c'est certainement celle-ci, lorsque le gouver<lb break="no"/>nement a une majorité aussi outrageusement <lb/>
+forte (rires). La minorité a le droit de se <lb/>
+protéger en faisant observer rigoureusement <lb/>
+toutes les règles de la chambre. Je m'a<lb break="no"/>perçois que le président du conseil se laisse <lb/>
+aller à la gaieté; j'ai beaucoup appris de lui <lb/>
+à exiger l'observance des règles de la cham<lb break="no"/>bre. Mais maintenant le loup et l'agneau <lb/>
+paissent ensemble, et le gouvernement, sa<lb break="no"/>chant qu'il en a le pouvoir, veut l'emporter <lb/>
+par la force brutale, la force de la majorité. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.-Il <lb/>
+n y a rien d'irrégulier dans cette proposition, <lb/>
+que la discussion se fasse en présence de l'O<lb break="no"/>rateur. J'ai proposé de suspendre les règles <lb/>
+de la chambre dans le dessein de protéger <lb/>
+la minorité, et de permettre aux membres<lb/>
+qui la composent, de parler et de faire des <lb/>
+objections autant de fois qu'il leur plaira. <lb/></p> 
+
+<p>L'<persName ref="pers:CAME2">HON. J. H. CAMERON</persName>.-J'approuve<lb/>
+la proposition de discuter la question en <lb/>
+présence de l'Orateur. Quant à l'autre <lb/>
+proposition, de débattre la question de jour <lb/>
+en jour, je suggère qu'après les explications <lb/>
+que donnera au long le proc-gén. lundi <lb/>
+prochain, on ajourne les débats pour une <lb/>
+semaine au moins, pour que le peuple con<lb break="no"/>naisse les vues du gouvernement avant de <lb/>
+commencer les débats sur le sujet. Cet <lb/>
+espace de temps expiré, on pourra débattre <lb/>
+la question de jour en jour. <lb/></p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>.-Je ne considère <lb/>
+pas la proposition de l'hon. proc.-gén. au <lb/>
+même point de vue que le membre pour <lb/>
+
+<cb/>
+
+Cornwall, mais je veux bien l'accepter comme <lb/>
+une marque, de la part du gouvernement, du <lb/>
+désir qu'il a de faciliter une libre et entière <lb/>
+discussion. Mais je pense, cependant, qu'il <lb/>
+serait avantageux, après une discussion gé<lb break="no"/>nérale sur le sujet, que la chambre se formât <lb/>
+en comité pour en examiner les détails. Je <lb/>
+pense que trois jours par semaine seraient <lb/>
+suffisants pour la discussion. <lb/></p> 
+
+<p>L'<persName ref="pers:BROW4">HON. M. BROWN</persName>.-Le membre pour <lb/>
+Chateauguay a certainement bien compris <lb/>
+le but du proc.-gén., quand il dit que la pro<lb break="no"/>position de ce dernier avait pour but de fa<lb break="no"/>ciliter la plus entière discussion sur cette <lb/>
+importante question. Le gouvernement n'a <lb/>
+certainement pas l'intention de presser la <lb/>
+mesure par la force brutale, comme l'a dit le <lb/>
+membre pour Cornwall. Quoique le proc.-<lb break="yes"/>gén. ait proposé de continuer la discussion<lb/>
+de jour en jour, il n'a pas dit, un seul in<lb break="no"/>stant, que l'on devait presser le vote. Les <lb/>
+débats, à n'importe quel temps, pourront être <lb/>
+ajournés, s'il est jugé nécessaire, pour per<lb break="no"/>mettre au peuple d'exprimer son opinion. Il <lb/>
+y a 130 membres; presque tous voudront <lb/>
+parler sur la question, et je pense que la <lb/>
+meilleure marche à suivre est d'employer <lb/>
+chaque séance du soir à la discussion, ce qui <lb/>
+permettra aux membres des deux côtés<lb/>
+de la chambre d'exprimer leurs opinions afin <lb/>
+que le peuple en ait connaissance. Je trouve <lb/>
+beaucoup de force dans la suggestion du <lb/>
+membre pour Peel, d'ajourner les débats <lb/>
+pour quelques jours, après que le gouver<lb break="no"/>nement aura expliqué ses vues. Sans doute <lb/>
+le proc.-gén. Est, le proc.-gén. Ouest, le <lb/>
+ministre des finances et moi-même, aurons <lb/>
+chacun le désir d'exprimer notre opinion sur <lb/>
+le projet. Après que le gouvernement aura <lb/>
+fait connaître ses vues, il ne pourra y avoir <lb/>
+aucune difficulté d'ajourner les débats pen<lb break="no"/>dant quelque temps, afin que le pays con<lb break="no"/>naisse parfaitement le sujet. <lb/></p> 
+
+<p><persName ref="pers:POWE2">M. POWELL</persName>.-Je demanderai au gou<lb break="no"/>vernement s'il entend que la chambre <lb/>
+adopte le projet en entier, ou s'il lui sera <lb/>
+permis d'en adopter une partie et de rejeter <lb/>
+l'autre. <lb/></p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>.-Cctte question <lb/>
+n'est pas loyale. <lb/></p> 
+
+<p>L'<persName ref="pers:BROW4">HON. M. BROWN</persName>. --Parfaitement <lb/>
+loyale. <lb/></p> 
+
+<p><persName ref="pers:POWE2">M. POWELL</persName>.-Je trouve que l'hon. M. <lb/>
+Holton pousse son amour de la loyauté de <lb/>
+discussion un peu trop loin, puisqu'elle le <lb/>
+porte à intervenir en faveur du gouverne<lb break="no"/>ment.</p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>-Je pense qu'il <lb/>
+
+<pb n="16" facs="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0016.jpg"/>
+<fw type="num">16</fw>
+
+ne serait pas loyal de répondre à une telle <lb/>
+question. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.-La <lb/>
+proposition de M. Cameron me semble rai<lb break="no"/>sonnable. Le gouvernement devra d'abord <lb/>
+exposer sa cause devant la chambre, et par <lb/>
+l'entremise de la presse, devant le peuple, puis <lb/>
+accorder ensuite un temps raisonnable pour <lb/>
+que le pays puisse en juger. Bien entendu, <lb/>
+je ne l'exposerai pas seul, comme vient de le <lb/>
+dire le président du conseil. Le sujet est si <lb/>
+vaste de lui-même, et comprend une si grande <lb/>
+variété de détails, que tous les membres du <lb/>
+gouvernement devront exprimer leurs vues <lb/>
+sur différentes parties du projet. En réponse <lb/>
+au membre de Carleton, le gouvernement <lb/>
+dira qu'il présente le projet comme un tout <lb/>
+et qu' il cmploiera toute son influence pour <lb/>
+le faire adopter sans changement, pour une <lb/>
+raison toute simple: c'est que le projet n'a <lb/>
+pas été préparé par le gouvernement du Ca<lb break="no"/>nada ou par le gouvernement de la Nouvelle-<lb break="yes"/>Ecosse, mais c'est un traité entre les diffé<lb break="no"/>rentes colonies, dont chaque clause a été <lb/>
+amplement discutée, et qui a été adopté au <lb/>
+moyen de concessions mutuelles. Sans doute, <lb/>
+la chambre peut voter contre toute la mesure <lb/>
+ou y introduire des amendements; mais, si <lb/>
+elle le fait, ce sera au gouvernement à voir <lb/>
+s'il poursuivra davantage devant la chambre <lb/>
+la considération du sujet. Si le projet ne passe<lb/>
+pas tel que présenté, il faudra, une fois <lb/>
+les changements introduits, recommencer la <lb/>
+conférence, et je crois que cette occasion man<lb break="no"/>quée, nous n'en aurons pas d'autre dans <lb/>
+le cours de ce siècle. L'entente actuelle est <lb/>
+le fruit d'un heureux concours de circonstan<lb break="no"/>ces, qui ne pourrait peut-être pas se renou<lb break="no"/>veler de sitôt, et je regretterais, pour le bien <lb/>
+du pays et de toute l'Amérique Britannique, <lb/>
+que le plan ne fût pas adopté cette année. <lb/>
+Les résolutions portent en elles-mêmes la <lb/>
+preuve d'un compromis. Peut-être que pas <lb/>
+un seul délégué d'aucune des provinces <lb/>
+n'aurait proposé ce projet exactement tel <lb/>
+qu'il est, mais étant convaincus qu'il était <lb/>
+nécessaire, afin de maintenir la puissance <lb/>
+britannique sur ce continent, qu'il y eut une <lb/>
+confédératron et une union de toutes les pro<lb break="no"/>vinces, la considération des détails fut abordée <lb/>
+dans un esprit de compromis mutuel. Pas <lb/>
+un seul membre du gouvernement canadien <lb/>
+ou des provinces d'en bas n'a pu faire préva<lb break="no"/>loir toutes ses vues dans les détails; <lb/>
+mais, après une discussion de seize jours et <lb/>
+après la votation sur les détails, un vote <lb/>
+unanime approuva dans son ensemble le <lb/>
+projet, chaque délégué, quelque fut ses vues, <lb/>
+
+<cb/>
+
+étant satisfait du projet. parce que tous les <lb/>
+détails avaient été acceptés par une majorité, <lb/>
+et s'engageant à en presser l'adoption par <lb/>
+chaque législature, comme le seul plan réali<lb break="no"/>sable. En présence de ces faits, j'espère que<lb/>
+le gouvernement aura le concours d'une <lb/>
+grande majorité de cette chambre en faveur <lb/>
+de ce projet tel qu'il est, et que les membres <lb/>
+sacrifieront leurs opinions individuelles sur <lb/>
+les détails, s'ils croient, avec le gouvernement, <lb/>
+que la mesure est propre à activer les <lb/>
+intérêts du pays. <lb/></p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>.-J'aimerais à <lb/>
+demander si, selon le mode proposé par le <lb/>
+proc.-gén., les différentes résolutions du <lb/>
+comité seront soumises séparément à l'appro<lb break="no"/>bation de la chambre? <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.- <lb/>
+Non; la proposition soumise à la chambre est <lb/>
+qu'une adresse soit présentée à Sa Majesté, <lb/>
+la priant de faire passer un bill basé sur ces <lb/>
+résolutions. Tous les amendements devront <lb/>
+se faire sur cette résolution. De fait, ce <lb/>
+sera la même chose que de proposer chaque <lb/>
+résolution séparément. <lb/></p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>.-Je crois que le <lb/>
+gouvernement devrait demander un vote <lb/>
+affirmatif sur chacune de ces résolutions. Elles <lb/>
+ont été préparées et passées par un corps <lb/>
+constitué de lui-même, sans l'autorité de la <lb/>
+chambre ou du peuple. A moins que la <lb/>
+chambre ne soit un mythe ou une moquerie, <lb/>
+le moindre égard qu'on pourrait avoir pour <lb/>
+elle serait d' obtenir son affirmation directe <lb/>
+sur chaque article. <lb/></p> 
+
+<p>L'<persName ref="pers:CAUC1">HON. M. CAUCHON</persName>.-Je désirerais <lb/>
+savoir si tout le projet va être discuté dans <lb/>
+son ensemble, ou si les membres auront <lb/>
+l'occasion d'en examiner chaque partie sépa<lb break="no"/>rément. Il y a certaines parties des réso<lb break="no"/>lutions susceptibles de malentendus et de <lb/>
+divergences d'opinions; par exemple, la <lb/>
+clause qui soumet les lois civiles au contrôle <lb/>
+du gouvernement local, et la clause qui met <lb/>
+la loi du mariage parmi les attributions du <lb/>
+gouvernement général. La loi du mariage est <lb/>
+éparse dans tout le code civil, et je ne vois pas <lb/>
+comment on peut la placer sous une législa<lb break="no"/>ture différente de celle qui doit régler le reste <lb/>
+du droit civil. Je ne comprends pas, néan<lb break="no"/>moins,:comment un vote affirmatif sur cha<lb break="no"/>cune des résolutions pourrait permettre à la <lb/>
+chambre de se prononcer plus librement sur <lb/>
+les détails qu'il ne sera loisible de le faire <lb/>
+par le moyen proposé par le pro.-gén. <lb/></p> 
+
+<p>L'<persName ref="pers:DORI1">HON. A. A. DORION</persName>.-L'hon. député <lb/>
+de l'objection de l'hon. M. Holton. Cette <lb/>
+
+<pb n="17" facs="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0017.jpg"/>
+<fw type="num">17</fw>
+
+objection est que la discussion serait plus li<lb break="no"/>bre et que la chambre pourrait mieux expri<lb break="no"/>mer son opinion, en examinant chaque article <lb/>
+du sujet séparément, comme la chose se <lb/>
+fait pour le vote des subsides. C'est ainsi <lb/>
+que l'on a passé l'acte d'union de l'Irlande <lb/>
+et le bill pour changer le gouvernement des <lb/>
+Indes, l'acte d'union du Canada de 1840, <lb/>
+l'acte du conseil législatif et d'autres mesures importantes.<lb/>
+C'est la marche uniforme du <lb/>
+parlement; et l'on ne trouve aucun précédent <lb/>
+d'un mode différent. Je crois donc que la <lb/>
+marche proposée par l'opposition est la plus <lb/>
+raisonnable; c'est-à-dire, qu'il y ait d'abord <lb/>
+une discussion générale où les membres du <lb/>
+gouvernement pourront exprimer leurs vues, <lb/>
+puis un ajournement d'une semaine, pour <lb/>
+laisser au public le temps d'apprécier les <lb/>
+discours, et qu'on discute ensuite le projet <lb/>
+trois jours par semaine. On accordera par <lb/>
+là plus de temps que par le moyen proposé <lb/>
+par le président du conseil et la discussion <lb/>
+sera plus entière, plus loyale et plus libre. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.-Je <lb/>
+comprends le but de l'hon. M. Dorion. Ce <lb/>
+monsieur est opposé à la confédération, et la <lb/>
+manière de procéder qu'il propose est propre <lb/>
+à faire remettre le projet à un autre parle<lb break="no"/>ment, et à une autre conférence, afin que la <lb/>
+confédération ne se fasse pas avant le grand <lb/>
+jour du jugement. Ces résolutions ont le <lb/>
+caractère d'un traité, et si elles ne sont pas <lb/>
+adoptées dans leur entier, il faudra commen<lb break="no"/>cer les procédés <hi rendition="simple:italic">de novo</hi>. Si chaque pro<lb break="no"/>vince entreprend de changer les détails du <lb/>
+plan, il n'y aura plus de fin aux conférences <lb/>
+et aux discussions. Quant à discuter trois <lb/>
+jours par semaine, c'est un moyen de prolon<lb break="no"/>ger la session au-delà de toutes limites, si l'on <lb/>
+considère surtout qu'après l'adoption du <lb/>
+projet de confédération, le gouvernement se <lb/>
+propose de mettre devant la chambre une <lb/>
+mesure pour l'organisation des gouverne<lb break="no"/>ments locaux. </p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>.-Pouquoi ne pas <lb/>
+soumettre les deux projets ensemble? <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.-Ces <lb/>
+deux propositions sont différentes et ne peu-<lb break="yes"/>vent être considérées que séparément. Si la <lb/>
+chambre déclare par son vote que la confé<lb break="no"/>dération est désirable, alors il sera temps de <lb/>
+considérer l'organisation des gouvernements <lb/>
+locaux: mais si la chambre n'accepte pas le <lb/>
+principe de conféfération, alors il sera par<lb break="no"/>faitement inutile de lui soumettre l'autre <lb/>
+mesure. De plus, en soumettant les deux <lb/>
+mesures à la fois, on créerait de la confusion, <lb/>
+car les membres, évidemment, introduiraient <lb/>
+
+<cb/>
+
+dans la discussion de la confédération leurs <lb/>
+vues sur la constitution des gouvernements <lb/>
+locaux. <lb/></p>
+
+
+<p>L'<persName ref="pers:MACD2">HON. J. S. MACDONALD</persName> commente <lb/>
+la prétention que les résolutions de la con<lb break="no"/>férence équivalent à un traité, et demande <lb/>
+en vertu de quelle autorité le gouvernement <lb/>
+a entrepris de négocier un traité. Il maintient <lb/>
+que toutes les règles de la chambre doivent <lb/>
+être observées, afin que l'on n'empiète pas <lb/>
+sur les droits de la minorité. </p> 
+
+<p><persName ref="pers:FERG2">M. T. <choice><sic>FERGUSSON</sic><corr>FERGUSON</corr></choice></persName> demande si le gou<lb break="no"/>vernement a l'intention de mettre cette <lb/>
+mesure en force sans un appel au peuple. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.-Je <lb/>
+puis répondre de suite. Si cette mesure <lb/>
+reçoit l'approbation de la chambre, il n'y <lb/>
+aura pas de nécessité de la soumettre au <lb/>
+peuple. D'un autre côté, si la mesure est <lb/>
+repoussée, il appartiendra au gouvernement <lb/>
+de juger s'il doit y avoir un appel au peuple ou <lb/>
+non.(Ecoutez! écoutez et rires ironiques.) <lb/></p> 
+
+<p><persName ref="pers:SCAT1">M. SCATCHERD</persName> demande si le gouver<lb break="no"/>nement a l'intention de faire des amende<lb break="no"/>ments conformes aux suggestions contenues <lb/>
+dans la dépêche du secrétaire colonial. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>-Je <lb/>
+ne puis dire quelle sera la politique du gou<lb break="no"/>vernement impérial. Tout ce que je puis <lb/>
+affirmer c'est que les délégués des divers gou<lb break="no"/>vernements coloniaux, après que ce traité <lb/>
+eût été passé, se sont engagés à faire adopter <lb/>
+le projet dans son entier dans leurs législa<lb break="no"/>tures respectives, et de présenter des adresses <lb/>
+analogues à Sa Majesté dans les législatures <lb/>
+coloniales, demandant la passation d'un acte <lb/>
+basé sur ces résolutions. Le gouvernement <lb/>
+impérial et le parlement d'Angleterre agi<lb break="no"/>ront alors comme bon leur semblera. J'es<lb break="no"/>père et crois qu'ils ne feront aucun chan<lb break="no"/>gement dans le projet de confédération <lb/>
+adopté par la conférence. Je pense que si <lb/>
+les législatures locales leur demandent de <lb/>
+passer la mesure telle qu'elle est, ils nous <lb/>
+laisseront juges de nos propres affaires et <lb/>
+adopteront la mesure. <lb/></p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>.-Il y a quelques <lb/>
+jours, j'ai donné avis à la chambre que j'au<lb break="no"/>rais trois questions à poser au ministère <lb/>
+avant que la chambre ne se forme en comité <lb/>
+des subsides. Aujourd'hui, je me décide à <lb/>
+ne pas attendre jusque là, et, comme cette <lb/>
+occasion est également favorable, je dema<lb break="no"/>derai au gouvernement la permission de les <lb/>
+poser de suite. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.- <lb/>
+Nous sommes prêts à vous entendre.</p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>.-La première de <lb/>
+
+<pb n="18" facs="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0018.jpg"/>
+<fw type="num">18</fw>
+
+ces questions est celle-ci: le gouvernement <lb/>
+a-t-il l'intention de soumettre à la chambre <lb/>
+ses projets de constitutions locales pour les <lb/>
+deux sections de la province, avant de de<lb break="no"/>mander à la chambre de débattre la question <lb/>
+du projet de confédération? L'hon. proc.-<lb break="yes"/>gén. a déjà répondu à cette question, en <lb/>
+disant que le gouvernement n'avait pas l'in<lb break="no"/>tention d'introduire cette mesure; il a aussi <lb/>
+donné les raisons qui l'engageaient à agir <lb/>
+ainsi. J'ai quelques observations à faire <lb/>
+sur les raisons qui ont été ainsi données à la <lb/>
+chambre. Je maintiens que la question qui <lb/>
+est maintenant devant nous n'est ni plus ni <lb/>
+moins que celle-ci: devons-nous révolution<lb break="no"/>ner le pays ou révolutionner le gouverne<lb break="no"/>ment du pays? (Ecoutez! écoutez!) Voilà <lb/>
+la question qui nous est posée. Eh! bien! <lb/>
+j'aimerais que l'on nous dise distinc<lb break="no"/>tement si la forme du gouvernement, <lb/>
+local et général, fait partie du même plan? <lb/></p> 
+
+<p>Pour juger sainement du mérite de tout le <lb/>
+projet, il est indispensable, à mon sens, que <lb/>
+la chambre soit saisie en même temps d'une <lb/>
+manière générale, du moins, de la constitu<lb break="no"/>tion des gouvernements locaux. <lb/></p> 
+
+<p>L'autre question a trait au système d'édu<lb break="no"/>cation qu'on adoptera pour le Bas-Canada. <lb/>
+Dans un discours prononcé à Sherbrooke, <lb/>
+l'hon. ministre des finances a promis que le <lb/>
+gouvernement soumettrait une mesure à<lb/>
+l'effet d'amender les lois concernant l'éduca<lb break="no"/>tion dans le Bas-Canada  La chambre <lb/>
+n'ignore pas que cette question intéresse au <lb/>
+plus haut degré la population protestante du <lb/>
+Bas-Canada et, bien que je ne désire aucune<lb break="no"/>ment soulever de discussions religieuses dans <lb/>
+cette chambre, je dois dire qu'il importe que <lb/>
+les intérêts de cette classe soient considérés <lb/>
+comme ils le méritent, dans la discussion des <lb/>
+grands changements qu'on se propose de <lb/>
+faire subir à notre forme de gouvernement. <lb/>
+De tous ces changements, celui qui excite le <lb/>
+plus l'anxiété de la population protestante <lb/>
+du Bas-Canada, est, sans contredit, celui qui <lb/>
+a trait au système d'éducation. Le ministre <lb/>
+des finances a promis solennellement, au nom <lb/>
+de ses collègues, que des amendements à la <lb/>
+loi d'éducation du Bas-Canada seraient sou<lb break="no"/>mis à la chambre avant de changer la consti<lb break="no"/>tution du pays-amendements qui, après <lb/>
+avoir été adoptés, ne seraient plus révoqués <lb/>
+et règleraient à jamais la question d'éduca<lb break="no"/>tion dans le Bas-Canada. Je demande donc <lb/>
+au gouvernement s'il a, en effet, l'intention <lb/>
+de soumettre ces amendements avant de <lb/>
+demander à la chambre de passer définitive<lb break="no"/>ment la mesure de confédération; et, si telle <lb/>
+
+<cb/> 
+
+est son intention, à quelle époque il se pro<lb break="no"/>pose de les soumettre, car cela exercera <lb/>
+indubitablement une influence considérable <lb/>
+sur la discussion du projet et probablement <lb/>
+en dernier ressort sur plusieurs membres du <lb/>
+Bas-Canada. (Ecoutez! écoutez!) <lb/></p> 
+
+<p>La troisième question a trait au chemin de <lb/>
+fer intercolonial. C'est la première fois, je <lb/>
+crois, qu'on voit un gouvernement constitu<lb break="no"/>tionnel insérer dans son programme un article <lb/>
+pourvoyant à la construction d'un chemin de <lb/>
+fer, d'un canal, d'un chemin à barrières ou <lb/>
+de tout ouvrage de ce genre. (On rit.) Mais <lb/>
+cette nouveauté vient de se produire et l'on <lb/>
+dit qu'une partie de la constitution proposée <lb/>
+est la construction du chemin de fer interco<lb break="no"/>lonial, sur l'utilité duquel il existe une <lb/>
+grande divergence d'opinions parmi les mem<lb break="no"/>bres de cette Chambre et dans le pays. <lb/>
+Aujourd'hui, le gouvernement vient nous <lb/>
+l'offrir comme une partie de son plan de <lb/>
+confédération des provinces. Le président <lb/>
+du conseil (l'hon. M. Brown) qui était <lb/>
+autrefois si fortement opposé au chemin de <lb/>
+fer intercolonial, est devenu tellement amou<lb break="no"/>reux de ce chemin et de ses accessoires, <lb/>
+depuis qu'il est monté au pouvoir, qu'il a <lb/>
+déclaré, dit-on, dans un discours à Toronto, <lb/>
+qu'avant de renoncer à ces accessoires, c'est-<lb break="yes"/>à-dire à l'union des provinces britanniques <lb/>
+-plan qu'il a aussi autrefois combattu avec <lb/>
+autant de vigueur que le chemin de fer <lb/>
+même,-il consentirait plutôt à construire <lb/>
+six chemins de fer intercoloniaux. (On rit.) <lb/>
+Je crois que la Chambre a droit de connaître <lb/>
+ce qu'on se propose de faire relativement à <lb/>
+cette entreprise, avant de se prononcer sur <lb/>
+le projet de confédération. Je crois aussi <lb/>
+qu' elle a droit à quelques renseignements <lb/>
+sur la question du Nord-Ouest,-question <lb/>
+qui, autrefois, excitait à un si haut dégré <lb/>
+l'intérêt du président du conseil, et à propos <lb/>
+de laquelle il déclarait hautement que le <lb/>
+Canada avait des droits sur ce vaste territoire. <lb/>
+Je pense bien que le président du conseil <lb/>
+est encore de cette opinion, mais j'aimerais <lb/>
+  à savoir quelle politique le gouvernement <lb/>
+propose de suivre à ce sujet. J'aimerais <lb/>
+aussi à savoir du gouvernement combien le <lb/>
+Canada aura à contribuer pour la défense du <lb/>
+pays sous le système qu'il se propose d'intro<lb break="no"/>niser sur ce continent. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.-Je <lb/>
+répondrai avec plaisir aux questions de l'hon. <lb/>
+M. HOLTON. Relativement aux constitutions <lb/>
+locales du Haut et du Bas-Canada sous la <lb/>
+confédération, l'intention du gouvernement <lb/>
+est de soumettre à la chambre, telle que <lb/>
+
+<pb n="19" facs="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0019.jpg"/> 
+<fw type="num">19</fw>
+
+constituée, les projets des constitutions de <lb/>
+leurs gouvernements respectifs, qui devront <lb/>
+être pris en considération par les membres <lb/>
+du Haut et du Bas-Canada, mais il ne sera <lb/>
+rien fait à l'égard de ces constitutions avant <lb/>
+que le projet de confédération n'ait été accep<lb break="no"/>té par la chambre, car jusqu'à ce qu'il ait été <lb/>
+décidé qu'il doit y avoir une confédération, <lb/>
+il serait inutile de discuter quelle seront les <lb/>
+constitutions des provinces séparées. Rela<lb break="no"/>tivement à la question de l'éducation, <lb/>
+l'hon. M. Galt, dans son discours prononcé <lb/>
+à Sherbrooke, à exprimé l'intention du gou<lb break="no"/>vernement à ce sujet en disant qu'une me<lb break="no"/>sure à cet effet serait soumise à la chambre <lb/>
+dans le cours de la présente session avant <lb/>
+que la confédération n'ait lieu. La minorité <lb/>
+protestante du Bas-Canada craint beaucoup <lb/>
+que le projet de confédération ne mette en <lb/>
+danger ses droits au sujet de l'éducation: <lb/>
+mais je dois dire que le gouvernement se <lb/>
+propose, si le projet est adopté par la légis<lb break="no"/>lature, de soumettre à cette session des <lb/>
+amendements à la loi sur l'éducation, qui <lb/>
+sauvegarderont pleinement ses droits à ce sujet.</p> 
+
+<p>L'<persName ref="pers:DORI1">HON. A. A. DORION</persName>.-Ces amen<lb break="no"/>dements s'appliqueront-ils au Haut comme <lb/>
+au Bas-Canada?<lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.- <lb/>
+Quant au Haut Canada, je crois que la loi <lb/>
+actuelle restera telle qu'elle est, parce qu'elle <lb/>
+satisfait la minorité. Pour ce qui est du <lb/>
+chemin de fer intercolonial, je crois que les <lb/>
+résolutions expliquent parfaitement l'inten<lb break="no"/>tion du gouvernement à ce sujet. L'hon. M. <lb/>
+Holton s'est trompé en disant que ce pro<lb break="no"/>jet formait partie intégrante de la constitu<lb break="no"/>tion; il n'est qu'une des conditions aux<lb break="no"/>quelles les provinces d'en bas ont con<lb break="no"/>senti à se joindre à nous dans les change<lb break="no"/>ments constitutionnels projetés. Quant à <lb/>
+la question du Nord-Ouest, le président du <lb/>
+conseil (l'hon. M. BROWN), qui la connaît <lb/>
+à fond, se chargera d'y répondre, et nul <lb/>
+doute qu'il le fera de manière à satisfaire <lb/>
+pleinement l'hon. député de Chateauguay. <lb/>
+Relativement aux dépenses de la province, <lb/>
+je puis dire que le gouvernement canadien <lb/>
+est actuellement en communication avec <lb/>
+celui de la mère-patrie, et que la chambre <lb/>
+sera mise en demeure de juger et d'apprécier <lb/>
+tout ce qui a été fait à ce sujet. En atten<lb break="no"/>dant, je puis dire que les provinces d'en-bas, <lb/>
+appréciant la position géographique du Ca<lb break="no"/>nada et le danger où il se trouverait placé <lb/>
+en cas d'hostilités, ont cordialement offert de <lb/>
+contribuer à la dépense commune si notre <lb/>
+
+<cb/>
+
+gouvernement votait une somme à cet <lb/>
+effet. <lb/></p>
+
+<p><persName ref="pers:WALL5">M. T. C. WALLBRIDGE</persName>.-Dois-je <lb/>
+comprendre que la constitution fédérale ga<lb break="no"/>rantira aux catholiques romains la liberté de <lb/>
+leurs écoles séparées dans le Haut-Canada? </p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.- <lb/>
+Voici ce que j'ai dit, et je ne suis pas allé <lb/>
+plus loin: avant l'adoption du plan de con<lb break="no"/>fédération, le gouvernement présentera une <lb/>
+mesure pour amender la loi des écoles du <lb/>
+Bas-Canada, de façon à protéger les droits <lb/>
+de la minorité, et en même temps à satisfaire <lb/>
+la majorité, qui a toujours montré le plus <lb/>
+grand respect pour les droits de cette der<lb break="no"/>nière, et qui, je n'en ai aucun doute, conti<lb break="no"/>nuera de les respecter. <lb/></p> 
+
+<p>L'<persName ref="pers:BROW4">HON. M. BROWN</persName>. - L'hon. M. <lb/>
+Holton n'a pas été injuste à mon égard, en <lb/>
+supposant que j'entretiens les mêmes senti<lb break="no"/>ments qu'autrefois au sujet de la question <lb/>
+du Nord-Ouest. Je pense que, dans l'intérêt <lb/>
+de la civilisation, des mesures énergiques <lb/>
+devraient être adoptées pour coloniser ces <lb/>
+régions. Je suis arrivé depuis peu d'Angle<lb break="no"/>terre, où la question a été complètement <lb/>
+discutée, mais je n'ai pas encore eu l'occasion <lb/>
+de la soumettre à la décision du conseil. <lb/>
+Cependant, j'espère que sous peu de temps <lb/>
+je pourrai communiquer à la chambre <lb/>
+d'amples informations sur les intentions du <lb/>
+gouvernement. <lb/></p> 
+
+<p>La discussion devient alors régulière sur <lb/>
+la proposition formelle de l'hon. proc.-gén. <lb/>
+Macdonald:-" Qu'une adresse soit pré<lb break="no"/>sentée à Sa Majesté la priant qu'il lui plaise <lb/>
+de soumettre au gouvernement impérial, à sa <lb/>
+prochaine session, une mesure pour l'union <lb/>
+des colonies en un seul gouvernement, basée <lb/>
+sur les résolutions adoptées à la conférence <lb/>
+tenue à Québec, le 10 octobre dernier." <lb/></p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName>.-La loi uni<lb break="no"/>verselle du parlement relativement aux <lb/>
+adresses et aux bills entraînant la disposition <lb/>
+de la propriété ou des fonds publics, ou une <lb/>
+augmentation de la taxe sur le pays, est que <lb/>
+toute telle mesure doit prendre naissance <lb/>
+dans un comité de toute la chambre. Ce <lb/>
+projet de confération dispose de tout l'actif <lb/>
+du pays, et établit des charges dont le pro<lb break="no"/>duit doit être affecté aux besoins des pro<lb break="no"/>vinces du Nouveau-Brunswick et de Terre<lb break="no"/>neuve, et donne de plus 80 centins par tête à <lb/>
+chacune des province. La mesure a donc <lb/>
+évidemment pour but l'emploi des deniers <lb/>
+publics, et, en conséquence, elle devrait <lb/>
+prendre naissance dans le comité de toute la <lb/>
+chambre. L'acte d'union entre l'Angleterre <lb/>
+
+<pb n="20" facs="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0020.jpg"/>
+<fw type="num">20</fw>
+
+et d'Irlande a été introduit de cette manière, <lb/>
+de même que l'acte d'union des deux Cana<lb break="no"/>das, dans la législature du Haut-Canada, <lb/>
+sous la direction de M. Poulett Thompson, <lb/>
+qui connaissait parfaitement la tactique par<lb break="no"/>lementaire anglaise. Il en a été ainsi pour <lb/>
+le bill de réforme, sous le ministère Hincks. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.- <lb/>
+Toute mesure pour l'octroi de deniers publics <lb/>
+doit prendre naissance dans un comité <lb/>
+général, mais ce n'est pas ici une adresse <lb/>
+demandant à la couronne de recommander <lb/>
+une allocation d'argent. L'adresse proposée <lb/>
+demande à la couronne de faire un grand <lb/>
+changement constitutionnel. Supposons que <lb/>
+l'on demanderait l'abolition complète de la <lb/>
+constitution, une telle adresse devrait-elle <lb/>
+provenir d'un comité général? Certainement <lb/>
+non. L'argent qui sera voté doit l'être <lb/>
+par des législatures qui n'existent pas <lb/>
+encore. <lb/></p> 
+
+<p>L'<persName ref="pers:DORI1">HON. A. A. DORION</persName>-Il n'y a rien de <lb/>
+plus clair que, conformément à la règle qui <lb/>
+prévaut dans la chambre des communes, <lb/>
+toute mesure à l'effet de voter de l'argent, <lb/>
+ou toute adresse à la couronne demandant <lb/>
+une allocation d'argent ou que des dépenses <lb/>
+soient encourues, doit prendre naissance <lb/>
+dans un comité de toute la chambre. La <lb/>
+80me règle de cette chambre est dans le <lb/>
+même sens. Or, personne ne peut nier que <lb/>
+les résolutions proposées imposeront de nou<lb break="no"/>velles charges au peuple. Entr'autres obliga<lb break="no"/>tions, elles imposent au pays la construction <lb/>
+d'un chemin de fer. <lb/></p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.- <lb/>
+Cela sera fait par le gouvernement confédéré, <lb/>
+non pas par ce gouvernement. Nous ne vo<lb break="no"/>tons pas d'argent. <lb/></p> 
+
+<p>L'<persName ref="pers:DORI1">HON. A. A. DORION</persName>.-Vous ne votez <lb/>
+pas d'argent non plus lorsque vous demandez <lb/>
+à la couronne de recommander une allocation, <lb/>
+puisque la couronne peut refuser. Certes, si <lb/>
+une affaire de 40 ou 50 piastres doit prendre <lb/>
+naissance dans un comité de toute la cham<lb break="no"/>bre, à plus forte raison une mesure aussi <lb/>
+considérable doit être soumise à la même <lb/>
+règle. <lb/></p> 
+
+<p>L'<persName ref="pers:CART2">HON. Proc.-Gén. CARTIER</persName>-Les re<lb break="no"/>marques de M. Dorion sont absurdes, vu <lb/>
+que pas un denier n'est approprié. Il est vrai <lb/>
+que la règle du parlement impérial est telle <lb/>
+que M. Dorion l'a dit, mais cette règle n'est <lb/>
+pas la nôtre. La règle en Canada est basée <lb/>
+sur l'acte d'union, et par cette règle aucune <lb/>
+appropriation ne peut être faite, excepté sur <lb/>
+un message de son excellence qui doit être <lb/>
+référé à un comité. L'acte d'union fait loi, <lb/>
+
+<cb/>
+
+et demain le parlement britannique, avec la <lb/>
+sanction de la reine, peut abolir la constitu<lb break="no"/>tion. <lb/></p> 
+
+<p><persName ref="pers:DUNK1">M. DUNKIN</persName>.-L'hon. Proc.-Gén. Car<lb break="no"/>tier est toujours prêt à défendre les <lb/>
+droits de toutes les petites et grandes cor<lb break="no"/>porations qu'il a créées, ou qui jouissent <lb/>
+de ses faveurs, il ne voudrait ne leur <lb/>
+enlever la moindre partie de leurs priviléges; <lb/>
+il vient cependant déclarer que le gouverne<lb break="no"/>ment impérial a le droit de nous enlever <lb/>
+demain toutes nos libertés. Je nie que nous <lb/>
+possédions nos droits durant bon plaisir; <lb/>
+mais s'il en était ainsi, cela n'aurait rien <lb/>
+à faire à la question. Si nous n'avons pas <lb/>
+le droit d'accorder de petites sommes d'ar<lb break="no"/>gent, excepté d'une certaine manière, assu<lb break="no"/>rément nous devons suivre quelque forme <lb/>
+pour nous défaire de tous nos droits. Le <lb/>
+parlement britannique peut bien déclarer <lb/>
+qu'un homme est une femme et décréter que <lb/>
+ce titre seul soit légal, mais cela n'en ferait <lb/>
+pas une femme. <lb/></p> 
+
+<p>L'<persName ref="pers:GALT1">HON. M. GALT</persName>.-Il est évident <lb/>
+qu'aucune charge nouvelle n'est imposée au <lb/>
+peuple par cette adresse; l'on ne pourra <lb/>
+prendre un seul denier du coffre public <lb/>
+en vertu de cette résolution. Je pense <lb/>
+aussi que l'esprit des règles de cette chambre <lb/>
+n'est pas plus enfreint que la lettre même <lb/>
+par la marche proposée par l'hon. proc.-gén. <lb/>
+McDonald, parce que si l'adresse est adoptée, <lb/>
+l'acte impérial permettra de nouveau au <lb/>
+peuple de disposer des deniers publics par <lb/>
+son vote. <lb/></p> 
+
+<p>L'<persName ref="pers:WALL4">ORATEUR</persName> rend la décision suivante <lb/>
+sur le point d'ordre soulevé par l'hon. M. <lb/>
+Holton:- <lb/></p> 
+
+<quote rendition="tccd:blockquote"><p>L'hon. député de Chateauguay a prétendu que <lb/>
+la motion n'est pas dans l'ordre, "attendu que <lb/>
+l'adresse projetée demandant à la couronne de <lb/>
+recommander au parlement impérial la passation <lb/>
+d'un acte imposant de nouvelles charges sur le <lb/>
+peuple de cette province, et établissant des dis<lb break="no"/>positions touchant la propriété publique et les <lb/>
+deniers de cette province, la loi du parlement <lb/>
+exige que la dite adresse soit basée sur des réso<lb break="no"/>lutions proposées originairement en comité gé<lb break="no"/>néral." Maintenant, la 4e clause du chapitre 14 <lb/>
+des statuts refondus du Canada, ainsi conçue: <lb/>
+" L'assemblée législative ne pourra introduire ni <lb/>
+passer aucune résolution, vote ou bill relativement <lb/>
+à l'appropriation d'aucune partie du dit fonds <lb/>
+consolidé des revenus, et d'aucune autre taxe ou <lb/>
+impôt, pour un objet qui n'aura pas au préalable <lb/>
+été recommandé par un message du gouverneur à <lb/>
+la dite assemblée législative, durant la session <lb/>
+pendant laquelle tel vote, résolution ou bill sera <lb/>
+passé ";-et la 88e règle de cette chambre conçue <lb/>
+comme suit: "Si une motion était faite dans la <lb/>
+chambre pour une aide publique ou charge sur le <lb/>
+
+<pb n="21" facs="final/images/Ont_Que_Fr_LA_1865-02-03_Page_0021.jpg"/>
+<fw type="num">21</fw>
+ 
+public la prise en considération et la discussion <lb/>
+de cette motion peuvent ne pas avoir lieu de suite, <lb/>
+mais être ajournées à tel jour subséquent que la <lb/>
+chambre juge à propos de fixer; et alors la motion <lb/>
+est renvoyée à un comité général de la chambre <lb/>
+avant qu'une résolution ou un vote ne soit adopté <lb/>
+sur la motion en question," laquelle règle paraît <lb/>
+être basée sur la dite clause,-se rapportent à des <lb/>
+résolutions ou à des adresses sur lesquelles cette <lb/>
+chambre doit baser ultérieurement son action. <lb/>
+Or, je ne vois pas par la motion actuelle que cette <lb/>
+chambre doive rien faire après la passation de la <lb/>
+présente résolution. Comme cette question a été <lb/>
+discutée un instant avant que j'aie laissé le fau<lb break="no"/>teuil à six heures, j'ai pu mettre par écrit mon <lb/>
+opinion sur ce sujet. Je lirai: <lb/>
+" La motion a pour objet une adresse à Sa <lb/>
+Majesté dans laquelle les résolutions sur la con<lb break="no"/>fédération sont incorporées. En quoi cette adresse <lb/>
+diffère-t-elle d'une adresse à Son Excellence, qui <lb/>
+est toujours proposée par une motion dont il a <lb/>
+été donné deux jours d'avis comme dans le cas <lb/>
+actuel? Je ne vois pas comment je pourrais trai<lb break="no"/>ter la question comme un point d'ordre autrement <lb/>
+que comme dans le cas ordinaire d'une adresse. <lb/>
+On prétend qu'il ne convient pas de la traiter <lb/>
+ainsi. Il ne s'agit donc pas alors d'une question <lb/>
+d'ordre, mais d'une question de convenance. Le <lb/>
+cas cité par l'hon. député de Chateauguay de <lb/>
+résolutions se rattachant à un bill ayant pour <lb/>
+objet de pourvoir au gouvernement de l'Inde, n'a <lb/>
+aucune identité avec des résolutions pour une <lb/>
+adresse, mais ne se rapporte qu'à des résolutions <lb/>
+contenant simplement les principes de bill que l'on <lb/>
+voulait introduire. On ne prétend pas, dans le <lb/>
+cas actuel, que la chambre ait le droit de passer <lb/>
+un pareil bill, ou que l'on se propose d'en pré<lb break="no"/>senter un sur ce sujet-ci. La raison pour laquelle <lb/>
+il convient de discuter des questions présentées <lb/>
+sous forme de résolutions devant servir de base à <lb/>
+un bill qui doit-être introduit plus tard, c'est que <lb/>
+ces résolutions se prêtent plus facilement à des <lb/>
+changements. Or, le gouvernement a exprimé sa <lb/>
+détermination de n'admettre aucun changement <lb/>
+aux présentes résolutions; il est donc évident <lb/>
+que la même raison que l'on invoque pour obtenir <lb/>
+que la chambre se forme en comité général ne <lb/>
+peut s'appliquer au cas actuel. Le membre qui <lb/>
+propose qu'il soit voté une adresse peut exiger la <lb/>
+votation sur sa motion telle qu'il l'a proposée, à<lb/>
+moins que sa forme ne soit changée par un amen<lb break="no"/>dement, et il ne me paraît pas qu'il y ait dans ce <lb/>
+cas-ci d'autre mode à suivre. Le fait est que le <lb/>
+mot " résolutions" aurait pu aussi bien être omis <lb/>
+de la présente motion, et quel qu'eût été le résul<lb break="no"/>tat sur une question de pure convenance, il est <lb/>
+certain que l'Orateur n'y pouvait rien. Son devoir <lb/>
+est de maintenir l'ordre et le décorum, et de déci<lb break="no"/>der des questions d'ordre." <lb/></p></quote> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName> pro<lb break="no"/>pose que les débats soient ajournés à lundi, <lb/>
+et soient le premier ordre du jour à la séance<lb/>
+de 7 1/2 heures p.m.</p> 
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName> soulève l'objection <lb/>
+que cette motion ne peut-être faite qu'après un avis de deux jours. </p> 
+
+<p>L'<persName ref="pers:MACD1">HON. Proc.-Gén. MACDONALD</persName>.- <lb/>
+
+<cb/>
+
+Si c'est là la tactique que se propose de <lb/>
+suivre l'opposition, et si l'on cherche à <lb/>
+embarrasser le gouvernement à chaque in<lb break="no"/>stant, je me verrai obligé de retirer la <lb/>
+concession faite à l'hon. membre pour <lb/>
+Peel, et je donnerai avis, que mardi je <lb/>
+proposerai que les débats soient continués <lb/>
+de jour en jour jusqu'à ce que l'adresse <lb/>
+soit définitivement adoptée ou rejetée par <lb/>
+la chambre. <lb/></p>
+
+<p>L'<persName ref="pers:HOLT1">HON. M. HOLTON</persName> retire alors son <lb/>
+objection, et la motion est adoptée. <lb/></p> 
+
+<!-- DL, 2018-03-18, commented out below, as it is not part of this debate day -->
+
+<!--<p>CONSEIL LÉGISLATIF. <lb/></p> 
+
+<p><lb/></p> 
+
+<p>L'Hon. M. CAMPBELL.-Avec la per<lb break="no"/>mission de l'hon. membre qui a la parole <lb/>
+(l'hon. M. Currie), je soumettrai quelques <lb/>
+observations sur une portion du projet de <lb/>
+confédération à laquelle allusion spéciale a <lb/>
+été faite dans cette chambre et dont le pays <lb/>
+s'est préoccupé. Je veux parler de la cons<lb break="no"/>titution du conseil législatif énoncée dans <lb/>
+le projet. En exposant les raisons qui ont <lb/>
+amené le gouvernement canadien et les autres <lb/>
+membres de la conférence, - composée, <lb/>
+comme en le sait, des hommes politiques les <lb/>
+plus éminents de tous les partis,-à la déci<lb break="no"/>sion qu'ils ont adoptée, je prie cette chambre <lb/>
+de croire que cette décision n'a point été <lb/>
+prise à la hâte, mais après une longue dis<lb break="no"/>cussion et un sérieux examen du sujet. <lb/>
+Le gouvernement du Canada n'a pas seul <lb/>
+élaboré le projet de constitution indiqué <lb/>
+dans les résolutions soumises à cette chambre. <lb/>
+(Ecoutez!) Je m'explique: je ne veux pas <lb/></p> 
+
+<p>dire que le gouvernement ait hésité à <lb/>
+adopter ce projet; je veux constater ici que <lb/>
+le projet de confédération était l'œuvre du <lb/>
+gouvernement canadien et des délégués de <lb/>
+toutes les autres provinces. C'est le fruit <lb/>
+de délibérations, d'arrangements et de com<lb break="no"/>promis entre diverses parties. En soumet<lb break="no"/>tant ces résolutions, le gouvernement n'est <lb/>
+pas poussé à faire cette démarcbe par l'in<lb break="no"/>térêt que chacun porte naturellement à ses <lb/>
+propres œuvres; mais je tiens à rappeler que <lb/>
+ces résolutions sont l'œuvre des messieurs <lb/>
+dont je viens de parler; et si je me sens <lb/>
+prêt à soutenir opiniâtrement cette mesure, <lb/>
+c'est que j'apprécie les difficultés dans <lb/>
+lesquelles un échec nous plongerait. La <lb/>
+conférence ne pouvait faire davantage, et, plût <lb/>
+à Dieu! que les personnes qui aujourd'hui<lb/></p>-->
+
+</div>
+</div>
+</body>
+</text>
+</TEI>
