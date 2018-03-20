@@ -34,12 +34,13 @@
     
     <xd:doc scope="component">
         <xd:desc>This function retrieves the canonical name of an entity such
-            as a legislature from the project ODD file. </xd:desc>
+            as a legislature from the project ODD file. Because these canonical 
+        names exist in both languages, the result is going to be a mix.</xd:desc>
     </xd:doc>
     <xsl:function name="hcmc:getTaxonomyVal" as="node()*">
         <xsl:param as="xs:string" name="legCode"/>
         <xsl:variable name="valItem" select="$projectOdd//valItem[@ident=$legCode]"/>
-        <span title="{$valItem/desc}"><xsl:value-of select="$valItem/gloss"/></span>
+        <span title="{$valItem/desc}"><xsl:apply-templates select="$valItem/gloss/node()"/></span>
     </xsl:function>
     
     <xd:doc scope="component">

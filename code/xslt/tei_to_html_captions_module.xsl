@@ -133,7 +133,7 @@
     <xd:doc scope="component">
         <xd:desc>Caption for person fragment introducing debate or treaty participation</xd:desc>
     </xd:doc>
-    <xsl:variable name="participatedCaption"><span lang="en">participated in<!-- the following debates-->: </span><span lang="fr">a participé aux<!-- débats de la Confédération suivants--> :</span></xsl:variable>
+    <xsl:variable name="participatedCaption"><span lang="en">This individual participated in<!-- the following debates-->: </span><span lang="fr">Cet individu a participé aux<!-- débats de la Confédération suivants--> :</span></xsl:variable>
     
     <xd:doc scope="component">
         <xd:desc>Caption for riding represented by someone</xd:desc>

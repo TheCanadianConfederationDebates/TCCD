@@ -89,7 +89,7 @@
                                 <xsl:sort select="hcmc:getTaxonomyVal(current-grouping-key())"/>
                                 <li>
                                     <a href="{substring-after(current-grouping-key(), 'lg:')}.html">
-                                        <xsl:sequence select="hcmc:getTaxonomyVal(current-grouping-key())"/>
+                                        <xsl:apply-templates select="hcmc:getTaxonomyGloss(current-grouping-key())"/>
                                     </a>
 <!--                     We also need to break out the House of Commons documents into smaller sets by province.  
                          We do this by making use of the taxonomy of legislature topics. -->

@@ -406,6 +406,17 @@ footer {
   width: auto;
 }
 
+.dcbLinkLogo{
+  display: block;
+  text-decoration: none;
+}
+.dcbLinkLogo img{
+  max-height: 3em;
+  width: auto;
+  display: block;
+  margin: 0.25em auto 0.25em auto;
+}
+
 /* expander/contractor elements. */
 .closedDocCaption, .openDocCaption{
     margin-top: 1em;

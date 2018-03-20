@@ -630,13 +630,13 @@
             when it points to biographi.ca.</xd:desc>
     </xd:doc>
     <xsl:template match="ptr[@target[contains(., 'biographi.ca')]][ancestor::person]">
-        <a class="linkLogo" target="{substring-before(substring-after(@target, '//'), '/')}">
+        <a class="dcbLinkLogo" target="{substring-before(substring-after(@target, '//'), '/')}">
             <xsl:if test="parent::bibl[@xml:lang]">
                 <xsl:attribute name="lang" select="parent::bibl/@xml:lang"/>
                 <xsl:copy-of select="parent::bibl/@xml:lang"/>
             </xsl:if>
             <xsl:apply-templates select="@*"/>
-            <img src="images/dcb.jpg" alt="{substring-before(substring-after(@target, '//'), '/')}"
+            <img src="images/logos/dcb_logo_Bilingue.png" alt="{substring-before(substring-after(@target, '//'), '/')}"
             />
         </a>
     </xsl:template>
