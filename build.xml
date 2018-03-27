@@ -448,16 +448,8 @@
 <!--  Create the AJAX fragments for people and places. -->
     <antcall target="createAjaxFragments"/>
     
-<!-- Now create the actual HTML stuff. Saxon handles most of this.    -->
-    <antcall target="MESSAGE"><param name="msg" value="Building HTML pages..."/></antcall>
-    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
-      <arg value="-s:tei_to_html_master.xsl"/>
-      <arg value="-xsl:tei_to_html_master.xsl"/> 
-      <arg value="--suppressXsltNamespaceCheck:on"/>
-      <arg line="outputFolder=${webDir}"/>
-      <arg line="buildDate=${today}"/>
-      <arg line="gitRevision=${repository.version}"/>
-    </java>
+<!--  Build the actual pages. -->
+    <antcall target="buildHtmlPages"/>
 
     <antcall target="listUnidentifiedNames"/>
     
@@ -472,6 +464,23 @@
 <!--   Validate all the HTML.-->
     <antcall target="validateHtml"/>
     
+  </target>
+  
+  <target name="buildHtmlPages">
+    <description>
+      TARGET buildHtmlPages
+      This builds the original HTML pages which are later split into both languages.
+    </description>
+    <!-- Create the actual HTML stuff. Saxon handles most of this.    -->
+    <antcall target="MESSAGE"><param name="msg" value="Building HTML pages..."/></antcall>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true" dir="code/xslt">
+      <arg value="-s:tei_to_html_master.xsl"/>
+      <arg value="-xsl:tei_to_html_master.xsl"/> 
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+      <arg line="outputFolder=${webDir}"/>
+      <arg line="buildDate=${today}"/>
+      <arg line="gitRevision=${repository.version}"/>
+    </java>
   </target>
   
   <target name="splitLanguages">
@@ -612,6 +621,32 @@
     <antcall target="website"/>
     <antcall target="rsyncWebsite"/>
     <antcall target="MESSAGE"><param name="msg" value="DONE!"/></antcall>
+  </target>
+  
+  <target name="siteKeepArtifacts" depends="git.revision">
+    <description>
+      TARGET siteKeepArtifacts
+      This runs a partial build, assuming that all the XML is valid, creating only the website 
+      materials, and not deleting the original merged-language versions.
+    </description>
+    <antcall target="MESSAGE"><param name="msg" value="Doing a quick-and-dirty rebuild of the HTML..."/></antcall>
+    
+    <!--  Copy web resources. -->
+    <antcall target="copyWebResources"/>
+    
+    <!--  Create the AJAX fragments for people and places. -->
+    <antcall target="createAjaxFragments"/>
+    
+    <!--  Build the actual pages. -->
+    <antcall target="buildHtmlPages"/>
+    
+    <antcall target="listUnidentifiedNames"/>
+    
+    <antcall target="createAToZ"/>
+    
+    <!--   Call the translation thing.  -->
+    <antcall target="splitLanguages"/>
+
   </target>
   
 
