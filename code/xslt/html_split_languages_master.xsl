@@ -21,7 +21,7 @@
                     <xd:li>discarding elements with @xml:lang in the other language</xd:li>
                     <xd:li>adding language-switching links to each page, pointing at the
                            equivalent page in the other language</xd:li>
-                    <xd:li>Mmssaging the document indexes such that when the original document
+                    <xd:li>Massaging the document indexes such that when the original document
                            is available in both languages, the version in the target language
                            is kept and the other removed.</xd:li>
                     <xd:li>tweaking links to site-wide resources such as JS and CSS files so that 
@@ -278,7 +278,7 @@
         where there are parallel documents in both languages, we only include a 
         link to the one that's in the core language.</xd:desc>
     </xd:doc>
-    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+_fr_[^/\.]+\.html$')]][ancestor::ul[@class='docList']]" mode="en">
+    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+_fr_[^/\.]+\.html$')]][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="en">
         <xsl:variable name="targetId" select="replace(replace(a/@href, '\.html$', ''), '_fr_', '_')"/>
         <xsl:choose>
             <xsl:when test="$targetId = $engDocsWithFrenchParallels"></xsl:when>
@@ -287,7 +287,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+\.html$')]][ancestor::ul[@class='docList']]" mode="fr">
+    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+\.html$')]][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="fr">
         <xsl:variable name="targetId" select="replace(a/@href, '\.html$', '')"/>
         <xsl:choose>
             <xsl:when test="$targetId = $engDocsWithFrenchParallels"></xsl:when>
@@ -301,7 +301,7 @@
         <xd:desc>When we're forced to link from a French page to a document which is in 
         English, we try to detect the situation and add a warning message.</xd:desc>
     </xd:doc>
-    <xsl:template match="li/a[matches(@href, '^lg[^/\.]+\.html$')][not(matches(@href, '_fr_'))][ancestor::ul[@class='docList']]" mode="fr">
+    <xsl:template match="li/a[matches(@href, '^lg[^/\.]+\.html$')][not(matches(@href, '_fr_'))][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="fr">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>

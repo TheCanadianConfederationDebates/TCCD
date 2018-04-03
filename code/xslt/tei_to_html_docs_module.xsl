@@ -44,7 +44,7 @@
             <xsl:result-document href="{concat($outputFolder, '/', $currId, '.html')}">
                 <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;
 </xsl:text>
-                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" id="{$currId}">
+                <html lang="{if (TEI/@xml:lang) then TEI/@xml:lang else 'en'}" xmlns="http://www.w3.org/1999/xhtml" id="{$currId}">
                     <xsl:apply-templates select=".">
                         <xsl:with-param name="currId" select="$currId" as="xs:string" tunnel="yes"/>
                     </xsl:apply-templates>

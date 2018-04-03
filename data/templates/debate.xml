@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="debate_day" type="template">
+     but without the trailing .xml. Also add the @xml:lang value (en or fr).-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="debate_day" type="template" xml:lang="">
   <teiHeader>
     <fileDesc>
       <titleStmt>
