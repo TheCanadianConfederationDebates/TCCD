@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-04-03T16:18:08Z. 2016.
+Schema generated from ODD source 2018-04-03T17:36:34Z. 2016.
 TEI Edition: Version 3.3.1a. Last updated on
 	3rd April 2018, revision 4185eec
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.1a./
@@ -2514,7 +2514,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(The House of Commons) The Canadian Federal House of Commons.</a:documentation>
                <value>lg:lgPCLAssem</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(
-                                 Province of Canada Legislative Assembly
+                                 Province of Canada Legislative Assembly 
+                                 Assemblée législative de la province du Canada
                               ) The Legislative Assembly of the Province of Canada (Ontario and Québec constituting a single colony).</a:documentation>
                <value>lg:lgPCLCoun</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Province of Canada Legislative Council) The Legislative Council of the Province of Canada (Ontario and Québec constituting a single colony).</a:documentation>

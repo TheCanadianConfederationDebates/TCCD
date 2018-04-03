@@ -278,7 +278,7 @@
         where there are parallel documents in both languages, we only include a 
         link to the one that's in the core language.</xd:desc>
     </xd:doc>
-    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+_fr_[^/\.]+\.html$')]][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="en">
+    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+_fr_[^/\.]+\.html$')]][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="en" priority="1">
         <xsl:variable name="targetId" select="replace(replace(a/@href, '\.html$', ''), '_fr_', '_')"/>
         <xsl:choose>
             <xsl:when test="$targetId = $engDocsWithFrenchParallels"></xsl:when>
@@ -287,7 +287,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+\.html$')]][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="fr">
+    <xsl:template match="li[child::a[matches(@href, '^[^/\.]+\.html$')]][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="fr" priority="1">
         <xsl:variable name="targetId" select="replace(a/@href, '\.html$', '')"/>
         <xsl:choose>
             <xsl:when test="$targetId = $engDocsWithFrenchParallels"></xsl:when>
@@ -301,11 +301,16 @@
         <xd:desc>When we're forced to link from a French page to a document which is in 
         English, we try to detect the situation and add a warning message.</xd:desc>
     </xd:doc>
-    <xsl:template match="li/a[matches(@href, '^lg[^/\.]+\.html$')][not(matches(@href, '_fr_'))][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="fr">
+    <xsl:template match="li/a[matches(@href, '((^lg[^/\.]+\.html$)|(^Morris[^/\.]+\.html$)|(^Erasmus[^/\.]+\.html$))')][not(matches(@href, '_fr_'))][ancestor::ul[@class=('docList', 'docsMentioningPerson')]]" mode="fr" priority="2">
+        <xsl:variable name="targetId" select="substring-before(@href, '.html')"/>
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
-        <xsl:text> </xsl:text><xsl:sequence select="$englishOnlyCaption"/>
+<!--  We don't want to supply this message for links to entire categories (sub-index pages), just for
+        links to individual documents inside index pages. -->
+        <xsl:if test="not($projectTaxonomies/descendant::tei:category[@xml:id=$targetId])">
+            <xsl:text> </xsl:text><xsl:sequence select="$englishOnlyCaption"/>
+        </xsl:if>
     </xsl:template>
     
     

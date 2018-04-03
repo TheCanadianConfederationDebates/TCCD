@@ -83,7 +83,7 @@
                         
                         <h2><xsl:sequence select="$docIndexTitle"/></h2>
                         
-                        <ul>
+                        <ul class="docList">
                             <li><a href="canadaMap.html"><span lang="en">Map</span> <span lang="fr">Carte</span></a></li>
                             <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'bibliography', 'placeography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
                                 <xsl:sort select="hcmc:getTaxonomyVal(current-grouping-key())"/>
@@ -107,12 +107,12 @@
                             </xsl:for-each-group>    
                             
 <!--                        Morris and Erasmus are special cases. -->
-                            <xsl:for-each select="('Morris', 'Erasmus')">
+                            <!--<xsl:for-each select="('Morris', 'Erasmus')">
                                 <xsl:variable name="currName" select="."/>
                                 <xsl:variable name="cat" select="$projectTaxonomies//category[starts-with(@xml:id, $currName)]"/>
                                 <li><a href="{.}.html"><xsl:apply-templates select="$cat/gloss"/></a></li>
                             </xsl:for-each>
-                            
+                            -->
                             
                             
                             <li><a href="bibliography.html"><xsl:apply-templates select="$teiDocs/TEI[@xml:id='bibliography']//titleStmt/title[1]"/></a></li>
