@@ -555,6 +555,23 @@
     </java>
   </target>
   
+  <target name="buildSitemap">
+    <description>
+      TARGET buildSitemap
+      This builds a sitemap in Standard Sitemap Protocol format (https://www.sitemaps.org/)
+      to aid search engines. The Google Custom Search is configured to use this sitemap.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Building the sitemap required by Google search indexing."/>
+    <java fork="true" classname="net.sf.saxon.Transform" classpath="code/utilities/saxon9he.jar" failonerror="true">
+      <jvmarg value="-Xmx1024m"/>
+      <arg value="-s:${basedir}/code/xslt/build_sitemap.xsl"/>
+      <arg value="-xsl:${basedir}/code/xslt/build_sitemap.xsl"/>
+      <arg value="-o:${webDir}/sitemap.xml"/>
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+    </java>
+  </target>
+  
   <target name="ridingsToGeoJSON">
     <description>
       TARGET ridingsToGeoJSON
@@ -593,16 +610,34 @@
       TARGET validateHtml
       This target validates the complete collection of XHTML5 documents 
       comprising the output website, using the VNU validator (the same validator used by 
-      the W3C's online validation service).
+      the W3C's online validation service). We first temporarily rename a file we know 
+      to be invalid (the Google Search document) and then name it back afterwards.
     </description>
     <echo message="${echo.separator}"/>
     <echo message="Validating the HTML pages produced in the build using the VNU validator."/>
+    
+    <move file="${webDir}/en/gSearch.html" tofile="${webDir}/en/gSearch.xxx"/>
+    <move file="${webDir}/fr/gSearch.html" tofile="${webDir}/fr/gSearch.xxx"/>
     <java jar="${basedir}/code/utilities/vnu.jar" failonerror="false" fork="true">
       <arg value="--format text"/>
       <arg value="--skip-non-html"/>
       <arg value="--filterpattern *.html"/>
       <arg value="${webDir}/"/>
     </java>
+    <move tofile="${webDir}/en/gSearch.html" file="${webDir}/en/gSearch.xxx"/>
+    <move tofile="${webDir}/fr/gSearch.html" file="${webDir}/fr/gSearch.xxx"/>
+  </target>
+  
+  <target name="gSearchVerification">
+    <description>
+      TARGET gSearchVerification
+      This target copies a verification file which is NOT TRACKED in git to 
+      the site output folder, as the last thing to do before pushing content
+      to the server.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Copying Google Search verification file."/>
+    <copy failonerror="false" file="${basedir}/code/html/google60f99c27b27affc9.xxxx" tofile="${webDir}/google60f99c27b27affc9.html"/>
   </target>
   
   <target name="all">
@@ -619,6 +654,8 @@
     <antcall target="metadiagnostics"/>
     <antcall target="ridingsToGeoJSON"/>
     <antcall target="website"/>
+    <antcall target="buildSitemap"/>
+    <antcall target="gSearchVerification"/>
     <antcall target="rsyncWebsite"/>
     <antcall target="MESSAGE"><param name="msg" value="DONE!"/></antcall>
   </target>

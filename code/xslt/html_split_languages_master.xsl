@@ -229,7 +229,7 @@
     <xd:doc scope="component">
         <xd:desc>All attributes with local links to resources need to be tweaked.</xd:desc>
     </xd:doc>
-    <xsl:template match="img/@src[not(contains(., ':'))] | link/@href | script/@src" mode="#all">
+    <xsl:template match="img/@src[not(contains(., ':'))] | link/@href[not(contains(., ':'))] | script/@src[not(contains(., ':'))]" mode="#all">
         <xsl:attribute name="{local-name()}" select="concat('../', .)"/>
     </xsl:template>
     
