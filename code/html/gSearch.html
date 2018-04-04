@@ -16,23 +16,52 @@
     <script type="text/ecmascript" src="js/script.js"></script>
     <script type="text/ecmascript" src="js/utilities.js"></script>
     
+    
+    <!--   These styles are needed to override those from html.css which 
+       otherwise distort the search controls. -->
     <style type="text/css">
+      div#___gcse_0 div, div#___gcse_0 table, div#___gcse_0 td, div#___gcse_0 input{
+        position: static;
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1;
+      }
       div#___gcse_0, div#___gcse_0 div{
         margin: 0;
-        padding: 1em;
       }
-      div#___gcse_0 table, div#___gcse_0 table td {
+      div#___gcse_0 table{
+        border-spacing: 0;
+      }
+      div#___gcse_0 table td {
         border: none;
         vertical-align: middle;
       }
+      .gsc-input, g.sc-control-wrapper-cse, .gsc-input-box{
+        padding: 0;
+      }
+      div#___gcse_0 input{
+        padding: 0.5em;
+        line-height: 2;
+      }
+      td.gsc-input td{
+        padding: 0;
+      }
+      
     </style>
   </head>
   
   <body>
     
     <header>
-      
-      <div class="langSwitcher"><a href="../fr/contents.html">FR</a></div><a href="index.html"><img lang="en" src="images/eng-logo.svg" alt="The Confederation Debates 1865–1949 / Les Débats de la Confédération 1865–1949" class="siteLogo" /></a></header>
+      <!--  This switcher will be filled in later when the language versions are created.          -->
+      <div class="langSwitcher"> </div>
+      <a href="index.html">
+        <img lang="en" src="images/eng-logo.svg" alt="The Confederation Debates 1865–1949"
+          class="siteLogo"/>
+        <img lang="fr" src="images/fr-logo.svg" alt="Les Débats de la Confédération 1865–1949"
+          class="siteLogo"/>
+      </a>
+    </header>
     
     <nav></nav>
     
