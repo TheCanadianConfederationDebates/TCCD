@@ -244,9 +244,17 @@
     
     function reqLoad(){
       //var ret = '<div class="popupCloser" onclick="mapPopup.setPosition([-2000,-2000])">✕</div>';
-      var ret = '<div class="popupCloser" onclick="mapPopup.style.display = \'none\';">✕</div>';
+      var links, i, imax, ret = '<div class="popupCloser" onclick="mapPopup.style.display = \'none\';">✕</div>';
       ret += this.responseText;
       mapPopup.innerHTML = ret;
+      //We now fix any in-site links in the popup so that they
+      //open a new tab instead of replacing the map.
+      links = mapPopup.querySelectorAll('a[href]');
+      for (i = 0, imax = links.length; i < imax; i++){
+        if (links[i].getAttribute('href').indexOf('://') < 0){
+          links[i].setAttribute('target', '_blank');
+        }
+      }
       mapPopup.style.display = 'block';
     }
     
