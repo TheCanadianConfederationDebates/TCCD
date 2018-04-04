@@ -401,6 +401,20 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
+                  
+                  <constraintSpec ident="shouldHaveXmlLang" scheme="schematron">
+                     <desc>All debate day document should have an xml:lang attribute on the
+                     root element.</desc>
+                     <constraint>
+                        <sch:rule context="tei:TEI">
+                           <sch:assert test="@xml:lang or not(starts-with(@xml:id, 'lg'))">
+                              All debate day documents should have an @xml:lang attribute on the root
+                              element; French documents should be xml:lang="fr" and English documents
+                              should be xml:lang="en".
+                           </sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
                   <!-- We'll enforce the constraint that curly quotes are not allowed using Schematron
                     at the TEI level. -->
                   
@@ -447,7 +461,10 @@ so Volume 2 by implication has finished. -->
                               <desc>The Canadian Federal House of Commons.</desc>
                            </valItem>
                            <valItem ident="lg:lgPCLAssem">
-                              <gloss>Province of Canada Legislative Assembly</gloss>
+                              <gloss>
+                                 <seg xml:lang="en">Province of Canada Legislative Assembly</seg> 
+                                 <seg xml:lang="fr">Assemblée législative de la province du Canada</seg>
+                              </gloss>
                               <desc>The Legislative Assembly of the Province of Canada (Ontario and Québec
                   constituting a single colony).</desc>
                            </valItem>
@@ -4672,7 +4689,7 @@ so Volume 2 by implication has finished. -->
                               <desc>McGarry, Moses Elijah. Inverness—Richmond (1945: House of Commons); Inverness—Richmond (1949: NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MCGE1">
-                              <desc>McGee, Thomas D'arcy Etienne Hughes. Montreal West (1865: Ont/Que Leg); Montreal West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</desc>
+                              <desc>McGee, Thomas D'arcy. Montreal West (1865: Ont/Que Leg); Montreal West (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MCGI1">
                               <desc>McGiverin, William. Lincoln (1865: Ont/Que Leg).</desc>
