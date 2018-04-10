@@ -743,6 +743,10 @@
         <header>
             <!--  This switcher will be filled in later when the language versions are created.          -->
             <div class="langSwitcher"> </div>
+            <div class="searchButton"> 
+                <a lang="en" href="gSearch.html" title="{$searchCaption/span[lang='en']/text()}">🔍</a>
+                <a lang="fr" href="gSearch.html" title="{$searchCaption/span[lang='fr']/text()}">🔍</a>
+            </div>
             <a href="index.html">
                 <img lang="en" src="images/eng-logo.svg" alt="{$projectTitle/xh:span[@lang='en']}"
                     class="siteLogo"/>

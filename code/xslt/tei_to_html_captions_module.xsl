@@ -150,4 +150,9 @@
     </xd:doc>
     <xsl:variable name="englishOnlyCaption"><!--<span lang="en">(only English available)</span>--><span lang="fr">(en anglais seulement)</span></xsl:variable>
     
+    <xd:doc scope="component">
+        <xd:desc>Caption for search page/function</xd:desc>
+    </xd:doc>
+    <xsl:variable name="searchCaption"><span lang="en">Search</span><span lang="fr">Recherche</span></xsl:variable>
+    
 </xsl:stylesheet>

@@ -47,10 +47,10 @@ a {
   display: none;
 }
 /* Site header styles. */
-div.langSwitcher {
+div.langSwitcher, div.searchButton{
   float: right;
 }
-div.langSwitcher a {
+div.langSwitcher a, div.searchButton a {
   color: #ff3333;
   display: inline-block;
   padding: 0.25rem;
