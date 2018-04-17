@@ -128,7 +128,7 @@
     <xd:doc scope="component">
         <xd:desc>Captions for different types of place: treaty location</xd:desc>
     </xd:doc>
-    <xsl:variable name="treatyLocationCaption"><span lang="en">Treaty negotiation or signing location</span><span lang="fr">[Fr caption needed for "Treaty negotiation or signing location"]</span></xsl:variable>
+    <xsl:variable name="treatyLocationCaption"><span lang="en">Treaty negotiation or signing location</span><span lang="fr">Lieu de la signature ou de la négociation d’un traité</span></xsl:variable>
     
     <xd:doc scope="component">
         <xd:desc>Caption for person fragment introducing debate or treaty participation</xd:desc>
