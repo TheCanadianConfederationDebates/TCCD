@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgNBLA_1867-05-30"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgNBLAssem">Legislative Assembly</name>, <date when="1867-05-30">30 May 1867</date>, New Brunswick Confederation Debates</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgNBLA">
+          
+
+         
+          
+         
+               <title>Debates of the House of Assembly of the Province of New Brunswick; Second Session of 1866</title>.
+                    
+
+         <date when="1866"/>. 
+          
+
+         <pubPlace>St. John, New Brunswick</pubPlace>: <publisher>George W. Day</publisher>.
+          
+
+          <biblScope unit="page" from="97" to="107"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_097.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_098.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_099.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_100.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_101.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_102.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_103.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_104.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_105.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_106.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1867-05-30_Page_107.hocr.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-05-01">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-05-01">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="NB_LA_1867-05-30_Page_097">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_097.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_098">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_098.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_099">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_099.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_100">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_100.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_101">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_101.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_102">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_102.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_103">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_103.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_104">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_104.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_105">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_105.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_106">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_106.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1867-05-30_Page_107">
+         <graphic url="final/images/NB_LA_1867-05-30_Page_107.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="97" facs="final/images/NB_LA_1867-05-30_Page_097.jpg"/>
+           <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw>  <fw type="num">97</fw>
+
+
+
+ <!--<p> <lb/>
+            </p>
+            <p>
+     bring in a Bill to provide for the inspec<lb break="no"/>tion of Petroleum and Coal Oils and<lb/>Burning Fluids.<lb/>
+            </p>
+   
+            <p>
+     Leave was granted and the Bill read 
+     <lb/>a first time.<lb/>
+            </p>
+   
+            <p>
+     Mr. FERRIS presented the Petition 
+     <lb/>of J.C. Bergee, jr., and 85 others, in<lb break="no"/>habitants of Queen's County, praying<lb/>that parts of the Counties of the Queen's,<lb/>Subury, Kent, and Northumberland<lb/>might be formed into a separate County.<lb/>
+            </p>
+   
+            <p>
+     The Petition was received and laid   
+     <lb/>on the table.<lb/>
+            </p>
+   
+            <p>
+     Hon. Mr. TILLBY laid before the 
+     <lb/>House certain papers relating to Fire<lb/>Loan Bonds and Delegation Expenses.<lb/>
+            </p>
+   
+            <p>
+     SENATORS. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:SMIT1">Mr. SMITH</persName>.- I will take this oppor<lb break="no"/>tunity to ask if the Government still<lb/>continue to withhold the information<lb/>about the appointment of Senators?<lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.- We have receiv<lb break="no"/>ed no further information since my last<lb/>reply.<lb/>
+            </p>
+   
+            <p>
+     Mr. FERRIS presented the Petition 
+     <lb/>of Charles Clarke and 100 others, in<lb break="no"/>habitants of Queen's County, praying<lb/>that the line of certain Great Roads<lb/>might be changed.<lb/>
+            </p>
+            <p>The Petition was received and laid<lb/>on the table.<lb/>
+            </p>
+            <p>N. E. ANTIMONY COMPANY.<lb/>
+            </p>
+            <p><persName ref="pers:STEV1">Mr. STEVENS</persName> moved the House into<lb/>Committee on a Bill to ratify and con<lb break="no"/>firm the incorporation of the New<lb/>Brunswick Antimony Company.<lb/>
+            </p>
+            <p><persName ref="pers:YOUN1">Mr. YOUNG</persName> in the Chair.<lb/>
+            </p>
+            <p><persName ref="pers:STEV1">Mr. STEVENS</persName> said the Bill was<lb/>accompanied by a Petition, and all the<lb/>requirements of the Act had been com<lb break="no"/>plied with but making oath before a<lb/>Justice of the Peace, which as some<lb/>of the parties resided in the United<lb/>States was found very inconvenient, and<lb/>they prayed to be released from the por<lb break="no"/>tion of the law.<lb/>
+            </p>
+            <p><persName ref="pers:HIBB1">Mr. HIBBARD</persName> said it would require<lb/>more than the bare statement of the Pe<lb break="no"/>tition that the 15 per cent, of the capital<lb/>stock had been paid up. He did not<lb/>believe it had been, but if it had, it<lb/>was very easy for them to show proof ;<lb/>the Secretary's office was quite near, and<lb/>the information could very soon be ob<lb break="no"/>tained.<lb/>
+            </p>
+            <p><persName ref="pers:STEV1">Mr. STEVENS</persName> said he heid the<lb/>Secretary's certificate that the amount<lb/>had been paid up.<lb/>
+            </p>
+            <p><persName ref="pers:HIBB1">Mr. HIBBARD</persName> said he believed the<lb/>matter had been before the Government<lb/>and they, not having proof of the propor<lb break="no"/>tion of stock having been paid up, refused<lb/>to grant the certificate.<lb/>
+            </p>
+            <p>Hon. Mr. WILLISTON confirmed the<lb/>statement of Mr. Hibbard as to the<lb/>withholding of the certificate.<lb/>
+            </p>
+            <milestone type="unknown"/>
+    
+
+    
+
+    
+
+    
+
+    
+
+            <p><persName ref="pers:STEV1">Mr. STEVENS</persName> said that was very<lb/>strange, as she held the certificate in his<lb/>hand, signed by the Provincial Secre<lb break="no"/>tary.<lb/>
+            </p>
+            <p>Hon. Mr. WILLISTON said there<lb/>must be some mistake about it.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName> moved that progress be<lb/>reported, which, the Speaker having re<lb break="no"/>sumed the Chair, was done.<lb/>
+            </p>
+            <p><persName ref="pers:STEV1">Mr. STEVENS</persName> then moved that the<lb/>Bill be referred to a Special Committee<lb/>to report upon, and Mesers, Stevens,<lb/>Smith, and Ilibbard were so appointed.<lb/>
+            </p>
+            <p>ST. STEPHEN FIREMEN.<lb/>
+            </p>
+            <p>Hon. Mr. McADAM moved the House<lb/>into Committee on a Bill relating to Fire<lb break="no"/>men in the Parish of St. Stephen.<lb/>
+            </p>
+            <p><persName ref="pers:YOUN1">Mr. YOUNG</persName> in the Chair.<lb/>
+            </p>
+            <p>The Bill was agreed to without any<lb/>debate.<lb/>
+            </p>
+            <p>The House then adjourned till to<lb break="no"/>morrow morning, at 10 o'clock.<lb/>
+            </p>-->
+
+
+            <head rendition="simple:right">THURSDAY, May 30.<lb/>
+            </head>
+
+            <p>The following Bills were read a third<lb/>time, passed the House, and were sent to<lb/>the Legislative Council for their concur<lb break="no"/>rence therein :<lb/>
+            </p>
+            <p>" A Bill to incorporate the Richibucto<lb/>Boom Company. "<lb/>
+            </p>
+            <p>" A Bill further to amend the Law<lb/>relating to the Poor House in the City<lb/>and County of St. John, in respect to<lb/>Vagrants and Beggars. "<lb/>
+            </p>
+            <p>" A Bill in addition to the Act to pro<lb break="no"/>vide for the Relief of the Sufferers by the<lb/>late calamitous Fire at Indiantown, in the<lb/>Parish of Portland. "<lb/>
+            </p>
+            <p>" A Bill relating to Firemen in Mill-<lb break="yes"/>town, in the Country of Charlotte. "<lb/>
+            </p>
+            <p>" A Bill to enable the Corporation of<lb/>the City of St. John to make certain im<lb break="no"/>provements on the Streets of St. John,<lb/>on the Western Side of the Harbor. '<lb/>
+            </p>
+            <p><persName ref="pers:MCCL1">Hon. Mr. McCLELAN</persName>, in compliance<lb/>with the request of the hon. member for<lb/>Northumberland (Mr. Kerr), laid before<lb/>the House the Petition of William<lb/>O'Brien, praying that he may receive<lb/>compensation for losses sustained in the<lb/>erection of a Bridge in Northumberland.<lb/>
+            </p>
+            <p><persName ref="pers:QUIN1">Mr. QUINTON</persName> moved the House into<lb/>Committee ( <persName ref="pers:MCQU1">Mr. McQUEEN</persName> in the<lb/>Chair) on a Bill relating to Paved Side<lb break="no"/>walks in the City of St. John.<lb/>
+            </p>
+            <p>The Bill was agreed to.<lb/>
+            </p>
+            <p><persName ref="pers:MCCL1">Hon. Mr. McCLELAN</persName> asked informa<lb break="no"/>tion of the Chairman of the Committee to<lb/>whom was referred matters relating to the<lb/>amending of the Labor Act, whether<lb/>any progress had been made therein, and<lb/>whether their Report would be made<lb/>shortly ?<lb/>
+            </p>
+            <p><persName ref="pers:BECK1">Mr. BECKWITH</persName> replied that the<lb/>Committee had made progress, but they<lb/>
+         
+
+            <cb/>
+          
+
+     had been delayed by his being called to 
+     <lb/>the Agricultural Board ; however, they<lb/>would have their Report in to-morrow.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName> moved the House<lb/>into Committee ( <persName ref="pers:DESB2">Mr. DESBRISAY</persName> in<lb/>the Chair) on a Bill to attend an Act en<lb break="no"/>titled an Act to provide for the erection<lb/>of a City Hall in the City of St. John.<lb/>
+            </p>
+            <p>The Bill was agreed to.<lb/>
+            </p>
+            <p>On motion of <persName ref="pers:QUIN1">Mr. QUINTON</persName>, the<lb/>House in Committee ( <persName ref="pers:FLEW2">Mr. W. P. FLEW<lb break="no"/>ELLING</persName> in the Chair) agreed to a Bill<lb/>authorizing the assessment of the City<lb/>and County of St. John, for the purpose<lb/>of an Agricultural Exhibition therein.<lb/>
+            </p>
+            <p><persName ref="pers:QUIN1">Mr. QUINTON</persName> presented a Petition<lb/>from the Justices of the Peace in the City<lb/>of St. John, praying that a Bill presented<lb/>by the Common Council of the City of<lb/>St. John, for widening the Country<lb/>Market, may not be passed by this<lb/>Legislature.<lb/>
+            </p>
+            <p><persName ref="pers:KERR1">Mr. KERR</persName> moved that a Select Com<lb break="no"/>mittee be appointed to take into conside<lb break="no"/>ration the Petition of William O'Brien,<lb/>praying for compensation for losses sus<lb break="no"/>tained in the erection of a Bridge in the<lb/>County of Northumberland.<lb/>
+            </p>
+            <p>Committee : Messre, Chandler, Babbit,<lb/>DesBrisay:<lb/>
+            </p>
+            <p><persName ref="pers:SKIN1">Mr. SKINNER</persName> reported that the Com<lb break="no"/>mittee to whom had been referred the Bill<lb/>to incorporate the St. John Marine In<lb break="no"/>surance Company had amended the same,<lb/>and recommended the Bill as amended.<lb/>
+            </p>
+
+
+<div type="section">
+            <head rendition="simple:centre">COUNTY COURTS.<lb/>
+            </head>
+
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName> moved the House<lb/>into Committee upon a Bill to establish<lb/>County Courts.<lb/>
+            </p>
+            <p><persName ref="pers:BOTS1">Mr. BOTSFORD</persName> in the Chair.<lb/>
+            </p>
+            <p>Mr FISHER.- This Bill will recom<lb break="no"/>mend itself, and it is not necessary for me<lb/>to make any lengthy remarks upon it. It<lb/>has long been the desire of the country<lb/>that there should be some more expendi<lb break="no"/>tious way of collecting small debts, and a<lb/>less expensive way of administering jus<lb break="no"/>tice ; therefore, to meet this want, this<lb/>Bill has been prepared to establish<lb/>County Courts, so that causes may be<lb/>brought to a more speedy issue, diminish<lb/>the amount of business in the Supreme<lb/>Court and get rid of the Court of Com<lb break="no"/>mon Pleas. They will try a large pro<lb break="no"/>portion of the Criminal business, which is<lb/>now a great expense to the country from<lb/>persons being detained in jail for a length<lb/>of time, in consequence of the infre<lb break="no"/>quency of the sittings of the Supreme<lb/>Court in some Counties. If we feel that<lb/>there County Courts are necessary, we<lb/>will all feel anxious that its provisions<lb/>should be made as perfect as possible, and<lb/>we invite the assistance of hon. members<lb/>to attain that object. A question has<lb/>been asked as to whether this House has<lb/>the right to legislate upon this subject.<lb/>
+If I did not believe we had a perfect right
+
+            <pb n="98" facs="final/images/NB_LA_1867-05-30_Page_098.jpg"/>
+        
+
+     <fw type="num">98</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw> 
+  
+
+to legislate upon the subject I should not<lb/>have brought forward this Bill. The<lb/>Delegates, when they discussed the Union<lb/>Act, came to the conclusion that we should<lb/>have the privilege of establishing these<lb/>Courts, which they had in full operation<lb/>in Upper Canada, and the salaries of the<lb/>Judges, as well as the Judges of the Su<lb break="no"/>preme Court, should be paid by the<lb/>General Government. I think it was<lb/>understood, though not stated in so many<lb/>words, that the establishing of these<lb/>Courts would form part of our arrange<lb break="no"/>ments necessary to be made before we<lb/>went into Union. I could talk a long<lb/>time upon a law Bill, but I shall not take<lb/>up the time at present, for the great<lb/>point is to settle the principle of the Bill.<lb/>If we agree that it would be an advan<lb break="no"/>tage to establish these County Courts, the<lb/>other matters will be mere matters of de<lb break="no"/>tail, and the House can appoint three,<lb/>four, five or six Judges, as they think<lb/>proper. I think we will all agree that it<lb/>is desirable to make the practice in the<lb/>Courts as simple as we can. We have<lb/>tried to incorporate all the provisions in<lb/>this Bill that are applicable to the Su<lb break="no"/>preme Court, either found on our Statute<lb/>Book or rules and practice of that Court,<lb/>and then Barristers will know what law<lb/>they are administering. There is a pro<lb break="no"/>vision in this Bill that the preceedings<lb/>and evidence in this Court can be sent to<lb/>the Supreme Court, and they will pass<lb/>judgment upon the matter. Should the<lb/>principle of the Bill pass, I shall have a<lb/>number of amendments to propose. I<lb/>have now briefly pointed out the main<lb/>objects of the Bill. It has been long re<lb break="no"/>quired in this country, for the present<lb/>state of things must be to some Counties<lb/>where Judges go but once a year a denial<lb/>of justice ; but under this Act we send<lb/>these Justices to the different Counties as<lb/>often as it is necessary for them to go.<lb/>
+            </p>
+   
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+            <p>
+      <persName ref="pers:SMIT1">Mr. SMITH</persName>—I was somewhat dis<lb break="no"/>appointed in the speech of the Attorney 
+     <lb/>
+     General, and 1 think almost all the 
+     <lb/>
+     hon. members on both sides of the 
+     <lb/>House will agree that he has not<lb/>put forward that statement which<lb/>we believed he would do, for according<lb/>to what he says our rights are depend<lb break="no"/>ing upon some vague understanding.<lb/>He tells us he things there was some<lb/>kind of understanding.<lb/>
+            </p>
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName>.—I mentioned it<lb/>in regard to our moral right to legislate<lb/>upon this subject.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—It is not a question of<lb/>moral right. It is a question of consti<lb break="no"/>tutional right, and not dependent upon<lb/>what was said or agreed upon in this<lb/>conference. Our constitution does not<lb/>rest upon a foundation so uncertain.<lb/>He says he talked about it outside the<lb/>conference, and he asks us now to pass<lb/>this Bill, because these Courts were<lb/>
+      
+
+            <cb/>
+          
+talked of outside the conference. We<lb/>have to see what is in that Act of Union<lb/>and what our constitutional rights are<lb/>under that Act. I appealed to the At<lb break="no"/>torney General yesterday, and I appeal<lb/>to him to-day, to know what our rights<lb/>are.<lb/>
+            </p>
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName>.—I stated that at<lb/>the outset.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—What does he mean,<lb/>then, by moral right—a moral right to<lb/>pass a law ? I trust our liberties do not<lb/>depend upon anything so uncertain as<lb/>that. I waited with anxiety to hear<lb/>him say whether our criminal adminis<lb break="no"/>tration would be under the New Domi<lb break="no"/>nion or under the Local Legislature,<lb/>but he has shirked the question and will<lb/>not give us this information. Have we<lb/>not a right to call upon him for an an<lb break="no"/>swer, as he was one of the authors of<lb/>the Confederation Bill and spent months<lb/>in its preparation ? He is keeping us<lb/>in the dark as to whether the criminal<lb/>jurisprudence of the country belongs to<lb/>us or to the Federal Parliament. I<lb/>claim from him as answer. This House<lb/>has a right to know his opinion upon<lb/>this point. I think that before proceed<lb break="no"/>ing with this Bill we ought to be<lb/>enlightened upon this point. Is it his<lb/>business to prosecute criminals after the<lb/>first of July, or is it the business of the<lb/>Attorney General of the Federal Par<lb break="no"/>liament. I appeal to the country if that<lb/>is not the information we ought to have.<lb/>The Attorney General declines to give<lb/>us this information, therefore we will<lb/>have to argue the question unaided by<lb/>him. Yesterday he promised to answer<lb/>the question to-day—<lb/>
+            </p>
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName>.—I did not promise<lb/>it.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—I think in answer to my<lb/>question he said he would consider the<lb/>matter, and give his opinion to-day.<lb/>Have we a right to legislate, or are we<lb/>to be kept in the dark? He cannot con<lb break="no"/>ceal this information any longer from<lb/>the House. If he will not give it to us I<lb/>will present my views to the House in<lb/>reference to this point. He has an ad<lb break="no"/>vantage which I have not enjoyed, for he<lb/>has been one of the framers of the law,<lb/>and should know what the law should<lb/>mean. We have to look at the Act as it<lb/>is and see what it says. In my opinion<lb/>the criminal business of the country is<lb/>given to the General Government. I<lb/>will call the attention of the House to a<lb/>paragraph in this Act ; when he proposes<lb/>to put some of the jurisdiction of the<lb/>criminal law in this County Court he is<lb/>violating the principle he has acceded to.<lb/>We find in the classification of the<lb/>powers assigned to the different Parlia<lb break="no"/>ments that—<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>It shall be lawful for the Queen, by<lb/>and with the advice and consent of the<lb/>Senate and House of Commons, to<lb/>
+         
+    
+
+    
+
+    
+
+    
+            <cb/>
+           
+make Laws for the Peace, Order and<lb/>Good Government of Canada, in relation<lb/>to all matters not coming within the<lb/>classes of subjects by this Act assigned<lb/>exclusively to the Legislatures or the<lb/>Provinces ; and for greater certainty,<lb/>but not so as to restrict the generality<lb/>of the foregoing terms of this section, it<lb/>is hereby declared that (notwithstanding<lb/>anything in this Act) the exclusive Leg<lb break="no"/>islative Authority of the Parliament of<lb/>Canada extends to all matters coming<lb/>within the Classes of Subjects next here<lb break="no"/>inafter enumerated, that is to say—</p>
+
+<p>1. The Public Debt and Property.<lb/>2. The Regulations of Trade and Com<lb break="no"/>merce.<lb/>3. The Raising of Money by any Mode<lb/>or System of Taxation.<lb/>And goes on enumerating a variety of<lb/>subjects, which shall exclusively belong<lb/>to the Parliament of Canada, and among<lb/>them we find—<lb/>
+            </p></quote>
+
+<p>And goes on enumerating a variety of<lb/>
+subjects, which shall exclusively belong<lb/>
+to the Parliament of Canada, and among<lb/>
+them we find - </p>
+
+<quote rendition="tccd:blockquote">
+            <p>
+     " The Criminal Law, except the con<lb break="no"/>stitution of Courts of Criminal Jurisdic<lb break="no"/>tion, but including the Procedure in 
+     <lb/>
+    Criminal matters."     
+     <lb/>
+            </p></quote>
+
+    
+   
+            <p>
+     I ask what that means? Does it mean 
+     <lb/>
+     the administration of the Criminal Law 
+     <lb/>
+     of the country? I think it covers the 
+     <lb/>
+     whole. I find also that they have the 
+     <lb/>
+     establishment, maintenance and man<lb break="no"/>agement of Penitentiaries. If they had 
+     <lb/>
+     not the administration of the Criminal 
+     <lb/>
+     Law, why take charge of the Penitenti<lb break="no"/>aries? Therefore I think the Federal 
+     <lb/>
+     Parliament take charge of, and settle the  
+     <lb/>
+     Criminal jurisdiction of the country. 
+     <lb/>
+     We find among the subjects given ex<lb break="no"/>clusively to the Provincial Legisla<lb break="no"/>ture :—<lb/>
+     
+     
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The administration of justice in the<lb/>Province, including the constitution,<lb/>maintenance and organization of Pro<lb break="no"/>vincial Courts, both of Civil and of Crim<lb break="no"/>inal Jurisdiction, and including Proced<lb break="no"/>ure in Civil matters in those Courts."<lb/>
+            </p></quote>
+
+
+            <p>The Local Legislature seems to have<lb/>the power to constitute the Courts of<lb/>Criminal Jurisdiction, but the prosecu<lb break="no"/>tion of criminals in that Court seems to<lb/>be in the General Parliament. I would<lb/>like to have the opinion of the Attorney<lb/>General on that point, but I suppose he<lb/>will answer that question as he did the<lb/>other, by remaining silent. Not having<lb/>information from him we are to a certain<lb/>extent groping in the dark. We just<lb/>act upon our own convictions in the mat<lb break="no"/>ter. The Attorney General told us in<lb/>igtroducing this Bill that he intended to<lb/>supplement it with another Bill called<lb/>the Divisional Court Bill. Both these<lb/>Bills should be before the House before<lb/>we pass this one. I ask the Attorney<lb/>General now to bring forward that Bill,<lb/>for this is only half a measure, as these<lb/>Bills were to run together concurrently.<lb/>I do not see that this Bill before the House<lb/>will be calculated to be productive of<lb/>much advantage to the country. There<lb/>will be five more Judges' salaries to pay,<lb/>at from $1000 to $2,600 per annum. The<lb/>question seems to me to be not whether<lb/>we have the power to fix the salaries of<lb/>
+         
+
+            <pb n="99" facs="final/images/NB_LA_1867-05-30_Page_099.jpg"/>
+          
+
+     <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw> <fw type="num">99</fw> 
+
+
+the Judges, but whether the Government<lb/>has the power to appoint them. I doubt<lb/>whether we have this power. I think it<lb/>would be very inconsistent for us, ac<lb break="no"/>cording to the reading of this law, to<lb/>make appointments to the Court of Com<lb break="no"/>mon Pleas, because that comes under the<lb/>General Government. The Court of<lb/>Common Pleas may be considered a<lb/>County Court, and the Judges of that<lb/>Court require to be paid by the Federal<lb/>Government, therefore I think it would<lb/>not be right for us to appoint them. It<lb/>would be better, instead of passing this<lb/>Bill, to make some change in the Court<lb/>of Common Pleas and alter the practise<lb/>in the Supreme Court. I would suggest<lb/>if you want to cheapen litigation, to in<lb break="no"/>crease the summary practice in the Court<lb/>of Common Pleas, and in the Supreme<lb/>Court, to £50. I find the fees are more<lb/>under this Bill than they are in a sum<lb break="no"/>mary suit. In a summary suit the costs,<lb/>exclusive of the execution, would be<lb/>$7.20 ; but under this Bill I think a sum<lb break="no"/>mary suit would be $8.60, this includes<lb/>the cost of the execution, which is $1,<lb/>thus the cost under this Bill will be 40<lb/>cents more than the costs under sum<lb break="no"/>mary suits are now. These County Courts<lb/>are to have jurisdiction on all debts up<lb/>to $200, but there is no limit the other<lb/>way ; no provision which says that when<lb/>an action is brought for an amount be<lb break="no"/>low $20 the parties shall not be entitled<lb/>to costs. Under this Bill a man could<lb/>bring an action for one dollar, and ac<lb break="no"/>cording to the process prescribed here,<lb/>the costs on that would be $8.23. I do<lb/>not think this is very desirable, unless<lb/>you wish to increase the expense of liti<lb break="no"/>gation and all the costs of of suits. In<lb/>regard to the Criminal jurisdiction we<lb/>will have each one of us to act according<lb/>to his own judgement. We know the<lb/>Counties of York, Carleton and Sunbury<lb/>have Municipal Corporations, and the<lb/>Court of General Sessions of the Peace<lb/>exercise certain functions in those Coun<lb break="no"/>ties in regard to its local affairs. Cer<lb break="no"/>tain duties are imposed upon the Grand<lb/>Juries in regard to fiscal affairs. These<lb/>fiscal affairs must be submitted to the<lb/>Grand Jury, because they cannot make<lb/>an assessment upon the County unless<lb/>the Grand Jury recommennd it to the<lb/>Court of Common Pleas. The General<lb/>Sessions have a certain jurisdiction over<lb/>certain descriptions of crime, such as lar<lb break="no"/>ceny, misdemeanor, &amp;c., and the whole<lb/>machinery of the Court is complete, and<lb/>both these Courts sit at the same time,<lb/>and the same Jury answers the purpose<lb/>of both of these Courts. They have a<lb/>Grand Jury and a Petit Jury, and if a<lb/>Bill is found against a man for larceny<lb/>instead of his being contained in Jail, per<lb break="no"/>haps for three months, waiting for the<lb/>sitting of the County Court, he can be<lb/>brought to trial at once, for a Bill has<lb/>been found, and the witnesses are there,<lb/>and they have all the machinery neces<lb break="no"/>sary to give him a trial.<lb/>
+            </p>
+            <cb/>
+            <p>
+     It may be urged that the Judges of 
+     <lb/>these County Courts will be paid by the<lb/>General Government. We will have to<lb/>contribute our part in paying our share<lb/>of the salaries of the Judges of the whole<lb/>Dominion, including these County Court<lb/>Judges. If the interests of the people<lb/>would be subserved by establishing these<lb/>Courts, it is very desirable to appoint<lb/>them, but I think differently. If you<lb/>want to cheapen litigation we can pre<lb break="no"/>pare a Bill to extend the summary prac<lb break="no"/>tice of the Supreme and Inferior Courts<lb/>to $200. The Inferior Court of Common<lb/>Pleas cannot grant a new trial, but the<lb/>party may appeal to the Supreme Court<lb/>in each County. I would suggest that<lb/>the Judge appointed to preside over the<lb/>Court of Common Pleas should be a legal<lb/>man, and I would leave the jurisdiction<lb/>of the Court as it is, for it is well defined<lb/>and understood. The salary of the  <lb/>Judges could be fixed at from $400 to<lb/>$800, and these salaries would be paid<lb/>by the General Government. You<lb/>would then have an efficient man to pre<lb break="no"/>side over the Court of Common Pleas,<lb/>and he could at the same time be Judge<lb/>of the General Sessions. I would<lb/>give the Court of Common Pleas the<lb/>power of granting a new trial, I would<lb/>give an appeal to the Supreme Court, I<lb/>would make the judgment binding upon<lb/>lien as in the Supreme Court, and I would<lb/>let lands be levied upon under an execu<lb break="no"/>tion <hi rendition="simple:italic">prima facie</hi>. These are all the changes<lb/>you need to enable you to have a con<lb break="no"/>venient and cheap Court. You would<lb/>then have a Court in every County, and<lb/>a Judge residing either in the County or<lb/>the adjoining County, instead of having<lb/>a Judge floating about over three Counties.<lb/>There is no provision made for the Judge<lb/>to reside in a particular place ; therefore<lb/>if he holds three or four Courts in dif<lb break="no"/>ferent Counties there would be a great<lb/>difficulty in finding him when you want<lb break="no"/>ed to get a summons. I will call the at<lb break="no"/>tention of the House to another provision<lb/>in the Bill which will be very incon<lb break="no"/>venient :<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" When any tenant shall, after the ex<lb break="no"/>piration of his tenancy, or on due notice<lb/>to quit, refuse to deliver up possession<lb/>to the landlord, such landlord may ap<lb break="no"/>ply to the Judge of any County Court<lb/>where the premises are situate, and hav<lb break="no"/>ing made oath before him that such ten<lb break="no"/>ant has held and occupied the premises<lb/>designated in the affidavit for a certain<lb/>period then expired, and that due notice<lb/>to quit, when necessary, has been given,<lb/>such Judge shall, upon good cause<lb/>shewn, issue a summons, giving at least<lb/>six days notice, to be served with a copy<lb/>of the affidavit on the tenant, or by leav<lb break="no"/>ing the same with some adult person of<lb/>the household on the premises to shew<lb/>cause why he holds over."<lb/>
+            </p></quote>
+
+
+            <p>This power is now given to two mag<lb break="no"/>istrates, and I think no practical incon<lb break="no"/>venience has arisen from this jurisdic<lb break="no"/>tion being exercised by these Magis<lb break="no"/>trates. The Magistrates are living near<lb break="no"/>by, and you can approach them at any<lb/>
+          
+
+            <cb/>
+          
+time, whereas the Judge of this Court<lb/>will be racing about from County to<lb/>County, and you will not know where<lb/>to find him. This will cause a great<lb/>delay, for the affidavit has to be sworn to<lb/>before the Judge of the County Court.<lb/>I think it would take all the lawyers<lb/>throughout the country to find a more<lb/>convenient way of ejecting a man from<lb/>a premises than we have now. You<lb/>can now, by going before two Magis<lb break="no"/>trates eject a man from a premises in<lb/>the course of a week, and if the tenant<lb/>feels that injustice has been done him,<lb/>he can appeal to the Supreme Court,<lb/>therefore, I say, so far as that is con<lb break="no"/>cerned, the alteration proposed here,<lb/>instead of being a benefit, will be a great<lb/>evil.<lb/>
+            </p>
+            <p>Another section of the Bill says:<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" If the Judge shall be satisfied, by<lb/>either party, in a cause in his Court,<lb/>that such cause can be more conveni<lb break="no"/>ently or fairly tried in some other Coun<lb break="no"/>ty Court, he shall order that the venue<lb/>be changed, and that the cause be sent<lb/>for hearing to such other County Court ;<lb/>and the Clerk of the Court shall forth<lb break="no"/>with transmit, by post, to the Clerk of<lb/>the Court to which the cause is sent, a<lb/>certified copy of all papers and pro<lb break="no"/>ceedings in the cause on file in his of<lb break="no"/>fice, and a certified copy of the order<lb/>for changing the venue, which cause<lb/>shall be dealt with in such Court as if<lb/>originally brought therein."<lb/>
+            </p></quote>
+
+
+            <p>In a trial before this County Court the<lb/>Judge may charge the Jury according<lb/>to his idea, and the Jury, influenced by<lb/>his charge, may bring in a verdict<lb/>against the evidence ; the aggrieved<lb/>party wil then have to apply for a<lb/>change of venue to the Judge who de<lb break="no"/>cided against him, and he in ordering<lb/>the venue to be changed will have to<lb/>decide against his own opinion. There<lb/>is the power provided to grant a new<lb/>trial if he appeals to the Supreme<lb/>Court :<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" In case any party in a cause in any<lb/>of the said Courts is dissatisfied with the<lb/>decision of the Judge upon any point of<lb/>law, or with the charge to the Jury, or<lb/>with the decision upon motion for a non<lb/>suit or new trial, or in arrest of judg<lb break="no"/>ment, or for judgment <hi rendition="simple:italic">non obstante vere<lb break="no"/>dicto</hi>, he may appeal to the Supreme<lb/>Court, and the Judge, at the request of<lb/>such party, his Counsel or Attorney,<lb/>shall stay the proceedings for a time<lb/>not exceeding twenty days, when, if<lb/>the party wishing to appeal, give a<lb/>bond, with sureties to the satisfaction<lb/>of the Judge, conditioned for the pay<lb break="no"/>ment of all the costs of the appeal<lb/>awarded by the said Supreme Court, if<lb/>the judgement or decision of the Judge<lb/>be affirmed, then, at the request of the<lb/>party appellant, the Judge shall certify<lb/>under his hand to the Supreme Court, the<lb/>pleadings in the cause, and all motions,<lb/>rules or orders, made, granted or re<lb break="no"/>fused therein, with his own charge,<lb/>judgment or decision thereon."<lb/>
+            </p></quote>
+
+
+            <pb n="100" facs="final/images/NB_LA_1867-05-30_Page_100.jpg"/>
+         
+
+     <fw type="num">100</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw>         
+   
+
+            <p>
+     Is not that absurd? The Judge has<lb/>to furnish a certified copy of all the<lb/>rules, motions or orders, whether they<lb/>relate in the slightest degree to the case<lb/>or not.<lb/>
+     
+     
+     
+     
+     
+     
+     
+            </p>
+            <p>Instead of adopting this Bill I would<lb/>suggest these alterations in the Court of<lb/>Common Pleas ; that the summary prac<lb break="no"/>tice be increased to fifty pounds, that<lb/>an execution be levied upon lands, that<lb/>they have power to sell property, both<lb/>real and personal, and have power to<lb/>grant a new trial.<lb/>
+            </p>
+            <p>I would ask the Attorney General<lb/>whether the appeal from the Supreme<lb/>Court is to a Court of Appeal in the<lb/>New Dominion. We find a section of<lb/>the Imperial Act says :<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>"The Parliament of Canada may,<lb/>notwithstanding anything in this Act,<lb/>from time to time provide for the Con<lb break="no"/>stitution, Maintenance and Organiza<lb break="no"/>tion of a General Court of Appeal for<lb/>Canada, and for the establishment of<lb/>any additional court for the better ad<lb break="no"/>ministration of the Laws of Canada."<lb/>
+            </p></quote>
+
+
+            <p>We have understood that the Court<lb/>of Appeal was to be a court of Appeal<lb/>for the various members of that con<lb break="no"/>federation ; but according to the lan<lb break="no"/>guage of this law, it is not a Court of<lb/>Appeal for our Courts, but only for Ca<lb break="no"/>nada. We are to be a portion of the<lb/>Dominion of Canada, but we are sepa<lb break="no"/>rate and distinct from them in regard<lb/>to regulating the Civil practice in our<lb/>Civil Courts. But in regard to the<lb/>Criminal Law, I think when a man is<lb/>convicted for crime it is incident to our<lb/>position that he should appeal to the<lb/>Court of the New Dominion. I have<lb/>failed to ellicit anything from the Attor<lb break="no"/>ney General in regard to the intention<lb/>of the framers of the law as to the con<lb break="no"/>struction and interpretation of it. I will<lb/>now appeal to the hon. member for<lb/>Northumberland (Mr.Johnson) as he<lb/>was one of the Delegates sent to Eng<lb break="no"/>land to frame that law, and he must<lb/>surely know whether the Criminal Law<lb/>is incident to the General Parliament<lb/>or to our Local Legislature. In my<lb/>judgement the Criminal Law is under<lb/>the control of the General Government,<lb/>even down to the smallest crime, for<lb/>why should they take the control of the<lb/>Penitentiaries unless they undertook<lb/>the control of the Criminal Law. The<lb/>object of this Bill is to create offices,<lb/>but I believe we have no power under<lb/>the Imperial Act to fix the salaries of<lb/>those officers. You are creating a new<lb/>Court, and you limit the maximum power<lb/>of the Court to actions not exceeding<lb/>$200, but you ought to restrict it to a<lb/>minimum. I understand the Attorney<lb/>General to say that he intended to in<lb break="no"/>troduce another Bill which would pro<lb break="no"/>vide substitutes for the jurisdiction of<lb/>
+         
+
+            <cb/>
+       
+
+     Magistrates, and I asked him about it,<lb/>but he continues silent. If he intends<lb/>to bring it we should have it before the<lb/>House now, as it is connected with the<lb/>administration of justice. I have al<lb break="no"/>ways in this House advocated the pro<lb break="no"/>priety of increasing the jurisdiction of<lb/>Magistrates to ten pounds. There may<lb/>be one or two Magistrates in each<lb/>County who are trading men, but then<lb/>you can have a Jury, and unless they<lb/>are packed you are very apt to get jus<lb break="no"/>tice done. If you can get rid of these<lb/>trading Magistrates I doubt whether<lb/>you could improve the method of collect<lb break="no"/>ing these small debts. Those Magis<lb break="no"/>trates are all over the country, and a<lb/>man does not have to travel very far to<lb/>find one to issue a summons for him.<lb/>We had better keep the jurisdiction of<lb/>our Courts as it is, for the lawyers are<lb/>now accustomed to it, and appoint a<lb/>lawyer as Judge of the Court of Com<lb break="no"/>mon Pleas, and then we will not be vio<lb break="no"/>lating the Imperial Act. I do not<lb/>think it was the intention of the parties<lb/>who framed that law that we should<lb/>have the power, at this session, before<lb/>the Proclamation of Union takes effect,<lb/>to create new Courts and re-cast the<lb/>whole Judicial jurisdiction, and create<lb/>new Judges with salaries of £650 a year.<lb/>I do not thin we are justified in doing<lb/>it, and I do not think the interests of<lb/>the people of this Country will be im<lb break="no"/>proved by it in the slightest degree.<lb/>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+            </p>
+            <p><persName ref="pers:WETM1">Mr. WETMORE</persName>.—My hon. friend re<lb break="no"/>ferred to a section of the Act of Union,<lb/>which provides that "the Parliament of<lb/>Canada may, notwithstanding anything in<lb/>this Act, from time to time provide for the<lb/>constitution, maintenance, and organiza<lb break="no"/>tion of a General Court of Appeal for<lb/>Canada, and for the establishment of any<lb/>additional Courts for the better adminis<lb break="no"/>tration of the Laws of Canada." I un<lb break="no"/>derstand him to say he had very serious<lb/>doubts whether or not the Court of Ap<lb break="no"/>peal in Canada would be the Court of<lb/>Appeal for our Province. I will direct<lb/>his attention to the third paragraph in the<lb/>Act of Union, which says :<lb/>
+            </p>
+
+    
+   <quote rendition="tccd:blockquote">
+            <p>
+     It shall be lawful for the Queen, by 
+     <lb/>and with the Advice of Her Majesty's<lb/>Most Honorable Privy Council, to declare<lb/>by Proclamation that, on and after a Day<lb/>therein appointed, not being more than<lb/>Six months after the passing of this Act,<lb/>the Provinces of Canada, Nova Scotia,<lb/>and New Brunswick shall form and be<lb/>One Dominion under the name of Cana<lb break="no"/>da ; and on and after that Day these<lb/>three Provinces shall form and be One<lb/>Dominion under that name accord<lb break="no"/>ingly.<lb/>
+            </p></quote>
+
+
+            <p>I will also direct his attention to the<lb/>latter part of the fourth Section and the<lb/>fifth :<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>Unless it is otherwise expressed or im<lb break="no"/>plied, the name Canada shall be taken to<lb/>
+      
+
+            <cb/>
+      
+
+     mean Canada as constituted under this 
+     <lb/>Act.<lb/>
+            </p>
+   
+            <p>
+     Canada shall be divided into four Pro<lb break="no"/>vinces, named Ontario, Quebec, Nova<lb/>Scotia, and New Brunswick.<lb/>
+            </p></quote>
+   
+            <p>
+     <persName ref="pers:SMIT1">Mr. SMITH</persName>.—I am aware that ehse 
+     <lb/>four Provinces are to constitute what is<lb/>called Canada, but we have a distinct<lb/>and separate jurisdiction from Canada.<lb/>This Court of Appeal, as it must be in<lb break="no"/>terpreted, means a Court of Appeal in<lb/>those matters which the whole of Canada<lb/>has the power to legislate upon. Certain<lb/>powers are taken from us and transferred<lb/>to the General Government, and certain<lb/>powers are left us. The Court belongs<lb/>to us, and we have power to change its<lb/>constitution, so far as its civil powers<lb/>are concerned, and no one has a right to<lb/>object to it, therefore that paragraph ap<lb break="no"/>plies to the Courts of Canada, and does<lb/>not apply to the Courts of New Bruns<lb break="no"/>wick.<lb/>
+            </p>
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName>—I refused to<lb/>answer my hon, friend's questions, be<lb break="no"/>cause it is unparliamentary to interrupt a<lb/>gentleman when speaking. It is unpar<lb break="no"/>liamentary to put questions at that time ;<lb/>the proper course was for him to finish<lb/>his speech, and then for me to answer<lb/>him. When I opened the debate I made<lb/>very few observations, but I thought I<lb/>made myself intelligible. My intention<lb/>was to bring the Bill before the House,<lb/>and not to make a speech upon it. I<lb/>think my hon. friend must certainly have<lb/>Confederation on the brain. He com<lb break="no"/>plains that I did not answer his questions<lb/>yesterday, but had promised to do so to<lb break="no"/>day, and had not done it. I did not pro<lb break="no"/>mise to answer all his questions to-day. I<lb/>said I believed we had the power to es<lb break="no"/>tablish three Courts, and I went on to<lb/>show there was no impropriety in doing<lb/>it. In regard to the Criminal Law, my<lb/>opinion is that the administration of the<lb/>Criminal Law devolves upon us, but the<lb/>General Government have power to regu<lb break="no"/>late criminal procedure and criminal law,<lb/>so at a man may not be punished one<lb/>way in Nova Scotia and another way in<lb/>New Brunswick. The Criminal Law will<lb/>be uniform in the whole Union, but the<lb/>administration of it belong to us. Un<lb break="no"/>less the question affects something before<lb/>the House, it is unwise to answer all sorts<lb/>of questions arising out of this Union<lb/>Act. I have told him what my view of the<lb/>law is. One thing I did omit in regard to<lb/>this Bill. I stated the other day that we<lb/>intended to bring in a Bill to provide for<lb/>divisional Courts, and we did intend to do<lb/>so, but we afterwards concluded not to<lb/>prepare it. This Bill was prepared be<lb break="no"/>fore we came to that determination. We<lb/>intend to ask the House to pass this<lb/>Bill, and we must make the appointments<lb/>subject to the action of the General Gov<lb break="no"/>ernment.<lb/>
+            </p>
+
+
+            <pb n="101" facs="final/images/NB_LA_1867-05-30_Page_101.jpg"/>
+     
+
+     <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw> <fw type="num">101</fw> 
+   
+
+     <p>In regard to this Court of Appeal, if it 
+     <lb/>is ever established, it will be a last re<lb break="no"/>sort of question for adjudication, and will<lb/>obviate the necessity of going to the Ap<lb break="no"/>peal Court in England.<lb/>
+            </p>
+            <p>If the House is in favour of the prin<lb break="no"/>ciple of the Bill, that we should estab<lb break="no"/>lish these County Courts, the appoint<lb break="no"/>ment of Judges and the other machinery<lb/>are mere matters of detail, and all I de<lb break="no"/>sire is that they shall be assimilated as<lb/>nearly as possible to the practice of the<lb/>Supreme Court.<lb/>
+            </p>
+            <p>Some hon. members have doubted<lb/>whether we have the right to fix the<lb/>salaries of the Judges. I think we have<lb/>the right, and I propose to fill the blanks<lb/>with the just such sums as are in the Cana<lb break="no"/>dian Act. After the Union takes affect,<lb/>as soon as the Parliament meets they<lb/>will be revised, therefore there cannot be<lb/>much harm done in regard to salaries, for<lb/>before nine months the Parliament of<lb/>Canada will legislate upon the subject. I<lb/>do not wish to shrink from answering<lb/>any question that necessarily arises from<lb/>this Bill being before the House, and if<lb/>we carry the principle of the Bill I hope<lb/>all the hon. members will unite with us in<lb/>making its practice as simple as pos<lb break="no"/>sible.<lb/>
+            </p>
+            <p><persName ref="pers:JOHN1">Mr. JOHNSON</persName>.—I cannot agree with<lb/>my hon. friend from Westmorland (Mr.<lb/>Smith) in some of his arguments, but I do<lb/>not wish to go into details, because I<lb/>have one objection to passing this Bill,<lb/>which to my mind is almost insuperable.<lb/>I feel as one of the Delegates that agreed<lb/>to the Act of Union, that we have enter<lb break="no"/>ed into a contract, and we cannot estab<lb break="no"/>lish these Courts without violating the<lb/>spirit of that contract. While I think the<lb/>Judiciary of the country can be improved,<lb/>I do not agree with my hon. friend when<lb/>he says he would appoint a Lawyer of<lb/>the Country as a Judge in the Court of<lb/>Common Pleas. The difficulty is this :<lb/>a man who lives in the community and<lb/>transacts business for persons in the Su<lb break="no"/>preme Court, cannot try a case where<lb/>the same parties are concerned without<lb/>being suspected of aiding those who were<lb/>his clients in the Supreme Court. I go<lb/>to the Supreme Court one day as counsel<lb/>for my clients, and the next day I sit as a<lb/>Judge of the Court of Common Pleas<lb/>where the same parties are concerned.<lb/>There is a weakness about this that I<lb/>cannot get over. I shall not go into the<lb/>details of the Bill, but I must express<lb/>this opinion upon our right to pass the<lb/>Bill. I conceive we entered into a con<lb break="no"/>tract with the people of Canada and<lb/>Nova Scotia to carry out the law that<lb/>was then passed, and that law was passed<lb/>under certain conditions and circumstan<lb break="no"/>ces, and to seek now, when the law is<lb/>going into operation, to vary those con<lb break="no"/>ditions, is a position we ought not to as<lb break="no"/>
+  
+
+            <cb/>
+          
+
+     sume. When it was proposed in Quebec 
+     <lb/>that the salaries of the Judges should be<lb/>paid by the Local Governments, while<lb/>the General Government should make the<lb/>appointments, I took the ground that the<lb/>salaries must come from the same Gov<lb break="no"/>ernment in which the patronage lay, and<lb/>I take the same ground now. If I had<lb/>not been on the delegation I might have<lb/>felt differently, but I now feel that all<lb/>those for whom we acted are bound by<lb/>the conditions of the bargain we made.<lb/>When we entered into that contract we<lb/>had certain Judgeships with certain sala<lb break="no"/>ries, and it is only the General Govern<lb break="no"/>ment which should establish additional<lb/>Courts, and they will do it if necessary.<lb/>I would go for passing a low of this kind<lb/>if I was satisfied we were doing it right in<lb/>contemplating making these appoint<lb break="no"/>ments now. Is it fair to give the patro<lb break="no"/>nage to the Local Government and let<lb/>the General Government pay the sala<lb break="no"/>ries? I have thought over this matter,<lb/>and tried in my own mind to get rid of<lb/>the difficulty. I desired and do desire <lb/>that improvements may be made in the<lb/>Judiciary of the country, but I feel I<lb/>would not be acting fairly if I supported<lb/>this Bill. I mention this that hon. mem<lb break="no"/>bers who were on the delegation with<lb/>me may have the opportunity of convinc<lb break="no"/>ing me. If I am only convinced that it<lb/>would be right, I would go for the Bill to<lb/>the best of my ability. We made that<lb/>contract of Union when the country was<lb/>in a certain condition, and if we seek to<lb/>increase the number of Judges we put an<lb/>additional expense upon the General<lb/>Government outside of that condition. It<lb/>was universally expressed, as well in Ca<lb break="no"/>nada as at the Conference in London, that<lb/>the Judges ought to be appointed by the<lb/>General Government. The reason for<lb/>this was, that the General Government<lb/>would be less influenced by local preju<lb break="no"/>dice, and therefore a better class of men<lb/>would be appointed tot he Bench. It<lb/>was agreed that until the laws should be<lb break="no"/>come assimilated the local Judges should<lb/>be selected from the local Bar, except for<lb/>Quebec, where they must continue to be<lb/>local, because they are governed by a<lb/>peculiar mode of procedure, but the com<lb break="no"/>mon law should be the same over the <lb/>whole Dominion, and the same offence<lb/>should amount to the same crime, and<lb/>meet with the same punishment in the<lb/>various parts of the Dominion. The<lb/>mode of procedure must be different in<lb/>Quebec, and that was one reason we<lb/>could not advocate a Legislative Union.<lb/>By the Treaty made at Paris the Lower<lb/>Canadians have certain rights reserved<lb/>for them, that is in regard to their lan<lb break="no"/>guage, law proceedings and institutions<lb/>of the country, and these rights they<lb/>themselves cannot give up, and while<lb/>twenty men in Lower Canada demands<lb/>
+      
+
+            <cb/>
+        
+
+     these rights it becomes a question not 
+     <lb/>between the Provinces,but a question be<lb break="no"/>tween France and England. They cling<lb/>to their mode of procedure, but are will<lb break="no"/>ing to submit to have the General Legis<lb break="no"/>lature make the law in regard to crime<lb/>the same over the whole of the Do<lb break="no"/>minion.<lb/>
+            </p>
+            <p>In regard to our power to legislate<lb/>upon this question, it cannot be doubt<lb break="no"/>ed that we have the power until this<lb/>Proclamation declares the Act to be in<lb/>force. We have the same power to le<lb break="no"/>gislate now as we had before we agreed<lb/>to this Act of Union. The point is not<lb/>whether we have the power, but are<lb/>we in a position properly to exercise<lb/>that power? Having agreed that those<lb/>Judges should be paid by the General<lb/>Government, are we doing what is fair<lb/>between man and man in taking the<lb/>patronage of those appointments to<lb/>ourselves when they have to pay the<lb/>salaries? If any of the hon. members<lb/>can convince me by any arguments<lb/>they can conduce that we are justified<lb/>in taking this patronage out of the<lb/>hand of the General Government, I<lb/>shall be very happy to see if I cannot<lb/>improve the Bill and assist them in any<lb/>way, but until I am convinced of that,<lb/>I am not in a position to consider the<lb/>matter at all.<lb/>
+            </p>
+            <p><persName ref="pers:WILM1">Hon. Mr. WILMOT</persName>.—In the old<lb/>Quebec Scheme the Judges of the<lb/>County Courts for Western Canada<lb/>alone were to be a charge upon the<lb/>general revenue. When the question<lb/>came up for discussion before the Dele<lb break="no"/>gates I made a proposition that as<lb/>County Courts having worked well in<lb/>Western Canada, and being a cheap<lb/>and expeditious mode of getting small<lb/>debts collected, they should be extend<lb break="no"/>ed to other parts of the Dominion, and<lb/>it was agreed by the Delegates that<lb/>they should be so extended.<lb/>
+            </p>
+            <p><persName ref="pers:JOHN1">Mr. <choice><sic>JOHNSTON</sic><corr>JOHNSON</corr></choice></persName>.—I am not aware of<lb/>any agreement ; there was a sugges<lb break="no"/>tion made that these Courts should be<lb/>extended, provided the General Gov<lb break="no"/>ernment approved of it.<lb/>
+            </p>
+            <p><persName ref="pers:WILM1">Hon. Mr. WILMOT</persName>.—The salaries<lb/>of the Judges of the County Courts of<lb/>Western Canada are paid out of the<lb/>general revenue, but the Act brought<lb/>in was to establish County Courts<lb/>through the other Provinces, and the<lb/>General Government were to pay the<lb/>salaries of the County Court Judges.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—My hon. and<lb/>learned friend from Northumberland<lb/>(Mr. Johnson) says if we can convince<lb/>him satisfactorily that his co-delegates<lb/>have any justification in departing from<lb/>a contract entered into with our col<lb break="no"/>leagues representing Canada and Nova<lb/>Scotia, then he is prepared to support<lb/>the Bill I assert here boldly that there<lb/>
+       
+
+            <pb n="102" facs="final/images/NB_LA_1867-05-30_Page_102.jpg"/>
+      
+
+     <fw type="num">102</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw> 
+
+
+     is nothing can justify on our part a de<lb break="no"/>parture in the least degree from a con<lb break="no"/>tract made there. If I entertained the<lb/>opinion for one moment that the Bill<lb/>now under the consideration of the<lb/>Committee was intrenching upon any<lb/>portion of that contract, I would give<lb/>it, as one of the Delegates, my most<lb/>determined opposition. I hold that<lb/>under the provisions of this Bill we are<lb/>acting in honesty to our co delegates.<lb/>My hon, friend from Norhumberland<lb/>says that at Quebec he took the ground<lb/>that the salaries must come from the<lb/>same Government in which the patro<lb break="no"/>nage lay. It was agreed, no doubt,<lb/>that the Judiciary should be paid by<lb/>the General Government, and if paid<lb/>by them they should make the appoint<lb break="no"/>ments —a discussion took place, and a<lb/>speech was made by a member of ano<lb break="no"/>ther branch of the Legislature, and<lb/>there was scarcely any difference of<lb/>opinion upon the subject. That pro<lb break="no"/>vision has not been departed from even<lb/>in the London Conference or in this<lb/>Act. Then in regard to fixing the<lb/>salaries, it is only after the Union takes<lb/>place that no salary can be fixed with<lb break="no"/>out the assent of the General Parlia<lb break="no"/>ment. All salaries may be fixed now,<lb/>and appointments made to the Bench,<lb/>but they are all subject to modification<lb/>and change by the General Govern<lb break="no"/>ment. If my hon friend was right in<lb/>saying we should not make these ap<lb break="no"/>pointments, he might, with equal jus<lb break="no"/>tice, say, if a vacancy occurred on the<lb/>Bench of the Supreme Court, that it<lb/>was under the control of the General<lb/>Government alone, and we should not<lb/>appoint a Judge for that Court. He<lb/>takes two positions, first, that it is a<lb/>violation, to a certain extent, of good<lb/>faith with our co-delegates, and next,<lb/>that we have not the power.<lb/>
+            </p>
+   
+            <p>
+     
+  <persName ref="pers:JOHN1">Mr. JOHNSON</persName>.—I said we had the  
+     <lb/>power, but the property of exercising<lb/>it was a different thing.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—I understood<lb/>him to say we had a right to pass the<lb/>Act, but had not the power to appoint<lb/>a Judge.<lb/>
+            </p>
+            <p><persName ref="pers:JOHN1">Mr. JOHNSON</persName>. — No. no. I said<lb/>most distinctly that we had the right to<lb/>pass the Act until the time the Procla<lb break="no"/>mation brought the Act of Union into<lb/>operation ; that our power was not lim<lb break="no"/>ited until that Act was in force.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—Then my hon.<lb/>friend takes away one of the objections.<lb/>I thought he admitted that we had the<lb/>power to pass the Act, but did not<lb/>think we had the power to appoint the<lb/>Judges or fix the salaries. The right,<lb/>so far as the salaries are concerned, is a<lb/>matter to be dealt with after Union<lb/>takes place. We may think the coun<lb break="no"/>try requires four or five more Judges,<lb/>
+         
+
+            <cb/>
+         
+
+     but they may say two Judges are suf<lb break="no"/>ficient, and they can deal with the num<lb break="no"/>ber of Judges and the amount of sala<lb break="no"/>ries as they see fit. The salaries of<lb/>our Judges are to be the same as the<lb/>salaries of the Judges of Upper Canada,<lb/>that was arranged at Quebec. It was<lb/>brought up and discussed fairly there,<lb/>and the whole subject was entered into<lb/>in reference to the property of extend<lb break="no"/>ing to the different Provinces the same<lb/>privileges given to Upper Canada. The<lb/>resolution passed at the London Con<lb break="no"/>ference shows clearly the nature of the<lb/>agreement entered into:<lb/>
+            </p>
+   
+<quote rendition="tccd:blockquote">
+            <p>
+     " The General Government shall ap<lb break="no"/>point and pay the salaries of the Judges<lb/>of the Superior and District and County<lb/>Courts in each Province, and Parliament<lb/>shall fix their salaries."<lb/>
+            </p></quote>
+   
+            <p>
+     This section was put-in by chance, 
+     <lb/>but the question was well argued,<lb/>otherwise it would not have been put<lb/>in. We discussed the whole Quebec<lb/>Scheme, and the question was argued<lb/>in reference to paying the Judges of<lb/>the County Courts in Canada, and we<lb/>secured for New Brunswick the same<lb/>privilege.<lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:SMIT1">Mr. SMITH</persName>.—There is a distinction 
+     <lb/>between the resolution passed in Con<lb break="no"/>ference and the law.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—I will read them<lb/>together. I will first read the resolu<lb break="no"/>tion passed at the Conference, and I<lb/>will then read the law framed by the<lb/>Attorney Generals of the different Pro<lb break="no"/>vinces, assisted by a legal gentleman<lb/>who drafts the Imperial Acts for the<lb/>Imperial Government. First.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The General Government shall ap<lb break="no"/>point and pay the salaries of the Judges<lb/>of the Superior and District and County<lb/>Courts in each Province, and Parlia<lb break="no"/>ment shall fix their salaries."<lb/>
+            </p></quote>
+
+
+            <p>The law framed from that says :<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>The Salaries, Allowances, and Pen<lb break="no"/>sions of the Judges of the Superior, Dis<lb break="no"/>trict, and County Courts (except the<lb/>Courts of Probate in Nova Scotia and<lb/>New Brunswick), and of the Admirality<lb/>Courts in cases where the Judges there<lb break="no"/>of are for the time being paid by salary,<lb/>shall be fixed and provided by the Par<lb break="no"/>liament of Canada.<lb/>
+            </p></quote>
+   
+            <p>
+     This says except the Courts of Pro<lb break="no"/>bate, which we told them were paid by<lb/>fees. Why was it necessary to make a<lb/>provision to pay the Judges of County<lb/>Courts unless we contemplated estab<lb break="no"/>lishing than ? I think every hon. mem<lb break="no"/>ber in the House will see that it is the<lb/>spirit of the agreement that these Courts<lb/>should be established, if we did not<lb/>contemplate doing this, why did we<lb/>ask for this change in the Quebec<lb/>Scheme ? My hon. friend says this pa<lb break="no"/>tronage should not be exercised by the<lb/>
+       
+
+            <cb/>
+       
+
+     Local Government, but by the General     
+     <lb/>Government. Suppose these Judges<lb/>are appointed in the meantime, they<lb/>are appointed by the advice of the Local<lb/>Government ; and if they were appoint<lb break="no"/>ed by the Central Government, would<lb/>it not be after advice had been given<lb/>by the Local Government ? We have<lb/>the power to establish these Courts, and<lb/>I believe it is perfectly in accordance<lb/>with the contract entered into with our<lb/>co-delegates, and not a violation of it.<lb/>If it was, I would not stand here and<lb/>support this Bill, I am not supporting<lb/>it for motives of personal interest, for I<lb/>cannot be a judge.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>—You can appoint your<lb/>friends.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>. —I should like to<lb/>know from my hon. friend, with his ex<lb break="no"/>perience in this respect, what he thinks<lb/>of the patronage. I do not think he<lb/>would desire a very large amount of<lb/>patronage, especially in the appoint<lb break="no"/>ment of Judges.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—It will help you to go<lb/>to Ottawa.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—In making these<lb/>appointments, there will be five ene<lb break="no"/>mies made to one friend. I have no<lb/>doubt it there are four Judges to be ap<lb break="no"/>pointed, there will be found twenty<lb/>willing to take the office for the mem<lb break="no"/>bers of the profession are very patriotic,<lb/>and they would make a great sacrifice<lb/>to prevent a situation of this kind from<lb/>going a begging. I am not a lawyer<lb/>myself, and therefore cannot expect to<lb/>be a Judge, so I cannot be charged with<lb/>supporting the measure for that pur<lb break="no"/>pose. If I was looking forward to Ot<lb break="no"/>tawa, I think it would be threatening<lb/>my position rather than strengthening<lb/>it for me to stand here in my place and<lb/>advocate the passage of a Bill at vari<lb break="no"/>ance with the wishes of the gentlemen<lb/>in Canada with whom I would be asso<lb break="no"/>ciated. When I was lately advocating<lb/>the introduction of a section into a Bill<lb/>to authorize the Government of Canada<lb/>to take possession of the Bay Verte<lb/>Canal, I was told I was advocating the<lb/>cause of Canada, but now the tables<lb/>are turned, and I am accused of dis<lb break="no"/>honestly wanting to get into the public<lb/>chest of Canada. It is not very consis<lb break="no"/>tent to say first I am working for Ca<lb break="no"/>nada, and the next day say I am working<lb/>against Canada. We are perfectly jus<lb break="no"/>stified in doing what we are, and the<lb/>only question to be considered is, how<lb/>many Judges are you justified in ap<lb break="no"/>pointing or employing for these duties ?<lb/>If you appoint more than are necessary,<lb/>you are not justified, therefore you<lb/>should appoint just as many as are ne<lb break="no"/>cessary and no more.<lb/>
+            </p>
+            <p><persName ref="pers:SUTT1">Mr. SUTTON</persName>.—I think this Bill will<lb/>take from us certain rights and powers,<lb/>
+         
+
+            <pb n="103" facs="final/images/NB_LA_1867-05-30_Page_103.jpg"/>
+        
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw> <fw type="num">103</fw>
+
+
+which we now possess, but after due<lb/>consideration, I have made up my mind<lb/>to support it.<lb/>
+            </p>
+            <p><persName ref="pers:CHAN1">Mr. CHANDLER</persName>.—I thought from<lb/>the length of time the hon. member for<lb/>Westmorland (Mr. Smith) spoke, we<lb/>would have heard more from him re<lb break="no"/>garding the principle of the Bill. In<lb/>the first place, he said he was going to<lb/>discuss the principle of the Bill, and<lb/>was not going to enter into details ; but<lb/>he said very few words about the prin<lb break="no"/>ciple, but spoke about the defects of the<lb/>different sections of the Bill. It has<lb/>been said that we have not the power<lb/>or right to legislate upon this subject at<lb/>all. I say until the Union is consum<lb break="no"/>mated we are clothed with all the pow<lb break="no"/>ers we had. Has not this Legislature<lb/>the power to establish or abolish any<lb/>Courts of Law ? I say our legal right<lb/>to do so cannot be doubted. Then if<lb/>there is a legal right, we must consider<lb/>whether it is necessary. Let us look at<lb/>the state of the law as administered in<lb/>the country. My hon. friend from<lb/>Westmorland (Mr. Smith) has tried to<lb/>put a false gloss on some of his state<lb break="no"/>ments ; he refers to the jurisdiction of<lb/>the Supreme Court, and says in a sum<lb break="no"/>mary action the costs would be $7.20,<lb/>but under this Bill they would be $8.60<lb/>including the cost of the execution.<lb/>That is for sums below £20, but if you<lb/>bring an action for sums of from £20<lb/>to £50 in the Supreme Court the costs<lb/>are £8 or £9 ; therefore, when he com<lb break="no"/>pared the costs under this Bill and the<lb/>costs in the Supreme Court, he did not<lb/>state the whole case. This Bill posses<lb break="no"/>ses the important element of cheap<lb/>justice, for causes are decided cheaply<lb/>and quickly. It proposes to reduce the<lb/>number of jurors to five, thereby re<lb break="no"/>ducing the expense considerably. If I<lb/>had my way in this summary jurisdic<lb break="no"/>tion, in all causes where the mere right<lb/>of the party or debts are concerned I<lb/>would not have any Jury at all. I<lb/>would rather leave the cause to an in<lb break="no"/>telligent and learned Judge than submit<lb/>it to a Jury, who are influenced by<lb/>paltry prejudice or who are not ac<lb break="no"/>quainted with the subject. In the<lb/>Supreme Courts in England and in this<lb/>Province there is often a great contest<lb/>between the Judge and Jury. The Jury<lb/>often go against the evidence, and then<lb/>applications are made for new trials to<lb/>get rid of the wrong decisions of Juries.<lb/>If the Judge in any of these County<lb/>Courts should go wrong and misdirect<lb/>the Jury, the party has an appeal open<lb/>to him and he can avail himself of it.<lb/>I have made a very few observations,<lb/>and I shall reserve my remarks until<lb/>we come to consider the details of the<lb/>Bill. It is admitted that we have a right<lb/>to legislate upon this subject, therefore<lb/>
+          
+
+            <cb/>
+     
+
+the only thing for us to consider is<lb/>whether the country is in such a state<lb/>as to require the construction of this<lb/>Court. If it is the opinion of the House<lb/>that we are in such a state that this new<lb/>system is required, and there is no legal<lb/>objection, I shall give the Bill my support.<lb/>
+            </p>
+            <p><persName ref="pers:LEWI1">Mr. LEWIS</persName>.—There seems to be<lb/>some difficulty between some of the<lb/>hon. gentlemen who support the Bill<lb/>and some of the hon. gentlemen who<lb/>hold the situation of Judges in the<lb/>Inferior Court of Common Pleas. Some<lb/>hon. gentlemen have a prospect of being<lb/>elevated to the offices of Judges in those<lb/>County Courts, but my hon. friend from<lb/>Northumberland and myself are not in<lb/>that position—we expect to be lowered<lb/>down from the position we formerly<lb/>occupied. Notwithstanding this, if this<lb/>House can rightly and justly pass this<lb/>Bill, and the Dominion of Canada pay<lb/>the Judges, I shall support the Bill, for<lb/>I think it is required by the country.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—I assume this Bill will<lb/>pass, for I think any measure the Gov<lb break="no"/>ernment may bring forward will be<lb/>agreed to by this House. I do not<lb/>think it proper for the Provincial Secre<lb break="no"/>tary to state here what he would do,<lb/>and what he would not do, for the pur<lb break="no"/>pose of making a reputation for himself,<lb/>for that will not avail in the interpre<lb break="no"/>tation of a statute. What a man will<lb/>do and what he will not do does not<lb/>affect the construction of a law. We<lb/>have to look at this Act as it is, and not<lb/>to any proposition made in regard to it.<lb/>The hon. member from St. John (Mr.<lb/>Wilmot) says he made a proposition<lb/>that County Courts should be adopted<lb/>in this Province, and this was agreed to<lb/>by the Delegates ; but the Attorney<lb/>General seems to disagree with him, for<lb/>he says there was something said about<lb/>County Courts, but he does not recol<lb break="no"/>lect of anything being said about<lb/>bringing in a law to constitute them.<lb/>The Provincial Secreatry's memory is<lb/>better ; he states that it was discussed<lb/>elaborately and fully, and it was under<lb break="no"/>stood we were to bring in an act to con<lb break="no"/>stitute those Courts. He insinuates I am<lb/>advocating the interest of Canada, while<lb/>I had charged him with pursuing that<lb/>course. I am not advocating the in<lb break="no"/>terest of Canada, but I am giving a fair<lb/>construction to an Act according to the<lb/>language employed. One hon. member<lb/>says that constituting these Courts is no<lb/>departure from the agreement made,<lb/>and another hon. member says it is a<lb/>departure from that agreement and we<lb/>cannot justify it. This is the position<lb/>we are in, and in the conflict of these<lb/>statements we must look at what the<lb/>law says. Neither the spirit of the law<lb/>nor the letter gives this Legislature<lb/>
+        
+
+    
+            <cb/>
+         
+authority to appoint new Judges in new<lb/>Courts. It is said that the General<lb/>Government will pay those Judges, but<lb/>they must not forget what the people of<lb/>the country will have to pay. You con<lb break="no"/>stitute four Courts, and have a Jury of<lb/>ten for each Court, and all those Jury<lb/>fees will have to be paid by the country.<lb/>When the Attorney General tells us that<lb/>the administraion of the criminal law<lb/>will be borne by the people, I am<lb/>strengthened in my opposition. The<lb/>Sessions will still continue one of the in<lb break="no"/>stitutions of the country, and that Court<lb/>must have a Grand Jury and a Petit Jury.<lb/>We will have eight Courts in the coun<lb break="no"/>try for the people to keep up. The pay<lb break="no"/>ment of the Judges by the General<lb/>Government is no object, for we will have<lb/>to pay the Juries and keep up all the<lb/>expenses. I believe there is no necessity<lb/>for a law establishing four additional<lb/>Courts, with a panel of ten Jurymen to<lb/>pay, besides travelling expenses. If there<lb/>is a failure of public justice in the coun<lb break="no"/>try, and the people call loudly for some<lb/>change in our judicial institutions, then<lb/>let us make such change, but there is no<lb/>such call for establishing those County<lb/>Courts, by which additional burdens are<lb/>imposed upon the country. We have now<lb/>to pay $6,000 a year as Jury fees, and<lb/>this sum will be vastly increased when<lb/>we establish these additional Courts. In<lb/>regard to patronage ; I suppose the<lb/>Provincial Secreatry, if a lawyer, would<lb/>not take one of these Judgeships, for he<lb/>has higher aspirations ;—he wants to es<lb break="no"/>tablish a reputation for Ottawa—he ex<lb break="no"/>pects to get an office there with twelve<lb/>hundred pounds a year. Still, he has<lb/>some little interest in this matter ; he<lb/>sees friends around him who have fought<lb/>with him side by side ; he sees profes<lb break="no"/>sional men who could undoubtedly<lb/>adorn these Courts ; and, when about to<lb/>leave them, he feels it his duty to do<lb/>something for them. He tells us that for<lb/>every office he has had five applicants.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—I did not say<lb/>that.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—You said what meant<lb/>it. The Secretary, like myself, will pro<lb break="no"/>bably run his election, for we both seem<lb/>to have Ottawa on the brain, and when<lb/>he is taking leave of his friends, whom he<lb/>has promised so much—<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—I have not pro<lb break="no"/>mised them anything.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—Have you not promised<lb/>them some of these Judgeships ?<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—No.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—Have you not received<lb/>applications for those offices ?<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—I have received two<lb/>letters from your own County.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—No doubt but they were<lb/>written by good men, for there are some<lb/>
+    
+
+            <pb n="104" facs="final/images/NB_LA_1867-05-30_Page_104.jpg"/>
+         
+<fw type="num">104</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw>
+
+
+men in our County for whom you ought<lb/>to do something.<lb/>
+            </p>
+            <p>The Secretary has higher aspirations<lb/>and expects higher emoluments, and he<lb/>will make this Bill subservient to his<lb/>purpose ; he will make it a kind of agent<lb/>to increase his popularity. It covers a<lb/>great deal of ground, and it will require<lb/>the best intellects of the country to fill<lb/>those positions. I think this Bill will<lb/>assist wonderfully to keep the waters run<lb break="no"/>ning smoothly throughout the Session.<lb/>I have no doubt but the Government will<lb/>be strengthened by the fact that this Bill<lb/>is before the House, because some of<lb/>their supporters see a chance of coming<lb/>in for some of these offices, or for getting<lb/>them for their friends. I was surprised<lb/>to hear the Secretary tell us that he had<lb/>not promised any of these offices and had<lb/>but two applications for them. I under<lb break="no"/>stood him to say there would be twenty-<lb break="yes"/>five applications.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—I did not say<lb/>there would be twenty-five applications.<lb/>I said as a general rule there would be<lb/>five enemies made for every appoint<lb break="no"/>ment.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—You said there would be<lb/>five applications, and there being five<lb/>offices that would make twenty-five.<lb/>When the Secretary talks of his desire to<lb/>serve his country, I wonder that he, hav<lb break="no"/>ing been in public life so long, should just<lb/>at this present time have discovered that<lb/>it was necessary to make such organic<lb/>changes in the jurisdiction of the country.<lb/>I am not going to occupy much time, for<lb/>I see hon. members from the rural dis<lb break="no"/>tricts where there is no failure of justice<lb/>are going to support the Bill, therefore I<lb/>feel it is vain for me to oppose it. Not<lb break="no"/>withstanding, I will raise my voice against<lb/>it, for I want the people of the country to<lb/>understand that I opposed it. I think<lb/>when you come to discuss the details of<lb/>the Bill you will find them very defective,<lb/>and I may have something to say in re<lb break="no"/>gard to them, but I shall not now occupy<lb/>the time any further.<lb/>
+            </p>
+            <p><persName ref="pers:DOW1">Mr. DOW</persName>.—I presume I cannot be<lb/>accused of selfishness in supporting this<lb/>Bill, as in all the provisions of it there is<lb/>no provision for a doctor, for all the offi<lb break="no"/>ces are to be filled by lawyers. I am not<lb/>going to make a speech, as I have, for<lb/>numerous reasons, always made it my<lb/>rule in this House to let legal gentlemen<lb/>manage legal Bills, and form my opinion<lb/>upon the arguments used. Still, profes<lb break="no"/>sing to have a little judgement in regard<lb/>to what the English language does mean,<lb/>I do think there could be no possible<lb/>reason for the Delegates passing a resolu<lb break="no"/>tion to pay the Judges of County Courts<lb/>if they did not expect us to establish<lb/>them. I am proud to hear my hon. friend<lb/>(Mr. Smith) say, when speaking of the<lb/>young men of the Province, that they by<lb/>
+
+
+            <cb/>
+         
+
+     their capacity, energy and education are 
+     <lb/>able to cope with the statesmen of Canada.<lb/>I was proud to hear him say so, when he<lb/>pointed to the Provincial Secretary as<lb/>going to have a large appointment there ;<lb/>I was glad to hear it, though I have no<lb/>intention of "soft sawdering" the Pro<lb break="no"/>vincial Secretary. The ex-Attorney<lb/>General put a good spoke in my wheel for<lb/>supporting this Bill when he stated the<lb/>General Parliament had to pay these<lb/>County Court Judges, and they ought to<lb/>have the patronage of appointing them.<lb/>I am not willing to go into that Confed<lb break="no"/>eration unless New Brunswick has the<lb/>same advantages which Canada has.<lb/>They have District Judges in Canada,<lb/>and we will have to do our share in pay<lb break="no"/>ing those Judges, when we have not had<lb/>the patronage of appointing them ; why,<lb/>then, should they have the patronage of<lb/>appointing ours ? After they are ap<lb break="no"/>pointed, we will go into Confederation<lb/>with the same privileges they have.<lb/>These Courts have worked well both in<lb/>Great Britain and Canada, and I can see<lb/>no reason why they would not work well<lb/>here. I believe they will be a great bene<lb break="no"/>fit to the country, and will simplify and<lb/>cheapen the law.<lb/>
+            </p>
+            <p><persName ref="pers:BECK1">Mr. BECKWITH</persName>.—I intend to sup<lb break="no"/>port this Bill, and I believe we have the<lb/>perfect right to appoint those Judges,<lb/>and I believe it is consistent with all<lb/>honor, fairness and honesty for us to ex<lb break="no"/>ercise that right before we go into Union.<lb/>I believe from my experience that these<lb/>Courts are necessary to the proper ob<lb break="no"/>taining of justice in all parts of New<lb/>Brunswick. In the Supreme Court the  <lb/>Judges are overworked, in consequence<lb/>of the number of small causes that come<lb/>before them. In many cases, where debts<lb/>of £15 and upwards are due, the credit<lb break="no"/>ors consent to suffer loss sooner than have<lb/>to pay the enormous costs in collecting<lb/>them in the Supreme Court. The busi<lb break="no"/>ness in the Courts is much greater than<lb/>when the number of inhabitants in the<lb/>Province was but 90,000, and we have<lb/>not increased the number of Judges in<lb/>proportion to the increase of population<lb/>and the increase of business to be done.<lb/>More facilities for obtaining justice are<lb/>required, therefore it is necessary to es<lb break="no"/>tablish these County Courts, to relieve<lb/>the Supreme Court from the trouble of<lb/>dealing with many of those petty causes<lb/>which now take up so much of their time.<lb/>The Juries in these County Courts are<lb/>to be reduced to five, and this will reduce<lb/>the expense. I see, upon looking at the<lb/>Schedule of Fees, that upon every cause<lb/>entered for trial that there is a Jury upon<lb/>there is a fee of one dollar and three<lb/>dollars to be deposited on entry for the<lb/>trial of the cause. This makes four dol<lb break="no"/>lars to go towards paying the Juries, and<lb/>we know that a great many causes are<lb/>
+        
+
+            <cb/>
+    
+
+entered that never go to trial ; therefore,<lb/>this fund will defray a large proportion of<lb/>the expense connected with Juries. The<lb/>Supreme Court could then take charge of<lb/>important causes which require first-class<lb/>lawyers and heavy fees, and the Judges<lb/>can take the necessary time to come to<lb/>an accurate decision ; but now, from the<lb/>multiplicity of causes, they cannot devote<lb/>the necessary time required to do ample<lb/>justice to all classes of subjects. It is<lb/>not in consequence of the measure com<lb break="no"/>ing from the Government that I support<lb/>the Bill, but it is because I believe it is<lb/>required by the country.<lb/>
+            </p>
+            <p><persName ref="pers:JOHN1">Mr. JOHNSON</persName>.—It is my impression<lb/>that the Judges can decide better after<lb/>hearing the arguments than they can by<lb/>waiting two or three days to come to a<lb/>decision. My hon. friend (Dr. Dow) said<lb/>he did not wish to go into Confederation<lb/>upon worse terms than Canada. I never<lb/>wished it, either, and I did all I could to<lb/>prevent it. The question is not whether<lb/>we wished to go in upon better terms, but<lb/>upon what terms did we agree to ? The<lb/>Hon. Provincial Secretary has failed to<lb/>convince me with regard to the construc<lb break="no"/>tion of this, and the hon. member for<lb/>Westmorland (Mr. Smith) has failed to<lb/>convince me of the impropriety of these<lb/>Courts. I am favorable to District Courts<lb/>and the principle of the Bill ; the only<lb/>point I want to be satisfied upon is, Can<lb/>I consistently, with my view of this con<lb break="no"/>tract, vote for this Bill without feeling I<lb/>am violating the agreement into which<lb/>we entered? The Secretary construed it<lb/>one way and I a different way, but we<lb/>are each accountable to his own con<lb break="no"/>science and judgment when voting upon<lb/>a question of this kind. I am particu<lb break="no"/>larly satisfied that no member of the<lb/>Delegation would vote for this Bill if he<lb/>thought it was not right to do so, and I<lb/>know the Secretary is desirous of doing<lb/>what is right. When I hold a conscien<lb break="no"/>tious conviction—for the Secretary has<lb/>failed to convince me that this agreement<lb/>would not be violated—I must stand<lb/>back, for I am not accountable to his<lb/>judgment ; but I am accountable to my<lb/>own conscience, and standing here as one<lb/>of the Delegates I entertain a very strong<lb/>opinion upon the subject. Both the<lb/>Secretary and the hon. member from St.<lb/>John (Mr. Wilmot) say that a great deal<lb/>was said about District Judges ; what<lb/>agreement did they come to ? If two<lb/>men discuss a matter, and afterwards put<lb/>it down in an agreement, which is to be<lb/>the contract, the discussion which took<lb/>place or the writing which is the result of<lb/>that discussion ? A lawyer will tell you<lb/>that you cannot take what is spoken, but<lb/>you must take what is written as the<lb/>agreement. What was written in this<lb/>case ?<lb/>
+            </p>
+
+    
+            <pb n="105" facs="final/images/NB_LA_1867-05-30_Page_105.jpg"/>
+          
+
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw> <fw type="num">105</fw>
+
+
+           <quote rendition="tccd:blockquote"> <p>" The General Government shall pay<lb/>the Superior, District and County Courts<lb/>in each Province."<lb/>
+            </p></quote>
+
+
+            <p>The Provincial Secretary reads that to<lb/>mean District Courts and County Courts<lb/>are to be created, but I read it as Courts<lb/>then existing ; therefore, as we had no<lb/>County Courts in New Brunswick, no<lb/>power was given to establish them. When<lb/>we entered into this contract Canada<lb/>agreed to give us $60,000 a year beyond<lb/>Nova Scotia. Suppose we established<lb/>County Courts here and called upon<lb/>Canada to pay the Judges' salaries—<lb/>amounting to $6,000, or upwards,—they<lb/>might say to us, We agreed to give you<lb/>an additional bonus under existing cir<lb break="no"/>cumstances, but as you have largely in<lb break="no"/>creased the amount we expected to pay<lb/>you by appointing additional Judges, you<lb/>will have to provide for their salaries<lb/>yourselves. If the General Legislature<lb/>consider it is for the interest of the whole<lb/>people that County Courts be established<lb/>it is in their power to establish them by<lb/>law, and then they will pay them. If I<lb/>was afraid that the General Government<lb/>of Canada would seek to do injustice to<lb/>the Province, I would never had con<lb break="no"/>sented to have gone into Confederation.<lb/>I always felt that the safety of the Pro<lb break="no"/>vince did not depend so much upon the<lb/>number of the representatives as upon<lb/>having a party Government. No Gov<lb break="no"/>ernment could exist in Canada that<lb/>sought to do injustice to any portion of<lb/>the empire. There will always be a<lb/>healthy opposition, and if the Govern<lb break="no"/>ment attempt to do injustice to any of the<lb/>Provinces there will be a combination in<lb/>that locality, and they will throw their<lb/>power into the Opposition, which will<lb/>cause the overthrow of the Government.<lb/>
+            </p>
+            <p>My hon. friend from Charlotte (Mr.<lb/>Chandler) said he would rather submit a<lb/>cause to a Judge than to a Jury. I do<lb/>not hold any such doctrine. You cannot<lb/>tell me of the country that lost its trial by<lb/>Jury that did not lose its liberty too, for<lb/>trial by Jury is the great safeguard of the<lb/>country. I think if the country requires<lb/>these Courts any additional trifling ex<lb break="no"/>pense should not be considered. I am<lb/>strongly in favor of them, but I cannot<lb/>vote for the Bill for the reasons which<lb/>I have stated.<lb/>
+            </p>
+            <p><persName ref="pers:LIND1">Mr. LINDSAY</persName>.—My hon. friend says<lb/>we have a right to do a thing and we have<lb/>not a right to do it.<lb/>
+            </p>
+            <p><persName ref="pers:JOHN1">Mr. JOHNSON</persName>.—I said we had the<lb/>power, and not the right. You have the<lb/>power to knock a man on the head, but<lb/>you have not the right to do it.<lb/>
+            </p>
+            <p><persName ref="pers:LIND1">Mr. LINDSAY</persName>.—It has been a question<lb/>with me whether we had the right. Two<lb/>powers cannot both have the right to<lb/>establish these Courts. The General<lb/>Government cannot have the right and<lb/>the Local Government the right at the<lb/>
+     
+
+            <cb/>
+    
+
+same time. It has been stated that there<lb/>was an understanding that we were to<lb/>appoint them, but that is poor law if there<lb/>is no writing to show it. If these Courts<lb/>are established it will be a fine harvest for<lb/>the lawyers ; there will be five additional<lb/>Judges appointed for these Courts, and<lb/>then there is talk of another Judge for<lb/>the Supreme Court. This will make<lb/>eleven Judges in all. Then there are<lb/>five clerks to be appointed, and they must<lb/>be lawyers too. The Imperial Act of<lb/>Union states that the salaries of the<lb/>Judges shall be fixed and paid by the<lb/>Parliament of Canada. Here we see the<lb/>General Government has the power, and<lb/>still the Local Legislature retains it.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—So we do until<lb/>the Union takes place.<lb/>
+            </p>
+            <p><persName ref="pers:LIND1">Mr. LINDSAY</persName>.—That is to say cer<lb break="no"/>tain parties can do certain things and<lb/>subordinate parties can do the same thing.<lb/>We find it stated in the Act that the Par<lb break="no"/>liament of Canada may provide for the<lb/>establishment of any additional Courts<lb/>for the better administration of the laws<lb/>of Canada. Then if we have not the au<lb break="no"/>thority to appoint these Judges, and the<lb/>Parliament of Canada will not pass an<lb/>Act to constitute these Courts, we will<lb/>have to pay them ourselves. Each Judge<lb/>will be a Judge of three Counties, and a<lb/>person would have to go a long distance<lb/>to make an affidavit before him, and then<lb/>have to wait for the sitting of the Court<lb/>before he could collect a debt. Then<lb/>there is in this Bill about a page and a<lb/>half of fees to be paid. I do not know<lb/>whether they will increase the expense of<lb/>the suit or not, but I know that it is very<lb/>desirable both for the plaintiff and de<lb break="no"/>fendant that there should be some means<lb/>of collecting debts without incurring such<lb/>a large expense. I have always been in<lb/>favor of increasing the jurisdiction of<lb/>Magistrates up to £10, in order that less<lb/>expense may be incurred in collecting<lb/>these small debts. After these County<lb/>Courts are established the General Ses<lb break="no"/>sions will still be in existence, and a<lb/>Grand Jury will have to be called and a<lb/>large number of Jurymen for these other<lb/>Courts, and this will increase the expense<lb/>for the country. I think these Courts will<lb/>be just a harvest for the lawyers, but<lb/>when you come to go in opposition to<lb/>them it is just like getting into a hornet's<lb/>nest. I believe about lawyers as I be<lb break="no"/>lieve about doctors—that the less you<lb/>have to do with them the better you are<lb/>off. They might be useful in their place,<lb/>but I would keep them at a respectful<lb/>distance. I do not believe in these law<lb/>shops ; some men want to be appointed<lb/>to be Justices just to make a living out of<lb/>it. If you can get the facts of a case out<lb/>before four honest men you will get more<lb/>justice done than you will at any of the<lb/>Courts, for there lawyers argue for the<lb/>
+   
+
+            <cb/>
+         
+
+     purpose of mystifying the Jury and each 
+     <lb/>side tries to make wrong appear right.<lb/>They only confuse the minds of the Jury<lb/>instead of helping them to come to a right<lb/>decision. There is nothing in this Bill<lb/>to show where the jurisdiction of this<lb/>Court commences or where the jurisdic<lb break="no"/>tion of the Magistrates leaves off. It is<lb/>stated that its jurisdiction shall extend to<lb/>$200, but there should be some provision<lb/>made that it should have no jurisdiction<lb/>over sums below a certain amount.<lb/>
+            </p>
+
+            <p><persName ref="pers:HIBB1">Mr. HIBBARD</persName>.—I see a delicacy on<lb/>the part of the lawyers in taking any part<lb/>in this debate ; probably they feel they<lb/>might be prejudged in the expressions<lb/>made use of. I am greatly surprised that<lb/>our Delegates, after remaining nine<lb/>months in England, should come out here<lb/>and differ in regard to what is implied in<lb/>this Act. It seems to me if that difference<lb/>of opinion had existed before they left<lb/>England, they would have had it recon<lb break="no"/>ciled. I ask, have we the legal right to act<lb/>in this matter ? The ex-Attorney General<lb/>says no ; the Attorney General says yes ;<lb/>therefore, I conclude, it is a mere matter<lb/>of opinion, and I have a right to express<lb/>my opinion as well as these gentlemen.<lb/>I have read that Bill carefully, and I think<lb/>we have a perfect right to establish these<lb/>Courts and appoint these Judges. I am<lb/>glad to see my hon. friend from West<lb break="no"/>morland (Mr. Smith) opposing the Bill,<lb/>for there are many weak points in it, and<lb/>as a lawyer, feeling as he does the great<lb/>necessity, if it should be forced upon us, of<lb/>having it as perfect as possible, he will<lb/>do all he can to point out its defects and<lb/>have it improved. If we do adopt these<lb/>Courts I do not believe the General<lb/>Government will interfere with us, unless<lb/>we are act indiscretely, in the number of<lb/>Judges we appoint. The question which<lb/>we have to consider is, Does the country<lb/>require these extra Courts ? I think it<lb/>does. In the County of Charlotte we<lb/>have a Court but once in twelve months,<lb/>and a man having a debt due him of $50<lb/>might as well lose it as to attempt to<lb/>recover it in the way we now have to re<lb break="no"/>cover debts. There may be some doubts<lb/>about the necessity for five Judges, or<lb/>some differences of opinion about the<lb/>number of Courts held in the different<lb/>Counties during the year. I think after<lb/>we provide the machinery of these Courts<lb/>and are satisfied that they will meet all<lb/>the demands of justice, if the staff of<lb/>Judges is too large the General Govern<lb break="no"/>ment will reduce it. We are to pay our<lb/>proportion of the Judges of Canada, as<lb/>well as our proportion of our own, there<lb break="no"/>fore we have a right to enter this Union<lb/>with as many Judges as our wants require.<lb/>I cannot agree with my hon. friend from<lb/>Westmorland (Mr. Smith) that there will<lb/>be a great deal of extra expense in Juries,<lb/>for I think there will be very little more<lb/>
+          
+
+            <pb n="106" facs="final/images/NB_LA_1867-05-30_Page_106.jpg"/>
+          
+<fw type="num">106</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw>
+
+
+money expended in the four Courts than<lb/>there is now expended in one Court, and<lb/>business can be done in one quarter of the<lb/>time. In our Courts there is always un<lb break="no"/>finished business left, making it necessary<lb/>to call special Sessions, therefore it be<lb break="no"/>comes necessary some provision should<lb/>be made to meet it. If the mode pro<lb break="no"/>posed by the hon. member for Westmor<lb break="no"/>land is best let us adopt that mode ; but<lb/>if not, then let us adopt this. I have<lb/>made up my mind that the country does<lb/>require these Courts, and therefore I shall<lb/>vote for this Bill. I shall not do so be<lb break="no"/>cause it is brought in by the Govern<lb break="no"/>ment, but I shall support it from principle.<lb/>I believe they have prepared this mea<lb break="no"/>sure because they believe the country<lb/>demands it. I stated that when they<lb/>brought in those measures which were<lb/>for the benefit of the country I would<lb/>vote for them, but when they brought<lb/>forward measures which I considered in<lb break="no"/>jurious to the country I should vote<lb/>against them. I have asked nothing<lb/>from them and I do not expect to receive<lb/>anything. I believe the constituency<lb/>of Charlotte will acquiesce in all the<lb/>provisions of this Bill. I believe that it<lb/>will be a more simple mode of recovering<lb/>debts and will be attended with less ex<lb break="no"/>pense. The ex-Attorney General seems<lb/>to think the Bill will pass whether it is<lb/>right or wrong, but I believe the hon.<lb/>members around me will exercise some<lb/>degree of judgment and will not be in<lb/>fluenced by any sinister motive to vote<lb/>contrary to the conviction of their own<lb/>consciences. I do not expect to get any<lb break="no"/>thing out of this Bill, and am not sup<lb break="no"/>porting it for any such motive, neither do<lb/>I think other hon. members are, but I do<lb/>believe that those who have supported the<lb/>Government in a manly way are entitled<lb/>to any favors which the Government have<lb/>to bestow. I dare say some of our legal<lb/>members may have friends whom they<lb/>would like to have fill these Judgeships<lb/>and I can see no impropriety in their<lb/>being appointed, but I believe the dis<lb break="no"/>tribution of these offices require the<lb/>most close scrutiny, and the best judg<lb break="no"/>ment must be exercised, otherwise the<lb/>Government will not strengthen them<lb break="no"/>selves in the appointments, but will make<lb/>some friends and a great many enemies.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—My hon. friend<lb/>says he cannot get anything out of this<lb/>Bill. I think he can get cheap law and<lb/>cheap justice out of it for his constitu<lb break="no"/>ents. My hon. friend from Carleton<lb/>(Mr. Lindsay) seemed to have an erro<lb break="no"/>neous impression about the Bill. He<lb/>says that according to the Imperial Act<lb/>the Judges are to be appointed by the<lb/>Central Government, therefore the Local<lb/>Government could not appoint them, for<lb/>it was impossible for the same powers to<lb/>be exercised by the Local and General<lb/>
+    
+
+            <cb/>
+         
+Governments. That position is not cor<lb break="no"/>rect, for there are subjects on which they<lb/>exercise concurrent legislation, but it is<lb/>not necessary to go into that now. When<lb/>he speaks of this Act of Union he speaks<lb/>as if it was in force to-day. We are in<lb/>the same position now as we were last<lb/>year, for we are not in the Union and<lb/>we have all the powers we ever had.<lb/>Every power we could exercise last Ses<lb break="no"/>sion we can exercise now, and we can fix<lb/>salaries and appoint Judges now as well<lb/>as we could then ; but after the first of<lb/>July this right ceases. Let us go further.<lb/>We have not only the patronage now and<lb/>the fixing of salaries, but it is provided<lb/>by the Act of Parliament that the Local<lb/>Legislatures shall have this power after<lb/>we enter the Union. The Act says the<lb/>Provincial Legislatures shall make laws<lb/>in relation to<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>"The administration of Justice in the<lb/>Province, including the constitution,<lb/>maintenance and organization of Pro<lb break="no"/>vincial Courts, both of Civil and Crimi<lb break="no"/>nal jurisdiction, and including procedure<lb/>in Civil matters in those Courts.<lb/>
+            </p></quote>
+
+
+            <p>These powers are left to our Legisla<lb break="no"/>ture after the Union takes place. It is<lb/>also stated in the Act that the appoint<lb break="no"/>ment of Judges and the fixing of their<lb/>salaries shall be in the hands of the Gen<lb break="no"/>eral Government ; therefore the General<lb/>and Local Legislatures have this power<lb/>jointly, and there will be no conflict of<lb/>interest if we pass this Bill.<lb/>
+            </p>
+            <p>My hon. friend from Northumberland<lb/>(Mr. Johnson) says we cannot act upon<lb/>conversations held, but must enforce<lb/>the written agreement. I admitted that,<lb/>and showed that a certain contract was<lb/>made at Quebec in 1864, and then I<lb/>showed that contract was changed in<lb/>1866, and it was not simply a verbal ar<lb break="no"/>rangement but a written agreement,<lb/>showing that a change had been made and<lb/>declaring distinctly that we had power to<lb/>constitute these Courts. Possibly the<lb/>hon. member was not paying any attention<lb/>to me while speaking. My hon. friend<lb/>from Westmorland says he knows this<lb/>Bill will pass because any measure intro<lb break="no"/>duced by the Government would pass ; he<lb/>saw the arguments were too strong<lb/>against the position he took, and the Bill<lb/>would be accepted by the House, and,<lb/>lawyer like, when he gets in a weak posi<lb break="no"/>tion, he breaks from the point. He then<lb/>turns upon the Provincial Secretary, and<lb/>speaks of his vaunting ambition and of<lb/>the position he wishes to fill. There was<lb/>no necessity for this, for I was endeavor<lb break="no"/>ing to show that I had no personal inter<lb break="no"/>est in the matter. He says, of course,<lb/>he would not take one of these Judge<lb break="no"/>ships—he seeks for something higher ; he<lb/>wants to get an office at Ottawa with<lb/>£1200 a year, and he now wishes to re<lb break="no"/>ward some of his supporters and friends<lb/>
+       
+
+            <cb/>
+           
+and gain political strength and influence<lb/>by it. If our appointments to office meet<lb/>the approbation of the public it will show<lb/>that they were properly made, and we will<lb/>be more fortunate than our predecessors<lb/>were in exercising patronage of this kind.<lb/>Then he goes on about the great expense<lb/>thrown upon the country by establishing<lb/>these Courts and the payment of Jury<lb/>fees, and that was his answer to all the<lb/>arguments in favor of establishing these<lb/>Courts. Suppose they did incur additi<lb break="no"/>onal expense, what is that compared to<lb/>the sacrifice that is made by individuals,<lb/>because the administration of justice is<lb/>not speedy, thereby involving an enor<lb break="no"/>mous expense. In St. John the criminal<lb/>business is not through, and cases where<lb/>witnesses have been brought from a dis<lb break="no"/>tance have been put off, causing great<lb/>inconvenience. I know men who have<lb/>debts of £20 owing them who would<lb/>rather lose the money than go into the<lb/>Supreme Court to collect those debts, and<lb/>so it is with thousands of people through<lb break="no"/>out the length and breadth of the country.<lb/>They have debts due them, but they will<lb/>not go to the Supreme Court to collect<lb/>them because of the time taken up and<lb/>the expense to be incurred.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—The Provincial Secre<lb break="no"/>tary thinks it rather hard that I should<lb/>speculate upon the fact that he expects<lb/>to go to Ottawa. It has been put forth<lb/>through the country that he is to be<lb/>Finance Minister of the New Dominion,<lb/>but he seems to be reluctant to be told of<lb/>the fact. Does he not aspire to that<lb/>office?<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—No, I do not.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—He considers his mo<lb break="no"/>tives more pure than mine.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—I did not say<lb/>it.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—He says he has no inter<lb break="no"/>est in the matter—what is his object in<lb/>saying that ? Is it to fall harmless upon the<lb/>House ? He asserts that his motives are<lb/>pure in order that the House may take<lb/>his advice. Cannot I say in answer to<lb/>that, True, you cannot expect an office in<lb/>this Court, but you are looking for some<lb break="no"/>thing higher, and you can obtain support<lb/>by means of this law to attain a higher<lb/>position. Is not that a legitimate answer<lb/>to counteract the effect of his statement ?<lb/>
+            </p>
+            <p>In regard to our right to constitute<lb/>these Courts, we find that when some of<lb/>these Delegates find the arguments too<lb/>strong for them they leave the let<lb break="no"/>ter of the law and fall back upon<lb/>what was understood at conference. It<lb/>is unfortunate these Delegates should<lb/>come out here and disagree among them<lb break="no"/>selves in regard to what was done at con<lb break="no"/>ference. The Secretary says I have<lb/>abandoned my position. I have not aban<lb break="no"/>doned my position, but all the arguments<lb/>I have advanced have been accumulative.<lb/>
+            </p>
+
+
+            <pb n="107" facs="final/images/NB_LA_1867-05-30_Page_107.jpg"/>
+          
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1867.</fw> <fw type="num">107</fw>
+
+
+
+            <p>If we pass this Bill I think it will be dis<lb break="no"/>allowed, for the spirit of the Imperial<lb/>Act is that you cannot recast your judi<lb break="no"/>cial institutions. I say many provisions <lb/>of this law are in force now. I would<lb/>like to ask whether the fiscal laws can be<lb/>changed ?<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—Yes, they can.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.— I think you had better<lb/>change them if you have the power. I<lb/>think we have not the power, but the<lb/>Secretary seems to speak <hi rendition="simple:italic">ex cathedra</hi> in<lb/>regard to the law, while the Attorney<lb/>General does not. I should rather have<lb/>the opinion of the Attorney General upon<lb/>the subject.<lb/>
+            </p>
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName>.—I think we have<lb/>the power to change them.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—They did not pass any<lb/>law in Nova Scotia upon the subject, and<lb/>I do not believe we have the power to do<lb/>so, because I believe a port on the Im<lb break="no"/>perial Act is in force. When the Secre<lb break="no"/>tary speaks of men being willing to lose<lb/>sums of £20 rather than bring an action<lb/>in the Supreme Court, does he not know<lb/>they can bring an action in the summary<lb/>process in the Spreme Court at a less<lb/>cost than would have to be paid under<lb/>this Bill ? I believe it would be more<lb/>economical, and the wants of the coun<lb break="no"/>try would be much better satisfied, if we<lb/>adopted my suggestion and increased the<lb/>summary practice to £50 and combined<lb/>the civil and criminal jurisdiction to<lb break="no"/>gether.<lb/>
+            </p>
+            <p>Progress was then reported upon the<lb/>Bill and leave asked to sit again.<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>, by command of<lb/>His Excellency the Administrator of the<lb/>Government, laid before the House de<lb break="no"/>spatches relating to Church patronage.<lb/>
+            </p>
+            <p><persName ref="pers:STEV1">Mr. STEVENS</persName> brought in a Bill<lb/>relating to paving streets and sidewalks<lb/>in the Town of St. Stephen.<lb/>
+            </p>
+            <p>On motion the House adjourned until<lb/>to-morrow at 9 o'clock.<lb/>
+            </p>
+            <p rendition="simple:right">T.P.D.<lb/>
+            </p>
+
+<!-- GL, 2018-05-01, Commented out below, as it will appear in the following debate day -->
+
+            <!--<p>FRIDAY, MAY 31.<lb/>
+            </p>
+            <p>SECOND READINGS.<lb/>
+            </p>
+            <p>The following Bills were read a second<lb/>time :<lb/>
+            </p>
+            <p>A Bill to provide for the more effectu<lb break="no"/>al repairing of the Streets, Sidewalks<lb/>and Bridges of Saint Stephen.<lb/>
+            </p>
+            <p>Certain amendments made by the Leg<lb break="no"/>islative Council to the Bill to Incorpo<lb break="no"/>rate the Albert Bank.<lb/>
+            </p>
+            <p>THIRD READINGS.<lb/>
+            </p>
+            <p>The following Bills were read a third<lb/>time :<lb/>
+            </p>
+            <p>A Bill relating to Paved Sidewalks in<lb/>the City of Saint John.<lb/>
+            </p>
+            <p>A Bill to authorize an assessment in<lb/>
+            </p>
+            <milestone type="unknown"/>
+            <p>the City of Saint John for the purposes<lb/>of an Agricultural exhibition therein.<lb/>
+            </p>
+            <p>A Bill to amend the Act to provide for<lb/>the erection of a City Hall in the City of<lb/>Saint John.<lb/>
+            </p>
+            <p>REPORT AND BILL.<lb/>
+            </p>
+            <p>Mr. BECKWITH, from the Road Com<lb break="no"/>mittee, reported that they had prepared<lb/>a Bill relating to Highways, which they<lb/>now begged to introduce.<lb/>
+            </p>
+            <p>The Bill was received and read a first<lb/>and second time.<lb/>
+            </p>
+            <p>RESOLUTION FOR ADDRESS.<lb/>
+            </p>
+            <p><persName ref="pers:WETM1">Mr. WETMORE</persName>, according to a notice<lb/>which he gave on Monday, moved an<lb/>Address to His Excellency the Adminis<lb break="no"/>trator of the Government, praying that<lb/>all papers connected with the claim of<lb/>Thomas King, a Railway Contractor,<lb/>against the Government, might be laid<lb/>before the House.<lb/>
+            </p>
+            <p>Messrs. Wetmore, Quinton and Des-<lb break="maybe"/>Brisay, were appointed a Committee to<lb/>wait upon His Excellency with the Ad<lb break="no"/>dress.<lb/>
+            </p>
+            <p>BILL.<lb/>
+            </p>
+            <p>Hon. Mr. McADAM moved for leave<lb/>to bring in a Bill to authorize the erec<lb break="no"/>tion of a Sorting Boom on Eel River in<lb/>the Counties of York and Carleton.<lb/>
+            </p>
+            <p>Leave was granted and the Bill read a<lb/>first and second time.<lb/>
+            </p>
+            <p>COUNTRY MARKET, ST. JOHN.<lb/>
+            </p>
+            <p>Mr. QUINTON moved the House into<lb/>Committee on a Bill to authorize the<lb/>City Corporation of Saint John to pur<lb break="no"/>chase lands to the northward of the<lb/>County Market in the said City of Saint<lb/>John.<lb/>
+            </p>
+            <p>Mr. LEWIS in the Chair.<lb/>
+            </p>
+            <p>The Bill was agreed to without de<lb break="no"/>bate.<lb/>
+            </p>
+            <p>COUNTY COURTS.<lb/>
+            </p>
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName> moved the House<lb/>into Committee on the further considera<lb break="no"/>tion of a Bill to establish County Courts.<lb/>
+            </p>
+            <p><persName ref="pers:BOTS1">Mr. BOTSFORD</persName> in the Chair.<lb/>
+            </p>
+            <p>Mr. McQUEEN.—Whilst I have been<lb/>listening to the debate the question has<lb/>occurred to me whether we have really<lb/>the power to legislate on this matter.<lb/>The Provincial Secretary and Attorney<lb/>General distinctly state that we have ;<lb/>the delegate member for Northumberland<lb/>says we have the legal power, but not<lb/>the moral power ; that it would be a<lb/>breach of faith with Canada to create<lb/>these Courts, as it was not contemplated<lb/>in the Act of Union. When these learn<lb break="no"/>ed men differ it is hard to know what to<lb/>think. There are some things in the Bill<lb/>that commend themselves to my mind.<lb/>It is said that the establishment of these<lb/>Courts will have the effect of giving us<lb/>cheap law and speedy justice, and if this<lb/>is the case it would be a great benefit ;<lb/>
+            </p>
+
+    
+            <milestone type="unknown"/>
+            <p>but it has been said by my colleague<lb/>Mr. Smith) that the process of law will<lb/>not be any cheaper under this Bill than<lb/>it is now, in the Court of Common Pleas,<lb/>and if the argument he used in support<lb/>of his position is correct, I do not see any<lb/>benefit that can be derived from the pas-<lb break="maybe"/>ing of this Bill. If the Court of Common<lb/>Pleas was presided over by man of legal<lb/>attainments, I think the standard of the<lb/>Court would be raised, and a great many<lb/>more cases be tried by it than at present.<lb/>I think, too, that if the jurisdiction of<lb/>these Courts was increased so as to bring<lb/>in cases up to $200, it would be found a<lb/>great benefit, and if to this were added a<lb/>clause to bind real estate, then we should<lb/>have what is required. In our County<lb/>we have now four Courts every year,<lb/>two sittings of the Supreme Court and<lb/>two of Common Pleas ; the number of<lb/>Jurymen employed to try cases in these<lb/>Courts in all is eighty-four, forty-two of<lb/>each, and if we now go to work and es<lb break="no"/>tablish a County Court besides, forty<lb/>more will be added, thus increasing the<lb/>number to one hundred and twenty-four ;<lb/>and for these additional Jurymen, taking<lb/>the mileage and Jury charges into con<lb break="no"/>sideration, we should have to pay $2,000<lb/>more than we pay now, which would be<lb/>a great increase of the expense. I do not<lb/>think the establishment of these Courts,<lb/>under the circumstances, will commend<lb/>itself to the mind of the country. It is<lb/>true, as has been stated, that these Courts<lb/>have been found to work well in Canada,<lb/>and that is greatly in its favor, but it<lb/>seems strange to me that if we have the<lb/>power to legislate in the matter now, the<lb/>people of Nova Scotia did not adopt it at<lb/>the last meeting of the Legislature. The<lb/>Bill does not commend itself as favorably<lb/>to my mind as it does to some others<lb/>and I shall vote against it, although I<lb/>suppose it will pass.<lb/>
+            </p>
+            <p><persName ref="pers:KERR1">Mr. KERR</persName>.—This is a question of very<lb/>considerable importance, and one that<lb/>has occupied my attention a good deal,<lb/>and I supposed this Bill would be supple<lb break="no"/>mented by another, which would do<lb/>away with the Magistrates' Courts all<lb/>over the country. Having this impres<lb break="no"/>sion, when I heard that County Courts<lb/>were to be established here, the matter<lb/>commended itself to my mind at once.<lb/>The idea that because they have them<lb/>in Canada, and that for the sake of uni<lb break="no"/>formity we should have them here, and<lb/>that their introduction at this time will<lb/>give us a chance to share in the expendi<lb break="no"/>tures which will be made for this pur<lb break="no"/>pose, to my mind bears very little weight.<lb/>The question is, are they needed ? And<lb/>if so, how can they best be established<lb/>to accomplish the object desired ? We all<lb/>know that at present the great number<lb/>of Magistrates' Courts held all over the<lb/>country is a great source of litigation,<lb/>and that a man who has a claim against<lb/>another of a very trifling amount, can<lb/>send here and there to bring his witnesses,<lb/>
+            </p>-->
+         </div></div>
+      </body>
+   </text>
+</TEI>
