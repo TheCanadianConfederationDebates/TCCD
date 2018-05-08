@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgNBLA_1866-06-27"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgNBLAssem">Legislative Assembly</name>, <date when="1866-06-27">27 June 1866</date>, New Brunswick Confederation Debates</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgNBLA">
+          
+
+         
+          
+         
+               <title>Debates of the House of Assembly of the Province of New Brunswick; Second Session of 1866</title>.
+                    
+
+         <date when="1866"/>. 
+          
+
+         <pubPlace>St. John, New Brunswick</pubPlace>: <publisher>George W. Day</publisher>.
+          
+
+          <biblScope unit="page" from="23" to="33"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_023.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_024.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_025.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_026.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_027.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_028.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_029.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_030.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_031.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_032.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/NB_LA_1866-06-27_Page_033.hocr.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-05-08">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-05-08">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="NB_LA_1866-06-27_Page_023">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_023.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_024">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_024.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_025">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_025.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_026">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_026.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_027">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_027.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_028">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_028.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_029">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_029.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_030">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_030.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_031">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_031.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_032">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_032.jpg"/>
+      </surface>
+      <surface xml:id="NB_LA_1866-06-27_Page_033">
+         <graphic url="final/images/NB_LA_1866-06-27_Page_033.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="23" facs="final/images/NB_LA_1866-06-27_Page_023.jpg"/>
+            <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">23</fw>
+       
+
+<!-- GL, 2018-05-08, Commented out below, as it will appear in the preceding debate day --> 
+
+       <!--     <p>
+     calling the attention of the House to se-<lb break="maybe"/>varal provisions in the Quebec Scheme,<lb/>and state my objections to them ; whether<lb/>it will have any influence upon the Dele<lb break="no"/>gates I know not ; but first let us hear<lb/>what are the opinion of Canadian statesmen<lb/>on this Scheme, and how far the people of<lb/>this country may expect concessions, and<lb/>get better terms than those<lb/>the Scheme. Mr. D'Arcy M'Gee in de<lb break="no"/>scribing the Scheme (Mr. Tilley, When)<lb/>When the Parliament of Canada approved<lb/>of the Scheme, and asked Her Majesty<lb/>to bring it into effect by Imperial Legisla<lb break="no"/>tion. (Mr. Smith then quoted from<lb/>speeches delivered by Messrs. D'Arcy<lb/>McGee and John McDonald, to show the<lb/>Scheme was unalterable.) We have also<lb/>the testimony of Mr. Brown, and Mr<lb/>Galt that it cannot be altered. When<lb/>Mr. Allan and I were in England Mr.<lb/>Cardwell intimated that some altera ions<lb/>might take place. We asked him could<lb/>representation by population be altered ?<lb/>No. Could the representation in the<lb/>Legislative Council be altered ? No.<lb/>Could the provision of eighty cents per<lb/>head be altered ? No. Thus we found<lb/>no material part of the Scheme could be<lb/>changed, and any delegation which goes<lb/>home will have to accept the Quebec<lb/>Scheme in its entirety, unless they re<lb break="no"/>ceive instructions from the people of the<lb/>country. If they go there clothed with<lb/>restrictive power, which says you may go<lb/>to a certain extent and no farther ; then,<lb/>when the Canadian Delegates know that<lb/>they cannot deviate from the letter of<lb/>their instructions, they may consent to<lb/>some alterations.<lb/>
+            </p>
+            <p>The debate was then adjourned until<lb/>to-morrow. Mr. Smith to resume at half-<lb break="yes"/>past nine.<lb/>
+            </p>
+            <p>The House then went into Committee<lb/>on " A Bill relating to the administration<lb/>of Justice in Equity," which created<lb/>some discussion, when progress was re<lb break="no"/>ported and leave asked to sit again.<lb/>
+            </p>
+            <p>The House was then adjourned until<lb/>9 a. m. to-morrow.
+<lb/>
+               <lb/>
+            </p>
+            <p>T. P. D.<lb/>
+            </p>-->
+
+
+
+            <head rendition="simple:right">WEDNESDAY, JUNE <choice><sic>29th</sic><corr>27th</corr></choice>.<lb/>
+            </head>
+            <p>The House met pursuant to the adjourn<lb break="no"/>ment at 9 a. m.<lb/>
+            </p>
+            <p>A number of Bills received a second<lb/>reading.<lb/>
+            </p>
+            <p>The Bills passed through Committee<lb/>yesterday were read a third time, and<lb/>passed the House.<lb/>
+            </p>
+            <p>Leave was granted to bring in certain<lb/>Bills, and petitions were received in sup<lb break="no"/>port of the same.<lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:CAIE1">Mr. CAIE</persName> gave notice of a motion ask<lb break="no"/>ing for the Correspondence which had<lb/>taken place on the appointment of Chief<lb/>Justice Ritchie, and also for all Corres<lb break="no"/>pondence which had passed between His 
+     <lb/>
+         
+
+            <cb/>
+        
+
+     Excellency the Lieutenant Governor, and 
+     <lb/>
+     Mr. Justice Wilmot on the same subject. 
+     <lb/>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName> asked if it was the inten<lb break="no"/>tion of the Government to submit the 
+     <lb/>correspondence which had taken place 
+     <lb/>between His Excellency the Lieutenant 
+     <lb/>Governor, and His late Council, with re<lb break="no"/>spect to their resignation. <unclear reason="illegible">[?]</unclear>
+            </p>
+            <p><persName ref="pers:TILL1">HON. Mr. TILLEY</persName> would give an 
+     <lb/>answer to-morrow 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:CAIE1">Mr. CAIE</persName> asked for the suspension of 
+     <lb/>
+     the rule, so that he might have leave to 
+     <lb/>
+     bring in a Bill to erect a portion of the 
+     <lb/>
+     Parish of Wellington in the County of 
+     <lb/>
+     Kent, into a separate town or Parish. He 
+     <lb/>
+     had fyled the certificate of publication 
+     <lb/>
+     with the Clerk of the House at last ses<lb break="no"/>sion, and was prepared to bring in a Bill, 
+     <lb/>
+     but having received an intimation that a 
+     <lb/>
+     petition would be forwarded against the 
+     <lb/>
+     Bill, he had withheld it till he was too 
+     <lb/>
+     late to bring it in, on account of the pro<lb break="no"/>rogation. On enquiry he found that the 
+     <lb/>
+     Clerk had lost or mislaid the certificate, 
+     <lb/>
+     and unless the rule was suspended he 
+     <lb/>
+     would be precluded from bringing in the 
+     <lb/>
+     Bill this Session. He was now pre<lb break="no"/>pared to submit the petition against the 
+     <lb/>
+     passage of the Bill as soon as it was read 
+     <lb/>
+     a first time. 
+     <lb/>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+            </p>
+            <p>Several members opposed the suspen<lb break="no"/>sion of the rule on the ground that it was 
+     <lb/>a matter of no immediate importance, and 
+     <lb/>as there was a petition against it, it was 
+     <lb/>evident the matter was not considered by 
+     <lb/>the people necessary to be hastily carried. 
+     <lb/>The rule however, was suspended and 
+     <lb/>leave granted, when the Bill was read a 
+     <lb/>first time and the petition presented. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:JOHN1">Mr. JOHNSON</persName> moved a ryder to the 
+     <lb/>Bill relating to offences against the army 
+     <lb/>and navy, on its third reading, to the 
+     <lb/>effect that nothing in said Act should be 
+     <lb/>construed to affect any action now in pro<lb break="no"/>gress under the old Act, or to affect the 
+     <lb/>penalty already adjudged to such offen<lb break="no"/>ders. 
+     <lb/>
+            </p>
+            <p>At 10 o'clock the order of the day was 
+     <lb/>taken up. 
+     <lb/>
+            </p>
+
+<div type="section">
+            <head rendition="simple:centre">DELEGATION ON UNION. 
+     <lb/>
+            </head>
+
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName> resumed—I have asked 
+     <lb/>the hon. Provincial Secretary if it is the 
+     <lb/>intention of the Government to submit 
+     <lb/>the Correspondence on resignation of the 
+     <lb/>late Gonernment, and what it means. I 
+     <lb/>do not know, but I am told that he will 
+     <lb/>answer to-morrow. I am aware that I 
+     <lb/>can obtain the papers by motion. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:TILL1">HON. Mr. TILLEY</persName>—You asked if the 
+     <lb/>Government would submit them without 
+     <lb/>a motion, and I replied that I would give 
+     <lb/>you an answer to-morrow. 
+     <lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>—Well then, I now ask 
+     <lb/>for an answer from the Attorney General 
+     <lb/>to the question I put to him yesterday, 
+     <lb/>whether any despatches have passed be<lb break="no"/>tween the Colonial Secretary and His 
+     <lb/>
+        
+
+            <cb/>
+      
+
+Excellency relating to the resignation of<lb/>the late Government, and if they are to<lb/>be submitted to the House.<lb/>
+            </p>
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName>—The Governor on<lb break="no"/>ly returned from Woodstock last <unclear reason="illegible">[?]</unclear><lb/>and I have not yet on the subject<lb/>will see him during the day and give<lb/>the necessary information.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>—The Government do not<lb/>appear disposed to be very courteous in<lb/>their replies to questions for information<lb/>with regard to public papers, and yet they<lb/>expect respect to be shown to their wishes<lb/>in the pushing on of the public business.<lb/>I suppose I must submit to the explana<lb break="no"/>tions they give.<lb/>
+            </p>
+            <p>When I closed my remarks yesterday,<lb/>I stated that I believed that it was most<lb/>important that the House should have<lb/>time for the consideration of so impor<lb break="no"/>tant a matter as is involved in the Resolu<lb break="no"/>tions before the House. I believe that it<lb/>is the solemn duty of hon. members to<lb/>bring their judgments to bear on this<lb/>great question, and deliberately and calm<lb break="no"/>ly arrive at conclusions that will be sat<lb break="no"/>isfactory to the people of this Province,<lb/>I stated yesterday, and again repeat it,<lb/>that as the matter now stands, and from<lb/>information which I have obtained, the<lb/>Quebec Scheme, and that alone, without<lb/>any alteration, will be decided on as the<lb/>plan of uniting these Colonies. I ask<lb/>hon. members around the boards of this<lb/>House if they are ready to adopt that<lb/>Scheme ? Many of them have been re<lb break="no"/>turned by constituencies to support a plan<lb/>of Union on a new basis : I would ask<lb/>them if they were sent to pass the Que<lb break="no"/>bec Scheme ? Were they sent to go it<lb/>blind ? to leave it entirely in the hands<lb/>of the delegates to say what the<lb/>terms of Union should be ? Or were they<lb/>sent here to exercise their judgments in<lb/>regard to the terms of any new plan that<lb/>may be submitted ? Were they sent here<lb/>to delegate their power to two or three<lb/>men who are committed to the terms of<lb/>the Quebec Scheme ? I would ask if<lb/>hon. members are ready to lay aside their<lb/>right of judging and passing upon the<lb/>plan of Union proposed to be adopted ?<lb/>This is what the Government ask us to<lb/>do ; to divest ourselves of our powers of<lb/>judgment, to delegate all our powers to<lb/>delegates—we are not told how many—<lb/>who are to meet delegates from other<lb/>Provinces in London, and there frame a<lb/>Scheme binding on this country for all<lb/>time to come, and the people are to know<lb/>nothing at all about it. I believe that the<lb/>majority of the people of this Province<lb/>are opposed to the Quebec Scheme. It<lb/>was put before them that new negotia<lb break="no"/>tions were to be opened, and they, un<lb break="no"/>der this impression, sent men here to see<lb/>to it that the terms proposed should be<lb/>such as would be for the interest of the<lb/>
+          
+
+            <pb n="24" facs="final/images/NB_LA_1866-06-27_Page_024.jpg"/>
+          
+
+     <fw type="num">24</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
+   
+
+country. Are hon. members prepared<lb/>to go back to their constituents and say :<lb/>" You need have no fear, the Quebec<lb/>Scheme will not be inflicted on this coun<lb break="no"/>try. These Resolutions give plenipo<lb break="no"/>tentiary those very men who<lb/>assisted in the draw Quebec<lb/>Scheme, and when they meet the<lb/>gates from Canada what will they be able<lb/>to say. Nothing, absolutely nothing—<lb/>their mouths will be stopped. Has the<lb/>Government given to the House any in<lb break="no"/>creased information by which they will be<lb/>able to return to their people, and say,<lb/>" The Quebec Scheme will be altered ?"<lb/>No, they are asked to go it blind, they<lb/>have no information they can give more<lb/>than hon. members already know. I say<lb/>again, that for men to go to London and<lb/>say, " We'll take the Quebec Scheme if<lb/>we can't get anything better," is mere<lb/>child's play. And to give out to the coun<lb break="no"/>try that new negotiations will be opened,<lb/>and then bring in a bold resolution like<lb/>this, is to put things in a very unfair po<lb break="no"/>sition. The Canadian Parliament having<lb/>passed upon this Scheme, they are bound<lb/>to its terms, and the Imperial Parliament<lb/>must also be confined to it in all its fea<lb break="no"/>tures in their dealings with the delegates.<lb/>I know that the British Government are<lb/>in favor of that Scheme, and that alone.<lb/>When in England with Judge Allen we<lb/>asked Mr. Cardwell if any change could<lb/>be effected in the terms of that Scheme,<lb/>and he assured us that no important al<lb break="no"/>teration would be allowed. When the<lb/>Canadian delegates see that we are wil<lb break="no"/>ling to take the Quebec Scheme, if we<lb/>can do no better, they will not ask the<lb/>House now in session for power to effect<lb/>any change, but if they know that this<lb/>House has confined the delegates to ac<lb break="no"/>cept Union on certain conditions which<lb/>they have laid down, the Canadian Gov<lb break="no"/>ernment will, I am sure, at once ask and<lb/>obtain leave to make such modifications<lb/>as will meet with our wishes and re<lb break="no"/>quirements. They will ask for such dele<lb break="no"/>gated power as will enable them to make<lb/>such concessions as are demanded by<lb/>the Lower Provinces. Unless we do re<lb break="no"/>strict the powers of our delegates, no<lb/>such course will be taken, and they will<lb/>not have the power to make alterations<lb/>even though our delegates have the as<lb break="no"/>surance to ask for them, and we shall<lb/>have the Quebec Scheme, and the Que<lb break="no"/>bec Scheme alone.<lb/>
+            </p>
+            <p>I will now come to the scheme which<lb/>it is proposed by our Government to<lb/>make the "basis," as they term it, for<lb/>new negotiations, and I shall state my<lb/>objections to that scheme pretty fully.<lb/>And first there is a provision for the<lb/>appointment of the representatives ac<lb break="no"/>cording to population.<lb/>
+            </p>
+
+
+            <p>" The basis of representation in the<lb/>House of Commons shall be population,<lb/>
+      
+
+            <cb/>
+          
+as determined by the official census<lb/>every ten years ; and the number of<lb/>members at first shall be 194, distrib<lb break="no"/>uted as follows :<lb/>
+            </p>
+
+<table>
+<row><cell>Upper Canada,............</cell><cell rendition="simple:right">82</cell></row>	
+<row><cell>Lower Canada,...... .....</cell><cell rendition="simple:right">65</cell></row>
+<row><cell>Nova Scotia,........ .... </cell><cell rendition="simple:right">19</cell></row>	
+<row><cell>New Brunswick,.. .... ....</cell><cell rendition="simple:right">15</cell></row>	
+<row><cell>Newfoundland, . ......... </cell><cell rendition="simple:right">8</cell></row>	
+<row><cell>Prince Edward Island, .... </cell><cell rendition="simple:right">5</cell></row>
+<row><cell></cell><cell rendition="simple:right">194</cell></row>
+</table>
+         
+
+
+            <p>In no other part of the British do<lb break="no"/>minions is such a provision made for<lb/>the representation. They have proba<lb break="no"/>bly taken the idea from the plan adopted<lb/>by the Constitution of the United<lb/>States. There they have representa<lb break="no"/>tion by population in the House of<lb/>Representatives. But in the Senate it<lb/>is provided that every State alike sends<lb/>two Senators. And it must be remem<lb break="no"/>bered that the Senate of the United<lb/>States have executive as well as legis<lb break="no"/>lative functions ; they have power<lb/>even to veto many of the acts of the<lb/>President. What he does must have<lb/>their approval and consent. Here they<lb/>have a check on the House of Repre<lb break="no"/>sentatives. But under the provisions of<lb/>this scheme, the people's House will be<lb/>the all-important and all powerful<lb/>branch, for they will be able even to<lb/>overturn the executive of the country.<lb/>It is not so in the United States. But<lb/>large as the House is, there is another<lb/>provision that the number of represen<lb break="no"/>tatives may be increased.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>"Immediately after the completion<lb/>of the census of 1871, (no change is to<lb/>take place til that time,) and immediate<lb break="no"/>ly after every decennial census there<lb break="no"/>after, the representation from each sec<lb break="no"/>tion in the House of Commons shall be<lb/>readjusted on the basis of population."<lb/>
+            </p></quote>
+
+
+            <p>There is then to be a new arrange<lb break="no"/>ment every ten years, and we should,<lb/>therefore, all the more require that<lb/>there should be some check to this great<lb/>power. Under this scheme it is evident<lb/>that Canada will become the all-<lb break="yes"/>important power, and I therefore<lb/>invoke the aid of hon. members of this<lb/>House to ask for some further checks<lb/>in our favor in the second branch over<lb/>the lower. I warn the delegates against<lb/>admitting this to pass as part of the<lb/>scheme of Union, and I ask them in the<lb/>name of a common interest and a com<lb break="no"/>mon country to deliberate well on this<lb/>point.<lb/>
+            </p>
+            <p>While the framers of this scheme have<lb/>copied this provision from the United<lb/>States, have they given us the same<lb/>checks as are provided there? Not at<lb/>all. There every State, large and small,<lb/>send one representative to the Senate,<lb/>but here the provision is,<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" Upper Canada shall be represented<lb/>in the Legislative Council by 24 mem<lb break="no"/>bers, Lower Canada by 24 members, and<lb/>
+    
+
+            <cb/>
+    
+
+          the three Maritime Provinces by 24 mem<lb break="no"/>bers, of which Nova Scotia shall have<lb/>10, New Brunswick 10, and Prince Ed<lb break="no"/>ward Island 4 members."<lb/>
+            </p></quote>
+   
+            <p>
+     Thus Canada is not only to have the 
+     <lb/>great majority in the Lower House, but<lb/>in the Legislative Council she is to be<lb/>represented by 48 members, whilst all<lb/>the Lower Provinces will only have 24.<lb/>We are told that Canada sympathises<lb/>with us, that the men in power there<lb/>have no desire to override us, or infringe<lb/>on our rights. Even were this the case,<lb/>we must remember, Mr. Speaker, that<lb/>men pass away, that they are transitory,<lb/>and men may arise in the future who<lb/>will abuse the power they possess to our<lb/>ruin. Let us then see that we have con<lb break="no"/>ceded, not as an indulgence but as a<lb/>right, the proper checks in the Upper<lb/>Branch. New Brunswick has by this<lb/>arrangement but ten members to their<lb/>24 each. It may be asked why we<lb/>should have an equal number with them<lb/>in the second branch? I say because<lb/>they have full power and control in the<lb/>Lower House. I again repeat, we have<lb/>come here to express our opinions and<lb/>form a judgment with regard to a sub<lb break="no"/>ject that is to affect for all time our com<lb break="no"/>mon welfare and our common country,<lb/>and it behooves us to look carefully into<lb/>every matter that concerns us. I may<lb/>be wrong, and it is possible that my<lb/>voice will have no effect in obviating the<lb/>difficulties that surround us. I am<lb/>aware that I have no power, but the<lb/>Government have all power at the pre<lb break="no"/>sent time, and I ask them not to be 
+     <lb/>
+     bound by a previously expressed opin<lb break="no"/>ion on this subject. I say that we should<lb/>have at least an equal number of repre<lb break="no"/>sentatives in the Legislative Council<lb/>with Upper and Lower Canada. There<lb/>is another reason why this should be,<lb/>for it is provided that the members of<lb/>that Council.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" Shall be appointed by the Crown,<lb/>under the Great Seal of the General<lb/>Government, and shall hold office during<lb/>life."<lb/>
+            </p></quote>
+
+
+            <p>In the United States the Senators are<lb/>elected by the people, and not for life but<lb/>one-third of their numbers every two<lb/>years. But here they acknowledge no<lb/>sway from the people, and with all this<lb/>Canada is to have a two-third's majority<lb/>in that House.<lb/>
+            </p>
+            <p>Then there is a point that has been<lb/>omitted from the Scheme altogether. I<lb/>do not know whether it was intended or<lb/>not, but it is certain that there is no pro<lb break="no"/>vision made that the Legislative Council<lb break="no"/>lors should reside in the districts they<lb/>represent. Now we know that in the<lb/>selection of these men, at first they can't<lb/>go outside of the body up stairs, and there<lb/>is nothing to prevent their going out of<lb/>this Province to live. The temptation is<lb/>very strong to men in the decline of life,<lb/>to desire to be in a position of social<lb/>quiet and to secure a status in society,<lb/>
+         
+
+            <pb n="25" facs="final/images/NB_LA_1866-06-27_Page_025.jpg"/>
+          
+
+     <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">25</fw> 
+   
+
+and this could best be secured by their<lb/>removal to Canada. And if such were to<lb/>occur, then we may look for the same re<lb break="no"/>sult here as centralization has produced in<lb/>Ireland. I ask hon. members of those<lb/>who represent New Brunswick in the<lb/>second Branch of the Legislature should<lb/>not reside in this Province ? We know ex<lb break="no"/>actly what has occurred here. Mr. Steeves<lb/>was appointed to the Upper Branch to<lb/>represent the interests of the County of<lb/>Albert, but he removed to St. John and<lb/>all his interests and sympathies go with<lb/>his place of residence, but still he retains<lb/>his seat, and the County whose interests<lb/>he was appointed to look after is unrepre<lb break="no"/>sented. Yet there is no power to put<lb/>him out. I ask these delegates when they<lb/>go home to require and demand that the<lb/>Scheme be so altered that when Legisla<lb break="no"/>tive Councillors are appointed they shall<lb/>be compelled to reside in our own coun<lb break="no"/>try and among our own people, or lose<lb/>their seats. But in this matter as in every<lb/>other, I submit my opinion with great<lb/>deference to hon. members on the floors<lb/>of this House.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The first selection of the members of<lb/>the Legislative Council shall be made<lb/>*  * * from the Legislative Councils of<lb/>the various Provinces  *  *  *  such<lb/>members shall be appointed by the Crown<lb/>at the recommendation of the General<lb/>Executive Government, upon the nomina<lb break="no"/>tion of the respective local Govern<lb break="no"/>ments, and in such nomination due re<lb break="no"/>gard shall be had to the claims of the<lb/>members of the Legislative Council of the<lb/>opposition in each Province, so that all<lb/>political parties may as nearly as possible<lb/>be fairly represented."<lb/>
+            </p></quote>
+
+
+            <p>I see no hope even in this, for politi<lb break="no"/>cal parties and lines have faded out in<lb/>the discussion of this question. I see<lb/>many of my personal friends who<lb/>have fought measures side by side with<lb/>me, now politically opposed to me. Still<lb/>I hope in the selection they will choose<lb/>the best men. There are men in our<lb/>Upper Branch who would adorn any<lb/>Council, and do honor to any people, and<lb/>I do hope they will appoint those best<lb/>qualified to represent us without regard to<lb/>political feelings or party promises. But<lb/>the Government in this case too have the<lb/>power in their own hands to do as they<lb/>choose.<lb/>
+            </p>
+            <p>There is one thing that strikes my mind<lb/>as somewhat strange, and that is the<lb/>great hurry the thirty-three men who<lb/>formed the Council at Quebec were in to<lb/>push through this matter. I think they<lb/>should not have finally decided on the<lb/>various terms until they had had time to<lb/>deliberate, and have had a second meeting<lb/>of the Conference. Here matters of the<lb/>utmost moment were brought up and<lb/>decided on in a few days, and the unani<lb break="no"/>mity with which they acted is most won<lb break="no"/>derful. And, Mr. Speaker, I should very<lb/>
+     
+
+            <cb/>
+          
+
+much like to have an expression from you<lb/>on the subject, but I suppose I shall not<lb/>be able to get it.<lb/>
+            </p>
+            <p>In all the Constitution there is no pro<lb break="no"/>vision requiring that the parties selected<lb/>to go to form the General Government<lb/>should be qualified in the Provinces they<lb/>represent, and yet it is evident to my<lb/>mind that such a provision should be<lb/>made, and with a strong clause that they<lb/>should also reside in it.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" For the purposes of readjustment,<lb/>Lower Canada shall always be assigned<lb/>65 members, and each of the other sec<lb break="no"/>tions shall at each readjustment receive,<lb/>for the ten years next succeeding, the<lb/>number of members to which it will be<lb/>entitled, or the same ratio of representa<lb break="no"/>tion to population as Lower Canada will<lb/>enjoy according to the census last taken<lb/>by having 65 members."<lb/>
+            </p></quote>
+
+
+            <p>Now looking at the advantages of<lb/>Upper Canada, it is evident that she<lb/>will increase in population much more<lb/>rapidly than Lower Canada. In the<lb/>last twenty-five years she has far out<lb break="no"/>stripped the latter Province, so that<lb/>now Lower Canada is only to have 65<lb/>members whilst Upper Canada will<lb/>have 82. She has, therefore, 17 mem<lb break="no"/>bers more than her sister Province, and<lb/>looking forward to a similar increase in<lb/>the next twenty-five years, she will<lb/>then have 17 more, or 34 members more<lb/>than Lower Canada. On this decennial<lb/>re-adjustment principle then Upper<lb/>Canada in twenty five years from this<lb/>will have a majority in the House of<lb/>Commons, and the result will be that<lb/>we shall lie bound at the foot of Upper<lb/>Canada for her to do with us as she<lb/>chooses. I think the delegates should<lb/>see to it that a modification is made in<lb/>this particular.<lb/>
+            </p>
+            <p>But there is a further provision, and<lb/>I am alarmed and tremble for the con<lb break="no"/>sequences to this country. Not only is<lb/>Upper Canada to go into this Union<lb/>with a much larger number of represen<lb break="no"/>tatives than either of the other Provinces,<lb/>not only will that number be increased<lb/>every ten years, but there is a still<lb/>further concession made which provides<lb/>that<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The number of members may at<lb/>any time be increased by the General<lb/>Parliament,—regard being had to the<lb/>proportionate rights then existing."<lb/>
+            </p></quote>
+
+
+            <p>It permits the representation to in<lb break="no"/>crease at " any time," besides the de<lb break="no"/>cennial increase, so that Upper Canada<lb/>can gain the majority at any time she<lb/>chooses, even at once. I would ask, is<lb/>it necessary that there should be such a<lb/>large representation in the Lower<lb/>House ? Is not 194 members enough ?<lb/>Why this section was inserted I do not<lb/>know, and I again invoke the serious<lb/>consideration of this House on this<lb/>
+       
+
+            <cb/>
+        
+
+question, especially when we are told<lb/>that this scheme is to be the basis for<lb/>Union, and when we know that no<lb/>power has been given to the Canadian<lb/>delegates to depart from its provisions.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The General Parliament shall have<lb/>power to make laws for the peace,<lb/>welfare, and good government of the<lb/>Federated Provinces."<lb/>
+            </p></quote>
+
+            <p>And among those enumerated is,<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The raising of money by all or any<lb/>other modes of taxation."<lb/>
+            </p></quote>
+
+
+            <p>And this General Parliament have the<lb/>further power to make any laws</p>
+
+
+<quote rendition="tccd:blockquote">
+<p>" Respecting all matters of a general<lb/>character not specially and exclusively<lb/>reserved for the local Governments and<lb/>Legislatures."<lb/>
+            </p></quote>
+
+
+            <p>Now here is an overriding power<lb/>which may come in conflict with the<lb/>interests of the local Parliaments. And<lb/>then when there is such a power the<lb/>question of taxation is one of the great<lb break="no"/>est importance, for it effects the poor<lb/>man and the man that toils for his<lb/>living, and should, therefore, receive<lb/>the most careful consideration. Now<lb/>let us see. A power is given to the<lb/>General Parliament not only to raise<lb/>the necessary resources by duties on the<lb/>imports and exports, but also to raise<lb/>money " by all or any other modes or<lb/>systems of taxation." I reiterate the<lb/>statement that I call upon the delegates<lb/>to see to it, that in the appointments<lb/>made they select the best men they<lb/>have. In the powers given to the<lb/>General Government by specification<lb/>is, that of " lines of steam or other<lb/>ships, railways, canals, and other<lb/>works, connecting any two or more<lb/>of the Provinces together, or extending<lb/>beyond the limits of any Province."<lb/>Now in Canada they have a line of<lb/>steamers running to Great Britain, and<lb/>in Confederation I believe the cost and<lb/>support of that line would be made a<lb/>burden on us. And more than this,<lb/>they have the power to subsidize any<lb/>other steamers, and to throw the cost<lb/>of canals and other public works upon<lb/>the whole Provinces. Now I would ask<lb/>the Attorney General what is meant by<lb/>the words " other works ?" In my<lb/>opinion it means that any work in<lb/>Upper or Lower Canada, of any de<lb break="no"/>scription whatever, may be undertaken<lb/>by the General Government if they<lb/>consider it for the general welfare. I<lb/>ask the Attorney General if such is the<lb/>fact ?<lb/>
+            </p>
+            <p><persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—I will explain it.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>.—I wish the explanation<lb/>from the Attorney General. I ask him<lb/>as a lawyer. He does not reply, so I<lb/>may assume that I am correct. Another<lb/>power given is the providing for<lb/>
+          
+
+            <pb n="26" facs="final/images/NB_LA_1866-06-27_Page_026.jpg"/>
+          
+
+<fw type="num">26</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY 1866.</fw>
+
+" Militia—Military and Naval Service<lb/>and Defence." I have always been<lb/>afraid of this section, knowing, as I do,<lb/>that the people of England understand<lb/>by this provision that the expenses for<lb/>military services in times of peace will<lb/>be removed from their shoulders and be<lb/>borne by this country. The next pro<lb break="no"/>vision is for " Beacons, buoys and<lb/>lighthouses ;" these become the pro<lb break="no"/>perty of the Confederation. In the<lb/>United States these belong to the Gen<lb break="no"/>eral Government, but there they have<lb/>no dues on shipping for the purpose of<lb/>keeping them up. Here there is a<lb/>power to raise money for lighthouses<lb/>and tax ships for it. Now this is a<lb/>matter of great moment to these Mari<lb break="no"/>time Provinces, and should be looked<lb/>into very carefully. Another power<lb/>given to this Parliament is to legislate<lb/>on<lb/>
+            </p>
+
+
+<quote rendition="tccd:blockquote">
+            <p>" The criminal law, excepting the<lb/>constitution of Courts of Criminal<lb/>Jurisdiction, but including the proce<lb break="no"/>dure in criminal matters."<lb/>
+            </p></quote>
+
+
+            <p>I don't know what that means, so I<lb/>shall pass on. The next power is to<lb/>render uniform the laws of all the<lb/>Provinces except Lower Canada. So it<lb/>is in reality a provision that the laws of<lb/>the United Provinces shall not become<lb/>uniform at any future time. This also<lb/>is unlike the case in the United States<lb/>where the laws relating to property and<lb/>civil rights are the same in every State.<lb/>The next section provides for a Court of<lb/>Appeal, and, Mr. Speaker, I did at one<lb/>time intimate that you, sir, would doubt<lb break="no"/>less secure a seat on the bench in that<lb/>Court. And it is possible they may ap<lb break="no"/>point the Attorney General as one of<lb/>the Judges as well.<lb/>
+            </p>
+            <p><persName ref="pers:FISH1">Hon. Mr. FISHER</persName>—I am sure I<lb/>hope so.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>—I have not the slightest<lb/>doubt but that he tells the truth. The<lb/>last section of the specified powers which<lb/>I have already mentioned just reverses<lb/>the principle of the Constitution of the<lb/>United States.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" All Courts, Judges and Officers of the<lb/>several Provinces shall aid, assist and<lb/>obey the General Government in the<lb/>exercise of its rights and powers, and for<lb/>such purposes, shall be held to be Courts,<lb/>Judges, and Officers of the General<lb/>Government."<lb/>
+            </p></quote>
+
+
+            <p>There is another obscurity about this<lb/>that I can't understand. It does not say<lb/>what officers are meant. It seems to me<lb/>that any officer of the local governments<lb/>will become an officer of the General<lb/>Government, and if this is not the mean<lb break="no"/>ing, I shall be obliged to the Attorney<lb/>General to explain it.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The General Government shall ap<lb break="no"/>point and pay the Judges of the Superior<lb/>Courts in each Province."<lb/>
+            </p></quote>
+
+            <cb/>
+
+            <p>But a favor is granted to Upper Cana<lb break="no"/>da, for there the Judges of the County<lb/>Courts are provided for, whilst here they<lb/>are appointed and paid by the local<lb/>government.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The Judges of the Courts of Lower<lb/>Canada should be selected from the Bar<lb/>of Lower Canada."<lb/>
+            </p></quote>
+
+
+            <p>But here, after the consolidation of the<lb/>laws, they may not be selected. Why, I<lb/>ask, is this ? We all know the feeling of<lb/>dissatisfaction that was raised in this<lb/>Country when Chief Justice Carter was<lb/>brought from England, and put over our<lb/>heads, but here Judges may come from<lb/>any part of the United Provinces, to the<lb/>exclusion of members of our own Bar.<lb/>
+            </p>
+            <p>The first section under the local govern<lb break="no"/>ments is the appointment of a Lieutenant<lb/>Governor. Now I believe that when<lb/>Confederation is consummated our local<lb/>government will be nothing but a bur<lb break="no"/>lesque and farce. Why even George Brown<lb/>believes the same thing, for he admits<lb/>that Upper Canada may not retain the<lb/>machinery of a Responsible Government,<lb/>but become merely a municipality. Here<lb/>however, will be all the machinery of<lb/>government, responsible heads of Depart<lb break="no"/>ments, except, I suppose, the Postmater<lb/>General ; they'll have to give that up I<lb/>suppose, although the interests involved<lb/>will be of less importance than those of<lb/>the Corporation of the City of Saint John.<lb/>Well the Governor is to be paid out of<lb/>the funds of the General Government, so<lb/>that ensures that all his sympathies will<lb/>go with them. Now here are the powers<lb/>vested in the Local Legislatures ; first,<lb/>Direct Taxation, and this is a power I am<lb/>afraid they will very soon need to use.<lb/>Let us look at the question of Western<lb/>Extension. There are a majority perhaps<lb/>who would make it a Government work.<lb/>But if the amount provided by the Sub<lb break="no"/>sidy Act won't pay the cost, and a company<lb/>can't go on with it, how is the road to be<lb/>built under Confederation. It cannot be<lb/>done unless direct taxation be resorted to.<lb/>Then in Nova Scotia they have a power<lb/>granted them to legislate on their coals<lb/>and other minerals, and I would ask the<lb/>Attorney General, if we are to be exclud<lb break="no"/>ed from such legislation, and if the At<lb break="no"/>torney General won't reply, then I appeal<lb/>to the Solicitor General. We come now<lb/>to the Sea and Inland fisheries, and on<lb/>this subject, the Local and General Gov<lb break="no"/>ernments come in conflict, for they both<lb/>have the power to legislate upon them.<lb/>The 17th section of the 29th resolution<lb/>gives it to the General Government, whilst<lb/>the 8th section of the 43rd resolution<lb/>gives it to the local government. Now<lb/>how are differences and controversies<lb/>on this subject to be settled ? Have they<lb/>a Superior Court to which the matter can<lb/>be carried as in the United States, where<lb/>differences between States and the Gene<lb break="no"/>
+ 
+
+            <cb/>
+        
+ral Government can be carried and set<lb break="no"/>tled ? No, there is nothing of the kind<lb/>provided. Is it not important that there<lb/>should be some tribunal where disputes<lb/>of this nature may be settled ; and I ask<lb/>the Attorney General to look into the<lb/>matter and provide for some means of ap<lb break="no"/>peal. But even then there is the other<lb/>power they possess of vetoing any action<lb/>of the Local Legislatures. Should we<lb/>submit that Canada should have the power<lb/>to abrogate and nullify all or any of our<lb/>legislation, with no power to which to ap<lb break="no"/>peal ? They have also let us the power<lb/>of managing our own private or local af<lb break="no"/>fairs, but the question may be raised what<lb/>is private and local, and then who is to de<lb break="no"/>termine ? We may also administer Jus<lb break="no"/>tice " both of civil and criminal jurisdic<lb break="no"/>tion, and including also the procedure in<lb/>civil matters." There is something here<lb/>again I can't understand. I must again<lb/>assert that this House has a right to delib<lb break="no"/>erate on the different objections I have<lb/>stated. They may not appear to have much<lb/>weight to minds of hon. members, but to<lb/>my mind they have much force. I should<lb/>like to take the judgement of this House<lb/>upon them, but I suppose I shall not get it.<lb/>If however this Resolution passes, every<lb/>man on the floors of this House yields up<lb/>his right of judgement to those who have<lb/>already approved of a Scheme not sanc<lb break="no"/>tioned by this people. If the Govern<lb break="no"/>ment will assure us that no Scheme will<lb/>be carried unless it is submitted to the<lb/>people for their approval or condemna<lb break="no"/>tion, then I shall be satisfied, but if not, I<lb/>shall move before I sit down a resolution<lb/>to that effect. This may be the last time<lb/>my voice may be heard in this House,<lb/>and whilst I have breath I will protest<lb/>against our judgements being clogged, and<lb/>I will to the last raise my voice against<lb/>the delegation of such power to two or<lb/>three men. I say it is only right and fair<lb/>that any measure decided on in England<lb/>should be sent back to this House. It is<lb/>provided by this Scheme that Bills passed<lb/>by this House may be reserved for the<lb/>consideration of the General Government,<lb/>but I do not think that it is necessary to<lb/>do this as the General Government will<lb/>have a veto power over any Bill we may<lb/>pass without the power of appeal. It has<lb/>been the pride and glory of our country<lb/>that politics has been kept clean of the<lb/>sacred precincts of our Courts of Law.<lb/>We have been able to boast that our<lb/>Judges have kept themselves free from<lb/>the turmoil of political strife. But shall<lb/>we be able to say the same under this<lb/>Union ? I fear not.<lb/>
+            </p>
+            <p>It is provided under the head of pro<lb break="no"/>perty and liabilities that " All Stocks,<lb/>Cash, Bankers' Balances and Securities<lb/>for money belonging to each Province<lb/>at the time of the Union, except as<lb/>hereinafter mentioned, shall belong to<lb/>
+        
+
+            <pb n="27" facs="final/images/NB_LA_1866-06-27_Page_027.jpg"/>
+   
+
+     <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">27</fw> 
+
+the General Government." Now sup<lb break="no"/>pose that the Union should take place at<lb/>the middle of a quarter, when there are<lb/>large sums becoming due for salaries of<lb/>public officers, &amp;c., the whole of our<lb/>cash, stocks, bankers' balances and se<lb break="no"/>curities are to be handed over to the<lb/>General Government, and our local<lb/>Government will have to pay them out<lb/>of the sum we are to get at 80 cents a<lb/>head. Then all public harbors are to<lb/>be provided for, as are also canals.<lb/>Now I think the construction of new<lb/>canals should not be made charagable<lb/>upon the General Government, for if<lb/>these canals are enlarged, ships of large<lb/>tonnage will be enabled to pass through<lb/>them, and thus an injury will be in<lb break="no"/>flicted upon the trade of the Maritime<lb/>Provinces. I believe if the House give<lb/>powers to the delegates to claim that<lb/>canals shall not be chargeable on the<lb/>Confederation, while the Canadian<lb/>Parliament is in session, that they will<lb/>concede it to us. The harbors are to<lb/>belong to the General Government,<lb/>St. John not excepted, for there is no<lb/>such thing as a private harbor. In<lb/>Canada too they have spent immense<lb/>sums in the improvement of their rivers<lb/>and lakes, and for these improvements<lb/>they will be able to tax us. The mo<lb break="no"/>ment Confederation passes into law,<lb/>the railroad we now own and control<lb/>passes into the hands of the General<lb/>Government, and every man employed<lb/>upon it will owe allegiance and alone<lb/>be responsible to the Government at<lb/>Ottawa. The seven million dollars of<lb/>debt we go in with includes the cost of<lb/>this road, but if we get connection with<lb/>Nova Scotia and with the United States,<lb/>that road will in a very short time pay<lb/>six per cent , and the moment it does<lb/>that it ceases to be a debt. By this<lb/>arrangement then about five millions<lb/>of the seven millions will be lost to us.<lb/>In Canada the debt has been incurred<lb/>on improvements to their rivers, canals,<lb/>&amp;c., which will not pay anything like<lb/>such a per centage, and, therefore, they<lb/>will be in a better position than we.<lb/>It is further provided that all lands,<lb/>mines, minerals, and royalties shall be<lb break="no"/>long to the local government of the ter<lb break="no"/>ritory in which they are so situate. Now<lb/>I would ask is it intended to give us the<lb/>power to legislate on our mines and<lb/>minerals? Why then in the provisions<lb/>for the local Legislatures is there an<lb/>exception made in favor of Nova Scotia<lb/>with regard to her " coals and other<lb/>minerals?"<lb/>
+            </p>
+
+</div>
+
+<div type="section">
+            <head rendition="simple:centre">AFTERNOON SESSION.<lb/>
+            </head>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName> resumed.—I think the<lb/>course adopted by the Government<lb/>
+    
+
+            <cb/>
+        
+should be that as they intend to make<lb/>the Quebec Scheme on the basis of Union,<lb/>they should have resolved this House<lb/>into Committee, and submitted it and its<lb/>modifications to us. Why ,we have not<lb/>the Scheme before us, except as it is<lb/>published in books. If every hon. mem<lb break="no"/>ber returned to support Union had said<lb/>on the hustings, " Here is the Scheme of<lb/>Union, and I am bound to support it,"<lb/>the course now adopted might have been<lb/>right. But it was not so. It is known<lb/>that many of the hon. members were op<lb break="no"/>posed to the provisions of that Scheme.<lb/>Why, Mr. Speaker, it is reported that<lb/>you, sir, on the hustings declared that<lb/>you expected to assist in the preparation<lb/>of a new Scheme. It seems to me if<lb/>these Resolutions pass, hon. members<lb/>will not be able to render a just account<lb/>to their constituents for their conduct in<lb/>this matter. There is no way that I can<lb/>lay the subject before the House ; I have<lb/>no power here. The Government may<lb/>say that Smith raises these objetions<lb/>merely to defeat the Union. I have not<lb/>the power even if I had the will. I sug<lb break="no"/>gest these objections as they strike my<lb/>own mind, because as I feel there is no<lb/>power to prevent Union, it is for the in<lb break="no"/>terests of this country that the best terms<lb/>possible should be obtained. To do this<lb/>I think the delegates should reeie cer<lb break="no"/>tain and definite instructions from this<lb/>House as to the terms they shall require.<lb/>The delegates cannot oppose the Scheme<lb/>in its entirety, for they have already de<lb break="no"/>clared it to be all that can be desired,<lb/>unless they are instructed by this House<lb/>to demand such modifications as the in<lb break="no"/>terests of the people demand. I find<lb/>that a number of alterations have been<lb/>made in this Scheme, and there is some<lb break="no"/>thing strange in that. For two years<lb/>past we have been trying to find out<lb/>about the change that was made<lb/>with regard to the electoral districts, and<lb/>now again I have been just informed<lb/>that in the Canadian journals another<lb/>charge has been made with regard to<lb/>the impositions of duties on the exports<lb/>of timber, logs, masts, spars, deals, and<lb/>sawn lumber ; this is made to apply to<lb/>New Brunswick only, and in " Nova<lb/>Scotia on coals and other minerals."<lb/>In our reports the words New Bruns<lb break="no"/>wick and Nova Scotia are left out, and<lb/>it is made applicable to all the Provinces.<lb/>Now which Scheme is right? the Cana<lb/>dian one, or that submitted to this<lb/>people?<lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—The document 
+     <lb/>laid before our people is the copy certi<lb break="no"/>fied by the chairman of the Conference,<lb/>Sir E. P. Tache, and there is no doubt<lb/>that this s the copy of the resolutions<lb/>as signed at Montreal. You, Mr.<lb/>Speaker, and I recollect that as we de<lb break="no"/>rive a revenue from stumpage we<lb/>thought it right that it should be put<lb/>into the rights conferred upon the local<lb/>Governments, but in Upper and Lower<lb/>Canada they have no stumpage duty,<lb/>
+          
+
+            <cb/>
+         
+
+     neither do they receive any revenue from 
+     <lb/>mines of coal, &amp;c., as in Nova Scotia.<lb/>They, therefore, did not want it, and in<lb/>the copy they submitted to their Parlia<lb break="no"/>ment they inserted the words referred<lb/>to, to show their people to what Pro<lb break="no"/>vinces it referred. It was not in the origi<lb break="no"/>nal document, but left open as it is in<lb/>our copies. The arrangement was, that<lb/>this section should cover the wants of<lb/>these two Provinces, and so the altera<lb break="no"/>tion was made.<lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:SMIT1">Mr. SMITH</persName>.—Then we have the right 
+     <lb/>to legislate on our mines and minerals,<lb/>and so a little alteration in the phraseol<lb break="no"/>ogy will make that all right. Railways,<lb/>post offices, and other public works are<lb/>transferred from us to the use of the<lb/>General Government, and so all the<lb/>patronage and control that belong to<lb/>them go with them.<lb/>
+            </p>
+   
+
+<quote rendition="tccd:blockquote">
+            <p>
+     " In consideration of the transfer to 
+     <lb/>the General Parliament of the powers of<lb/>taxation, an annual grant in aid of each<lb/>Province shall be made equal to eighty<lb/>cents per head of the population, as es<lb break="no"/>tablished by the census of 1861."<lb/>
+            </p></quote>
+
+
+            <p>Here is another peculiarity with re<lb break="no"/>gard to the eighty cents a head. This is<lb/>a section against which I have expressed<lb/>my opposition again and again. Any<lb/>one must know that as we increase in<lb/>population our wants must increase.<lb/>We shall want more money for our roads<lb/>than now ; we shall want more money<lb/>for schools and other local purposes.<lb/>We shall also want to assist those who<lb/>are willing to go back and clear up new<lb/>farms, and so as our numbers increase<lb/>we shall want to do more. But how<lb/>will it be? Why even now it is as much<lb/>as we can do to provide for these pur<lb break="no"/>poses, and why then should the amount<lb/>we are to receive be carried back to the<lb/>population in 1861 ? And if our popula<lb break="no"/>tion increases in ten years to double<lb/>what it is now, then we shall only get<lb/>forty cents a head, and in ten years after<lb/>that again only twenty cents a head, and<lb/>so on. The statesmen of Canada do not<lb/>fail to state that if the wants of the peo<lb break="no"/>ple increase, resort must be had to di<lb break="no"/>rect taxation. But while population<lb/>and consequent wants increase, the<lb/>amount we are to receive remains the<lb/>same. Canada will have the power to<lb/>do as they will with their own money,<lb/>and with ours too. If the population<lb/>doubles in ten years we shall pay $480,<lb break="no"/>000 into the general treasury, and get<lb/>out a sum based on the population of<lb/>1861 at eighty cents a head. I believe<lb/>this will bring desolation and ruin upon<lb/>this country. If the country grows as it<lb/>ought to grow, we may look into the<lb/>future and see the time when we shall<lb/>get only ten cents a head for our whole<lb/>population. But this appropriation is to<lb/>be made annually. Instead of being<lb/>paid out of the treasury it is to be made<lb/>an annual grant of the Legislature, and<lb/>I would ask if the public works of Ca<lb break="no"/>nada go on, where will the money come<lb/>
+         
+
+            <pb n="28" facs="final/images/NB_LA_1866-06-27_Page_028.jpg"/>
+         
+
+     <fw type="num">28</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
+  
+
+     from to pay us even this paltry eighty 
+     <lb/>cents a head. We make appropriations<lb/>for our schools, but even though the<lb/>sum required may not be in the trea<lb/>sury, the warrants issue just the same.<lb/>But if the money in the general treasury<lb/>runs out, it will be for them to say<lb/>whether the grant of eighty cents a head<lb/>shall issue for any year, and then what<lb/>redress have we? None whatever, for<lb/>we, under this arrangement become sub<lb break="no"/>ject to the whim and caprice of Canada.<lb/>
+            </p>
+   
+
+<quote rendition="tccd:blockquote">
+            <p>
+     " In consideration of the surrender to 
+     <lb/>the General Government, by Newfound-<lb break="yes"/>hand, of all its rights in mines and miner<lb break="no"/>als, and of all the ungranted and unoc<lb break="no"/>cupied Lands of the Crown, it is agreed<lb/>that the sum of $150,000 shall each year<lb/>be paid to that Province by semi-annual<lb/>payments."<lb/>
+            </p></quote>
+
+
+            <p>Again I would appeal to this House<lb/>and ask hon. members if they are ready<lb/>to accept that proposition ; if they are<lb/>ready to subject our people to a burden<lb/>of ten or fifteen thousand dollars a year to<lb/>buy up the Crown Lands of Newfound<lb break="no"/>land, and its mines and minerals, some<lb break="no"/>thing that does not exist. Why was this<lb/>done ? Was it not a mere colouring to<lb/>gain over Newfoundland ? The whole<lb/>Crown Lands of Newfoundland are utter<lb break="no"/>ly worthless. I do not believe they would<lb/>support a rabbit. Why does she want to<lb/>sell her Crown Lands to Canada? I<lb/>think it is a very bad speculation, and no<lb/>private person would care to invest his<lb/>money in those Lands. I do not believe<lb/>the people of this Province are willing to<lb/>pay $10,000 or $15,000 a year for all time<lb/>to come for such a purpose. The whole<lb/>thing was merely a sop to get her into<lb/>the Union.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" All engagements that may before the<lb/>Union be entered into with the Imperial<lb/>Government for the defence of the coun<lb break="no"/>try shall be assumed by the General Gov<lb/>ernment."<lb/>
+            </p></quote>
+
+            <p>Now before we agree to this we should<lb/>know what arrangements Canada has en<lb break="no"/>tered into. I think this is a dangerous<lb/>section.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The communications with the North<lb/>West Territory, and the improvements<lb/>required for the development of the trade<lb/>of the Great West with the Seaboard, are<lb/>regarded by this Conference as subjects<lb/>of the highest importance to the Fede<lb break="no"/>rated Provinces, and shall be prosecuted<lb/>at the earliest possible period that the<lb/>state of the finances will permit."<lb/>
+            </p></quote>
+
+
+            <p>It is evident that Canada is very much<lb/>interested in the opening of her Canals.<lb/>This section seems to be extraordinarily<lb/>worded. It is without doubt put forward<lb/>for a purpose. As it reads it seems to be<lb/>nothing but a mere expression of opinion<lb/>of the Council. Is it so, or is it a part of<lb/>the Constitution ? What does it mean ?<lb/>It means that every work and improve<lb break="no"/>ment in Canada is to be a charge on the<lb/>
+     
+
+            <cb/>
+       
+
+General Government, and that we are to<lb/>be taxed for it ; and these works are to<lb/>be carried on as soon as the finances permit.<lb/>Let me ask if Canada has the power to in<lb break="no"/>crease the taxation by every means as<lb/>she likes, and her desires are for increased<lb/>public works. What is there that will<lb/>cause the finances not to permit of their<lb/>being proceeded with ? Yes, the finances<lb/>will permit just whenever they choose to<lb/>tax the people for that very purpose.<lb/>And more than this, I am led to believe<lb/>that under this section the purchase<lb/>money of the Hudson's Bay Territory will<lb/>justice be called the greatest statesman of<lb/>at least British America. About a year<lb/>ago his voice was heard in the Conven<lb break="no"/>tion at Detroit pleading in the interest of<lb/>these Colonies, and he was justly styled<lb/>eral Government.<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" The sanction of the Imperial and Lo<lb break="no"/>cal Parliament shall be sought for the
+<lb/>Union of the Provinces, on the principles
+<lb/>adopted by the Conference."<lb/>
+            </p></quote>
+
+
+            <p>I take the position that the Govern<lb break="no"/>ment have not done this. They have not<lb/>submited a Scheme, but a bald resolution<lb/>to appoint delegates with unheard of<lb/>powers to change the constitution of this<lb/>Country without its being submitted<lb/>either to the people or their representa<lb break="no"/>tives.<lb/>
+            </p>
+            <p>I stated yesterday that I saw yet one<lb/>chance of escape, and that was that New<lb break="no"/>foundland and Prince Edward Island may<lb/>not be represented, and as this Resolution<lb/>gives authority to our Delegates to confer<lb/>with Delegates from all the Colonies,<lb/>if any are unrepresented, our Delegates<lb/>will have no power to act. We have<lb/>been told even by the framers of the<lb/>Quebec Scheme that the safety of this<lb/>Province against Canada was in the co<lb break="no"/>operation with us of these other Provinces<lb/>whose interests are identical with our<lb/>own. And now if these Provinces sends<lb/>no delegates, the whole matter must fall<lb/>to the ground. I do not believe more<lb break="no"/>over that Nova Scotia will enter into this<lb/>Union unless her people are appealed to.<lb/>I have too much faith in the integrity of<lb/>the House of Commons to believe they<lb/>will pass an Act in favor of a Union that<lb/>has never been submitted to the people.<lb/>The Government of that Province were<lb/>not appointed to barter away the rights<lb/>and privileges, the valuable mines and<lb/>minerals, the success and prosperity of<lb/>that noble Provinces, but to preserve them.<lb/>Nova Scotia will send home a delegation<lb/>with that great man Joseph Howe at its<lb/>head, and I believe he will be heard at the<lb/>bar of the House of Commons pleading in<lb/>the strongest terms for an appeal to the<lb/>people on this subject. It has of late be<lb break="no"/>come quite common to speak lightly of<lb/>the abilities and acquirements of this<lb/>truly great man, a man who may with<lb/> 
+justice be called the greatest statesman of<lb/>
+at leat British America. About a year<lb/>
+ago his voice was heard in the Conven<lb break="no"/>tion at Detroit pleading in the interest of<lb/>\
+these Colonies and he was justly styled<lb/>
+            
+            <cb/>
+    
+the champion of British America. But<lb/>now on account of the stand he has taken<lb/>on this subject of the Quebec Scheme he<lb/>is charged with " <hi rendition="simple:italic">imbecility</hi>." The Hon.<lb/>Joseph Howe is an imbecile ! The people<lb/>of Nova Scotia have risen in their might,<lb/>and called for a dissolution of the House<lb/>and an appeal to the people on this ques<lb break="no"/>tion, and if it is refused to them I trem<lb break="no"/>ble for the consequences. But I am con<lb break="no"/>fident they will be heard, and that the<lb/>House of Commons in England will not<lb/>suffer their Constitution to be taken from<lb/>them against their will.<lb/>
+            </p>
+            <p>We have no guarantee from the Go<lb break="no"/>vernment what course the delegates<lb/>will pursue. They have not condes<lb break="no"/>cended to give any explanations as to<lb/>what modifications they will insist on.<lb/>But I do think they should come before<lb/>this House and assure us that they will<lb/>not accept the Quebec Scheme unless<lb/>we can get certain concessions. The<lb/>Government have refused to this House<lb/>the right of members expressing their<lb/>opinions and judgment on this question.<lb/>I know that my efforts will be unavail<lb break="no"/>ing, and I expect we shall get the<lb/>Quebec Scheme and nothing else, but I<lb/>hope in God I am mistaken in my opin<lb break="no"/>ions.<lb/>
+            </p>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+   
+            <p>
+     In reference to the Inter-Colonial Rail<lb break="no"/>road, hon. members seem to be under<lb/>the impression that no Union will take<lb/>place unless this is secured. Now I<lb/>would require that it should be stated<lb/>in the Scheme that no taxation should<lb/>take place unless the Inter-Colonial<lb/>Railway was <hi rendition="simple:italic">bona fide</hi> commenced. This<lb/>would make them go on with the work,<lb/>but if it is left as it stands in the Scheme,<lb/>viz : that " the General Government<lb/>shall secure without delay the comple<lb break="no"/>tion of the Inter-Colonial Railway from<lb/>Rivere du Loup through New Bruns<lb break="no"/>wick to Truro in Nova Scotia," and this<lb/>is to be done only as the finances permit,<lb/>then there is no difference made between<lb/>the prosecution of this work and those<lb/>works in Upper Canada provided for by<lb/>by the next section for the opening up<lb/>of the Great Western Territory, and the<lb/>railway will not be built.<lb/>
+            </p>
+   
+            <p>
+     There is another provision which, I 
+     <lb/>think, ought to be inserted, and that is,<lb/>that a member of the Executive Council<lb/>should be taken from these Provinces,<lb/>one from each. The Executive Council<lb/>is to consist of twelve members, and this<lb/>arrangement would give us one-third.<lb/>Does any hon. member think it desirable<lb/>that no Government should be formed<lb/>unless we are represented? Is there<lb/>anything improper in this request ?<lb/>
+            </p>
+   
+            <p>
+     I once more appeal to the manly sen<lb break="no"/>timent and reason of hon. members of<lb/>this House who have been sent here by<lb/>the people, because they believed their<lb/>interests would be carefully guarded in<lb/>any arrangements which may be enter<lb break="no"/>ed into. I ask that they shall not dele<lb break="no"/>gate their power to two or three persons<lb/>
+     
+
+            <pb n="29" facs="final/images/NB_LA_1866-06-27_Page_029.jpg"/>
+          
+<fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">29</fw>
+
+
+without a strong expression of their<lb/>judgment on the subject before us. I<lb/>have heard it stated that the delegation<lb/>is to leave on Tuesday next, and that<lb/>Dr. Tupper and Mr. Archibald, of Nova<lb/>Scotia, have gone on to Canada on the<lb/>matter of the delegation. Why, I would<lb/>ask, this indecent haste ? Why prevent<lb/>a calm and deliberate discussion of the<lb/>question ? Hon. members are not to be<lb/>allowed to see the Scheme or pass their<lb/>judgment upon it. Was ever a plenipo<lb break="no"/>tentiary so empowered before ? This<lb/>may be right, but in my opinion it is en<lb break="no"/>tirely wrong. If my predictions are<lb/>verified, I shall have the satisfaction of<lb/>knowing that I have cleared my con<lb break="no"/>science. I put it to the Hon. Attorney<lb/>General, I put it to the Hon. Solicitor<lb/>General, and to the Hon. Provincial Se<lb break="no"/>cretary, if it is right to appoint delegates<lb/>to go to England—3,000 miles away—<lb/>and there frame a Scheme of Union,<lb/>binding upon the people of this Province<lb/>for ever, without their ever seeing it, or<lb/>knowing its provisions. I have, in mak<lb break="no"/>ing these remarks, had no selfish end<lb/>in view, and as I have said I do not sup<lb break="no"/>pose they will have any weight, but I<lb/>have freed my conscience and myself<lb/>before the country. I will now conclude<lb/>with the following amendment to the<lb/>resolution :<lb/>
+            </p>
+
+<quote rendition="tccd:blockquote">
+            <p>" Provided that no Act or Measure for<lb/>such Union shall have force or effect in<lb/>New Brunswick until it shall be ap<lb break="no"/>proved by the Legislature or people of<lb/>this Province."<lb/>
+            </p></quote>
+
+
+            <p><persName ref="pers:TILL1">Hon. MR. TILLEY</persName>.—The hon. ex-<lb break="yes"/>President of the Council in his opening<lb/>remarks taunted the Attorney General<lb/>with not entering at length into the<lb/>terms of the proposed Union, and with<lb/>the solemnity which the suqject de<lb break="no"/>mands. Mr. Speaker, if we had entered<lb/>upon it with the spirit of levity, the elo<lb break="no"/>quent appeals and the deep sentiments<lb/>which characterized his remarks could<lb/>not have failed in producing quite as<lb/>solemn a feeling as even he could desire,<lb/>and I say, sir, that I can express the<lb/>pleasure I have had in listening to his<lb/>stirring appeals with as much sincerity<lb/>and with as much power as when the<lb/>hon. ex-President of the Council, four<lb break="no"/>teen months again, said he was sorry there<lb/>were none of the delegates to the Coun<lb break="no"/>cil held at Quebec then on the floors of<lb/>the House to whom he could put a few<lb/>questions. His remarks produced almost<lb/>as great an effect on the House at that<lb/>time as at the present. But to-day, sir,<lb/>he stands here with a less majority than<lb/>the friends of Union did then. The hon.<lb/>member says that if this question were<lb/>delayed, a great reaction would take<lb/>place in the minds of the people. Why,<lb/>Mr. Speaker, the great reaction has<lb/>taken place, and on my recent visit to St.<lb/>John, when the hon. member was also<lb/>there, I found it hard to find a disunion<lb break="no"/>ist. No, sir, there are few to-day who<lb/>
+    
+
+            <cb/>
+        
+oppose Union. He attributes the change<lb/>in public opinion to Fenianism, and the<lb/>"treachery of His Excellency the Lieut<lb break="no"/>enant Governor." I am not going into<lb/>the question of dispute between the Go<lb break="no"/>vernor and his late advisers, but if any<lb/>body was guilty of unconstitutionality I<lb/>say it was the late President of the Go<lb break="no"/>vernment. Talk of unconstitutionality,<lb/>why the acts of the late Government<lb/>show who was guilty in this respect, and<lb/>yet they went back to the people with<lb/>the constitutional plea, when they had<lb/>violated every principle of responsible<lb/>Government whilst they were in power.<lb/>There was the removals from office of<lb/>certain parties obnoxious to the then<lb/>Government. I heard one of the mem<lb break="no"/>bers of that Government (Mr. Hathe<lb break="no"/>way) state openly in his place on the<lb/>floors of this House that he had advised<lb/>His Excellency to make certain changes,<lb/>and His Excellency told him he would<lb/>not do it, and further said, if the<lb/>Government did not like it they could<lb/>resign, for Tilley could form a Govern<lb break="no"/>ment.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT1">Mr. SMITH</persName>—I know nothing of what<lb/>might have been said by His Excellency<lb/>to any members of the Government on the<lb/>bank of the river, but this I do say that<lb/>no recommendations were made by the<lb/>Government to the Governor with regard<lb/>to removals from office, but he complied<lb/>with. There was no difference between<lb/>us on that ground.<lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:TILL1">HON. Mr. TILLEY</persName>—I only state what 
+     <lb/>I heard an hon. member of the Govern<lb break="no"/>ment declare to his colleagues and the<lb/>members of the House. When the hon.<lb/>ex-Attorney General rises here and de<lb break="no"/>clares that the change in public opinion<lb/>on this great question has been brought<lb/>about by " the treachery of the Gover<lb break="no"/>nor," I should be recreant to my trust,<lb/>my position to my duty if I did not take<lb/>it up. The hon. member says that no<lb/>recommendation was made but was com<lb break="no"/>plied with. That memorandum may<lb/>never have been again presented to His<lb/>Excellency, but it is none the less true<lb/>that the hon. member of the Government<lb/>stated that the Governor would not make<lb/>the required changes. The hon. ex-<lb break="yes"/>President of the Council said that these<lb/>things could not be attended to because<lb/>Confederation stood in the way. Mr.<lb/>Speaker, if there was " treachery" any<lb break="no"/>where it lies at the door of the hon. ex-<lb break="yes"/>President of the Council and his Govern<lb break="no"/>ment. I admit that we had an advantage<lb/>in going to the people with this question<lb/>at the late elections, but it was an advan<lb break="no"/>tage given to us by the late Government.<lb/>I know something about the matter of<lb/>" treachery," for I was in communication<lb/>with Mr. Mitchell at the time when he<lb/>was in conjunction with the late President,<lb/>preparing for a change on the subject of<lb/>Union. The hon. ex-Attorney General<lb/>
+          
+
+            <cb/>
+        
+
+     says he would like to see hon. members 
+     <lb/>rise above praty on this matter, but who<lb/>stood up during the late House and<lb/>claimed for party and nothing but party ?<lb/>The hon. ex-President. During the ar<lb break="no"/>rangements between the Governor and<lb/>Mr. Mitchell, I had nothing to say to His<lb/>Excellency. Mr. Mitchell came to me<lb/>and told me what was being done, and I<lb/>said if the then Government would go for<lb/>Union, I would, although not a member of<lb/>the House, use all my interest and <choice><sic>infl<lb break="no"/>ence</sic><corr>influence</corr></choice> to carry the proposed measure. I<lb/>knew that Mr. Mitchell was working with<lb/>and for the government party. It was also<lb/>the wish of His Excellency to carry the<lb/>Union by means of his then existing Gov<lb break="no"/>ernment. Go to the Country on the Con<lb break="no"/>stitutional question ! Why the hon. mem<lb break="no"/>ber knows as well as any body that the<lb/>matter was all prepared for, and in per<lb break="no"/>fect consonance with the Speech at the<lb/>opening of the last Session, the answer to<lb/>which was prepared by the Government<lb/>and put in Colonel Boyd's mouth, and in<lb/>favor of Union. The question of Fenian<lb break="no"/>ism may also have affected the late elec<lb break="no"/>tions in some measure, inasmuch as some<lb/>the friends of the late government were<lb/>supposed to have some feelings of sympa<lb break="no"/>thy for them.<lb/>
+            </p>
+   
+            <p>
+     I believe with the hon. ex-President of 
+     <lb/>the Council that this subject should be<lb/>discussed without abuse. I have used<lb/>more hard words in the last ten minutes<lb/>than during the whole of the late cam<lb break="no"/>paign. I have been very careful not to<lb/>make use of any language that could be<lb/>charged as personalities, and I wish the<lb/>ex-President of the Council had done<lb/>the same thing. He has said that the ac<lb break="no"/>tion of the Legislative Council was<lb/>prompted by personal motives, but the<lb/>late elections have shown that they, six<lb/>weeks ago, spoke the feelings of the peo<lb break="no"/>ple on this question. The hon. member<lb/>has striven to throw around the subject a<lb/>veil of sophistry, and to frighten the<lb/>hon. members of this House, but, sir,<lb/>they are on a platform that cannot be<lb/>shaken. Let us go back to the origin of<lb/>the affairs in connection with Union, and<lb/>see how it arose. The hon. ex-President<lb/>came down to Saint John, and told the<lb/>people that it arose out of the troubles<lb/>and necessities of Canada, and asked<lb/>them not to speak too hastily, but to assist<lb/>the other counties in the defeat of the<lb/>Scheme. But, sir, the question was not<lb/>new to the Government of this country.<lb/>As early as 1858, a proposition was made<lb/>to us to go into a Union with the other<lb/>Provinces. It was not deemed advisable<lb/>on certain grounds, and even though of<lb/>late it may be that, as the hon. member<lb/>observes, the renewed proposal for Union<lb/>grew out of the dead lock which had ta<lb break="no"/>ken place in the government of Canada,<lb/>was the mere fact of her necessities urg<lb break="no"/>
+         
+
+            <pb n="30" facs="final/images/NB_LA_1866-06-27_Page_030.jpg"/>
+        
+
+     <fw type="num">30</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866</fw> 
+  
+
+     ing her to make the renewed offer any 
+     <lb/>
+     ground why it should be rejected ? I say 
+     <lb/>a proposal was made to this Government 
+     <lb/> in 1858, and is recorded on the Journals 
+     <lb/> of this House for the Session of 1859. 
+     <lb/>The following is the Report of the Com<lb break="no"/>mittee of the Council of Canada as laid 
+     <lb/>before the House that Session. 
+     <lb/>
+            </p>
+   
+            <p>
+      Copy of a Report of a Committee of 
+     <lb/>
+     the Executive Council of Canada, dated 
+     <lb/>
+     4th September, 1858, approved by His 
+     <lb/>
+     Excellency the Governor General : 
+     <lb/>
+            </p>
+   
+
+<quote rendition="tccd:blockquote">
+            <p>
+     The Committee of Council are respect<lb break="no"/>fully of opinion that it is expedient to 
+     <lb/>
+     bring the subject of the Union of the 
+     <lb/>
+     British North American Colonies under 
+     <lb/>
+     the notice of Her Majesty's Government 
+     <lb/>with as little delay as possible, and to in<lb break="no"/>form the Government of each such Colony 
+     <lb/>that the attention of Her Majesty has 
+     <lb/>been called to the subject by Your Ex<lb break="no"/>cellency.  
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     That Your Excellency should submit to 
+     <lb/>
+    the Right Honorable the Secretary of 
+     <lb/>State for the Colonies, the propriety of 
+     <lb/>authorizing a meeting of Delegates on 
+     <lb/>behalf of each Colony, and of Upper and 
+     <lb/>Lower Canada respectively, for the pur<lb break="no"/>pose of considering the subject of such 
+     <lb/>Federative Union, and reporting on the 
+     <lb/>principles on which the same could pro<lb break="no"/>perly be based.  
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     That such Delegates should be appoint<lb break="no"/>ed by the Executive Government of each 
+     <lb/>
+     Colony, and meet with as little delay as 
+     <lb/>possible.<lb/>
+            </p>
+
+    
+
+            <p>
+     That the Report of such Delegates 
+     <lb/>
+     should be addressed to the Secretary of 
+     <lb/>
+     State for the Colonies, and that a copy 
+     <lb/>
+     of it, as soon as it is prepared, should 
+     <lb/>
+     be placed in the hands of the Governor 
+     <lb/>
+     and Lieutenant Governor of each Colo<lb break="no"/>ny, in order that he may lay the same 
+     <lb/>
+     before the  Provincial Parliament with as 
+     <lb/>
+     little delay as possible. 
+  </p>
+
+<p rendition="simple:centre">Certified. </p>
+     <p rendition="simple:right">(Signed) W. H, LEE, C. E. C. 
+     <lb/>
+            </p></quote>
+
+
+            <p>Here is a distinct proposal for a Fed<lb break="no"/>eral Union of these Colonies, and it was 
+     <lb/>not new even then, for it has been before 
+     <lb/>the people and discussed by statesmen of 
+     <lb/>British North America for some twenty 
+     <lb/>years. The hon. ex-Attorney General 
+     <lb/>stated that Canada had interfered with 
+     <lb/>our legislation. Now the fact is, that an 
+     <lb/>arrangement was made with us that un<lb break="no"/>less the measure of Union could be car<lb break="no"/>ried out they would have to take some 
+     <lb/>other steps with regard to a change in 
+     <lb/>their constitution, and they delayed the 
+     <lb/>opening of the House there till late, to 
+     <lb/>a-e what changes would be made here. 
+     <lb/>The hon. member appealed to this House 
+     <lb/>in most glowing and eloquent terms in 
+     <lb/>favor of the Hon. Joseph Howe. But, 
+     <lb/>sir, I always had a great respect for that 
+     <lb/>gentleman's abilities, and I have sat at 
+     <lb/>the feet of that Gamaliel, hoping to hear 
+     <lb/>something from him, and from him I 
+     <lb/>learned some deep and profitable lessons 
+     <lb/>on the confederation of these Colonies. 
+     <lb/>But I remember a time, sir, when the hon. 
+     <lb/>member did not eulogise the Hon. Joseph 
+     <lb/>Howe. I remember that when that gen<lb break="no"/>tleman and others had concluded an ar<lb break="no"/>
+        
+
+            <cb/>
+         
+rangement with Canada to build the Inter- 
+     <lb break="yes"/>
+     Colonial Railway, he made a stirring 
+     <lb/>
+     speech in opposition to that arrangement. 
+     <lb/>
+     The hon. ex- Attorney General says that 
+     <lb/>
+     Mr. Howe is opposed to this Union, and 
+     <lb/>
+     that his voice will be heard at the bar of 
+     <lb/>
+     the House of Commons against it, but 
+     <lb/>
+     what have been the ideas and sentiments 
+     <lb/>
+    expressed  by that great man from time 
+     <lb/>to time ? 
+     <lb/>
+            </p>
+            <p>In a speech delivered in the year 1851 
+     <lb/>he said, after eloquently describing the 
+     <lb/>greatness of the back country (the cold 
+     <lb/>country) of Canada : 
+     <lb/>
+            </p>
+   
+
+<quote rendition="tccd:blockquote">
+            <p>
+     " With such a territory as this. to over<lb break="no"/>run, organize and improve, think you we 
+     <lb/>
+     shall stop soon at the Western bounds of 
+     <lb/>
+     Canada. or even at the shores of the Pa<lb break="no"/>cific ? Vancouver's island with its vast 
+     <lb/>
+     coal fields lies beyond. The beautiful 
+     <lb/>
+     islands of the Pacific and the growing 
+     <lb/>
+     commerce of that ocean are beyond. 
+     <lb/>
+     Populous China and the rich East are be<lb break="no"/>yond, and the sails of our children's 
+     <lb/>
+     children will reflect as familiarly the sun<lb break="no"/>beams of the South as they now brave the 
+     <lb/>
+     angry tempests of the North. The Mari<lb break="no"/>time Provinces which I now address, are 
+     <lb/>
+     but the Atlantic frontage of this bound<lb break="no"/>less and prolific region—the wharves upon 
+     <lb/>
+     which the business will bet ransacted, and 
+     <lb/>and beside which its rich argosies lie. * *<lb/>
+            </p>
+            <p>* I am neither a prophet or the son of a<lb/>prophet, yet I will venture to predict that<lb/>in five years we shall make the journey<lb/>hence to Quebec and Montreal and home<lb/>through Portland and St. John by rail ;<lb/>and I believe that many in this room will<lb/>live to hear the whistle of the steam en<lb break="no"/>gine in the passes of the Rocky Moun<lb break="no"/>tains, and to make the journey from<lb/>Halifax to the Pacific in five or six days."<lb/>
+            </p></quote>
+   
+    
+
+            <p>
+     Having sketched some of the public 
+     <lb/>
+     men of New Brunswick, and brought out 
+     <lb/>
+     in bold relief the proportions of that great 
+     <lb/>
+     field of honorable ambition and exertion 
+     <lb/>
+     upon which they would tread if Union of 
+     <lb/>
+    the Provinces by iron roads had been 
+     <lb/>followed by the political organization 
+     <lb/>which would be the result, Mr. Howe 
+     <lb/>said : 
+     <lb/>
+            </p>
+   
+
+<quote rendition="tccd:blockquote">
+            <p>
+     " If the sphere were wide enough here 
+     <lb/>
+     what would you do with such men ? You 
+     <lb/>
+     would send Judge Wilmot to administer 
+     <lb/>
+     justice. Where ?  To a small Province ? 
+     <lb/>
+     No, but to our American Empire." 
+     <lb/>
+            </p></quote>
+
+            <p>
+     And where did the hon. member place 
+     <lb/>
+     him ?  
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:SMIT1">Mr. SMITH</persName>—Where he ought to be. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>—Yes, and the peo<lb break="no"/>ple have left the late Government where 
+     <lb/>
+     they ought to be. But Mr. Howe went 
+     <lb/>
+     on : " You would place Mr. Chandler on 
+     <lb/>
+     the Bench of the United Provinces. You 
+     <lb/>would hold out to the young men of your<lb/>
+    country a sphere and a field for their ex<lb break="no"/>ertions and ambition which none of them 
+     <lb/>have open to them now. How? With 
+     <lb/>the consent of the Sovereign and the ac<lb break="no"/>quiescence of the Imperial authorities, by 
+     <lb/>      the united action and good sense of the 
+     <lb/>Provinces, you would seek by Union to 
+     <lb/>
+ 
+
+            <cb/>
+        
+elevate them all to a higher status than<lb/>any of them seperately can ever oc<lb break="no"/>cupy."<lb/>
+            </p>
+            <p>This is the language of the friend of<lb/>the hon. ex-President of the Council.<lb/>
+            </p>
+            <p>Again, at a dinner in Halifax in the<lb/>summer of 1864, he made a most telling<lb/>speech, which is but imperfectly sketched<lb/>by the reporter. He says : " In almost<lb/>every city of importance in British Ame<lb break="no"/>rica his voice had been heard, and if<lb/>ever occasion required it would be heard<lb/>again. He had never pursued a sec<lb break="no"/>tional policy. He had for many years<lb/>been looking at the important Provinces<lb/>of British North America, and thinking<lb/>how they could be made strong, vigor<lb break="no"/>ous and great, with the old flag of Eng<lb break="no"/>land floating over the inhabitants. A<lb/>Union of the Provinces was the dream<lb/>of his boyhood, and he was now pleased<lb/>to find Her Majesty's subjects of all<lb/>creeds and professions anxiously looking<lb/>forward to the time when they could<lb/>build up a new England—Monarchical<lb/>and not Republican—on this side of the<lb/>Atlantic. He hoped the day was not<lb/>far distant when a railway would con<lb break="no"/>nect Nova Scotia, New Brunswick and<lb/>Canada. He wanted to see Canada not<lb/>every five years, but twice a year ; and<lb/>he wanted the Canadians, when fever<lb/>and ague racked their bones, to come<lb/>
+            </p>
+   
+            <p>
+     down to the ocean to renew their ener<lb break="no"/>gies and recruit their strength. After 
+     <lb/>
+     referring to the agricultural capabilities 
+     <lb/>
+    of Canada, the fisheries and mineral re<lb break="no"/>sources of Nova Scotia, and the impor<lb break="no"/>tance of New Brunswick, he asked if the 
+     <lb/>people would be content to remain divi<lb break="no"/>ded and live and die in territorial insigni<lb break="no"/>ficance ? He had always been in favor 
+     <lb/>of uniting two, three, or even four and 
+     <lb/>five of the Provinces, and he hoped it 
+     <lb/>would yet be accomplished. He observed 
+     <lb/>that there was a movement on foot, the 
+     <lb/>object of which was to divide Canada ; 
+     <lb/>but he would say to the Canadians that 
+     <lb/>if they did seperate, they would commit 
+     <lb/>an act of political suicide."  
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     So says the Hon. Joseph Howe, the 
+     <lb/>
+     friend of the hon. ex-President of the 
+     <lb/>
+     Council. I happened to be in Nova 
+     <lb/>
+     Scotia when Mr. McGee held a meeting 
+     <lb/>
+     in Halilax to agitate the Union of the 
+     <lb/>
+     Colonies. Dr. Tupper waited on Mr. 
+     <lb/>
+     Howe to second a resolution of vote of 
+     <lb/>
+     thanks to Mr. McGee, which was pro<lb break="no"/>posed by Mr. Johnson. The speech is 
+     <lb/>
+     thus reported : 
+     <lb/>
+            </p>
+   
+
+<quote rendition="tccd:blockquote">
+            <p>
+     " Hon. Mr. Howe rose to second the 
+     <lb/>
+     vote of thanks. In the course of a 
+     <lb/>
+     brief but eloquent address, he paid a 
+     <lb/>
+     high tribute to the excellent qualities of 
+     <lb/>
+     Mr. McGee both in public and private 
+     <lb/>
+     life. He was pleased to see him there, 
+     <lb/>because he was an admirable propaga<lb break="no"/>tor of the opinions he entertained. He 
+     <lb/>hoped the time was not far distant 
+     <lb/>when local feeling and prejudice would 
+     <lb/>
+    
+
+            <pb n="31" facs="final/images/NB_LA_1866-06-27_Page_031.jpg"/>
+           
+
+     <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">31</fw> 
+ 
+
+be obliterated, and sectional lines rub<lb break="no"/>bed out in Canada. He agreed in what<lb/>Mr. McGee had said respecting the Con<lb break="no"/>federation of the Colonies ; he was in<lb/>favor of Union either before or after the<lb/>construction of the Intercolonial Rail<lb break="no"/>road ; but in his opinion the road ought<lb/>to be first built and union come after. He<lb/>wanted to see Nova Scotia the frontage<lb/>of a great country, of which it might<lb/>almost be said that the sun never set<lb/>upon it. He was glad to see Mr. McGee<lb/>here for many reasons ; the subject of<lb/>Union was now being generally discussed<lb/>in the Provinces, and there was not a man<lb/>on the Continent more capable to take<lb/>the lead in this question than that hon.<lb/>gentleman. Hon. Mr. How closed his<lb/>remarks by stating he was glad an occa<lb break="no"/>sion had presented itself which afforded<lb/>him an opportunity of doing Mr. McGee<lb/>justice in his (Mr. Howe's) native Pro<lb break="no"/>vince."<lb/>
+            </p></quote>
+   
+            <p>
+      These remarks were made by the friend 
+     <lb/>
+     of the hon. ex-President of the Council. 
+     <lb/>In 1862 when Mr. Howe with others were<lb/>
+    in Canada arranging about the Railroad, 
+     <lb/>there was a great political pic-nic just out 
+     <lb/>from Saint Catharines, near to Niagara 
+     <lb/>Falls, and at that meeting Mr. Howe made 
+     <lb/>a very eloquent and able speech in clos<lb break="no"/>ing which he said, " He looked hopefully 
+     <lb/>forward to the time when this great Pro<lb break="no"/>vince of Canada would he connected with 
+     <lb/>the Province  below, and when a man 
+     <lb/>would feel that to be a British American 
+     <lb/>was to be the citizen of a country which 
+     <lb/>included all these fertile lands, all these 
+     <lb/>inexhaustible fisheries, all this immense 
+     <lb/>marine, carrying to all seas the flag of old 
+     <lb/>England, if she would let us, and if she 
+     <lb/> will not let us, the flag of British Ameri<lb break="no"/>ca, bearing to foreign countries the line<lb break="no"/>aments, the enterprise, and the spirit of<lb/>Britons, and the civilization of British 
+     <lb/>America of which he trusted none of us 
+     <lb/>need be much ashamed." 
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     I have all along felt great surprise, 
+     <lb/>
+     knowing the opinions he held, that he 
+     <lb/>
+     should now be found working with the 
+     <lb/>
+     anti-Confederates against that for which 
+     <lb/>he has laboured all his life. 
+     <lb/>
+            </p>
+            <p>The hon. ex-Attorney General said it 
+     <lb/>was intended to push the Quebec Scheme 
+     <lb/> through fhe Legislature without appeal<lb break="no"/>ing to the people. This was not the case. 
+     <lb/>The matter was talked over, and Canada 
+     <lb/>said she could pass the Scheme without 
+     <lb/>an appeal, but we said the House in New 
+     <lb/>Brunswick is near its last Session, and it 
+     <lb/>would not do. I appeal to the hon, At<lb break="no"/>torney General, and to the hon. Mr. 
+     <lb/>Chandler on this point; for the matter was 
+     <lb/>freely talked over, and we said we were 
+     <lb/>only two or three out of a Council of 
+     <lb/>nine, and could not decide. The first 
+     <lb/> time we returned I had a five miles walk 
+     <lb/>with His Excellency, and this matter was 
+     <lb/>talked over, and I then said to him that 
+     <lb/>the question must be submitted to the 
+     <lb/>people. When the question was laid be<lb break="no"/>fore the Council there was not one who 
+     <lb/>was in favor of bringing the matter before 
+     <lb/>
+      
+
+            <cb/>
+  
+
+     the House. We did intend to meet the<lb/>Legislature, but did not intend to sub<lb break="no"/>mit the Scheme to them for action. 
+     <lb/>
+     But when we found that Canada was 
+     <lb/>
+     pressing the matter on, we decided to sub<lb break="no"/>mit the question at once to the people, the 
+     <lb/>
+     House was dissolved ; new writs were 
+     <lb/>
+     issued, and the government fell. I feel as 
+     <lb/>
+     much as the hon. ex-Attorney General 
+     <lb/>
+     the responsibility which rests upon the Go<lb break="no"/>vernment in their present position, but I 
+     <lb/>have never wavered on the subject. I know 
+     <lb/>that the consummation of the Union is an 
+     <lb/> object desired by the people. The hon. 
+     <lb/>member  has no responsibility resting on 
+     <lb/>him, and when he says the delegates will 
+     <lb/>have no instructions,  I say they will not 
+     <lb/>go home without instructions. My idea 
+     <lb/>is that our delegates should go home 
+     <lb/>and meet with delegates from the other 
+     <lb/>Provinces who in conjunction with the Im<lb break="no"/>perial Government shall decide upon such 
+     <lb/>terms of Union as will best conserve the 
+     <lb/>interests of these Provinces. I do not for 
+     <lb/>many reasons think it would be right to 
+     <lb/>bind the delegates down to certain pre<lb break="no"/>scribed provisions, but l can assure the 
+     <lb/>hon. member that his suggestions as well 
+     <lb/>as those of all others will be most carefully 
+     <lb/>considered. The hon. ex-President of the 
+     <lb/>Council has said that he does not believe 
+     <lb/>that one-tenth of this House are in favor 
+     <lb/>of the Quebec Scheme. Now let us see. 
+     <lb/>There is Victoria, one member pledged 
+     <lb/>to Union and returned at the former con<lb break="no"/>test, and two returned this time ; Carle<lb break="no"/>ton, both members I think favorable to 
+     <lb/>the Scheme, and both returned at each 
+     <lb/>election. In York there are our friends 
+     <lb/> the Attorney General and Dr. Dow, can<lb break="no"/>didates at the former election, who then 
+     <lb/> lost their seats, but who now are returned 
+     <lb/>with two others pledged to Union with 
+     <lb/>overwhelming majorities ; in Sunbury 
+     <lb/>we have two members again returned who 
+     <lb/>were elected when the Quebec Scheme 
+     <lb/>was submitted ; in Queen's we have one 
+     <lb/> member at least favorable to Union, and 
+     <lb/>one always in favor of the Scheme. In 
+     <lb/>Charlotte we have two able advocates of 
+     <lb/>the Scheme, supported by two others 
+     <lb/>strongly in favor of Union. In Saint 
+     <lb/>John, well, I suppose there is not much 
+     <lb/>doubt of us, we were in favour of the 
+     <lb/>Scheme.   
+     <lb/>
+            </p>
+
+    
+
+    
+   
+    
+
+            <p>
+     <persName ref="pers:SMIT1">Mr. SMITH</persName>.—Didn't you promise your 
+     <lb/>
+     constituents to make modifications in 
+     <lb/>
+     that Scheme? 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:TILL1">Hon. Mr. TILLEY</persName>.—Yes, Mr. Speak<lb break="no"/>er, and we should have been recreant to 
+     <lb/>
+     our duty and unfit for the trust reposed 
+     <lb/>
+     in us had we not, when we found that 
+     <lb/>
+     certain sections of that Scheme were ob<lb break="no"/>noxious, promised to see that the very 
+     <lb/>
+     best terms possible should be obtained. 
+     <lb/>
+     Well, then, there were Mr Wilmot and 
+     <lb/>
+     Mr. Wetmore, who were returned at first 
+     <lb/>
+     by the Anti-Confederates and how for 
+     <lb/>
+    Union, Messrs. Skinner and Quinton were  
+     <lb/>
+       
+
+            <cb/>
+    
+
+     at first rejected, but now have been elect<lb break="no"/>ed. In King's, we have now one former<lb break="no"/>ly rejected with at least one who worked 
+     <lb/>with us, and all for Union. In Albert 
+     <lb/>both the members were returned at each 
+     <lb/>election. We have very little opposed to 
+     <lb/>Union yet, and even Westmorland does 
+     <lb/>not altogether oppose Union, for they 
+     <lb/>have returned the hon. ex-Attorney Gen<lb break="no"/>eral, who was willing to go for Union, and 
+     <lb/>even to take the Quebec Scheme " with 
+     <lb/>certain checks." In Northumberland we 
+     <lb/>have four men, unmistakably in favor of 
+     <lb/>the Scheme; Kent is Anti, Restigouche is 
+     <lb/>Union,  and Gloucester Anti again. But 
+     <lb/>in Kent Mr. Caie was not opposed to 
+     <lb/>Union last session, and in fact it will be 
+     <lb/>hard to find an anti-Unionist on the floors 
+     <lb/>of the House to-day. But where are 
+     <lb/>Boyd, Thompson, Otty, Needham, who 
+     <lb/>said if they had Confederation it would be 
+     <lb/>over his dead carcass? The majority of 
+     <lb/>the House are for Union, some perhaps 
+     <lb/>committed to obtain new and more ad<lb break="no"/>vantageous terms of Union, and the rest 
+     <lb/>though not committed are all favorable. 
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     Now let us look at some of the advan<lb break="no"/>tages of the Quebec Scheme. It is im<lb break="no"/>possible to satisfy some of the opponents 
+     <lb/>
+     of Union. Previous to the former elec<lb break="no"/>tion the cry was, you are going to force 
+     <lb/>
+    the question through the House and not 
+     <lb/>appeal to the people ; then when we did 
+     <lb/>appeal to the people they said it was very 
+     <lb/>wrong to dissolve the House at such an 
+     <lb/>inclement season of the year ; how very 
+     <lb/>delicate the people got all at once. The 
+     <lb/>hon. ex-Attorney General is very difficult 
+     <lb/>to please ; he raised many objections and 
+     <lb/>made many statements, but he did not 
+     <lb/>tell this intelligent House what he told 
+     <lb/>his constituents over in Westmorland, 
+     <lb/>that in Confederation we should only get 
+     <lb/>$360,000, whilst we should pay into the 
+     <lb/>general revenues about a million of dol<lb break="no"/>lars. Oh no, he did not tell us that, 
+     <lb/>neither did he tell us a good many other 
+     <lb/>things he said then.  
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     It is scarcely necessary to go into the. 
+     <lb/>
+     matter and position of  trade and com<lb break="no"/>merce, although it has been said that we 
+     <lb/>
+     could have free trade out of the Union as 
+     <lb/>
+     well as in it. Now in 1853 this was 
+     <lb/>
+     tried. We drew up a memorandum of 
+     <lb/>
+     Council, asking the then Lieutenant Go<lb break="no"/>vernor, Mr. Manners Sutton, to send a 
+     <lb/>
+     despatch to the Colonial Office to obtain 
+     <lb/>
+     for us free trade between the Colonies, 
+     <lb/>
+     and the British Government returned 
+     <lb/>
+     answer that the variation of the tariffs in 
+     <lb/>
+     the different Provinces prevented this be<lb break="no"/>ing done. Some persons may labor  
+     <lb/>
+     under wrong impressions with regard to 
+     <lb/>
+     the financial arrangements. Some are 
+     <lb/>
+    opposed to the Quebec Scheme who have 
+     <lb/>never read it. It reminds me of a cir<lb break="no"/>cumstance which occurred in a school 
+     <lb/>down the river in my native place. 
+     <lb/>The boys have got hold of the question 
+     <lb/>and are either  Confeds. or Antis, and one 
+     <lb/>
+      
+
+            <pb n="32" facs="final/images/NB_LA_1866-06-27_Page_032.jpg"/>
+       
+
+     <fw type="num">32</fw> <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> 
+
+
+     little fellow of some nine years was heard 
+     <lb/>to say, in conversation with some other<lb/>boys, "I'm in favor of Union, but opposed<lb/>to the Quebec Scheme. So some of the<lb/>people heard the story about the $300,<lb break="no"/>000 and believed it, but when their eyes<lb/>were opened they saw the fallacy of the<lb/>whole thing. The able speeches deliver<lb break="no"/>ed in the Upper Branch by such men as<lb/>the Hon. Mr. Chandler and others, whose<lb/>arguments are indisputable, were printed<lb/>and scattered over the country by the<lb/>thousand, and the result has been<lb/>the people's minds have been enlightened.<lb/>Now let us see. Our revenue in 1864</p>
+
+<table>
+<row><cell>amounted to - - - </cell><cell rendition="simple:right">$971,998 85</cell></row>
+<row><cell>in 1865 it was - - </cell><cell rendition="simple:right">758,661 95</cell></row>
+<row><cell>this gives us - - - </cell><cell rendition="simple:right">1, 730,600 00</cell></row>
+<row><cell>Divide this by 2, and we have<lb/>an average of - - </cell><cell rendition="simple:right">865,330 00</cell></row>
+<row><cell>Add to this the earnings of<lb/>the Railroad - - </cell><cell rendition="simple:right"><hi rendition="simple:underline">40,000 00</hi></cell></row>
+<row><cell>and we have - - - </cell><cell rendition="simple:right">$905,330 00</cell></row>
+</table>
+
+<p>as the amount we received in the years<lb/>1864 and 1865 out of Union. Now let<lb/>us see what our position would have been<lb/>in Union in these years. Two or three<lb/>years ago when the hon. ex-Attorney Ge<lb break="no"/>neral went out of the Government on the<lb/>Intercolonial Railway question, he said<lb/>that, for the road we then had, our en<lb break="no"/>gagements in England were then taking<lb/>
+    £200 a day out of the country to pay in<lb break="no"/>terest. He also said that that road cost 
+     <lb/>£5 for  every passenger that passed 
+     <lb/>over it, and further that it would never 
+     <lb/>pay running expenses. But to-day he 
+     <lb/>regards that road as good property, and 
+     <lb/>about to pay a debt of six per cent. We 
+     <lb/>go into the Union with a debt of $7,<lb break="no"/>000,000, not that our debt amounts to 
+     <lb/>that, but $1,300,000 of that amount is 
+     <lb/>allowed us to secure Western Exten<lb break="no"/>sion and branches, which the hon. mem<lb break="no"/>ber voted against at the time in this 
+     <lb/>House, but now expresses a deep sympa<lb break="no"/>thy for it, and fears it will not be built,<lb/>and how anxious, earnest and solicitous<lb/>he is that Government should build it.<lb/>Our debt is not in proportion to the debt<lb/>in which Canada comes in, for while she<lb/>comes in with a debt of sixty-two and a<lb/>half millions, with ten times our popula<lb break="no"/>tion, we come in with only $7,000,000.<lb/>The debt of Canada is, indeed, more than<lb/>this, but the balance is assumed by the<lb/>respective Legislatures of Upper and<lb/>Lower Canada, and this concession is made<lb/>to us above the difference which really<lb/>exists between our debt and the sum on<lb/>which we go in. The interest on our<lb/>debt this year is $354,000, but in the<lb/>Union they take this off our shoulders,<lb/>and pay $420,000 on the debt of $7,000,<lb break="no"/>000. For the Intercolonial Railroad, as<lb break="no"/>suming the three and a half-twelfths of<lb/>the cost as was proposed, out of the<lb/>Union, we should have to pay $175,000<lb/>
+          
+
+            <cb/>
+         
+
+     a year, but in the Union, instead of this, 
+     <lb/>the General Government will assume the<lb/>whole cost of the line. We also have<lb/>assured for us the salaries of the Judges,<lb/>Governor, &amp;c., $23,000. The hon mem<lb break="no"/>ber stated that it was probable our Local<lb/>Legislature would be left without any<lb/>powers, and dwindle down so low that<lb/>its action would be a mere farce. Now,<lb/>whatever may be the opinion of the hon.<lb/>member with regard to this Legislature,<lb/>or of Mr. Brown in reference to the Local<lb/>Government of Upper Canada, I believe<lb/>that our Constitution will remain just as<lb/>it is. It is a fact that out of the whole<lb/>number of Bills passed by this Legisla<lb break="no"/>ture in 1864, all but seven would have<lb/>come before us in Confederation, and all<lb/>but three during the last Session. No,<lb/>the work to be performed will not dwindle<lb/>down to insignificance. Another objec<lb break="no"/>tion raised was in reference to the<lb/>Judges of the County Courts. Now in<lb/>Lower Canada the arrangement is dif<lb break="no"/>ferent from that in Upper Canada. In<lb/>Lower Canada they have no County<lb/>Courts, but in Upper Canada much of<lb/>the business in done in these Courts,<lb/>and it is therefore right they should be<lb/>provided for, and they only receive the<lb/>same as the other Provinces. The next<lb/>item we get taken off our hands is the<lb/>Protection and Collection of the Reve<lb break="no"/>nues, some $41,000 or $42,000 ; then<lb/>there is the Post Office deficiency, $22,<lb break="no"/>500. But it is objected that this will<lb/>amount to nothing, inasmuch as there will<lb/>be a tax on newspapers, that with us<lb/>now go free. The amount will be in<lb break="no"/>significant compared with our deficiency,<lb/>but let that go, strike it out altogether if<lb/>you like, it will make little difference<lb/>with regard to the result. Then for<lb/>Militia purposes, $1,000,000 have to be<lb/>provided. Our portion of that will be<lb/>$75,000 ; then Steamboat Communica<lb break="no"/>tion, Improvement of Rivers, Geological<lb/>Surveys and Harbors, say $12,000. The<lb/>ex-Attorney General seems to imagine<lb/>that the harbors are not provided for,<lb/>but there is a special arrangement for<lb/>our benefit. He says there will be an<lb/>enormous expenditure for improvement<lb/>of Canadian rivers and lakes. Now the<lb/>Saint Lawrence can hardly be improved<lb/>much, for ships can now pass as far as<lb/>Montreal, and for the lakes, I should<lb/>like to know what improvements they<lb/>can put upon them. No, this arrange<lb break="no"/>ment was entered into with a special<lb/>regard to the interests of New Bruns<lb break="no"/>wick. I put down for Steam Communi<lb break="no"/>cation and other items $12,000, although<lb/>it would doubtless be much more. Then<lb/>there is the Subsidy at 80 cents a head,<lb/>$201,000. Exception has been taken to<lb/>this, that the proportion will be less in ten<lb/>years. True, but where do we get it ?<lb/>Does it not come out of the chest into<lb/>
+       
+
+<cb/>
+
+     which the people of British North Ame<lb break="no"/>rica contribute ? And then the increase 
+     <lb/>
+     of expenditure is not, as has been put 
+     <lb/>
+     forward, in the same raito as the increase 
+     <lb/>
+     of population. In this arrangement all 
+     <lb/>
+     the other Provinces get the same as we. 
+     <lb/>
+     Then there is our Casual and Territorial 
+     <lb/>
+     Revenue $78,000. and beside all this, the 
+     <lb/>
+     bonus for ten years of $63,000. The 
+     <lb/>
+     hon. ex-President said nothing about that. 
+     <lb/>
+     But he did take exception to buying up 
+     <lb/>
+     the Crown Lands, Mines and Minerals of 
+     <lb/>
+     Newfoundland, and I beg to say that it is 
+     <lb/>
+     clear in this matter he is not read up. 
+     <lb/>
+     In the Exhibition in 1862 in London, I 
+     <lb/>
+     saw specimens of minerals, chiefly cop<lb break="no"/>per, which came from Newfoundland, 
+     <lb/>
+     which fairly astonished nie, for at that 
+     <lb/>
+     time I had no idea of the richness of 
+     <lb/>
+     that Province in this respect. Now, 
+     <lb/>
+     add the whole of these amounts toge<lb break="no"/>ther, and we have $1,130,000 assured for 
+     <lb/>
+     us by the General Government, against 
+     <lb/>
+     $905,000, including the earnings of our 
+     <lb/>
+     Railways out of Union, which is $225,<lb break="no"/>000 to our advantage, or $162,000 bet<lb break="no"/>ter, leaving out the subsidy. Why, sir, 
+     <lb/>
+     it would take us twenty years to arrive 
+     <lb/>at such a position as we commence the<lb/>
+    Union with. " Oh ! but we shall have 
+     <lb/>to give up our Railway, and get nothing 
+     <lb/>for it." " Our debt is in our Railway, 
+     <lb/>but the Canadian debt is for rebel losses." 
+     <lb/>But, Mr. Speaker, I am prepared to 
+     <lb/>prove that while our public works do 
+     <lb/>not pay three quarters per cent., the 
+     <lb/>works and assets of Canada pay one and 
+     <lb/>a quarter per cent. on the debt with 
+     <lb/>which they come in. There is another 
+     <lb/>point that needs to be touched on, and 
+     <lb/>that is the amount of revenue which 
+     <lb/>would have been collected if the Cana<lb break="no"/>dian tariff had been applied to our re<lb break="no"/>ceipts for 1864 and 1865. Collector  
+     <lb/>Smith says if we had been in Union, and 
+     <lb/>our revenues had been collected on their 
+     <lb/>tariff, we should have paid $480,000 more 
+     <lb/>than we did. Should we ? Nothing of 
+     <lb/>the kind. I am not going to deny the 
+     <lb/>statements of Mr. Smith. I will assume 
+     <lb/>them to be correct, but I deny that the 
+     <lb/>arguments based upon them are worthy 
+     <lb/>of any consideration. He says we col<lb break="no"/>lected in those years on Spirits $54,<lb break="no"/>000, and it is said if the Canadian tariff 
+     <lb/>had been applied we should have paid 
+     <lb/>$200,000. But it must he remembered 
+     <lb/>that in Canada in 1863 they adopted a 
+     <lb/>protective policy. Finding the grain 
+     <lb/>going out of the country at a low price 
+     <lb/>and the spirits manufactured from re<lb break="no"/>turning and paying a duty, they said : 
+     <lb/>We will keep the grain, make our own 
+     <lb/>whiskey, &amp;c., and so they put on an ex<lb break="no"/>cise duty of thirty cents per gallon, and  
+     <lb/>on imported spirits a duty of one dollar 
+     <lb/>per gallon and 15 per cent. ad valorem. 
+     <lb/>This stopped the importation, and only 
+     <lb/>280 gallons of spirits were brought in. 
+     <lb/>
+            </p>
+            <pb n="33" facs="final/images/NB_LA_1866-06-27_Page_033.jpg"/>
+            <fw type="running">DEBATES OF THE HOUSE OF ASSEMBLY FOR 1866.</fw> <fw type="num">33</fw>
+            <p>
+     
+     And so it is said that we should have paid 
+     <lb/>
+     $140,000 more on the. article of Spirits 
+     <lb/>
+     alone, but the truth is we should only 
+     <lb/>
+     have paid the thirty cents a gallon, in<lb break="no"/>stead of the thirty-five centa as we did. 
+     <lb/>
+     In Newfoundland they pay a higher rate 
+     <lb/>
+     than we do, with a lower tariff, but in 
+     <lb/>
+     Canada they paid a lower rate with a 
+     <lb/>
+     higher tariff. In 1864, in Union, we 
+     <lb/>
+     should not have paid as much, for they 
+     <lb/>
+     only paid $2.60 to our $3.10. The tariff 
+     <lb/>
+     there is higher, but the rate lower, and 
+     <lb/>
+     why ? Because manufactures have in<lb break="no"/>creased, and importations decreased. 
+     <lb/>
+     " No," it is objected, " it is because they 
+     <lb/>
+     are a poorer country." But the fact is 
+     <lb/>
+     they consume much more in proportion 
+     <lb/>
+     to the population than we do. Of all the 
+     <lb/>
+     articles upon which they have a specific 
+     <lb/>
+     tariff there are only two that we use in 
+     <lb/>
+     larger quantities than they. The con<lb break="no"/>sumption of tea and molasses is much 
+     <lb/>
+     greater here than in Canada ? Why ? 
+     <lb/>
+     We know that during the late war in the 
+     <lb/>
+     United States the Government put a high 
+     <lb/>
+     rate upon tea, and the consequence was 
+     <lb/>
+     that much of the tea that paid duty here 
+     <lb/>
+     was consumed out of the country. Then 
+     <lb/>
+     in Canada they have Sugar Refineries, and 
+     <lb/>
+     they use the golden syrup instead of mo<lb break="no"/>lasses, because they can get it at a dollar 
+     <lb/>
+     a gallon, the same price they have to give 
+     <lb/>
+     for molasses ln Upper Canada, on ac<lb break="no"/>count of the expense of moving. The 
+     <lb/>
+     several rates for the Provinces in 1864 
+     <lb/>
+     was as follows : </p>
+
+
+<table>
+<row><cell>In Canada they paid  </cell><cell rendition="simple:right">$2.56 per head</cell></row> 
+<row><cell>" Nova Scotia they paid</cell><cell rendition="simple:right">2.69 "</cell></row> 
+<row><cell>" New Brunswîck they paid</cell><cell rendition="simple:right">3.10 "</cell></row> 
+<row><cell>" Newfoundland they paid</cell><cell rendition="simple:right">3.65 "</cell></row> 
+<row><cell>" Prince Edward Island 
+     <lb/>
+     they paid</cell><cell rendition="simple:right">1.98 "</cell></row> 
+</table>
+
+
+   
+            <p>
+     The whole amount of the revenues 
+     <lb/>
+     raised in these Provinces in that year 
+     <lb/>
+     was $9,580,000. Apply to this the tariff 
+     <lb/>
+     of $3.10, and we get $1,670,000 more 
+     <lb/>
+     than was raised by all British North Am<lb break="no"/>erica out of the Union. 
+     <lb/>
+            </p>
+
+            <p>
+     With regard to the North-West Terri<lb break="no"/>tory and its admission into the Union, 
+     <lb/>
+     that will be a matter for discussion for 
+     <lb/>
+     the General Government. The surplus 
+     <lb/>
+     revenue will not be taken to purchase that 
+     <lb/>
+     territory, but go to meet the cost of the 
+     <lb/>
+     Intercolonial Railroad and the improve<lb break="no"/>ments in Canada for purposes of the Ge<lb break="no"/>neral Government. In Prince Edward<lb/>Island it is said they are opposed to the<lb/>Railroad, because they will not be direct<lb break="no"/>ly benefitted by it. But such an argu<lb break="no"/>ment cannot be used in this Province.<lb/>The Railroads now profided for under the<lb/>Subsidy Act are :</p>
+
+
+<table>
+<row><cell>Western Extension,</cell><cell rendition="simple:right">88 miles.</cell></row>
+<row><cell>St. Stephen Branch,</cell><cell rendition="simple:right">18 "</cell></row>
+<row><cell>Woodstock "</cell><cell rendition="simple:right">12 "</cell></row>
+<row><cell>Fredericton "</cell><cell rendition="simple:right">21 "</cell></row>
+<row><cell>Eastward Extension,</cell><cell rendition="simple:right">30 "</cell></row>
+<row><cell>Albert Branch,</cell><cell rendition="simple:right"><hi rendition="simple:underline">20</hi> "</cell></row>
+<row><cell>Total say,</cell><cell rendition="simple:right">190 '</cell></row>
+</table>
+
+            <cb/>
+            <p>
+     For the same rate which we paid per 
+     <lb/>head in 1864 we can have the Intercolo<lb break="no"/>nial Road and all these Branches<lb/>without the expenditure of a penny more<lb/>than we did.<lb/>
+            </p>
+            <p>On motion of <persName ref="pers:SUTT1">Mr. SUTTON</persName> the de<lb break="no"/>bate and House here adjourned till to<lb break="no"/>morrow morning at 9 o'clock.</p>
+
+<p rendition="simple:right">J. M.<lb/>
+            </p>
+
+
+<!-- GL, 2018-05-08, Commented out below, as it will appear in the following debate day -->
+
+           <!-- <p>THURSDAY, JUNE 28.<lb/>
+            </p>
+            <p>Mr. WETMORE by leave brought in<lb/>the following bills.<lb/>
+            </p>
+            <p>" A Bill to revive and continue an Act<lb/>to amend the law for the relief of insol<lb break="no"/>vent Debtors."<lb/>
+            </p>
+            <p>" A bill relating to the Registry of<lb/>Deeds and other instruments."<lb/>
+            </p>
+            <p>" A Bill to amend the law of evidence.<lb/>
+            </p>
+            <p>" A Bill to authorize the Justice of the<lb/>Supreme Court to preside at trials in<lb/>which the City of St. John is interested."<lb/>
+            </p>
+            <p>" A Bill relating to Debtors confined<lb/>in Jail or on the limits."<lb/>
+            </p>
+            <p>" A Bill to provide for the registration<lb/>of births and deaths."<lb/>
+            </p>
+   
+            <p>
+     CONTINUATION OF THE DEBATE ON MR. 
+     <lb/>FISHER'S RESOLUTION FOR THE AP-<lb break="maybe"/>POINTMENT OF DELEGATES.<lb/>
+            </p>
+            <p>Mr. TILLEY resumed.—I feel that I<lb/>am trespassing upon the patience of this<lb/>House in continuing my remarks upon<lb/>this resolution, for it is well known that<lb/>thirty-three of the members of this House<lb/>have been elected in favour of the princi<lb break="no"/>ples of this resolution now on the table,<lb/>and some of the remaining eight for<lb/>Union but against the Quebec Scheme.<lb/>Mt hon. friend (Mr. Smith) has taken<lb/>exception to a great many of the provi<lb break="no"/>sions of the Quebec Scheme, therefore I<lb/>feel myself called upon to occupy the at<lb break="no"/>tention of the House for a short time in<lb/>discussing this question, but before taking<lb/>up the principle points in the objections,<lb/>I desire to reiterate the financial state<lb break="no"/>ment made yesterday, because it has been<lb/>stated it was imaginary and there was<lb/>nothing real in it. In the first place can<lb/>there be any doubt about our being re<lb break="no"/>lieved from paying $420,000 annually, that<lb/>being the interest of our debt of $7,000,-<lb break="maybe"/>000 ! Can there be any doubt about the<lb/>construction of the Intercolonial Railway<lb/>that under the arrangement of 1862 we<lb/>would have to pay 3½ twelfths, whereas if<lb/>we go into Union we will have to pay but<lb/>one-thirteenth ? Can there be any doubt<lb/>but that the salaries of the Governor and<lb/>Judges and the expenses of the collection<lb/>and protection of the revenue will be paid<lb/>by the General Government. The deficien<lb break="no"/>cy in the Post Office will be paid by the<lb/>General Government, although it may be<lb/>that there will be a charge upon news<lb break="no"/>papers the same as in Canada. My hon.<lb/>friend (Mr. Smith) has not spoken upon<lb/>
+            </p>
+            <milestone type="unknown"/>
+            <p>
+     these points because he knows that they 
+     <lb/>are unanswerable. If he had had a leg to<lb/>stand upon he would have used the<lb/>same arguments here that he former<lb break="no"/>ly used in addressing his constituents.<lb/>The very fact that he himself has given<lb/>adhesion to Union upon some terms has<lb/>taken away a great deal of the arguments<lb/>which he used twelve months ago. I have<lb/>just been informed by the Postmaster<lb/>General that there is now a proposition<lb/>before the Canadian Legislature to do<lb/>away with the postage on newspapers.<lb/>(Mr. Smith—very opporture.) There are<lb/>many opportune circumstances which<lb/>have convinced the public mind of the<lb/>advantages of Union, while the late Gov<lb break="no"/>ernment have not been favored by Pro<lb break="no"/>vidential circumstances or anything else.<lb/>Let us look at some of the points which<lb/>the late Attorney General considers ob<lb break="no"/>jectionable. He says we have not a<lb/>sufficient number of representatives in<lb/>the upper branch of the Legislature.<lb/>There might be some concessions made<lb/>to us in this. When the arrangement was<lb/>made, and representation by population<lb/>was conceded, it was considered that<lb/>there was a great protection given to<lb/>the Maritime Provinces, for New Bruns<lb break="no"/>wick was to have one representative for<lb/>every 25,000 of her population, Lower Ca<lb break="no"/>nada one to every 50,000, and Upper Ca<lb break="no"/>nada one to every 75,000. That was<lb/>twenty-four representatives for Upper<lb/>and twenty-four for Lower Canada, and<lb/>twenty-four for the Maritime Provinces,<lb/>and Newfoundland was to have four.<lb/>In every case the interests of the Mari<lb break="no"/>time Provinces are nearly identical, and<lb/>there is scarcely an important question<lb/>that can come up in which Lower Cana<lb break="no"/>da would not be with us. It has been<lb/>said that Upper Canada wishes to buy<lb/>the North West Territory, suppose such<lb/>a question came up, and a majority of<lb/>the people's representatives were in<lb/>favor of the measure. It would still<lb/>have to pass the Upper House, and<lb/>twenty-four representatives of Upper<lb/>Canada would vote for it, and the other<lb/>fifty-two members against it. Is there<lb/>not some protection in this? Again<lb/>there is a protection in the fact that the<lb/>number of representatives in the Upper<lb/>Branch cannot be increased by the<lb/>Crown. Suppose we had not that pro<lb break="no"/>tection, the Government could come<lb/>to the Upper Branch and say, unless<lb/>you pass this Act we will increase your<lb/>numbers and force it through. There<lb/>were some remarks made in reference<lb/>to the residence of the Legislative<lb/>Councillors. The sixteenth paragraph,<lb/>in reference to Lower Canada, says :<lb/>
+            </p>
+            <p>Each of the twenty-four Legislative<lb/>Councillors representing Lower Canada<lb/>in the Legislative Council of the Gen<lb break="no"/>eral Legislature, shall be appointed to<lb/>
+            </p>-->
+       </div>  </div>
+      </body>
+   </text>
+</TEI>
