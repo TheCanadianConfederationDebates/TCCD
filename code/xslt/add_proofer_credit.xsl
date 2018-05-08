@@ -76,11 +76,12 @@
 <!--        Pages from the crowd-source site.  -->
           <xsl:when test="$hocrDoc//xh:meta[@name='user']/@content">
             <xsl:variable name="userNames" select="$hocrDoc//xh:meta[@name='user']/@content"/>
-            <xsl:for-each select="$userNames">
-              <respStmt>
-                <resp>Proofing/correction p. <xsl:value-of select="$pNum"/></resp>
-                <name><xsl:value-of select="."/></name>
-              </respStmt>
+            <xsl:for-each select="distinct-values($userNames)">
+              <xsl:text>&#x0a;</xsl:text>
+              <respStmt><xsl:text>&#x0a;</xsl:text>
+                <resp>Proofing/correction p. <xsl:value-of select="$pNum"/></resp><xsl:text>&#x0a;</xsl:text>
+                <name><xsl:value-of select="."/></name><xsl:text>&#x0a;</xsl:text>
+              </respStmt><xsl:text>&#x0a;</xsl:text>
             </xsl:for-each>
           </xsl:when>
           <xsl:otherwise>
