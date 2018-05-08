@@ -69,7 +69,7 @@
             <xsl:text>&#x0a;</xsl:text>
             <respStmt><xsl:text>&#x0a;</xsl:text>
               <resp>Proofing/correction p. <xsl:value-of select="$pNum"/><xsl:if test="string-length($corrDate) gt 0"/><date when="{$corrDate}"/></resp><xsl:text>&#x0a;</xsl:text>
-              <name><xsl:value-of select="$corrName"/></name><xsl:text>&#x0a;</xsl:text>
+              <persName><xsl:value-of select="$corrName"/></persName><xsl:text>&#x0a;</xsl:text>
             </respStmt><xsl:text>&#x0a;</xsl:text>
           </xsl:when>
           
@@ -80,7 +80,7 @@
               <xsl:text>&#x0a;</xsl:text>
               <respStmt><xsl:text>&#x0a;</xsl:text>
                 <resp>Proofing/correction p. <xsl:value-of select="$pNum"/></resp><xsl:text>&#x0a;</xsl:text>
-                <name><xsl:value-of select="."/></name><xsl:text>&#x0a;</xsl:text>
+                <persName><xsl:value-of select="."/></persName><xsl:text>&#x0a;</xsl:text>
               </respStmt><xsl:text>&#x0a;</xsl:text>
             </xsl:for-each>
           </xsl:when>
