@@ -64,7 +64,7 @@
         <xd:desc>Caption heading the list of people in the appendix of a document.</xd:desc>
     </xd:doc>
     <xsl:variable name="peopleCaption">
-        <span lang="en">Participating individuals: </span>
+        <span lang="en">Participating Individuals: </span>
         <span lang="fr">Personnes participantes: </span>
     </xsl:variable>
     
@@ -80,7 +80,7 @@
         <xd:desc>Title heading the browsable list of all documents.</xd:desc>
     </xd:doc>
     <xsl:variable name="docIndexTitle">
-        <span lang="en">Index of documents</span>
+        <span lang="en">Index of Documents</span>
         <span lang="fr">Index des documents</span>
     </xsl:variable>
     
