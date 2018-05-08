@@ -105,13 +105,18 @@ div.asterism {
 /* These are physical division elements which 
  * may appear in an inline context, but which 
  * should cause a physical break. */
-span[data-el='fw'], span[data-el='pb'], span[data-el='cb']{
+span[data-el='fw'], span[data-el='pb']{
     display: block;
     color: red;
     padding-left: 0.1em;
     padding-right: 0.1em;
     font-size: 0.8em;
 }
+/* The column-break should be invisible in HTML. */
+span[data-el='cb']{
+    display: none;
+}
+
 /* Per DH 2017-11-20, 
  * https://github.com/TheCanadianConfederationDebates/TCCD/issues/88 
  * hide the dateline. */
