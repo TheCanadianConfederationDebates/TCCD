@@ -100,6 +100,14 @@
     </xsl:variable>
     
     <xd:doc scope="component">
+        <xd:desc>Caption for credits in in debate day document.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="debateCreditsCaption">
+        <span lang="en">Credits: </span>
+        <span lang="fr">Credits: </span>
+    </xsl:variable>
+    
+    <xd:doc scope="component">
         <xd:desc>Caption for source citation in debate day document.</xd:desc>
     </xd:doc>
     <xsl:variable name="debateSourceCaption">
