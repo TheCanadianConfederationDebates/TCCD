@@ -102,7 +102,7 @@
                                     <xsl:sort select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
                                     <xsl:variable name="legCaption" select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
                                     <li>
-                                    <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="$legCaption/node()"/> </h6>
+                                    <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="if ($legCaption/node()) then $legCaption/node() else '[no legislature found]'"/> </h6>
                                         <ul>
                                             <xsl:for-each select="current-group()">
                                                 <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]/date[1]"/></a></li>
@@ -196,7 +196,7 @@
                                         <xsl:sort select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
                                         <xsl:variable name="legCaption" select="$projectTaxonomies//category[@xml:id=current-grouping-key()]/gloss"/>
                                         <li>
-                                            <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="$legCaption/node()"/></h6>
+                                            <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="if ($legCaption/node()) then $legCaption/node() else '[no legislature found]'"/></h6>
                                             <ul>
                                                 <xsl:for-each select="current-group()">
                                                     <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
