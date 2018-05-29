@@ -166,11 +166,11 @@
             <!-- this ID may not be correct since XML file has yet to be produced-->
           </category>
           <category xml:id="treaty">
-            <gloss>Treaty texts</gloss>
+            <gloss><seg xml:lang="en">Treaty texts</seg><seg xml:lang="fr">Textes des traités</seg></gloss>
             <desc>Treaty texts from Indigenous and Northern Affairs Canada</desc>
           </category>
           <category xml:id="treaty_fr">
-            <gloss>Textes des traités</gloss>
+            <gloss><seg xml:lang="en">Treaty texts</seg><seg xml:lang="fr">Textes des traités</seg></gloss>
             <desc>Textes des traités fournis par Affaires autochtones et du Nord Canada</desc>
           </category>
         </taxonomy>
