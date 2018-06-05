@@ -21,26 +21,26 @@
       <classDecl>
         <taxonomy xml:id="tccdLegislatures" n="Taxonomy of legislatures, appointed bodies, and negotiations, whose proceedings form part of our dataset.">
           <category xml:id="lgHC">
-            <gloss>The House of Commons</gloss>
+            <gloss><seg xml:lang="en">The House of Commons</seg><seg xml:lang="fr">Chambre des communes</seg></gloss>
             <desc>The Canadian Federal House of Commons.</desc>
           </category>
           <category xml:id="lgPCLAssem">
-            <gloss><seg xml:lang="en">Province of Canada Legislative Assembly</seg> <seg xml:lang="fr">Assemblée législative de la province du Canada</seg></gloss>
+            <gloss><seg xml:lang="en">Province of Canada Legislative Assembly</seg> <seg xml:lang="fr">Assemblée législative de la province du Canada</seg>Débats de l'Assemblée législative de la Province du Canada sur la Confédération</gloss>
             <desc>The Legislative Assembly of the Province of Canada (Ontario and Québec
                   constituting a single colony).</desc>
           </category>
           <category xml:id="lgPCLCoun">
-            <gloss>Province of Canada Legislative Council</gloss>
+            <gloss><seg xml:lang="en">Province of Canada Legislative Council</seg><seg xml:lang="fr">Débats du Conseil législatif de la Province du Canada sur la Confédération</seg></gloss>
             <desc>The Legislative Council of the Province of Canada (Ontario and Québec
               constituting a single colony).</desc>
           </category>
           <category xml:id="lgBCLC">
-            <gloss>Legislative Council of British Columbia</gloss>
+            <gloss><seg xml:lang="en">Legislative Council of British Columbia</seg><seg xml:lang="fr">Débats du Conseil législatif de la Colombie-Britannique sur la Confédération</seg></gloss>
             <desc>An advisory body created in 1867 to advise the governor of the 
             new BC colony.</desc>
           </category>
           <category xml:id="lgConv40">
-            <gloss>The Convention of 40 / La Grande Convention</gloss>
+            <gloss><seg xml:lang="en">The Convention of 40 / La Grande Convention</seg><seg xml:lang="fr">Le Conseil des 40 au sujet de la Confédération</seg></gloss>
             <desc>[Awaiting description]</desc>
           </category>
           <category xml:id="lgAssinLAssem">
@@ -48,73 +48,73 @@
             <desc></desc>
           </category>
           <category xml:id="lgNBLAssem">
-            <gloss>Legislative Assembly of New Brunswick</gloss>
+            <gloss><seg xml:lang="en">Legislative Assembly of New Brunswick</seg><seg xml:lang="fr">Débats de l'Assemblée législative du Nouveau-Brunswick sur la Confédération</seg></gloss>
             <desc>Assembly created initially in 1786 for the new colony, now 
             the Provincial assembly.</desc>
           </category>
           <category xml:id="lgNSLAssem">
-            <gloss>Legislative Assembly of Nova Scotia</gloss>
+            <gloss><seg xml:lang="en">Legislative Assembly of Nova Scotia</seg><seg xml:lang="fr">Débats de l'Assemblée législative de la Nouvelle-Écosse sur la Confédération</seg></gloss>
             <desc>The oldest assembly in Canada, the NS House of Assembly
             first sat in 1858.</desc>
           </category>
           <category xml:id="lgPEILAssem">
-            <gloss>Legislative Assembly of Prince Edward Island</gloss>
+            <gloss><seg xml:lang="en">Legislative Assembly of Prince Edward Island</seg><seg xml:lang="fr">Débats de l'Assemblée législative de l'Île-du-Prince-Édouard sur la Confédération</seg></gloss>
             <desc>The PEI legislature originated with a bicameral structure
             in 1773.</desc>
           </category>
           <category xml:id="lgNFLAssem">
-            <gloss>Legislative Assembly of Newfoundland</gloss>
+            <gloss><seg xml:lang="en">Legislative Assembly of Newfoundland</seg><seg xml:lang="fr">Débats de l'Assemblée législative de Terre-Neuve sur la Confédération</seg></gloss>
             <desc>The NF House of Assembly was established in 1832 and sat until 1934 when responsible government was terminated.</desc>
           </category>
           <category xml:id="lgNFNC">
-            <gloss>National Convention of Newfoundland</gloss>
+            <gloss><seg xml:lang="en">National Convention of Newfoundland</seg><seg xml:lang="fr">Débats de la Convention nationale de Terre-Neuve sur la Confédération </seg></gloss>
             <desc>The National Convention was formed by elected officials who met between 1946 and 1948 to investigate Newfoundland and Labrador's future.</desc>
           </category>
           <category xml:id="lgTreaty">
-            <gloss>Treaties</gloss>
+            <gloss><seg xml:lang="en">Treaties</seg><seg xml:lang="fr">Traités</seg></gloss>
             <desc>Treaty documents</desc>
           </category>
           <category xml:id="lgTreatyNeg">
-            <gloss>Treaty Negotiation</gloss>
+            <gloss><seg xml:lang="en">Treaty Negotiation</seg><seg xml:lang="fr">Négociation de traité</seg></gloss>
             <desc>Treaty negotiations (as decribed for example by Morris) are records of meetings between Indigenous and Crown leaders to develop and / or renew relationships between these Peoples.</desc>
           </category>
         </taxonomy>
         
         <taxonomy xml:id="tccdLegislatureTopics" n="Taxonomy of legislature topics by legislature, where a topic is typically the confederation of one province.">
           <category xml:id="lgHC_BC">
-            <gloss>House of Commons debates on British Columbia joining Confederation</gloss>
+            <gloss><seg xml:lang="en">House of Commons debates on British Columbia joining Confederation</seg><seg xml:lang="fr">Débats du Conseil législatif de la Colombie-Britannique sur la Confédération</seg></gloss>
             <desc>The Federal House of Commons debates on British Columbia joining Confederation.</desc>
           </category>
           <category xml:id="lgHC_MB">
-            <gloss>House of Commons debates on Manitoba joining Confederation</gloss>
+            <gloss><seg xml:lang="en">House of Commons debates on Manitoba joining Confederation</seg><seg xml:lang="fr">Débats de la Chambre des communes sur la création du Manitoba </seg></gloss>
             <desc>The Canadian House of Commons debates on Manitoba joining Confederation.</desc>
           </category>
           <category xml:id="lgHC_NFLD">
-            <gloss>House of Commons debates on Newfoundland joining Confederation</gloss>
+            <gloss><seg xml:lang="en">House of Commons debates on Newfoundland joining Confederation</seg><seg xml:lang="fr">Débats de la Chambre des communes sur Terre-Neuve et la Confédération</seg></gloss>
             <desc>The Canadian House of Commons debates on Newfoundland joining Confederation.</desc>
           </category>
           <category xml:id="lgHC_AB_SK">
-            <gloss>House of Commons debates on creating Alberta and Saskatchewan</gloss>
+            <gloss><seg xml:lang="en">House of Commons debates on creating Alberta and Saskatchewan</seg><seg xml:lang="fr">Débats de la Chambre des communes sur la création de la Saskatchewan</seg></gloss>
             <desc>The Canadian House of Commons debates on creating Alberta and Saskatchewan.</desc>
           </category>
           <category xml:id="lgHC_PEI">
-            <gloss>House of Commons debates on Prince Edward Island joining Confederation</gloss>
+            <gloss><seg xml:lang="en">House of Commons debates on Prince Edward Island joining Confederation</seg><seg xml:lang="fr">Débats de la Chambre des communes sur l'Île-du-Prince-Édouard et la Confédération</seg></gloss>
             <desc>The Canadian House of Commons debates on Prince Edward Island joining Confederation.</desc>
           </category>
           <category xml:id="lgBC_LC">
-            <gloss>British Columbia's Legislative Council debates on Confederation</gloss>
+            <gloss><seg xml:lang="en">British Columbia's Legislative Council debates on Confederation</seg><seg xml:lang="fr">Débats du Conseil législatif de la Colombie-Britannique sur la Confédération</seg></gloss>
             <desc>The British Columbia Legislative Council's debates on Confederation.</desc>
           </category>
           <category xml:id="lgAS_LA">
-            <gloss>Northwest Legislative Assembly debates on Prairie provinces</gloss>
+            <gloss><seg xml:lang="en">Northwest Legislative Assembly debates on Prairie provinces joining Confederation</seg><seg xml:lang="fr">Débats de l'Assemblée législative des Territoires du Nord-Ouest sur la Confédération</seg></gloss>
             <desc>The Northwest Legislative Assembly's debates that helped lead to the creation of Alberta and Saskatchewan</desc>
           </category>
           <category xml:id="lgMBConv40">
-            <gloss>Convention of 40 debates on Manitoba</gloss>
+            <gloss><seg xml:lang="en">Convention of 40 debates on Manitoba joining Confederation</seg><seg xml:lang="fr">Le Conseil des 40 au sujet de la Confédération</seg></gloss>
             <desc>Convention of 40 debates on whether to demand the establishment of Manitoba during the Red River Resistance</desc>
           </category>
           <category xml:id="lgM_PG">
-            <gloss>Legislative Assembly of Assiniboia debates on Manitoba</gloss>
+            <gloss><seg xml:lang="en">Legislative Assembly of Assiniboia debates on Manitoba</seg><seg xml:lang="fr">Débats de l'Assemblée législative d'Assiniboia sur la Confédération</seg></gloss>
             <desc>Legislative Assembly of Assiniboia debates on whether to demand the establishment of Manitoba during the Red River Resistance</desc>
           </category>
           <category xml:id="lgPCLA">
@@ -131,37 +131,38 @@
 <!-- French needs to be checked by translator -->
           </category>
           <category xml:id="lgPCLC_fr">
-            <gloss>Les debats à la Conseil législatif, Province du Canada</gloss>
+            <gloss><seg xml:lang="en">Les debats à la Conseil législatif, Province du Canada</seg><seg xml:lang="fr"></seg></gloss>
             <desc>Les debats à la Conseil législatif, Province du Canada (Québec-Ontario)</desc>
 <!-- French needs to be checked by translator -->
           </category>
           <category xml:id="lgNBLA">
-            <gloss>New Brunwick Legislative Assembly debates on Confederation</gloss>
+            <gloss><seg xml:lang="en">New Brunwick Legislative Assembly debates on Confederation</seg><seg xml:lang="fr">Débats de l'Assemblée législative du Nouveau-Brunswick sur la Confédération</seg></gloss>
             <desc>New Brunwick Legislative Assembly debates on Confederation</desc>
           </category>
           <category xml:id="lgNSLA">
-            <gloss>Nova Scotia Legislative Assembly debates on Confederation</gloss>
+            <gloss><seg xml:lang="en">Nova Scotia Legislative Assembly debates on Confederation</seg><seg xml:lang="fr">Débats de l'Assemblée législative de la Nouvelle-Écosse sur la Confédération</seg></gloss>
             <desc>Nova Scotia Legislative Assembly debates on Confederation</desc>
           </category>
           <category xml:id="lgPE_LA">
-            <gloss>Prince Edward Island Legislative Assembly debates on Confederation</gloss>
+            <gloss><seg xml:lang="en">Prince Edward Island Legislative Assembly debates on Confederation</seg><seg xml:lang="fr">Débats de l'Assemblée législative de l'Île-du-Prince-Édouard sur la Confédération</seg></gloss>
             <desc>Prince Edward Island Legislative Assembly debates on Confederation</desc>
           </category>
           <category xml:id="lgNL_LA">
-            <gloss>Newfoundland Legislative Assembly debates on Confederation</gloss>
+            <gloss><seg xml:lang="en">Newfoundland Legislative Assembly debates on Confederation</seg><seg xml:lang="fr">Débats de l'Assemblée législative de Terre-Neuve sur la Confédération</seg></gloss>
             <desc>Newfoundland Legislative Assembly debates on Confederation as recorded in the "Newfoundlander"</desc>
           </category>
           <category xml:id="lgNL_NC">
-            <gloss>Newfoundland National Convention debates on Confederation</gloss>
+            <gloss><seg xml:lang="en">Newfoundland National Convention debates on Confederation</seg><seg xml:lang="fr">Débats de la Convention nationale de Terre-Neuve sur la Confédération</seg></gloss>
             <desc>Newfoundland National Convention debates on Confederation.</desc>
           </category>
           <category xml:id="Morris">
 <!--I'm not sure if this ID is correct. Do we need seprate IDs for each chapter / Treaty?-->
-            <gloss>Alexander Morris's narrative of numbered Treaty negotiations</gloss>
+            <gloss><seg xml:lang="en">Alexander Morris's narrative of numbered Treaty negotiations</seg><seg xml:lang="fr">
+              Le récit d'Alexander Morris sur les négociations numérotées du Traité</seg></gloss>
             <desc>Alexander Morris's narrative of numbered Treaty negotiations</desc>
           </category>
           <category xml:id="Erasmus">
-            <gloss>Peter Erasmus's narrative of Treaty 6 negotiations</gloss>
+            <gloss><seg xml:lang="en">Peter Erasmus's narrative of Treaty 6 negotiations</seg><seg xml:lang="fr">Le récit de Peter Erasmus sur les négociations du Traité 6</seg></gloss>
             <desc>Peter Erasmus's narrative of Treaty 6 negotiations</desc>
             <!-- this ID may not be correct since XML file has yet to be produced-->
           </category>
