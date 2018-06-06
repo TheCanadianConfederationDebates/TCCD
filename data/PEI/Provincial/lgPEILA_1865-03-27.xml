@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+ xml:id="lgPEILA_1865-03-27"
+ xml:lang="en"
+ type="full">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+
+ <title><name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1865-03-27">27 March 1865</date>, Prince Edward Island Confederation with Canada.</title>
+ 
+ <respStmt>
+ <resp>Selection of input documents and completion of metadata</resp>
+ <persName ref="pers:LANG4">Dave Lang</persName> 
+ <!-- xml markup only - not proofed --> 
+ </respStmt>
+ 
+ </titleStmt>
+ 
+ <publicationStmt>
+ <p>Published by The Confederation Debates project.</p>
+ </publicationStmt>
+ <sourceDesc>
+
+ <bibl corresp="bibl:lgPEILA_1864">
+ <title>Debates and Proceedings of the House of Assembly of Prince Edward Island, for the Year 1865, Being the Third Session of the Twenty-Second General Assembly.</title>.
+<date when="1865"/>. 
+<pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>"The Protestant" Office</publisher>.
+<biblScope unit="page" from="50" to="51"/>
+ </bibl>
+ 
+
+ <list>
+ <item>
+ <ptr target="final/hocr/PEI_LA_1865-03-27_Page_050.html"/>
+ </item>
+ <item>
+ <ptr target="final/hocr/PEI_LA_1865-03-27_Page_051.html"/>
+ </item>
+ </list>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+ <samplingDecl>
+
+ <p/>
+ </samplingDecl>
+ </encodingDesc>
+ <revisionDesc>
+ <change who="mholmes" when="2018-06-06">Transformed initial template file to incorporate corrected OCR content.</change>
+ <change who="DLANG4" when="2018-06-06">Created this document, completed metadata.</change>
+ </revisionDesc>
+ </teiHeader>
+ <facsimile>
+ <surface xml:id="PEI_LA_1865-03-27_Page_050">
+ <graphic url="final/images/PEI_LA_1865-03-27_Page_050.jpg"/>
+ </surface>
+ <surface xml:id="PEI_LA_1865-03-27_Page_051">
+ <graphic url="final/images/PEI_LA_1865-03-27_Page_051.jpg"/>
+ </surface>
+ </facsimile>
+ <text>
+ <body>
+ <div type="debate">
+ <pb n="50" facs="final/images/PEI_LA_1865-03-27_Page_050.jpg"/>
+<fw type="running"><hi rendition="simple:centre">PARLIAMENTARY REPORTER.</hi></fw>
+<fw type="num">50</fw>
+
+<!-- DL 2018-06-06 commented out below as it is not part of this debate day -->
+
+<!--<p>
+ and their future are the subjects, and the consideration 
+ <lb/>should be approached with an earnestness, and the decision<lb/>made under a sense of responsibility not to be exceeded in<lb/>the discharge of the most solemn religious duty.<lb/>
+ </p>
+ <p>Hon Mr WARBURTON.—Mr Speaker, I did not think that<lb/>this question would be take up this evening. As, however, it has<lb/>come up for discussion, and as it is expected that every member<lb/>will give expression to his views on the question, I shall briefly<lb/>state my opinions. I have always been opposed to this scheme.<lb/>If we are to have a Union I would prefer a Legislative to a<lb/>Federal one, under which this House would become a useless<lb/>bauble, with no power save that of taxing the people. Last<lb/>Session we sanctioned a delegation for a specified purpose—to<lb/>confer on the subject of a Union of the Maritime Provinces.<lb/>The Hon Col Secretary has stated that Union is strength<lb/>It may be so ; but a connection of the character recom<lb break="no"/>mended by the Report before us, would only be a Union of<lb/>the Lion with the Lamb ; we would be devoured by the<lb/>Canadians. The hon member for Belfast told us that under the<lb/>Union we would pay less taxes. I cannot see how they can be<lb/>the result if we have to defray our proportion of the expenses of<lb/>an army and navy, and of the fortifications necessary for the<lb/>protection of Canada. The operation of the tenant system in<lb/>this Island proves that our people cannot pay the rates imposed<lb/>in that country. The Act which passed this House last Session<lb/>precludes the idea of any relief being afforded to the tenantry<lb/>under Confederation, for a law once passed must be obeyed. I,<lb/>for one, opposed its passage, and we have no reason to suppose<lb/>that the United Government would abolish it ; for, if they should<lb/>do so there would be no security for any man's property. I<lb/>agree that we have no influences at the Colonial Office. While<lb/>I believe that the tenantry would have a better chance of freeing<lb/>themselves from the Rent Roll system under the stars and stripes.<lb/>I myself will never consent to live under any other than the old<lb/>flag of Britain, under which there are no people on this continent<lb/>who enjoy as much freedom from taxation as ourselves. In<lb/>Canada it is well known that the taxation is heavy ; we increased<lb/>our Tariff, but the people do not feel the operation of it as they<lb/>would that of a system of direct taxation, such as obtains in<lb/>Canada. This system properly adjusted would, I admit, be<lb/>found to be the cheapest ; but the people cannot be persuaded to<lb/>adopt that view. There is a great and insuperable dread of<lb/>direct taxation. The principle of representation by population,<lb/>as embodied in the resolutions of the Conference, I cannot agree<lb/>to ; for, under it in the Confederate Parliament we should have<lb/>no influence. Sir, I believe that nine tenths of the people of the<lb/>island are opposed to a Union either Federal or Legislative. I<lb/>myself shall use all my endeavors against it inside these walls<lb/>and throughout the country, and if my constituents disapprove of<lb/>my conduct, they can readily get some one else to represent<lb/>them. We have heard hon members enlarge upon the glory<lb/>argument. It might be that I, by supporting the proposed Con<lb break="no"/>federate Government, but considerations of that nature do not<lb/>weigh with me. In conclusion, I repeat that I am opposed to a<lb/>Union of any kind, but if we are to have any, I prefer a Legis<lb break="no"/>lative one to the mongrel scheme adopted at Quebec.<lb/>
+ </p>
+ <p>The Debate was then adjourned<lb/>
+ </p>
+ 
+-->
+<p><hi rendition="simple:right">MONDAY, March 27.</hi><lb/></p>
+
+ <p>House resumed consideration of the papers relating to the Union<lb/>of the Colonies.<lb/>
+ </p>
+ 
+ <p>
+ <persName ref="pers:HENS1">Hon. MR HENSLEY</persName>, Mr Speaker, I have heard it stated that 
+ <lb/>all the talent in this House was enlisted on the side of the Union ;<lb/>assuming such to be the case, as I am not in the habit of making<lb/>long speeches, which, under such a state of fact, must, of neces<lb/>sity, be productive of no benefit, I am happy to console myself<lb/>by the reflection, that we have, at least, a numerical superiority,<lb/>as there are some 25 or 26 members who are opposed to "all the<lb/>talent" on this question. A question of this magnitude should be<lb/>approached free from political or party bias. When the matter<lb/>of Confederation was under discussion last Session the idea was<lb/>expressed, and very generally acquiesced in, that united with<lb/>only the Maritime Provinces, we would be absorbed, and<lb/>quotations from speeches of the Provincial Secretary of Nova<lb/>Scotia, and others, as to the absorption of that Province in case of<lb/>Union with Canada were adduced to warrant the opinion.<lb/>Well, Sir, if such would probably be the effect of our connection<lb/>
+ 
+<cb/>
+
+ with Nova Scotia and New Brunswick, I can only come to the 
+ <lb/>conclusion that we would be entirely swamped if we cast in our<lb/>lot with Canada. No doubt the idea of forming part of a great<lb/>country is very captivating, if we really were a separate and<lb/>solitary people ; but, I cannot recognise its force in our case when<lb/>I call to mind that we are part and parcel of the great British<lb/>Empire. The important question for our consideration is<lb/>whether we are bound by the action of the Quebec Convention.<lb/>It is quite clear that we are not. That Convention was held<lb/>without any authority from this House, and the Delegates had<lb/>no power to agree to any conclusions on the subject, but at the<lb/>utmost, merely to report to this House. I regret that they agreed<lb/>to so formal a document as the one before us, as it seems to con<lb break="no"/>vey the idea to the world that they possessed powers to treat and<lb/>make a binding arrangement. It has been said and written that<lb/>we shall be driven into this Confederacy. I would ask what<lb/>foundation exists for such an assertion ? Whence does it arise ?<lb/>We have no despatches before us indicating such an eventuality ;<lb/>in fact the documents submitted to us lead to the belief in my<lb/>mind that we shall be allowed to deal with this matter as we<lb/>please. I believe that the fact is that the Canadians finding a<lb/>general Union of the Colonies would be of service to themselves,<lb/>sent Delegates here with the view of commending their project<lb/>to the favorable consideration of the Legislatures of the Lower<lb/>Provinces, and I do not blame them for doing so. The terms of<lb/>the Report before us are, in my opinion, very unfavorable to<lb/>this Island. On the scale of representation proposed, we would<lb/>be without the slightest influence in the United Parliament. It<lb/>is true that, if we went into the proposed Union, we would have<lb/>no right to expect as large a number of representatives as either of<lb/>the Lower Provinces, but then, if, or why should we throw away<lb/>our independence which we now enjoy ? There would, of neces<lb break="no"/>sity, be an increased tariff under the Union, and before I can<lb/>admit the force of the argument that Canada and New Brunswick<lb/>will supply us with boots, shoes, spirits and other articles of<lb/>manufacture and at a lower rate than we can get them at present,<lb/>I should like to be satisfied, as to their present ability, to supply<lb/>themselves with those articles. Such returns of importations<lb/>into these two Provinces, for the year 1863, as we have before<lb/>us, seem to me rather to indicate an entirely different state of<lb/>things in that respect. Now, Mr. Speaker, if the people of those<lb/>two Colonies cannot, with a high protective tariff, furnish the<lb/>articles I have specified in quantities sufficient for their own re<lb break="no"/>quirements, it is not to be supposed that they can supply them to<lb/>us. Our chief, because most advantageous, trade is with the<lb/>United States and Great Britain, and as long as we shall find it to<lb/>our advantage that it should be so, it will naturally seek these<lb/>channels ; and if we come under the influence of a highest Tariff<lb/>we shall be taxing our best customers and crippling our most<lb/>profitable channels for commercial interchange. I cannot think<lb/>that Great Britain will look favorably on a scheme which, so far<lb/>as these Lower Colonies are concerned, will have the effect of<lb/>placing heavier duties on the importation of her manufactured<lb/>goods.<lb/></p>
+ 
+ 
+ <p>
+ <persName ref="pers:DAVI1">Hon Mr DAVIES</persName>.—This question, Mr Speaker, is, in my 
+ <lb/>opinion, forced upon us. If the States were now in the same<lb/>position as they were before the outbreak of the Civil War, I<lb/>would oppose any measure of the sort, but they have now become<lb/>a great military country, whose boast it has long been to carry<lb/>out the Monroe doctrine, and to spread the principles of Repub<lb break="no"/>licanism over the whole Continent. The Imperial Government<lb/>has expressed its willingness to aid us. It has said, "Do all<lb/>that you can towards your own defence, and we will supplement<lb/>your efforts." We are too small a people for separate and<lb/>independent action, and that the termination of the present Civil<lb/>War is at hand may be inferred from the fact that the captain of<lb/>a blockade-runner told me during the last winter that the game<lb/>was up ; and we are all aware of the state of feeling which exists<lb/>in the Northern States and Great Britain, which will most likely<lb/>find expression in an attempt to realize their oft-repeated vaunt—<lb/>
+ </p>
+ 
+<quote rendition="tccd:blockquote">
+<p><hi rendition="simple:centre">No boundless Utica confines our powers,<lb/>
+But the whole boundless continent is ours.</hi><lb/>
+</p></quote>
+ 
+ <p>
+ Frequent allusion has been made to the debt of Canada, but that <lb/>
+debt has been principally incurred in the construction of public <lb/>
+works of great value and utility. If we should be absorbed into <lb/>
+the United States we would be compelled to assume far greater <lb/>
+burdens than those to which we would be liable if united to Canada. <lb/>
+I agree that Confederation would exercise a certain moral <lb/> 
+influence in our favor, but would prefer to remain as long as we <lb/>
+
+ <pb n="51" facs="final/images/PEI_LA_1865-03-27_Page_051.jpg"/>
+<fw type="running"><hi rendition="simple:centre">PARLIAMENTARY REPORTER.</hi></fw>
+<fw type="num">51</fw>
+ 
+ can in our present state of freedom from taxation. Reference 
+ <lb/>has been made to the unsuccessful attempt made at the Quebec<lb/>Conference to get an additional member for the Island in the<lb/>Lower House. I cannot perceive that the additional representa<lb break="no"/>tion would have, in any appreciable degree, increased our<lb/>influence in that body. I am not, however, equally satisfied<lb/>with the proposed Constitution of the Union House. The prices<lb/>in Canada of tea, sugar, &amp;c., quoted by the hon member for<lb/>Belfast, do not prove that Confederation would enable the people<lb/>of this Island to purchase them at the same rates ; for in Canada<lb/>a merchant can afford to sell at low rates, in consequence of<lb/>disposing of large quantities at a time. The excise duty must be<lb/>added to the cost of tobacco. The truth is, Sir, that Halifax<lb/>must regulate the prices of West India produce in this Colonies.<lb/>I would be glad to have the continued protection of Great<lb/>Britain ; but it is well known that these Colonies were to be<lb/>educated up to a sense of the duties of a nationality. It is but<lb/>natural that John Bull should at length say, " If they will not<lb/>defend themselves, let them go?" As I said before, this question<lb/>is forced on us and face it we must. We cannot doubt that the<lb/>Americans look with greedy eyes upon the coal fields of Nova<lb/>Scotia and New Brunswick, the acquisition of which would be<lb/>of incalculable advantage to them not only in times of peace, but<lb/>also in case of a war with Britain or France, or any of the<lb/>other European powers.<lb/>
+ </p>
+ 
+<!-- DL 2018-06-06 commented out below as it is not part of this debate day -->
+
+<!--
+ <p>
+ TUESDAY, March 28. 
+ <lb/>
+ </p>
+ 
+ <p>
+ Debate on the Union of the Colonies resumed. 
+ <lb/>
+ </p>
+ <p>Hon. Mr. HENSLEY.— Mr Speaker, I shall conclude the<lb/>few remarks which I was making last evening when inter<lb break="no"/>rupted. I was referring to the returns of the importations<lb/>into Canada and New Brunswick for 1863, showing that<lb/>these Provinces did not manufacture nearly enough of<lb/>boots and shoes, and other articles of the kind for them<lb break="no"/>selves, and that consequently they could not supply this<lb/>Colony. As regards tea and molasses which are said to<lb/>be cheaper in Canada than in this Island, if this be the<lb/>case it cannot arise from the fact that higher duties are<lb/>paid on them there than in this Colony. But one of the<lb/>principal points to which I did not refer last night was<lb/>military defences. The argument advanced on this feature<lb/>of the subject by those favorable to Union is that, in order<lb/>to prepare for efficient military defence we require a<lb/>central power. I, however, do not see the question in<lb/>that light. As long as we contribute our quota of men<lb/>and means, and the other Provinces do the same. I con<lb break="no"/>sider it would be quite as efficient a method of providing<lb/>for defence as any organization into which we could enter.<lb/>We are told that the General Government would take<lb/>control of the general revenue and provide naval and<lb/>military forces. In the event of a war with the United<lb/>States, however, we know full well that there would be<lb/>no chance of success without the aid of Great Britain, and<lb/>it is difficult to understand how Confederation would<lb/>increase our ability of resistance. By late papers I<lb/>observe that the Colonial Minister, Mr Cardwell, has<lb/>introduced a bill into the Imperial Parliament providing<lb/>for a Colonial naval force, to be supported by Colonial<lb/>funds, but to be at the command of the Imperial authori<lb break="no"/>ties. It was laid down in regard to the measure that<lb/>commissions could not be granted by Colonial authorities ;<lb/>they must be issued by the Imperial Government to be<lb/>valid. If this plan can be pursued in naval affairs,<lb/>may not a similar scheme be adopted in military matters?<lb/>All preparations for defence must be arranged under the<lb/>superintendence of the Imperial Government, and under<lb/>British commissioned officers ; and since this is the case<lb/>it is doubtful whether a central Colonial Government<lb/>would be any advantage. We do not wish to shrink from<lb/>our duty in regard to defence as subjects of the British<lb/>Empire. Disagreeable as it might be to be taken away to<lb/>fight in the neighboring Provinces, still if the order should<lb/>come it is not at all probable that we would refuse.<lb/>Whence the necessity of merging all these Legislatures<lb/>together to have a central power when we are already<lb/>all organized under the Imperial Government of Great<lb/>
+ </p>
+ <milestone type="unknown"/>
+ <p>
+ Britain? Another portion of the Report to which I obect 
+ <lb/>is that which provides that the expense of railways and<lb/>canals connecting two Provinces shall be equally borne by<lb/>all the Colonies. It was said by Mr Galt the other day in<lb/>Canada that it was necessary all their railways should have<lb/>an outlet to the sea. This is what he terms a geographical<lb/>necessity ; but I do not think that this Island would<lb/>benefit by these works. We have the same geographical<lb/>necessity in the winter season that Canada has ; our case<lb/>is even worse, for we are surrounded by ice, and there is<lb/>little prospect that anything can be done to improve our<lb/>position, unless indeed we obtain steam communication<lb/>over the Straits during the winter, as suggested by one of<lb/>the delegates the other night. The intercolonial railway<lb/>will confer very few commercial advantages on this<lb/>Island. It will no doubt afford facilities for travelling ;<lb/>but its benefits to us will not at all compensate for the<lb/>amount which we would have to contribute towards it by<lb/>the terms of the Report. In view, then, of the nature of<lb/>that Report, I am prepared to support the resolution<lb/>submitted by the hon Leader of the Government. I do<lb/>not say that I would be opposed to Union on any terms ;<lb/>but I think that such terms as are contained in the Report<lb/>are very unfair to this Colony. If agreed to I consider<lb/>that the interests of the Island would be altogether<lb/>sacrificed. Our taxation would be greatly increased<lb/>without corresponding advantages. Some maintain that<lb/>we should not be alarmed at taxes ; they would be no<lb/>burden providing we had additional scope for trade. Byt<lb/>what more scope do we require, as we have already<lb/>facilities for commerce as extended as the bounds of the<lb/>British Empire ?<lb/>
+ </p>
+ <p>Mr. BRECKEN.—I would gladly avoid speaking on this<lb/>question, feeling, as I do, my inability to deal with it, as<lb/>its importance and the interests involved in it require.<lb/>Never in the history of this Island, since it became a<lb/>British Colony, has a subject of such consequence been<lb/>submitted for the consideration of its Legislature. If we<lb/>are to view the proposition for a Union of the British North<lb/>American Colonies as an optional one, which we may<lb/>reject without imperilling our position as a dependency<lb/>of the British Crown, I confess I cannot see in the terms<lb/>offered to us in the Report of the Quebec Conference<lb/>anything to induce us to close with the offer. If, on the<lb/>other hand, the choice is between a Union with the sister<lb/>Provinces and a severance of our allegiance to the Mother<lb/>Country, I would say, let us be united, even at a sacrifice<lb/>of our local interests. But I do not think that the latter<lb/>is our position, although the advocates of the scheme<lb/>profess to believe that it is. Why should we be in such<lb/>a hurry to assume that it is? Previous to the Quebec<lb/>Conference this question had not been pressed upon our<lb/>attention by the Home Government, although we are now<lb/>aware, from Mr. Cardwell's despatch, written after the<lb/>receipt of the Quebec Report, that the measure is very<lb/>favourably received by the Imperial Government. Nor is<lb/>it at all to be wondered at that they should wish to see<lb/>our present political position changed Separate Provinces<lb/>grouped close together with governments independent of<lb/>each other ; separate laws, different currencies and<lb/>hostile tariffs ; and, yet, all paying allegiance to the same<lb/>Sovereign, is a state of things that will not, in all<lb/>probability, continue very much longer. I am not opposed<lb/>to a Union, provided just and equitable terms are secured<lb/>to us ; but it does appear to me that the urgent manner<lb/>in which this question at this time is pressed upon us, is<lb/>entirely owing to the action of politicians on this side the<lb/>Atlantic. It only requires a very slight acquaintance with<lb/>the politics of Canada to be aware that the political<lb/>difficulties and complications of that Province had arrived<lb/>at such a pitch, and had become so perplexing, that party<lb/>government was almost an impossibility ; indeed, it would<lb/>appear, that impending anarchy threatened them. The<lb/>Hon. John A. McDonald, Attorney General of Canada<lb/>West, In Parliament, when moving the Address to Her<lb/>
+ </p>-->
+ </div>
+ </body>
+ </text>
+</TEI>
