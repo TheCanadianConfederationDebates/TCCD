@@ -1,593 +1,592 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgNSLA_1866-02-22" type="full">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
 
-           <title>  
-           <name type="legislature" ref="lg:lgNSLAssem">Nova Scotia Legislative Assembly</name>, <date when="1866-02-22">22 February 1866</date>, Nova Scotia Confederation with Canada.</title>
-        
-           <respStmt>
-           <resp>Selection of input documents and completion of metadata</resp>
-           <persName ref="pers:LANG4">Dave Lang</persName>
-           </respStmt>
-        
-         </titleStmt>
-      
-         <publicationStmt>
-            <p>Published by The Confederation Debates project.</p>
-         </publicationStmt>
-         <sourceDesc>
+ <title> 
+ <name type="legislature" ref="lg:lgNSLAssem">Nova Scotia Legislative Assembly</name>, <date when="1866-02-22">22 February 1866</date>, Nova Scotia Confederation with Canada.</title>
+ 
+ <respStmt>
+ <resp>Selection of input documents and completion of metadata</resp>
+ <persName ref="pers:LANG4">Dave Lang</persName>
+ </respStmt>
+ 
+ </titleStmt>
+ 
+ <publicationStmt>
+ <p>Published by The Confederation Debates project.</p>
+ </publicationStmt>
+ <sourceDesc>
 
-            <bibl corresp="bibl:lgNSLA">
-             <editor>John George Bourinot</editor>.
-             <title>Debates and Proceedings of the House of Assembly, During the Third Session of the Twenty-Third Parliament of the Province of Nova Scotia.</title>.
-             <date when="1866"/>.  
-             <pubPlace>Halifax, N.S.</pubPlace>: <publisher>Crosskill and Bourinot, "Evening Reporter" Office</publisher>.
-             <biblScope unit="page" from="1" to="2"/>.
-            </bibl>
-        
-            <list>
-              <item><ptr target="final/hocr/NS_LA_1866-02-22_Page_001.hocr.html"/></item>
-              <item><ptr target="final/hocr/NS_LA_1866-02-22_Page_002.hocr.html"/></item>
-            </list>
-            
-        </sourceDesc>
-         
-      </fileDesc>
-      <encodingDesc>
-         <samplingDecl>
+ <bibl corresp="bibl:lgNSLA">
+ <editor>John George Bourinot</editor>.
+ <title>Debates and Proceedings of the House of Assembly, During the Third Session of the Twenty-Third Parliament of the Province of Nova Scotia.</title>.
+ <date when="1866"/>. 
+ <pubPlace>Halifax, N.S.</pubPlace>: <publisher>Crosskill and Bourinot, "Evening Reporter" Office</publisher>.
+ <biblScope unit="page" from="1" to="2"/>.
+ </bibl>
+ 
+ <list>
+ <item><ptr target="final/hocr/NS_LA_1866-02-22_Page_001.hocr.html"/></item>
+ <item><ptr target="final/hocr/NS_LA_1866-02-22_Page_002.hocr.html"/></item>
+ </list>
+ 
+ </sourceDesc>
+ 
+ </fileDesc>
+ <encodingDesc>
+ <samplingDecl>
 
-            <p/>
-         </samplingDecl>
-      </encodingDesc>
-      <revisionDesc>
-         <change who="mholmes" when="2017-10-26">Transformed initial template file to incorporate corrected OCR content.</change>
+ <p/>
+ </samplingDecl>
+ </encodingDesc>
+ <revisionDesc>
+ <change who="mholmes" when="2017-10-26">Transformed initial template file to incorporate corrected OCR content.</change>
 
-         <change who="DLANG4" when="2017-10-26">Created this document, completed metadata.</change>
-      </revisionDesc>
-  </teiHeader>
-   <facsimile>
-      <surface xml:id="NS_LA_1866-02-22_Page_001">
-         <graphic url="final/images/NS_LA_1866-02-22_Page_001.jpg"/>
-      </surface>
-      <surface xml:id="NS_LA_1866-02-22_Page_002">
-         <graphic url="final/images/NS_LA_1866-02-22_Page_002.jpg"/>
-      </surface>
-   </facsimile>
-   <text>
-      <body>
-         <div type="debate">
-            <pb n="1" facs="final/images/NS_LA_1866-02-22_Page_001.jpg"/>
-     
-     <div type="section">                        
-     <head rendition="simple:centre">DEBATES AND PROCEEDINGS<lb/>
-     OF THE<lb/>
-     HOUSE OF ASSEMBLY OF NOVA SCOTIA.<lb/>
-     1866.</head>
-     </div>
-     
-     <div type="section">        
-            <head rendition="simple:right">THURSDAY, Feb. 22.</head>
-            
-            <p>
-     Shortly before 2 o'clock p. m. the SPEAKER 
-     <lb/>
-     took the chair of the house, and after a few 
-     <lb/>
-     minutes the Gentleman Usher of the Black 
-     <lb/>
-     Rod conveyed the command of His Excellency 
-     <lb/>
-     for the attendance of the House in the Council 
-     <lb/>
-     Chamber. 
-     <lb/>
-            </p>
+ <change who="DLANG4" when="2017-10-26">Created this document, completed metadata.</change>
+ </revisionDesc>
+ </teiHeader>
+ <facsimile>
+ <surface xml:id="NS_LA_1866-02-22_Page_001">
+ <graphic url="final/images/NS_LA_1866-02-22_Page_001.jpg"/>
+ </surface>
+ <surface xml:id="NS_LA_1866-02-22_Page_002">
+ <graphic url="final/images/NS_LA_1866-02-22_Page_002.jpg"/>
+ </surface>
+ </facsimile>
+ <text>
+ <body>
+ <div type="debate">
+ <pb n="1" facs="final/images/NS_LA_1866-02-22_Page_001.jpg"/>
+ 
+ <div type="section"> 
+ <head rendition="simple:centre">DEBATES AND PROCEEDINGS<lb/>
+ OF THE<lb/>
+ HOUSE OF ASSEMBLY OF NOVA SCOTIA.<lb/>
+ 1866.</head>
+ </div>
+ 
+ <div type="section"> 
+ <head rendition="simple:right">THURSDAY, Feb. 22.</head>
+ 
+ <p>
+ Shortly before 2 o'clock p. m. the SPEAKER 
+ <lb/>
+ took the chair of the house, and after a few 
+ <lb/>
+ minutes the Gentleman Usher of the Black 
+ <lb/>
+ Rod conveyed the command of His Excellency 
+ <lb/>
+ for the attendance of the House in the Council 
+ <lb/>
+ Chamber. 
+ <lb/>
+ </p>
 
-            <p>
-     The House of Assembly having attended in 
-     <lb/>
-     obedience to His Excellency's command, His 
-     <lb/>
-     Excellency opened the Session with the fol<lb break="no"/>lowing Speech:— 
-     <lb/>
-            </p>
-   
-            <p>
-     <hi rendition="simple:italic">Mr. President, and Honorable Gentlemen of the 
-     <lb/>
-     Legislative Council:</hi> 
-     <lb/>
-            </p>
-   
-            <p>
-               <hi rendition="simple:italic">Mr. Speaker, and Gentlemen of the House of 
-     <lb/>
-        
-     Assembly:</hi>
-            </p>
+ <p>
+ The House of Assembly having attended in 
+ <lb/>
+ obedience to His Excellency's command, His 
+ <lb/>
+ Excellency opened the Session with the fol<lb break="no"/>lowing Speech:— 
+ <lb/>
+ </p>
+ 
+ <p>
+ <hi rendition="simple:italic">Mr. President, and Honorable Gentlemen of the 
+ <lb/>
+ Legislative Council:</hi> 
+ <lb/>
+ </p>
+ 
+ <p>
+ <hi rendition="simple:italic">Mr. Speaker, and Gentlemen of the House of 
+ <lb/>
+ 
+ Assembly:</hi>
+ </p>
 
-            <p>
-     1. It affords me unfeigned satisfaction, in 
-     <lb/>
-     meeting, for the first time, the Legislature of 
-     <lb/>
-     this my native Province, to be able to congra<lb break="no"/>tulate you upon a condition of prosperity never 
-     <lb/>
-     before equalled in the history of the Colony. 
-     <lb/>
-            </p>
+ <p>
+ 1. It affords me unfeigned satisfaction, in 
+ <lb/>
+ meeting, for the first time, the Legislature of 
+ <lb/>
+ this my native Province, to be able to congra<lb break="no"/>tulate you upon a condition of prosperity never 
+ <lb/>
+ before equalled in the history of the Colony. 
+ <lb/>
+ </p>
 
-            <p>
-     2. While we have enjoyed the blessings of 
-     <lb/>
-     peace and immunity from pestilence, the labors 
-     <lb/>
-     of the Husbandman and the Fisherman have 
-     <lb/>
-     been crowned with success: and the sale of 
-     <lb/>
-     Crown Lands, the development of our Coal and 
-     <lb/>
-     Gold Mines, the receipts from our Railways, 
-     <lb/>
-     and the Trade and Revenue of our Provmce, 
-     <lb/>
-     are greatly in excess of any preceding year. 
-     <lb/>
-            </p>
+ <p>
+ 2. While we have enjoyed the blessings of 
+ <lb/>
+ peace and immunity from pestilence, the labors 
+ <lb/>
+ of the Husbandman and the Fisherman have 
+ <lb/>
+ been crowned with success: and the sale of 
+ <lb/>
+ Crown Lands, the development of our Coal and 
+ <lb/>
+ Gold Mines, the receipts from our Railways, 
+ <lb/>
+ and the Trade and Revenue of our Provmce, 
+ <lb/>
+ are greatly in excess of any preceding year. 
+ <lb/>
+ </p>
 
-            <p>
-     3. A soldier myself, and intimately connect<lb break="no"/>ed with the organization of the Volunteer 
-     <lb/>
-     movement both in Great Britain and in this 
-     <lb/>
-     Province, you can well understand the deep 
-     <lb/>
-     gratification it has afforded me to find the 
-     <lb/>
-     spirited manner in which my countrymen have 
-     <lb/>
-     responded, by the organization of a Militia 
-     <lb/>
-     Force so efficient, to the call to prepare for any 
-     <lb/>
-     emergency which may at any time demand 
-     <lb/>
-     stout hearts and trained arms for the defence 
-     <lb/>
-     of the inestimable privileges we enjoy as sub<lb break="no"/>jects of the Crown of Britain. 
-     <lb/>
-            </p>
-   
-            <p>
-               <hi rendition="simple:italic">Mr. Speaker, and Gentlemen of the House of 
-     <lb/>
-    Assembly.</hi> 
-     <lb/>
-            </p>
+ <p>
+ 3. A soldier myself, and intimately connect<lb break="no"/>ed with the organization of the Volunteer 
+ <lb/>
+ movement both in Great Britain and in this 
+ <lb/>
+ Province, you can well understand the deep 
+ <lb/>
+ gratification it has afforded me to find the 
+ <lb/>
+ spirited manner in which my countrymen have 
+ <lb/>
+ responded, by the organization of a Militia 
+ <lb/>
+ Force so efficient, to the call to prepare for any 
+ <lb/>
+ emergency which may at any time demand 
+ <lb/>
+ stout hearts and trained arms for the defence 
+ <lb/>
+ of the inestimable privileges we enjoy as sub<lb break="no"/>jects of the Crown of Britain. 
+ <lb/>
+ </p>
+ 
+ <p>
+ <hi rendition="simple:italic">Mr. Speaker, and Gentlemen of the House of 
+ <lb/>
+ Assembly.</hi> 
+ <lb/>
+ </p>
 
-    
+ 
 
-            <p>
-     4. The Public Accounts will shortly be 
-     <lb/>
-     placed before you. The Estimates for the 
-     <lb/>
-     year will be prepared with as much regard to 
-     <lb/>
-           
+ <p>
+ 4. The Public Accounts will shortly be 
+ <lb/>
+ placed before you. The Estimates for the 
+ <lb/>
+ year will be prepared with as much regard to 
+ <lb/>
+ 
 
-    
-            <cb/>
-          
-     economy as due consideration for the interests 
-     <lb/>
-     of the country will permit. 
-     <lb/>
-            </p>
-   
-            <p>
-               <hi rendition="simple:italic">Mr. President, and Honorable Gentlemen of the 
-     <lb/>
-     Legislative Council:</hi> 
-     <lb/>
-            </p>
+ 
+ <cb/>
+ 
+ economy as due consideration for the interests 
+ <lb/>
+ of the country will permit. 
+ <lb/>
+ </p>
+ 
+ <p>
+ <hi rendition="simple:italic">Mr. President, and Honorable Gentlemen of the 
+ <lb/>
+ Legislative Council:</hi> 
+ <lb/>
+ </p>
 
-            <p>
-               <hi rendition="simple:italic">Mr. Speaker, and Gentlemen of the House of 
-     <lb/>
-     Assembly:</hi> 
-     <lb/>
-            </p>
-   
-            <p>
-     5. You will learn with regret that, notwith<lb break="no"/>standing the united efforts of the British North 
-     <lb/>
-     American Colonies, the Government of the 
-     <lb/>
-     United States have adhered to their determina<lb break="no"/>tion to abrogate the arrangements for Recipro<lb break="no"/>cal Trade which have for the past eleven years 
-     <lb/>
-     contributed so largely to the harmony and 
-     <lb/>
-     commercial prosperity of both the neighboring 
-     <lb/>
-     Republic and these Colonies; but I am san<lb break="no"/>guine that by mutual aid and co-operation 
-     <lb/>
-     among the Provinces, and under the fostering 
-     <lb/>
-     care of the Mother Country, the trade of Bri<lb break="no"/>tish North America may be so directed into 
-     <lb/>
-     new channels, and our valuable fisheries so 
-     <lb/>
-     protected, as to meet the emergency thus 
-     <lb/>
-     forced upon us and avoid any material com<lb break="no"/>mercial inconvenience. The correspondence 
-     <lb/>
-     upon this subject will be submitted to you. 
-     <lb/>
-            </p>
+ <p>
+ <hi rendition="simple:italic">Mr. Speaker, and Gentlemen of the House of 
+ <lb/>
+ Assembly:</hi> 
+ <lb/>
+ </p>
+ 
+ <p>
+ 5. You will learn with regret that, notwith<lb break="no"/>standing the united efforts of the British North 
+ <lb/>
+ American Colonies, the Government of the 
+ <lb/>
+ United States have adhered to their determina<lb break="no"/>tion to abrogate the arrangements for Recipro<lb break="no"/>cal Trade which have for the past eleven years 
+ <lb/>
+ contributed so largely to the harmony and 
+ <lb/>
+ commercial prosperity of both the neighboring 
+ <lb/>
+ Republic and these Colonies; but I am san<lb break="no"/>guine that by mutual aid and co-operation 
+ <lb/>
+ among the Provinces, and under the fostering 
+ <lb/>
+ care of the Mother Country, the trade of Bri<lb break="no"/>tish North America may be so directed into 
+ <lb/>
+ new channels, and our valuable fisheries so 
+ <lb/>
+ protected, as to meet the emergency thus 
+ <lb/>
+ forced upon us and avoid any material com<lb break="no"/>mercial inconvenience. The correspondence 
+ <lb/>
+ upon this subject will be submitted to you. 
+ <lb/>
+ </p>
 
-            <p>
-     6. You will be gratified to be informed that 
-     <lb/>
-     the efforts to represent the products of this Pro<lb break="no"/>vince at the Dublin Exhibition resulted very 
-     <lb/>
-     favorably—a large number of medals having 
-     <lb/>
-     been awarded to our exhibitors; and from the 
-     <lb/>
-     necessity which now exists to make known as 
-     <lb/>
-     widely as possible the great natural resources 
-     <lb/>
-     of these Provinces, you will, I doubt not. make 
-     <lb/>
-     suitable provision for the due representation 
-     <lb/>
-     of Nova Scotia at the great International Exhi<lb break="no"/>bition to take place in Paris in 1867. 
-     <lb/>
-            </p>
+ <p>
+ 6. You will be gratified to be informed that 
+ <lb/>
+ the efforts to represent the products of this Pro<lb break="no"/>vince at the Dublin Exhibition resulted very 
+ <lb/>
+ favorably—a large number of medals having 
+ <lb/>
+ been awarded to our exhibitors; and from the 
+ <lb/>
+ necessity which now exists to make known as 
+ <lb/>
+ widely as possible the great natural resources 
+ <lb/>
+ of these Provinces, you will, I doubt not. make 
+ <lb/>
+ suitable provision for the due representation 
+ <lb/>
+ of Nova Scotia at the great International Exhi<lb break="no"/>bition to take place in Paris in 1867. 
+ <lb/>
+ </p>
 
-            <p>
-     7. Contracts, based upon the legislation of 
-     <lb/>
-     last Session, have been entered into during the 
-     <lb/>
-     recess of Parliament for the extension of the 
-     <lb/>
-     Railways from Truro to the border of New 
-     <lb/>
-     Brunswick, and from Windsor to Annapolis. 
-     <lb/>
-     These documents, and the papers connected 
-     <lb/>
-     therewith, will be laid before you at an early 
-     <lb/>day.<lb/>
-            </p>
+ <p>
+ 7. Contracts, based upon the legislation of 
+ <lb/>
+ last Session, have been entered into during the 
+ <lb/>
+ recess of Parliament for the extension of the 
+ <lb/>
+ Railways from Truro to the border of New 
+ <lb/>
+ Brunswick, and from Windsor to Annapolis. 
+ <lb/>
+ These documents, and the papers connected 
+ <lb/>
+ therewith, will be laid before you at an early 
+ <lb/>day.<lb/>
+ </p>
 
-    
+ 
 
-            <p>
-     8. In accordance with instructions received 
-     <lb/>
-     from Her Majesty's Government, circulars 
-     <lb/>
-     were transmitted to the persons in charge of all 
-     <lb/>
-            <pb n="2" facs="final/images/NS_LA_1866-02-22_Page_002.jpg"/>
-            <fw type="num">2</fw>
-            <fw type="running">DEBATES AND PROCEEDINGS</fw>
-            
-     the Prisons in the Province, making enquiries 
-     <lb/>
-     as to their condition. These documents, with 
-     <lb/>
-     the answers to the enquiries made, will be sub<lb break="no"/>mitted for your consideration; and I will be 
-     <lb/>
-     glad if some means should be devised for the 
-     <lb/>
-    due inspection of all places of imprisonment, in 
-     <lb/>order to promote an improvement in the system 
-     <lb/>and uniformity of discipline. 
-     <lb/>
-            </p>
-   
-    
+ <p>
+ 8. In accordance with instructions received 
+ <lb/>
+ from Her Majesty's Government, circulars 
+ <lb/>
+ were transmitted to the persons in charge of all 
+ <lb/>
+ <pb n="2" facs="final/images/NS_LA_1866-02-22_Page_002.jpg"/>
+ <fw type="num">2</fw>
+ <fw type="running">DEBATES AND PROCEEDINGS</fw>
+ 
+ the Prisons in the Province, making enquiries 
+ <lb/>
+ as to their condition. These documents, with 
+ <lb/>
+ the answers to the enquiries made, will be sub<lb break="no"/>mitted for your consideration; and I will be 
+ <lb/>
+ glad if some means should be devised for the 
+ <lb/>
+ due inspection of all places of imprisonment, in 
+ <lb/>order to promote an improvement in the system 
+ <lb/>and uniformity of discipline. 
+ <lb/>
+ </p>
+ 
+ 
 
-            <p>
-     9. Your attention will also be invited to the 
-     <lb/>
-     important question of Immigration, in the hope 
-     <lb/>
-     that a larger number of those seeking a new 
-     <lb/>
-     home may be made acquainted with the great 
-     <lb/>
-     advantages which are here offered to industry, 
-     <lb/>
-     capital, or skill. 
-     <lb/>
-            </p>
+ <p>
+ 9. Your attention will also be invited to the 
+ <lb/>
+ important question of Immigration, in the hope 
+ <lb/>
+ that a larger number of those seeking a new 
+ <lb/>
+ home may be made acquainted with the great 
+ <lb/>
+ advantages which are here offered to industry, 
+ <lb/>
+ capital, or skill. 
+ <lb/>
+ </p>
 
-            <p>
-     10. I confidently hope that, deeply impressed 
-     <lb/>
-     with the gratitude due to a beneficent Provi<lb break="no"/>dence for the blessings so liberally bestowed 
-     <lb/>
-     during the past year, your united deliberations 
-     <lb/>
-     will result in promoting the continued pros<lb break="no"/>perity of this highly favored land. 
-     <lb/>
-            </p>
-     </div>
-     <div type="section">      
-            
-            
-     <head rendition="simple:centre">THE LUNENBURG ELECTION.</head>
-     
-           <p>
-     <persName ref="pers:SPEA1">The SPEAKER</persName>, upon the return of the House, 
-     <lb/>
-     proceeded to read His Excellency's speech.— 
-     <lb/>
-     The Speaker also announced the demise, dur<lb break="no"/>ing the vacation, of Dr. Slocumb, one of the 
-     <lb/>
-     representatives of Lunenburg, and the issue of 
-     <lb/>
-     a writ to supply the vacancy. 
-     <lb/>
-            </p>
+ <p>
+ 10. I confidently hope that, deeply impressed 
+ <lb/>
+ with the gratitude due to a beneficent Provi<lb break="no"/>dence for the blessings so liberally bestowed 
+ <lb/>
+ during the past year, your united deliberations 
+ <lb/>
+ will result in promoting the continued pros<lb break="no"/>perity of this highly favored land. 
+ <lb/>
+ </p>
+ </div>
+ <div type="section"> 
+ 
+ 
+ <head rendition="simple:centre">THE LUNENBURG ELECTION.</head>
+ 
+ <p>
+ <persName ref="pers:SPEA1">The SPEAKER</persName>, upon the return of the House, 
+ <lb/>
+ proceeded to read His Excellency's speech.— 
+ <lb/>
+ The Speaker also announced the demise, dur<lb break="no"/>ing the vacation, of Dr. Slocumb, one of the 
+ <lb/>
+ representatives of Lunenburg, and the issue of 
+ <lb/>
+ a writ to supply the vacancy. 
+ <lb/>
+ </p>
 
-            <p>
-               <persName ref="pers:TUPP1">Hon. PROV. SEC</persName>, by command of His Excel<lb break="no"/>lency, laid on the table of the House, the return 
-     <lb/>
-     to the writ for the election of a member for the 
-     <lb/>
-     county of Lunenburg, which was then read, 
-     <lb/>
-     announcing. the election of Abraham Hebb, 
-     <lb/>Esq.<lb/>
-            </p>
-   
-            <p>
-     Hon. J. H. ANDERSON and HON. A. KEITH, 
-     <lb/>
-     the Commissioners for administering the oaths, 
-     <lb/>
-     then took their places, and Mr. Hebb being 
-     <lb/>
-     introduced by Messrs. Annand and Ray, ad<lb break="no"/>vanced and was sworn in. 
-     <lb/>
-     
-     
-     
-            </p>
-        <p>     <persName ref="pers:SPEA1">The SPEAKER</persName> announced that the usual 
-     <lb/>order for the franking privilege had been 
-     <lb/>made. 
-     <lb/>
-            </p>
-     </div>
-           
-            <div type="section">
-            
-     <head rendition="simple:centre">BILL PRO FORMA.</head> 
-     <lb/>
-            
-   
-            <p>
-     <persName ref="UNSPECIFIED">Mr. S. MACDONNELL</persName> then asked leave to 
-     <lb/>
-               introduce <hi rendition="simple:italic">pro forma</hi> a bill entitled " An act for 
-     <lb/>
-     the patenting of useful inventions." The bill 
-     <lb/>
-     was read a first time, and ordered' to be read a 
-     <lb/>
-     second time on a future day. 
-     <lb/>
-            </p>
-            </div>
-           
-           <div type="section">
-            <head rendition="simple:centre">ANSWER TO THE ADDRESS MOVED.</head> 
-   
-            
+ <p>
+ <persName ref="pers:TUPP1">Hon. PROV. SEC</persName>, by command of His Excel<lb break="no"/>lency, laid on the table of the House, the return 
+ <lb/>
+ to the writ for the election of a member for the 
+ <lb/>
+ county of Lunenburg, which was then read, 
+ <lb/>
+ announcing. the election of Abraham Hebb, 
+ <lb/>Esq.<lb/>
+ </p>
+ 
+ <p>
+ Hon. J. H. ANDERSON and HON. A. KEITH, 
+ <lb/>
+ the Commissioners for administering the oaths, 
+ <lb/>
+ then took their places, and Mr. Hebb being 
+ <lb/>
+ introduced by Messrs. Annand and Ray, ad<lb break="no"/>vanced and was sworn in. 
+ <lb/>
+ 
+ 
+ 
+ </p>
+ <p> <persName ref="pers:SPEA1">The SPEAKER</persName> announced that the usual 
+ <lb/>order for the franking privilege had been 
+ <lb/>made. 
+ <lb/>
+ </p>
+ </div>
+ 
+ <div type="section">
+ 
+ <head rendition="simple:centre">BILL PRO FORMA.</head> 
+ <lb/>
+ 
+ 
+ <p>
+ <persName ref="UNSPECIFIED">Mr. S. MACDONNELL</persName> then asked leave to 
+ <lb/>
+ introduce <hi rendition="simple:italic">pro forma</hi> a bill entitled " An act for 
+ <lb/>
+ the patenting of useful inventions." The bill 
+ <lb/>
+ was read a first time, and ordered' to be read a 
+ <lb/>
+ second time on a future day. 
+ <lb/>
+ </p>
+ </div>
+ 
+ <div type="section">
+ <head rendition="simple:centre">ANSWER TO THE ADDRESS MOVED.</head> 
+ 
+ 
 
-            <p>
-     <persName ref="pers:HAMI1">Dr. HAMILTON</persName> said—I rise, Mr. Speaker, for 
-     <lb/>
-     the purpose of moving the answer to the 
-     <lb/>
-     speech with which his Excellency the Lieut. 
-     <lb/>
-     Governor was pleased to open the third session 
-     <lb/>
-     of the twenty-fourth Parliament of Nova
-     <lb/>
-     Scotia. 
-     <lb/>
-            </p>
+ <p>
+ <persName ref="pers:HAMI1">Dr. HAMILTON</persName> said—I rise, Mr. Speaker, for 
+ <lb/>
+ the purpose of moving the answer to the 
+ <lb/>
+ speech with which his Excellency the Lieut. 
+ <lb/>
+ Governor was pleased to open the third session 
+ <lb/>
+ of the twenty-fourth Parliament of Nova
+ <lb/>
+ Scotia. 
+ <lb/>
+ </p>
 
-            <p>
-     Every Novascotian, and especially the mem<lb break="no"/>bers of this House, must feel gratified that 
-     <lb/>
-     Her Majesty has thought proper to select and 
-     <lb/>
-    appoint as her representative in this colony, 
-     <lb/>one of Nova Scotia's sons, whose talents and 
-     <lb/>bravery have won him so distinguished a 
-     <lb/>name in the British Empire, not only as the 
-     <lb/>heroic defender of Kars, but in other import<lb break="no"/>ant positions. As our Governor, we must feel 
-     <lb/>confident that in the exercise of his great 
-     <lb/>abilities and practical knowledge, Nova Scotia 
-     <lb/>has been placed under the most favorable 
-     <lb/>circumstances at this time. 
-     <lb/>
-            </p>
+ <p>
+ Every Novascotian, and especially the mem<lb break="no"/>bers of this House, must feel gratified that 
+ <lb/>
+ Her Majesty has thought proper to select and 
+ <lb/>
+ appoint as her representative in this colony, 
+ <lb/>one of Nova Scotia's sons, whose talents and 
+ <lb/>bravery have won him so distinguished a 
+ <lb/>name in the British Empire, not only as the 
+ <lb/>heroic defender of Kars, but in other import<lb break="no"/>ant positions. As our Governor, we must feel 
+ <lb/>confident that in the exercise of his great 
+ <lb/>abilities and practical knowledge, Nova Scotia 
+ <lb/>has been placed under the most favorable 
+ <lb/>circumstances at this time. 
+ <lb/>
+ </p>
 
-    
+ 
 
-            <p>
-     It must be gratifying, too, for His Excellency 
-     <lb/>
-     to meet the Legislature of this his native 
-     <lb/>
-     Province under such favorable circumstances, 
-     <lb/>
-     for I believe never before, in the history of 
-     <lb/>
-     Nova Scotia, was every branch of productive 
-     <lb/>
-     industry in so healthy and flourishing a 
-     <lb/>
-     condition as at present. 
-     <lb/>
-            </p>
-            <cb/>
-            <p>
-     The returns from the various sources of 
-     <lb/>
-     revenue, which have been made public, enable 
-     <lb/>
-     the Government to meet the House with no 
-     <lb/>
-     demands against the treasury, but, on the 
-     <lb/>
-     contrary, with a large surplus. 
-     <lb/>
-            </p>
+ <p>
+ It must be gratifying, too, for His Excellency 
+ <lb/>
+ to meet the Legislature of this his native 
+ <lb/>
+ Province under such favorable circumstances, 
+ <lb/>
+ for I believe never before, in the history of 
+ <lb/>
+ Nova Scotia, was every branch of productive 
+ <lb/>
+ industry in so healthy and flourishing a 
+ <lb/>
+ condition as at present. 
+ <lb/>
+ </p>
+ <cb/>
+ <p>
+ The returns from the various sources of 
+ <lb/>
+ revenue, which have been made public, enable 
+ <lb/>
+ the Government to meet the House with no 
+ <lb/>
+ demands against the treasury, but, on the 
+ <lb/>
+ contrary, with a large surplus. 
+ <lb/>
+ </p>
 
-            <p>
-     If there is one thing more than another 
-     <lb/>
-     which should inspire confidence in a Govern<lb break="no"/>ment in the management of the public affairs, 
-     <lb/>
-     it is the fact that the productive industry and 
-     <lb/>
-     the various sources of wealth are steadily on 
-     <lb/>
-     the increase. 
-     <lb/>
-            </p>
+ <p>
+ If there is one thing more than another 
+ <lb/>
+ which should inspire confidence in a Govern<lb break="no"/>ment in the management of the public affairs, 
+ <lb/>
+ it is the fact that the productive industry and 
+ <lb/>
+ the various sources of wealth are steadily on 
+ <lb/>
+ the increase. 
+ <lb/>
+ </p>
 
-            <p>
-     A full treasury not only enables the Govern<lb break="no"/>ment to meet all the existing and necessary 
-     <lb/>
-     appropriations, but it does more—it enables 
-     <lb/>
-     them to make provisions for the extension of 
-     <lb/>
-     the public works and other improvements 
-     <lb/>
-    which from time to time are required by the 
-     <lb/>people. 
-     <lb/>
-            </p>
-   
-    
+ <p>
+ A full treasury not only enables the Govern<lb break="no"/>ment to meet all the existing and necessary 
+ <lb/>
+ appropriations, but it does more—it enables 
+ <lb/>
+ them to make provisions for the extension of 
+ <lb/>
+ the public works and other improvements 
+ <lb/>
+ which from time to time are required by the 
+ <lb/>people. 
+ <lb/>
+ </p>
+ 
+ 
 
-            <p>
-     Now, I do not feel disposed, in making these 
-     <lb/>
-     statements and exhibiting the figures which 
-     <lb/>
-     will follow, to attribute all the increase in the 
-     <lb/>
-     trade, commerce, navigation, agricultural pro<lb break="no"/>duce, fisheries, mines and minerals, &amp;c., to the 
-     <lb/>
-     management of the gentlemen who compose 
-     <lb/>
-     the present government, but this much I may 
-     <lb/>
-     say, that just in so far as the people have con<lb break="no"/>fidence in the integrity, practical ability and 
-     <lb/>
-     good intentions ot' those gentlemen. so far do 
-     <lb/>
-     people feel security in entering into the 
-     <lb/>
-     prosecution of those various sources of industry 
-     <lb/>
-     and trade, which result in the enjoyment not 
-     <lb/>
-     only of all the luxuries of life, but in the in<lb break="no"/>crease and extension of the productive sources 
-     <lb/>
-     of wealth. 
-     <lb/>
-            </p>
+ <p>
+ Now, I do not feel disposed, in making these 
+ <lb/>
+ statements and exhibiting the figures which 
+ <lb/>
+ will follow, to attribute all the increase in the 
+ <lb/>
+ trade, commerce, navigation, agricultural pro<lb break="no"/>duce, fisheries, mines and minerals, &amp;c., to the 
+ <lb/>
+ management of the gentlemen who compose 
+ <lb/>
+ the present government, but this much I may 
+ <lb/>
+ say, that just in so far as the people have con<lb break="no"/>fidence in the integrity, practical ability and 
+ <lb/>
+ good intentions ot' those gentlemen. so far do 
+ <lb/>
+ people feel security in entering into the 
+ <lb/>
+ prosecution of those various sources of industry 
+ <lb/>
+ and trade, which result in the enjoyment not 
+ <lb/>
+ only of all the luxuries of life, but in the in<lb break="no"/>crease and extension of the productive sources 
+ <lb/>
+ of wealth. 
+ <lb/>
+ </p>
 
-            <p>
-     I believe in every department from which re<lb break="no"/>turns are collected, the increase over previous 
-     <lb/>
-     years is remarkable, and as far as the produc<lb break="no"/>tive resources of our Province are concerned, 
-     <lb/>
-     viz., the fisheries, agriculture, mines, minerals, 
-     <lb/>
-     and other departments they are all equally in 
-     <lb/>
-     a healthy and flourishing condition. 
-     <lb/>
-            </p>
+ <p>
+ I believe in every department from which re<lb break="no"/>turns are collected, the increase over previous 
+ <lb/>
+ years is remarkable, and as far as the produc<lb break="no"/>tive resources of our Province are concerned, 
+ <lb/>
+ viz., the fisheries, agriculture, mines, minerals, 
+ <lb/>
+ and other departments they are all equally in 
+ <lb/>
+ a healthy and flourishing condition. 
+ <lb/>
+ </p>
 
-            <p>
-     A few facts and comparisons might not be 
-     <lb/>
-     amiss, and while I do not feel disposed to make 
-     <lb/>
-     any invidious comparison with former govern<lb break="no"/>ments under different parties, I must be per<lb break="no"/>mitted to refer to a few figures to illustrate 
-     <lb/>
-     the progress which has been made and first let. 
-     <lb/>
-     us take the exports of Nova Scotia— 
-     <lb/>
-            </p>
-   
-            <p>
-     In 1860, under the management of our prede<lb break="no"/>cessors, the whole exports amounted to 
-            </p>
-              
-              <table>
-<row><cell/><cell rendition="simple:right">$6,619,534</cell></row> 
-                 <row><cell>While, in 1865, they were no less than</cell> <cell rendition="simple:right"><hi rendition="simple:underline">8,830,633</hi></cell></row> 
+ <p>
+ A few facts and comparisons might not be 
+ <lb/>
+ amiss, and while I do not feel disposed to make 
+ <lb/>
+ any invidious comparison with former govern<lb break="no"/>ments under different parties, I must be per<lb break="no"/>mitted to refer to a few figures to illustrate 
+ <lb/>
+ the progress which has been made and first let. 
+ <lb/>
+ us take the exports of Nova Scotia— 
+ <lb/>
+ </p>
+ 
+ <p>
+ In 1860, under the management of our prede<lb break="no"/>cessors,</p>
+ 
+<table>
+<row><cell>the whole exports amounted to</cell><cell rendition="simple:right">$6,619,534</cell></row> 
+<row><cell>While, in 1865, they were no less than</cell> <cell rendition="simple:right"><hi rendition="simple:underline">8,830,633</hi></cell></row> 
 <row><cell>Being an increase of no less than</cell> <cell rendition="simple:right">$2,211,099</cell></row> 
-              </table>
-   
-            <p>
-     If there can be any doubt about the state of 
-     <lb/>
-     our country in this respect, a reference to her 
-     <lb/>
-     exports will prove her prosperity, and the great 
-     <lb/>
-     increase for the last six years shows pretty 
-     <lb/>
-     plainly that Nova Scotia is progressing in her 
-     <lb/>
-     productive capabilities most rapidly, and we 
-     <lb/>
-     must certainly hope it may long continue. I 
-     <lb/>
-     might mention that during the years 1861-62-63; 
-     <lb/>
-     the exports of the Province fell off no less than 
-     <lb/>
-     $1,242,169. so that the increase has been most 
-     <lb/>
-     rapid. amounting, since 1862, to no less a sum 
-     <lb/>
-     than $3,153,672. 
-     <lb/>
-            </p>
+ </table>
+ 
+ <p>
+ If there can be any doubt about the state of 
+ <lb/>
+ our country in this respect, a reference to her 
+ <lb/>
+ exports will prove her prosperity, and the great 
+ <lb/>
+ increase for the last six years shows pretty 
+ <lb/>
+ plainly that Nova Scotia is progressing in her 
+ <lb/>
+ productive capabilities most rapidly, and we 
+ <lb/>
+ must certainly hope it may long continue. I 
+ <lb/>
+ might mention that during the years 1861-62-63; 
+ <lb/>
+ the exports of the Province fell off no less than 
+ <lb/>
+ $1,242,169. so that the increase has been most 
+ <lb/>
+ rapid. amounting, since 1862, to no less a sum 
+ <lb/>
+ than $3,153,672. 
+ <lb/>
+ </p>
 
-            <p>
-     These very large exports and imports pro<lb break="no"/>duce a trade from which a large revenue is col<lb break="no"/>lected, and as far as the Government and the re<lb break="no"/>presentatives of the people are concerned, noth<lb break="no"/>ing is more gratifying than to have a large sur<lb break="no"/>plus revenue to return to the people in the 
-     <lb/>
-     shape of grants for roads and bridges, schools 
-     <lb/>
-     and navigation securities, and which also en [...]
-            </p>
-         </div></div>
-      </body>
-   </text>
+ <p>
+ These very large exports and imports pro<lb break="no"/>duce a trade from which a large revenue is col<lb break="no"/>lected, and as far as the Government and the re<lb break="no"/>presentatives of the people are concerned, noth<lb break="no"/>ing is more gratifying than to have a large sur<lb break="no"/>plus revenue to return to the people in the 
+ <lb/>
+ shape of grants for roads and bridges, schools 
+ <lb/>
+ and navigation securities, and which also en [...]
+ </p>
+ </div></div>
+ </body>
+ </text>
 </TEI>
