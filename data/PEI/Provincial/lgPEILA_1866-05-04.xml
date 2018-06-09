@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+ xml:id="lgPEILA_1866-05-04"
+ xml:lang="en"
+ type="full">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+
+<title><name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1866-05-04">4 May 1866</date>, Prince Edward Island Confederation with Canada.</title>
+ 
+<respStmt>
+<resp>Selection of input documents and completion of metadata</resp>
+<persName ref="pers:LANG4">Dave Lang</persName> 
+<!-- xml markup only - not proofed --> 
+</respStmt>
+ 
+</titleStmt>
+ 
+<publicationStmt>
+<p>Published by The Confederation Debates project.</p>
+</publicationStmt>
+<sourceDesc>
+
+
+<bibl corresp="bibl:lgPEILA_1866">
+<title>Debates and Proceedings of the House of Assembly of Prince Edward Island, for the Year 1866, Being the Fourth Session of the Twenty-Second General Assembly.</title>.
+<date when="1866"/>. 
+<pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>"The Examiner" Office</publisher>.
+<biblScope unit="page" from="50" to="50"/>
+</bibl>
+
+
+<list>
+<item>
+<ptr target="final/hocr/PEI_LA_1866-05-04_Page_50.html"/>
+</item>
+</list>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<samplingDecl>
+
+<p/>
+</samplingDecl>
+</encodingDesc>
+<revisionDesc>
+<change who="mholmes" when="2018-06-08">Transformed initial template file to incorporate corrected OCR content.</change>
+<change who="DLANG4" when="2018-06-08">Created this document, completed metadata.</change>
+</revisionDesc>
+</teiHeader>
+<facsimile>
+<surface xml:id="PEI_LA_1866-05-04_Page_50">
+<graphic url="final/images/PEI_LA_1866-05-04_Page_50.jpg"/>
+</surface>
+</facsimile>
+<text>
+<body>
+<div type="debate">
+
+<pb n="50" facs="final/images/PEI_LA_1866-05-04_Page_50.jpg"/>
+<fw type="running"><hi rendition="simple:centre">PARLIAMENTARY REPORTER.</hi></fw>
+<fw type="num">50</fw>
+
+<p><hi rendition="simple:right">FRIDAY, May 4.</hi><lb/></p>
+<p>Hon. Mr. Coles said copies of the book containing an ac<lb break="no"/>count of the Conferences held in the Maritime Provinces, and<lb/>in Canada, in the year 1864, reltive to the Union of the Pro<lb break="no"/>vinces, should be placed before hon. members for reference, as<lb/>it appeared the subject of Confederation was to come before<lb/>the House.<lb/>
+</p>
+<p>The books asked for, and which had been in the Legislative<lb/>Library for the use of members, were accordingly produced.<lb/>
+</p>
+</div>
+</body>
+</text>
+</TEI>

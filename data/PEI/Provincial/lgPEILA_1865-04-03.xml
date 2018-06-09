@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+ xml:id="lgPEILA_1865-04-03"
+ xml:lang="en"
+ type="full">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+
+ <title>
+ <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1865-04-03">3 April 1865</date>, Prince Edward Island Confederation with Canada.</title>
+ 
+ <respStmt>
+ <resp>Selection of input documents and completion of metadata</resp>
+ <persName ref="pers:LANG4">Dave Lang</persName> 
+ <!-- xml markup only - not proofed --> 
+ </respStmt>
+ 
+ </titleStmt>
+ 
+ <publicationStmt>
+ <p>Published by The Confederation Debates project.</p>
+ </publicationStmt>
+ <sourceDesc>
+
+ <bibl corresp="bibl:lgPEILA_1864">
+ <title>Debates and Proceedings of the House of Assembly of Prince Edward Island, for the Year 1865, Being the Third Session of the Twenty-Second General Assembly.</title>.
+<date when="1865"/>. 
+<pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>"The Protestant" Office</publisher>.
+<biblScope unit="page" from="76" to="77"/>
+ </bibl>
+ 
+
+ <list>
+ <item>
+ <ptr target="final/hocr/PEI_LA_1865-04-03_Page_076.html"/>
+ </item>
+ <item>
+ <ptr target="final/hocr/PEI_LA_1865-04-03_Page_077.html"/>
+ </item>
+ </list>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+ <samplingDecl>
+
+ <p/>
+ </samplingDecl>
+ </encodingDesc>
+ <revisionDesc>
+ <change who="mholmes" when="2018-06-08">Transformed initial template file to incorporate corrected OCR content.</change>
+ <change who="DLANG4" when="2018-06-08">Created this document, completed metadata.</change>
+ </revisionDesc>
+ </teiHeader>
+ <facsimile>
+ <surface xml:id="PEI_LA_1865-04-03_Page_076">
+ <graphic url="final/images/PEI_LA_1865-04-03_Page_076.jpg"/>
+ </surface>
+ <surface xml:id="PEI_LA_1865-04-03_Page_077">
+ <graphic url="final/images/PEI_LA_1865-04-03_Page_077.jpg"/>
+ </surface>
+ </facsimile>
+ <text>
+ <body>
+
+ <div type="debate">
+ <pb n="76" facs="final/images/PEI_LA_1865-04-03_Page_076.jpg"/>
+<fw type="running"><hi rendition="simple:centre">PARLIAMENTARY REPORTER.</hi></fw>
+<fw type="num">76</fw>
+
+ <p><hi rendition="simple:right">MONDAY, April 3.</hi><lb/></p>
+
+ <pb n="77" facs="final/images/PEI_LA_1865-04-03_Page_077.jpg"/>
+<fw type="running"><hi rendition="simple:centre">PARLIAMENTARY REPORTER.</hi></fw>
+<fw type="num">77</fw>
+
+ <p>After which His Excellency the Lieutenant Governor<lb/>was pleased to reserve the following Bill for the significa<lb break="no"/>tion of her Majesty's pleasure thereon<lb/>
+ </p>
+ <p>His Excellency was then pleased to close the Session<lb/>with the following<lb/>
+ </p>
+ <p><hi rendition="simple:centre">SPEECH.</hi><lb/></p>
+ <p><hi rendition="simple:italic">Mr. President and Honorable Gentlemen of the<lb/>Legislative Council:</hi><lb/></p>
+ <p><hi rendition="simple:italic">Mr. Speaker and Gentlemen of the House of Assembly:</hi><lb/></p>
+
+ <p>The unremitting attention which you have bestowed<lb/>on your Legislative duties, enables me to relieve you,<lb/>at an earlier period than usual, from further attenance<lb/>here.<lb/>
+ </p>
+ <p>After deliberate consideration of the Terms adopted<lb/>by the Conference at Quebec as a basis for Confedera<lb break="no"/>tion of the British North American Provinces, you<lb/>have refused, on the part of this Colony, to sanction<lb/>the proposed Scheme.<lb/>
+ </p>
+ <p>In accordance with your request, I shall forward to<lb/>the Secretary of State for the Colonies your address to<lb/>Her Majesty on that subject.<lb/> <lb/>
+ </p>
+
+ </div>
+ </body>
+ </text>
+</TEI>
