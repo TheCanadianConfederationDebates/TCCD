@@ -7,27 +7,23 @@
 <fileDesc>
 <titleStmt>
 
-<title>
-<name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1867-04-22">22 April 1867</date>, Prince Edward Island Confederation with Canada.</title>
+<title><name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1867-04-22">22 April 1867</date>, Prince Edward Island Confederation with Canada.</title>
  
 <respStmt>
 <resp>Selection of input documents and completion of metadata</resp>
 <persName ref="pers:LANG4">Dave Lang</persName> 
 <!-- xml markup only - not proofed --> 
 </respStmt>
- 
 </titleStmt>
  
 <publicationStmt>
-
-
 <p>Published by The Confederation Debates project.</p>
 </publicationStmt>
 <sourceDesc>
 
-<bibl corresp="bibl:lgPEILA_1866">
+<bibl corresp="bibl:lgPEILA_1867">
 <title>Debates and Proceedings of the House of Assembly of Prince Edward Island, for the Year 1867, Being the First Session of the Twenty-Third General Assembly.</title>.
-<date when="1866"/>. 
+<date when="1867"/>. 
 <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>"The Patriot" Office</publisher>.
 <biblScope unit="page" from="005" to="013"/>
 </bibl>
@@ -71,7 +67,7 @@
 </encodingDesc>
 <revisionDesc>
 <change who="mholmes" when="2018-06-10">Transformed initial template file to incorporate corrected OCR content.</change>
-<change who="DLANG4" when="2018-06-09">Created this document, completed metadata.</change>
+<change who="DLANG4" when="2018-06-10">Created this document, completed metadata.</change>
 </revisionDesc>
 </teiHeader>
 <facsimile>
