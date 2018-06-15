@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
+     but without the trailing .xml. Also add the @xml:lang value (en or fr).-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPEILA_1870-03-09" type="template" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
+        conforming with our current norms. Tag the date with a <date> element
+        which includes @when or @from/@to attributes so we can process it 
+        mechanically. -->
+<title><name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1870-03-09">9 March 1870</date>, Prince Edward Island Confederation with Canada.</title>
+        
+<respStmt>
+<resp>Selection of input documents and completion of metadata</resp>
+<persName ref="pers:LANG4">Dave Lang</persName> 
+<!-- xml markup only - not proofed --> 
+</respStmt>
+        
+      </titleStmt>
+      
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
+                      this data was taken.-->
+
+<bibl corresp="bibl:lgPEILA_1870">
+<title>Debates and Proceedings of the House of Assembly of Prince Edward Island, for the Year 1870, Being the Fourth Session of the Twenty-Third General Assembly.</title>.
+<date when="1870"/>. 
+<pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>Patriot Book and Job Printing Rooms</publisher>.
+<biblScope unit="page" from="29" to="42"/>
+</bibl>
+        
+<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
+        examples. File path should be relative to THIS XML FILE. -->
+        <list>
+          <item><ptr target="hocr_edited/by_language/en/PEI_H_of_C_1869_Page_01.hocr.html"/></item>
+          <item><ptr target="hocr_edited/by_language/en/PEI_H_of_C_1869_Page_02.hocr.html"/></item>
+        </list>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
+        selected. This is especially important in cases where discontinuous 
+        page-ranges are used.  -->
+        <p></p>
+      </samplingDecl>
+    </encodingDesc>
+    <revisionDesc>
+<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
+        date in the @when attribute. -->
+      <change>Created this document, completed metadata. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
+  
+  <text>
+    <body>
+      <div type="debate">
+        <p>This content will be replaced by data from the source documents during processing.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
