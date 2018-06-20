@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
      but without the trailing .xml. Also add the @xml:lang value (en or fr).-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPEILA_1870-03-09" type="template" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="debate_day" type="template" xml:lang="">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -9,14 +9,12 @@
         conforming with our current norms. Tag the date with a <date> element
         which includes @when or @from/@to attributes so we can process it 
         mechanically. -->
-
-<title><name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1870-03-09">9 March 1870</date>, Prince Edward Island Confederation with Canada.</title>
+        <title>[<name type="legislature" ref="lg:lgHC">Legislature</name>, <date when="1856-01-01">date(-range)</date>, debate title/description]</title>
         
-<respStmt>
-<resp>Selection of input documents and completion of metadata</resp>
-<persName ref="pers:LANG4">Dave Lang</persName> 
-<!-- xml markup only - not proofed --> 
-</respStmt>
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="UNSPECIFIED"><!-- TEMPLATE: Your name here. --></persName>
+        </respStmt>
         
       </titleStmt>
       
@@ -24,13 +22,24 @@
       <sourceDesc>
 <!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
                       this data was taken.-->
-
-<bibl corresp="bibl:lgPEILA_1870">
-<title>Debates and Proceedings of the House of Assembly of Prince Edward Island, for the Year 1870, Being the Fourth Session of the Twenty-Third General Assembly.</title>.
-<date when="1870"/>. 
-<pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>Patriot Book and Job Printing Rooms</publisher>.
-<biblScope unit="page" from="29" to="42"/>
-</bibl>
+        <bibl>
+          
+<!-- TEMPLATE: If there are editors, complete this tag; if not, remove it.-->
+          <editor></editor>.
+          
+<!-- TEMPLATE: Title of the publication -->         
+          <title></title>.
+                    
+<!-- TEMPLATE: Complete the date element using @when or @from + @to. -->
+          <date/>.  
+          
+<!-- TEMPLATE: Complete the publisher and publication place -->
+          <pubPlace></pubPlace>: <publisher></publisher>.
+          
+<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
+               If it's a single page, put the same page number in @from and @to.-->
+          <biblScope unit="page"/>.
+        </bibl>
         
 <!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
         examples. File path should be relative to THIS XML FILE. -->
@@ -49,7 +58,9 @@
       </samplingDecl>
     </encodingDesc>
     <revisionDesc>
-<change who="DLANG4" when="2018-06-16">Created this document, completed metadata.</change>
+<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
+        date in the @when attribute. -->
+      <change>Created this document, completed metadata. </change>
     </revisionDesc>
   </teiHeader>
   
