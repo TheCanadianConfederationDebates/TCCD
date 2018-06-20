@@ -170,7 +170,16 @@
             
             <div id="credits">
                 <h3><xsl:sequence select="$debateCreditsCaption"/></h3>
-                <p><xsl:value-of select="string-join(distinct-values($xmlDocs[TEI/@xml:id = $currId]/descendant::respStmt/persName), ', ')"/></p>
+                <!--<p><xsl:value-of select="string-join(distinct-values($xmlDocs[TEI/@xml:id = $currId]/descendant::respStmt/persName), ', ')"/></p>-->
+                <p>
+                    <xsl:value-of select="string-join(distinct-values($xmlDocs[TEI/@xml:id = $currId]/descendant::respStmt/persName[not(@ref)]), ', ')"/>. 
+                </p>
+                    <xsl:for-each select="$xmlDocs[TEI/@xml:id = $currId]/descendant::respStmt[persName[@ref]]">
+                        
+                        <p><xsl:value-of select="resp"/>: <xsl:value-of select="persName"/>.</p>
+                        
+                    </xsl:for-each>
+                
             </div>
             
             <xsl:if test="//text/descendant::note[@xml:id]">
