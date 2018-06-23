@@ -145,6 +145,7 @@ div[data-el='fw'][data-type='num'], span[data-el='fw'][data-type='num'] {
   border: solid 2px #ff3333;
   margin: 0 auto 0 0;
   max-width: 4em;
+  text-indent: 0;
 }
 /*div[data-el='fw'][data-type='num']::before {
   content: '[ page ';
