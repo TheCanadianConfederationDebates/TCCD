@@ -10,26 +10,52 @@
         ../final/hocr and .jpg to ../final/images 
   </description>
   
+<!-- Defining task as Ant-Contrib -->
+  
   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
 
+
+
+<!-- Identifying a "hocr_location" that is the final/hocr folder  -->
+  
   <property name="hocr_location"
     value="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander/final/hocr"/>
+  
+
+
+<!-- Identifying a "image_location" that is the final/images folder  -->
   
   <property name="image_location"
     value="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander/final/images"/>
   
+
+
+<!-- Identifying a file-set that is all the .hocr.html files in "The_Newfoundlander" -->
+  
   <fileset id="hocr_files" dir="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander">
     <include name="**/*.hocr.html"/>
   </fileset>
+  
 
+
+<!-- Identifying a file-set that is all the .png files in "The_Newfoundlander" -->
+  
   <fileset id="png_files" dir="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander">
     <include name="**/*.png"/>
   </fileset>
 
+
+
+<!-- Identifying a file-set that is all the .jpg files in "The_Newfoundlander" -->
+  
   <fileset id="jpg_files" dir="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander">
     <include name="**/*.jpg"/>
   </fileset>
 
+
+
+<!-- Deleting all previous versions of final folders and re-creating the directories -->
+  
   <target name="cleanup">
     <description>This target will remove products from previous runs of this script.</description>
     <echo>Cleaning up previous runs.</echo>
@@ -38,6 +64,10 @@
     <mkdir dir="${hocr_location}"/>
     <mkdir dir="${image_location}"/>
   </target>
+  
+
+
+  <!-- For every hocr.html file in "The_Newfoundlander" we pass it through the convert_file target -->
   
   <target name="convert_files">
     <description>Pass each file from the file-set into the convert_file target.</description>
@@ -50,21 +80,65 @@
   
   </target>
   
+
+
+<!-- Converting files task -->
+
   <target name="convert_file">
     <description>Convert a single file and its associated image and output results to output folders.</description>
     <echo>Convert a single file and its associated image and output results to output folders.</echo>
     <echo message="converting ${inFile}"/>
+
+
+
+<!-- Determining the directory path of each hocr file -->  
+    
     <dirname property="filePath" file="${inFile}"/>
+
+
+
+<!-- Determining the base name of directory identified in "filePath" above -->   
+    
     <basename property="dirName" file="${filePath}"/>
+
+
+
+<!-- Using regex to pull out the page number from the file name. Regex looks for any characters before capturing any digits that preced ".hocr.html" and the task selects the captured number. --> 
+    
     <propertyregex property="pageNumber" input="${inFile}" regexp=".+(\d+)\.hocr\.html" select="\1"></propertyregex>
-    <property name="hocrOutFile" value="${hocr_location}/lgND_LA_${dirName}_Page_${pageNumber}.hocr.html"></property>
+
+
+
+<!-- Creating a proper file name by setting a property that goes into "The_Newfoundlander" prepends "lgNDLA_" to the directory name (i.e. debate day date) and adds the page number before .hocr.html extension.  -->  
+    
+    <property name="hocrOutFile" value="${hocr_location}/lgNDLA_${dirName}_Page_${pageNumber}.hocr.html"/>
     <echo message="${hocrOutFile}"/>
+
+
+
+<!-- Identify .png file in the directory -->    
+    
     <property name="inImage" value="${filePath}/page-${pageNumber}.png"/>
-    <property name="jpgOutFile" value="${image_location}/lgND_LA_${dirName}_Page_${pageNumber}.jpg"/>
+
+
+
+<!-- Create a proper filename for .jpg to be created by same formula as .hocr -->    
+    
+    <property name="jpgOutFile" value="${image_location}/lgNDLA_${dirName}_Page_${pageNumber}.jpg"/>
+
+
+
+<!-- Invoking imagemagick convert command to change .png to .jpg -->
+    
     <exec executable="convert">
       <arg value="${inImage}"/>
       <arg value="${jpgOutFile}"/>
     </exec>
+
+
+
+<!-- Invoking saxon to call up xslt created to insert file path with correct image name in the hocr document. See "add_image_link.xsl" in xslt folder. -->    
+    
     <java classname="net.sf.saxon.Transform" classpath="saxon9he.jar">
       <arg value="-s:${inFile}"/>
       <arg value="-xsl:${basedir}/../xslt/add_image_link.xsl"/> 
@@ -75,6 +149,9 @@
     </java>
   </target>
 
+
+
+<!-- Calling two targets to execute all ant tasks -->  
   
   <target name="all">
     <antcall target="cleanup"/>
