@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="nfld_fix" default="all">
+  
+  <description> 
+    1. Convert .png to .jpg 
+    2. Rename hocr.html and new .jpg according to debate day
+        date and legislature 
+    3. Add a link in the hocr.html to the .jpg 
+    4. Copy hocr.html to
+        ../final/hocr and .jpg to ../final/images 
+  </description>
+  
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+
+  <property name="hocr_location"
+    value="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander/final/hocr"/>
+  
+  <property name="image_location"
+    value="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander/final/images"/>
+  
+  <fileset id="hocr_files" dir="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander">
+    <include name="**/*.hocr.html"/>
+  </fileset>
+
+  <fileset id="png_files" dir="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander">
+    <include name="**/*.png"/>
+  </fileset>
+
+  <fileset id="jpg_files" dir="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander">
+    <include name="**/*.jpg"/>
+  </fileset>
+
+  <target name="cleanup">
+    <description>This target will remove products from previous runs of this script.</description>
+    <echo>Cleaning up previous runs.</echo>
+    <delete dir="${hocr_location}"/>
+    <delete dir="${image_location}"/>
+    <mkdir dir="${hocr_location}"/>
+    <mkdir dir="${image_location}"/>
+  </target>
+  
+  <target name="convert_files">
+    <description>Pass each file from the file-set into the convert_file target.</description>
+    <echo>Pass each file from the file-set into the convert_file target.</echo>
+    <foreach target="convert_file" param="inFile">
+      <path>
+        <fileset refid="hocr_files"/>
+      </path>
+    </foreach>
+  
+  </target>
+  
+  <target name="convert_file">
+    <description>Convert a single file and its associated image and output results to output folders.</description>
+    <echo>Convert a single file and its associated image and output results to output folders.</echo>
+    <echo message="converting ${inFile}"/>
+    <dirname property="filePath" file="${inFile}"/>
+    <basename property="dirName" file="${filePath}"/>
+    <propertyregex property="pageNumber" input="${inFile}" regexp=".+(\d+)\.hocr\.html" select="\1"></propertyregex>
+    <property name="hocrOutFile" value="${hocr_location}/lgND_LA_${dirName}_Page_${pageNumber}.hocr.html"></property>
+    <echo message="${hocrOutFile}"/>
+    <property name="inImage" value="${filePath}/page-${pageNumber}.png"/>
+    <property name="jpgOutFile" value="${image_location}/lgND_LA_${dirName}_Page_${pageNumber}.jpg"/>
+    <exec executable="convert">
+      <arg value="${inImage}"/>
+      <arg value="${jpgOutFile}"/>
+    </exec>
+    <java classname="net.sf.saxon.Transform" classpath="saxon9he.jar">
+      <arg value="-s:${inFile}"/>
+      <arg value="-xsl:${basedir}/../xslt/add_image_link.xsl"/> 
+      <arg value="-o:${hocrOutFile}"/>
+      <arg value="imageFilePath=${jpgOutFile}"/>
+      <arg value="pageNumber=${pageNumber}"/>
+      <arg value="--suppressXsltNamespaceCheck:on"/>
+    </java>
+  </target>
+
+  
+  <target name="all">
+    <antcall target="cleanup"/>
+    <antcall target="convert_files"/>
+  </target>
+  
+</project>

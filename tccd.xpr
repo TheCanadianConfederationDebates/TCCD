@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="20.0">
+<project version="19.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="20.0" xml:space="preserve">
+            <serialized version="19.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>document.types</String>
@@ -1797,6 +1797,14 @@
                         </documentTypeEntry-array>
                     </entry>
                     <entry>
+                        <String>editor.detect.line.width.on.open</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>editor.format.indent.inline.elements</String>
+                        <Boolean>false</Boolean>
+                    </entry>
+                    <entry>
                         <String>enable.project.master.files.support</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -1806,6 +1814,18 @@
                     </entry>
                     <entry>
                         <String>key.editor.document.type.custom.locations.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>key.editor.format.option.pane.group</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>key.editor.format.xml.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>key.editor.option.pane.group</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
@@ -4340,8 +4360,8 @@
                                                 <field name="stripWS">
                                                     <String>saxon.strip.ws.none</String>
                                                 </field>
-                                                <field name="optimizationEnabled">
-                                                    <Boolean>true</Boolean>
+                                                <field name="optimizationLevel">
+                                                    <String>0</String>
                                                 </field>
                                                 <field name="useConfigFile">
                                                     <Boolean>false</Boolean>
