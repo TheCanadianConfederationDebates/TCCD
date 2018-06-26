@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project basedir="." name="nfld_fix" default="all">
+<project basedir="." name="build_nfld_fix" default="all">
   
   <description> 
     1. Convert .png to .jpg 
@@ -16,14 +16,14 @@
 
 
 
-<!-- Identifying a "hocr_location" that is the final/hocr folder  -->
+<!-- Identifying a "hocr_location" that will be the final/hocr folder  -->
   
   <property name="hocr_location"
     value="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander/final/hocr"/>
   
 
 
-<!-- Identifying a "image_location" that is the final/images folder  -->
+<!-- Identifying a "image_location" that will be the final/images folder  -->
   
   <property name="image_location"
     value="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander/final/images"/>
@@ -54,7 +54,7 @@
 
 
 
-<!-- Deleting all previous versions of final folders and re-creating the directories -->
+<!-- Deleting all previous versions of final folders and contents then re-creating the directories -->
   
   <target name="cleanup">
     <description>This target will remove products from previous runs of this script.</description>
@@ -67,7 +67,7 @@
   
 
 
-  <!-- For every hocr.html file in "The_Newfoundlander" we pass it through the convert_file target -->
+  <!-- For every hocr.html file in "The_Newfoundlander" we pass it through the "convert_file" target. For every file found in "hocr_files" call it an "inFile" and run it through "convert_file" -->
   
   <target name="convert_files">
     <description>Pass each file from the file-set into the convert_file target.</description>
@@ -91,19 +91,19 @@
 
 
 
-<!-- Determining the directory path of each hocr file -->  
+<!-- Determining the directory name based on the path to each hocr file -->  
     
     <dirname property="filePath" file="${inFile}"/>
 
 
 
-<!-- Determining the base name of directory identified in "filePath" above -->   
+<!-- Determining the base name of directory as identified in "filePath" above -->   
     
     <basename property="dirName" file="${filePath}"/>
 
 
 
-<!-- Using regex to pull out the page number from the file name. Regex looks for any characters before capturing any digits that preced ".hocr.html" and the task selects the captured number. --> 
+<!-- Using regex to pull out the page number from the file name. Regex looks for any characters before capturing any digits that precede ".hocr.html" and the task selects the captured number. --> 
     
     <propertyregex property="pageNumber" input="${inFile}" regexp=".+(\d+)\.hocr\.html" select="\1"></propertyregex>
 
