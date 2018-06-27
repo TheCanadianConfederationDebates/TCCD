@@ -10,7 +10,7 @@
         ../final/hocr and .jpg to ../final/images 
   </description>
   
-<!-- Defining task as Ant-Contrib -->
+<!-- Defining task to load Ant-Contrib library -->
   
   <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
 
@@ -36,21 +36,6 @@
     <include name="**/*.hocr.html"/>
   </fileset>
   
-
-
-<!-- Identifying a file-set that is all the .png files in "The_Newfoundlander" -->
-  
-  <fileset id="png_files" dir="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander">
-    <include name="**/*.png"/>
-  </fileset>
-
-
-
-<!-- Identifying a file-set that is all the .jpg files in "The_Newfoundlander" -->
-  
-  <fileset id="jpg_files" dir="${basedir}/../../data/Nfld/Provincial/The_Newfoundlander">
-    <include name="**/*.jpg"/>
-  </fileset>
 
 
 

@@ -21,7 +21,7 @@
     
     
     
-<!-- Matches the template with the root of the XML source document "build_nfld_fix.xml" and reminding us that the image file name is the value of the .jpg filename created. -->  
+<!-- Matches the template with the root of the source document "hocr.html" and reminding us that the image file name is the value of the .jpg filename created. -->  
     
     <xsl:template match="/">
         <xsl:message>Image file name is: <xsl:value-of select="$imageFilePath"/></xsl:message>
@@ -30,7 +30,7 @@
     
     
     
-<!-- Finds all divs with a class attribute that has a value "ocr_page" and make a copy that adds two attributes-->   
+<!-- When you encounter a div with a class attribute that has a value "ocr_page" make a copy and add two attributes. And then apply-templates to @xml:space and @class as well as all children of this div.-->   
     
     <xsl:template match="div[@class='ocr_page']">
         
@@ -38,25 +38,23 @@
         
         <xsl:copy>
             
-<!-- In this div create an attribute "id" with a value that combines "page_" with the value found in $pageNumber -->
             
             <xsl:attribute name="id" select="concat('page_',$pageNumber)"/>
             
-            
-            <!-- In this div create an attribute "title" with a value that combines "image &quot;../images/'" with the file name of the image file path and "quot;; " ending with the attributes already in the pre-existing title element -->            
+                     
             
             <xsl:attribute name="title" select="concat('image &quot;../images/',tokenize($imageFilePath,'/')[last()],'&quot;; ', @title)"/>
             
             
-<!-- Keeping all pre-existing xml attributes [?] or nodes [?] -->   
+<!-- Look for templates that match these attributes and nodes, (will find the Identity transform in this case). -->   
             
-            <xsl:apply-templates select="@xml:space|node()"/>
+            <xsl:apply-templates select="@xml:space|@class|node()"/>
         </xsl:copy>
     </xsl:template>
     
     
     
-<!-- matching and keeping all attributes or nodes -->
+<!-- Identity transform. Standard. Matching anything and copying the thing and then calling apply-templates on its attributes and children. -->
     
     <xsl:template match="@*|node()" priority="-1">
         <xsl:copy>
