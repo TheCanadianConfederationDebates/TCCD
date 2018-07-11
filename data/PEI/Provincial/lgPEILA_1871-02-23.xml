@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1871-02-23"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1871-02-23">23 February 1871</date>, Prince Edward Island Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgPEILA_1871">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+          <date from="1871" to="1872"/>. 
+          <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
+          
+
+          <biblScope unit="page" from="85" to="86"/>.
+          <biblScope unit="page" from="93" to="93"/>.
+          <biblScope unit="page" from="95" to="95"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-02-23_Page_085.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-02-23_Page_092.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-02-23_Page_094.hocr.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-07-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-07-11">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1871-02-23_Page_085">
+         <graphic url="final/images/PEI_LA_Page_1871-02-23_Page_085.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1871-02-23_Page_092">
+         <graphic url="final/images/PEI_LA_Page_1871-02-23_Page_092.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1871-02-23_Page_094">
+         <graphic url="final/images/PEI_LA_Page_1871-02-23_Page_094.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1871-02-23_Page_085"
+                facs="final/images/PEI_LA_Page_1871-02-23_Page_085.jpg"/>
+
+
+          
+     <fw type="num">86</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1871</fw>    
+   
+   
+
+            <p>[<persName ref="pers:MCNE1">Mr. McNEILL</persName>]
+     Con<lb break="no"/>federation had been discussed in the same<lb/>manner, and before that question had been<lb/>before the people, they pronounced against it ;<lb/>the consequence was there was not now an avow<lb break="no"/>ed Confederate in the House. It was proba<lb break="no"/>ble that the people would oppose the Railway<lb/>Question just as strongly as they had opposed<lb/>Confederation ; and if they did so, he believed<lb/>the Government would not carry out the<lb/>scheme without their consent.
+            </p>
+
+    
+            <pb n="1871-02-23_Page_092"
+                facs="final/images/PEI_LA_Page_1871-02-23_Page_092.jpg"/>
+           
+           
+            <fw type="dateline">1871</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">93</fw>
+            
+            
+            <p>
+     <persName ref="pers:DAVI2">Hon. B. DAVIES</persName>.—It will require an 
+     <lb/>
+    addition of eight per cent to our present 
+     <lb/>tariff to provide for the interest on the cost 
+     <lb/>of the raiIway, and that is only the com<lb break="no"/>mencement. How are Souris and St. 
+     <lb/>Peter's to get branch lines, supposing the 
+     <lb/>trunk line is constructed. We find it diffi<lb break="no"/>cult to keep up our present roads and 
+     <lb/>bridges, and we shall get so much in debt 
+     <lb/>that I fear our liberties may be lost. This 
+     <lb/>scheme is intended to pave the way to 
+     <lb/>Confederation; for, once let Our tariff 
+     <lb/>be as high as that of Canada, no voice will 
+     <lb/>be raised against our union with that coun<lb break="no"/>try.<lb/>
+            </p>
+            
+
+            <pb n="1871-02-23_Page_094"
+                facs="final/images/PEI_LA_Page_1871-02-23_Page_094.jpg"/>
+ 
+ 
+     <fw type="dateline">1871</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">95</fw>
+     
+     
+
+            <p>[<persName ref="pers:LEFU2">Mr. Lefurgy</persName>] I am glad 
+     <lb/>to think that this matter has been brought 
+     <lb/>under our notice, but cannot see what pos<lb break="no"/>sible connection can be traced between it and 
+     <lb/>Confederation. I have been called a Con<lb break="no"/>federate,for what reason I know not,nnless 
+     <lb/>it be that I am in the habit of buying flour 
+     <lb/>from some of the Canadians. I do not 
+     <lb/>think that the Government has any idea of 
+     <lb/>bringing us into Confederation by building 
+     <lb/>a railway . 
+     <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

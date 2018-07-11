@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1871-02-22"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1871-02-22">22 February 1871</date>, Prince Edward Island Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgPEILA_1871">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+          <date from="1871" to="1872"/>. 
+          <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
+          
+          
+
+          <biblScope unit="page" from="51" to="52"/>.
+          <biblScope unit="page" from="56" to="57"/>.
+          <biblScope unit="page" from="74" to="74"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-02-22_Page_051.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-02-22_Page_056.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-02-22_Page_073.hocr.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-07-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-07-11">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1871-02-22_Page_051">
+         <graphic url="final/images/PEI_LA_Page_1871-02-22_Page_051.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1871-02-22_Page_056">
+         <graphic url="final/images/PEI_LA_Page_1871-02-22_Page_056.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1871-02-22_Page_073">
+         <graphic url="final/images/PEI_LA_Page_1871-02-22_Page_073.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1871-02-22_Page_051"
+                facs="final/images/PEI_LA_Page_1871-02-22_Page_051.jpg"/>
+
+     <fw type="num">51</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1871</fw> 
+    
+    
+   
+            <p>
+               <persName ref="pers:BREC1">HON. ATTORNEY GENERAL</persName> [...] <lb/>The fact was, that every gentle<lb break="no"/>man in Charlottetown knew that Mr. Sulli<lb break="no"/>van, in looking over the Poll Books,—as he<lb/>had a right to do—first deserved their<lb/>defeats. The disservices made, took every<lb break="no"/>body by surprise; but the hon. member<lb/>would try to make it appear that the whole<lb/>afair was a Confederate dodge! [...]<lb/>
+            </p>
+
+            
+            <pb n="1871-02-22_Page_056"
+                facs="final/images/PEI_LA_Page_1871-02-22_Page_056.jpg"/>
+  
+            
+            <fw type="dateline">1871</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">57</fw> 
+ 
+            <p>[<persName ref="pers:MCMI3">Mr. McMILLAN</persName>] 
+ All I 
+     <lb/>now about the matter is, that when Judge<lb/>Hensley accepted a seat on the Bench, the<lb/>Liberals wanted a leader, and I think that<lb/>our own ranks did not furnish one under<lb/>whom I would be more willing to act, than<lb/>the Hon. Attorney General, if he would<lb/>only keep out of Confederation. [...]<lb/>
+            </p>
+            
+            
+            <pb n="1871-02-22_Page_073"
+                facs="final/images/PEI_LA_Page_1871-02-22_Page_073.jpg"/>
+   
+   
+            <fw type="num">74</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1871</fw>
+            
+            
+            <p>
+     <persName ref="pers:POPE2">Hon. LEADER OF THE GOVERNMENT</persName> [...]
+     <lb/>
+
+   A great many 
+     <lb/>
+     people had been led to believe that a railroad 
+     <lb/>
+     meant Confederation, and that the present 
+     <lb/>
+     Government were not to be trusted with its 
+     <lb/>
+     construction; but those who had been impos<lb break="no"/>ed upon, had been politically duped. He had 
+     <lb/>
+     only the other day heard a member of the 
+     <lb/>
+     Opposition say that he looked upon the Hon. 
+     <lb/>
+     Attorney General as the man whom he would 
+     <lb/>
+     like to see leader of the Opposition. He had 
+     <lb/>
+     invited him to come over to the Government 
+     <lb/>
+    side ofthe House, and he believed the hon. 
+     <lb/>member would yet do so. Although that hon. 
+     <lb/>member was at a meeting held at the Link<lb break="no"/>letter Road where the railroad was opposed, 
+     <lb/>yet a majority of his constituents would sup<lb break="no"/>port it. The people of the Linkletter Road 
+     <lb/>were close to a good shipping place, and that 
+     <lb/>was the reason why they were careless about 
+     <lb/>the Railroad. 
+     <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

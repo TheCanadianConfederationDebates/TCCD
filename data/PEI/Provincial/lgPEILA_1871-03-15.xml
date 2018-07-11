@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1871-03-15"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1871-03-15">15 March 1871</date>, Prince Edward Island Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgPEILA_1871">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+          <date from="1871" to="1872"/>. 
+          <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
+          
+
+          <biblScope unit="page" from="181" to="182"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-03-15_Page_180.hocr.html"/>
+               </item>
+   
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-07-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-07-11">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1871-03-15_Page_180">
+         <graphic url="final/images/PEI_LA_Page_1871-03-15_Page_180.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1871-03-15_Page_180"
+                facs="final/images/PEI_LA_Page_1871-03-15_Page_180.jpg"/>
+          
+          
+     <fw type="dateline">1871</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">181</fw> 
+   
+   
+   
+            <p><persName ref="pers:WIGH1">Hon. Mr. WIGHTMAN</persName> did not know but<lb/>
+               that the Government itself made up that <lb/>
+               Odd Fellows organization, and therefore<lb/>
+               thought it very desirable that the learned [...]</p>
+    
+    
+     <fw type="num">182</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1871</fw>  
+
+
+   
+            <p>
+     [...] House knew 
+     <lb/>in the country, it might have Confederation,<lb/>Annexation or some other injurious object<lb/>in view. If those Odd Fellows were, as<lb/>the hon. member seemed to supposed, very<lb/>fine fellows, no harm would result from [...]<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
