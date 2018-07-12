@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="lgPEILA_1871-04-03"
+     xml:id="lgPEILA_1872-03-11"
      xml:lang="en"
      type="full">
    <teiHeader>
@@ -8,7 +8,7 @@
          <titleStmt>
 
             <title>
-               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1871-04-03">3 April 1871</date>, Prince Edward Island Confederation with Canada.</title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1872-03-11">11 March 1872</date>, Prince Edward Island Confederation with Canada.</title>
         
             <respStmt>
                <resp>Selection of input documents and completion of metadata</resp>
@@ -24,19 +24,19 @@
 
             <bibl corresp="bibl:lgPEILA_1871">
                <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
-          <date when="1871"/>. 
+          <date when="1872"/>. 
           <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
           
 
-          <biblScope unit="page" from="321" to="321"/>.
+          <biblScope unit="page" from="73" to="73"/>.
         </bibl>
         
 
             <list>
                <item>
-                  <ptr target="final/hocr/PEI_LA_Page_1871-04-03_Page_320.hocr.html"/>
+                  <ptr target="final/hocr/PEI_LA_Page_1872-03-11_Page_072.hocr.html"/>
                </item>
-    
+        
             </list>
         </sourceDesc>
       </fileDesc>
@@ -53,23 +53,23 @@
       </revisionDesc>
   </teiHeader>
    <facsimile>
-      <surface xml:id="PEI_LA_Page_1871-04-03_Page_320">
-         <graphic url="final/images/PEI_LA_Page_1871-04-03_Page_320.jpg"/>
+      <surface xml:id="PEI_LA_Page_1872-03-11_Page_072">
+         <graphic url="final/images/PEI_LA_Page_1872-03-11_Page_072.jpg"/>
       </surface>
    </facsimile>
    <text>
       <body>
          <div type="debate">
-            <pb n="1871-04-03_Page_320"
-                facs="final/images/PEI_LA_Page_1871-04-03_Page_320.jpg"/>
-  
-  
-            <fw type="dateline">1871</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">321</fw>
-            
-            
+            <pb n="1872-03-11_Page_072"
+                facs="final/images/PEI_LA_Page_1872-03-11_Page_072.jpg"/>
+         
+         
+           
+           <fw type="dateline">1872</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">73</fw>
+           
             <p>
-     <persName ref="pers:HOOP1">Mr. HOOPER</persName>.- I was elected to assist in 
-     <lb/>maintaining and preserving our constitution,<lb/>and oppose Confederation. That is the<lb/>purpose for which I was elected. I am<lb/>not sure that Confederation is not at the<lb/>bottom of this very railroad scheme; I<lb/>am inclined to think it is.<lb/>
+     <persName ref="pers:LAIR2">Mr. Laird</persName>. Well, they found Mr Carvell 
+     <lb/>who had been designated the Briber Gene<lb break="no"/>ral of the Dominion, going to Summerside,<lb/>Georgetown, and Souris in the interest of<lb/>the Government. 
             </p>
          </div>
       </body>

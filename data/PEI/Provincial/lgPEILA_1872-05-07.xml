@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1872-05-07"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1872-05-07">7 May 1871</date>, Prince Edward Island Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgPEILA_1871">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+          <date when="1872"/>. 
+          <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
+          
+
+          <biblScope unit="page" from="99" to="99"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1872-05-07_Page_099.hocr.html"/>
+               </item>
+       
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-07-12">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-07-12">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1872-05-07_Page_099">
+         <graphic url="final/images/PEI_LA_Page_1872-05-07_Page_099.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1872-05-07_Page_099"
+                facs="final/images/PEI_LA_Page_1872-05-07_Page_099.jpg"/>
+            <fw type="dateline">1872</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">99</fw>
+        
+        
+        
+        <p rendition="simple:centre">(COPY.)</p>
+            
+            <quote rendition="tccd:blockquote">
+     
+     <p rendition="simple:right">Charlottetown, July 1, 1871</p> 
+   
+   
+            <p>
+     Joseph McVane, Esq. 
+     <lb/>
+            </p>
+            <p>DEAR SIR. - I have never though other<lb break="no"/>wise of the Railway project than a scheme<lb/>of our worthy Government men for the pur<lb break="no"/>pose of advancing Confederation, and for<lb/>filling the pockets of a Ring of selfish specu<lb break="no"/>lators, than for any benefit it is even likely<lb/>to cooler on the people of this Colony.<lb/>
+            </p>
+            <p>The outspoken opinion of leading men<lb/>and the feeling so universally exhibited on<lb/>Wednesday's nomination in this city, shows<lb/>that the people in the country, excepting a<lb/>very insignificant minority, are all taken a<lb/>similar view of the question with myself.<lb/>
+            </p>
+            <p>Should the Railway succeed even to the<lb/>extent between Summerside and Georgetown<lb/>the question is, where are we to get a<lb/>revenue, over and above the Railway inter<lb break="no"/>est, to defray the vastly increasing demands<lb/>for the repairs of local roads and bridges?<lb/>
+            </p>
+            <p>In ten years time the country will require<lb/>£10,000 or £15,000 yearly for these local<lb/>wants over and above the Railway interest.<lb/>and how is it to be raised? It cannot be<lb/>done without the most grinding taxation.<lb/>Our Confederate Government clearly for-<lb break="yes"/>see this, and also that the only relief or<lb/>remedy to be then presented to the people<lb/>will be Confederation as the lesser evil!<lb/>
+       
+       <cb/>
+           
+           I have been sadly disappointed in the<lb/>sterling worth of the Hon. Emmanuel Mac<lb break="no"/>Eachern. He has yielded the temptation<lb/>of a salary, and like my quondam friend<lb/>Mr. Duncan, he thinks Conservation and<lb/>anti-Confederation on his lips will carry<lb/>him through his constituency; I hope not:<lb/>
+            </p>
+            <p>and if his constituents do as it is now al<lb break="no"/>most certain Mr. Duncan's will do, then the<lb/>Government will go to the wall and the ques<lb break="no"/>tion of the Railway can yet be submitted to<lb/>the people.<lb/>
+            </p>
+            <p>I have no particular reason for recom<lb break="no"/>mending Mr. Sullivan, but if there is any<lb/>chance of his defeating the candidate of as<lb/>corrupt a Government as ever held the reins<lb/>of power in this or any other British posses<lb break="no"/>sion, your people ought to support him.<lb/>
+            </p>
+            <p rendition="simple:right">I remain, dear Sir,<lb/>Very truly yours,<lb/>EDWARD PALMER<lb/>
+            </p></quote>
+            
+            <p>This letter had been sent to Mr McVane<lb/>by Mr. Palmer, and now that the latter had<lb/>become a public man, Mr McVane thought<lb/>the letter should be made public property.<lb/>If the late Government engaged in the<lb/>building of 140 miles of Railway in order<lb/>to drive the Island into Confederation, what<lb/>must be the object of the present Government<lb/>in increasing the line to 200 miles? This<lb/>letter gave a good idea of the character and<lb/>consistency of the writer.<lb/>
+            </p>
+            <p>A violent personal altercation then took<lb/>place between <persName ref="pers:BREC1">Mr. Brecken</persName> and <persName ref="pers:LAIR2">Mr. Laird</persName>,<lb/>
+               after which the House adjourned.
+            </p>
+
+    
+
+    
+
+    
+         </div>
+      </body>
+   </text>
+</TEI>

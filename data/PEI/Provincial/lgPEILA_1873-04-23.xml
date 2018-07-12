@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1873-04-23"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1873-04-23">23 April 1873</date>, Prince Edward Island Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgPEILA_1871">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+          <date when="1873"/>. 
+          <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>Henry Cooper</publisher>.
+          
+
+          <biblScope unit="page" from="6" to="6"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-23_Page_006.hocr.html"/>
+               </item>
+    
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-07-12">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-07-12">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1873-04-23_Page_006">
+         <graphic url="final/images/PEI_LA_Page_1873-04-23_Page_006.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1873-04-23_Page_006"
+                facs="final/images/PEI_LA_Page_1873-04-23_Page_006.jpg"/>
+            <fw type="num">6</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            
+            
+            <p>
+     When the papers relative to the pro<lb break="no"/>posed Union of Prince Edward Island 
+     <lb/>
+     with the Dominion of Canada shall 
+     <lb/>
+     have been laid before us, we will ap<lb break="no"/>proach the consideration of that sub<lb break="no"/>ject in a manner consistent with its 
+     <lb/>grave importance, and with a strict 
+     <lb/>regard for the best interests of this 
+     <lb/>Island; while the earnest hope of the   
+     <lb/>Imperial Government, that Prince 
+     <lb/>Edward Island will not lose this oppor<lb break="no"/>tunity of union with the Dominion 
+     <lb/>necessarily demands, and will receive 
+     <lb/>our most serious consideration. </p>
+
+    
+         </div>
+      </body>
+   </text>
+</TEI>
