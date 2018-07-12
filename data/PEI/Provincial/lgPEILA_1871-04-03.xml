@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1871-04-03"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1871-04-03">3 April 1871</date>, Prince Edward Island Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgPEILA_1871">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+          <date from="1871" to="1872"/>. 
+          <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
+          
+
+          <biblScope unit="page" from="321" to="321"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-04-03_Page_320.hocr.html"/>
+               </item>
+    
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-07-12">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-07-12">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1871-04-03_Page_320">
+         <graphic url="final/images/PEI_LA_Page_1871-04-03_Page_320.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1871-04-03_Page_320"
+                facs="final/images/PEI_LA_Page_1871-04-03_Page_320.jpg"/>
+  
+  
+            <fw type="dateline">1871</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">321</fw>
+            
+            
+            <p>
+     <persName ref="pers:HOOP1">Mr. HOOPER</persName>.- I was elected to assist in 
+     <lb/>maintaining and preserving our constitution,<lb/>and oppose Confederation. That is the<lb/>purpose for which I was elected. I am<lb/>not sure that Confederation is not at the<lb/>bottom of this very railroad scheme; I<lb/>am inclined to think it is.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
