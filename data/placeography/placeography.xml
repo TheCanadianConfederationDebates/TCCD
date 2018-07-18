@@ -16885,8 +16885,51 @@ geographical entity. So:
                      </list>
                   </note>
                </place>
-               
-             
+               <place xml:id="SMID1" type="federal">
+                  <placeName>
+                     <region>ONTARIO</region>
+                     <district>MIDDLESEX South</district>
+                  </placeName>
+                  <location notBefore="1882" notAfter="1893">
+                     <geo>43.14909, -81.58721</geo>
+                  </location>
+               </place>
+               <place xml:id="BEDF2" type="federal">
+                  <placeName>
+                     <region>Quebec</region>
+                     <district>Bedford</district>
+                  </placeName>
+                  <location notBefore="1896" notAfter="1910">
+                     <geo>45.17719, -72.76931</geo>
+                  </location>
+               </place>
+               <place xml:id="LORIM2" type="federal">
+                  <placeName>
+                     <region>Quebec</region>
+                     <district>De LORIMIER</district>
+                  </placeName>
+                  <location notBefore="1896">
+                     <geo>45.356, -73.556215</geo>
+                  </location>
+               </place>
+               <place xml:id="EPRI2" type="federal">
+                  <placeName>
+                     <region>PRINCE EDWARD ISLAND</region>
+                     <district>East Prince</district>
+                  </placeName>
+                  <location notBefore="1898">
+                     <geo>46.42933, -63.8182</geo>
+                  </location>
+               </place>
+               <place xml:id="CORN4" type="federal">
+                  <placeName>
+                     <region>ONTARIO</region>
+                     <district>CORNWALL AND STORMONT</district>
+                  </placeName>
+                  <location notBefore="1882" notAfter="1949">
+                     <geo>45.10257, -74.82378</geo>
+                  </location>
+               </place>             
                
 </listPlace>
          </settingDesc>
