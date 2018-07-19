@@ -872,7 +872,7 @@ geographical entity. So:
          <region>BRITISH COLUMBIA</region>
          <district>KAMLOOPS</district>
       </placeName>
-      <location notBefore="1945">
+      <location notBefore="1904">
          <geo>50.67601,-120.33393</geo>
       </location>
       <note>
@@ -2091,7 +2091,7 @@ geographical entity. So:
          <region>MANITOBA</region>
          <district>MACDONALD</district>
       </placeName>
-      <location notBefore="1904" notAfter="1949">
+      <location notBefore="1896" notAfter="1949">
          <geo>49.58934,-97.85522</geo>
       </location>
       <note>
@@ -4899,7 +4899,7 @@ geographical entity. So:
          <region>NOVA SCOTIA</region>
          <district>VICTORIA</district>
       </placeName>
-      <location notBefore="1867" notAfter="1873">
+      <location notBefore="1867" notAfter="1887">
          <geo>46.40377,-60.63354</geo>
       </location>
       <note>
@@ -6762,7 +6762,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>MONCK</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1896">
          <geo>42.95642,-79.63439</geo>
       </location>
       <note>
@@ -7886,7 +7886,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>BRUCE EAST</district>
       </placeName>
-      <location notBefore="1904">
+      <location notBefore="1887">
          <geo>44.33563,-81.11755</geo>
       </location>
       <note>
@@ -8075,7 +8075,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>ESSEX SOUTH</district>
       </placeName>
-      <location notBefore="1904" notAfter="1949">
+      <location notBefore="1887" notAfter="1949">
          <geo>42.10439,-82.73803</geo>
       </location>
       <note>
@@ -8179,7 +8179,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>HURON WEST</district>
       </placeName>
-      <location notBefore="1904">
+      <location notBefore="1882">
          <geo>43.82265,-81.54052</geo>
       </location>
       <note>
@@ -16929,7 +16929,25 @@ geographical entity. So:
                   <location notBefore="1882" notAfter="1949">
                      <geo>45.10257, -74.82378</geo>
                   </location>
-               </place>             
+               </place>
+               <place xml:id="HAST2" type="federal">
+                  <placeName>
+                     <region>ONTARIO</region>
+                     <district>HASTINGS</district>
+                  </placeName>
+                  <location notBefore="1892" notAfter="1905">
+                     <geo>44.5063, -77.23937</geo>
+                  </location>
+               </place>
+               <place xml:id="NEWB2" type="federal">
+                  <placeName>
+                     <region>NEW BRUNSWICK</region>
+                     <district>NEW BRUNSWICK</district>
+                  </placeName>
+                  <location notBefore="1894" notAfter="1905">
+                     <geo>45.97797, -66.62112</geo>
+                  </location>
+               </place>
                
 </listPlace>
          </settingDesc>
