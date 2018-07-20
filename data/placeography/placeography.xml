@@ -2559,7 +2559,7 @@ geographical entity. So:
          <region>NEW BRUNSWICK</region>
          <district>KINGS</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1882">
          <geo>45.59866,-65.9729</geo>
       </location>
       <note>
@@ -11478,7 +11478,7 @@ geographical entity. So:
          <region>QUEBEC</region>
          <district>LAPRAIRIE</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1891">
          <geo>45.30391,-73.46558</geo>
       </location>
       <note>
@@ -13062,7 +13062,7 @@ geographical entity. So:
          <region>QUEBEC</region>
          <district>WRIGHT</district>
       </placeName>
-      <location notBefore="1904" notAfter="1949">
+      <location notBefore="1896" notAfter="1949">
          <geo>45.75995,-75.92649</geo>
       </location>
       <note>
@@ -16957,6 +16957,19 @@ geographical entity. So:
                      <geo>46.83295, -70.85975</geo>
                   </location>
                </place>
+               <place xml:id="ROTH1" type="federal">
+                  <placeName>
+                     <region>NEW BRUNSWICK</region>
+                     <district>Rothesay</district>
+                  </placeName>
+                  <location notBefore="1903" notAfter="1921">
+                     <geo>45.38977, -65.98852</geo>
+                  </location>
+               </place>
+
+               
+
+               
                
 </listPlace>
          </settingDesc>

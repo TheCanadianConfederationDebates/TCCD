@@ -4511,7 +4511,7 @@
                   <affiliation when="1949" n="NF House of Commons">Kent</affiliation>
                </person>
                <person xml:id="DEVL1">
-                  <persName when="1906">
+                  <persName when="1891">
                      <surname>Devlin</surname>,
                             <forename>Charles</forename>
                      <forename>Ramsay</forename>
@@ -4525,6 +4525,8 @@
                              xml:lang="fr">Wikimedia Commons</ref>
                      </listRef>
                   </figure>
+                  <affiliation when="1891" n="AB/SK House of Commons" ref="plc:OTTA3">Ottawa</affiliation>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:WRIG8">Wright</affiliation>
                   <affiliation when="1906" n="AB/SK House of Commons" ref="plc:NICO1">Nicolet</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
@@ -4558,6 +4560,8 @@
                      </listRef>
                   </figure>
                   <affiliation when="1870" n="BC Leg" ref="plc:KOOT2">Kootenay</affiliation>
+                  <affiliation when="1872" n="AB/SK House of Commons" ref="plc:YALE2">Yale</affiliation>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:EASS1">Assiniboia East</affiliation>
                   <state when="1879">
                      <label>Indian Commissioner for the Northwest Territories</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:FWAL2">Fort Walsh</placeName>. </note>
@@ -4872,12 +4876,12 @@
                   <affiliation when="1872" n="PEI House of Commons" ref="plc:MONT3">Montcalm</affiliation>
                </person>
                <person xml:id="DUGA2">
-                  <persName when="1905">
+                  <persName when="1900">
                      <surname>Dugas</surname>,
                             <forename>François</forename>
                      <forename>Octave</forename>
                   </persName>
-                  <affiliation when="1905" n="AB/SK House of Commons" ref="plc:MONT3">Montcalm</affiliation>
+                  <affiliation when="1900" n="AB/SK House of Commons" ref="plc:MONT3">Montcalm</affiliation>
                </person>
                <person xml:id="DUNK1">
                   <persName when="1865">
@@ -32804,13 +32808,137 @@
                   </persName>
                   <affiliation when="1900" n="AB/SK House of Commons" ref="plc:PORT7">Portneuf</affiliation>
                </person>
-               <person xml:id="DELI3">
+               <person xml:id="DELI4">
                   <persName when="1887">
                      <surname>Denison</surname>,
                      <forename>Frederick</forename>
                      <forename>Charles</forename>
                   </persName>
                   <affiliation when="1887" n="AB/SK House of Commons" ref="plc:WTOR1">West Toronto</affiliation>
+               </person>
+               <person xml:id="DESA4">
+                  <persName when="1887">
+                     <surname>Desaulniers</surname>,
+                     <forename>François</forename>
+                     <forename>Sévère</forename>
+                  </persName>
+                  <affiliation when="1887" n="AB/SK House of Commons" ref="plc:STMA2">Saint Maurice</affiliation>
+               </person>
+               <person xml:id="DESJ2">
+                  <persName when="1874">
+                     <surname>Desjardins</surname>,
+                     <forename>Alphonse</forename>
+                  </persName>
+                  <affiliation when="1874" n="AB/SK House of Commons" ref="plc:LORIM2">De Lorimier</affiliation>
+               </person>
+               <person xml:id="DESJ3">
+                  <persName when="1890">
+                     <surname>Desjardins</surname>,
+                     <forename>Louis-Georges</forename>
+                  </persName>
+                  <affiliation when="1890" n="AB/SK House of Commons" ref="plc:MONT5">Montmorency</affiliation>
+               </person>
+               <person xml:id="DESM2">
+                  <persName when="1896">
+                     <surname>Desmarais</surname>,
+                     <forename>Odilon</forename>
+                  </persName>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:STJA1">St.James</affiliation>
+               </person>
+               <person xml:id="DSESS1">
+                  <persName when="1887">
+                     <surname>Dessaint</surname>,
+                     <forename>Alexis</forename>
+                  </persName>
+                  <affiliation when="1887" n="AB/SK House of Commons" ref="plc:KAMO3">Kamouraska</affiliation>
+               </person>
+               <person xml:id="DICK6">
+                  <persName when="1888">
+                     <surname>Dickey</surname>,
+                     <forename>Arthur</forename>
+                     <forename>Rupert</forename>
+                  </persName>
+                  <affiliation when="1888" n="AB/SK House of Commons" ref="plc:CUMB3">Cumberland</affiliation>
+               </person>
+               <person xml:id="DICK7">
+                  <persName when="1888">
+                     <surname>Dickinson</surname>,
+                     <forename>George</forename>
+                     <forename>Lemuel</forename>
+                  </persName>
+                  <affiliation when="1888" n="AB/SK House of Commons" ref="plc:CARL2">Carleton</affiliation>
+               </person>
+               <person xml:id="DIMO1">
+                  <persName when="1896">
+                     <surname>Dimock</surname>,
+                     <forename>Wilbert</forename>
+                     <forename>David</forename>
+                  </persName>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:COLC1">Colchester</affiliation>
+               </person>
+               <person xml:id="DOBE1">
+                  <persName when="1896">
+                     <surname>Dobell</surname>,
+                     <forename>Richard</forename>
+                     <forename>Reid</forename>
+                  </persName>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:WQUE2">Quebec West</affiliation>
+               </person>
+               <person xml:id="DOMV1">
+                  <persName when="1872">
+                     <surname>Domville</surname>,
+                     <forename>James</forename>
+                  </persName>
+                  <affiliation when="1872" n="AB/SK House of Commons" ref="plc:KING3">King's</affiliation>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:KING3">King's</affiliation>
+                  <affiliation when="1872" n="AB/SK House of Commons" ref="plc:ROTH1">Rothesay</affiliation>
+               </person>
+               <person xml:id="DONN1">
+                  <persName when="1904">
+                     <surname>Donnelly</surname>,
+                     <forename>James</forename>
+                  </persName>
+                  <affiliation when="1904" n="AB/SK House of Commons" ref="plc:EBRU1">Bruce East</affiliation>
+               </person>
+               <person xml:id="DOUG2">
+                  <persName when="1896">
+                     <surname>Douglas</surname>,
+                     <forename>James</forename>
+                     <forename>Moffatt</forename>
+                  </persName>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:EASS1">Assiniboia East</affiliation>
+               </person>
+               <person xml:id="DOYO1">
+                  <persName when="1887">
+                     <surname>Doyon</surname>,
+                     <forename>Cyrille</forename>
+                  </persName>
+                  <affiliation when="1887" n="AB/SK House of Commons" ref="plc:LAPR1">Laprairie</affiliation>
+               </person>
+               <person xml:id="DURC1">
+                  <persName when="1887">
+                     <surname>Duchesnay</surname>,
+                     <forename>Henri</forename>
+                     <forename>Jules</forename>
+                     <forename>Juchereau</forename>
+                  </persName>
+                  <affiliation when="1887" n="AB/SK House of Commons" ref="plc:DORC1">Dorchester</affiliation>
+               </person>
+               <person xml:id="DUGA3">
+                  <persName when="1891">
+                     <surname>Dugas</surname>,
+                     <forename>Joseph</forename>
+                     <forename>Louis</forename>
+                     <forename>Euclide</forename>
+                  </persName>
+                  <affiliation when="1891" n="AB/SK House of Commons" ref="plc:MONT3">Montcalm</affiliation>
+               </person>
+               <person xml:id="DUPO1">
+                  <persName when="1882">
+                     <surname>Dupont</surname>,
+                     <forename>Flavien</forename>
+                  </persName>
+                  <affiliation when="1882" n="AB/SK House of Commons" ref="plc:BAGO1">Begot</affiliation>
                </person>
                
                
