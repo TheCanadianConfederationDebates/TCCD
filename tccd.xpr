@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="19.1">
+<project version="18.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="19.1" xml:space="preserve">
+            <serialized version="18.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>document.types</String>
@@ -310,9 +310,6 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
-                                <field name="textModeExternalObjectInsertionHandler">
-                                    <null/>
-                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -595,9 +592,6 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
-                                <field name="textModeExternalObjectInsertionHandler">
-                                    <null/>
-                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -831,9 +825,6 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
-                                    <null/>
-                                </field>
-                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -1137,9 +1128,6 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
-                                    <null/>
-                                </field>
-                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -1497,9 +1485,6 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
-                                <field name="textModeExternalObjectInsertionHandler">
-                                    <null/>
-                                </field>
                             </documentTypeDescriptor>
                         </documentTypeDescriptor-array>
                     </entry>
@@ -1841,6 +1826,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/placeography/placeography.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>placeography_to_spreadsheet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/BC/Provincial/BC_LC_1870/lgBCLC_1870-03-09.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -2011,21 +2011,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Add proofer credit to XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/placeography/placeography.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>placeography_to_spreadsheet</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
