@@ -1788,7 +1788,7 @@ geographical entity. So:
          <region>MANITOBA</region>
          <district>LISGAR</district>
       </placeName>
-      <location notBefore="1904">
+      <location notBefore="1882">
          <geo>49.18889,-98.16284</geo>
       </location>
       <note>
@@ -1977,7 +1977,7 @@ geographical entity. So:
          <region>MANITOBA</region>
          <district>PROVENCHER</district>
       </placeName>
-      <location notBefore="1904">
+      <location notBefore="1871" notAfter="1888">
          <geo>49.78126,-96.00952</geo>
       </location>
       <note>
@@ -2192,7 +2192,7 @@ geographical entity. So:
          <region>MANITOBA</region>
          <district>WINNIPEG</district>
       </placeName>
-      <location notBefore="1904">
+      <location notBefore="1887">
          <geo>49.90171,-97.14111</geo>
       </location>
       <note>
@@ -2363,7 +2363,7 @@ geographical entity. So:
          <region>NEW BRUNSWICK</region>
          <district>ALBERT</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1896">
          <geo>45.74445,-64.96223</geo>
       </location>
       <note>
@@ -4223,7 +4223,7 @@ geographical entity. So:
          <region>NORTHWEST TERRITORIES</region>
          <district>ASSINIBOIA WEST</district>
       </placeName>
-      <location notBefore="1904">
+      <location notBefore="1900">
          <geo>50.55532,-106.94091</geo>
       </location>
       <note>
@@ -4899,7 +4899,7 @@ geographical entity. So:
          <region>NOVA SCOTIA</region>
          <district>VICTORIA</district>
       </placeName>
-      <location notBefore="1867" notAfter="1887">
+      <location notBefore="1867" notAfter="1905">
          <geo>46.40377,-60.63354</geo>
       </location>
       <note>
@@ -5684,7 +5684,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>BRANT NORTH</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1896">
          <geo>43.22118,-80.39794</geo>
       </location>
       <note>
@@ -5806,7 +5806,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>CARDWELL</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1888">
          <geo>43.93756,-79.96948</geo>
       </location>
       <note>
@@ -5931,7 +5931,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>DURHAM WEST</district>
       </placeName>
-      <location notBefore="1867" notAfter="1873">
+      <location notBefore="1867">
          <geo>44.02643,-78.74176</geo>
       </location>
       <note>
@@ -6106,7 +6106,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>GRENVILLE SOUTH</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1891">
          <geo>44.65497,-75.72601</geo>
       </location>
       <note>
@@ -6240,7 +6240,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>HAMILTON</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1896">
          <geo>43.2652,-79.91729</geo>
       </location>
       <note>
@@ -6594,7 +6594,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>LENNOX</district>
       </placeName>
-      <location notBefore="1867" notAfter="1873">
+      <location notBefore="1867" notAfter="1904">
          <geo>44.25504,-76.68457</geo>
       </location>
       <note>
@@ -6828,7 +6828,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>NORFOLK SOUTH</district>
       </placeName>
-      <location notBefore="1867" notAfter="1872">
+      <location notBefore="1867" notAfter="1904">
          <geo>42.73088,-80.48034</geo>
       </location>
       <note>
@@ -8034,7 +8034,7 @@ geographical entity. So:
          <region>ONTARIO</region>
          <district>DURHAM</district>
       </placeName>
-      <location notBefore="1904" notAfter="1949">
+      <location notBefore="1885" notAfter="1949">
          <geo>44.06588,-78.61541</geo>
       </location>
       <note>
@@ -12948,7 +12948,7 @@ geographical entity. So:
          <region>QUEBEC</region>
          <district>ST. ANTOINE</district>
       </placeName>
-      <location notBefore="1904">
+      <location notBefore="1896">
          <geo>45.49936,-73.59363</geo>
       </location>
       <note>
@@ -15005,7 +15005,7 @@ geographical entity. So:
          <region>SASKATCHEWAN</region>
          <district>REGINA CITY</district>
       </placeName>
-      <location notBefore="1945">
+      <location notBefore="1904">
          <geo>50.4505,-104.6228</geo>
       </location>
       <note>
@@ -15179,7 +15179,7 @@ geographical entity. So:
          <region>YUKON</region>
          <district>YUKON</district>
       </placeName>
-      <location notBefore="1904" notAfter="1949">
+      <location notBefore="1902" notAfter="1949">
          <geo>62.53259,-135.04394</geo>
       </location>
       <note>
@@ -17038,7 +17038,17 @@ geographical entity. So:
                      <geo>43.3459, -79.96467</geo>
                   </location>
                </place>
-
+               <place xml:id="WBRU1" type="federal">
+                  <placeName>
+                     <region>ONTARIO</region>
+                     <district>West Bruce</district>
+                  </placeName>
+                  <location notBefore="1887" notAfter="1905">
+                     <geo>44.32483, -81.36199</geo>
+                  </location>
+               </place>
+               
+               
                
 </listPlace>
          </settingDesc>
