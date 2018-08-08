@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="missed_page_template" type="template">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><name type="legislature" ref="lg:lgHC">Legislature</name>, <date when="1856-01-01">date(-range)</date>, debate title/description]</title>
+        <respStmt>
+          <resp>Selection of input documents and completion of metadata</resp>
+          <persName ref="pers:FAN1">Gloria Fan</persName>
+        </respStmt> 
+      </titleStmt>
+      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+      <sourceDesc>
+        <bibl>
+        </bibl>
+        </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  
+
+  
+  <text>
+    <body>
+      <div type="debate">
+        <p>get copies of all these which are referred<lb/>
+          to in the list which I read to the House.<lb/>
+          The MINISTER OF THE INTERIOR.<lb/>
+          I shall do that, and if there are any that<lb/>
+          are not comprised within this return we<lb/>
+          will have them presented in the form of a<lb/>
+          supplementary return, so that it may be<lb/>
+          complete. In the meantime, I will leave<lb/>
+        this return on the Table of the House.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
