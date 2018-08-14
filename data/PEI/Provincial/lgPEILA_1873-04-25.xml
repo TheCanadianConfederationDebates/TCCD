@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1873-04-25"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1873-04-25">25 April 1873</date>, Prince Edward Island Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgPEILA_1873">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+          <date when="1873"/>. 
+          <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>Henry Cooper</publisher>.
+          
+
+          <biblScope unit="page" from="53" to="53"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-25_Page_052.hocr.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-08-14">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-08-14">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1873-04-25_Page_052">
+         <graphic url="final/images/PEI_LA_Page_1873-04-25_Page_052.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1873-04-25_Page_052"
+                facs="final/images/PEI_LA_Page_1873-04-25_Page_052.jpg"/>
+            
+            <!-- IC, 2018-08-14, Commented out below as it precedes Debate Day --> 
+            
+            <!--<fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">53</fw><lb/>
+            
+            <p>The Hon. J. C. POPE, a member of<lb/>Her Majesty's Government, appeared<lb/>at the Bar with a message from His<lb/>Honor the Lieutenant Governor.<lb/>
+            </p>
+            <p>On motion, the message was re<lb break="no"/>ceived and read by his honor the<lb/>Speaker. Said message contained the<lb/>Correspondence between the late gov<lb break="no"/>ernment and the Governor General of<lb/>Canada, in reference to the proposed<lb/>union of this Island with the Domin<lb break="no"/>ion, and was read at the Clerk's table.<lb/>
+            </p>
+            <p>On motion, it was laid on the table,<lb/>and its consideration made the order of<lb/>the day for Monday next.<lb/>
+            </p>-->
+           
+            <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">53</fw>
+            
+             <head rendition="simple:centre">SATURDAY, April 26.<lb/>
+            </head>
+            <p><persName ref="pers:LAIR2">Mr. D. LAIRD</persName> said that he did not<lb/>see why matters which would pertain<lb/>to the General Dominion service, such<lb/>as Buoys and Beacons, should be<lb/>voted sums of money at all, when the<lb/>Colony was about to become a portion<lb/>of Canada. Certain salaries would<lb/>have to be provided for, it was true, as<lb/>it would not do to leave our public<lb/>officers unpaid ; but he thought the<lb/>item of Buoys and Beacons might be<lb/>omitted from the resolution.<lb/>
+            </p>
+            <p><persName ref="pers:POPE2">Hon. LEADER OF THE GOVERN<lb break="no"/>MENT</persName> said that as those salaries were<lb/>provided for by statute, it made little<lb/>difference whether they were put in<lb/>the Resolution or not. He had sub<lb break="no"/>mitted the usual road allowance in<lb/>order that hon. members might have a [...]<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
