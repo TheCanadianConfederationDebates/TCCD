@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1873-06-05"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1873-06-05">05 June 1873</date>, Prince Edward Island Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgPEILA_1873">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+          <date when="1873"/>. 
+          <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
+          <biblScope unit="page" from="269" to="269"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-06-05_Page_268.hocr.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-08-17">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-08-17">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1873-06-05_Page_268">
+         <graphic url="final/images/PEI_LA_Page_1873-06-05_Page_268.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1873-06-05_Page_268"
+                facs="final/images/PEI_LA_Page_1873-06-05_Page_268.jpg"/>
+            
+            <!-- IC, 2018-08-17, Commented out below as it precedes Debate Day -->
+            <!--<fw type="num">268</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>-->
+            
+           
+            <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">269</fw>
+            
+            <head rendition="simple:centre">THURSDAY, June 5th.<lb/>
+            </head>
+            <p>Consideration of County Courts re<lb break="no"/>sumed.<lb/>
+            </p>
+            <p><persName ref="pers:LAIR2">MR. LAIRD</persName> moved that the Bill<lb/>remain over, for further consideration,<lb/>until next year.<lb/>
+            </p>
+            <p><persName ref="pers:POPE2">HON. MR. POPE</persName> said that by the<lb/>terms of the North America Act, these<lb/>Courts will have to be established be<lb break="no"/>fore we go into Confederation, or the<lb/>Dominion will not be bound to pay<lb/>the Judges.<lb/>
+            </p>
+            <p><persName ref="pers:DAVI3">Mr. L. H. DAVIES</persName> regarded it as<lb/>foolish to establish Courts before Court<lb/>Houses were built for them to hold<lb/>their sittings in, and thought it would<lb/>be wise to allow the matter to lie over<lb/>until next session. He did not agree<lb/>with the hon. Leader of the Govern<lb break="no"/>ment that it was necessary to establish<lb/>these Courts before we went into the<lb/>Dominion. He would second the<lb/>resolution of the hon. member the<lb/>Leader of the Opposition.<lb/>
+            </p>
+            <p>After a few further remarks from<lb/>hon. members, Mr. Laird's resolution<lb/>was put and lost.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
