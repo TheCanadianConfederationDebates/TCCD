@@ -1,79 +1,3478 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. Also add the @xml:lang value (en or fr).-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-  xml:id="lgPEILA_1873-04-29"
-  xml:lang="en"
-  type="template">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1873-04-29">29 April 1873</date>, Prince Edward Island Confederation with Canada.</title>
+     xml:id="lgPEILA_1873-04-29"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1873-04-29">29 April 1873</date>, Prince Edward Island Confederation with Canada.</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-        <bibl corresp="bibl:lgPEILA_1873">
-          <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgPEILA_1873">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
           <date when="1873"/>. 
           <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
           <biblScope unit="page" from="74" to="105"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_074.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_076.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_078.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_080.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_082.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_084.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_086.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_088.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_090.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_092.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_094.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_096.hocr.html"/></item>
-          <!--<item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_098.hocr.html"/></item>-->
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_100.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_102.hocr.html"/></item>
-          <item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_104.hocr.html"/></item>
-        </list>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_074.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_076.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_078.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_080.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_082.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_084.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_086.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_088.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_090.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_092.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_094.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_096.hocr.html"/>
+               </item>
+               <!--<item><ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_098.hocr.html"/></item>-->
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_100.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_102.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1873-04-29_Page_104.hocr.html"/>
+               </item>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="ichudson" when="2018-08-15">Created this document, completed metadata. </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-08-17">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-08-15">Created this document, completed metadata. </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <div type="debate">
-        <p>This content will be replaced by data from the source documents during processing.</p>
-      </div>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_074">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_074.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_076">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_076.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_078">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_078.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_080">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_080.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_082">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_082.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_084">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_084.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_086">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_086.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_088">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_088.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_090">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_090.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_092">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_092.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_094">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_094.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_096">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_096.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_100">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_100.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_102">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_102.jpg"/>
+      </surface>
+      <surface xml:id="PEI_LA_Page_1873-04-29_Page_104">
+         <graphic url="final/images/PEI_LA_Page_1873-04-29_Page_104.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1873-04-29_Page_074"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_074.jpg"/>
+            
+            <!-- IC, 2018-08-17, Commented out below, as it will appear in the preceding debate day --> 
+            
+            <!--<fw type="num">74</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            <p>
+     The legislators who cannot keep the  
+     <lb/>
+    total expenses of the session within the 
+     <lb/>limit of $4,000; should be cashiered 
+     <lb/>by the people. The hon. Leader of the 
+     <lb/>Government puts down in his figures 
+     <lb/>the cost of a general and partial elec<lb break="no"/>tion for every year ; perhaps this is 
+     <lb/>because his own government is so weak 
+     <lb/>that it will not stand longer than that. 
+     <lb/>I consider one-fourth of that amount 
+     <lb/>sufficient to be placed in our annual 
+     <lb/>Expenditure, under confederation. 
+     <lb/>The greater part of the sum expended 
+     <lb/>for public printing last year, was paid 
+     <lb/>to the printers employed by the Coali<lb break="no"/>tion Government. All the Custom 
+     <lb/>House printing, will, under Confedera<lb break="no"/>tion, belong to the Dominion, which 
+     <lb/>will reduce the usual outlay consider 
+     <lb/>ably. All expenses of Light Houses 
+     <lb/>will be included in Dominion expenses. 
+     <lb/>The 9000 spent in the Steam Dredge 
+     <lb/>should not be placed in our annual 
+     <lb/>expenditure, as we shall not require 
+     <lb/>one every year. Nor will we require 
+     <lb/>a New Court House, and Jail an<lb break="no"/>nually. I consider that $54,000 am<lb break="no"/>ple for the yearly Expenditure of the 
+     <lb/>Board of Works under Confederation. 
+     <lb/>The Miscellaneous include many items 
+     <lb/>which will belong to the Dominion, to 
+     <lb/>the extent of $4247.73 leaving only 
+     <lb/>$2550.33 for the expenses of the local 
+     <lb/>government, under this head. But 
+     <lb/>the hon. Leader of the Government 
+     <lb/>takes this sum, without analyzing it, 
+     <lb/>
+           
+            <cb/>
+           
+     jumbles it altogether and charges it to 
+     <lb/>
+     the local government. Making all 
+     <lb/>
+     necessary allowances, I should say 
+     <lb/>
+     that our total Expenditure, under Con<lb break="no"/>federation will not exceed $205,038.85, 
+     <lb/>
+     per annum. Then, as regards our 
+     <lb/>
+     Receipts under Confederation, he states 
+     <lb/>
+     that one-third of the amounts due for 
+     <lb/>
+     Public Lands sold by the government, 
+     <lb/>
+     will be lost. I contend that the sum 
+     <lb/>
+     allowed us for the purchase of lands 
+     <lb/>
+     will go a long way, if properly man<lb break="no"/>aged. We are now paying six per 
+     <lb/>
+     cent for money, and I consider the one 
+     <lb/>
+     per cent difference in the interest un<lb break="no"/>der Confederation will fully make up 
+     <lb/>
+    for all the loss we may sustain on our 
+     <lb/>public lands. I believe that the Land 
+     <lb/>Subsidy allowed us will be fully worth 
+     <lb/>$45,000 per year to the Colony, and 
+     <lb/>will therefore allow no reduction of 
+     <lb/>that item. I will allow any financier 
+     <lb/>in or out of this Colony to judge be<lb break="no"/>tween my financial statement and that 
+     <lb/>of His Honor the Leader of the Gov<lb break="no"/>ernment, and to say which is correct. 
+     <lb/>I will put my word and reputation be<lb break="no"/>fore his, and allow the public to judge 
+     <lb/>between us. Taking the whole mat<lb break="no"/>ter into consideration ; if his honor has 
+     <lb/>no better reasons for another Delega<lb break="no"/>tion to Ottawa than he has adduced, he  
+     <lb/>might as well have no recess, for he 
+     <lb/>has not given a single argument in 
+     <lb/>support of his claim for better terms, 
+     <lb/>that will be entertained by the Domi<lb break="no"/>-->
+            
+          
+            
+     <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">75</fw> 
+    
+           
+            <!-- IC, 2018-08-17, Commented out below, as it will appear in the preceding debate day --> 
+           
+    <!-- nion Government. I have not the 
+     <lb/>
+     least doubt that if he had obtained the 
+     <lb/>
+     present terms, he would have boasted 
+     <lb/>
+     loudly of the ability displayed in ob<lb break="no"/>taining them; but the great trouble 
+     <lb/>
+     with him is that he did not bring them 
+     <lb/>
+     down himself, and he therefore, can<lb break="no"/>not accept them. The great secret of 
+     <lb/>
+     the matter is that the present govern<lb break="no"/>ment did not obtain the present terms, 
+     <lb/>
+     and they must needs put the country 
+     <lb/>
+     to the expense of another delegation. 
+     <lb/>
+     I would not be sorry to see more 
+     <lb/>
+     liberal terms obtained, but as there is 
+     <lb/>
+     not the shadow of a prospect of obtain<lb break="no"/>ing them, it would be a mere waste of 
+     <lb/>
+     time and money to endeavor to attempt 
+     <lb/>
+     to do so. The government do not 
+     <lb/>
+     seem to entertain the least respect for 
+     <lb/>
+     the Despatch from Lord Dufferin, 
+     <lb/>
+     stating that no better terms will be 
+     <lb/>
+     conceded to this Colony. Would the 
+     <lb/>
+     Governor-General stultify himself by 
+     <lb/>
+     making a statement which he knew to 
+     <lb/>
+     he untrue? The thing is absurd. I 
+     <lb/>
+     have heard the private declaration of 
+     <lb/>
+     members of the Dominion Privy 
+     <lb/>
+     Council that no appllcation need be 
+     <lb/>
+     made for better terms than those now 
+     <lb/>
+     offered, for they would not be granted. 
+     <lb/>
+     We asked for $10,000 a year more 
+     <lb/>
+     for our lands ; but received only $5,- 
+     <lb break="maybe"/>
+     000, and were then told that this was 
+     <lb/>
+     the last concession P. E. Island would 
+     <lb/>
+     receive from them. The Dominion 
+     <lb/>
+     government invited the late govern<lb break="no"/>ment to send a delegation up to Ottawa; 
+     <lb/>
+     we did not invite ourselves. We re<lb break="no"/>ceived quite as much consideration 
+     <lb/>
+     from the Dominion government as the 
+     <lb/>
+     hon. Leader of the government him<lb break="no"/>self would have got, if he had been on 
+     <lb/>
+     that delegation. As anti-confederates, 
+     <lb/>
+     we were more likely to succeed in ob<lb break="no"/>taining liberal terms than he would 
+     <lb/>
+     have been, as he agreed to accept far 
+     <lb/>
+     less favorable terms than those now. 
+     <lb/>
+     offered. His party ran the election on 
+     <lb/>
+     false pretences, and now endeavor to 
+     <lb/>
+     cover up their change of base by send<lb break="no"/>ing off another delegation to make an 
+     <lb/>
+    attempt to get better terms, but they 
+     <lb/>
+          
+            <cb/>
+         
+     cannot show the shadow of an argu<lb break="no"/>ment in favor of their action. I won<lb break="no"/>der whether the hon. Leader of the 
+     <lb/>Government will ask Canada to give 
+     <lb/>up the Railway to this Island and 
+     <lb/>allow us to work it ourselves ? If it 
+     <lb/>would earn $50,000 the first year over 
+     <lb/>and above working expenses, as stated 
+     <lb/>by the hon. member for Alberton (Mr. 
+     <lb/>Howlan), by all means get it back ; 
+     <lb/>but I believe his honor the Leader of 
+     <lb/>the government expects the earnings 
+     <lb/>to be $20,000 a year less than work<lb break="no"/>ing expenses. I have not the least 
+     <lb/>doubt that the Dominion government, 
+     <lb/>if asked to do so, would willingly give 
+     <lb/>up the Railway to be worked and 
+     <lb/>managed by our local government. 
+     <lb/>
+            </p>
+   
+            <p rendition="simple:right">
+     I.O. 
+     <lb/>
+            </p>-->
+   
+            <head rendition="simple:right">
+     TUESDAY, April 29th. 
+     <lb/>
+            </head>
+   
+            <p>
+     <persName ref="pers:LAIR2">Mr. LAIRD</persName>, according to notice on 
+     <lb/>
+     the Order Book, asked whether Hon. 
+     <lb/>
+     W. H. Pope was empowered directly, 
+     <lb/>
+     or indirectly, to negociate with the 
+     <lb/>
+     government of Canada for Better 
+     <lb/>
+     Terms. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:POPE2">Hon. LEADER OF THE GOVERN<lb break="no"/>MENT</persName> answered that Hon. W. H. Pope 
+     <lb/>
+     had no authority either directly or in<lb break="no"/>directly from the Government of this 
+     <lb/>
+     Colony to negociate with the Domi<lb break="no"/>nion government for better terms, and 
+     <lb/>
+     that he had no communication with 
+     <lb/>
+     him on the matter. 
+     <lb/>
+            </p>
+            <pb n="1873-04-29_Page_076"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_076.jpg"/>
+            <fw type="num">76</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            
+            <p>
+     On motion of the hon. Leader of the 
+     <lb/>
+    Government the House resumed the 
+     <lb/>consideration of the Despatches relat<lb break="no"/>ing to Confederation. 
+     <lb/>
+            </p>
+            
+            <p>
+     <persName ref="pers:LEFU2">Hon. Mr. Lefurgy</persName> —I will make a   
+     <lb/>
+    few remarks to refute the inconsistent 
+     <lb/>statements of the hon. junior member 
+     <lb/>for Belfast, particularly those charging 
+     <lb/>the Coalition Government with passing 
+     <lb/>over several of the tenders for the 
+     <lb/>Trunk Line of Railway and un<lb break="no"/>warrantably giving the contract to 
+     <lb/>Messrs. Schreiber and Burpee. When 
+     <lb/>the late government let the Branch 
+     <lb/>Lines, they passed over the Tender of 
+     <lb/>Mr. Finlay McNeil], which was much 
+     <lb/>lower than any they received, and over 
+     <lb/>several others never consulting any of 
+     <lb/>the gentlemen who tendered for the 
+     <lb/>work, and gave the contract to Messrs. 
+     <lb/>Schrieber and Burpee at a price of 
+     <lb/>$1.000 per mile over that of the Trunk 
+     <lb/>Line. Now, I contend that those con<lb break="no"/>tractors could afford to have taken 
+     <lb/>the Branch Contract at a lower rate 
+     <lb/>than the Trunk Line: but it appeared 
+     <lb/>they were privileged by the late gov<lb break="no"/>ernment, and allowed to draw the 
+     <lb/>whole of the debentures due them on 
+     <lb/>the Trunk Line as the work proceeded, 
+     <lb/>instead of only ninety per cent accord<lb break="no"/>ing to the original contract. This was 
+     <lb/>nothing less than a compromise. The 
+     <lb/>hon. junior member for Belfast con<lb break="no"/>sidered that the Branch contract was 
+     <lb/>let at a cheaper rate than the trunk 
+     <lb/>line. I differ from him, and can show 
+     <lb/>that the Branch Line is by far the 
+     <lb/>higher contract when the nature of 
+     <lb/>the country, &amp;c., is considered. Not<lb break="no"/>withstanding all the charges made by 
+     <lb/>members of the late government 
+     <lb/>against their predecessors, in reference 
+     <lb/>to letting the trunk contract to an 
+     <lb/>alleged Ring, they themselves let the 
+     <lb/>Branch contract to the same parties. 
+     <lb/>Our local men should have received 
+     <lb/>due consideration instead of being un<lb break="no"/>ceremoniously thrown overboard as 
+     <lb/>they were, in this case. I do not 
+     <lb/>
+           
+            <cb/>
+           
+     blame the contractors in the least, for 
+     <lb/>
+     they had a perfect right to attend to 
+     <lb/>
+     their own interests, but I blame the 
+     <lb/>
+     late government for not protecting the 
+     <lb/>
+     interests of their country, as they 
+     <lb/>
+     should have done. When the Coali<lb break="no"/>tion government went out of power, 
+     <lb/>
+     they were charged by the hon. junior 
+     <lb/>
+     member for Belfast and his friends 
+     <lb/>
+     with having ruined the country by 
+     <lb/>
+     undertaking the construction of the 
+     <lb/>
+     trunk line; but when he and his 
+     <lb/>
+     party got into power they went to 
+     <lb/>
+     work and changed two of the stations 
+     <lb/>
+     at an enormous expense, to satisfy a 
+     <lb/>
+     few interested friends, thus showing 
+     <lb/>
+     their insincerity in their charges of 
+     <lb/>
+     extravagance. The hon. member and 
+     <lb/>
+     his friends in the late government 
+     <lb/>
+     made numberless charges against their 
+     <lb/>
+     predecessors in reference to curves in 
+     <lb/>
+     the line, spruce sleepers, stumps in 
+     <lb/>
+     the road, wire fence, &amp;c., and an in<lb break="no"/>vestigation of these matters having 
+     <lb/>
+     been called for, two competent engineers 
+     <lb/>
+     were employed, who after a thorough 
+     <lb/>
+     inspection, and survey, sent in their 
+     <lb/>
+     Report. This report stated that the 
+     <lb/>
+     road was properly staked out and all 
+     <lb/>
+     the work upon it thoroughly and satis<lb break="no"/>factorily done; but the report was 
+     <lb/>
+     kept locked up for several months in<lb break="no"/>stead of being published for the infor<lb break="no"/>mation of the people, who were really 
+     <lb/>
+    interested in the result of that inves<lb break="no"/>tigation. Instead of being sorry for 
+     <lb/>the false charges they had made, and 
+     <lb/>honestly confessing that they had 
+     <lb/>done wrong, the hon. member for 
+     <lb/>Belfast and his party still vainly tried 
+     <lb/>to defend their course, and to condemn 
+     <lb/>the Coalition Government; but their 
+     <lb/>charges now fall harmless to the 
+     <lb/>ground. Several hon. members of this 
+     <lb/>House were at the last election return<lb break="no"/>ed to support Confederation, but it 
+     <lb/>was different with myself and hon. 
+     <lb/>colleague as we were pledged in a 
+     <lb/>great measure against it. Many ob<lb break="no"/>jections have, from time to time been 
+     <lb/>made against me, because I am a Con<lb break="no"/>federate, but I promised my constituents 
+     <lb/>
+          
+           <fw type="dateline">1873</fw> <fw type="running">PARLIAMERTARY REPORTER.</fw> <fw type="num">77</fw>
+            
+           
+     at the two former elections that I 
+     <lb/>
+     would not vote for Confederation with<lb break="no"/>out their consent. When contesting 
+     <lb/>
+     the late election, my hon. colleague 
+     <lb/>
+     and I were pledged to get. better 
+     <lb/>
+     terms if possible; but I stated that if 
+     <lb/>
+     better terms could not be obtained. I 
+     <lb/>
+     would accept the present terms. The 
+     <lb/>
+     late government did not give the peo<lb break="no"/>ple the information necessary to enable 
+     <lb/>
+     them to form a correct opinion upon 
+     <lb/>
+     the question they were called upon to 
+     <lb/>
+     decide. It is true they did issue a 
+     <lb/>
+               supplementary <hi rendition="simple:italic">Gazette</hi> on the 15th 
+     <lb/>
+     March last, containing garbled state<lb break="no"/>ments, but the next 'issue contained 
+     <lb/>
+     nothing at all about the subject. The 
+     <lb/>
+               next numberof the <hi rendition="simple:italic">Gazette</hi> containing 
+     <lb/>
+     the official announcement of the terms 
+     <lb/>
+     did not reach the people generally, 
+     <lb/>
+     till after the election was over so that 
+     <lb/>
+     during the contest, the people were 
+     <lb/>
+     without reliable information upon the 
+     <lb/>
+     question before the country. It is 
+     <lb/>
+     unfair, therefore, for the present op<lb break="no"/>position to charge hon. members on 
+     <lb/>
+     this side of the House with having 
+     <lb/>
+     acted inconsistently, as we really had 
+     <lb/>
+     no terms before us at the late election. 
+     <lb/>
+     Last night the hon. jun. member for 
+     <lb/>
+     Belfast stated that the Dominion tariff 
+     <lb/>
+     was as high as 13 1/2 per cent in 1870, 
+     <lb/>
+     and that it is now down to 9 1/2 per 
+     <lb/>
+     cent, showing a reduction of four per 
+     <lb/>
+     cent; but he forgot to tell us how the 
+     <lb/>
+     Revenue is raised in Canada. We 
+     <lb/>
+     know that many large items for which 
+     <lb/>
+     we pay from the Treasury are there 
+     <lb/>
+     paid for by local taxation. In my 
+     <lb/>
+     opinion we may float along for a few 
+     <lb/>
+     years by accepting the present terms 
+     <lb/>
+     but we will be forced to resort to 
+     <lb/>
+     heavy local taxation before long, to 
+     <lb/>
+     supply our requirements, as they are 
+     <lb/>
+     continually increasing. According to 
+     <lb/>
+     the hon. member's mode of reasoning, 
+     <lb/>
+     l do not wonder he does not want 
+     <lb/>
+     better terms ; if I could see through 
+     <lb/>
+     his glasses, I would also be satisfied 
+     <lb/>
+     with the present terms ; but I cannot 
+     <lb/>
+     see the matter in the light he does. 
+     <lb/>
+     It now appears clear that whether we 
+     <lb/>
+        
+            <cb/>
+          
+     accept Confederation or not, we will 
+     <lb/>
+     be taxed, and therefore, the best we 
+     <lb/>
+     can do is to choose the least of two 
+     <lb/>
+     evils. When the resolution in favor of 
+     <lb/>
+     the appointment of another Delegation 
+     <lb/>
+     is submitted, I am prepared to vote 
+     <lb/>
+    for it, as I believe we shall receivé 
+     <lb/>still more liberal terms. I cannot see 
+     <lb/>why the Opposition will not join hands 
+     <lb/>with the government in this matter, 
+     <lb/>and thus strengthen their hands in ob<lb break="no"/>taining the best possible terms, before 
+     <lb/>accepting Confederation. The hon. 
+     <lb/>junior member for Belfast said that 
+     <lb/>perhaps some little matters might be 
+     <lb/>conceded to this delegation. Well, 
+     <lb/>several small things put together may 
+     <lb/>be of great importance to this little 
+     <lb/>Colony. The hon. member mentioned 
+     <lb/>the Summerside light-house and the 
+     <lb/>the Tignish Breakwater among those 
+     <lb/>items, and as if not worth attention 
+     <lb/>from the Dominion. Several ot such 
+     <lb/>items put together make a large and 
+     <lb/>important matter, well worthy of con<lb break="no"/>sideration and an effort on our part to 
+     <lb/>obtain compensation. New Brunswick 
+     <lb/>once thought she had very good terms, 
+     <lb/>but she is now very much dissatisfied 
+     <lb/>with them. and is asking for Better 
+     <lb/>Terms. Now is the time for us to ob<lb break="no"/>tain our rights at the hands of the 
+     <lb/>Dominion, as we shall be almost 
+     <lb/>powerless after we enter, to obtain 
+     <lb/>anything in addition. We have good 
+     <lb/>reason for asking better terms, as we 
+     <lb/>have greater claims than any of the 
+     <lb/>other Colonies on account of our isola<lb break="no"/>ted position and having no public lands, 
+     <lb/>minerals or timber to fall back upon. 
+     <lb/>Although Messrs. Laird and Hay<lb break="no"/>thorne deserve credit for the terms now 
+     <lb/>before us, this should not prevent us 
+     <lb/>from making as good a bargain as we 
+     <lb/>can. As those hon. gentlemen were 
+     <lb/>elected Anti-Confederates, they should 
+     <lb/>have called the Legislature together 
+     <lb/>before constituting themselves into a 
+     <lb/>Delegation to seek terms of Union with 
+     <lb/>Canada. They had no right to go 
+     <lb/>upon that Delegation before calling a 
+     <lb/>session of the House. If the Legisla<lb break="no"/>
+           
+            <pb n="1873-04-29_Page_078"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_078.jpg"/>
+            <fw type="num">78</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+         
+     ture had been convened for two or 
+     <lb/>
+     three weeks and consulted in reference 
+     <lb/>
+     to this matter, the late government 
+     <lb/>
+     would have acted wisely, and would 
+     <lb/>
+     perhaps have many in their ranks 
+     <lb/>
+     to-day who are now on this side of the 
+     <lb/>
+     House. Although the late Delegates 
+     <lb/>
+    obtained very liberal concessions, they 
+     <lb/>are not thereby exonerated from blame. 
+     <lb/>The country has been taken by sur<lb break="no"/>prise on this question, and the conse<lb break="no"/>quence is, that many of the districts 
+     <lb/>are still strongly Anti-Confederate. 
+     <lb/>I consider that the present state of 
+     <lb/>our finances and our public credit re<lb break="no"/>quires every representative to act for 
+     <lb/>the best interests of the country, and I 
+     <lb/>do not see anything left us but to ac<lb break="no"/>cept the terms we now have, if, after 
+     <lb/>making every effort, we cannot get 
+     <lb/>better terms. The credit of the coun<lb break="no"/>try has been so much injured abroad, 
+     <lb/>that it will be almost impossible to re<lb break="no"/>store it, and additional taxes would, 
+     <lb/>at present, be very, obnoxious to the 
+     <lb/>people generally. The hon. junior 
+     <lb/>member for Belfast stated this morning 
+     <lb/>that our duty upon liquors should be 
+     <lb/>raised till equal to that of the Domi<lb break="no"/>nion ; but last night he stated that the 
+     <lb/>Dominion Tariff was much lower than 
+     <lb/>ours. Now I cannot understand that 
+     <lb/>mode of reasoning: if our tariff is 
+     <lb/>much higher than theirs, why 
+     <lb/>should we raise it to make it equal ?: 
+     <lb/>Under our present circumstances, I see 
+     <lb/>nothing left us but to accept Confed» 
+     <lb/>eration. I stated at last election, that 
+     <lb/>if I found that the credit of the coun<lb break="no"/>try could not be maintained, I should 
+     <lb/>endeavor to get better terms, and if 
+     <lb/>these could be got I would accept 
+     <lb/>the terms now before us. I shall, 
+     <lb/>therefore, vote for sending a Delega<lb break="no"/>tion to seek Better Terms. 
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     Mr: Sinclair.—In addressing you 
+     <lb/>
+     on this great question I shall endeavour. 
+     <lb/>
+     
+     more particularly to reply to the Speech<lb/>
+     
+     made by the hon. Leader of the Gov<lb break="no"/>ernment last night. One of his princi<lb break="no"/>pal arguments was that it was all on<lb/>
+           
+            <cb/>
+          
+     account of the bad legislation of the 
+     <lb/>
+     late government during the past year 
+     <lb/>
+     that we are now forced to seek admis<lb break="no"/>sion into the Dominion of Canada, that 
+     <lb/>
+     there was; extravagance in every 
+     <lb/>
+     branch of the publie service, and that 
+     <lb/>
+     if they had managed the affairs of the 
+     <lb/>
+     country as well as the Coalition had, 
+     <lb/>
+     we would not be in the position we are 
+     <lb/>
+     in today. Now, I maintain that this 
+     <lb/>
+     Colony was brought into its present 
+     <lb/>
+     position by the action of the Coalition 
+     <lb/>
+    Government in passing the Railway   
+     <lb/>Bill: His honor the Leader of the 
+     <lb/>Government was then clearly told by 
+     <lb/>the members of the Opposition what 
+     <lb/>the result of the passing of that mea<lb break="no"/>sure would be, and if hon. members 
+     <lb/>will take the trouble to turn up the 
+     <lb/>speeches on the Railway Question in 
+     <lb/>the Parliamentary Reporter of 1871, 
+     <lb/>they will find the protests of the 0p<lb break="no"/>position as clearly set forth as if now 
+     <lb/>delivered. No government could carry 
+     <lb/>on the affairs of the country satisfac<lb break="no"/>torily for any length of time with our 
+     <lb/>present Revenue and send out of the 
+     <lb/>country the interest of our Railway 
+     <lb/>debt, in gold. The late government 
+     <lb/>has been blamed for passing the 
+     <lb/>Branches without making any provis<lb break="no"/>ion for their construction. Now those 
+     <lb/>Branches were the result of the action 
+     <lb/>of the Coalition Government, as, at the 
+     <lb/>opening of the six days' session, they 
+     <lb/>brought down in the Speech, a para<lb break="no"/>graph promising their immediate con<lb break="no"/>struction. But :as they were then in a 
+     <lb/>minority, they did not succeed in even 
+     <lb/>getting a committee appointed to pre<lb break="no"/>pare the Draft Address in Reply to the 
+     <lb/>Speech with which the Session was 
+     <lb/>opened. The House was then dissolved 
+     <lb/>and we all went to the people at the 
+     <lb/>polls on that question. The result. 
+     <lb/>was that four members were returned 
+     <lb/>pledged to go for the party that would 
+     <lb/>go for the Branch lines and without 
+     <lb/>whom it was impossible to form a gov<lb break="no"/>ernment, so that we had either to pro<lb break="no"/>mise to construct the Branches or 
+     <lb/>allow the then hon. Leader. of the 
+     <lb/>
+          
+           <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">79</fw>
+          
+     Opposition to form a government with<lb/>these hon. members. If we had done 
+     <lb/>
+     the latter, we need never have gone to 
+     <lb/>
+    our   constituents as candidates for   
+     <lb/>Legislative honors again. There was 
+     <lb/>nothing left us, therefore, but to under<lb break="no"/>take the construction of the Branches. 
+     <lb/>As a dissolution at that time could not 
+     <lb/>be obtained, we stated, that the present 
+     <lb/>session would be ample time to make 
+     <lb/>provision for the construction of the 
+     <lb/>Branch lines, and this is now found to 
+     <lb/>be the case, for there has not been a 
+     <lb/>single debenture yet issued for that 
+     <lb/>purpose. The late government found 
+     <lb/>that the remittance of a sufficient sum 
+     <lb/>of money to London to pay the interest 
+     <lb/>on the Debentures was more than the 
+     <lb/>country could stand, and it was ascer<lb break="no"/>tained that before another twelve 
+     <lb/>months rolled round, we should be pay<lb break="no"/>ing interest on no less a sum than 3 1/4 
+     <lb/>millions of dollars on account of the 
+     <lb/>construction of the Railway and 
+     <lb/>Branches. That amount will all have 
+     <lb/>to be provided for this Session if 
+     <lb/>we do not enter the Dominion. To 
+     <lb/>cover the interest of that vast Railway 
+     <lb/>debt, we would require to make an 
+     <lb/>annual remittance of $195,000 in gold; 
+     <lb/>to London. We then took into con<lb break="no"/>sideration the returns of the railroad 
+     <lb/>&amp;c.. and found that it would cost from 
+     <lb/>$50,000 to $100,000 a year more than<lb/>the total amount of its earnings. If 
+     <lb/>the hon. Leader of the Government is 
+     <lb/>not satisfied with the present terms, 
+     <lb/>and wishes to have'the Railroad back, 
+     <lb/>that we may work it ourselves, I have 
+     <lb/>not the least doubt the Dominion 
+     <lb/>Government will be willing to give it 
+     <lb/>to us on that condition. But reckless 
+     <lb/>as the present government are, I do 
+     <lb/>not believe they want the Railway 
+     <lb/>back, as they could hardly get a party 
+     <lb/>to stick to them if they undertook to 
+     <lb/>work the Railroad at the expense of 
+     <lb/>this Colony. No man who deserves 
+     <lb/>the name of a statesman would attempt 
+     <lb/>to levy taxation for any purpose be<lb break="no"/>fore it is required. As far as the sur<lb break="no"/>vey of the Branch lines was concern<lb break="no"/>
+   
+            <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">79</fw>
+         
+        ed, there was suffiicient money raised 
+     <lb/>by the increase on the duties on liquors 
+     <lb/>to pay its whole cost. The western 
+     <lb/>Branch was reckoned from the first, to 
+     <lb/>be between 12 or 15 miles in length 
+     <lb/>and the eastern one between 35 or 
+     <lb/>40 miles, both altogether making about 
+     <lb/>50 miles. There has been no imposi<lb break="no"/>tion practised by the late government 
+     <lb/>in the House in reference to the length 
+     <lb/>of the road, as it is now found after 
+     <lb/>the line is surveyed that the total 
+     <lb/>length is a trifle less than fifty miles. 
+     <lb/>This clearly proves the benefit of hav<lb break="no"/>ing the line surveyed and located be<lb break="no"/>fore letting the contract. When the 
+     <lb/>Bill for constructing the Trunk line 
+     <lb/>was introduced, some hon. members of 
+     <lb/>the government said the length of the 
+     <lb/>road would be 120 miles and other 
+     <lb/>said it would be 125 miles, but after 
+     <lb/>allowing the contractors to make their 
+     <lb/>own survey the length was greatly 
+     <lb/>increased. I was accused of being the 
+     <lb/>cause of making one curve in the line. 
+     <lb/>I did use my influence to bring the 
+     <lb/>road to Kensington, but I did not ask 
+     <lb/>to have it turned right back again to 
+     <lb/>Bedeque. I think the people of Ken<lb break="no"/>sington may thank the hon. member 
+     <lb/>for Indian River for getting the line   
+     <lb/>brought to that place, and not me, as I 
+     <lb/>had no influence with the government. 
+     <lb/>It was the pressure brought to bear 
+     <lb/>upon the hon. Leader of the Govern<lb break="no"/>ment by his own friends and support<lb break="no"/>ers that was the means of bringing the 
+     <lb/>line to Kensington. The road leaves   
+     <lb/>that place at almost a right angle, and 
+     <lb/>it is owing to those twists and crooks 
+     <lb/>that it is now 147 1/2 miles in length,or 30 
+     <lb/>miles longer than the distance mention<lb break="no"/>ed in the advertisement. By surveying 
+     <lb/>the Branches, before letting the con<lb break="no"/>tract, we calculated that we saved 
+     <lb/>about ten miles of road, instead of <choice><sic>fol<lb break="no"/>owing</sic><corr>following</corr></choice> the course pursued by the 
+     <lb/>Coalition Government. The American 
+     <lb/>Engineers have not cleared the Coali<lb break="no"/>tion from all blame. They cleared 
+     <lb/>the Contractors and the Engineers by 
+     <lb/>declaring that the work was well done 
+     <lb/>
+           
+            <pb n="1873-04-29_Page_080"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_080.jpg"/>
+               
+           <fw type="num">80</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+          
+           but they said that the manner in which<lb/>the contract was let was the cause of<lb/>the whole blunder, and that if it had<lb/>been let in the United States instead<lb/>of on this Island, we would have been<lb/>worse bitten than we are. The hon.<lb/>member for Summerside (Mr. Lefurgy)<lb/>stated that the change of Summerside<lb/>Station cost $100,000. Now it did<lb/>not cost the country half that amount,<lb/>as the whole cost was only $40,000.<lb/>The Railway Commissioners valued<lb/>the Land damages of both lines and<lb/>reported to the government that the<lb/>front line, or the one now adopted,<lb/>would be the cheaper one. No one<lb/>but an extreme political partizan would<lb/>disapprove of the change of that Sta<lb break="no"/>tion. The hon. Leader of the Govern<lb break="no"/>ment declared that in Charlottetown<lb/>the Railway should run along the<lb/>heads of all the wharves. If so, why<lb/>should the same rule not be applied to<lb/>Summerside also ? The members of<lb/>the late government consulted Messrs.<lb/>Boyd and Gregory who said that<lb/>branches to stations were always ob<lb break="no"/>jectionable, and if possible should be<lb/>avoided. If ground can be obtained<lb/>at the head of the Railway Wharf the<lb/>Station should, by all means, be placed<lb/>there. We asked Mr. Boyd, Engineer,<lb/>how it would answer to fill up the<lb/>flat on the shore at the head of the<lb/>wharf, for a station ground, and he<lb/>said it was the proper place for it,<lb/>that he had never recommended the<lb/>upper station, but had laid it off by<lb/>order of the Coalition Government.<lb/>The Contractors, at first, wanted $80,<lb break="no"/>000 for changing that branch, but they<lb/>afterwards came down to $40,000, and<lb/>will, I believe, require every dollar of<lb/>that sum to carry out the change. If<lb/>the Railway is to do any good to Sum<lb break="no"/>merside, the line at present adopted is<lb/>in all respects the proper one, as the<lb/>people there will reap a double amount<lb/>of benefit from it, compared with the<lb/>one first laid of. In changing the<lb/>Alberton Station, we acted on the same<lb/>principle. I was one of those appoint<lb break="no"/>
+            
+            <cb/>
+           ed to report on that Station, and in<lb/>company with four Engineers went up<lb/>to see it. The hon. member for<lb/>Alberton maintained that the place<lb/>pointed out as the ground for the Sta<lb break="no"/>tion, was not the place at all but that<lb/>the site was down below his fence. But<lb/>Mr. Ball said that it was the place<lb/>he laid off, Mr. Howlan then offered<lb/>us a place below that spot, and after<lb break="no"/>wards offered us a site in front of his<lb/>farm, which was low ground and would<lb/>require to be filled up eight feet deep<lb/>which he offered to do. We told him<lb/>we did not like that place for we found<lb/>that if filled up with earth it would<lb/>require an expensive culvert. On ex<lb break="no"/>amining, we found that the best site<lb/>for that station was Hickey's field ;<lb/>but Mr. Bell had nothing to say about<lb/>it. The people will be the judges<lb/>whether we have acted impartially or<lb/>not. Let the government change the<lb/>Summerside Station and see what pub<lb break="no"/>lic opinion on the matter will be. The<lb/>hon. Leader of the government wanted<lb/>to make out that the branches to<lb/>Souris and Tignish cost $1000 per<lb/>mile more than the trunk line ; but he<lb/>did not take into account the fact that<lb/>there are several very expensive<lb/>Bridges on the former lines which<lb/>would cost more than the amount, and<lb/>that the country will have to pay for<lb/>no more miles than was mentioned in<lb/>the Branch Bill. We had several<lb/>offers to construct those lines, but<lb/>would not accept such as that of Mr.<lb/>McNeill of Summerside. If the late<lb/>government had accepted that gentle<lb break="no"/>man's tender, I would not attempt to<lb/>stand here and justify their action, for<lb/>the tender was not worthy of an<lb/>honest man. The first part of the<lb/>work was marked on that tender three<lb/>times too high and the last part to be<lb/>performed only one-seventh of the<lb/>amount stated on the other tenders.<lb/>After the first part of the work was<lb/>finished, he could have walked off<lb/>with a handsome profit, and at a great<lb/>loss to the country, after paying the<lb/>
+          
+           
+     <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">81</fw> 
+     
+   
+           
+     amount for which he gave security, as  
+     <lb/>
+     the government were  bound to advance   
+     <lb/>
+     money according to the  tender on 
+     <lb/>
+     the work performed. No government 
+     <lb/>
+      would be justified in accepting such  
+     <lb/>
+     a tender. The hon. Leader of the 
+     <lb/>
+      government charged the late govern<lb break="no"/>ment with extravagance in constructing  
+     <lb/>
+     bridges at Rustico, Clifton, &amp;c. We   
+     <lb/>
+     received from this House,   last  year, a 
+     <lb/>
+      vote of $87,855  for the Board of  
+     <lb/>
+     Works, $32,000 of which   was for 
+     <lb/>
+     general contracts of Roads, Bridges,  
+     <lb/>
+      Wharves, &amp;c., and the  balance for 
+     <lb/>
+     Colonial Building Light Houses, &amp;c.  
+     <lb/>
+     We left the present government, after   
+     <lb/>
+      all our expenditure, the sum of $30,<lb break="no"/>000 to begin with.  The grand cause  
+     <lb/>
+     of all our present difficulties was the    
+     <lb/>
+     construction of the Railway, which   
+     <lb/>
+     was undertaken against the wishes of 
+     <lb/>
+     three-fourths of the people of this    
+     <lb/>
+     country. Those districts through  
+     <lb/>
+     which the Railway does not pass, put   
+     <lb/>
+     in claims for local wants which could 
+     <lb/>
+     not be overlooked  by any government,  
+     <lb/>
+     and in several cases backed up their  
+     <lb/>
+     petitioners with large amounts. The   
+     <lb/>
+     inhabitants of Clifton, Rustico and  
+     <lb/>
+      Victoria, in particular, contributed   
+     <lb/>
+     freely in aid of their several works.   
+     <lb/>
+     Those contracts have not injured the   
+     <lb/>
+     country to the extent of a single dollar,  
+     <lb/>
+     as the expenditure did not exceed the   
+     <lb/>
+     amount voted for Public Works.  The 
+     <lb/>
+     Board of Works, on the whole, did not  
+     <lb/>
+     exceed by $2000  or $3000 the  
+     <lb/>
+      amount voted by the House, last ses<lb break="no"/>sion. The Treasury was  in as good  
+     <lb/>
+       state when the late rovernment re<lb break="no"/>signed as it was when they received  
+     <lb/>
+     the reins of power.   The Railway 
+     <lb/>
+     undertaking has brought the country 
+     <lb/>
+     into its present position, and the gov<lb break="no"/>ernment are now obliged to  adopt our 
+     <lb/>
+     policy and to run in the  very same  
+     <lb/>
+     groove, step by step. With all  their 
+     <lb/>
+     opposition to the course we adopted, 
+     <lb/>
+     they are compelled to swallow our   
+     <lb/>
+     policy, and now tell   the people that 
+     <lb/>
+     they cannot avoid their  present  course. 
+     <lb/>
+     The amount of money in the Treasury  
+     <lb/>
+           
+            <cb/>
+               
+          when we came into power was $23,000<lb/>I do not know what amount there is<lb/>in the Treasury at present, but I know<lb/>that we remitted 30,000 to London to<lb/>meet the interest on the Debentures,<lb/>due about the last of June. The hon.<lb/>Leader of the Government asks why<lb/>we borrowed money from a New<lb/>Brunswick Bank and allowed so much<lb/>money to be idle in London. We<lb/>found that if we drew the whole<lb/>amount from the Banks in sterling<lb/>exchange at once, we should cripple<lb/>them and thus injure the trade of the<lb/>country. The President of one of the<lb/>Banks spoke to us about this matter<lb/>and told us to begin early to prepare to<lb/>meet the interest on the Debentures,<lb/>and we did so. We commenced about<lb/>the beginning of March, and as a re<lb break="no"/>sult there is now £6000 sterling in<lb/>London, to meet the liabilities of the<lb/>Colony. I did not imagine so many<lb/>hon. members on the government side<lb/>of the House would have swallowed<lb/>the leek at once, as they did, when so<lb/>many of them ran their election against<lb/>Confederation. They have, by their<lb/>action, admitted that the course pur<lb break="no"/>sued by the late government was the<lb/>only proper one, and that they must<lb/>follow it. The hon. Leader of the<lb/>government stated that ours was a<lb/>dash-away-policy, but he has followed<lb/>it in every respect. The present<lb/>government party got hold of a letter<lb/>which I wrote to Mr. Lawson of the<lb/>Summerside Progress, and published a<lb/>garbled extract from it ; but if they<lb/>had published the whole of it as it was<lb/>written, it would have condemned<lb/>them most clearly. Mr. Lawson asked<lb/>me what position the Colony was in,<lb/>and I wrote and told him my private<lb/>opinion in reference to it, and stated<lb/>that there were hon. gentlemen in the<lb/>country whose policy was to dash<lb/>away, levy taxation and ruin the colony.<lb/>I am not ashamed of a single syllable<lb/>contained in that letter, and would be<lb/>glad to see it published, as I wrote it ;<lb/>but I would feel ashamed if I had treat<lb break="no"/>
+            </p>
+            <pb n="1873-04-29_Page_082"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_082.jpg"/>
+            <fw type="num">82</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            <p>
+     ed any man's letter as they have done 
+     <lb/>
+     mine. Let them produce the original 
+     <lb/>
+     letter, and I will publish it. The hon. 
+     <lb/>
+     Leader of the government stated that 
+     <lb/>
+     the terms now offercd us by the 
+     <lb/>
+     Dominion are not equal to those of 
+     <lb/>
+     1869, andthat he was the means of 
+     <lb/>
+     procuring the $800,000 for the pur<lb break="no"/>chase of our lands. .Now, it is rather 
+     <lb/>
+     unfair for him to lay claim to that 
+     <lb/>
+     honor; the hon. George   Coles was 
+     <lb/>
+     the first who claimed a sufficient 
+     <lb/>
+     amount for the purchase of our lands, 
+     <lb/>
+     at the Quebec Conference; but we 
+     <lb/>
+     never had a guarantee from the Domi<lb break="no"/>nion that it would be granted till 
+     <lb/>
+     1869. The Better Terms amounted 
+     <lb/>
+     to only $25 per head of our population 
+     <lb/>
+     while the present terms amounted to 
+     <lb/>
+     $45 per head as our assumed public 
+     <lb/>
+     debt. We can draw from the Domi<lb break="no"/>nion Treasury to the full amount of 
+     <lb/>
+     our assumed debt at any time after 
+     <lb/>going into Confederation. During the <lb/>
+     
+     first twelve months after we join the 
+     <lb/>
+     Dominion, we shall-be able to draw 
+     <lb/>
+     the interest on the unpaid amount of 
+     <lb/>
+     the sum to be paid for our railway, to 
+     <lb/>
+     the contractors, which will. amount to 
+     <lb/>
+     $75,000. This sum will be sufficient 
+     <lb/>
+     to build three new jails. and a Court 
+     <lb/>
+     House, The late government have 
+     <lb/>
+     been charged. with extravagance in 
+     <lb/>
+     their Railway expenditure. Let us 
+     <lb/>
+     look at. the two, administrations, viz, 
+     <lb/>
+     the late government and the Coalition. 
+     <lb/>
+     The latter levied 2 1/2 per cent taxation 
+     <lb/>
+     to pay the interest on the Debentures; 
+     <lb/>
+     but how did they   use the amount thus 
+     <lb/>
+     obtained, viz £18,800? They used 
+     <lb/>
+     that money tor general purposes con<lb break="no"/>trary to the Revenue Act and expend<lb break="no"/>ed more. than the amount of the whole 
+     <lb/>
+     Revenue—in fact, they.ran the Colony 
+     <lb/>
+     about £7,000 in debt. The next year, 
+     <lb/>
+     we had the management of public 
+     <lb/>affairs, and raised the whole of the<lb/>
+    revenue raised from the 2 1/2 per cent 
+     <lb/>for Railway interest, and more also,<lb/>for the very legitimate purpose for 
+     <lb/>which it was levied. We also paid  
+     <lb/>$20,000 for the Worrel Estate, $6000 
+     <lb/>
+           
+            <cb/>
+           
+     for new cent coinage, &amp;c. If we take 
+     <lb/>
+     these extraordinary expenditures out 
+     <lb/>
+       of the total outlay, we will find the 
+     <lb/>latter very considerably reduced.  The<lb/>
+    Revenue for last year was $895,478.03 
+     <lb/>and the ordinary expenditure $385, 
+     <lb/>881. 38.    
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     
+      <persName ref="pers:POPE2">Hon. Leader of the Govern- <lb/>ment</persName>- The new cent coin was bought 
+     <lb/>
+     and paid for before the late govern<lb break="no"/>ment came into power. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:SINC6">Mr. Sinclair</persName>—But it was charged 
+     <lb/>
+     against last year. I stated at the time 
+     <lb/>
+     the 2 1/2 per cent was added to the Tariff 
+     <lb/>
+     that the money arising from it would 
+     <lb/>be required to meet the ordinary ex<lb break="no"/>penditure of the Colony, and it has 
+     <lb/>turned out just as I predicted, for the 
+     <lb/>Coalition government used the Railway 
+     <lb/>monies for other purposes than that 
+     <lb/>provided. for in the Revenue Act. 
+     <lb/>The expenditure of the Coalition ex<lb break="no"/>ceeded the Revenue by about $80,000, 
+     <lb/>while the ordinary expenditure of the. 
+     <lb/>late government was $5000 less than 
+     <lb/>the ordinary revenue. It is clearly to 
+     <lb/>be seen that the present Revenue of<lb/>the Colony is not more than sufficient<lb/>to meet our ordinary expenditure, 
+     <lb/>leaving the Railway out of the ques<lb break="no"/>tion altogether. The late government 
+     <lb/>found that the sum arising from the 
+     <lb/>2 1/2 per cent was required for ordinary 
+     <lb/>wants, and that the whole of the Rail» 
+     <lb/>way expenditure would have to be 
+     <lb/>met in some other way. When we 
+     <lb/>consider the fact that about $200.000 
+     <lb/>in gold must be remitted to Landon. 
+     <lb/>annually to meet the interest on the. 
+     <lb/>Debentures, we can see at a glance: 
+     <lb/>that the Colony cannot long maintain. 
+     <lb/>its present financial position, and that 
+     <lb/>we must look for assistance to some 
+     <lb/>other quarter. How could we remit 
+     <lb/>that large sum in gold, without crippl<lb break="no"/>ing the commerce of the country? 
+     <lb/>This is the grand question. The 
+     <lb/>floating capital of the colony could 
+     <lb/>never stand the immense drain upon 
+     <lb/>it. At the end of ten years we shall 
+     <lb/>
+          
+       
+            <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">83</fw>
+            
+          
+     have remitted in all, no less than 
+     <lb/>
+     $2,000,000,in gold. It is ridiculous 
+     <lb/>
+     to think that the country could stand 
+     <lb/>
+     it. I had reason to think that when 
+     <lb/>
+     the Railway Bill was passed, the 
+     <lb/>
+     Coalition knew the consequences. of 
+     <lb/>
+     their act. If the hon. Leader of the 
+     <lb/>
+     Government can get better terms, I 
+     <lb/>
+     will not object to his trying to obtain 
+     <lb/>
+     them,but I will object to tampering 
+     <lb/>
+     with the best interests of the country. 
+     <lb/>
+     I suppose the government think they 
+     <lb/>
+    have gone far enough in their change 
+     <lb/>of base on Confederation, and that they 
+     <lb/>must at least test the question whether 
+     <lb/>they can obtain better' terms or not. 
+     <lb/>If'they are forced to take the present 
+     <lb/>terms at last, there will be no alterna<lb break="no"/>tive but to accept them, just as they 
+     <lb/>are. It'they wish our support, they
+     <lb/>should let us know upon what basis 
+     <lb/>they intend to put in their claims for 
+     <lb/>better terms. The only plea yet put 
+     <lb/>forth by them is that we want a little 
+     <lb/>more, so that we may conclude that 
+     <lb/>they intend to adopt the begging sys<lb break="no"/>tem. If so, they should show how 
+     <lb/>we have been neglected, and also that 
+     <lb/>we have not received as good terms as 
+     <lb/>the other Provinces. Unless they can 
+     <lb/>do this, they will inevitably come short 
+     <lb/>in their claims. I should not like to 
+     <lb/>see this Colony placed in a mere beg<lb break="no"/>ging position. The hon. Leader of 
+     <lb/>the government has shown that we 
+     <lb/>have a right to receive from the Domi<lb break="no"/>nion the sums. expended on certain 
+     <lb/>Light Houses, Drill Sheds and Bar» 
+     <lb/>racks.. .Well, I think it would be a. 
+     <lb/>credit to him to get the money expend<lb break="no"/>ed by him, in.building the Barracks, 
+     <lb/>and that he has the best right to do so.. 
+     <lb/>These buildings cost the country<lb/>£12,000, and if he can get it back from 
+     <lb/>the Dominion, it will be a creditable 
+     <lb/>act. The Drill Sheds are useful for<lb/>our annual Exhibitions, and Canada<lb/>does not care a rap for them.  The<lb/>telegraph line along the line of Rail<lb break="no"/>way will belong to the Dominion, and <lb/>cannot be used for any other than<lb/>Railway purposes, as it would interfere<lb/>
+           
+            <cb/>
+           
+     with the interests and rights of the 
+     <lb/>
+     Telegraph Company. It would be 
+     <lb/>
+     good financial policy to buy out the 
+     <lb/>
+     claims of the Company as they have 
+     <lb/>
+     offered to sell. This a certain quan<lb break="no"/>tity of land to which they are entitled, 
+     <lb/>
+     which they have never yet claimed, 
+     <lb/>
+     and as land is now getting very valu<lb break="no"/>able, should they come forward and 
+     <lb/>
+     demand it, it will cost the local parlia<lb break="no"/>ment a considerable sum to procure it: 
+     <lb/>
+     The trifling claim for light houses, 
+     <lb/>
+     barracks, &amp;c, is a poor basis to argue 
+     <lb/>
+     upon for better terms, but the purchase 
+     <lb/>
+     of the rights of the Telegraph Com<lb break="no"/>pany would be a wise measure. Several 
+     <lb/>
+     hon. members on the government side 
+     <lb/>
+     of the House were elected as Anti-<lb break="yes"/>Confederates, and will therefore pur<lb break="no"/>sue a dishonorable course in turning 
+     <lb/>
+     in favor of Confederation now. They 
+     <lb/>
+     charged us with proving untrue to the 
+     <lb/>
+     country in sending the Delegation to 
+     <lb/>
+     Ottawa without calling the Legislature 
+     <lb/>
+     together ; but, I believe we acted for 
+     <lb/>
+     the best interests of the country in 
+     <lb/>
+     doing as we did. considering the .con<lb break="no"/>dition in which the Colony was placed. 
+     <lb/>
+     If the country had first been appealed to, 
+     <lb/>
+     the government of Canada might have 
+     <lb/>
+     been informed of the critical position 
+     <lb/>
+     in which we are placed, and the dele<lb break="no"/>gates might not have been able to 
+     <lb/>
+     secure the liberal terms we now have. 
+     <lb/>
+     Suppose we had convened the Legis<lb break="no"/>lature before the delegates were ap<lb break="no"/>pointed, what would the then Leader 
+     <lb/>
+     of the Opposition havesaid? We 
+     <lb/>
+     would probably have been told that we 
+     <lb/>
+     should have accepted he invitation to . 
+     <lb/>
+     send a Delegation, as the House did 
+     <lb/>
+     not know how to grapple with the pa<lb break="no"/>pers and correspondence laid: before 
+     <lb/>
+     them. When the country was appealed 
+     <lb/>
+     to on the question, the most intelligent 
+     <lb/>
+     districts on the Island declared that 
+     <lb/>
+     the   late government had taken a con<lb break="no"/>sistent course, and sustained their 
+     <lb/>
+     policy. The district which I represent 
+     <lb/>
+     is the most populous on the Island, as 
+     <lb/>
+     well as one of the most intelligent, and 
+     <lb/>
+     yet my constituents never questioned 
+     <lb/>
+            </p>
+            <pb n="1873-04-29_Page_084"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_084.jpg"/>
+            <fw type="num">84</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            <p>
+     the consistency of the course I followed 
+     <lb/>
+     as a member of the late government on 
+     <lb/>
+     this question of Confederation. I only 
+     <lb/>
+     hope the present government will be 
+     <lb/>
+     as consistent in their actions as we 
+     <lb/>
+     were. They are in a better position 
+     <lb/>
+     to negotiate with Canada than we 
+     <lb/>
+     were. As the House gives them the 
+     <lb/>
+     power to close I wish the new delega<lb break="no"/>tion success, and hope they are not 
+     <lb/>
+     going to spend $1,200 or $1,500 merely 
+     <lb/>
+     for the sake of testing the terme we 
+     <lb/>
+     now have, and that it is not their in<lb break="no"/>tention to get some trifling alterations 
+     <lb/>
+     made and then to come back and say 
+     <lb/>
+     they have obtained better terms. His 
+     <lb/>
+     Honor the Leader of the Government 
+     <lb/>
+     is, I believe the ablest financier on the 
+     <lb/>
+     other side of the House, and yet the 
+     <lb/>
+     only argument he adduces in favor of 
+     <lb/>
+     better terms, is based on the begging 
+     <lb/>
+     principle. Instead of their being a 
+     <lb/>
+     balance against the local government, 
+     <lb/>
+     under Confederation, there will be a 
+     <lb/>
+       balance in their favor, at the end of the 
+     <lb/>
+     financial year. If we claim several 
+     <lb/>
+     thousand dollars more than we have a 
+     <lb/>
+       right to, the politicians of the other 
+     <lb/>
+     provinces will put in similar claims as 
+     <lb/>they will be justly entitled to the same.<lb/>We shall have our share of the 14<lb/>millions now to be distributed among<lb/>the lower provinces, and of all their<lb/>expenditures for great public works<lb/>for many years to come, and therefore<lb/>have been very liberally dealt with.<lb/> The other Provinces handed over their<lb/>Light Houses to the Dominion gov<lb break="no"/>ernment without receiving one cent<lb/>for them; how then can it be shown<lb/>that we have any right to receive re<lb break="no"/>muneration for ours? If the hon.<lb/>Leader of the Government can show<lb/>that we have not, in the present terms,<lb/>received what is our due, I will sup<lb break="no"/>port him in sending another delegation<lb/>to Ottawa, but so far he has failed to<lb/>do so. I would go for making our <lb/>expenditure for local legislation as <lb/>light as possible and believe that by<lb/>proper economy the present terms<lb/>will meet our wants for many years,<lb/>
+           
+            <cb/>
+           
+     without resorting to additional local 
+     <lb/>
+     taxation. The time will. come when 
+     <lb/>
+     local taxation will have to be resorted 
+     <lb/>
+     to; but it need not be for several 
+     <lb/>
+     years to come unless some unusual 
+     <lb/>
+     expenditure is undertaken. Looking 
+     <lb/>
+     at the terms before us, I believe the 
+     <lb/>best course we can pursue is to accept<lb/>
+    them, in order to assist the onward 
+     <lb/>progress of the country and prevent it 
+     <lb/>from getting into financial difficulties. 
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     House adjourned for one hour. 
+     <lb/>
+            </p>
+   
+            <p rendition="simple:right">
+                                                    I.O. 
+     <lb/>
+            </p>
+   
+            <p rendition="simple:right">
+                       TUESDAY, April 29th. 
+     <lb/>
+            </p>
+   
+            <p rendition="simple:centre">
+     Debate on Confederation resumed 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:KELL2">Mr. T. KELLY</persName>.—Mr. Speaker. in 
+     <lb/>
+     rising to offer a few remarks, I may 
+     <lb/>
+     state that I have listened with pleasure 
+     <lb/>
+     to the speeches of hon. members on 
+     <lb/>
+     both sides, who have preceded me in 
+     <lb/>
+     this debate. They have. displayed 
+     <lb/>
+     ability and research, to the exclusion 
+     <lb/>
+     of that bitterness, which party feeling 
+     <lb/>
+     too frequently calls forth. Undoubtedly 
+     <lb/>
+     sir, it is one of the most momentous 
+     <lb/>
+     questions which can occupy our atten. 
+     <lb/>
+    tion, inasmuch as it will effect the 
+     <lb/>general interests of ourselves and our 
+     <lb/>children for ages to come. In the 
+     <lb/>language of a brilliant writer I may 
+     <lb/>say that " as we are British subjects 
+     <lb/>the least considerable amongst us has 
+     <lb/>an interest equal in principle to the 
+     <lb/>the country, and is equally called upon 
+     <lb/>to make a contribution in support of 
+     <lb/>them, whether it be by the heart to 
+     <lb/>conceive, the understanding to direct 
+     <lb/>or the head to control." (Applause) 
+     <lb/>Such sir, is the-spirit which I deem it 
+     <lb/>my duty to- cultivate when considering 
+     <lb/>the subject now before us. I have 
+     <lb/>carefully thought the matter over and<lb/>intend supporting the motion under 
+     <lb/>consideration, and will support confed<lb break="no"/>eration from no party stand point of<lb/>view, inasmuch under our present<lb/>circumstances, that course is unavoid<lb break="no"/>able.Unquestionably circumstances now <lb/>
+         
+          
+           <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">85</fw>
+            
+          
+     combine to render this course a mat<lb break="no"/>ter of necessity, rather than one of 
+     <lb/>
+     choice. Who are to blame for this 
+     <lb/>
+     unfortunate state of affairs, I will not 
+     <lb/>
+     undertake to say. But this I do say, 
+     <lb/>
+     the time has arrived when it will 
+     <lb/>
+     have to be taken hold of and dealt 
+     <lb/>
+     with, entirely upon its merits. Refer<lb break="no"/>ence, however, has been made to 
+     <lb/>
+     parties, and statements have been 
+     <lb/>
+     made by hon. members opposite, 
+     <lb/>
+     which do not agree. For instance. 
+     <lb/>
+     the hon. member, the Leader of the 
+     <lb/>
+     Opposition said yesterday, quite posi-   
+     <lb/>
+     tively, that the late Government was 
+     <lb/>
+     defeated in consequence of their Con<lb break="no"/>federation policy, while the hon. 
+     <lb/>
+     member for New London said it was 
+     <lb/>
+     the School Question. Now which of 
+     <lb/>
+     these two statements are correct? 
+     <lb/>
+     Upon which can the country place re<lb break="no"/>liance? The hon. member for New 
+     <lb/>
+     London referred also to the alteration 
+     <lb/>
+     of the Railway Station at Summer<lb break="no"/>side, and said the change was rendered 
+     <lb/>
+     necessary in order that the bulk of 
+     <lb/>
+     country people might be better ac<lb break="no"/>commodated than they could be, had 
+     <lb/>
+     no change been made. He said also, 
+     <lb/>
+     that not one-fourth of the people, in<lb break="no"/>terested in the site of the station, were 
+     <lb/>
+     in favor of removing it from where it 
+     <lb/>
+     now is. Well time will tell. The 
+     <lb/>
+     people are moving in the matter on 
+     <lb/>
+     both sides, and when the petition 
+     <lb/>
+     comes in, I think it will be seen that 
+     <lb/>
+     the body of the people will be in favor 
+     <lb/>
+     of removing it from where it is at pre<lb break="no"/>sent. The hon. member asserted 
+     <lb/>
+     further, that when a few of the busi<lb break="no"/>ness men of Summerside last year 
+     <lb/>
+     wished to retain the Station where it 
+     <lb/>
+     had been formerly placed, there were 
+     <lb/>
+     very few who supported them in the 
+     <lb/>
+     movement. In connection with that I 
+     <lb/>
+     remember an incident which also oc<lb break="no"/>curred the same time. Mr. Robert 
+     <lb/>
+     Holman, who, in all probability, knew 
+     <lb/>
+     the intentions of the Government in 
+     <lb/>
+     the matter, offered some lots of land 
+     <lb/>
+     for sale, near to or immediately op<lb break="no"/>posite the Station ground, where it 
+     <lb/>
+         
+   
+          
+            <cb/>
+          
+     was then supposed so be, and in con<lb break="no"/>sequence obtained good prices for 
+     <lb/>
+     them. Believing that the Station was 
+     <lb/>
+     to be there, it added a fictitious value 
+     <lb/>
+     to the property, which was used to the 
+     <lb/>
+     damage of the purchasers. A few 
+     <lb/>
+     days however after this sale  took   
+     <lb/>
+     place, an order was made in Council 
+     <lb/>
+     changing the Station. The hon. mem-   
+     <lb/>
+     ber referred also to Mr. McNeill's 
+     <lb/>
+     Tender. 1 think it would be difficult 
+     <lb/>
+     to justify the manner in which the 
+     <lb/>
+     late Government disposed of that mat<lb break="no"/>ter. When Mr. O'Brien's Tender for 
+     <lb/>
+     the main line was before Mr. Pope's 
+     <lb/>
+     Government, notwithstanding the time 
+     <lb/>
+     allowed, many of the party supporting 
+     <lb/>
+     the late Government went so far as to 
+     <lb/>
+     argue that the Legislature should have 
+     <lb/>
+     been called together to consider, if 
+     <lb/>
+     not his. at least the Tender of Mr. 
+     <lb/>
+     Walker. But when the same men 
+     <lb/>
+     were in power they did not give Mr. 
+     <lb/>
+     McNeilI and some others who had 
+     <lb/>
+     sent in Tenders an opportunity to alter 
+     <lb/>
+     or amend their proposals: No, not to 
+     <lb/>
+     the extent of one minute of time. 
+     <lb/>
+     Surely they might have given Mr. 
+     <lb/>
+     McNeill at least one hour to amend 
+     <lb/>
+     or alter his Tender, or at least to com<lb break="no"/>municate with him on the subJect. 
+     <lb/>
+     They did not do so, but havmg allow<lb break="no"/>ed the last day and hour to expire, 
+     <lb/>
+     they opened the last Tender; and, in 
+     <lb/>
+     point of fact, actually received a new 
+     <lb/>
+     Tender after they opened Mr. Schrie<lb break="no"/>ber's. Yet these are the men who 
+     <lb/>
+     complained so loudly because   Mr. 
+     <lb/>
+     O'Brien had not more time given to 
+     <lb/>
+     him, although three  or four weeks 
+     <lb/>
+     were spent in negotiation and consul<lb break="no"/>tation with that gentleman. They 
+     <lb/>
+     have endeavored to show that that the 
+     <lb/>
+     Legislature could not have been called 
+     <lb/>
+     together before the matter of Confed-   
+     <lb/>
+     eration had been considered by the 
+     <lb/>
+     Govvernment. Permit me to say, Sir, 
+     <lb/>
+     that it is a generally acknowledged 
+     <lb/>
+     and admitted fact in politics,   that 
+     <lb/>
+     when the Leader of a. Government 
+     <lb/>
+     makes a public declaration respecting 
+     <lb/>
+     any public question, that he reflects   
+     <lb/>
+          
+            <pb n="1873-04-29_Page_086"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_086.jpg"/>
+            <fw type="num">86</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+           
+     the opinion of his party: Well, Hon. 
+     <lb/>
+     Mr. Haythorne held the position of 
+     <lb/>
+     Prime Minister, and he publicly de<lb break="no"/>clared he would make no new move<lb break="no"/>ment in that direction, without consult<lb break="no"/>ing his constituents. So that in that 
+     <lb/>respect he has been derelict in his 
+     <lb/>duty, and false to his public promise. 
+     <lb/>But says the hon. member, as early as 
+     <lb/>last autumn I made up my mind that 
+     <lb/>Confederation was inevitable. Now 
+     <lb/>I would ask the hon. member, the 
+     <lb/>Leader of the Opposition, if he made 
+     <lb/>up his mind that such a course was 
+     <lb/>inevitable last fall, how can he now 
+     <lb/>say there was not time enough to have 
+     <lb/>called the Legislature together? If it 
+     <lb/>was a matter of duty as well as of 
+     <lb/>opinion with the Government, then 
+     <lb/>they should have also deemed it their 
+     <lb/>duty,—if they had not time to meet 
+     <lb/>with the Legislature,—to have con<lb break="no"/>sulted at least with their supporters. 
+     <lb/>And having not done so, they, as a 
+     <lb/>party, have left themselves open to 
+     <lb/>blame; and ,as might be expected, 
+     <lb/>have justly forfeited the confidence of 
+     <lb/>the country. 
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     <persName ref="pers:DAVI2">Hon. B. Davies</persName>—Mr. Spcaker, 
+     <lb/>
+     the question before this hon. House is 
+     <lb/>
+     whether we shall consent to send 
+     <lb/>
+     another delegation to Ottawa. or ac<lb break="no"/>cept the Terms brought down by 
+     <lb/>
+     Messrs. Laird and Haythorne? But 
+     <lb/>
+     the hon. member for Summerside has 
+     <lb/>
+     not said whether he will accept of 
+     <lb/>
+     these or look for better. I think the 
+     <lb/>
+     hon. Leader of the Government, or 
+     <lb/>
+     some of his friends, should have shown 
+     <lb/>
+     upon what grounds they expect to 
+     <lb/>
+     obtain better terms than those now 
+     <lb/>
+     offered. When asked for explana<lb break="no"/>tions on this point, hon. members on 
+     <lb/>
+     the Government side are unable to 
+     <lb/>
+     make any reply. Am I to understand 
+     <lb/>
+     that they are unable to make any re<lb break="no"/>ply to a question so reasonable, and 
+     <lb/>
+     one which they should answer? The 
+     <lb/>
+     hon. member referred to some land 
+     <lb/>
+     ,which was sold in Summerside. 
+     <lb/>
+            </p>
+   
+            <p>
+     .Mr. T KELLY—I said I believed 
+     <lb/>
+          
+            <cb/>
+           
+     Mr. Holman was aware at the time 
+     <lb/>
+     that a change was to be made in the 
+     <lb/>
+     Station, but sold it to those who pur<lb break="no"/>chased, as if no alteration was to be 
+     <lb/>
+     made, which gave a fictitious value to 
+     <lb/>
+     the lots sold. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:DAVI2">Hon. B. Davies</persName>—I think in that 
+     <lb/>
+     respect the hon. member is astray in 
+     <lb/>
+     his opinions. With regard to the 
+     <lb/>
+     question before us, I think the whole 
+     <lb/>
+     matter has been ably and satisfactorily 
+     <lb/>
+     dealt with by the hon. member, the 
+     <lb/>
+     Leader of the Opposition, and, there<lb break="no"/>fore, I shall but briefly refer to a few 
+     <lb/>
+     points which have been but slightly 
+     <lb/>
+     noticed. The hon. member, (Mr. 
+     <lb/>
+     Laird) very properly said, and as ably 
+     <lb/>
+     proved, that unless we can lay down a 
+     <lb/>
+     principle as a basis upon which to 
+     <lb/>
+     found a claim for any better Terms, it 
+     <lb/>
+     will be but a mere waste of time to 
+     <lb/>
+     send another delegation to Ottawa, 
+     <lb/>
+     and I do not see that we can show 
+     <lb/>
+     that we have any claim which has 
+     <lb/>
+     been overlooked by the hon. member 
+     <lb/>
+     and his co-delegate. We cannot go, 
+     <lb/>
+     and, without any show of reason, ask 
+     <lb/>
+     for concessions to which we are not 
+     <lb/>
+     entitled. They allow us to phce 
+     <lb/>
+     our indebtedness at $45, a head, 
+     <lb/>
+     which is in excess of what we owe, 
+     <lb/>
+     and stipulate to grant us $800,000 
+     <lb/>
+     to buy out the remaining proprie<lb break="no"/>tors. And as for the hon. member, 
+     <lb/>
+     the Leader of the Govemment, he, by 
+     <lb/>
+     his negotiations with the Canadian 
+     <lb/>
+     delegates at the Alexandra Hotel, has 
+     <lb/>
+     forever debarred himself from asking 
+     <lb/>
+     for, or obtaining any better Terms. 
+     <lb/>
+     For he then said he would recommend 
+     <lb/>
+     that proposal to the people of this 
+     <lb/>
+     Island. Therefore, it will be an act 
+     <lb/>
+     of folly on the part of the hon. mem<lb break="no"/>ber to go now, in the face of what he 
+     <lb/>
+     then did. Again,there is danger in 
+     <lb/>
+     reopening thc question, lest that in 
+     <lb/>
+     doing so we may lose what is now 
+     <lb/>
+     within our reach. The Canadian 
+     <lb/>
+     Ministry may withdraw a portion of 
+     <lb/>
+     what is now offered. My hon. col<lb break="no"/>league has satisfactorily shown, that 
+     <lb/>
+          
+           
+            <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">87</fw>
+            
+           
+     the people in the other Provinces 
+     <lb/>
+     resort to local taxation for internal 
+     <lb/>
+     improvements. Itis unreasonable, 
+     <lb/>
+     therefore, to suppose that conces<lb break="no"/>sions will be made to us for purposes 
+     <lb/>
+     which are not provided for in any of 
+     <lb/>
+     the Provinces by the General Gov<lb break="no"/>ernment. The hon. Mr. Pope said 
+     <lb/>
+     that the properties taken for Railway 
+     <lb/>
+     purposes were over valued 100 per 
+     <lb/>
+     cent. Now as chief man of the Rail<lb break="no"/>way Commissioners, in reply to that 
+     <lb/>
+     statement, I have simply to say, that 
+     <lb/>
+     the Commissioners who acted under 
+     <lb/>
+     the Government of the hon. member, 
+     <lb/>
+     when they were in office, valued forty 
+     <lb/>
+     properties taken for Railway purposes, 
+     <lb/>
+     situated in Charlottetown, George<lb break="no"/>town and Alberton, with lands adjoin<lb break="no"/>ing, including Station grounds, at 
+     <lb/>
+     $68,000. The present Commissioners 
+     <lb/>
+     examined seven hundred claims, which 
+     <lb/>
+     include several Stations, and for com<lb break="no"/>pensation have allowed nearly $120,<lb break="no"/>000. So that the former Government 
+     <lb/>gave more than half the amount to 
+     <lb/>forty of their friends, which the late 
+     <lb/>Government allowed for seven hun<lb break="no"/>dred claims. Therefore, I think the 
+     <lb/>hon. member has been misinformed on 
+     <lb/>the subject, or he would not have 
+     <lb/>made the statements he did. Now 
+     <lb/>let us consider the position we are in, 
+     <lb/>or would be in, if the Railroad was 
+     <lb/>now completed and in working order. 
+     <lb/>The interest on $3,250,000 or the 
+     <lb/>cost of construction at 6 per cent would 
+     <lb/>be                                               $195,000
+            </p>
+               
+               <!-- IC, 2018-08-17, untaggedTable commented out table to be marked-up at later date.-->
+               
+     <!--<lb/>Premium on remittance say 
+     <lb/>  2 percent,                                3,900 
+     <lb/>Estimated annual working 
+     <lb/>    expenses and repairs 
+     <lb/>  for first five years, at 
+     <lb/> $800 a mile, would 
+     <lb/>    amount to                        160,000 
+     <lb/>
+            </p>
+
+            <p>
+     Which, when added, brings 
+     <lb/>
+     up our annual expen<lb break="no"/>diture for Railway 
+     <lb/>
+     purposes to                    $358,900 
+     <lb/>-->
+            <p>
+    Now I contend that this Island will 
+     <lb/>
+          
+            <cb/>
+           
+     not supply: trade enough to raise any<lb break="no"/>thing like this amount, Tbe probable 
+     <lb/>
+     receipts would be say:— 
+     <lb/></p>
+               <!-- IC, 2018-08-17, untaggedTable commented out table to be marked-up at later date.-->
+    <!-- 200 passengers travelling 
+     <lb/>
+           daily 20 miles at 2  1/2 
+     <lb/>
+        cents per mile would 
+     <lb/>
+         yield an annual return of $30,000 
+     <lb/>
+     Freight might probably yield   
+     <lb/>
+         annually                          30,000 
+     <lb/> <lb/>.                                          $60,000 -->
+     <p> <lb/>This would leave $298,900 to be 
+     <lb/>provided for out of the general revenue 
+     <lb/>for interest and other debts on the 
+     <lb/>Railway. But suppose, for argument 
+     <lb/>sake, he allows that the earnings of 
+     <lb/>the road would be three times the 
+     <lb/>amount I have placed it at—whIch 
+     <lb/>even Mr. Boyd himself does not ad<lb break="no"/>mit—still the drain upon the Colony 
+     <lb/>for exchange to pay the interest 
+     <lb/>abroad, would bring ruin upon the 
+     <lb/>mercantile and other interests gener<lb break="no"/>ally of the Colony. Our taxes would 
+     <lb/>have to be increased to a large ex<lb break="no"/>tent, and this, I believe, the people 
+     <lb/>are not willing we should do. I am 
+     <lb/>desirous, therefore, that this House 
+     <lb/>should immediately accept the terms 
+     <lb/>offered, without losing any more time 
+     <lb/>about it. The hon. gentlemen who 
+     <lb/>were willing to accept the Quebec 
+     <lb/>terms, and the better terms of 1869, 
+     <lb/>have no just reason for refusing the 
+     <lb/>reasonable terms offered now for our 
+     <lb/>acceptance. No doubt the hon. mem<lb break="no"/>ber, the Leader of the Government, 
+     <lb/>wishes to adopt a course which he   
+     <lb/>may regard as his own. still I do not 
+     <lb/>believe the hon. member will insist 
+     <lb/>upon sending up another delegation. 
+     <lb/>He knows were he to do so, he would 
+     <lb/>meet with a defeat, and perhaps lose 
+     <lb/>the confidence of the House. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:HOWL2">Hon. Mr. HOWLAN</persName>.—Mr. Speaker, 
+     <lb/>
+     The question is whether we shall ac<lb break="no"/>cept the terms brought down by 
+     <lb/>
+    Messrs. Laird and Hawthorne, or ap<lb break="no"/>point another delegation, and seek for 
+     <lb/>better? In so far as this discussion 
+     <lb/>has proceeded, it is clear that to some 
+     <lb/>
+            
+            <pb n="1873-04-29_Page_088"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_088.jpg"/>
+          
+     <fw type="num">88</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw> 
+    
+           
+       extent, at least, one side has been<lb/>labouring to make a scapegoat of the<lb/>other. In order to see where the<lb/>truth lies in this matter, Mrs. Speaker,<lb/>it will perhaps be as well to investi<lb break="no"/>gate the matter somewhat closely. It<lb/>is said that the public affairs of the<lb/>Colony are in as good a position now<lb/>as they were when Mr. Pope's Gov<lb break="no"/>ernment went out of power. State<lb break="no"/>ments of this kind are easily made<lb/>and circulated, but when made in this<lb/>hon. House, where we have access to<lb/>proof lying in the archives of the pub<lb break="no"/>lic offices, we have it in our power to<lb/>
+           
+            <cb/>
+           
+           examine whether they are correct or 
+     <lb/>incorrect. I have publicly stated<lb/>that the Finances of the Colony are<lb/>not in as healthy a state as they were<lb/>when the Coalition Government went<lb/>out of power. When I made that<lb/>statement I was sure I was correct.<lb/>Since then I have examined into the<lb/>matter, and find that such is the case.<lb/>I have drawn out a comparative state<lb break="no"/>ment of the public assets in the Trea<lb break="no"/>sury, on changes of Government in<lb/>the years 1872 and 1873, which is<lb/>copied from the Auditor's certificate.<lb/>
+            </p>
+   
+            <!-- IC, 2018-08-17, untaggedTable commented out table to be marked-up at later date.-->
+           <!-- <p>
+     
+       Balance on hand as follows:- 1872     1873 
+     <lb/>Land Assessment, $2,086,05    $3,782,70<lb/>Of surplus money from Land Assessment sales,  789,71    789,71<lb/>                                                                        -\-\-\-\-\-\-\-\-\-\-\-     -\-\-\-\-\-\-\-\-\-\-\- <lb/>                                                                    $2,875,76       $4,572,41 <lb/>Then we have cash in the Bank of P.E. Island,    $10,251,11       $7,026,99<lb/>Then we have cash in the Union Bank,   5,096,03        3,591,61<lb/>Then we have cash in the Merchant's Bank,   7,522,47         9,058,74<lb/>                                                                 -\-\-\-\-\-\-\-\-\-\-\-      -\-\-\-\-\-\-\-\-\-\-\- <lb/>                                                            $22,869,61        $19,677,34 <lb/>Cash Balance in hand of Treasurer for pay<lb break="no"/>ment of School Masters, under Act 33,<lb/>Vic. cap. 11,                                           $1,080,92         $1,163,55<lb/>                                                          -\-\-\-\-\-\-\-\-\-\-\-\-          -\-\-\-\-\-\-\-\-\-\-\-\- <lb/>                                                           1872                  1873 <lb/>A recapitulation of which is Cash in Treasury,     $2,875,76        $4,572,41<lb/>Cash in Banks,                                                        22,869,61          19,677,34<lb/>School money in hand,                                       1,080,92           1,163,55<lb/>                                                                      -\-\-\-\-\-\-\-\-\-\-\-       -\-\-\-\-\-\-\-\-\-\-\-\- <lb/>                                                               26,826,29       25,413,30 <lb/> <lb/>
+            </p>-->
+   
+            <p>
+     Showing a cash balance of $1,412,<lb break="no"/>99 in favour of Mr. Pope's Government,<lb/>as audited on change of administration<lb/>in each year. Then again we have<lb/>the matter of Warrants on the 31st<lb/>January, 1872, the Warrants afloat in<lb/>round numbers amounted to $71,527.<lb/>At the same date in 1873, viz: Janu<lb break="no"/>ary 31st, there were Warrants afloat<lb/>amounting to $115,799; showing that<lb/>in one year the late Government added<lb/>$44,272 to the debt of the country in<lb/>the extra number of Warrants they<lb/>issued. While the Warrants afloat,<lb/>when Mr. Pope went out of power,<lb/>
+           
+            <cb/>
+           
+     amounted to $71,527, yet the issue 
+     <lb/>of these ran over from the year 1840<lb/>to that of 1871; many of which, no<lb/>doubt, would have been called in had<lb/>he reamined in office. But the late<lb/>Government have added to our debt<lb/>$44,172 by fresh issues in one year.<lb/>This, I contend, is a bad policy. to<lb/>have our paper afloat at an interest of<lb/>6 per cent when there was no occasion<lb/>for it, was a foolish policy for any<lb/>men calling themselves statesmen and<lb/>financiers to adopt. They say they<lb/>have placed to the credit of the Island,<lb/>in London, £6,000; but how did they<lb/>
+           
+            
+           <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">89</fw>
+            
+          obtain this? Money does not fall<lb/>down at our feet like rain or snow;<lb/>nor is it likely they had any more<lb/>facilities for obtaining money than<lb/>were common to other Governments.<lb/>The Government of Mr. Pope as they<lb/>obtained cash in the treasury at all<lb/>available for such a purpose, used it<lb/>for paying off the Warrants that were<lb/>out as they called them in, and in this<lb/>way would soon have had none afloat<lb/>at all! But the wise financiers of the<lb/>late Government take £ 6,000 and<lb/>send it to London, there to lie for six<lb/>months without yielding any interest<lb/>while they continue to issue fresh<lb/>Warrants. Yet such wa sthe states<lb break="no"/>manship which seemed to have been<lb/>pursued with the obvious intention of<lb/>forcing Confederation upon us by<lb/>bringing odium upon our public se<lb break="no"/>curities. The hon. member, the<lb/>Leader, of the Opposition said last<lb/>night, that he did not blame the con<lb break="no"/>tractors. This is a strange assertion<lb/>for the hon member to make now.<lb/>Why, Sir, last year I could scarcely<lb/>mention the name of these gentlemen<lb/>to any one who was a subscriber to his<lb/>paper.Now the man who derided<lb/>them last year, who persuaded the<lb/>people, by means of what was written,<lb/>published and said, that they were<lb/>hardly fit to be admitted into our<lb/>houses, now sees nothing wrong about<lb/>them. And as for the Chief Engineer,<lb/>Mr. Boyd, why he is now the most<lb/>excellent man of the lot. But the<lb/>hon. member says, Oh! I never said<lb/>one word against them. But now<lb/>like the snow, their false charges<lb/>against these men have all passed<lb/>away. Well, after all thier charges<lb/>against these me, it is refreshing to<lb/>notice that in heir estimation there<lb/>are now no men worthy of their con<lb break="no"/>fidence, as contractors, but Schrieber<lb/>and Burpee. Why, at one time the<lb/>people at large would have been so<lb/>suspicious if a second contract had<lb/>been given to those men by Mr.<lb/>Pope's Government, I believe an Act<lb/>
+            
+            <cb/>
+           
+     of Parliament would have been first       
+               <lb/>necessary for changing their names<lb/>before it could have been done. But<lb/>this aside, I deny that the Tender of<lb/>Messrs. Schrieber and Burpee was<lb/>the lowest. Nor do I admit that the<lb/>Government had any right to allow<lb/>them to lower their Tenders, (hear)<lb/>If that privilege was given to one party<lb/>they had no right to withhold it from<lb/>another, Why was it that the 31st<lb/>of December was allowed to come<lb/>before the contract was let, or a ten<lb break="no"/>der accepted? The only reason as<lb break="no"/>signed, so far, has been that the<lb/>surveys were not completed; but<lb/>they are not completed yet. The<lb/>true reason appears to be that they<lb/>were simply trying to see if they<lb/>could not get rid of building the<lb/>branch lines altogether. This was<lb/>one of the political horses they rode<lb/>into power on, and yet if they could,<lb/>at the time, have strangled him and<lb/>caused his death, it is quite clear they<lb/>would have done so. Mr. Pope's<lb/>Government gave O'Brien three<lb/>weeks to re-consider his offer; they<lb/>did not give any of the gentlemen<lb/>who had tendered one hour. And,<lb/>with respect to time, they had the<lb/>regulating of the matter in their own<lb/>hands, and if they had not time to<lb/>allow any such considerations to<lb/>gentlemen who sent in Tenders, the<lb/>fault was their own. But the fact<lb/>was, <hi rendition="simple:italic">at that late hour</hi> they were glad<lb/>to make the best bargain they could<lb/>with Schrieber and Burpee, who were<lb/>then the masters of the situation,<lb/>much more than the Government was.<lb/>When asked why the price per mile<lb/>on the branches is so much higher<lb/>than was allowed on the main line,<lb/>we were told that there are broad<lb/>rivers to cross,a nd very large and<lb/>costly bridges to build on the branch<lb/>lines; the cost of which will exceed<lb/>anything on the main line, Their<lb/>next reason is, that iron bus risen in<lb/>price. Wuth wonderful forthought<lb/>they next tell us they have<lb/>
+         
+            <pb n="1873-04-29_Page_090"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_090.jpg"/>
+            <fw type="num">90</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+          
+     arranged that the sleepers .on the 
+     <lb/>
+     branches are to be of juniper and 
+     <lb/>
+     cedar. Now what are the facts? On 
+     <lb/>
+     the eastern line juniper is easier to be 
+     <lb/>
+     had than any other wood suitable for 
+     <lb/>
+     that purpose, while in the west cedar 
+     <lb/>
+     for such a purpose is more abundant 
+     <lb/>
+     than juniper or spruce in the vicinity 
+     <lb/>
+     of the line. In all they have done, that 
+     <lb/>
+     had the shadow of consistency about 
+     <lb/>
+     it, they have been merely walking in 
+     <lb/>
+     the footprints of their predecessors; 
+     <lb/>
+     and whereverthey have not done that, 
+     <lb/>
+     they bungled all they undertook. 
+     <lb/>
+     Then as regards locating the line, 
+     <lb/>
+     Mr. Pope's Government ran the line, 
+     <lb/>
+     but the contractors had to pay for it; 
+     <lb/>
+     but Mr. Haythorne's Government 
+     <lb/>
+     located the branch lines at the ex<lb break="no"/>pense of the country, which was a large 
+     <lb/>
+     item of cost in favor of the contractors. 
+     <lb/>
+     Well, why did they thus act? Last 
+     <lb/>
+     year they were heaven-born Engi<lb break="no"/>neers, and were not going to have any 
+     <lb/>
+     crooks in the line. But now when 
+     <lb/>
+     the result of their engineering has 
+     <lb/>
+     been tested, it appears there is more 
+     <lb/>
+     curvature on the branches than there 
+     <lb/>
+     is on the main line. It is admitted 
+     <lb/>
+     all round that they could not have got 
+     <lb/>
+     into Souris without curves, but last 
+     <lb/>
+     year the same hon. member maintained 
+     <lb/>
+     that it was possible to get to Summer<lb break="no"/>side without departing from a straight 
+     <lb/>
+     line, or one nearly so. The country 
+     <lb/>
+     was quite level when Mr. Pope was 
+     <lb/>
+     in power, but became wonderfully 
+     <lb/>
+     rough when the hon. member for Bel<lb break="no"/>fast took charge of the ship of State. 
+     <lb/>
+     The hon. member, the Leader of the 
+     <lb/>
+     Opposition, taunts this side because 
+     <lb/>
+     some of us having ran our election 
+     <lb/>
+     against Confederation, are now in 
+     <lb/>
+     favor of it. Does the hon. member 
+     <lb/>
+     forget that when he ran his election in 
+     <lb/>
+     Belfast, he told the people he was 
+     <lb/>
+     going to knock the Railway on the 
+     <lb/>
+     head ? 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:LAIR2">Mr. LAIRD</persName>.—I wish I had. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:HOWL2">Hon. Mr. Howlan</persName>, -- yet the hon. 
+     <lb/>
+     member, after getting returned and 
+     <lb/>
+     finding that he would not be sup<lb break="no"/>
+            
+            <cb/>
+       ported by a following, that would 
+     <lb/>
+     enable him to be retained in power, 
+     <lb/>
+     falsified all those promises which he 
+     <lb/>
+     made to the people of his district, and 
+     <lb/>
+     agreed to go in for the immediate con<lb break="no"/>struction of the Branch lines.  Was it 
+     <lb/>
+     possible for any man to act more in<lb break="no"/>consistently? And oh! if they could 
+     <lb/>
+     have succeeded a week or two ago, in 
+     <lb/>
+     getting Hon. Mr. Haviland to forfeit 
+     <lb/>
+     his allegiance to his political friends, 
+     <lb/>
+     they would only have been too glad 
+     <lb/>
+     to have had the opportunity of ap<lb break="no"/>pointing him for their Leader. Why, 
+     <lb/>
+     in a caucus which they held, so sure 
+     <lb/>
+     did they feel about obtaining the con<lb break="no"/>sent of the hon. member for George<lb break="no"/>town, that it is reported they actually 
+     <lb/>
+     appointed him their Leader. But in 
+     <lb/>
+     this as in other of their scheming de<lb break="no"/>vices they found themselves disap<lb break="no"/>pointed.   
+     <lb/>
+            </p>
+
+            <p>
+     I will now endeavour to show how 
+     <lb/>
+     the late government destroyed the 
+     <lb/>
+     public credit of the colony. I will 
+     <lb/>
+     notice first in the list of their expen<lb break="no"/>diture that of printing for 1872: 
+     <lb/>
+            </p>
+   
+            <!-- IC, 2018-08-17, untaggedTable commented out table to be marked-up at later date.-->
+            <!--<p>
+     First general disbursements, $736.68 
+     <lb/>
+    Printing and stationery,       936.68 
+     <lb/>Printing, ,                                 747.43 
+     <lb/>Election Printing,                 329.08 
+     <lb/>Public printing and stationery, 8548.79 
+     <lb/>  
+     <lb/>                                               $11,308.60--> 
+            <p>
+     <lb/>When they found the matter in one 
+     <lb/>department of the public service run<lb break="no"/>ning up so high they appear to have 
+     <lb/>been ashamed of themselves.  In 
+     <lb/>order, therefore. to hide their folly, 
+     <lb/>and conceal from the public eye, their 
+     <lb/>extravagance, they allowed some of 
+     <lb/>the accounts to lay over until the close 
+     <lb/>of the financial year. Hence the fol<lb break="no"/>lowing have to be added to the ex<lb break="no"/>penditure of the past financial year for 
+     <lb/>Printing, &amp;c. :—</p>
+               
+            <!-- IC, 2018-08-17, untaggedTable commented out table to be marked-up at later date.-->
+           <!--<p>
+     <lb/> <lb/>Printing Report of the Geolog<lb break="no"/>ical Survey,                   $885.90 
+     <lb/>Printing legal decision,     813.16 
+     <lb/>Printing Taylor's Book on use   
+     <lb/>  Mussel Mud,              162.22 
+     <lb/>
+            </p>-->
+          
+           
+     <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">91</fw>   
+    
+            <!-- IC, 2018-08-17, untaggedTable commented out table to be marked-up at later date.-->
+           <!-- <p>To which we have to add for<lb/> Printing and stationery since<lb/>the close of financial year   3, 222.81<lb/>Shewing an expenditure up to<lb/>  the first of February of $15, 392.75<lb/> <lb/>
+            </p>
+            <p>Now if we compare this with the<lb/>amount expended as it appears in the<lb/>public accounts we find the gross ex<lb break="no"/>penditure as per public accounts for<lb/>the financial year of 1872 - 3 to<lb/>      be                              $385, 881.38                       <lb/>Spent since by warrant,$60, 723.89<lb/>  "     "              in money      42, 396.00 <lb/>    Total                          $489, 001.27 <lb/>
+            </p>-->
+            
+            
+            <p> To which we have to add money <lb/>borrowed with the interest which has<lb/>accrued thereon, which will bring up<lb/>the expenditure for a little more than<lb/>one year nearly to $500,000. Is it<lb/>any wonder that our public credit has<lb/>suffered.  I take exception to the <lb/>gentleman whom they sent to negotiate<lb/>for the sale of our debentures. Not,<lb/>Sir, from any disrespect I have per<lb break="no"/>sonally to that gentleman, but because<lb/>that in my opinion he was unfit for <lb/>such a mission, as the result has<lb/>proved. Any man sent on such a <lb/>mission, who would on the credit of <lb/>the Colony give his own note signed<lb/>Albert Hensley, for $25.000 payable<lb/>with interest at 7 1/2 per cent, leaving<lb/>also as collateral security Debentures<lb/>amounting to $28,000, betrayed his <lb/>incapacity for the duties of his mission<lb/>from a business stand point of view, he<lb/>disgraced himself, the government, and<lb/>the Island. Perhaps he may have to<lb/>pay the note himself. (Laughter.)<lb/>After borrowing the money this won<lb break="no"/>derful financier then buys exchange<lb/>here for cash which they remit in ad<lb break="no"/>vance to London in full to pay interest<lb/>which will not become due until June.<lb/>Truly he was a worthy representative<lb/>of the most inbecile and as business<lb/>men, most incompetent Government<lb/>which ever ruled the destinies of this<lb/>Colony. Indeed it would appear as if <lb/>Hon. Mr. Haythorpe, became a little<lb/>
+           
+            <cb/>
+           
+     suspicious of the ability of his agent 
+     <lb/>
+     and determined to take the matter 
+     <lb/>
+     into his .own hands, for we find him 
+     <lb/>
+     telegrapbing to Mr. Albert Hensley 
+     <lb/>
+     on December 13, 1872 telling him to 
+     <lb/>
+     remain a few days. Then sending 
+     <lb/>
+     one to Mr. Gray making enquiries 
+     <lb/>
+     respecting him. On Dec. 16th he 
+     <lb/>
+    telegraphs to Hensley again informing 
+     <lb/>him that they had sold to Peaks 
+     <lb/>Brothers $2,500 of Debentures at par. 
+     <lb/>By this time Mr. Haythornc appears 
+     <lb/>to have thought it was time for lntn to 
+     <lb/>leave Montreal and move homewards. 
+     <lb/>Hence on Dec. 23 he telegraphs again 
+     <lb/>—" Return and take advance of $25,<lb break="no"/>000 at 7 1/2 per cent for six: months," 
+     <lb/>Then next day Dec. 24th " take $25,<lb break="no"/>000 on those terms." On the 30th 
+     <lb/>Dec. commands him to return, and 
+     <lb/>states " several have been sold here at 
+     <lb/>par." I think by this time the wires 
+     <lb/>were getting warm, while the opera<lb break="no"/>tors must have felt aroused at the 
+     <lb/>anxiety of the government for the 
+     <lb/>return of their experienccd Bank 
+     <lb/>Clerk. No doubt he had a good time, 
+     <lb/>and had no wish to return until he had 
+     <lb/>fully enjoyed himself. But after 
+     <lb/>tclegraphing after him to Montreal and 
+     <lb/>St. John they at last got him home, 
+     <lb/>and the result of his mission we all 
+     <lb/>know in the discredit it brought upon 
+     <lb/>the Colony. The Delegation cost 
+     <lb/>$386, and all he did was to secure the 
+     <lb/>loan of $25,000 at 7 1/2 per cent and 
+     <lb/>pledged as I said before $26,000 as 
+     <lb/>Collateral Security.
+     <lb/>
+            </p>
+   
+    
+
+            <p>
+     The per centagc of cost on the loan 
+     <lb/>
+     stands thus,— 
+     <lb/>
+            </p>
+   
+            <!-- IC, 2018-08-17, untaggedTable commented out table to be marked-up at later date.-->
+            <!--<p>
+     Cost of Delegation 1 1/2: per cent. 
+     <lb/>
+    " Sending to Halifax  half per cent 
+     <lb/>" Paid for money for 
+     <lb/>four months 2 1/2 per cent  
+     <lb/>" For Sterling Exchange 1 1/2 per cent 
+     <lb/>Less Sale Exchange 
+     <lb/>here and in Halifax  half per cent 
+     <lb/>On Debentures 5 1/2  per cent 
+            </p>-->
+               
+               <p>
+     <lb/>Whilst at home our Debentures were 
+     <lb/>sellng at par. In three months they 
+     <lb/>spent-$100,000, and the only reason 
+     <lb/>why the public accounts have been 
+     <lb/>
+            </p>
+            <pb n="1873-04-29_Page_092"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_092.jpg"/>
+            <fw type="num">92</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            <p>
+     kept back is simply   because they 
+     <lb/>
+     thought to manipulate the colony into 
+     <lb/>
+     Confederation in a. quiet way. Hence 
+     <lb/>
+     they pursued their dash away policy to 
+     <lb/>
+     the end. But, .Sir, they have found 
+     <lb/>
+     that; 
+     <lb/>
+            </p>
+
+            <quote rendition="tccd:blockquote">
+     "The best laid schemes of men and 
+     <lb/>
+    mice gang aft a glee." 
+     <lb/>
+            </quote>
+
+    
+   
+            <p>
+     Equally absurd was their conduct. 
+     <lb/>
+    when they brought the New York 
+     <lb/>Engineers to the Island. The Tele<lb break="no"/>graph Wires had then also to be freely 
+     <lb/>used. Instructions were given for the 
+     <lb/>hon. Mr. Muirhead to meet them at 
+     <lb/>one place, and to Mr. Sinclair to wait 
+     <lb/>upon them in another. I don't think 
+     <lb/>Mr. Muirhead travels much for pleas<lb break="no"/>ure,and we have fair reason to as<lb break="no"/>sume all this care to preserve those 
+     <lb/>gentlemen from outside contamination, 
+     <lb/>while on the Island, was not done for 
+     <lb/>nothing, but inasmuch as they did not 
+     <lb/>prevent them from testing Pope's 
+     <lb/>champagne, it shows their duties were 
+     <lb/>not performed according to the strict 
+     <lb/>letter of Mr. Haythorne's instructions, 
+     <lb/>(langhter.) I merely mention these 
+     <lb/>matters to shew the singular and dis<lb break="no"/>graceful manner. in which, as a Gov<lb break="no"/>ernment. they managed every affair 
+     <lb/>they undertook, and the sure and 
+     <lb/>certain way they took of bringing the 
+     <lb/>Island into disrepnte. The hon. mem<lb break="no"/>ber, the Leader of the Opposition, 
+     <lb/>(Mr. Laird) says, that when we are 
+     <lb/>allowed to go into union with Canada, 
+     <lb/>with a debt af $45 a head, our posi<lb break="no"/>tion is better than it was in 1866. 
+     <lb/>This I do not believe. At that date 
+     <lb/>they placed their indebtedness at £25 
+     <lb/>per head. Since then they have be<lb break="no"/>come largely indebted for costly public 
+     <lb/>undertakings. The Intercolonial is 
+     <lb/>among these, and it is not yet finished, 
+     <lb/>and besides there are other great im<lb break="no"/>provements which have been carried 
+     <lb/>forward at great expense to the Do<lb break="no"/>minion, to say nothing of the Pacific, 
+     <lb/>and other works which are sure to be 
+     <lb/>undertaken at no distant day. Our 
+     <lb/>imports have been $1,605,244, and 
+     <lb/>the duty collected $302,757, equal to 
+     <lb/>
+           
+            <cb/>
+          
+     about $5.80 per head; while that in 
+     <lb/>
+     the Dominion according to Mr. Tilley, 
+     <lb/>
+     is $9.40;.and hence we shall, if we 
+     <lb/>
+     enter the union on these terms, have 
+     <lb/>
+     to make that difference good, either 
+     <lb/>
+     directly or indirectly. And I am not 
+     <lb/>
+     one of those who believed that our 
+     <lb/>
+    "people will consume less_' dutiable 
+     <lb/>
+     goods, according to the. number of our 
+     <lb/>
+     people, than they will in any other 
+     <lb/>
+     part of the Dominion; I will now 
+     <lb/>
+     come to the Terms. At the time of 
+     <lb/>
+     the election in my part of the country, 
+     <lb/>
+     at least, we had nothing but hearsay 
+     <lb/>
+     evidence upon which to ground a con<lb break="no"/>clusion. And perhaps if they had 
+     <lb/>
+     then, as they have since, been placed 
+     <lb/>
+     properly before the people, there might 
+     <lb/>
+     not have been so much opposition to 
+     <lb/>
+     them. Although I am still of the 
+     <lb/>
+     opinion that they fall short of what 
+     <lb/>
+     we will require, and are entitled to 
+     <lb/>
+     receive. There is, however, one point 
+     <lb/>
+     which appears to have been overlooked 
+     <lb/>
+     and that is the one which refers to 
+     <lb/>
+     our Fisheries. Next month the Com<lb break="no"/>mission will sit. The Americans have 
+     <lb/>
+     received more than the Dominion al<lb break="no"/>ready, and unless our interests are 
+     <lb/>
+     closely looked after we will receive 
+     <lb/>
+     but little. The American Govern<lb break="no"/>ment entered into an agreement three 
+     <lb/>
+     years ago with the Government here 
+     <lb/>
+     and, on certain conditions being com<lb break="no"/>plied with by us, they promised to re<lb break="no"/>mit duties paid by traders here on 
+     <lb/>
+     fish, which passed through their Cus<lb break="no"/>tom House. But when asked to fulfil 
+     <lb/>
+     their part of the compact, they repu<lb break="no"/>diated the claim altogether. I fee1 
+     <lb/>
+     therefore, that this is an important 
+     <lb/>
+     matter, and one that should not be lost 
+     <lb/>
+     sight of. The Telegraph Lines here 
+     <lb/>
+     belong to a private company. When 
+     <lb/>
+     the Railroad is in operation it will 
+     <lb/>
+     require to be connected with the line 
+     <lb/>
+     at different points. Hence this mat<lb break="no"/>ter must of necessity be attended to at 
+     <lb/>
+     once. And hence I must conclude 
+     <lb/>
+     that if we fail unanimously to use our 
+     <lb/>
+     influence to have these and other 
+     <lb/>matters arranged before we enter,<lb/>
+     
+        
+         <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">93</fw>
+          
+        
+     those who will vote against us in this<lb/>matter will yet feel that they did<lb/>wrong. Especially when we find that <lb/>we cannot carry on the business of<lb/>the country with this amount in the<lb/>Terms brought down. The fact ap<lb break="no"/>pears to be, the late Government were<lb/>in such hot haste to close up the mat<lb break="no"/>ter that I believe they forgot all about<lb/>many questions which should not have<lb/>
+    been overlooked. I am told the learn<lb break="no"/>ed and hon. member for Murray Har<lb break="no"/>bor stated that he had no hesitation in<lb/>saying that the School Question had 
+     <lb/>been before the people at the late 
+     <lb/>election instead of Confederation , If 
+     <lb/>so, it was raised by themselves. And<lb/>on that and other questions their fears 
+     <lb/>were so exerciséd that all   kind of 
+     <lb/>influences were brought forward in 
+     <lb/>order that the weak and tottering 
+     <lb/>foundations of their party might be 
+     <lb/>supported. meetings  were held in 
+     <lb/>St. Paul's School Room,   a circular 
+     <lb/>was addressed to all whom it concern<lb break="no"/>ed, and surely no one wiIl say now 
+     <lb/>that any object was expected to be 
+     <lb/>gained by this, but maintaining, if 
+     <lb/>possible, the late party in  power. 
+     <lb/>Away with such arguments.  They 
+     <lb/>come with a peculiarly bad grace from 
+     <lb/>the learned member for Murray Har<lb break="no"/>bor, who, if he rode into his seat here 
+     <lb/>thinks hon. members on this side did 
+     <lb/>the same.  We are not, Sir, to be led 
+     <lb/>away by any   such arguments from the 
+     <lb/>question before us.   I believe {hat in 
+     <lb/>view of the damaged public credit of 
+     <lb/>Colony, Confederation or a large<lb/>increase of taxation is inevitable. <lb/>Nor is this all. If we accept the 
+     <lb/>Terms brought down by Messrs. Laird<lb/>and Haythorne, direct taxation will<lb/>immediately, or very soon, have to be<lb/>resorted to. In New Brunswick the <lb/>Lieut. Governor came down with a de<lb break="no"/>mand, in the Speech from the Throne, 
+     <lb/>for better Terms.  But there the<lb/>Dominion door had been closed, and 
+     <lb/>they may find that a loud and long 
+     <lb/>
+            <cb/>
+       
+     
+     continued knock will be required be<lb break="no"/>fore it is again opened. The Gover<lb break="no"/>nor of that Province said that better<lb/>Terms is now a necessity.  None, I<lb/>
+    presume, will suppose he did not know<lb/>what he was speaking about, and from<lb/>the five years experience of New <lb/>Brunswick in the Dominion, we<lb/>should learn a lesson. Why, Sir, the<lb/>people will blame us if we do not at<lb break="no"/>tempt to obtain a more favourable <lb/>arrangement from the Dominion Gov<lb break="no"/>ernment than what has been promised 
+     <lb/>the late delegates. For my part I 
+     <lb/>feel bound, for one, to support a reso<lb break="no"/>lution in favor of making the attempt. 
+     <lb/>I firmly believe if such a resolution is 
+     <lb/>well sustained by the House we shall 
+     <lb/>succeed in obtaining substantially far 
+     <lb/>better Terms. If so, then we may 
+     <lb/>enter side by side with the sister Pro<lb break="no"/>vinces, and I have no fear but that 
+     <lb/>our people will succeed in the race for 
+     <lb/>success as well as they. will. But if 
+     <lb/>we enter on Terms which will  neces<lb break="no"/>sitate us to resort to direct taxation 
+     <lb/>immediately, we shall then lay the 
+     <lb/>basis of a discontent that may prove 
+     <lb/>most disastrous in its results. Rather 
+     <lb/>let us insist upon Terms that wlll be 
+     <lb/>just and satisfactory to our people at 
+     <lb/>large. If we do so our success   as a 
+     <lb/>Colony is sure, otherwise it will be 
+     <lb/>greatly marred.  I  do not agree  that 
+     <lb/>building the Railway necessarily 
+     <lb/>brought about Confederation It is 
+     <lb/>all very well for those who saw such 
+     <lb/>a result, through the blaze of the bon<lb break="no"/>fires when the measure was carried; 
+     <lb/>and it was very well for the party who 
+     <lb/>said this when they came into power 
+     <lb/>to try and make their predictions 
+     <lb/>good, by the gross mismanagement of 
+     <lb/>the affairs of the Colony.  I do not, 
+     <lb/>however, agree with the opinion that<lb/>Confederation was a necessary result<lb/>of such a measure.  But for agrument 
+     <lb/>sake assuming such to be the case, the 
+     <lb/>  Premier of the late Government was 
+     <lb/>not opposed to the undertaking as the 
+     <lb/>following proves:<lb break="no"/>
+            </p>
+            <pb n="1873-04-29_Page_094"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_094.jpg"/>
+            <fw type="num">94</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            
+            
+         
+            <p>The following preamble and resolu<lb break="no"/>tion was allowed at a public meeting in<lb/>town by the Hon. R. P. Haythorne,<lb/>Marshfield, seconded by Owen Con<lb break="no"/>noly, Esq., Charlottetown, was agreed<lb/>to almost unanimously:<lb/>
+            </p>
+   
+            <quote rendition="tccd:blockquote">
+     
+     "<hi rendition="simple:italic">Whereas</hi> the agricultural products 
+     <lb/>
+     of Prince Edward Island, her foreign 
+     <lb/>
+     and domestic trade, her fisheries, her 
+     <lb/>
+     population. her public revenue, as well 
+     <lb/>
+     as the general wealth of the people, 
+     <lb/>
+     have, by the blessing of Providence, 
+     <lb/>
+     largely increased of late years; and 
+     <lb/>
+     whereas it has become absolutely 
+     <lb/>
+     necessary that the means of transport 
+     <lb/>
+     betweenall parts of the Island should 
+     <lb/>
+     be facilitated, and as far as possible 
+     <lb/>
+     rendered certain at all seasons. 
+     <lb/>
+            </quote>
+   
+            <quote rendition="tccd:blockquote">
+               "<hi rendition="simple:italic">Therefore, Resolved</hi>, That pro<lb break="no"/>perty of all classes in the Island, and 
+     <lb/>the value of property, would be greatly 
+     <lb/>advanced by the constructing of a 
+     <lb/>Trunk Line of Railway, connecting 
+     <lb/>Alberton, Summerside, Charlottetown, 
+     <lb/>and Georgetown with each other." 
+     <lb/>
+            </quote>
+   
+            <p>
+     Here are the deliberately expressed 
+     <lb/>
+     views of hon. Mr. Haythorne, which, 
+     <lb/>
+     when contrasted with his subsequent 
+     <lb/>
+     conduct, does not place him in an 
+     <lb/>
+     enviable position as a public man. 
+     <lb/>
+     Had hon. Mr. Pope pursued so tor<lb break="no"/>tuous a course we would never hear 
+     <lb/>
+     the last of it. This resolution went 
+     <lb/>
+     forth through the country, and in 
+     <lb/>
+     reading it who could come to any con<lb break="no"/>clusion but that that gentleman was an 
+     <lb/>
+     out and out Railway man. But when 
+     <lb/>
+     he found local influences in his dis<lb break="no"/>trict against him, he came down to 
+     <lb/>
+     the level of a mere delegate for a 
+     <lb/>
+     small locality, and opposed the mea<lb break="no"/>sure. He even drove in the same 
+     <lb/>
+     sleigh with Mr. Pepe, and gave him 
+     <lb/>
+     to understand that he would support 
+     <lb/>
+     the undertaking. But after coming to 
+     <lb/>
+     Charlottetown and consulting with a 
+     <lb/>
+     few anti-Railway men, and moreover 
+     <lb/>
+     finding himself not likely to get into 
+     <lb/>
+    power soon, he, in his place in the 
+     <lb/>Legislative Council, opposed the whole 
+     <lb/>thing, declaring that he would consent 
+     <lb/>
+          
+            <cb/>
+          
+     to no such public undertaking until 
+     <lb/>
+     the land question was first settled. 
+     <lb/>
+     But mark you, when the hon. Mr. 
+     <lb/>
+     Haythorne became Leader of a Gov<lb break="no"/>ernment, he all at once cast his opini<lb break="no"/>ons, respectingthe settlement of the 
+     <lb/>
+     land question, to the wild winds of 
+     <lb/>
+     Marshfield, and as a relief for such an 
+     <lb/>
+     ejection of sentiment, swallowed sixty 
+     <lb/>
+     miles more of a Railroad. As for the 
+     <lb/>
+     hon. member, the Leader of the Op<lb break="no"/>position, he now comes forward and 
+     <lb/>
+     says he never said or published a 
+     <lb/>
+     word against the Premier or the 
+     <lb/>
+     learned Attorney General. This is 
+     <lb/>
+     of a piece with the conduct of the 
+     <lb/>
+     Leader of the late Government in re<lb break="no"/>gard to fulfilling his promise respect<lb break="no"/>ing the Report of the New York 
+     <lb/>
+     Engineers. Oh! with respect to this, 
+     <lb/>
+     hon. Mr. Haythorne is as silent as the 
+     <lb/>
+     grave. They created an excitement 
+     <lb/>
+     in the country against Mr. Pope's 
+     <lb/>
+     Government, Burpee and Schrieber 
+     <lb/>
+     and the Engineers, which was worse 
+     <lb/>
+     than a fire, for a fire can only destroy 
+     <lb/>
+     a man's property, which health and 
+     <lb/>
+     industry, and the blessings of Provi<lb break="no"/>dence, may again restore, but when 
+     <lb/>
+     you succeed in robbing any man or 
+     <lb/>
+     body of men of their public character, 
+     <lb/>
+     it may not, in all cases, be in the 
+     <lb/>
+     power of the injured party to recover 
+     <lb/>
+               it again. Last year the <hi rendition="simple:italic">Patriot</hi> 
+     <lb/>
+     searched diligently for telegrams, and 
+     <lb/>
+     in reference thereto made statements 
+     <lb/>
+     which were not correct. But Sir, 
+     <lb/>
+     these of the Pope Government were 
+     <lb/>
+     but a trifle compared with those of 
+     <lb/>
+     the late party. I might begin with 
+     <lb/>
+     the first public man in the Colony who 
+     <lb/>
+     voted for the Railroad, and end with 
+     <lb/>
+     the loudest in its favor, hon. H. Bell. 
+     <lb/>
+     and show up the inconsistency of their 
+     <lb/>
+     conduct as public men. But it would 
+     <lb/>
+     be but an expose of weak and mis<lb break="no"/>directed political conduct which failed 
+     <lb/>
+     in conferring seats in the Executive to 
+     <lb/>
+     those who sought them at so deara 
+     <lb/>
+     price as the sacrifice of political con<lb break="no"/>sistency. Afew were greatly exer<lb break="no"/>cised because a certain gentleman 
+     <lb/>
+           
+           
+     <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">95</fw> 
+   
+           
+   
+          
+     swallowed Fraser. But who swallow<lb break="no"/>ed the Irish hero whom the hon. and 
+     <lb/>
+     learned member for Murray Harbor 
+     <lb/>
+     so delighted, in the past, to honor? 
+     <lb/>
+     Alas for human applause, especially 
+     <lb/>
+     when it comes from the hon. member 
+     <lb/>
+     and his political friends. 
+     <lb/>
+            </p>
+
+            <p>
+     <persName ref="pers:DAVI3">MR. L. H. DAVIES</persName>.—Every hon. 
+     <lb/>
+     member of this House is desirous that 
+     <lb/>
+     this Colony should receive the very 
+     <lb/>
+     best Terms that can be obtained for a 
+     <lb/>
+     union with the Dominion of Canada. 
+     <lb/>
+     The hon. member for Alberton, (Mr. 
+     <lb/>
+     Howlan) has not, in his remarks, put 
+     <lb/>
+     forward a single statement in reference 
+     <lb/>
+     to the demand for better Terms from 
+     <lb/>
+     the Dominion Government, but has 
+     <lb/>
+     endeavored to prove the inconsistency 
+     <lb/>
+     of hon. Mr. Haythorne. I hold in my 
+     <lb/>
+               hand the <hi rendition="simple:italic">Parliamentary Reporter</hi> for 
+     <lb/>
+     1870, and in it I find that the hon. mem<lb break="no"/>ber himself made use oflanguage at that 
+     <lb/>
+     Session, identical with that of Mr. Hay<lb break="no"/>thorne, in reference to the construction 
+     <lb/>
+     of a Railway. The words used by 
+     <lb/>
+     the hon. member were as follows: 1 
+     <lb/>
+     see around those desks enough of the 
+     <lb/>
+     spirit of those who unfurled the old 
+     <lb/>
+     ting, whose determination is not to 
+     <lb/>
+     surrender up the constitution of the 
+     <lb/>
+     country into other bands until the 
+     <lb/>
+     portrait of the last landlord is hung up 
+     <lb/>
+     in the Legislative Library of the 
+     <lb/>
+     Island, as a memento of the past. 
+     <lb/>
+     Then, and not till then, will the differ<lb break="no"/>ent sections of the country be brought 
+     <lb/>
+     into closer communion with each other 
+     <lb/>
+     by the introduction of the iron horse, 
+     <lb/>
+     which could then run through one free 
+     <lb/>
+     farm—as it were—extending from the 
+     <lb/>
+     North Cape to the East Point, carry<lb break="no"/>ing the products of our thrifty and en<lb break="no"/>terprising farmers to the best markets. 
+     <lb/>
+     The scene changes, Mr. Speaker, and 
+     <lb/>
+     the hon. member introduces the Rail<lb break="no"/>way Bill against the wish of three-<lb break="yes"/>fourths of the people of this Island. 
+     <lb/>
+     What does the hon. member gain by 
+     <lb/>
+     endeavoring to show up the inconsist<lb break="no"/>encies of hon. gentlemen who stand 
+     <lb/>
+     equally as high in the estimation of the 
+     <lb/>
+           
+            <cb/>
+           
+     people as himself? The important 
+     <lb/>
+     ruestion before the House should be 
+     <lb/>
+     discussed in a manner free from all 
+     <lb/>
+     personalities and side issues. Hon. 
+     <lb/>
+     members on the Government side of 
+     <lb/>
+     the House entertain the idea that if 
+     <lb/>
+     they can show up the extravagant 
+     <lb/>
+     conduct of the late Government to be 
+     <lb/>
+     the cause of their accepting terms of 
+     <lb/>
+     Confederation, they will have a good 
+     <lb/>
+     and sufficient excuse for their change 
+     <lb/>
+     of base; but this they are utterly un<lb break="no"/>able to do. The hon. member for 
+     <lb/>
+     New London made an able effort this 
+     <lb/>
+     morning, and one which I believe will 
+     <lb/>
+     have its effect upon those hon. mem<lb break="no"/>bers who make those charges. That 
+     <lb/>
+     hon. member showed clearly that the 
+     <lb/>
+     expenditure for the past year, not with<lb break="no"/>standing the heavy demands upon the 
+     <lb/>
+     Treasury, did not exceed the Revenue. 
+     <lb/>
+     " But," says the hon. member for Tig<lb break="no"/>nish, " the late Government called in 
+     <lb/>
+     all the Warrants and issued a lot 
+     <lb/>
+     more." That hon. member knows that 
+     <lb/>
+     the Coalition Government called it 
+     <lb/>
+     the Warrants when they were in 
+     <lb/>
+     power, and paid them off with the 
+     <lb/>
+     money they obtained for Railway pur<lb break="no"/>poses. The hon member says that it 
+     <lb/>
+     is true the Coalition carried the Rail<lb break="no"/>way Bill, but the late Government 
+     <lb/>
+     came in and carried the Branch Bill 
+     <lb/>
+     which was the last straw that broke 
+     <lb/>
+     the camel's back, and that they are, 
+     <lb/>
+     therefore, responsible for the whole. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:HOWL2">Hon. Mr. HOWLAN</persName>.—I, myself 
+     <lb/>
+     voted for the Branches. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:DAVI3">MR. L. H. DAVIES</persName>.—You, at any 
+     <lb/>
+     rate, attempted to blame the late Gov<lb break="no"/>ernment for passing the Branch Blll. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:HOWL2">Hon. Mr. HOWLAN</persName>.—I said that a 
+     <lb/>
+     merchant might be in good credit all 
+     <lb/>
+     his life and at last become bankrupt. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:DAVI3">MR. L. H. DAVIES</persName>—The hon. 
+     <lb/>
+     member stated that the late Govern<lb break="no"/>ment sacrificed the interests of the 
+     <lb/>
+     country in carrying out the Branch 
+     <lb/>
+     lines, although he well knows that the 
+     <lb/>
+          
+            <pb n="1873-04-29_Page_096"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_096.jpg"/>
+            <fw type="num">96</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+           
+     construction of those lines formed the     
+     <lb/>policy of the Coalition when they went<lb/>out of power, and were by them de<lb break="no"/>clared to be necessary. In the first<lb/>Railway Bill, the Branches were to<lb/>be built in five years, but in the<lb/>Speech, at the opening of the six days'<lb/>session, it was stated that they were to<lb/>be built immediately. The hon. mem<lb break="no"/>ber says the late Government did as<lb/>he would have done, but that after all<lb/>they have sacrificed the best interests<lb/>of the country ! His actions in refer<lb break="no"/>ence to this matter are childish in the<lb/>extreme. Why was the Branch Bill<lb/>delayed till the last moment, last ses<lb break="no"/>sion ? Because the hon member op<lb break="no"/>posed the investment clauses it con<lb break="no"/>tained, with all the vehemence he<lb/>could bring to bear upon them. If<lb/>there was any delay, therefore, he must<lb/>shoulder the responsibility of it. He<lb/>declares the late Government spent<lb/>$20,000 on the public printing, while<lb/>the Coalition Government spent only<lb/>$11,000. I wonder why he attempts<lb/>to deceive people in that way, when<lb/>he knows that most of the money paid<lb/>for printing under the late Govern<lb break="no"/>ment went to pay for printing ordered<lb/>by the Coalition Government ! He<lb/>employed a Professor to make an<lb/>analysis of the mussel mud and order<lb break="no"/>ed the publication of his report, at a<lb/>very considerable cost. The printers<lb/>employed by the late Government<lb/>received but a paltry share of the<lb/>amount paid for public printing dur<lb break="no"/>ing the past year. The hon. member<lb/>assumed that Mr. Albert Hensley was<lb/>not fit for his mission to dispose of our<lb/>Debentures in the other Provinces ;<lb/>but everybody knows that gentleman<lb/>to be quite as competent as the hon.<lb/>member for Albert on. When the<lb/>hon. member was sent upon a delega<lb break="no"/>tion to Washington, his Premier was<lb/>obliged to recall him. In reference to<lb/>our finances, he says that our taxation<lb/>at present amounts to $3.28 per head,<lb/>while our outlays amount to over $4.<lb/>Well, if we remain out of Confedera<lb break="no"/>
+            
+            <cb/>
+           
+     tion, where are we going to be at that 
+     <lb/>rate ? He knows that the Revenue<lb/>received for last year would not carry<lb/>us half through the present one, and<lb/>that when the Trunk Railway and<lb/>Branches are completed, our taxation,<lb/>if we remain out of Confederation,<lb/>will be $6.20 per head, in order to<lb/>meet the demands upon the Colony.<lb/>This would be nearly $3 per head<lb/>above and beyond our present taxa<lb break="no"/>tion ; and I would like to know it<lb/>could be levied. Will it be believed<lb/>that when the hon. member came to<lb/>tell us what addition he wanted to the<lb/>present Terms, it came down to pro<lb break="no"/>vincial postage and some little items<lb/>about the fisheries ! I decline to form<lb/>part of that delegation, as I have some<lb/>little respect left for myself. In the<lb/>matter of fisheries, we shall be placed<lb/>in precisely the same position as the<lb/>other Provinces ; we shall have our<lb/>share of the sum allowed by the Do<lb break="no"/>minion Government, and cannot ask<lb/>more than that. It is our duty to look<lb/>after our interests and to endeavor to<lb/>get fair and reasonable Terms ; but<lb/>when we obtain them, we should be<lb/>satisfied. I shall now make a few re<lb break="no"/>marks in answer to those of the hon.<lb/>member for Summerside. From the<lb/>general tenor of his remarks I am<lb/>convinced the hon. member does not<lb/>know what addition to the present<lb/>Terms he is going to ask for. " I<lb/>cannot understand," he says, " how<lb/>we are to be the gainers by going into<lb/>Confederation, if Canada tariff is lower<lb/>than ours ?<lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:LEFU2">Hon. Mr. LEFURGY</persName>—I referred to 
+     <lb/>Mr. Laird's arguments in the morning,<lb/>and not to going into Confederation.<lb/>I said that we would lose, by adopting<lb/>the liquor tariff of the Dominion, if it<lb/>was lower than our own, while we <choice><sic>re<lb break="no"/>remain</sic><corr>remain</corr></choice> out of Confederation.<lb/>
+            </p>
+   
+            <p>
+     
+     
+     <persName ref="pers:DAVI3">Mr. L. H. DAVIES</persName>.—If the tariff 
+     <lb/>of the Dominion is lower than ours,<lb/>we would gain by entering Confedera<lb break="no"/>tion. There was an attempt made by<lb/>
+          
+            
+           <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">97</fw>
+           
+           
+            the hon. Leader of the Government,<lb/>in his speech, to show that a few little<lb/>items for Lighthouses, Drill Sheda<lb/>and Breakwaters, had not been pre<lb break="no"/>sented by the late delegation, and that<lb/>their value might still be conceded by<lb/>the Dominion Government. The<lb/>ground on which he bases his argu<lb break="no"/>ments in favor of those items is so<lb/>paltry and narrow, when compared<lb/>with the liberal Terms now before us,<lb/>that it seems almost ridiculous. He<lb/>declares that the Haythorne-Sinclair<lb/>Government so depreciated the credit<lb/>of the country, that it is beyond his<lb/>power to renew it. I deny it Sir. If<lb/>any act was done that tended to de<lb break="no"/>stroy the credit of the Colony, it was<lb/>the publication of a leading article in<lb/>the Islander newspaper, printed by the<lb/>Queen's printer of the Coalition Gov<lb break="no"/>ernment. The credit of the country<lb/>was as good when the late Govern<lb break="no"/>ment resigned, as when they came into<lb/>power. The hon. member for Sum<lb break="no"/>merside, (Mr. Lefurgy) stated that<lb/>the late Government squandered $10,<lb break="no"/>000 in changing the Summerside Sta<lb break="no"/>tion. This statement is altogether<lb/>untrue. He then charged them with<lb/>taking advantage of the country by<lb/>sending off the late delegation to Otta<lb break="no"/>wa. If they had acted in any other<lb/>way than they did, I would have op<lb break="no"/>posed them, for they adopted the only<lb/>proper course they could pursue under<lb/>the circumstances in which they were<lb/>placed, and have received the approval<lb/>of the people in reference to their<lb/>action. When I look across the<lb/>Straits and find that one of the<lb/>Provinces was almost in a state of open<lb/>rebellion, because the question of Con<lb break="no"/>federation was not submitted to the<lb/>people at the polls, I am perfectly<lb/>
+            
+            <cb/>
+           
+     satisfied that the late Government, in 
+     <lb/>submitting the question to the country<lb/>at a general election, took the only<lb/>proper and constitutional course they<lb/>could have adopted. The people were<lb/>the only tribunal who had the right to<lb/>decide the question whether they<lb/>should unite with the Dominion or not.<lb/>The great question was fully discussed<lb/>in every hamlet and schoolhouse in<lb/>the country, and there was hardly a<lb/>man who did not understand it in all<lb/>its bearings. The result of that elec<lb break="no"/>tion was that there is to-day, in this<lb/>House, only one man who opposes a<lb/>union with Canada, and he is not to<lb/>the fore, while the question is being<lb/>discussed. If the statement of the<lb/>hon. Leader of the Government is<lb/>correct, there is a great deal of force<lb/>in the position he takes, but I am fully<lb/>persuaded there is not the slightest<lb/>foundation for that statement. In his<lb/>figures, he charges, in the annual ex<lb break="no"/>penditure of this Colony, under Con<lb break="no"/>federation, the whole of the amount<lb/>expended last year by the Board of<lb/>Works. I am surprised at this, when<lb/>I look at his position. He knows that<lb/>several of the items which he has<lb/>charged against this Colony, under<lb/>Confederation, will be borne by the<lb/>Dominion. He should have deducted<lb/>those items from the $96,000 expended<lb/>by the Board of Works for 1872.<lb/>The Breakwaters will be taken charge<lb/>of by the Dominion under Confedera<lb break="no"/>tion, and, therefore, their annual cost<lb/>should also be deducted from our ex<lb break="no"/>penditure ; (Mr. Davies here quoted<lb/>from the following financial statement,<lb/>and compared the different items,<lb/>charges, %c., with the figures submitted<lb/>by the hon. Leader of the Govern<lb break="no"/>ment :—<lb/>
+            </p>
+   
+            <!-- IC, 2018-08-17, untaggedTable commented out table to be marked-up at later date.-->
+            <!--<p>
+     YEARLY LOCAL EXPENDITURE IN CONFEDERATION BASED ON THAT OF 1872: 
+     <lb/>Education,       $64,220.36 <lb/>Road Service, including Ferries, 18,658.00<lb/>Board of Works Expenditure in 1872, $96,405,88<lb/>Deduct following special items<lb/>New Law Courts, $19,348<lb/>Hospital, 100<lb/>
+            </p>-->
+            
+            
+            <pb/>
+            
+            <fw type="num">98</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            
+           <!-- IC, 2018-08-17, image not included, table to be added at a later date.-->
+            <!-- IC, 2018-08-16, untaggedTable commented out table to be marked-up at later date.-->
+            
+            <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">99</fw>
+            
+            <!-- IC, 2018-08-16, untaggedTable commented out table to be marked-up at later date.-->
+            
+            <p>I find that the amount expended
+               <lb/>for Legislation last year was the
+               <lb/>largest ever used for that purpose in
+               <lb/>this Colony, and, therefore, should not
+               <lb/>be set down as a regular annual ex<lb break="no"/>penditure. I should go for abolishing<lb/>
+               
+               <cb/>
+           
+            the Legislative Council altogether,
+               <lb/>under Confederation. Then again,
+               <lb/>the hon. Leader of the Government
+               <lb/>puts down, as a yearly expenditure,
+               <lb/>the cost of a general election; this is
+               <lb/>also unfair. I put down one-fourth<lb/>
+            
+            
+            
+            
+            <pb n="1873-04-29_Page_100"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_100.jpg"/>
+            <fw type="num">100</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+           
+     of the outlay for the election of 1872, 
+     <lb/>and add to this $200 for partial elec<lb break="no"/>tions, making in all $1,080.73.  The<lb/>charge for Island Packets, after de<lb break="no"/>ducting the cost of trips between Pic<lb break="no"/>tou and Georgetown, will be born by 
+     <lb/>the Local Government.  The cost of 
+     <lb/>all our miscellaneous items was carried 
+     <lb/>out by the hon. Leader of the Govern<lb break="no"/>ment as part of our yearly expendi<lb break="no"/>ture in Confederation; but I find that 
+     <lb/>out of a total of $6,908.06 the sum of 
+     <lb/>$4,355.19 will be assumed by the Do<lb break="no"/>minion, leaving a balance of only $2,<lb break="no"/>552.87 to be borne by the Colony. 
+     <lb/>In the Statement I have given of the 
+     <lb/>expendiiture of the Island under Con<lb break="no"/>federation, I believe I have stated the 
+     <lb/>facts as as as can be ascertained, and 
+     <lb/>I defy any honorable member of this 
+     <lb/>House to show that I have made a 
+     <lb/>single deduction which I cannot de<lb break="no"/>fend by the best of arguments. Our 
+     <lb/>annual total expenditure, when we 
+     <lb/>form part of the Dominion, will, there<lb break="no"/>fore, be $205,216.71. In calculating 
+     <lb/>our receipts under Confederation, I 
+     <lb/>assume that we will receive the in<lb break="no"/>terest on the difference between the 
+     <lb/>$45 per head, allowed as our assumed 
+     <lb/>debt and the debt we really owe. The 
+     <lb/>actual debt of this Colony, including 
+     <lb/>the whole cost of the Railway, on the 
+     <lb/>31st January,l873, was $3,775,984. 83, 
+     <lb/>and the amount of'debt assumed by 
+     <lb/>the Dominion is $4,230,945. The 
+     <lb/>balance upon which we shall draw 
+     <lb/>interest, will, therefore, be $454,960.17. 
+     <lb/>I am proud and happy to know that 
+     <lb/>the day is coming when we shall have 
+     <lb/>money sufficient to exterminate the 
+     <lb/>old proprietory system of this Colony, 
+     <lb/>and that the whole of our people will 
+     <lb/>have an opportunity of purchasing the 
+     <lb/>freehold of their lands. The hon. 
+     <lb/>Leader of the  Government made a 
+     <lb/>deduction of one- third from the amount 
+     <lb/>granted for lands, for loss to be sus<lb break="no"/>tained in investing the money; but I 
+     <lb/>cannot see why so large a deduction 
+     <lb/>should be made from a sum of which 
+     <lb/>we draw the yearly interest. He 
+     <lb/>
+           
+            <cb/>
+           
+     omitted a  most important item of 
+     <lb/>
+     assets, as he told us nothingabout the 
+     <lb/>
+     89000 acres of unsold lands now in the 
+     <lb/>
+     hands of the Government. I claim 
+     <lb/>
+     interest in the full amount allowed for 
+     <lb/>
+     
+     lands, but I will allow the unsold<lb/>
+     lands, remaining on hand, to go against<lb/>the presumed loss which the hon. 
+     <lb/>
+     Leader of, the Government says we 
+     <lb/>
+     shall incur iii investing the $800, 000, 
+     <lb/>
+     as it is likely we shal lose something 
+     <lb/>
+     in this way.  If credit is not given for 
+     <lb/>
+     the unsold lands now in the possession 
+     <lb/>
+     of the Government, it is unfair to de<lb break="no"/>duct one cent from the $800,000: The 
+     <lb/>
+     hon. Leader of the Government omit<lb break="no"/>ted entirely from his calculations the 
+     <lb/>
+     interest on the money not paid to the 
+     <lb/>
+     Railway contractors, which we shall 
+     <lb/>
+     receive till the principal is paid, and 
+     <lb/>
+     which will amount to over $75,000. 
+     <lb/>
+     This amount, if invested. would yiéld 
+     <lb/>
+     $4,692 annually. Our land assess<lb break="no"/>ment which would be an item of local 
+     <lb/>
+     revenue, would amount to $18,547.87. 
+     <lb/>
+     The total annual revenue wonld 
+     <lb/>
+     amount to $222,320,02--a very hand<lb break="no"/>some sum for local purposes to begin 
+     <lb/>
+     with under Confederation. By sub<lb break="no"/>tracting the expenditure from the 
+     <lb/>
+     revenue, we obtain a balance of $17,<lb break="no"/>103.31, in favor of the, Colony under 
+     <lb/>
+     the terms now offered: These figures 
+     <lb/>
+     cannot be swept away by mere asser<lb break="no"/>tion. I know we have been told that 
+     <lb/>
+     hon. members on the Opposition slde 
+     <lb/>
+     of the House have no financial 
+     <lb/>
+     ability; but I think by the present 
+     <lb/>
+     test we compare very favorfibly with 
+     <lb/>
+     hon. members on the other side of the 
+     <lb/>
+     
+     House.  We shall receive $20.00 per <lb/>head of our population more than Nova 
+     <lb/>
+     Scotia and New Brunswick received 
+     <lb/>
+     per head when tbey became a part of 
+     <lb/>
+     the Union, which amounts to a total 
+     <lb/>
+     
+     of $1,880,420.  We should ask for all<lb/>that is just, reasonable   and fair, from 
+     <lb/>
+     the Dominion Governinent; but we 
+     <lb/>
+     have no right to press unjust claims. 
+     <lb/>
+     If we adopt an unjust claim, we must 
+     <lb/>
+     be prepared to mete out the same 
+     <lb/>
+     measure to the other Provinces, if we 
+     <lb/>
+         
+     <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">101</fw> 
+   
+   
+          
+     receive it. These terms must be sub<lb break="no"/>mitted to the Dominion Parliament, 
+     <lb/>
+     and laid on the table before giants in 
+     <lb/>
+     financial ability ; we should, therefore, 
+     <lb/>
+     be careful not to make any demand 
+     <lb/>
+     for additional concessions without good 
+     <lb/>
+     and sufficient grounds for so doing. I 
+     <lb/>
+     cannot see upon what grounds the new 
+     <lb/>
+     delegation can ask for better Terms ; I 
+     <lb/>
+     believe we cannot prosecute any addi<lb break="no"/>tional demand with any amount of 
+     <lb/>
+     fair play. The Lighthouses of Nova 
+     <lb/>
+     Scotia and New Brunswick were not 
+     <lb/>
+     paid for. and why should we receive 
+     <lb/>
+     remuneration for ours? It is high 
+     <lb/>
+     time for us to close up this honorable 
+     <lb/>
+     and straightforward bargain between 
+     <lb/>
+     this Colony and the Dominion of Can<lb break="no"/>ada, as it is best for the interests of 
+     <lb/>
+     both parties to do so. When all the 
+     <lb/>
+     contemplated public works of the Do<lb break="no"/>minion for the next fifteen years are 
+     <lb/>
+     completed, her debt will not probably 
+     <lb/>
+     be greater per head than it is today, 
+     <lb/>
+     as her population will have increased 
+     <lb/>
+     in proportion. In obtaining the con<lb break="no"/>cession of $45 per head as our assumed 
+     <lb/>
+     Public Debt, we have been highly 
+     <lb/>
+     favored above all the other Provmces. 
+     <lb/>
+     The despatch from Lord Dufferin, 
+     <lb/>
+     stating that better Terms would not 
+     <lb/>
+     be granted, was couched in the strong<lb break="no"/>est and most positive language. Are 
+     <lb/>
+     we going to stultify ourselves by send<lb break="no"/>ing another delegation in the face of 
+     <lb/>
+     that despatch? Lord Dufferin is one 
+     <lb/>
+     of the most distinguished statesmen in 
+     <lb/>
+     the British Empire, holds a very high 
+     <lb/>
+     position in literature and political 
+     <lb/>
+     life, and was chosen by Her Majesty 
+     <lb/>
+     the Queen to consummate the great 
+     <lb/>
+     union of all these British North 
+     <lb/>
+     American Provinces. I am surprised 
+     <lb/>
+     that the Government should think that 
+     <lb/>
+     His Lordship would sit down and pen 
+     <lb/>
+     a despatch  that he would change at 
+     <lb/>
+     the request of any, political party that_ 
+     <lb/>
+     may happen to get hold of the reins of 
+     <lb/>
+     power in this little Colony. I believe 
+     <lb/>
+     that Lord Dufferin desires the pros<lb break="no"/>perity of this Island, as well as that of 
+     <lb/>
+         
+            <cb/>
+           
+     the other Provinces, and: that he will 
+     <lb/>
+     do all in his power to bring about a 
+     <lb/>
+     union on just and equitable terms. 
+     <lb/>
+            </p>
+   
+            <p>
+     
+     <persName ref="pers:POPE2">Hon. LEADER OF THE GOVERN<lb break="no"/>MENT</persName>.—I congratulate the hon. junior 
+     <lb/>
+     member for Murray Harbor on his 
+     <lb/>
+     very eloquent speech and self display. 
+     <lb/>
+     Taking him at his own word he is the 
+     <lb/>
+     greatest orator and statesman that ever 
+     <lb/>
+     stood upon the floor of this House. 
+     <lb/>
+     When the hon. .member for Belfast 
+     <lb/>
+     speaks, there is some little reason in 
+     <lb/>
+     his remarks, but I take no more notice 
+     <lb/>
+     of the statements of the hon. member 
+     <lb/>
+     for Murray Harbor, than I do of a 
+     <lb/>
+     breeze of wind flowing through the 
+     <lb/>
+     building. His financial statements 
+     <lb/>
+     amount to nothing but wind and are 
+     <lb/>
+     not worthy of serious consideration. 
+     <lb/>
+     I repeat what I before stated in refer<lb break="no"/>ence to the telegram from Lord Duf<lb break="no"/>ferin, that it was suggested by parties 
+     <lb/>
+     resident in this country ; I know some<lb break="no"/>thing about this affair. There is no 
+     <lb/>
+     hon. member of this House who en<lb break="no"/>tertains greater respect for the high 
+     <lb/>
+     position occupied by the Governor 
+     <lb/>
+     General of the Dominion than I do; 
+     <lb/>
+     but at the same time, His Excellency 
+     <lb/>
+     stands in the same position to the 
+     <lb/>
+     people of Canada, as our Lieutenant 
+     <lb/>
+     Governor does to the people of this 
+     <lb/>
+     Island. Suppose, for illustration, that 
+     <lb/>
+     one of the other Provinces stood in 
+     <lb/>
+     the same position to this Colony as 
+     <lb/>
+     we at present do to the Dominion, and 
+     <lb/>
+     that after obtaining certain terms of 
+     <lb/>
+     union, some interested person came 
+     <lb/>
+     over and said to His Honor the Lieut. 
+     <lb/>
+    Governor, "I want your Excellency 
+     <lb/>to write a despatch stating that these 
+     <lb/>are the best terms I can carry through 
+     <lb/>Parliament." The telegram from 
+     <lb/>Lord Dufferin was obtained in a pre<lb break="no"/>cisely similar manner. The statement 
+     <lb/>I made last evening, I put, I think, 
+     <lb/>fairly. We should take our position 
+     <lb/>as it is, and not as it would be by cut<lb break="no"/>ting and carving it, to suit particular 
+     <lb/>purposes. We have at present two 
+     <lb/>
+          
+
+    
+            <pb n="1873-04-29_Page_102"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_102.jpg"/>
+            <fw type="num">102</fw>
+            <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+           
+     branches of the Legislature, but if          
+     <lb/>
+    disposed to do so; we might dlspense 
+     <lb/>with the Upper one, and also reduce 
+     <lb/>the number of members of this Lower 
+     <lb/>House, in order to reduce our Legis<lb break="no"/>lative expenditure, and still retain all 
+     <lb/>the power that we really require.  The 
+     <lb/>expenditure  of last year,   was, we 
+     <lb/>know, an unusually large one, especi<lb break="no"/>ally tbat of the Board of Works! This 
+     <lb/>year there has been expended by that 
+     <lb/>Board no less than $61,000 since the<lb/>1st of January. Since our popuiation 
+     <lb/>has increased, our wants are greater, 
+     <lb/>labor is also becoming dearer, and the 
+     <lb/>price of timber and other materials 
+     <lb/>getting higher, so that it now requires 
+     <lb/>a much  larger amount of money to 
+     <lb/>meet the requirements of the country, 
+     <lb/>than in former years. Our people will 
+     <lb/>want steam communication in all 
+     <lb/>directions, and this must be main<lb break="no"/>tained.   As fast as one item of ex<lb break="no"/>penditure is struck out, another new 
+     <lb/>item will be inserted so that we shall 
+     <lb/>require just as much money to meet 
+     <lb/>our wants in future as we now do. 
+     <lb/>Theré is always something turning up 
+     <lb/>which requires an expenditure termed 
+     <lb/>" Extraordinary,"and which cannot be 
+     <lb/>foreseen. Under the terma now offer<lb break="no"/>ed, we should never receive any larger 
+     <lb/>annual allowance than during the first 
+     <lb/>year; while our present revenue 
+     <lb/>doubles in eyery tweIve years. There 
+     <lb/>are now fourteen millions of dollars to 
+     <lb/>be distributed among the lower Pro<lb break="no"/>vinces in the shape ofBetter Terms, 
+     <lb/>which: shows that their wants are also 
+     <lb/>increasing faster than their revenues. 
+     <lb/>There are assets for the Dominion, 
+     <lb/>set down by the hon. jjunior member 
+     <lb/>for Belfast, as réturning.interest, which 
+     <lb/>will never return a single cent to the 
+     <lb/>Treasury, and which should, there<lb break="no"/>fore, be added to the sixty-two millions.. 
+     <lb/>What guarantee have we that the 
+     <lb/>construction of the   Bay Verte' Canal 
+     <lb/>will not cost more than five millions 
+     <lb/>or dollars? The same be may be' asked 
+     <lb/>in reference to all the other great 
+     <lb/>public works, now proposed by the 
+     <lb/>
+            
+            <cb/>
+           
+     Dominion, for the next fifteen years.    
+     <lb/>
+    Will they give us one -fortieth part of 
+     <lb/>the excess of expenditure over the 
+     <lb/>sums estimated as the: cost of those 
+     <lb/>works? Not at all. By the Union 
+     <lb/>Act we could not claim one shilling 
+     <lb/>more than what accrues to us through<lb/>  the   increase of our population, and 
+     <lb/>are shut} out from any share of tbe 
+     <lb/>sums expended on public works. 
+     <lb/>Although we shall form one -fortieth 
+     <lb/>part   of the population of  the Do<lb break="no"/>minion, we shal] be cut off from the 
+     <lb/>advantages of their Railways, and have 
+     <lb/>no communication with Canada in<lb/>Winter, except by our little Icehoat. 
+     <lb/>Our population may increase perhaps<lb/>so as to procure for us an addition<lb/>of $1000 per year  to our revenue, 
+     <lb/>whereas our present Revenue doubles<lb/>every few years. It is true Nova 
+     <lb/>Scotia and New Brunswick received<lb/>nothing for their Lighthouses then in 
+     <lb/>existence; but many of ours have been 
+     <lb/>built since the Union took place; and 
+     <lb/>it is nothing: but fair that we should 
+     <lb/>be allowed something for them.The 
+     <lb/>same argument will apply to the Drill 
+     <lb/>Sheds; we have a perfect right to re<lb break="no"/>ceive remuneration for them as they 
+     <lb/>have been built since the Quebec Con<lb break="no"/>ference took placc. I am not one 
+     <lb/>who would ask the Dominion Govern<lb break="no"/>ment for anything unreasonable and 
+     <lb/>unfair ; but we should not   hesitate to 
+     <lb/>stand up for our rights, and if we can 
+     <lb/>obtain a few thousand dollars here and 
+     <lb/>a few thousand there, to which we are 
+     <lb/>justly entitled, we shall save so much 
+     <lb/>in direct taxation.  But since the dele<lb break="no"/>gates have returned, their notions are 
+     <lb/>so large that they think four or five 
+     <lb/>thousand dollars here and there not 
+     <lb/>worth mentioning. We have had a 
+     <lb/>hard battle to fight, and have, through<lb/>our industry and perseverance,de<lb break="no"/>veloped, to a considerable extent, one<lb/>of the most productive countries in the <lb/>world. The number of poor people <lb/>among us is very small, and I believe<lb/>there is not a country in the world<lb/>where there is more real home com<lb break="no"/>
+            
+        
+    
+
+          <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">103</fw>
+            
+           
+     
+     fort than there is on this little Island.<lb/>We have a right to ask for what we<lb/>believe reasonable and fair, and to be <lb/>
+     
+    placed in as good a position as the <lb/>people of the neighbouring Provinces.<lb/>We should not be placed in such a <lb/>position that we shall be compelled to <lb/>come down upon our people in direct<lb/>taxation immediately after entering 
+     <lb/>the Union. I am not sorry to see<lb/>Confederation about to be carried, as <lb/>I have always been in   favor of it, 
+     <lb/>and just and equitable terms, and be<lb break="no"/>lieved it would be a great benefit to 
+     <lb/>this country. It was generally thought<lb/>that if our delegates at the Quebec 
+     <lb/>Conference had signed the Report 
+     <lb/>then agreed upon, we should be legis<lb break="no"/>lated into Confederation. I did not 
+     <lb/>think this would be the case; but be<lb break="no"/>lieved it possihle that it might be   so. 
+     <lb/>I thought that if the $800.000   turned 
+               <lb/>out to be a <hi rendition="simple:italic">bona fide</hi> offer, that I was 
+     <lb/>satisfied in laying it before the people, 
+     <lb/>as it would be the means of makmg 
+     <lb/>every farmer in the Colony a free- . 
+     <lb/>holder, and would thus settle the land 
+     <lb/>question. lf  theIsIand shou}d have 
+     <lb/>been legislated into   Confederation 
+     <lb/>without obtaining that amount, what 
+     <lb/>position would we have been in with 
+     <lb/>regard to our lands? I was, after 
+     <lb/>consldering the matter fully, prepared 
+     <lb/>to place the offer before the Legisla<lb break="no"/>ture for discussion, and if found satis<lb break="no"/>factory, to put the question to the 
+     <lb/>people at the polls. The basis laid 
+     <lb/>down by the Union Association in<lb break="no"/>cluded the eighty cents per head, the 
+     <lb/>$800,000, the   Railway, and a fair 
+     <lb/>share of the allowance for public works. 
+     <lb/>I believe the Government at that time 
+     <lb/>got wind of the platform of that As<lb break="no"/>sociation, and that the latter called 
+     <lb/>forth the minute of Council to 
+     <lb/>which I lately referred.  It has been 
+     <lb/>stated that another delegation should 
+     <lb/>not be sent without showing good 
+     <lb/>grounds for so  doing. Wé should 
+     <lb/>have such terms granted us that if the 
+     <lb/>Dominion Debt increases   by expendi<lb break="no"/>
+            
+            <cb/>
+           
+     ture for public works, we shal1 have   
+     <lb/>
+     oné-fortieth part   of that expenditure 
+     <lb/>
+     
+      as long as we are one-fortieth part of<lb/>
+     the population. If we have a legiti<lb break="no"/>mate claim to the cost of the Light<lb break="no"/>houses built by us since the Quebec  
+     <lb/>
+     Scheme was agreed upon ;. even if it 
+     <lb/>
+     be only $40,00 let us have it.   I, 
+     <lb/>
+     for one, will not attempt to deceive 
+     <lb/>
+     the people by declaring that   we have 
+     <lb/>
+     
+     plenty for all our wants in the present<lb/>Terms when 1 know we have not. I 
+     <lb/>
+     feel confident that very large conces<lb break="no"/>sions will yet be made, that Confed<lb break="no"/>oration will, before long; be an accom<lb break="no"/>plished fact, and that it will bethe 
+     <lb/>
+     happiest day in the history of Prlnce 
+     <lb/>
+     Edward Island when it is consummat<lb break="no"/>ed. I am prepared to use my humble 
+     <lb/>
+     efforts to carry out this great question, 
+     <lb/>
+     and in order to do so in the most satis<lb break="no"/>factory manner, would ask for the 
+     <lb/>
+     cordial and hearty support of the hon. 
+     <lb/>
+     members on the other side of the 
+     <lb/>
+     House. If a  delegation does go to 
+     <lb/>
+     Ottawa, and the hon, members of the 
+     <lb/>
+     Opposition wish to serve the best in<lb break="no"/>terests of their country, 1 think it is 
+     <lb/>
+     their duty and also that of every hon. 
+     <lb/>
+     member of this House to give all the 
+     <lb/>
+     assistance they can to make it success<lb break="no"/>ful. A unanimous vote of this House 
+     <lb/>
+     would have a much better effect than a 
+     <lb/>
+     division of parties. It will  not cost 
+     <lb/>
+     us much to ask for better Terms, and 
+     <lb/>
+     if they cannot be obtained, we would  
+     <lb/>
+     be perfectly justified in accepting the 
+     <lb/>
+     present Terms. Our duty to our<lb break="no"/>selves, our constituents and our child<lb break="no"/>ren, compels us to take the course 
+     <lb/>
+     proposed. We are about to give up 
+     <lb/>
+     our right to collect our Import Duties    
+     <lb/>
+     to Canada, and in exchange want a 
+     <lb/>
+     fair and reasonable conslderation. I 
+     <lb/>
+     have good reason to think that we 
+     <lb/>
+     shall obtain the concessions we ask, 
+     <lb/>
+     and believe we shall. No effort shall 
+     <lb/>
+     be wanting on our part in endeavor<lb break="no"/>ing to obtain what we consider justice 
+     <lb/>
+     at the hands of the Dominion Govern<lb break="no"/>ment.   
+     <lb/>
+           
+            <pb n="1873-04-29_Page_104"
+                facs="final/images/PEI_LA_Page_1873-04-29_Page_104.jpg"/>
+               
+            <fw type="num">104</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
+            
+           
+     MR. D. LAIRD wished to explain 
+     <lb/>the statement made by the hon. Leader<lb/>of the Government, in reference to the<lb/>money spent on the Intercolonial Rail<lb break="no"/>way by the Dominion Government.<lb/>We know that that Railway is about<lb/>being finished this coming year, and<lb/>this construction account does not refer<lb/>to the past year at all. The whole<lb/>amount was included in the sum by<lb/>which the $45 per head was obtained.<lb/>
+            </p>
+   
+            <p>
+     The Debate was then adjourned. 
+     <lb/>
+            </p>
+            <p>House adjourned till ten o'clock to<lb break="no"/>morrow.<lb/>
+            </p>
+            
+            
+            
+            <!-- IC, 2018-08-14, Commented out below, as it will appear in the following debate day -->
+            <!--
+            
+            <p rendition="simple:right">WEDNESDAY, April 30.<lb/>
+            </p>
+            <p><persName ref="pers:MCNE1">MR. McNEILL</persName>.- Mr. Speaker, the<lb/>hon. member, the Leader of the Gov<lb break="no"/>ernment said the Terms offered for our<lb/>acceptance now, are not as good as we<lb/>are entitled to. This may be so. For<lb/>my part I was alwaays one of those<lb/>who thought Prince Edward Island,<lb/>under proper management, could raise<lb/>means sufficient to supply all her<lb/>wants. But now I am sorry to ob<lb break="no"/>serve that both sides of this House<lb/>seem to be of the opinion that Con<lb break="no"/>federation is inevitable, either on the<lb/>Terms now offered or better if they<lb/>can be obtained. But let us see what<lb/>has brought about this state of affairs.<lb/>In answering this question I feel<lb/>bound to say that the Government<lb/>which introduced and carried the Rail<lb break="no"/>way Bill through the Legislature, was<lb/>the part at whose door the cause<lb/>producing that which we now deplore,<lb/>must be laid. If the Railway and<lb/>Confederation are to benefit this<lb/>Island, then no man will deserve more<lb/>credit for the measure than the hon.<lb/>member the Leader of the Govern<lb break="no"/>ment. Ever since the time of the<lb/>Quebec Conference the people have<lb/>closely watched their public men, and<lb/>any of them who expressed a desire<lb/>in favor of the Confederation, had no<lb/>chance of being returned. At all their<lb/>public meetings the question had been<lb/>
+            <cb/>
+            discussed, and their representatives<lb/>understood very well what the feeling<lb/>of their constituents was on the ques<lb break="no"/>tion. In a word, the people were pre<lb break="no"/>pared for everything but that which<lb/>happened. The people of this Island<lb/>never supposed any body of men<lb/>would come into power who would<lb/>pass a measure of such magnitude<lb/>without their consent. But such a<lb/>party did arise. Well do I recollect<lb/>how at that time the prosperity of the<lb/>country was set forth. Not only when<lb/>the road would be building, but ever<lb/>afterwards, was this Colony to be in a<lb/>flourishing condition. How different<lb/>the experience of the reality, with<lb/>what was then so glowingly pictured<lb/>in the speeches of hon. members. It<lb/>was not the paltry outlay upon bridges<lb/>which produced the pressure now felt<lb/>upon the public funds of the Colony.<lb/>I am surprised that the hon. member<lb/>should refer to such matters in the<lb/>manner he did. After listening to his<lb/>speech on Nomination day, I did ex<lb break="no"/>pect to see him coming down with<lb/>better arguments than those which he<lb/>has used in this discussion. On Nomi<lb break="no"/>nation day the hon. member thought a<lb/>branch line of the Railroad was re<lb break="no"/>quired for Rustico, and I did expect<lb/>to hear that he was going to ask this<lb/>of the Dominion Government, instead<lb/>of the small and trifling matters to<lb/>which he referred; such as our Drill<lb/>Sheds, &amp;c. I am inclined to believe<lb/>now, that the speech of the hon mem<lb break="no"/>ber on that occasion was delivered<lb/>more for the purpose of defeating my<lb/>election, than anything he intended to<lb/>do for Rustico. Matters, however,<lb/>have come to such a pass that the peo<lb break="no"/>ple saw no alternative but to enter into<lb/>a union with the Dominion. If better<lb/>Terms can be had, so much the better.<lb/>But this I do not expect. I told my<lb/>constituents that I would not consent<lb/>to lay one dollar more of taxation upon<lb/>them unless the Terms brought down<lb/>were accepted. There are many lease<lb/>holders in my district, and they find<lb/>
+           
+           <fw type="dateline">1873</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="num">105</fw>
+           
+           the rent tax enough. One great error<lb/>on the part of the former Government<lb/>was the haste with which the Railway<lb/>Bill was pushed through the Legisla<lb break="no"/>ture. And if there is any value at all<lb/>in the Engineer's Report, it is in the<lb/>information it contains on this point.<lb/>With respect to the rest of their Re<lb break="no"/>port it is not worth the paper it is<lb/>written on. There was no person in<lb/>the Legislature, when the Bill was<lb/>passed, who knew anything about<lb/>Railroads, therefore, the time allowed<lb/>for its consideration was too short.<lb/>With respect to the branch lines, it<lb/>was well understood by my constitu<lb break="no"/>ents that the main Trunk was under<lb break="no"/>taken without the consent of the most<lb/>of the people, and they knew also<lb/>when the main line was undertaken,<lb/>the branches were to follow. It may<lb/>be asked how I know this? I answer<lb/>by saying that when the Railway Bill<lb/>was before the House, petitions, numer<lb break="no"/>ously signed, came in against the<lb/>measure. But when the branch line<lb/>Bill was before us, no petition came in<lb/>against it. This shows that the peo<lb break="no"/>ple knew and understood we would<lb/>have to build the branch lines. It<lb/>was neither the building of the<lb/>branches, nor the effect produced by<lb/>the Engineer's Report, which led to<lb/>the unpopularity of the late Govern<lb break="no"/>ment. In my district these considera<lb break="no"/>tions did not influence half a dozen of<lb/>votes. It was the School Question<lb/>which caused my majority to be but<lb/>fifty at the last election. I am not<lb/>going to say whether the late Govern<lb break="no"/>ment did right or wrong, but this I<lb/>will say: They appealed to the peo<lb break="no"/>ple, and in so far as their policy on<lb/>Confederation went, have carried the<lb/>country with them. Nor do I doubt<lb/>but that if the hon. member had ap<lb break="no"/>pealed to the country in the same waay<lb/>with his Railwaay measure, though he<lb/>would not have been sustained, at all<lb/>events he would have incurred less<lb/>blame. Considering the smallness of<lb/>the Island, and the limited revenue of<lb/>
+            </p>
+            <p>the Colony, the measure, to say the<lb/>least of it, amounted to a reckless<lb/>piece of legislation. If we have to<lb/>give up our Statute as a separate<lb/>Colony, and go into Confederation, we<lb/>will require the ability of all our ablest<lb/>men to secure the best Terms we can<lb/>obtain, (hear.) But in attempting to<lb/>re-open negotiations with the Do<lb break="no"/>minion Government on this question,<lb/>we had better take care we do not lose<lb/>more thant we will gain. The Do<lb break="no"/>minion Government have to contend<lb/>with an able and vigilant opposition,<lb/>and unless the Government are certain<lb/>that better Terms are to be had, this<lb/>House should not consent to open up<lb/>negotiations again. Under the Terms<lb/>brought down we can get along much<lb/>better in Confederation than out of it.<lb/>But under and circumstances we will<lb/>have to resort to local taxation to meet<lb/>the internal requirements of the coun<lb break="no"/>try. You cannot show me any coun<lb break="no"/>try which can get along without taxa<lb break="no"/>tion. We see at this moment that the<lb/>United States Government have now<lb/>to incur expense in putting down a<lb/>war with the Indians; nor do we know<lb/>but the same may occur in Canaada.<lb/>They are encroaching upon the lands<lb/>long held by the original owners of the<lb/>soil, and when they come to be driven<lb/>out of their possessions and hunting<lb/>grounds, it is hard to say what may<lb/>not take place. I have no special<lb/>benefit to receive or expect from any<lb/>Government, but hope every hon.<lb/>member will use his best efforts to see<lb/>that justice is done to the country at<lb/>large. While I hope and trust there<lb/>will be no ill feeling manifested on<lb/>either side in dealing with this very<lb/>important question, (hear.)<lb/>
+            </p>
+            <p><persName ref="pers:ARSE1">MR. ARSENAULT</persName>.- Mr. Speaker, in<lb/>rising to offer a few remarks upon this<lb/>question, I do not know that I can<lb/>throw any new light upon the subject.<lb/>In listening to the speeches of hon.<lb/>members on both sides, it was notice<lb break="no"/>able that each party threw blame upon<lb/>the other, for the state of affairs exist<lb break="no"/>
+            </p>-->
+         </div>
+      </body>
+   </text>
 </TEI>
