@@ -543,6 +543,7 @@
      <lb/>
             
           <!-- IC, 2018-08-15, untaggedTable commented out table to be marked-up at later date.-->
+               <!-- GL, 2018-08-22, this table will join the one below -->
           <!--  <p>
      $45 per head amounts to 
      <lb/>
@@ -607,6 +608,8 @@
      <lb/>
             </p>
             <!-- IC, 2018-08-15, untaggedTable commented out table to be marked-up at later date.-->
+            
+            <!-- GL, 2018-08-22, this table will be joined by the one above -->
             <!--<p>
      $4,230,945 
      <lb/>
@@ -774,7 +777,7 @@
             </p>
    
             <p>
-     <persName ref="pers:CALL1">MR. CALLBECK</persName>.---As regards the               
+     <persName ref="pers:CALL1">MR. CALLBECK</persName>.- As regards the               
      <lb/>recklessness charged against the late<lb/>Government, I think if the matter is ex<lb break="no"/>amined into, it will be found that the<lb/>recklessness was not all on one side.<lb/>It was stated that the road would not<lb/>be more than 120 miles long from<lb/>Alberton to Georgetown, and that the<lb/>cost would not exceed £5,000 per<lb/>mile, while I think the Leader of<lb/>the Government said ££6,000 per mile<lb/>would cover the whole cost of the<lb/>road.  Now these calculations were <lb/>made on the supposition that the dis<lb break="no"/>tance would not exceed 120 miles.  I<lb/>said then I believed the road would<lb/>cost £800,000, but my statement was <lb/>laughed at.  It is now admitted that<lb/>the road will cost three and one quarter<lb/>millions of dollars, which shows that<lb/>when I based my calculations on the<lb/>number of miles then given, that I<lb/>was nearer the mark than than the hon.<lb/>member, was in his estimate.  Cer<lb break="no"/>tainly I was much nearer to it than<lb/>the hon. member the Leader of the <lb/>Government was in his calculations for<lb/>land damages.  Now, if these able<lb/>financiers made such mistakes when<lb/>there was no inducemtoent for them to<lb/>do so, in order to get their supporters <lb/>to vote for the measure, I can only<lb/>come to the conclusion that in these<lb/>respects they were just as ignorant as <lb/>men whose opinions they seemed to<lb/>despise.  If, however, the Leader of<lb/>the Government is going to endeavor<lb/>to get a branch line of the Railway to<lb/>Rustico, he shall have my support in<lb/>that matter.  But when I find his<lb/>disposition is now to find fault with<lb/>
                
             <fw type="dateline">1873</fw><fw type="running">PARLIAMENTARY REPORTER.</fw><fw type="num">115</fw>
@@ -790,13 +793,13 @@
             <fw type="num">116</fw>
             <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1873</fw>
             
-     the..hon. members wanted. the   support 
+     the hon. members wanted. the   support 
      <lb/>
-    of. the Eastern members, failing to 
+    of the Eastern members, failing to 
      <lb/>secure that he lost all interest in the   
      <lb/>extension of the branch lines. Again, 
      <lb/>objection has been taken to the amount 
-     <lb/>paid for the Boat which runs to South<lb break="no"/>port.  Well., I do not think the hon. 
+     <lb/>paid for the Boat which runs to South<lb break="no"/>port.  Well, I do not think the hon. 
      <lb/>member will gain much credit to him<lb break="no"/>self on that score. Are those who live 
      <lb/>on the south side of the Hillsborough 
      <lb/>going to see all the revenue expended 
@@ -845,7 +848,7 @@
             
      fence are well founded; measures 
      <lb/>
-     should .be taken to make it of adequate 
+     should be taken to make it of adequate 
      <lb/>
      strength."   I question if there is a 
      <lb/>
@@ -935,7 +938,7 @@
      <lb/>
      that argument, if two years hence, or at 
      <lb/>
-     .any future time a financial pressure is 
+     any future time a financial pressure is 
      <lb/>
      likely to happen, we will only have to 
      <lb/>
@@ -1004,7 +1007,7 @@
      not join in supporting the hon. mem<lb break="no"/>ber for Bedéqiie in his anti-Confed<lb break="no"/>erate Resolution. 
      <lb/>
             </p>
-            <p><persName ref="pers:KELL2">Hon. F. KELLY</persName>.--My hon. col<lb break="no"/>league referred to what I said during<lb/>the canvass of the last election. I did<lb/>not say I thought we could keep out<lb/>of a union with Canada.  What I did<lb/>say was, that I would use my exertions<lb/>
+            <p><persName ref="pers:KELL2">Hon. F. KELLY</persName>.-My hon. col<lb break="no"/>league referred to what I said during<lb/>the canvass of the last election. I did<lb/>not say I thought we could keep out<lb/>of a union with Canada.  What I did<lb/>say was, that I would use my exertions<lb/>
             
             <cb/>
            
@@ -1391,6 +1394,7 @@
      <lb/>
             </p>
    
+   <quote rendition="tccd:blockquote">
             <p>
                <hi rendition="simple:italic">Whereas</hi>, the question of Confedera<lb break="no"/>tion of this Island with the Dominion 
      <lb/>
@@ -1509,11 +1513,13 @@
      the chair, the Chairman report prog<lb break="no"/>ress, and ask leave to sit again. 
      <lb/>
             </p>
-
+   </quote>
+            
+            
             <p>
-     On motion of the Hon. LEADER OF 
+               On motion of the <persName ref="pers:POPE2">Hon. LEADER OF 
      <lb/>
-     THE GOVERMENT, the House resolved 
+     THE GOVERMENT</persName>, the House resolved 
      <lb/>
      itself into a committee of the whole to 
      <lb/>
@@ -2268,6 +2274,8 @@
      <lb/>following amendment :— 
      <lb/>
             </p>
+            
+            <quote rendition="tccd:blockquote">
             <p><hi rendition="simple:italic">Whereas</hi>, This House has had un<lb break="no"/>der consideration certan papers relat<lb break="no"/>ing to the Confederation of this island 
      <lb/>with the Dominion of Canada, and 
      <lb/>more particularly a despatch of His<lb/>Excellency the Governor General,<lb/>
@@ -2344,7 +2352,7 @@
      <lb/>
      March, 1872., 
      <lb/>
-            </p>
+            </p></quote>
 
             <p>
      <persName ref="pers:POPE2">Hon. LEADER OF THE GOVERN<lb break="no"/>MENT</persName>.—The hon. member for Belfast 
@@ -2609,8 +2617,8 @@
             </p>
             <p>House adjourned till ten o'clock this<lb/>morning.<lb/>
             </p>
-            <p rendition="simple:right">THURSDAY, May 1st.<lb/>
-            </p>
+       <!--     <p rendition="simple:right">THURSDAY, May 1st.<lb/>
+            </p>-->
          </div>
       </body>
    </text>
