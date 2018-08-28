@@ -1,67 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TEMPLATE: Add an @xml:id attribute to the root element. It should match the filename
-     but without the trailing .xml. Also add the @xml:lang value (en or fr).-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgPEILA_1871-04-04" type="template" xml:lang="en">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-<!--    TEMPLATE: Provide a human-readable descriptive but concise title, 
-        conforming with our current norms. Tag the date with a <date> element
-        which includes @when or @from/@to attributes so we can process it 
-        mechanically. -->
-        <title><name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1871-04-04">4 April 1871</date>, Prince Edward Island Confederation with Canada.</title>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgPEILA_1871-04-04"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgPEILAssem">Legislative Assembly of Prince Edward Island</name>, <date when="1871-04-04">4 April 1871</date>, Prince Edward Island Confederation with Canada.</title>
         
-        <respStmt>
-          <resp>Selection of input documents and completion of metadata</resp>
-          <persName ref="pers:LYAL1">Gordon Lyall</persName>
-        </respStmt>
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
         
-      </titleStmt>
+         </titleStmt>
       
-      <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
-      <sourceDesc>
-<!-- TEMPLATE: This is the bibliographical information about the actual source print document from which 
-                      this data was taken.-->
-        <bibl corresp="bibl:lgPEILA_1871">
-          <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgPEILA_1871">
+               <title>The Parliamentary Reporter of Debates and Proceedings of the House of Assembly</title>.
           <date when="1871"/>. 
           <pubPlace>Charlottetown, P.E.I.</pubPlace>: <publisher>The Examiner</publisher>.
           
-<!-- TEMPLATE: Complete the page-range by adding @from and @to using page numbers from the original print source.
-               If it's a single page, put the same page number in @from and @to.-->
-          <biblScope unit="page" from="341" to="341"/>.
+
+          <biblScope unit="page" from="325" to="326"/>.
         </bibl>
         
-<!-- TEMPLATE: List HOCR documents from which this file was/will be created (replace these examples).
-        examples. File path should be relative to THIS XML FILE. -->
-        <list>
-          <item><ptr target="final/hocr/PEI_LA_Page_1871-04-04_Page_341.hocr.html"/></item>
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/PEI_LA_Page_1871-04-04_Page_325.hocr.html"/>
+               </item>
        
-        </list>
+            </list>
         </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <samplingDecl>
-<!-- TEMPLATE: Provide a simple description of why this specific set of pages was 
-        selected. This is especially important in cases where discontinuous 
-        page-ranges are used.  -->
-        <p></p>
-      </samplingDecl>
-    </encodingDesc>
-    <revisionDesc>
-<!-- TEMPLATE: Complete this change element with your identifier in the @who attribute, and today's 
-        date in the @when attribute. -->
-      <change who="lyallg" when="2018-07-12">Created this document, completed metadata. </change>
-    </revisionDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-07-12">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-07-12">Created this document, completed metadata. </change>
+      </revisionDesc>
   </teiHeader>
-  
-<!-- TEMPLATE: Processing will add a <facsimile> element here. -->
-  
-  <text>
-    <body>
-      <div type="debate">
-        <p>This content will be replaced by data from the source documents during processing.</p>
-      </div>
-    </body>
-  </text>
+   <facsimile>
+      <surface xml:id="PEI_LA_Page_1871-04-04_Page_325">
+         <graphic url="final/images/PEI_LA_Page_1871-04-04_Page_325.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1871-04-04_Page_325"
+                facs="final/images/PEI_LA_Page_1871-04-04_Page_325.jpg"/>
+            <fw type="num">1871</fw>
+            <fw type="running">PARLIAMENTARY REPORTER. 325</fw> <fw type="num">325</fw>
+          
+            
+            
+            <p>
+     We are told that this little 
+     <lb/>Island is a wealthy one, that our people are<lb/>energetic and industrious, and will have no<lb break="no"/>thing to do with Canada, and that we will<lb/>work out and secure our own independence,<lb/>without outside assistance. I, as a man who<lb/>believed in Confederation, am prepared to<lb/>see it tried to the utmost, and if we are<lb/>wealthy and energetic, we shall have to put<lb/>forth our energies to increase the wealth of<lb/>the country, and to carry out public improve<lb break="no"/>ments. We are told that we are not able to<lb/>
+            </p>
+            <cb/>
+            <p>
+     <persName ref="pers:CALL1">Hon. Mr. CALLBECK</persName>.- 
+            </p>
+            <p>During last session, the hon. Attorney<lb/>General argued strongly in favor of Con<lb break="no"/>federation; but at the same time he stated[...]</p>
+   
+   
+            <fw type="num">326</fw> <fw type="running">PARLIAMENTARY REPORTER.</fw> <fw type="dateline">1871</fw>
+        
+        
+            <p>And have<lb/>we not as much right to carry out their<lb/>wishes in respect to the railway question, as<lb/>he had to carry out the wishes of his con<lb break="no"/>stituents in reference to Confederation?<lb/>
+            </p>
+
+    
+         </div>
+      </body>
+   </text>
 </TEI>
