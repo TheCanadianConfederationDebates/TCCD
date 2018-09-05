@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1869-06-04"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-04">4 June 1869</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, Tenth Parliament, First Session</title>.
+          
+          
+          <date when="1869"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the King's Most Excellent Majesty</publisher>.
+          <biblScope unit="page" from="12" to="13"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1869-06-04_Page_00612.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1869-06-04_Page_00613.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-05">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-05">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1869-06-04_Page_00612">
+         <graphic url="final/images/AB_SK_H_of_C_1869-06-04_Page_00612.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1869-06-04_Page_00613">
+         <graphic url="final/images/AB_SK_H_of_C_1869-06-04_Page_00613.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="612" facs="final/images/AB_SK_H_of_C_1869-06-04_Page_00612.jpg"/>
+            
+            <fw type="num">612</fw> <fw type="running">COMMONS DEBATES</fw> <fw type="dateline">June 4, 1869</fw>
+           
+            
+            
+            
+            <head rendition="simple:centre">THE NORTH WEST
+            </head>
+            <p><persName ref="pers:MACD1">Sir John A. Macdonald</persName> introduced a Bill for<lb/>the organization and government of Rupert's<lb/>Land and the North West. The hon. gentleman<lb/>said he was aware he could only introduce this<lb/>Bill by the consent of the House; but he hoped<lb/>that would be given. Under the address Her<lb/>Majesty might at any time by an Order in<lb/>Council, or a proclamation, declare the North<lb/>West Territory to be part of the Confederation;<lb/>and it is probable that before the Dominion<lb/>Parliament meets again that proclamation will<lb/>take effect. In consequence of this it was nec<lb break="no"/>essary that we should have authority to go<lb/>there, accept the transfer, and administer the<lb/>country provisionally until Parliament met.<lb/>The Government did not intend at present to<lb/>submit anything like a permanent measure on<lb/>this subject; but had prepared the short Bill<lb/>he held in his hand, which would sufficiently<lb/>provide for the organization and government<lb/>of the country during the few months which<lb/>
+            
+            
+            
+            <!-- IC, 2018-09-05, Commented out below as it is a duplicate in French-->
+            <!--<cb/>
+            <p>LE NORD-OUEST<lb/>
+            </p>
+            <p>Sir John A. Macdonald dépose un projet<lb/>de loi prévoyant l'organisation et le gouver-<lb break="maybe"/>nement de la Terre de Rupert et du Nord-<lb break="maybe"/>Ouest. L'honorable Premier Ministre sait<lb/>qu'il ne peut déposer le projet de loi qu'avec<lb/>le consentement de la Chambre qu'il espère<lb/>obtenir. Aux termes de l'Adresse, Sa Majesté<lb/>peut à tout moment déclarer, par décret du<lb/>Conseil ou par proclamation, que le Territoire<lb/>du Nord-Ouest fait partie de la Confédération;<lb/>et il est probable que la proclamation devien-<lb break="maybe"/>dra exécutoire avant que le Parlement se<lb/>réunisse à nouveau. Par conséquent, il faut<lb/>que nous ayons l'autorité de nous y rendre,<lb/>d'accepter le transfert et d'administrer la<lb/>région à titre provisoire d'ici une nouvelle<lb/>convocation du Parlement. Le Gouvernement<lb/>n'a pas l'intention pour l'instant de présenter<lb/>une mesure permanente à cet effet; mais il a <lb/>préparé le projet de loi assez court qu'il<lb/>dépose présentement, et qui sera suffisant <lb/>
+            </p>
+            <p>[Mr. Ross (Prince Edward)-M. Ross (Prince-Édouard).]<lb/>
+            </p>-->
+            <pb n="613" facs="final/images/AB_SK_H_of_C_1869-06-04_Page_00613.jpg"/>
+          
+     
+     <fw type="num">613</fw>      
+    
+           
+            might elapse between the issuing of the proc<lb break="no"/>lamation and the convening of Parliament.<lb/>
+            </p>
+            <p><persName ref="pers:BLAK1">Mr. Blake</persName> asked if this way the only Bill<lb/>which has to be introduced on the subject.<lb/>Did the Government think there would be<lb/>sufficient time to consider a measure of such<lb/>magnitude? The President of the Council, who<lb/>was so much opposed to this measure at one<lb/>period, was now among those who were press<lb break="no"/>ing it on, when members were almost leav<lb break="no"/>ing for home.<lb/>
+            </p>
+            <p><persName ref="pers:HOWE2">Hon. Mr. Howe</persName> said that the business could<lb/>be got through well enough if hon. gentlemen<lb/>on the other side would not waste so much<lb/>time in wrangling.<lb/>
+            </p>
+            <p><persName ref="pers:MACK1">Mr. Mackenzie</persName> thought the President of the<lb/>Council ought to be the last man to complain<lb/>of taking up the time of the Dominion ; for if<lb/>any person took up the time of the House, not<lb/>perhaps talking nonsense, but something<lb/>which had no bearing on the subject, it was<lb/>that hon. gentleman. (Hear and cheers.) The<lb/>President of the Council was not to be the<lb/>judge of what was important and what was<lb/>unimportant. (Hear). The House was told the<lb/>other night that the measure just introduced<lb/>was a great one on which to expend our<lb/>thoughts. For his part, he thought the discus<lb break="no"/>sion of such a measure only a waste of time<lb/>and would not enter on it.<lb/>
+            </p>
+   
+            <p>
+     The second reading of the Bill was ordered 
+     <lb/>for Tuesday.<lb/>
+            </p>
+            
+            <!-- IC, 2018-09-05, Commented out below as it is a duplicate in French-->
+            <!--<cb/>
+            <p>pour prévoir l'organisation et le gouverne-<lb break="maybe"/>ment de la région pendant les quelques mois<lb/>qui peuvent s'écouler entre l'annonce de la<lb/>proclamation et la convocation du Parlement.<lb/>
+            </p>
+            <p>M. Blake demande si c'est là le seul sujet<lb/>de loi qui sera présenté à ce sujet. Est-ce<lb/>que le Gouvernement croit avoir assez de<lb/>temps pour étudier une mesure d'une telle<lb/>envergure? Le Président du Conseil, qui<lb/>était tellement opposé à cette mesure à un<lb/>moment donné, est maintenant parmi ceux<lb/>qui veulent hâter son adoption, alors que<lb/>les députés de disposent à retourner chez eux.<lb/>
+            </p>
+            <p>L'hon. M. Howe dit que l'affaire pourrait<lb/>très bien se régler si les honorables députés<lb/>de l'autre côté ne perdaient pas tant de temps<lb/>à palabrer.<lb/>
+            </p>
+            <p>M. Mackenzie croit que le Président du<lb/>Conseil est la dernière personne qui devrait<lb/>se plaindre du temps perdu; car si quelqu'un<lb/>abuse à la Chambre, peut-être pas pour dire<lb/>des bêtises, mais pour parler de choses qui<lb/>n'ont aucun rapport avec la question, c'est<lb/>bien l'honorable député (applaudissements).<lb/>Ce n'est pas au Président du Conseil à déter-<lb break="maybe"/>miner ce qui est important et ce qui ne<lb/>l'est pas (bravos!). L'autre soir, on a dit à la<lb/>Chambre que la mesure déposée était impor-<lb break="maybe"/>tante et qu'il fallait en discuter à fond. A son<lb/>avis, la discussion d'une telle mesure n'est<lb/>qu'une perte de temps et il ne veut pas s'y<lb/>engager.<lb/>
+            </p>
+            <p>Il est ordonné que la deuxième lecture du<lb/>projet de loi ait lieu mardi.<lb/>
+            </p>-->
+         </div>
+      </body>
+   </text>
+</TEI>
