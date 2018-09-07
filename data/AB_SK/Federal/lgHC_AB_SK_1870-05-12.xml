@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1870-05-12"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1870-05-12">12 May 1870</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, First Parliament, Second Session</title>.
+          
+          
+          <date when="1975"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          <biblScope unit="page" from="1532" to="1533"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1870-05-12_Page_01532.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1870-05-12_Page_01533.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-07">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-07">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1870-05-12_Page_01532">
+         <graphic url="final/images/AB_SK_H_of_C_1870-05-12_Page_01532.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1870-05-12_Page_01533">
+         <graphic url="final/images/AB_SK_H_of_C_1870-05-12_Page_01533.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1532" facs="final/images/AB_SK_H_of_C_1870-05-12_Page_01532.jpg"/>
+            
+            <fw type="num">1532</fw> <fw type="running">COMMONS DEBATES</fw> <fw type="dateline">May 12, 1870</fw>
+            
+            <head>SPEECH FROM THE THRONE</head>
+            
+            <p><hi rendition="simple:italic">Honourable Gentlemen of the Senate, and Gen<lb break="no"/>tlemen of the House of Commons,</hi><lb/>
+            </p>
+            <p>I cannot close the present Session without<lb/>acknowledging the attention and diligence<lb/>with which you have applied yourself to the<lb/>dispatch of public business, and especially to<lb/>the important objects which I recommended to<lb/>your consideration.<lb/>
+            </p>
+            <p>In the measure you have adopted respecting<lb/>Banks and Banking, and the issue of the<lb/>Dominion notes, I trust efficient guarantees<lb/>will be found for the protection of the financial<lb/>interests of the community.<lb/>
+            </p>
+            <p>The measure which you have passed for the<lb/>government of the new Province of Manitoba,<lb/>and for the vast adjacent territories, and the<lb/>just and reasonable conditions which you have<lb/>sanctioned in favour of their inhabitants,<lb/>cannot fail to remove every trace of the misap<lb break="no"/>prehensions which unhappily existed, and to<lb/>plant in their stead a feeling of confidence in<lb/>your good will, and of hope of the numerous<lb/>and increasing advantages to be derived from<lb/>joining the Dominion<lb/>
+            </p>
+            
+            <!-- IC, 2018-09-07, Commented out below as it is a duplicate in French-->
+            <!--<cb/>
+            <p>DISCOURS DU TRÔNE<lb/>
+            </p>
+            <p>Honorables Messieurs du Sénat, et Messieurs<lb/>de la Chambre des Communes,<lb/>
+            </p>
+            <p>Je ne puis clore la présente session sans  <lb/>reconnaître l'attention et la diligence que vous   <lb/>avez apportées à l'expédition des affaires<lb/>publiques, et en particulier aux objets impor-<lb break="maybe"/>tants que je recommandai à votre considéra-<lb break="maybe"/>tion.<lb/>
+            </p>
+            <p>Dans les mesures que vous avez adoptées<lb/>concernant les banques et le commerce de<lb/>banque et l'émission des billets de la Puis<lb break="no"/>sance, j'espère que se trouveront des garanties<lb/>suffisantes pour la protection des intérèts<lb/>financiers de la communauté.<lb/>
+            </p>
+            <p>La mesure que vous avez passée pour le gou-<lb break="maybe"/>vernement de la nouvelle province du Mani<lb break="no"/>toba, et pour les vastes territories adjacents, et<lb/>les conditions justes et raisonnables que vous<lb/>avez sanctionnées en faveur de leurs habitants,<lb/>ne peuvent manquer de faire disparaître toutes<lb/>traces de malentendus qui, malheureusement<lb/>existent, et de les remplacer par des sentiments<lb/>de confiance dans votre bon vouloir, et d'espoir<lb/>dans les nombreux et croissants avantages qui<lb/>découleront de l'union avec la Puissance.<lb/>
+            </p>-->
+            <pb n="1533" facs="final/images/AB_SK_H_of_C_1870-05-12_Page_01533.jpg"/>
+            
+            
+            <fw type="num">1533</fw>
+            
+            <p>
+     The military expedition, which it is neces<lb break="no"/>sary to send, will gratify and give confidence 
+     <lb/>
+     to all loyal and well-disposed persons. 
+     <lb/>
+            </p>
+   
+            <p>
+     Her Majesty's troops go forth on an errand of 
+     <lb/>
+     peace, and will serve as an assurance to the 
+     <lb/>
+     inhabitants of the Red River Settlement, and 
+     <lb/>
+     the numerous Indian tribes that occupy the 
+     <lb/>
+     North-West, that they have a place in the 
+     <lb/>
+     regard and the councils of England, and may 
+     <lb/>
+     rely upon the Impartial protection of the Brit<lb break="no"/>ish Sceptre. 
+     <lb/>
+            </p>
+            
+            <!-- IC, 2018-09-07, Commented out below as it is a duplicate in French-->
+            <!--<cb/>
+            <p>
+     L'expédition militaire qu'il est nécessaire 
+     <lb/>
+     d'envuyer donnera satisfaction et confiance à 
+     <lb/>
+     tous ceux qui sont loyaux et bien disposés. 
+     <lb/>
+            </p>
+   
+            <p>
+     Les troupes de Sa Majesté partent pour une 
+     <lb/>
+     expédition de paix et seront une assurance aux 
+     <lb/>
+     habitants de l'etablissement de la Rivière 
+     <lb/>
+     Rouge et aux nombreuses tribus indiennes qui 
+     <lb/>
+     occupent le Nord-Ouest, qu'ils ont une place 
+     <lb/>
+     dans l'estime et les conseils de l'Angleterre, et 
+     <lb/>
+     qu'ils peuvent se reposer sous la protection 
+     <lb/>
+     impartiale du Sceptre britannique. 
+     <lb/>
+            </p>-->
+         </div>
+      </body>
+   </text>
+</TEI>
