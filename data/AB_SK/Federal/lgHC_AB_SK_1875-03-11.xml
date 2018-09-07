@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xml:id="lgHC_AB_SK_1875-03-11"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1875-03-11">11 March 1875</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, First Parliament, Second Session</title>.
+          
+          
+          <date when="1975"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          <biblScope unit="page" from="638" to="638"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1875-03-11_Page_00638.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-07">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-07">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1875-03-11_Page_00638">
+         <graphic url="final/images/AB_SK_H_of_C_1875-03-11_Page_00638.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="638" facs="final/images/AB_SK_H_of_C_1875-03-11_Page_00638.jpg"/>
+               
+               
+     <fw type="dateline">MARCH 11, 1875.</fw> <fw type="num">638</fw> 
+    
+            
+            <head>THE NORTH-WEST TERRITORIES.</head>
+            
+            <p><persName ref="pers:MACK1">Hon. Mr. MACKENZIE</persName> introduced a<lb/>Bill to amend and consolidate the laws<lb/>respecting the North-West Territor<lb break="no"/>ies. As he intimated on a former<lb/>occasion the Government decided some<lb/>time ago to establish an entirely<lb/>independent Government in those<lb/>territories. To a certain extent it would<lb/>have been advisable, before such an Act<lb/>was passed, if it could be done, to have<lb/>the boundary of Manitoba rectified, but<lb/>that was a matter which it was difficult to<lb/>deal with at the present moment. He<lb/>thought it would be advisable as soon as<lb/>the boundary between the Province of<lb/>Ontario and the North-West Territories<lb/>was established, that that boundary should<lb/>become the boundary of the Province of<lb/>Manitoba. At present the 96th degree off<lb/>longitude was the eastern boundary of<lb/>that Province, and the contention of the<lb/>Ontario Government was that they owned<lb/>the territory to the centre of the Lake of<lb/>the Woods, and to a line running directly<lb/>north from Lake Itaska, in Minnesota, to<lb/>the head waters of the Mississippi. It was <lb/>known from the returns laid before Par<lb break="no"/>liament that the Government of the<lb/>Dominion, and the Ontario Government,<lb/>had decided upon an arbitration to define<lb/>this boundary ; and the Dominion Gov<lb break="no"/>ernment had nominated ex-Lieutenant<lb/>Governor WILMOT, of New Brunswick,<lb/>while the Ontario Government had nomi<lb break="no"/>nated Chief Justice RICHARDS. These<lb/>gentlemen were to choose a third arbi<lb break="no"/>trator, and both parties to the arrange<lb break="no"/>ment were to abide by the decision arrived<lb/>at. The hon. member for Kingston, when<lb/>leader of the Government, made<lb/>a proposal to the Ontario Government<lb/>two years ago, to have this matter referred<lb/>to the Privy Council for settlement. While<lb/>there was no particular objection to that<lb/>course, it was thought advisable by the<lb/>present Government that it should be set<lb break="no"/>tled in the way he had explained. Until<lb/>that settlement had been reached, which <lb/>he hoped it would be in a short time, as<lb/>each side had prepared its case, and the<lb/>two arbitrators would shortly have a meet<lb break="no"/>ing, it was difficult to define the bound.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1875-03-01"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1875-03-01">1 March 1875</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, First Parliament, Second Session</title>.
+          
+          
+          <date when="1975"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          <biblScope unit="page" from="423" to="424"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1875-03-01_Page_00423.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1875-03-01_Page_00424.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-07">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-07">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1875-03-01_Page_00423">
+         <graphic url="final/images/AB_SK_H_of_C_1875-03-01_Page_00423.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1875-03-01_Page_00424">
+         <graphic url="final/images/AB_SK_H_of_C_1875-03-01_Page_00424.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="423" facs="final/images/AB_SK_H_of_C_1875-03-01_Page_00423.jpg"/>
+            
+            <fw type="dateline">March 1, 1875</fw> <fw type="num">423</fw>
+            
+            <head>ADMINISTRATION OF JUSTICE IN SOUTH-WEST.</head>
+            
+            <p>
+     <persName ref="pers:FOUR3">Hon. Mr. FOURNIER</persName> moved for 
+     <lb/>
+     leave to introduce a Bill to amend the 
+     <lb/>
+     Act respecting the administration of Jus<lb break="no"/>
+            
+            <pb n="424" facs="final/images/AB_SK_H_of_C_1875-03-01_Page_00424.jpg"/>
+               
+            <fw type="num">424</fw> <fw type="running">HOUSE OF COMMONS.</fw>
+           
+            tice and the establishment of the Police<lb/>Force in the North-West Territories. He<lb/>stated that the object of this Bill was to<lb/>amend only two clauses, 26 and 25 of the<lb/>existing law. These two clauses were re<lb break="no"/>enacted almost entirely with the addition<lb/>of some provisions respecting desertions,<lb/>which were not made an offence in the<lb/>present Act and there was no provision<lb/>for the punishment of deserters. The<lb/>present Bill made desertion an offence<lb/>punishable by fine. Under the present<lb/>law the Commissioner alone had the power<lb/>of punishing offences. By the present<lb/>Bill it was proposed to extend that Bill to<lb/>the Assistant Commissioner and other<lb/>officers in command, so that any command<lb break="no"/>ing officer in an isolated position would<lb/>have the same power as the Commissioner<lb/>in relation to the offences mentioned in<lb/>the Act. The second clause of this Bill,<lb/>amending Section 25 of the present act,<lb/>provided that any deserter found in any of<lb/>the Provinces might be sued, fined and<lb/>imprisoned for his offence.<lb/>
+            </p>
+            <p>Bill read a first time.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
