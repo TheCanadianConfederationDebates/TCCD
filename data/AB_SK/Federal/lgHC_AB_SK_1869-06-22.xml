@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1869-06-22"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1869-06-22">22 June 1869</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, First Parliament, Second Session</title>.
+          
+          
+          <date when="1975"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          <biblScope unit="page" from="929" to="931"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1869-06-22_Page_00929.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1869-06-22_Page_00930.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1869-06-22_Page_00931.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-07">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-07">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1869-06-22_Page_00929">
+         <graphic url="final/images/AB_SK_H_of_C_1869-06-22_Page_00929.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1869-06-22_Page_00930">
+         <graphic url="final/images/AB_SK_H_of_C_1869-06-22_Page_00930.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1869-06-22_Page_00931">
+         <graphic url="final/images/AB_SK_H_of_C_1869-06-22_Page_00931.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="929" facs="final/images/AB_SK_H_of_C_1869-06-22_Page_00929.jpg"/>
+            
+            
+            
+            <fw type="num">929</fw>
+            
+           <head>CHAMBER OF THE SENATE</head> 
+           
+            <p>
+     This day, at four o'clock p.m., His Ex<lb break="no"/>cellency the Governor-General proceeded in 
+     <lb/>
+     state to the Chamber of the Senate in the 
+     <lb/>
+     Parliament Buildings. The members of the 
+     <lb/>
+     Senate being assembled. His Excellency was 
+     <lb/>
+     pleased to command the attendance of the 
+     <lb/>
+     House of Commons, and that House being 
+     <lb/>
+     present, the following Bills were assented to 
+     <lb/>
+     in Her Majesty's name by His Excellency the 
+     <lb/>
+     Governor-General, viz: 
+     <lb/>
+            </p>
+            
+            
+            
+            <!-- IC, 2018-09-07, Commented out below as it is a duplicate in French-->
+           <!-- <cb/>
+          
+   
+            <p>
+     Aujourd'hui, à quatre heures de l'après- 
+     <lb break="maybe"/>
+     midi, Son Excellence le Gouverneur Général 
+     <lb/>
+     se rend en grande cérémonie à la salle du 
+     <lb/>
+     Sénat dans l'édifice du Parlement. Les mem- 
+     <lb break="maybe"/>
+     bres du Sénat étant réunis, il plait à Son 
+     <lb/>
+     Excellence d'ordonner la présence de la 
+     <lb/>
+     Chambre des Communes et, la Chambre s'é- 
+     <lb break="maybe"/>
+     tant présentée, Son Excellence le Gouverneur 
+     <lb/>
+     Général, au nom de Sa Majesté, donne la 
+     <lb/>
+     sanction royale aux Bills mm: 
+     <lb/>
+            </p>-->
+            
+            
+            <pb n="930" facs="final/images/AB_SK_H_of_C_1869-06-22_Page_00930.jpg"/>
+            
+            
+            <fw type="num">930</fw> <fw type="running">COMMONS DEBATE</fw> <fw type="dateline">June 22, 1869</fw>
+            
+            <pb n="931" facs="final/images/AB_SK_H_of_C_1869-06-22_Page_00931.jpg"/>
+            
+            
+            <fw type="num">931</fw>
+            
+            <p>
+     Act for the temporary Government of 
+     <lb/>
+     Rupert's Land and the North Western Ter<lb break="no"/>ritory when united with Canada. 
+     <lb/>
+            </p>
+            
+            <!-- IC, 2018-09-07, Commented out below as it is a duplicate in French-->
+            <!--<cb/>
+            <p>
+       Loi concernant le gouvernement provisoire 
+     <lb/>
+     de la Terre de Rupert et du Territoire du 
+     <lb/>
+     Nord-Ouest, après leur union avec le Cal-'16:. 
+     <lb/>
+            </p>-->
+         </div>
+      </body>
+   </text>
+</TEI>
