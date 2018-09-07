@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1875-03-30"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1875-03-30">30 March 1875</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, First Parliament, Second Session</title>.
+          
+          
+          <date when="1975"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          <biblScope unit="page" from="995" to="995"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1875-03-30_Page_00995.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-07">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-07">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1875-03-30_Page_00995">
+         <graphic url="final/images/AB_SK_H_of_C_1875-03-30_Page_00995.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            
+            
+            
+            <pb n="995" facs="final/images/AB_SK_H_of_C_1875-03-30_Page_00995.jpg"/>
+            
+            <fw type="dateline">MARCH 30, 1875.</fw> <fw type="num">995</fw>
+            
+            <p><persName ref="pers:SCHU1">Mr. SCHULTZ</persName> wished to have some<lb/>information in regard to treaties generally<lb/>in the North-West. There was very<lb/>little to be obtained from the report of<lb/>the Minister of the Interior. The treaty<lb/>negotiated at Qu'Appelle Lake occupied<lb/>several days and many matters were<lb/>brought up. It was understood that dis-<lb break="yes"/>satisfactions were expressed by nearly every<lb/>one of these Indians with the Hudson's<lb/>Bay Company's rule in the North-West,<lb/>and fear was expressed that the company<lb/>or its officers exercised undue influence<lb/>over the Government. If such were the <lb/>fact, it was a very important matter for<lb/>the Government to keep in view in mak<lb break="no"/>ing choice of officials in the North-West<lb/>and in the Government of that territory. <lb/>
+            </p>
+            <!--Unsure of Laird perName-->
+            <p><persName ref="pers:LAIR4">Hon. Mr. LAIRD</persName> said the objections<lb/>which the Indians took to the Hudson<lb/>Bay Company were very fully stated in<lb/>reports published in all the newspapers of<lb/>Manitoba and in some newspapers in<lb/>the Eastern Provinces. A reporter ac<lb break="no"/>companied the commissioners and reported<lb/>the objections taken by the Indians and<lb/>the replies thereto which satisfied them in<lb/>regard to the treaty. These reports had<lb/>been published so fully through the press<lb/>that he did not think it necessary to in<lb break="no"/>corporate them in his report to the House.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT3">Mr. SMITH</persName> (Selkirk) said the objec<lb break="no"/>tion referred to was in regard to the <lb/>reserves held by the Hudson's Bay Com<lb break="no"/>pany under the provisions of the surrender<lb/>of the territory. Otherwise there was<lb/>very little fault found but it might be in<lb break="no"/>teresting to the House to know that a <lb/>speech delivered by the hon. member for<lb/>Lisgar, in which the Hudson's Bay Com<lb break="no"/>pany were not spoken of in the most com<lb break="no"/>plimentary terms, had been translated<lb/>into the Indian language and distributed<lb/>among the Indians. <lb/>
+            </p>
+            <p><persName ref="pers:SCHU1">Mr. SCHULTZ</persName> said the hon. member<lb/>had misconceived, to say the least of it,<lb/>the objections raised by the Indians on<lb/>the occasion referred to. These objec<lb break="no"/>tions were simply the distrust engendered<lb/>by their long experience in dealing with the<lb/>Hudson's Bay Company's officers, and,<lb/>
+           
+            <cb/>
+            
+     if his information was correct, that dis<lb break="no"/>trust was very strongly expressed day<lb/>after day. With regard to the alleged<lb/>translation of his (Mr. SCHULTZ) speech,<lb/>if the statement were true the translation<lb/>must have been done by the Hudson's<lb/>Bay Company themselves. It was a very<lb/>unlikely story, however, inasmuch as<lb/>there was not in the whole of the North-<lb break="yes"/>West a font of type capable of printing a <lb/>document of that kind.<lb/>
+            </p>
+            <p><persName ref="pers:SMIT3">Mr. SMITH</persName> said he had been informed<lb/>on a very good authority that such a docu<lb break="no"/>ment was circulated among the Indians. <lb/>The peace and quietness which prevailed<lb/>in the North-West was sufficient evidence <lb/>of the good relations which existed be<lb break="no"/>tween the Indians and the Hudson's Bay<lb/>Company's officers.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

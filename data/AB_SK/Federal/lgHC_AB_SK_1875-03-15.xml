@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1875-03-15"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1875-03-15">15 March 1875</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, First Parliament, Second Session</title>.
+          
+          
+          <date when="1975"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          <biblScope unit="page" from="735" to="735"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1875-03-15_Page_00735.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-07">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2081-09-07">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1875-03-15_Page_00735">
+         <graphic url="final/images/AB_SK_H_of_C_1875-03-15_Page_00735.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="735" facs="final/images/AB_SK_H_of_C_1875-03-15_Page_00735.jpg"/>
+            
+            
+            <fw type="num">735</fw> <fw type="running">HOUSE OF COMMONS.</fw>
+            
+            <head>THE NORTH-WEST TERRITORIES.</head>
+            
+            <p>The House went into Committee of the <lb/>Whole, Mr. DYMOND in the chair, to con<lb break="no"/>sider the following resolutions:-<lb/>
+            </p>
+            <p>1. That it is expedient to amend and consol<lb break="no"/>idate the Laws respecting the North-West Ter<lb break="no"/>ritories, the Government thereof, the Adminis<lb break="no"/>tration of Justice therein, and other matters<lb/>relating thereto. <lb/>
+            </p>
+            <p>2. That it is expedient to provide that salaries<lb/>not exceeding the following amounts per annum,<lb/>may be paid out of the Consolidated Revenue<lb/>Fund of Canada to the following officers to be<lb/>appointed under the Act to be passed in the<lb/>behalf aforesaid-:<lb/>
+            </p>
+            
+            <table>
+               <row><cell>To the Lieutenant Governor, not ex<lb break="no"/>ceeding.... .... .......... ........</cell><cell rendition="simple:right">$7,000</cell></row>
+               <row><cell>To each Stipendiary Magistrate, not ex<lb break="no"/>ceeding...... ...... ...... ......</cell><cell rendition="simple:right">3,000</cell></row>
+               <row><cell>To two Members of Council, each, not exceeding .... ...... ...... ........</cell><cell rendition="simple:right">1,000</cell></row>
+               <row><cell>To the Clerk of the Council, who shall<lb/>also act as, and perform the duties of<lb/>Secretary to the Lieutenant Governor,<lb/>not exceeding.......... ........</cell><cell rendition="simple:right">1,800</cell></row>
+               <row><cell>To the Clerk of the Court of each Dis<lb break="no"/>trict, not exceeding.............</cell><cell rendition="simple:right">500</cell></row>
+               <row><cell>To the Sheriff for the said Territories,<lb/>not exceeding......................</cell><cell rendition="simple:right">1,200</cell></row>
+               <row><cell>To a Registrar of Deeds for the same, (to<lb/>be recouped by Fees and Registration)<lb/>not exceeding......................</cell><cell rendition="simple:right">2,000</cell></row>
+               
+            </table>
+          
+            <p><persName ref="pers:KIRK3">Mr. KIRKPATRICK</persName> - How many<lb/>Stipendiary Magistrate will there be?<lb/>
+            </p>
+            <p><persName ref="pers:MACK1">Hon. Mr. MACKENZIE</persName>--Three.<lb/>
+            </p>
+            <p>The Committee rose and reported the<lb/> <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
