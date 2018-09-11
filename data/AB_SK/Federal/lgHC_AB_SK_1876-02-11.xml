@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1876-02-11"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1876-02-11">11 February 1876</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, First Parliament, Second Session</title>.
+          
+          
+          <date when="1975"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          <biblScope unit="page" from="15" to="16"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1876-02-11_Page_00015.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1876-02-11_Page_00016.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-11">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1876-02-11_Page_00015">
+         <graphic url="final/images/AB_SK_H_of_C_1876-02-11_Page_00015.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1876-02-11_Page_00016">
+         <graphic url="final/images/AB_SK_H_of_C_1876-02-11_Page_00016.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="15" facs="final/images/AB_SK_H_of_C_1876-02-11_Page_00015.jpg"/>
+            <fw type="running"><hi rendition="simple:italic">The Address.</hi></fw> <fw type="dateline">[February 11, 1876]</fw> <fw type="num">15</fw>
+           
+            <p>When the Bill for the inaugu<lb break="no"/>ration of the North-West Government <lb/>was proposed last Session, I said until<lb/>there is a larger body of people to be<lb/>ruled, the constitutional Governor<lb/>of Manitoba might still be entrusted<lb/>with the management of the North-<lb break="yes"/>West. As the constitutional Governor<lb/>of Manitoba he has little to do, and he<lb/>might very well have given his spare<lb/>time—and he had plenty of it on his <lb/>hands, and, as I understand, did not<lb/>grumble at the labor—to the adminis<lb break="no"/>tration of the affairs of the North-West<lb/>Territories. But my hon. friend the<lb/>Premier, in his usual incisive way,<lb/>said it was absolutely necessary that<lb/>the Government should be established<lb/>without delay, and stationed far away<lb/>from Winnipeg and its influence. I<lb/>was not convinced, but I was silenced,<lb/>and the Bill passed; but we do not see<lb/>that the Government has been estab<lb break="no"/>lished after all. I flatter myself in<lb/>the calm consideration of the subject<lb/>which my hon. friend gave it after the <lb/>prorogation, and in his own chamber,<lb/>that he began to feel there was no<lb/>such imminent necessity as he at<lb/>first thought for the immediate ap<lb break="no"/>pointment of a second Governor. <lb/>At all events no appointment has <lb/>yet been made, and as we have no <lb/>complaint from the North-West,<lb/>and have saved a considerable amount<lb/>from the delay, I presume the hon.<lb/>gentleman will make the saving a<lb/>permanent one by continuing the <lb/>masterly inactivity which he has shown<lb/>hitherto with respect to this Govern<lb break="no"/>
+           
+            <pb n="16" facs="final/images/AB_SK_H_of_C_1876-02-11_Page_00016.jpg"/>
+            
+            
+            <fw type="num">16</fw> <fw type="running"><hi rendition="simple:italic">The Address.</hi></fw> <fw type="running">[COMMONS.]</fw>
+       
+       ment.</p>     
+            
+            
+         </div>
+      </body>
+   </text>
+</TEI>

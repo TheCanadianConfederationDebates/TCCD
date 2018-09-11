@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1875-04-02"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1875-04-02">2 April 1875</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, First Parliament, Second Session</title>.
+          
+          
+          <date when="1975"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Information Canada</publisher>.
+          <biblScope unit="page" from="1048" to="1049"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1875-04-02_Page_01048.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1875-04-02_Page_01049.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-11">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1875-04-02_Page_01048">
+         <graphic url="final/images/AB_SK_H_of_C_1875-04-02_Page_01048.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1875-04-02_Page_01049">
+         <graphic url="final/images/AB_SK_H_of_C_1875-04-02_Page_01049.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1048" facs="final/images/AB_SK_H_of_C_1875-04-02_Page_01048.jpg"/>
+            
+            <fw type="num">1048</fw> <fw type="running">HOUSE OF COMMONS.</fw>
+            
+           <head>THE NORTH-WEST GOVERNMENT.</head>
+            
+            <p>
+     <persName ref="pers:MACK1">Hon. Mr MACKENZIE</persName> moved the 
+     <lb/>third reading of Bill to amend and consoli<lb break="no"/>date the laws respecting the North-West<lb/>Territories.<lb/>
+            </p>
+            <p><persName ref="pers:MACD1">Sir JOHN MACDONALD</persName> said he did <lb/>not object to the third reading and passage<lb/>of this Bill, but he would again impress upon<lb/>the leader of the Government the expe<lb break="no"/>diency, from an economical point of view,<lb/>of governing the North-West Territories<lb/>from Fort Garry. A commission could be <lb/>issued to the Lieut. Governor of Manitoba<lb/>to act for the present as Lieut. Governor<lb/>of the North-West. He had plenty of<lb/>time on his hands, and there was no reason<lb/>in the world why he should not direct his<lb/>attention to the government of the whole<lb/>of the North-West for the present. The <lb/>objection of the hon. Premier that the <lb/>North-West Council had proved a failure,<lb/>because none of its members residing west<lb/>of Manitoba was fully answered by the <lb/>hon. member for Selkirk who stated that<lb/>
+          
+            <pb n="1049" facs="final/images/AB_SK_H_of_C_1875-04-02_Page_01049.jpg"/>
+          
+          <fw type="dateline">APRIL 2, 1875.</fw> <fw type="num">1049</fw>
+           
+     at least six of these gentlemen were 
+     <lb/>scattered through the territory and knew<lb/>all about it.<lb/>
+            </p>
+            <p><persName ref="pers:MACK1">Hon. Mr. MACKENZIE</persName> received the<lb/>suggestion of the hon. member, in the <lb/>spirit in which it was offered, but could<lb/>not adopt it. If he had not regarded this<lb/>measure as a necessity he would not have<lb/>introduced it. The Lieut. Governor, as <lb/>one of the commissioners who accom<lb break="no"/>panied the Minister of the Interior to<lb/>negotiate a treaty with the Indians,<lb/>although only absent three weeks from<lb/>Manitoba and distant about 250 miles<lb/>from that Province was obligated to issue a<lb/>commission to the Chief Justice to act as <lb/>Lieut. Governor of Manitoba in his<lb/>absence. That was, to say the least, incon<lb break="no"/>venient, and the inconvenience would be <lb/>increased, of course, in proportion to the <lb/>length of absence required in administrat<lb break="no"/>ing the affairs in the North-West. <lb/>
+            </p>
+            <p>The Bill was read a third time and<lb/>passed.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
