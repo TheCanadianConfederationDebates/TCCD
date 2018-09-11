@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1902-03-10"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>, <date when="1902-03-10">10 March 1902</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+          
+               <title>House of Commons Debates, Ninth Parliament, Second Session</title>.
+          
+          
+          <date when="1902"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="945" to="948"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1902-03-10_Page_00945.html"/>
+               
+               </item>
+               
+               <item><ptr target="final/hocr/AB_SK_H_of_C_1902-03-10_Page_00947.html"/></item>
+         
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-11">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-09-11">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1902-03-10_Page_00945">
+         <graphic url="final/images/AB_SK_H_of_C_1902-03-10_Page_00945.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1902-03-10_Page_00947">
+         <graphic url="final/images/AB_SK_H_of_C_1902-03-10_Page_00947.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="945" facs="final/images/AB_SK_H_of_C_1902-03-10_Page_00945.jpg"/>
+            
+            <fw type="num">945</fw> <fw type="dateline">MARCH 10, 1902</fw> <fw type="num">946</fw>
+            
+            
+            <p><persName ref="pers:OLIV4">Mr. FRANK OLIVER</persName> (Alberta). It would be uncourtcous on the part of the mem- bers from the North-west, opportunity being given them, if they did not respond and acknowledge the very kind advice that has been tendered to them as to the attitude they should assume on public questions. I am glad to hear the hon. member who has just sat down (Mr. Brock) and so many other hon.members, lecture those of us who come from the North-west on the principles of patriotism. Since when did we of the North-west require to be lectured on the principles of patriotism, of Canadian nation- alism? Our presence in the North-west is evidence of our naitionalism? Otherwise we would be along with the million and more of our countrymen who are residents in the United States to-day. Those of us who are in the North-west are there because we are patriotic Canadians, because we are nationalists in the large and complete sense of the term, rather than for any other reason. We do not have to be taught nationalism at the hands of any- one, no matter how highly respected he may be in this House or elsewhere. Particularly let me say that we do not require to be lec- tured on the duty of holding a broad national
+            
+            
+            <pb n="947" facs="final/images/AB_SK_H_of_C_1902-03-10_Page_00947.jpg"/>
+          
+          <fw type="num">947</fw> <fw type="running">COMMONS</fw> <fw type="num">948</fw>
+          
+          
+          
+          
+          view of national questions, when we are<lb/>dealing with a subject that involves a mat<lb break="no"/>ter of between $25,000,000 and $50,000,000 of<lb/>the wealth of this country, produced in one,<lb/>year, we do not need to be lecture by men<lb/>who to-day are badgering the government<lb/>for an increase in the duties on wollen<lb/>goods, a matter that interests a section of<lb/>the people, a section of the country, some<lb break="no"/>thing that requires attention possibly, but<lb/>I ask you, Mr. Speaker, does it bear any<lb/>proportion, any comparison, to the interest<lb/>involved in the matter that has been engag<lb break="no"/>ing the attention of the House to-night?<lb/>
+            </p>
+            
+            <p>We have been discussing a question involv<lb break="no"/>ing the prosperity, the growth, the welfare<lb/>of the North-west, and thereby involving<lb/>the growth, the prosperity and the welfare<lb/>of the Dominion of Canada. For, I ask<lb/>you, where else have you an inrease of<lb/>wealth? Where else have you an increase<lb/>of prosperity, as shown by the census re<lb break="no"/>turns, but in that great west? Would no<lb/>Canada be retrograding in population but<lb/>for the great North-west? Where does that<lb/>increase come from of which Canada boasts<lb/>within the last few years, except from the<lb/>country west of Lake Superior? I take<lb/>the liberty of saying that this Canada of<lb/>ours would be but a poor Canada, would<lb/>offer but a poor inducement for a man to<lb/>proclaim himself a Canadian, were it not<lb/> for the country west of Lake Superior.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
