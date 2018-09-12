@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1889-04-24"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1889-04-24">24 April 1889</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Sixth Parliament, Third Session</title>.
+          
+          
+          <date when="1889"/>.  
+          
+          
+          <pubPlace>Ottawa</pubPlace>: <publisher>Brown Chamberlin, Printer to the Queen's Most Excellent Majesty</publisher>.
+          <biblScope unit="page" from="1498" to="1498"/>.
+        </bibl>
+        
+
+            <list>
+               <item> 
+                  <ptr target="final/hocr/AB_SK_H_of_C_1889-04-24_Page_01498.html"/> 
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-12">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="ichudson" when="2018-09-12">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1889-04-24_Page_01498">
+         <graphic url="final/images/AB_SK_H_of_C_1889-04-24_Page_01498.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1498" facs="final/images/AB_SK_H_of_C_1889-04-24_Page_01498.jpg"/>
+            
+            
+           <fw type="num">1498</fw> <fw type="running">COMMONS DEBATES.</fw> <fw type="dateline">APRIL 24,</fw>
+           
+   
+          
+     <head rendition="simple:centre">N. W. T ACT AMENDMENT.</head> 
+    
+   
+            <p>
+     On the order for second reading of Bill (No 136) to con<lb break="no"/>solidate and amend the Act respecting the North-West 
+     <lb/>
+     Territories, 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:DEWD1">Mr. DEWDNEY</persName>. When I introduced this Bill for the 
+     <lb/>
+     special purpose of consolidating the three Acts now in ex<lb break="no"/>istence, my principal reason was that last Session the 
+     <lb/>
+     Legislative Assembly consolidated the North-West Ordin<lb break="no"/>ances, and I thought it would be very convenient to have 
+     <lb/>
+     the North-West Territories Act also consolidated. How<lb break="no"/>ever, some hon. gentlemen opposite thought it was too late 
+     <lb/>
+     in the Session to put through this Bill; but I thought, sub<lb break="no"/>sequently, that if they would agree to raise no question on 
+     <lb/>
+     the clauses not amended, we might possibly be able to put 
+     <lb/>
+     through the amendment. Since that, several hon. gentle<lb break="no"/>men have informed me, that probably there would be con<lb break="no"/>siderable discussion on some of the old clauses of the Bill 
+     <lb/>
+     which I do not propose to amend, and, as the amendments 
+     <lb/>
+     I did propose are not of a serious character, and several hon. 
+     <lb/>
+     gentlemen on both sides have expressed a wish that, if pos<lb break="no"/>sible, I might allow the measure to remain over for another 
+     <lb/>
+     Session, I beg to move that the order be discharged. 
+     <lb/>
+            </p>
+   
+            <p>
+     Motion agreed to, order discharged, and Bill withdrawn. 
+     <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
