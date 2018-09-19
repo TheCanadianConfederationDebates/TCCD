@@ -105,6 +105,7 @@
                                     <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="if ($legCaption/node()) then $legCaption/node() else '[no legislature found]'"/> </h6>
                                         <ul>
                                             <xsl:for-each select="current-group()">
+                                                <xsl:sort select="@xml:id"/>
                                                 <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]/date[1]"/></a></li>
                                             </xsl:for-each>
                                         </ul>
@@ -199,6 +200,7 @@
                                             <h6 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:apply-templates select="if ($legCaption/node()) then $legCaption/node() else '[no legislature found]'"/></h6>
                                             <ul>
                                                 <xsl:for-each select="current-group()">
+                                                    <xsl:sort select="@xml:id"/>
                                                     <li><a href="{@xml:id}.html"><xsl:value-of select="//titleStmt/title[1]"/></a></li>
                                                 </xsl:for-each>
                                             </ul>

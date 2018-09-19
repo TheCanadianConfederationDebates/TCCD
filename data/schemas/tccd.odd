@@ -188,7 +188,17 @@ so Volume 2 by implication has finished. -->
                <classSpec type="atts" ident="att.coordinated" module="tei" mode="delete"/>    
                <classSpec type="atts" ident="att.cReferencing" module="tei" mode="delete"/>      
                <classSpec type="atts" ident="att.damaged" module="tei" mode="delete"/>      
-               <classSpec type="atts" ident="att.datable.iso" module="tei" mode="delete"/>    
+               <classSpec type="atts" ident="att.datable.iso" module="tei" mode="delete"/>
+               <classSpec type="atts"
+                          ident="att.datable.custom"
+                          module="tei"
+                          mode="delete"/>
+               <classSpec type="atts" ident="att.datable" module="tei" mode="change">
+                  <attList>
+                     <attDef ident="calendar" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                  </attList>
+               </classSpec>
                <classSpec type="atts" ident="att.datcat" module="tei" mode="delete"/>      
                <classSpec type="atts" ident="att.declarable" module="tei" mode="delete"/>  
                <classSpec type="atts" ident="att.declaring" module="tei" mode="delete"/>    
@@ -224,6 +234,12 @@ so Volume 2 by implication has finished. -->
                      <attDef ident="copyOf" mode="delete"/>
                      <attDef ident="exclude" mode="delete"/>
                      <attDef ident="select" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec type="atts" ident="att.global" module="tei" mode="change">
+                  <attList>
+                     <attDef ident="xml:base" mode="delete"/>
+                     <attDef ident="xml:space" mode="delete"/>
                   </attList>
                </classSpec>
                <!--  This is taken directly from the TEI Simple ODD and modified to make it even simpler. -->
