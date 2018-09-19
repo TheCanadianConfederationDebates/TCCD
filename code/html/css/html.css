@@ -628,6 +628,7 @@ footer h2 {
 
 .teamPage div.row>div{
     float: none !important;
+    clear: both !important;
 }
 
 .landingPage {
