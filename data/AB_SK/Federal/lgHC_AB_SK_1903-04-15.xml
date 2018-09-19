@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1903-04-15"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1903-04-15">15 April 1903</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Ninth Parliament, Third Session</title>.
+          <date when="1903"/>.
+          <pubPlace>Ottawa</pubPlace>:
+          <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="1296" to="1297"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1903-04-15_Page_01295.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1903-04-15_Page_01297.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-19">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-09-19">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1903-04-15_Page_01295">
+         <graphic url="final/images/AB_SK_H_of_C_1903-04-15_Page_01295.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1903-04-15_Page_01297">
+         <graphic url="final/images/AB_SK_H_of_C_1903-04-15_Page_01297.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1295" facs="final/images/AB_SK_H_of_C_1903-04-15_Page_01295.jpg"/>
+      <fw type="running">COMMONS</fw> <fw type="num">1296</fw>
+      
+      
+            <head rendition="simple:centre">
+     QUESTIONS. 
+     <lb/>
+            </head>
+            <head rendition="simple:centre">PROVINCIAL AUTONOMY FOR THE NORTH-<lb break="yes"/>WEST TERRITORIES.<lb/>
+            </head>
+            
+            
+            <p><persName ref="pers:BOYD3">Mr. BOYD</persName>—by <persName ref="pers:TAYL1">Mr. Taylor</persName>- asked:<lb/>
+            </p>
+            
+            <quote rendition="tccd:blockquote">
+            <p>Is it the intention of the government to in<lb break="no"/>troduce during the present session a measure<lb/>granting provincial autonomy to the North<lb break="no"/>west territories ? If not, why not ?<lb/>
+            </p></quote>
+            
+            
+            <p><persName ref="pers:LAUR5">The PRIME MINSTER</persName> (Right Hon. Sir<lb/>Wilfred Laurier). That matter is under con<lb break="no"/>sideration.<lb/>
+            </p>
+            
+            
+            <pb n="1297" facs="final/images/AB_SK_H_of_C_1903-04-15_Page_01297.jpg"/>
+   
+   
+     <fw type="num">1297</fw> <fw type="dateline">APRIL 15, 1903</fw>
+
+
+<div type="section">
+            <head rendition="simple:centre">SENATORS FOR MANITOBA AND THE<lb/>NORTH-WEST TERRITORIES<lb/>
+            </head>
+            <p><persName ref="pers:BOYD3">Mr. BOYD</persName>—by <persName ref="pers:TAYL1">Mr. Taylor</persName>—asked:<lb/>
+            </p>
+   
+   <quote rendition="tccd:blockquote">
+            <p>Is it the intention of the government to in<lb break="no"/>crease the number of senators for Manitoba<lb/>and the North-west Territories, in proportion<lb/>to their increased representation in the House<lb/>of Commons ?<lb/>
+            </p></quote>
+   
+   
+   <p><persName ref="pers:LAUR5">The PRIME MINSTER</persName> (Right Hon. Sir<lb/>Wilfred Laurier). That matter is also under<lb/>consideration.<lb/>
+            </p>
+       </div>  </div>
+      </body>
+   </text>
+</TEI>

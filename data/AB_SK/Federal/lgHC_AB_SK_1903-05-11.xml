@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xml:id="lgHC_AB_SK_1903-05-11"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title><name type="legislature" ref="lg:lgHC">House of Commons</name>,
+               <date when="1903-05-11">11 May 1903</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+            
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+            
+         </titleStmt>
+         
+         <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Ninth Parliament, Third Session</title>.
+               <date when="1903"/>.
+               <pubPlace>Ottawa</pubPlace>:
+               <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+               <biblScope unit="page" from="2778" to="2778"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1903-05-11_Page_02777.xml"/>
+               </item>
+   
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-19">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-09-19">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1903-05-11_Page_02777">
+         <graphic url="final/images/AB_SK_H_of_C_1903-05-11_Page_02777.jpg"/>
+      </surface>
+  
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="1295" facs="final/images/AB_SK_H_of_C_1903-05-11_Page_02777.jpg"/>
+      <fw type="dateline">MAY 1,, 1903</fw> <fw type="num">2778</fw>
+      
+            <head rendition="simple:centre">MOTIONS AGREED TO WITHOUT DIS<lb break="no"/>CUSSION.</head>
+            
+            
+            <p>Copies of all Orders in Council, memorials,<lb/>
+               letters, telegrams, and other correspondence,<lb/>
+               and all other documents and communications<lb/>
+               in writing, between the first day of January,<lb/>
+               1897, and the first day of May, 1903, relating to,<lb/>
+               or concerning, or in any way having reference<lb/>
+               to the granting of provincial autonomy to the<lb/>
+               North-west Territories, or the creation of the<lb/>
+               said Territories into a province, or provinces.—<lb/>
+               <persName ref="pers:BORD2">Mr. Borden</persName> (Halifax).</p>  </div>
+      </body>
+   </text>
+</TEI>
