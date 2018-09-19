@@ -609,11 +609,27 @@ footer h2 {
     -o-filter: grayscale(1) contrast(0.65) brightness(1.45);
     -ms-filter: grayscale(1) contrast(0.65) brightness(1.45);
 }
+
+
 .teamPage .team i {
   clear: both;
   width: 100%;
   display: block;
 }
+
+
+/* Override the godawful bootstrap piffle to use flex for the team page. */
+.teamPage div.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.teamPage div.row>div{
+    float: none !important;
+}
+
 .landingPage {
   border: 13px solid #FF3333;
   height: 100vh;
