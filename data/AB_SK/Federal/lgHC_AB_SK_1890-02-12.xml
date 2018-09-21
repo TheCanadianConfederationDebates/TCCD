@@ -30,7 +30,7 @@
           
           
           <pubPlace>Ottawa</pubPlace>: <publisher>Brown Chamberlin, Printer to the Queen's Most Excellent Majesty</publisher>.
-          <biblScope unit="page" from="503" to="503"/>,
+          <biblScope unit="page" from="503" to="504"/>,
           <biblScope unit="page" from="531" to="562"/>,
         </bibl>
         
@@ -162,7 +162,10 @@
             <pb n="503" facs="final/images/AB_SK_H_of_C_1890-02-12_Page_00503.jpg"/>
             <fw type="num">503</fw>
             <fw type="running">[COMMONS]</fw> <fw type="num">504</fw>
-            <p>
+            
+                <!-- IC, 2018-09-19, Commented out below as it precedes Debate Day --> 
+                
+                <!--<p>
      [...]some remuneration, so I would ask if it receives 
      <lb/>
      any subsidy from this Government? 
@@ -327,7 +330,7 @@
      <lb/>
             </p>
          </div>
-             <div type="debate">
+             <div type="debate">-->
    
            
      <head rendition="simple:centre">HOUSE OF COMMONS.</head> 
