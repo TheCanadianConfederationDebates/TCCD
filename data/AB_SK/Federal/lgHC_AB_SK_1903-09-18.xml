@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1903-09-18"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1903-09-18">18 September 1903</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Ninth Parliament, Third Session</title>.
+          <date when="1903"/>.
+          <pubPlace>Ottawa</pubPlace>:
+          <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="11691" to="11692"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1903-09-18_Page_11691.html"/>
+               </item>
+         
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-26">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-09-26">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1903-09-18_Page_11691">
+         <graphic url="final/images/AB_SK_H_of_C_1903-09-18_Page_11691.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="11691" facs="final/images/AB_SK_H_of_C_1903-09-18_Page_11691.jpg"/>
+            <fw type="num">11691</fw>
+            <fw type="running">COMMONS</fw> <fw type="num">11692</fw>
+            <head rendition="simple:centre">HOUSE OF COMMONS</head>
+         
+         
+            <head rendition="simple:right">
+     FRIDAY, September 18, 1903 
+     <lb/>
+            </head>
+            <p>
+     The SPEAKER took the Chair at Eleven 
+     <lb/>o'clock<lb/>
+            </p>
+   
+   <div type="section">
+            <head rendition="simple:centre">
+     REPRESENTATION OF THE NORTH- 
+     <lb break="yes"/>WEST TERRITORIES IN THE<lb/>SENATE.<lb/>
+            </head>
+      
+      
+            <p><persName ref="pers:FITZ1">The MINISTER OF JUSTICE</persName> (Hon.
+<lb/>Charles Fitzpatrick) moved the first read<lb break="no"/>ing of the Bill (No. 253) to increase the repre<lb break="no"/>sentation of the North-west Territories in
+<lb/>the Senate. He said: Hon. gentlemen are
+<lb/>aware that, under the British North America
+<lb/>Amendment Act of 1886, it is provided
+<lb/>that the parliament of Canada may, from
+<lb/>time to time, make provision for the re<lb break="no"/>presentation in the Senate and House of
+<lb/>Commons of Canada, or either of them, of
+<lb/>any territory for the time being formed in
+<lb/>the Dominion of Canada, but not included
+<lb/>in any of the provinces thereof. In the
+<lb/>following year a Bill was introduced, which
+<lb/>appears as chapter 3 of the statute of 1887,
+<lb/>by which provision was made for the re-<lb break="yes"/>
+          
+          
+       
+            <cb/>
+      
+      
+      presentation of the North-west Territories<lb/>in the Senate by two members. Since that<lb/>time the population has materially increas<lb break="no"/>ed. The population of the organized part,<lb/>Assinibola, Alberta and Saskatchewan,<lb/>which was only 25,515 in 1881, increased<lb/>the 66,799 in 1891, and to 159,940 in 1901.<lb/>Of course, since then there has been even<lb/>a greater proportion of increase. The in<lb break="no"/>crease in the unorganized territory was<lb/>from 30,931 in 1881 to 52,709 in 1901. Tak<lb break="no"/>ing there two together and allowing for in<lb break="no"/>crease since 1901, the proportion of repre<lb break="no"/>sentation of the territories in the Senate<lb/>will be about the same as it is in Ontario.<lb/>
+            </p>
+            <p>Motion agreed to, and Bill read the first<lb/>time.<lb/>
+            </p>
+   
+       </div>  </div>
+      </body>
+   </text>
+</TEI>
