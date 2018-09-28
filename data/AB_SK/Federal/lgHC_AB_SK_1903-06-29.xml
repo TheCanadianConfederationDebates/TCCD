@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1903-06-29"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1903-06-29">29 June 1903</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Ninth Parliament, Third Session</title>.
+          <date when="1903"/>.
+          <pubPlace>Ottawa</pubPlace>:
+          <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="5581" to="5582"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1903-06-29_Page_05581.xml"/>
+               </item>
+       
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-26">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-09-26">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1903-06-29_Page_05581">
+         <graphic url="final/images/AB_SK_H_of_C_1903-06-29_Page_05581.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="5581" facs="final/images/AB_SK_H_of_C_1903-06-29_Page_05581.jpg"/>
+         
+         
+     <fw type="num">5581</fw> <fw type="running">COMMONS</fw> <fw type="num">5582</fw> 
+ 
+ 
+            <head rendition="simple:centre">HOUSE OF COMMONS.</head>
+               
+               
+               <head rendition="simple:right">MONDAY, June 29, 1903.</head>
+            
+            <p>
+               The SPEAKER took the Chair at Three<lb/>
+               o'clock.</p>
+            
+            <cb/>
+            
+            
+           <div type="section">
+            <head rendition="simple:centre">PROVINCIAL AUTONOMY FOR THE<lb/>
+               NORTH-WEST TERRITORIES.</head>
+               
+               
+               <p>
+               <persName ref="pers:BORD2">Mr. BORDEN</persName> (Halifax). Before the Or<lb break="no"/>ders of the Day are called, I would like to<lb/>
+               move, with the consent of the right hon.<lb/>
+               gentleman, that the papers brought down<lb/>
+               relating to the granting of provincial auton<lb break="no"/>omy in the North-west Territories be print<lb break="no"/>ed forthwith, and that rule 94 be suspended<lb/>
+               for that purpose.</p>
+            
+              
+              <p>Motion agreed to.</p>
+            
+            
+        </div>  </div>
+      </body>
+   </text>
+</TEI>

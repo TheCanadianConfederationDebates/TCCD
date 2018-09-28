@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xml:id="lgHC_AB_SK_1903-06-19"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title><name type="legislature" ref="lg:lgHC">House of Commons</name>,
+               <date when="1903-06-19">19 June 1903</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+            
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+            
+         </titleStmt>
+         
+         <publicationStmt><p>Published by The Confederation Debates project.</p></publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Ninth Parliament, Third Session</title>.
+               <date when="1903"/>.
+               <pubPlace>Ottawa</pubPlace>:
+               <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+               <biblScope unit="page" from="5088" to="5088"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1903-06-19_Page_05087.xml"/>
+               </item>
+   
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-09-19">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-09-26">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1903-06-19_Page_05087">
+         <graphic url="final/images/AB_SK_H_of_C_1903-06-19_Page_05087.jpg"/>
+      </surface>
+  
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="5088" facs="final/images/AB_SK_H_of_C_1903-06-19_Page_05087.jpg"/>
+      <fw type="running">COMMONS</fw> <fw type="num">5088</fw>
+      
+            <head rendition="simple:centre">INQUIRIES, &amp;c.</head>
+            
+            
+            <p><persName ref="pers:BORD2">Mr. R. L. BORDEN</persName> (Halifax). I moved<lb/>
+               some time ago for the correspondence be-<lb/>
+               tween this government and the government<lb/>
+               of the North-west Territories on the sub-<lb/>
+               ject of provincial autonomy. I do not think<lb/>
+               the papers have yet been brought down.<lb/>
+               I also moved some time ago for a return<lb/>
+               of all persons in the North-west Territories<lb/>
+               who had been naturalized within a certain<lb/>
+               period of years. I believe the return has<lb/>
+               been sent forward, but it had not been<lb/>
+               brought down.</p>
+            
+            
+            <p><persName ref="pers:CART3">The MINISTER OF TRADE AND<lb/>
+               COMMERCE</persName>. I will bring the matter to<lb/>
+               the attention of the acting minister.</p> </div>
+      </body>
+   </text>
+</TEI>
