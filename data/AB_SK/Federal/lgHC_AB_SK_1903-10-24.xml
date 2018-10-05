@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1903-10-24"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1903-10-24">24 October 1903</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Ninth Parliament, Third Session</title>.
+          <date when="1903"/>.
+          <pubPlace>Ottawa</pubPlace>:
+          <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="14858" to="14860"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1903-10-24_Page_14857.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1903-10-24_Page_14859.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-10-05">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-10-05">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1903-10-24_Page_14857">
+         <graphic url="final/images/AB_SK_H_of_C_1903-10-24_Page_14857.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1903-10-24_Page_14859">
+         <graphic url="final/images/AB_SK_H_of_C_1903-10-24_Page_14859.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="14857" facs="final/images/AB_SK_H_of_C_1903-10-24_Page_14857.jpg"/>
+            
+            <fw type="dateline">OCTOBER 24, 1903</fw> <fw type="num">14858</fw>
+            
+            <head rendition="simple:centre">IN THE SENATE CHAMBER.</head>
+            
+            <p><persName ref="UNSPECIFIED">His Excellency</persName> was pleased to give, in His<lb/>
+               Majesty's name, the Royal Assent to the<lb/>
+               following Bills:</p>
+            
+            
+            <pb n="14859" facs="final/images/AB_SK_H_of_C_1903-10-24_Page_14859.jpg"/>
+            <fw type="num">14859</fw>
+            <fw type="running">COMMONS</fw> <fw type="num">14860</fw>
+            
+            <p>
+     An Act to increase the Representation of the 
+     <lb/>North-west Territories in the Senate.<lb/>
+            </p>
+            
+            <cb/>
+            
+            
+            <p>An Act to amend the North-west Territories<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
