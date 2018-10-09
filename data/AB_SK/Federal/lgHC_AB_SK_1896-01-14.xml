@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1896-01-14"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1896-01-14">14 January 1896</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Seventh Parliament, Sixth Session</title>.
+          <date when="1896"/>.
+          <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="61" to="61"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1896-01-14_Page_00061.html"/>
+               </item>
+          
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-10-09">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-10-09">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1896-01-14_Page_00061">
+         <graphic url="final/images/AB_SK_H_of_C_1896-01-14_Page_00061.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="61" facs="final/images/AB_SK_H_of_C_1896-01-14_Page_00061.jpg"/>
+            <fw type="num">61</fw> <fw type="dateline">[JANUARY 14,1896]</fw> 
+            
+            <head rendition="simple:centre">NORTH-WEST TERRITORIES ACT.</head>
+            <p>
+     <persName ref="UNSPECIFIED">Mr. McCARTHY</persName> moved for leave to in<lb break="no"/>troduce Bill (No. 15) to amend the North<lb break="no"/>west Territories Act. He said : The pur<lb break="no"/>pose of this Bill is to confer upon the Legis<lb break="no"/>lative Assembly of the North-west Territo<lb break="no"/>ries full and complete power in the matter 
+     <lb/>
+     of education. 
+     <lb/>
+            </p>
+   
+            <p>
+     Motion agreed to, and Bill read the first 
+     <lb/>
+     time. 
+     <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
