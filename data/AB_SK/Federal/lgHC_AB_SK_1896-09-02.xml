@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1896-09-02"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1896-09-02">2 September 1896</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Eighth Parliament, First Session</title>.
+          <date when="1896"/>.
+          <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="601" to="601"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1896-09-02_Page_00601.html"/>
+               </item>
+         
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-10-09">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-10-09">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1896-09-02_Page_00601">
+         <graphic url="final/images/AB_SK_H_of_C_1896-09-02_Page_00601.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="601" facs="final/images/AB_SK_H_of_C_1896-09-02_Page_00601.jpg"/>
+            <fw type="num">601</fw> <fw type="dateline">[SEPTEMBER 2, 1896]</fw> 
+            
+            
+            <head rendition="simple:centre">
+     ORGANIZATION OF THE NORTH-WEST 
+     <lb/>
+     TERRITORIES. 
+     <lb/>
+            </head>
+   
+            <p>
+     On the order being called: 
+     <lb/>
+            </p>
+   
+   
+   <quote rendition="tccd:blockquote">
+            <p>
+     That the time has arrived when the North-west 
+     <lb/>
+     Territories should be treated on the same footing 
+     <lb/>
+     as the organized provinces, that an annual sub<lb break="no"/>sidy should be voted for carrying on the govern<lb break="no"/>ment of the Territories, which subsidy should 
+     <lb/>
+     be calculated on the same grounds as those on 
+     <lb/>
+     which the subsidy voted to the province of Mani<lb break="no"/>toba is based. 
+     <lb/>
+            </p></quote>
+   
+            <p>
+     <persName ref="pers:DAVI8">Mr. DAVIN</persName>. The ground of this motion 
+     <lb/>
+     has already been occupied by a motion of 
+     <lb/>
+     my hon. friend from Alberta. If my hon. 
+     <lb/>
+     friend had informed me that he had given 
+     <lb/>
+     notice of the motion. I would not have 
+     <lb/>
+     given notice of this. I shall not move this 
+     <lb/>
+     motion.  
+     <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

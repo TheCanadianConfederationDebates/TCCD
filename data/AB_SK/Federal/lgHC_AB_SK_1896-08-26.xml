@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1896-08-26"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1896-08-26">26 August 1896</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Eighth Parliament, First Session</title>.
+          <date when="1896"/>.
+          <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="312" to="313"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1896-08-26_Page_00311.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1896-08-26_Page_00313.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-10-09">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-10-09">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1896-08-26_Page_00311">
+         <graphic url="final/images/AB_SK_H_of_C_1896-08-26_Page_00311.jpg"/>
+      </surface>
+      <surface xml:id="AB_SK_H_of_C_1896-08-26_Page_00313">
+         <graphic url="final/images/AB_SK_H_of_C_1896-08-26_Page_00313.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="311" facs="final/images/AB_SK_H_of_C_1896-08-26_Page_00311.jpg"/>
+         
+         
+            <fw type="running">[COMMONS]</fw> <fw type="num">312</fw>
+            <head rendition="simple:centre">NORTH-WEST TERRITORIES ACT.</head>
+           
+            
+            
+            <p>
+     <persName ref="pers:DAVI8">Mr. DAVIN</persName> moved for leave to introduce 
+     <lb/>
+     Bill (No. 7) to amend the North<lb break="no"/>west Territories Act. He said : Mr. 
+     <lb/>
+     Speaker, this Bill is entirely on all 
+     <lb/>
+    tours with the Bill that I introduced 
+     <lb/>last session, and covers precisely the same 
+     <lb/>ground as the Bill that Mr. Martin, the late 
+     <lb/>member for Winnipeg, introduced and which 
+     <lb/>passed a second reading. Unfortunately 
+     <lb/>that Bill did not pass into law. The object 
+     <lb/>is to restore the franchise in the North-west 
+     <lb/>Territories to the same position it was in 
+     <lb/>before the legislation complained of so 
+     <lb/>strongly by my hon. friend (Mr. Martin), 
+     <lb/>and which did not allow the elector on going 
+     <lb/>forward to the returning officer's desk to 
+     <lb/>make an oath that he was a qualified voter, 
+     <lb/>but which required that the name should 
+     <lb/>be on the list two days before the election. 
+     <lb/>The legislation which my hon. friend (Mr. 
+     <lb/>Martin) and I myself sought to undo, never 
+     <lb/>had my approval, and now, after a trial of 
+     <lb/>
+      
+      
+            <pb n="313" facs="final/images/AB_SK_H_of_C_1896-08-26_Page_00313.jpg"/>
+            <fw type="num">313</fw> <fw type="dateline">[AUGUST 28, 1896]</fw>
+     
+     
+     the franchise as it exists under the obnox<lb break="no"/>ious legislation, it is, I am persuaded, still 
+     <lb/>
+     more desirable that we should pass this Bill. 
+     <lb/>
+     The Bill, as I say, will be found to be pre<lb break="no"/>cisely the same Bill as my hon. friend (Mr. 
+     <lb/>
+     Martin) introduced last session and which 
+     <lb/>
+     passed a second reading. How it came that 
+     <lb/>
+     we had no legislation in the matter, it would 
+     <lb/>
+     be hard to say. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:DAVI3">The MINISTER OF MARINE AND FISH<lb break="no"/>ERIES</persName> (Mr. Davies). The Government op<lb break="no"/>posed it. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:DAVI8">Mr. DAVIN</persName>. Well, I do not know that 
+     <lb/>
+     they did oppose it. 
+     <lb/>
+            </p>
+   
+            <p>
+               <persName ref="pers:DAVI3">The MINISTER OF MARINE AND FISH<lb break="no"/>ERIES</persName>. The Minister of the Interior did 
+     <lb/>
+     oppose it distinctly and emphatically. 
+     <lb/>
+            </p>
+   
+            <p>
+     <persName ref="pers:DAVI8">Mr. DAVIN</persName>. It passed a second reading, 
+     <lb/>
+     anyway. I think it highly desirable that 
+     <lb/>
+     this Bill should pass into law. 
+     <lb/>
+            </p>
+   
+            <p>
+     Motion agreed to, and Bill read the first 
+     <lb/>
+     time. 
+     <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

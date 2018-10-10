@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgHC_AB_SK_1896-01-17"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+          <date when="1896-01-17">17 January 1896</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgHC">
+               <title>House of Commons Debates, Seventh Parliament, Sixth Session</title>.
+          <date when="1896"/>.
+          <pubPlace>Ottawa</pubPlace>: <publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+          
+
+          <biblScope unit="page" from="216" to="216"/>.
+        </bibl>
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/AB_SK_H_of_C_1896-01-17_Page_00215.html"/>
+               </item>
+      
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-10-09">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-10-09">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="AB_SK_H_of_C_1896-01-17_Page_00215">
+         <graphic url="final/images/AB_SK_H_of_C_1896-01-17_Page_00215.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="215" facs="final/images/AB_SK_H_of_C_1896-01-17_Page_00215.jpg"/>
+         
+         
+            <fw type="running">[COMMONS]</fw> <fw type="num">216</fw>
+            
+            
+            <head rendition="simple:centre">HOUSE OF COMMONS.</head>
+            <head rendition="simple:right">FRIDAY, 17th January, 1896.</head> 
+   
+            <p>
+     <persName ref="pers:SPEA1">The SPEAKER</persName> took the Chair at Three 
+     <lb/>
+     o'clock. 
+     <lb/>
+            </p>
+            <p>
+     <emph>PRAYERS.</emph> 
+   </p>
+            
+            <div type="section">
+            <head rendition="simple:centre">FIRST READINGS.</head>
+            <p>
+     Bill (No. 18) to amend the Trade Mark and 
+     <lb/>
+     Design Act.—(Mr. Coatsworth.) 
+     <lb/>
+            </p>
+
+            <p>
+     Bill (No. 19) to abolish the superannua<lb break="no"/>tion system as applied to the Civil Service 
+     <lb/>
+     of Canada.—(Mr. McMullen.) 
+     <lb/>
+            </p>
+   
+            <p>
+     Bill (No. 20) to amend the North-west Ter<lb break="no"/>ritories Representation Act—(Mr. Davin.) 
+     <lb/>
+            </p>
+      </div>   </div>
+      </body>
+   </text>
+</TEI>
