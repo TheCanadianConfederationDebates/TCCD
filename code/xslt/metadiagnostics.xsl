@@ -28,7 +28,7 @@
   <xsl:param name="outputFile" as="xs:string" select="concat($fixedDiagnosticsFolder, 'metadiagnostics.json')"/>
   
 <!-- The collection based on the folder. -->
-  <xsl:variable name="inputFiles" select="collection(concat($fixedDiagnosticsFolder, '/?select=*.html'))//html[matches(@id, '^diagnostics_2017')]"/>
+  <xsl:variable name="inputFiles" select="collection(concat($fixedDiagnosticsFolder, '/?select=*.html'))//html[matches(@id, '^diagnostics_201')]"/>
   
 <!-- Do the work, which is basically very simple. -->
   <xsl:template match="/">
