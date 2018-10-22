@@ -192,7 +192,7 @@
                         
                         <div class="body">
                             
-                            <h2><xsl:sequence select="$docIndexTitle"/>: <xsl:value-of select="gloss"/></h2>
+                            <h2><xsl:sequence select="$docIndexTitle"/>: <xsl:apply-templates select="gloss"/></h2>
                             
                             <ul class="docList">
                                 <xsl:for-each select="$teiDocs/TEI[starts-with(@xml:id, $catId)]">
