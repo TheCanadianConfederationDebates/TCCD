@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_AB_SK_1891-09-28" xml:lang="en" type="full">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title> <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+<date when="1891-09-28">29 September 1891</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+<respStmt>
+<resp>Selection of input documents and completion of metadata</resp>
+<persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+</respStmt>
+</titleStmt>
+
+<publicationStmt> 
+
+<p>Published by The Confederation Debates project.</p> </publicationStmt>
+
+<sourceDesc>
+<bibl corresp="bibl:lgHC">
+<title>House of Commons Debates, Seventh Parliament, First Session</title>.
+<date when="1891"/>.
+<pubPlace>Ottawa</pubPlace>:
+<publisher>Brown Chamberlin, Printer to the Queen's Most Excellent Majesty</publisher>.
+<biblScope unit="page" from="6228" to="6228"/>.
+</bibl>
+
+<list>
+<item> <ptr target="final/hocr/AB_SK_H_of_C_1891-09-28_Page_06227.html"/> </item>
+</list>
+
+</sourceDesc>
+
+</fileDesc>
+
+<encodingDesc> <samplingDecl> <p/> </samplingDecl> </encodingDesc>
+
+<revisionDesc>
+<change who="mholmes" when="2018-10-23">Transformed initial template file to incorporate corrected OCR content.</change>
+<change who="ichudson" when="2018-10-23">Created this document, completed metadata. </change>
+</revisionDesc>
+</teiHeader>
+
+<facsimile>
+<surface xml:id="AB_SK_H_of_C_1891-09-28_Page_06227"> <graphic url="final/images/AB_SK_H_of_C_1891-09-28_Page_06227.jpg"/> </surface>
+</facsimile>
+
+<text>
+
+<body>
+
+<div type="debate">
+
+<pb n="6227" facs="final/images/AB_SK_H_of_C_1891-09-28_Page_06227.jpg"/>
+<fw type="num">6227</fw>
+<fw type="running">[COMMONS]</fw> <fw type="num">6228</fw>
+
+    <head rendition="simple:centre">NORTH—WEST TERRITORIES ACT.</head>
+
+<p><persName ref="pers:DEWD1">Mr. DEWDNEY</persName> moved concurrence in amend<lb break="no"/>ments made by the Senate to Bill (No. 126) to <lb/>
+amend the Acts respecting the North-West Ter<lb break="no"/>ritories. <lb/></p> 
+
+<p><persName ref="pers:DAVI8">Mr. DAVIN</persName>. I would have moved that these <lb/>
+amendments be not agreed to, but I had a conver<lb break="no"/>sation with the Hon. Mr. Dewdney, who tells me <lb/>
+that certain changes will be made which will, I <lb/>
+think, be quite satisfactory to the North-West. <lb/></p> 
+
+<p><persName ref="pers:LAUR5">Mr. LAURIER</persName>. I would say to the Minister <lb/>
+that I have received from the Territory of Saskat<lb break="no"/>chewan a protest that the electoral districts as <lb/>
+they are now arranged will not be satisfactory, <lb/>
+some being too small and others too large. I stated <lb/>
+to my correspondent that I would make the pro<lb break="no"/>test, but that I could not do anything more, as I <lb/>
+do not profess to be familiar with the localities. <lb/></p> 
+
+<p><persName ref="pers:DAVI8">Mr. DAVIN</persName>. They are going to he altered. <lb/></p> 
+
+<p>Amendments concurred in. <lb/></p>
+
+</div>
+</body>
+</text>
+</TEI>
