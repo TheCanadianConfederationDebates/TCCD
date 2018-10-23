@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgHC_AB_SK_1892-04-06" xml:lang="en" type="full">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title> <name type="legislature" ref="lg:lgHC">House of Commons</name>,
+<date when="1892-04-06">6 April 1892</date>, Canadian Confederation with Alberta and Saskatchewan</title>
+<respStmt>
+<resp>Selection of input documents and completion of metadata</resp>
+<persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+</respStmt>
+</titleStmt>
+
+<publicationStmt> 
+
+<p>Published by The Confederation Debates project.</p> </publicationStmt>
+
+<sourceDesc>
+<bibl corresp="bibl:lgHC">
+<title>House of Commons Debates, Seventh Parliament, Second Session</title>.
+<date when="1892"/>.
+<pubPlace>Ottawa</pubPlace>:
+<publisher>S.E. Dawson, Printer to the Queen's Most Excellent Majesty</publisher>.
+<biblScope unit="page" from="1062" to="1062"/>.
+</bibl>
+
+<list>
+<item> <ptr target="final/hocr/AB_SK_H_of_C_1892-04-06_Page_01061.html"/> </item>
+</list>
+
+</sourceDesc>
+
+</fileDesc>
+
+<encodingDesc> <samplingDecl> <p/> </samplingDecl> </encodingDesc>
+
+<revisionDesc>
+<change who="mholmes" when="2018-10-23">Transformed initial template file to incorporate corrected OCR content.</change>
+<change who="ichudson" when="2018-10-23">Created this document, completed metadata. </change>
+</revisionDesc>
+</teiHeader>
+
+<facsimile>
+<surface xml:id="AB_SK_H_of_C_1892-04-06_Page_01061"> <graphic url="final/images/AB_SK_H_of_C_1892-04-06_Page_01061.jpg"/> </surface>
+</facsimile>
+
+<text>
+
+<body>
+
+<div type="debate">
+
+<pb n="1061" facs="final/images/AB_SK_H_of_C_1892-04-06_Page_01061.jpg"/>
+<fw type="num">1061</fw> <fw type="dateline">[APRIL 6, 1892.]</fw> <fw type="num">1062</fw>
+    
+<head rendition="simple:centre">FIRST READING.</head> 
+
+    <p>Bill (No. 61) to amend the North-West Terri<lb break="no"/>tories Act.—(Mr. Dewdney.)</p>
+
+</div>
+</body>
+</text>
+</TEI>
