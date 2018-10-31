@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgASLA_1898-08-26"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgASLA">Legislative Assemblies of Alberta and Saskatchewan</name>,
+          <date when="1898-08-26">26 August 1898</date>, Alberta and Saskatchewan Debates over Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgASLA"> 
+               <editor>Walter Scott</editor>.
+          <title>The Leader</title>.
+          <date when="1898-09-01"/>.
+          <pubPlace>Regina</pubPlace>:
+          <publisher>Nicholas Flood Davin</publisher>.
+          <biblScope unit="page" from="1" to="1"/>.
+        </bibl>
+          
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/The_Leader_1898-09-01_Page_001.hocr.html"/>
+               </item>
+    
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-10-31">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-10-31">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="The_Leader_1898-09-01_Page_001">
+         <graphic url="final/images/The_Leader_1898-09-01_Page_001.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            <pb n="001" facs="final/images/The_Leader_1898-09-01_Page_001.jpg"/>
+   
+   
+            <fw type="running">THE LEADER</fw>
+            <fw type="num">1</fw>
+            <fw type="dateline">REGINA, N.W.T., THURSDAY EVENING SEPTEMBER 1, 1898.</fw>
+
+
+
+
+
+            <head rendition="simple:centre">A MUNICIPAL PREROGATIVE RESTORED.<lb/>
+            </head>
+
+            <head rendition="simple:centre">Towns and Villages May Again Deal Locally With <lb/>Animals Running at Large.</head>
+
+            <head rendition="simple:centre">The Municipal, Pound Districts and Herding of Animals <lb/>Ordinances Amended Accordingly—Mr. Clinkskill Re<lb break="no"/>sents the Slanderous Imputation of a Yellow Journal— <lb/>More Particulars of Major Walsh's High-handed Ac<lb break="no"/>tions at Dawson Given by Mr. Haultain–Concise and <lb/>Accurate Summary of the Proceedings of the Session.</head>
+            
+            
+            <p rendition="simple:right">FRIDAY, Aug.</p>
+    
+    
+    
+            <p rendition="simple:centre">DUAL LANGUAGE QUESTION.</p>
+            <p><persName ref="pers:BOUC3">Mr. Boucher</persName> asked: 1. Why, since <lb/>1892, the Ordinances have not been print<lb break="no"/>ed in the French language in compliance <lb/>with Sec. 110 of the N.W.T. Act as <lb/>amended? 2. Is it the Intention of the <lb/>Government to have the Consolidated <lb/>Ordinances printed in French and, if not, <lb/>why not ? <lb/>
+            </p>
+            <p><persName ref="pers:HAUL2">Mr. Haultain</persName> said the reason that the <lb/>Ordinances have not in late years been <lb/>printed in French had before been stated <lb/>in the House. Although the Federal Act <lb/>does state that their Ordinances shall be <lb/>so printed, the Government did not ac <lb/>cept that as a direct command addressed <lb/>to the Government or Assembly. There <lb/>was no practical necessity for printing the <lb/>(Ordinances in French. The records show <lb/>no demand for French editions. In the <lb/>| whole of the business of the Government <lb/>there had been only two applications for <lb/>Ordinances or Assembly records in <lb/>French. The Federal provision had been <lb/>framed without any reference to the de<lb break="no"/>sires or opinions of the Assembly, and the <lb/>Government failed to recognise it as their <lb/>duty to carry it out. The duty was on <lb/>the persons who created the necessity. If <lb/>there was a legal or constitutional duty, <lb/>they might judge from the grants made <lb/>by Parliament that it had not been con<lb break="no"/>templated that it should be fulfilled, be<lb break="no"/>cause he failed to find that Parliament <lb/>made any provision for carrying it out. <lb/>This Government recognized no duty or <lb/>legal obligation in the matter ; and as to <lb/>print the Consolidated Ordinances in      <lb/>
+   
+   <cb/>
+        
+        
+        French would cost $4,000 or $5,000 and<lb/>would fill no well defined public necessity,<lb/>
+      
+there was a very strong practical argument against having them so printed.</p>
+
+         </div>
+      </body>
+   </text>
+</TEI>
