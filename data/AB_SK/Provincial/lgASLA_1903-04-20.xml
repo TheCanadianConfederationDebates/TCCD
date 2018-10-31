@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgASLA_1903-04-16" xml:lang="en" type="full">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgASLA_1903-04-20" xml:lang="en" type="full">
 <teiHeader>
 <fileDesc>
 
 <titleStmt>
 <title> <name type="legislature" ref="lg:lgASLA">Legislative Assemblies of Alberta and Saskatchewan</name>,
-<date when="1903-04-16">16 April 1903</date>, Alberta and Saskatchewan Debates over Confederation with Canada.</title>
+<date when="1903-04-20">20 April 1903</date>, Alberta and Saskatchewan Debates over Confederation with Canada.</title>
 <respStmt>
 <resp>Selection of input documents and completion of metadata</resp>
 <persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
@@ -22,12 +22,10 @@
 <date when="1903-04-23"/>.
 <pubPlace>Regina</pubPlace>:
 <publisher>Nicholas Flood Davin</publisher>.
-<biblScope unit="page" from="1" to="1"/>,
 <biblScope unit="page" from="4" to="4"/>.
 </bibl>
 
 <list>
-<item> <ptr target="final/hocr/The_Leader_1903-04-23_Page_001.hocr.html"/> </item>
 <item> <ptr target="final/hocr/The_Leader_1903-04-23_Page_004.hocr.html"/> </item>
 </list>
 
@@ -44,7 +42,6 @@
 </teiHeader>
 
 <facsimile>
-<surface xml:id="The_Leader_1903-04-23_Page_001"> <graphic url="final/images/The_Leader_1903-04-23_Page_001.jpg"/> </surface>
 <surface xml:id="The_Leader_1903-04-23_Page_004"> <graphic url="final/images/The_Leader_1903-04-23_Page_004.jpg"/> </surface>
 </facsimile>
 
@@ -54,273 +51,69 @@
 
 <div type="debate">
 
-<pb n="001" facs="final/images/The_Leader_1903-04-23_Page_001.jpg"/>
-    
-    <fw type="num">1</fw>
-
-<fw type="running">THE LEADER.</fw> 
-
-
-<fw type="running">REGINA, N.W.T., THURSDAY MORNING, APRIL 23, 1903.</fw> 
-
-<head rendition="simple:centre">ASSEMBLY OPENED.</head> 
-
-<head rendition="simple:centre">First Session of Fifth Legislature <lb/>
-Now in Session.</head> 
-
-<head rendition="simple:centre">SPEECH FROM THE THRONE.</head> 
-
-<head rendition="simple:centre">Attention Directed to the Constitu<lb break="no"/>tional and Financial Position of <lb/>
-the Territories, the Public Domain <lb/>
-and Transportion Difficulties— <lb/>
-Land Titles System to be Taken <lb/>
-Over—<persName ref="pers:GILL3">Mr. Gillis</persName> (Whitewood) Elect<lb break="no"/>ed Speaker.</head> 
-
-<p rendition="simple:right">THURSDAY, April 16th, 1903.</p> 
-
-<p>The first session of the fifth Legisla<lb break="no"/>tive Assembly of the North-West <lb/>
-Territories was formally opened this <lb/>
-afternoon by His Honor Lieutenant <lb/>
-Governor Forget. There was a very <lb/>
-large attendance of Members, only six <lb/>
-out of a total of thirty-five being ab<lb break="no"/>sent. The attendance of the general <lb/>
-public was also large, among the num<lb break="no"/>ber being Mr. C. A. Magrath, a former <lb/>
-member of the Executive Council. <lb/>
-Many of the fair sex graced the occa<lb break="no"/>sion with their presence, and altogeth<lb break="no"/>er the enlarged, and redecorated <lb/>
-chamber presented a rather pretty <lb/>
-picture. <lb/></p> 
-
-<p>Sharp on time His Honor the <lb/>
-Lieutenant Governor arrived, accom<lb break="no"/>panied by Lt.-Col. Macdonell, D.S.O. <lb/>
-as A.D.C., Supt. Wilson and Capt. <lb/>
-Gilpin Brown, of the N.W.M.P., and <lb/>
-an escort of about fifteen men of the <lb/>
-N.W.M.P. under command of Insp. <lb/>
-Walke. As is always the case at the <lb/>
-opening of the first session of a new <lb/>
-Assembly, the usual proceedings were <lb/>
-varied somewhat, His Honor, after <lb/>
-entering the chamber, retiring after <lb/>
-the formal announcement by the <lb/>
-Territorial Secretary that he would <lb/>
-withhold his message until the Assem<lb break="no"/>bly had elected a Speaker. <lb/></p> 
-
-<p rendition="simple:centre">MR. SPEAKER GILLIS.</p> 
-
-<p>On motion of <persName ref="pers:HAUL2">Premier Haultian</persName>, <lb/>
-seconded by <persName ref="pers:BULY1">Mr. Bulyea</persName>, Mr. A. B. <lb/>
-Gillis (Whitewood) was unanimously <lb/>
-elected Speaker. In moving the <lb/>
-appointment of Mr. Gillis, the Premier <lb/>
-paid a tribute to Mr. Gillis' services as <lb/>
-Deputy Speaker and chairman of com<lb break="no"/>mittee in the last Assembly. His strict <lb/>
-attention to the work of the House, <lb/>
-his impartiality and knowlege of <lb/>
-Parliamentary rules and procedure <lb/>
-made him especially fitted for the posi<lb break="no"/>tion. He felt confident from his course <lb/>
-in the past that Mr. Gillis would do <lb/>
-honor to the high position. <persName ref="pers:GILL3">Mr. Gillis</persName> <lb/>
-acknowledged the honor in a few words. <lb/></p> 
-
-<p>His Honor the Lieutenant Governor <lb/>
-having re-entered the chamber, and <lb/>
-been informed by the Speaker of his <lb/>
-election, delivered the following <lb/></p>
-    
-    <p rendition="simple:centre">SPEECH FROM THE THRONE.</p> 
-    
-    <quote rendition="tccd:blockquote">
-
-<p>Mr. Speaker and Gentlemen of the Legisla<lb break="no"/>tive Assembly:— <lb/>
-I have much pleasure in welcoming you to <lb/>
-the First Session of the Fifth Legislative Assem<lb break="no"/>bly of the North-West Territories. <lb/></p> 
-
-<p>During the past year, in common with our <lb/>
-fellow subjects throughout the Empire, we heard <lb/>
-with grief and alarm of the illness of the King, <lb/>
-and I am sure that we all rejoiced in his Majes<lb break="no"/>ty's restoration to health and in the successful <lb/>
-carrying out of the Coronation ceremonies. <lb/></p> 
-
-<p>The abundant harvest of the past year, the <lb/>
-general prosperity of the country and the <lb/>
-remarkable growth of the Territories in mater<lb break="no"/>ial wealth and population must all be a source <lb/>
-of profound gratification. <lb/></p> 
-
-<p>But these circumstances, gratifying as they <lb/>
-are from a national standpoint, have immeas<lb break="no"/>urably increased the duties and responsibilies <lb/>
-of the North-West Government and Legislature. <lb/></p> 
-
-<p>For some years past the Government and <lb/>
-Legislature have been pressing upon the Feder<lb break="no"/>al Government the absolute necessity for <lb/>
-larger powers and revenues if the duties and <lb/>
-obligations already imposed upon them by <lb/>
-Parliament and the further obligations imposed <lb/>
-by new conditions are to be adequately fulfilled. <lb/></p> 
-
-<p>In their latest negotiations with the Federal <lb/>
-Government, my Government again forcibly <lb/>
-impressed the immediate necessity for the <lb/>
-granting of Provincial Institutions to the Terri<lb break="no"/>tories. <lb/></p>
-
-<cb/>
-
-<p>Strong representations have also been made <lb/>
-with regard to the present financial necessities <lb/>
-of the Territories. <lb/></p> 
-
-<p>As a result of these representations a confer<lb break="no"/>ence was held at Ottawa in the month of Feb<lb break="no"/>ruary last between members of my Government <lb/>
-and a Sub-Committee of the Privy Council <lb/>
-appointed for that purpose. <lb/></p> 
-
-<p>I regret to say that no intimation has yet been <lb/>
-given by the Federal Government as to the <lb/>
-action they propose to take as a result of the <lb/>
-Conference. <lb/></p> 
-
-<p>All the papers relating to these important sub<lb break="no"/>jects will be laid before you, and you will be <lb/>
-asked to take such action as may seem desirable <lb/>
-to further enforce the just claims of the Territor<lb break="no"/>ies. <lb/></p> 
-
-<p>I feel it to be my duty to ask your attention <lb/>
-to the important question of transportation. <lb/></p> 
-
-<p>This question is partially bound up with the <lb/>
-Provincial question, but some of its larger <lb/>
-phases falls more peculiarly within the Federal <lb/>
-domain. <lb/></p> 
-
-<p>In view of the transportation conditions pre<lb break="no"/>vailing since the close of lake navigation last <lb/>
-year, and which threaten to continue in a more <lb/>
-aggravated forum during the year to come, I <lb/>
-feel justified in asking you to consider the <lb/>
-advisability of making some representations to <lb/>
-Parliament with regard to a question which so <lb/>
-vitally affects the welfare of the Territories. <lb/></p> 
-
-<p>The claim which has been made on the part <lb/>
-of the Territories to the public domain will also <lb/>
-justify an expression of opinion on your part <lb/>
-with regard to further alienations of the public <lb/>
-lands of the Territories for railway or other <lb/>
-purposes except actual settlement. <lb/></p> 
-
-<p>In response to a request by my Government <lb/>
-the Federal Government have consented to ex<lb break="no"/>tend the jurisdiction of the Legislature to the <lb/>
-important subject of land titles, and legislation <lb/>
-to that effect has been promised at the present <lb/>
-session of Parliament. This important exten<lb break="no"/>sion of your powers will necessitate legislative <lb/>
-provision for the maintenance and control of <lb/>
-the land titles system, and a measure for that  <lb/>
-purpose will be presented to you. Federal <lb/>
-legislation has also been promised which will <lb/>
-give to the Legislative Assembly the right to <lb/>
-fully control the qualification of its members, to <lb/>
-legislate with regard to the constitution and <lb/>
-jurisdiction of Civil Courts and other matters <lb/>
-at present withheld from you by the provisions <lb/>
-of the North-West Territories Acts. Measures <lb/>
-necessitated by these further extensions of <lb/>
-your powers will also be submitted to you. <lb/></p> 
-
-<p>Your consideration will also be asked to <lb/>
-Bills relating to Mechanics' Liens, Drainage, <lb/>
-Mutual Fire Insurance and Succession Duties. <lb/></p> 
-
-<p>Your attention will be invited to Bills to <lb/>
-amend the law relating to Civil procedure and <lb/>
-the sale of intoxicating liquor, and a Bill to <lb/>
-amend and consolidate as amended the law <lb/>
-relating to Brands. <lb/></p> 
-
-<p>A statement of the receipts and expenditures <lb/>
-of the past year and the estimates of expendi<lb break="no"/>ture for the current year will he laid before <lb/>
-you. <lb/></p> 
-
-<p>I now leave you to your deliberations with <lb/>
-every confidence that your labors, under Divine <lb/>
-Providence, will be directed to the advantage <lb/>
-and welfare of the Territories. <lb/></p> 
-
-    </quote>
-
-<p>After His Honor had retired, and Mr. <lb/>
-Speaker Gillis having taken the chair <lb/>
-amid cheers, <persName ref="pers:HAUL2">Premier Haultain</persName> moved <lb/>
-for leave to introduce a Bill to amend <lb/>
-Chapter 46 of the Consoldiated Ordin<lb break="no"/>ances of 1898 regarding marriage. <lb/>
-Leave having been granted the Bill <lb/>
-was introduced and read a first time. <lb/></p> 
-
-<p><persName ref="pers:HAUL2">Mr. Haultain</persName> moved that the Speech <lb/>
-of His Honor be taken into considera<lb break="no"/> </p> 
-
-<!--<p>(Continued on page 4.) <lb/></p>-->
-
 <pb n="004" facs="final/images/The_Leader_1903-04-23_Page_004.jpg"/> <lb/>
     
     <fw type="num">4</fw>
 
 <fw type="running">THE LEADER THURSDAY MORNING, APRIL 23, 1908.</fw> 
-</div>
-<div type="debate">
+
 <head rendition="simple:centre">ASSEMBLY OPENED.</head> 
 
 <p rendition="simple:centre">(Continued from page 1.)</p> 
 
-<p>tion on Monday next. Agreed. <lb/></p> 
 
-<p>On motion of <persName ref="pers:HAUL2">Premier Haultain</persName> and <lb/>
-<persName ref="pers:BULY1">Mr. Bulyea</persName> the following Members <lb/>
+    <!-- IC, 2018-10-31, Commented out below, as it will appear in the preceding debate day --> 
+<!--<p>tion on Monday next. Agreed. <lb/></p> 
+
+<p>On motion of Premier Haultain and <lb/>
+Mr. Bulyea the following Members <lb/>
 were appointed a special committee to <lb/>
 draft the select standing committees <lb/>
 of the House: Messrs. McDonald, Ben<lb break="no"/>nett, Brown, DeVeber, Meyers, and <lb/>
 the mover and seconder. Agreed. <lb/></p> 
 
-<p>On motion of <persName ref="pers:HAUL2">Premier Haultain</persName> the <lb/>
-house then adjourned at 3.15 pm. <lb/></p> 
-    
-    
-    <!-- IC, 2018-10-31, Commented out below, as it will appear in the following debate day -->
+<p>On motion of Premier Haultain the <lb/>
+house then adjourned at 3.15 pm. <lb/></p> -->
 
-<!--<p>MONDAY, April 20th. <lb/></p> 
+<p rendition="simple:right">MONDAY, April 20th.</p> 
 
 <p>The House did not sit over an hour <lb/>
 today but in that space of time consid<lb break="no"/>erable business was transacted and the <lb/>
 Address in reply to the Speech from <lb/>
-the Throne passed. The Speaker took <lb/>
+the Throne passed. <persName ref="pers:GILL3">The Speaker</persName> took <lb/>
 the Chair at 2.45 p.m. Petitions were <lb/>
 presented as follows:— <lb/></p> 
 
-<p>By Dr. DeVeber asking for amend<lb break="no"/>ments to the Ordinance incorporating <lb/>
+<p>By <persName ref="pers:DEVE1">Dr. DeVeber</persName> asking for amend<lb break="no"/>ments to the Ordinance incorporating <lb/>
 the Galt Hospital; also asking for <lb/>
 amendments to the Municipal Ordi<lb break="no"/>nance to enlarge the powers of Leth<lb break="no"/>bridge. <lb/></p> 
 
-<p>By Mr. Shera asking for the incor<lb break="no"/>poration of the Bishop of the Russian <lb/>
+<p>By <persName ref="pers:SHER1">Mr. Shera</persName> asking for the incor<lb break="no"/>poration of the Bishop of the Russian <lb/>
 Greek Catholic Orthodox Church. <lb/></p> 
 
 <p>The following Bills were introduced <lb/>
 and read a first time:— <lb/></p> 
 
-<p>By Mr. Young–To incorporate the <lb/>
+<p>By <persName ref="pers:YOUN3">Mr. Young</persName> –To incorporate the <lb/>
 Western Canada Historical Society; to <lb/>
 amend the city charter of Calgary; to <lb/>
 amend the Ordinance to incorporate <lb/>
 the Calgary General Hospital. <lb/></p> 
 
-<p>By A. S. Smith—To amend the Ordi<lb break="no"/>nance incorporating Moosomin. <lb/></p> 
+<p>By <persName ref="pers:SMIT7">A. S. Smith</persName>—To amend the Ordi<lb break="no"/>nance incorporating Moosomin. <lb/></p> 
 
-<p>By Premier Haultain—Respecting <lb/>
+<p>By <persName ref="pers:HAUL2">Premier Haultain</persName>—Respecting <lb/>
 Foreign Companies; Voluntary Wind<lb break="no"/>ing-Up of Joint Stock Companies; to <lb/>
 Secure Uniform Conditions in Policies <lb/>
 of Fire Insurance; respecting Mutual <lb/>
 Fire Insurance; to provide for the <lb/>
 payment of Succession Duties in Cer<lb break="no"/>tain Cases; respecting Notaries Public. <lb/></p> 
 
-<p>By Mr. G. W. Brown to amend the <lb/>
+<p>By <persName ref="pers:BROW6">Mr. G. W. Brown</persName> to amend the <lb/>
 Ordinance incorporating Regina Hos<lb break="no"/>pital. <lb/></p> 
 
 <p>Before the Orders of the Day were <lb/>
-called Premier Haultain laid on the <lb/>
+called <persName ref="pers:HAUL2">Premier Haultain</persName> laid on the <lb/>
 Table of the House the correspondence <lb/>
 with the Dominion authorities relating <lb/>
 to the Memorial of the Assembly of <lb/>
@@ -328,11 +121,11 @@ May 2nd, 1900, upon the financial and <lb/>
 constitutional position of the Territor<lb break="no"/>ies; also the report of the Attorney-<lb break="yes"/>General's department with reference to <lb/>
 liquor licences. <lb/></p> 
 
-<p>THE ADDRESS IN REPLY. <lb/></p> 
+<p rendition="simple:centre">THE ADDRESS IN REPLY.</p> 
 
 <p>The Address in Reply to the Speech <lb/>
 from the Throne was then moved by <lb/>
-Mr. Finlay (Medicine Hat). After <lb/>
+<persName ref="pers:FINL3">Mr. Finlay</persName> (Medicine Hat). After <lb/>
 touching briefly on the King's illness <lb/>
 and Coronation, the general prosperity <lb/>
 of the Territories and the consequent <lb/>
@@ -359,16 +152,16 @@ the land titles offices, etc., Mr. Finlay <lb/>
 declared in conclusion that he would be <lb/>
 thoroughly independent in treating all <lb/>
 questions and he hoped the House <lb/>
-would continue to carry out that inde-<lb break="maybe"/>
+would continue to carry out that inde<lb break="no"/>
 
 <cb/>
 
 pendent spirit which it had maintained <lb/>
 to the present time. <lb/></p> 
 
-<p>MR. MACNUTT SECONDS. <lb/></p> 
+<p rendition="simple:centre">MR. MACNUTT SECONDS.</p> 
 
-<p>Mr. MacNutt (Saltcoats) in seconding <lb/>
+<p><persName ref="pers:MACN3">Mr. MacNutt</persName> (Saltcoats) in seconding <lb/>
 the Address in Reply said he would <lb/>
 not deal with the many questions re<lb break="no"/>ferred to in the Speech as in the later <lb/>
 discussions in the House these would <lb/>
@@ -391,9 +184,9 @@ natural resources of his part of the <lb/>
 country could not be taken advan<lb break="no"/>tage of for lack of the necessary <lb/>
 facilities. <lb/></p> 
 
-<p>PREMIER HAULTAIN. <lb/></p> 
+<p rendition="simple:centre">PREMIER HAULTAIN.</p> 
 
-<p>Premier Haultain was the next <lb/>
+<p><persName ref="pers:HAUL2">Premier Haultain</persName> was the next <lb/>
 speaker. He said that under ordinary <lb/>
 circumstances he would not be address<lb break="no"/>ing the House just then. The usual <lb/>
 procedure was for the leader of the <lb/>
@@ -410,7 +203,7 @@ the Opposition were going to join with <lb/>
 all the other Members in trying to <lb/>
 come to some united action, on those <lb/>
 important subjects. (Cheers.) This <lb/>
-condition augured well for the succes-<lb break="maybe"/>ful meeting of the difficulties of the <lb/>
+condition augured well for the success<lb break="no"/>ful meeting of the difficulties of the <lb/>
 unfortunate position in which they <lb/>
 found themselves at present. <lb/></p> 
 
@@ -449,7 +242,7 @@ rights could not have been used than <lb/>
 were used. They had resorted to <lb/>
 everything short of force. <lb/></p> 
 
-<p>NEGOTIATIONS FOR LARGER GRANT. <lb/></p> 
+<p rendition="simple:centre">NEGOTIATIONS FOR LARGER GRANT.</p> 
 
 <p>The financial question, said the <lb/>
 Premier, is one of the immedite <lb/>
@@ -483,7 +276,7 @@ the necessary roads, bridges, schools, <lb/>
 etc., the people must pay additional <lb/>
 taxes. <lb/></p> 
 
-<p>ADVANCES ON CAPITAL ACCOUNT. <lb/></p> 
+<p rendition="simple:centre">ADVANCES ON CAPITAL ACCOUNT.</p> 
 
 <p>I saw the other day in THE LEADER, <lb/>
 continued the Premier, a telegram <lb/>
@@ -510,11 +303,11 @@ try to meet expenditures which are <lb/>
 purely capital expenditures out of <lb/>
 revenue but it would be still worse to <lb/>
 have money which really belongs to us <lb/>
-as revenue chargeable to capital. <lb/>
+as revenue chargeable to capital. <lb/></p>
 
 <cb/>
 
-PROVINCIAL AUTONOMY. <lb/></p> 
+<p rendition="simple:centre">PROVINCIAL AUTONOMY.</p> 
 
 <p>With regard to the provincial ques<lb break="no"/>tion itself, we have stated it as clearly <lb/>
 as possible. We are not theorists,but <lb/>
@@ -523,7 +316,7 @@ practical question. We stand on <lb/>
 the principle that this country must <lb/>
 mange its own affairs. In a letter to <lb/>
 the Minister of the Interior, dated 31st <lb/>
-January last, I said: " We demand <lb/>
+January last, I said: "We demand <lb/>
 that system of government under <lb/>
 which we shall have as full opportuni<lb break="no"/>ies for the exercise of our citizenship <lb/>
 as our fellow-citizens in the provinces. <lb/>
@@ -533,7 +326,11 @@ action left to them on many subjects <lb/>
 which relate to the prosperity and <lb/>
 happiness of the country and the <lb/>
 North-West will not be satisfied until <lb/>
-this is granted." That, said Mr. Haul-<lb break="yes"/>tain, is the position we take. <lb/></p> 
+this is granted."That, said Mr. Haul<lb break="no"/>tain, is the position we take. <lb/></p> 
+
+
+    <!-- IC STOPPED HERE -->
+
 
 <p>TRANSPORTATION DIFFICULTIES. <lb/></p> 
 
@@ -564,9 +361,8 @@ contstructed for years, or while they <lb/>
 were after subsidies at Ottawa or <lb/>
 waiting until the necessary power was <lb/></p> 
 
-<p>(Continued on page 8.) <lb/></p> <lb/>
-<milestone type="unknown"/>
--->
+<p>(Continued on page 8.) <lb/></p>
+
 </div>
 </body>
 </text>
