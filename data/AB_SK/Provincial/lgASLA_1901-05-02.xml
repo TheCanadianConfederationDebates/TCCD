@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="lgASLA_1901-05-02"
+     xml:lang="en"
+     type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+
+            <title>
+               <name type="legislature" ref="lg:lgASLA">Legislative Assemblies of Alberta and Saskatchewan</name>,
+          <date when="1901-05-02">2 May 1901</date>, Alberta and Saskatchewan Debates over Confederation with Canada.</title>
+        
+            <respStmt>
+               <resp>Selection of input documents and completion of metadata</resp>
+               <persName ref="pers:LYAL1">Gordon Lyall</persName>
+            </respStmt>
+        
+         </titleStmt>
+      
+         <publicationStmt>
+            <p>Published by The Confederation Debates project.</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <bibl corresp="bibl:lgASLA"> 
+               <editor>Walter Scott</editor>.
+          <title>The Leader</title>.
+          <date when="1901-05-09"/>,
+          <date when="1901-06-20"/>.
+
+          <pubPlace>Regina</pubPlace>:
+          <publisher>Nicholas Flood Davin</publisher>.
+          <biblScope unit="page" from="1" to="1"/>,
+    
+          <biblScope unit="page" from="1" to="1"/>,
+          <biblScope unit="page" from="4" to="4"/>.
+        </bibl>
+     
+        
+
+            <list>
+               <item>
+                  <ptr target="final/hocr/The_Leader_1901-05-09_Page_001.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/The_Leader_1901-06-20_Page_001.hocr.html"/>
+               </item>
+               <item>
+                  <ptr target="final/hocr/The_Leader_1901-06-20_Page_004.hocr.html"/>
+               </item>
+            </list>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+
+            <p/>
+         </samplingDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="mholmes" when="2018-11-20">Transformed initial template file to incorporate corrected OCR content.</change>
+
+         <change who="lyallg" when="2018-11-20">Created this document, completed metadata. </change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>
+      
+      <surface xml:id="The_Leader_1901-05-09_Page_001">
+         <graphic url="final/images/The_Leader_1901-05-09_Page_001.jpg"/>
+      </surface>
+     
+      
+      <surface xml:id="The_Leader_1901-06-20_Page_001">
+         <graphic url="final/images/The_Leader_1901-06-20_Page_001.jpg"/>
+      </surface>
+      <surface xml:id="The_Leader_1901-06-20_Page_004">
+         <graphic url="final/images/The_Leader_1901-06-20_Page_004.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="debate">
+            
+            <pb n="1" facs="final/images/The_Leader_1901-05-09_Page_001.jpg"/>
+            
+            <fw type="running">THE LEADER</fw> <fw type="dateline">REGINA, N.W.T., THURSDAY MORNING, MAY 9, 1901.</fw> <fw type="num">1</fw>
+            
+            
+            <head rendition="simple:centre">N.W.T. Legislature</head>
+            <head rendition="simple:centre">Third Session of the Fourth<lb/>
+               Assembly</head>
+           
+            
+            <head rendition="simple:centre">
+               THE OPENING CEREMONY
+            </head>
+            
+            
+            <p rendition="simple:centre">
+               <emph>The Governor's Seech and Address<lb/>
+               in Reply Land Grants for the<lb/>
+               South African Heros-Provincial<lb/>
+               Autonomy Hall Insurance-<lb/>
+               Speech of the Leader of the Oppo<lb break="no"/>sition and the Premier's Reply</emph>
+            </p>
+            
+            
+            <p rendition="simple:right">
+               THURSDAY, May 2.
+            </p>
+            
+            
+            <p>
+               The third session of the fourth legis<lb break="no"/>lation Assembly of the North-West<lb/>
+               Territories was opened this afternoon.<lb/>
+               The bright May day induced a much<lb/>
+               larger crowd than usual to witness the<lb/>
+               proceedings. Long before the hour of<lb/>
+               the ceremony the Assembly hall was<lb/>
+               thronged with gaily clad ladies, and<lb/>
+               the other sex were also present in<lb/>
+               large numbers. At 2:40 the lowering<lb/>
+               of the flag at government house an<lb break="no"/>nounced the departure of the Lieut.-<lb break="yes"/>
+               Governor and soon a cavalcade of<lb/>
+               North-West Mounted Police, under<lb/>
+               command of Inspector McGibbon, were<lb/>
+               seen coming along, escorting his honor<lb/>
+               with Captain Gilpin-Brown as aide-de-<lb break="yes"/>
+               camp. The state of Dewdney street<lb/>
+               did not permit a direct journey, and as<lb/>
+               a result picturesqueness was lent to<lb/>
+               the approach of the procession by its<lb/>
+               meanderings across the prairie. On<lb/>
+               arrival at the government bulidings<lb/>
+               the escort lined up and as soon as the<lb/>
+               Lieut.-Governor had alighted arms<lb/>
+               were presented and the trumpets<lb/>
+               sounded the royal salute. His honor<lb/>
+               was conducted by <persName ref="pers:HAUL2">Premier Haultain</persName> <lb/>
+               and Territorial Secretary Bulyea to<lb/>
+               the Speaker's chair, whence he read<lb/>
+               the following speech:-
+            </p>
+            
+            <quote rendition="tccd:blockquote">
+            <p>
+               MR. SPEAKER AND GENTLEMENT OF THE LEGIS<lb break="no"/>LATIVE ASSEMBLY:-
+            </p>
+            <p>
+               In welcoming you to the Third Session of the<lb/>
+               Fourth Legislative Assembly, I rejoice to re<lb break="no"/>cord the present era of prosperity throughout<lb/>
+               these Territories and the favourable prospects<lb/>
+               to be noted everywhere for the future welfare<lb/>
+               of our people.
+            </p>
+            <p>
+               Since our last meeting the civilised world has<lb/>
+               joined in mourning the death of our late Sove<lb break="no"/>reign, Her Most Gracious Majesty Queen Vic<lb break="no"/>toria, under whose long, wise, and beneficient<lb/>
+               rule the British Empire hs made unprecedent<lb break="no"/>ed advancement. Nowhere has her noble ex<lb break="no"/>ample in all the relations of life been more sin<lb break="no"/>cerely admired or her death more deeply re<lb break="no"/>
+               <cb/>
+               retted than in the North-West Territories.
+            </p>
+            <p>
+               You will, I am sure, desire to express in fitting<lb/>
+               terms at the earliest opportunity the grief of<lb/>
+               those whom you represeent at the death of the<lb/>
+               Great Queen, their deep sympathy with the<lb/>
+               Royal Family in its great afflication and their<lb/>
+               devoted loyalty to our new Soveriegn King<lb/>
+               Edward VII.
+            </p>
+            <p>
+               In common with the rest of Canada you must<lb/>
+               be gratified at the splendid service done on be<lb break="no"/>half of the Empire by our fellow citizens in<lb/>
+               South Africa. That some of those who volun<lb break="no"/>teered their services have lost their lives must<lb/>
+               be a cause of the deepest sorrow and I am sure<lb/>
+               that you will join me in expressing the greatest<lb/>
+               sympathy for the relatives and friends of those<lb/>
+               who have fallen as well as the heartiest wel<lb break="no"/>come to those who have returned.
+            </p>
+            <p>
+               The memorial which, at your last session, you<lb/>
+               addressed to the Governor General in Council<lb/>
+               respecting the constitutional and financial posi<lb break="no"/>tion of the Territories was duly forwarded by<lb/>
+               me to His Excellency, and I wil have such<lb/>
+               correspondence as bears upon the subject laid<lb/>
+               before you.
+            </p>
+            <p>
+               Representations hvae been made to the Domi<lb break="no"/>nion Government respecting the necessity ex-<lb/>
+               isting for further provision being made to meet<lb/>
+               the present inadequacy of the revenue. Parlia<lb break="no"/>ment has not, as yet, given any indication as to<lb/>
+               its intentions in the matter and I am, therefore<lb/>
+               unable to inform you of the reception given to<lb/>
+               the requests of my Govenrment, the nature of<lb/>
+               which you will be made conversant with in due<lb/>
+               course.
+            </p>
+               
+            <p>
+               In addressing you on the occasion of your<lb/>
+               last meeting I referred to "the great dispropor<lb break="no"/>"tion existing between the means at command<lb/>
+               "and the ever growing neccessities of the rapidly<lb/>
+               "increasing population of the Territories." As<lb/>
+               those neccessities have still continued to grow<lb/>
+               with our population, and there is no substantial<lb/>
+               increase to the revenue apparently to be looked<lb/>
+               for, I feel it my duty to call your attention to<lb/>
+               the absolute impossibility of supplying the<lb/>
+               ordinary servicesof the Territories with the<lb/>
+               means at your command.
+            </p>
+            <p>
+               During the past few months, small pox, which<lb/>
+               has been epidemic in the States of the Ameri<lb break="no"/>can Union immediately to the south of us and<lb/>
+               also in a number of the Provinces of the Domi<lb break="no"/>nion, made its appearance at several points in<lb/>
+               the Territories. Measures were taken to pre<lb break="no"/>vent the spread of the disease and I am happy<lb/>
+               to be able to inform you that it is being rapidly<lb/>
+               stamped out.
+            </p>
+            <p>
+               The great losses of crops annually caused by<lb/>
+               hail storms, and the hitherto unsatisfactory<lb/>
+               systems of hail insurance conducted as a private<lb/>
+               enterprise,have led my Government to con<lb break="no"/>sider the subject: and a measure will be sub<lb break="no"/>mitted to you by which it is hoped an efective<lb/>
+               and economical systemof insurance against<lb/>
+               losses by hail, administered by the Government,<lb/>
+               will be offered to those wishing to take advan<lb break="no"/>tage of it.
+            </p>
+            <p>
+               You will be asked to consider a Bill to amend<lb/>
+               and consolidate the law relating to Joint Stock<lb/>
+               Companies, by which a more simple and inex<lb break="no"/>pensive process of formation will be provided<lb/>
+               and a more complete and comprehensive system<lb/>
+               regulating companies and co-operative enter<lb break="no"/>prises introduced.
+            </p>
+            <p>
+               Legislation will also be introduced having in<lb/>
+               view the simplification of the law relating to the<lb/>
+               establishment and conduct of rural school dis<lb break="no"/>tricts and the method of assessment therein.
+            </p>
+            <p>
+               The desirability of the readjustment of the<lb/>
+               basis upon which the Legislative grants in aid<lb/>
+               of schools are at present made will be generally<lb/>
+               recognised, and propositions relating to this<lb/>
+               subject willbe submitted to you during the<lb/>
+               Session.
+            </p>
+            <p>
+               Your attention will be directed to a Bill en<lb break="no"/>larging the scope of the Public Works Depart-<lb/>
+               ment by providing means whereby roads at<lb/>
+               <cb/>
+               present impassable may beimproved by a<lb/>
+               system of drainage works, as well as simplify<lb break="no"/>ing and cheapening the manner of dealing with<lb/>
+               the vexed question of roadways.
+            </p>
+            <p>
+               Mesures will be submitted for your consider<lb break="no"/>ation amending the law respecting Steam<lb/>
+               Boilers, Liquor Licences, the Administration of<lb/>
+               Civil Justice, Villages and Local Improvement.
+            </p>
+            <p>
+               A statement of the Receipts and Expenditures<lb/>
+               of the past year will be laid before you.
+            </p>
+            <p>
+               Estimates for the current year have been<lb/>
+               prepared with due regard to the rapid growth<lb/>
+               and increased necessities of the Territories.
+            </p>
+            <p>
+               Gentlement of the Legislative Assembly-
+            </p>
+            <p>
+               To these and all other measures which may<lb/>
+               be brought before you I woudl sk your earnest<lb/>
+               consideration, in full confidence that under the<lb/>
+               Divine guidance your labours will have bene<lb break="no"/>ficial results and advance the proserity of the<lb/>
+               country.
+            </p>
+            </quote>
+            
+            
+            <p>
+               After a short sojourn in the Speak<lb break="no"/>er's room the Lieut.-Governor depart­<lb/>
+               ed, amid a flourish of trumpets. Com<lb break="no"/>missioner, Perry and all time officers of<lb/> 
+               the North-West Mounted Police at<lb/>
+               present in Regina were present in full<lb/>
+               uniform, and the whole scene was one<lb/>
+               of gaiety and animation.<lb/>
+            </p>
+            <p>
+               Immediately at the close of the cere<lb break="no"/>mony Speaker Eakin took the chair<lb/>
+               and business began. Mr. A. L. Sifton<lb/>
+               and Mr. R. S. Lake were introduced,<lb/>
+               having been re-elected. Mr. R. B.<lb/>
+               Bennett and the successful candi<lb break="no"/>date at the Moose Jaw by-elec<lb break="no"/>tion, have not yet arrived.<lb/> 
+               <persName ref="pers:HAUL2">Premier Haultain</persName> then introduced a<lb/> 
+               formal bill for expediting legal and<lb/>
+               constitutional questions. It was de<lb break="no"/>cided to take the speech into considera­<lb/>
+               tion on Monday, and a select com<lb break="no"/>mittee was appointed to prepare a list<lb/> 
+               of standing committees. <persName ref="pers:BULY1">Hon. G. H. V<lb/>
+               Bulyea</persName> laid on the table particulars of<lb/>
+               the parliamentary appropriation for<lb/>
+               the year and also a copy of the corres<lb break="no"/>pondence with the Dominion govern<lb break="no"/>ment relating to the status and finan<lb break="no"/>cial position of the Territories.
+            </p>
+            <p>
+               The House then adjourned and the<lb/>
+            members proceeded to Government<lb/>
+            House to call on Madam Forget.
+            </p>
+            
+            
+            <pb n="1" facs="final/images/The_Leader_1901-06-20_Page_001.jpg"/>
+            <fw type="running">THE LEADER.</fw>
+            <fw type="dateline">REGINA, N.W.T., THURSDAY MORNING, JUNE 20, 1901.</fw>
+            
+            <fw type="num">1</fw>
+
+<div type="section">
+            <head rendition="simple:centre">THE BUDGET DEBATE.</head>
+
+            <head rendition="simple:centre">Financial Position Of the Territories and<lb/>Provincial Autonomy.</head>
+            <head rendition="simple:centre">GOVERNMENT SYSTEM OF HAIL INSURANCE</head>
+   
+   
+            <p rendition="simple:centre"><emph>Connell's Bill on Hire Receipts Killed at the Win<lb break="no"/>ning Post Reform of Educational System—<lb/>Foreign Languagues May be Taught in<lb/>Schools — Religious Teaching —<lb/>Beet Sugar Factories - Douk<lb break="no"/>hobor Schools.</emph></p>
+   
+   
+            <p>The following is a continuation of<lb/>the debate on the Budget. It will be<lb/>remembered that the last issue contain<lb break="no"/>ed Mr. A. L. Sifton's speech in intro<lb break="no"/>ducing the estimates, and the reply of<lb/>Mr. H. McDonald, leader of the<lb/>Opposition.<lb/>
+            </p>
+   
+   
+            <p><persName ref="pers:ELLI1">Dr. Elliot</persName> was the next speaker.<lb/>He said that he had much pleasure in<lb/>congratulating the Territorial trea<lb break="no"/>surer on the excellent impression his<lb/>speech had made upon the House and<lb/>would no doubt make upon the coun<lb break="no"/>try. The whole matter had been mere<lb break="no"/>ly touched with the point of a pin by<lb/>the leader of the Opposition. The<lb/>criticisms had been of the two-penny-<lb break="yes"/>half-penny sort that did not commend<lb/>themselves even to the narrowest-<lb break="yes"/>minded people. If the Opposition<lb/>wished to gain the confidence and re<lb break="no"/>spect of the people of the Territories<lb/>they would have to indulge in a differ<lb break="no"/>ent class of criticism. Mr. McDonald<lb/>advocated decrease of salaries yet<lb/>he made no attempt to show incom<lb break="no"/>petency on the part of officials, or<lb/>that others elsewhere were getting less.<lb/>The Opposition then charged that a<lb/>great deal of money was wasted on in<lb break="no"/>spection, and then attempted to prove<lb/>
+      
+      
+            <cb/>
+
+         
+         that work was being done without <lb/>adequate inspection. That was not <lb/>very consistent. Everything they pro<lb break="no"/>posed relating to public works, educa<lb break="no"/>tion, public health and asylums in <lb/>Manitoba, was for an increase, at the <lb/>same time they were crying out for a <lb/>decrease in expenditure. He congratu<lb break="no"/>lated the Government on their manly <lb/>stand in giving the people the benefit <lb/>of public works even beyond the reven<lb break="no"/>ues of the year, and he defended the<lb/>policy in regard to test wells, in buy<lb break="no"/>ing machinery supposed to be adequate <lb/>and afterwards obtaining machines <lb/>which would go to greater distances to <lb/>complete the work. He argued that <lb/>the Red Deer bridge and the others<lb/>had been sufficient to stand under or<lb break="no"/>dinary circumstances, but had been<lb/>destroyed by unprecedented floods.<lb/>It was unfortunate that the bridges<lb/>referred to should have been lost<lb/>at the time when money was<lb/>scarce; but of the 1,100 bridges<lb/>existing it would be strange if some<lb/>were not destroyed. Of the 300 bridges<lb/>constructed since the reorganisation of<lb/>the department only three had been<lb/>destroyed; could anybody want a<lb/>more favourable report? The C.P.R.<lb/>
+       
+       
+<cb/>
+    
+    were continually losing bridges. He <lb/>believed that scarcely a year passed <lb/>but some were washed away. As to <lb/>works for which tenders had been ask<lb break="no"/>ed, in almost all cases the tenders had <lb/>to be refused and in a few cases there <lb/>were no tenders. Work had been done <lb/>much better by day labor than by con<lb break="no"/>tract and that was generally the case. <lb/>The speeches about work done in <lb/>frozen ground would not make good <lb/>immigration literature. The complaints <lb/>had really nothing in them. In some<lb/>cases the ground was in fine condition<lb/>when the instructions were sent,<lb/>but was frozen afterwards. Last<lb/>night certain education resolutions<lb/>were proposed and the resolu<lb break="no"/>tions introduced a new system of dis<lb break="no"/>tributing grants, a system of equalising<lb/>burdens which endeavors to give poor<lb break="no"/>er and weaker districts a little better<lb/>assistance than the stronger. He<lb/>supported the system, though it would<lb/>probably strike his own district as<lb/>severely as any in the Territories.<lb/>The leader of the Opposition said<lb/>that some of the wealthier classes,<lb/>people who own large herds of cattle,<lb/>are escaping taxation through the<lb/>
+               <lb/>
+         
+         single tax system, but he did not tell <lb/>the committee that he himself would <lb/>probably, save $60 a year. The system <lb/>of direct taxation of lands would not <lb/>be the best system in every district of <lb/>the country, but it must be considered, <lb/>not from an individual point of view, <lb/>but from that of the interests of the <lb/>whole country. Though, it might be <lb/>detrimental to a few districts, in the <lb/>vast majority it would be of great <lb/>benefit. The Opposition said there <lb/>was no occasion to have a commis<lb break="no"/>sioner of agriculture, but he maintain<lb break="no"/>ed that, there was ample work for the <lb/>commissioner of agriculture and for <lb/>the other commissioners also. He con<lb break="no"/>gratulated the treasurer on the clear <lb/>and careful manner in which he had <lb/>dealt with the subject of the constitu<lb break="no"/>tional changes, not making a bombas<lb break="no"/>tic statement but laying down some of<lb/>the grounds on which our claims should<lb/>be based. The commissioner had not<lb/>expressed satisfaction with the terms<lb/>given to Manitoba, as the leader of the<lb/>Opposition seemed to think, but had<lb/>said that even if that were the best<lb/>bargain we could get it would be a<lb/>great deal better than what we have<lb/>to-day. The hon. gentleman had said<lb/>the Government should have taken the<lb/>people into their confidence and told<lb/>them everything they were thinking<lb/>about the question. If he might judge<lb/>from the lamentable want of know<lb break="no"/>ledge displayed by the leader of the 
+<lb/>Opposition it would indeed have been
+<lb/>well that the Government should have
+<lb/>educated him at least.<lb/>
+            </p>
+
+
+            <p>It being 5:30 o'clock the Speaker left <lb/>the chair and resuming on Friday <lb/>morning,<lb/>
+            </p>
+   
+            <p><persName ref="pers:ELLI1">Dr. Elliott</persName> continued to deal with the <lb/>question of<lb/>
+            </p>
+   
+            <p rendition="simple:centre">PROVINCIAL AUTONOMY.</p>
+   
+   <p>
+
+He referred to the railway grants given <lb/>to specific railways and supported Mr. <lb/>A. L. Sifton's contention that the <lb/>Territories should receive compensa<lb break="no"/>tion from such lands, given away large<lb break="no"/>ly, not for the special benefit of, but to<lb/>the detriment of the North-West Ter<lb break="no"/>ritories; and for the benefit of the<lb/>Dominion at large. Dr. Elliot con<lb break="no"/>cluded by ridiculing the idea that the<lb/>system of taxation in the two classes<lb/>of local improvement districts were<lb/>drastic systems. They were such as<lb/>commended themselves to the majority<lb/>of the people. The large and the small<lb/>local improvement districts were an<lb/>excellent system. He also defended<lb/>the management of the official Gazette,<lb/>and the policy of the department of<lb/>agriculture in securing the return of<lb/>90 per cent. of estray animals to their<lb/>owners, as reflecting credit in the de<lb break="no"/>partment.</p>
+
+   <p rendition="simple:centre"><persName ref="pers:MCKA6">MR. THOMAS M'KAY</persName></p>
+   
+   
+   <p>said the speech of the Territorial<lb/>Treasurer was a business-like state<lb break="no"/>ment and so far he could congratulate<lb/>him; but after all he was only making<lb/>the best he could of a very bad cause.<lb/>Any differences of opinion in that<lb/>House were as to the way the money<lb/>was expended. They had not yet any<lb break="no"/>thing to do with the revenue. Very<lb/>serious mistakes had been made. The<lb/>Government had no familiarised<lb/>themselves as they should have done<lb/>with the wants of the country, particu<lb break="no"/>larly in regard to public works. Al<lb break="yes"/>thought apparently in a bankrupt state<lb/>the members of the Government were<lb/>not prepared to make any sacrifices,<lb/>but voted themselves $2,000 for "extra<lb break="no"/>ordinary services." The $13,000 increase<lb/>
+
+[...]
+
+<!-- TEXT MISSING HERE -->
+            <cb/>
+
+        
+        could not agree with the Opposition in <lb/>everything they had done, nor did he <lb/>say they were all bad men; neither <lb/>did he agree in everything with the <lb/>Government or approve of all their <lb/>legislation. If we could not get <lb/>what we wanted when we were <lb/>making a provincial deal then it would <lb/>be the duty of the Government to re<lb break="no"/>sign and let the Dominion Govern<lb break="no"/>ment run the affairs. He be<lb break="no"/>lieved that the Opposition had a <lb/>good effect in causing the Govern<lb break="no"/>ment to bring down some good legisla<lb break="no"/>tion. However, he thought that some<lb/>of the legislation was not good. Re<lb break="no"/>garding the public works department<lb/>he believed that a lot of work was<lb/>done. Some was done in his district<lb/>but he noticed in the past that it was<lb/>done chiefly every four years. Of<lb/>course he would not say that it was<lb/>done for elections purposes. Some of it<lb/>was well done and some of it was not.<lb/>Regarding his future course he said<lb/>that the next session might find him on<lb/>one side of the House or the other and<lb/>perhaps he might be as he was at that<lb/>moment—the leader of his own part.<lb/>(Laughter).<lb/>
+            </p>
+            <p rendition="simple:centre"><persName ref="pers:VILL1">MR. F. VILLENEUVE</persName></p>
+   
+   <p>
+joined in the unanimous concourse of <lb/>congratulations to the hon, treasurer, <lb/>congratulating him also on his occupy­<lb/>ing his seat as commissioner of public <lb/>works. He thought it would be a good <lb/>thing for the west and the north <lb/>(laughter) for he had great knowledge <lb/>of those parts of the country and their <lb/>needs. He disagreed, however, with <lb/>him as to his manner of making esti<lb break="NO"/>mates, voting $180,000 which they had <lb/>not got and perhaps never would get <lb/>unless the Government had greater <lb/>success than in the past. He protested <lb/>also against the voting of money in <lb/>bulk for public works. Details ought <lb/>to have been given. Replying to Mr. <lb/>Brown, who had said the Opposition <lb/>were silent as lobsters, he said a char<lb break="NO"/>acteristic of the lobster was to go back<lb break="no"/>wards; he asked who had gone back<lb break="no"/>wards except the Government. They<lb/>were changing their policy all the<lb/>time. Another kind of lobsters were<lb/>those who only opened their mouths to<lb/>cry "Agreed, agreed." The House<lb/>ought to have an explanation<lb/>of what was meant by provincial<lb/>autonomy,— but the Government<lb/>submitted no policy. He feared<lb/>that Northern Alberta would not<lb/>be properly represented by the<lb/>Government at the conference. (Oh,<lb/>oh.) That district was against central<lb break="no"/>isation and wanted two provinces, at
+<lb/>least. Everything now had to be done
+<lb/>by correspondence and on information
+<lb/>and advice of men residing sometimes
+<lb/>hundreds of miles from the work to
+<lb/>be done. He could assure the executive
+<lb/>that the Opposition would give all the
+<lb/>advice and assisstance they could to
+<lb/>have the best bargain possible made.
+<lb/>The members of the Government
+<lb/>should be accompanied by the members
+<lb/>who represent the North-West Terri<lb break="no"/>tories at Ottawa. The Government
+<lb/>should appoint to go with them a mem<lb break="no"/>ber of the Catholic faith, and one
+<lb/>whose language is French. The mem<lb break="no"/>bers for Wolseley and North Regina
+<lb/>had reason to be satisfied with the
+<lb/>Government because their districts
+<lb/>were perfect; but Northern Alberta
+<lb/>and St. Albert districts were badly in
+<lb/>need of roads and other improvements.</p>
+
+            <p rendition="simple:centre"><persName ref="pers:SMIT7">MR. A. S. SMITH</persName></p>
+
+            <p>in an effective little speech confined his <lb/>remarks chiefly to provincial autonomy. <lb/>He was pleased to hear the treasurer's <lb/>discussion of the subject and his com<lb break="no"/>parisons with Manitoba. It was for <lb/>the Government not to lead the House<lb/>to expect too much. The Territories<lb/>should benefit by the mistakes of Man<lb break="no"/>itoba. Conditions were now altogether<lb/>different; the land was now more<lb/>valuable, and the bargain made by<lb/>Manitoba would not be acceptable to<lb/>the Territories at present. At the con<lb break="no"/>ference in 1863, it was recognised that<lb/>these Territories would cut a great<lb/>figure in the development of Canada.<lb/>The financial question here was the<lb/>great one. The C.P.R. was a Dominion<lb/>undertaking, part of the bargain by<lb/>which British Columbia was brought<lb/>into the Dominion. We pay<lb/>our full share of the interest of<lb/>the debt of Canada that built<lb/>the railways. It was to be regretted<lb/>that this country would not<lb/>have a greater say than it has when<lb/>the question of provincial autonomy<lb/>comes before the Dominion parliament.<lb/>He was a little disappointed with the<lb/>position of the Opposition on the pro<lb break="no"/>vincial autonomy question. The mem<lb break="no"/>ber for West Calgary had cited Mani<lb break="no"/>toba and some of the States: and he <lb/>thought this Territory as well able to <lb/>manage its affairs as any of the pro<lb break="no"/>vinces. The railway question was not <lb/>likely to be the chief question, especial<lb break="no"/>ly in the eastern district. He approved <lb/>of the policy of voting for public works <lb/>the money which was absolutely neces<lb break="no"/>sary, notwithstanding the money for <lb/>them was not in sight. In regard to <lb/>the commissioner of agriculture he <lb/>thought it would be just as ridiculous <lb/>to do away with the head of the agri<lb break="no"/>cultural department as it would be to <lb/>do away with the department. In re<lb break="no"/>gard to the salaries it was a cheap way <lb/>of getting praise for economy to vote <lb/>for reduction of salaries. He had no <lb/>desire to see this country, organized <lb/>into municipalities, and he believed in <lb/>centralization because it would prevent <lb/>this. <lb/>
+            </p>
+   
+   
+            <p rendition="simple:centre"><persName ref="pers:PATR1">Dr. PATRICK</persName></p>
+
+
+            <p>also congratulated the treasurer on the <lb/>comprehensive, manner in which he<lb/>
+had dealt with public questions, and <lb/>the manner in which he had handled <lb/>the legislation. He did this all the <lb/>more readily because he had not agreed <lb/>with all the legislation: he attributed <lb/>the "drastic legislation " to the deputy <lb/>of the department. He thought if the <lb/>connmissioner had had a little more <lb/>time to devote to its consideration, he <lb/>would not have introduced such dras<lb break="no"/>tic legislation. Speaking of water <lb/>supply, he suggested that the failures <lb/>in boring for water be paid for by the <lb/>Government and the successes by the <lb/>farmiers, as the uncertainty discouraged <lb/> private enterprise. Theoretically, he <lb/>believed the statements that the Gov<lb break="no"/>ernment had nothing to do with the<lb/>
+provincial autonomy question was cor<lb break="no"/>rect; but practically it was not. The <lb/>voice of the people would have to be <lb/>respected. It was not the duty of <lb/>Canada to deal with this question<lb/>without giving consideration to the<lb/>feelings and wishes of the people. The<lb/>people who had colonized these dis<lb break="no"/>tricts had done so with the under<lb break="no"/>standing that they should ultimately<lb/>become provinces, and they had the<lb/>right to insist upon this. He, however,<lb/>thought that the three organised dis<lb break="no"/>tricts were not too large for one pro<lb break="no"/>vince. If there was one vote he had<lb/>given in the House which he regretted<lb/>it was that in favor of the claims made<lb/>to exercise local government rights in<lb/>
+            </p>
+   
+   
+            <p>Continued on Page 4.<lb/>
+            </p>
+
+            <pb n="4" facs="final/images/The_Leader_1901-06-20_Page_004.jpg"/>
+        
+        
+         
+         
+     <fw type="dateline">THE LEADER, THURSDAY MORNING, JUNE 20, 1901.</fw> 
+   
+   <fw type="num">4</fw>
+   
+</div>
+            
+            <div type="section">
+   
+            <head rendition="simple:centre">THE BUDGET DEBATE</head>
+
+            <p rendition="simple:centre">Continued from Page 1.</p>
+               
+               
+            <p>the Yukon. The question of including<lb/>Athabasca or portions of it might be<lb/>considered in connection with the for<lb break="no"/>mation of a new province. But rather<lb/>than have any part added to any exist<lb break="no"/>ing province he would favor two pro<lb break="no"/>vinces with portions of Athabasca<lb/>added. Geographically the portion of<lb/>the Territories north of Manitoba be-<lb break="yes"/>willing to see it added, as this would<lb/>be a means of reopening there the<lb/>question of better terms. He suggest<lb break="no"/>ed that the Territories should make<lb/>common cause with Manitoba. In re<lb break="no"/>ference to the conference, he asked<lb/>what constitutional remedy there<lb/>would be if a bill should be brought<lb/>down that was not acceptable. He<lb/>answered that the House should be<lb/>called together, and, in order that<lb/>this might be done the treasury should<lb/>not be left without a dollar in its cof<lb break="no"/>fers. He appreciated the need of pub<lb break="no"/>lic works, but this would not be suffi<lb break="no"/>cient warrant for leaving an empty<lb/>treasury at what would be the most<lb/>critical period in the history of the<lb/>country. Money enough was wanted<lb/>to be left to call the House together to<lb/>protest if necessary, and to appeal to<lb/>the people at the polls. He wanted to<lb/>hear from the leader of the Govern<lb break="no"/>ment what means he would adopt in<lb/>that case, to give expression to the<lb/>opinions of the people. In days gone<lb/>by Premier Haultain had ever been the<lb/>champion if the rights of the people ;<lb/>and it was regrettable to see him this<lb/>session abandoning that position, as<lb/>was evident from the legislation intro<lb break="no"/>duced. He (Dr. Patrick) had supported<lb/>the Premier because he championed<lb/>those rights, but if the hon. gentleman<lb/>were not willing to assert that the<lb/>rights of the people must be respected,<lb/>he could not continue the confidence<lb/>which he had in his Government in the<lb/>past.<lb/>
+            </p>
+               
+            <p>A LONG SPEECH.<lb/>
+            </p>
+               
+            <p><persName ref="pers:BENN5">Mr. R. B. Bennett</persName> is an address that<lb/>started shortly after 4 p.m., lasted until<lb/>5:30 ; was resumed at 8 p.m. and con<lb break="no"/>tinued to 9:30 p.m., added his congrat<lb break="no"/>ulations to the others at the able<lb/>speech of the Territorial Treasurer.<lb/>The hon. gentleman was one who had<lb/>has greatness thrust upon him. His<lb/>famous brother, the Minister of the<lb/>Interior, had been called the young<lb/>Napoleon of the west. Well it was a<lb/>case of history repeating itself. The<lb/>great Napoleon was always kind to his<lb/>brothers, putting one on one throne<lb/>and one on another and the young<lb/>Napoleon of the west had placed his<lb/>elder brother on the throne of the Ter<lb break="no"/>ritories. (Oh ! oh !) Well it was very<lb/>strange that the same telegram that<lb/>brought the news from Ottawa that<lb/>Mr. Ross was going to the Yukon also<lb/>brought the news that Mr. A. L. Sifton<lb/>was to be commissioner of the public<lb/>works. It was from Ottawa the news<lb/>came, not Regina. It was the accident<lb/>of birth that had made the member<lb/>for Banff Territorial Treasurer and<lb/>minister of public works. Mr. Bennett<lb/>proceeded to criticise the budget speech,<lb/>characterising it as a speech of "ifs<lb/>and buts." "If they only had so-and-<lb break="yes"/>so, they would do this or that, "but"<lb/>they had not, so could not. The pro<lb break="no"/>position before the House should be<lb/>considered as a business matter. He<lb/>asked whether the members would ap<lb break="no"/>ply the same principles in their private<lb/>business. Every dollar of the $467,000<lb/>received last year had been expended ;<lb/>and there were large outstanding liabil<lb break="no"/>ities. One item was $11,000, another<lb/>$30,000, in cannection with public<lb/>works. A liability of $47,00 in con<lb break="no"/>nection with school grants, which has<lb/>not yet been paid, making a total of<lb/>$88,000 of a deficit when the financial<lb/>statement for the year was received.<lb/>Another business question was what<lb/>revenue was expected to be received.<lb/>The answer was about $413,000. Deduct<lb/>the $88,000 and you have $325,000.<lb/>Now pay the local improvement grants,<lb/>$11,000, and $180,000 to schools, and<lb/>allowing for a deficit the same as last<lb/>year, there would remain $267,000.<lb/>Then it was proposed to anticipate<lb/>$180,000, there would be $447,000 to<lb/>meet an expenditure of $590,000.<lb/>Where will they be in 1902 unless<lb/>Providence comes to our aid, or we<lb/>receive a much larger grant from the<lb/>Dominion Government? Would a sin<lb break="no"/>gle business man discount the future<lb/>when he had no borrowing powers?<lb/>In times of financial stringency it is<lb/>customary to reduce expense. What<lb/>do we find here? You are asked to<lb/>say that last year we spent $73,000 for<lb/>civil government, legislation and ad<lb break="no"/>ministration of justice, or about 17 per<lb/>cent ; this year the percentage asked<lb/>was about 21 per cent., or $86,000, as<lb/>against $73,000. Would any sharehold<lb break="no"/>ers adopt such a report from their<lb/>directors? The Opposition existed<lb/>because of public clamor and a desire<lb/>that the legislation should be imparti<lb break="no"/>ally and intelligently criticised.<lb/>He thought there would have been no<lb/>difficulty if the Government had taken<lb/>this position towards the Dominion,<lb/>
+            </p>
+            <p rendition="simple:centre">EITHER GIVE US MONEY,<lb/>
+            </p>
+            <p>or we will not provide roads, bridges<lb/>or schools for the immigrants you<lb/>send. If the executive had come to<lb/>the House and said, "They refuse us<lb/>our rights, and justice," and had ap<lb break="no"/>pealed to the people they would have<lb/>been supported by all the members,<lb/>and by the country. He proceeded to<lb/>criticise the outcome of the policy of<lb/>centralisation, denying to some of the<lb/>people the right of self-government,<lb/>while others are entrusted with repre<lb break="no"/>sentatitve institutions. The deputy<lb/>commissioner of public works was an<lb/>able executive officer, but he should<lb/>not be entrusted with legislation ; the<lb/>legislation to take away the rights of<lb/>the people to self-government was his<lb/>legislation. It had been said that the<lb/>policy of the administration was found<lb/>in the ordinances. The publication of<lb/>these had cost $20,000, but of what use<lb/>were they to the people or to the<lb/>magistrates? They were completely<lb/>changed every session. Again, a system<lb/>was needed to secure permanent roads<lb/>and improvement of the main lines<lb/>of communication and what had been<lb/>done? The minister had gone back to<lb/>the old system of district engineers<lb/>after it had been abandoned for a year.<lb/>He blamed the Government for inac<lb break="no"/>tion and inability, resulting in 2,000<lb/>unsettled cases of right of way claims<lb/>under the expropriation ordinance. A<lb/>section had given power to go to<lb/>the supreme court, but the Government<lb/>had not availed themselves of it.<lb/>Referring to what Dr. Elliott had<lb/>said about the Red Deer bridge he<lb/>(Mr. Bennett) stated on the authority<lb/>of men competent to judge that the<lb/>bridge was improperly built. He pro<lb break="no"/>tested against estimates in bulk, as<lb/>used as an engine of oppression against<lb/>the people, and as a dangerous power<lb/>to give to one man to locate public<lb/>works, and to say to the electors, "If<lb/>you want schools, road or bridges, vote<lb/>for this man." Speaking of salaries,<lb/>he contended that every man should<lb/>be paid what he was worth : that it<lb/>pays to have a good men and pay them<lb/>good salaries. But was this the time<lb/>to increase salaries? In times of<lb/>financial stress it was customary to re<lb break="no"/>duce salaries. The late treasurer<lb/>served the country well and received<lb/>$2,500. Was the present treasuerer's<lb/>services worth more? It ill became<lb/>him at such a time to make the first<lb/>break by increasing his salary. The<lb/>
+       
+       
+         <cb/>
+         
+         sacrifice should not all be borne by the<lb/>"moss back, " a portion should be<lb/>borne by these gentlemen who are<lb/>living in luxury, devoting half their<lb/>time to the public service and the<lb/>other half to matters political in sup<lb break="no"/>port of the Dominion Government.<lb/>The commissioner of public works had<lb/>left the impression that the lands of the<lb/>Territories were all alienated ; but the<lb/>fact was that half the lands shown on<lb/>his colored map were homestead lands,<lb/>while only a small portion of the<lb/>others were really alienated. He quoted from<lb/>
+            </p>
+            <p rendition="simple:centre">A SPEECH FROM <persName ref="pers:ROSS20">MR. ROSS</persName>,<lb/>
+            </p>
+            <p>the late treasurer, last year, that there<lb/>were 50,000,00 acres still left over and<lb/>above those taken for railroad pur<lb break="no"/>poses, and 35,000,000 acres allowed for<lb/>cost of the administration. Turning to the<lb/>remedy, he said, after reading the<lb/>memorials that had been sent, he did<lb/>not wonder that nothing had been ob<lb break="no"/>tained. The government had not met<lb/>the difficulty as they should have done.<lb/>The prescription by the Territorial<lb/>treasurer was provincial autonomy.<lb/>This was a very large question. He<lb/>had occupied an independent position<lb/>in reference to this question, and was<lb/>prepared to give hearty support to any<lb/>proposition or any set of men adequate<lb/>to meet the growing necessities of the<lb/>question. Should the House know<lb/>anything about the terms proposed or<lb/>not? Should they know whether<lb/>there was to be one province or two<lb/>provinces? Whether they were to<lb/>have the lands or compensation, and<lb/>whether they should have the miner<lb break="no"/>als ? Before the terms and conditions<lb/>were agreed upon this House should<lb/>have an opportunity of discussing<lb/>them. Why should the House not<lb/>have had some of these terms before<lb/>them this year? Next session the Bill<lb/>was to be brought down, the time<lb/>would not be adequate to consider<lb/>them. He suggested that after the<lb/>conference at Ottawa, immediately on<lb/>the proposals being known, let the<lb/>House be called together to discuss<lb/>them ; and, if necessary, let there be a<lb/>dissolution, and let the people pro<lb break="no"/>nounce upon them. He held that this<lb/>country should have, if not all, the<lb/>major part of the lands, and also its<lb/>minerals. We demand these, they<lb/>will bring us revenue. If any servies<lb/>of his could assist the Attorney-General<lb/>they would be given. He would<lb/>never accept any terms as being<lb/>the same as were given to Manitoba<lb/>and he was sure of this that the people<lb/>would keep on demanding until their<lb/>grievances were removed.<lb/>
+            </p>
+               
+            <p rendition="simple:centre"><persName ref="pers:LAKE1">Mr. R. S. LAKE</persName></p>
+               
+            <p>replied to Mr. Bennett's remarks on<lb/>the ministers having taken part in<lb/>Dominion political matters, and he de<lb break="no"/>fended the local Government against<lb/>the charge that they had used unfair<lb/>influences in the election in Eastern<lb/>Assiniboia. He himself was a candi<lb break="no"/>date and knew nothing of such in<lb break="no"/>fluences. He did not agree with the<lb/>doctrine that members of the House<lb/>should not take part in Dominion<lb/>political matters. He denied that the<lb/>supporters of the Government had<lb/>sneered and jeered at Mr. Bennett's<lb/>first speech ; and said that the gentle<lb break="no"/>man's undoubted ability as a speaker<lb/>made no impression because of his<lb/>rash statements.<lb/>
+            </p>
+               
+               
+            <p rendition="simple:centre"><persName ref="pers:HAUL2">PREMIER HAULTAIN</persName></p>
+            
+               
+               
+               <p>who on rising was received with<lb/>applause said that he and the Govern<lb break="no"/>ment had been accused of telling the<lb/>old old story. If so one would have<lb/>thought they would have been met with<lb/>the old old criticism. That, however,<lb/>was not so and he had to object to and<lb/>protest against the style and scope of<lb/>the criticisms. The Opposition had<lb/>found that three bridges out of three<lb/>hundred had been swept away, and<lb/>two school districts had not been paid.<lb/>They had discovered things that every<lb break="no"/>body knew last year. The whole criti<lb break="no"/>cism had been founded on misconcep<lb break="no"/>tion of the facts, figures and arguments<lb/>of the member for Banff. The House<lb/>had listened to a federal political har<lb break="no"/>angue for the first time. The references<lb/>to the "Napoleon of the West" and the<lb/>insinuation as to influences brought to<lb/>bear on him (Mr. Haultain) with refer<lb break="no"/>ence to a choice of a successor to Mr.<lb/>Ross were absolutely indecent ; and<lb/>the statements of the hon. gentleman<lb/>were entirely untrue. He denied that<lb/>members of the Government or officials<lb/>had gone about influencing electors ;<lb/>or that any bulk grants had been im<lb break="no"/>properly used. Attacks had been made<lb/>on the deputy minister of public works<lb/>and a gentleman who had just joined<lb/>the service, both of them unwarrranted<lb/>and foundationless. There were a large<lb/>number of things in the hon. gentle<lb break="no"/>man's address. The policy of the Gov<lb break="no"/>ernment was referred to as an experi<lb/>ment and they had been censured for<lb/>amending so many ordinances. For<lb/>his part he hoped that for many years<lb/>the policy, institutions and laws would<lb/>have to be changed every year. (Hear,<lb/>hear.) It had been suggested that if the<lb/>Dominion Government refused to treat<lb/>the Territories liberally the Assembly<lb/>should resign and leave the Federal<lb/>Government to carry on the business.<lb/>This would be to take the attitude of a<lb/>sulky boy. The first part of the speech<lb/>of the member for West Calgary had<lb/>been delivered before ; and the second<lb/>ought to have been made a year ago.<lb/>He took exception to the statement<lb/>that the faith of Canada had been com<lb break="no"/>mitted to three provinces. He pointed<lb/>out that the province of Quebec and<lb/>that of British Columbia were each<lb/>larger in area than the three districts.<lb/>of the Territories. The debate had at<lb/>any rate brought out the policy of the<lb/>Opposition. Their policy last year was<lb/>a reduction of $2,500 in general ex<lb break="no"/>penses, this year they had expanded a<lb/>little on the magnificent sum. They<lb/>protested against forced taxation with<lb break="no"/>out representation, yet they said they<lb/>supported large local improvement dis<lb break="no"/>tricts. He took as official the declaration<lb/>of the member for St. Albert that he<lb/>was opposed to centralization. The<lb/>only alternative to the system was a<lb/>municipal system. Another portion of<lb/>their policy was the statement of the<lb/>member for West Calgary that there<lb/>was no difference between a corpora<lb break="no"/>
+         
+         <cb/>
+    
+    
+    tion and a Government. There had<lb/>been corporation leanings on the other<lb/>side of the House. As explained by the<lb/>treasurer the increase in Civil Govern<lb break="no"/>ment had been about $6,000 not $13,000.<lb/>The Government accepted the offer of<lb/>help from the member of West Calgary<lb/>but it should have been offered last<lb/>year. There had been no change of<lb/>front no change of opnion on the part<lb/>of the Government. The treasurer had<lb/>said the change of their political status<lb/>would have to be justified ; unless the<lb/>House could prove that they would be<lb/>better off the change would not be<lb/>justified. It was a simple fact that the<lb/>power of final settlement was with the<lb/>Dominion Government. This did<lb/>not mean that the Government<lb/>would acquiesce in any impossible<lb/>terms. He would be absolutely un<lb break="no"/>willing to have a province established<lb/>on the same terms as those given to<lb/>Manitoba. He did not admit that any<lb/>particular nationality or creed had a<lb/>claim to representation in the con<lb break="no"/>ference to discuss Territorial matters.<lb/>With regard to the time of negotiations<lb/>and the manner in which they had<lb/>been conducted. Immediately after<lb/>the raising of the Assembly the memo<lb break="no"/>rial had been sent. The federal min<lb break="no"/>insters were then going all over the<lb/>country looking after the Dominion<lb/>elections, and a conference was impos<lb break="no"/>sible. The minister of the interior had<lb/>taken action before the Territorial<lb/>treasurer had joined the Government.<lb/>If made a province without proper<lb/>terms they would go on kicking and<lb/>continue kicking until they got them.<lb/>Extra representation at Ottawa based<lb/>on the census would be urged. He<lb/>would demand more than this,<lb/>viz, the representation to be based<lb/>on more than prospective popu<lb break="no"/>lation. With regard to negotia<lb break="no"/>tions, Mr. Haultain assured the<lb/>House that the Government would<lb/>continue to urge the claims which they<lb/>had advocated.<lb/>
+            </p>
+            <p rendition="simple:centre"> <persName ref="pers:HAWK1">MR. J. B. HAWKES</persName>
+            </p>
+            <p>said that the Opposition were not here to<lb/>propound a policy, but when they<lb/>reached the treasury benches they<lb/>would have a progressive policy. He<lb/>advocated a Territorial Government<lb/>and Opposition ; coalition governments<lb/>were dangerous, and he wanted a Grit<lb/>or Conservative Government on Terri<lb break="no"/>torial lines. He objected to the minister<lb/>of agriculture receiving a salary from<lb/>this country and lowering himself to<lb/>be a scrutineer in an election. He pro<lb break="no"/>ceeded to read several letters to show<lb/>that the minister of agriculture had<lb/>used his influence in the last election.<lb/>He thought the civil servants were<lb/>poorly paid but there were too many<lb/>of them. The Government were not<lb/>doing enough to secure water for the<lb/>people. It was not true that private<lb/>enterprise and Dominion Government<lb/>enterprise had failed in this. He gave<lb/>instances of public works that had been<lb/>badly constructed. There must be<lb/>something radically wrong in the school<lb/>system where there were children thir<lb break="no"/>teen years of age who had never been<lb/>at school. The House should endeavor<lb/>to be unanimous in the matter of pro<lb break="no"/>vincial organization.<lb/>
+            </p>
+               
+            <p rendition="simple:centre"><persName ref="UNSPECIFIED">Mr. A. B. GILLIS, WHITEWOOD</persName>,</p>
+               
+               
+            <p>expressed congratulations that so com<lb break="no"/>petent a man had succeed the late<lb/>Territorial treasurer, as shown in the<lb/>budget speech. He was pleased to see<lb/>an Opposition in the House, and a divi<lb break="no"/>sion on Territorial lines. Speaking of<lb/>the civil service grant, he was entirely<lb/>in accord with the increase of the min<lb break="no"/>isters' salaries. The department of<lb/>agriculture was of such importance<lb/>that it could not be done without. The<lb/>question of water supply was one of<lb/>the most important and difficult ; but<lb/>the efforts put forth were meeting with<lb/>approval. He was in full accord with<lb/>the leader of the House in regard to<lb/>provincial autonomy.<lb/>
+            </p>
+               
+            <p rendition="simple:centre"><persName ref="pers:CONN2">Mr. J. W. CONNELL</persName></p>
+               
+               
+            <p>extended his quota of congratulation<lb/>to the commissioner of public works<lb/>and to the members of the Opposition.<lb/>The policy of the Government was<lb/>national and also rational. The criti<lb break="no"/>cisms offered by some of the members<lb/>of the Opposition did not appear to him<lb/>to have much solidity. Ten thousand<lb/>political souls like those could find<lb/>ample waltzing room on the point of a<lb/>cambric needle.<lb/>
+            </p>
+            <p rendition="simple:centre"><persName ref="pers:BULY1">MR. G. H. V. BULYEA</persName></p>
+            
+               
+               <p>replied to the statements of the mem<lb break="no"/>ber for south Regina. He was prepared<lb/>to show all the corrrespondence in con<lb break="no"/>nection with the letters read, and<lb/>denied that he had any intention of<lb/>influencing the young man's vote in<lb/>the election. He was not aware that<lb/>there was anything disreputable in<lb/>acting as scrutineer in an election ; if<lb/>there was then the hon, member who<lb/>had spoken probably knew more about<lb/>it, as he had been one himself.<lb/>
+            </p>
+            <p rendition="simple:centre"><persName ref="pers:FISH1">MR. C. FISHER</persName></p>
+            <p>announced himself as a supporter of<lb/>the Government's policy. He thought<lb/>the French Catholics would be well re<lb break="no"/>presented in the conference by Sir<lb/>Wilfrid Laurier. Oppositions to Gov<lb break="no"/>ernments had always cried extrava<lb break="no"/>gance, but the Government had acted<lb/>as wisely as possible under the circum<lb break="no"/>stances. He expressed unbounded<lb/>confidence in the Federal Government<lb/>and in the Territorial Government as<lb/>representing the Territories.<lb/>
+            </p>
+               
+               
+            <p rendition="simple:centre"><persName ref="pers:MCDI1">MR. E. C. M'DIARMID</persName></p>
+               
+               
+            <p>referred to the shortage of $180,000,<lb/>and in connection with this the increas<lb break="no"/>ed salaries to the ministers. He did<lb/>not object to this, but was sorry to<lb/>notice that the deputy ministers had<lb/>no increase. If the 2,000 cases about<lb/>the right of the way should be satisfactorily<lb/>settled he would support the policy.<lb/>
+            </p>
+               
+               
+            <p rendition="simple:centre"><persName ref="pers:SHER1">MR. J. W. SHERA</persName>,</p>
+               
+               
+            <p>as an independent, said he had voted<lb/>with the Government on some matters<lb/>and against them on others. He<lb/>thought any one capable of perform<lb break="no"/>ing the duties of members of the<lb/>Government should receive the<lb/>increased salary voted. He did not<lb/>think the commissioner of public<lb/>works would be influenced by the fact<lb/>of his being a brother of the minster<lb/>
+        
+        <cb/>
+      
+      
+      of the interior. He would not say at<lb/>present whether he was in favor of one<lb/>province, or two, or three, but would<lb/>await the announcement of the pro<lb break="no"/>posals.<lb/>
+            </p>
+               
+               
+            <p rendition="simple:centre"><persName ref="pers:SIFT2">Mr. A. L. SIFTON</persName></p>
+               
+               
+            <p>on rising to close the debate was loud<lb break="no"/>ly applauded and delivered a dashing<lb/>and masterly reply. He said the de<lb break="no"/>bate had assumed a more important<lb/>form than a mere discussion of the de<lb break="no"/>tails of the estimates. It was with a<lb/>feeling of satisfaction he had listened<lb/>to the discussions, and had been pleas<lb break="no"/>ed with the flattering expressions to<lb break="no"/>wards himself that had been uttered.<lb/>The criticisms of the disposition of the<lb/>funds had been rather small. The<lb/>amount available for roads, drainage<lb/>and bridges was $102,000 for the whole<lb/>of the Territories. Of this $65,000 had<lb/>been asked for by the constituencies<lb/>represented by ten gentlemen, and the<lb/>remaining $35,000 by 21 gentlemen.<lb/>He didn't think that the feelings ex<lb break="no"/>pressed by the member for West<lb/>Prince Albert as to the increase of<lb/>salaries were shared by the members<lb/>of the House. In 1892 for sometime<lb/>the present Premier was the only paid<lb/>member of the Government. In Sep<lb break="no"/>tember, that year, in the middle of the<lb/>year, two members were provided for<lb/>with one-third of the present popula<lb break="no"/>tion and the amount voted for salaries<lb/>was $4,500. He did not, therefore,<lb/>think there was much to complain<lb/>about. In regard to well boring, he ad<lb break="no"/>mitted there were farmers who would<lb/>like wells on their farms ; but the<lb/>wester portion of the Territories re<lb break="no"/>quired exceptional treatment in the<lb/>matter of bridges, and the eastern in<lb/>regard to water supply. The policy of<lb/>the Government was to put no well<lb/>on private property. It was unfortun<lb break="no"/>ate that the member for West Calgary<lb/>should waste his talents in insinuations<lb/>against the honor of some one in or<lb/>out of the House. The Government<lb/>had two engineers in its employ who<lb/>were equal to any in this country.<lb/>He had written to an engineer in re<lb break="no"/>ference to the bridge at Red Deer, and<lb/>received his opinion that it would have<lb/>stood in an ordinary year.<lb/>
+            </p>
+            <p>When Mr. Sifton had concluded the<lb/>motion was put and carried and the<lb/>House went into committee of supply,<lb/>Deputy Speaker Gillis in the chair.<lb/>After a few minutes' consideration of<lb/>the first resolution in reference to the<lb/>estimate for civil service (executive<lb/>council), Mr. Bennett moved an<lb/>amendment for which only five mem<lb break="no"/>bers voted, to reduce the item by $4,<lb break="no"/>500, including the salary increases.<lb/>The committee rose and reported pro<lb break="no"/>gress at 1:30 a.m.<lb/>
+            </p>
+ 
+ 
+        </div> </div>
+      </body>
+   </text>
+</TEI>
