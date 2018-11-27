@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lgASLA_1900-04-02" xml:lang="en" type="full">
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title> <name type="legislature" ref="lg:lgASLA">Legislative Assemblies of Alberta and Saskatchewan</name>,
+<date when="1900-04-02">2 April 1900</date>, Alberta and Saskatchewan Debates over Confederation with Canada.</title>
+<respStmt>
+<resp>Selection of input documents and completion of metadata</resp>
+<persName ref="pers:HUDS1">Isabelle Carré-Hudson</persName>
+</respStmt>
+</titleStmt>
+
+<publicationStmt> 
+
+<p>Published by The Confederation Debates project.</p> </publicationStmt>
+
+<sourceDesc>
+<bibl corresp="bibl:lgASLA"> <editor>Walter Scott</editor>.
+<title>The Leader</title>.
+<date when="1900-04-05"/>,
+<date when="1900-04-12"/>.
+<pubPlace>Regina</pubPlace>:
+<publisher>Nicholas Flood Davin</publisher>.
+<biblScope unit="page" from="1" to="1"/>,
+<biblScope unit="page" from="10" to="10"/>,
+<biblScope unit="page" from="6" to="6"/>.
+</bibl>
+
+<list>
+<item> <ptr target="final/hocr/The_Leader_1900-04-05_Page_001.hocr.html"/> </item>
+ <item> 
+  <ptr target="final/hocr/The_Leader_1900-04-05_Page_010.hocr.html"/> 
+ </item>
+<item> <ptr target="final/hocr/The_Leader_1900-04-12_Page_006-edit8102.hocr.html"/> </item>
+</list>
+
+</sourceDesc>
+
+</fileDesc>
+
+<encodingDesc> <samplingDecl> <p/> </samplingDecl> </encodingDesc>
+
+<revisionDesc>
+<change who="mholmes" when="2018-11-27">Transformed initial template file to incorporate corrected OCR content.</change>
+<change who="ichudson" when="2018-11-27">Created this document, completed metadata. </change>
+</revisionDesc>
+</teiHeader>
+
+<facsimile>
+<surface xml:id="The_Leader_1900-04-05_Page_001"> <graphic url="final/images/The_Leader_1900-04-05_Page_001.jpg"/> </surface>
+ <surface xml:id="The_Leader_1900-04-05_Page_010"> <graphic url="final/images/The_Leader_1900-04-05_Page_010.jpg"/> </surface>
+<surface xml:id="The_Leader_1900-04-12_Page_006-edit8102"> <graphic url="final/images/The_Leader_1900-04-12_Page_006.jpg"/> </surface>
+</facsimile>
+<text>
+ 
+
+<body>
+
+<div type="debate">
+
+ <pb n="001" facs="final/images/The_Leader_1900-04-05_Page_001.jpg"/>
+ 
+ <fw type="num">1</fw>
+ 
+ <fw type="running">THE LEADER.</fw>
+ 
+ <fw type="running">REGINA, N.W.T., THURSDAY MORNING, APRIL 5, 1900.</fw>
+ 
+  <head rendition="simple:centre">THE LEGISLATURE.</head>
+    <head rendition="simple:centre">Opening of the Second Session of <lb/>
+    the Fourth Assembly.</head>
+   <head rendition="simple:centre">TEXT OF HIS HONOR'S SPEECH</head>
+    <head rendition="simple:centre">
+      Address in Reply Adopted Without <lb/>
+      Opposition or Criticism, on Motion <lb/>
+     of Mr. Brown and Dr. De Veber — <lb/>
+      Mr. Sifton, the New Member for <lb/>
+      Banff, Takes His Seat Provincial <lb/>
+      Establishment Mooted.</head>
+    
+ <!-- IC, 2018-11-27, Commented out below, as it will appear in the preceding debate day -->
+ 
+ <!--<p rendition="simple:centre">THE OPENING</p>
+    <p>
+      The second session of the Fourth<lb/>
+      Legislature of the Territories was<lb/>
+      opened at REgina on Thursday, 29th<lb/>
+      March, 1900, by His Honor Lieut.-Gov<lb break="no"/>ernor Forget. Twenty-six of the their<lb break="no"/>ty-one Members were in their seats.<lb/>
+      The function was attended by the<lb/>
+      usual display, and was witnessed by a<lb/>
+      large assemblage of spectators. His<lb/>
+      Honour was attended from Govern<lb break="no"/>ment House to the Assembly buildings<lb/>
+      by a Mounted Police escourt, and arrived<lb/>
+      at the Chamber a few minutes after<lb/>
+      three o'clock accompanied by Inspec<lb break="no"/>tor Gilpin-Brown, A.D.C.
+    </p>
+    <p>THE SPEECH</p>
+    <p>The Speech delivered by the Lieut.<lb break="no"/>Governor ws the following:-</p>
+    <p>Mr. Speaker and Gentlemen of the Legisla<lb break="no"/>tive ssembly</p>
+    <p>
+      I have much pleasure in welcoming<lb/>
+      you upon the occasion of the opening<lb/>
+      of the Section Session of the Fourth<lb/>
+      Legislative ssembly of the Territories,<lb/>
+      and in congratulatng you upon the<lb/>
+      remarkable growth in population and<lb/>
+      material resources which the Terri<lb break="no"/>tories have experienced during the<lb/>
+      past year.
+    </p>
+    <p>
+      The spontaneous expressions of loyal<lb break="no"/>ty with which all parts of the Empire<lb/>
+      have given practical evidence of their<lb/>
+      devotion to the Queen and Imperial in<lb break="no"/>terests, will ever mark the past year as<lb/>
+      a memorable one in the history of the<lb/>
+      nation. Owing to the non-establish<lb break="no"/>ment of the militia system, the Terri<lb break="no"/>tories were deprived of the privilege<lb/>
+      of being represented in the first Cana<lb break="no"/>dian Contingent, but it must be a mat<lb break="no"/>ter of pride and gratification to know<lb/>
+      that in the Second Contingent, and in<lb/>
+      that corps raised and equipped through<lb/>
+      the splended generosity and patriotism<lb/>
+      of Lord Strathcona and Mount Royal,<lb/>
+      the Territories have now the honor of<lb/>
+      having given not only a large number<lb/>
+      of men in the aggregate but, in propor<lb break="no"/>tion to their population, a larger num<lb break="no"/>ber than any other portion of the<lb/>
+      Dominion, to the Canadian contribu<lb break="no"/>tion to the cause of the Empire. In<lb/>
+      this connection you will be asked to<lb/>
+      concur in a grant made to the North<lb break="no"/>West members of the Second Contin<lb break="no"/>gent, and your assent will be asked to<lb/>
+      a measure legalising grants made by<lb/>
+      Municipal Corporations to various<lb/>
+      patriotic funds.
+    </p>
+    <p>
+      The financial position of the Terri<lb break="no"/>tories has been the subject of consider<lb break="no"/>able correspondence addressed to the<lb/>
+      Federal authorities by my Govern<lb break="no"/>ment. A portion of the correspon<lb break="no"/>dence was laid before you at your last<lb/>
+      Session, and I have ordered copies of<lb/>
+      subsequent communications to be pre<lb break="no"/>pared for your information.
+    </p>
+    <p>
+      The unprecedented rainfall and dis<lb break="no"/>astrous floods of the past year brought<lb/>
+      about a state of affairs which the<lb/>
+      revenue, already proved to be inade<lb break="no"/>quate under ordinary conditions, was<lb/>
+      altogether unable to cope with. This<lb/>
+      state of affairs tended not so much to<lb/>
+      create as to aggravate and call more<lb/>
+      pointed attention to the great dispro<lb break="no"/>portion existing between the means at<lb/>
+      command and the ever-growing neces<lb break="no"/>sities of the rapidly increasing popula<lb break="no"/>tion of the Territories. It is gratify<lb break="no"/>ing for me to be able to inform you<lb/>
+      that the Federal Government has<lb/>
+      proposed to Parliament now in session<lb/>
+      a moderate increase to your annual<lb/>
+      grant and a large special vote for the<lb/>
+      purpose of restoring public works de<lb break="no"/>troyed by the floods. In spite of this<lb/>
+      very substantial increase to the<lb/>
+      Revenue, my Government can only<lb/>
+      look upon it as affording a temporary<lb/>
+      and partial amelioration of otherwise<lb/>
+      impossible financial conditions, and<lb/>
+      will ask you to take action leading to<lb/>
+      the earliest practicable solution of Ter<lb break="no"/>itorial financial and administrative<lb/>
+      problems.
+    </p>
+    <p>
+      In the administration of the law some<lb/>
+      changes have suggested themselves as<lb/>
+      being calculated to bring about greater<lb/>
+      economy and effectiveness. Bills to<lb/>
+      secure these ends will be duly submitted<lb/>
+      to you.
+    </p>
+    <p>
+      The accoutns of the Income and Ex<lb break="no"/>penditure of the past year will be laid<lb/>
+      before you, as will also the Estimates<lb/>
+      for the current year, which have been<lb/>
+      prepared with due regard to the effi<lb break="no"/>ciency of the several services to be<lb/>
+      undertaken and the rigid limitations<lb/>
+      of the revenue.
+    </p>
+    <p>Gentlemen of the Legislative Assembly-</p>
+    <p>
+      I now leave you to your delibera<lb break="no"/>tions, in full confidence that the same<lb/>
+      devotion will be given to the interests<lb/>
+      of the Territories which has heretofore<lb/>
+      characterised the labours of the Legis<lb break="no"/>lative Assembly.
+    </p>
+    <p>
+      His Honor having departed, Mr.<lb/>
+      Speaker (Hon. Wm. Eakin) took the<lb/>
+      Chair. Mr. Speaker announced that<lb/>
+      during the recess he had received the<lb/>
+      certificate of election of Arthur L. Sif<lb break="no"/>ton as member for Banff. Mr. Sifton<lb/>
+      was then introduced to Mr. Speker by<lb/>
+      Premier Haultain and Mr. Wllace of<lb/>
+      High River, and took his seat amid<lb/>
+      warm applause. The Premier moved<lb/>
+      for leave to introduce a formal bill,<lb/>
+      which ws read a first time.
+    </p>
+    <p>
+      On motion of Messrs. Haultain and<lb/>
+      Ross a select committee was struck to<lb/>
+      name the members to compose the<lb/>
+      Standing Committees for the session,<lb/>
+      and report, after which the House ad<lb break="no"/>journed.
+    </p>-->
+
+    <p rendition="simple:centre">
+      MONDAY, April 2.</p>
+    
+ <p>Mr. Speaker took the Chair at 2:55 <lb/>
+    o'clock.</p>
+    
+ <p rendition="simple:centre">THE ADDRESS IN REPLY.</p>
+    
+ <p><persName ref="pers:BROW6">Mr. G.W. Brown</persName> (North Regina) <lb/>
+      on rising to move the Address in Reply <lb/>
+      to His Honor's speech, was loudly ap<lb break="no"/>plauded. He sid that he would preface <lb/>
+      the task with the remark that the un<lb break="no"/>precedented success attending these <lb/>
+      Territories, particularly within the <lb/>
+      past twelve months, and in great meas<lb break="no"/>ure during the last three or four years, <lb/>
+      was certainly a matter of evident satis<lb break="no"/>faction to the House and to the coun<lb break="no"/>try. The past year had been one of <lb/>
+      <cb/>
+  
+      magnificent crops, and magnificent <lb/>
+      weather for the curing and marketing <lb/>
+      of the crops. It seemed as if at last <lb/>
+    </p>
+ 
+    <p rendition="simple:centre">PROVIDENCE WAS SMILING</p>
+ 
+    <p>upon these Territories. Business in all <lb/>
+      lines and branches was lucrative and <lb/>
+      cheering; our own people were now <lb/>
+      possessed of confidence, and the people <lb/>
+      in the Eastern Provinces were gaining <lb/>
+      confidence in us and in this part of <lb/>
+      Canada. The North-West was no <lb/>
+      longer looked upon as a barren or <lb/>
+      dubious quantity. The people of the <lb/>
+      East, it ws no exaggeration to say, <lb/>
+      now looked on the Territories as the <lb/>
+      hope and the future mainstay of the <lb/>
+      industries and manufactures of Canada. <lb/>
+      That favorable feeling regarding the <lb/>
+      North-West did not always prevail in <lb/>
+      the East. There was a time not very <lb/>
+      many years ago, when Eastern people <lb/>
+     had smal faith,—when the Eastern <lb/>
+      Provinces had more than half an idea <lb/>
+      that the Territories were proving a big <lb/>
+      bill of expense with no very sure pros<lb break="no"/>pect of a return, and tht this country <lb/>
+      was simply a burden. All that is <lb/>
+      changed now. There is reason for the <lb/>
+      changed feeling. The returns compiled <lb/>
+      by the Agriculture Department show <lb/>
+      that whereas a few years ago our grain <lb/>
+      exports were the smallest of any part <lb/>
+      of Canada, to-day we are exporting <lb/>
+      grain measured by the millions of <lb/>
+      bushels annually. Dairying, which a <lb/>
+      few years ago was languishing and <lb/>
+      scarcely deserved the name of industry, <lb/>
+      so far as the North-West was concern<lb break="no"/>ed, is now in a thriving state of devel<lb break="no"/>opment, yielding handsome profits to <lb/>
+      those engaged in it and adding per<lb break="no"/>ceptibly to the bulk of our exports and <lb/>
+    to the name and </p>
+    <p rendition="simple:centre">FAME OF CANADIAN PRODUCTS.</p>
+    <p>
+      North-West butter, which a few years <lb/>
+      ago merchants hesitated to handle at <lb/>
+      all, is now becoming an article of stan<lb break="no"/>dard value not only in the mining <lb/>
+      province west of us but as well in the <lb/>
+      markets of the British Isles. (Applause.) <lb/>
+      Within a few short years the Territor<lb break="no"/>ies have advanced from the position of <lb/>
+      the provincial division having the <lb/>
+      smallest exports, to the position of the <lb/>
+      division having the largest per capita <lb/>
+      export of cattle. Looked at from all <lb/>
+      sides the development of the Terri<lb break="no"/>tories could ont but be pronounced <lb/>
+      eminently satisfactory to the people of <lb/>
+      the Territories and to the whole of <lb/>
+      Canada. (Applause.) Our population <lb/>
+      was increasing rapidly. For the past <lb/>
+      year or two the increase in population <lb/>
+      of Manitoba and the Territories had <lb/>
+      gone on at a rate of at least 20 or 25 per <lb/>
+      cent., which was a ratio of annual in<lb break="no"/>crease heretofore unparalleled in the <lb/>
+      Territories or in any part of Canada. <lb/>
+      (Applause.)
+    </p>
+ 
+    <p rendition="simple:centre">THE OTHER SIDE OF THE SHIELD.</p>
+ 
+    <p>
+      But while in these respects our suc<lb break="no"/>cesss had been great, our development <lb/>
+      most encouraging, while faith in the <lb/>
+      country was becoming well established <lb/>
+      and our credit abroad was gaining a <lb/>
+      sure footing, there was yet one point <lb/>
+      of view from which could be seen <lb/>
+      reason for only chastened rejouicing. It <lb/>
+      was with sorow they were compelled <lb/>
+      to look at the comparative absence of <lb/>
+      increase of the revenue for the local <lb/>
+      governmentof the Territories. The <lb/>
+      revenue had not been increasing to any <lb/>
+      adequate extent. For the proper gov<lb break="no"/>ernment of the country, to ensure the <lb/>
+      proper developmentof the country, to <lb/>
+      give sustained confidence to the pio<lb break="no"/>neers who are here and who are com<lb break="no"/>ing in to help build up the country, it <lb/>
+      could be laid down as an unassailable <lb/>
+      proposition that it was absolutely <lb/>
+      necessary that <lb/>
+    </p>
+    
+ <p rendition="simple:centre">LOCAL REVENUE MUST GROW APACE <lb/>
+    WITH LOCAL NEEDS.</p>
+    
+ <p>
+      For several years past the local revenue <lb/>
+      has not been keeping pace with the <lb/>
+      local needs. What had been done to <lb/>
+      meet the case? What was done when <lb/>
+      the revenue became in a sense station<lb break="no"/>ary while the needs kept on growing? <lb/>
+      This was done: The people consented <lb/>
+      to a reduction of the school grants, and <lb/>
+      consented to share in the prosecution <lb/>
+      and maintenance of public work by <lb/>
+      means of a Local Improvement system. <lb/>
+      In these ways the demands on the re<lb break="no"/>venue were lessened. He believed the <lb/>
+      people had done and were doing all that <lb/>
+      it was reasonable to ask them to do, <lb/>
+      but again we are face to face with the <lb/>
+      problem of insufficient revenue. In <lb/>
+      this circumstance the Assembly and <lb/>
+      the people had a duty to perform. The <lb/>
+      problem must be met and dealt with; <lb/>
+      it must be dealt with in a way best for <lb/>
+      the interests of the Territories as a <lb/>
+      whole. (Applause.) There was possible <lb/>
+      the method of
+    </p>
+    
+ <p rendition="simple:centre">DIRECT TAXATION.</p>
+    
+ <p>We have the power and privilege of <lb/>
+      assuming the burden of direct taxation, <lb/>
+      but in the early stage of the develop<lb break="no"/>ment of the country, with the people <lb/>
+      still in the position, and for some years <lb/>
+      to come likely to be in the position of <lb/>
+      pioneers struggling and battling with <lb/>
+      primitive conditions and striving under <lb/>
+      many incident handicaps for the goal <lb/>
+      of permanency, he did not believe it <lb/>
+      would be adviable or in the best inter<lb break="no"/>est of the country to apply that meth<lb break="no"/>od. What was the alterantive? Could <lb/>
+      we look for an adequately increased <lb/>
+      subsidy from Ottawa? That was a <lb/>
+      very important question. What answer <lb/>
+      could be given? He was convinced <lb/>
+      tht we could not look with any mea<lb break="no"/>sure of hope for remedy from that <lb/>
+      source. He did not belive tht we <lb/>
+      need look to Ottawa for any such in<lb break="no"/>crease as the circumstances demand. <lb/>
+      The case had been pressed at Otttawa <lb/>
+      for years, and while some increases <lb/>
+      were obtained, every year shows a big<lb break="no"/>ger disparity between the amount we <lb/>
+      get and the amount we require. Has <lb/>
+      our case not been properly presented at <lb/>
+      Ottawa? He (Mr. Brown) thoroughly <lb/>
+      believed that our case had been pre<lb break="no"/>sented as properly, as well as as force<lb break="no"/>fully as it could be presented. The <lb/>
+      leaders of the Assembly, who under<lb break="no"/>stood the case at least as well as any <lb/>
+      men or collection of men alive, had <lb/>
+      gone year after year to Ottawahad in <lb/>
+      hand, as had been sid. He believed <lb/>
+      the federal Government understood the <lb/>
+      case now as well as it can be hoped that <lb/>
+      they ever wil understand it. On this <lb/>
+      subject he did not believe that Ottawa's <lb/>
+      action depended on whether a Conser<lb break="no"/>vative or a Liberal Government was in <lb/>
+      power. Any Government would do <lb/>
+      the best it could. Did the matter de<lb break="no"/>pendwholly on the Government, the <lb/>
+      cabinet ministers, probably we might <lb/>
+      expect adequate remedy from Ottawa, <lb/>
+      from either a Liberal or a Conservative <lb/>
+      Government. But it did not lie with <lb/>
+      them wholly. There were more than <lb/>
+      two hundred members of Parliament <lb/>
+      to be consulted, only four of whom <lb/>
+      were sent from the Territories. He did <lb/>
+      not want to convey the impression that <lb/>
+      the Eastern Provinces were hostile to <lb/>
+      us, or that Eastern members would not <lb/>
+      grant us what they thought was just <lb/>
+      and right, because he did not think <lb/>
+      that would be a true impression. The <lb/>
+    fact was that the Eastern men, not<lb break="no"/></p>
+ 
+ 
+ <pb n="010" facs="final/images/The_Leader_1900-04-05_Page_010.jpg"/>
+ 
+ <fw type="num">10</fw>
+ <fw type="running">THE LEADER, THURSDAY MORNING, APRIL 5, 1900.</fw>
+</div>
+ <div type="debate">
+ 
+ 
+ <head rendition="simple:centre">THE LEGISLATURE.</head>
+   <p rendition="simple:centre">Continued from page 1</p>
+    <p>      
+      withstanding their increasing interest <lb/>
+      in and growing faith in this country; <lb/> 
+      had no real understanding of its <lb/> 
+      magnitude or needs, and could not be <lb/> 
+      expected to have. He was not ranging <lb/> 
+      in a speculative field. He was speak<lb break="no"/>ing of something that was well known <lb/>
+      to be the fact. The case was not new. <lb/> 
+      Gur claims were not a matter only of <lb/>
+      yesterday. For years the deniand <lb/>
+      had been there. We have representa<lb break="no"/>tives in Parliament, some of them men <lb/> 
+      who went there fresh from this Assem<lb break="no"/>bly, and who were as well acquainted <lb/>
+      with the claims as any men who could <lb/>
+      be sent to Parliament. The Territorial <lb/>
+      Press has been agitating the question, <lb/>
+      and the House knew that its leaders <lb/>
+      had constantly pressed the claims. <lb/>
+      What was asked was no list of sup<lb break="no"/>posed rights, but only enough for bare <lb/>
+      necessities. And what was the result <lb/>
+      Could anyone suggest a scheme where<lb break="no"/>by Parliament could be prevailed on <lb/>
+      to give an adequate subsidy? Were <lb/>
+      there any means or methods to be <lb/>
+      resorted to which had not already been <lb/>
+      used to all possible extent? Answer<lb break="no"/>ing that question in the negative, <lb/>
+      what was to be done? There was just <lb/>
+    </p>
+    <p rendition="simple:centre">ONE PLAIN OPEN ROAD.</p>
+    <p>
+      All that was left was to ask to be put <lb/> 
+      into the position to exercise provincial <lb/> 
+      powers. If that were granted, would <lb/>
+      our position be improved? Certainly, <lb/>
+      declared Mr. Brown. The Territories <lb/>
+      would be in a much better position <lb/>
+      financially, because they would have <lb/>
+      control of rights and resources now <lb/>
+      controlled and held by the federal <lb/>
+      authority. The fundamental obstacle <lb/>
+      now, and which will exist until the <lb/>
+      provincial change comes, said Mr. <lb/>
+      Brown, is that vital questions affect<lb break="no"/>ing us await solution at the hands of a <lb/>
+      body of men who comparatively and <lb/>
+      practically have no particular interest <lb/>
+      in the question: and a change of Gov<lb break="no"/>ernment or any other change at Ot<lb break="no"/>tawa did not change this condition one <lb/>
+      iota.
+    </p>
+    <p>
+      In the minds of many, pursued the <lb/>
+      speaker, a bugbear of expense hampers <lb/>
+      the question of assuming provincial <lb/>
+      status. The truth was that the Terri<lb break="no"/>tories now have practically all the <lb/>
+      machinery of provincial government. <lb/>
+      Provincial government would not <lb/>
+      neccessarily mean any increase in our <lb/>
+      machinery of government. There was <lb/>
+      no need for us to inaugurate any ex<lb break="no"/>travagant policy of bonusing railways. <lb/>
+      He would totaly disapprove of rail<lb break="no"/>way bonuses, even if we had the power <lb/>
+      to pay them. There would be no need <lb/>
+      of the Territories loading themselves <lb/>
+      with a big public debt. We already <lb/>
+      have the power of direct taxation, but <lb/>
+      do not apply it. Simply because we <lb/>
+      secured the power to bonus railways <lb/>
+      and incur debt, would not be sufficient <lb/>
+      reason to use the power. The benefits <lb/>
+      to be reaped under provincial status <lb/>
+      would be the receipt of subsidy and <lb/>
+      control of provincial resources such as <lb/>
+      the public lands exactly as the older <lb/>
+      provinces receive and enjoy, neither <lb/>
+      more, neithe rless. Look at one <lb/>
+      incidental benefit. Take the case <lb/>
+      of excemptoin from taxation <lb/>
+      of millions of acres of railway<lb/>
+      companies lands. The probability was <lb/>
+      that the exemption question could and <lb/>
+      would be settled in the course of the <lb/>
+      negotiations with Ottawa; but, if not, <lb/>
+      the question would niot long await <lb/>
+      settlement once the Territorial Assem<lb break="no"/>bly had power to deal with it. Think <lb/>
+      of the 35,000,000 acres of corporation <lb/>
+      lands to-day enjoying exemption. So <lb/>
+      long as the question is a federal issue, <lb/>
+      there is small hope of its ever being <lb/>
+      settled, for the simple reason, as stated <lb/>
+      before, that of the 216 members of <lb/>
+      Parliament, only a bar half dozen are <lb/>
+      really and vitally interested in the <lb/>
+      problem. There would be a benefit <lb/>
+      from a larger direct subsidy, but it was <lb/>
+      questionable if the settlement of the <lb/>
+      exemptions question would not be a <lb/>
+      vasly greater benefit. Another point <lb/>
+      was that at present there is much un<lb break="no"/>necessary clashing of legislation. <lb/>
+      While the Dominion administers the <lb/>
+      lands, the Territories legislate on the <lb/> 
+      subjects of property and civil rights, <lb/>
+      and it is found that Dominion legisla<lb break="no"/>tion is constantly interfering with <lb/>
+      local Ordinances. The Assembly in <lb/>
+      this sphere ought to have the sole <lb/>
+      right and power, because it went with<lb break="no"/>out saying that the Assembly, every <lb/>
+      member of which body was intimately <lb/>
+      conversant with all phases of the sub<lb break="no"/>ject, could more, satisfactorily deal <lb/>
+      with it than Parliament with its pre<lb break="no"/>onderating majority of members who <lb/>
+      know scarcely anything of the con<lb break="no"/>ditions of the country. It was purely <lb/> 
+      a local subject and should be dealt <lb/>
+      with locally; and the only way to ob<lb break="no"/>tain the transfor to local authority was <lb/> 
+      by assuming the state of provincehood. <lb/>
+      On this subject, as on others, it was <lb/>
+      hardly possible to expect satisfactory <lb/>
+      administration from Ottawa even if <lb/>
+      the entire western delegation in Par<lb break="no"/>liament was an absolute unit. <lb/></p>
+  
+  <p>
+      Alluding more specifically to His <lb/>
+      Honor's speech, Mr. Brown said that <lb/>
+      the House would agree unanimously <lb/>
+      with the expression on the subject of <lb/>
+      the <lb/>
+    </p>
+    <p rendition="simple:centre">WAR IN SOUTH AFRICA.</p>
+    <p>
+      That event could not be viewed other<lb break="no"/>wise than as a very regrettable one, <lb/>
+      yet the unanimous and grand and <lb/>
+      proud course and action which Canada <lb/>
+      had taken for the assistance of the <lb/>
+      mother country was such as had given <lb/>
+      Canada a standing in the estimation of <lb/> 
+      not alone Great Britain but the world <lb/>
+      at large, that she did not occupy be<lb break="no"/>fore. (Applause.) The courage and <lb/>
+      devotion of our brave Canadian volun<lb break="no"/>teers had formed for us a new associa<lb break="no"/>tion with Great Britain and our sister <lb/> 
+      colonies, and had given us a new and <lb/>
+      lasting legacy as a people. Nothing so <lb/> 
+      surely created a national sentiment, <lb/> 
+      without which no country could be <lb/>
+      truly great, as the graves of national <lb/> 
+      heroes, and the monuments erected in <lb/>
+      memory of those who shed their blood <lb/>
+      for and in honor of their country, our <lb/> 
+      country. (Cheers.) While we all re<lb break="no"/>gretted and deplored the death of so <lb/>
+      many valiant sons of Canada, we all <lb/>
+      felt the deepest pride in the fact that <lb/>
+      they died in a manner commanding <lb/>
+      the commendation of the watching world. <lb/>
+      (Cheers.) Mr. Brown moved the adop<lb break="no"/>tion of the  Address in Reply, and sat <lb/>
+      down amid warm applause.
+    </p>
+    <p>
+      <persName ref="pers:DEVE1">DR. DE VEBER</persName> (Lethbridge) second<lb break="no"/>ed the Address, and was cordially ap<lb break="no"/>lauded as he arose to fulfill the task. <lb/>
+      At the outset he assured the House that <lb/> 
+      there was no cause to fear that he was <lb/>
+      going to administer a long or nauseous <lb/>
+      dose of what was frequently termed <lb/>
+      "wind." (Laughter.) In any event, <lb/>
+      had he been possessed of any such dire <lb/>
+      intent, he was now debarred, because <lb/>
+      the nover (Mr. Brown) had touched <lb/>
+      all the salient points of His Honor's <lb/>
+      gracious speech, and had thoroughly <lb/>
+      Covered the ground. This system of <lb/>
+      inaugurating the business of a business <lb/> 
+      body, be could only look upon as an <lb/>
+      evidence of the ineradicable character <lb/>
+      of old habits and customs. The formal <lb/>
+      Speech and its necessarily formal ans<lb break="no"/>wer, were relics of antiquity. He <lb/>
+      could not tell upon whom to saddle the <lb/>
+      blame, not being as well versed as he <lb/>
+      ought to be in ancient history, but he <lb/>
+      imagined  it waas Ceasar, or Cicero,or <lb/>
+      Demosthenes, or possibly Mephisto<lb break="no"/>pheles. (Laughter.) Turning to the <lb/>
+      speech, Dr. DeVeber said that the <lb/>
+      nature of his calling as a physician, <lb/>
+      prevented him visiting all parts of the <lb/>
+      <cb/>
+      Territories and personally witnessing <lb/>
+      the prosperity of the country, but <lb/>
+      judging from the generally dissemin<lb break="no"/>ated information he had every con<lb break="no"/>fidence in the  statement that prosperi<lb break="no"/>ty was reigning. Nearly 50,000 new <lb/>
+      settlers arrived in Western Canada <lb/>
+      lasty ear, and he velieved that of these <lb/>
+      the Territories got a goodly share. At <lb/>
+      the sale of school lands in Indian Head <lb/>
+      district a few days ago, some 8,000 <lb/>
+      acres of land brought some $80,000, <lb/>
+      an average price of $10 per acre, while <lb/>
+      certain sections were sold for as high <lb/>
+      as $25 per acre. Judging from such <lb/>
+      facts and figures as these, and from the <lb/>
+      expressions of contentment on the <lb/>
+      faces of at least one or two fo the Mem<lb break="no"/>bers here (with a sly glance at Mr. Mc<lb break="no"/>Caule, another at Mr. Cross, and still<lb/>
+     another at Mr. Shera)—(roars of laugh<lb break="no"/>ter)—he felt sure there was good cause <lb/>
+      for congratulation. Of one quarter of <lb/>
+      the Territories, his own district, Leth<lb break="no"/>bridge,he could speak from personal <lb/>
+      knoweldge. That district had ex<lb break="no"/>ceptionl stimulus in the way of an <lb/>
+      irrigation project of great magnitude, <lb/>
+      the benefits to flow from which it was <lb/>
+      utterly impossible to estimate as yet. <lb/>
+      The scheme embraced a length of 60 <lb/>
+      miles of main canal, with many <lb/>
+      branches. One 20 mile branch enters <lb/>
+      the torn at Lethbridge. It is estimat<lb break="no"/>ed that the system has a watering <lb/>
+      capacity of 500,000 acres. The secure <lb/>
+      the branch to the town, as the House <lb/>
+      knew, because it had given the neces<lb break="no"/>sary legislation, the town paid a bonus <lb/>
+      of $30,000 in return for which the Com<lb break="no"/>pany had undertaken to expend certain <lb/>
+      sums within the town and put the un<lb break="no"/>dertaking in such shape that every <lb/>
+      householder in the town may avail <lb/>
+      himself of water for a garden. A class of set<lb break="no"/>tlers not having knowledge, would pro<lb break="no"/>bably be a detriment, or rather with <lb/>
+      people ignorant of the science, the <lb/>
+      scheme might be a curse instead of a <lb/>
+      blessing. But the Company are pro<lb break="no"/>curing settlers who are used to farming <lb/> 
+      with irrigation. The Company are pay<lb break="no"/>ing the wages of the men employed on <lb/>
+      the ditch with land, and last year land <lb/> 
+      was earned in this way to the value of <lb/>
+      $119,000. In a few years there was <lb/>
+      every reason to hope that the system <lb/>
+      would transform the treeless prairie <lb/>
+      into orchards and the pasture land into <lb/> 
+      golden grain fields. (Applause.) As <lb/>
+      an indication of the wonderful develo<lb break="no"/>mentment occuring within that district, he <lb/>
+      might mention that to-day there are <lb/>
+      two communities, which will soon take <lb/>
+      the status of villages, Magrath and <lb/>
+      Stirling, with populations of 400 and <lb/>
+      300 respectively, where last year there <lb/>
+      was nothing, and these villages have <lb/>
+      stores and business places that would <lb/>
+      grace any town. (Applause.) Refer<lb break="no"/>ring to the war, Dr. DeVeber said that <lb/>
+      our love and loyalty to the Mother <lb/>
+    Country had before his been confined <lb/>
+    to word of mouth and scratch of pen. <lb/>
+    It was of course not hte first time that <lb/>
+    British soldiers and colonials had <lb/>
+    fought side by side, because there had <lb/>
+    been occasions in the past when most <lb/>
+    of the colonies had had their own <lb/>
+    wars, and on those occasions each <lb/>
+    colony separately was assisted by the <lb/>
+    Mother Country. But this was the <lb/>
+    first occasion that colonials and British <lb/>
+    soldiers had fought and died together, <lb/>
+    both away from home. (Applause.) <lb/>
+    The manner of the response of the <lb/>
+     Colonies ot the Mother's call,—the <lb/>
+    eagerness with which each Colony <lb/>
+    offered to assist, and pressed to be <lb/>
+    allowed to assist, must have shown to <lb/>
+    the world that the bonds uniting <lb/>
+    Great Britain and her now-powerful <lb/>
+    Colonies are daily growing stronge <lb/>
+    and tighter, and must have awakened <lb/>
+    the nations of the earth to the fact <lb/>
+    that the people under the British flag <lb/>
+    are in very deed an Empire. (Cheers.) <lb/>
+    He was sure that the  House would con<lb break="no"/>cure in the grants made to the North<lb break="no"/>West Contingent and the measures to <lb/>
+    legalise certain municipal grants, not <lb/>
+    only unanimously but with cheers.</p>
+    
+    <p>
+      The fourth section, that dealing with <lb/>
+      the financial question, was, he thought <lb/>
+      the meat of the Speech. For years <lb/>
+      our financial demands had not been <lb/> 
+      adequately satisfied. This year the <lb/> 
+      House could congratulate itself upon a <lb/> 
+      moderate increase of subsidy and a <lb/>
+      respectably large special grant. But <lb/>
+      these would only meet the difficulty <lb/>
+      temporarily,–merely relieve the tension <lb/> 
+      for the time being. The problem was <lb/>
+      one that must be touched carefully, <lb/>
+      and handled gingerly. In seeking a <lb/>
+      solution, they should lay aside all party <lb/> 
+      spirit, all sectional feelings, all personal <lb/>
+     aim:—(hear, hear)—they shoudl adopt <lb/>
+      a scheme and a solution apart from <lb/>
+      any thought of sectional benefit or any <lb/>
+     minor consideration:—(hear, hear)— <lb/>
+     they should rise superior to small ideas <lb/>
+      and aspirations and strive for a higher, <lb/>
+      truer and nobler conception of their <lb/>
+      duties on this question of tremendous <lb/>
+      moment and act unitedly for the best <lb/>
+      interests of the North-West Territories <lb/>
+      as a whole (Cheers.)<lb/>   
+    </p>
+    <p>
+      When Dr. De Veber has resumed his <lb/> 
+      seat, Mr. Speaker and the House wait<lb break="no"/>ed in expectancy for about three and a <lb/>
+      half minutes. It was the moment for <lb/>
+      the leader of the Opposition to arise in <lb/>
+      his might and smite the Government. <lb/>
+      No one arose. "Question, question," <lb/>
+      finally called Mr. Speaker to his feet. <lb/>
+      "Does the House agree to the motion?" <lb/>
+      The House unanimously agreed. Ex<lb break="no"/>pectancy's thirst remained anassuaged.<lb/>
+    </p>
+  <p rendition="simple:centre">A QUESTION OF PEROGATIVE.</p>
+  
+  <p>
+   <persName ref="pers:HAUL2">Mr. Haultain</persName> moved second reading <lb/>
+   of Bill (No. 1) respecting Remission of <lb/>
+   Penalties. He states that heretofore <lb/>
+   the assumption was acted upon that <lb/>
+   the Lieut.-Governor-in-Council. <lb/>
+   It was questionable whether the as<lb break="no"/>sumption was correct, and the bill was <lb/>
+   presented to confer the power and pro<lb break="no"/>vide machinery for its application. <lb/>
+  </p>
+  <p>
+   <persName ref="pers:BENN5">Mr. Bennett</persName> (West Calgary) asked if <lb/>
+   the hon. the Attorney-General was <lb/>
+   aware of the high court decision which <lb/>
+   held that the power was inherent in <lb/>
+   the Governor. He believed the pardon<lb break="no"/>ing power had not been used by the <lb/>
+   Sovereign since the time of the last <lb/>
+   George, excepting on the advice of the <lb/>
+   Privy Council. But the judgement <lb/>
+   mentioned would go to show that the <lb/>
+   legislation proposed was unnecessary, <lb/>
+   and was conferring power upon the <lb/>
+   Government which was inherent in the <lb/>
+   Governor. <lb/>
+  </p>
+ <p>
+  <persName ref="pers:HAUL2">Mr. Haultain</persName> said he was quite aware <lb/>
+  of the rule and practice in England. <lb/>
+  The pardoning power rested with the <lb/>
+  Crown exclusively, but it was exercised, <lb/>
+  not on the advice of the Privy Council, <lb/>
+  as the hon. gentlemen from Calgary <lb/>
+  stated, but of the Home Secretary. <lb/>
+  There were many such matters in re<lb break="no"/>gard to which the Crown would find it <lb/>
+  difficult to revive the old custom of <lb/>
+  personal exercise of power, by the <lb/>
+  Sovereign. The rule in the Canadian <lb/>
+  Provinces was also well understood. <lb/>
+  By virtue of an Imperial Act—the B.N.<lb break="no"/>A. Act—all the perogatives of the <lb/>
+  Crown in England are vested in the <lb/>
+  Governor-General and the Provincial <lb/>
+  lieutenant-governors. In Ontario <lb/>
+  without any doubt the power which <lb/>
+  the Bill before the House dealt with, <lb/>
+  was vested in the Lieut.-Governor ex<lb break="no"/>clusively,—theoretically; yet even in <lb/>
+  Ontario the Statutes contained legisla<lb break="no"/>tion identical with this Bill. The Ter<lb break="no"/>ritorial position was different. Our <lb/>
+  lieut.-governor was not a representa<lb break="no"/>tive of the Queen in the same sense as <lb/>
+  a provincial governor; he was a federal <lb/>
+  official, of course appointed under <lb/>
+  <cb/>
+  authority of the Imperial Act; and the <lb/>
+  position did not partake of the incidents <lb/>
+  of royalty except by analogy. It had <lb/>
+  been found convenient to follow many <lb/>
+  of the forms and ceremonies belonging <lb/>
+  to other places, "and in my belief," <lb/>
+  said Mr. Haultain, "to other times." <lb/>
+  But our governor's power was in reality <lb/>
+  limited to what was given him directly <lb/>
+  by Acts of Parliament and Ordinances <lb/>
+  of the Assembly. <lb/>
+ </p>
+  <p>
+   The Bill was read a second time, and <lb/>
+   the House adjourned. <lb/>
+  </p>
+
+ <pb n="006" facs="final/images/The_Leader_1900-04-12_Page_006.jpg"/>
+  
+  <fw type="num">6</fw>
+
+<fw type="running">THE LEADER, THURSDAY MORNING, APRIL 12, 1900.</fw> 
+
+<p rendition="simple:centre">A GOOD WORD FOR THE NATIVES.</p> 
+
+<p><persName ref="pers:MCKA6">Mr. McKay</persName> (Prince Albert West) <lb/>
+trusted that no immediate alarm would <lb/>
+be caused in the east or elsewhere by <lb/>
+this very commendable resolution. He <lb/>
+regretted to see that in Parliament <lb/>
+some romantic mention had been made <lb/>
+of unrest in the Territories. No such <lb/>
+unrest existed, and of course he knew <lb/>
+that it was no expectation of any such <lb/>
+trouble as was alluded to in Parliament <lb/>
+that prompted the mover of the reso<lb break="no"/>lution. It was quite true that the <lb/>
+North-West needed and had a right to <lb/>
+militia organisation just as civilized <lb/>
+communities. (Laughter.) But for the <lb/>
+native population, he was proud to say <lb/>
+that they were in a most peaceful <lb/>
+state. For one hundred and fifty years, <lb/>
+declared Mr. McKay in ringing tones, <lb/>
+there had been but one single occasion <lb/>
+of acute trouble between the natives in <lb/>
+the North-West under British sover<lb break="no"/>eignty and the lawful authorities, and <lb/>
+he believed that that occasion would be <lb/>
+the last. He was glad to support the <lb/>
+motion. (Applause.) <lb/></p> 
+
+<p><persName ref="pers:PATR1">Dr. Patrick</persName> Yorkton was sorry that <lb/>
+the resolution did more fully set out <lb/>
+the reason why the militia system <lb/>
+should be extended to the Territories. <lb/>
+We should not lose sight of the fact <lb/>
+that one main reason for a militia sys<lb break="no"/>tem, apart from the reasons well pre<lb break="no"/>sented by the mover, was this: That <lb/>
+ultimate enforcement of law rests upon <lb/>
+armed forces. When government was <lb/>
+first established in the Territories such <lb/>
+a force had been sent into the country <lb/>
+by the North-West Mounted Police. In <lb/>
+considering the proposition before the <lb/>
+House we should not lose sight, either, <lb/>
+of the grand work of that magnificent <lb/>
+body, which in the early days bore re<lb break="no"/>sponsibility almost wholly for the ad<lb break="no"/>ministration as well as the ultimate <lb/>
+enforcement of the law. (Applause.) <lb/>
+In any consideration of the subject <lb/>
+now it would be well to remember that <lb/>
+those early conditions have passed or <lb/>
+are rapidly passing away. The Mounted <lb/>
+Police were sent at a time, and because <lb/>
+there were no men in the country to <lb/>
+organise an armed force. That time <lb/>
+has surely passed. When the North-<lb break="yes"/>West is able to send five hundred men <lb/>
+to South Africa, the country has surely <lb/>
+reached a state when it can successfully <lb/>
+deal with any matter of law enforce<lb break="no"/>ment at home. He was in hearty favor <lb/>
+of the resolution, and wished to say <lb/>
+ that even before <unclear reason="illegible">[?]</unclear> Paul had dared <lb/>
+to trespass against the rights and lib<lb break="no"/>erties of British subjects in British <lb/>
+colonies in South Africa, the people of <lb/>
+the town of Yorkton had prepared and <lb/>
+forwarded a petition asking to be al<lb break="no"/>lowed to participate in the plan sug<lb break="no"/>gested last fall by General Hutton, <lb/>
+the plan of raising a battalion of mount<lb break="no"/>ed rifles in the Territories. In his <lb/>
+opinion the time had come when the <lb/>
+enforcement of law and order in the <lb/>
+North-West could safely be entrusted <lb/>
+to armed forces raised within the Ter<lb break="no"/>ritories. <lb/></p> 
+
+<p><persName ref="pers:HAUL2">Mr. Haultain</persName> was glad to have heard <lb/>
+the words of the member for Yorkton, <lb/>
+which made it plain that the resolution <lb/>
+was in no sense meant as a comment <lb/>
+on the necessity or lack of necessity of <lb/>
+the Mounted Police force. Certainly <lb/>
+this Assembly would never overlook <lb/>
+the work done by that splendid force, <lb/>
+whose members had been the pioneers <lb/>
+of settlement and the pioneers of civili<lb break="no"/>sation in these Territories, and <lb/>
+had not only successfully met <lb/>
+the demands of arduous regular <lb/>
+duties week in and week out, <lb/>
+but also had coped successfully <lb/>
+with more than one emergency. The <lb/>
+justification of the resolution was the <lb/>
+undoubed right of the people of the <lb/>
+Territories to bear arms. It was a re<lb break="no"/>flection almost that we have not the <lb/>
+militia system already. It looked as if <lb/>
+we were not considered,—it was cer<lb break="no"/>tainly treating us as if we were not <lb/>
+considered as equal with the people of <lb/>
+the Provinces. There was another <lb/>
+practical side, too, which might well be <lb/>
+mentioned, the side which had in view <lb/>
+the horse market. The raising of <lb/>
+Mounted Rifles following on recent <lb/>
+events was very likely to lead to the <lb/>
+establishment of a re-mount station in <lb/>
+the North-West. We can raise horses; <lb/>
+the proof will be given, is being given, <lb/>
+to-day in South Africa. He trusted <lb/>
+that the resolution would be unani<lb break="no"/>mously agreed to. <lb/></p> 
+
+<p>Resolution agreed to, and an address <lb/>
+to His Honor the Lieut.-Governor was <lb/>
+adopted, praying him to cause trans<lb break="no"/>mission to the Secretary of State. <lb/></p>
+  
+  <cb/>
+
+<p rendition="simple:centre">PERSEVERANCE IS REWARDED.</p> 
+
+<p><persName ref="pers:MCDO10">Mr. McDonald</persName> asked: Has this Gov<lb break="no"/>ernment made any proposals to the <lb/>
+Dominion Government, or any Minister <lb/>
+of the Government with a view to the <lb/>
+Territories or any part of them being <lb/>
+formed into a Province or has any pro<lb break="no"/>posal been made by the Dominion <lb/>
+Government to this Government? If <lb/>
+any such proposal has been made or <lb/>
+received, when was it made and by <lb/>
+whom? <lb/></p> 
+
+<p><persName ref="pers:MCDO10">Mr. McDonald</persName> stated that, evidently <lb/>
+by a printer's error, the words "or <lb/>
+Provinces" were omitted from the <lb/>
+question. Those words should appear <lb/>
+after the word "Province." <lb/></p> 
+
+<p>To each question the Premier an<lb break="no"/>swered, No. <lb/></p>
+
+</div>
+</body>
+</text>
+</TEI>
