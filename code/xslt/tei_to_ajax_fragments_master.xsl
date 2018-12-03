@@ -186,7 +186,8 @@
                         </div>
                     </xsl:if>
                     <!-- Now we need a list of documents associated with each person.  -->
-                    <xsl:variable name="persNameRegEx" select="concat('^\s*(', string-join((for $p in $peopleIds return concat('(pers:', $p, ')')), '|'), ')\s*$')"/>
+                    <!-- As of 2018-12-03, per GitHub issue 130, we no longer include this section. See https://github.com/TheCanadianConfederationDebates/TCCD/issues/130  -->
+                    <!--<xsl:variable name="persNameRegEx" select="concat('^\s*(', string-join((for $p in $peopleIds return concat('(pers:', $p, ')')), '|'), ')\s*$')"/>
                     <xsl:variable name="docsForPlace" select="$teiDocs/TEI[not(@xml:id=('personography', 'placeography', 'bibliography'))][text/descendant::persName[matches(@ref, $persNameRegEx)]]"/>
                         <xsl:if test="count($docsForPlace) gt 0">
                             <h3 class="closedDocCaption" onclick="switchExpanderClass(this)"><xsl:copy-of select="$debatesDocumentsCaption/node()"/></h3>
@@ -208,7 +209,7 @@
                                     </xsl:for-each-group>
                                 </ul>
                             </div>
-                    </xsl:if>
+                    </xsl:if>-->
                     
                 </div>
             </xsl:variable>
