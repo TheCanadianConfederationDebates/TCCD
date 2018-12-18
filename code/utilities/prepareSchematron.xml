@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="../" default="all" name="Create XSLT for Schematron validation" xmlns:if="ant:if"
+  xmlns:unless="ant:unless">
+  
+  <description>
+    ########################################################################
+    # Schematron extraction file by Martin Holmes (mholmes@uvic.ca), 2018. #
+    
+      This process extracts the Schematron from inside the tccd.rng file,
+      then processes it to create an XSLT file which can be used to do the
+      validation.
+    
+    #                                                                      #
+    ########################################################################
+  </description>
+  
+  <property name="echo.separator" value="************************************************"/>
+  
+  
+  <target name="extractSchematron">
+    <description>
+      This target extracts the Schematron ruleset from the dvpp.rng RelaxNG schema, 
+      so that it can be used for validation.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Extracting Schematron from RelaxNG schema for separate validation."/>
+    <xslt in="${pd}/data/schemas/tccd.rng" out="${pd}/data/schemas/tccd.sch"
+      style="${pd}/code/utilities/schematron/ExtractSchFromRNG-2.xsl" classpath="${pd}/code/utilities/saxon9he.jar">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+  </target>
+  
+  <target name="iso_dsdl_include">
+    <description>
+      This target is a preprocessor which handles various types of inclusion that might
+      be in a Schematron file.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Processing inclusions..."/>
+    <xslt in="${pd}/data/schemas/tccd.sch" out="${pd}/data/schemas/tccd1.sch"
+      style="${pd}/code/utilities/schematron/iso_dsdl_include.xsl" classpath="${pd}/code/utilities/saxon9he.jar">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+  </target>
+  
+  <target name="iso_abstract_expand">
+    <description>
+      This target is a preprocessor which implements various abstract patterns.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Processing inclusions..."/>
+    <xslt in="${pd}/data/schemas/tccd1.sch" out="${pd}/data/schemas/tccd2.sch"
+      style="${pd}/code/utilities/schematron/iso_abstract_expand.xsl" classpath="${pd}/code/utilities/saxon9he.jar">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+  </target>
+  
+  <target name="iso_svrl_for_xslt2">
+    <description>
+      This target is a preprocessor which handles various types of inclusion that might
+      be in a Schematron file.
+    </description>
+    <echo message="${echo.separator}"/>
+    <echo message="Processing inclusions..."/>
+    <xslt in="${pd}/data/schemas/tccd2.sch" out="${pd}/code/utilities/dvppSchematron.xsl"
+      style="${pd}/code/utilities/schematron/iso_svrl_for_xslt2.xsl" classpath="${pd}/code/utilities/saxon9he.jar">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+  </target>
+  
+  <target name="clean">
+    <description>
+      This target cleans up temporary files after the build process has completed.
+    </description>
+    <delete file="${pd}/data/schemas/tccd1.sch"/>
+    <delete file="${pd}/data/schemas/tccd2.sch"/>
+  </target>
+  
+  <target name="all">
+    <antcall target="extractSchematron"/>
+    <antcall target="iso_dsdl_include"/>
+    <antcall target="iso_abstract_expand"/>
+    <antcall target="iso_svrl_for_xslt2"/>
+    <antcall target="clean"/>
+  </target>
+  
+</project>
