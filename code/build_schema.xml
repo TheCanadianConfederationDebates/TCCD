@@ -19,8 +19,10 @@
   <import file="${teiPlugin}/xml/tei/stylesheet/common/teianttasks.xml"/>
   <property name="odd2oddxsl" value="${teiPlugin}/xml/tei/stylesheet/odds/odd2odd.xsl"/>
   
-  <target name="all" depends="taxonomiesToODD, ODDToSchema">
-    
+  <target name="all">
+    <antcall target="taxonomiesToODD"/>
+    <antcall target="ODDToSchema"/>
+    <ant antfile="utilities/prepareSchematron.xml"/>
   </target>
   
 

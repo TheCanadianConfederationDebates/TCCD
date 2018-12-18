@@ -504,7 +504,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
-                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\s‪', $quotes, '\-—\[]$')) or not(preceding-sibling::node())">
+                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\(\s‪', $quotes, '\-—\[]$')) or not(preceding-sibling::node())">
                               Before a persName element, we would expect to see a space or
                               (occasionally, perhaps) an opening quotation mark or square bracket.
                            </sch:assert>
@@ -520,7 +520,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
-                           <sch:assert test="matches(following-sibling::node()[1], concat('^[\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
+                           <sch:assert test="matches(following-sibling::node()[1], concat('^[\)\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
                               After a persName element, we would expect to see a space or
                               some following punctuation.
                            </sch:assert>
@@ -551,7 +551,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                      xmlns:svg="http://www.w3.org/2000/svg"
                      xmlns:math="http://www.w3.org/1998/Math/MathML"
                      xmlns="http://www.tei-c.org/ns/1.0"
-                     test="not(@xml:id = doc('../placeography/placeography.xml')//tei:place/@xml:id)">
+                     test="not(doc-available('../placeography/placeography.xml')) or not(@xml:id = doc('../placeography/placeography.xml')//tei:place/@xml:id)">
                            The xml:ids of person elements must not clash with those of place elements
                            in the placeography file.
                         </sch:assert>
@@ -567,7 +567,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                      xmlns:svg="http://www.w3.org/2000/svg"
                      xmlns:math="http://www.w3.org/1998/Math/MathML"
                      xmlns="http://www.tei-c.org/ns/1.0"
-                     test="not(@xml:id = doc('../personography/personography.xml')//tei:person/@xml:id)">
+                     test="not(doc-available('../personography/personography.xml')) or not(@xml:id = doc('../personography/personography.xml')//tei:person/@xml:id)">
                            The xml:ids of place elements must not clash with those of person elements
                            in the personography file.
                         </sch:assert>

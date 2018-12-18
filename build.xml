@@ -120,6 +120,7 @@
   <fileset id="teiFiles" dir="data" includes="**/*.xml">
     <exclude name="**/templates/*.xml"/>
     <exclude name="**/*.hocr.xml"/>
+    <exclude name="**/*portrait_sources.xml"/>
   </fileset>
   
   <!-- All files that are small enough to validate with Schematron. MUST FIND A WAY AROUND THIS. -->
@@ -197,7 +198,7 @@
     </java>
   </target>
   
-  <target name="validateXml">
+  <target name="validateXmlOLD">
     
     <antcall target="MESSAGE"><param name="msg" value="Validating XML files with RelaxNG..."/></antcall>
 
@@ -222,37 +223,54 @@
     
   </target> 
   
-  <target name="validateXml2">
+  <target name="validateXml">
     
     <antcall target="MESSAGE"><param name="msg" value="Validating XML files with RelaxNG..."/></antcall>
-    <!--<loadfile property="allTeiFiles" srcFile="${teiFileList}"/>-->
+    
+    <delete dir="temp"/>
+    <mkdir dir="temp"/>
+    <copy todir="temp" flatten="true">
+      <fileset refid="teiFiles"/>
+    </copy>
     
     <!--  This fails because the iteration through folders takes huge amounts of time.
       Using a dedicated task on each file instead. -->
     <jing compactsyntax="false" rngfile="${rngFile}" failonerror="true">
-      <fileset refid="teiFiles"/>
+      <fileset dir="temp" includes="*.xml"/>
     </jing>
     
     <echo message="NOTE TO SELF: NOT DOING SCHEMATRON VALIDATION RIGHT NOW BECAUSE OF
       SAXON VERSION ISSUE. REVISIT THIS."/>
-    <!--<antcall target="schematronValidation"/>-->
+    <antcall target="schematronValidation"/>
+    
+    <delete dir="temp"/>
     
   </target> 
   
   <target name="schematronValidation">
-    <antcall target="MESSAGE"><param name="msg" value="Extracting Schematron to do separate validation..."/></antcall>
-    <xslt in="${rngFile}" out="${schFile}"
-      style="code/utilities/schematron/ExtractSchFromRNG-2.xsl">
-      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-    </xslt>
     
-    <antcall target="MESSAGE"><param name="msg" value="Validating files with extracted Schematron..."/></antcall>
-    <schematron schema="${schFile}" failOnError="false" format="message"
-      queryLanguageBinding="xslt2">
-      
-      <fileset refid="smTeiFiles"/>
-      
-    </schematron>
+    
+    <antcall target="MESSAGE"><param name="msg" value="Validating files with Schematron..."/></antcall>
+    
+    <delete dir="tempSch"/>
+    <mkdir dir="tempSch"/>
+    <xslt destdir="tempSch"
+      style="code/utilities/tccdSchematron.xsl"
+      extension=".xml" classpath="code/utilities/saxon9he.jar"
+      useImplicitFileset="false" failonerror="true">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      <!--<fileset dir="temp" includes="*.xml"/>-->
+      <fileset refid="teiFiles"/>
+    </xslt>
+    <xslt destdir="tempSch"
+      style="code/xslt/check_schematron_results.xsl"
+      extension=".txt" classpath="code/utilities/saxon9he.jar"
+      useImplicitFileset="false" failonerror="true">
+      <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      <fileset dir="tempSch" includes="**/*.xml"/>
+    </xslt>
+    <delete dir="tempSch"/>
+    <antcall target="MESSAGE"><param name="msg" value="Schematron validation complete."/></antcall>
   </target>
   
   

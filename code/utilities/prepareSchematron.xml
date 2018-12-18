@@ -19,7 +19,7 @@
   
   <target name="extractSchematron">
     <description>
-      This target extracts the Schematron ruleset from the dvpp.rng RelaxNG schema, 
+      This target extracts the Schematron ruleset from the tccd.rng RelaxNG schema, 
       so that it can be used for validation.
     </description>
     <echo message="${echo.separator}"/>
@@ -62,7 +62,7 @@
     </description>
     <echo message="${echo.separator}"/>
     <echo message="Processing inclusions..."/>
-    <xslt in="${pd}/data/schemas/tccd2.sch" out="${pd}/code/utilities/dvppSchematron.xsl"
+    <xslt in="${pd}/data/schemas/tccd2.sch" out="${pd}/code/utilities/tccdSchematron.xsl"
       style="${pd}/code/utilities/schematron/iso_svrl_for_xslt2.xsl" classpath="${pd}/code/utilities/saxon9he.jar">
       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
     </xslt>
