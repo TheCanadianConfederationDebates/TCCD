@@ -547,7 +547,7 @@ so Volume 2 by implication has finished. -->
                               <desc>The PEI legislature originated with a bicameral structure
             in 1773.</desc>
                            </valItem>
-                           <valItem ident="lg:lgNFLAssem">
+                           <valItem ident="lg:lgNLLA">
                               <gloss>
                                  <seg xml:lang="en">Legislative Assembly of Newfoundland</seg>
                                  <seg xml:lang="fr">Débats de l'Assemblée législative de Terre-Neuve sur la Confédération</seg>
@@ -927,12 +927,6 @@ so Volume 2 by implication has finished. -->
                            <valItem ident="pers:AZE1">
                               <desc>Aze, Pierre. Hatchet Lake Band (1907: ); Headman Représentant du chef Treaty # 10. Location: Lac du Brochet. (1907: ).</desc>
                            </valItem>
-                           <valItem ident="pers:BELL14">
-                              <desc>BELLANGER, H. witness Témoin Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</desc>
-                           </valItem>
-                           <valItem ident="pers:BRUC4">
-                              <desc>BRUCE,W V. witness; Inspector Royal Canadian Mounted Police Treaty # 11. Location: Fort Providence. (1921: ).</desc>
-                           </valItem>
                            <valItem ident="pers:BABB1">
                               <desc>Babbit, Robert Thorne. Queen's (1866: NB Leg).</desc>
                            </valItem>
@@ -1193,6 +1187,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:BELL6">
                               <desc>Bell, Peter. "Pas" Band (1876: ); Councillor Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:BELL14">
+                              <desc>Bellanger, H. witness Témoin Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:BELL2">
                               <desc>Belleau, Narcisse-Fortunat (Sir). Lower Canada (1865: Ont/Que Leg).</desc>
@@ -1628,6 +1625,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:BRUC3">
                               <desc>Bruce, W. V. witness; Insp. R.C.M.P. Treaty # 11. Location: Fort Simpson. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Fort Wrigley. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Fort Norman. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Good Hope. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Arctic Red River. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Fort McPherson. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Fort Rae. (1921: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:BRUC4">
+                              <desc>Bruce,W. V. witness; Inspector Royal Canadian Mounted Police Treaty # 11. Location: Fort Providence. (1921: ).</desc>
                            </valItem>
                            <valItem ident="pers:BRUN1">
                               <desc>Bruneau, Arthur Aimé. Richelieu (1892: AB/SK House of Commons).</desc>
@@ -2435,9 +2435,6 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:COTE4">
                               <desc>Côté, j. witness Témoin Treaty # 8. Location: Lesser Slave Lake. (1899: ).</desc>
-                           </valItem>
-                           <valItem ident="pers:DECH2">
-                              <desc>DE CHAMBOUR, A. Athabaska (1899: House of Commons); witness; O.M.I. Treaty # 8. Location: Fort Chipewyan. (1899: ).</desc>
                            </valItem>
                            <valItem ident="pers:DAHP1">
                               <desc>Dahpance, George. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</desc>
@@ -4771,7 +4768,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Mackenzie, Ian Alistair. Vancouver Centre (1945: House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:MACK8">
-                              <desc>Mackenzie, W A. witness; Rev. Treaty # 6. Location: Rocky Mountain House. (1944: ).</desc>
+                              <desc>Mackenzie, W. A. witness; Rev. Treaty # 6. Location: Rocky Mountain House. (1944: ).</desc>
                            </valItem>
                            <valItem ident="pers:MACL2">
                               <desc>Maclean, Alexander Kenneth. Lunenburg (1905: AB/SK House of Commons).</desc>
@@ -5830,7 +5827,7 @@ so Volume 2 by implication has finished. -->
                               <desc>O'Connor, John. Essex (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Essex (1872: PEI House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:ODON2">
-                              <desc>O'Donell, W J. witness Témoin Treaty # 8. Location: Lesser Slave Lake. (1900: ); witness Témoin Treaty # 8. Location: Fort St. John. (1900: ); witness Témoin Treaty # 11. Location: Fort Rae. (1921: ).</desc>
+                              <desc>O'Donell, W. J. witness Témoin Treaty # 8. Location: Lesser Slave Lake. (1900: ); witness Témoin Treaty # 8. Location: Fort St. John. (1900: ); witness Témoin Treaty # 11. Location: Fort Rae. (1921: ).</desc>
                            </valItem>
                            <valItem ident="pers:ODON1">
                               <desc>O'Donoghue, William Bernard. St. Boniface (1870: MB Convention of 40); St. Boniface (1870: MB Government).</desc>
@@ -6301,7 +6298,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Pringle, Robert Abercrombie. Stormont (1905: AB/SK House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:PRIT1">
-                              <desc>Pritchard, R I. witness Témoin Treaty # 6. Location: or near Fort Carlton. (1876: ).</desc>
+                              <desc>Pritchard, R. I. witness Témoin Treaty # 6. Location: or near Fort Carlton. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:PROB1">
                               <desc>Probe, John. Regina City (1945: House of Commons).</desc>
@@ -6547,7 +6544,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Rose, John (Sir). Montreal Centre (1865: Ont/Que Leg); Huntingdon (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</desc>
                            </valItem>
                            <valItem ident="pers:ROSE5">
-                              <desc>Rose, R Kingsley. witness Témoin Treaty # 9. Location: Fort Severn. (1930: ).</desc>
+                              <desc>Rose, R. Kingsley. witness Témoin Treaty # 9. Location: Fort Severn. (1930: ).</desc>
                            </valItem>
                            <valItem ident="pers:ROSS1">
                               <desc>Ross, Alexander Charles. Cape Breton North and Victoria (1906: AB/SK House of Commons).</desc>
@@ -7522,7 +7519,7 @@ so Volume 2 by implication has finished. -->
                               <desc>Townsend, William H. Yarmouth County (1866: NS Leg).</desc>
                            </valItem>
                            <valItem ident="pers:TREM4">
-                              <desc>Tremayne, H A. witness; District Inspector, Hudson's Bay Company Treaty # 9. Location: Long Lake. (1906: ).</desc>
+                              <desc>Tremayne, H. A. witness; District Inspector, Hudson's Bay Company Treaty # 9. Location: Long Lake. (1906: ).</desc>
                            </valItem>
                            <valItem ident="pers:TREM3">
                               <desc>Tremayne, Isabella. witness; wife of Mr. H. A. Tremayne Treaty # 9. Location: Long Lake. (1906: ).</desc>
@@ -8096,6 +8093,9 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="pers:ZOAT1">
                               <desc>Zoatze-Tapitapiw (Setting On An Eagle Tail). North Piegan (1877: ); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</desc>
+                           </valItem>
+                           <valItem ident="pers:DECH2">
+                              <desc>de Chambour, A. Athabaska (1899: House of Commons); witness; O.M.I. Treaty # 8. Location: Fort Chipewyan. (1899: ).</desc>
                            </valItem>
                            <valItem ident="pers:GRAN8">
                               <desc>de Grandmaison, N. witness Témoin Treaty # 6. Location: Rocky Mountain House. (1950: ).</desc>

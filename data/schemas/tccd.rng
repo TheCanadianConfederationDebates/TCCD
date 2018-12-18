@@ -5,9 +5,9 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-09-19T17:15:17Z. 2016.
+Schema generated from ODD source 2018-12-18T19:25:12Z. 2016.
 TEI Edition: Version 3.5.0a. Last updated on
-	17th September 2018, revision c0e061a5f
+	17th December 2018, revision 97fe42965
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0a./
   
 --><!---->
@@ -2544,7 +2544,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                                  Legislative Assembly of Prince Edward Island
                                  Débats de l'Assemblée législative de l'Île-du-Prince-Édouard sur la Confédération
                               ) The PEI legislature originated with a bicameral structure in 1773.</a:documentation>
-               <value>lg:lgNFLAssem</value>
+               <value>lg:lgNLLA</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(
                                  Legislative Assembly of Newfoundland
                                  Débats de l'Assemblée législative de Terre-Neuve sur la Confédération
@@ -2670,7 +2670,7 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
    </define>
    <define name="date">
       <element name="date">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.7. Dates and Times]</a:documentation>
          <zeroOrMore>
             <choice>
                <text/>
@@ -2680,6 +2680,7 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
             </choice>
          </zeroOrMore>
          <ref name="att.global.attributes"/>
+         <ref name="att.canonical.attributes"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.typed.attributes"/>
          <empty/>
@@ -5076,10 +5077,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aylesworth, Wilbert Ross. Frontenac—Addington (1945: House of Commons); Frontenac—Addington (1949: NF House of Commons).</a:documentation>
                   <value>pers:AZE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aze, Pierre. Hatchet Lake Band (1907: ); Headman Représentant du chef Treaty # 10. Location: Lac du Brochet. (1907: ).</a:documentation>
-                  <value>pers:BELL14</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BELLANGER, H. witness Témoin Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
-                  <value>pers:BRUC4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">BRUCE,W V. witness; Inspector Royal Canadian Mounted Police Treaty # 11. Location: Fort Providence. (1921: ).</a:documentation>
                   <value>pers:BABB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Babbit, Robert Thorne. Queen's (1866: NB Leg).</a:documentation>
                   <value>pers:BACO1</value>
@@ -5254,6 +5251,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bell, John. witness Témoin Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</a:documentation>
                   <value>pers:BELL6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bell, Peter. "Pas" Band (1876: ); Councillor Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
+                  <value>pers:BELL14</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bellanger, H. witness Témoin Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
                   <value>pers:BELL2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Belleau, Narcisse-Fortunat (Sir). Lower Canada (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:BELL1</value>
@@ -5544,6 +5543,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bruce, John. St. Boniface (1870: MB Government).</a:documentation>
                   <value>pers:BRUC3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bruce, W. V. witness; Insp. R.C.M.P. Treaty # 11. Location: Fort Simpson. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Fort Wrigley. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Fort Norman. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Good Hope. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Arctic Red River. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Fort McPherson. (1921: ); witness; Insp. R.C.M.P. Treaty # 11. Location: Fort Rae. (1921: ).</a:documentation>
+                  <value>pers:BRUC4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bruce,W. V. witness; Inspector Royal Canadian Mounted Police Treaty # 11. Location: Fort Providence. (1921: ).</a:documentation>
                   <value>pers:BRUN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Bruneau, Arthur Aimé. Richelieu (1892: AB/SK House of Commons).</a:documentation>
                   <value>pers:BRUN2</value>
@@ -6082,8 +6083,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Côté, Paul-Émile. Verdun (1945: House of Commons); Verdun (1949: NF House of Commons).</a:documentation>
                   <value>pers:COTE4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Côté, j. witness Témoin Treaty # 8. Location: Lesser Slave Lake. (1899: ).</a:documentation>
-                  <value>pers:DECH2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">DE CHAMBOUR, A. Athabaska (1899: House of Commons); witness; O.M.I. Treaty # 8. Location: Fort Chipewyan. (1899: ).</a:documentation>
                   <value>pers:DAHP1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Dahpance, George. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:DALY1</value>
@@ -7639,7 +7638,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:MACK4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mackenzie, Ian Alistair. Vancouver Centre (1945: House of Commons).</a:documentation>
                   <value>pers:MACK8</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mackenzie, W A. witness; Rev. Treaty # 6. Location: Rocky Mountain House. (1944: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mackenzie, W. A. witness; Rev. Treaty # 6. Location: Rocky Mountain House. (1944: ).</a:documentation>
                   <value>pers:MACL2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Maclean, Alexander Kenneth. Lunenburg (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:MACL4</value>
@@ -8345,7 +8344,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:OCON1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Connor, John. Essex (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Essex (1872: PEI House of Commons).</a:documentation>
                   <value>pers:ODON2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Donell, W J. witness Témoin Treaty # 8. Location: Lesser Slave Lake. (1900: ); witness Témoin Treaty # 8. Location: Fort St. John. (1900: ); witness Témoin Treaty # 11. Location: Fort Rae. (1921: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Donell, W. J. witness Témoin Treaty # 8. Location: Lesser Slave Lake. (1900: ); witness Témoin Treaty # 8. Location: Fort St. John. (1900: ); witness Témoin Treaty # 11. Location: Fort Rae. (1921: ).</a:documentation>
                   <value>pers:ODON1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">O'Donoghue, William Bernard. St. Boniface (1870: MB Convention of 40); St. Boniface (1870: MB Government).</a:documentation>
                   <value>pers:OGOR1</value>
@@ -8659,7 +8658,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:PRIN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pringle, Robert Abercrombie. Stormont (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:PRIT1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pritchard, R I. witness Témoin Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pritchard, R. I. witness Témoin Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:PROB1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Probe, John. Regina City (1945: House of Commons).</a:documentation>
                   <value>pers:PROU1</value>
@@ -8823,7 +8822,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:ROSE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Rose, John (Sir). Montreal Centre (1865: Ont/Que Leg); Huntingdon (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
                   <value>pers:ROSE5</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Rose, R Kingsley. witness Témoin Treaty # 9. Location: Fort Severn. (1930: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Rose, R. Kingsley. witness Témoin Treaty # 9. Location: Fort Severn. (1930: ).</a:documentation>
                   <value>pers:ROSS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, Alexander Charles. Cape Breton North and Victoria (1906: AB/SK House of Commons).</a:documentation>
                   <value>pers:ROSS18</value>
@@ -9473,7 +9472,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:TOWN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Townsend, William H. Yarmouth County (1866: NS Leg).</a:documentation>
                   <value>pers:TREM4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tremayne, H A. witness; District Inspector, Hudson's Bay Company Treaty # 9. Location: Long Lake. (1906: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tremayne, H. A. witness; District Inspector, Hudson's Bay Company Treaty # 9. Location: Long Lake. (1906: ).</a:documentation>
                   <value>pers:TREM3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Tremayne, Isabella. witness; wife of Mr. H. A. Tremayne Treaty # 9. Location: Long Lake. (1906: ).</a:documentation>
                   <value>pers:TREM2</value>
@@ -9856,6 +9855,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Zimmerman, Adam. Hamilton West (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:ZOAT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Zoatze-Tapitapiw (Setting On An Eagle Tail). North Piegan (1877: ); Head Chief Treaty # 7. Location: the "Blackfoot Crossing" of the Bow River. (1877: ).</a:documentation>
+                  <value>pers:DECH2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">de Chambour, A. Athabaska (1899: House of Commons); witness; O.M.I. Treaty # 8. Location: Fort Chipewyan. (1899: ).</a:documentation>
                   <value>pers:GRAN8</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">de Grandmaison, N. witness Témoin Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:DESA2</value>
