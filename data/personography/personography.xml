@@ -4484,6 +4484,7 @@
                      </listRef>
                   </figure>
                   <affiliation when="1865" n="NB Leg" ref="plc:CHAR7">Charlotte</affiliation>
+                  <affiliation when="1872" n="AB/SK House of Commons" ref="plc:CHAR6">Charlotte</affiliation>
                   <listBibl>
                      <bibl xml:lang="en">
                         <ptr target="http://www.biographi.ca/en/bio/gillmor_arthur_hill_13E.html"/>
@@ -12341,6 +12342,7 @@
                              xml:lang="fr">BAC</ref>
                      </listRef>
                   </figure>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:COMP3">Compton</affiliation>
                   <affiliation when="1867"
                                n="BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons"
                                ref="plc:COMP1">Compton</affiliation>
@@ -15951,13 +15953,6 @@
                   <affiliation when="1865" n="NF Leg" ref="plc:FORT4">Fortune Bay</affiliation>
                   <affiliation when="1869" n="NF Leg" ref="plc:FORT4">Fortune Bay</affiliation>
                </person>
-               <person xml:id="HAYW2">
-                  <persName when="1865">
-                     <surname>Hayward</surname>,
-                            <forename>John</forename>
-                  </persName>
-                  <affiliation when="1865" n="NF Leg" ref="plc:HARB1">Harbour Grace</affiliation>
-               </person>
                <person xml:id="GREE3">
                   <persName when="1865">
                      <surname>Green</surname>,
@@ -17501,10 +17496,10 @@
                   <affiliation when="1867" n="PEI Leg" ref="plc:FKIN2">4th Kings</affiliation>
                   <note>wiki: no link</note>
                </person>
-               <person xml:id="JOHN6">
+               <person xml:id="JENK1">
                   <persName when="1867">
-                     <surname>John</surname>,
-                            <forename>Jenkins</forename>
+                     <surname>Jenkins</surname>,
+                            <forename>John</forename>
                   </persName>
                   <figure>
                      <graphic url="portraits/JOHN6.jpg"/>
@@ -26222,28 +26217,20 @@
                      <label>Commissioner</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:ROCK1">Rocky Mountain House</placeName>. </note>
                   </state>
-               </person>
-               <person xml:id="MCCR4">
-                  <persName when="1950">
-                     <surname>McCrimmon</surname>,
-                    <forename>Malcolm</forename>
-                  </persName>
                   <state when="1950">
                      <label>Commissioner</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:ROCK1">Rocky Mountain House</placeName>. </note>
                   </state>
-               </person>
-               <person xml:id="MCCR5">
-                  <persName when="1954">
-                     <surname>McCrimmon</surname>,
-                    <forename>Malcolm</forename>
-                  </persName>
+                  <state when="1954">
+                     <label>Commissioner</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:COCH7">Cochin</placeName>. </note>
+                  </state>
                   <state when="1954">
                      <label>Commissioner</label>
                      <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:COCH7">Cochin</placeName>. </note>
                   </state>
                </person>
-               <person xml:id="MCDO15">
+                  <person xml:id="MCDO15">
                   <persName when="1871">
                      <surname>McDonald</surname>,
                     <forename>Donald</forename>
@@ -31065,7 +31052,7 @@
                </person>
                <person xml:id="TLPE1">
                   <persName when="1876">
-                     <surname>TLP-EE-SLOW-AH-CHAK</surname>
+                     <surname>TIP-EE-SLOW-AH-CHAK</surname>
                   </persName>
                   <state when="1876">
                      <label><seg xml:lang="en">Councillor to</seg><seg xml:lang="fr">Conseiller de</seg> PEE-YAS-EE-WAH-KAH-WE-CHA-KOOT</label>
@@ -33711,7 +33698,7 @@
                   <affiliation when="1894" n="AB/SK House of Commons" ref="plc:NGRE1">Grey North</affiliation>
                </person>
                <person xml:id="MCMU1">
-                  <persName when="1894">
+                  <persName when="1892">
                      <surname>McMullen</surname>,
                      <forename>James</forename>
                   </persName>
@@ -33853,6 +33840,162 @@
                   </persName>
                   <affiliation when="1887" n="AB/SK House of Commons" ref="plc:EMID1">Middlesex East</affiliation>
                </person>
+               <person xml:id="MCLE17">
+                  <persName when="1869">
+                     <surname>McLean</surname>,
+                     <forename>James</forename>
+                     <forename>R.</forename>
+                  </persName>
+                  <affiliation when="1869" n="PEI Leg" ref="plc:FKIN1">First Kings</affiliation>
+               </person>
+               <person xml:id="MCCO6">
+                  <persName when="1870">
+                     <surname>McCormack</surname>,
+                     <forename>Anthony</forename>
+                  </persName>
+                  <affiliation when="1870" n="PEI Leg" ref="plc:SKIN3">Second Kings</affiliation>
+               </person>
+               <person xml:id="AGNE1">
+                  <persName when="1898">
+                     <surname>Agnew</surname>,
+                     <forename>Alexander</forename>
+                     <forename>Frederick</forename>
+                  </persName>
+                  <affiliation when="1898" n="AB/SK Leg" ref="plc:WPRI1">Prince Albert West</affiliation>
+               </person>
+               <person xml:id="MCIN5">
+                  <persName when="1898">
+                     <surname>McIntyre</surname>,
+                     <forename>Alexander</forename>
+                     <forename>Duncan</forename>
+                  </persName>
+                  <affiliation when="1904" n="AB/SK Leg" ref="plc:MITC5">Mitchell</affiliation>
+               </person>
+               <person xml:id="KIRK5">
+                  <persName when="1890">
+                     <surname>Kirk</surname>,
+                     <forename>John</forename>
+                     <forename>Angus</forename>
+                  </persName>
+                  <affiliation when="1890" n="AB/SK House of Commons" ref="plc:GUYS1">Guysborough</affiliation>
+               </person>
+               <person xml:id="RINF2">
+                  <persName when="1878">
+                     <surname>Rinfret</surname>,
+                     <forename>Côme</forename>
+                     <forename>Isaïe</forename>
+                  </persName>
+                  <affiliation when="1878" n="AB/SK House of Commons" ref="plc:LOTB1">Lotbinière</affiliation>
+               </person>
+               <person xml:id="MART13">
+                  <persName when="1896">
+                     <surname>Martin</surname>,
+                     <forename>Joseph</forename>
+                  </persName>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:WINN2">Winnipeg</affiliation>
+               </person>
+               <person xml:id="PRIO1">
+                  <persName when="1896">
+                     <surname>Prior</surname>,
+                     <forename>Edward</forename>
+                     <forename>Gawler</forename>
+                  </persName>
+                  <affiliation when="1896" n="AB/SK House of Commons" ref="plc:VICT2">Victoria</affiliation>
+               </person>
+               <person xml:id="POPE4">
+                  <persName when="1903">
+                     <surname>Pope</surname>,
+                     <forename>Rufus</forename>
+                     <forename>Henry</forename>
+                  </persName>
+                  <affiliation when="1903" n="AB/SK House of Commons" ref="plc:COMP1">Compton</affiliation>
+               </person>
+               <person xml:id="HACK2">
+                  <persName when="1901">
+                     <surname>Hcakett</surname>,
+                     <forename>Edward</forename>
+                  </persName>
+                  <affiliation when="1901" n="AB/SK House of Commons" ref="plc:COMP1">West Prince</affiliation>
+               </person>
+               <person xml:id="GRIN2">
+                  <persName when="1877">
+                     <surname>Gingras</surname><forename>François</forename></persName>
+                  <affiliation when="1877"></affiliation>
+                  <state when="1877">
+                     <label xml:lang="en">Witness</label>
+                     <label xml:lang="fr">Témoin</label>
+                     <note>Treaty # <num type="treaty">6</num>. Location: <placeName ref="plc:NFPI1">near Fort Pitt</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="FARA1">
+                  <persName when="1905">
+                     <surname>Farard</surname>,
+                     <forename>F.X.</forename>
+                  </persName>
+                  <affiliation when="1905">Witness</affiliation>
+                  <state when="1905">
+                     <label xml:lang="en">Witness</label>
+                     <label xml:lang="fr">Témoin</label>
+                     <note>Treaty # <num type="treaty">9</num>. Location: <placeName ref="plc:FHOP1">Fort Hope</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="ROSS21">
+                  <persName when="1906">
+                     <surname>Ross</surname>,
+                     <forename>Kenneth</forename>
+                  </persName>
+                  <affiliation when="1906">Witness</affiliation>
+                  <state when="1906">
+                     <label xml:lang="en">Witness</label>
+                     <label xml:lang="fr">Témoin</label>
+                     <note>Treaty # <num type="treaty">9</num>. Location: <placeName ref="plc:MATT3">Mattagami</placeName>. </note>
+                  </state>
+               </person>
+               <person xml:id="CLIF1">
+                  <persName when="1869">
+                     <surname>Clift</surname>,
+                     <forename>James</forename>
+                     <forename>Shannon</forename>
+                     <note>"Clift was a member of the Newfoundland Legislative Council, a body that is not featured in this project."</note>
+                  </persName>
+               </person>
+               <person xml:id="WHIT20">
+                  <persName when="1864">
+                     <surname>Whitman</surname>,
+                     <forename>George</forename>
+                  </persName>
+                  <affiliation when="1864" n="NS Leg" ref="plc:ANNA4">Annapolis County</affiliation>
+               </person>
+               <person xml:id="HEBB1">
+                  <persName when="1864">
+                     <surname>Hebb</surname>,
+                     <forename>Abraham</forename>
+                  </persName>
+                  <affiliation when="1864" n="NS Leg" ref="plc:LUNE2">Lunenburg County</affiliation>
+               </person>
+               <person xml:id="ALLI2">
+                  <persName when="1864">
+                     <surname>Allison</surname>,
+                     <forename>Charles</forename>
+                  </persName>
+                  <affiliation when="1864" n="NS Leg" ref="plc:NQUE1">Queens County North district</affiliation>
+               </person>
+               <person xml:id="CRAW5">
+                  <persName when="1865">
+                     <surname>Crawford</surname>,
+                     <forename>George</forename>
+                  </persName>
+                  <affiliation when="1865" n="Ont/Que Leg" ref="plc:STLA1">St. Lawrence</affiliation>
+               </person>
+               <person xml:id="WILS6">
+                  <persName when="1865">
+                     <surname>Wilson</surname>,
+                     <forename>Charles</forename>
+                     <note>Wilson was a member for Canada East in the Province of Canada's Legislative Council</note>
+                  </persName>
+               </person>
+               
+               
                
 
             </listPerson>
