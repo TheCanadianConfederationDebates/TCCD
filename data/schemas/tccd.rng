@@ -5,10 +5,10 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-01-21T21:25:20Z. 2016.
-TEI Edition: Version 3.5.0a. Last updated on
-	19th January 2019, revision e6ccc037d
-TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0a./
+Schema generated from ODD source 2019-01-30T22:03:53Z. 2016.
+TEI Edition: Version 3.5.0. Last updated on
+	29th January 2019, revision 46628cb99
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
   
 --><!---->
    <define name="macro.paraContent">
@@ -4877,6 +4877,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Adamson, Alan Joseph. Humboldt (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:AGIN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Aginaa. Beaver Indian of the Upper Peace River and the country thereabouts (1900: ); headman? Treaty # 8. Location: Fort St. John. (1900: ).</a:documentation>
+                  <value>pers:AGNE1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Agnew, Alexander Frederick. Prince Albert West (1898: AB/SK Leg).</a:documentation>
                   <value>pers:AHSI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ah-Siss. Councillor toConseiller de SEE-KAHS-KOOTCH Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:AHKE1</value>
@@ -4917,6 +4919,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Allen, John Campbell (Sir). York (1865: NB Leg).</a:documentation>
                   <value>pers:ALLE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Alleyn, Charles Joseph. Quebec West (1865: Ont/Que Leg).</a:documentation>
+                  <value>pers:ALLI2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Allison, Charles. Queens County North district (1864: NS Leg).</a:documentation>
                   <value>pers:ALLI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Allison, David Wright. Lennox (1883: AB/SK House of Commons).</a:documentation>
                   <value>pers:ALLO1</value>
@@ -5841,6 +5845,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Clements, Herbert Sylvester. Kent West (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:CLEM2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Clemons, John. witness Témoin Treaty # 5. Location: the Pas on the Saskatchewan River. (1876: ).</a:documentation>
+                  <value>pers:CLIF1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Clift, James Shannon "Clift was a member of the Newfoundland Legislative Council, a body that is not featured in this project.". .</a:documentation>
                   <value>pers:CLIN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Clinkskill, James. Battleford (1894: AB/SK Leg); Saskatoon (1902: AB/SK Leg).</a:documentation>
                   <value>pers:CLOU1</value>
@@ -5971,6 +5977,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Cranford, Edmund C. Trinity Centre (1946: NF National Convention).</a:documentation>
                   <value>pers:CRAP1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crap-Wa-Tee. Dogribs First Nations of Great Slave Lake (1900: ); Headman Représentant du chef Treaty # 8. Location: Fort Resolution. (1900: ).</a:documentation>
+                  <value>pers:CRAW5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crawford, George. St. Lawrence (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:CRAW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Crawford, James. Brockville (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Brockville (1872: PEI House of Commons).</a:documentation>
                   <value>pers:CRAW3</value>
@@ -6329,6 +6337,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fan Yuqian (Gloria). .</a:documentation>
                   <value>pers:FANT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Fantasqur, Joseph. Headman Représentant du chef Treaty # 11. Location: Fort Liard. (1922: ).</a:documentation>
+                  <value>pers:FARA1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Farard, F.X. Witness (1905: ); Witness Témoin Treaty # 9. Location: Fort Hope. (1905: ).</a:documentation>
                   <value>pers:FARI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Faries, Richard. Witness; clk. in H.O. Treaty # 5. Location: York Factory. (1910: ).</a:documentation>
                   <value>pers:FARQ1</value>
@@ -6562,9 +6572,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:GILL2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gillis, Clarence (clarie). Cape Breton South (1945: House of Commons); Cape Breton South (1949: NF House of Commons).</a:documentation>
                   <value>pers:GILL1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gillmor, Arthur Hill. Charlotte (1865: NB Leg).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gillmor, Arthur Hill. Charlotte (1865: NB Leg); Charlotte (1872: AB/SK House of Commons).</a:documentation>
                   <value>pers:GILM1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gilmour, James. Middlesex East (1903: AB/SK House of Commons).</a:documentation>
+                  <value>pers:GRIN2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">GingrasFrançois. (1877: ); Witness Témoin Treaty # 6. Location: near Fort Pitt. (1877: ).</a:documentation>
                   <value>pers:GING1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gingues, Maurice. Sherbrooke (1945: House of Commons); Sherbrooke (1949: NF House of Commons).</a:documentation>
                   <value>pers:GIRA1</value>
@@ -6777,14 +6789,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hayter, C. N. C. Witness; Sgt. R.N.W.M.P. Treaty # 5. Location: Fort Churchill. (1910: ).</a:documentation>
                   <value>pers:HAYW1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hayward, John. Harbour Grace (1861: NF Leg).</a:documentation>
-                  <value>pers:HAYW2</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hayward, John. Harbour Grace (1865: NF Leg).</a:documentation>
                   <value>pers:HAZE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hazen, Douglas King. St. John—Albert (1945: House of Commons); St. John—Albert (1949: NF House of Commons).</a:documentation>
+                  <value>pers:HACK2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hcakett, Edward. West Prince (1901: AB/SK House of Commons).</a:documentation>
                   <value>pers:HEAL1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Healy, Thomas Patrick. St. Ann (1945: House of Commons); St. Ann (1949: NF House of Commons).</a:documentation>
                   <value>pers:HEAT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Heath, Edmund. Pontiac (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Pontiac (1872: PEI House of Commons).</a:documentation>
+                  <value>pers:HEBB1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Hebb, Abraham. Lunenburg County (1864: NS Leg).</a:documentation>
                   <value>pers:HEEZ1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Heezell, Sept. Chipewyan Indian of Athabasca River, Birch River, Peace River, Slave River and Gull River (1899: ); Chipewyan Headman Treaty # 8. Location: Fort Chipewyan. (1899: ).</a:documentation>
                   <value>pers:HEID1</value>
@@ -6961,6 +6975,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Jean, Joseph-Arthur. Mercier (1945: House of Commons); Mercier (1949: NF House of Commons).</a:documentation>
                   <value>pers:JEFF1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Jeffries, John. headman? Treaty # 9. Location: Moose Factory. (1905: ).</a:documentation>
+                  <value>pers:JENK1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Jenkins, John. Charlottetown (1867: PEI Leg).</a:documentation>
                   <value>pers:JERM1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Jermain. headman? Treaty # 11. Location: Fort Rae. (1921: ).</a:documentation>
                   <value>pers:JIM1</value>
@@ -6969,8 +6985,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Job, Robert Robert. St. John's City East (1946: NF National Convention).</a:documentation>
                   <value>pers:JOHN7</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">John, French. Chief Chef Treaty # 5. Location: Fort Churchill. (1910: ).</a:documentation>
-                  <value>pers:JOHN6</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">John, Jenkins. Charlottetown (1867: PEI Leg).</a:documentation>
                   <value>pers:JOHN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Johnson, John Mercer. Northumberland (1866: NB Leg); Northumberland (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons).</a:documentation>
                   <value>pers:JOHN2</value>
@@ -7221,6 +7235,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kirby, W. W. witness; Archdeacon of York Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876: ).</a:documentation>
                   <value>pers:KIRK1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kirk, James Ralph. Antigonish—Guysborough (1945: House of Commons); Antigonish—Guysborough (1949: NF House of Commons).</a:documentation>
+                  <value>pers:KIRK5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kirk, John Angus. Guysborough (1890: AB/SK House of Commons).</a:documentation>
                   <value>pers:KIRK4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Kirkness, James. Councillor? Treaty # 5. Location: Fisher River. (1908: ).</a:documentation>
                   <value>pers:KIRK2</value>
@@ -7711,6 +7727,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, J. W. witness Témoin Treaty # 8. Location: Lesser Slave Lake. (1899: ); witness Témoin Treaty # 8. Location: Peace River Landing. (1899: ); witness Témoin Treaty # 8. Location: Vermilion. (1899: ); witness Témoin Treaty # 8. Location: Fort McMurray. (1899: ).</a:documentation>
                   <value>pers:MART2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, Joseph James Guillaume Paul Sr. Essex East (1945: House of Commons); Essex East (1949: NF House of Commons).</a:documentation>
+                  <value>pers:MART13</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, Joseph. Winnipeg (1896: AB/SK House of Commons).</a:documentation>
                   <value>pers:MART7</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Martin, Justin. Cree Indian of Gull River and Deep Lake (1899: ); Cree Chief Treaty # 8. Location: Fort Chipewyan. (1899: ).</a:documentation>
                   <value>pers:MART3</value>
@@ -7795,6 +7813,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McConkey, Thomas David. Simcoe North (1865: Ont/Que Leg); Simcoe North (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Simcoe North (1872: PEI House of Commons).</a:documentation>
                   <value>pers:MCCO3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCool, Charles Arthur. Nipissing (1905: AB/SK House of Commons).</a:documentation>
+                  <value>pers:MCCO6</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCormack, Anthony. Second Kings (1870: PEI Leg).</a:documentation>
                   <value>pers:MCCO4</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCormack, John L. St. Mary's (1946: NF National Convention).</a:documentation>
                   <value>pers:MCCO5</value>
@@ -7805,12 +7825,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCrea, Walter. Western (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:MCCR6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCreary, William. Selkirk (1900: AB/SK House of Commons).</a:documentation>
-                  <value>pers:MCCR5</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCrimmon, Malcolm. Commissioner Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:MCCR3</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCrimmon, Malcolm. Commissioner Treaty # 6. Location: Rocky Mountain House. (1944: ).</a:documentation>
-                  <value>pers:MCCR4</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCrimmon, Malcolm. Commissioner Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCrimmon, Malcolm. Commissioner Treaty # 6. Location: Rocky Mountain House. (1944: ); Commissioner Treaty # 6. Location: Rocky Mountain House. (1950: ); Commissioner Treaty # 6. Location: Cochin. (1954: ); Commissioner Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:MCCU1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McCuaig, Duncan John. Maple Creek (1945: House of Commons); Maple Creek (1949: NF House of Commons).</a:documentation>
                   <value>pers:MCCU2</value>
@@ -7897,6 +7913,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McIlraith, George James. Ottawa West (1945: House of Commons); Ottawa West (1949: NF House of Commons).</a:documentation>
                   <value>pers:MCIN3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McInerney, Owen. Kent (1866: NB Leg).</a:documentation>
+                  <value>pers:MCIN5</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McIntyre, Alexander Duncan. Mitchell (1904: AB/SK Leg).</a:documentation>
                   <value>pers:MCIN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McIntyre, Gilbert Howard. Perth South (1905: AB/SK House of Commons).</a:documentation>
                   <value>pers:MCIN4</value>
@@ -7973,6 +7991,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McLean, Helen M. witness Témoin Treaty # 4. Location: Qu'Appelle. (1874: ).</a:documentation>
                   <value>pers:MCLE12</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McLean, Jacob. Carlton First Nations (1876: ); Councillor of James Smith Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
+                  <value>pers:MCLE17</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McLean, James R. First Kings (1869: PEI Leg).</a:documentation>
                   <value>pers:MCLE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">McLean, Murdo Young. Huron South (1908: AB/SK House of Commons).</a:documentation>
                   <value>pers:MCLE3</value>
@@ -8634,7 +8654,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:POPE2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pope, James Colledge. 4th Prince (1863: PEI Leg); 4th Prince (1871: PEI Leg); Charlottetown (1872: PEI Leg); Charlottetown (1873: PEI Leg).</a:documentation>
                   <value>pers:POPE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pope, John Henry. Compton (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Compton (1872: PEI House of Commons).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pope, John Henry. Compton (1865: Ont/Que Leg); Compton (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Compton (1872: PEI House of Commons).</a:documentation>
+                  <value>pers:POPE4</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pope, Rufus Henry. Compton (1903: AB/SK House of Commons).</a:documentation>
                   <value>pers:POPE3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pope, William Henry. 4th Queens (1863: PEI Leg).</a:documentation>
                   <value>pers:PORT1</value>
@@ -8671,6 +8693,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Prince, Benjamin. Battleford (1898: AB/SK Leg); Battleford (1902: AB/SK Leg).</a:documentation>
                   <value>pers:PRIN1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pringle, Robert Abercrombie. Stormont (1905: AB/SK House of Commons).</a:documentation>
+                  <value>pers:PRIO1</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Prior, Edward Gawler. Victoria (1896: AB/SK House of Commons).</a:documentation>
                   <value>pers:PRIT1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Pritchard, R. I. witness Témoin Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:PROB1</value>
@@ -8781,6 +8805,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Riel, Louis. St. Vital (1870: MB Convention of 40).</a:documentation>
                   <value>pers:RILE1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Riley, George. Victoria City (1905: AB/SK House of Commons).</a:documentation>
+                  <value>pers:RINF2</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Rinfret, Côme Isaïe. Lotbinière (1878: AB/SK House of Commons).</a:documentation>
                   <value>pers:RINF1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Rinfret, Édouard. Outremont (1945: House of Commons).</a:documentation>
                   <value>pers:RING1</value>
@@ -8865,6 +8891,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, John. Lower Canada (1865: Ont/Que Leg).</a:documentation>
                   <value>pers:ROSS7</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, John Sylvester. Dundas (1865: Ont/Que Leg); Dundas (1867: BC House of Commons, MB House of Commons, PEI House of Commons, NF House of Commons); Dundas (1872: PEI House of Commons).</a:documentation>
+                  <value>pers:ROSS21</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, Kenneth. Witness (1906: ); Witness Témoin Treaty # 9. Location: Mattagami. (1906: ).</a:documentation>
                   <value>pers:ROSS15</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Ross, Rodk. Souris (1945: House of Commons); witness Témoin Treaty # 5. Location: Norway House. (1875: ); witness Témoin Treaty # 5. Location: the Grand Rapids. (1875: ).</a:documentation>
                   <value>pers:ROSS13</value>
@@ -9328,7 +9356,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:TIBI1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TIBIS-QUO-GE-SICK. brave Treaty # 1 &amp;/or 2. Location: signed on reserve at Rosseau River. (1875: ).</a:documentation>
                   <value>pers:TLPE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TLP-EE-SLOW-AH-CHAK. Councillor toConseiller de PEE-YAS-EE-WAH-KAH-WE-CHA-KOOT Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">TIP-EE-SLOW-AH-CHAK. Councillor toConseiller de PEE-YAS-EE-WAH-KAH-WE-CHA-KOOT Treaty # 6. Location: signed near Fort Pitt. (1876: ).</a:documentation>
                   <value>pers:TACC1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Taccarroo, Ant. Cree Indian of Gull River and Deep Lake (1899: ); Cree Headman Treaty # 8. Location: Fort Chipewyan. (1899: ).</a:documentation>
                   <value>pers:TACH2</value>
@@ -9741,6 +9769,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Whitford, Alex. Chippewa Indian, located at Rocky Mountain House (1950: ); chief? headman? Treaty # 6. Location: Rocky Mountain House. (1950: ).</a:documentation>
                   <value>pers:WHIT9</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Whitman, Fred. Mount Royal (1945: House of Commons).</a:documentation>
+                  <value>pers:WHIT20</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Whitman, George. Annapolis County (1864: NS Leg).</a:documentation>
                   <value>pers:WIAP1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wiapanuse, Annie. Saulteaux Band, at Saulteaux Indian Reserve (1954: ); chief? headman? Treaty # 6. Location: Cochin. (1954: ).</a:documentation>
                   <value>pers:WIGH1</value>
@@ -9761,6 +9791,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilmot, Robert Duncan. Saint John County (1865: NB Leg).</a:documentation>
                   <value>pers:WILM2</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilmot, Robert Duncan. Sunbury (1887: AB/SK House of Commons); Sunbury--Queen's (1887: AB/SK House of Commons).</a:documentation>
+                  <value>pers:WILS6</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilson, Charles Wilson was a member for Canada East in the Province of Canada's Legislative Council. .</a:documentation>
                   <value>pers:WILS3</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Wilson, F. D. witness; H.B. Co. Treaty # 8. Location: Vermilion. (1899: ).</a:documentation>
                   <value>pers:WILS4</value>
@@ -10834,7 +10866,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:MATA4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Matachewan (TREATY 9), treaty, 1905-1906 </a:documentation>
                         <value>plc:MATT3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mattagami (TREATY 9), treaty, 1906-1906 </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MattLunenburgagami (TREATY 9), treaty, 1906-1906 </a:documentation>
                         <value>plc:MEDI1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MEDICINE HAT (ALBERTA), federal, 1945- WYLIE, William</a:documentation>
                         <value>plc:MEDI2</value>
@@ -11789,8 +11821,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PLACENTIA WEST (NEWFOUNDLAND), nonFederal, 1946- </a:documentation>
                         <value>plc:WPRI1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PRINCE ALBERT WEST (NORTHWEST TERRITORIES), nonFederal, 1894-1905 </a:documentation>
-                        <value>plc:WPRI2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">West Prince (PRINCE EDWARD ISLAND), federal, 1873-1905 </a:documentation>
                         <value>plc:WQUE1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WEST QUEEN'S (PRINCE EDWARD ISLAND), federal, 1904- HASZARD,</a:documentation>
                         <value>plc:WQUE2</value>
@@ -11853,6 +11883,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">York Factory (TREATY 5), treaty, 1910-1910 </a:documentation>
                         <value>plc:YUKO1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YUKON (YUKON), federal, 1902-1949 THOMPSON, Alfred; BLACK,</a:documentation>
+                        <value>plc:fort</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">West Prince (PRINCE EDWARD ISLAND), federal, 1873-1905 </a:documentation>
                      </choice>
                   </oneOrMore>
                </list>
@@ -12790,7 +12822,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <value>plc:MATA4</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Matachewan (TREATY 9), treaty, 1905-1906 </a:documentation>
                         <value>plc:MATT3</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Mattagami (TREATY 9), treaty, 1906-1906 </a:documentation>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MattLunenburgagami (TREATY 9), treaty, 1906-1906 </a:documentation>
                         <value>plc:MEDI1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">MEDICINE HAT (ALBERTA), federal, 1945- WYLIE, William</a:documentation>
                         <value>plc:MEDI2</value>
@@ -13745,8 +13777,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PLACENTIA WEST (NEWFOUNDLAND), nonFederal, 1946- </a:documentation>
                         <value>plc:WPRI1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">PRINCE ALBERT WEST (NORTHWEST TERRITORIES), nonFederal, 1894-1905 </a:documentation>
-                        <value>plc:WPRI2</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">West Prince (PRINCE EDWARD ISLAND), federal, 1873-1905 </a:documentation>
                         <value>plc:WQUE1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">WEST QUEEN'S (PRINCE EDWARD ISLAND), federal, 1904- HASZARD,</a:documentation>
                         <value>plc:WQUE2</value>
@@ -13809,6 +13839,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">York Factory (TREATY 5), treaty, 1910-1910 </a:documentation>
                         <value>plc:YUKO1</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">YUKON (YUKON), federal, 1902-1949 THOMPSON, Alfred; BLACK,</a:documentation>
+                        <value>plc:fort</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">West Prince (PRINCE EDWARD ISLAND), federal, 1873-1905 </a:documentation>
                      </choice>
                   </oneOrMore>
                </list>
