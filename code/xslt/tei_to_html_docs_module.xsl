@@ -130,7 +130,7 @@
         </xsl:result-document>
         
 <!--   Next, we create the index pages for each of the individual legislatures and similar collections     -->
-        <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'project', 'bibliography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
+        <xsl:for-each-group select="$teiDocs/TEI[not(@xml:id = ('personography', 'project', 'taxonomies', 'bibliography', 'placeography'))]" group-by="//titleStmt/title/name[@type='legislature']/@ref">
             <xsl:variable name="leg" select="current-grouping-key()"/>
             <xsl:variable name="legTitle" select="hcmc:getTaxonomyVal(current-grouping-key())"/>
             <xsl:result-document href="{concat($outputFolder, '/', substring-after($leg, 'lg:'))}.html">
