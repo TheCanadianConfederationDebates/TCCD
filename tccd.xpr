@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="18.1">
+<project version="21.0">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="18.1" xml:space="preserve">
+            <serialized version="21.0" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>document.types</String>
@@ -310,6 +310,9 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
+                                <field name="textModeExternalObjectInsertionHandler">
+                                    <null/>
+                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -592,6 +595,9 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
+                                <field name="textModeExternalObjectInsertionHandler">
+                                    <null/>
+                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -825,6 +831,9 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -1130,6 +1139,9 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
+                                <field name="textModeExternalObjectInsertionHandler">
+                                    <null/>
+                                </field>
                             </documentTypeDescriptor>
                             <documentTypeDescriptor>
                                 <field name="extensionPatch">
@@ -1417,6 +1429,9 @@
                                                         <field name="hasXPathValue">
                                                             <Boolean>false</Boolean>
                                                         </field>
+                                                        <field name="isStatic">
+                                                            <Boolean>false</Boolean>
+                                                        </field>
                                                     </transformationParameter>
                                                 </list>
                                             </field>
@@ -1483,6 +1498,9 @@
                                     <null/>
                                 </field>
                                 <field name="customAttributeValueEditor">
+                                    <null/>
+                                </field>
+                                <field name="textModeExternalObjectInsertionHandler">
                                     <null/>
                                 </field>
                             </documentTypeDescriptor>
@@ -1826,6 +1844,36 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/schemas/tccd.odd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tccd_build_schema</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>code/build_schema.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tccd_build_schema</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/placeography/placeography.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -2061,21 +2109,6 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/schemas/tccd.odd</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>tccd_build_schema</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -4025,7 +4058,7 @@
                                 </field>
                                 <field name="extensionURLs">
                                     <String-array>
-                                        <String>${oxygenHome}/lib/saxon9ee.jar</String>
+                                        <String>${pdu}/code/utilities/saxon9he.jar</String>
                                     </String-array>
                                 </field>
                             </antScenario>
@@ -4296,6 +4329,9 @@
                                             <field name="hasXPathValue">
                                                 <Boolean>false</Boolean>
                                             </field>
+                                            <field name="isStatic">
+                                                <Boolean>false</Boolean>
+                                            </field>
                                         </transformationParameter>
                                     </list>
                                 </field>
@@ -4345,8 +4381,8 @@
                                                 <field name="stripWS">
                                                     <String>saxon.strip.ws.none</String>
                                                 </field>
-                                                <field name="optimizationLevel">
-                                                    <String>0</String>
+                                                <field name="optimizationEnabled">
+                                                    <Boolean>true</Boolean>
                                                 </field>
                                                 <field name="useConfigFile">
                                                     <Boolean>false</Boolean>

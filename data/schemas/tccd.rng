@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<grammar xmlns="http://relaxng.org/ns/structure/1.0"
-         xmlns:xlink="http://www.w3.org/1999/xlink"
+<grammar xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:tei="http://www.tei-c.org/ns/1.0"
          xmlns:teix="http://www.tei-c.org/ns/Examples"
+         xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-02-05T01:12:16Z. 2016.
+Schema generated from ODD source 2019-03-06T17:01:20Z. 2016.
 TEI Edition: Version 3.5.0. Last updated on
-	29th January 2019, revision 46628cb99
+	4th February 2019, revision ffea433ab
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
   
 --><!---->
@@ -257,7 +257,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@when]">
-        <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
+         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -269,7 +269,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@from]">
-        <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
+         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -281,7 +281,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@to]">
-        <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
+         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
    <define name="att.datable.attributes">
@@ -404,10 +404,10 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@rendition]">
-                           <sch:let name="results"
+         <sch:let name="results"
                   value="for $val in tokenize(normalize-space(@rendition),'\s+') return matches($val,'^((simple)|(tccd)):')"/>
-                           <sch:assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<sch:value-of select="@rendition"/>" must point to a token in the Simple scheme (simple:*) or a tccd-prefixed value (tccd:*) (<sch:value-of select="$results"/>)</sch:assert>
-                        </sch:rule>
+         <sch:assert test="every $x in $results satisfies $x"> Error: Each of the rendition values in "<sch:value-of select="@rendition"/>" must point to a token in the Simple scheme (simple:*) or a tccd-prefixed value (tccd:*) (<sch:value-of select="$results"/>)</sch:assert>
+      </sch:rule>
    </pattern>
    <define name="att.global.source.attributes">
       <ref name="att.global.source.attribute.source"/>
@@ -562,7 +562,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@subtype]">
-        <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
+         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
    </pattern>
    <define name="att.pointing.attributes">
@@ -616,10 +616,10 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@schemeVersion]">
-            <sch:assert test="@scheme and not(@scheme = 'free')">
+         <sch:assert test="@scheme and not(@scheme = 'free')">
               @schemeVersion can only be used if @scheme is specified.
             </sch:assert>
-          </sch:rule>
+      </sch:rule>
    </pattern>
    <define name="att.citing.attributes">
       <ref name="att.citing.attribute.unit"/>
@@ -2222,7 +2222,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:desc[ @type eq 'deprecationInfo']">
-	              <sch:assert test="../@validUntil">Information about a
+               <sch:assert test="../@validUntil">Information about a
 	deprecation should only be present in a specification element
 	that is being deprecated: that is, only an element that has a
 	@validUntil attribute should have a child &lt;desc
@@ -2436,11 +2436,11 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:name">
-                           <sch:assert test="matches(@ref, '^((lg:lg)|(UNSPECIFIED))') or not(@type='legislature')">
+               <sch:assert test="matches(@ref, '^((lg:lg)|(UNSPECIFIED))') or not(@type='legislature')">
                       If this is a legislature name, it should have @type='legislature' and 
                       a suitable value for @ref, starting with 'lg:lg'.
                     </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.datable.attributes"/>
@@ -2458,7 +2458,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                               ) The Canadian Federal House of Commons.</a:documentation>
                <value>lg:lgPCLAssem</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(
-                                 Province of Canada Legislative Assembly 
+                                 Province of Canada Legislative Assembly
                                  Assemblée législative de la province du CanadaDébats de l'Assemblée législative de la Province du Canada sur la Confédération) The Legislative Assembly of the Province of Canada (Ontario and Québec constituting a single colony).</a:documentation>
                <value>lg:lgPCLCoun</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(
@@ -2482,7 +2482,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                               ) [Awaiting description]</a:documentation>
                <value>lg:lgAssinLAssem</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(
-                                 Legislative Assembly of Assiniboia 
+                                 Legislative Assembly of Assiniboia
                                  l'Assemblée législative d'Assiniboia
                               ) </a:documentation>
                <value>lg:lgNBLAssem</value>
@@ -2554,21 +2554,15 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <element name="address">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a postal address, for example of a publisher, an organization, or an individual. [3.5.2. Addresses 2.2.4. Publication, Distribution, Licensing, etc. 3.11.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
-      
             <oneOrMore>
                <group>
-        
                   <ref name="model.addrPart"/>
-        
-        
                   <zeroOrMore>
                      <ref name="model.global"/>
                   </zeroOrMore>
-        
                </group>
             </oneOrMore>
          </group>
@@ -2762,7 +2756,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:list[@type='gloss']">
-	              <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
+               <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
             </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
@@ -2900,12 +2894,12 @@ Elements]</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:milestone">
-                           <sch:report test="@type='unknown'" role="warning">
+               <sch:report test="@type='unknown'" role="warning">
                               Please examine this milestone and re-encode it 
                               appropriately. Unknown milestone types should 
                               not appear in files committed to the repository.
                            </sch:report>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attribute.subtype"/>
@@ -2952,13 +2946,13 @@ Elements 7.2.5. Speech Contents]</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:lb">
-                           <sch:report test="@break='maybe'" role="warning">
+               <sch:report test="@break='maybe'" role="warning">
                               Please examine this linebreak and decide whether it should be
                               @break="yes" (there are two separate words) or @break="no"
                               (this is a single word which is hyphenated only because there
                               is a linebreak).
                            </sch:report>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-lb-nowhitespacearoundintrawordbreak-constraint-rule-12">
@@ -2968,12 +2962,12 @@ Elements 7.2.5. Speech Contents]</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:lb[@break='no']">
-                           <sch:assert test="not(matches(preceding::text()[1], '((\s+$)|([\-–—]+\s*$))')) and (not(matches(following::text()[1], '^\s+')) or following::*[1][self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone])">
+               <sch:assert test="not(matches(preceding::text()[1], '((\s+$)|([\-–—]+\s*$))')) and (not(matches(following::text()[1], '^\s+')) or following::*[1][self::tei:pb or self::tei:cb or self::tei:fw or self::tei:milestone])">
                               If a linebreak is non-breaking (@break="no", meaning that it occurs in the middle
                               of a word), then the hyphen and all whitespace around the linebreak should be 
                               removed.
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -3016,28 +3010,20 @@ Elements]</a:documentation>
          <group>
             <choice>
                <group>
-          
                   <oneOrMore>
                      <ref name="resp"/>
                   </oneOrMore>
-          
-          
                   <oneOrMore>
                      <ref name="model.nameLike.agent"/>
                   </oneOrMore>
-          
                </group>
                <group>
-          
                   <oneOrMore>
                      <ref name="model.nameLike.agent"/>
                   </oneOrMore>
-          
-          
                   <oneOrMore>
                      <ref name="resp"/>
                   </oneOrMore>
-          
                </group>
             </choice>
             <zeroOrMore>
@@ -3071,11 +3057,11 @@ Elements]</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:titleStmt/tei:title">
-                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'placeography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
+               <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'project', 'placeography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
                               The title element in a titleStmt must contain both a name element and 
                               a date element with appropriate attributes.
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.canonical.attributes"/>
@@ -3285,24 +3271,18 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
       <element name="listBibl">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(citation list) contains a list of bibliographic citations of any kind. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
-      
-      
             <oneOrMore>
                <choice>
                   <ref name="model.biblLike"/>
                   <ref name="model.milestoneLike"/>
                </choice>
             </oneOrMore>
-      
-      
             <zeroOrMore>
                <empty/>
             </zeroOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -3341,21 +3321,18 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
       <element name="lg">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. [3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.5. Speech Contents]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.divTop"/>
                   <ref name="model.global"/>
                </choice>
             </zeroOrMore>
-      
             <choice>
                <ref name="model.lLike"/>
                <ref name="model.stageLike"/>
                <ref name="model.labelLike"/>
                <ref name="lg"/>
             </choice>
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.lLike"/>
@@ -3365,17 +3342,12 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                   <ref name="lg"/>
                </choice>
             </zeroOrMore>
-      
             <zeroOrMore>
                <group>
-        
                   <ref name="model.divBottom"/>
-        
-        
                   <zeroOrMore>
                      <ref name="model.global"/>
                   </zeroOrMore>
-        
                </group>
             </zeroOrMore>
          </group>
@@ -3413,19 +3385,15 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
       <element name="sp">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech) contains an individual speech in a performance text, or a passage presented as such in a prose or verse text. [3.12.2. Core Tags for Drama 3.12. Passages of Verse or Drama 7.2.2. Speeches and Speakers]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
-      
             <optional>
                <group>
                   <ref name="speaker"/>
-        
                   <zeroOrMore>
                      <ref name="model.global"/>
                   </zeroOrMore>
-        
                </group>
             </optional>
             <oneOrMore>
@@ -3438,11 +3406,9 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                      <ref name="model.stageLike"/>
                      <ref name="model.qLike"/>
                   </choice>
-        
                   <zeroOrMore>
                      <ref name="model.global"/>
                   </zeroOrMore>
-        
                </group>
             </oneOrMore>
          </group>
@@ -3466,28 +3432,22 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
             <ref name="teiHeader"/>
             <choice>
                <group>
-          
                   <oneOrMore>
                      <ref name="model.resourceLike"/>
                   </oneOrMore>
-          
-          
                   <zeroOrMore>
                      <choice>
                         <ref name="TEI"/>
                         <ref name="teiCorpus"/>
                      </choice>
                   </zeroOrMore>
-          
                </group>
-        
                <oneOrMore>
                   <choice>
                      <ref name="TEI"/>
                      <ref name="teiCorpus"/>
                   </choice>
                </oneOrMore>
-        
             </choice>
          </group>
          <ref name="att.global.attributes"/>
@@ -3524,16 +3484,12 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</a:documentation>
          <group>
             <ref name="fileDesc"/>
-      
             <zeroOrMore>
                <ref name="model.teiHeaderPart"/>
             </zeroOrMore>
-      
-      
             <optional>
                <ref name="revisionDesc"/>
             </optional>
-      
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -3545,29 +3501,17 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
          <group>
             <group>
                <ref name="titleStmt"/>
-        
                <optional>
                   <ref name="editionStmt"/>
                </optional>
-        
-        
-          
-        
                <ref name="publicationStmt"/>
-        
                <optional>
                   <ref name="seriesStmt"/>
                </optional>
-        
-        
-          
-        
             </group>
-      
             <oneOrMore>
                <ref name="sourceDesc"/>
             </oneOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -3577,16 +3521,12 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
       <element name="titleStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title statement) groups information about the title of a work and those responsible for its content. [2.2.1. The Title Statement 2.2. The File Description]</a:documentation>
          <group>
-      
             <oneOrMore>
                <ref name="title"/>
             </oneOrMore>
-      
-      
             <zeroOrMore>
                <ref name="model.respLike"/>
             </zeroOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -3623,18 +3563,14 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
       <element name="editionStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition statement) groups information relating to one edition of a text. [2.2.2. The Edition Statement 2.2. The File Description]</a:documentation>
          <choice>
-      
             <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-      
             <group>
                <ref name="edition"/>
-        
                <zeroOrMore>
                   <ref name="model.respLike"/>
                </zeroOrMore>
-        
             </group>
          </choice>
          <ref name="att.global.attributes"/>
@@ -3653,25 +3589,17 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
       <element name="publicationStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]</a:documentation>
          <choice>
-      
-	           <oneOrMore>
+            <oneOrMore>
                <group>
-	  
-	                 <ref name="model.publicationStmtPart.agency"/>
-	  
-	  
-	                 <zeroOrMore>
+                  <ref name="model.publicationStmtPart.agency"/>
+                  <zeroOrMore>
                      <ref name="model.publicationStmtPart.detail"/>
                   </zeroOrMore>
-	  
-	              </group>
+               </group>
             </oneOrMore>
-      
-      
-	           <oneOrMore>
+            <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-      
          </choice>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -3776,33 +3704,25 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
       <element name="seriesStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series statement) groups information about the series, if any, to which a publication belongs. [2.2.5. The Series Statement 2.2. The File Description]</a:documentation>
          <choice>
-      
             <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-      
             <group>
-        
                <oneOrMore>
                   <ref name="title"/>
                </oneOrMore>
-        
-        
                <zeroOrMore>
                   <choice>
                      <ref name="editor"/>
                      <ref name="respStmt"/>
                   </choice>
                </zeroOrMore>
-        
-        
                <zeroOrMore>
                   <choice>
                      <ref name="idno"/>
                      <ref name="biblScope"/>
                   </choice>
                </zeroOrMore>
-        
             </group>
          </choice>
          <ref name="att.global.attributes"/>
@@ -3813,12 +3733,9 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
       <element name="sourceDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
          <choice>
-      
             <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-      
-      
             <oneOrMore>
                <choice>
                   <ref name="model.biblLike"/>
@@ -3826,7 +3743,6 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                   <ref name="model.listLike"/>
                </choice>
             </oneOrMore>
-      
          </choice>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -3980,35 +3896,27 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="taxonomy">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines a typology either implicitly, by means of a bibliographic citation, or explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]</a:documentation>
          <choice>
-      
-      
-      
-      
-      
-      
-      
-      
             <choice>
-	              <oneOrMore>
+               <oneOrMore>
                   <choice>
                      <ref name="category"/>
                      <ref name="taxonomy"/>
-	                 </choice>
+                  </choice>
                </oneOrMore>
-	              <group>
-	                 <oneOrMore>
+               <group>
+                  <oneOrMore>
                      <choice>
                         <ref name="model.glossLike"/>
                         <ref name="model.descLike"/>
-	                    </choice>
+                     </choice>
                   </oneOrMore>
-	                 <zeroOrMore>
+                  <zeroOrMore>
                      <choice>
                         <ref name="category"/>
                         <ref name="taxonomy"/>
-	                    </choice>
+                     </choice>
                   </zeroOrMore>
-	              </group>
+               </group>
             </choice>
             <group>
                <ref name="model.biblLike"/>
@@ -4029,23 +3937,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an individual descriptive category, possibly nested within a superordinate category, within a user-defined taxonomy. [2.3.7. The Classification Declaration]</a:documentation>
          <group>
             <choice>
-        
-          
-        
-        
                <zeroOrMore>
                   <choice>
                      <ref name="model.descLike"/>
                      <ref name="model.glossLike"/>
                   </choice>
                </zeroOrMore>
-        
             </choice>
-      
             <zeroOrMore>
                <ref name="category"/>
             </zeroOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -4081,7 +3982,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <choice>
                <text/>
                <ref name="model.limitedPhrase"/>
-        
             </choice>
          </zeroOrMore>
          <ref name="att.global.attributes"/>
@@ -4093,16 +3993,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="langUsage">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. [2.4.2. Language Usage 2.4. The Profile Description 15.3.2. Declarable Elements]</a:documentation>
          <choice>
-        
             <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-         
-          
             <oneOrMore>
                <ref name="language"/>
             </oneOrMore>
-        
          </choice>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -4149,12 +4045,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]</a:documentation>
          <choice>
             <ref name="list"/>
-      
-      
             <oneOrMore>
                <ref name="change"/>
             </oneOrMore>
-      
          </choice>
          <ref name="att.global.attributes"/>
          <ref name="att.docStatus.attributes"/>
@@ -4200,19 +4093,19 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:TEI">
-                           <sch:let name="reqId"
+               <sch:let name="reqId"
                         value="substring-before(tokenize(document-uri(/), '/')[last()], '.xml')"/>
-                           <sch:let name="unexpandedId" value="substring-before($reqId, '_expanded')"/>
-                           <sch:assert test="@xml:id = ($reqId, $unexpandedId)"> 
+               <sch:let name="unexpandedId" value="substring-before($reqId, '_expanded')"/>
+               <sch:assert test="@xml:id = ($reqId, $unexpandedId)"> 
                     The @xml:id attribute on the TEI element (<sch:value-of select="@xml:id"/>) should match the 
                     document filename without extension (<sch:value-of select="$reqId"/>).
                   </sch:assert>
-                           <sch:report role="warning" test="$reqId = concat($unexpandedId, '_expanded')">
+               <sch:report role="warning" test="$reqId = concat($unexpandedId, '_expanded')">
                               Check this file to make sure it has been expanded correctly.
                               If it has, re-save it over the original template file, and delete
                               the file with "_expanded" in its filename.
                            </sch:report>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-TEI-curlyQuotesNotAllowed-constraint-rule-15">
@@ -4222,12 +4115,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:TEI">
-                           <sch:assert test="not(matches(., '[“”‘’]'))"> 
+               <sch:assert test="not(matches(., '[“”‘’]'))"> 
                               The file <sch:value-of select="@xml:id"/>.xml appears to use at least one
                               "curly" quote or apostrophe (“”‘’). Please use the straight versions of 
                               quotation marks and apostrophes throughout. 
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-TEI-shouldHaveXmlLang-constraint-rule-16">
@@ -4237,12 +4130,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:TEI">
-                           <sch:assert test="@xml:lang or not(starts-with(@xml:id, 'lg'))">
+               <sch:assert test="@xml:lang or not(starts-with(@xml:id, 'lg'))">
                               All debate day documents should have an @xml:lang attribute on the root
                               element; French documents should be xml:lang="fr" and English documents
                               should be xml:lang="en".
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <ns xmlns="http://purl.oclc.org/dsdl/schematron"
              prefix="tei"
@@ -4270,38 +4163,29 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="text">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
-      
             <optional>
                <group>
                   <ref name="front"/>
-        
                   <zeroOrMore>
                      <ref name="model.global"/>
                   </zeroOrMore>
-        
                </group>
             </optional>
             <choice>
                <ref name="body"/>
-        
             </choice>
-      
             <zeroOrMore>
                <ref name="model.global"/>
             </zeroOrMore>
-      
             <optional>
                <group>
                   <ref name="back"/>
-        
                   <zeroOrMore>
                      <ref name="model.global"/>
                   </zeroOrMore>
-        
                </group>
             </optional>
          </group>
@@ -4391,12 +4275,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
-                           <sch:assert test="parent::tei:div[@type=('debate', 'treaty', 'article')]">
+                      context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'project', 'placeography', 'taxonomies', 'bibliography')])]">
+               <sch:assert test="parent::tei:div[@type=('debate', 'treaty', 'article')]">
                     Error: a div with @type="document" or "section" must be a child of a div with 
                     @type="debate", "treaty" or "article".
                   </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-div-divnesting2-constraint-rule-18">
@@ -4405,12 +4289,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
-                           <sch:assert test="@type=('debate', 'article', 'treaty')">
+                      context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'project', 'placeography', 'taxonomies', 'bibliography')])]">
+               <sch:assert test="@type=('debate', 'article', 'treaty')">
                               Error: a document body must contain a treaty, a debate, or an article reporting
                               a debate (div/@type="debate", "treaty", or "article").
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-div-abstractModel-structure-l-constraint-report-14">
@@ -4472,7 +4356,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <text/>
                <ref name="model.gLike"/>
                <ref name="model.phrase"/>
-        
                <ref name="model.global"/>
             </choice>
          </zeroOrMore>
@@ -4489,7 +4372,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <ref name="model.gLike"/>
                <ref name="model.phrase"/>
                <ref name="model.global"/>
-        
             </choice>
          </zeroOrMore>
          <ref name="att.global.attributes"/>
@@ -4504,11 +4386,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <text/>
                <ref name="model.gLike"/>
                <ref name="model.phrase"/>
-        
-        
                <ref name="byline"/>
                <ref name="dateline"/>
-        
                <ref name="salute"/>
                <ref name="signed"/>
                <ref name="model.global"/>
@@ -4560,7 +4439,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="front">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(front matter) contains any prefatory matter (headers, abstracts, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. [4.6. Title Pages 4. Default Text Structure]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.frontPart"/>
@@ -4572,7 +4450,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <optional>
                <group>
                   <choice>
-          
                      <group>
                         <ref name="model.div1Like"/>
                         <zeroOrMore>
@@ -4583,7 +4460,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                            </choice>
                         </zeroOrMore>
                      </group>
-          
                      <group>
                         <ref name="model.divLike"/>
                         <zeroOrMore>
@@ -4595,7 +4471,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                         </zeroOrMore>
                      </group>
                   </choice>
-        
                   <optional>
                      <group>
                         <ref name="model.divBottom"/>
@@ -4618,7 +4493,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="back">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]</a:documentation>
          <group>
-
             <zeroOrMore>
                <choice>
                   <ref name="model.frontPart"/>
@@ -4628,16 +4502,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <ref name="model.global"/>
                </choice>
             </zeroOrMore>
-
-
-
             <optional>
                <choice>
                   <group>
-
                      <ref name="model.div1Like"/>
-
-
                      <zeroOrMore>
                         <choice>
                            <ref name="model.frontPart"/>
@@ -4645,13 +4513,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                            <ref name="model.global"/>
                         </choice>
                      </zeroOrMore>
-
                   </group>
                   <group>
-
                      <ref name="model.divLike"/>
-
-
                      <zeroOrMore>
                         <choice>
                            <ref name="model.frontPart"/>
@@ -4659,29 +4523,20 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                            <ref name="model.global"/>
                         </choice>
                      </zeroOrMore>
-
                   </group>
                </choice>
             </optional>
-
-
-
             <optional>
                <group>
-
                   <ref name="model.divBottomPart"/>
-
-
                   <zeroOrMore>
                      <choice>
                         <ref name="model.divBottomPart"/>
                         <ref name="model.global"/>
                      </choice>
                   </zeroOrMore>
-
                </group>
             </optional>
-
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -4774,11 +4629,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
-                           <sch:assert test="matches(@ref, '^((pers:[A-Z]{3,4}\d+)|(UNSPECIFIED))$')">
+               <sch:assert test="matches(@ref, '^((pers:[A-Z]{3,4}\d+)|(UNSPECIFIED))$')">
                               The @ref attribute value should start with 'pers:' and have the form
                               'pers:AAAA1' (four, or occasionally only three, letters followed by a number).
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-persName-constraintpersnamewhitespace1-constraint-rule-20">
@@ -4788,11 +4643,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName[not(parent::tei:person or parent::tei:respStmt or ancestor::tei:place)]">
-                           <sch:assert test="not(matches(., concat('^[\s', $quotes, $punctuation, ']'))) and not(matches(., concat('[\s', $quotes, $punctuation, ']$')))">
+               <sch:assert test="not(matches(., concat('^[\s', $quotes, $punctuation, ']'))) and not(matches(., concat('[\s', $quotes, $punctuation, ']$')))">
                               A persName should not begin or end with a space or punctuation within 
                               the tag; these should be outside the tag.
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-persName-constraintpersnamewhitespace2-constraint-rule-21">
@@ -4802,11 +4657,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
-                           <sch:assert test="matches(preceding-sibling::node()[1], concat('[\(\s‪', $quotes, '\-—\[]$')) or not(preceding-sibling::node())">
+               <sch:assert test="matches(preceding-sibling::node()[1], concat('[\(\s‪', $quotes, '\-—\[]$')) or not(preceding-sibling::node())">
                               Before a persName element, we would expect to see a space or
                               (occasionally, perhaps) an opening quotation mark or square bracket.
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-persName-constraintpersnamewhitespace3-constraint-rule-22">
@@ -4816,11 +4671,11 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName[not(parent::tei:person or parent::tei:respStmt)]">
-                           <sch:assert test="matches(following-sibling::node()[1], concat('^[\)\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
+               <sch:assert test="matches(following-sibling::node()[1], concat('^[\)\s‪', $quotes, $punctuation, '\-—]')) or not(following-sibling::node())">
                               After a persName element, we would expect to see a space or
                               some following punctuation.
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tccd-persName-constraintpersnamenotnested-constraint-rule-23">
@@ -4830,10 +4685,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:persName">
-                           <sch:assert test="not(ancestor::tei:persName)">
+               <sch:assert test="not(ancestor::tei:persName)">
                               persName elements should not be nested inside other persNames.
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.datable.attributes"/>
@@ -8948,7 +8803,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>pers:SAKA1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SA-KA-CHE-WAYAS. Blood Vein River (1876: ); Chief Chef Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876: ).</a:documentation>
                   <value>pers:SASE1</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SA-SE-WA-HUM. Wood Cree First Nations (1878: ); Chief? Councillor? Treaty # 6. Location: Carlton. (1878: ).</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SA-SE-WA-HUM. Wood Cree First Nations (1878: ); Chief Treaty # 6. Location: Carlton. (1878: ).</a:documentation>
                   <value>pers:SAHS1</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">SAH-SAH-KOO-MOOS. Carlton First Nations (1876: ); Councillor of Ah-tuk-uk-koop Treaty # 6. Location: or near Fort Carlton. (1876: ).</a:documentation>
                   <value>pers:SAKC1</value>
@@ -13910,24 +13765,18 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
       <element name="listOrg">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of organizations) contains a list of elements, each of which provides information about an identifiable organization. [13.2.2. Organizational Names]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
-      
-      
             <oneOrMore>
                <choice>
                   <ref name="org"/>
                   <ref name="listOrg"/>
                </choice>
             </oneOrMore>
-      
-      
             <zeroOrMore>
                <empty/>
             </zeroOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -13938,24 +13787,18 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
       <element name="listPerson">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
-      
-      
             <oneOrMore>
                <choice>
                   <ref name="model.personLike"/>
                   <ref name="listPerson"/>
                </choice>
             </oneOrMore>
-      
-      
             <zeroOrMore>
                <empty/>
             </zeroOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -13966,24 +13809,18 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
       <element name="listPlace">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of places) contains a list of places, optionally followed by a list of relationships (other than containment) defined amongst them. [2.2.7. The Source Description 13.3.4. Places]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
-      
-      
             <oneOrMore>
                <choice>
                   <ref name="model.placeLike"/>
                   <ref name="listPlace"/>
                </choice>
             </oneOrMore>
-      
-      
             <zeroOrMore>
                <empty/>
             </zeroOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -13995,7 +13832,6 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines the location of a place as a set of geographical coordinates, in terms of other named geo-political entities, or as an address. [13.3.4. Places]</a:documentation>
          <zeroOrMore>
             <choice>
-        
                <ref name="model.labelLike"/>
                <ref name="model.placeNamePart"/>
                <ref name="model.offsetLike"/>
@@ -14015,46 +13851,32 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
       <element name="org">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization) provides information about an identifiable organization such as a business, a tribe, or any other grouping of people. [13.2.2. Organizational Names]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="model.headLike"/>
             </zeroOrMore>
-      
             <choice>
-        
-          
                <zeroOrMore>
                   <ref name="model.pLike"/>
                </zeroOrMore>
-          
-        
-        
                <zeroOrMore>
                   <choice>
                      <ref name="model.labelLike"/>
                      <ref name="model.nameLike"/>
                      <ref name="model.placeLike"/>
                      <ref name="model.orgPart"/>
-	                    <ref name="model.milestoneLike"/>
+                     <ref name="model.milestoneLike"/>
                   </choice>
                </zeroOrMore>
-        
             </choice>
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.noteLike"/>
                   <ref name="model.biblLike"/>
-          
-          
                </choice>
             </zeroOrMore>
-      
-      
             <zeroOrMore>
                <ref name="model.personLike"/>
             </zeroOrMore>
-      
          </group>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -14206,7 +14028,6 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
       <element name="state">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of some status or quality attributed to a person, place, or organization often at some specific time or for a specific date range. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]</a:documentation>
          <group>
-      
             <choice>
                <oneOrMore>
                   <ref name="state"/>
@@ -14244,10 +14065,6 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
    <define name="textDesc">
       <element name="textDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text description) provides a description of a text in terms of its situational parameters. [15.2.1. The Text Description]</a:documentation>
-      
-      
-        
-      
          <ref name="att.global.attributes"/>
          <empty/>
       </element>
@@ -14256,21 +14073,17 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
       <element name="particDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]</a:documentation>
          <choice>
-            
-                <oneOrMore>
+            <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-            
-            
-                <oneOrMore>
+            <oneOrMore>
                <choice>
-                    <ref name="model.personLike"/>
-                    <ref name="listPerson"/>
-                    <ref name="listOrg"/>
-                </choice>
+                  <ref name="model.personLike"/>
+                  <ref name="listPerson"/>
+                  <ref name="listOrg"/>
+               </choice>
             </oneOrMore>
-            
-        </choice>
+         </choice>
          <ref name="att.global.attributes"/>
          <empty/>
       </element>
@@ -14279,21 +14092,16 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
       <element name="settingDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information 2.4. The Profile Description]</a:documentation>
          <choice>
-            
-                <oneOrMore>
+            <oneOrMore>
                <ref name="model.pLike"/>
             </oneOrMore>
-            
-            
-                <oneOrMore>
+            <oneOrMore>
                <choice>
-                    
-                    <ref name="model.placeLike"/>
-                    <ref name="listPlace"/>
-                </choice>
+                  <ref name="model.placeLike"/>
+                  <ref name="listPlace"/>
+               </choice>
             </oneOrMore>
-            
-        </choice>
+         </choice>
          <ref name="att.global.attributes"/>
          <empty/>
       </element>
@@ -14356,17 +14164,17 @@ Suggested values include: 1] label; 2] data</a:documentation>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:table">
-                           <sch:let name="totalRows" value="count(tei:row)"/>
-                           <sch:let name="firstRowCols"
+               <sch:let name="totalRows" value="count(tei:row)"/>
+               <sch:let name="firstRowCols"
                         value="sum((for $c in tei:row[1]/tei:cell return if ($c/@cols) then xs:integer($c/@cols) else 1))"/>
-                           <sch:let name="totalRequiredCells" value="($totalRows * $firstRowCols)"/>
-                           <sch:let name="totalActualCells"
+               <sch:let name="totalRequiredCells" value="($totalRows * $firstRowCols)"/>
+               <sch:let name="totalActualCells"
                         value="sum((for $c in descendant::tei:cell return if ($c/@cols and $c/@rows) then (xs:integer($c/@cols) * xs:integer($c/@rows)) else if ($c/@cols) then xs:integer($c/@cols) else if ($c/@rows) then xs:integer($c/@rows) else 1))"/>
-                           <sch:assert test="$totalRequiredCells = $totalActualCells">
+               <sch:assert test="$totalRequiredCells = $totalActualCells">
                               Based on its first row, this table should have <sch:value-of select="$totalRequiredCells"/> cells, but it 
                               actually has <sch:value-of select="$totalActualCells"/>.
                            </sch:assert>
-                        </sch:rule>
+            </sch:rule>
          </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.typed.attributes"/>
@@ -14452,25 +14260,18 @@ Suggested values include: 1] label; 2] data</a:documentation>
       <element name="facsimile">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a representation of some written source in the form of a set of images rather than as transcribed or encoded text. [11.1. Digital Facsimiles]</a:documentation>
          <group>
-      
             <optional>
                <ref name="front"/>
             </optional>
-      
-      
             <oneOrMore>
                <choice>
                   <ref name="model.graphicLike"/>
                   <ref name="surface"/>
-          
                </choice>
             </oneOrMore>
-      
-      
             <optional>
                <ref name="back"/>
             </optional>
-      
          </group>
          <ref name="att.global.attributes"/>
          <empty/>
@@ -14480,7 +14281,6 @@ Suggested values include: 1] label; 2] data</a:documentation>
       <element name="surface">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines a written surface as a two-dimensional coordinate space, optionally grouping one or more graphic representations of that space, zones of interest within that space, and transcriptions of the writing within them. [11.1. Digital Facsimiles 11.2.2. Embedded Transcription]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <choice>
                   <ref name="model.global"/>
@@ -14488,23 +14288,15 @@ Suggested values include: 1] label; 2] data</a:documentation>
                   <ref name="model.graphicLike"/>
                </choice>
             </zeroOrMore>
-      
             <zeroOrMore>
                <group>
-        
                   <choice>
                      <ref name="zone"/>
-            
-            
                      <ref name="surface"/>
-            
                   </choice>
-        
-        
                   <zeroOrMore>
                      <ref name="model.global"/>
                   </zeroOrMore>
-        
                </group>
             </zeroOrMore>
          </group>
@@ -14659,16 +14451,16 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
    </start>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"
        prefix="sch"
-       uri="http://purl.oclc.org/dsdl/schematron"/> 
+       uri="http://purl.oclc.org/dsdl/schematron"/>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"
        prefix="tei"
-       uri="http://www.tei-c.org/ns/1.0"/> 
+       uri="http://www.tei-c.org/ns/1.0"/>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"
        prefix="xs"
-       uri="http://www.w3.org/2001/XMLSchema"/> 
+       uri="http://www.w3.org/2001/XMLSchema"/>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"
        prefix="xsl"
-       uri="http://www.w3.org/1999/XSL/Transform"/> 
+       uri="http://www.w3.org/1999/XSL/Transform"/>
    <ns xmlns="http://purl.oclc.org/dsdl/schematron"
        prefix="eg"
        uri="http://www.tei-c.org/ns/Examples"/>
@@ -14677,10 +14469,10 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron">
-                        <sch:let name="double.quotes" value="'&#34;“”'"/>
-                        <sch:let name="apos.typographic" value="'‘’'"/>
-                        <sch:let name="apos.straight" value="''''"/>
-                        <sch:let name="quotes" value="concat($apos.straight, '&#34;')"/>
-                        <sch:let name="punctuation" value="'\.\?!\(\):;,\[\]…'"/>
-                     </sch:pattern>
+      <sch:let name="double.quotes" value="'&#34;“”'"/>
+      <sch:let name="apos.typographic" value="'‘’'"/>
+      <sch:let name="apos.straight" value="''''"/>
+      <sch:let name="quotes" value="concat($apos.straight, '&#34;')"/>
+      <sch:let name="punctuation" value="'\.\?!\(\):;,\[\]…'"/>
+   </sch:pattern>
 </grammar>

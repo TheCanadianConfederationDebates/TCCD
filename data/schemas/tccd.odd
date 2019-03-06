@@ -4,7 +4,7 @@
      xmlns:math="http://www.w3.org/1998/Math/MathML"
      xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:sch="http://purl.oclc.org/dsdl/schematron">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>The Canadian Confederation Debates (TCCD) TEI Customization</title>
@@ -19,8 +19,19 @@
             <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+      <encodingDesc>
+         <editorialDecl>
+            <p>The Confederation Debates, despite being a crowdsourced project, devoted considerable time and effort to trying to encourage certain best practices. In general, we encouraged the volunteers to preserve the texts as they appeared. They were therefore encouraged to preserve typos, punctuation, various types of dashes, italics and other details whenever they occurred.</p>
+            <p>We undertook very little interpretation. When we discovered obvious typos, for example, they are noted with <gi>choice</gi>, <gi>sic</gi> (containing the original error) and <gi>corr</gi> (containing the correction). Similarly, when words were illegible or destroyed (ex. if a portion of the page was missing or damaged), we SYNTAX.</p>
+            <p>Wherever possible, we also preserved the original layout in the XML encoding – preserving details like headers, line breaks, and column breaks. Tables were reproduced intact. Quotations were also encoded. SYNTAX. On the website (https://hcmc.uvic.ca/confederation/), many of these traits are hidden to normalize reading the records. Thus, for example, the website hides the line breaks on records that utilized multiple narrow columns, so that paragraphs do not appear as narrow 10-word-wide bands on desktop browsers.</p>
+            <p>A few quirks about page numbers, however, are worth noting. The Second Provisional Government of Manitoba and the Convention of 40 records were reconstituted at the behest of the province of Manitoba from a variety of sources. The province generously granted us permission to reproduce these reconstituted records but, since the records were sent in a .doc file, rather than a traditional publication, were decided against including page numbers. Similarly, Canada’s House of Commons hansard numbered each column – rather than each page – beginning in 1891 and continuing into the early 20th century. Like the historians who use these records, we recorded these column numbers as page numbers.</p>
+            <p>The primary unit of organization for the project’s records is what we called a “debate day” – which encompass all discussions from a legislature concerning Confederation from each calendar day. This decision might seem obvious at first, but the importance is best illustrated by newspaper hansard. During the 19th, and into the 20th century, local legislatures often did not produce an official transcript of the debates that occurred within their walls. As a result, newspapers sent reports to take shorthand accounts of the discussions, and these records are often the most thorough accounts we have of what was said on particular days. These records were typically published in the paper’s next issue (which, if the newspaper was published weekly, might take several days). Most newspapers only devoted 1-2 pages to these accounts so, when a debate was particularly lengthy and readers wanted full accounts, it often took several additions to print the entire debate. As a result, it sometimes required a month or more of weekly newspaper publications before a single debate day was published. By aggregating these pages into single “debate days,” the project reconstituted the debates into the flows that they were experienced by the debaters.</p>
+            <p>One further point on newspapers. The project limited itself to the debate content. It did not reproduce editorials, advertisements, or other details that often appeared on the same page. Since the project was focused on the debates about a province becoming a part of Confederation, the decision was made to limit the content to these sorts of records. </p>
+            <p>Given the sheer volume of material, we chose a relatively light encoding regiment that focused on the historical figures and the places that they represented. If an historical figure spoke, voted, or otherwise participated in some way, their contribution was encoded. Governors and Speakers of the House were generally noteworthy in the debates for their roles, rather than for their individual perspectives, so their contributions were encoded on a role, rather than individual, basis.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
       <front>
          <titlePage>
             <docTitle>
@@ -33,39 +44,31 @@
          <divGen type="toc"/>
       </front>
       <body>
-      
-        <head>Encoding instructions for The Canadian Confederation Debates</head>
-        
-        <div>
+         <head>Encoding instructions for The Canadian Confederation Debates</head>
+         <div>
             <head>Introduction</head>
-          
             <p>This customization is designed for the semi-automated transcription/encoding of the 
           Canadian Confederation Debates, a collection of documents from a variety of sources which 
           relate to the process of confederation in Canada. These include parliamentary and legislature
           records and newspaper articles, as well as other documents read into the record.</p>
-          
             <p>A very simple encoding strategy is preferred for this project; the content, rather 
           than the source documents, is the focus of the project, and physical features of the 
           source documents are rarely of interest. Individuals are tagged and linked to a personography,
           although the personography acts primarily as a link to external authority records such as 
           the Canadian Dictionary of National Biography. </p>
-          
             <p>Complete documents are rarely encoded; instead, only the pages covering debates 
           relating to the confederation question are encoded. For each individual source document,
           details of the sections transcribed and omitted are provided in the <gi>samplingDecl</gi>
           element in the header. </p>
-          
             <p>Typographical features are described using a subset of the descriptors provided by the 
           TEI Simple project, mainly for convenience and interoperability.</p>
-        </div>
-        
-        <div>
+         </div>
+         <div>
             <head>Major textual divisions</head>
-          
             <p>The body of each document normally consists of a single <gi>div</gi> (division) element,
           whose function is described using the <att>type</att> attribute. For regular parliamentary
           records, the document is constructed around a debate (<tag>div type="debate"</tag>). Inside these divisions, 
-          the most common elements will be <gi>head</gi> (heading), <gi>dateline</gi> 
+          the most common elements will be <gi>head</gi> (heading), <gi>dateline</gi>
                <gi>p</gi> (paragraph) and 
             <gi>sp</gi> (speech), as well as a range of different types of <gi>milestone</gi> elements (described
           below). 
@@ -104,15 +107,11 @@ complete document. -->
                         </div>
                      </div>
                   </div>
-              
                </egXML>
-            
             </p>
-        </div>
-      
+         </div>
          <div>
             <head>Milestones (volumes, pages, columns)</head>
-        
             <p>The XML hierarchy is built on the conceptual structure of the information, but 
         there are also bureaucratic and bibliographic hierarchies inherent in these documents. The former consists
         of parliaments, sessions and days; the latter of volumes (of Hansard etc.), pages and columns. These are 
@@ -125,17 +124,13 @@ complete document. -->
           <!-- This signals that Volume 3 begins here,
 so Volume 2 by implication has finished. -->
                   <milestone type="volume" n="3"/>
-          
                   <!-- Page 27 begins here. -->
                   <pb n="27"/>
-          
                   <!-- Column 3 starts here. -->
                   <cb n="3"/>
                </egXML>
-        
             </p>
          </div>
-      
       </body>
       <back>
          <div>
@@ -154,8 +149,6 @@ so Volume 2 by implication has finished. -->
                <moduleRef key="transcr" include="facsimile fw supplied surface zone"/>
                <moduleRef key="linking" include="seg"/>
                <moduleRef key="tagdocs" include="listRef"/>
-               
-               
                <!--              Adapted from jTEI ODD file.  -->
                <constraintSpec ident="tccd.sch-ns" scheme="schematron">
                   <constraint>
@@ -177,17 +170,16 @@ so Volume 2 by implication has finished. -->
                      </sch:pattern>
                   </constraint>
                </constraintSpec>
-          
                <!--  Trim the available attributes as much as possible. -->
                <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
                   <attList>
                      <attDef ident="key" mode="delete"/>
                   </attList>
-               </classSpec>  
-               <classSpec type="atts" ident="att.combinable" module="tei" mode="delete"/>   
-               <classSpec type="atts" ident="att.coordinated" module="tei" mode="delete"/>    
-               <classSpec type="atts" ident="att.cReferencing" module="tei" mode="delete"/>      
-               <classSpec type="atts" ident="att.damaged" module="tei" mode="delete"/>      
+               </classSpec>
+               <classSpec type="atts" ident="att.combinable" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.coordinated" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.cReferencing" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.damaged" module="tei" mode="delete"/>
                <classSpec type="atts" ident="att.datable.iso" module="tei" mode="delete"/>
                <classSpec type="atts"
                           ident="att.datable.custom"
@@ -199,31 +191,31 @@ so Volume 2 by implication has finished. -->
                      <attDef ident="period" mode="delete"/>
                   </attList>
                </classSpec>
-               <classSpec type="atts" ident="att.datcat" module="tei" mode="delete"/>      
-               <classSpec type="atts" ident="att.declarable" module="tei" mode="delete"/>  
-               <classSpec type="atts" ident="att.declaring" module="tei" mode="delete"/>    
-               <classSpec type="atts" ident="att.deprecated" module="tei" mode="delete"/>  
-               <classSpec type="atts" ident="att.dimensions" module="tei" mode="delete"/>  
+               <classSpec type="atts" ident="att.datcat" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.declarable" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.declaring" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.deprecated" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.dimensions" module="tei" mode="delete"/>
                <classSpec type="atts" ident="att.divLike" module="tei" mode="change">
                   <attList>
                      <attDef ident="org" mode="delete"/>
                      <attDef ident="sample" mode="delete"/>
                   </attList>
-               </classSpec> 
-               <classSpec type="atts" ident="att.duration" module="tei" mode="delete"/>   
-               <classSpec type="atts" ident="att.edition" module="tei" mode="delete"/> 
-               <classSpec type="atts" ident="att.editLike" module="tei" mode="delete"/>   
-               <classSpec type="atts" ident="att.enjamb" module="tei" mode="delete"/> 
-               <classSpec type="atts" ident="att.entryLike" module="tei" mode="delete"/> 
-               <classSpec type="atts" ident="att.fragmentable" module="tei" mode="delete"/>   
+               </classSpec>
+               <classSpec type="atts" ident="att.duration" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.edition" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.editLike" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.enjamb" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.entryLike" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.fragmentable" module="tei" mode="delete"/>
                <classSpec type="atts"
                           ident="att.global.analytic"
                           module="tei"
-                          mode="delete"/> 
+                          mode="delete"/>
                <classSpec type="atts"
                           ident="att.global.change"
                           module="tei"
-                          mode="delete"/> 
+                          mode="delete"/>
                <classSpec type="atts"
                           ident="att.global.linking"
                           module="tei"
@@ -319,29 +311,29 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </classSpec>
-               <classSpec type="atts" ident="att.handFeatures" module="tei" mode="delete"/> 
-               <classSpec type="atts" ident="att.identified" module="tei" mode="delete"/> 
+               <classSpec type="atts" ident="att.handFeatures" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.identified" module="tei" mode="delete"/>
                <classSpec type="atts"
                           ident="att.internetMedia"
                           module="tei"
-                          mode="delete"/> 
-               <classSpec type="atts" ident="att.interpLike" module="tei" mode="delete"/> 
+                          mode="delete"/>
+               <classSpec type="atts" ident="att.interpLike" module="tei" mode="delete"/>
                <classSpec type="atts"
                           ident="att.lexicographic"
                           module="tei"
-                          mode="delete"/> 
-               <classSpec type="atts" ident="att.measurement" module="tei" mode="delete"/> 
-               <classSpec type="atts" ident="att.media" module="tei" mode="delete"/> 
-               <classSpec type="atts" ident="att.metrical" module="tei" mode="delete"/> 
+                          mode="delete"/>
+               <classSpec type="atts" ident="att.measurement" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.media" module="tei" mode="delete"/>
+               <classSpec type="atts" ident="att.metrical" module="tei" mode="delete"/>
                <classSpec type="atts"
                           ident="att.milestoneUnit"
                           module="tei"
-                          mode="delete"/> 
-               <classSpec type="atts" ident="att.msExcerpt" module="tei" mode="delete"/> 
+                          mode="delete"/>
+               <classSpec type="atts" ident="att.msExcerpt" module="tei" mode="delete"/>
                <classSpec type="atts"
                           ident="att.namespaceable"
                           module="tei"
-                          mode="delete"/> 
+                          mode="delete"/>
                <classSpec type="atts" ident="att.naming" module="tei" mode="change">
                   <attList>
                      <attDef ident="role" mode="delete"/>
@@ -353,7 +345,7 @@ so Volume 2 by implication has finished. -->
                      <attDef ident="full" mode="delete"/>
                      <attDef ident="sort" mode="delete"/>
                   </attList>
-               </classSpec> 
+               </classSpec>
                <classSpec type="atts" ident="att.pointing" module="tei" mode="change">
                   <attList>
                      <attDef ident="targetLang" mode="delete"/>
@@ -380,8 +372,6 @@ so Volume 2 by implication has finished. -->
                           mode="delete"/>
                <classSpec type="atts" ident="att.translatable" module="tei" mode="delete"/>
                <classSpec type="atts" ident="att.witnessed" module="tei" mode="delete"/>
-          
-          
                <elementSpec ident="TEI" module="textstructure" mode="change">
                   <constraintSpec ident="rootIdEqualsFileName" scheme="schematron">
                      <desc>The root TEI element must have an @xml:id attribute which 
@@ -403,7 +393,6 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  
                   <constraintSpec ident="curlyQuotesNotAllowed" scheme="schematron">
                      <desc>This project has standardized on "straight" quotes, single and 
                      double. Curly quotes are not allowed.</desc>
@@ -417,7 +406,6 @@ so Volume 2 by implication has finished. -->
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  
                   <constraintSpec ident="shouldHaveXmlLang" scheme="schematron">
                      <desc>All debate day document should have an xml:lang attribute on the
                      root element.</desc>
@@ -433,9 +421,7 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                   <!-- We'll enforce the constraint that curly quotes are not allowed using Schematron
                     at the TEI level. -->
-                  
                </elementSpec>
-          
                <!--          We have a very limited structure for text body elements: divs and 
               milestones are allowed. -->
                <elementSpec ident="body" module="textstructure" mode="change">
@@ -449,7 +435,6 @@ so Volume 2 by implication has finished. -->
                      </alternate>
                   </content>
                </elementSpec>
-          
                <!--         We use the generic <name> element for precise purposes and 
                constrain its attributes. For other usages, <persName> and 
                <placeName> are available without these constraints. -->
@@ -481,7 +466,7 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="lg:lgPCLAssem">
                               <gloss>
-                                 <seg xml:lang="en">Province of Canada Legislative Assembly</seg> 
+                                 <seg xml:lang="en">Province of Canada Legislative Assembly</seg>
                                  <seg xml:lang="fr">Assemblée législative de la province du Canada</seg>Débats de l'Assemblée législative de la Province du Canada sur la Confédération</gloss>
                               <desc>The Legislative Assembly of the Province of Canada (Ontario and Québec
                   constituting a single colony).</desc>
@@ -518,7 +503,7 @@ so Volume 2 by implication has finished. -->
                            </valItem>
                            <valItem ident="lg:lgAssinLAssem">
                               <gloss>
-                                 <seg xml:lang="en">Legislative Assembly of Assiniboia</seg> 
+                                 <seg xml:lang="en">Legislative Assembly of Assiniboia</seg>
                                  <seg xml:lang="fr">l'Assemblée législative d'Assiniboia</seg>
                               </gloss>
                               <desc/>
@@ -587,7 +572,6 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-               
                <elementSpec ident="persName" module="namesdates" mode="change">
                   <constraintSpec ident="constraintpersnameref" scheme="schematron">
                      <constraint>
@@ -6799,7 +6783,7 @@ so Volume 2 by implication has finished. -->
                               <desc>SA-KA-CHE-WAYAS. Blood Vein River (1876: ); Chief Chef Treaty # 5. Location: Wapang, or Dog Head, Lake Winnipeg. (1876: ).</desc>
                            </valItem>
                            <valItem ident="pers:SASE1">
-                              <desc>SA-SE-WA-HUM. Wood Cree First Nations (1878: ); Chief? Councillor? Treaty # 6. Location: Carlton. (1878: ).</desc>
+                              <desc>SA-SE-WA-HUM. Wood Cree First Nations (1878: ); Chief Treaty # 6. Location: Carlton. (1878: ).</desc>
                            </valItem>
                            <valItem ident="pers:SAHS1">
                               <desc>SAH-SAH-KOO-MOOS. Carlton First Nations (1876: ); Councillor of Ah-tuk-uk-koop Treaty # 6. Location: or near Fort Carlton. (1876: ).</desc>
@@ -8251,7 +8235,6 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-               
                <elementSpec ident="fw" module="transcr" mode="change">
                   <attList>
                      <attDef ident="type" mode="replace">
@@ -8269,7 +8252,6 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-               
                <!-- The <title> attribute is severely constrained when 
                it occurs in <titleStmt> to ensure that we have core 
                info there that we can process. -->
@@ -8277,16 +8259,14 @@ so Volume 2 by implication has finished. -->
                   <constraintSpec ident="titleInTitleStmt" scheme="schematron">
                      <constraint>
                         <sch:rule context="tei:titleStmt/tei:title">
-                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'placeography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
+                           <sch:assert test="ancestor::tei:TEI[@xml:id=('personography', 'project', 'placeography', 'taxonomies', 'bibliography')] or (child::tei:name[@ref] and child::tei:date[@when or (@from and @to)])">
                               The title element in a titleStmt must contain both a name element and 
                               a date element with appropriate attributes.
                            </sch:assert>
                         </sch:rule>
-                        </constraint>
+                     </constraint>
                   </constraintSpec>
                </elementSpec>
-          
-          
                <!--        Milestones are of various types, and this set may change as we 
           test our schema with actual documents. -->
                <elementSpec ident="milestone" module="core" mode="change">
@@ -8320,7 +8300,6 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-               
                <!--               lb elements with the @break='maybe' value need to be flagged for attention. -->
                <elementSpec ident="lb" module="core" mode="change">
                   <constraintSpec ident="lbbreakmaybewarning" scheme="schematron">
@@ -8347,7 +8326,6 @@ so Volume 2 by implication has finished. -->
                      </constraint>
                   </constraintSpec>
                </elementSpec>
-          
                <!--     For <p> elements, let's get rid of trailing lbs.     -->
                <!--               COMMENTED OUT BECAUSE IT MAKES EVERYTHING INVALID AT THE MOMENT. -->
                <!--               <elementSpec ident="p" mode="change">
@@ -8365,12 +8343,10 @@ so Volume 2 by implication has finished. -->
                <!--  Values for textual divisions. These should be reinforced
                 with Schematron to constrain their hierarchy. This is 
                 a very simple hierarchy; most transitions are milestones. -->
-          
-          
                <elementSpec ident="div" mode="change">
                   <constraintSpec ident="divnesting1" scheme="schematron">
                      <constraint>
-                        <sch:rule context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
+                        <sch:rule context="tei:div[@type=('document', 'section')][not(ancestor::tei:TEI[@xml:id = ('personography', 'project', 'placeography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="parent::tei:div[@type=('debate', 'treaty', 'article')]">
                     Error: a div with @type="document" or "section" must be a child of a div with 
                     @type="debate", "treaty" or "article".
@@ -8380,7 +8356,7 @@ so Volume 2 by implication has finished. -->
                   </constraintSpec>
                   <constraintSpec ident="divnesting2" scheme="schematron">
                      <constraint>
-                        <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'placeography', 'taxonomies', 'bibliography')])]">
+                        <sch:rule context="tei:div[parent::tei:body][not(ancestor::tei:TEI[@xml:id = ('personography', 'project', 'placeography', 'taxonomies', 'bibliography')])]">
                            <sch:assert test="@type=('debate', 'article', 'treaty')">
                               Error: a document body must contain a treaty, a debate, or an article reporting
                               a debate (div/@type="debate", "treaty", or "article").
@@ -8392,7 +8368,7 @@ so Volume 2 by implication has finished. -->
                      <attDef ident="type" mode="change" usage="req">
                         <valList mode="replace" type="closed">
                            <valItem ident="article">
-                              <gloss>A division containing a single newspaper article or report.</gloss>                           
+                              <gloss>A division containing a single newspaper article or report.</gloss>
                            </valItem>
                            <valItem ident="chapter">
                               <gloss>A chapter of a published document which does not easily break 
@@ -8416,9 +8392,7 @@ so Volume 2 by implication has finished. -->
                         </valList>
                      </attDef>
                   </attList>
-            
                </elementSpec>
-               
                <!--      The placeName element has its @ref attribute value list constructed from 
           the places in the placeography. -->
                <elementSpec ident="placeName" module="namesdates" mode="change">
@@ -11298,7 +11272,6 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-               
                <!--      The affiliation element has its @ref attribute value list constructed from 
           the places in the placeography. -->
                <elementSpec ident="affiliation" module="namesdates" mode="change">
@@ -14178,7 +14151,6 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-               
                <!--           We need to constrain people and places so that their xml:ids don't clash.    -->
                <elementSpec ident="person" module="namesdates" mode="change">
                   <constraintSpec scheme="schematron" ident="personIdNoClashWithPlace" mode="add">
@@ -14217,9 +14189,7 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-               
                <elementSpec ident="table" module="figures" mode="change">
-                  
                   <content>
                      <elementRef key="row" minOccurs="1" maxOccurs="unbounded"/>
                   </content>
@@ -14240,11 +14210,9 @@ so Volume 2 by implication has finished. -->
                               actually has <sch:value-of select="$totalActualCells"/>.
                            </sch:assert>
                         </sch:rule>
-                        
                      </constraint>
                   </constraintSpec>
                </elementSpec>
-               
                <elementSpec ident="list" module="core" mode="change">
                   <attList>
                      <attDef ident="rend" mode="add">
@@ -14265,7 +14233,6 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-               
                <elementSpec ident="bibl" module="core" mode="change">
                   <attList>
                      <attDef ident="corresp" mode="replace" usage="opt">
@@ -14486,9 +14453,8 @@ so Volume 2 by implication has finished. -->
                      </attDef>
                   </attList>
                </elementSpec>
-          
             </schemaSpec>
          </div>
       </back>
-  </text>
+   </text>
 </TEI>

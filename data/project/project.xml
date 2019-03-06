@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="project" type="full">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <hi xml:lang="en">Confederation Debates: Introduction to the Project</hi> 
+               <hi xml:lang="fr">
+                  Débats de la Confédération: introduction au projet</hi>
+            </title>
+            <author><persName ref="pers:HEID1"><forename>Dan</forename>
+               <surname>Heidt</surname></persName></author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="pers:HOLM3">
+                  <forename>Martin</forename>
+                  <surname>Holmes</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Public, free for any use</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+         <encodingDesc>
+            <projectDesc>
+               <p>The Confederation debates sought to aggregate, digitize and disseminate the major debates concerning each province's entry into Canada. To achieve this, the project identified the key local legislatures as well as parliamentary debates in Ottawa, where elected officials debated the merits of the deals. All elected bodies were included, as well as many of the bodies containing appointed officials (ex. Legislative Councils). The one notable exceptions were the Maritime Legislative Councils since their records were difficult to gather and they generally contributed comparatively little to the debate. An effort was made to also include the Territories but, again, the project lacked the funding to support this additional work.</p>
+               
+               <p>In an effort to support reconciliation, the project also incorporated the Numbered Treaty texts (which were negotiated after 1867), as well as some of the records of their negotiation. Modern treaties were not included because they are typically more accessible than these older records.</p>
+               
+               <p>While the records concerning Treaties were generally preserved intact, the legislative records included extensive content that was not related to Confederation. These discussions were edited from the project's records (either by deleting or commenting out) to ensure that readers could easily identify the pertinent content.</p>
+               
+               <p>Finally, it should be noted that the dates in the personography.xml and placeography.xml files are approximate. Since the project was crowdsourced, these lists were originally compiled by volunteers who were not involved with converting the texts into XML. As a result, they were instructed to enter the dates when they thought a particular person or place might be relevant (ex. when an individual was first elected) rather than the first time that historical figure actually appeared in the project's records.</p>
+            </projectDesc>
+         </encodingDesc>
+      <profileDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="article">
+            <p>No content: core data is in the header.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
